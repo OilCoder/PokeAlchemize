@@ -1,0 +1,24 @@
+# PokeAIchemize Dependencies
+# Core AI and AutoGen
+pyautogen>=0.2.0
+ollama>=0.1.7
+
+# Image generation (optional alternative to Ollama)
+diffusers>=0.21.0
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Data handling and utilities
+requests>=2.31.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Web development and testing
+pytest>=7.4.0
+jsonschema>=4.17.0
+
+# Development and debugging
+ipython>=8.14.0
+jupyter>=1.0.0 

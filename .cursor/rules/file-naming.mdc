@@ -1,0 +1,63 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# file-naming.mdc
+# Purpose: Enforce consistent file naming across project
+# Scope: all file types (source, test, debug, notebooks, docs, exports)
+
+All files in the project must follow consistent and descriptive naming conventions to ensure discoverability, clarity, and traceability across the codebase.
+
+GENERAL_CONVENTIONS:
+  - Use snake_case for all Python files: lowercase letters with underscores.
+  - Filenames must reflect the purpose or main component of the file.
+  - Avoid generic names like test.py, data.py, utils.py unless scoped in clearly named folders.
+
+TEST_FILES:
+  - Pattern: test_<NN>_<module>[_<purpose>].py
+    • NN = two-digit index (00–99) for natural order
+    • module = name of the source file tested (without .py)
+    • purpose = optional tag for variant or special case
+  - All test files must live under the tests/ folder.
+  - Example: test_01_normalization_strategy.py
+
+DEBUG_FILES:
+  - Pattern: debug_<pkg>_<module>[_<experiment>].py
+    • pkg = prefix formed by concatenating the first 3 letters of each word in the folder name
+      - neural_network/ → neu_net
+      - data_preprocessing/ → dat_pre
+      - assemble_methods/ → ass_met
+      - metrics/ → met
+      - utils/ → uti
+    • module = name of the file being debugged (omit .py)
+    • experiment = optional short slug for the debug purpose
+  - All debug files must live under debug/ and must be excluded via .gitignore.
+  - Examples:
+    • debug_neu_net_pipeline_gradient_check.py
+    • debug_dat_pre_normalization_new_scaler.py
+    • debug_ass_met_voting_ensemble_robustness.py
+    • debug_met_masked_prediction_unknown_index.py
+    • debug_uti_example_plot_usage.py
+
+NOTEBOOKS:
+  - Pattern: <NN>_<topic>[_<variant>].ipynb
+    • NN = optional numeric prefix for order
+    • topic = what the notebook focuses on
+    • variant = optional slug
+  - Example: 01_feature_engineering_exploration.ipynb
+
+DOCUMENTATION:
+  - Pattern: <NN>_<module>[_<scope>].md
+    • NN = Optional numeric prefix for visual ordering (00–99)
+    • module = Name of the Python file being documented (omit .py)
+    • scope = Optional detail about the document's focus (e.g. workflow, params, math)
+
+OUTPUTS_AND_EXPORTS:
+  - All temporary or generated files must include a tag identifying their source.
+  - Prefer patterns like: <model_name>_predictions.csv, logs_<timestamp>.txt
+  - If versioned output is needed, suffix with _v<major>_<minor>
+
+CONFIGURATION:
+  - YAML or JSON config files should clearly describe their target system or purpose.
+  - Examples: model_config.yaml, ui_settings.json

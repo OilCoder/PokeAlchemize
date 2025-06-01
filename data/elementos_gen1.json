@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Cyberpunk",
+    "description": "Futuristic neon-lit urban environment with advanced technology, holographic displays, and cybernetic enhancements"
+  },
+  {
+    "id": 2,
+    "name": "Medieval Fantasy",
+    "description": "Ancient castles, magical forests, knights in armor, and mystical creatures in a fantasy realm"
+  },
+  {
+    "id": 3,
+    "name": "Steampunk",
+    "description": "Victorian-era inspired world with steam-powered machinery, brass gears, and mechanical contraptions"
+  },
+  {
+    "id": 4,
+    "name": "Space Opera",
+    "description": "Cosmic setting with starships, alien worlds, space stations, and interstellar adventures"
+  },
+  {
+    "id": 5,
+    "name": "Post-Apocalyptic",
+    "description": "Wasteland environment with ruins, scavenged materials, and survival themes"
+  },
+  {
+    "id": 6,
+    "name": "Underwater Kingdom",
+    "description": "Deep ocean realm with coral reefs, bioluminescent creatures, and aquatic civilizations"
+  },
+  {
+    "id": 7,
+    "name": "Crystal Cave",
+    "description": "Mystical underground caverns filled with glowing crystals and mineral formations"
+  },
+  {
+    "id": 8,
+    "name": "Volcanic Forge",
+    "description": "Molten lava environment with volcanic activity, fire, and intense heat"
+  },
+  {
+    "id": 9,
+    "name": "Ice Palace",
+    "description": "Frozen kingdom with ice sculptures, snow-covered landscapes, and crystalline structures"
+  },
+  {
+    "id": 10,
+    "name": "Jungle Temple",
+    "description": "Ancient ruins overgrown with vegetation, mysterious artifacts, and tropical wildlife"
+  },
+  {
+    "id": 11,
+    "name": "Desert Oasis",
+    "description": "Arid landscape with sand dunes, palm trees, and hidden water sources"
+  },
+  {
+    "id": 12,
+    "name": "Sky City",
+    "description": "Floating city among the clouds with aerial platforms and wind-powered technology"
+  }
+] 

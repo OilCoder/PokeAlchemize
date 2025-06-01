@@ -1,0 +1,43 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# debug-script.mdc
+# Purpose: Define behavior and rules for debug code and files
+# Scope: all scripts under debug/
+
+DEBUG_ROOT_FOLDER:
+    - All scratch / exploratory code goes in the top‑level directory debug/.
+    - The entire debug/ folder is listed in .gitignore. No debug scripts are committed.
+
+FILENAME_CONVENTION:
+    - See file-naming.mdc for naming files guidance.
+
+DEBUG_WRITING_RULES:
+    - Each script targets a specific module or function in src/; keep that link explicit in the name.
+    - Use clear section headers and variable names to describe your intent.
+    - Add inline comments to document key findings or dead ends.
+    - Temporary logging and print statements are allowed.
+    - Keep code readable, even if not production-grade — think of it as an experiment log.
+
+CLEAN_CODE_PRINCIPLE:
+    - Temporary print(), logging.debug(), flags, or conditional logic may be added inside source files only during development to facilitate debugging.
+    - However, before merging, committing to main branches, or delivering code for production or testing, all debugging logic must be removed.
+        Rules:
+            • Temporary prints and logs are allowed only in local development.
+            • No print() or logging should remain in the final version unless it's part of the functional output or proper logging infrastructure.
+            • Avoid adding debug-specific flags or branches (if debug_mode: ...) unless part of a permanent debug system.
+            • Final code must be clean, minimal, and free of any debugging noise.
+    - All deep debugging, verbose outputs, experiments, and tracing must be placed in debug/ scripts.
+    - Final modules under src/ must reflect clarity, purpose, and production-ready readability.
+
+ISOLATION_AND_ARTIFACTS:
+    - Debug scripts must never be imported by production or test code.
+    - Any large files or outputs created during debugging go to debug/.cache/ (also git-ignored).
+    - You may keep local checkpoints (e.g. .ipynb_checkpoints), but don't commit them.
+
+PROMOTION_PATH:
+    - If a debug script exposes a bug or behavior worth validating:
+    - Convert the scenario into a proper test inside tests/ using the test rules.
+    - Remove or archive the original debug script.
