@@ -1,28 +1,28 @@
 ---
-description: 
-globs: 
-alwaysApply: true
+name: doc-enforcement
+description: >
+  Enforces standardized Google Style docstrings and module-level documentation for all
+  public Python functions, methods, and classes. Load this skill when the user asks to
+  add, write, update, or review docstrings or module documentation. Key triggers:
+  "add docstring", "document this function", "write docs", "update docstring",
+  "document the module", "missing documentation".
 ---
-# doc-enforcement.mdc
+# doc-enforcement
 # Purpose: Enforce standardized documentation using Google Style docstrings.
-# Status: stable
-# Activation: auto
-# Scope: all public code
+# Scope: all public Python code in pipeline/
 
 DOCSTRING_REQUIRED:
   - All public functions, methods, and classes must include a Google Style docstring.
   - Private functions (starting with '_') require a docstring if they contain nontrivial logic.
 
-MODULE HEADER DOCSTRING
-
-- Every new Python file under code/src/ must begin with a top-level docstring.
-- This docstring must serve as a concise summary of the module’s purpose.
-- It may contain:
-    • A short description of the file’s overall goal (1–3 lines)
-    • An optional bullet list of major functions, classes, or features
-    • Optional usage context or file dependencies (if relevant)
-
-- Keep it under 100 words. Avoid excessive detail or inline implementation logic.
+MODULE_HEADER_DOCSTRING:
+  - Every Python file under pipeline/ must begin with a top-level docstring.
+  - This docstring must serve as a concise summary of the module's purpose.
+  - It may contain:
+      • A short description of the file's overall goal (1–3 lines)
+      • An optional bullet list of major functions or classes
+      • Optional usage context (e.g. "Called by batch_runner.py")
+  - Keep it under 100 words. Avoid excessive detail or inline implementation logic.
 
 DOCSTRING_STRUCTURE:
   - Must include (if applicable):
@@ -43,6 +43,5 @@ CONSISTENCY_RULES:
   - Keep docstrings concise, specific, and informative.
 
 ENFORCEMENT_SCOPE:
-  - Applies to all files under code/src/ and any module intended for production or testing.
+  - Applies to all files under pipeline/ and config.py.
   - Functions without docstrings may be excluded from generated documentation.
-  - project_map.md relies on these docstrings to infer module functionality.

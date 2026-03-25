@@ -1,9 +1,7 @@
 ---
-description: 
-globs: 
-alwaysApply: true
+description: Enforces layout, naming, spacing, and step/substep comment structure in all Python source files. Applies universally to every task involving Python code.
 ---
-# code-style.mdc
+# code-style
 # Purpose: Enforce layout, naming, spacing, and step/substep structure in source files
 # Scope: all source code files
 
@@ -40,8 +38,8 @@ COMMENTS_AND_STYLE:
     - For additional inline actions or clarifications inside a substep, use emojis or bullet markers:
 
         # ✅ Validate inputs
-        # 🔄 Loop through each curve
-        # 📊 Plot histogram (if enabled)
+        # 🔄 Loop through each pokemon
+        # 💾 Save image to outputs/
 
     - This structure improves readability and helps locate logic blocks during debugging or refactoring.
     - Avoid inline comments for trivial code lines; instead, describe the logic block at a higher level.
@@ -63,4 +61,4 @@ SCOPE_DISCIPLINE:
     - Avoid solving problems that were not asked or predicted unless clarification is provided.
 
 LOGGING_AND_OUTPUT_CONTROL:
-    - See logging-policy.mdc for all print/log guidance
+    - See .claude/rules/logging-policy.md for all print/log guidance.
