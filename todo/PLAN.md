@@ -25,16 +25,17 @@ PokeAIchemize/
 │   ├── types.json             # 18 tipos oficiales
 │   └── styles.json            # 5 estilos visuales con descriptores
 ├── pipeline/
-│   ├── pokemon_agent.py       # describe el Pokémon adaptado al tipo
-│   ├── biome_agent.py         # describe el hábitat de la combinación
-│   ├── style_agent.py         # selecciona estilo desde styles.json
-│   ├── scene_conciliador.py   # fusiona pokemon_desc + biome_desc → escena
-│   ├── style_conciliador.py   # fusiona escena + style_desc → prompt final
-│   ├── image_generator.py     # diffusers → imágenes PNG
+│   ├── 01_pokemon_agent.py    # describe el Pokémon adaptado al tipo
+│   ├── 02_biome_agent.py      # describe el hábitat de la combinación
+│   ├── 03_scene_conciliador.py # fusiona pokemon_desc + biome_desc → escena
+│   ├── 04_style_agent.py      # genera descriptor de estilo desde styles.json
+│   ├── 05_style_conciliador.py # fusiona escena + style_desc → prompt final
+│   ├── 06_image_generator.py  # diffusers → imágenes PNG
 │   └── batch_runner.py        # orquesta todo secuencialmente
 ├── outputs/
-│   ├── images/                # {id_pokemon}_{tipo}.png
-│   └── prompts/               # un JSON por Pokémon: {id}.json (18 entradas c/u)
+│   ├── images/                # {id}_{tipo}_{estilo}.png
+│   ├── prompts/               # web-facing: {id}.json — final_prompt + metadata
+│   └── pipeline/              # debug/trace: {id}.json — salidas intermedias de agentes
 ├── web/
 │   ├── index.html
 │   ├── style.css
@@ -54,11 +55,11 @@ PokeAIchemize/
 
 ### Phase 2 — Prompt Generator
 - [x] `config.py`: definir modelo Ollama, estilo visual consistente y paths
-- [x] `pipeline/pokemon_agent.py`: describe visualmente el Pokémon adaptado al tipo objetivo
-- [x] `pipeline/biome_agent.py`: describe el hábitat/entorno específico para esa combinación (pokemon, target_type)
-- [x] `pipeline/style_agent.py`: selecciona el estilo artístico apropiado desde styles.json para la combinación
-- [x] `pipeline/scene_conciliador.py`: fusiona pokemon_desc + biome_desc en una descripción de escena coherente
-- [x] `pipeline/style_conciliador.py`: fusiona scene_desc + style_desc en el prompt final para el modelo de imagen
+- [x] `pipeline/01_pokemon_agent.py`: describe visualmente el Pokémon adaptado al tipo objetivo
+- [x] `pipeline/02_biome_agent.py`: describe el hábitat/entorno específico para esa combinación (pokemon, target_type)
+- [x] `pipeline/03_scene_conciliador.py`: fusiona pokemon_desc + biome_desc en una descripción de escena coherente
+- [x] `pipeline/04_style_agent.py`: genera descriptor de estilo detallado desde styles.json
+- [x] `pipeline/05_style_conciliador.py`: fusiona scene_desc + style_desc en el prompt final para el modelo de imagen
 - [ ] Experimento: probar 3-4 modelos Ollama con 1 combinación de prueba y elegir el mejor
 - [ ] Generar los 2,700 prompts y guardar en `outputs/prompts/{id}.json` (un archivo por Pokémon)
 
