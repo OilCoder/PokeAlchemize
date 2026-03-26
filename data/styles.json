@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sugimori",
+    "name": "Ken Sugimori",
+    "style_prompt": "Ken Sugimori art style, official Pokemon artwork, soft watercolor, clean outlines, pastel tones, flat shading"
+  },
+  {
+    "id": "anime",
+    "name": "Anime",
+    "style_prompt": "vibrant anime illustration, Studio Ghibli inspired, expressive linework, cel shading, vivid colors, dynamic composition"
+  },
+  {
+    "id": "dark_fantasy",
+    "name": "Dark Fantasy",
+    "style_prompt": "dark fantasy digital painting, epic detailed illustration, dramatic shadows, moody atmosphere, highly detailed, cinematic lighting"
+  },
+  {
+    "id": "pixel_art",
+    "name": "Pixel Art",
+    "style_prompt": "retro 16-bit pixel art, limited color palette, crisp pixels, classic RPG sprite style"
+  },
+  {
+    "id": "watercolor",
+    "name": "Watercolor",
+    "style_prompt": "artistic watercolor painting, soft edges, translucent colors, loose brushwork, dreamy aesthetic, paper texture"
+  }
+]
