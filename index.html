@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeAlchemize</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <span class="logo">PokeAlchemize</span>
+  </header>
+
+  <!-- Main content -->
+  <main class="main">
+
+    <!-- Left: Fusion area -->
+    <section class="fusion-panel">
+
+      <!-- Type filter tabs -->
+      <div class="type-filters">
+        <button class="filter-btn active" data-type="water">
+          <span class="filter-dot agua"></span>Agua
+        </button>
+        <button class="filter-btn" data-type="fire">
+          <span class="filter-dot fuego"></span>Fuego
+        </button>
+        <button class="filter-btn" data-type="ground">
+          <span class="filter-dot tierra"></span>Tierra
+        </button>
+        <button class="filter-btn" data-type="flying">
+          <span class="filter-dot aire"></span>Aire
+        </button>
+      </div>
+
+      <!-- Pokéballs + Plus -->
+      <div class="pokeballs-row">
+
+        <!-- Slot 1 -->
+        <div class="pokeball-slot" id="slot1" title="Selecciona un Pokémon">
+          <div class="outer-ring">
+            <svg class="pokeball-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+              <circle cx="110" cy="110" r="109" fill="#231f20"/>
+              <path d="M 1 110 A 109 109 0 0 1 219 110 Z" fill="#f13e2d"/>
+              <path d="M 1 110 A 109 109 0 0 0 219 110 Z" fill="#a09d9d"/>
+              <path d="M 28 158 Q 110 208 192 158 L 219 110 A 109 109 0 0 0 1 110 Z" fill="#58585a"/>
+              <ellipse cx="77" cy="66" rx="21" ry="13" fill="rgba(254,254,254,0.42)" transform="rotate(-20,77,66)"/>
+              <rect x="1" y="104" width="218" height="12" fill="#231f20"/>
+              <circle cx="110" cy="110" r="26" fill="#231f20"/>
+              <circle cx="110" cy="110" r="23" fill="#fefefe"/>
+              <circle cx="110" cy="110" r="17" fill="#231f20"/>
+              <circle cx="110" cy="110" r="14" fill="#fefefe"/>
+            </svg>
+            <img class="slot-pokemon" id="slotImg1" src="" alt="" style="display:none">
+          </div>
+        </div>
+
+        <!-- Plus icon -->
+        <div class="plus-icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <line x1="18" y1="3" x2="18" y2="33" stroke="#3e323e" stroke-width="3.5" stroke-linecap="round"/>
+            <line x1="3" y1="18" x2="33" y2="18" stroke="#3e323e" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Slot 2 -->
+        <div class="pokeball-slot" id="slot2" title="Selecciona un Pokémon">
+          <div class="outer-ring">
+            <svg class="pokeball-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+              <circle cx="110" cy="110" r="109" fill="#231f20"/>
+              <path d="M 1 110 A 109 109 0 0 1 219 110 Z" fill="#f13e2d"/>
+              <path d="M 1 110 A 109 109 0 0 0 219 110 Z" fill="#a09d9d"/>
+              <path d="M 28 158 Q 110 208 192 158 L 219 110 A 109 109 0 0 0 1 110 Z" fill="#58585a"/>
+              <ellipse cx="77" cy="66" rx="21" ry="13" fill="rgba(254,254,254,0.42)" transform="rotate(-20,77,66)"/>
+              <rect x="1" y="104" width="218" height="12" fill="#231f20"/>
+              <circle cx="110" cy="110" r="26" fill="#231f20"/>
+              <circle cx="110" cy="110" r="23" fill="#fefefe"/>
+              <circle cx="110" cy="110" r="17" fill="#231f20"/>
+              <circle cx="110" cy="110" r="14" fill="#fefefe"/>
+            </svg>
+            <img class="slot-pokemon" id="slotImg2" src="" alt="" style="display:none">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Fusionar button -->
+      <button class="fusionar-btn" id="fusionar-btn">Fusionar</button>
+
+    </section>
+
+    <!-- Right: Pokemon panel -->
+    <aside class="pokemon-panel">
+      <div class="search-bar">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3e323e" stroke-width="2.5" stroke-linecap="round">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" id="search-input" placeholder="Search" autocomplete="off">
+      </div>
+
+      <div class="pokemon-list" id="pokemon-list">
+        <div class="loading-state" id="loading">
+          <div class="spinner"></div>
+          <span>Cargando Pokémon…</span>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Fusion result modal -->
+  <div class="modal-overlay" id="modal" style="display:none">
+    <div class="modal">
+      <button class="modal-close" id="modal-close">✕</button>
+      <h2 class="modal-title">¡Fusión Exitosa!</h2>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
