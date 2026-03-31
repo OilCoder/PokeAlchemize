@@ -15,11 +15,12 @@ SYSTEM_PROMPT = """You are an expert at writing negative prompts for AI image ge
 Your task: given a Pokémon being transformed to a new type, list the visual elements that must NOT appear.
 Rules:
 - First: include the Pokémon's ICONIC body color(s) as specific color descriptors (e.g. "bright orange body, orange scales" for Charmander). This is the most important exclusion.
-- Second: include colors, textures, and features specific to the original type(s)
-- Third: include elements that would contradict the target type's visual identity
+- Second: include colors, textures, and physical features specific to the original type(s)
+- Third: include BIOME and environment elements from the original type (e.g. for fire: "lava, volcanic rock, ash, embers, smoldering ground")
+- Fourth: include elements that would contradict the target type's visual identity
 - Output only a compact comma-separated list of visual descriptors, no explanations
-- Keep it under 25 items
-- Examples: "bright orange body, orange scales, flames, fire, red orange coloring, lava, ember glow, heat distortion" """
+- Keep it under 30 items
+- Examples: "bright orange body, orange scales, flames, fire, red orange coloring, lava, volcanic rock, ash ground, ember glow, heat distortion" """
 
 
 def generate_negative_prompt(pokemon: dict, target_type: str) -> str:
@@ -56,6 +57,7 @@ def generate_negative_prompt(pokemon: dict, target_type: str) -> str:
             {"role": "user",   "content": user_prompt},
         ],
         "stream": False,
+        "options": {"think": False},
     }
 
     try:

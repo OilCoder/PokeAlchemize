@@ -35,9 +35,12 @@ def generate_biome_description(pokemon: dict, target_type: str) -> str:
     # ----
     # Step 1 – Build the user prompt
     # ----
+    original_types = ", ".join(pokemon["types"])
     user_prompt = (
-        f"Describe the habitat and environment where a {target_type} type "
-        f"{pokemon['name'].capitalize()} would live."
+        f"Pokémon: {pokemon['name'].capitalize()} (originally {original_types} type)\n"
+        f"Target type: {target_type}\n\n"
+        f"Describe the habitat and environment where this {target_type} type version would live. "
+        f"The environment should contrast with its original {original_types} type habitat."
     )
 
     # ----
@@ -50,6 +53,7 @@ def generate_biome_description(pokemon: dict, target_type: str) -> str:
             {"role": "user",   "content": user_prompt},
         ],
         "stream": False,
+        "options": {"think": False},
     }
 
     try:

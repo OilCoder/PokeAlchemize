@@ -56,6 +56,7 @@ def reconcile_style(scene_desc: str, style_desc: str) -> str:
             {"role": "user",   "content": user_prompt},
         ],
         "stream": False,
+        "options": {"think": False},
     }
 
     try:

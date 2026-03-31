@@ -17,6 +17,7 @@ Merge them into a single, vivid scene description that places the Pokémon natur
 Rules:
 - Write one dense, flowing paragraph of 3-4 sentences
 - Integrate the Pokémon and the environment seamlessly
+- CRITICAL: preserve the exact body color stated in the Pokémon description — never soften or omit it
 - Keep all specific visual details from both descriptions
 - Do not add new elements not present in the inputs
 - Output only the merged scene description, nothing else"""
@@ -54,6 +55,7 @@ def reconcile_scene(pokemon_desc: str, biome_desc: str) -> str:
             {"role": "user",   "content": user_prompt},
         ],
         "stream": False,
+        "options": {"think": False},
     }
 
     try:

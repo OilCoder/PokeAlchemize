@@ -16,7 +16,8 @@ You will receive a style name and a base description. Your task is to expand it 
 detailed style prompt optimized for image generation models like Stable Diffusion and FLUX.
 Rules:
 - Write a compact list of comma-separated style tags and descriptors
-- Include lighting style, color palette, line quality, and rendering technique
+- Only describe: rendering technique, color palette, line quality, lighting, and shading method
+- NEVER add composition or layout terms: no "sprite sheet", "multiple panels", "single character", "centered", "grid", "side by side", "tiled", "sprite sheet compatible"
 - Stay faithful to the given style — do not mix with other styles
 - Output only the style descriptor tags, nothing else"""
 
@@ -52,6 +53,7 @@ def generate_style_prompt(style: dict) -> str:
             {"role": "user",   "content": user_prompt},
         ],
         "stream": False,
+        "options": {"think": False},
     }
 
     try:

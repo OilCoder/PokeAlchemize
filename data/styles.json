@@ -3,7 +3,7 @@
     "id": "pixel_art",
     "name": "Pixel Art",
     "model": "stabilityai/stable-diffusion-xl-base-1.0",
-    "style_prompt": "retro 16-bit pixel art, limited color palette, crisp pixels, classic RPG sprite style"
+    "style_prompt": "retro 16-bit pixel art, limited color palette, crisp pixels, single character, classic RPG game art, one pose, centered composition"
   },
   {
     "id": "sugimori",

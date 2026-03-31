@@ -53,6 +53,7 @@ def generate_pokemon_description(pokemon: dict, target_type: str) -> str:
             {"role": "user",   "content": user_prompt},
         ],
         "stream": False,
+        "options": {"think": False},
     }
 
     try:
