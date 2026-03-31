@@ -6,17 +6,19 @@ Called by batch_runner.py for each (pokemon, target_type) combination.
 
 import logging
 import requests
-from config import OLLAMA_HOST, OLLAMA_MODEL
+from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT
 
 logger = logging.getLogger(__name__)
 
 SYSTEM_PROMPT = """You are an expert Pokémon visual designer specializing in type transformations.
 When given a Pokémon and a target type, describe in vivid detail how that Pokémon would look
-if it belonged to the target type. Focus exclusively on visual aspects:
-- Body colors and patterns adapted to the new type
-- New physical features, textures, or appendages the type would bring
-- Changes in size, posture, or silhouette if relevant
-Be specific and concrete. Write 2-3 sentences. Do not include stats, abilities, or lore."""
+if it belonged to the target type. Focus exclusively on visual aspects.
+STRICT RULES:
+- The FIRST sentence must explicitly state the new dominant body color(s). Be specific: use exact color names (e.g. "pale beige", "dark slate gray", "muted olive brown"). Never keep the original color.
+- The SECOND sentence describes new physical features, textures, or appendages the type would bring.
+- The THIRD sentence covers posture, silhouette, or environment hints if relevant.
+- Do not include stats, abilities, or lore.
+- Do not hedge with words like "slightly" or "muted" for the primary body color — the transformation is complete."""
 
 
 def generate_pokemon_description(pokemon: dict, target_type: str) -> str:
@@ -57,7 +59,7 @@ def generate_pokemon_description(pokemon: dict, target_type: str) -> str:
         response = requests.post(
             f"{OLLAMA_HOST}/api/chat",
             json=payload,
-            timeout=60,
+            timeout=OLLAMA_TIMEOUT,
         )
         response.raise_for_status()
     except requests.RequestException as e:

@@ -6,7 +6,7 @@ given a specific type adaptation. Called by batch_runner.py.
 
 import logging
 import requests
-from config import OLLAMA_HOST, OLLAMA_MODEL
+from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT
 
 logger = logging.getLogger(__name__)
 
@@ -56,7 +56,7 @@ def generate_biome_description(pokemon: dict, target_type: str) -> str:
         response = requests.post(
             f"{OLLAMA_HOST}/api/chat",
             json=payload,
-            timeout=60,
+            timeout=OLLAMA_TIMEOUT,
         )
         response.raise_for_status()
     except requests.RequestException as e:

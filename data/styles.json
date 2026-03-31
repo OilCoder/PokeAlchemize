@@ -1,27 +1,32 @@
 [
   {
+    "id": "pixel_art",
+    "name": "Pixel Art",
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "style_prompt": "retro 16-bit pixel art, limited color palette, crisp pixels, classic RPG sprite style"
+  },
+  {
     "id": "sugimori",
     "name": "Ken Sugimori",
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
     "style_prompt": "Ken Sugimori art style, official Pokemon artwork, soft watercolor, clean outlines, pastel tones, flat shading"
   },
   {
     "id": "anime",
     "name": "Anime",
+    "model": "Lykon/dreamshaper-xl-1-0",
     "style_prompt": "vibrant anime illustration, Studio Ghibli inspired, expressive linework, cel shading, vivid colors, dynamic composition"
   },
   {
     "id": "dark_fantasy",
     "name": "Dark Fantasy",
+    "model": "RunDiffusion/Juggernaut-XL-v9",
     "style_prompt": "dark fantasy digital painting, epic detailed illustration, dramatic shadows, moody atmosphere, highly detailed, cinematic lighting"
-  },
-  {
-    "id": "pixel_art",
-    "name": "Pixel Art",
-    "style_prompt": "retro 16-bit pixel art, limited color palette, crisp pixels, classic RPG sprite style"
   },
   {
     "id": "watercolor",
     "name": "Watercolor",
+    "model": "Lykon/dreamshaper-xl-1-0",
     "style_prompt": "artistic watercolor painting, soft edges, translucent colors, loose brushwork, dreamy aesthetic, paper texture"
   }
 ]

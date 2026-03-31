@@ -18,6 +18,8 @@ from pathlib import Path
 from tqdm import tqdm
 
 from config import (
+    DEV_CLEAN,
+    DEV_POKEMON_IDS,
     DEV_POKEMON_LIMIT,
     DEV_STYLES_LIMIT,
     DEV_TYPES_LIMIT,
@@ -35,18 +37,30 @@ _biome_agent       = importlib.import_module("pipeline.02_biome_agent")
 _scene_conciliador = importlib.import_module("pipeline.03_scene_conciliador")
 _style_agent       = importlib.import_module("pipeline.04_style_agent")
 _style_conciliador = importlib.import_module("pipeline.05_style_conciliador")
+_negative_agent    = importlib.import_module("pipeline.06_negative_agent")
 
 generate_pokemon_description = _pokemon_agent.generate_pokemon_description
 generate_biome_description   = _biome_agent.generate_biome_description
 reconcile_scene              = _scene_conciliador.reconcile_scene
 generate_style_prompt        = _style_agent.generate_style_prompt
 reconcile_style              = _style_conciliador.reconcile_style
+generate_negative_prompt     = _negative_agent.generate_negative_prompt
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
 )
 logger = logging.getLogger(__name__)
+
+
+def _clean_pokemon(pokemon_id: str, styles: list) -> None:
+    """Delete existing prompt file and images for a Pokémon before regenerating."""
+    prompt_file = PROMPTS_DIR / f"{pokemon_id}.json"
+    if prompt_file.exists():
+        prompt_file.unlink()
+
+    for image_file in IMAGES_DIR.glob(f"{pokemon_id}_*.png"):
+        image_file.unlink()
 
 
 def _load_json(path: Path) -> list:
@@ -76,11 +90,17 @@ def _find_entry(entries: list, target_type: str, style_id: str) -> dict | None:
     return None
 
 
+def _entry_complete(entries: list, target_type: str, style_id: str) -> bool:
+    entry = _find_entry(entries, target_type, style_id)
+    return entry is not None and "negative_prompt" in entry
+
+
 def _process_style(
     pokemon: dict,
     target_type: str,
     style: dict,
     scene_desc: str,
+    negative_prompt: str,
     pokemon_desc: str,
     biome_desc: str,
 ) -> tuple[dict, dict] | None:
@@ -94,15 +114,17 @@ def _process_style(
 
     image_filename = f"{pokemon['id']}_{target_type}_{style['id']}.png"
     prompt_entry = {
-        "pokemon_id":     pokemon["id"],
-        "pokemon_name":   pokemon["name"],
-        "original_types": pokemon["types"],
-        "target_type":    target_type,
-        "style_id":       style["id"],
-        "style_name":     style["name"],
-        "final_prompt":   final_prompt,
-        "image_path":     str(IMAGES_DIR / image_filename),
-        "generated":      False,
+        "pokemon_id":      pokemon["id"],
+        "pokemon_name":    pokemon["name"],
+        "original_types":  pokemon["types"],
+        "target_type":     target_type,
+        "style_id":        style["id"],
+        "style_name":      style["name"],
+        "model":           style["model"],
+        "final_prompt":    final_prompt,
+        "negative_prompt": negative_prompt,
+        "image_path":      str(IMAGES_DIR / image_filename),
+        "generated":       False,
     }
     pipeline_entry = {
         "pokemon_id":   pokemon["id"],
@@ -126,22 +148,24 @@ def _process_type(
 
     Returns (prompt_entries, pipeline_entries, skipped_count).
     """
-    # ✅ Filter styles that still need processing
-    pending_styles = [s for s in styles if not _find_entry(existing_entries, target_type, s["id"])]
+    # ✅ Filter styles that still need processing (re-run if missing negative_prompt)
+    pending_styles = [s for s in styles if not _entry_complete(existing_entries, target_type, s["id"])]
     skipped = len(styles) - len(pending_styles)
 
     if not pending_styles:
         return [], [], skipped
 
     # ----
-    # Phase 1 – pokemon_desc + biome_desc in parallel
+    # Phase 1 – pokemon_desc + biome_desc + negative_prompt in parallel
     # ----
-    with ThreadPoolExecutor(max_workers=2) as scene_pool:
-        f_pokemon = scene_pool.submit(generate_pokemon_description, pokemon, target_type)
-        f_biome   = scene_pool.submit(generate_biome_description, pokemon, target_type)
+    with ThreadPoolExecutor(max_workers=3) as scene_pool:
+        f_pokemon  = scene_pool.submit(generate_pokemon_description, pokemon, target_type)
+        f_biome    = scene_pool.submit(generate_biome_description, pokemon, target_type)
+        f_negative = scene_pool.submit(generate_negative_prompt, pokemon, target_type)
         try:
-            pokemon_desc = f_pokemon.result()
-            biome_desc   = f_biome.result()
+            pokemon_desc    = f_pokemon.result()
+            biome_desc      = f_biome.result()
+            negative_prompt = f_negative.result()
         except RuntimeError as e:
             logger.error("scene failed %s/%s: %s", pokemon["id"], target_type, e)
             return [], [], skipped
@@ -164,7 +188,7 @@ def _process_type(
     with ThreadPoolExecutor(max_workers=len(pending_styles)) as style_pool:
         style_futures = {
             style_pool.submit(
-                _process_style, pokemon, target_type, style, scene_desc, pokemon_desc, biome_desc
+                _process_style, pokemon, target_type, style, scene_desc, negative_prompt, pokemon_desc, biome_desc
             ): style
             for style in pending_styles
         }
@@ -188,14 +212,16 @@ def run() -> None:
     types    = _load_json(TYPES_FILE)
     styles   = _load_json(STYLES_FILE)
 
-    if DEV_POKEMON_LIMIT is not None:
+    if DEV_POKEMON_IDS is not None:
+        pokemons = [p for p in pokemons if p["id"] in DEV_POKEMON_IDS]
+    elif DEV_POKEMON_LIMIT is not None:
         pokemons = pokemons[:DEV_POKEMON_LIMIT]
     if DEV_TYPES_LIMIT is not None:
         types = types[:DEV_TYPES_LIMIT]
     if DEV_STYLES_LIMIT is not None:
         styles = styles[:DEV_STYLES_LIMIT]
 
-    if any(l is not None for l in [DEV_POKEMON_LIMIT, DEV_TYPES_LIMIT, DEV_STYLES_LIMIT]):
+    if DEV_POKEMON_IDS or DEV_POKEMON_LIMIT or DEV_TYPES_LIMIT or DEV_STYLES_LIMIT:
         logger.info("DEV mode: %d pokémon × %d types × %d styles",
                     len(pokemons), len(types), len(styles))
 
@@ -209,6 +235,8 @@ def run() -> None:
     with tqdm(total=total, unit="combo") as progress:
         with ThreadPoolExecutor(max_workers=PROMPT_WORKERS) as executor:
             for pokemon in pokemons:
+                if DEV_CLEAN:
+                    _clean_pokemon(pokemon["id"], styles)
                 existing_entries = _load_prompt_file(pokemon["id"])
 
                 # Substep 2.1 – Submit one task per type ______________________

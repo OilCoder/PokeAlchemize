@@ -7,7 +7,7 @@ Called by batch_runner.py.
 
 import logging
 import requests
-from config import OLLAMA_HOST, OLLAMA_MODEL
+from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT
 
 logger = logging.getLogger(__name__)
 
@@ -16,7 +16,8 @@ You will receive a scene description and an artistic style descriptor.
 Your task is to produce a final image generation prompt that combines both.
 Rules:
 - Write a single dense prompt, no longer than 5 sentences
-- Start with the most visually important subject (the Pokémon)
+- CRITICAL: Begin the prompt with the dominant body color as a standalone descriptor BEFORE naming the Pokémon. Example: "Pale beige reptile, a Normal-type Charmander..." not "A Normal-type Charmander..."
+- This color-first structure overrides the character's iconic coloring in the image model
 - Naturally weave in the environment and atmosphere
 - Append the style descriptors at the end as comma-separated tags
 - Use descriptive, evocative language optimized for image generation
@@ -61,7 +62,7 @@ def reconcile_style(scene_desc: str, style_desc: str) -> str:
         response = requests.post(
             f"{OLLAMA_HOST}/api/chat",
             json=payload,
-            timeout=60,
+            timeout=OLLAMA_TIMEOUT,
         )
         response.raise_for_status()
     except requests.RequestException as e:

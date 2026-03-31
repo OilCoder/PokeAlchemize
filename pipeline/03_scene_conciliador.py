@@ -7,7 +7,7 @@ Called by batch_runner.py.
 
 import logging
 import requests
-from config import OLLAMA_HOST, OLLAMA_MODEL
+from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT
 
 logger = logging.getLogger(__name__)
 
@@ -60,7 +60,7 @@ def reconcile_scene(pokemon_desc: str, biome_desc: str) -> str:
         response = requests.post(
             f"{OLLAMA_HOST}/api/chat",
             json=payload,
-            timeout=60,
+            timeout=OLLAMA_TIMEOUT,
         )
         response.raise_for_status()
     except requests.RequestException as e:
