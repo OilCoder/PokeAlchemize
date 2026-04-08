@@ -24,3 +24,21 @@ todo/        → PLAN.md y notas
 - Datos: JSON estático, sin base de datos
 - El batch runner debe ser reanudable (skip si imagen ya existe)
 - Ver .claude/rules/ para reglas detalladas de estilo y naming
+
+## Workflow de sesión
+
+### Antes de correr el pipeline
+1. Iniciar Ollama en PowerShell (Windows) con:
+   ```powershell
+   $env:OLLAMA_HOST = "0.0.0.0"
+   $env:OLLAMA_NUM_PARALLEL = "6"
+   ollama serve
+   ```
+2. Levantar el contenedor desde WSL:
+   ```bash
+   docker compose up -d
+   ```
+
+### En fase de desarrollo
+- Borrar siempre outputs/images/, outputs/prompts/ y outputs/pipeline/ antes de cada corrida
+- DEV_CLEAN = True en config.py aplica esto automáticamente al correr batch_runner.py

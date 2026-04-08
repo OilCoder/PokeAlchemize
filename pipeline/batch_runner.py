@@ -54,13 +54,10 @@ logger = logging.getLogger(__name__)
 
 
 def _clean_pokemon(pokemon_id: str, styles: list) -> None:
-    """Delete existing prompt file and images for a Pokémon before regenerating."""
+    """Delete existing prompt file for a Pokémon before regenerating."""
     prompt_file = PROMPTS_DIR / f"{pokemon_id}.json"
     if prompt_file.exists():
         prompt_file.unlink()
-
-    for image_file in IMAGES_DIR.glob(f"{pokemon_id}_*.png"):
-        image_file.unlink()
 
 
 def _load_json(path: Path) -> list:
@@ -255,7 +252,7 @@ def run() -> None:
                         new_prompts, new_pipeline, skipped = future.result()
                         prompt_entries.extend(new_prompts)
                         pipeline_entries.extend(new_pipeline)
-                        progress.set_description(f"{pokemon['name']} / {target_type}")
+                        progress.set_description(f"{pokemon['name']} / {target_type}", refresh=False)
                         progress.update(len(styles))
                     except Exception as e:
                         logger.error("task failed %s/%s: %s", pokemon["id"], target_type, e)

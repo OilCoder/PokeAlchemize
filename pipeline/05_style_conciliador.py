@@ -15,11 +15,11 @@ SYSTEM_PROMPT = """You are an expert at writing prompts for AI image generation 
 You will receive a scene description and an artistic style descriptor.
 Your task is to produce a final image generation prompt that combines both.
 Rules:
-- Write a single dense prompt, no longer than 5 sentences
-- CRITICAL: Begin the prompt with the dominant body color as a standalone descriptor BEFORE naming the Pokémon. Example: "Pale beige reptile, a Normal-type Charmander..." not "A Normal-type Charmander..."
-- This color-first structure overrides the character's iconic coloring in the image model
+- CRITICAL: Begin the prompt with the style descriptor tags, comma-separated, BEFORE any scene or character content. This ensures the model prioritizes the art style above everything else.
+- After the style tags, describe the dominant body color as a standalone descriptor BEFORE naming the Pokémon. Example: "...Ken Sugimori style, soft watercolor, clean outlines, pale beige reptile, a Normal-type Charmander..."
+- This color-first structure after the style tags overrides the character's iconic coloring in the image model
 - Naturally weave in the environment and atmosphere
-- Append the style descriptors at the end as comma-separated tags
+- Write a single dense prompt, no longer than 5 sentences total
 - Use descriptive, evocative language optimized for image generation
 - Output only the final prompt, nothing else"""
 

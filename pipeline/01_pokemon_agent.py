@@ -16,6 +16,7 @@ if it belonged to the target type. Focus exclusively on visual aspects.
 STRICT RULES:
 - The FIRST sentence must explicitly state the new dominant body color(s). Be specific: use exact color names (e.g. "pale beige", "dark slate gray", "muted olive brown"). Never keep the original color.
 - The SECOND sentence describes new physical features, textures, or appendages the type would bring.
+  CRITICAL: preserve every iconic body feature of the Pokémon (e.g. Charmander's flame tail, Bulbasaur's back bulb, Pikachu's lightning-bolt tail). Only recolor or retexture them — never remove them.
 - The THIRD sentence covers posture, silhouette, or environment hints if relevant.
 - Do not include stats, abilities, or lore.
 - Do not hedge with words like "slightly" or "muted" for the primary body color — the transformation is complete."""

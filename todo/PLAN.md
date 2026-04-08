@@ -60,16 +60,23 @@ PokeAIchemize/
 - [x] `pipeline/03_scene_conciliador.py`: fusiona pokemon_desc + biome_desc en una descripción de escena coherente
 - [x] `pipeline/04_style_agent.py`: genera descriptor de estilo detallado desde styles.json
 - [x] `pipeline/05_style_conciliador.py`: fusiona scene_desc + style_desc en el prompt final para el modelo de imagen
+- [x] `pipeline/06_negative_agent.py`: genera negative_prompt basado en (pokemon, target_type, original_types)
+- [x] Actualizar `outputs/prompts/{id}.json`: agregar campo negative_prompt por entrada
 - [ ] Experimento: probar 3-4 modelos Ollama con 1 combinación de prueba y elegir el mejor
 - [ ] Generar los 2,700 prompts y guardar en `outputs/prompts/{id}.json` (un archivo por Pokémon)
 
 ### Phase 3 — Image Generator
-- [ ] Decidir entre SDXL y FLUX.1 según calidad/velocidad deseada
-- [ ] `pipeline/image_generator.py`: cargar modelo una sola vez en memoria
-- [ ] `pipeline/image_generator.py`: iterar `outputs/prompts/` y generar imagen 768×768 por entrada
-- [ ] `pipeline/image_generator.py`: skip si la imagen ya existe (reanudable)
+- [x] Decidir entre SDXL y FLUX.1 según calidad/velocidad deseada
+- [x] `data/styles.json`: agregar campo model a cada estilo con el modelo óptimo
+- [x] `config.py`: reemplazar IMAGE_MODEL por dict AVAILABLE_MODELS
+- [x] Renombrar `pipeline/06_image_generator.py` → `pipeline/07_image_generator.py`
+- [x] `pipeline/07_image_generator.py`: agrupar entradas por modelo antes de iterar (carga una vez por modelo)
+- [x] `pipeline/07_image_generator.py`: usar negative_prompt del JSON en cada entrada
+- [x] `pipeline/07_image_generator.py`: iterar `outputs/prompts/` y generar imagen 768×768 por entrada
+- [x] `pipeline/07_image_generator.py`: skip si la imagen ya existe (reanudable)
 
 ### Phase 4 — Batch Runner
+- [x] `pipeline/batch_runner.py`: incluir paso 06_negative_agent en la secuencia de Phase 2
 - [ ] `pipeline/batch_runner.py`: ejecutar Phase 2 completa (todos los prompts) antes de Phase 3
 - [ ] `pipeline/batch_runner.py`: ejecutar Phase 3 completa (todas las imágenes) con modelo cargado una vez
 - [ ] `pipeline/batch_runner.py`: log de progreso con tqdm, skip y errores sin detener el batch

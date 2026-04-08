@@ -13,10 +13,11 @@ from pathlib import Path
 
 import torch
 from compel import Compel, ReturnedEmbeddingsType
-from diffusers import StableDiffusionXLPipeline
+from diffusers import StableDiffusionXLImg2ImgPipeline
+from PIL import Image
 from tqdm import tqdm
 
-from config import AVAILABLE_MODELS, IMAGE_SIZE, IMAGE_STEPS, PROMPTS_DIR
+from config import AVAILABLE_MODELS, IMAGE_SIZE, IMAGE_STEPS, IMG2IMG_STRENGTH, PROMPTS_DIR, SPRITES_DIR
 
 logging.basicConfig(
     level=logging.INFO,
@@ -33,11 +34,11 @@ BASE_NEGATIVE = (
 )
 
 
-def _load_pipeline(model_id: str) -> StableDiffusionXLPipeline:
-    """Load one SDXL model to GPU."""
+def _load_pipeline(model_id: str) -> StableDiffusionXLImg2ImgPipeline:
+    """Load one SDXL img2img model to GPU."""
     variant = AVAILABLE_MODELS[model_id]
     logger.info("loading model: %s", model_id)
-    pipe = StableDiffusionXLPipeline.from_pretrained(
+    pipe = StableDiffusionXLImg2ImgPipeline.from_pretrained(
         model_id,
         torch_dtype=torch.float16,
         use_safetensors=True,
@@ -49,7 +50,18 @@ def _load_pipeline(model_id: str) -> StableDiffusionXLPipeline:
     return pipe
 
 
-def _build_compel(pipe: StableDiffusionXLPipeline) -> Compel:
+def _prepare_reference_image(pokemon_id: str) -> Image.Image:
+    """Load official artwork, composite on white background, resize to IMAGE_SIZE."""
+    path = SPRITES_DIR / f"{pokemon_id}.png"
+    img = Image.open(path).convert("RGBA")
+
+    # Substep – composite transparent PNG on white background ______________________
+    background = Image.new("RGBA", img.size, (255, 255, 255, 255))
+    background.paste(img, mask=img.split()[3])
+    return background.convert("RGB").resize((IMAGE_SIZE, IMAGE_SIZE), Image.LANCZOS)
+
+
+def _build_compel(pipe: StableDiffusionXLImg2ImgPipeline) -> Compel:
     """Build Compel encoder for long-prompt support on SDXL."""
     return Compel(
         tokenizer=[pipe.tokenizer, pipe.tokenizer_2],
@@ -60,23 +72,24 @@ def _build_compel(pipe: StableDiffusionXLPipeline) -> Compel:
 
 
 def _generate_image(
-    pipe: StableDiffusionXLPipeline,
+    pipe: StableDiffusionXLImg2ImgPipeline,
     compel: Compel,
     prompt: str,
     negative: str,
+    reference: Image.Image,
     image_path: Path,
 ) -> None:
-    """Generate one image and save to disk."""
+    """Generate one image using reference artwork and save to disk."""
     image_path.parent.mkdir(parents=True, exist_ok=True)
     conditioning, pooled = compel([prompt, negative])
     image = pipe(
+        image=reference,
         prompt_embeds=conditioning[0:1],
         pooled_prompt_embeds=pooled[0:1],
         negative_prompt_embeds=conditioning[1:2],
         negative_pooled_prompt_embeds=pooled[1:2],
-        width=IMAGE_SIZE,
-        height=IMAGE_SIZE,
         num_inference_steps=IMAGE_STEPS,
+        strength=IMG2IMG_STRENGTH,
         guidance_scale=7.0,
     ).images[0]
     image.save(image_path)
@@ -144,7 +157,8 @@ def run() -> None:
             for file_path, idx, entry in items:
                 image_path = Path(entry["image_path"])
                 progress.set_description(
-                    f"{entry['pokemon_name']} / {entry['target_type']} / {entry['style_id']}"
+                    f"{entry['pokemon_name']} / {entry['target_type']} / {entry['style_id']}",
+                    refresh=False,
                 )
 
                 # ✅ Skip if image already exists
@@ -158,8 +172,9 @@ def run() -> None:
                 full_negative = f"{BASE_NEGATIVE}, {entry_negative}" if entry_negative else BASE_NEGATIVE
 
                 try:
-                    # 🎨 Generate and save image
-                    _generate_image(pipe, compel, entry["final_prompt"], full_negative, image_path)
+                    # 🎨 Load reference and generate image
+                    reference = _prepare_reference_image(entry["pokemon_id"])
+                    _generate_image(pipe, compel, entry["final_prompt"], full_negative, reference, image_path)
                     file_entries[file_path][idx]["generated"] = True
                     dirty_files.add(file_path)
                     generated += 1

@@ -12,3 +12,4 @@ requests>=2.31.0
 
 # Utilities
 tqdm>=4.66.0
+compel>=2.0.0

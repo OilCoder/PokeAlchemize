@@ -8,6 +8,7 @@ services:
     environment:
       - OLLAMA_HOST=http://host.docker.internal:11434
       - CUDA_VISIBLE_DEVICES=0
+      - HF_TOKEN=${HF_TOKEN}
     volumes:
       # Persist generated images and metadata outside the container
       - ./outputs:/app/outputs

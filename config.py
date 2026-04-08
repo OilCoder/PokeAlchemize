@@ -11,6 +11,7 @@ IMAGES_DIR = OUTPUTS_DIR / "images"
 POKEMONS_FILE = DATA_DIR / "pokemons.json"
 TYPES_FILE    = DATA_DIR / "types.json"
 STYLES_FILE   = DATA_DIR / "styles.json"
+SPRITES_DIR   = DATA_DIR / "sprites"
 
 # outputs/prompts/{id}.json  — web-facing: final_prompt + image_path per combo
 # outputs/pipeline/{id}.json — debug/trace: intermediate agent outputs
@@ -57,5 +58,6 @@ AVAILABLE_MODELS = {
     "Lykon/dreamshaper-xl-1-0":                 "fp16",   # anime/illustration fine-tune
     "RunDiffusion/Juggernaut-XL-v9":            "fp16",   # photorealistic/dark fantasy fine-tune
 }
-IMAGE_SIZE  = 768
-IMAGE_STEPS = 30
+IMAGE_SIZE        = 768
+IMAGE_STEPS       = 30
+IMG2IMG_STRENGTH  = 0.70  # 0.0 = copy reference, 1.0 = ignore reference
