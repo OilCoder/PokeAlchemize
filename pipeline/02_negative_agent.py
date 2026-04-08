@@ -12,15 +12,13 @@ from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT
 logger = logging.getLogger(__name__)
 
 SYSTEM_PROMPT = """You are an expert at writing negative prompts for AI image generation of Pokémon.
-Your task: given a Pokémon being transformed to a new type, list the visual elements that must NOT appear.
+Your task: given a Pokémon being transformed to a new type, list visual elements that must NOT appear.
 Rules:
-- First: include the Pokémon's ICONIC body color(s) as specific color descriptors (e.g. "bright orange body, orange scales" for Charmander). This is the most important exclusion.
-- Second: include colors, textures, and physical features specific to the original type(s)
-- Third: include BIOME and environment elements from the original type (e.g. for fire: "lava, volcanic rock, ash, embers, smoldering ground")
-- Fourth: include elements that would contradict the target type's visual identity
-- Output only a compact comma-separated list of visual descriptors, no explanations
-- Keep it under 30 items
-- Examples: "bright orange body, orange scales, flames, fire, red orange coloring, lava, volcanic rock, ash ground, ember glow, heat distortion" """
+- Include textures, patterns, and environmental elements specific to the ORIGINAL type that should disappear.
+- Include elements that contradict the TARGET type's visual identity.
+- Do NOT negate the Pokémon's body colors — the transformation will recolor them via the positive prompt.
+- Output only a compact comma-separated list of visual descriptors, no explanations.
+- Keep it under 15 items."""
 
 
 def generate_negative_prompt(pokemon: dict, target_type: str) -> str:

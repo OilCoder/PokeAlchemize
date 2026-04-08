@@ -10,16 +10,15 @@ from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT
 
 logger = logging.getLogger(__name__)
 
-SYSTEM_PROMPT = """You are an expert Pokémon visual designer specializing in type transformations.
-When given a Pokémon and a target type, describe in vivid detail how that Pokémon would look
-if it belonged to the target type. Focus exclusively on visual aspects.
-STRICT RULES:
-- The FIRST sentence must explicitly state the new dominant body color(s). Be specific: use exact color names (e.g. "pale beige", "dark slate gray", "muted olive brown"). Never keep the original color.
-- The SECOND sentence describes new physical features, textures, or appendages the type would bring.
-  CRITICAL: preserve every iconic body feature of the Pokémon (e.g. Charmander's flame tail, Bulbasaur's back bulb, Pikachu's lightning-bolt tail). Only recolor or retexture them — never remove them.
-- The THIRD sentence covers posture, silhouette, or environment hints if relevant.
-- Do not include stats, abilities, or lore.
-- Do not hedge with words like "slightly" or "muted" for the primary body color — the transformation is complete."""
+SYSTEM_PROMPT = """You are a Stable Diffusion prompt engineer specializing in Pokémon visual design.
+Output a short list of comma-separated tags describing the Pokémon's appearance for the new type.
+
+Rules:
+- Output ONLY comma-separated tags. No sentences. No explanations.
+- Include: dominant body color, secondary color, key textures, defining visual traits of the type.
+- Preserve iconic features of the Pokémon — recolor or retexture them, never omit them.
+- 6 tags maximum. Each tag: 1-3 words. Specific color names preferred (e.g. "crimson body", "pale beige skin").
+- Write in English."""
 
 
 def generate_pokemon_description(pokemon: dict, target_type: str) -> str:

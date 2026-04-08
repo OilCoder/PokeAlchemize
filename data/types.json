@@ -1,1 +1,74 @@
-["normal", "fire", "water", "electric", "grass", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark", "steel", "fairy"]
+[
+  {
+    "name": "normal",
+    "morph_traits": "plain fur or smooth skin, no special features, neutral earth tones, simple round shapes"
+  },
+  {
+    "name": "fire",
+    "morph_traits": "flame-tipped tail and ears, ember scales or magma-cracked skin, orange and red color palette, glowing eyes"
+  },
+  {
+    "name": "water",
+    "morph_traits": "fins replacing ears and tail tip, smooth wet scales, blue and teal color palette, gill slits on neck"
+  },
+  {
+    "name": "electric",
+    "morph_traits": "jagged lightning-bolt shaped tail and spines, yellow and white color palette, sparking fur tips, sharp angular features"
+  },
+  {
+    "name": "grass",
+    "morph_traits": "leaf-shaped ears and tail, vine or petal growths on body, green color palette, floral patterns on skin"
+  },
+  {
+    "name": "ice",
+    "morph_traits": "crystalline ice spikes on back and tail, pale blue and white color palette, frosted fur, sharp angular icy features"
+  },
+  {
+    "name": "fighting",
+    "morph_traits": "bulky muscular build, thick limbs, scarred or calloused skin, earthy red and brown tones, determined expression"
+  },
+  {
+    "name": "poison",
+    "morph_traits": "venomous fangs or stingers, purple and acid-green color palette, toxic slime coating, barbed tail"
+  },
+  {
+    "name": "ground",
+    "morph_traits": "rocky plated hide, sandy brown color palette, clawed flat feet, earthen crystal growths, heavy stocky frame"
+  },
+  {
+    "name": "flying",
+    "morph_traits": "feathered wings replacing front limbs or on back, hollow light bones, sky blue and white color palette, streamlined body"
+  },
+  {
+    "name": "psychic",
+    "morph_traits": "glowing third eye on forehead, pink and lavender color palette, ethereal aura, enlarged smooth cranium"
+  },
+  {
+    "name": "bug",
+    "morph_traits": "chitinous exoskeleton plating, compound eyes, antenna on head, green and brown color palette, segmented limbs"
+  },
+  {
+    "name": "rock",
+    "morph_traits": "stone-encrusted shell or plating, grey and brown color palette, angular blocky features, crystal mineral growths"
+  },
+  {
+    "name": "ghost",
+    "morph_traits": "translucent wispy body edges, hollow black eye sockets, purple and black color palette, shadowy vapour trailing from tail"
+  },
+  {
+    "name": "dragon",
+    "morph_traits": "small wing membranes on back, horn or crest on head, scaled body, deep blue and purple color palette, slit pupils"
+  },
+  {
+    "name": "dark",
+    "morph_traits": "shadowy dark fur, black and dark grey color palette, jagged spiky edges, menacing narrow eyes, tattered ear tips"
+  },
+  {
+    "name": "steel",
+    "morph_traits": "metallic plated armour on torso and limbs, silver and gunmetal color palette, mechanical joint lines, reflective smooth surfaces"
+  },
+  {
+    "name": "fairy",
+    "morph_traits": "small ornate wings, pastel pink and white color palette, glowing sparkles around body, round soft features, flower or star motifs"
+  }
+]

@@ -10,13 +10,10 @@ IMAGES_DIR = OUTPUTS_DIR / "images"
 
 POKEMONS_FILE = DATA_DIR / "pokemons.json"
 TYPES_FILE    = DATA_DIR / "types.json"
-STYLES_FILE   = DATA_DIR / "styles.json"
 SPRITES_DIR   = DATA_DIR / "sprites"
 
-# outputs/prompts/{id}.json  — web-facing: final_prompt + image_path per combo
-# outputs/pipeline/{id}.json — debug/trace: intermediate agent outputs
-PROMPTS_DIR  = OUTPUTS_DIR / "prompts"
-PIPELINE_DIR = OUTPUTS_DIR / "pipeline"
+# outputs/prompts/{id}.json — instruction + metadata per combo
+PROMPTS_DIR = OUTPUTS_DIR / "prompts"
 
 # ----
 # Step 2 – Parallelization
@@ -30,15 +27,14 @@ PROMPT_WORKERS = 6  # concurrent threads for prompt generation (LLM calls)
 # DEV_POKEMON_IDS: specific Pokémon IDs to use (overrides DEV_POKEMON_LIMIT when set)
 DEV_POKEMON_IDS   = ["001", "004", "007", "025"]  # Bulbasaur, Charmander, Squirtle, Pikachu
 DEV_POKEMON_LIMIT = None  # out of 150 (ignored when DEV_POKEMON_IDS is set)
-DEV_TYPES_LIMIT   = 2     # out of 18
-DEV_STYLES_LIMIT  = 1     # out of 5 (pixel_art first during dev)
+DEV_TYPES_LIMIT   = 3     # normal, fire, water
 DEV_CLEAN         = True  # delete existing prompts and images before each run
 
 # ----
 # Step 4 – Ollama
 # ----
 OLLAMA_HOST    = "http://172.19.16.1:11434"
-OLLAMA_TIMEOUT = 180  # seconds; qwen3:14b needs ~2min on cold load
+OLLAMA_TIMEOUT = 300  # seconds; qwen3:14b needs ~2-3min on cold load
 
 # Available models (ollama list):
 #   "qwen3:30b-a3b"          – MoE 30B, mejor calidad, velocidad similar a 14B por arquitectura MoE
@@ -49,15 +45,22 @@ OLLAMA_TIMEOUT = 180  # seconds; qwen3:14b needs ~2min on cold load
 OLLAMA_MODEL = "qwen3:14b"
 
 # ----
-# Step 5 – Image generation
+# Step 5 – Sprite image generation (Phase 3)
 # ----
-# Models are assigned per style in data/styles.json.
-# All are SDXL-based, fit in 16GB VRAM, and support compel long-prompt encoding.
-AVAILABLE_MODELS = {
-    "stabilityai/stable-diffusion-xl-base-1.0": "fp16",   # base SDXL, fastest
-    "Lykon/dreamshaper-xl-1-0":                 "fp16",   # anime/illustration fine-tune
-    "RunDiffusion/Juggernaut-XL-v9":            "fp16",   # photorealistic/dark fantasy fine-tune
-}
-IMAGE_SIZE        = 768
-IMAGE_STEPS       = 30
-IMG2IMG_STRENGTH  = 0.70  # 0.0 = copy reference, 1.0 = ignore reference
+SPRITE_MODEL          = "Lykon/AnyLoRA"
+SPRITE_LORA           = str(DATA_DIR / "loras" / "pokemon_v3_chatgpt_offset.safetensors")
+SPRITE_LORA_FILENAME  = None  # local file, no filename needed
+IMAGE_SIZE            = 768   # max recomendado por el LoRA
+IMAGE_STEPS           = 50
+
+# ----
+# Step 6 – Background generation (Phase 5 — fondo)
+# ----
+# STYLES_FILE   = DATA_DIR / "styles.json"
+# PIPELINE_DIR  = OUTPUTS_DIR / "pipeline"
+# DEV_STYLES_LIMIT = 1
+# AVAILABLE_MODELS = {
+#     "stabilityai/stable-diffusion-xl-base-1.0": "fp16",
+#     "Lykon/dreamshaper-xl-1-0":                 "fp16",
+#     "RunDiffusion/Juggernaut-XL-v9":            "fp16",
+# }

@@ -11,8 +11,8 @@ generadas localmente (RTX 4080), pre-generadas en batch; la web solo muestra res
 | Capa          | Tecnología                                    |
 |---------------|-----------------------------------------------|
 | LLM (prompts) | Ollama                                        |
-| Sprite        | FLUX.1-Kontext-dev + WiroAI/pokemon-flux-lora |
-| Fondo         | FLUX.1-dev + inpainting/outpainting           |
+| Sprite        | SDXL (stabilityai/stable-diffusion-xl-base-1.0) + sshh12/sdxl-lora-pokemon |
+| Fondo         | SDXL + inpainting/outpainting                 |
 | Datos Pokémon | sprites locales en data/sprites/              |
 | Web           | HTML / CSS / JS estático                      |
 | Orquestación  | Python puro                                   |
@@ -57,27 +57,27 @@ PokeAIchemize/
 - [x] `data/types.json`: 18 tipos oficiales
 - [x] `data/sprites/`: 150 sprites originales descargados localmente
 
-### Phase 2 — Migración del pipeline
-- [ ] `config.py`: actualizar paths, definir modelo FLUX.1-Kontext-dev y LoRA pokemon-flux-lora, eliminar referencias obsoletas
-- [ ] `data/types.json`: agregar campo `morph_traits` por tipo (rasgos físicos típicos: ej. fire → flame tail, ember scales)
-- [ ] Renombrar `pipeline/01_pokemon_agent.py` → `pipeline/04_pokemon_agent.py`
-- [ ] Renombrar `pipeline/02_biome_agent.py` → `pipeline/05_biome_agent.py`
-- [ ] Renombrar `pipeline/03_scene_conciliador.py` → `pipeline/06_scene_conciliador.py`
-- [ ] Renombrar `pipeline/04_style_agent.py` → `pipeline/07_style_agent.py`
-- [ ] Renombrar `pipeline/05_style_conciliador.py` → `pipeline/08_style_conciliador.py`
-- [ ] Renombrar `pipeline/06_negative_agent.py` → `pipeline/02_negative_agent.py`
-- [ ] Renombrar `pipeline/07_image_generator.py` → `pipeline/03_image_generator.py`
+### Phase 2 — Migración del pipeline (COMPLETED)
+- [x] `config.py`: actualizar paths, definir modelo FLUX.1-Kontext-dev y LoRA pokemon-flux-lora, eliminar referencias obsoletas (2026-04-08)
+- [x] `data/types.json`: agregar campo `morph_traits` por tipo (rasgos físicos típicos: ej. fire → flame tail, ember scales) (2026-04-08)
+- [x] Renombrar `pipeline/01_pokemon_agent.py` → `pipeline/04_pokemon_agent.py` (2026-04-08)
+- [x] Renombrar `pipeline/02_biome_agent.py` → `pipeline/05_biome_agent.py` (2026-04-08)
+- [x] Renombrar `pipeline/03_scene_conciliador.py` → `pipeline/06_scene_conciliador.py` (2026-04-08)
+- [x] Renombrar `pipeline/04_style_agent.py` → `pipeline/07_style_agent.py` (2026-04-08)
+- [x] Renombrar `pipeline/05_style_conciliador.py` → `pipeline/08_style_conciliador.py` (2026-04-08)
+- [x] Renombrar `pipeline/06_negative_agent.py` → `pipeline/02_negative_agent.py` (2026-04-08)
+- [x] Renombrar `pipeline/07_image_generator.py` → `pipeline/03_image_generator.py` (2026-04-08)
 
 ### Phase 3 — Sprite Generator
-- [ ] `pipeline/01_morph_agent.py`: LLM genera instrucción Kontext describiendo cambios estructurales (rasgos físicos, texturas, colores, forma de extremidades) del Pokémon al nuevo tipo
-- [ ] `pipeline/03_image_generator.py`: reescribir como FLUX.1-Kontext-dev + pokemon-flux-lora, carga modelo una vez, usa sprite original como base
-- [ ] `outputs/prompts/{id}.json`: campos pokemon_id, pokemon_name, original_types, target_type, sprite_path, instruction, negative_prompt, image_path, generated
+- [x] `pipeline/01_morph_agent.py`: LLM genera instrucción Kontext describiendo cambios estructurales (rasgos físicos, texturas, colores, forma de extremidades) del Pokémon al nuevo tipo (2026-04-08)
+- [x] `pipeline/03_image_generator.py`: reescribir como SDXL img2img + sdxl-lora-pokemon, carga modelo una vez, usa sprite original como base (2026-04-08)
+- [x] `outputs/prompts/{id}.json`: campos pokemon_id, pokemon_name, original_types, target_type, sprite_path, instruction, negative_prompt, image_path, generated (2026-04-08)
 - [ ] Generar los 2,700 sprites reimaginados, skip si ya existe
 
-### Phase 4 — Batch Runner (sprite)
-- [ ] `pipeline/batch_runner.py`: actualizar secuencia a 01→02→03
-- [ ] Log de progreso con tqdm, skip y errores sin detener el batch
-- [ ] Summary final: total generadas, saltadas, fallidas
+### Phase 4 — Batch Runner (sprite) (COMPLETED)
+- [x] `pipeline/batch_runner.py`: actualizar secuencia a 01→02→03 (2026-04-08)
+- [x] Log de progreso con tqdm, skip y errores sin detener el batch (2026-04-08)
+- [x] Summary final: total generadas, saltadas, fallidas (2026-04-08)
 
 ### Phase 5 — Background Generator
 - [ ] `pipeline/09_background_generator.py`: inpainting/outpainting con FLUX.1-dev alrededor del sprite ya generado
