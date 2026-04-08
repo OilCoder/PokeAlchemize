@@ -1,8 +1,9 @@
 """
-Image Generator — sprite reimagining via SD 1.5 txt2img + Ken Sugimori LoRA.
+Image Generator — sprite reimagining via SD 1.5 img2img + Ken Sugimori LoRA.
 Loads the model once, iterates outputs/prompts/*.json,
-generates one sprite per entry from text prompt only.
-The Ken Sugimori LoRA is designed to generate Pokémon from text descriptions.
+generates one sprite per entry using the original sprite as base image.
+The original sprite anchors the Pokémon's silhouette and identity;
+the prompt drives the type transformation.
 Skips entries where the image already exists (resumable).
 """
 
@@ -13,10 +14,11 @@ from pathlib import Path
 
 import torch
 from compel import Compel
-from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
+from diffusers import StableDiffusionImg2ImgPipeline, DPMSolverMultistepScheduler
+from PIL import Image
 from tqdm import tqdm
 
-from config import IMAGE_SIZE, IMAGE_STEPS, PROMPTS_DIR, SPRITE_LORA, SPRITE_MODEL
+from config import IMAGE_SIZE, IMAGE_STEPS, IMG2IMG_STRENGTH, PROMPTS_DIR, SPRITE_LORA, SPRITE_MODEL
 
 logging.basicConfig(
     level=logging.INFO,
@@ -36,10 +38,10 @@ BASE_NEGATIVE = (
 )
 
 
-def _load_pipeline() -> StableDiffusionPipeline:
-    """Load SD 1.5 txt2img pipeline with Ken Sugimori Pokémon LoRA to GPU."""
+def _load_pipeline() -> StableDiffusionImg2ImgPipeline:
+    """Load SD 1.5 img2img pipeline with Ken Sugimori Pokémon LoRA to GPU."""
     logger.info("loading model: %s", SPRITE_MODEL)
-    pipe = StableDiffusionPipeline.from_pretrained(
+    pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
         SPRITE_MODEL,
         torch_dtype=torch.float16,
         safety_checker=None,
@@ -49,13 +51,13 @@ def _load_pipeline() -> StableDiffusionPipeline:
     )
     pipe.to("cuda")
     pipe.load_lora_weights(SPRITE_LORA)
-    pipe.vae.enable_tiling()  # fix NaN/black image at 768px
+    pipe.vae.enable_tiling()
     pipe.set_progress_bar_config(disable=True)
     logger.info("model + LoRA loaded")
     return pipe
 
 
-def _build_compel(pipe: StableDiffusionPipeline) -> Compel:
+def _build_compel(pipe: StableDiffusionImg2ImgPipeline) -> Compel:
     """Build Compel encoder for long-prompt support on SD 1.5."""
     return Compel(
         tokenizer=pipe.tokenizer,
@@ -63,23 +65,58 @@ def _build_compel(pipe: StableDiffusionPipeline) -> Compel:
     )
 
 
+def _load_sprite(sprite_path: str) -> Image.Image:
+    """Load original sprite, composite transparency on white, resize to IMAGE_SIZE.
+
+    Args:
+        sprite_path: Path to the original sprite PNG (RGBA).
+
+    Returns:
+        RGB PIL Image resized to IMAGE_SIZE × IMAGE_SIZE.
+
+    Raises:
+        FileNotFoundError: If the sprite file does not exist.
+    """
+    path = Path(sprite_path)
+    if not path.exists():
+        raise FileNotFoundError(f"sprite not found: {sprite_path}")
+
+    sprite = Image.open(path).convert("RGBA")
+
+    # Substep — composite transparency on white background
+    background = Image.new("RGB", sprite.size, (255, 255, 255))
+    background.paste(sprite, mask=sprite.split()[3])
+
+    return background.resize((IMAGE_SIZE, IMAGE_SIZE), Image.LANCZOS)
+
+
 def _generate_sprite(
-    pipe: StableDiffusionPipeline,
+    pipe: StableDiffusionImg2ImgPipeline,
     compel: Compel,
+    base_image: Image.Image,
     instruction: str,
     negative: str,
     image_path: Path,
 ) -> None:
-    """Run txt2img with compel long-prompt encoding and save the sprite to disk."""
+    """Run img2img with original sprite as base and save the result to disk.
+
+    Args:
+        pipe: Loaded img2img pipeline.
+        compel: Compel encoder instance.
+        base_image: Original sprite as RGB PIL Image.
+        instruction: Positive prompt string.
+        negative: Negative prompt string.
+        image_path: Output path for the generated image.
+    """
     image_path.parent.mkdir(parents=True, exist_ok=True)
     conditioning = compel([instruction, negative])
     image = pipe(
         prompt_embeds=conditioning[0:1],
         negative_prompt_embeds=conditioning[1:2],
+        image=base_image,
+        strength=IMG2IMG_STRENGTH,
         num_inference_steps=IMAGE_STEPS,
         guidance_scale=7.5,
-        width=IMAGE_SIZE,
-        height=IMAGE_SIZE,
         clip_skip=2,
         cross_attention_kwargs={"scale": 1.0},
     ).images[0]
@@ -146,13 +183,22 @@ def run() -> None:
                 progress.update(1)
                 continue
 
-            # Substep 2.1 – Build full negative prompt ______________________
+            # Substep 2.1 – Load original sprite ______________________
+            try:
+                base_image = _load_sprite(entry["sprite_path"])
+            except FileNotFoundError as e:
+                logger.error("missing sprite, skipping %s: %s", image_path.name, e)
+                failed += 1
+                progress.update(1)
+                continue
+
+            # Substep 2.2 – Build full negative prompt ______________________
             entry_negative = entry.get("negative_prompt", "")
             full_negative = f"{BASE_NEGATIVE}, {entry_negative}" if entry_negative else BASE_NEGATIVE
 
             try:
-                # 🎨 Generate reimagined sprite from text prompt
-                _generate_sprite(pipe, compel, entry["instruction"], full_negative, image_path)
+                # 🎨 Generate reimagined sprite from original + text prompt
+                _generate_sprite(pipe, compel, base_image, entry["instruction"], full_negative, image_path)
                 file_entries[file_path][idx]["generated"] = True
                 dirty_files.add(file_path)
                 generated += 1
