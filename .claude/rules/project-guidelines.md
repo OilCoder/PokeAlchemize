@@ -1,45 +1,51 @@
 ---
-description: Index of all Claude rules and skills in the project. Defines the project structure, rule loading strategy, and enforcement scope for PokeAIchemize.
+description: Project-level index of rules, skills, enforcement strategy, and tech constraints for PokeAIchemize
 ---
-# project-guidelines
-# Purpose: Define the role and scope of each rule and skill in the codebase
-# Scope: repository-wide
+# Project Guidelines
 
-RULE_INDEX:
-  Rules (always loaded):
-    1. code-style.md        – Layout, naming, spacing, and step/substep structure in Python files.
-    2. file-naming.md       – Naming conventions for .py, .json, output images, and web files.
-    3. logging-policy.md    – Controls print/logging in *.py; enforces batch runner progress output.
-    4. project-guidelines.md – This file: index and enforcement strategy.
+## Rules index
 
-  Skills (loaded on demand by task type):
-    5. code-change   – Strict editing scope boundaries for modifying existing code.
-    6. debug-script  – Workflow for writing and isolating debug/exploratory scripts.
-    7. doc-enforcement – Standards for Google Style docstrings and module-level docs.
-    8. docs-style    – Format and structure for Markdown documentation files.
-    9. test          – Pytest naming conventions, isolation standards, and test structure.
-    10. plan-writing.md – Defines format and update rules for todo/ plan files.
-    11. phase-executor – Reads and executes a phase from PLAN.md in order,
-        with scope enforcement and checkbox updates.
+| Rule | Propósito |
+|---|---|
+| `code-style.md` | Layout, naming, estructura Step/Substep |
+| `file-naming.md` | Convenciones de nombres y orden de ejecución |
+| `code-change.md` | Alcance y seguridad de ediciones |
+| `logging-policy.md` | Control de print/logging |
+| `doc-enforcement.md` | Docstrings obligatorios en pipeline/ |
+| `docs-style.md` | Formato de documentación Markdown |
+| `plan-format.md` | Formato y reglas de actualización de planes |
 
-PROJECT_STRUCTURE:
-  data/        → JSON data: pokemons.json (150 Pokémon), types.json (18 types + biomes)
-  pipeline/    → prompt_generator.py, image_generator.py, batch_runner.py
-  outputs/     → images/{id}_{tipo}.png + metadata.json (both gitignored)
-  web/         → index.html, style.css, app.js (static frontend, no backend)
-  todo/        → PLAN.md and project notes
-  config.py    → Global paths, model names, generation parameters
+## Skills index
 
-ENFORCEMENT_STRATEGY:
-  - All Python changes must comply with code-style and file-naming rules.
-  - batch_runner.py must comply with logging-policy (progress + skip logging).
-  - Invoke code-change skill when editing existing functions/modules.
-  - Invoke doc-enforcement skill when adding or updating docstrings.
-  - No formal test suite in this project; test skill available if needed.
-  - No debug/ folder; debug-script skill available if exploratory scripts are needed.
+| Skill | Propósito |
+|---|---|
+| `/bitacora` | Registrar sesión en `todo/bitacora-YYYY-MM-DD.md` |
+| `/plan-writing` | Crear/actualizar planes en `todo/` |
+| `/phase-executor` | Ejecutar fase del plan en orden con checkboxes |
+| `/code-change` | Edición con scope estricto |
+| `/debug` | Scripts aislados de exploración en `debug/` |
+| `/document` | Generar documentación Markdown de un módulo |
+| `/doc-enforce` | Revisar y generar docstrings faltantes |
+| `/test` | Crear tests Pytest para módulos |
 
-TECH_CONSTRAINTS:
-  - Everything local — no external APIs, no cloud services.
-  - Ollama runs on the host; accessible from Docker via host.docker.internal:11434.
-  - Image generation via diffusers + PyTorch on RTX 4080 (CUDA).
-  - Web is fully static; reads outputs/metadata.json directly.
+## Validation mode
+`warn` — reglas aplicadas, violaciones marcadas. Cambiar a `strict` antes de producción.
+
+## Project structure
+
+```
+data/        → pokemons.json, types.json, styles.json, sprites/
+pipeline/    → 01_morph_agent.py … 09_background_generator.py, batch_runner.py
+outputs/     → images/{id}_{tipo}.png, prompts/{id}.json (gitignored)
+web/         → index.html, style.css, app.js
+config.py    → paths, modelos, parámetros
+todo/        → PLAN.md y bitácoras
+debug/       → scripts exploratorios (gitignored)
+```
+
+## Tech constraints
+- Todo local — sin APIs externas, sin servicios cloud.
+- Ollama en el host: `host.docker.internal:11434`.
+- Generación de imágenes: diffusers + PyTorch, RTX 4080, CUDA.
+- Web completamente estática: carga JSON bajo demanda, sin backend.
+- Imágenes y prompts en `outputs/` (gitignored).

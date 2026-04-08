@@ -1,64 +1,55 @@
 ---
 description: Enforces layout, naming, spacing, and step/substep comment structure in all Python source files. Applies universally to every task involving Python code.
 ---
-# code-style
-# Purpose: Enforce layout, naming, spacing, and step/substep structure in source files
-# Scope: all source code files
+# Code Style
 
-All code generated must prioritize clarity, simplicity, and directness. The goal is to produce maintainable and focused code with no unnecessary complexity.
+All generated code must prioritize clarity, simplicity, and directness.
 
-FUNCTION_STRUCTURE:
-    - Every function must have a single, well-defined responsibility.
-    - Avoid mixing unrelated logic inside the same function.
-    - Function bodies should be as short as reasonably possible (ideally under 50 lines).
-    - Use helper functions if a task has multiple logical steps.
+## Function structure
 
-MINIMALISM:
-    - Only generate what is strictly necessary to fulfill the request.
-    - Avoid boilerplate, placeholder code, or speculative structures unless explicitly requested.
-    - Do not write future-proof abstractions unless the user explicitly asks for scalability.
+- Every function must have a single, well-defined responsibility.
+- Function bodies: ideally under 50 lines.
+- Use helper functions if a task has multiple logical steps.
 
-NAMING:
-    - Variable and function names must be self-explanatory and follow snake_case.
-    - Use short, meaningful names. Avoid generic or placeholder names (e.g., temp, foo, bar).
+## Minimalism
 
-COMMENTS_AND_STYLE:
-    - Use comments only where logic is not self-evident.
+- Only generate what is strictly necessary to fulfill the request.
+- No boilerplate, placeholder code, or speculative structures.
+- No future-proof abstractions unless explicitly requested.
 
-    - For functions involving multiple stages, always organize them using the following visual structure:
+## Naming
 
-        # ----
-        # Step 1 – <High-level action>
-        # ----
+- `snake_case` for all Python files, variables, and functions.
+- Constants: `UPPER_SNAKE_CASE`.
+- Avoid generic names (e.g., temp, foo, bar).
 
-    - Inside each step, substeps should be marked with a flat header:
+## Comments and visual structure
 
-        # Substep 1.1 – <Specific sub-action> ______________________
+```python
+# ----------------------------------------
+# Step N — <High-level action>
+# ----------------------------------------
 
-    - For additional inline actions or clarifications inside a substep, use emojis or bullet markers:
+# Substep N.M — <Specific sub-action>
 
-        # ✅ Validate inputs
-        # 🔄 Loop through each pokemon
-        # 💾 Save image to outputs/
+# ✅ Validate inputs
+# 🔄 Loop through each pokemon
+# 💾 Save image to outputs/
+```
 
-    - This structure improves readability and helps locate logic blocks during debugging or refactoring.
-    - Avoid inline comments for trivial code lines; instead, describe the logic block at a higher level.
-    - Do not generate excessive documentation blocks unless explicitly requested.
-    - Prioritize structure and clarity over verbosity or repetition.
+## Imports and dependencies
 
-IMPORTS_AND_DEPENDENCIES:
-    - Only import what is actually used in the generated code.
-    - Group imports logically: standard → external → internal.
-    - Avoid unnecessary third-party dependencies unless they are already used in the project.
+- Standard → external → internal grouping.
+- Only import what is used.
+- No new third-party dependencies without explicit approval.
 
-OUTPUT_FORMAT:
-    - Code must be presented in clean, executable blocks.
-    - Do not include explanatory text in code output unless requested.
-    - When writing multiple functions, separate them with clear spacing.
+## Scope discipline
 
-SCOPE_DISCIPLINE:
-    - Never write more than what the request scope defines.
-    - Avoid solving problems that were not asked or predicted unless clarification is provided.
+- Never write more than what the request scope defines.
+- Avoid solving problems that were not asked.
 
-LOGGING_AND_OUTPUT_CONTROL:
-    - See .claude/rules/logging-policy.md for all print/log guidance.
+## Cross-references
+
+- See `logging-policy.md` for print/log guidance.
+- See `file-naming.md` for naming conventions.
+- See `doc-enforcement.md` for docstring requirements.

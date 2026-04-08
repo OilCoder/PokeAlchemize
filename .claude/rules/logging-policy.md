@@ -3,28 +3,27 @@ description: Controls use of print() and logging calls in Python files. Allows t
 paths:
   - "**/*.py"
 ---
-# logging-policy
-# Purpose: Control use of print and logging across all Python code
-# Scope: global (pipeline, config, batch runner)
+# Logging Policy
 
-PRINT_USAGE:
-  - Temporary print() statements are allowed during development.
-  - All print() calls must be removed before final commits unless:
-    • They are part of CLI tools with user-facing output.
-    • They serve a critical runtime function (e.g. batch progress summary).
+## Print usage
 
-LOGGING_USAGE:
-  - Use logging.info, logging.warning, and logging.error for structured output in production.
-  - Avoid logging.debug unless the logger is properly configured and output can be filtered.
-  - Always use logger = logging.getLogger(__name__) for module-scoped loggers.
+- Temporary `print()` allowed in development; remove before final commits.
+- Exceptions: CLI tools, batch progress indicators.
 
-BATCH_RUNNER_SPECIFICS:
-  - batch_runner.py must show visible progress (tqdm bar preferred).
-  - Log when an image is skipped (already exists).
-  - Log errors per combination without stopping the full batch.
-  - A final summary line (total generated, skipped, failed) is required.
+## Logging usage
 
-CLEANUP_AND_ISOLATION:
-  - Final versions of pipeline/ scripts must not include leftover debug print/log.
-  - Treat print/log statements as disposable scaffolding unless approved.
-  - Do not add logging.debug() noise to image_generator.py or prompt_generator.py.
+- Use module-scoped loggers: `logger = logging.getLogger(__name__)`.
+- Use `logging.info`, `logging.warning`, `logging.error` for structured output.
+- Avoid `logging.debug` unless properly filtered.
+
+## Batch runner specifics
+
+- `batch_runner.py` must show visible progress (tqdm preferred).
+- Log when an image is skipped (already exists).
+- Log errors per combination without stopping the full batch.
+- A final summary line (total generated, skipped, failed) is required.
+
+## Cleanup and isolation
+
+- Final pipeline/ scripts must not include leftover debug print/log.
+- Extensive debug output goes into `debug/` scripts only.

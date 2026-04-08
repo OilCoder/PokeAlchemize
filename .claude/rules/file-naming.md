@@ -44,3 +44,11 @@ OUTPUT_IMAGES:
 WEB_FILES:
   - Descriptive fixed names: index.html, style.css, app.js
   - Assets in a dedicated subfolder if needed.
+
+TEST_FILES:
+  - Pattern: test_<module>_<case>.py under tests/.
+  - Examples: test_morph_agent_fire.py, test_image_generator_skip.py
+
+DEBUG_FILES:
+  - Pattern: dbg_<slug>[_<experiment>].py under debug/ (always gitignored).
+  - Examples: dbg_morph_agent_comparison.py, dbg_flux_cuda_check.py

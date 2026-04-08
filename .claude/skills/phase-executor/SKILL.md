@@ -7,14 +7,15 @@ description: >
   Reads PLAN.md first, presents an execution plan, waits for approval,
   then implements tasks in order while updating checkboxes. Never touches
   files outside the phase scope.
+argument-hint: "[phase number or name]"
 ---
 
-# phase-executor
+# Phase Executor
 
 ## Before writing any code
 
 1. Read `todo/PLAN.md` completely.
-2. Identify the requested phase and extract its task list.
+2. Extract task list for the requested phase.
 3. Present a short plan:
    - Files to create or modify
    - Order of execution
@@ -23,36 +24,22 @@ description: >
 
 ## Execution rules
 
-SCOPE:
-- Only create or modify files listed in the phase tasks.
+- Only touch files listed in the phase tasks.
 - Never touch files from other phases.
-- If a required file from a previous phase is missing, stop and inform
-  the user before continuing.
+- Execute tasks in PLAN.md order; mark `- [x] (YYYY-MM-DD)` immediately after each.
+- Follow all `.claude/rules/` conventions.
 
-ORDER:
-- Execute tasks in the order they appear in PLAN.md.
-- Complete each task fully before moving to the next.
-- Mark each task as `- [x]` in PLAN.md immediately after completing it.
+## Project conventions
 
-CODE:
-- Follow all rules in `.claude/rules/`.
-- snake_case for all Python files and variables.
-- Google Style docstrings on all public functions.
-- No print() in production code — use logging per logging-policy.md.
-- Functions under 50 lines; extract helpers for multi-step logic.
-
-PROJECT CONVENTIONS:
-- Images: `outputs/images/{id_pokemon}_{tipo}.png` (e.g. `025_water.png`)
-- Data: static JSON only, no database.
-- Batch runner must skip existing images (resumable).
-- Ollama runs on host: `host.docker.internal:11434`
-- GPU: RTX 4080, CUDA enabled.
+- Images: `outputs/images/{id}_{tipo}.png` (e.g. `025_fire.png`)
+- Sprites base: `data/sprites/{id}.png`
+- Prompts: `outputs/prompts/{id}.json`
+- Ollama: `host.docker.internal:11434`
+- GPU: RTX 4080, CUDA. Image model: FLUX.1-Kontext-dev.
 
 ## After completing a phase
 
-1. Mark the phase title as `(COMPLETED)` in PLAN.md.
-2. Report:
-   - Files created
-   - Functions implemented
-   - Decisions made during execution
-3. Flag anything that needs user review before starting the next phase.
+1. Mark phase title as `(COMPLETED)` in PLAN.md.
+2. Report: files created, functions implemented, decisions made.
+3. Flag anything needing user review.
+4. Suggest `/bitacora` to log the session.
