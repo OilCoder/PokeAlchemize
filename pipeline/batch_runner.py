@@ -112,7 +112,7 @@ def _process_type(pokemon: dict, type_obj: dict, existing_entries: list) -> dict
         logger.error("conciliador failed %s/%s: %s", pokemon["id"], target_type, e)
         consolidated = f"{morph_instruction}, {pokemon_desc}"
 
-    instruction = f"solo, 1pokemon, sugimori ken (style), {pokemon['name']}, no humans, pokemon (creature), white background, {consolidated}"
+    instruction = f"pkmnstyle, {pokemon['name']}, white background, {consolidated}"
 
     # ----
     # Step 3 – Build and return entry

@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).parent
 DATA_DIR = ROOT_DIR / "data"
 OUTPUTS_DIR = ROOT_DIR / "outputs"
-IMAGES_DIR = OUTPUTS_DIR / "images"
+IMAGES_DIR = OUTPUTS_DIR / "flux"
 
 POKEMONS_FILE = DATA_DIR / "pokemons.json"
 TYPES_FILE    = DATA_DIR / "types.json"
@@ -47,12 +47,12 @@ OLLAMA_MODEL = "qwen3:14b"
 # ----
 # Step 5 – Sprite image generation (Phase 3)
 # ----
-SPRITE_MODEL          = "Lykon/AnyLoRA"
-SPRITE_LORA           = str(DATA_DIR / "loras" / "pokemon_v3_offset.safetensors")
-SPRITE_LORA_FILENAME  = None  # local file, no filename needed
-IMAGE_SIZE            = 768   # max recomendado por el LoRA
-IMAGE_STEPS           = 50
-IMG2IMG_STRENGTH      = 0.999  # 0.0 = sin cambios, 1.0 = ignorar imagen base
+SPRITE_MODEL          = "black-forest-labs/FLUX.1-dev"
+SPRITE_LORA           = "WiroAI/pokemon-flux-lora"
+SPRITE_LORA_FILENAME  = "pokemon_flux_lora.safetensors"
+IMAGE_SIZE            = 768
+IMAGE_STEPS           = 20
+FLUX_GUIDANCE_SCALE   = 3.5
 
 # ----
 # Step 6 – Background generation (Phase 5 — fondo)

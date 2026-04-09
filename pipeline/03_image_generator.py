@@ -1,9 +1,8 @@
 """
-Image Generator — sprite reimagining via SD 1.5 img2img + Ken Sugimori LoRA.
-Loads the model once, iterates outputs/prompts/*.json,
-generates one sprite per entry using the original sprite as base image.
-The original sprite anchors the Pokémon's silhouette and identity;
-the prompt drives the type transformation.
+Image Generator — sprite reimagining via FLUX.1-dev txt2img + WiroAI Pokémon LoRA.
+Loads the model once with CPU offload for 16GB VRAM compatibility,
+iterates outputs/prompts/*.json and generates one sprite per entry.
+Trigger word: pkmnstyle. No negative prompt (FLUX does not use CFG negation).
 Skips entries where the image already exists (resumable).
 """
 
@@ -13,12 +12,10 @@ import logging
 from pathlib import Path
 
 import torch
-from compel import Compel
-from diffusers import StableDiffusionImg2ImgPipeline, DPMSolverMultistepScheduler
-from PIL import Image
+from diffusers import FluxPipeline
 from tqdm import tqdm
 
-from config import IMAGE_SIZE, IMAGE_STEPS, IMG2IMG_STRENGTH, PROMPTS_DIR, SPRITE_LORA, SPRITE_MODEL
+from config import FLUX_GUIDANCE_SCALE, IMAGE_SIZE, IMAGE_STEPS, PROMPTS_DIR, SPRITE_LORA, SPRITE_LORA_FILENAME, SPRITE_MODEL
 
 logging.basicConfig(
     level=logging.INFO,
@@ -26,99 +23,40 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BASE_NEGATIVE = (
-    "blurry, low quality, distorted, deformed, ugly, bad anatomy, "
-    "watermark, text, logo, signature, cropped, out of frame, "
-    "realistic, photorealistic, photograph, 3d render, human, person, "
-    "multiple views, multiple poses, sprite sheet, collage, side by side, "
-    "panel, grid, divided image, two images, tiled, "
-    "background, landscape, forest, trees, sky, ground, grass, rocks, "
-    "outdoor scene, environment, scenery, grey background, colored background, "
-    "gradient background, dark background"
-)
 
-
-def _load_pipeline() -> StableDiffusionImg2ImgPipeline:
-    """Load SD 1.5 img2img pipeline with Ken Sugimori Pokémon LoRA to GPU."""
+def _load_pipeline() -> FluxPipeline:
+    """Load FLUX.1-dev pipeline with WiroAI Pokémon LoRA, offloaded to fit 16GB VRAM."""
     logger.info("loading model: %s", SPRITE_MODEL)
-    pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
+    pipe = FluxPipeline.from_pretrained(
         SPRITE_MODEL,
-        torch_dtype=torch.float16,
-        safety_checker=None,
+        torch_dtype=torch.bfloat16,
     )
-    pipe.scheduler = DPMSolverMultistepScheduler.from_config(
-        pipe.scheduler.config, use_karras_sigmas=True
-    )
-    pipe.to("cuda")
-    pipe.load_lora_weights(SPRITE_LORA)
-    pipe.vae.enable_tiling()
+    pipe.enable_model_cpu_offload()
+    pipe.load_lora_weights(SPRITE_LORA, weight_name=SPRITE_LORA_FILENAME)
     pipe.set_progress_bar_config(disable=True)
     logger.info("model + LoRA loaded")
     return pipe
 
 
-def _build_compel(pipe: StableDiffusionImg2ImgPipeline) -> Compel:
-    """Build Compel encoder for long-prompt support on SD 1.5."""
-    return Compel(
-        tokenizer=pipe.tokenizer,
-        text_encoder=pipe.text_encoder,
-    )
-
-
-def _load_sprite(sprite_path: str) -> Image.Image:
-    """Load original sprite, composite transparency on white, resize to IMAGE_SIZE.
-
-    Args:
-        sprite_path: Path to the original sprite PNG (RGBA).
-
-    Returns:
-        RGB PIL Image resized to IMAGE_SIZE × IMAGE_SIZE.
-
-    Raises:
-        FileNotFoundError: If the sprite file does not exist.
-    """
-    path = Path(sprite_path)
-    if not path.exists():
-        raise FileNotFoundError(f"sprite not found: {sprite_path}")
-
-    sprite = Image.open(path).convert("RGBA")
-
-    # Substep — composite transparency on white background
-    background = Image.new("RGB", sprite.size, (255, 255, 255))
-    background.paste(sprite, mask=sprite.split()[3])
-
-    return background.resize((IMAGE_SIZE, IMAGE_SIZE), Image.LANCZOS)
-
-
 def _generate_sprite(
-    pipe: StableDiffusionImg2ImgPipeline,
-    compel: Compel,
-    base_image: Image.Image,
+    pipe: FluxPipeline,
     instruction: str,
-    negative: str,
     image_path: Path,
 ) -> None:
-    """Run img2img with original sprite as base and save the result to disk.
+    """Run FLUX txt2img and save the sprite to disk.
 
     Args:
-        pipe: Loaded img2img pipeline.
-        compel: Compel encoder instance.
-        base_image: Original sprite as RGB PIL Image.
-        instruction: Positive prompt string.
-        negative: Negative prompt string.
+        pipe: Loaded FLUX pipeline.
+        instruction: Positive prompt string (must include pkmnstyle trigger).
         image_path: Output path for the generated image.
     """
     image_path.parent.mkdir(parents=True, exist_ok=True)
-    conditioning = compel([instruction, negative])
     image = pipe(
-        prompt_embeds=conditioning[0:1],
-        negative_prompt_embeds=conditioning[1:2],
-        image=base_image,
-        strength=IMG2IMG_STRENGTH,
+        prompt=instruction,
         num_inference_steps=IMAGE_STEPS,
-        guidance_scale=7.5,
-        clip_skip=2,
-        cross_attention_kwargs={"scale": 1.0},
+        guidance_scale=FLUX_GUIDANCE_SCALE,
+        width=IMAGE_SIZE,
+        height=IMAGE_SIZE,
     ).images[0]
     image.save(image_path)
 
@@ -165,7 +103,6 @@ def run() -> None:
     # Step 2 – Load model once and generate all sprites
     # ----
     pipe = _load_pipeline()
-    compel = _build_compel(pipe)
     generated = skipped = failed = 0
     dirty_files: set[Path] = set()
 
@@ -183,22 +120,9 @@ def run() -> None:
                 progress.update(1)
                 continue
 
-            # Substep 2.1 – Load original sprite ______________________
             try:
-                base_image = _load_sprite(entry["sprite_path"])
-            except FileNotFoundError as e:
-                logger.error("missing sprite, skipping %s: %s", image_path.name, e)
-                failed += 1
-                progress.update(1)
-                continue
-
-            # Substep 2.2 – Build full negative prompt ______________________
-            entry_negative = entry.get("negative_prompt", "")
-            full_negative = f"{BASE_NEGATIVE}, {entry_negative}" if entry_negative else BASE_NEGATIVE
-
-            try:
-                # 🎨 Generate reimagined sprite from original + text prompt
-                _generate_sprite(pipe, compel, base_image, entry["instruction"], full_negative, image_path)
+                # 🎨 Generate reimagined sprite from text prompt
+                _generate_sprite(pipe, entry["instruction"], image_path)
                 file_entries[file_path][idx]["generated"] = True
                 dirty_files.add(file_path)
                 generated += 1
