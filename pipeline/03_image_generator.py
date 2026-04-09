@@ -12,7 +12,8 @@ import logging
 from pathlib import Path
 
 import torch
-from diffusers import FluxPipeline, BitsAndBytesConfig
+from diffusers import FluxPipeline, BitsAndBytesConfig, FluxTransformer2DModel
+from transformers import T5EncoderModel, BitsAndBytesConfig as BnBConfig
 from tqdm import tqdm
 
 from config import FLUX_GUIDANCE_SCALE, IMAGE_SIZE, IMAGE_STEPS, PROMPTS_DIR, SPRITE_LORA, SPRITE_LORA_FILENAME, SPRITE_MODEL
@@ -25,27 +26,36 @@ logger = logging.getLogger(__name__)
 
 
 def _load_pipeline() -> FluxPipeline:
-    """Load FLUX.1-dev in nf4 4-bit quantization with WiroAI Pokémon LoRA to GPU."""
-    logger.info("loading model: %s (nf4 4-bit)", SPRITE_MODEL)
-    nf4_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-    )
-    pipe = FluxPipeline.from_pretrained(
-        SPRITE_MODEL,
-        transformer=None,
-        torch_dtype=torch.bfloat16,
-    )
-    from diffusers import FluxTransformer2DModel
+    """Load FLUX.1-dev with nf4 transformer + 8-bit T5 encoder to fit 16GB VRAM."""
+    logger.info("loading model: %s (transformer nf4 + T5 int8)", SPRITE_MODEL)
+
+    # Substep — transformer in nf4 4-bit (~6GB VRAM)
     transformer = FluxTransformer2DModel.from_pretrained(
         SPRITE_MODEL,
         subfolder="transformer",
-        quantization_config=nf4_config,
+        quantization_config=BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+        ),
         torch_dtype=torch.bfloat16,
     )
-    pipe.transformer = transformer
-    pipe.to("cuda")
+
+    # Substep — T5 text encoder in 8-bit (~5GB RAM → ~2.5GB)
+    text_encoder_2 = T5EncoderModel.from_pretrained(
+        SPRITE_MODEL,
+        subfolder="text_encoder_2",
+        quantization_config=BnBConfig(load_in_8bit=True),
+        torch_dtype=torch.bfloat16,
+    )
+
+    pipe = FluxPipeline.from_pretrained(
+        SPRITE_MODEL,
+        transformer=transformer,
+        text_encoder_2=text_encoder_2,
+        torch_dtype=torch.bfloat16,
+    )
+    pipe.enable_model_cpu_offload()
     pipe.load_lora_weights(SPRITE_LORA, weight_name=SPRITE_LORA_FILENAME)
     pipe.set_progress_bar_config(disable=True)
     logger.info("model + LoRA loaded")
