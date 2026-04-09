@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).parent
 DATA_DIR = ROOT_DIR / "data"
 OUTPUTS_DIR = ROOT_DIR / "outputs"
-IMAGES_DIR = OUTPUTS_DIR / "images"
+IMAGES_DIR = OUTPUTS_DIR / "txt2img"
 
 POKEMONS_FILE = DATA_DIR / "pokemons.json"
 TYPES_FILE    = DATA_DIR / "types.json"
