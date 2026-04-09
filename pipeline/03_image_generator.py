@@ -1,6 +1,6 @@
 """
 Image Generator — sprite reimagining via FLUX.1-dev txt2img + WiroAI Pokémon LoRA.
-Loads the model once with CPU offload for 16GB VRAM compatibility,
+Loads the model once in nf4 4-bit quantization to fit 16GB VRAM,
 iterates outputs/prompts/*.json and generates one sprite per entry.
 Trigger word: pkmnstyle. No negative prompt (FLUX does not use CFG negation).
 Skips entries where the image already exists (resumable).
@@ -12,7 +12,7 @@ import logging
 from pathlib import Path
 
 import torch
-from diffusers import FluxPipeline
+from diffusers import FluxPipeline, BitsAndBytesConfig
 from tqdm import tqdm
 
 from config import FLUX_GUIDANCE_SCALE, IMAGE_SIZE, IMAGE_STEPS, PROMPTS_DIR, SPRITE_LORA, SPRITE_LORA_FILENAME, SPRITE_MODEL
@@ -25,13 +25,27 @@ logger = logging.getLogger(__name__)
 
 
 def _load_pipeline() -> FluxPipeline:
-    """Load FLUX.1-dev pipeline with WiroAI Pokémon LoRA, offloaded to fit 16GB VRAM."""
-    logger.info("loading model: %s", SPRITE_MODEL)
+    """Load FLUX.1-dev in nf4 4-bit quantization with WiroAI Pokémon LoRA to GPU."""
+    logger.info("loading model: %s (nf4 4-bit)", SPRITE_MODEL)
+    nf4_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_compute_dtype=torch.bfloat16,
+    )
     pipe = FluxPipeline.from_pretrained(
         SPRITE_MODEL,
+        transformer=None,
         torch_dtype=torch.bfloat16,
     )
-    pipe.enable_model_cpu_offload()
+    from diffusers import FluxTransformer2DModel
+    transformer = FluxTransformer2DModel.from_pretrained(
+        SPRITE_MODEL,
+        subfolder="transformer",
+        quantization_config=nf4_config,
+        torch_dtype=torch.bfloat16,
+    )
+    pipe.transformer = transformer
+    pipe.to("cuda")
     pipe.load_lora_weights(SPRITE_LORA, weight_name=SPRITE_LORA_FILENAME)
     pipe.set_progress_bar_config(disable=True)
     logger.info("model + LoRA loaded")

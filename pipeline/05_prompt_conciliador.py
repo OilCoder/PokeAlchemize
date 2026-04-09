@@ -1,17 +1,19 @@
 """
-Prompt Conciliador — consolidates morph and visual tags into a clean SD prompt.
-Receives the outputs of morph_agent and pokemon_agent plus the Pokémon's structural
-description, and produces a single deduplicated prompt within the 77-token CLIP limit.
+Prompt Conciliador — consolidates morph and visual descriptions into a final prompt.
+Supports two output styles controlled by config.PROMPT_STYLE:
+  - "tags"      → comma-separated SD-style keywords, max 10, for SD 1.5 pipelines
+  - "narrative" → 2-3 descriptive sentences in natural language, for FLUX pipelines
 Called by batch_runner.py for each (pokemon, target_type) combination.
 """
 
 import logging
 import requests
-from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT
+from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT, PROMPT_STYLE
 
 logger = logging.getLogger(__name__)
 
-SYSTEM_PROMPT = """You are a Stable Diffusion prompt engineer specializing in Pokémon.
+_SYSTEM_PROMPTS = {
+    "tags": """You are a Stable Diffusion prompt engineer specializing in Pokémon.
 Given a Pokémon's body structure, transformation tags, and visual tags for a new type,
 output a single clean comma-separated prompt.
 
@@ -22,7 +24,21 @@ Rules:
 - Then: include the most relevant transformation tags (type colors, new textures, key features).
 - Remove duplicates and contradictions between the two tag lists.
 - Maximum 10 tags total. Each tag: 1-4 words.
-- Write in English."""
+- Write in English.""",
+
+    "narrative": """You are an image generation prompt writer specializing in Pokémon.
+Given a Pokémon's body structure, transformation tags, and visual tags for a new type,
+output a short natural language description suitable for FLUX image generation.
+
+Rules:
+- Output ONLY the description. No labels, no explanations.
+- Write 2-3 sentences in plain English.
+- Sentence 1: describe the Pokémon's body shape and silhouette (type-neutral anchor).
+- Sentence 2-3: describe the type transformation — new colors, textures, features.
+- Do NOT include the Pokémon's name or type label.
+- Avoid contradictions between sentences.
+- Keep it under 60 words total.""",
+}
 
 
 def consolidate_prompt(
@@ -31,20 +47,26 @@ def consolidate_prompt(
     morph_tags: str,
     pokemon_tags: str,
 ) -> str:
-    """Consolidate morph and visual tags into a clean SD prompt.
+    """Consolidate morph and visual descriptions into a final prompt.
+
+    Output format depends on config.PROMPT_STYLE:
+    - "tags": comma-separated SD keywords (max 10).
+    - "narrative": 2-3 natural language sentences for FLUX.
 
     Args:
         pokemon: Pokémon data dict with keys: id, name, types, structure.
         target_type: The target type being applied (e.g. "fire").
-        morph_tags: Comma-separated tags from morph_agent.
-        pokemon_tags: Comma-separated tags from pokemon_agent.
+        morph_tags: Transformation tags or description from morph_agent.
+        pokemon_tags: Visual tags or description from pokemon_agent.
 
     Returns:
-        A clean comma-separated SD prompt string.
+        Consolidated prompt string in the configured style.
 
     Raises:
         RuntimeError: If the Ollama API call fails.
     """
+    system_prompt = _SYSTEM_PROMPTS.get(PROMPT_STYLE, _SYSTEM_PROMPTS["tags"])
+
     # ----
     # Step 1 – Build user prompt
     # ----
@@ -55,7 +77,7 @@ def consolidate_prompt(
         f"Target type: {target_type}\n"
         f"Transformation tags: {morph_tags}\n"
         f"Visual tags: {pokemon_tags}\n\n"
-        f"Consolidate into a clean SD prompt anchored to the body structure."
+        f"Consolidate into a {'comma-separated SD prompt' if PROMPT_STYLE == 'tags' else 'natural language FLUX description'} anchored to the body structure."
     )
 
     # ----
@@ -64,7 +86,7 @@ def consolidate_prompt(
     payload = {
         "model": OLLAMA_MODEL,
         "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user",   "content": user_prompt},
         ],
         "stream": False,

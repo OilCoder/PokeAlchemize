@@ -50,9 +50,10 @@ OLLAMA_MODEL = "qwen3:14b"
 SPRITE_MODEL          = "black-forest-labs/FLUX.1-dev"
 SPRITE_LORA           = "WiroAI/pokemon-flux-lora"
 SPRITE_LORA_FILENAME  = "pokemon_flux_lora.safetensors"
-IMAGE_SIZE            = 768
+IMAGE_SIZE            = 512
 IMAGE_STEPS           = 20
 FLUX_GUIDANCE_SCALE   = 3.5
+PROMPT_STYLE          = "narrative"   # "tags" → SD 1.5 | "narrative" → FLUX
 
 # ----
 # Step 6 – Background generation (Phase 5 — fondo)

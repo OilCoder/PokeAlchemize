@@ -22,6 +22,7 @@ from config import (
     DEV_TYPES_LIMIT,
     IMAGES_DIR,
     POKEMONS_FILE,
+    PROMPT_STYLE,
     PROMPT_WORKERS,
     PROMPTS_DIR,
     SPRITES_DIR,
@@ -112,7 +113,10 @@ def _process_type(pokemon: dict, type_obj: dict, existing_entries: list) -> dict
         logger.error("conciliador failed %s/%s: %s", pokemon["id"], target_type, e)
         consolidated = f"{morph_instruction}, {pokemon_desc}"
 
-    instruction = f"pkmnstyle, {pokemon['name']}, white background, {consolidated}"
+    if PROMPT_STYLE == "narrative":
+        instruction = f"pkmnstyle, {pokemon['name']}, white background. {consolidated}"
+    else:
+        instruction = f"solo, 1pokemon, sugimori ken (style), {pokemon['name']}, no humans, pokemon (creature), white background, {consolidated}"
 
     # ----
     # Step 3 – Build and return entry
