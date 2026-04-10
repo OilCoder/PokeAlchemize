@@ -50,9 +50,9 @@ OLLAMA_MODEL = "qwen3:14b"
 SPRITE_MODEL          = "Lykon/AnyLoRA"
 SPRITE_LORA           = str(DATA_DIR / "loras" / "pokemon_v3_offset.safetensors")
 SPRITE_LORA_FILENAME  = None  # local file, no filename needed
-IMAGE_SIZE            = 768   # max recomendado por el LoRA
+IMAGE_SIZE            = 580   # max recomendado por el LoRA
 IMAGE_STEPS           = 50
-IMG2IMG_STRENGTH      = 0.999  # 0.0 = sin cambios, 1.0 = ignorar imagen base
+IMG2IMG_STRENGTH      = 0.99999  # 0.0 = sin cambios, 1.0 = ignorar imagen base
 
 # ----
 # Step 6 – Background generation (Phase 5 — fondo)
