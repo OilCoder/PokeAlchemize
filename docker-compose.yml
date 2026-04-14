@@ -13,6 +13,7 @@ services:
       # Persist generated images and metadata outside the container
       - ./outputs:/app/outputs
       - ./data/loras:/app/data/loras
+      - ./debug/img:/app/debug/img
       # Mount models cache so they aren't re-downloaded on rebuild
       - huggingface_cache:/root/.cache/huggingface
     deploy:

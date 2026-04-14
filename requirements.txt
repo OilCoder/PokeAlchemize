@@ -17,3 +17,4 @@ compel>=2.0.0
 sentencepiece>=0.2.0
 protobuf>=4.25.0
 bitsandbytes>=0.43.0
+torchao>=0.9.0
