@@ -14,6 +14,9 @@ from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT, TYPE_VISUAL_DIR
 
 logger = logging.getLogger(__name__)
 
+_REQUIRED_KEYS = {"colors", "anatomy", "effects", "suppress_from_others"}
+_MAX_RETRIES   = 3
+
 SYSTEM_PROMPT = """You are a Pokémon art director specializing in elemental type visual design.
 Your job is to define the visual vocabulary for a Pokémon type so that any Pokémon can be
 reimagined in that type while keeping its identity.
@@ -48,9 +51,11 @@ def _call_ollama(type_name: str, morph_traits: str) -> dict:
         Parsed JSON dict with colors, anatomy, effects, suppress_from_others.
 
     Raises:
-        RuntimeError: If the Ollama API call fails or returns invalid JSON.
+        RuntimeError: If the Ollama API call fails, returns invalid JSON,
+                      or response is missing required keys.
     """
     user_prompt = (
+        f"/no_think\n"
         f"Type: {type_name}\n"
         f"Known morph traits: {morph_traits}\n"
         f"Define the full visual vocabulary for this type."
@@ -76,9 +81,15 @@ def _call_ollama(type_name: str, morph_traits: str) -> dict:
 
     raw = resp.json().get("response", "")
     try:
-        return json.loads(raw)
+        result = json.loads(raw)
     except json.JSONDecodeError as e:
         raise RuntimeError(f"Invalid JSON from Ollama for type '{type_name}': {e}") from e
+
+    missing = _REQUIRED_KEYS - result.keys()
+    if missing:
+        raise RuntimeError(f"Missing keys {missing} in Ollama response for type '{type_name}': {raw[:200]}")
+
+    return result
 
 
 # ----------------------------------------
@@ -88,6 +99,9 @@ def _call_ollama(type_name: str, morph_traits: str) -> dict:
 def run(type_obj: dict) -> dict:
     """Define visual vocabulary for a type and save to data/types_visual/{type}.json.
 
+    Skips if a valid file already exists (all required keys present).
+    Retries up to _MAX_RETRIES times on empty or malformed responses.
+
     Args:
         type_obj: Dict with keys name and morph_traits.
 
@@ -95,18 +109,33 @@ def run(type_obj: dict) -> dict:
         The visual vocabulary dict saved to disk.
 
     Raises:
-        RuntimeError: If the Ollama call fails.
+        RuntimeError: If all retry attempts fail.
     """
     type_name = type_obj["name"]
     out_path  = TYPE_VISUAL_DIR / f"{type_name}.json"
 
+    # Skip only if file is valid (has required keys)
     if out_path.exists():
-        logger.info("skip (exists): %s", out_path.name)
         with open(out_path, encoding="utf-8") as f:
-            return json.load(f)
+            existing = json.load(f)
+        if _REQUIRED_KEYS.issubset(existing.keys()):
+            logger.info("skip (exists): %s", out_path.name)
+            return existing
+        logger.warning("regenerating incomplete file: %s", out_path.name)
 
     logger.info("designing type: %s", type_name)
-    vocabulary = _call_ollama(type_name, type_obj.get("morph_traits", ""))
+
+    last_error = None
+    for attempt in range(1, _MAX_RETRIES + 1):
+        try:
+            vocabulary = _call_ollama(type_name, type_obj.get("morph_traits", ""))
+            break
+        except RuntimeError as e:
+            last_error = e
+            logger.warning("attempt %d/%d failed for %s: %s", attempt, _MAX_RETRIES, type_name, e)
+    else:
+        raise RuntimeError(f"All {_MAX_RETRIES} attempts failed for type '{type_name}': {last_error}")
+
     vocabulary["type_name"] = type_name
 
     TYPE_VISUAL_DIR.mkdir(parents=True, exist_ok=True)

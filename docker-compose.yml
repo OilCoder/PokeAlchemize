@@ -13,6 +13,9 @@ services:
       # Persist generated images and metadata outside the container
       - ./outputs:/app/outputs
       - ./data/loras:/app/data/loras
+      - ./data/pokemon:/app/data/pokemon
+      - ./data/types_visual:/app/data/types_visual
+      - ./data/prompts:/app/data/prompts
       - ./debug/img:/app/debug/img
       # Mount models cache so they aren't re-downloaded on rebuild
       - huggingface_cache:/root/.cache/huggingface

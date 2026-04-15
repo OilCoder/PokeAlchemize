@@ -20,6 +20,7 @@ from config import (
     DEV_CLEAN,
     DEV_POKEMON_IDS,
     DEV_POKEMON_LIMIT,
+    DEV_TYPE_NAMES,
     DEV_TYPES_LIMIT,
     IMAGES_DIR,
     POKEMON_DIR,
@@ -165,7 +166,9 @@ def run() -> None:
         pokemons = [p for p in pokemons if p["id"] in DEV_POKEMON_IDS]
     elif DEV_POKEMON_LIMIT is not None:
         pokemons = pokemons[:DEV_POKEMON_LIMIT]
-    if DEV_TYPES_LIMIT is not None:
+    if DEV_TYPE_NAMES is not None:
+        types = [t for t in types if t["name"] in DEV_TYPE_NAMES]
+    elif DEV_TYPES_LIMIT is not None:
         types = types[:DEV_TYPES_LIMIT]
 
     logger.info("running: %d pokémon × %d types", len(pokemons), len(types))

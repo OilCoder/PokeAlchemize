@@ -14,6 +14,9 @@ from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT, POKEMON_DIR
 
 logger = logging.getLogger(__name__)
 
+_REQUIRED_KEYS = {"identity_traits", "original_type_traits", "transformable_parts", "suppress_colors"}
+_MAX_RETRIES   = 3
+
 SYSTEM_PROMPT = """You are a Pokémon visual anatomy expert. Your job is to analyze a Pokémon
 and describe its visual structure so an artist can reimagine it with a different elemental type.
 
@@ -43,9 +46,11 @@ def _call_ollama(pokemon: dict) -> dict:
         transformable_parts, suppress_colors.
 
     Raises:
-        RuntimeError: If the Ollama API call fails or returns invalid JSON.
+        RuntimeError: If the Ollama API call fails, returns invalid JSON,
+                      or response is missing required keys.
     """
     user_prompt = (
+        f"/no_think\n"
         f"Pokémon: {pokemon['name']} (#{pokemon['id']})\n"
         f"Original types: {', '.join(pokemon['types'])}\n"
         f"Analyze its visual anatomy for type transformation."
@@ -71,9 +76,15 @@ def _call_ollama(pokemon: dict) -> dict:
 
     raw = resp.json().get("response", "")
     try:
-        return json.loads(raw)
+        result = json.loads(raw)
     except json.JSONDecodeError as e:
         raise RuntimeError(f"Invalid JSON from Ollama for {pokemon['name']}: {e}") from e
+
+    missing = _REQUIRED_KEYS - result.keys()
+    if missing:
+        raise RuntimeError(f"Missing keys {missing} in Ollama response for {pokemon['name']}: {raw[:200]}")
+
+    return result
 
 
 # ----------------------------------------
@@ -83,6 +94,9 @@ def _call_ollama(pokemon: dict) -> dict:
 def run(pokemon: dict) -> dict:
     """Analyze Pokémon visual anatomy and save result to data/pokemon/{id}.json.
 
+    Skips if a valid file already exists (all required keys present).
+    Retries up to _MAX_RETRIES times on empty or malformed responses.
+
     Args:
         pokemon: Dict with keys id, name, types.
 
@@ -90,16 +104,32 @@ def run(pokemon: dict) -> dict:
         The analysis dict saved to disk.
 
     Raises:
-        RuntimeError: If the Ollama call fails.
+        RuntimeError: If all retry attempts fail.
     """
     out_path = POKEMON_DIR / f"{pokemon['id']}.json"
+
+    # Skip only if file is valid (has required keys)
     if out_path.exists():
-        logger.info("skip (exists): %s", out_path.name)
         with open(out_path, encoding="utf-8") as f:
-            return json.load(f)
+            existing = json.load(f)
+        if _REQUIRED_KEYS.issubset(existing.keys()):
+            logger.info("skip (exists): %s", out_path.name)
+            return existing
+        logger.warning("regenerating incomplete file: %s", out_path.name)
 
     logger.info("analyzing: %s (%s)", pokemon["name"], pokemon["id"])
-    analysis = _call_ollama(pokemon)
+
+    last_error = None
+    for attempt in range(1, _MAX_RETRIES + 1):
+        try:
+            analysis = _call_ollama(pokemon)
+            break
+        except RuntimeError as e:
+            last_error = e
+            logger.warning("attempt %d/%d failed for %s: %s", attempt, _MAX_RETRIES, pokemon["name"], e)
+    else:
+        raise RuntimeError(f"All {_MAX_RETRIES} attempts failed for {pokemon['name']}: {last_error}")
+
     analysis["pokemon_id"]   = pokemon["id"]
     analysis["pokemon_name"] = pokemon["name"]
 

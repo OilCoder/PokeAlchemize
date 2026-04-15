@@ -1,7 +1,8 @@
 """
 Image Generator — SDXL + ControlNet Union + pokesprite LoRA sprite renderer.
-Loads pipeline once, extracts OpenCV Canny lineart from original sprites,
-generates 768px type-transformed Pokémon sprites from all prompt JSONs.
+Loads pipeline once, extracts PIL lineart from original sprites,
+generates 1024px type-transformed Pokémon sprites from all prompt JSONs.
+Config matches validated debug/dbg_sdxl_controlnet_v2 parameters.
 Saves outputs/images/{id}_{type}.png. Called by batch_runner.py (Phase D).
 """
 
@@ -9,15 +10,12 @@ import json
 import logging
 from pathlib import Path
 
-import cv2
-import numpy as np
 import torch
 from diffusers import (
     ControlNetModel,
-    EulerDiscreteScheduler,
     StableDiffusionXLControlNetPipeline,
 )
-from PIL import Image
+from PIL import Image, ImageFilter, ImageOps
 
 from config import (
     CONTROLNET_MODEL,
@@ -35,18 +33,15 @@ from config import (
 
 logger = logging.getLogger(__name__)
 
-# Canny thresholds — tuned for thick sprite outlines at native resolution
-_CANNY_LOW   = 50
-_CANNY_HIGH  = 150
-_NATIVE_SIZE = 475  # resize sprite to this before edge detection
-
 
 # ----------------------------------------
 # Step 1 — Pipeline loader
 # ----------------------------------------
 
 def _load_pipeline() -> StableDiffusionXLControlNetPipeline:
-    """Load SDXL + ControlNet Union + pokesprite LoRA with EulerDiscrete + Karras.
+    """Load SDXL + ControlNet Union + pokesprite LoRA.
+
+    Uses default scheduler (same as validated dbg_sdxl_controlnet_v2).
 
     Returns:
         Loaded StableDiffusionXLControlNetPipeline ready for inference.
@@ -68,19 +63,13 @@ def _load_pipeline() -> StableDiffusionXLControlNetPipeline:
     )
     pipe.enable_model_cpu_offload()
 
-    logger.info("scheduler: EulerDiscrete + Karras sigmas")
-    pipe.scheduler = EulerDiscreteScheduler.from_config(
-        pipe.scheduler.config,
-        use_karras_sigmas=True,
-    )
-
     logger.info("loading LoRA: %s (scale=%.2f)", LORA_PATH, LORA_SCALE)
     pipe.load_lora_weights(LORA_PATH)
     pipe.fuse_lora(lora_scale=LORA_SCALE)
 
     logger.info(
-        "pipeline ready — size=%d steps=%d guidance=%.1f controlnet=%.2f",
-        IMAGE_SIZE, IMAGE_STEPS, GUIDANCE_SCALE, CONTROLNET_SCALE,
+        "pipeline ready — size=%d steps=%d guidance=%.1f controlnet=%.2f lora=%.2f",
+        IMAGE_SIZE, IMAGE_STEPS, GUIDANCE_SCALE, CONTROLNET_SCALE, LORA_SCALE,
     )
     return pipe
 
@@ -89,30 +78,40 @@ def _load_pipeline() -> StableDiffusionXLControlNetPipeline:
 # Step 2 — Lineart extraction
 # ----------------------------------------
 
-def _extract_lineart(pokemon_id: str) -> Image.Image:
-    """Extract Canny lineart from original sprite at native resolution, then upscale.
-
-    Uses OpenCV Canny at _NATIVE_SIZE to avoid double-edge artifacts from
-    thick sprite outlines. LANCZOS upscale preserves line sharpness at IMAGE_SIZE.
+def _load_sprite(pokemon_id: str) -> Image.Image:
+    """Load sprite PNG, composite on white background, resize to IMAGE_SIZE.
 
     Args:
         pokemon_id: Zero-padded Pokémon ID (e.g. '025').
 
     Returns:
-        RGB PIL image with black lines on white background, sized IMAGE_SIZE × IMAGE_SIZE.
+        RGB PIL image resized to IMAGE_SIZE × IMAGE_SIZE.
     """
     sprite_path = SPRITES_DIR / f"{pokemon_id}.png"
     sprite      = Image.open(sprite_path).convert("RGBA")
-
-    bg = Image.new("RGB", sprite.size, (255, 255, 255))
+    bg          = Image.new("RGB", sprite.size, (255, 255, 255))
     bg.paste(sprite, mask=sprite.split()[3])
-    bg = bg.resize((_NATIVE_SIZE, _NATIVE_SIZE), Image.LANCZOS)
+    return bg.resize((IMAGE_SIZE, IMAGE_SIZE), Image.LANCZOS)
 
-    gray  = cv2.cvtColor(np.array(bg), cv2.COLOR_RGB2GRAY)
-    edges = cv2.Canny(gray, _CANNY_LOW, _CANNY_HIGH)
 
-    lineart = Image.fromarray(255 - edges).convert("RGB")
-    return lineart.resize((IMAGE_SIZE, IMAGE_SIZE), Image.LANCZOS)
+def _extract_lineart(image: Image.Image) -> Image.Image:
+    """Extract lineart using GaussianBlur + FIND_EDGES + binary threshold.
+
+    GaussianBlur antes de FIND_EDGES consolida el gradiente en un único pico
+    por borde, evitando la línea doble del kernel Laplaciano puro.
+    Umbral binario elimina el halo y produce líneas limpias.
+
+    Args:
+        image: RGB sprite image at IMAGE_SIZE.
+
+    Returns:
+        RGB lineart image (black lines on white background).
+    """
+    gray   = image.convert("L")
+    gray   = gray.filter(ImageFilter.GaussianBlur(radius=1))
+    edges  = gray.filter(ImageFilter.FIND_EDGES)
+    edges  = edges.point(lambda x: 255 if x > 20 else 0)
+    return ImageOps.invert(edges).convert("RGB")
 
 
 # ----------------------------------------
@@ -142,7 +141,8 @@ def _generate_one(
         return out_path
 
     torch.cuda.empty_cache()
-    lineart = _extract_lineart(pokemon_id)
+    sprite  = _load_sprite(pokemon_id)
+    lineart = _extract_lineart(sprite)
 
     image = pipe(
         prompt=prompt_data["prompt"],
@@ -188,7 +188,7 @@ def run() -> None:
             with open(pf, encoding="utf-8") as f:
                 prompt_data = json.load(f)
 
-            out_path = IMAGES_DIR / f"{prompt_data['pokemon_id']}_{prompt_data['target_type']}.png"
+            out_path       = IMAGES_DIR / f"{prompt_data['pokemon_id']}_{prompt_data['target_type']}.png"
             already_existed = out_path.exists()
 
             _generate_one(pipe, prompt_data)

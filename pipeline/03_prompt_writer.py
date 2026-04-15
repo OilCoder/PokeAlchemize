@@ -22,6 +22,9 @@ from config import (
 
 logger = logging.getLogger(__name__)
 
+_REQUIRED_KEYS = {"prompt", "prompt_2", "negative", "negative_2"}
+_MAX_RETRIES   = 3
+
 SYSTEM_PROMPT = """You are an expert Stable Diffusion XL prompt engineer for Pokémon sprite generation.
 SDXL has two text encoders — you write a different string for each:
 
@@ -68,13 +71,15 @@ def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str
         Parsed JSON dict with prompt, prompt_2, negative, negative_2.
 
     Raises:
-        RuntimeError: If the Ollama API call fails or returns invalid JSON.
+        RuntimeError: If the Ollama API call fails, returns invalid JSON,
+                      or response is missing required keys.
     """
     name = pokemon_analysis.get("pokemon_name", "unknown")
     pid  = pokemon_analysis.get("pokemon_id", "000")
 
     colors = type_vocabulary.get("colors", {})
     user_prompt = (
+        f"/no_think\n"
         f"Pokémon: {name} (#{pid})\n"
         f"Target type: {target_type}\n\n"
         f"=== E1 — Pokémon anatomy ===\n"
@@ -112,9 +117,15 @@ def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str
 
     raw = resp.json().get("response", "")
     try:
-        return json.loads(raw)
+        result = json.loads(raw)
     except json.JSONDecodeError as e:
         raise RuntimeError(f"Invalid JSON from Ollama for {name}/{target_type}: {e}") from e
+
+    missing = _REQUIRED_KEYS - result.keys()
+    if missing:
+        raise RuntimeError(f"Missing keys {missing} in Ollama response for {name}/{target_type}: {raw[:200]}")
+
+    return result
 
 
 # ----------------------------------------
@@ -125,6 +136,8 @@ def run(pokemon_id: str, target_type: str) -> dict:
     """Generate SDXL prompt strings for one (Pokémon, type) combination.
 
     Reads E1 and E2 JSONs, calls Ollama, saves data/prompts/{id}_{type}.json.
+    Skips if a valid file already exists (all required keys present).
+    Retries up to _MAX_RETRIES times on empty or malformed responses.
 
     Args:
         pokemon_id: Zero-padded Pokémon ID (e.g. '025').
@@ -135,13 +148,18 @@ def run(pokemon_id: str, target_type: str) -> dict:
 
     Raises:
         FileNotFoundError: If E1 or E2 JSON is missing.
-        RuntimeError: If Ollama call fails.
+        RuntimeError: If all retry attempts fail.
     """
     out_path = PROMPTS_DIR / f"{pokemon_id}_{target_type}.json"
+
+    # Skip only if file is valid (has required keys)
     if out_path.exists():
-        logger.info("skip (exists): %s", out_path.name)
         with open(out_path, encoding="utf-8") as f:
-            return json.load(f)
+            existing = json.load(f)
+        if _REQUIRED_KEYS.issubset(existing.keys()):
+            logger.info("skip (exists): %s", out_path.name)
+            return existing
+        logger.warning("regenerating incomplete file: %s", out_path.name)
 
     e1_path = POKEMON_DIR / f"{pokemon_id}.json"
     e2_path = TYPE_VISUAL_DIR / f"{target_type}.json"
@@ -157,7 +175,18 @@ def run(pokemon_id: str, target_type: str) -> dict:
         type_vocabulary = json.load(f)
 
     logger.info("writing prompt: %s × %s", pokemon_id, target_type)
-    prompts = _call_ollama(pokemon_analysis, type_vocabulary, target_type)
+
+    last_error = None
+    for attempt in range(1, _MAX_RETRIES + 1):
+        try:
+            prompts = _call_ollama(pokemon_analysis, type_vocabulary, target_type)
+            break
+        except RuntimeError as e:
+            last_error = e
+            logger.warning("attempt %d/%d failed for %s/%s: %s", attempt, _MAX_RETRIES, pokemon_id, target_type, e)
+    else:
+        raise RuntimeError(f"All {_MAX_RETRIES} attempts failed for {pokemon_id}/{target_type}: {last_error}")
+
     prompts["pokemon_id"]  = pokemon_id
     prompts["target_type"] = target_type
 
