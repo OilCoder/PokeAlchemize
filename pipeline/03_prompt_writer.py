@@ -22,49 +22,42 @@ from config import (
 
 logger = logging.getLogger(__name__)
 
-_REQUIRED_KEYS = {"prompt", "prompt_2", "negative", "negative_2"}
+_REQUIRED_KEYS = {"prompt"}
 _MAX_RETRIES   = 3
 
-SYSTEM_PROMPT = """You are an expert Stable Diffusion XL prompt engineer for Pokémon sprite generation.
-SDXL has two text encoders — you write a different string for each:
-
-  prompt    → CLIP-L: short style-anchor tags, max 20 tokens, comma-separated keywords
-  prompt_2  → OpenCLIP-G: natural language description of the transformed Pokémon, 40-60 words
-
-You also write two negatives:
-  negative   → CLIP-L: suppression keywords, max 15 tokens
-  negative_2 → OpenCLIP-G: explicit description of what MUST NOT appear, 20-35 words,
-               name each original-type body part and state its replacement
-               (e.g. "tail must not have a flame, tail has a water fin instead")
+SYSTEM_PROMPT = """You are an expert FLUX.1-dev prompt engineer for Pokémon sprite generation.
+FLUX.1-dev uses a T5-XXL text encoder that understands natural language descriptions precisely.
+Write prompts as flowing descriptive sentences — NOT comma-separated keyword lists.
 
 Context: E1 Pokémon anatomy analysis + E2 target type visual vocabulary.
 
-Return ONLY valid JSON with exactly these keys:
+Return ONLY valid JSON with exactly this key:
 {
-  "prompt":    "...",
-  "prompt_2":  "...",
-  "negative":  "...",
-  "negative_2": "..."
+  "prompt": "..."
 }
 
-Rules:
-- The Pokémon must remain RECOGNIZABLE. Use the E1 anatomy to identify its iconic features
-  (e.g. Meowth's whiskers and coin, Pikachu's ears and tail, Bulbasaur's bulb).
-  Those iconic features must stay — only recolor and retexture them to match the target type.
-  You may add type-specific effects on top (aura, particles, glow, frost, flames) but
-  do NOT replace the iconic features, do NOT add new limbs, do NOT change the silhouette.
-- Propose as many visual changes as the type transformation naturally calls for —
-  the goal is a convincing type reinterpretation, not a minimal tweak.
-- prompt must start with: pkmnstyle, solo, white background
-- prompt_2 must describe how each part of the Pokémon looks after the type transformation,
-  referencing its iconic anatomy from E1
-- negative must list original-type colors and icon traits as comma-separated tokens,
-  and ALWAYS include: multiple creatures, two pokemon, duo, extra character, text, watermark, signature, logo
-- negative_2 must suppress original colors and conflicting type elements.
-  Always end with: "Only one Pokémon must appear in the image. No text, watermarks, or signatures."
-- If the target type is ghost: the Pokémon body must remain SOLID and clearly visible —
-  translucent or glowing is fine, but the full recognizable shape must be present.
-  Ghost effects (aura, wisps, shadows) surround the body, they do NOT replace it.
+Prompt structure (follow this order):
+1. Style anchor: start with exactly "pkmnstyle, solo, white background."
+2. Subject line: one sentence naming the Pokémon and its new type.
+3. Identity anchors: copy the E1 anchor_phrases VERBATIM — these are non-negotiable.
+4. Original type suppression: for each trait in E1 original_type_traits, write an explicit
+   negation using the pattern "there is no [trait], [body part] does not have [trait]".
+   Example: "there is no flame on the tail, the tail does not have fire, only a crystal ice spike."
+   Place this BEFORE the type transformation description so T5-XXL weighs it heavily.
+5. Type transformation: describe each body part's new appearance in natural language,
+   referencing E2 anatomy and effects. Be bold — change colors, textures, anatomy, and pose.
+   Add type-specific body parts freely: wings, fins, crystal armor, flame mane, spectral tendrils.
+6. Atmosphere: 1-2 sentences on visual effects and lighting that reinforce the type.
+7. Avoidances: end with "There is only one Pokémon. No text, no watermarks, no signatures."
+
+Writing rules:
+- Use descriptive sentences, not tag lists. "Its tail ends in a sharp ice crystal spike"
+  is better than "ice tail, crystal, frozen".
+- Suppression: one short phrase per original trait. "no flame, tail is ice crystal only."
+- Use E1 anchor_phrases verbatim — they are short by design.
+- Type transformation: 2-3 sentences maximum, most important changes only.
+- For ghost type: body SOLID and visible, effects surround it, do not replace it.
+- STRICT total prompt length: 55-70 words maximum. Count every word. Be ruthless.
 - All output in English. No explanations outside the JSON."""
 
 
@@ -91,6 +84,7 @@ def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str
     pid  = pokemon_analysis.get("pokemon_id", "000")
 
     colors = type_vocabulary.get("colors", {})
+    anchor_phrases = pokemon_analysis.get("anchor_phrases", [])
     user_prompt = (
         f"/no_think\n"
         f"Pokémon: {name} (#{pid})\n"
@@ -99,7 +93,8 @@ def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str
         f"Identity traits: {', '.join(pokemon_analysis.get('identity_traits', []))}\n"
         f"Original type traits to replace: {', '.join(pokemon_analysis.get('original_type_traits', []))}\n"
         f"Transformable parts: {', '.join(pokemon_analysis.get('transformable_parts', []))}\n"
-        f"Colors to suppress: {', '.join(pokemon_analysis.get('suppress_colors', []))}\n\n"
+        f"Colors to suppress: {', '.join(pokemon_analysis.get('suppress_colors', []))}\n"
+        f"ANCHOR PHRASES (copy verbatim into prompt): {' | '.join(anchor_phrases)}\n\n"
         f"=== E2 — Type visual vocabulary ===\n"
         f"Colors primary: {', '.join(colors.get('primary', []))}\n"
         f"Colors secondary: {', '.join(colors.get('secondary', []))}\n"
@@ -107,7 +102,7 @@ def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str
         f"Anatomy: {', '.join(type_vocabulary.get('anatomy', []))}\n"
         f"Effects: {', '.join(type_vocabulary.get('effects', []))}\n"
         f"Suppress from others: {', '.join(type_vocabulary.get('suppress_from_others', []))}\n\n"
-        f"Write the 4 SDXL prompt strings for this transformation."
+        f"Write the single FLUX prompt for this transformation."
     )
 
     payload = {
@@ -138,6 +133,14 @@ def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str
     missing = _REQUIRED_KEYS - result.keys()
     if missing:
         raise RuntimeError(f"Missing keys {missing} in Ollama response for {name}/{target_type}: {raw[:200]}")
+
+    # Hard-cap at 90 words — qwen3 ignores word-count instructions.
+    # Truncate at sentence boundary to avoid cut mid-phrase.
+    words = result["prompt"].split()
+    if len(words) > 90:
+        truncated = " ".join(words[:90])
+        last_period = truncated.rfind(".")
+        result["prompt"] = truncated[:last_period + 1] if last_period > 60 else truncated
 
     return result
 

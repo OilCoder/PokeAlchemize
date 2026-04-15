@@ -14,7 +14,7 @@ from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT, POKEMON_DIR
 
 logger = logging.getLogger(__name__)
 
-_REQUIRED_KEYS = {"identity_traits", "original_type_traits", "transformable_parts", "suppress_colors"}
+_REQUIRED_KEYS = {"identity_traits", "original_type_traits", "transformable_parts", "suppress_colors", "anchor_phrases"}
 _MAX_RETRIES   = 3
 
 SYSTEM_PROMPT = """You are a Pokémon visual anatomy expert. Your job is to analyze a Pokémon
@@ -25,8 +25,15 @@ Return ONLY valid JSON with exactly these keys:
   "identity_traits": ["4-6 core visual features that make this Pokémon recognizable regardless of type"],
   "original_type_traits": ["3-5 visual features clearly derived from its original type(s), e.g. flame tail, leaf bulb, rock shell"],
   "transformable_parts": ["4-6 body parts that can visually express a new type, e.g. tail, shell, skin texture, back growth"],
-  "suppress_colors": ["3-5 specific colors to suppress when changing type, tied to original type palette"]
+  "suppress_colors": ["3-5 specific colors to suppress when changing type, tied to original type palette"],
+  "anchor_phrases": ["2-3 exact visual phrases that MUST appear verbatim in any generation prompt to preserve identity,
+    e.g. 'gold yen coin embedded on forehead', 'curled spiral tail tip', 'bipedal stance with short arms extended outward'"]
 }
+
+anchor_phrases rules:
+- Each phrase must name a SPECIFIC physical feature with its exact appearance (shape, color, placement).
+- These phrases will be copied verbatim into image generation prompts — write them as precise visual descriptions.
+- Prioritize the 2-3 features that most uniquely identify this Pokémon from any similar species.
 
 Be specific and concrete. Focus on anatomy, not lore. No explanations outside the JSON."""
 

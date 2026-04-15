@@ -10,9 +10,8 @@ generadas localmente (RTX 4080), pre-generadas en batch; la web solo muestra res
 ## Stack
 | Capa          | Tecnología                                    |
 |---------------|-----------------------------------------------|
-| LLM (prompts) | Ollama                                        |
-| Sprite        | SDXL (stabilityai/stable-diffusion-xl-base-1.0) + ControlNet (xinsir/controlnet-union-sdxl-1.0) + pokesprite.safetensors LoRA |
-| Lineart       | PIL GaussianBlur(r=1) + FIND_EDGES + threshold + invert (1024px) |
+| LLM (prompts) | Ollama — qwen3:30b-a3b                        |
+| Sprite        | FLUX.1-dev (black-forest-labs) + WiroAI/pokemon-flux-lora |
 | Fondo         | libre (generado por el modelo)                |
 | Datos Pokémon | sprites locales en data/sprites/              |
 | Web           | HTML / CSS / JS estático                      |
@@ -68,6 +67,8 @@ PokeAIchemize/
 - [x] `pipeline/01_pokemon_analyst.py`: E1 — Ollama analiza cada Pokémon y extrae identity_traits, original_type_traits, transformable_parts, suppress_colors → `data/pokemon/{id}.json` (150 runs) (2026-04-14)
 - [x] `pipeline/02_type_designer.py`: E2 — Ollama define vocabulario visual por tipo: colors, anatomy, effects, suppress_from_others → `data/types_visual/{type}.json` (18 runs) (2026-04-14)
 - [x] `pipeline/03_prompt_writer.py`: E3 — Ollama combina E1+E2 y escribe prompt, prompt_2, negative, negative_2 → `data/prompts/{id}_{type}.json` (2700 runs) (2026-04-14)
+- [x] `pipeline/01_pokemon_analyst.py`: añadir campo `anchor_phrases` al schema E1 — 2-3 frases exactas para anclar identidad en prompt FLUX (2026-04-15)
+- [x] `pipeline/03_prompt_writer.py`: reescribir para FLUX.1-dev — prompt único T5-XXL, patrón "there is no X" para supresión, verbatim anchor_phrases, hard-cap 90 palabras (2026-04-15)
 
 ### Phase 4 — Sprite Generator
 - [x] `pipeline/04_image_generator.py`: SDXL + ControlNet + pokesprite LoRA, PIL lineart, EulerDiscrete+Karras (2026-04-14)
@@ -76,12 +77,18 @@ PokeAIchemize/
 - [x] Config actual: STEPS=40, GUIDANCE_SCALE=8, LORA_SCALE=0.75, CONTROLNET_SCALE=0.35, EulerDiscrete+Karras (2026-04-15)
 - [x] `data/pokemons.json`: Eevee y su familia (133–136) excluidos del dataset (2026-04-15)
 - [x] `pipeline/03_prompt_writer.py`: E3 system prompt mejorado — preserva silueta y rasgos icónicos E1, negativos incluyen solo-character enforcement (2026-04-15)
-- [ ] Validar dev run: 9 Pokémon × 3 tipos = 25 imágenes con config actual y nuevo system prompt E3
-- [ ] Revisar CLIP token truncation en `prompt_2` (054 Psyduck, 143 Snorlax superan 77 tokens)
+- [x] `pipeline/04_image_generator.py`: migrar SDXL+ControlNet → FLUX.1-dev + FluxPipeline + WiroAI/pokemon-flux-lora (2026-04-15)
+- [x] `config.py`: reemplazar parámetros SDXL/ControlNet por FLUX — STEPS=28, GUIDANCE_SCALE=3.5, LORA_SCALE=0.85 (2026-04-15)
+- [ ] Validar dev run: 9 Pokémon × 3 tipos = 25 imágenes con FLUX + anchor_phrases + supresión "there is no X"
 - [ ] Decidir si escalar a 146 Pokémon × 18 tipos = 2,628 imágenes
 - [ ] Generar los ~2,628 sprites reimaginados (batch completo)
 
-### Phase 5 — Web Pokédex
+### Phase 5 — Experimentos futuros (branch separado)
+- [ ] Explorar modelo visual (qwen2.5-vl o llava) como reemplazo de E1 — analizar el sprite
+  directamente desde la imagen para extraer rasgos con mayor precisión que el análisis textual
+- [ ] Evaluar FLUX.1-schnell como alternativa de velocidad (~30s/imagen vs ~5min con dev)
+
+### Phase 6 — Web Pokédex
 - [ ] `web/index.html`: grid de los 150 Pokémon navegable
 - [ ] `web/app.js`: al seleccionar un Pokémon, mostrar sprite original + 18 versiones reimaginadas
 - [ ] `web/style.css`: diseño estilo Pokédex

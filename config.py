@@ -49,13 +49,12 @@ OLLAMA_TIMEOUT = 300  # seconds; qwen3:14b needs ~2-3min on cold load
 OLLAMA_MODEL = "qwen3:30b-a3b"  # MoE 30B, ~3B activos/token — mejor razonamiento que 14B denso
 
 # ----
-# Step 5 – SDXL + ControlNet + pokesprite LoRA (image generation)
+# Step 5 – FLUX.1-dev + WiroAI pokemon LoRA (image generation)
 # ----
-SDXL_MODEL       = "stabilityai/stable-diffusion-xl-base-1.0"  # modelo base; entrenado a 1024px nativo
-CONTROLNET_MODEL = "xinsir/controlnet-union-sdxl-1.0"          # ControlNet multi-tipo unificado para SDXL
-LORA_PATH        = str(DATA_DIR / "loras" / "pokesprite.safetensors")  # LoRA estilo sprite Pokémon; trigger: pkmnstyle
-IMAGE_SIZE       = 1024    # resolución nativa SDXL; bajar a 768 degrada la coherencia
-IMAGE_STEPS      = 40      # pasos de difusión; 40 con Euler+Karras ≈ calidad de 50 con DDIM
-GUIDANCE_SCALE   = 7.5     # adherencia al prompt; >9 satura colores, <7 pierde el type
-LORA_SCALE       = 0.85    # peso de la LoRA; 1.0 sobreimpone el estilo, <0.6 lo pierde
-CONTROLNET_SCALE = 0.45    # fuerza del lineart; >0.6 rigidiza la pose, <0.3 la ignora
+FLUX_MODEL        = "black-forest-labs/FLUX.1-dev"          # modelo base; comprensión semántica T5-XXL
+FLUX_LORA         = "WiroAI/pokemon-flux-lora"              # LoRA estilo sprite Pokémon; trigger: pkmnstyle
+FLUX_LORA_WEIGHT  = "pokemon_flux_lora.safetensors"         # nombre del archivo en el repositorio HF
+IMAGE_SIZE        = 1024   # resolución nativa FLUX; óptimo para detalle y coherencia
+IMAGE_STEPS       = 28     # FLUX converge en 28 pasos con guidance 3.5
+GUIDANCE_SCALE    = 3.5    # rango óptimo FLUX; valores SDXL (7-9) sobreexponen colores
+LORA_SCALE        = 0.85   # peso de la LoRA; 1.0 sobreimpone el estilo, <0.6 lo pierde
