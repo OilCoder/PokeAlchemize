@@ -13,11 +13,11 @@ TYPES_FILE    = DATA_DIR / "types.json"
 SPRITES_DIR   = DATA_DIR / "sprites"
 
 # E1 outputs: one JSON per Pokémon
-POKEMON_DIR = DATA_DIR / "pokemon"
+POKEMON_DIR = OUTPUTS_DIR / "pokemon"
 # E2 outputs: one JSON per type
-TYPE_VISUAL_DIR = DATA_DIR / "types_visual"
+TYPE_VISUAL_DIR = OUTPUTS_DIR / "types_visual"
 # E3 outputs: one JSON per (pokemon, type) combination
-PROMPTS_DIR = DATA_DIR / "prompts"
+PROMPTS_DIR = OUTPUTS_DIR / "prompts"
 
 # ----
 # Step 2 – Parallelization

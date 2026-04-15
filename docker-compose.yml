@@ -10,12 +10,14 @@ services:
       - CUDA_VISIBLE_DEVICES=0
       - HF_TOKEN=${HF_TOKEN}
     volumes:
-      # Persist generated images and metadata outside the container
+      # Source code — cambios en el host se reflejan en el container sin rebuild
+      - ./pipeline:/app/pipeline
+      - ./config.py:/app/config.py
+      - ./data/pokemons.json:/app/data/pokemons.json
+      - ./data/types.json:/app/data/types.json
+      # Outputs generados — persisten en el host al parar Docker
       - ./outputs:/app/outputs
       - ./data/loras:/app/data/loras
-      - ./data/pokemon:/app/data/pokemon
-      - ./data/types_visual:/app/data/types_visual
-      - ./data/prompts:/app/data/prompts
       - ./debug/img:/app/debug/img
       # Mount models cache so they aren't re-downloaded on rebuild
       - huggingface_cache:/root/.cache/huggingface
