@@ -1250,42 +1250,6 @@
     "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
   },
   {
-    "id": "133",
-    "name": "eevee",
-    "types": [
-      "normal"
-    ],
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
-    "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
-  },
-  {
-    "id": "134",
-    "name": "vaporeon",
-    "types": [
-      "water"
-    ],
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
-    "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
-  },
-  {
-    "id": "135",
-    "name": "jolteon",
-    "types": [
-      "electric"
-    ],
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
-    "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
-  },
-  {
-    "id": "136",
-    "name": "flareon",
-    "types": [
-      "fire"
-    ],
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
-    "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
-  },
-  {
     "id": "137",
     "name": "porygon",
     "types": [

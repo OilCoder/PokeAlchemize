@@ -48,10 +48,20 @@ Return ONLY valid JSON with exactly these keys:
 }
 
 Rules:
+- The Pokémon must remain RECOGNIZABLE. Use the E1 anatomy to identify its iconic features
+  (e.g. Meowth's whiskers and coin, Pikachu's ears and tail, Bulbasaur's bulb).
+  Those iconic features must stay — only recolor and retexture them to match the target type.
+  You may add type-specific effects on top (aura, particles, glow, frost, flames) but
+  do NOT replace the iconic features, do NOT add new limbs, do NOT change the silhouette.
+- Propose as many visual changes as the type transformation naturally calls for —
+  the goal is a convincing type reinterpretation, not a minimal tweak.
 - prompt must start with: pkmnstyle, solo, white background
-- prompt_2 must name the Pokémon and describe all visual changes in natural language
-- negative must list original-type colors and icon traits as comma-separated tokens
-- negative_2 must name each original-type feature and explicitly state its replacement
+- prompt_2 must describe how each part of the Pokémon looks after the type transformation,
+  referencing its iconic anatomy from E1
+- negative must list original-type colors and icon traits as comma-separated tokens,
+  and ALWAYS include: multiple creatures, two pokemon, duo, extra character
+- negative_2 must suppress original colors and conflicting type elements.
+  Always end with: "Only one Pokémon must appear in the image."
 - All output in English. No explanations outside the JSON."""
 
 

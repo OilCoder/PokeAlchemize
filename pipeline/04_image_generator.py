@@ -13,6 +13,7 @@ from pathlib import Path
 import torch
 from diffusers import (
     ControlNetModel,
+    EulerDiscreteScheduler,
     StableDiffusionXLControlNetPipeline,
 )
 from PIL import Image, ImageFilter, ImageOps
@@ -60,6 +61,9 @@ def _load_pipeline() -> StableDiffusionXLControlNetPipeline:
         torch_dtype=torch.float16,
         variant="fp16",
         use_safetensors=True,
+    )
+    pipe.scheduler = EulerDiscreteScheduler.from_config(
+        pipe.scheduler.config, use_karras_sigmas=True,
     )
     pipe.enable_model_cpu_offload()
 

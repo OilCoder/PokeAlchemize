@@ -28,7 +28,7 @@ PROMPT_WORKERS = 6  # concurrent threads for E3 prompt generation
 # Step 3 – Development settings
 # ----
 # DEV_POKEMON_IDS: specific Pokémon IDs to run (overrides DEV_POKEMON_LIMIT when set)
-DEV_POKEMON_IDS   = ["001", "004", "007", "025", "039", "052", "054", "094", "133", "143"]
+DEV_POKEMON_IDS   = ["001", "004", "007", "025", "039", "052", "054", "094", "143"]
 DEV_POKEMON_LIMIT = None
 DEV_TYPES_LIMIT   = None
 # DEV_TYPE_NAMES: specific type names to run (overrides DEV_TYPES_LIMIT when set)
@@ -51,11 +51,11 @@ OLLAMA_MODEL = "qwen2.5:14b-instruct-q6_K"
 # ----
 # Step 5 – SDXL + ControlNet + pokesprite LoRA (image generation)
 # ----
-SDXL_MODEL       = "stabilityai/stable-diffusion-xl-base-1.0"
-CONTROLNET_MODEL = "xinsir/controlnet-union-sdxl-1.0"
-LORA_PATH        = str(DATA_DIR / "loras" / "pokesprite.safetensors")
-IMAGE_SIZE       = 1024
-IMAGE_STEPS      = 30
-GUIDANCE_SCALE   = 7.5
-LORA_SCALE       = 0.8
-CONTROLNET_SCALE = 0.4
+SDXL_MODEL       = "stabilityai/stable-diffusion-xl-base-1.0"  # modelo base; entrenado a 1024px nativo
+CONTROLNET_MODEL = "xinsir/controlnet-union-sdxl-1.0"          # ControlNet multi-tipo unificado para SDXL
+LORA_PATH        = str(DATA_DIR / "loras" / "pokesprite.safetensors")  # LoRA estilo sprite Pokémon; trigger: pkmnstyle
+IMAGE_SIZE       = 1024   # resolución nativa SDXL; bajar a 768 degrada la coherencia
+IMAGE_STEPS      = 40     # pasos de difusión; 40 con Euler+Karras ≈ calidad de 50 con DDIM
+GUIDANCE_SCALE   = 8      # adherencia al prompt; >9 satura colores, <7 pierde el tipo
+LORA_SCALE       = 0.75    # peso de la LoRA; 1.0 sobreimpone el estilo, <0.6 lo pierde
+CONTROLNET_SCALE = 0.35    # fuerza del lineart; >0.6 rigidiza la pose, <0.3 la ignora
