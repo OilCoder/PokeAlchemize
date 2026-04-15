@@ -12,7 +12,7 @@ generadas localmente (RTX 4080), pre-generadas en batch; la web solo muestra res
 |---------------|-----------------------------------------------|
 | LLM (prompts) | Ollama                                        |
 | Sprite        | SDXL (stabilityai/stable-diffusion-xl-base-1.0) + ControlNet (xinsir/controlnet-union-sdxl-1.0) + pokesprite.safetensors LoRA |
-| Lineart       | OpenCV Canny nativo (475px) + LANCZOS upscale a 768px |
+| Lineart       | PIL GaussianBlur(r=1) + FIND_EDGES + threshold + invert (1024px) |
 | Fondo         | libre (generado por el modelo)                |
 | Datos Pokémon | sprites locales en data/sprites/              |
 | Web           | HTML / CSS / JS estático                      |
@@ -70,10 +70,16 @@ PokeAIchemize/
 - [x] `pipeline/03_prompt_writer.py`: E3 — Ollama combina E1+E2 y escribe prompt, prompt_2, negative, negative_2 → `data/prompts/{id}_{type}.json` (2700 runs) (2026-04-14)
 
 ### Phase 4 — Sprite Generator
-- [x] `pipeline/04_image_generator.py`: SDXL + ControlNet (xinsir/controlnet-union-sdxl-1.0) + pokesprite LoRA — lineart OpenCV Canny 475px + LANCZOS 768px + 4 prompts → sprite 768px (2026-04-14)
-- [x] Config validada: IMAGE_SIZE=768, STEPS=50, GUIDANCE_SCALE=8.0, LORA_SCALE=0.6, CONTROLNET_SCALE=0.55, EulerDiscrete+Karras (2026-04-14)
+- [x] `pipeline/04_image_generator.py`: SDXL + ControlNet + pokesprite LoRA, PIL lineart, EulerDiscrete+Karras (2026-04-14)
 - [x] `pipeline/batch_runner.py`: orquestar fases A(E1)→B(E2)→C(E3 parallel)→D(imagen), skip si ya existe, summary final (2026-04-14)
-- [ ] Generar los 2,700 sprites reimaginados
+- [x] Config baseline v2 validada: IMAGE_SIZE=1024, STEPS=30, GUIDANCE_SCALE=7.5, LORA_SCALE=0.8, CONTROLNET_SCALE=0.4 (2026-04-15)
+- [x] Config actual: STEPS=40, GUIDANCE_SCALE=8, LORA_SCALE=0.75, CONTROLNET_SCALE=0.35, EulerDiscrete+Karras (2026-04-15)
+- [x] `data/pokemons.json`: Eevee y su familia (133–136) excluidos del dataset (2026-04-15)
+- [x] `pipeline/03_prompt_writer.py`: E3 system prompt mejorado — preserva silueta y rasgos icónicos E1, negativos incluyen solo-character enforcement (2026-04-15)
+- [ ] Validar dev run: 9 Pokémon × 3 tipos = 25 imágenes con config actual y nuevo system prompt E3
+- [ ] Revisar CLIP token truncation en `prompt_2` (054 Psyduck, 143 Snorlax superan 77 tokens)
+- [ ] Decidir si escalar a 146 Pokémon × 18 tipos = 2,628 imágenes
+- [ ] Generar los ~2,628 sprites reimaginados (batch completo)
 
 ### Phase 5 — Web Pokédex
 - [ ] `web/index.html`: grid de los 150 Pokémon navegable
