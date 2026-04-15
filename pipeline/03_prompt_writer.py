@@ -59,9 +59,12 @@ Rules:
 - prompt_2 must describe how each part of the Pokémon looks after the type transformation,
   referencing its iconic anatomy from E1
 - negative must list original-type colors and icon traits as comma-separated tokens,
-  and ALWAYS include: multiple creatures, two pokemon, duo, extra character
+  and ALWAYS include: multiple creatures, two pokemon, duo, extra character, text, watermark, signature, logo
 - negative_2 must suppress original colors and conflicting type elements.
-  Always end with: "Only one Pokémon must appear in the image."
+  Always end with: "Only one Pokémon must appear in the image. No text, watermarks, or signatures."
+- If the target type is ghost: the Pokémon body must remain SOLID and clearly visible —
+  translucent or glowing is fine, but the full recognizable shape must be present.
+  Ghost effects (aura, wisps, shadows) surround the body, they do NOT replace it.
 - All output in English. No explanations outside the JSON."""
 
 
