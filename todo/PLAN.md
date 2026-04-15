@@ -65,14 +65,14 @@ PokeAIchemize/
 - [x] Renombrar `pipeline/07_image_generator.py` → `pipeline/03_image_generator.py` (2026-04-08)
 
 ### Phase 3 — Prompt Generation (3 especialistas)
-- [ ] `pipeline/01_pokemon_analyst.py`: E1 — Ollama analiza cada Pokémon y extrae identity_traits, original_type_traits, transformable_parts, suppress_colors → `data/pokemon/{id}.json` (150 runs)
-- [ ] `pipeline/02_type_designer.py`: E2 — Ollama define vocabulario visual por tipo: colors, anatomy, effects, suppress_from_others → `data/types/{type}.json` (18 runs)
-- [ ] `pipeline/03_prompt_writer.py`: E3 — Ollama combina E1+E2 y escribe prompt, prompt_2, negative, negative_2 → `data/prompts/{id}_{type}.json` (2700 runs)
+- [x] `pipeline/01_pokemon_analyst.py`: E1 — Ollama analiza cada Pokémon y extrae identity_traits, original_type_traits, transformable_parts, suppress_colors → `data/pokemon/{id}.json` (150 runs) (2026-04-14)
+- [x] `pipeline/02_type_designer.py`: E2 — Ollama define vocabulario visual por tipo: colors, anatomy, effects, suppress_from_others → `data/types_visual/{type}.json` (18 runs) (2026-04-14)
+- [x] `pipeline/03_prompt_writer.py`: E3 — Ollama combina E1+E2 y escribe prompt, prompt_2, negative, negative_2 → `data/prompts/{id}_{type}.json` (2700 runs) (2026-04-14)
 
 ### Phase 4 — Sprite Generator
-- [ ] `pipeline/04_image_generator.py`: SDXL + ControlNet (xinsir/controlnet-union-sdxl-1.0) + pokesprite LoRA — lineart Canny+LANCZOS + 4 prompts → sprite 768px
-- [ ] Config validada: IMAGE_SIZE=768, STEPS=50, GUIDANCE_SCALE=8.0, LORA_SCALE=0.6, CONTROLNET_SCALE=0.55, EulerDiscrete+Karras
-- [ ] `pipeline/batch_runner.py`: orquestar fases 01→02→03→04, skip si ya existe, summary final
+- [x] `pipeline/04_image_generator.py`: SDXL + ControlNet (xinsir/controlnet-union-sdxl-1.0) + pokesprite LoRA — lineart OpenCV Canny 475px + LANCZOS 768px + 4 prompts → sprite 768px (2026-04-14)
+- [x] Config validada: IMAGE_SIZE=768, STEPS=50, GUIDANCE_SCALE=8.0, LORA_SCALE=0.6, CONTROLNET_SCALE=0.55, EulerDiscrete+Karras (2026-04-14)
+- [x] `pipeline/batch_runner.py`: orquestar fases A(E1)→B(E2)→C(E3 parallel)→D(imagen), skip si ya existe, summary final (2026-04-14)
 - [ ] Generar los 2,700 sprites reimaginados
 
 ### Phase 5 — Web Pokédex
