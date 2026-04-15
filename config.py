@@ -46,7 +46,7 @@ OLLAMA_TIMEOUT = 300  # seconds; qwen3:14b needs ~2-3min on cold load
 #   "qwen3:14b"                 – 14B, good quality/speed balance (default)
 #   "qwen2.5:14b-instruct-q6_K" – 14B quantized Q6, very precise instruction following
 #   "mistral:latest"            – 7B, fastest, less creative
-OLLAMA_MODEL = "qwen2.5:14b-instruct-q6_K"
+OLLAMA_MODEL = "qwen3:30b-a3b"  # MoE 30B, ~3B activos/token — mejor razonamiento que 14B denso
 
 # ----
 # Step 5 – SDXL + ControlNet + pokesprite LoRA (image generation)

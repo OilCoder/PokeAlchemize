@@ -116,6 +116,7 @@ def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str
         "prompt": user_prompt,
         "format": "json",
         "stream": False,
+        "think":  False,
     }
 
     try:

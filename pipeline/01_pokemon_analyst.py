@@ -62,6 +62,7 @@ def _call_ollama(pokemon: dict) -> dict:
         "prompt": user_prompt,
         "format": "json",
         "stream": False,
+        "think":  False,
     }
 
     try:
