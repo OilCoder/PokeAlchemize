@@ -11,8 +11,9 @@ generadas localmente (RTX 4080), pre-generadas en batch; la web solo muestra res
 | Capa          | Tecnología                                    |
 |---------------|-----------------------------------------------|
 | LLM (prompts) | Ollama                                        |
-| Sprite        | SDXL (stabilityai/stable-diffusion-xl-base-1.0) + sshh12/sdxl-lora-pokemon |
-| Fondo         | SDXL + inpainting/outpainting                 |
+| Sprite        | SDXL (stabilityai/stable-diffusion-xl-base-1.0) + ControlNet (xinsir/controlnet-union-sdxl-1.0) + pokesprite.safetensors LoRA |
+| Lineart       | OpenCV Canny nativo (475px) + LANCZOS upscale a 768px |
+| Fondo         | libre (generado por el modelo)                |
 | Datos Pokémon | sprites locales en data/sprites/              |
 | Web           | HTML / CSS / JS estático                      |
 | Orquestación  | Python puro                                   |
@@ -27,16 +28,11 @@ PokeAIchemize/
 │   ├── styles.json            # 5 estilos visuales (usados en fase fondo)
 │   └── sprites/               # sprites originales (001.png … 150.png)
 ├── pipeline/
-│   ├── 01_morph_agent.py      # LLM genera instrucción de cambios estructurales (Kontext)
-│   ├── 02_negative_agent.py   # genera negative_prompt
-│   ├── 03_image_generator.py  # FLUX.1-Kontext: sprite → sprite reimaginado
-│   ├── 04_pokemon_agent.py    # describe el Pokémon adaptado al tipo (para fondo)
-│   ├── 05_biome_agent.py      # describe el hábitat de la combinación
-│   ├── 06_scene_conciliador.py # fusiona pokemon_desc + biome_desc → escena
-│   ├── 07_style_agent.py      # genera descriptor de estilo desde styles.json
-│   ├── 08_style_conciliador.py # fusiona escena + style_desc → prompt fondo
-│   ├── 09_background_generator.py # inpainting/outpainting del fondo alrededor del sprite
-│   └── batch_runner.py        # orquesta todo secuencialmente
+│   ├── 01_pokemon_analyst.py   # E1: analiza rasgos visuales de cada Pokémon → data/pokemon/{id}.json
+│   ├── 02_type_designer.py     # E2: define vocabulario visual de cada tipo → data/types/{type}.json
+│   ├── 03_prompt_writer.py     # E3: combina E1+E2 → 4 strings por combinación → data/prompts/{id}_{type}.json
+│   ├── 04_image_generator.py   # SDXL+ControlNet+LoRA: lineart+prompt → sprite reimaginado
+│   └── batch_runner.py         # orquesta todo secuencialmente
 ├── outputs/
 │   ├── images/                # {id}_{tipo}.png
 │   └── prompts/               # {id}.json — instrucciones + metadata por Pokémon
@@ -68,27 +64,23 @@ PokeAIchemize/
 - [x] Renombrar `pipeline/06_negative_agent.py` → `pipeline/02_negative_agent.py` (2026-04-08)
 - [x] Renombrar `pipeline/07_image_generator.py` → `pipeline/03_image_generator.py` (2026-04-08)
 
-### Phase 3 — Sprite Generator
-- [x] `pipeline/01_morph_agent.py`: LLM genera instrucción Kontext describiendo cambios estructurales (rasgos físicos, texturas, colores, forma de extremidades) del Pokémon al nuevo tipo (2026-04-08)
-- [x] `pipeline/03_image_generator.py`: reescribir como SDXL img2img + sdxl-lora-pokemon, carga modelo una vez, usa sprite original como base (2026-04-08)
-- [x] `outputs/prompts/{id}.json`: campos pokemon_id, pokemon_name, original_types, target_type, sprite_path, instruction, negative_prompt, image_path, generated (2026-04-08)
-- [ ] Generar los 2,700 sprites reimaginados, skip si ya existe
+### Phase 3 — Prompt Generation (3 especialistas)
+- [ ] `pipeline/01_pokemon_analyst.py`: E1 — Ollama analiza cada Pokémon y extrae identity_traits, original_type_traits, transformable_parts, suppress_colors → `data/pokemon/{id}.json` (150 runs)
+- [ ] `pipeline/02_type_designer.py`: E2 — Ollama define vocabulario visual por tipo: colors, anatomy, effects, suppress_from_others → `data/types/{type}.json` (18 runs)
+- [ ] `pipeline/03_prompt_writer.py`: E3 — Ollama combina E1+E2 y escribe prompt, prompt_2, negative, negative_2 → `data/prompts/{id}_{type}.json` (2700 runs)
 
-### Phase 4 — Batch Runner (sprite) (COMPLETED)
-- [x] `pipeline/batch_runner.py`: actualizar secuencia a 01→02→03 (2026-04-08)
-- [x] Log de progreso con tqdm, skip y errores sin detener el batch (2026-04-08)
-- [x] Summary final: total generadas, saltadas, fallidas (2026-04-08)
+### Phase 4 — Sprite Generator
+- [ ] `pipeline/04_image_generator.py`: SDXL + ControlNet (xinsir/controlnet-union-sdxl-1.0) + pokesprite LoRA — lineart Canny+LANCZOS + 4 prompts → sprite 768px
+- [ ] Config validada: IMAGE_SIZE=768, STEPS=50, GUIDANCE_SCALE=8.0, LORA_SCALE=0.6, CONTROLNET_SCALE=0.55, EulerDiscrete+Karras
+- [ ] `pipeline/batch_runner.py`: orquestar fases 01→02→03→04, skip si ya existe, summary final
+- [ ] Generar los 2,700 sprites reimaginados
 
-### Phase 5 — Background Generator
-- [ ] `pipeline/09_background_generator.py`: inpainting/outpainting con FLUX.1-dev alrededor del sprite ya generado
-- [ ] Usar prompt de fondo generado por 06_scene_conciliador + 08_style_conciliador
-- [ ] `pipeline/batch_runner.py`: extender secuencia a 04→05→06→07→08→09
-
-### Phase 6 — Web Pokédex
+### Phase 5 — Web Pokédex
 - [ ] `web/index.html`: grid de los 150 Pokémon navegable
 - [ ] `web/app.js`: al seleccionar un Pokémon, mostrar sprite original + 18 versiones reimaginadas
 - [ ] `web/style.css`: diseño estilo Pokédex
 - [ ] Nombre del Pokémon y tipo visible en cada tarjeta
+
 
 ## Conventions
 - Imágenes: `outputs/images/{id}_{tipo}.png` (ej. `025_fire.png`)
