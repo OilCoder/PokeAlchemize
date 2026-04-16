@@ -64,7 +64,7 @@ def _generate_one(pipe: FluxPipeline, prompt_data: dict) -> Path:
 
     Args:
         pipe: Loaded FluxPipeline.
-        prompt_data: Dict with pokemon_id, target_type, and prompt.
+        prompt_data: Dict with pokemon_id, target_type, prompt, and negative_prompt.
 
     Returns:
         Path to the saved output image.
@@ -80,6 +80,7 @@ def _generate_one(pipe: FluxPipeline, prompt_data: dict) -> Path:
     torch.cuda.empty_cache()
     image = pipe(
         prompt=prompt_data["prompt"],
+        negative_prompt=prompt_data.get("negative_prompt", ""),
         num_inference_steps=IMAGE_STEPS,
         guidance_scale=GUIDANCE_SCALE,
         width=IMAGE_SIZE,

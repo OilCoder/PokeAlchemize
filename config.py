@@ -16,7 +16,9 @@ SPRITES_DIR   = DATA_DIR / "sprites"
 POKEMON_DIR = OUTPUTS_DIR / "pokemon"
 # E2 outputs: one JSON per type
 TYPE_VISUAL_DIR = OUTPUTS_DIR / "types_visual"
-# E3 outputs: one JSON per (pokemon, type) combination
+# Specialist intermediate outputs: {id}_{type}_{agent}.json (pa/ps/pe/na/ns)
+PROMPTS_PARTS_DIR = OUTPUTS_DIR / "prompts_parts"
+# E3 conciliator outputs: one JSON per (pokemon, type) combination
 PROMPTS_DIR = OUTPUTS_DIR / "prompts"
 
 # ----

@@ -1,9 +1,9 @@
 """
 Batch Runner — pipeline orchestrator for PokeAIchemize sprite generation.
 Phase A: E1 × 150 Pokémon — anatomy analysis (parallel).
-Phase B: E2 × 18 types   — type visual vocabulary (sequential).
-Phase C: E3 × 2700 combos — SDXL prompt writing (parallel).
-Phase D: image generation  — SDXL + ControlNet + LoRA (sequential, GPU).
+Phase B: E2 × 18 types    — type visual vocabulary (sequential).
+Phase C: 5 specialists + E3 conciliator × 2700 combos (parallel combos, parallel specialists).
+Phase D: image generation  — FLUX.1-dev + LoRA (sequential, GPU).
 Resumable: each phase skips existing output files.
 """
 
@@ -27,14 +27,20 @@ from config import (
     POKEMONS_FILE,
     PROMPT_WORKERS,
     PROMPTS_DIR,
+    PROMPTS_PARTS_DIR,
     TYPE_VISUAL_DIR,
     TYPES_FILE,
 )
 
-_analyst   = importlib.import_module("pipeline.01_pokemon_analyst")
-_designer  = importlib.import_module("pipeline.02_type_designer")
-_writer    = importlib.import_module("pipeline.03_prompt_writer")
-_image_gen = importlib.import_module("pipeline.04_image_generator")
+_analyst      = importlib.import_module("pipeline.01_pokemon_analyst")
+_designer     = importlib.import_module("pipeline.02_type_designer")
+_pa           = importlib.import_module("pipeline.03_anatomy_positive")
+_ps           = importlib.import_module("pipeline.04_style_positive")
+_pe           = importlib.import_module("pipeline.05_pose_expression")
+_na           = importlib.import_module("pipeline.06_anatomy_negative")
+_ns           = importlib.import_module("pipeline.07_style_negative")
+_conciliator  = importlib.import_module("pipeline.08_prompt_conciliator")
+_image_gen    = importlib.import_module("pipeline.09_image_generator")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -108,9 +114,28 @@ def _run_phase_b(types: list) -> None:
     logger.info("Phase B done — ok: %d  failed: %d", ok, err)
 
 
-def _run_phase_c(pokemons: list, types: list) -> None:
-    """Phase C — E3: write SDXL prompt sets for all (Pokémon, type) combos (parallel).
+def _run_one_combo(pid: str, ttype: str) -> None:
+    """Run 5 specialists in parallel then the E3 conciliator for one combo.
 
+    Args:
+        pid: Zero-padded Pokémon ID (e.g. '025').
+        ttype: Target type name (e.g. 'fire').
+
+    Raises:
+        Exception: Re-raises any error from specialists or conciliator.
+    """
+    specialists = [_pa, _ps, _pe, _na, _ns]
+    with ThreadPoolExecutor(max_workers=len(specialists)) as inner:
+        futures = [inner.submit(agent.run, pid, ttype) for agent in specialists]
+        for f in futures:
+            f.result()  # raises immediately on first failure
+    _conciliator.run(pid, ttype)
+
+
+def _run_phase_c(pokemons: list, types: list) -> None:
+    """Phase C — specialists + E3: build prompt parts and assemble final prompts (parallel).
+
+    Runs 5 specialists in parallel per combo, then E3 conciliator.
     Skips combinations where the target type is one of the Pokémon's native types.
 
     Args:
@@ -125,14 +150,14 @@ def _run_phase_c(pokemons: list, types: list) -> None:
     ]
     total = len(pairs)
     logger.info(
-        "Phase C — E3 writer: %d combos — %d workers",
+        "Phase C — specialists + E3: %d combos — %d workers",
         total, PROMPT_WORKERS,
     )
 
-    with tqdm(total=total, unit="combo", desc="E3 writer") as progress:
+    with tqdm(total=total, unit="combo", desc="Phase C") as progress:
         with ThreadPoolExecutor(max_workers=PROMPT_WORKERS) as executor:
             futures = {
-                executor.submit(_writer.run, pid, ttype): (pid, ttype)
+                executor.submit(_run_one_combo, pid, ttype): (pid, ttype)
                 for pid, ttype in pairs
             }
             ok = err = 0
@@ -142,7 +167,7 @@ def _run_phase_c(pokemons: list, types: list) -> None:
                     future.result()
                     ok += 1
                 except Exception as e:
-                    logger.error("E3 failed %s/%s: %s", pid, ttype, e)
+                    logger.error("Phase C failed %s/%s: %s", pid, ttype, e)
                     err += 1
                 progress.update(1)
 
@@ -177,7 +202,7 @@ def run() -> None:
     # Substep 3.2 — DEV_CLEAN: wipe intermediate outputs
     # ----
     if DEV_CLEAN:
-        for directory in (POKEMON_DIR, TYPE_VISUAL_DIR, PROMPTS_DIR, IMAGES_DIR):
+        for directory in (POKEMON_DIR, TYPE_VISUAL_DIR, PROMPTS_PARTS_DIR, PROMPTS_DIR, IMAGES_DIR):
             if directory.exists():
                 shutil.rmtree(directory)
                 logger.info("cleaned %s", directory)
