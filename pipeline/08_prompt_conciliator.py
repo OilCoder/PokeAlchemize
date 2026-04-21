@@ -1,7 +1,8 @@
 """
 Prompt Conciliator (E3) — assembles specialist outputs into final FLUX prompt.
 Reads _pa, _ps, _pe, _na, _ns JSONs for one (Pokémon, type) combination and
-assembles: prompt (~200-250 words) + negative_prompt (~50-80 words).
+assembles: prompt (single text for both CLIP and T5) + negative_prompt.
+Species name anchors morphology via T5 (LoRA has no CLIP weights).
 Saves outputs/prompts/{id}_{type}.json.
 Called by batch_runner.py (Phase C, after parallel specialists).
 """
@@ -20,35 +21,51 @@ logger = logging.getLogger(__name__)
 _REQUIRED_KEYS  = {"prompt", "negative_prompt"}
 _PART_SUFFIXES  = ("pa", "ps", "pe", "na", "ns")
 
+# Color words that signal species-specific or type-specific aesthetics — exclude from CLIP structural anchors
+_COLOR_WORDS = {"red", "white", "color", "colour", "green", "blue", "yellow", "brown", "pink",
+                "gold", "silver", "orange", "purple", "black", "gray", "grey", "crimson", "violet"}
+
 
 # ----------------------------------------
 # Step 1 — Prompt assembly (no LLM needed)
 # ----------------------------------------
 
 def _assemble(pokemon_analysis: dict, parts: dict, target_type: str) -> dict:
-    """Assemble specialist outputs into final prompt and negative_prompt.
+    """Assemble specialist outputs into clip_prompt, t5_prompt, and negative_prompt.
+
+    CLIP encoder (~77 tokens): receives clip_prompt — identity, structure, key type tags.
+    T5 encoder (~512 tokens): receives t5_prompt — full transformation detail.
 
     Args:
-        pokemon_analysis: E1 output dict (for pokemon_name, anchor_phrases).
+        pokemon_analysis: E1 output dict (pokemon_name, anchor_phrases).
         parts: Dict mapping suffix → parsed JSON (pa, ps, pe, na, ns).
         target_type: Target type name (e.g. 'fire').
 
     Returns:
-        Dict with 'prompt' and 'negative_prompt' strings.
+        Dict with 'clip_prompt', 't5_prompt', and 'negative_prompt' strings.
     """
-    # ----
-    # Substep 1.1 — Build positive prompt
-    # ----
-    # Pokémon name intentionally omitted: naming the species activates the LoRA's
-    # canonical color memory (bulbasaur=green, squirtle=blue) and overrides the
-    # transformation. The PA body description establishes structural identity instead.
-    subject  = f"pkmnstyle, solo, white background, {target_type} type."
-    body     = parts["pa"].get("body_transformation", "")
-    pose     = parts["pe"].get("pose_expression", "")
-    style    = parts["ps"].get("style_effects", "")
-    closing  = "There is only one Pokémon. No text, no watermarks, no signatures."
+    pokemon_name = pokemon_analysis.get("pokemon_name", "").lower()
 
-    prompt_parts = [p for p in [subject, body, pose, style, closing] if p]
+    # ----
+    # Substep 1.1 — Build prompt
+    # ----
+    # Species name as "body shape" anchors morphology through T5 (LoRA has no CLIP weights).
+    # Structural identity_traits follow to reinforce silhouette within CLIP's 77-token window.
+    # Canonical colors are suppressed by the negative prompt.
+    subject = f"pkmnstyle, solo, white background, {target_type} type, {pokemon_name} body shape"
+
+    structural_identity = [
+        t for t in pokemon_analysis.get("identity_traits", [])
+        if not any(c in t.lower() for c in _COLOR_WORDS)
+    ][:3]
+
+    body    = parts["pa"].get("body_transformation", "")
+    pose    = parts["pe"].get("pose_expression", "")
+    style   = parts["ps"].get("style_effects", "")
+    closing = "Clean cel-shaded pokémon illustration style with bold outlines and soft shading. There is only one pokémon. No text, no watermarks, no signatures."
+
+    subject_full = subject + ", " + ", ".join(structural_identity) + "." if structural_identity else subject + "."
+    prompt_parts = [p for p in [subject_full, body, pose, style, closing] if p]
     prompt = " ".join(prompt_parts)
 
     # ----
@@ -68,10 +85,10 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str) -> dict:
 # ----------------------------------------
 
 def run(pokemon_id: str, target_type: str) -> dict:
-    """Assemble specialist outputs into final prompt JSON for one (Pokémon, type) combo.
+    """Assemble specialist outputs into dual-encoder prompt JSON for one (Pokémon, type) combo.
 
     Reads E1 JSON and the five specialist part JSONs (_pa, _ps, _pe, _na, _ns).
-    Assembles prompt and negative_prompt without calling Ollama.
+    Assembles clip_prompt, t5_prompt, and negative_prompt without calling Ollama.
     Skips if a valid file already exists.
 
     Args:

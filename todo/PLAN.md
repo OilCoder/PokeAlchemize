@@ -92,7 +92,12 @@ PokeAIchemize/
 - [x] `config.py`: reemplazar parámetros SDXL/ControlNet por FLUX — STEPS=28, GUIDANCE_SCALE=3.5, LORA_SCALE=0.85 + PROMPTS_PARTS_DIR (2026-04-16)
 - [x] Diagnóstico: LoRA sobreimpone colores canónicos cuando el nombre del Pokémon está en el prompt → solución: eliminar nombre del subject (2026-04-16)
 - [x] `config.py`: IMAGE_SIZE=768, IMAGE_STEPS=20 validados como config de producción (2026-04-20)
-- [ ] Validar dev run: 9 Pokémon × 3 tipos = 25 imágenes con arquitectura 5 especialistas, sin nombre en subject
+- [x] `pipeline/03_anatomy_positive.py`: agregar campo clip_tags al schema de PA (2026-04-21)
+- [x] `pipeline/08_prompt_conciliator.py`: investigar dual-encoder CLIP/T5 — LoRA no tiene pesos CLIP, revertido a prompt único (2026-04-21)
+- [x] `pipeline/08_prompt_conciliator.py`: nombre del Pokémon en subject + identity_traits estructurales + negativo suprime colores canónicos (2026-04-21)
+- [ ] `pipeline/03_anatomy_positive.py`: corregir system prompt PA — preservar silueta/proporciones explícitamente, solo cambiar materiales/texturas
+- [ ] Regenerar todos los prompts del dev set (9 Pokémon × 3 tipos) — prompts actuales tienen formato dual-encoder obsoleto
+- [ ] Validar dev run: 9 Pokémon × 3 tipos con arquitectura de prompt actualizada
 - [ ] Decidir si escalar a 146 Pokémon × 18 tipos = 2,628 imágenes
 - [ ] Generar los ~2,628 sprites reimaginados (batch completo)
 
@@ -102,6 +107,12 @@ PokeAIchemize/
 - [x] `pipeline/07_style_negative.py`: corregir NS — cargar E2 de tipos ORIGINALES en vez del tipo destino; fix bug que ponía efectos del target type en el negativo (2026-04-21)
 - [x] `pipeline/batch_runner.py`: Phase B siempre genera E2 para los 18 tipos independientemente del filtro DEV (2026-04-21)
 - [x] Evaluar FLUX.1-schnell como alternativa de velocidad — descartado, calidad inaceptable con 4-12 steps, artefactos anatómicos (2026-04-20)
+
+### Phase 7 — Investigación identidad Pokémon (IP-Adapter)
+- [ ] Debug: probar `InstantX/FLUX.1-dev-IP-Adapter` con sprite original como imagen de referencia — preserva identidad via SigLIP sin cambiar pipeline de prompts
+- [ ] Evaluar resultado: ¿IP-Adapter preserva silueta + permite transformación de tipo simultánea?
+- [ ] Si viable: integrar IP-Adapter en `pipeline/09_image_generator.py` — pasar sprite original como imagen de condicionamiento
+- [ ] Evaluar Z-Image-Turbo (6B, Apache 2.0, supera FLUX en benchmarks 2026) si IP-Adapter no resuelve identidad
 
 ### Phase 6 — Web Pokédex
 - [ ] `web/index.html`: grid de los 150 Pokémon navegable

@@ -1,7 +1,7 @@
 """
 Anatomy Positive Specialist (PA) — body transformation descriptor.
 Reads E1 (Pokémon anatomy) and E2 (type vocabulary) and produces
-a natural language description of how each body part transforms.
+a full body transformation description plus 2-3 short CLIP tags.
 Saves outputs/prompts_parts/{id}_{type}_pa.json.
 Called by batch_runner.py (Phase C, parallel).
 """
@@ -22,7 +22,7 @@ from config import (
 
 logger = logging.getLogger(__name__)
 
-_REQUIRED_KEYS = {"body_transformation"}
+_REQUIRED_KEYS = {"body_transformation", "clip_tags"}
 _MAX_RETRIES   = 3
 
 SYSTEM_PROMPT = """You are a Pokémon body transformation specialist for FLUX.1-dev image generation.
@@ -31,10 +31,11 @@ how each body part transforms for the new type.
 
 Return ONLY valid JSON:
 {
-  "body_transformation": "..."
+  "body_transformation": "...",
+  "clip_tags": ["...", "...", "..."]
 }
 
-Rules:
+Rules for body_transformation:
 - Describe the appearance of EACH transformable part after transformation: color, material, texture, shape.
 - Reference E2 primary colors and anatomy for the new type.
 - Include new type-specific structures freely: spines, fins, crystals, flames, tendrils, armor plates, wings.
@@ -42,7 +43,14 @@ Rules:
 - Do NOT describe pose, expression, atmosphere, or floating effects.
 - Write in flowing descriptive sentences, 4-6 sentences total.
 - Be specific and visual — "deep obsidian scales with glowing orange lava cracks" not "fire-like skin".
-- All output in English. No explanations outside the JSON."""
+
+Rules for clip_tags (CRITICAL — these go to CLIP encoder, max 77 tokens total with other fields):
+- Exactly 2-3 short phrases (3-5 words each) naming the most visually distinctive morphological changes.
+- Focus on type-specific structures that replace original parts: materials, textures, key anatomy.
+- NO colors from the Pokémon's original typing. NO pose or expression words.
+- Examples: ["molten gold bulb on back", "ember-cracked charcoal skin", "lava-plated joints"]
+
+All output in English. No explanations outside the JSON."""
 
 
 # ----------------------------------------

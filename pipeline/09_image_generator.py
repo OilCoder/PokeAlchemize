@@ -1,7 +1,7 @@
 """
 Image Generator — FLUX.1-dev + WiroAI pokemon LoRA sprite renderer.
-Loads pipeline once, generates 1024px type-transformed Pokémon sprites
-from prompt JSONs using a single T5-XXL natural language prompt.
+Loads pipeline once, generates type-transformed Pokémon sprites from
+prompt JSONs. Uses a single prompt processed by both T5-XXL and CLIP.
 Saves outputs/images/{id}_{type}.png. Called by batch_runner.py (Phase D).
 """
 
@@ -62,9 +62,13 @@ def _load_pipeline() -> FluxPipeline:
 def _generate_one(pipe: FluxPipeline, prompt_data: dict) -> Path:
     """Generate a type-transformed Pokémon sprite from one prompt JSON.
 
+    Uses dual-encoder prompts: clip_prompt goes to CLIP (identity/structure),
+    t5_prompt goes to T5-XXL (full transformation detail).
+
     Args:
         pipe: Loaded FluxPipeline.
-        prompt_data: Dict with pokemon_id, target_type, prompt, and negative_prompt.
+        prompt_data: Dict with pokemon_id, target_type, clip_prompt, t5_prompt,
+            and negative_prompt.
 
     Returns:
         Path to the saved output image.
