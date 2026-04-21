@@ -26,7 +26,7 @@ _REQUIRED_KEYS = {"negative_style"}
 _MAX_RETRIES   = 3
 
 SYSTEM_PROMPT = """You are a visual suppression specialist for FLUX.1-dev Pokémon image generation.
-Given the original type's visual vocabulary, list specific colors, textures, particles,
+Given the ORIGINAL type's visual vocabulary, list specific colors, particles,
 and atmospheric effects from the ORIGINAL type that must NOT appear in the generated image.
 
 Return ONLY valid JSON:
@@ -35,9 +35,10 @@ Return ONLY valid JSON:
 }
 
 Rules:
-- List original-type colors (e.g. "bright orange glow", "fire red tones").
-- List original-type atmospheric effects (e.g. "heat haze", "ember particles", "flame aura").
-- List original-type lighting (e.g. "warm orange lighting", "fire glow illumination").
+- List colors exclusive to the original type palette (e.g. "electric yellow glow", "grass green tones").
+- List atmospheric effects tied to the original type (e.g. "electric sparks", "leaf particles", "poison clouds").
+- List lighting tied to the original type (e.g. "yellow electric lighting", "green bioluminescence").
+- NEVER include effects, particles, auras, or lighting that belong to the TARGET type.
 - Comma-separated list of short phrases, no sentences.
 - 5-8 items maximum.
 - All output in English. No explanations outside the JSON."""
@@ -47,13 +48,13 @@ Rules:
 # Step 1 — Ollama call
 # ----------------------------------------
 
-def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str) -> dict:
-    """Call Ollama to generate style suppression list.
+def _call_ollama(pokemon_analysis: dict, original_type_vocabs: list[dict], target_type: str) -> dict:
+    """Call Ollama to generate style suppression list from original type vocabularies.
 
     Args:
-        pokemon_analysis: E1 output dict (for original type context).
-        type_vocabulary: E2 output dict for the TARGET type (to get suppress_from_others).
-        target_type: Target type name.
+        pokemon_analysis: E1 output dict (for original_types and suppress_colors).
+        original_type_vocabs: List of E2 dicts for each of the Pokémon's original types.
+        target_type: Target type name (used only to label the context, not for vocab).
 
     Returns:
         Parsed JSON dict with negative_style.
@@ -61,17 +62,24 @@ def _call_ollama(pokemon_analysis: dict, type_vocabulary: dict, target_type: str
     Raises:
         RuntimeError: If the Ollama call fails or returns invalid/incomplete JSON.
     """
-    name = pokemon_analysis.get("pokemon_name", "unknown")
+    name          = pokemon_analysis.get("pokemon_name", "unknown")
     original_types = pokemon_analysis.get("original_types", [])
-    colors = type_vocabulary.get("colors", {})
+
+    orig_colors   = pokemon_analysis.get("suppress_colors", [])
+    orig_effects  = []
+    orig_lighting = []
+    for vocab in original_type_vocabs:
+        colors = vocab.get("colors", {})
+        orig_colors  += colors.get("primary", []) + colors.get("secondary", [])
+        orig_effects += vocab.get("effects", [])
 
     user_prompt = (
         f"/no_think\n"
         f"Pokémon: {name} — original type(s): {', '.join(original_types)} → transforming to {target_type}\n\n"
-        f"Original type suppress colors: {', '.join(pokemon_analysis.get('suppress_colors', []))}\n"
-        f"Target type colors to avoid: {', '.join(colors.get('avoid', []))}\n"
-        f"Effects to suppress from other types: {', '.join(type_vocabulary.get('suppress_from_others', []))}\n\n"
-        f"List the colors, atmospheric effects, and lighting from the original type that must NOT appear."
+        f"Original type color palette to suppress: {', '.join(dict.fromkeys(orig_colors))}\n"
+        f"Original type atmospheric effects to suppress: {', '.join(dict.fromkeys(orig_effects))}\n\n"
+        f"List colors, atmospheric effects, and lighting from the ORIGINAL type that must NOT appear. "
+        f"Do NOT include any effects that belong to the target type ({target_type})."
     )
 
     payload = {
@@ -137,24 +145,28 @@ def run(pokemon_id: str, target_type: str) -> dict:
             return existing
 
     e1_path = POKEMON_DIR / f"{pokemon_id}.json"
-    e2_path = TYPE_VISUAL_DIR / f"{target_type}.json"
-
     if not e1_path.exists():
         raise FileNotFoundError(f"E1 missing: {e1_path}")
-    if not e2_path.exists():
-        raise FileNotFoundError(f"E2 missing: {e2_path}")
 
     with open(e1_path, encoding="utf-8") as f:
         pokemon_analysis = json.load(f)
-    with open(e2_path, encoding="utf-8") as f:
-        type_vocabulary = json.load(f)
+
+    # Load E2 for each original type to get their color/effect vocabulary
+    original_types = pokemon_analysis.get("original_types", [])
+    original_type_vocabs = []
+    for orig_type in original_types:
+        e2_path = TYPE_VISUAL_DIR / f"{orig_type}.json"
+        if not e2_path.exists():
+            raise FileNotFoundError(f"E2 missing for original type '{orig_type}': {e2_path}")
+        with open(e2_path, encoding="utf-8") as f:
+            original_type_vocabs.append(json.load(f))
 
     logger.info("NS writing: %s × %s", pokemon_id, target_type)
 
     last_error = None
     for attempt in range(1, _MAX_RETRIES + 1):
         try:
-            result = _call_ollama(pokemon_analysis, type_vocabulary, target_type)
+            result = _call_ollama(pokemon_analysis, original_type_vocabs, target_type)
             break
         except RuntimeError as e:
             last_error = e

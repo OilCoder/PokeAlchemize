@@ -25,8 +25,7 @@ _REQUIRED_KEYS = {"negative_anatomy"}
 _MAX_RETRIES   = 3
 
 SYSTEM_PROMPT = """You are a visual suppression specialist for FLUX.1-dev Pokémon image generation.
-Given E1 original type traits, list the specific body features from the ORIGINAL type
-that must NOT appear in the generated image.
+Given E1 original type traits, list the TYPE-SPECIFIC AESTHETICS of body features that must NOT appear.
 
 Return ONLY valid JSON:
 {
@@ -34,11 +33,15 @@ Return ONLY valid JSON:
 }
 
 Rules:
-- List each original-type body feature as a short phrase (2-5 words).
-- Comma-separated list, no full sentences.
-- Be specific: name the body part and its original-type appearance.
-  Example: "flame tail tip, fire aura, orange ember scales, burning back spines"
-- Include colors associated with original type traits.
+- Suppress only the TYPE-SPECIFIC APPEARANCE of original features: their original-type color, material, or texture.
+- NEVER suppress the structural shape or silhouette of a feature — only its original-type aesthetics.
+  WRONG: "flame tail tip" (suppresses the whole tail feature)
+  CORRECT: "orange flame on tail, fire-burning tail tip" (suppresses only the fire aesthetic of the tail)
+  WRONG: "sharp teeth" (suppresses a structural identity feature)
+  CORRECT: "ghostly green teeth, poison-tinted fangs" (suppresses only the type-specific color of the teeth)
+- Suppress the colors and textures that are exclusive to the original type.
+- NEVER include effects, particles, auras, or lighting that belong to the TARGET type.
+- Comma-separated list of short phrases (2-6 words each), no full sentences.
 - 5-10 items maximum.
 - All output in English. No explanations outside the JSON."""
 

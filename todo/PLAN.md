@@ -91,14 +91,14 @@ PokeAIchemize/
 - [x] `pipeline/09_image_generator.py`: migrar SDXL+ControlNet → FLUX.1-dev + FluxPipeline + WiroAI/pokemon-flux-lora + negative_prompt (2026-04-15)
 - [x] `config.py`: reemplazar parámetros SDXL/ControlNet por FLUX — STEPS=28, GUIDANCE_SCALE=3.5, LORA_SCALE=0.85 + PROMPTS_PARTS_DIR (2026-04-16)
 - [x] Diagnóstico: LoRA sobreimpone colores canónicos cuando el nombre del Pokémon está en el prompt → solución: eliminar nombre del subject (2026-04-16)
+- [x] `config.py`: IMAGE_SIZE=768, IMAGE_STEPS=20 validados como config de producción (2026-04-20)
 - [ ] Validar dev run: 9 Pokémon × 3 tipos = 25 imágenes con arquitectura 5 especialistas, sin nombre en subject
 - [ ] Decidir si escalar a 146 Pokémon × 18 tipos = 2,628 imágenes
 - [ ] Generar los ~2,628 sprites reimaginados (batch completo)
 
-### Phase 5 — Experimentos futuros (branch separado)
-- [ ] Explorar modelo visual (qwen2.5-vl o llava) como reemplazo de E1 — analizar el sprite
-  directamente desde la imagen para extraer rasgos con mayor precisión que el análisis textual
-- [ ] Evaluar FLUX.1-schnell como alternativa de velocidad (~30s/imagen vs ~5min con dev)
+### Phase 5 — Mejoras de calidad
+- [ ] `pipeline/01_pokemon_analyst.py`: reemplazar E1 con qwen2.5vl:7b — pasar sprite original `data/sprites/{id}.png` como imagen para extraer rasgos visuales reales (colores exactos, formas, proporciones)
+- [x] Evaluar FLUX.1-schnell como alternativa de velocidad — descartado, calidad inaceptable con 4-12 steps, artefactos anatómicos (2026-04-20)
 
 ### Phase 6 — Web Pokédex
 - [ ] `web/index.html`: grid de los 150 Pokémon navegable

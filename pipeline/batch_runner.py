@@ -184,19 +184,23 @@ def run() -> None:
     # ----
     # Substep 3.1 — Load and filter data
     # ----
-    pokemons = _load_json(POKEMONS_FILE)
-    types    = _load_json(TYPES_FILE)
+    pokemons  = _load_json(POKEMONS_FILE)
+    all_types = _load_json(TYPES_FILE)
 
     if DEV_POKEMON_IDS is not None:
         pokemons = [p for p in pokemons if p["id"] in DEV_POKEMON_IDS]
     elif DEV_POKEMON_LIMIT is not None:
         pokemons = pokemons[:DEV_POKEMON_LIMIT]
-    if DEV_TYPE_NAMES is not None:
-        types = [t for t in types if t["name"] in DEV_TYPE_NAMES]
-    elif DEV_TYPES_LIMIT is not None:
-        types = types[:DEV_TYPES_LIMIT]
 
-    logger.info("running: %d pokémon × %d types", len(pokemons), len(types))
+    # target_types: types used to generate combos (may be filtered in dev mode)
+    # Phase B always generates E2 for ALL types — NS needs original-type E2 vocabularies
+    target_types = all_types
+    if DEV_TYPE_NAMES is not None:
+        target_types = [t for t in all_types if t["name"] in DEV_TYPE_NAMES]
+    elif DEV_TYPES_LIMIT is not None:
+        target_types = all_types[:DEV_TYPES_LIMIT]
+
+    logger.info("running: %d pokémon × %d target types", len(pokemons), len(target_types))
 
     # ----
     # Substep 3.2 — DEV_CLEAN: wipe intermediate outputs
@@ -211,8 +215,8 @@ def run() -> None:
     # Substep 3.3 — Execute phases
     # ----
     _run_phase_a(pokemons)
-    _run_phase_b(types)
-    _run_phase_c(pokemons, types)
+    _run_phase_b(all_types)          # always all 18 — NS needs original-type vocabularies
+    _run_phase_c(pokemons, target_types)
     _image_gen.run()
 
 

@@ -48,7 +48,8 @@ OLLAMA_TIMEOUT = 300  # seconds; qwen3:14b needs ~2-3min on cold load
 #   "qwen3:14b"                 – 14B, good quality/speed balance (default)
 #   "qwen2.5:14b-instruct-q6_K" – 14B quantized Q6, very precise instruction following
 #   "mistral:latest"            – 7B, fastest, less creative
-OLLAMA_MODEL = "qwen3:30b-a3b"  # MoE 30B, ~3B activos/token — mejor razonamiento que 14B denso
+OLLAMA_MODEL        = "qwen3:30b-a3b"    # MoE 30B, ~3B activos/token — mejor razonamiento que 14B denso
+OLLAMA_VISION_MODEL = "qwen2.5vl:7b"    # vision-language model; analiza sprites para E1
 
 # ----
 # Step 5 – FLUX.1-dev + WiroAI pokemon LoRA (image generation)
@@ -56,7 +57,7 @@ OLLAMA_MODEL = "qwen3:30b-a3b"  # MoE 30B, ~3B activos/token — mejor razonamie
 FLUX_MODEL        = "black-forest-labs/FLUX.1-dev"          # modelo base; comprensión semántica T5-XXL
 FLUX_LORA         = "WiroAI/pokemon-flux-lora"              # LoRA estilo sprite Pokémon; trigger: pkmnstyle
 FLUX_LORA_WEIGHT  = "pokemon_flux_lora.safetensors"         # nombre del archivo en el repositorio HF
-IMAGE_SIZE        = 1024   # resolución nativa FLUX; óptimo para detalle y coherencia
-IMAGE_STEPS       = 28     # FLUX converge en 28 pasos con guidance 3.5
+IMAGE_SIZE        = 768    # reducido de 1024 — ~2.5x más rápido, calidad aceptable validada
+IMAGE_STEPS       = 20     # reducido de 28 — FLUX mantiene calidad con 20 pasos
 GUIDANCE_SCALE    = 3.5    # rango óptimo FLUX; valores SDXL (7-9) sobreexponen colores
 LORA_SCALE        = 0.85   # peso de la LoRA; 1.0 sobreimpone el estilo, <0.6 lo pierde
