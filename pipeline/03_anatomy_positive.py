@@ -36,13 +36,14 @@ Return ONLY valid JSON:
 }
 
 Rules for body_transformation:
-- Describe the appearance of EACH transformable part after transformation: color, material, texture, shape.
-- Reference E2 primary colors and anatomy for the new type.
-- Include new type-specific structures freely: spines, fins, crystals, flames, tendrils, armor plates, wings.
-- Describe how original-type structures are REPLACED (do not just add effects on top).
+- PRESERVE the silhouette, proportions, and structural shape of EVERY body part — do not add or remove limbs, do not change the number of parts, do not alter the overall body outline.
+- ONLY change material, texture, color, and surface features of each part to reflect the new type.
+- Small additive details are allowed (e.g. glowing cracks on skin, frost crystals coating fur, bark texture on limbs) but they must sit ON the original shape, not replace it.
+- Reference E2 primary colors and anatomy for the new type's visual vocabulary.
+- Do NOT replace structural parts with completely different forms (e.g. do not turn a plant bulb into a fireball, do not turn legs into stumps or wings).
 - Do NOT describe pose, expression, atmosphere, or floating effects.
 - Write in flowing descriptive sentences, 4-6 sentences total.
-- Be specific and visual — "deep obsidian scales with glowing orange lava cracks" not "fire-like skin".
+- Be specific and visual — "deep obsidian scales with glowing orange lava cracks coating the original skin" not "fire-like skin".
 
 Rules for clip_tags (CRITICAL — these go to CLIP encoder, max 77 tokens total with other fields):
 - Exactly 2-3 short phrases (3-5 words each) naming the most visually distinctive morphological changes.

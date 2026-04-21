@@ -1,8 +1,8 @@
 """
 Prompt Conciliator (E3) — assembles specialist outputs into final FLUX prompt.
 Reads _pa, _ps, _pe, _na, _ns JSONs for one (Pokémon, type) combination and
-assembles: prompt (single text for both CLIP and T5) + negative_prompt.
-Species name anchors morphology via T5 (LoRA has no CLIP weights).
+assembles a single prompt (CLIP + T5) and a filtered negative_prompt.
+Prompt order: style trigger → species+type → E1 anchor_phrases → PA → PE → PS → style closer.
 Saves outputs/prompts/{id}_{type}.json.
 Called by batch_runner.py (Phase C, after parallel specialists).
 """
@@ -21,9 +21,8 @@ logger = logging.getLogger(__name__)
 _REQUIRED_KEYS  = {"prompt", "negative_prompt"}
 _PART_SUFFIXES  = ("pa", "ps", "pe", "na", "ns")
 
-# Color words that signal species-specific or type-specific aesthetics — exclude from CLIP structural anchors
-_COLOR_WORDS = {"red", "white", "color", "colour", "green", "blue", "yellow", "brown", "pink",
-                "gold", "silver", "orange", "purple", "black", "gray", "grey", "crimson", "violet"}
+# Words that must never appear in the negative prompt — removing them would break sprite aesthetics
+_NEGATIVE_BLACKLIST = {"black", "white", "bold", "outline", "outlines", "cel", "shading"}
 
 
 # ----------------------------------------
@@ -49,22 +48,18 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str) -> dict:
     # ----
     # Substep 1.1 — Build prompt
     # ----
-    # Species name as "body shape" anchors morphology through T5 (LoRA has no CLIP weights).
-    # Structural identity_traits follow to reinforce silhouette within CLIP's 77-token window.
-    # Canonical colors are suppressed by the negative prompt.
-    subject = f"pkmnstyle, solo, white background, {target_type} type, {pokemon_name} body shape"
+    # Order: style trigger → species+type → identity anchors → transformation → pose → effects → style closer
+    # anchor_phrases from E1 go before PA so identity is established before transformation is described.
+    subject = f"pkmnstyle, Ken Sugimori style, solo, white background, {target_type} type {pokemon_name}"
 
-    structural_identity = [
-        t for t in pokemon_analysis.get("identity_traits", [])
-        if not any(c in t.lower() for c in _COLOR_WORDS)
-    ][:3]
+    anchor_phrases = pokemon_analysis.get("anchor_phrases", [])
 
     body    = parts["pa"].get("body_transformation", "")
     pose    = parts["pe"].get("pose_expression", "")
     style   = parts["ps"].get("style_effects", "")
-    closing = "Clean cel-shaded pokémon illustration style with bold outlines and soft shading. There is only one pokémon. No text, no watermarks, no signatures."
+    closing = "Official Pokémon artwork, bold black outlines, clean cel shading. One pokémon only, no text, no watermarks, no signatures."
 
-    subject_full = subject + ", " + ", ".join(structural_identity) + "." if structural_identity else subject + "."
+    subject_full = subject + ", " + ", ".join(anchor_phrases) + "." if anchor_phrases else subject + "."
     prompt_parts = [p for p in [subject_full, body, pose, style, closing] if p]
     prompt = " ".join(prompt_parts)
 
@@ -74,8 +69,13 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str) -> dict:
     neg_anatomy = parts["na"].get("negative_anatomy", "")
     neg_style   = parts["ns"].get("negative_style", "")
 
-    neg_parts = [p for p in [neg_anatomy, neg_style] if p]
-    negative_prompt = ", ".join(neg_parts) if neg_parts else ""
+    # Filter words that would break sprite aesthetics (e.g. "black" removes bold outlines)
+    raw_negative = ", ".join(p for p in [neg_anatomy, neg_style] if p)
+    filtered_terms = [
+        term for term in raw_negative.split(", ")
+        if term.strip().lower() not in _NEGATIVE_BLACKLIST
+    ]
+    negative_prompt = ", ".join(filtered_terms)
 
     return {"prompt": prompt, "negative_prompt": negative_prompt}
 
