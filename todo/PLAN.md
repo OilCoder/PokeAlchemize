@@ -96,8 +96,11 @@ PokeAIchemize/
 - [ ] Decidir si escalar a 146 Pokémon × 18 tipos = 2,628 imágenes
 - [ ] Generar los ~2,628 sprites reimaginados (batch completo)
 
-### Phase 5 — Mejoras de calidad
-- [ ] `pipeline/01_pokemon_analyst.py`: reemplazar E1 con qwen2.5vl:7b — pasar sprite original `data/sprites/{id}.png` como imagen para extraer rasgos visuales reales (colores exactos, formas, proporciones)
+### Phase 5 — Mejoras de calidad (COMPLETED)
+- [x] `pipeline/01_pokemon_analyst.py`: integrar qwen2.5vl:7b — dos etapas: visión extrae visual_facts del sprite real, qwen3:30b produce JSON de anatomía con hechos visuales como contexto (2026-04-21)
+- [x] `pipeline/06_anatomy_negative.py`: corregir prompt NA — suprimir solo estética de tipo (color/material/textura), nunca estructura o silueta del feature (2026-04-21)
+- [x] `pipeline/07_style_negative.py`: corregir NS — cargar E2 de tipos ORIGINALES en vez del tipo destino; fix bug que ponía efectos del target type en el negativo (2026-04-21)
+- [x] `pipeline/batch_runner.py`: Phase B siempre genera E2 para los 18 tipos independientemente del filtro DEV (2026-04-21)
 - [x] Evaluar FLUX.1-schnell como alternativa de velocidad — descartado, calidad inaceptable con 4-12 steps, artefactos anatómicos (2026-04-20)
 
 ### Phase 6 — Web Pokédex
