@@ -19,7 +19,6 @@ from config import (
     IMAGE_STEPS,
     IMAGES_DIR,
     PROMPTS_DIR,
-    TYPES_FILE,
     ZIMAGE_GUIDANCE,
     ZIMAGE_MODEL,
 )
@@ -51,30 +50,15 @@ def _load_pipeline() -> ZImagePipeline:
 
 
 # ----------------------------------------
-# Step 2 — Seed loader
+# Step 2 — Single image generation
 # ----------------------------------------
 
-def _load_seed_map() -> dict:
-    """Load per-type seeds from types.json.
-
-    Returns:
-        Dict mapping type name to seed integer.
-    """
-    with open(TYPES_FILE, encoding="utf-8") as f:
-        return {t["name"]: t.get("seed", 7) for t in json.load(f)}
-
-
-# ----------------------------------------
-# Step 3 — Single image generation
-# ----------------------------------------
-
-def _generate_one(pipe: ZImagePipeline, prompt_data: dict, seed: int) -> Path:
+def _generate_one(pipe: ZImagePipeline, prompt_data: dict) -> Path:
     """Generate one type-transformed Pokémon sprite from an agent-generated prompt.
 
     Args:
         pipe: Loaded ZImagePipeline.
         prompt_data: Dict with pokemon_id, target_type, and prompt fields.
-        seed: Random seed for this type.
 
     Returns:
         Path to the saved output image.
@@ -87,7 +71,6 @@ def _generate_one(pipe: ZImagePipeline, prompt_data: dict, seed: int) -> Path:
         logger.info("skip (exists): %s", out_path.name)
         return out_path
 
-    generator = torch.Generator(device="cpu").manual_seed(seed)
     torch.cuda.empty_cache()
 
     image = pipe(
@@ -96,7 +79,6 @@ def _generate_one(pipe: ZImagePipeline, prompt_data: dict, seed: int) -> Path:
         width=IMAGE_SIZE,
         num_inference_steps=IMAGE_STEPS,
         guidance_scale=ZIMAGE_GUIDANCE,
-        generator=generator,
     ).images[0]
 
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
@@ -140,12 +122,10 @@ def run() -> None:
             with open(pf, encoding="utf-8") as f:
                 prompt_data = json.load(f)
 
-            target_type     = prompt_data["target_type"]
-            seed            = seed_map.get(target_type, 7)
-            out_path        = IMAGES_DIR / f"{prompt_data['pokemon_id']}_{target_type}.png"
+            out_path        = IMAGES_DIR / f"{prompt_data['pokemon_id']}_{prompt_data['target_type']}.png"
             already_existed = out_path.exists()
 
-            _generate_one(pipe, prompt_data, seed)
+            _generate_one(pipe, prompt_data)
 
             if already_existed:
                 skipped += 1

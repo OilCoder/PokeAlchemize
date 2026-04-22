@@ -13,7 +13,7 @@ from config import (
     POKEMON_DIR,
     PROMPTS_DIR,
     PROMPTS_PARTS_DIR,
-    TYPES_FILE,
+    TYPE_VISUAL_DIR,
 )
 
 logger = logging.getLogger(__name__)
@@ -22,14 +22,23 @@ _REQUIRED_KEYS = {"prompt"}
 _PART_SUFFIXES = ("pa", "ps", "pe", "na", "ns")
 
 
-def _load_types() -> dict:
-    """Load types.json and return dict keyed by type name.
+def _load_type_visual(target_type: str) -> dict:
+    """Load E2 visual vocabulary for a type from types_visual/{type}.json.
+
+    Args:
+        target_type: Type name (e.g. 'fire').
 
     Returns:
-        Dict mapping type name to its data (palette, skin_material, accent, seed).
+        E2 output dict with palette, skin_material, accent and other fields.
+
+    Raises:
+        FileNotFoundError: If the E2 file for this type does not exist.
     """
-    with open(TYPES_FILE, encoding="utf-8") as f:
-        return {t["name"]: t for t in json.load(f)}
+    path = TYPE_VISUAL_DIR / f"{target_type}.json"
+    if not path.exists():
+        raise FileNotFoundError(f"E2 missing for type '{target_type}': {path}")
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
 
 
 # ----------------------------------------
@@ -120,12 +129,9 @@ def run(pokemon_id: str, target_type: str) -> dict:
             parts[suffix] = json.load(f)
 
     # ----
-    # Substep 2.3 — Load type data
+    # Substep 2.3 — Load E2 type visual vocabulary
     # ----
-    type_map = _load_types()
-    if target_type not in type_map:
-        raise KeyError(f"Type '{target_type}' not found in types.json")
-    type_data = type_map[target_type]
+    type_data = _load_type_visual(target_type)
 
     logger.info("E3 assembling: %s × %s", pokemon_id, target_type)
 

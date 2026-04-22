@@ -14,26 +14,32 @@ from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT, TYPE_VISUAL_DIR
 
 logger = logging.getLogger(__name__)
 
-_REQUIRED_KEYS = {"colors", "anatomy", "effects", "suppress_from_others"}
+_REQUIRED_KEYS = {"colors", "anatomy", "effects", "suppress_from_others", "palette", "skin_material", "accent"}
 _MAX_RETRIES   = 3
 
-SYSTEM_PROMPT = """You are a Pokémon art director specializing in elemental type visual design.
+SYSTEM_PROMPT = """You are a Pokémon art director specializing in elemental type visual design for Z-Image-Turbo.
 Your job is to define the visual vocabulary for a Pokémon type so that any Pokémon can be
 reimagined in that type while keeping its identity.
 
 Return ONLY valid JSON with exactly these keys:
 {
   "colors": {
-    "primary":   ["2-3 dominant colors for this type, e.g. deep blue, aquamarine"],
-    "secondary": ["1-2 accent colors, e.g. white foam, silver"],
-    "avoid":     ["2-3 colors strongly associated with opposing types to remove"]
+    "primary":   ["2-3 dominant colors for this type"],
+    "secondary": ["1-2 accent colors"],
+    "avoid":     ["2-3 colors from opposing types to remove"]
   },
-  "anatomy": ["4-6 physical body modifications typical of this type, e.g. webbed feet, dorsal fins, smooth wet scales"],
-  "effects": ["3-5 visual effects characteristic of this type, e.g. water droplets, ripple aura, foam spray"],
-  "suppress_from_others": ["3-5 traits from other types that must be removed, e.g. flames, leaf appendages, rock texture"]
+  "anatomy": ["4-6 physical body modifications typical of this type"],
+  "effects": ["3-5 visual effects characteristic of this type"],
+  "suppress_from_others": ["3-5 traits from other types that must be removed"],
+  "palette": "comma-separated list of 4-5 specific colors in order of dominance, e.g. 'jet black, dark gray, bright orange lava glow, crimson red, amber'",
+  "skin_material": "one sentence describing how any Pokémon body surface transforms for this type, using material/texture language not color replacement — e.g. 'lava-hardened black skin with bright orange molten lava visible through surface cracks all over the body'",
+  "accent": "one concise line for tail tip and eyes in this type — e.g. 'amber tail tip, ember-red eyes'"
 }
 
-Focus on what a Ken Sugimori artist would draw. Be anatomically specific. No explanations outside the JSON."""
+Rules for palette: list colors from most dominant to least; be specific (not 'red' but 'crimson red'); max 5 colors.
+Rules for skin_material: describe what the skin IS made of, not what color it changed to; keep under 20 words; no pose or atmosphere.
+Rules for accent: two elements only — tail tip and eyes; one line, under 10 words.
+Focus on what a Ken Sugimori artist would draw. No explanations outside the JSON."""
 
 
 # ----------------------------------------
