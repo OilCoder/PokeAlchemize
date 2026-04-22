@@ -1,74 +1,146 @@
 [
   {
     "name": "normal",
-    "morph_traits": "plain fur or smooth skin, no special features, neutral earth tones, simple round shapes"
+    "morph_traits": "plain fur or smooth skin, no special features, neutral earth tones, simple round shapes",
+    "palette": "warm beige, creamy white, soft tan, pale ivory, light brown",
+    "skin_material": "smooth warm beige skin with soft ivory undertones and gentle tan gradients across the body",
+    "accent": "light tan tail tip, warm brown eyes",
+    "seed": 7
   },
   {
     "name": "fire",
-    "morph_traits": "flame-tipped tail and ears, ember scales or magma-cracked skin, orange and red color palette, glowing eyes"
+    "morph_traits": "flame-tipped tail and ears, ember scales or magma-cracked skin, orange and red color palette, glowing eyes",
+    "palette": "jet black, dark gray, bright orange lava glow, crimson red, amber",
+    "skin_material": "lava-hardened black skin with bright orange molten lava visible through surface cracks all over the body",
+    "accent": "amber tail tip, ember-red eyes",
+    "seed": 7
   },
   {
     "name": "water",
-    "morph_traits": "fins replacing ears and tail tip, smooth wet scales, blue and teal color palette, gill slits on neck"
+    "morph_traits": "fins replacing ears and tail tip, smooth wet scales, blue and teal color palette, gill slits on neck",
+    "palette": "ocean blue, seafoam white, deep teal, translucent aqua, silver foam",
+    "skin_material": "smooth ocean-blue scales with seafoam white highlights and subtle teal undertones covering the entire body",
+    "accent": "seafoam tail tip, deep ocean-blue eyes",
+    "seed": 256
   },
   {
     "name": "electric",
-    "morph_traits": "jagged lightning-bolt shaped tail and spines, yellow and white color palette, sparking fur tips, sharp angular features"
+    "morph_traits": "jagged lightning-bolt shaped tail and spines, yellow and white color palette, sparking fur tips, sharp angular features",
+    "palette": "electric yellow, bright white lightning, pale gold, light gray, vivid amber",
+    "skin_material": "bright yellow electrified skin with white lightning bolt patterns crackling across the entire surface",
+    "accent": "golden yellow tail tip, glowing electric-white eyes",
+    "seed": 7
   },
   {
     "name": "grass",
-    "morph_traits": "leaf-shaped ears and tail, vine or petal growths on body, green color palette, floral patterns on skin"
+    "morph_traits": "leaf-shaped ears and tail, vine or petal growths on body, green color palette, floral patterns on skin",
+    "palette": "forest green, lime green, earthy brown, pale yellow-green, mossy olive",
+    "skin_material": "leafy forest green skin with lime green highlights and earthy brown texture patches across the body",
+    "accent": "mossy green tail tip, bright leaf-green eyes",
+    "seed": 7
   },
   {
     "name": "ice",
-    "morph_traits": "crystalline ice spikes on back and tail, pale blue and white color palette, frosted fur, sharp angular icy features"
+    "morph_traits": "crystalline ice spikes on back and tail, pale blue and white color palette, frosted fur, sharp angular icy features",
+    "palette": "pale icy blue, frost white, crystalline silver, translucent blue, cool gray",
+    "skin_material": "frost-coated pale blue skin with crystalline ice patterns covering the entire body surface",
+    "accent": "icy tail tip, pale frost-white eyes",
+    "seed": 256
   },
   {
     "name": "fighting",
-    "morph_traits": "bulky muscular build, thick limbs, scarred or calloused skin, earthy red and brown tones, determined expression"
+    "morph_traits": "bulky muscular build, thick limbs, scarred or calloused skin, earthy red and brown tones, determined expression",
+    "palette": "earthy red-brown, dark tan, deep sienna, sandy beige, warm ochre",
+    "skin_material": "rough calloused earthy red-brown skin with dark tan battle-scarred patches and hardened hide texture",
+    "accent": "dark tan tail tip, fierce deep brown eyes",
+    "seed": 7
   },
   {
     "name": "poison",
-    "morph_traits": "venomous fangs or stingers, purple and acid-green color palette, toxic slime coating, barbed tail"
+    "morph_traits": "venomous fangs or stingers, purple and acid-green color palette, toxic slime coating, barbed tail",
+    "palette": "deep purple, acid green, toxic yellow-green, dark violet, sickly pale green",
+    "skin_material": "toxic purple skin with acid green slime oozing through the surface and dark violet bruise markings all over",
+    "accent": "acid green tail tip, slitted toxic yellow-green eyes",
+    "seed": 42
   },
   {
     "name": "ground",
-    "morph_traits": "rocky plated hide, sandy brown color palette, clawed flat feet, earthen crystal growths, heavy stocky frame"
+    "morph_traits": "rocky plated hide, sandy brown color palette, clawed flat feet, earthen crystal growths, heavy stocky frame",
+    "palette": "sandy brown, rocky gray, warm ochre, dusty beige, dark earth brown",
+    "skin_material": "rocky plated sandy brown hide with rough gray stone texture and dusty ochre desert markings across the body",
+    "accent": "sandy brown tail tip, stone gray eyes",
+    "seed": 7
   },
   {
     "name": "flying",
-    "morph_traits": "feathered wings replacing front limbs or on back, hollow light bones, sky blue and white color palette, streamlined body"
+    "morph_traits": "feathered wings replacing front limbs or on back, hollow light bones, sky blue and white color palette, streamlined body",
+    "palette": "sky blue, cloud white, pale silver, light azure, soft cream",
+    "skin_material": "smooth sky blue feathered skin with cloud white soft plumage covering the entire body surface",
+    "accent": "cloud white tail tip, clear sky-blue eyes",
+    "seed": 256
   },
   {
     "name": "psychic",
-    "morph_traits": "glowing third eye on forehead, pink and lavender color palette, ethereal aura, enlarged smooth cranium"
+    "morph_traits": "glowing third eye on forehead, pink and lavender color palette, ethereal aura, enlarged smooth cranium",
+    "palette": "vivid pink, pale lavender, soft white glow, deep rose, translucent magenta",
+    "skin_material": "glowing pink psychic skin with pale lavender ethereal aura radiating outward and soft rose undertones",
+    "accent": "rose-pink tail tip, glowing deep pink eyes",
+    "seed": 42
   },
   {
     "name": "bug",
-    "morph_traits": "chitinous exoskeleton plating, compound eyes, antenna on head, green and brown color palette, segmented limbs"
+    "morph_traits": "chitinous exoskeleton plating, compound eyes, antenna on head, green and brown color palette, segmented limbs",
+    "palette": "forest green, dark brown, chitinous black, pale yellow-green, amber",
+    "skin_material": "hard chitinous green exoskeleton covering the body with dark brown joint segments and black edge outlines",
+    "accent": "amber tail tip, compound amber eyes",
+    "seed": 7
   },
   {
     "name": "rock",
-    "morph_traits": "stone-encrusted shell or plating, grey and brown color palette, angular blocky features, crystal mineral growths"
+    "morph_traits": "stone-encrusted shell or plating, grey and brown color palette, angular blocky features, crystal mineral growths",
+    "palette": "granite gray, rocky brown, mineral white, dark slate, quartz crystal",
+    "skin_material": "granite gray stone-encrusted skin with rocky brown rough mineral plating covering the entire body",
+    "accent": "dark slate tail tip, cold stone-gray eyes",
+    "seed": 7
   },
   {
     "name": "ghost",
-    "morph_traits": "translucent wispy body edges, hollow black eye sockets, purple and black color palette, shadowy vapour trailing from tail"
+    "morph_traits": "translucent wispy body edges, hollow black eye sockets, purple and black color palette, shadowy vapour trailing from tail",
+    "palette": "pale lavender, translucent purple, silvery mist, dark violet, soft white glow",
+    "skin_material": "semi-transparent ghostly pale lavender skin with faint shadowy internal outlines visible beneath the surface",
+    "accent": "wispy tail tip, hollow violet glowing eye sockets",
+    "seed": 42
   },
   {
     "name": "dragon",
-    "morph_traits": "small wing membranes on back, horn or crest on head, scaled body, deep blue and purple color palette, slit pupils"
+    "morph_traits": "small wing membranes on back, horn or crest on head, scaled body, deep blue and purple color palette, slit pupils",
+    "palette": "deep navy blue, dark purple, iridescent teal, bright cobalt, metallic gold",
+    "skin_material": "dragon-scaled deep navy blue hide with dark purple scale edges and iridescent teal highlights across the body",
+    "accent": "cobalt blue tail tip, slit-pupil gold dragon eyes",
+    "seed": 256
   },
   {
     "name": "dark",
-    "morph_traits": "shadowy dark fur, black and dark grey color palette, jagged spiky edges, menacing narrow eyes, tattered ear tips"
+    "morph_traits": "shadowy dark fur, black and dark grey color palette, jagged spiky edges, menacing narrow eyes, tattered ear tips",
+    "palette": "jet black, dark charcoal, shadowy navy, deep slate gray, void black",
+    "skin_material": "shadow-dark jet black fur with deep charcoal jagged edge markings and void-black sharp spiky outlines",
+    "accent": "jagged black tail tip, narrow menacing dark gray eyes",
+    "seed": 42
   },
   {
     "name": "steel",
-    "morph_traits": "metallic plated armour on torso and limbs, silver and gunmetal color palette, mechanical joint lines, reflective smooth surfaces"
+    "morph_traits": "metallic plated armour on torso and limbs, silver and gunmetal color palette, mechanical joint lines, reflective smooth surfaces",
+    "palette": "silver gray, gunmetal dark, metallic white, cool steel blue, polished chrome",
+    "skin_material": "metallic silver armored skin with gunmetal gray plating covering the body and polished chrome highlights",
+    "accent": "chrome silver tail tip, reflective steel-gray eyes",
+    "seed": 7
   },
   {
     "name": "fairy",
-    "morph_traits": "small ornate wings, pastel pink and white color palette, glowing sparkles around body, round soft features, flower or star motifs"
+    "morph_traits": "small ornate wings, pastel pink and white color palette, glowing sparkles around body, round soft features, flower or star motifs",
+    "palette": "pastel pink, soft white, glittering gold, pale rose, shimmering lavender",
+    "skin_material": "pastel pink soft glowing skin with shimmering gold sparkles floating around the surface and pale rose glow",
+    "accent": "soft pink tail tip, sparkling golden eyes",
+    "seed": 42
   }
 ]

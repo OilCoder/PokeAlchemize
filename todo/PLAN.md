@@ -11,7 +11,7 @@ generadas localmente (RTX 4080), pre-generadas en batch; la web solo muestra res
 | Capa          | Tecnología                                    |
 |---------------|-----------------------------------------------|
 | LLM (prompts) | Ollama — qwen3:30b-a3b                        |
-| Sprite        | FLUX.1-dev (black-forest-labs) + WiroAI/pokemon-flux-lora |
+| Sprite        | Z-Image-Turbo (Tongyi-MAI/Z-Image-Turbo)                  |
 | Fondo         | libre (generado por el modelo)                |
 | Datos Pokémon | sprites locales en data/sprites/              |
 | Web           | HTML / CSS / JS estático                      |
@@ -100,6 +100,13 @@ PokeAIchemize/
 - [ ] Validar dev run: 9 Pokémon × 3 tipos con arquitectura de prompt actualizada
 - [ ] Decidir si escalar a 146 Pokémon × 18 tipos = 2,628 imágenes
 - [ ] Generar los ~2,628 sprites reimaginados (batch completo)
+- [x] `config.py`: migrar FLUX → Z-Image-Turbo (ZIMAGE_MODEL, IMAGE_SIZE=1024, IMAGE_STEPS=12, ZIMAGE_GUIDANCE=0.0) (2026-04-22)
+- [x] `data/types.json`: añadir campos palette, skin_material, accent, seed para los 18 tipos (2026-04-22)
+- [x] `pipeline/09_image_generator.py`: migrar FluxPipeline → ZImagePipeline; prompts inline desde types.json + pokemons.json; seed por tipo (2026-04-22)
+- [ ] Ejecutar set de pruebas Z-Image: 9 Pokémon × 3 tipos = 27 imágenes (`pipeline/09_image_generator.py` standalone)
+- [ ] Evaluar visualmente los 27 resultados — confirmar que template genérico funciona para Charmander, Squirtle, Pikachu, etc.
+- [ ] Decidir si simplificar batch_runner.py para saltar fases A–C con Z-Image (prompts inline no necesitan agentes)
+- [ ] Actualizar CLAUDE.md: stack de sprites FLUX → Z-Image-Turbo
 
 ### Phase 5 — Mejoras de calidad (COMPLETED)
 - [x] `pipeline/01_pokemon_analyst.py`: integrar qwen2.5vl:7b — dos etapas: visión extrae visual_facts del sprite real, qwen3:30b produce JSON de anatomía con hechos visuales como contexto (2026-04-21)
@@ -112,7 +119,7 @@ PokeAIchemize/
 - [ ] Debug: probar `InstantX/FLUX.1-dev-IP-Adapter` con sprite original como imagen de referencia — preserva identidad via SigLIP sin cambiar pipeline de prompts
 - [ ] Evaluar resultado: ¿IP-Adapter preserva silueta + permite transformación de tipo simultánea?
 - [ ] Si viable: integrar IP-Adapter en `pipeline/09_image_generator.py` — pasar sprite original como imagen de condicionamiento
-- [ ] Evaluar Z-Image-Turbo (6B, Apache 2.0, supera FLUX en benchmarks 2026) si IP-Adapter no resuelve identidad
+- [x] Evaluar Z-Image-Turbo (6B, Apache 2.0, supera FLUX en benchmarks 2026) si IP-Adapter no resuelve identidad — evaluado y elegido como modelo de producción (2026-04-22)
 
 ### Phase 6 — Web Pokédex
 - [ ] `web/index.html`: grid de los 150 Pokémon navegable

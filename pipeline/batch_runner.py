@@ -3,7 +3,7 @@ Batch Runner — pipeline orchestrator for PokeAIchemize sprite generation.
 Phase A: E1 × 150 Pokémon — anatomy analysis (parallel).
 Phase B: E2 × 18 types    — type visual vocabulary (sequential).
 Phase C: 5 specialists + E3 conciliator × 2700 combos (parallel combos, parallel specialists).
-Phase D: image generation  — FLUX.1-dev + LoRA (sequential, GPU).
+Phase D: image generation  — Z-Image-Turbo (sequential, GPU).
 Resumable: each phase skips existing output files.
 """
 

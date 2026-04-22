@@ -52,12 +52,9 @@ OLLAMA_MODEL        = "qwen3:30b-a3b"    # MoE 30B, ~3B activos/token — mejor 
 OLLAMA_VISION_MODEL = "qwen2.5vl:7b"    # vision-language model; analiza sprites para E1
 
 # ----
-# Step 5 – FLUX.1-dev + WiroAI pokemon LoRA (image generation)
+# Step 5 – Z-Image-Turbo (image generation)
 # ----
-FLUX_MODEL        = "black-forest-labs/FLUX.1-dev"          # modelo base; comprensión semántica T5-XXL
-FLUX_LORA         = "WiroAI/pokemon-flux-lora"              # LoRA estilo sprite Pokémon; trigger: pkmnstyle
-FLUX_LORA_WEIGHT  = "pokemon_flux_lora.safetensors"         # nombre del archivo en el repositorio HF
-IMAGE_SIZE        = 768    # reducido de 1024 — ~2.5x más rápido, calidad aceptable validada
-IMAGE_STEPS       = 20     # reducido de 28 — FLUX mantiene calidad con 20 pasos
-GUIDANCE_SCALE    = 3.5    # rango óptimo FLUX; valores SDXL (7-9) sobreexponen colores
-LORA_SCALE        = 0.85   # peso de la LoRA; 1.0 sobreimpone el estilo, <0.6 lo pierde
+ZIMAGE_MODEL    = "Tongyi-MAI/Z-Image-Turbo"
+IMAGE_SIZE      = 1024   # native resolution for Z-Image-Turbo
+IMAGE_STEPS     = 12     # distilled model; 12 steps is sufficient
+ZIMAGE_GUIDANCE = 0.0    # Z-Image is distilled — guidance_scale must be 0.0
