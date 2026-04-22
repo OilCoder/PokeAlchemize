@@ -1,8 +1,7 @@
 """
-Prompt Conciliator (E3) — assembles specialist outputs into final FLUX prompt.
-Reads _pa, _ps, _pe, _na, _ns JSONs for one (Pokémon, type) combination and
-assembles a single prompt (CLIP + T5) and a filtered negative_prompt.
-Prompt order: style trigger → species+type → E1 anchor_phrases → PA → PE → PS → style closer.
+Prompt Conciliator (E3) — assembles specialist outputs into final Z-Image prompt.
+Reads types.json for palette/skin_material/accent and PA's signature_feature for the
+Pokémon-specific line. Assembles palette-first prompt required by Z-Image-Turbo.
 Saves outputs/prompts/{id}_{type}.json.
 Called by batch_runner.py (Phase C, after parallel specialists).
 """
@@ -14,70 +13,61 @@ from config import (
     POKEMON_DIR,
     PROMPTS_DIR,
     PROMPTS_PARTS_DIR,
+    TYPES_FILE,
 )
 
 logger = logging.getLogger(__name__)
 
-_REQUIRED_KEYS  = {"prompt", "negative_prompt"}
-_PART_SUFFIXES  = ("pa", "ps", "pe", "na", "ns")
-
-# Words that must never appear in the negative prompt — removing them would break sprite aesthetics
-_NEGATIVE_BLACKLIST = {"black", "white", "bold", "outline", "outlines", "cel", "shading"}
+_REQUIRED_KEYS = {"prompt"}
+_PART_SUFFIXES = ("pa", "ps", "pe", "na", "ns")
 
 
-# ----------------------------------------
-# Step 1 — Prompt assembly (no LLM needed)
-# ----------------------------------------
-
-def _assemble(pokemon_analysis: dict, parts: dict, target_type: str) -> dict:
-    """Assemble specialist outputs into clip_prompt, t5_prompt, and negative_prompt.
-
-    CLIP encoder (~77 tokens): receives clip_prompt — identity, structure, key type tags.
-    T5 encoder (~512 tokens): receives t5_prompt — full transformation detail.
-
-    Args:
-        pokemon_analysis: E1 output dict (pokemon_name, anchor_phrases).
-        parts: Dict mapping suffix → parsed JSON (pa, ps, pe, na, ns).
-        target_type: Target type name (e.g. 'fire').
+def _load_types() -> dict:
+    """Load types.json and return dict keyed by type name.
 
     Returns:
-        Dict with 'clip_prompt', 't5_prompt', and 'negative_prompt' strings.
+        Dict mapping type name to its data (palette, skin_material, accent, seed).
     """
-    pokemon_name = pokemon_analysis.get("pokemon_name", "").lower()
+    with open(TYPES_FILE, encoding="utf-8") as f:
+        return {t["name"]: t for t in json.load(f)}
 
-    # ----
-    # Substep 1.1 — Build prompt
-    # ----
-    # Order: style trigger → species+type → identity anchors → transformation → pose → effects → style closer
-    # anchor_phrases from E1 go before PA so identity is established before transformation is described.
-    subject = f"pkmnstyle, Ken Sugimori style, solo, white background, {target_type} type {pokemon_name}"
 
-    anchor_phrases = pokemon_analysis.get("anchor_phrases", [])
+# ----------------------------------------
+# Step 1 — Prompt assembly
+# ----------------------------------------
 
-    body    = parts["pa"].get("body_transformation", "")
-    pose    = parts["pe"].get("pose_expression", "")
-    style   = parts["ps"].get("style_effects", "")
-    closing = "Official Pokémon artwork, bold black outlines, clean cel shading. One pokémon only, no text, no watermarks, no signatures."
+def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: dict) -> dict:
+    """Assemble specialist outputs into a palette-first Z-Image prompt.
 
-    subject_full = subject + ", " + ", ".join(anchor_phrases) + "." if anchor_phrases else subject + "."
-    prompt_parts = [p for p in [subject_full, body, pose, style, closing] if p]
-    prompt = " ".join(prompt_parts)
+    Palette must come first (~50 tokens) to override Z-Image's canonical color
+    priors before attention decays. Pokemon-specific signature_feature from PA
+    personalizes the prompt beyond the generic type template.
 
-    # ----
-    # Substep 1.2 — Build negative prompt
-    # ----
-    neg_anatomy = parts["na"].get("negative_anatomy", "")
-    neg_style   = parts["ns"].get("negative_style", "")
+    Args:
+        pokemon_analysis: E1 output dict (pokemon_name field).
+        parts: Dict mapping suffix → parsed JSON (pa, ps, pe, na, ns).
+        target_type: Target type name (e.g. 'fire').
+        type_data: Entry from types.json with palette, skin_material, accent.
 
-    # Filter words that would break sprite aesthetics (e.g. "black" removes bold outlines)
-    raw_negative = ", ".join(p for p in [neg_anatomy, neg_style] if p)
-    filtered_terms = [
-        term for term in raw_negative.split(", ")
-        if term.strip().lower() not in _NEGATIVE_BLACKLIST
+    Returns:
+        Dict with 'prompt' string.
+    """
+    name      = pokemon_analysis.get("pokemon_name", "").capitalize()
+    palette   = type_data["palette"]
+    skin      = type_data["skin_material"]
+    accent    = type_data["accent"]
+    signature = parts["pa"].get("signature_feature", "")
+
+    prompt_parts = [
+        f"Color palette: {palette}.",
+        f"{name} {target_type} type. Ken Sugimori style, cel-shaded, bold black outlines, white background.",
+        skin + ".",
     ]
-    negative_prompt = ", ".join(filtered_terms)
+    if signature:
+        prompt_parts.append(signature)
+    prompt_parts.append(f"{accent}. White background, no text.")
 
-    return {"prompt": prompt, "negative_prompt": negative_prompt}
+    return {"prompt": " ".join(prompt_parts)}
 
 
 # ----------------------------------------
@@ -85,11 +75,9 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str) -> dict:
 # ----------------------------------------
 
 def run(pokemon_id: str, target_type: str) -> dict:
-    """Assemble specialist outputs into dual-encoder prompt JSON for one (Pokémon, type) combo.
+    """Assemble specialist outputs into a Z-Image prompt JSON for one (Pokémon, type) combo.
 
-    Reads E1 JSON and the five specialist part JSONs (_pa, _ps, _pe, _na, _ns).
-    Assembles clip_prompt, t5_prompt, and negative_prompt without calling Ollama.
-    Skips if a valid file already exists.
+    Reads E1 JSON, PA part JSON, and types.json. Skips if a valid file already exists.
 
     Args:
         pokemon_id: Zero-padded Pokémon ID (e.g. '025').
@@ -100,6 +88,7 @@ def run(pokemon_id: str, target_type: str) -> dict:
 
     Raises:
         FileNotFoundError: If E1 or any specialist part JSON is missing.
+        KeyError: If target_type is not found in types.json.
     """
     out_path = PROMPTS_DIR / f"{pokemon_id}_{target_type}.json"
 
@@ -130,12 +119,20 @@ def run(pokemon_id: str, target_type: str) -> dict:
         with open(part_path, encoding="utf-8") as f:
             parts[suffix] = json.load(f)
 
+    # ----
+    # Substep 2.3 — Load type data
+    # ----
+    type_map = _load_types()
+    if target_type not in type_map:
+        raise KeyError(f"Type '{target_type}' not found in types.json")
+    type_data = type_map[target_type]
+
     logger.info("E3 assembling: %s × %s", pokemon_id, target_type)
 
     # ----
-    # Substep 2.3 — Assemble and save
+    # Substep 2.4 — Assemble and save
     # ----
-    result = _assemble(pokemon_analysis, parts, target_type)
+    result = _assemble(pokemon_analysis, parts, target_type, type_data)
     result["pokemon_id"]  = pokemon_id
     result["target_type"] = target_type
 
