@@ -112,8 +112,7 @@ def run() -> None:
         ]
 
     logger.info("Phase D — image generation: %d prompts", len(prompt_files))
-    pipe     = _load_pipeline()
-    seed_map = _load_seed_map()
+    pipe = _load_pipeline()
 
     generated = skipped = failed = 0
 
