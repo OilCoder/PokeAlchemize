@@ -28,6 +28,7 @@ from config import (
     PROMPT_WORKERS,
     PROMPTS_DIR,
     PROMPTS_PARTS_DIR,
+    SIMILAR_TYPE_EXCLUSIONS,
     TYPE_VISUAL_DIR,
     TYPES_FILE,
 )
@@ -132,11 +133,28 @@ def _run_one_combo(pid: str, ttype: str) -> None:
     _conciliator.run(pid, ttype)
 
 
+def _similar_to_original(original_types: list[str], target_type: str) -> bool:
+    """Return True if target_type is visually too similar to any of the Pokémon's original types.
+
+    Args:
+        original_types: The Pokémon's native type(s) from pokemons.json.
+        target_type: The target type to test.
+
+    Returns:
+        True if target_type appears in SIMILAR_TYPE_EXCLUSIONS for any original type.
+    """
+    return any(
+        target_type in SIMILAR_TYPE_EXCLUSIONS.get(orig, [])
+        for orig in original_types
+    )
+
+
 def _run_phase_c(pokemons: list, types: list) -> None:
     """Phase C — specialists + E3: build prompt parts and assemble final prompts (parallel).
 
     Runs 5 specialists in parallel per combo, then E3 conciliator.
-    Skips combinations where the target type is one of the Pokémon's native types.
+    Skips combinations where the target type is the Pokémon's native type or
+    is visually too similar to it (as defined in SIMILAR_TYPE_EXCLUSIONS).
 
     Args:
         pokemons: List of Pokémon dicts.
@@ -147,6 +165,7 @@ def _run_phase_c(pokemons: list, types: list) -> None:
         for p in pokemons
         for t in types
         if t["name"] not in p["types"]
+        and not _similar_to_original(p["types"], t["name"])
     ]
     total = len(pairs)
     logger.info(

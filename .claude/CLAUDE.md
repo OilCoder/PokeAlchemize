@@ -5,8 +5,8 @@ Genera 2,700 sprites reimaginados (150 Pokémon × 18 tipos) y los muestra en un
 
 ## Stack
 - LLM: Ollama local (host, accesible via host.docker.internal:11434)
-- Sprite: FLUX.1-Kontext-dev + WiroAI/pokemon-flux-lora (RTX 4080)
-- Fondo: FLUX.1-dev + inpainting/outpainting
+- Sprite: Z-Image-Turbo (Tongyi-MAI/Z-Image-Turbo, RTX 4080, guidance_scale=0.0)
+- Fondo: pendiente de definición
 - Web: HTML/CSS/JS estático (sin servidor backend)
 - Todo es local — sin APIs externas, sin servicios cloud
 

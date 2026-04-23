@@ -30,12 +30,30 @@ PROMPT_WORKERS = 6  # concurrent threads for E3 prompt generation
 # Step 3 – Development settings
 # ----
 # DEV_POKEMON_IDS: specific Pokémon IDs to run (overrides DEV_POKEMON_LIMIT when set)
-DEV_POKEMON_IDS   = ["001", "004", "007", "025", "039", "052", "054", "094", "143"]
+# 50 representative Gen 1 Pokémon — excludes legendary birds (144/145/146) and Eevee family
+DEV_POKEMON_IDS = [
+    "003", "006", "009", "012", "015", "018", "024", "025", "028", "031",
+    "034", "035", "039", "045", "050", "052", "054", "059", "065", "068",
+    "074", "079", "081", "088", "092", "094", "095", "103", "104", "106",
+    "107", "109", "113", "116", "122", "123", "124", "125", "126", "127",
+    "128", "129", "130", "131", "137", "142", "143", "147", "149", "150",
+]
 DEV_POKEMON_LIMIT = None
 DEV_TYPES_LIMIT   = None
-# DEV_TYPE_NAMES: specific type names to run (overrides DEV_TYPES_LIMIT when set)
-DEV_TYPE_NAMES    = ["fire", "ice", "ghost"]
-DEV_CLEAN         = False  # set True to wipe all generated outputs before run
+# DEV_TYPE_NAMES: target types — visually distinct spectrum (10 types)
+DEV_TYPE_NAMES = [
+    "fire", "water", "ghost", "dark", "dragon", "psychic",
+    "fighting", "steel", "electric", "fairy",
+]
+# SIMILAR_TYPE_EXCLUSIONS: skip combos where target is visually too close to original
+# e.g. water→ice both share cold-blue palette; rock→ground both share earthy-stone palette
+SIMILAR_TYPE_EXCLUSIONS: dict[str, list[str]] = {
+    "water":  ["ice"],
+    "ice":    ["water"],
+    "rock":   ["ground"],
+    "ground": ["rock"],
+}
+DEV_CLEAN = False  # set True to wipe all generated outputs before run
 
 # ----
 # Step 4 – Ollama
