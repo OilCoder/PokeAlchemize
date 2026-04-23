@@ -30,13 +30,16 @@ PROMPT_WORKERS = 6  # concurrent threads for E3 prompt generation
 # Step 3 – Development settings
 # ----
 # DEV_POKEMON_IDS: specific Pokémon IDs to run (overrides DEV_POKEMON_LIMIT when set)
-# 50 representative Gen 1 Pokémon — excludes legendary birds (144/145/146) and Eevee family
+# 50 representative Gen 1 Pokémon — excludes legendary birds (144/145/146) and Eevee family.
+# Includes first-stage starters (001/004/007) alongside finals for recognizability.
+# Removed redundant pairs (Gastly→Gengar, Hitmonlee only, no Grimer/Horsea/Tauros/Onix/Exeggutor).
+# Added Ditto (132), Oddish (043), Growlithe (058), Voltorb (100).
 DEV_POKEMON_IDS = [
-    "003", "006", "009", "012", "015", "018", "024", "025", "028", "031",
-    "034", "035", "039", "045", "050", "052", "054", "059", "065", "068",
-    "074", "079", "081", "088", "092", "094", "095", "103", "104", "106",
-    "107", "109", "113", "116", "122", "123", "124", "125", "126", "127",
-    "128", "129", "130", "131", "137", "142", "143", "147", "149", "150",
+    "001", "003", "004", "006", "007", "009", "012", "015", "018", "024",
+    "025", "028", "031", "034", "035", "039", "043", "045", "050", "052",
+    "054", "058", "059", "065", "068", "074", "079", "081", "094", "100",
+    "104", "106", "109", "113", "122", "123", "124", "125", "126", "127",
+    "129", "130", "131", "132", "137", "142", "143", "147", "149", "150",
 ]
 DEV_POKEMON_LIMIT = None
 DEV_TYPES_LIMIT   = None
@@ -74,5 +77,5 @@ OLLAMA_VISION_MODEL = "qwen2.5vl:7b"    # vision-language model; analiza sprites
 # ----
 ZIMAGE_MODEL    = "Tongyi-MAI/Z-Image-Turbo"
 IMAGE_SIZE      = 1024   # native resolution for Z-Image-Turbo
-IMAGE_STEPS     = 12     # distilled model; 12 steps is sufficient
+IMAGE_STEPS     = 15     # distilled model; 12 steps is sufficient
 ZIMAGE_GUIDANCE = 0.0    # Z-Image is distilled — guidance_scale must be 0.0

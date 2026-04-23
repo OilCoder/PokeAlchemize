@@ -46,17 +46,21 @@ def _load_type_visual(target_type: str) -> dict:
 # ----------------------------------------
 
 def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: dict) -> dict:
-    """Assemble specialist outputs into a palette-first Z-Image prompt.
+    """Assemble specialist outputs into a 77-token-budgeted Z-Image prompt.
 
-    Palette must come first (~50 tokens) to override Z-Image's canonical color
-    priors before attention decays. Pokemon-specific signature_feature from PA
-    personalizes the prompt beyond the generic type template.
+    Token layout (CLIP limit = 77):
+      ~12  palette colors (no label — avoids triggering color-swatch rendering)
+      ~12  name + type + top anchor phrase (locks identity and body shape)
+      ~12  Ken Sugimori style directive
+      ~15  skin_material (type texture, ≤20 words enforced in E2)
+      ~15  signature_feature (Pokémon-specific feature, ≤20 words enforced in PA)
+      ~ 6  accent + background tag (fine detail, falls at edge of 77)
 
     Args:
-        pokemon_analysis: E1 output dict (pokemon_name field).
+        pokemon_analysis: E1 output dict with pokemon_name and anchor_phrases.
         parts: Dict mapping suffix → parsed JSON (pa, ps, pe, na, ns).
         target_type: Target type name (e.g. 'fire').
-        type_data: Entry from types.json with palette, skin_material, accent.
+        type_data: E2 output dict with palette, skin_material, accent.
 
     Returns:
         Dict with 'prompt' string.
@@ -67,14 +71,23 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: 
     accent    = type_data["accent"]
     signature = parts["pa"].get("signature_feature", "")
 
+    anchors    = pokemon_analysis.get("anchor_phrases", [])
+    top_anchor = anchors[0] if anchors else ""
+
+    name_line = (
+        f"{name} {target_type} type, {top_anchor}."
+        if top_anchor else
+        f"{name} {target_type} type."
+    )
+
     prompt_parts = [
-        f"Color palette: {palette}.",
-        f"{name} {target_type} type. Ken Sugimori style, cel-shaded, bold black outlines, white background.",
-        skin + ".",
+        f"{palette}.",                                                              # ~12 tokens
+        f"{name_line} Ken Sugimori style, cel-shaded, bold black outlines, white background.",  # ~24 tokens
+        skin + ".",                                                                 # ~15 tokens
     ]
     if signature:
-        prompt_parts.append(signature)
-    prompt_parts.append(f"{accent}. White background, no text.")
+        prompt_parts.append(signature)                                              # ~15 tokens
+    prompt_parts.append(f"{accent}. White background, no text.")                   # ~ 6 tokens
 
     return {"prompt": " ".join(prompt_parts)}
 
