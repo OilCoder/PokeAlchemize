@@ -7,7 +7,9 @@
     typeFilter: "all",     // sidebar filter
     filterOpen: false,
     favorites: JSON.parse(localStorage.getItem("pa_favs") || "[]"),
-    comboData: {},         // cache: `${id}_${type}` → combo data JSON or null
+    rightbarTab: "concept",      // 'concept' | 'prompt'
+    promptParts: {},             // cache: `${id}_${type}` → {pa,ps,pe,na,ns,final,combo}
+    comboData: {},               // cache: `${id}_${type}` → {species_name, lore, moves, diffs}
   };
 
   // Load bundle
@@ -50,18 +52,6 @@
   // -- Elements
   const $ = (sel, el=document) => el.querySelector(sel);
   const $$ = (sel, el=document) => [...el.querySelectorAll(sel)];
-
-  async function loadComboData(id, type) {
-    const key = `${id}_${type}`;
-    if (key in state.comboData) return state.comboData[key];
-    try {
-      const r = await fetch(`../outputs/combo_data/${id}_${type}.json`);
-      state.comboData[key] = r.ok ? await r.json() : null;
-    } catch (e) {
-      state.comboData[key] = null;
-    }
-    return state.comboData[key];
-  }
 
   /* ═══════════════════════════════════════════════════════
      SIDEBAR LIST
@@ -204,20 +194,31 @@
     const t = state.activeType;
     const tInfo = TYPE_SYSTEM[t];
 
-    // ── Combo data (per-pokemon × type narrative and game content)
-    const comboData = await loadComboData(id, t);
+    // Preload combo_data for this (id, type) so buildLore / buildMoves / buildDiffs see real data
+    const comboKey = `${id}_${t}`;
+    if (!state.comboData[comboKey]) {
+      state.comboData[comboKey] = await tryFetchJson(`../outputs/combo_data/${comboKey}.json`);
+      // Abort if user navigated away while we were fetching
+      if (state.selected !== id || state.activeType !== t) return;
+    }
 
     // ── Header
-    const category = (comboData && comboData.species_name) ? comboData.species_name : (POKEMON_CATEGORIES[id] || "—");
+    const category = POKEMON_CATEGORIES[id] || "—";
     const height = POKEMON_HEIGHT[id] || "—";
     const weight = POKEMON_WEIGHT[id] || "—";
     const name = base.name.toUpperCase();
     const isFav = state.favorites.includes(`${id}_${t}`);
 
+    // Use E4 species_name if available (e.g. "Pokémon Llama Marítima")
+    const comboRow = state.comboData[`${id}_${t}`];
+    const speciesLabel = (comboRow && comboRow.species_name)
+      ? comboRow.species_name
+      : `Pokémon ${category}`;
+
     // ── Lore
-    const lore = buildLore(meta, t, comboData);
+    const lore = buildLore(meta, t);
     // ── Moves
-    const moves = buildMoves(meta, t, comboData);
+    const moves = buildMoves(meta, t);
 
     main.innerHTML = `
       <div class="detail-head">
@@ -229,7 +230,7 @@
               <span class="type-ico">${tInfo.icon}</span>${tInfo.es.toUpperCase()}
             </span>
           </div>
-          <div class="pokedex-species">Pokémon ${category}${meta.base ? " · " : ""}${meta.original_types.map(o => TYPE_SYSTEM[o]?.es || o).join(" / ")} <span style="color:var(--ink-4)">→</span> <span style="color:${tInfo.color};font-weight:600">${tInfo.es}</span></div>
+          <div class="pokedex-species">${escapeHtml(speciesLabel)}${meta.base ? " · " : ""}${meta.original_types.map(o => TYPE_SYSTEM[o]?.es || o).join(" / ")} <span style="color:var(--ink-4)">→</span> <span style="color:${tInfo.color};font-weight:600">${tInfo.es}</span></div>
         </div>
         <button class="star-btn ${isFav ? "active" : ""}" id="fav-btn" title="Marcar como favorito">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="${isFav ? "currentColor" : "none"}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
@@ -308,7 +309,7 @@
     $("#scroll-left").onclick = () => track.scrollBy({ left: -280, behavior: "smooth" });
     $("#scroll-right").onclick = () => track.scrollBy({ left: 280, behavior: "smooth" });
 
-    renderRightbar(meta, t, comboData);
+    renderRightbar(meta, t);
   }
 
   /* ── Locked (no transformations yet) ─────────────────── */
@@ -360,18 +361,41 @@
   /* ═══════════════════════════════════════════════════════
      RIGHT PANEL
      ═══════════════════════════════════════════════════════ */
-  function renderRightbar(meta, activeType, comboData) {
+  function renderRightbar(meta, activeType) {
     const right = $("#rightbar");
     const tInfo = TYPE_SYSTEM[activeType];
-
-    const elements = TYPE_ELEMENTS[activeType] || [];
-    const diffRows = buildDiffs(meta, activeType, comboData);
+    const tab = state.rightbarTab;
 
     right.innerHTML = `
       <div class="rightbar-tabs">
-        <div class="rightbar-tab active">CONCEPTO</div>
+        <div class="rightbar-tab ${tab === "concept" ? "active" : ""}" data-tab="concept">CONCEPTO</div>
+        <div class="rightbar-tab ${tab === "prompt" ? "active" : ""}" data-tab="prompt">PROMPT</div>
       </div>
+      <div id="rightbar-body"></div>
+    `;
 
+    // Wire tab switching
+    $$(".rightbar-tab", right).forEach(el => {
+      el.onclick = () => {
+        state.rightbarTab = el.dataset.tab;
+        renderRightbar(meta, activeType);
+      };
+    });
+
+    if (tab === "concept") {
+      renderConceptTab(meta, activeType);
+    } else {
+      renderPromptTab(meta, activeType);
+    }
+  }
+
+  function renderConceptTab(meta, activeType) {
+    const body = $("#rightbar-body");
+    const tInfo = TYPE_SYSTEM[activeType];
+    const elements = TYPE_ELEMENTS[activeType] || [];
+    const diffRows = buildDiffs(meta, activeType);
+
+    body.innerHTML = `
       <div class="concept-card" style="--type-color:${tInfo.color}; --type-glow:${tInfo.glow}55">
         <div class="sub-label" style="color:${tInfo.color}">TIPO · ${tInfo.es.toUpperCase()}</div>
         <div class="concept-title">REINTERPRETACIÓN</div>
@@ -410,11 +434,176 @@
     `;
   }
 
+  async function renderPromptTab(meta, activeType) {
+    const body = $("#rightbar-body");
+    const tInfo = TYPE_SYSTEM[activeType];
+    const id = meta.pokemon_id;
+    const cacheKey = `${id}_${activeType}`;
+
+    body.innerHTML = `
+      <div class="prompt-loading">
+        <div style="font-family:var(--font-display);font-size:12px;letter-spacing:2px;color:var(--ink-3)">CARGANDO PROMPT…</div>
+      </div>
+    `;
+
+    let parts = state.promptParts[cacheKey];
+    if (!parts) {
+      parts = await fetchPromptParts(id, activeType);
+      state.promptParts[cacheKey] = parts;
+    }
+
+    // Bail out if the user has navigated away while we were fetching
+    if (state.selected !== id || state.activeType !== activeType || state.rightbarTab !== "prompt") return;
+
+    if (!parts || parts.__missing) {
+      body.innerHTML = `
+        <div class="prompt-missing" style="--type-color:${tInfo.color}">
+          <div class="prompt-missing-icon">⧗</div>
+          <div class="prompt-missing-title">PROMPT NO GENERADO</div>
+          <div class="prompt-missing-desc">
+            Los prompts de esta variante aún no están disponibles en <code>outputs/prompts/</code>.
+            Corre el pipeline para <span style="color:${tInfo.color}">${meta.pokemon_name} × ${tInfo.es}</span> y recarga.
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    const sections = [
+      { key: "final",   label: "E3 · PROMPT FINAL",          sub: "Conciliador → Z-Image Turbo",              icon: "◆", content: parts.final?.prompt,                pre: true },
+      { key: "combo",   label: "E4 · DATOS DE COMBO",         sub: "Especie, lore, movimientos, diffs",       icon: "⌨", content: parts.combo,                        combo: true },
+      { key: "pa",      label: "PA · ANATOMÍA POSITIVA",       sub: "Transformación corporal",                  icon: "●", content: parts.pa?.body_transformation,      array: true, extra: parts.pa?.signature_feature },
+      { key: "ps",      label: "PS · ESTILO POSITIVO",         sub: "Efectos visuales y atmósfera",             icon: "✧", content: parts.ps?.style_effects,            array: true },
+      { key: "pe",      label: "PE · POSE / EXPRESIÓN",         sub: "Postura y expresión",                      icon: "◈", content: parts.pe?.pose_expression,          array: true },
+      { key: "na",      label: "NA · ANATOMÍA NEGATIVA",       sub: "Rasgos corporales que se suprimen",        icon: "✕", content: parts.na?.negative_anatomy,         list: true },
+      { key: "ns",      label: "NS · ESTILO NEGATIVO",         sub: "Colores y efectos que se evitan",          icon: "✕", content: parts.ns?.negative_style,           list: true },
+    ];
+
+    body.innerHTML = `
+      <div class="prompt-header" style="--type-color:${tInfo.color}">
+        <div class="sub-label" style="color:${tInfo.color}">ÍNDICE DE GENERACIÓN</div>
+        <div class="prompt-header-title">${meta.pokemon_name.toUpperCase()} × ${tInfo.es.toUpperCase()}</div>
+        <div class="prompt-header-desc">Cada especialista contribuye una parte del prompt. El conciliador los ensambla.</div>
+      </div>
+      <div class="prompt-sections">
+        ${sections.map((s, i) => renderPromptSection(s, i === 0)).join("")}
+      </div>
+    `;
+
+    // Wire collapse toggles
+    $$(".prompt-section-head", body).forEach(el => {
+      el.onclick = () => {
+        const sec = el.closest(".prompt-section");
+        sec.classList.toggle("collapsed");
+      };
+    });
+  }
+
+  function renderPromptSection(s, openByDefault) {
+    const empty = s.content == null
+      || (Array.isArray(s.content) && s.content.length === 0)
+      || (typeof s.content === "string" && !s.content.trim())
+      || (s.combo && typeof s.content !== "object");
+
+    let bodyHtml = "";
+    if (empty) {
+      bodyHtml = `<div class="prompt-empty">— sin contenido —</div>`;
+    } else if (s.combo) {
+      const c = s.content;
+      const species = c.species_name ? `<div class="combo-species">${escapeHtml(c.species_name)}</div>` : "";
+      const lore = c.lore ? `<div class="combo-lore">${escapeHtml(c.lore)}</div>` : "";
+      const moves = Array.isArray(c.moves) && c.moves.length ? `
+        <div class="combo-sub-label">MOVIMIENTOS</div>
+        <ul class="combo-moves">
+          ${c.moves.map(m => `<li><b>${escapeHtml(m.name || "")}</b> — ${escapeHtml(m.desc || "")}</li>`).join("")}
+        </ul>` : "";
+      const diffs = Array.isArray(c.diffs) && c.diffs.length ? `
+        <div class="combo-sub-label">DIFFS</div>
+        <table class="combo-diffs">
+          ${c.diffs.map(d => `<tr><td>${escapeHtml(d.from || "")}</td><td class="combo-diff-arrow">→</td><td>${escapeHtml(d.to || "")}</td></tr>`).join("")}
+        </table>` : "";
+      bodyHtml = species + lore + moves + diffs;
+    } else if (s.pre) {
+      bodyHtml = `<pre class="prompt-text">${escapeHtml(s.content)}</pre>`;
+    } else if (s.array && Array.isArray(s.content)) {
+      bodyHtml = `<ul class="prompt-list">${s.content.map(line => `<li>${escapeHtml(line)}</li>`).join("")}</ul>`;
+    } else if (s.array && typeof s.content === "string") {
+      // some parts store the transformation as a single string — show as paragraph
+      bodyHtml = `<div class="prompt-para">${escapeHtml(s.content)}</div>`;
+    } else if (s.list && Array.isArray(s.content)) {
+      bodyHtml = `<div class="prompt-tags">${s.content.map(tag => `<span class="prompt-tag">${escapeHtml(tag)}</span>`).join("")}</div>`;
+    } else if (s.list && typeof s.content === "string") {
+      bodyHtml = `<div class="prompt-tags">${s.content.split(",").map(t => t.trim()).filter(Boolean).map(tag => `<span class="prompt-tag">${escapeHtml(tag)}</span>`).join("")}</div>`;
+    } else {
+      bodyHtml = `<div class="prompt-para">${escapeHtml(String(s.content))}</div>`;
+    }
+
+    if (s.extra) {
+      bodyHtml += `<div class="prompt-extra"><div class="prompt-extra-label">SIGNATURE FEATURE → LÍNEA PERSONALIZADA EN E3</div><code class="prompt-extra-val">${escapeHtml(s.extra)}</code></div>`;
+    }
+
+    return `
+      <div class="prompt-section ${openByDefault ? "" : "collapsed"}" data-key="${s.key}">
+        <div class="prompt-section-head">
+          <div class="prompt-section-icon">${s.icon}</div>
+          <div class="prompt-section-titles">
+            <div class="prompt-section-label">${s.label}</div>
+            <div class="prompt-section-sub">${s.sub}</div>
+          </div>
+          <div class="prompt-section-chev">▾</div>
+        </div>
+        <div class="prompt-section-body">${bodyHtml}</div>
+      </div>
+    `;
+  }
+
+  async function fetchPromptParts(id, type) {
+    const base = `../outputs/prompts_parts/${id}_${type}`;
+    const finalUrl = `../outputs/prompts/${id}_${type}.json`;
+    const comboUrl = `../outputs/combo_data/${id}_${type}.json`;
+    const suffixes = ["pa", "ps", "pe", "na", "ns"];
+
+    try {
+      const [final, combo, ...rest] = await Promise.all([
+        tryFetchJson(finalUrl),
+        tryFetchJson(comboUrl),
+        ...suffixes.map(s => tryFetchJson(`${base}_${s}.json`)),
+      ]);
+
+      // If everything is missing, mark as __missing so UI can show a fallback
+      if (!final && !combo && rest.every(r => !r)) return { __missing: true };
+
+      const [pa, ps, pe, na, ns] = rest;
+      return { final, combo, pa, ps, pe, na, ns };
+    } catch {
+      return { __missing: true };
+    }
+  }
+
+  async function tryFetchJson(url) {
+    try {
+      const r = await fetch(url);
+      if (!r.ok) return null;
+      return await r.json();
+    } catch {
+      return null;
+    }
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+  }
+
   /* ═══════════════════════════════════════════════════════
      CONTENT BUILDERS
      ═══════════════════════════════════════════════════════ */
-  function buildLore(meta, type, comboData) {
-    if (comboData && comboData.lore) return comboData.lore;
+  function buildLore(meta, type) {
+    // Prefer real E4 combo_data.lore if available (Spanish, pokemon-specific)
+    const real = state.comboData[`${meta.pokemon_id || state.selected}_${type}`];
+    if (real && real.lore) return real.lore;
+
     const name = meta.pokemon_name.charAt(0).toUpperCase() + meta.pokemon_name.slice(1);
     const tInfo = TYPE_SYSTEM[type];
     const origTypeEs = meta.original_types.map(o => TYPE_SYSTEM[o]?.es.toLowerCase() || o).join(" / ");
@@ -442,11 +631,19 @@
     return templates[type] || `${name} reinterpretado como tipo ${tInfo.es}.`;
   }
 
-  function buildMoves(meta, type, comboData) {
-    // Prefer per-combo moves from E4 output; fall back to type-level moves file
-    const list = (comboData && comboData.moves && comboData.moves.length)
-      ? comboData.moves
-      : ((state.moves[type] && state.moves[type].moves) ? state.moves[type].moves : []);
+  function buildMoves(meta, type) {
+    // Prefer real E4 combo_data.moves if available
+    const real = state.comboData[`${meta.pokemon_id || state.selected}_${type}`];
+    if (real && Array.isArray(real.moves) && real.moves.length) {
+      return real.moves.slice(0, 4).map(m => ({
+        name: m.name,
+        desc: m.desc,
+        svg: buildMoveSvg(type),
+      }));
+    }
+    // Fallback: user-editable outputs/moves/<type>.json loaded at startup
+    const fileData = state.moves[type];
+    const list = (fileData && fileData.moves) ? fileData.moves : [];
     return list.slice(0, 4).map(m => ({
       name: m.name,
       desc: m.desc,
@@ -475,11 +672,14 @@
     `;
   }
 
-  function buildDiffs(meta, type, comboData) {
-    if (comboData && comboData.diffs && comboData.diffs.length) {
-      return comboData.diffs.slice(0, 4);
+  function buildDiffs(meta, type) {
+    // Prefer real E4 combo_data.diffs if available (pokemon-specific visual diffs)
+    const real = state.comboData[`${meta.pokemon_id || state.selected}_${type}`];
+    if (real && Array.isArray(real.diffs) && real.diffs.length) {
+      return real.diffs.slice(0, 4);
     }
-    // Generic Spanish diffs: original form → transformed form
+
+    // Fallback: generic Spanish diffs: original form → transformed form
     const tInfo = TYPE_SYSTEM[type];
     const newElements = TYPE_ELEMENTS[type] || [];
     const origTypeEs = meta.original_types.map(o => TYPE_SYSTEM[o]?.es || o).join(" / ");
@@ -515,6 +715,32 @@
   $("#theme-btn").onclick = () => {
     document.body.classList.toggle("light-mode");
   };
+
+  // ── Tab navigation ──────────────────────────────────
+  const navLinks = document.querySelectorAll(".nav a");
+  const appEl = document.querySelector(".app");
+  const aboutEl = document.getElementById("about-view");
+  let aboutRendered = false;
+
+  function setView(viewName) {
+    appEl.classList.remove("view-pokedex", "view-gallery", "view-types", "view-about");
+    appEl.classList.add("view-" + viewName);
+    navLinks.forEach((l) => l.classList.toggle("active", l.dataset.view === viewName));
+
+    if (viewName === "about" && !aboutRendered && window.AboutPage) {
+      window.AboutPage.render(aboutEl);
+      aboutRendered = true;
+    }
+  }
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const view = link.dataset.view;
+      if (!view) return;
+      setView(view);
+    });
+  });
 
   renderFilters();
   renderSidebar();
