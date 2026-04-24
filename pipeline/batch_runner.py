@@ -2,7 +2,7 @@
 Batch Runner — pipeline orchestrator for PokeAIchemize sprite generation.
 Phase A: E1 × 150 Pokémon — anatomy analysis (parallel).
 Phase B: E2 × 18 types    — type visual vocabulary (sequential).
-Phase C: 5 specialists + E3 conciliator × 2700 combos (parallel combos, parallel specialists).
+Phase C: 5 specialists + E3 conciliator + E4 combo writer × 2700 combos (parallel combos, parallel specialists).
 Phase D: image generation  — Z-Image-Turbo (sequential, GPU).
 Resumable: each phase skips existing output files.
 """
@@ -17,6 +17,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 from config import (
+    COMBO_DATA_DIR,
     DEV_CLEAN,
     DEV_POKEMON_IDS,
     DEV_POKEMON_LIMIT,
@@ -42,6 +43,7 @@ _na           = importlib.import_module("pipeline.06_anatomy_negative")
 _ns           = importlib.import_module("pipeline.07_style_negative")
 _conciliator  = importlib.import_module("pipeline.08_prompt_conciliator")
 _image_gen    = importlib.import_module("pipeline.09_image_generator")
+_combo_writer = importlib.import_module("pipeline.11_combo_data_writer")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -116,14 +118,14 @@ def _run_phase_b(types: list) -> None:
 
 
 def _run_one_combo(pid: str, ttype: str) -> None:
-    """Run 5 specialists in parallel then the E3 conciliator for one combo.
+    """Run 5 specialists in parallel, then E3 conciliator, then E4 combo writer for one combo.
 
     Args:
         pid: Zero-padded Pokémon ID (e.g. '025').
         ttype: Target type name (e.g. 'fire').
 
     Raises:
-        Exception: Re-raises any error from specialists or conciliator.
+        Exception: Re-raises any error from specialists, conciliator, or combo writer.
     """
     specialists = [_pa, _ps, _pe, _na, _ns]
     with ThreadPoolExecutor(max_workers=len(specialists)) as inner:
@@ -131,6 +133,7 @@ def _run_one_combo(pid: str, ttype: str) -> None:
         for f in futures:
             f.result()  # raises immediately on first failure
     _conciliator.run(pid, ttype)
+    _combo_writer.run(pid, ttype)
 
 
 def _similar_to_original(original_types: list[str], target_type: str) -> bool:
@@ -225,7 +228,7 @@ def run() -> None:
     # Substep 3.2 — DEV_CLEAN: wipe intermediate outputs
     # ----
     if DEV_CLEAN:
-        for directory in (POKEMON_DIR, TYPE_VISUAL_DIR, PROMPTS_PARTS_DIR, PROMPTS_DIR, IMAGES_DIR):
+        for directory in (POKEMON_DIR, TYPE_VISUAL_DIR, PROMPTS_PARTS_DIR, PROMPTS_DIR, COMBO_DATA_DIR, IMAGES_DIR):
             if directory.exists():
                 shutil.rmtree(directory)
                 logger.info("cleaned %s", directory)

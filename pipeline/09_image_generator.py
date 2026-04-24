@@ -15,8 +15,9 @@ from diffusers import ZImagePipeline
 from config import (
     DEV_POKEMON_IDS,
     DEV_TYPE_NAMES,
-    IMAGE_SIZE,
+    IMAGE_HEIGHT,
     IMAGE_STEPS,
+    IMAGE_WIDTH,
     IMAGES_DIR,
     PROMPTS_DIR,
     ZIMAGE_GUIDANCE,
@@ -43,8 +44,8 @@ def _load_pipeline() -> ZImagePipeline:
     pipe = ZImagePipeline.from_pretrained(ZIMAGE_MODEL, torch_dtype=torch.bfloat16)
     pipe.enable_sequential_cpu_offload()
     logger.info(
-        "pipeline ready — size=%d steps=%d guidance=%.1f",
-        IMAGE_SIZE, IMAGE_STEPS, ZIMAGE_GUIDANCE,
+        "pipeline ready — %dx%d steps=%d guidance=%.1f",
+        IMAGE_WIDTH, IMAGE_HEIGHT, IMAGE_STEPS, ZIMAGE_GUIDANCE,
     )
     return pipe
 
@@ -75,8 +76,8 @@ def _generate_one(pipe: ZImagePipeline, prompt_data: dict) -> Path:
 
     image = pipe(
         prompt=prompt_data["prompt"],
-        height=IMAGE_SIZE,
-        width=IMAGE_SIZE,
+        height=IMAGE_HEIGHT,
+        width=IMAGE_WIDTH,
         num_inference_steps=IMAGE_STEPS,
         guidance_scale=ZIMAGE_GUIDANCE,
     ).images[0]

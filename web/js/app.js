@@ -7,6 +7,7 @@
     typeFilter: "all",     // sidebar filter
     filterOpen: false,
     favorites: JSON.parse(localStorage.getItem("pa_favs") || "[]"),
+    comboData: {},         // cache: `${id}_${type}` → combo data JSON or null
   };
 
   // Load bundle
@@ -49,6 +50,18 @@
   // -- Elements
   const $ = (sel, el=document) => el.querySelector(sel);
   const $$ = (sel, el=document) => [...el.querySelectorAll(sel)];
+
+  async function loadComboData(id, type) {
+    const key = `${id}_${type}`;
+    if (key in state.comboData) return state.comboData[key];
+    try {
+      const r = await fetch(`../outputs/combo_data/${id}_${type}.json`);
+      state.comboData[key] = r.ok ? await r.json() : null;
+    } catch (e) {
+      state.comboData[key] = null;
+    }
+    return state.comboData[key];
+  }
 
   /* ═══════════════════════════════════════════════════════
      SIDEBAR LIST
@@ -161,7 +174,7 @@
   /* ═══════════════════════════════════════════════════════
      DETAIL VIEW
      ═══════════════════════════════════════════════════════ */
-  function renderDetail() {
+  async function renderDetail() {
     const main = $("#main");
     const right = $("#rightbar");
     const id = state.selected;
@@ -191,17 +204,20 @@
     const t = state.activeType;
     const tInfo = TYPE_SYSTEM[t];
 
+    // ── Combo data (per-pokemon × type narrative and game content)
+    const comboData = await loadComboData(id, t);
+
     // ── Header
-    const category = POKEMON_CATEGORIES[id] || "—";
+    const category = (comboData && comboData.species_name) ? comboData.species_name : (POKEMON_CATEGORIES[id] || "—");
     const height = POKEMON_HEIGHT[id] || "—";
     const weight = POKEMON_WEIGHT[id] || "—";
     const name = base.name.toUpperCase();
     const isFav = state.favorites.includes(`${id}_${t}`);
 
     // ── Lore
-    const lore = buildLore(meta, t);
+    const lore = buildLore(meta, t, comboData);
     // ── Moves
-    const moves = buildMoves(meta, t);
+    const moves = buildMoves(meta, t, comboData);
 
     main.innerHTML = `
       <div class="detail-head">
@@ -292,7 +308,7 @@
     $("#scroll-left").onclick = () => track.scrollBy({ left: -280, behavior: "smooth" });
     $("#scroll-right").onclick = () => track.scrollBy({ left: 280, behavior: "smooth" });
 
-    renderRightbar(meta, t);
+    renderRightbar(meta, t, comboData);
   }
 
   /* ── Locked (no transformations yet) ─────────────────── */
@@ -344,12 +360,12 @@
   /* ═══════════════════════════════════════════════════════
      RIGHT PANEL
      ═══════════════════════════════════════════════════════ */
-  function renderRightbar(meta, activeType) {
+  function renderRightbar(meta, activeType, comboData) {
     const right = $("#rightbar");
     const tInfo = TYPE_SYSTEM[activeType];
 
     const elements = TYPE_ELEMENTS[activeType] || [];
-    const diffRows = buildDiffs(meta, activeType);
+    const diffRows = buildDiffs(meta, activeType, comboData);
 
     right.innerHTML = `
       <div class="rightbar-tabs">
@@ -397,7 +413,8 @@
   /* ═══════════════════════════════════════════════════════
      CONTENT BUILDERS
      ═══════════════════════════════════════════════════════ */
-  function buildLore(meta, type) {
+  function buildLore(meta, type, comboData) {
+    if (comboData && comboData.lore) return comboData.lore;
     const name = meta.pokemon_name.charAt(0).toUpperCase() + meta.pokemon_name.slice(1);
     const tInfo = TYPE_SYSTEM[type];
     const origTypeEs = meta.original_types.map(o => TYPE_SYSTEM[o]?.es.toLowerCase() || o).join(" / ");
@@ -425,10 +442,11 @@
     return templates[type] || `${name} reinterpretado como tipo ${tInfo.es}.`;
   }
 
-  function buildMoves(meta, type) {
-    // Loaded from outputs/moves/<type>.json at startup — user-editable
-    const fileData = state.moves[type];
-    const list = (fileData && fileData.moves) ? fileData.moves : [];
+  function buildMoves(meta, type, comboData) {
+    // Prefer per-combo moves from E4 output; fall back to type-level moves file
+    const list = (comboData && comboData.moves && comboData.moves.length)
+      ? comboData.moves
+      : ((state.moves[type] && state.moves[type].moves) ? state.moves[type].moves : []);
     return list.slice(0, 4).map(m => ({
       name: m.name,
       desc: m.desc,
@@ -457,7 +475,10 @@
     `;
   }
 
-  function buildDiffs(meta, type) {
+  function buildDiffs(meta, type, comboData) {
+    if (comboData && comboData.diffs && comboData.diffs.length) {
+      return comboData.diffs.slice(0, 4);
+    }
     // Generic Spanish diffs: original form → transformed form
     const tInfo = TYPE_SYSTEM[type];
     const newElements = TYPE_ELEMENTS[type] || [];

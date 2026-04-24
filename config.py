@@ -20,6 +20,8 @@ TYPE_VISUAL_DIR = OUTPUTS_DIR / "types_visual"
 PROMPTS_PARTS_DIR = OUTPUTS_DIR / "prompts_parts"
 # E3 conciliator outputs: one JSON per (pokemon, type) combination
 PROMPTS_DIR = OUTPUTS_DIR / "prompts"
+# E4 combo data: per-combo narrative and game data (species_name, lore, moves, diffs)
+COMBO_DATA_DIR = OUTPUTS_DIR / "combo_data"
 
 # ----
 # Step 2 – Parallelization
@@ -76,6 +78,7 @@ OLLAMA_VISION_MODEL = "qwen2.5vl:7b"    # vision-language model; analiza sprites
 # Step 5 – Z-Image-Turbo (image generation)
 # ----
 ZIMAGE_MODEL    = "Tongyi-MAI/Z-Image-Turbo"
-IMAGE_SIZE      = 1024   # native resolution for Z-Image-Turbo
+IMAGE_WIDTH     = 1024   # native width for Z-Image-Turbo
+IMAGE_HEIGHT    = 512    # 2:1 landscape — scene behind Pokémon
 IMAGE_STEPS     = 15     # distilled model; 12 steps is sufficient
 ZIMAGE_GUIDANCE = 0.0    # Z-Image is distilled — guidance_scale must be 0.0

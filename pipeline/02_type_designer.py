@@ -14,7 +14,7 @@ from config import OLLAMA_HOST, OLLAMA_MODEL, OLLAMA_TIMEOUT, TYPE_VISUAL_DIR
 
 logger = logging.getLogger(__name__)
 
-_REQUIRED_KEYS = {"colors", "anatomy", "effects", "suppress_from_others", "palette", "skin_material", "accent"}
+_REQUIRED_KEYS = {"colors", "anatomy", "effects", "suppress_from_others", "palette", "skin_material", "accent", "background"}
 _MAX_RETRIES   = 3
 
 SYSTEM_PROMPT = """You are a Pokémon art director specializing in elemental type visual design for Z-Image-Turbo.
@@ -33,12 +33,14 @@ Return ONLY valid JSON with exactly these keys:
   "suppress_from_others": ["3-5 traits from other types that must be removed"],
   "palette": "comma-separated list of 4-5 specific colors in order of dominance, e.g. 'jet black, dark gray, bright orange lava glow, crimson red, amber'",
   "skin_material": "one sentence describing how any Pokémon body surface transforms for this type, using material/texture language not color replacement — e.g. 'lava-hardened black skin with bright orange molten lava visible through surface cracks all over the body'",
-  "accent": "one concise line for tail tip and eyes in this type — e.g. 'amber tail tip, ember-red eyes'"
+  "accent": "one concise line for tail tip and eyes in this type — e.g. 'amber tail tip, ember-red eyes'",
+  "background": "short scene phrase (8-12 words) describing the environment/atmosphere for this type — e.g. 'volcanic crater, glowing lava flows, ember-lit smoky sky'"
 }
 
 Rules for palette: list colors from most dominant to least; be specific (not 'red' but 'crimson red'); max 5 colors.
 Rules for skin_material: describe what the skin IS made of, not what color it changed to; keep under 20 words; no pose or atmosphere.
 Rules for accent: two elements only — tail tip and eyes; one line, under 10 words.
+Rules for background: describe the scene/environment only, not the Pokémon; use nouns with adjectives; no 'background' word; under 12 words.
 Focus on what a Ken Sugimori artist would draw. No explanations outside the JSON."""
 
 
