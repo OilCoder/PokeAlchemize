@@ -1,0 +1,64 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "compact muscular body silhouette",
+    "curled tail tip",
+    "white underbelly",
+    "short stubby legs",
+    "spiky head crest"
+  ],
+  "original_type_traits": [
+    "dark purple spikes on head and limbs",
+    "poison-type purple coloration",
+    "ground-type dark purple base color",
+    "white underbelly contrasting with purple body"
+  ],
+  "transformable_parts": [
+    "head spikes",
+    "tail tip",
+    "body coloration",
+    "limb texture",
+    "underbelly color",
+    "skin texture"
+  ],
+  "suppress_colors": [
+    "dark purple",
+    "purple",
+    "white (underbelly contrast)",
+    "poison green (if applicable)"
+  ],
+  "anchor_phrases": [
+    "curled spiral tail tip with dark purple tip",
+    "rounded head with pointed ears",
+    "compact muscular body with short stubby legs"
+  ],
+  "pokemon_id": "034",
+  "pokemon_name": "nidoking",
+  "original_types": [
+    "poison",
+    "ground"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "purple",
+      "white",
+      "dark purple"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and short legs, giving it a robust and powerful appearance.",
+    "type_markers": [
+      "dark purple spikes on head and limbs",
+      "white underbelly"
+    ],
+    "distinctive_features": [
+      "spiky head",
+      "curled tail tip",
+      "white underbelly"
+    ]
+  }
+}

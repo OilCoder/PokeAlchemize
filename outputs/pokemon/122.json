@@ -1,0 +1,63 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "plump rounded body shape",
+    "central circular pattern on chest",
+    "paw-like hands with pink pads",
+    "blue hair on head",
+    "curled tail tip"
+  ],
+  "original_type_traits": [
+    "pink and blue color scheme",
+    "soft plush-like appearance",
+    "central circle pattern on chest"
+  ],
+  "transformable_parts": [
+    "blue hair on head",
+    "central circular pattern on chest",
+    "paw-like hands with pink pads",
+    "curled tail tip",
+    "body color palette (white, pink, blue)",
+    "gray accents on body"
+  ],
+  "suppress_colors": [
+    "pink",
+    "blue",
+    "gray"
+  ],
+  "anchor_phrases": [
+    "central circular pattern on chest",
+    "paw-like hands with pink pads",
+    "blue hair on head"
+  ],
+  "pokemon_id": "122",
+  "pokemon_name": "mr-mime",
+  "original_types": [
+    "psychic",
+    "fairy"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "white",
+      "pink",
+      "blue",
+      "gray"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip",
+      "paw-like hands"
+    ],
+    "silhouette": "The Pokémon has a round, plump body with a large central circle on its chest, suggesting a soft, plush-like appearance.",
+    "type_markers": [
+      "no visible type markers"
+    ],
+    "distinctive_features": [
+      "central circular pattern on chest",
+      "paw-like hands with pink pads",
+      "blue hair"
+    ]
+  }
+}

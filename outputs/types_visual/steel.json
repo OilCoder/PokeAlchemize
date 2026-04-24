@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "gunmetal gray",
+      "silver",
+      "steel blue"
+    ],
+    "secondary": [
+      "chrome silver",
+      "deep indigo"
+    ],
+    "avoid": [
+      "gold",
+      "copper",
+      "bright orange"
+    ]
+  },
+  "anatomy": [
+    "metallic plating over skeletal structure",
+    "smooth reflective surface with subtle engraved patterns",
+    "mechanical joints with visible pistons or gears",
+    "sharp angular edges replacing organic curves",
+    "reinforced armor plates on vulnerable areas",
+    "glowing blue energy lines beneath surface"
+  ],
+  "effects": [
+    "subtle steam or heat haze from joints",
+    "reflective surface showing distorted environment",
+    "glowing blue energy pulses in armor seams",
+    "metallic dust particles in motion",
+    "shimmering metallic sheen under light"
+  ],
+  "suppress_from_others": [
+    "organic textures like fur or scales",
+    "soft rounded shapes",
+    "bioluminescent patterns",
+    "natural color gradients",
+    "textured or rough surfaces"
+  ],
+  "palette": "gunmetal gray, silver, steel blue, chrome silver, deep indigo",
+  "skin_material": "smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface",
+  "accent": "chrome silver tail tip, glowing blue eyes",
+  "background": "industrial factory floor, polished metal surfaces, blue energy lighting",
+  "type_name": "steel"
+}

@@ -1,0 +1,58 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby legs",
+    "curled tail tip",
+    "spiky fur along the back",
+    "striped pattern on legs"
+  ],
+  "original_type_traits": [
+    "flame on tail tip",
+    "bright orange body color",
+    "dark brown facial markings"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "back fur",
+    "leg stripes",
+    "body coloration",
+    "facial markings",
+    "overall fur texture"
+  ],
+  "suppress_colors": [
+    "bright orange",
+    "dark brown",
+    "flame-colored yellow"
+  ],
+  "anchor_phrases": [
+    "curled spiral tail tip with a single spike at the end",
+    "spiky fur running along the spine from neck to tail base",
+    "striped pattern of pale cream and dark brown on the lower legs"
+  ],
+  "pokemon_id": "058",
+  "pokemon_name": "growlithe",
+  "original_types": [
+    "fire"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright orange",
+      "pale cream",
+      "dark brown"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a slightly larger head and a curled tail tip.",
+    "type_markers": [
+      "flame on tail tip"
+    ],
+    "distinctive_features": [
+      "spiky fur along the back",
+      "striped pattern on the legs"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "compact rounded body silhouette",
+    "short stubby legs",
+    "curled tail tip",
+    "bright yellow body color"
+  ],
+  "original_type_traits": [
+    "flame on tail tip (original electric type marker)",
+    "dark brown on cheeks and tail base",
+    "pale cream on paws"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "cheeks",
+    "paws",
+    "ear tips",
+    "head shape",
+    "body texture"
+  ],
+  "suppress_colors": [
+    "flame orange (tail tip)",
+    "dark brown (cheeks)",
+    "pale cream (paws)"
+  ],
+  "anchor_phrases": [
+    "pointed ears with rounded tips",
+    "curled tail tip with yellow tip",
+    "compact rounded body silhouette with short legs"
+  ],
+  "pokemon_id": "025",
+  "pokemon_name": "pikachu",
+  "original_types": [
+    "electric"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright yellow",
+      "dark brown",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a large head and short legs, typical of its species.",
+    "type_markers": [
+      "flame on tail tip"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "flame on tail tip"
+    ]
+  }
+}

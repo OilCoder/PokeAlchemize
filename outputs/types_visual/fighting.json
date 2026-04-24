@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "burnt sienna",
+      "ochre",
+      "deep rust"
+    ],
+    "secondary": [
+      "crimson",
+      "charcoal gray"
+    ],
+    "avoid": [
+      "bright yellow",
+      "electric blue",
+      "vibrant green"
+    ]
+  },
+  "anatomy": [
+    "thickened, corded muscle definition across limbs",
+    "scar tissue patterns resembling cracked earth",
+    "broad, flat palms with calloused ridges",
+    "angular jawline with pronounced brow ridge",
+    "dense, short fur or bristly hair on limbs",
+    "knuckle pads with hardened skin"
+  ],
+  "effects": [
+    "dust clouds rising from impact points",
+    "cracked earth textures appearing on surfaces",
+    "visible energy aura glowing at contact points",
+    "subtle tremors in the ground beneath the Pokémon",
+    "dust and debris kicked up in motion"
+  ],
+  "suppress_from_others": [
+    "shiny metallic sheen",
+    "translucent or glassy textures",
+    "bioluminescent patterns",
+    "feather or scale-like patterns",
+    "furry or soft-textured fur"
+  ],
+  "palette": "burnt sienna, ochre, deep rust, crimson, charcoal gray",
+  "skin_material": "rough, cracked earth-like skin with deep fissures revealing reddish-brown earth beneath the surface",
+  "accent": "crimson tail tip, ember-brown eyes",
+  "background": "cracked desert plains, dusty winds, sun-baked rocky outcrops",
+  "type_name": "fighting"
+}

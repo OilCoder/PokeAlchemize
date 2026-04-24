@@ -1,0 +1,60 @@
+{
+  "identity_traits": [
+    "rounded head shape with prominent forehead",
+    "short stubby legs with minimal detail",
+    "curled tail tip that forms a small spiral",
+    "long flowing blonde hair extending from the head"
+  ],
+  "original_type_traits": [
+    "purple coloration on head and torso",
+    "pointed ears with dark purple tips",
+    "cold-weather aesthetic from pale cream and dark purple tones"
+  ],
+  "transformable_parts": [
+    "head coloration (purple to new type color)",
+    "ear shape and color (pointed to new type shape)",
+    "tail tip spiral (maintain spiral but change color/texture)",
+    "hair texture and color (blonde to new type hair style)",
+    "cape color and material (red to new type material)",
+    "torso pattern (pale cream to new type pattern)"
+  ],
+  "suppress_colors": [
+    "purple",
+    "dark purple",
+    "pale cream"
+  ],
+  "anchor_phrases": [
+    "long flowing blonde hair extending from the head",
+    "curled tail tip forming a small spiral",
+    "short stubby legs with minimal detail"
+  ],
+  "pokemon_id": "124",
+  "pokemon_name": "jynx",
+  "original_types": [
+    "ice",
+    "psychic"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright red",
+      "purple",
+      "pale cream",
+      "dark purple"
+    ],
+    "body_parts": [
+      "rounded head",
+      "pointed ears",
+      "short stubby legs",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, somewhat human-like shape with a large head and short limbs.",
+    "type_markers": [
+      "purple coloration",
+      "pointed ears"
+    ],
+    "distinctive_features": [
+      "long blonde hair",
+      "red cape"
+    ]
+  }
+}

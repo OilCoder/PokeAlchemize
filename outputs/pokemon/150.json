@@ -1,0 +1,54 @@
+{
+  "identity_traits": [
+    "tall bipedal stance",
+    "long flowing tail with a single tip",
+    "pointed ears on top of head",
+    "pale blue skin with purple accents",
+    "glowing red eyes",
+    "long slender fingers"
+  ],
+  "original_type_traits": [
+    "psychic energy aura around body",
+    "floating motion depicted in sprite",
+    "crystal-like patterns on forehead",
+    "nebula-like swirls in eyes"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "forehead patterns",
+    "eye glow",
+    "skin texture",
+    "energy aura",
+    "ear shape"
+  ],
+  "suppress_colors": [
+    "purple accents",
+    "nebula-like swirls",
+    "crystal patterns",
+    "red eye glow"
+  ],
+  "anchor_phrases": [
+    "pale blue skin with subtle purple highlights",
+    "glowing red eyes with vertical pupils",
+    "long flowing tail ending in a single pointed tip"
+  ],
+  "pokemon_id": "150",
+  "pokemon_name": "mewtwo",
+  "original_types": [
+    "psychic"
+  ],
+  "visual_facts": {
+    "body": "pale cream",
+    "body_parts": {
+      "head": "rounded and small",
+      "ears": "pointed",
+      "body": "rounded and slender",
+      "arms": "long and slender",
+      "legs": "long and slender",
+      "tail": "long and curved"
+    },
+    "type_markers": {
+      "visual_features": "no visible type markers"
+    }
+  }
+}

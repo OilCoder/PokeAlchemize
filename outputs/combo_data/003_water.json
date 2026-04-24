@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Lago Florido",
+  "lore": "Su flor central ahora brilla con un reflejo acuático, absorbiendo humedad del aire. Hojas verdes se transforman en algas sedosas que ondean al ritmo de las olas. Su aroma a flores se mezcla con el frescor del agua.",
+  "moves": [
+    {
+      "name": "Ola Flor",
+      "desc": "Lanza una ola de agua cargada de pétalos que drena energía del oponente."
+    },
+    {
+      "name": "Burbuja Náutica",
+      "desc": "Crea burbujas que atrapan al rival, reduciendo su velocidad."
+    },
+    {
+      "name": "Raíz Acuática",
+      "desc": "Fortalece sus raíces para absorber agua y curarle en combate."
+    },
+    {
+      "name": "Mar de Pétalos",
+      "desc": "Genera una lluvia de pétalos que cura a aliados y aturde enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "flor central",
+      "to": "brilla con reflejo acuático y absorbe humedad"
+    },
+    {
+      "from": "hojas verdes",
+      "to": "se transforman en algas sedosas que ondean con las olas"
+    },
+    {
+      "from": "olor a flores",
+      "to": "se mezcla con frescor del agua"
+    },
+    {
+      "from": "estructura floral",
+      "to": "ahora actúa como un sistema de absorción de agua"
+    }
+  ],
+  "pokemon_id": "003",
+  "target_type": "water"
+}

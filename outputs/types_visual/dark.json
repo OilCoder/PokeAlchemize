@@ -1,0 +1,44 @@
+{
+  "colors": {
+    "primary": [
+      "deep black",
+      "charcoal gray",
+      "shadow violet"
+    ],
+    "secondary": [
+      "ebony crimson",
+      "obsidian silver"
+    ],
+    "avoid": [
+      "sunlight yellow",
+      "crimson red",
+      "vibrant blue"
+    ]
+  },
+  "anatomy": [
+    "shadowy fur with jagged edges",
+    "tattered ear tips",
+    "narrow menacing eyes",
+    "spiky dark fur patterns",
+    "shadowy translucency in limbs"
+  ],
+  "effects": [
+    "shadows ripple across body",
+    "dark energy pulses from eyes",
+    "shadowy mist trails",
+    "subtle darkness distortion",
+    "dark aura flickers"
+  ],
+  "suppress_from_others": [
+    "bright glowing eyes",
+    "soft fur texture",
+    "pastel coloration",
+    "lightweight feathering",
+    "warm glowing effects"
+  ],
+  "palette": "deep black, charcoal gray, shadow violet, ebony crimson, obsidian silver",
+  "skin_material": "shadowy fur with jagged edges and subtle translucency revealing dark energy beneath",
+  "accent": "obsidian silver tail tip, ember-red eyes",
+  "background": "shadowy forest, twisted black trees, dim moonlit mist",
+  "type_name": "dark"
+}

@@ -1,0 +1,41 @@
+{
+  "colors": {
+    "primary": [
+      "electric blue",
+      "vibrant yellow"
+    ],
+    "secondary": [
+      "neon green"
+    ],
+    "avoid": [
+      "black",
+      "dark gray"
+    ]
+  },
+  "anatomy": [
+    "jagged lightning-bolt shaped spines along the spine",
+    "sharp angular facial structure with pointed ears",
+    "sparking fur tips on limbs and tail",
+    "glowing circuit-like patterns on skin",
+    "reduced body fat for a lean, wiry frame"
+  ],
+  "effects": [
+    "constant static sparks around the body",
+    "glowing energy trails when moving",
+    "electromagnetic field distortion effect",
+    "pulsing light from eyes and tail",
+    "crackling energy aura"
+  ],
+  "suppress_from_others": [
+    "soft fur texture",
+    "round body shapes",
+    "organic material textures",
+    "earthy tones",
+    "calm visual demeanor"
+  ],
+  "palette": "electric blue, vibrant yellow, neon green, bright white, electric cyan",
+  "skin_material": "smooth metallic skin with exposed circuitry patterns glowing beneath the surface",
+  "accent": "neon green tail tip, electric blue eyes",
+  "background": "stormy sky with lightning strikes, electric-blue clouds, crackling energy fields",
+  "type_name": "electric"
+}

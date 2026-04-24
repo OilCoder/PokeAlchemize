@@ -1,0 +1,44 @@
+{
+  "colors": {
+    "primary": [
+      "toxic green",
+      "deep purple",
+      "acid yellow"
+    ],
+    "secondary": [
+      "blood red",
+      "sludge brown"
+    ],
+    "avoid": [
+      "bright yellow",
+      "electric blue",
+      "neon green"
+    ]
+  },
+  "anatomy": [
+    "venom sacs visible under translucent skin",
+    "barbed spines along spine and limbs",
+    "toxic slime coating on all surfaces",
+    "fangs that drip corrosive drool",
+    "slimy, mucus-covered skin texture"
+  ],
+  "effects": [
+    "acidic vapor rising from body",
+    "toxic green aura flickering around body",
+    "slime trails left behind when moving",
+    "corrosive droplets falling from fangs",
+    "glowing toxic veins beneath skin"
+  ],
+  "suppress_from_others": [
+    "shiny metallic sheen",
+    "crystalline textures",
+    "organic plant growth",
+    "water droplets",
+    "sparkling effects"
+  ],
+  "palette": "toxic green, deep purple, acid yellow, blood red, sludge brown",
+  "skin_material": "slick, mucus-covered skin with translucent venom sacs visible beneath the surface",
+  "accent": "blood red tail tip, glowing toxic green eyes",
+  "background": "poisonous swamp, murky green water, toxic mist-filled air",
+  "type_name": "poison"
+}

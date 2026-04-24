@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Psíquica",
+  "lore": "Bulbasaur ahora emana ondas mentales desde su semilla, que brilla con destellos púrpuras. Sus ojos rojos resplandecen con destellos blancos, reflejando su conexión psíquica. La semilla absorbe energías mentales, creciendo en espiral.",
+  "moves": [
+    {
+      "name": "Luz Mental",
+      "desc": "Genera un destello psíquico que confunde al rival y reduce su precisión."
+    },
+    {
+      "name": "Semilla Psíquica",
+      "desc": "Lanza semillas que flotan en el aire, atacando con fuerza mental."
+    },
+    {
+      "name": "Vórtice Mental",
+      "desc": "Crea un vórtice que absorbe la energía del oponente y la devuelve con más potencia."
+    },
+    {
+      "name": "Mente Unificada",
+      "desc": "Fortalece el equipo con una onda psíquica que mejora la defensa colectiva."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "semilla en su espalda",
+      "to": "brilla con destellos púrpuras y absorbe energías mentales"
+    },
+    {
+      "from": "ojos rojos",
+      "to": "resplandecen con destellos blancos, reflejando conexión psíquica"
+    },
+    {
+      "from": "tipo grass/poison",
+      "to": "cambia a psychic, liberando energía mental en lugar de toxinas"
+    },
+    {
+      "from": "cuerpo verde",
+      "to": "adquiere un brillo púrpura en la piel, simbolizando su nueva esencia psíquica"
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "psychic"
+}

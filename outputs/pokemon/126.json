@@ -1,0 +1,61 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "short stubby legs",
+    "compact muscular body silhouette",
+    "curled tail tip",
+    "sharp claws on feet",
+    "flame-like hair on head"
+  ],
+  "original_type_traits": [
+    "flame on tail tip",
+    "flame on body (as part of hair)",
+    "bright orange body coloration"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "head hair",
+    "body coloration",
+    "foot claws texture",
+    "ear shape",
+    "leg structure"
+  ],
+  "suppress_colors": [
+    "bright orange",
+    "flame orange",
+    "pale cream (as background)",
+    "dark brown (as accent)"
+  ],
+  "anchor_phrases": [
+    "flame-like hair on head with pointed tips",
+    "curled spiral tail tip",
+    "sharp claws on short stubby legs"
+  ],
+  "pokemon_id": "126",
+  "pokemon_name": "magmar",
+  "original_types": [
+    "fire"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright orange",
+      "pale cream",
+      "dark brown"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and short legs, giving it a robust and powerful appearance.",
+    "type_markers": [
+      "flame on tail tip",
+      "flame on body"
+    ],
+    "distinctive_features": [
+      "flame-like hair on head",
+      "sharp claws on feet"
+    ]
+  }
+}

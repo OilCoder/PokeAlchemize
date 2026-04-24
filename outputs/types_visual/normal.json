@@ -1,0 +1,43 @@
+{
+  "colors": {
+    "primary": [
+      "soft beige",
+      "warm tan",
+      "pale cream"
+    ],
+    "secondary": [
+      "dusty rose",
+      "moss green"
+    ],
+    "avoid": [
+      "vibrant purple",
+      "electric blue",
+      "neon yellow"
+    ]
+  },
+  "anatomy": [
+    "rounded ears with soft fur texture",
+    "simple smooth skin with no scales or spikes",
+    "neutral facial features with gentle curves",
+    "compact body shape with no exaggerated limbs",
+    "small paws with soft pads"
+  ],
+  "effects": [
+    "gentle glow of natural sunlight",
+    "subtle dust particles floating in air",
+    "soft motion blur on movement",
+    "warm light reflection on skin"
+  ],
+  "suppress_from_others": [
+    "shiny metallic sheen",
+    "glowing energy aura",
+    "sharp angular features",
+    "unusual limb extensions",
+    "high-contrast patterns"
+  ],
+  "palette": "soft beige, warm tan, pale cream, dusty rose, moss green",
+  "skin_material": "smooth, velvety skin with subtle natural texture like fine sandpaper",
+  "accent": "moss green tail tip, warm brown eyes",
+  "background": "sunlit meadow, gentle breeze, soft grassy hills",
+  "type_name": "normal"
+}

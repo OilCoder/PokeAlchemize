@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Su capucha de hojas se electrifica con destellos azules, sus ojos rojos brillan con chispas. La energía eléctrica potencia su semilla, generando relámpagos en cada paso.",
+  "moves": [
+    {
+      "name": "Relámpago de Hojas",
+      "desc": "Ataca con hojas cargadas de electricidad que queman y paralizan al rival."
+    },
+    {
+      "name": "Chispa Solar",
+      "desc": "Absorbe luz solar para liberar una descarga eléctrica en el campo."
+    },
+    {
+      "name": "Electrohoja",
+      "desc": "Cubre sus hojas con energía eléctrica para cortar con precisión."
+    },
+    {
+      "name": "Paralizante Esmeralda",
+      "desc": "Lanza una esfera brillante que paraliza y lanza destellos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "semilla en su espalda",
+      "to": "se transforma en una fuente de energía eléctrica brillante"
+    },
+    {
+      "from": "ojos verdes",
+      "to": "se vuelven rojos con destellos azules"
+    },
+    {
+      "from": "hojas verdes",
+      "to": "adquieren brillo azul eléctrico"
+    },
+    {
+      "from": "movimientos de hierba",
+      "to": "ahora usan descargas eléctricas en lugar de ataques de hierba"
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "electric"
+}

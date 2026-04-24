@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Su flor central arde con llamas intensas, irradiando calor sofocante. Las hojas de su espalda brillan con destellos rojos, mientras sus pétalos se transforman en llamas danzantes. Su presencia quema el aire a su alrededor.",
+  "moves": [
+    {
+      "name": "Llama Flor",
+      "desc": "Lanza una llamarada desde su flor central, quemando al oponente con fuego intenso."
+    },
+    {
+      "name": "Fuego de Hojas",
+      "desc": "Genera llamas en sus hojas, lanzando una lluvia de brasas que daña al rival."
+    },
+    {
+      "name": "Cicatriz de Llama",
+      "desc": "Crea una barrera de llamas alrededor de sí mismo, reduciendo el daño recibido."
+    },
+    {
+      "name": "Explosión Floral",
+      "desc": "Su flor estalla en llamas, causando un ataque potente a todos los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Flor central",
+      "to": "Arde con llamas intensas, irradiando calor sofocante"
+    },
+    {
+      "from": "Hoja de espalda",
+      "to": "Brilla con destellos rojos, transformada en llamas danzantes"
+    },
+    {
+      "from": "Pétalos",
+      "to": "Se convierten en llamas danzantes, iluminando el entorno"
+    },
+    {
+      "from": "Aire a su alrededor",
+      "to": "Quema por la presencia del Pokémon"
+    }
+  ],
+  "pokemon_id": "003",
+  "target_type": "fire"
+}

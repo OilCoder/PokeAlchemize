@@ -1,0 +1,58 @@
+{
+  "identity_traits": [
+    "rounded bulbous body shape",
+    "short stubby legs",
+    "curled tail tip",
+    "pointed ears",
+    "compact menacing silhouette"
+  ],
+  "original_type_traits": [
+    "spikes on limbs",
+    "bone-like structure on chest",
+    "gray and white color palette"
+  ],
+  "transformable_parts": [
+    "limbs",
+    "chest structure",
+    "tail tip",
+    "head shape",
+    "ear shape",
+    "body texture"
+  ],
+  "suppress_colors": [
+    "gray",
+    "white",
+    "bone-white"
+  ],
+  "anchor_phrases": [
+    "rounded bulbous body with short stubby legs",
+    "curled tail tip extending from rear",
+    "pointed ears protruding from head"
+  ],
+  "pokemon_id": "127",
+  "pokemon_name": "pinsir",
+  "original_types": [
+    "bug"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "gray",
+      "white"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, somewhat bulbous body with short, stubby legs and a curled tail tip, giving it a compact and somewhat menacing appearance.",
+    "type_markers": [
+      "spikes on limbs",
+      "bone-like structure on chest"
+    ],
+    "distinctive_features": [
+      "spikes on limbs",
+      "bone-like structure on chest"
+    ]
+  }
+}

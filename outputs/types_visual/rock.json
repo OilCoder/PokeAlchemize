@@ -1,0 +1,44 @@
+{
+  "colors": {
+    "primary": [
+      "charcoal grey",
+      "dull stone brown",
+      "cracked earth ochre"
+    ],
+    "secondary": [
+      "mineral green",
+      "fossilized bone white"
+    ],
+    "avoid": [
+      "vibrant green",
+      "electric blue",
+      "metallic silver"
+    ]
+  },
+  "anatomy": [
+    "stone-encrusted shell plates",
+    "angular jagged edges on limbs",
+    "crystalline mineral protrusions",
+    "fissured surface texture",
+    "heavy, blocky joints"
+  ],
+  "effects": [
+    "dust particles rising from body",
+    "crystal growths that pulse faintly",
+    "fissures that glow with internal light",
+    "shifting mineral deposits across surface",
+    "slow-moving rock debris in air"
+  ],
+  "suppress_from_others": [
+    "smooth, rounded features",
+    "organic softness",
+    "shiny metallic sheen",
+    "glowing energy auras",
+    "translucent body parts"
+  ],
+  "palette": "charcoal grey, dull stone brown, cracked earth ochre, mineral green, fossilized bone white",
+  "skin_material": "weathered stone skin with deep fissures revealing glowing mineral veins beneath the surface",
+  "accent": "mineral green tail tip, fossilized bone white eyes",
+  "background": "crumbling cliff face, scattered boulders, dusty wind-swept plateau",
+  "type_name": "rock"
+}

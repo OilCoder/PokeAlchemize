@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marítima",
+  "lore": "Bulbasaur, ahora con ojos rojos brillantes y destellos blancos, emite llamas desde su semilla. Su piel se vuelve escamosa y rojiza, absorbiendo el calor del fuego para crecer.",
+  "moves": [
+    {
+      "name": "Llama Esmeralda",
+      "desc": "Lanza llamas que brillan como esmeraldas, quemando el suelo bajo el oponente."
+    },
+    {
+      "name": "Semilla Ardiente",
+      "desc": "Hace brotar una semilla en llamas que explota con fuerza."
+    },
+    {
+      "name": "Fuego Marino",
+      "desc": "Crea una ola de fuego que cubre el campo de batalla."
+    },
+    {
+      "name": "Calor Solar",
+      "desc": "Aumenta el poder de los movimientos de fuego durante un turno."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "semilla en su espalda",
+      "to": "se transforma en una semilla de fuego que emite llamas"
+    },
+    {
+      "from": "ojos verdes",
+      "to": "ojos rojos brillantes con destellos blancos"
+    },
+    {
+      "from": "piel verde",
+      "to": "piel escamosa y rojiza"
+    },
+    {
+      "from": "tipo grass/poison",
+      "to": "tipo fire"
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "fire"
+}

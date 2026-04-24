@@ -1,0 +1,59 @@
+{
+  "identity_traits": [
+    "rounded plump body shape",
+    "short stubby legs",
+    "pointed ears with slight inward curve",
+    "curled tail tip pointing upwards",
+    "pale cream underbelly",
+    "compact silhouette with no sharp edges"
+  ],
+  "original_type_traits": [
+    "pink body coloration",
+    "pale cream underbelly",
+    "rounded head with minimal facial features"
+  ],
+  "transformable_parts": [
+    "tail tip texture and shape",
+    "ear shape and curvature",
+    "body coloration and patterns",
+    "underbelly coloration",
+    "leg proportions and texture",
+    "head shape and facial structure"
+  ],
+  "suppress_colors": [
+    "pink body",
+    "pale cream underbelly",
+    "soft pastel tones"
+  ],
+  "anchor_phrases": [
+    "pointed ears with slight inward curve",
+    "curled tail tip pointing upwards",
+    "pale cream underbelly"
+  ],
+  "pokemon_id": "113",
+  "pokemon_name": "chansey",
+  "original_types": [
+    "normal"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "pink",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, plump body with short legs and a small tail, giving it a cute and compact appearance.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "ears with a slight curve",
+      "tail tip curled upwards",
+      "pale cream underbelly"
+    ]
+  }
+}

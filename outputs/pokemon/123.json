@@ -1,0 +1,61 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "compact dragon-like body silhouette",
+    "short stubby legs",
+    "pale cream underbelly",
+    "curled tail tip",
+    "wings"
+  ],
+  "original_type_traits": [
+    "wings (suggesting flying)",
+    "curled tail tip (suggesting insectoid movement)",
+    "bright green body color (insect exoskeleton)"
+  ],
+  "transformable_parts": [
+    "wings",
+    "tail tip",
+    "body coloration",
+    "leg structure",
+    "head shape",
+    "underbelly texture"
+  ],
+  "suppress_colors": [
+    "bright green",
+    "pale cream",
+    "wings' translucent pale blue"
+  ],
+  "anchor_phrases": [
+    "rounded head with pointed ears",
+    "pale cream underbelly",
+    "curled tail tip"
+  ],
+  "pokemon_id": "123",
+  "pokemon_name": "scyther",
+  "original_types": [
+    "bug",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright green",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "pointed ears",
+      "short stubby legs",
+      "curled tail tip",
+      "wings"
+    ],
+    "silhouette": "The creature has a compact, dragon-like body with a rounded head and short legs, suggesting a compact and agile form.",
+    "type_markers": [
+      "wings",
+      "curled tail tip"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "pale cream underbelly"
+    ]
+  }
+}

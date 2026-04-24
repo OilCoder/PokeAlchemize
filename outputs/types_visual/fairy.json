@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "soft pastel pink",
+      "ivory white",
+      "delicate lavender"
+    ],
+    "secondary": [
+      "glowing starlight silver",
+      "petal gold"
+    ],
+    "avoid": [
+      "deep purple",
+      "vibrant neon",
+      "metallic gray"
+    ]
+  },
+  "anatomy": [
+    "delicate translucent wings with crystalline veins",
+    "soft rounded body with no sharp edges",
+    "petal-like ear flaps with subtle shimmer",
+    "small delicate hooves or foot pads",
+    "star-shaped facial markings",
+    "glowing orb-like eyes"
+  ],
+  "effects": [
+    "gentle sparkling dust trails",
+    "soft ethereal glow from body",
+    "petal-shaped aura particles",
+    "subtle light refraction around wings",
+    "faint musical note vibrations"
+  ],
+  "suppress_from_others": [
+    "sharp angular features",
+    "metallic sheen",
+    "rough textured skin",
+    "dark or aggressive color tones",
+    "pointed or spiky appendages"
+  ],
+  "palette": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold",
+  "skin_material": "velvety soft skin with a subtle pearlescent sheen, like moonlit petals",
+  "accent": "starlight silver tail tip, glowing petal gold eyes",
+  "background": "enchanted meadow, glowing fireflies, soft cloud formations",
+  "type_name": "fairy"
+}

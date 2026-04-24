@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llamarada Acuática",
+  "lore": "Bulbasaur transformado en un ser acuático, sus ojos rojos brillan con destellos blancos bajo el agua. Su semilla emite un resplandor azulado, absorbiendo y liberando energía hídrica.",
+  "moves": [
+    {
+      "name": "Ola de Hojas",
+      "desc": "Lanza una ola de hojas que se convierten en burbujas al contacto con el agua."
+    },
+    {
+      "name": "Burbuja Venenosa",
+      "desc": "Crea burbujas tóxicas que envenenan al oponente al estallar."
+    },
+    {
+      "name": "Raíces Acuáticas",
+      "desc": "Fija raíces en el suelo para absorber energía del agua y recuperar PS."
+    },
+    {
+      "name": "Chorro de Loto",
+      "desc": "Dispara un chorro de loto que cura y debilita al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "semilla en la espalda",
+      "to": "semilla que emite un resplandor azulado y absorbe agua"
+    },
+    {
+      "from": "ojos rojos",
+      "to": "ojos rojos con destellos blancos bajo el agua"
+    },
+    {
+      "from": "tipo grass/poison",
+      "to": "tipo water con efectos de poison en el agua"
+    },
+    {
+      "from": "fuerza de hojas",
+      "to": "fuerza de ola que se convierte en burbujas al contacto con el agua"
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "water"
+}

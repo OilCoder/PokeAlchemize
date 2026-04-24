@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Flor de Hada",
+  "lore": "Flor de Hada posee ojos rojos con destellos blancos que brillan con magia efímera. Su semilla emite destellos dorados al tocar el aire, transformando el veneno en pétalos de luz.",
+  "moves": [
+    {
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan heridas y eliminan veneno con un toque de magia."
+    },
+    {
+      "name": "Brillo de Hada",
+      "desc": "Crea un aura que eleva el ataque y defensa del usuario por un tiempo."
+    },
+    {
+      "name": "Canto de Estrellas",
+      "desc": "Atrae a aliados con un canto suave que aumenta su precisión."
+    },
+    {
+      "name": "Viento de Sueños",
+      "desc": "Genera un viento suave que reduce el daño recibido y confunde a los enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "semilla en su espalda",
+      "to": "se transforma en una flor brillante que emite luz dorada"
+    },
+    {
+      "from": "ojos verdes",
+      "to": "ojos rojos con destellos blancos que brillan con magia"
+    },
+    {
+      "from": "veneno en sus hojas",
+      "to": "veneno se convierte en pétalos que curan"
+    },
+    {
+      "from": "aspecto terrenal",
+      "to": "aspecto etéreo con brillo mágico en todo su cuerpo"
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "fairy"
+}

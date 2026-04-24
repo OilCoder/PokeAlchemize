@@ -1,0 +1,60 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "short stubby legs",
+    "curled tail tip",
+    "white underbelly",
+    "smiling face expression"
+  ],
+  "original_type_traits": [
+    "flame on tail tip",
+    "light orange body color",
+    "dark orange accents on head and tail base"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "body coloration",
+    "head pattern",
+    "leg texture",
+    "underbelly pattern",
+    "ear tip color"
+  ],
+  "suppress_colors": [
+    "light orange",
+    "dark orange",
+    "flame orange",
+    "yellow flame hues"
+  ],
+  "anchor_phrases": [
+    "flame on tail tip",
+    "white underbelly",
+    "smiling face expression"
+  ],
+  "pokemon_id": "004",
+  "pokemon_name": "charmander",
+  "original_types": [
+    "fire"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light orange",
+      "white",
+      "dark orange"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a short, stubby tail and legs, and a pointed head.",
+    "type_markers": [
+      "flame on tail tip"
+    ],
+    "distinctive_features": [
+      "flame on tail tip",
+      "white underbelly",
+      "smiling face"
+    ]
+  }
+}

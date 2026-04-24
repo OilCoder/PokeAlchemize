@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "violet mist",
+      "lilac shimmer",
+      "pale lavender"
+    ],
+    "secondary": [
+      "silver glow",
+      "soft white"
+    ],
+    "avoid": [
+      "bright yellow",
+      "deep red",
+      "vibrant green"
+    ]
+  },
+  "anatomy": [
+    "smooth, elongated cranium with subtle cranial ridges",
+    "delicate, translucent eyelids",
+    "slender, elongated limbs",
+    "faint, glowing neural pathways visible beneath skin",
+    "soft, flowing hair or antenna-like strands",
+    "ethereal, almost weightless posture"
+  ],
+  "effects": [
+    "soft, rippling aura of light",
+    "subtle energy distortions around the body",
+    "glowing, star-like patterns in the air",
+    "shimmering particles floating in the air",
+    "gentle, pulsing light from the third eye"
+  ],
+  "suppress_from_others": [
+    "sharp, angular features",
+    "rough or scaly textures",
+    "intense, saturated colors",
+    "visible muscle definition",
+    "aggressive or predatory postures"
+  ],
+  "palette": "violet mist, lilac shimmer, pale lavender, silver glow, soft white",
+  "skin_material": "smooth, translucent skin with faint bioluminescent neural pathways visible beneath the surface",
+  "accent": "silver tail tip, starlight blue eyes",
+  "background": "floating islands, misty clouds, soft starlight glow",
+  "type_name": "psychic"
+}

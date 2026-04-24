@@ -1,0 +1,62 @@
+{
+  "identity_traits": [
+    "rounded head with prominent pointed ears",
+    "short stubby legs with sharp claws",
+    "large expressive eyes",
+    "curled tail tip",
+    "robust muscular silhouette",
+    "pale cream underbelly"
+  ],
+  "original_type_traits": [
+    "dark blue spikes on body",
+    "pale cream underbelly",
+    "ground-type texture on legs"
+  ],
+  "transformable_parts": [
+    "spikes on body",
+    "tail tip",
+    "leg texture",
+    "underbelly color",
+    "head crest",
+    "eye color"
+  ],
+  "suppress_colors": [
+    "dark blue",
+    "pale cream",
+    "ground-brown tones",
+    "poison-green hues"
+  ],
+  "anchor_phrases": [
+    "rounded head with pointed ears",
+    "sharp claws on short stubby legs",
+    "curled tail tip with pale cream underside"
+  ],
+  "pokemon_id": "031",
+  "pokemon_name": "nidoqueen",
+  "original_types": [
+    "poison",
+    "ground"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright blue",
+      "pale cream",
+      "dark blue"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a robust, muscular build with a large head and short legs, giving it a powerful and grounded appearance.",
+    "type_markers": [
+      "dark blue spikes on body",
+      "pale cream underbelly"
+    ],
+    "distinctive_features": [
+      "large, expressive eyes",
+      "sharp claws on feet"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "identity_traits": [
+    "rounded head with spiky protrusions",
+    "short stubby legs",
+    "curled tail tip",
+    "muscular compact body",
+    "striped pattern on limbs"
+  ],
+  "original_type_traits": [
+    "lightning bolt on chest",
+    "bright yellow coloration",
+    "striped pattern on limbs (electrically charged)"
+  ],
+  "transformable_parts": [
+    "chest",
+    "tail",
+    "limbs",
+    "head spiky protrusions",
+    "body coloration",
+    "skin texture"
+  ],
+  "suppress_colors": [
+    "bright yellow",
+    "lightning bolt pattern",
+    "electric blue"
+  ],
+  "anchor_phrases": [
+    "spiky protrusions on head in a crown-like arrangement",
+    "curled spiral tail tip",
+    "striped pattern on limbs with alternating dark blue and pale cream bands"
+  ],
+  "pokemon_id": "125",
+  "pokemon_name": "electabuzz",
+  "original_types": [
+    "electric"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright yellow",
+      "dark blue",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, muscular body with a slightly elongated head and a short, stubby tail.",
+    "type_markers": [
+      "lightning bolt on chest",
+      "striped pattern on limbs"
+    ],
+    "distinctive_features": [
+      "spiky protrusions on head",
+      "striped pattern on limbs"
+    ]
+  }
+}

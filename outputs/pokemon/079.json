@@ -1,0 +1,58 @@
+{
+  "identity_traits": [
+    "rounded plump body shape",
+    "large expressive eyes",
+    "curled tail tip",
+    "short stubby legs",
+    "pointed ears",
+    "pink body color"
+  ],
+  "original_type_traits": [
+    "water-type: smooth skin texture suggesting wetness",
+    "psychic-type: faint aura around head"
+  ],
+  "transformable_parts": [
+    "tail",
+    "skin texture",
+    "head aura",
+    "ear shape",
+    "eye expression",
+    "body outline"
+  ],
+  "suppress_colors": [
+    "pink",
+    "light blue (water accent)",
+    "soft purple (psychic aura)"
+  ],
+  "anchor_phrases": [
+    "large round eyes with black pupils",
+    "curled spiral tail tip",
+    "plump rounded body silhouette"
+  ],
+  "pokemon_id": "079",
+  "pokemon_name": "slowpoke",
+  "original_types": [
+    "water",
+    "psychic"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "pink"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, plump body with a short, stubby tail and large, expressive eyes.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "large, round eyes",
+      "curled tail tip",
+      "rounded body"
+    ]
+  }
+}

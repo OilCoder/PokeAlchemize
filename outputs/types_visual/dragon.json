@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "deep sapphire blue",
+      "violet twilight",
+      "obsidian black"
+    ],
+    "secondary": [
+      "golden amber",
+      "crimson flame"
+    ],
+    "avoid": [
+      "emerald green",
+      "crystal clear",
+      "electric yellow"
+    ]
+  },
+  "anatomy": [
+    "reinforced dorsal spines along the back",
+    "leathery wing membranes with metallic veins",
+    "scaled armor plating on limbs",
+    "elongated neck with serpentine curvature",
+    "jagged horn crest on head",
+    "slit-pupil eyes with metallic sheen"
+  ],
+  "effects": [
+    "glowing energy auras around limbs",
+    "crystalline frost patterns on scales",
+    "shimmering metallic reflections on armor",
+    "slow-motion energy trails during movement",
+    "subtle light refraction through wing membranes"
+  ],
+  "suppress_from_others": [
+    "feathers",
+    "insectile exoskeleton",
+    "furry textures",
+    "gelatinous body",
+    "bioluminescent patterns"
+  ],
+  "palette": "deep sapphire blue, violet twilight, obsidian black, golden amber, crimson flame",
+  "skin_material": "weathered obsidian scales with deep sapphire blue undertones and golden amber veins visible through cracks",
+  "accent": "crimson flame tail tip, golden amber eyes",
+  "background": "ancient stone spires, twilight sky, glowing crystal formations",
+  "type_name": "dragon"
+}

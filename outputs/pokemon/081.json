@@ -1,0 +1,64 @@
+{
+  "identity_traits": [
+    "rounded head with small eye sockets",
+    "compact boxy body shape",
+    "stubby legs with rounded feet",
+    "curled tail tip with red tip",
+    "metallic sheen on body surfaces"
+  ],
+  "original_type_traits": [
+    "magnets embedded on body surface",
+    "metallic gray coloration",
+    "red accents on tail tip"
+  ],
+  "transformable_parts": [
+    "magnets on body parts",
+    "metallic gray coloration",
+    "tail tip red accent",
+    "head shape",
+    "body sheen texture",
+    "leg structure"
+  ],
+  "suppress_colors": [
+    "metallic gray",
+    "red tail tip",
+    "electric blue",
+    "white accents"
+  ],
+  "anchor_phrases": [
+    "rounded head with small eye sockets",
+    "curled tail tip with red tip",
+    "compact boxy body shape with stubby legs"
+  ],
+  "pokemon_id": "081",
+  "pokemon_name": "magnemite",
+  "original_types": [
+    "electric",
+    "steel"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light blue",
+      "gray",
+      "red",
+      "blue",
+      "white"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a small head and stubby legs, giving it a compact and somewhat boxy appearance.",
+    "type_markers": [
+      "magnets on body parts",
+      "metallic gray color"
+    ],
+    "distinctive_features": [
+      "magnets on body parts",
+      "metallic gray color",
+      "rounded head"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Vegetal",
+  "lore": "El Bulbasaur Sombra flota sin rumbo, sus ojos rojos brillan con destellos blancos en la oscuridad. Su semilla emite un resplandor espectral, mientras su cuerpo translúcido absorbe la luz de la luna.",
+  "moves": [
+    {
+      "name": "Espectro Hoja",
+      "desc": "Lanza hojas etéreas que atraviesan a los enemigos sin dejar rastro."
+    },
+    {
+      "name": "Sangre Espectral",
+      "desc": "Ataca con un torrente de energía oscura que absorbe la vida del oponente."
+    },
+    {
+      "name": "Viento Fantasma",
+      "desc": "Crea un viento frío que reduce la defensa del rival."
+    },
+    {
+      "name": "Semilla Sombría",
+      "desc": "Genera una semilla que lanza ataques de tipo fantasma."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "semilla en su espalda",
+      "to": "se convierte en una semilla brillante y etérea que emite luz espectral"
+    },
+    {
+      "from": "ojos verdes",
+      "to": "se tornan rojos con destellos blancos en la oscuridad"
+    },
+    {
+      "from": "cuerpo verde",
+      "to": "se vuelve translúcido y tenue, como una sombra"
+    },
+    {
+      "from": "puntos de veneno",
+      "to": "se transforman en destellos de energía oscura que se disipan en el aire"
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "ghost"
+}

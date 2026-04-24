@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "deep violet",
+      "ebony black",
+      "pale silver"
+    ],
+    "secondary": [
+      "crimson mist",
+      "ghostly white"
+    ],
+    "avoid": [
+      "vibrant green",
+      "sunshine yellow",
+      "electric blue"
+    ]
+  },
+  "anatomy": [
+    "translucent skin with visible internal energy currents",
+    "hollow eye sockets filled with swirling mist",
+    "tattered, wispy tail trailing shadowy vapour",
+    "body edges dissolving into thin air",
+    "floating detached limbs with ghostly glow",
+    "subtle energy ripples distorting surrounding air"
+  ],
+  "effects": [
+    "flickering translucent aura around body",
+    "shadows elongating and bending unnaturally",
+    "slow drifting mist particles in air",
+    "energy pulses visible through skin",
+    "distorted reflections in still water"
+  ],
+  "suppress_from_others": [
+    "solid physical textures",
+    "bright metallic sheen",
+    "visible muscle definition",
+    "sunlight reflection",
+    "sharp geometric patterns"
+  ],
+  "palette": "deep violet, ebony black, pale silver, crimson mist, ghostly white",
+  "skin_material": "semi-translucent misty skin with faint internal energy currents visible through thin layers",
+  "accent": "crimson mist tail tip, ghostly white eyes",
+  "background": "misty graveyard, faint moonlight, floating spectral embers",
+  "type_name": "ghost"
+}

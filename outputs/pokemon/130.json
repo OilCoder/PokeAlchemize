@@ -1,0 +1,61 @@
+{
+  "identity_traits": [
+    "rounded head with spiky crest",
+    "long curved neck",
+    "short stubby legs",
+    "pointed ears",
+    "curled tail tip"
+  ],
+  "original_type_traits": [
+    "light blue and beige coloration suggesting aquatic origin",
+    "dark blue accents on fins and tail",
+    "overall streamlined body shape for flight and swimming"
+  ],
+  "transformable_parts": [
+    "head crest",
+    "neck",
+    "tail",
+    "skin texture",
+    "fin structures",
+    "leg shape"
+  ],
+  "suppress_colors": [
+    "light blue",
+    "beige",
+    "dark blue"
+  ],
+  "anchor_phrases": [
+    "spiky crest on rounded head",
+    "long curved neck extending from head",
+    "curled tail tip with dark blue accent"
+  ],
+  "pokemon_id": "130",
+  "pokemon_name": "gyarados",
+  "original_types": [
+    "water",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light blue",
+      "beige",
+      "dark blue"
+    ],
+    "body_parts": [
+      "rounded head",
+      "long neck",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a dragon-like silhouette with a long neck and a curved tail.",
+    "type_markers": [
+      "no visible water droplets or leaf bulbs, but the coloration and overall shape suggest a water and flying type"
+    ],
+    "distinctive_features": [
+      "spiky head",
+      "long curved tail",
+      "pointed ears"
+    ]
+  }
+}

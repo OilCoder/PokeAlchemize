@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "forest green",
+      "sunlit yellow-green",
+      "mossy brown"
+    ],
+    "secondary": [
+      "petal pink",
+      "dewdrop white"
+    ],
+    "avoid": [
+      "burnt orange",
+      "charcoal gray",
+      "dull brown"
+    ]
+  },
+  "anatomy": [
+    "leaf-shaped ears and tail",
+    "vines or petal growths emerging from body joints",
+    "petal patterns embedded in skin texture",
+    "soft moss-like fur covering body",
+    "thorny protrusions on limbs",
+    "petal-like eyelashes"
+  ],
+  "effects": [
+    "gentle pollen glow",
+    "dewdrop condensation on surfaces",
+    "slow-growing vine tendrils",
+    "petal flutter in motion",
+    "soft green light emanating from core"
+  ],
+  "suppress_from_others": [
+    "sharp metallic edges",
+    "cracked or scaly skin",
+    "burnt or charred textures",
+    "electric sparks",
+    "icy sheen"
+  ],
+  "palette": "forest green, sunlit yellow-green, mossy brown, petal pink, dewdrop white",
+  "skin_material": "soft mossy fur with embedded petal patterns and dewdrop condensation on all surfaces",
+  "accent": "petal pink tail tip, dewdrop white eyes",
+  "background": "lush forest canopy, gentle sunlight filtering through leaves, dewy moss-covered ground",
+  "type_name": "grass"
+}

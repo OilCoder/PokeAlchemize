@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Flor",
+  "lore": "Bulbasaur ahora posee ojos rojos con destellos blancos que brillan en la oscuridad. Su semilla emite un aura oscura que absorbe la luz, mientras su cuerpo se cubre de espinas negras brillantes.",
+  "moves": [
+    {
+      "name": "Sombra Vírica",
+      "desc": "Infecta al rival con una energía oscura que reduce su defensa y causa veneno."
+    },
+    {
+      "name": "Esencia Oscura",
+      "desc": "Aumenta el poder de los ataques de tipo oscuro y absorbe energía del entorno."
+    },
+    {
+      "name": "Cicatriz Nocturna",
+      "desc": "Crea una barrera oscura que bloquea los ataques y cura al usuario."
+    },
+    {
+      "name": "Vórtice Tenebroso",
+      "desc": "Lanza un torbellino de energía oscura que aturde y drena la vida del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "semilla en su espalda",
+      "to": "se transforma en una semilla negra brillante que emite aura oscura"
+    },
+    {
+      "from": "ojos verdes",
+      "to": "se vuelven rojos con destellos blancos que brillan en la oscuridad"
+    },
+    {
+      "from": "piel verde",
+      "to": "se cubre de espinas negras brillantes que absorben la luz"
+    },
+    {
+      "from": "ataques de hierba",
+      "to": "se convierten en ataques de tipo oscuro con efectos venenosos"
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "dark"
+}

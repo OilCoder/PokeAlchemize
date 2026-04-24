@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "forest green",
+      "dark brown",
+      "ochre yellow"
+    ],
+    "secondary": [
+      "copper",
+      "sapphire blue"
+    ],
+    "avoid": [
+      "vibrant red",
+      "electric blue",
+      "neon green"
+    ]
+  },
+  "anatomy": [
+    "chitinous plates with subtle metallic sheen",
+    "compound eyes with iridescent hexagonal facets",
+    "delicate antennae with fine filaments",
+    "segmented limbs with articulated joints",
+    "thin, translucent wings with vein patterns",
+    "spiked thoracic plates"
+  ],
+  "effects": [
+    "dust particles swirling around limbs",
+    "subtle bioluminescent glow from undercarriage",
+    "refractive light patterns on exoskeleton",
+    "delicate pollen trails in motion",
+    "shimmering dew drops on surface"
+  ],
+  "suppress_from_others": [
+    "scales",
+    "feathers",
+    "fur",
+    "crystalline structures",
+    "glowing energy auras"
+  ],
+  "palette": "forest green, dark brown, ochre yellow, copper, sapphire blue",
+  "skin_material": "chitinous exoskeleton with iridescent metallic sheen and fine translucent vein patterns",
+  "accent": "copper antennae tips, sapphire blue eyes",
+  "background": "dense forest canopy, dappled sunlight, dew-covered leaves",
+  "type_name": "bug"
+}

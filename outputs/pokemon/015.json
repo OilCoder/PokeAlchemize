@@ -1,0 +1,62 @@
+{
+  "identity_traits": [
+    "rounded head with prominent antennae",
+    "segmented body with alternating yellow and black bands",
+    "wasp-like wing structure with transparent membranes",
+    "short stubby legs with black tips",
+    "distinctive stinger at rear end"
+  ],
+  "original_type_traits": [
+    "black stinger with yellow tip",
+    "poisonous yellow coloration on body segments",
+    "wasp-like body shape indicating venomous nature"
+  ],
+  "transformable_parts": [
+    "stinger",
+    "wings",
+    "body segments",
+    "antennae",
+    "leg tips",
+    "wing membranes"
+  ],
+  "suppress_colors": [
+    "yellow (poisonous hue)",
+    "black (venomous contrast)",
+    "white (stinger base)"
+  ],
+  "anchor_phrases": [
+    "rounded head with two thin black antennae protruding upward",
+    "segmented body with alternating yellow and black bands",
+    "transparent wing membranes spanning from shoulder to rear"
+  ],
+  "pokemon_id": "015",
+  "pokemon_name": "beedrill",
+  "original_types": [
+    "bug",
+    "poison"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright yellow",
+      "black",
+      "white"
+    ],
+    "body_parts": [
+      "rounded head",
+      "antennae",
+      "short stubby legs",
+      "wasp-like body",
+      "wings",
+      "stinger"
+    ],
+    "silhouette": "The Pokémon has a wasp-like silhouette with a rounded head, segmented body, and large wings.",
+    "type_markers": [
+      "stinger",
+      "wasp-like body"
+    ],
+    "distinctive_features": [
+      "antennae",
+      "segmented body"
+    ]
+  }
+}

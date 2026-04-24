@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "earthen brown",
+      "dull ochre",
+      "muddy gray"
+    ],
+    "secondary": [
+      "cracked stone white",
+      "dusty terracotta"
+    ],
+    "avoid": [
+      "vibrant green",
+      "shiny silver",
+      "icy blue"
+    ]
+  },
+  "anatomy": [
+    "rocky, cracked hide resembling weathered stone",
+    "flat, wide feet with embedded pebbles",
+    "earthen crystal growths on shoulders",
+    "mossy or lichen-like patches on body",
+    "heavy, dense muscle structure",
+    "dust-like particles floating around the body"
+  ],
+  "effects": [
+    "dust clouds rising from movement",
+    "cracks glowing faintly with earth energy",
+    "slow, deliberate motion with ground tremors",
+    "petrified leaves or small stones embedded in hide",
+    "moss or grass growing from cracks in the hide"
+  ],
+  "suppress_from_others": [
+    "shiny or reflective surfaces",
+    "glowing or luminous features",
+    "furry or soft textures",
+    "translucent or water-like elements",
+    "bright or neon color accents"
+  ],
+  "palette": "earthen brown, dull ochre, muddy gray, cracked stone white, dusty terracotta",
+  "skin_material": "rough, weathered stone hide with embedded pebbles and moss patches",
+  "accent": "cracked stone white tail tip, dusty terracotta eyes",
+  "background": "crumbling stone plateau, dry cracked earth, dust storm swirling",
+  "type_name": "ground"
+}

@@ -1,0 +1,54 @@
+{
+  "identity_traits": [
+    "rounded blob-like body shape",
+    "small smiling face with large circular eyes",
+    "short stubby legs",
+    "pointed ears",
+    "curled tail tip",
+    "light purple body color"
+  ],
+  "original_type_traits": [],
+  "transformable_parts": [
+    "head shape",
+    "tail tip curl",
+    "leg structure",
+    "ear shape",
+    "body texture",
+    "skin color"
+  ],
+  "suppress_colors": [
+    "light purple",
+    "soft pastel tones",
+    "pale lavender hues"
+  ],
+  "anchor_phrases": [
+    "rounded blob-like body with no distinct limbs",
+    "small smiling face with large circular eyes",
+    "curled spiral tail tip"
+  ],
+  "pokemon_id": "132",
+  "pokemon_name": "ditto",
+  "original_types": [
+    "normal"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light purple"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, blob-like body with a small, smiling face and short, stubby legs.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "smiling face",
+      "rounded body",
+      "short legs"
+    ]
+  }
+}

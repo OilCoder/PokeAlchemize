@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "crimson red",
+      "burnt orange",
+      "molten gold"
+    ],
+    "secondary": [
+      "amber glow",
+      "charcoal black"
+    ],
+    "avoid": [
+      "icy blue",
+      "frost white",
+      "glacial teal"
+    ]
+  },
+  "anatomy": [
+    "flame-tipped tail",
+    "magma-cracked skin texture",
+    "ember-scaled armor plating",
+    "glowing core vent on chest",
+    "smoke trails from joints",
+    "heat-haze distortion around body"
+  ],
+  "effects": [
+    "molten lava glow from cracks",
+    "intense heat shimmer",
+    "ember sparks floating in air",
+    "crackling energy aura",
+    "smoke trails from movement"
+  ],
+  "suppress_from_others": [
+    "water droplets",
+    "ice formations",
+    "snowflakes",
+    "frost patterns",
+    "cooling mist"
+  ],
+  "palette": "crimson red, burnt orange, molten gold, amber glow, charcoal black",
+  "skin_material": "lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath",
+  "accent": "amber tail tip, ember-red eyes",
+  "background": "volcanic peak, molten rock rivers, glowing ash clouds",
+  "type_name": "fire"
+}

@@ -1,0 +1,64 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby legs",
+    "pointed ears",
+    "curled tail tip",
+    "flower-like structure on top"
+  ],
+  "original_type_traits": [
+    "flower-like structure on top",
+    "green leaves on body",
+    "teal body with green accents"
+  ],
+  "transformable_parts": [
+    "flower-like structure on top",
+    "leaf patterns on body",
+    "tail tip texture",
+    "skin texture on body",
+    "ear shape",
+    "leg proportions"
+  ],
+  "suppress_colors": [
+    "green",
+    "teal",
+    "pink floral accents"
+  ],
+  "anchor_phrases": [
+    "flower-like structure on top",
+    "curled spiral tail tip",
+    "pointed ears on rounded head"
+  ],
+  "pokemon_id": "003",
+  "pokemon_name": "venusaur",
+  "original_types": [
+    "grass",
+    "poison"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "dark teal",
+      "green",
+      "pink",
+      "brown"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip",
+      "flower-like structure on top"
+    ],
+    "silhouette": "The Pokémon has a rounded, plant-like body with a large flower structure on top, giving it a unique and somewhat whimsical appearance.",
+    "type_markers": [
+      "flower-like structure on top",
+      "green leaves",
+      "teal body"
+    ],
+    "distinctive_features": [
+      "flower structure",
+      "teal body with green accents",
+      "pointed ears"
+    ]
+  }
+}

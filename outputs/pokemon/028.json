@@ -1,0 +1,60 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby legs",
+    "pointed ears",
+    "curled tail tip",
+    "compact muscular body silhouette"
+  ],
+  "original_type_traits": [
+    "sharp claws",
+    "muscular build",
+    "golden yellow body coloration"
+  ],
+  "transformable_parts": [
+    "tail",
+    "claws",
+    "body coloration",
+    "ear shape",
+    "shell texture",
+    "leg structure"
+  ],
+  "suppress_colors": [
+    "golden yellow",
+    "brown",
+    "pale cream"
+  ],
+  "anchor_phrases": [
+    "pointed ears with rounded tips",
+    "curled tail tip ending in a tight spiral",
+    "bipedal stance with short stubby legs"
+  ],
+  "pokemon_id": "028",
+  "pokemon_name": "sandslash",
+  "original_types": [
+    "ground"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "golden yellow",
+      "brown",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip",
+      "sharp claws"
+    ],
+    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and a short, stubby tail ending in a curled tip.",
+    "type_markers": [
+      "sharp claws",
+      "muscular build"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "curled tail tip"
+    ]
+  }
+}

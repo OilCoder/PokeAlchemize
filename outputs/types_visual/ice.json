@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": [
+      "icy blue",
+      "glacial white",
+      "frosty silver"
+    ],
+    "secondary": [
+      "crystal clear",
+      "deep glacier blue"
+    ],
+    "avoid": [
+      "warm orange",
+      "sunburnt yellow",
+      "muddy brown"
+    ]
+  },
+  "anatomy": [
+    "frosted fur replaced with sharp crystalline scales",
+    "tail tipped with jagged ice shards",
+    "facial features sculpted with angular ice facets",
+    "limbs encased in translucent ice armor",
+    "eyes glowing with internal cold light",
+    "crackling frost patterns across body"
+  ],
+  "effects": [
+    "shimmering frost aura",
+    "ice particles floating in air",
+    "crystal growths forming on surfaces",
+    "breath freezing mid-air",
+    "melting streaks revealing inner glow"
+  ],
+  "suppress_from_others": [
+    "soft fur textures",
+    "warm color palettes",
+    "organic flesh tones",
+    "rounded smooth surfaces",
+    "muddy or earthy tones"
+  ],
+  "palette": "icy blue, glacial white, frosty silver, crystal clear, deep glacier blue",
+  "skin_material": "frosted crystalline skin with sharp facets and internal glowing cold light",
+  "accent": "crystal clear tail tip, deep glacier blue eyes",
+  "background": "frozen tundra, jagged ice cliffs, glacial blue moonlight",
+  "type_name": "ice"
+}

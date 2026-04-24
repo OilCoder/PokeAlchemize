@@ -1,0 +1,58 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby legs",
+    "curled tail tip",
+    "small pointed ears",
+    "compact body silhouette"
+  ],
+  "original_type_traits": [
+    "light brown body color",
+    "pink underbelly",
+    "ground-type compact silhouette"
+  ],
+  "transformable_parts": [
+    "tail tip texture",
+    "body color",
+    "leg structure",
+    "ear shape",
+    "underbelly color",
+    "overall silhouette"
+  ],
+  "suppress_colors": [
+    "light brown",
+    "pink",
+    "earth-toned palette"
+  ],
+  "anchor_phrases": [
+    "rounded head with small pointed ears",
+    "curled spiral tail tip",
+    "compact rounded body silhouette with short stubby legs"
+  ],
+  "pokemon_id": "050",
+  "pokemon_name": "diglett",
+  "original_types": [
+    "ground"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light brown",
+      "pink"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, compact body with a short, stubby tail and small, pointed ears.",
+    "type_markers": [
+      "ground type indicated by the body color and silhouette"
+    ],
+    "distinctive_features": [
+      "rounded head",
+      "short stubby legs",
+      "curled tail tip"
+    ]
+  }
+}

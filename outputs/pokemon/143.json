@@ -1,0 +1,54 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby legs",
+    "curled tail tip",
+    "compact rounded body silhouette",
+    "white belly patch"
+  ],
+  "original_type_traits": [],
+  "transformable_parts": [
+    "head shape (rounded)",
+    "tail tip (curled)",
+    "leg structure (stubby)",
+    "body texture (smooth skin)",
+    "belly patch (white)",
+    "ear shape (pointed)"
+  ],
+  "suppress_colors": [
+    "dark blue body color",
+    "white belly patch",
+    "blueish-gray tones"
+  ],
+  "anchor_phrases": [
+    "rounded head with small dark eyes",
+    "curled spiral tail tip",
+    "short stubby legs with rounded feet"
+  ],
+  "pokemon_id": "143",
+  "pokemon_name": "snorlax",
+  "original_types": [
+    "normal"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "dark blue",
+      "white"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, compact body with a large, rounded head and short, stubby legs. The tail is curled at the tip.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "rounded head",
+      "curled tail tip",
+      "short stubby legs"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Bulbasaur de acero reluce con ojos rojos y destellos blancos, su caparazón de acero absorbe impactos. Sus espinas se afilan como cuchillas, protegiendo su corazón de acero.",
+  "moves": [
+    {
+      "name": "Cuchilla de Acero",
+      "desc": "Ataca con espinas afiladas de acero, causando daño y posiblemente reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido durante un turno."
+    },
+    {
+      "name": "Impacto de Acero",
+      "desc": "Golpea al oponente con un impacto de acero, aumentando la velocidad del usuario."
+    },
+    {
+      "name": "Bomba de Esmeril",
+      "desc": "Lanza una bomba de esmeril que causa daño y posiblemente confunde al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Ojos rojos con destellos blancos",
+      "to": "Ojos rojos brillantes con reflejos plateados, resplandeciendo en la oscuridad."
+    },
+    {
+      "from": "Caparazón verde con espinas",
+      "to": "Caparazón de acero pulido, espinas convertidas en cuchillas afiladas."
+    },
+    {
+      "from": "Sistema de raíces",
+      "to": "Raíces reemplazadas por estructura de acero, absorbiendo energía de impactos."
+    },
+    {
+      "from": "Piel suave",
+      "to": "Piel cubierta por una capa de acero, resistiendo golpes y abrasión."
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "steel"
+}

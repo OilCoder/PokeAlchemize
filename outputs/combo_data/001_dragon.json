@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llame Dragón",
+  "lore": "Bulbasaur, ahora con ojos rojos y destellos blancos, emite un rugido resonante. Su semilla se ha transformado en un cristal de dragón que libera llamas azules al respirar.",
+  "moves": [
+    {
+      "name": "Aliento de Dragón",
+      "desc": "Lanza un aliento de fuego azul que quema y eleva al rival en el aire."
+    },
+    {
+      "name": "Cristal Dragónico",
+      "desc": "Cubre al rival con cristales que absorben ataques y refuerzan su defensa."
+    },
+    {
+      "name": "Rugido de Fuego",
+      "desc": "Emite un rugido que inflama al oponente y aumenta el ataque propio."
+    },
+    {
+      "name": "Semilla de Dragón",
+      "desc": "Lanza una semilla que se convierte en un dragón de fuego al impactar."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "semilla en su espalda",
+      "to": "se transformó en un cristal de dragón que emite llamas azules"
+    },
+    {
+      "from": "ojos verdes",
+      "to": "ahora son rojos con destellos blancos brillantes"
+    },
+    {
+      "from": "sistema de raíces",
+      "to": "se convirtió en un núcleo de energía dragónica"
+    },
+    {
+      "from": "fuerza vegetal",
+      "to": "se reemplazó por un poder de llama dragónica"
+    }
+  ],
+  "pokemon_id": "001",
+  "target_type": "dragon"
+}
