@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra de Llama",
+  "lore": "Su cola en espiral ahora arde con llamas negras, sus alas se oscurecen como noche sin luna. Cada aliento exhala sombras ardientes que consumen la luz. Su mirada fría refleja poder oscuro.",
+  "moves": [
+    {
+      "name": "Ala de Sombras Ardientes",
+      "desc": "Ataca con alas envueltas en llamas negras que queman y absorben la luz al mismo tiempo."
+    },
+    {
+      "name": "Aliento de Oscuridad",
+      "desc": "Exhala una nube de humo negro que ralentiza y envenena al oponente."
+    },
+    {
+      "name": "Cola de Llama Negra",
+      "desc": "Gira la cola en espiral para lanzar llamas oscuras que reducen defensa."
+    },
+    {
+      "name": "Sombra de Fuego",
+      "desc": "Crea una sombra que absorbe ataques y los devuelve con mayor fuerza."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral con llama",
+      "to": "cola en espiral con llamas negras que consumen la luz"
+    },
+    {
+      "from": "alas de fuego",
+      "to": "alas que absorben la luz y emiten sombras"
+    },
+    {
+      "from": "mirada cálida",
+      "to": "mirada fría y oscura que refleja poder oscuro"
+    },
+    {
+      "from": "fuerza de fuego",
+      "to": "fuerza que combina oscuridad y llama para consumir"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "dark"
+}

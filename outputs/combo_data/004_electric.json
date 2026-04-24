@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Llama",
+  "lore": "El Chispa Llama emana chispas eléctricas de su cola de llama, transformando el fuego en una energía brillante y dinámica. Su pelaje resplandece con destellos azules, mezclando el calor del fuego con la potencia eléctrica.",
+  "moves": [
+    {
+      "name": "Chispa Fuego",
+      "desc": "Lanza una descarga eléctrica que también quema al oponente, combinando fuego y electricidad."
+    },
+    {
+      "name": "Relámpago Llama",
+      "desc": "Ataca con un rayo que emite llamas, causando daño eléctrico y quemadura simultáneamente."
+    },
+    {
+      "name": "Carga Luminosa",
+      "desc": "Aumenta la velocidad y genera una luz brillante para confundir al rival."
+    },
+    {
+      "name": "Tormenta Chispeante",
+      "desc": "Crea una tormenta eléctrica que lanza descargas en todas direcciones, afectando a múltiples oponentes."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Llama en la cola",
+      "to": "La llama ahora brilla con chispas azules y genera descargas eléctricas."
+    },
+    {
+      "from": "Fuego de color naranja",
+      "to": "El fuego se transforma en un resplandor azul eléctrico."
+    },
+    {
+      "from": "Estructura ligera",
+      "to": "Adquiere una capa protectora de energía eléctrica que refuerza su resistencia."
+    },
+    {
+      "from": "Movimientos lentos",
+      "to": "Gana velocidad y agilidad gracias a la energía eléctrica en su cuerpo."
+    }
+  ],
+  "pokemon_id": "004",
+  "target_type": "electric"
+}

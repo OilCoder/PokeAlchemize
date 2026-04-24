@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama de Combate",
+  "lore": "Su llama de cola ahora brilla con un fuego de combate, intensificando cada golpe. Sus patas están cubiertas de escamas resistentes, y su mirada refleja determinación feroz.",
+  "moves": [
+    {
+      "name": "Golpe Llama",
+      "desc": "Ataca con un golpe rápido seguido por una explosión de llamas que quema al rival."
+    },
+    {
+      "name": "Patada Feroz",
+      "desc": "Un golpe de pierna poderoso que aumenta el daño con cada impacto."
+    },
+    {
+      "name": "Furia Llama",
+      "desc": "Lanza una ráfaga de llamas mientras ataca con velocidad increíble."
+    },
+    {
+      "name": "Combate Intenso",
+      "desc": "Aumenta la fuerza y la velocidad del atacante en combate."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "flame on tail tip",
+      "to": "llama de cola brillante y de combate, intensificando cada golpe"
+    },
+    {
+      "from": "body",
+      "to": "cubierta de escamas resistentes para soportar impactos"
+    },
+    {
+      "from": "eyes",
+      "to": "mirada reflejando determinación feroz"
+    },
+    {
+      "from": "speed",
+      "to": "aumento de velocidad en combate para ataques rápidos"
+    }
+  ],
+  "pokemon_id": "004",
+  "target_type": "fighting"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Llama",
+  "lore": "Su cola de llama se ha transformado en acero pulido, brillando con reflejos fríos. Las llamas ahora son estables y no arden, pero emiten un calor intenso al tocar metal. Su piel es ahora una armadura ligera y resistente.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Llama Estática",
+      "desc": "Emite una llama fría que genera una carga eléctrica en el campo."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero que bloquea ataques y aumenta la defensa."
+    },
+    {
+      "name": "Impacto Cálido",
+      "desc": "Ataca con un golpe caliente que quema el metal del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Flame on tail tip",
+      "to": "Cambia a una cola de acero pulido que refleja luz fría."
+    },
+    {
+      "from": "Fire-type",
+      "to": "El fuego se convierte en llama estabilizada, no arde."
+    },
+    {
+      "from": "Lightweight skin",
+      "to": "Piel se transforma en armadura ligera y resistente."
+    },
+    {
+      "from": "Hot body",
+      "to": "Calor ahora se transmite al metal, no al aire."
+    }
+  ],
+  "pokemon_id": "004",
+  "target_type": "steel"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama de Ensueño",
+  "lore": "Su cola llameante se ha transformado en una luz etérea, brillando con destellos de polvo de hada. Sus ojos brillan con una calma serena, y su piel ahora emite un suave brillo dorado. El fuego se ha convertido en un aura de magia pura.",
+  "moves": [
+    {
+      "name": "Burbuja de Sueños",
+      "desc": "Lanza burbujas que atrapan al rival en un sueño tranquilo, reduciendo su velocidad."
+    },
+    {
+      "name": "Canto de Hada",
+      "desc": "Canta una melodía que eleva el espíritu y restaura la salud del aliado."
+    },
+    {
+      "name": "Polvo de Estrellas",
+      "desc": "Dispara un polvo brillante que aumenta el ataque y la defensa del usuario."
+    },
+    {
+      "name": "Resplandor de Luna",
+      "desc": "Emite un brillo suave que cura heridas y elimina debilidades."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "llama en la cola",
+      "to": "luz etérea brillante con destellos de polvo de hada"
+    },
+    {
+      "from": "piel roja y escamas",
+      "to": "piel dorada que brilla suavemente"
+    },
+    {
+      "from": "fuego intenso",
+      "to": "aura de magia pura y serena"
+    },
+    {
+      "from": "ataque básico de llamas",
+      "to": "ataque de polvo de hada que cura y fortalece"
+    }
+  ],
+  "pokemon_id": "004",
+  "target_type": "fairy"
+}

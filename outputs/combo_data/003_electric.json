@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Floral",
+  "lore": "Su flor central ahora brilla con energía eléctrica, emitiendo destellos azules. Las hojas de su espalda generan chispas al moverse, y su cuerpo emite un zumbido constante. El tipo eléctrico ha transformado su naturaleza pacífica en una presencia vibrante y dinámica.",
+  "moves": [
+    {
+      "name": "Chispa Flor",
+      "desc": "Dispara chispas de energía floral que afectan a múltiples objetivos en un área amplia."
+    },
+    {
+      "name": "Relámpago Petalo",
+      "desc": "Genera un relámpago que se mueve en espiral alrededor del Pokémon, causando daño eléctrico."
+    },
+    {
+      "name": "Electroflor",
+      "desc": "Cubre al enemigo con una capa de electricidad floral que reduce su velocidad."
+    },
+    {
+      "name": "Bomba Petalo",
+      "desc": "Lanza una explosión de pétalos cargados de electricidad que causa daño adicional."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Flor central de Venusaur",
+      "to": "Brilla con energía eléctrica y emite destellos azules"
+    },
+    {
+      "from": "Hoja de espalda de Venusaur",
+      "to": "Genera chispas al moverse, añadiendo un efecto visual eléctrico"
+    },
+    {
+      "from": "Naturaleza pacífica",
+      "to": "Transformada en una presencia vibrante y dinámica"
+    },
+    {
+      "from": "Efecto venenoso",
+      "to": "Reemplazado por un zumbido constante de energía eléctrica"
+    }
+  ],
+  "pokemon_id": "003",
+  "target_type": "electric"
+}

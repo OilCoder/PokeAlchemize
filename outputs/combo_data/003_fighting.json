@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Lucha Verde",
+  "lore": "Venusaur, ahora con un cuerpo musculoso y una flor de fuego en su espalda, libera ondas de energía combativa. Sus hojas se han vuelto afiladas como cuchillas, y sus ojos brillan con determinación guerrera.",
+  "moves": [
+    {
+      "name": "Golpe de Hoja",
+      "desc": "Un ataque con hojas afiladas que cortan con precisión, causando daño físico."
+    },
+    {
+      "name": "Impacto de Fuego",
+      "desc": "Lanza una bola de fuego que quema y empuja al rival con fuerza."
+    },
+    {
+      "name": "Súper Golpe",
+      "desc": "Un golpe poderoso que aumenta el daño en un 50%."
+    },
+    {
+      "name": "Furia de la Selva",
+      "desc": "Aumenta la velocidad y el ataque temporalmente, mientras emite un rugido intimidante."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Flor en la cabeza",
+      "to": "Flor de fuego que irradia calor y energía."
+    },
+    {
+      "from": "Estructura vegetal suave",
+      "to": "Estructura musculosa con hojas afiladas y duras."
+    },
+    {
+      "from": "Piel verde suave",
+      "to": "Piel verde oscuro con vetas rojas de fuerza."
+    },
+    {
+      "from": "Movimientos lentos",
+      "to": "Movimientos ágiles y rápidos, con gran fuerza."
+    }
+  ],
+  "pokemon_id": "003",
+  "target_type": "fighting"
+}

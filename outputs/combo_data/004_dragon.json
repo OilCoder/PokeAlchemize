@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Dragón Llama",
+  "lore": "Su cola de llama se ha transformado en una cola de dragón escarlata, irradiando un calor que quema el aire. Sus escamas brillan con reflejos dorados, y sus ojos brillan con la fuerza del fuego ancestral.",
+  "moves": [
+    {
+      "name": "Aliento Dragónico",
+      "desc": "Lanza una bocanada de llamas azules que queman con el poder de un dragón antiguo."
+    },
+    {
+      "name": "Escudo Escamas",
+      "desc": "Cubre su cuerpo con escamas resplandecientes que absorben el daño físico."
+    },
+    {
+      "name": "Aliento de Fuego",
+      "desc": "Emite un aliento ardiente que quema la piel y funde metales."
+    },
+    {
+      "name": "Zarpazo Dragón",
+      "desc": "Ataca con garras afiladas que cortan el aire con un rugido de dragón."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Flame on tail tip",
+      "to": "La llama se ha convertido en una cola de dragón escarlata, brillante y poderosa."
+    },
+    {
+      "from": "Fire type",
+      "to": "Adquirió la fuerza y el poder de un dragón, combinando fuego ancestral con fuerza draconica."
+    },
+    {
+      "from": "Small size",
+      "to": "Su tamaño aumentó, con escamas que brillan bajo el sol como un dragón legendario."
+    },
+    {
+      "from": "Weakness to water",
+      "to": "Ahora resiste el agua, ya que su escama absorbe los elementos húmedos."
+    }
+  ],
+  "pokemon_id": "004",
+  "target_type": "dragon"
+}

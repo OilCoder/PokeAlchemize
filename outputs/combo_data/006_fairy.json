@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Flor de Fuego",
+  "lore": "Su cola en espiral ahora brilla con pétalos de cristal, irradiando magia dulce. Las llamas de su lomo se transforman en destellos de luz etérea, mientras sus alas de seda brillan con destinos mágicos.",
+  "moves": [
+    {
+      "name": "Brote de Pétalos",
+      "desc": "Lanza pétalos que curan y debilitan al oponente con cada golpe."
+    },
+    {
+      "name": "Ala de Sueño",
+      "desc": "Cubre al oponente en una nube de sueños, reduciendo su velocidad."
+    },
+    {
+      "name": "Destello de Deseo",
+      "desc": "Genera un destello mágico que aumenta el ataque y la defensa."
+    },
+    {
+      "name": "Canción de Luna",
+      "desc": "Canta una melodía que restaura salud y confunde al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral con llama",
+      "to": "cola en espiral con pétalos de cristal brillantes"
+    },
+    {
+      "from": "llamas en el lomo",
+      "to": "destellos de luz etérea en el lomo"
+    },
+    {
+      "from": "alas de cuero",
+      "to": "alas de seda brillante con destinos mágicos"
+    },
+    {
+      "from": "personalidad intensa",
+      "to": "personalidad tranquila y mágica"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "fairy"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Llama",
+  "lore": "Su cola en espiral ahora brilla con escamas metálicas, irradiando calor de acero fundido. Sus alas, antes de llamas, son láminas cortantes que cortan el aire con precisión.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con garras afiladas de acero, generando un corte limpio en el aire."
+    },
+    {
+      "name": "Llama Fusión",
+      "desc": "Combina el calor del fuego con la dureza del acero para formar una explosión de energía."
+    },
+    {
+      "name": "Escudo Luminoso",
+      "desc": "Crea un escudo brillante de acero que refleja ataques y absorbe energía."
+    },
+    {
+      "name": "Impacto Acero",
+      "desc": "Ataca con un golpe poderoso que desplaza el aire como un martillo de acero."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral con llama",
+      "to": "cola en espiral con escamas metálicas brillantes"
+    },
+    {
+      "from": "alas de fuego",
+      "to": "alas de láminas de acero cortante"
+    },
+    {
+      "from": "piel sensible al calor",
+      "to": "piel recubierta de escamas de acero resistente"
+    },
+    {
+      "from": "movimientos de fuego",
+      "to": "movimientos que combinan fuego y acero"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "steel"
+}

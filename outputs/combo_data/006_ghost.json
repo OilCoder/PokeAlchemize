@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra de Llama",
+  "lore": "El Pokémon Sombra de Llama flota sin ruido, su cola en espiral ahora envuelta en humo etéreo. Sus llamas se han transformado en destellos pálidos, iluminando sombras en lugar de calor. Sus alas translúcidas absorben la luz para crear ilusiones.",
+  "moves": [
+    {
+      "name": "Sombra Flama",
+      "desc": "Lanza una llamarada que se disuelve en humo, confundiendo al objetivo con sombras."
+    },
+    {
+      "name": "Ala de Espectro",
+      "desc": "Cubre al objetivo con alas fantasmales que roban energía vital."
+    },
+    {
+      "name": "Humo Oscuro",
+      "desc": "Crea una nube de humo que reduce la precisión del enemigo."
+    },
+    {
+      "name": "Espejismo Llama",
+      "desc": "Genera múltiples imágenes de sí mismo para confundir al rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral con llama",
+      "to": "cola en espiral envuelta en humo etéreo que ilumina sombras"
+    },
+    {
+      "from": "llamas ardientes",
+      "to": "llamas pálidas que crean ilusiones en lugar de calor"
+    },
+    {
+      "from": "alas de fuego",
+      "to": "alas translúcidas que absorben luz para crear sombras"
+    },
+    {
+      "from": "volador con fuego",
+      "to": "fantasma que flota sin ruido y absorbe energía"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "ghost"
+}

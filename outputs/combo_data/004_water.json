@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Acuática",
+  "lore": "Su cola llama ahora emite un vapor fresco, con escamas azules que brillan bajo el agua. El fuego interior se transforma en un calor suave que calma las aguas. Nadar es su forma natural de expresión.",
+  "moves": [
+    {
+      "name": "Ola Llama",
+      "desc": "Crea olas que emiten chispas calientes, combinando agua y fuego en un ataque sorprendente."
+    },
+    {
+      "name": "Burbuja Fría",
+      "desc": "Lanza burbujas que congelan el aire alrededor, enfriando el ambiente del enemigo."
+    },
+    {
+      "name": "Corriente Húmeda",
+      "desc": "Genera una corriente que arrastra al oponente mientras libera vapor."
+    },
+    {
+      "name": "Resplandor Acuático",
+      "desc": "Ilumina el entorno con un brillo azul que restaura la energía de aliados."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "llama en la cola",
+      "to": "se convierte en vapor azul que brilla en la oscuridad"
+    },
+    {
+      "from": "piel roja",
+      "to": "adquiere escamas azules que brillan bajo el agua"
+    },
+    {
+      "from": "movimiento rápido",
+      "to": "nada con fluidez, usando el agua para acelerar"
+    },
+    {
+      "from": "fuego intenso",
+      "to": "calor suave que calma las aguas circundantes"
+    }
+  ],
+  "pokemon_id": "004",
+  "target_type": "water"
+}

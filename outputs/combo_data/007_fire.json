@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Este Squirtle, ahora rodeado de llamas, tiene un caparazón que emite destellos rojos. Sus ojos brillan con fuego y sus orejas puntiagudas despiden chispas al moverse.",
+  "moves": [
+    {
+      "name": "Llama de Mar",
+      "desc": "Lanza una llamarada que se mezcla con el agua, creando vapor explosivo en el aire."
+    },
+    {
+      "name": "Chispa Acuática",
+      "desc": "Genera chispas que saltan sobre el agua, causando cortocircuitos en el enemigo."
+    },
+    {
+      "name": "Ola de Fuego",
+      "desc": "Crea una ola de agua hirviendo que quema al rival al impactar."
+    },
+    {
+      "name": "Resplandor Ígneo",
+      "desc": "Ilumina el campo con un resplandor que aumenta el poder de los ataques de fuego."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "caparazón de agua",
+      "to": "caparazón que emite llamas rojas"
+    },
+    {
+      "from": "ojos oscuros",
+      "to": "ojos brillantes como brasas"
+    },
+    {
+      "from": "orejas redondas",
+      "to": "orejas que despiden chispas"
+    },
+    {
+      "from": "movimientos acuáticos",
+      "to": "ataques que combinan agua y fuego"
+    }
+  ],
+  "pokemon_id": "007",
+  "target_type": "fire"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Flor",
+  "lore": "Sombra Flor emana un aura etérea que hace que su flor central se vuelva translúcida. Sus pétalos brillan con un resplandor plateado, y su cuerpo se vuelve casi invisible en la oscuridad.",
+  "moves": [
+    {
+      "name": "Sombra Flor",
+      "desc": "Lanza una flor que absorbe la luz, reduciendo la defensa del rival."
+    },
+    {
+      "name": "Espectro de Hojas",
+      "desc": "Crea hojas etéreas que atraviesan a los enemigos sin tocarlos."
+    },
+    {
+      "name": "Resplandor de Sombra",
+      "desc": "Ilumina el campo con un brillo plateado que cura a aliados."
+    },
+    {
+      "name": "Flor Fantasma",
+      "desc": "Invoca una flor que aparece y desaparece para confundir al rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "flor central",
+      "to": "se vuelve translúcida y brilla con resplandor plateado"
+    },
+    {
+      "from": "color verde oscuro",
+      "to": "adquiere tonos plateados y pálidos en la piel"
+    },
+    {
+      "from": "movimientos de hierba",
+      "to": "se transforman en ataques espirituales que atraviesan la materia"
+    },
+    {
+      "from": "vulnerabilidad a veneno",
+      "to": "desaparece, reemplazada por resistencia a ataques fantasmales"
+    }
+  ],
+  "pokemon_id": "003",
+  "target_type": "ghost"
+}

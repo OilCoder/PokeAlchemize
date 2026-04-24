@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Escudo Acero",
+  "lore": "Con su caparazón de acero pulido, Escudo Acero camina con firmeza. Sus orejas puntiagudas brillan bajo el sol, y su mirada refleja la resistencia del metal. El agua en su interior se solidifica en un núcleo frío.",
+  "moves": [
+    {
+      "name": "Escudo Acero",
+      "desc": "Crea una barrera de acero que absorbe ataques físicos y reduce el daño recibido."
+    },
+    {
+      "name": "Chorro Frío",
+      "desc": "Dispara un chorro de agua congelada que ralentiza al oponente y reduce su velocidad."
+    },
+    {
+      "name": "Martillo de Acero",
+      "desc": "Ataca con un martillo de acero que causa daño y baja la defensa del rival."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido metálico que debilitan los ataques especiales del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "caparazón de acero pulido que refleja la luz"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas brillantes que resuenan como metal"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel endurecida con escamas de acero"
+    },
+    {
+      "from": "agilidad",
+      "to": "movimientos pesados pero resistentes"
+    }
+  ],
+  "pokemon_id": "007",
+  "target_type": "steel"
+}

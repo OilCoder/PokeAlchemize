@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Oceánico Llama",
+  "lore": "Este Charizard transformado en agua tiene una cola espiral que gotea cristales de hielo, sus alas emiten vapor frío y su cuerpo brilla con reflejos azules bajo el agua.",
+  "moves": [
+    {
+      "name": "Ola de Hielo",
+      "desc": "Lanza una ola congelante que ralentiza al enemigo y deja un rastro de hielo en el campo."
+    },
+    {
+      "name": "Chorro Submarino",
+      "desc": "Dispara un chorro de agua a alta presión que empuja al rival hacia atrás."
+    },
+    {
+      "name": "Nube de Vapor",
+      "desc": "Crea una densa nube de vapor que oculta al Pokémon y reduce el daño recibido."
+    },
+    {
+      "name": "Tormenta Acuática",
+      "desc": "Genera una tormenta de agua que causa daño continuo y reduce la precisión del enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiral con llama",
+      "to": "cola espiral con cristales de hielo que gotea"
+    },
+    {
+      "from": "alas de fuego",
+      "to": "alas que emiten vapor frío"
+    },
+    {
+      "from": "piel roja brillante",
+      "to": "piel azul brillante con reflejos"
+    },
+    {
+      "from": "respiración de llamas",
+      "to": "respiración de vapor frío"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "water"
+}

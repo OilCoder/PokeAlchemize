@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Escudo Dragón",
+  "lore": "Con una cabeza redondeada y orejas puntiagudas, su caparazón se ha transformado en escamas doradas resplandecientes. Sus ojos brillan con la fuerza del dragón, y sus patas ahora tienen garras afiladas para dominar el aire.",
+  "moves": [
+    {
+      "name": "Ala de Escudo",
+      "desc": "Cubre al usuario con un escudo de escamas que bloquea ataques físicos y mágicos."
+    },
+    {
+      "name": "Respirar Dragón",
+      "desc": "Lanza una bocanada de fuego dorado que quema al oponente y eleva su ataque."
+    },
+    {
+      "name": "Cascada Escama",
+      "desc": "Genera una corriente de agua que se convierte en escamas afiladas para atacar."
+    },
+    {
+      "name": "Aliento Dragón",
+      "desc": "Emite un aliento poderoso que paraliza al rival y aumenta la velocidad del usuario."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza con escamas doradas y orejas puntiagudas"
+    },
+    {
+      "from": "caparazón suave",
+      "to": "caparazón transformado en escamas resplandecientes"
+    },
+    {
+      "from": "patas pequeñas",
+      "to": "patas con garras afiladas para dominar el aire"
+    },
+    {
+      "from": "ojos normales",
+      "to": "ojos brillantes con fuerza del dragón"
+    }
+  ],
+  "pokemon_id": "007",
+  "target_type": "dragon"
+}

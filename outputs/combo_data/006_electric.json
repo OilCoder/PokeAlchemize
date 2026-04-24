@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Voladora",
+  "lore": "Chispa Voladora emana una energía eléctrica que hace brillar su cola en espiral. Sus escamas rojas ahora brillan con destellos azules, y su ala izquierda genera relámpagos al volar.",
+  "moves": [
+    {
+      "name": "Relámpago de Fuego",
+      "desc": "Ataca con un rayo eléctrico que también quema al oponente, combinando fuego y electricidad."
+    },
+    {
+      "name": "Ala Electrificada",
+      "desc": "Genera una ráfaga de energía eléctrica que eleva al usuario y ataca al rival con descargas."
+    },
+    {
+      "name": "Carga Espectral",
+      "desc": "Absorbe energía eléctrica del ambiente para aumentar su velocidad y atacar con fuerza."
+    },
+    {
+      "name": "Tormenta de Chispas",
+      "desc": "Lanza una tormenta de chispas que daña a todos los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral con llama",
+      "to": "cola en espiral con destellos eléctricos brillantes"
+    },
+    {
+      "from": "escamas rojas",
+      "to": "escamas rojas con destellos azules"
+    },
+    {
+      "from": "alas de fuego",
+      "to": "alas que generan relámpagos al volar"
+    },
+    {
+      "from": "fuerza explosiva",
+      "to": "fuerza eléctrica controlada y precisa"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "electric"
+}

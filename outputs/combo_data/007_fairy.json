@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Squirtle, ahora transformado en un Pokémon de tipo hada, tiene una cabeza redonda con orejas puntiagudas brillantes. Su caparazón suave y luminoso emite un resplandor mágico que atrae a otros Pokémon.",
+  "moves": [
+    {
+      "name": "Burbuja Mágica",
+      "desc": "Lanza burbujas brillantes que confunden al rival con su brillo mágico."
+    },
+    {
+      "name": "Canto de Hada",
+      "desc": "Canta una melodía que reduce la defensa del oponente con su voz encantadora."
+    },
+    {
+      "name": "Pétalos de Luz",
+      "desc": "Dispara pétalos brillantes que curan a aliados y dañan a enemigos."
+    },
+    {
+      "name": "Cura Encantada",
+      "desc": "Usa un hechizo de curación que restaura salud y elimina malos estados."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redonda",
+      "to": "Cabeza redonda con brillo mágico y orejas brillantes."
+    },
+    {
+      "from": "Caparazón duro",
+      "to": "Caparazón suave y luminoso que emite resplandor."
+    },
+    {
+      "from": "Ataques de agua",
+      "to": "Ataques mágicos que usan burbujas y pétalos brillantes."
+    },
+    {
+      "from": "Personalidad tranquila",
+      "to": "Personalidad más juguetona y encantadora con magia."
+    }
+  ],
+  "pokemon_id": "007",
+  "target_type": "fairy"
+}

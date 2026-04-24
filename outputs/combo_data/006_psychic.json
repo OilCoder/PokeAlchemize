@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Psicofuego",
+  "lore": "Psicofuego emana ondas mentales que controlan llamas. Su cola en espiral ahora brilla con destellos psíquicos, y sus alas reflejan hologramas de pensamientos.",
+  "moves": [
+    {
+      "name": "Llama Mental",
+      "desc": "Lanza llamas que se adaptan a la mente del oponente, causando confusión."
+    },
+    {
+      "name": "Ala Psíquica",
+      "desc": "Crea una barrera de energía psíquica que refleja ataques físicos."
+    },
+    {
+      "name": "Mente Flama",
+      "desc": "Aumenta el poder de los ataques fuego mientras lee los pensamientos del rival."
+    },
+    {
+      "name": "Vuelo Sincronizado",
+      "desc": "Usa su velocidad para crear ilusiones mentales que confunden al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral con llama",
+      "to": "cola en espiral con destellos psíquicos que controlan llamas"
+    },
+    {
+      "from": "alas de fuego",
+      "to": "alas que reflejan hologramas de pensamientos"
+    },
+    {
+      "from": "mente impulsiva",
+      "to": "mente enfocada en lectura mental y control psíquico"
+    },
+    {
+      "from": "ataques físicos",
+      "to": "ataques mentales que combinan fuego y psiquis"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "psychic"
+}

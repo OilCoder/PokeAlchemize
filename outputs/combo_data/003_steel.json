@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Flor",
+  "lore": "Venusaur ahora lleva una coraza de acero pulido sobre su flor central, que brilla con reflejos metálicos. Sus hojas se han endurecido en láminas afiladas, y su respiración emite un sonido resonante de metal.",
+  "moves": [
+    {
+      "name": "Corte de Acero",
+      "desc": "Corta con hojas afiladas de acero, causando daño y reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Flor Metálica",
+      "desc": "Cubre al oponente con pétalos de acero que infligen daño y debilitan su velocidad."
+    },
+    {
+      "name": "Resonancia Ferrea",
+      "desc": "Genera ondas de sonido metálico que reducen la precisión del rival."
+    },
+    {
+      "name": "Bomba de Hierro",
+      "desc": "Lanza un proyectil de acero que causa daño y posiblemente quema al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Flor central de Venusaur",
+      "to": "Coraza de acero pulido con reflejos metálicos"
+    },
+    {
+      "from": "Hoja verde suave",
+      "to": "Láminas de acero afiladas y duras"
+    },
+    {
+      "from": "Respiración tranquila",
+      "to": "Respiración que emite sonido resonante de metal"
+    },
+    {
+      "from": "Estructura flexible",
+      "to": "Estructura rígida y resistente al impacto"
+    }
+  ],
+  "pokemon_id": "003",
+  "target_type": "steel"
+}

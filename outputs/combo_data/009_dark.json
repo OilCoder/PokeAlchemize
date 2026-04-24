@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Acuática",
+  "lore": "Blastoise ahora es un guerrero oscuro con escamas negras brillantes y ojos rojos. Sus cañones de agua se transforman en proyectiles de sombra que absorben la luz alrededor. Su presencia genera un aura de misterio y peligro.",
+  "moves": [
+    {
+      "name": "Proyectil Sombra",
+      "desc": "Lanza un proyectil negro que reduce la velocidad del oponente y absorbe luz."
+    },
+    {
+      "name": "Ola Oscura",
+      "desc": "Crea una ola de sombras que reduce la defensa y causa daño oscuro."
+    },
+    {
+      "name": "Barrera de Tinta",
+      "desc": "Crea una barrera de tinta que bloquea ataques y reduce el daño recibido."
+    },
+    {
+      "name": "Sombra Profunda",
+      "desc": "Invoca una sombra profunda que confunde al oponente y reduce su precisión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redondeada con orejas puntiagudas",
+      "to": "Cabeza redondeada con orejas puntiagudas cubiertas de escamas negras brillantes"
+    },
+    {
+      "from": "Cañones de agua en la espalda",
+      "to": "Cañones de agua transformados en proyectiles de sombra que absorben la luz"
+    },
+    {
+      "from": "Color azul claro",
+      "to": "Color negro brillante con destellos rojos en los ojos"
+    },
+    {
+      "from": "Apariencia tranquila",
+      "to": "Presencia oscura que genera un aura de misterio y peligro"
+    }
+  ],
+  "pokemon_id": "009",
+  "target_type": "dark"
+}

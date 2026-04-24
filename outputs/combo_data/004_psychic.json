@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Psíquica",
+  "lore": "Su cola de llama ahora irradia ondas psíquicas, iluminando el aire con destellos plateados. Su mirada hipnótica y cuerpo envuelto en aura mental lo hacen un maestro de la mente.",
+  "moves": [
+    {
+      "name": "Llama Mental",
+      "desc": "Inyecta energía psíquica en la llama, causando confusión en el oponente."
+    },
+    {
+      "name": "Psicocauda",
+      "desc": "Gira la cola psíquica para lanzar ondas de fuerza mental."
+    },
+    {
+      "name": "Fuego Mental",
+      "desc": "Lanza llamas que emiten ondas psíquicas, debilitando la mente del rival."
+    },
+    {
+      "name": "Aura Psíquica",
+      "desc": "Crea una barrera de energía psíquica que refleja ataques."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "flame on tail tip",
+      "to": "irradiates psychic waves with silver sparks"
+    },
+    {
+      "from": "fire-type aura",
+      "to": "replaced with a mental aura that hypnotizes opponents"
+    },
+    {
+      "from": "agile movements",
+      "to": "now moves with precise, telekinetic grace"
+    },
+    {
+      "from": "intense fire",
+      "to": "transformed into calming psychic energy"
+    }
+  ],
+  "pokemon_id": "004",
+  "target_type": "psychic"
+}

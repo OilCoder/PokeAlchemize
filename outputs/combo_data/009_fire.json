@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Blastoise, ahora envuelto en llamas, tiene un casco de agua vaporizada que brilla con reflejos rojos. Sus brazos lanzan chispas, y sus ojos brillan con intensidad ardiente mientras sus conchas emiten calor intenso.",
+  "moves": [
+    {
+      "name": "Llamarada Hidro",
+      "desc": "Lanza una explosión de vapor y llamas que quema y desorienta al oponente."
+    },
+    {
+      "name": "Chorro de Fuego",
+      "desc": "Dispara un chorro de llama a alta presión que quema y daña a distancia."
+    },
+    {
+      "name": "Cascada Incendiaria",
+      "desc": "Crea una cascada de agua hirviendo que causa quemaduras y aturde."
+    },
+    {
+      "name": "Bomba de Vapor",
+      "desc": "Genera una explosión de vapor ardiente que daña y reduce la defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Casco de agua",
+      "to": "Casco de vapor hirviendo que brilla con reflejos rojos"
+    },
+    {
+      "from": "Brazos con cañones",
+      "to": "Brazos que lanzan chispas y llamas alrededor"
+    },
+    {
+      "from": "Ojos azules",
+      "to": "Ojos que brillan con intensidad ardiente"
+    },
+    {
+      "from": "Conchas estables",
+      "to": "Conchas que emiten calor intenso"
+    }
+  ],
+  "pokemon_id": "009",
+  "target_type": "fire"
+}

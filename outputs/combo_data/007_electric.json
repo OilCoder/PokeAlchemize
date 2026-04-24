@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Acuática",
+  "lore": "Con su cabeza redonda y orejas puntiagudas cargadas de electricidad, Chispa Acuática emite destellos azules al moverse. Sus escamas reflejan el poder de las olas eléctricas, transformando el agua en un campo de energía vital.",
+  "moves": [
+    {
+      "name": "Chispa Oceánica",
+      "desc": "Dispara un rayo eléctrico que se disuelve en olas, causando daño y paralización."
+    },
+    {
+      "name": "Burbuja Relámpago",
+      "desc": "Crea burbujas cargadas que explotan con descargas eléctricas al impactar."
+    },
+    {
+      "name": "Corriente Marítima",
+      "desc": "Genera una corriente eléctrica que eleva al Pokémon y ataca al enemigo."
+    },
+    {
+      "name": "Electrochorro",
+      "desc": "Lanza un chorro de agua cargado de electricidad que reduce la defensa del rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redonda",
+      "to": "Cabeza redonda con crestas eléctricas que brillan al moverse."
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas puntiagudas con terminales eléctricas que emiten chispas."
+    },
+    {
+      "from": "Escamas suaves",
+      "to": "Escamas reflectantes que absorben y liberan energía eléctrica."
+    },
+    {
+      "from": "Agua como defensa",
+      "to": "Agua convertida en corriente eléctrica que ataca y protege."
+    }
+  ],
+  "pokemon_id": "007",
+  "target_type": "electric"
+}

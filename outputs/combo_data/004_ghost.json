@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Llama",
+  "lore": "Su cola llama ahora brilla con una luz pálida y etérea. Su cuerpo translúcido emite un calor frío, y sus ojos brillan con una energía sobrenatural. El fuego se ha convertido en una presencia espectral.",
+  "moves": [
+    {
+      "name": "Sombra Llama",
+      "desc": "Lanza una llama que se disuelve en sombras, causando daño y confusión."
+    },
+    {
+      "name": "Espectro Fuego",
+      "desc": "Crea una imagen fantasmal que ataca con llamas invisibles."
+    },
+    {
+      "name": "Alma Ardiente",
+      "desc": "Aumenta el ataque y la velocidad, pero consume vida."
+    },
+    {
+      "name": "Fuego Fantasmal",
+      "desc": "Ataca con llamas que atraviesan la defensa del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "flame on tail tip",
+      "to": "translúcido y brillante con luz pálida"
+    },
+    {
+      "from": "body",
+      "to": "cuerpo translúcido con brillo tenue"
+    },
+    {
+      "from": "heat",
+      "to": "calor frío y energía sobrenatural"
+    },
+    {
+      "from": "eyes",
+      "to": "brillan con energía espectral"
+    }
+  ],
+  "pokemon_id": "004",
+  "target_type": "ghost"
+}

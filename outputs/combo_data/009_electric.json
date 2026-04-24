@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Rayo Marina",
+  "lore": "Blastoise ahora lleva corrientes eléctricas en sus cáscaras, sus orejas puntiagudas brillan con chispas. Su agua se electrifica al contacto, generando ondas de energía que envuelven el campo de batalla.",
+  "moves": [
+    {
+      "name": "Descarga Acuática",
+      "desc": "Lanza olas cargadas de electricidad que dañan y paralizan al oponente."
+    },
+    {
+      "name": "Chispa Marina",
+      "desc": "Crea una explosión de chispas eléctricas alrededor del cuerpo, aumentando el ataque."
+    },
+    {
+      "name": "Torbellino Eléctrico",
+      "desc": "Genera un torbellino de agua y electricidad que eleva al oponente y reduce su defensa."
+    },
+    {
+      "name": "Relámpago Oceánico",
+      "desc": "Ataca con un rayo de agua ionizada que causa daño masivo y ceguera temporal."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cáscara de agua",
+      "to": "Cáscara recubierta de corrientes eléctricas que brillan en la oscuridad"
+    },
+    {
+      "from": "Orejas redondeadas",
+      "to": "Orejas puntiagudas que emiten chispas al moverse"
+    },
+    {
+      "from": "Agua en la cola",
+      "to": "Cola que genera chispas eléctricas en lugar de agua"
+    },
+    {
+      "from": "Movilidad acuática",
+      "to": "Movimiento rápido con saltos eléctricos que dejan rastros brillantes"
+    }
+  ],
+  "pokemon_id": "009",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Psiqui Llama",
+  "lore": "Psiqui Llama emana ondas mentales desde su cabeza redonda, sus orejas puntiagudas brillan con energía psíquica. Su caparazón acuático ahora resplandece con destellos mentales, controlando el agua con pensamientos.",
+  "moves": [
+    {
+      "name": "Mente Ondulante",
+      "desc": "Genera ondas psíquicas que desplazan el agua en círculos alrededor del Pokémon."
+    },
+    {
+      "name": "Luz Mental",
+      "desc": "Ilumina el campo de batalla con destellos psíquicos, cegando a los oponentes."
+    },
+    {
+      "name": "Control Acuático",
+      "desc": "Dirige chorros de agua con precisión mental, atacando con fuerza controlada."
+    },
+    {
+      "name": "Psiqui Llama",
+      "desc": "Lanza llamas mentales que queman el agua, creando vapor que enmascara el movimiento."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redonda",
+      "to": "Cabeza redonda con destellos psíquicos que emanan energía mental"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas puntiagudas brillantes que reflejan ondas psíquicas"
+    },
+    {
+      "from": "Caparazón acuático",
+      "to": "Caparazón que resplandece con destellos mentales, controlando el agua"
+    },
+    {
+      "from": "Agua en su interior",
+      "to": "Agua interna ahora manipulada por pensamientos psíquicos"
+    }
+  ],
+  "pokemon_id": "007",
+  "target_type": "psychic"
+}

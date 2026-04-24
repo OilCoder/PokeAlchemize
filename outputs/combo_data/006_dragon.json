@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Dragón Llama",
+  "lore": "El Dragón Llama despliega alas de escamas doradas que arden con fuego sagrado. Su cola en espiral emana llamas azules que reflejan la fuerza del dragón. Sus ojos brillan con poder ancestral.",
+  "moves": [
+    {
+      "name": "Ala de Dragón Ardiente",
+      "desc": "Ataca con alas incandescentes que queman el campo de batalla."
+    },
+    {
+      "name": "Llama Sagrada",
+      "desc": "Lanza una llamarada que purifica el enemigo con fuego divino."
+    },
+    {
+      "name": "Respiración de Escamas",
+      "desc": "Exhala un aliento de escamas que endurece el suelo y crea barreras."
+    },
+    {
+      "name": "Ala de Fuego Dragón",
+      "desc": "Con un giro, lanza un viento ardiente que eleva y quema al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral con llama",
+      "to": "cola en espiral con llamas azules que reflejan el poder del dragón"
+    },
+    {
+      "from": "alas de fuego",
+      "to": "alas de escamas doradas que arden con fuego sagrado"
+    },
+    {
+      "from": "ojos rojos",
+      "to": "ojos brillantes con poder ancestral"
+    },
+    {
+      "from": "vuelo ligero",
+      "to": "vuelo majestuoso con alas de dragón que generan llamas en el aire"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "dragon"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Acuática",
+  "lore": "Squirtle ahora emana un aura espectral, sus ojos brillan con luz azulada. Su caparazón refleja sombras, y sus orejas puntiagudas absorben el frío de los espíritus. Camina sin ruido, dejando huellas de niebla.",
+  "moves": [
+    {
+      "name": "Sombra de Mar",
+      "desc": "Crea una sombra que confunde al enemigo, reduciendo su precisión en un 30%."
+    },
+    {
+      "name": "Ola Espectral",
+      "desc": "Lanza olas que atrapan al oponente en un aura fantasmal, causando daño psíquico."
+    },
+    {
+      "name": "Respiración de Espectro",
+      "desc": "Inhala aire frío para lanzar una ráfaga de viento helado que quema el alma."
+    },
+    {
+      "name": "Caparazón Fantasma",
+      "desc": "Protege al Pokémon con una barrera de sombras que absorbe el daño."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "caparazón duro y resistente",
+      "to": "caparazón translúcido que refleja sombras"
+    },
+    {
+      "from": "ojos pequeños y redondos",
+      "to": "ojos brillantes y azulados que emiten luz espectral"
+    },
+    {
+      "from": "orejas redondeadas",
+      "to": "orejas puntiagudas que absorben el frío"
+    },
+    {
+      "from": "movimientos acuáticos básicos",
+      "to": "movimientos que combinan agua y espiritualidad"
+    }
+  ],
+  "pokemon_id": "007",
+  "target_type": "ghost"
+}

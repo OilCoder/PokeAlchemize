@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Lucha Flama",
+  "lore": "Con una cola en espiral envuelta en llamas que ahora brilla con intensidad combativa, su pelaje dorado se ha vuelto más rígido y agresivo. Sus alas, antes ágiles, ahora llevan marcas de lucha en sus bordes.",
+  "moves": [
+    {
+      "name": "Golpe de Fuego",
+      "desc": "Ataca con un puñetazo que envuelve el brazo en llamas, causando daño y posiblemente quemadura."
+    },
+    {
+      "name": "Alero de Combate",
+      "desc": "Aumenta la velocidad y el poder de los ataques de lucha, mientras las alas generan un viento cortante."
+    },
+    {
+      "name": "Llamarada de Fuerza",
+      "desc": "Lanza una ráfaga de llamas concentradas que incrementa el daño de los ataques físicos."
+    },
+    {
+      "name": "Corte de Llama",
+      "desc": "Realiza un corte rápido con las garras, envuelto en fuego, que puede causar quema."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral con llama",
+      "to": "cola en espiral con llama brillante y más rígida, marcada por cicatrices de combate"
+    },
+    {
+      "from": "plumas doradas en alas",
+      "to": "plumas doradas en alas con marcas de combate y bordes afilados"
+    },
+    {
+      "from": "vuelo ágil",
+      "to": "vuelo más agresivo y directo, con giros en combate"
+    },
+    {
+      "from": "fuerza física moderada",
+      "to": "fuerza física aumentada con un aura de combate visible"
+    }
+  ],
+  "pokemon_id": "006",
+  "target_type": "fighting"
+}
