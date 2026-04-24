@@ -1,125 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PokeAlchemize</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>PokéAIchemize · TypeDex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="app">
+    <!-- Logo -->
+    <div class="logo-area">
+      <div class="logo-ball"></div>
+      <div>
+        <div class="logo-text">POKE<span class="dot">·</span>AI</div>
+        <div class="logo-sub">TYPEDEX</div>
+      </div>
+    </div>
 
-  <!-- Header -->
-  <header class="header">
-    <span class="logo">PokeAlchemize</span>
-  </header>
-
-  <!-- Main content -->
-  <main class="main">
-
-    <!-- Left: Fusion area -->
-    <section class="fusion-panel">
-
-      <!-- Type filter tabs -->
-      <div class="type-filters">
-        <button class="filter-btn active" data-type="water">
-          <span class="filter-dot agua"></span>Agua
-        </button>
-        <button class="filter-btn" data-type="fire">
-          <span class="filter-dot fuego"></span>Fuego
-        </button>
-        <button class="filter-btn" data-type="ground">
-          <span class="filter-dot tierra"></span>Tierra
-        </button>
-        <button class="filter-btn" data-type="flying">
-          <span class="filter-dot aire"></span>Aire
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="active">POKÉDEX</a>
+        <a href="#">GALERÍA</a>
+        <a href="#">TIPOS</a>
+        <a href="#">ACERCA DE</a>
+      </nav>
+      <div class="header-right">
+        <div class="search">
+          <input id="search-input" type="text" placeholder="Buscar Pokémon o Nº…" />
+          <span class="search-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </span>
+        </div>
+        <button id="theme-btn" class="theme-btn" title="Tema">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
       </div>
+    </header>
 
-      <!-- Pokéballs + Plus -->
-      <div class="pokeballs-row">
-
-        <!-- Slot 1 -->
-        <div class="pokeball-slot" id="slot1" title="Selecciona un Pokémon">
-          <div class="outer-ring">
-            <svg class="pokeball-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
-              <circle cx="110" cy="110" r="109" fill="#231f20"/>
-              <path d="M 1 110 A 109 109 0 0 1 219 110 Z" fill="#f13e2d"/>
-              <path d="M 1 110 A 109 109 0 0 0 219 110 Z" fill="#a09d9d"/>
-              <path d="M 28 158 Q 110 208 192 158 L 219 110 A 109 109 0 0 0 1 110 Z" fill="#58585a"/>
-              <ellipse cx="77" cy="66" rx="21" ry="13" fill="rgba(254,254,254,0.42)" transform="rotate(-20,77,66)"/>
-              <rect x="1" y="104" width="218" height="12" fill="#231f20"/>
-              <circle cx="110" cy="110" r="26" fill="#231f20"/>
-              <circle cx="110" cy="110" r="23" fill="#fefefe"/>
-              <circle cx="110" cy="110" r="17" fill="#231f20"/>
-              <circle cx="110" cy="110" r="14" fill="#fefefe"/>
-            </svg>
-            <img class="slot-pokemon" id="slotImg1" src="" alt="" style="display:none">
-          </div>
-        </div>
-
-        <!-- Plus icon -->
-        <div class="plus-icon">
-          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-            <line x1="18" y1="3" x2="18" y2="33" stroke="#3e323e" stroke-width="3.5" stroke-linecap="round"/>
-            <line x1="3" y1="18" x2="33" y2="18" stroke="#3e323e" stroke-width="3.5" stroke-linecap="round"/>
-          </svg>
-        </div>
-
-        <!-- Slot 2 -->
-        <div class="pokeball-slot" id="slot2" title="Selecciona un Pokémon">
-          <div class="outer-ring">
-            <svg class="pokeball-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
-              <circle cx="110" cy="110" r="109" fill="#231f20"/>
-              <path d="M 1 110 A 109 109 0 0 1 219 110 Z" fill="#f13e2d"/>
-              <path d="M 1 110 A 109 109 0 0 0 219 110 Z" fill="#a09d9d"/>
-              <path d="M 28 158 Q 110 208 192 158 L 219 110 A 109 109 0 0 0 1 110 Z" fill="#58585a"/>
-              <ellipse cx="77" cy="66" rx="21" ry="13" fill="rgba(254,254,254,0.42)" transform="rotate(-20,77,66)"/>
-              <rect x="1" y="104" width="218" height="12" fill="#231f20"/>
-              <circle cx="110" cy="110" r="26" fill="#231f20"/>
-              <circle cx="110" cy="110" r="23" fill="#fefefe"/>
-              <circle cx="110" cy="110" r="17" fill="#231f20"/>
-              <circle cx="110" cy="110" r="14" fill="#fefefe"/>
-            </svg>
-            <img class="slot-pokemon" id="slotImg2" src="" alt="" style="display:none">
-          </div>
-        </div>
-
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="filter-wrap">
+        <button id="filter-btn" class="filter-btn">
+          <span class="filter-label">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+            <span id="filter-label-text">TIPO: TODOS</span>
+          </span>
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div id="filter-dropdown" class="filter-dropdown"></div>
       </div>
-
-      <!-- Fusionar button -->
-      <button class="fusionar-btn" id="fusionar-btn">Fusionar</button>
-
-    </section>
-
-    <!-- Right: Pokemon panel -->
-    <aside class="pokemon-panel">
-      <div class="search-bar">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3e323e" stroke-width="2.5" stroke-linecap="round">
-          <circle cx="11" cy="11" r="8"/>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-        </svg>
-        <input type="text" id="search-input" placeholder="Search" autocomplete="off">
-      </div>
-
-      <div class="pokemon-list" id="pokemon-list">
-        <div class="loading-state" id="loading">
-          <div class="spinner"></div>
-          <span>Cargando Pokémon…</span>
-        </div>
-      </div>
+      <div id="poke-list" class="poke-list"></div>
+      <button class="footer-btn" title="Ver favoritos">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        FAVORITOS
+      </button>
     </aside>
 
-  </main>
+    <!-- Main content -->
+    <main id="main" class="main"></main>
 
-  <!-- Fusion result modal -->
-  <div class="modal-overlay" id="modal" style="display:none">
-    <div class="modal">
-      <button class="modal-close" id="modal-close">✕</button>
-      <h2 class="modal-title">¡Fusión Exitosa!</h2>
-      <div class="modal-content" id="modal-content"></div>
-    </div>
+    <!-- Right panel -->
+    <aside id="rightbar" class="rightbar"></aside>
   </div>
 
-  <script src="app.js"></script>
+  <script src="js/type-system.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
