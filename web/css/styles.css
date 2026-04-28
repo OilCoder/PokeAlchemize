@@ -298,6 +298,14 @@ img { display: block; max-width: 100%; }
 }
 .type-chip .type-ico { font-size: 9px; }
 
+/* Custom SVG type icons — aligned baseline */
+.type-icon-svg { display: inline-block; vertical-align: -1px; flex: none; filter: drop-shadow(0 0 2px rgba(0,0,0,.35)); }
+.type-chip .type-icon-svg { width: 11px; height: 11px; }
+.type-chip.big .type-icon-svg { width: 13px; height: 13px; vertical-align: -2px; }
+.move-name .type-icon-svg { width: 12px; height: 12px; margin-right: 2px; }
+.element-icon .type-icon-svg { width: 22px; height: 22px; }
+.concept-icon .type-icon-svg { width: 24px; height: 24px; }
+
 .footer-btn {
   margin: 0 14px 14px;
   padding: 12px;
