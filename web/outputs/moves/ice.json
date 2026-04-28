@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Hielo.",
+  "moves": [
+    {
+      "name": "ALIENTO POLAR",
+      "desc": "Una exhalación cristaliza el aire formando una ventisca congelante devastadora."
+    },
+    {
+      "name": "ESTALACTITA CAÍDA",
+      "desc": "Picos de hielo precipitan desde lo alto empalando a los enemigos bajo ellos."
+    },
+    {
+      "name": "ARMADURA GÉLIDA",
+      "desc": "Una capa cristalina recubre el cuerpo reduciendo el daño recibido de ataques físicos."
+    },
+    {
+      "name": "CERCO CONGELANTE",
+      "desc": "El suelo se vuelve escarcha traicionera bajo los pies enemigos, dificultando cualquier desplazamiento."
+    }
+  ]
+}

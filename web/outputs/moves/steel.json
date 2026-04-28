@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Acero.",
+  "moves": [
+    {
+      "name": "ARIETE DE ACERO",
+      "desc": "Embiste con la dureza de una aleación industrial, perforando defensas rocosas."
+    },
+    {
+      "name": "PLACA REFLECTORA",
+      "desc": "Devuelve parte del daño recibido al atacante a través de una superficie pulida."
+    },
+    {
+      "name": "ENGRANAJE ROTATIVO",
+      "desc": "Una rueda dentada impulsa cada golpe con precisión mecánica implacable."
+    },
+    {
+      "name": "RAYO MAGNÉTICO",
+      "desc": "Atrae y repele objetos metálicos a voluntad, controlando el campo de batalla."
+    }
+  ]
+}

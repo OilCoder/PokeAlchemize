@@ -103,8 +103,8 @@ PokeAIchemize/
 - [x] `config.py`: migrar FLUX → Z-Image-Turbo (ZIMAGE_MODEL, IMAGE_SIZE=1024, IMAGE_STEPS=12, ZIMAGE_GUIDANCE=0.0) (2026-04-22)
 - [x] `data/types.json`: añadir campos palette, skin_material, accent, seed para los 18 tipos (2026-04-22)
 - [x] `pipeline/09_image_generator.py`: migrar FluxPipeline → ZImagePipeline; prompts inline desde types.json + pokemons.json; seed por tipo (2026-04-22)
-- [ ] Ejecutar set de pruebas Z-Image: 9 Pokémon × 3 tipos = 27 imágenes (`pipeline/09_image_generator.py` standalone)
-- [ ] Evaluar visualmente los 27 resultados — confirmar que template genérico funciona para Charmander, Squirtle, Pikachu, etc.
+- [x] Ejecutar set de pruebas Z-Image: 9 Pokémon × 3 tipos = 27 imágenes (`pipeline/09_image_generator.py` standalone) (2026-04-28)
+- [x] Evaluar visualmente los 27 resultados — encontrado: dragon=Charizard por "crimson flame tail tip", half-body por resolución landscape 1024×512 (2026-04-28)
 - [ ] Decidir si simplificar batch_runner.py para saltar fases A–C con Z-Image (prompts inline no necesitan agentes)
 - [ ] Actualizar CLAUDE.md: stack de sprites FLUX → Z-Image-Turbo
 
@@ -121,12 +121,27 @@ PokeAIchemize/
 - [ ] Si viable: integrar IP-Adapter en `pipeline/09_image_generator.py` — pasar sprite original como imagen de condicionamiento
 - [x] Evaluar Z-Image-Turbo (6B, Apache 2.0, supera FLUX en benchmarks 2026) si IP-Adapter no resuelve identidad — evaluado y elegido como modelo de producción (2026-04-22)
 
-### Phase 6 — Web Pokédex
-- [ ] `web/index.html`: grid de los 150 Pokémon navegable
-- [ ] `web/app.js`: al seleccionar un Pokémon, mostrar sprite original + 18 versiones reimaginadas
-- [ ] `web/style.css`: diseño estilo Pokédex
-- [ ] Nombre del Pokémon y tipo visible en cada tarjeta
+### Phase 6 — Web Pokédex (COMPLETED)
+- [x] `web/index.html`: grid de los 150 Pokémon navegable (2026-04-28)
+- [x] `web/js/app.js`: sidebar, detalle, filtro por tipo, rightbar con concept/prompt tabs (2026-04-28)
+- [x] `web/css/styles.css`: diseño TypeDex estilo Pokédex con dark mode (2026-04-28)
+- [x] Nombre del Pokémon y tipo visible en cada tarjeta con SVG icons por tipo (2026-04-28)
+- [x] `web/js/type-icons.js`: iconos SVG 16×16 por tipo, `typeIcon()` helper (2026-04-28)
+- [x] `web/js/type-system.js`: datos de tipos, colores, conceptos, elementos (2026-04-28)
+- [x] `web/js/about.js`: vista "Acerca De" con diagrama interactivo del pipeline (2026-04-28)
+- [x] `web/data/bundle.json`: generado por `pipeline/10_bundle_builder.py` (2026-04-28)
+- [x] `web/outputs/moves/*.json`: 18 archivos de movimientos temáticos curados por tipo (2026-04-28)
+- [x] `web/style-guide.html`: guía de estilos visual del diseño (2026-04-28)
 
+
+### Phase 8 — Pipeline production run
+- [ ] Corregir bug: image generator genera tipos fuera de `DEV_TYPE_NAMES` — investigar si `combo_data` los inyecta ignorando el filtro (`pipeline/09_image_generator.py`)
+- [ ] Verificar que Docker tiene el código actual y no una imagen build anterior (`pipeline/batch_runner.py`, `config.py`)
+- [ ] Limpiar `outputs/prompts/` y relanzar pipeline con background restaurado y 6 tipos (`pipeline/08_prompt_conciliator.py`)
+- [ ] Decidir tratamiento de fondo: transparente con `rembg` vs fondo temático generado por Z-Image
+- [ ] Ejecutar run completo: 50 Pokémon × 6 tipos = 300 imágenes (`pipeline/batch_runner.py`)
+- [ ] Regenerar `web/data/bundle.json` post-pipeline (`pipeline/10_bundle_builder.py`)
+- [ ] Probar web con imágenes reales en `http://localhost:8080/web/`
 
 ## Conventions
 - Imágenes: `outputs/images/{id}_{tipo}.png` (ej. `025_fire.png`)

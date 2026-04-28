@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Tierra.",
+  "moves": [
+    {
+      "name": "TERREMOTO MENOR",
+      "desc": "Un impacto en el suelo desestabiliza a todos los presentes en un amplio radio."
+    },
+    {
+      "name": "GARRA EXCAVADORA",
+      "desc": "Se hunde en la tierra para emerger bajo el enemigo con un ataque sorpresa vertical."
+    },
+    {
+      "name": "CORAZA MINERAL",
+      "desc": "Cristales de roca brotan del cuerpo absorbiendo impactos como una armadura natural."
+    },
+    {
+      "name": "LLUVIA DE ROCAS",
+      "desc": "Arroja fragmentos desde distintas direcciones saturando el campo de proyectiles."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
   };
 
   // Load bundle
-  const res = await fetch("../data/bundle.json");
+  const res = await fetch("data/bundle.json");
   state.bundle = await res.json();
   window.BUNDLE = state.bundle;
 
@@ -22,7 +22,7 @@
   const moveTypes = Object.keys(window.TYPE_SYSTEM || {});
   await Promise.all(moveTypes.map(async (t) => {
     try {
-      const r = await fetch(`../outputs/moves/${t}.json`);
+      const r = await fetch(`outputs/moves/${t}.json`);
       if (r.ok) state.moves[t] = await r.json();
     } catch (e) {
       console.warn("Could not load moves for", t);
@@ -127,7 +127,7 @@
 
       const typeChips = displayTypes.map(t => {
         const info = TYPE_SYSTEM[t] || { color: "#888", es: t, icon: "●" };
-        return `<span class="type-chip" style="background:${info.color}"><span class="type-ico">${info.icon}</span>${info.es}</span>`;
+        return `<span class="type-chip" style="background:${info.color}">${typeIcon(t, 11)}${info.es}</span>`;
       }).join("");
 
       row.innerHTML = `
@@ -226,8 +226,7 @@
           <div class="pokedex-id">Nº ${id}</div>
           <div class="pokedex-name">
             ${name}
-            <span class="type-chip big" style="background:${tInfo.color}">
-              <span class="type-ico">${tInfo.icon}</span>${tInfo.es.toUpperCase()}
+            <span class="type-chip big" style="background:${tInfo.color}">${typeIcon(activeType, 13)}${tInfo.es.toUpperCase()}
             </span>
           </div>
           <div class="pokedex-species">${escapeHtml(speciesLabel)}${meta.base ? " · " : ""}${meta.original_types.map(o => TYPE_SYSTEM[o]?.es || o).join(" / ")} <span style="color:var(--ink-4)">→</span> <span style="color:${tInfo.color};font-weight:600">${tInfo.es}</span></div>
@@ -258,7 +257,7 @@
               ${m.svg}
             </div>
             <div class="move-body">
-              <div class="move-name"><span style="color:${tInfo.color}">${tInfo.icon}</span>${m.name}</div>
+              <div class="move-name"><span style="color:${tInfo.color}">${typeIcon(t, 12)}</span>${m.name}</div>
               <div class="move-desc">${m.desc}</div>
             </div>
           </div>
@@ -277,7 +276,7 @@
                 <div class="other-card-img">
                   <img src="../outputs/images/${id}_${ot}.png" alt="${ot}" loading="lazy">
                 </div>
-                <span class="type-chip" style="background:${oi.color}"><span class="type-ico">${oi.icon}</span>${oi.es}</span>
+                <span class="type-chip" style="background:${oi.color}">${typeIcon(ot, 11)}${oi.es}</span>
               </div>
             `;
           }).join("")}
@@ -318,7 +317,7 @@
     const right = $("#rightbar");
     const origTypes = base.types.map(o => {
       const info = TYPE_SYSTEM[o] || {color:"#888",es:o,icon:"●"};
-      return `<span class="type-chip big" style="background:${info.color}"><span class="type-ico">${info.icon}</span>${info.es.toUpperCase()}</span>`;
+      return `<span class="type-chip big" style="background:${info.color}">${typeIcon(o, 13)}${info.es.toUpperCase()}</span>`;
     }).join(" ");
 
     main.innerHTML = `
@@ -400,7 +399,7 @@
         <div class="sub-label" style="color:${tInfo.color}">TIPO · ${tInfo.es.toUpperCase()}</div>
         <div class="concept-title">REINTERPRETACIÓN</div>
         <div class="concept-desc">${tInfo.concept}</div>
-        <div class="concept-icon">${tInfo.icon}</div>
+        <div class="concept-icon" style="color:${tInfo.color}">${typeIcon(activeType, 24)}</div>
       </div>
 
       <div>
@@ -408,7 +407,7 @@
         <div class="elements" style="--type-color:${tInfo.color}; --type-glow:${tInfo.glow}55">
           ${elements.map(([name, desc]) => `
             <div class="element-row">
-              <div class="element-icon">${tInfo.icon}</div>
+              <div class="element-icon" style="color:${tInfo.color}">${typeIcon(activeType, 22)}</div>
               <div class="element-body">
                 <div class="element-name">${name}</div>
                 <div class="element-desc">${desc}</div>
@@ -461,7 +460,7 @@
           <div class="prompt-missing-icon">⧗</div>
           <div class="prompt-missing-title">PROMPT NO GENERADO</div>
           <div class="prompt-missing-desc">
-            Los prompts de esta variante aún no están disponibles en <code>outputs/prompts/</code>.
+            Los prompts de esta variante aún no están disponibles en <code>../outputs/prompts/</code>.
             Corre el pipeline para <span style="color:${tInfo.color}">${meta.pokemon_name} × ${tInfo.es}</span> y recarga.
           </div>
         </div>

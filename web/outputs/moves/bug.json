@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Bicho.",
+  "moves": [
+    {
+      "name": "PINZA QUITINOSA",
+      "desc": "Sujeta con garras segmentadas hasta astillar la guardia del oponente."
+    },
+    {
+      "name": "FEROMONA PERTURBADORA",
+      "desc": "Libera un aroma que confunde a los oponentes alterando sus instintos básicos."
+    },
+    {
+      "name": "ENJAMBRE DE PÚAS",
+      "desc": "Dispara agujas desde el dorso segmentado cubriendo una amplia zona frontal."
+    },
+    {
+      "name": "VISIÓN COMPUESTA",
+      "desc": "Detecta cualquier movimiento en un rango de 360 grados anticipando ataques desde cualquier ángulo."
+    }
+  ]
+}

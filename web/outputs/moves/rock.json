@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Roca.",
+  "moves": [
+    {
+      "name": "ROCA RODANTE",
+      "desc": "Se convierte en una bola de piedra imparable que arrolla cualquier cosa en su camino."
+    },
+    {
+      "name": "MURO MINERAL",
+      "desc": "Invoca una pared pétrea como cobertura temporal que puede lanzar contra el oponente."
+    },
+    {
+      "name": "ARIETE DE GRANITO",
+      "desc": "Carga frontal con masa duplicada capaz de demoler muros de fortaleza."
+    },
+    {
+      "name": "LLUVIA GEODA",
+      "desc": "Fragmentos cristalinos llueven sobre el campo dispersando daño en un amplio radio."
+    }
+  ]
+}

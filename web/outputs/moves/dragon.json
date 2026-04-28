@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Dragón.",
+  "moves": [
+    {
+      "name": "ALIENTO DRÁCIDO",
+      "desc": "Exhala una columna de energía multicolor capaz de atravesar cualquier defensa elemental."
+    },
+    {
+      "name": "GARRA ANCESTRAL",
+      "desc": "Un zarpazo cargado con energía draconiana deja cicatrices permanentes."
+    },
+    {
+      "name": "DANZA DRAGÓN",
+      "desc": "Ejecuta movimientos rituales que aumentan su velocidad y fuerza temporalmente."
+    },
+    {
+      "name": "COLA BARREDORA",
+      "desc": "Un latigazo de cola derriba a todos los oponentes en su arco de impacto."
+    }
+  ]
+}

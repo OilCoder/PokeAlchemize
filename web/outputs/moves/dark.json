@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Siniestro.",
+  "moves": [
+    {
+      "name": "EMBOSCADA NOCTURNA",
+      "desc": "Se funde con las sombras para atacar por sorpresa desde un ángulo imposible."
+    },
+    {
+      "name": "MIRADA PENETRANTE",
+      "desc": "Intimida reduciendo la moral del enemigo, disminuyendo sus capacidades ofensivas."
+    },
+    {
+      "name": "ZARPA SOMBRÍA",
+      "desc": "Un golpe cargado con oscuridad pura ignora armaduras físicas convencionales."
+    },
+    {
+      "name": "NIEBLA NEGRA",
+      "desc": "Crea un velo opaco que neutraliza la visión de todos los presentes en el área."
+    }
+  ]
+}

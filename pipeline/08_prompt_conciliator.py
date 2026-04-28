@@ -54,22 +54,23 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: 
       ~12  Ken Sugimori style directive
       ~15  skin_material (type texture, ≤20 words enforced in E2)
       ~15  signature_feature (Pokémon-specific feature, ≤20 words enforced in PA)
-      ~ 8  accent + composition directive (full body, centered) + no-text tag
+      ~10  accent + background scene + composition directive + no-text tag
 
     Args:
         pokemon_analysis: E1 output dict with pokemon_name and anchor_phrases.
         parts: Dict mapping suffix → parsed JSON (pa, ps, pe, na, ns).
         target_type: Target type name (e.g. 'fire').
-        type_data: E2 output dict with palette, skin_material, accent.
+        type_data: E2 output dict with palette, skin_material, accent, background.
 
     Returns:
         Dict with 'prompt' string.
     """
-    name      = pokemon_analysis.get("pokemon_name", "").capitalize()
-    palette   = type_data["palette"]
-    skin      = type_data["skin_material"]
-    accent    = type_data["accent"]
-    signature = parts["pa"].get("signature_feature", "")
+    name       = pokemon_analysis.get("pokemon_name", "").capitalize()
+    palette    = type_data["palette"]
+    skin       = type_data["skin_material"]
+    accent     = type_data["accent"]
+    background = type_data.get("background", "")
+    signature  = parts["pa"].get("signature_feature", "")
 
     anchors    = pokemon_analysis.get("anchor_phrases", [])
     top_anchor = anchors[0] if anchors else ""
@@ -87,8 +88,8 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: 
     ]
     if signature:
         prompt_parts.append(signature)                                              # ~15 tokens
-    # Background removed — composition directive keeps character centered in frame.
-    tail = f"{accent}. Full body portrait, centered character. No text."            # ~ 8 tokens
+    bg_clause = f" {background}." if background else ""
+    tail = f"Full body portrait, centered character.{bg_clause} {accent}. No text."  # ~10 tokens
     prompt_parts.append(tail)
 
     return {"prompt": " ".join(prompt_parts)}

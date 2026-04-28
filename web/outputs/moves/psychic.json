@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Psíquico.",
+  "moves": [
+    {
+      "name": "ONDA MENTAL",
+      "desc": "Un pulso psíquico golpea directamente al sistema nervioso sin contacto físico."
+    },
+    {
+      "name": "TELEQUINESIS",
+      "desc": "Levita objetos pesados y los arroja con precisión quirúrgica contra los enemigos."
+    },
+    {
+      "name": "BARRERA ETÉREA",
+      "desc": "Un escudo lavanda desvía ataques a media distancia, absorbiendo energía entrante."
+    },
+    {
+      "name": "TERCER OJO",
+      "desc": "Anticipa movimientos antes de que ocurran, permitiéndole esquivar con anticipación sobrenatural."
+    }
+  ]
+}

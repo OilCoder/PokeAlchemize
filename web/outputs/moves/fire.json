@@ -1,0 +1,21 @@
+{
+  "_comment": "Movimientos signature para el tipo Fuego. Edita libremente — la página los recarga al refrescar.",
+  "moves": [
+    {
+      "name": "BRASA ASCENDIENTE",
+      "desc": "Una lanza de fuego surge desde el cuerpo y asciende en espiral, alcanzando gran altura antes de caer sobre el objetivo."
+    },
+    {
+      "name": "OLA INCANDESCENTE",
+      "desc": "Libera una onda de calor que abrasa el suelo y obliga a retroceder a cualquier adversario cercano."
+    },
+    {
+      "name": "CRISTAL FLAMÍGERO",
+      "desc": "Proyectiles de magma solidificado rebotan entre múltiples objetivos, encadenando impactos."
+    },
+    {
+      "name": "ERUPCIÓN DORSAL",
+      "desc": "Una columna de lava brota del lomo alcanzando gran altura antes de precipitarse en lluvia ardiente."
+    }
+  ]
+}
