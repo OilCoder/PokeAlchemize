@@ -54,7 +54,7 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: 
       ~12  Ken Sugimori style directive
       ~15  skin_material (type texture, ≤20 words enforced in E2)
       ~15  signature_feature (Pokémon-specific feature, ≤20 words enforced in PA)
-      ~ 8  accent + type scene background + no-text tag (falls at edge of 77)
+      ~ 8  accent + composition directive (full body, centered) + no-text tag
 
     Args:
         pokemon_analysis: E1 output dict with pokemon_name and anchor_phrases.
@@ -80,8 +80,6 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: 
         f"{name} {target_type} type."
     )
 
-    background = type_data.get("background", "")
-
     prompt_parts = [
         f"{palette}.",                                                              # ~12 tokens
         f"{name_line} Ken Sugimori style, cel-shaded, bold black outlines.",       # ~22 tokens
@@ -89,11 +87,9 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: 
     ]
     if signature:
         prompt_parts.append(signature)                                              # ~15 tokens
-    tail = f"{accent}."
-    if background:
-        tail += f" {background}."
-    tail += " No text."
-    prompt_parts.append(tail)                                                       # ~ 8 tokens
+    # Background removed — composition directive keeps character centered in frame.
+    tail = f"{accent}. Full body portrait, centered character. No text."            # ~ 8 tokens
+    prompt_parts.append(tail)
 
     return {"prompt": " ".join(prompt_parts)}
 

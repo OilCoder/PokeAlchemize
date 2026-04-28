@@ -26,7 +26,7 @@ COMBO_DATA_DIR = OUTPUTS_DIR / "combo_data"
 # ----
 # Step 2 – Parallelization
 # ----
-PROMPT_WORKERS = 6  # concurrent threads for E3 prompt generation
+PROMPT_WORKERS = 2  # concurrent threads for E3 prompt generation (reduced to avoid Ollama timeouts)
 
 # ----
 # Step 3 – Development settings
@@ -45,10 +45,9 @@ DEV_POKEMON_IDS = [
 ]
 DEV_POKEMON_LIMIT = None
 DEV_TYPES_LIMIT   = None
-# DEV_TYPE_NAMES: target types — visually distinct spectrum (10 types)
+# DEV_TYPE_NAMES: target types — visually distinct spectrum (6 types)
 DEV_TYPE_NAMES = [
-    "fire", "water", "ghost", "dark", "dragon", "psychic",
-    "fighting", "steel", "electric", "fairy",
+    "fire", "water", "ghost", "steel", "electric", "fairy",
 ]
 # SIMILAR_TYPE_EXCLUSIONS: skip combos where target is visually too close to original
 # e.g. water→ice both share cold-blue palette; rock→ground both share earthy-stone palette
@@ -78,7 +77,7 @@ OLLAMA_VISION_MODEL = "qwen2.5vl:7b"    # vision-language model; analiza sprites
 # Step 5 – Z-Image-Turbo (image generation)
 # ----
 ZIMAGE_MODEL    = "Tongyi-MAI/Z-Image-Turbo"
-IMAGE_WIDTH     = 1024   # native width for Z-Image-Turbo
-IMAGE_HEIGHT    = 512    # 2:1 landscape — scene behind Pokémon
+IMAGE_WIDTH     = 512    # square — correct for character portraits
+IMAGE_HEIGHT    = 512    # square — Pokémon fills frame, no landscape cropping
 IMAGE_STEPS     = 15     # distilled model; 12 steps is sufficient
 ZIMAGE_GUIDANCE = 0.0    # Z-Image is distilled — guidance_scale must be 0.0
