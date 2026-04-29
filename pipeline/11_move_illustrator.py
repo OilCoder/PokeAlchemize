@@ -34,11 +34,34 @@ MOVES_DIR = DOCS_DIR / "outputs" / "moves"
 # Step 1 — Prompt builder
 # ----------------------------------------
 
+def _extract_visual_keywords(desc: str) -> str:
+    """Extract visual nouns from a Spanish move description, stripping action/character words.
+
+    Args:
+        desc: Move description in Spanish.
+
+    Returns:
+        Comma-separated visual keywords suitable for an image prompt.
+    """
+    # Words that reference actions, characters or non-visual concepts — strip them
+    strip_words = {
+        "ataca", "lanza", "cubre", "libera", "absorbe", "paraliza", "paralizan",
+        "quema", "queman", "cortar", "corta", "aumenta", "reduce", "usa", "hace",
+        "rival", "oponente", "enemigo", "aliado", "usuario", "pokemon",
+        "al", "el", "la", "los", "las", "un", "una", "con", "sin", "para",
+        "que", "sus", "su", "en", "de", "y", "a", "por", "se", "le", "del",
+        "durante", "turno", "turno", "poder", "fuerza", "daño", "movimiento",
+    }
+    words = desc.replace(",", " ").replace(".", " ").split()
+    keywords = [w.lower() for w in words if w.lower() not in strip_words and len(w) > 3]
+    return ", ".join(dict.fromkeys(keywords))  # deduplicate, preserve order
+
+
 def _build_move_prompt(move: dict, type_visual: dict) -> tuple[str, str]:
     """Build a prompt and negative prompt for a move illustration banner.
 
-    Uses the move name and description combined with the type's visual vocabulary
-    to produce a wide-format abstract action image (no Pokémon characters).
+    Combines move-specific visual keywords with the type's visual vocabulary
+    to produce distinct wide-format images per move. No characters or creatures.
 
     Args:
         move: Dict with 'name' and 'desc' fields from combo_data.
@@ -47,17 +70,22 @@ def _build_move_prompt(move: dict, type_visual: dict) -> tuple[str, str]:
     Returns:
         Tuple of (prompt, negative_prompt).
     """
-    palette = type_visual.get("palette", "")
-    bg      = type_visual.get("background", "")
-    # Filter effects: drop any that reference a body/creature to avoid character generation
-    raw_effects = type_visual.get("effects", [])
-    body_words  = {"body", "around", "skin", "tail", "limb", "creature", "pokemon"}
-    effects     = ", ".join(
-        e for e in raw_effects if not any(w in e.lower() for w in body_words)
-    )[:3 * 40]  # cap length
+    palette      = type_visual.get("palette", "")
+    bg           = type_visual.get("background", "")
+    type_name    = type_visual.get("type_name", "")
+    move_name    = move.get("name", "")
+    move_kw      = _extract_visual_keywords(move.get("desc", ""))
+
+    # Filter type effects: drop any referencing a body/creature
+    body_words = {"body", "around", "skin", "tail", "limb", "creature", "pokemon"}
+    effects    = ", ".join(
+        e for e in type_visual.get("effects", [])
+        if not any(w in e.lower() for w in body_words)
+    )
 
     prompt = (
-        f"pure energy spell effect, {type_visual.get('type_name', '')} type attack, "
+        f"{move_name}, {move_kw}, "
+        f"pure energy spell effect, {type_name} type attack, "
         f"game VFX concept art, particle burst, elemental explosion, "
         f"{effects}, "
         f"color palette: {palette}, "
@@ -105,6 +133,16 @@ def _generate_move(pipe: ZImagePipeline, combo_path: Path, type_visual: dict) ->
             continue
 
         prompt, negative_prompt = _build_move_prompt(move, type_visual)
+        # Prefer Ollama-generated visual_prompt from 12_move_enricher if available
+        if move.get("visual_prompt"):
+            palette = type_visual.get("palette", "")
+            bg      = type_visual.get("background", "")
+            prompt  = (
+                f"{move['visual_prompt']}, "
+                f"pure energy effect, game VFX art, wide horizontal banner, "
+                f"color palette: {palette}, background: {bg}, "
+                f"no living beings, cinematic game art"
+            )
 
         torch.cuda.empty_cache()
         image = pipe(
