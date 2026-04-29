@@ -136,17 +136,29 @@ PokeAIchemize/
 
 ### Phase 8 — Pipeline production run
 - [ ] Corregir bug: image generator genera tipos fuera de `DEV_TYPE_NAMES` — investigar si `combo_data` los inyecta ignorando el filtro (`pipeline/09_image_generator.py`)
-- [ ] Verificar que Docker tiene el código actual y no una imagen build anterior (`pipeline/batch_runner.py`, `config.py`)
-- [ ] Limpiar `outputs/prompts/` y relanzar pipeline con background restaurado y 6 tipos (`pipeline/08_prompt_conciliator.py`)
-- [ ] Decidir tratamiento de fondo: transparente con `rembg` vs fondo temático generado por Z-Image
-- [ ] Ejecutar run completo: 50 Pokémon × 6 tipos = 300 imágenes (`pipeline/batch_runner.py`)
-- [ ] Regenerar `web/data/bundle.json` post-pipeline (`pipeline/10_bundle_builder.py`)
-- [ ] Probar web con imágenes reales en `http://localhost:8080/web/`
+- [x] Verificar que Docker tiene el código actual y no una imagen build anterior (`pipeline/batch_runner.py`, `config.py`) (2026-04-29)
+- [x] Limpiar `outputs/prompts/` y relanzar pipeline con background restaurado y 6 tipos (`pipeline/08_prompt_conciliator.py`) (2026-04-29)
+- [x] Decidir tratamiento de fondo: Z-Image genera fondo temático directamente (2026-04-29)
+- [x] Ejecutar run completo: 50 Pokémon × 6 tipos = 278 imágenes (`pipeline/batch_runner.py`) (2026-04-29)
+- [x] Regenerar `docs/data/bundle.json` post-pipeline (`pipeline/10_bundle_builder.py`) (2026-04-29)
+- [x] Probar web con imágenes reales en `http://localhost:8080/docs/` (2026-04-29)
+
+### Phase 9 — WebP + Move Illustrator
+- [ ] `docs/data/sprites/`: convertir 150 sprites PNG → WebP q=85 (`docs/data/sprites/`)
+- [ ] `docs/outputs/images/`: convertir 27 imágenes demo PNG → WebP (`docs/outputs/images/`)
+- [ ] `config.py`: agregar constante `IMAGE_EXT = ".webp"`
+- [ ] `pipeline/09_image_generator.py`: guardar como `.webp` quality=85 en lugar de `.png`
+- [ ] `pipeline/10_bundle_builder.py`: escanear `.webp` en lugar de `.png`
+- [ ] `pipeline/11_move_illustrator.py`: nuevo agente — genera imágenes de moves a 384×128 WebP desde `combo_data` + `types_visual`
+- [ ] `docs/js/app.js`: paths `.png` → `.webp`; reemplazar `buildMoveSvg()` por `<img src="outputs/moves/{id}_{type}_{index}.webp">`
+- [ ] Regenerar `docs/data/bundle.json` tras cambios de formato
+- [ ] Commit y push: demo con WebP + move images funcionando en GitHub Pages
 
 ## Conventions
-- Imágenes: `outputs/images/{id}_{tipo}.png` (ej. `025_fire.png`)
-- Prompts: `outputs/prompts/{id}.json` — 18 entradas por archivo
+- Imágenes: `docs/outputs/images/{name}_{type}.webp`
+- Moves: `docs/outputs/moves/{id}_{type}_{index}.webp` (384×128)
+- Sprites web: `docs/data/sprites/{id}.webp`
+- Prompts: `docs/outputs/prompts/{id}_{type}.json`
 - Instrucciones en inglés (idioma del modelo de imagen)
-- Estilo sprite: Ken Sugimori oficial via WiroAI/pokemon-flux-lora
 - Sin base de datos: todo en JSON estático
 - Sin servidor backend
