@@ -1,0 +1,64 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "compact body with long neck",
+    "rock-like shell on back",
+    "curled tail tip",
+    "short stubby legs",
+    "pale cream underbelly"
+  ],
+  "original_type_traits": [
+    "dark blue spots on body",
+    "rock-like shell with icy texture",
+    "pale cream underbelly suggesting cold adaptation"
+  ],
+  "transformable_parts": [
+    "shell texture",
+    "tail tip curl",
+    "leg structure",
+    "spot pattern",
+    "ear shape",
+    "underbelly color"
+  ],
+  "suppress_colors": [
+    "dark blue",
+    "icy pale blue",
+    "pale cream",
+    "icy white"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs on ground, sturdy stance",
+    "rock-like shell with jagged edges on back",
+    "curled spiral tail tip with pale cream tip"
+  ],
+  "pokemon_id": "131",
+  "pokemon_name": "lapras",
+  "original_types": [
+    "water",
+    "ice"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright blue",
+      "pale cream",
+      "dark blue spots"
+    ],
+    "body_parts": [
+      "rounded head",
+      "long neck",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact body with a long neck and a short tail, suggesting a compact and sturdy build.",
+    "type_markers": [
+      "dark blue spots on body",
+      "rock-like shell on back"
+    ],
+    "distinctive_features": [
+      "long neck",
+      "rock-like shell",
+      "curled tail tip"
+    ]
+  }
+}

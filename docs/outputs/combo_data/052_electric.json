@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Felina",
+  "lore": "Chispa Felina tiene orejas puntiagudas con puntas negras que brillan con energía eléctrica. Su pelaje plateado se eriza al generar descargas, y sus patas afiladas generan chispas al caminar. Su mirada intensa refleja una fuerza eléctrica concentrada.",
+  "moves": [
+    {
+      "name": "Chispa Ganchera",
+      "desc": "Genera una descarga eléctrica que se enreda en el oponente, causando daño y reduciendo su velocidad."
+    },
+    {
+      "name": "Rugido Estático",
+      "desc": "Emite un rugido que genera un campo estático, debilitando los movimientos eléctricos del rival."
+    },
+    {
+      "name": "Pata Relampagueante",
+      "desc": "Ataca con patadas rápidas que dejan rastros de chispas, aumentando su precisión."
+    },
+    {
+      "name": "Energía Felina",
+      "desc": "Recupera energía eléctrica acumulada, restaurando un porcentaje de salud."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas brillantes con descargas eléctricas"
+    },
+    {
+      "from": "pelaje plateado",
+      "to": "pelaje que se eriza generando chispas"
+    },
+    {
+      "from": "patas afiladas",
+      "to": "patas que generan chispas al caminar"
+    },
+    {
+      "from": "mirada tranquila",
+      "to": "mirada intensa con energía eléctrica concentrada"
+    }
+  ],
+  "pokemon_id": "052",
+  "target_type": "electric"
+}

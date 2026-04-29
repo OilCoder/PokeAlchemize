@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Mental",
+  "lore": "Alakazam, ahora con llamas en su cabeza, emite destellos de fuego que iluminan su rostro. Sus garras afiladas brillan con llamas azules, y su aura psíquica se mezcla con el calor del fuego.",
+  "moves": [
+    {
+      "name": "Psifuego",
+      "desc": "Ataca con una bola de fuego psíquico que quema y confunde al rival."
+    },
+    {
+      "name": "Mente Llama",
+      "desc": "Aumenta su poder psíquico y lanza una llamarada que quema al oponente."
+    },
+    {
+      "name": "Cerebro Incendio",
+      "desc": "Crea una explosión de energía psíquica y fuego que daña al enemigo."
+    },
+    {
+      "name": "Fuego Mental",
+      "desc": "Envía ondas de fuego psíquico que debilitan el ataque del rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza cubierta de llamas azules que brillan intensamente"
+    },
+    {
+      "from": "garras afiladas",
+      "to": "garras envueltas en llamas azules que queman al contacto"
+    },
+    {
+      "from": "aura psíquica",
+      "to": "aura combinada con calor del fuego que aumenta su poder"
+    },
+    {
+      "from": "movimientos psíquicos",
+      "to": "movimientos ahora combinan psiquis y fuego en ataques explosivos"
+    }
+  ],
+  "pokemon_id": "065",
+  "target_type": "fire"
+}

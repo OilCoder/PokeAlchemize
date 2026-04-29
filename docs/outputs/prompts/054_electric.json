@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Psyduck electric type, quadruped, four legs on ground, low stance, tufted hair on head with exact curl pattern, curled tail tip with spiral shape. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Tail tip: jagged lightning-bolt spines with vibrant yellow sparks and glowing neon-green circuit patterns. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "dark brown tuft, water droplets, smooth skin texture, light brown base, white contrast, dark brown, light brown, white, deep ocean blue, teal, pearly white, aquamarine glow, seafoam green, water droplets, submerged bubbles, gentle water ripples, reflective surface, soft blue light",
+  "pokemon_id": "054",
+  "pokemon_name": "psyduck",
+  "target_type": "electric"
+}

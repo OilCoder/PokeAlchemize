@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Oceánico Alado",
+  "lore": "Pidgeot ahora se envuelve en olas cristalinas, sus plumas brillan con destellos azules. Sus orejas puntiagudas resplandecen con tonos rosados bajo el agua, mientras sus alas generan remolinos que limpian el océano.",
+  "moves": [
+    {
+      "name": "Ola Serena",
+      "desc": "Crea una ola calmada que restaura la salud de aliados cercanos."
+    },
+    {
+      "name": "Remolino de Plumas",
+      "desc": "Genera un remolino que aturde a los enemigos y reduce su velocidad."
+    },
+    {
+      "name": "Aguas Profundas",
+      "desc": "Lanza un chorro de agua profunda que causa daño especial."
+    },
+    {
+      "name": "Coral Resplandor",
+      "desc": "Cubre a los aliados con un brillo coralino que aumenta su defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "plumas grises",
+      "to": "plumas azules con destellos de agua"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas brillantes con tonos rosados"
+    },
+    {
+      "from": "vuelo rápido",
+      "to": "vuelo con olas que generan remolinos"
+    },
+    {
+      "from": "habitat terrestre",
+      "to": "habitat acuático con corales y olas"
+    }
+  ],
+  "pokemon_id": "018",
+  "target_type": "water"
+}

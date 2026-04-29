@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Roca",
+  "lore": "Aerodactyl ahora brilla con un aura eléctrica, sus escamas afiladas emiten chispas al volar. Sus orejas puntiagudas se iluminan como antenas, captando corrientes eléctricas en el aire.",
+  "moves": [
+    {
+      "name": "Rayo Escama",
+      "desc": "Ataca con un rayo que se dispara desde sus escamas, causando daño eléctrico y posiblemente paralizar."
+    },
+    {
+      "name": "Tormenta Céfala",
+      "desc": "Genera una tormenta eléctrica alrededor de su cabeza, aumentando su velocidad y aturdiendo a los rivales."
+    },
+    {
+      "name": "Impacto Relámpago",
+      "desc": "Se lanza a gran velocidad, golpeando con un impacto eléctrico que quema el suelo."
+    },
+    {
+      "name": "Carga Estática",
+      "desc": "Aumenta su ataque y acumula energía eléctrica para el próximo ataque."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redondeada",
+      "to": "Se acentúa con escamas brillantes que emiten chispas"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Se transforman en antenas que captan corrientes eléctricas"
+    },
+    {
+      "from": "Piel rocosa",
+      "to": "Se vuelve lisa y conductora, acumulando carga eléctrica"
+    },
+    {
+      "from": "Vuelo silencioso",
+      "to": "Genera un zumbido eléctrico al volar"
+    }
+  ],
+  "pokemon_id": "142",
+  "target_type": "electric"
+}

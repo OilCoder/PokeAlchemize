@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Marítima",
+  "lore": "Con un caparazón translúcido que emana sombras, su crestón espectral se agita con cada respiración. Su piel refleja la oscuridad del océano profundo, y sus ojos brillan con un resplandor azul fantasmal.",
+  "moves": [
+    {
+      "name": "Alma Marítima",
+      "desc": "Absorbe la energía del mar para lanzar ondas de sombra que confunden al enemigo."
+    },
+    {
+      "name": "Viento Fantasmal",
+      "desc": "Crea ráfagas de viento frío que desgarran el aire y desestabilizan a los oponentes."
+    },
+    {
+      "name": "Sombra Profunda",
+      "desc": "Invoca sombras que envuelven al enemigo, reduciendo su velocidad y fuerza."
+    },
+    {
+      "name": "Espectro Oceánico",
+      "desc": "Genera un campo de energía espectral que debilita a los enemigos acuáticos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "spiky crest on rounded head",
+      "to": "crestón translúcido que emana sombras y brilla con un resplandor azul"
+    },
+    {
+      "from": "water / flying types",
+      "to": "ghost type, con piel que refleja la oscuridad del océano profundo"
+    },
+    {
+      "from": "aggressive and powerful",
+      "to": "más sigiloso y letal, utilizando la oscuridad para sorprender"
+    },
+    {
+      "from": "aquatic and aerial movements",
+      "to": "movimientos más fluidos y etéreos, como si flotara entre sombras"
+    }
+  ],
+  "pokemon_id": "130",
+  "target_type": "ghost"
+}

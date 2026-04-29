@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Arma Acero",
+  "lore": "Arma Acero brilla con un brillo metálico bajo el sol, sus ojos brillantes reflejan la energía acumulada. Sus orejas puntiagudas ahora son láminas afiladas, y su cuerpo redondeado se ha convertido en una estructura compacta y resistente.",
+  "moves": [
+    {
+      "name": "Impacto Acero",
+      "desc": "Ataca con un golpe sólido que reduce la defensa del oponente."
+    },
+    {
+      "name": "Relámpago Estelar",
+      "desc": "Dispara rayos de energía que brillan con un destello metálico."
+    },
+    {
+      "name": "Escudo de Hierro",
+      "desc": "Crea un escudo que bloquea ataques físicos y reduce daño."
+    },
+    {
+      "name": "Chispazo Cinturón",
+      "desc": "Lanza chispas que forman un cinturón alrededor del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo redondeado",
+      "to": "estructura compacta y resistente"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "láminas afiladas de acero"
+    },
+    {
+      "from": "energía eléctrica",
+      "to": "energía acumulada en su núcleo metálico"
+    },
+    {
+      "from": "movimientos ligeros",
+      "to": "ataques sólidos y precisos"
+    }
+  ],
+  "pokemon_id": "100",
+  "target_type": "steel"
+}

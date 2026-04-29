@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Lleno",
+  "lore": "Snorlax ahora flota sin peso, su cuerpo redondo se torna translúcido. Sus ojos oscuros brillan con una luz espectral, absorbiendo energía de los sueños. Cada bostezo libera sombras que confunden a sus oponentes.",
+  "moves": [
+    {
+      "name": "Sueño Ectópico",
+      "desc": "Causa sueño al oponente con un soplo de energía espectral."
+    },
+    {
+      "name": "Atracción Sombría",
+      "desc": "Atrae al oponente hacia un área oscura para mayor daño."
+    },
+    {
+      "name": "Bostezo Fantasma",
+      "desc": "Hace bostezar al oponente, reduciendo su velocidad."
+    },
+    {
+      "name": "Sombra Dolorosa",
+      "desc": "Ataca con una sombra dolorosa que causa daño físico."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondo y pesado",
+      "to": "Cuerpo translúcido y flotante, sin peso."
+    },
+    {
+      "from": "Ojos pequeños y oscuros",
+      "to": "Ojos brillantes con luz espectral, más intensos."
+    },
+    {
+      "from": "Dormir constantemente",
+      "to": "Absorber energía de sueños para mantenerse flotando."
+    },
+    {
+      "from": "Alimentarse sin control",
+      "to": "Consumir energías espirituales de los sueños."
+    }
+  ],
+  "pokemon_id": "143",
+  "target_type": "ghost"
+}

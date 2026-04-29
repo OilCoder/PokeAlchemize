@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Mental",
+  "lore": "Alakazam Espectro Mental flota sin peso, su cabeza redonda ahora translúcida con destellos azules. Sus garras afiladas brillan con energía espectral, cortando sombras en lugar de materia.",
+  "moves": [
+    {
+      "name": "Sombra Psíquica",
+      "desc": "Inmoviliza al rival con una sombra que absorbe su mente, reduciendo su velocidad."
+    },
+    {
+      "name": "Aliento Fantasmal",
+      "desc": "Lanza un aliento frío que enfría el ambiente, bajando el ataque físico del oponente."
+    },
+    {
+      "name": "Mente Eterna",
+      "desc": "Aumenta su propia defensa y evasión mientras se funde con la oscuridad."
+    },
+    {
+      "name": "Corte de Sombras",
+      "desc": "Golpea con garras que cortan sombras, causando daño adicional a Pokémon de tipo fantasma."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "translúcida con destellos azules que emanan energía espectral"
+    },
+    {
+      "from": "garras afiladas",
+      "to": "brillan con energía espectral, cortando sombras en lugar de materia"
+    },
+    {
+      "from": "poder psíquico",
+      "to": "se mezcla con energía fantasmal, afectando a Pokémon de tipo fantasma"
+    },
+    {
+      "from": "movimientos psíquicos",
+      "to": "ahora incluyen elementos de tipo fantasma, como cortar sombras"
+    }
+  ],
+  "pokemon_id": "065",
+  "target_type": "ghost"
+}

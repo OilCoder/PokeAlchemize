@@ -1,0 +1,58 @@
+{
+  "identity_traits": [
+    "rounded head",
+    "short stubby legs",
+    "curled tail tip",
+    "compact rounded body silhouette"
+  ],
+  "original_type_traits": [
+    "gray body coloration",
+    "pale cream limb accents",
+    "dark gray body shading"
+  ],
+  "transformable_parts": [
+    "head shape",
+    "leg structure",
+    "tail tip curl",
+    "limb accent color",
+    "body shading pattern",
+    "overall body texture"
+  ],
+  "suppress_colors": [
+    "gray",
+    "pale cream",
+    "dark gray"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "curled spiral tail tip, small rounded head with pointed ears",
+    "pale cream limb accents, compact rounded body silhouette"
+  ],
+  "pokemon_id": "106",
+  "pokemon_name": "hitmonlee",
+  "original_types": [
+    "fighting"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "gray",
+      "pale cream",
+      "dark gray"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with short, sturdy legs and a small, pointed head.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "curled tail tip",
+      "pale cream accents on limbs",
+      "dark gray body"
+    ]
+  }
+}

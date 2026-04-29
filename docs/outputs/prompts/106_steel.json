@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Hitmonlee steel type, quadruped, four legs planted on ground, low stance, curled spiral tail tip, small rounded head with pointed ears, pale cream limb accents, compact rounded body silhouette. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Tail tip: polished steel with engraved mechanical grooves and faint blue energy pulses. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "gray body color, pale cream limb accents, dark gray shading, steel-gray texture, metallic sheen, original type color palette, gray, pale cream, dark gray, burnt sienna, ochre, deep rust, crimson, charcoal gray, dust clouds, cracked earth, energy aura glow, ground tremors, dust and debris",
+  "pokemon_id": "106",
+  "pokemon_name": "hitmonlee",
+  "target_type": "steel"
+}

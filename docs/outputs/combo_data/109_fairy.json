@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Brillo Espectral",
+  "lore": "Este Koffing transformado irradia una luz suave en tonos pastel, con el esqueleto en su pecho ahora brillando como un faro. Sus gases venenosos se han suavizado, convirtiéndose en pétalos de luz que acarician el aire.",
+  "moves": [
+    {
+      "name": "Brillo de Luna",
+      "desc": "Cubre al enemigo con una luz suave que reduce su defensa y le otorga un aura encantadora."
+    },
+    {
+      "name": "Pétalos de Sueño",
+      "desc": "Lanza pétalos brillantes que envuelven al oponente en un sueño tranquilo, reduciendo su velocidad."
+    },
+    {
+      "name": "Velo de Estrellas",
+      "desc": "Crea un velo de estrellas que bloquea ataques físicos y restaura la energía del usuario."
+    },
+    {
+      "name": "Fiesta de Luz",
+      "desc": "Genera una explosión de luz que cura a todos los aliados y debilita al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Esqueleto en el pecho",
+      "to": "Brilla como un faro de luz suave en tonos pastel."
+    },
+    {
+      "from": "Gases venenosos",
+      "to": "Se transforman en pétalos de luz que acarician el aire."
+    },
+    {
+      "from": "Apariencia oscura",
+      "to": "Adquiere un color pastel y una aura tranquila."
+    },
+    {
+      "from": "Comportamiento agresivo",
+      "to": "Se vuelve pacífico y atrae a otros Pokémon con su luz."
+    }
+  ],
+  "pokemon_id": "109",
+  "target_type": "fairy"
+}

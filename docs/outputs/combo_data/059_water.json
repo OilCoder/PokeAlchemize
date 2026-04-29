@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Arcanine, ahora con escamas azules que brillan bajo el agua, su melena espectral se ondula como olas. Sus ojos reflejan el océano, y su fuego se transforma en una corriente suave que envuelve a sus enemigos.",
+  "moves": [
+    {
+      "name": "Ola Incandescente",
+      "desc": "Lanza una ola de agua caliente que quema y empuja al rival, combinando fuego y agua."
+    },
+    {
+      "name": "Respiración Marítima",
+      "desc": "Genera una burbuja protectora que absorbe ataques físicos y reduce el daño."
+    },
+    {
+      "name": "Caudal de Sal",
+      "desc": "Crea una fuerte corriente que reduce la velocidad del enemigo y lo empuja hacia atrás."
+    },
+    {
+      "name": "Torrente de Escamas",
+      "desc": "Ataca con una ráfaga de escamas afiladas que se mueven como olas en el agua."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Melena espinosa de color rojo",
+      "to": "Melena suave y ondulada de color azul marino con destellos plateados"
+    },
+    {
+      "from": "Fuego que emana de su cuerpo",
+      "to": "Corriente de agua caliente que envuelve su cuerpo, sin humo"
+    },
+    {
+      "from": "Piel seca y áspera",
+      "to": "Escamas suaves y resbaladizas, como las de un pez"
+    },
+    {
+      "from": "Rugido fuerte y resonante",
+      "to": "Grito suave que imita el sonido de las olas"
+    }
+  ],
+  "pokemon_id": "059",
+  "target_type": "water"
+}

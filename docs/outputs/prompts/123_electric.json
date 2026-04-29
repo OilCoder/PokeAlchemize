@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Scyther electric type, quadruped, four legs planted on ground, low stance, pointed ears on rounded head, pale cream accents on head and legs, curled spiral tail tip with distinct curved edge. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Tail tip: vibrant yellow energy with jagged lightning-bolt spines and sparking fur tips. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "translucent insect membrane, pale cream tail tip, bright green body, pale cream head accents, pale cream leg accents, bright green, pale cream accents, translucent wing membrane color, forest green, dark brown, ochre yellow, copper, sapphire blue, sky blue, pure white, ivory, azure, pale gold, dust particles swirling around limbs, subtle bioluminescent glow from undercarriage, refractive light patterns on exoskeleton, delicate pollen trails in motion, shimmering dew drops on surface, gentle wind currents swirling around the body, sunlight refracting through translucent wings, subtle shimmer on feathers from altitude, soft glow of sky light on body surface, dynamic motion blur during flight",
+  "pokemon_id": "123",
+  "pokemon_name": "scyther",
+  "target_type": "electric"
+}

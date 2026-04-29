@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Pies de Ceniza",
+  "lore": "Su cabeza redonda ahora brilla con un aura de hada, sus orejas puntiagudas se transforman en alas transparentes. Cada patada libera destellos de cristal que curan heridas y rompen barreras mágicas.",
+  "moves": [
+    {
+      "name": "Patada de Sueño",
+      "desc": "Lanza un golpe que envía al rival a un sueño eterno, lleno de dulces sueños de hadas."
+    },
+    {
+      "name": "Zapato de Estrellas",
+      "desc": "Ataca con un zapato brillante que lanza estrellas que sanan y deslumbran al rival."
+    },
+    {
+      "name": "Danza de Ceniza",
+      "desc": "Crea un remolino de cenizas que cura y confunde al rival con su danza mágica."
+    },
+    {
+      "name": "Beso de Cristal",
+      "desc": "Un beso suave que rompe barreras mágicas y cura heridas con cristales brillantes."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redonda",
+      "to": "Brilla con aura de hada, emitiendo destellos mágicos"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Se transforman en alas transparentes que brillan bajo la luz"
+    },
+    {
+      "from": "Ataques de lucha",
+      "to": "Se convierten en patadas que liberan destellos de cristal curativos"
+    },
+    {
+      "from": "Movimientos físicos",
+      "to": "Incorpora elementos mágicos que rompen barreras y sanan"
+    }
+  ],
+  "pokemon_id": "106",
+  "target_type": "fairy"
+}

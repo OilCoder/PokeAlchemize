@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama de Ceniza",
+  "lore": "Este Diglett transformado en Fairy se convierte en un ser etéreo, con una cabeza redondeada brillante y orejas puntiagudas que emiten destellos de luz. Su piel suave y pálida refleja la magia de los sueños, y sus patas se han vuelto delicadas y translúcidas.",
+  "moves": [
+    {
+      "name": "Canto de Luna",
+      "desc": "Canta un himno celestial que cura heridas y reduce el daño de los ataques enemigos."
+    },
+    {
+      "name": "Pétalos de Sueño",
+      "desc": "Lanza pétalos brillantes que confunden al oponente y reducen su velocidad."
+    },
+    {
+      "name": "Brisa de Estrellas",
+      "desc": "Genera una brisa suave que aumenta la precisión de los movimientos."
+    },
+    {
+      "name": "Magia de Ceniza",
+      "desc": "Cubre al oponente con una capa de ceniza mágica que reduce su defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo enterrado en el suelo",
+      "to": "cuerpo levitando suavemente sobre el suelo"
+    },
+    {
+      "from": "orejas pequeñas y redondeadas",
+      "to": "orejas puntiagudas que brillan con destellos de luz"
+    },
+    {
+      "from": "piel dura y terrosa",
+      "to": "piel suave y pálida que refleja la magia"
+    },
+    {
+      "from": "ataques de tierra",
+      "to": "ataques de magia celestial y sueños"
+    }
+  ],
+  "pokemon_id": "050",
+  "target_type": "fairy"
+}

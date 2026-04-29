@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Mímico",
+  "lore": "Mr-mime, ahora cubierto de placas de acero, emite destellos metálicos al moverse. Su patrón circular en el pecho brilla con reflejos de acero, y sus manos proyectan escudos de energía que bloquean ataques.",
+  "moves": [
+    {
+      "name": "Escudo Acero",
+      "desc": "Proyecta un escudo de acero que absorbe el 50% del daño recibido por un turno."
+    },
+    {
+      "name": "Corte Luminoso",
+      "desc": "Corta al rival con un rayo de luz reflejado en sus placas, causando daño tipo acero."
+    },
+    {
+      "name": "Poder de la Placa",
+      "desc": "Aumenta su ataque y defensa en un 20% por un turno."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan el movimiento del rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "patrón circular en el pecho",
+      "to": "brilla con reflejos metálicos y actúa como fuente de energía para sus movimientos"
+    },
+    {
+      "from": "manos que proyectan ilusiones",
+      "to": "proyectan escudos de acero que bloquean ataques físicos y especiales"
+    },
+    {
+      "from": "piel suave y translúcida",
+      "to": "cubierta por placas de acero duras y resistentes"
+    },
+    {
+      "from": "movimientos psíquicos suaves",
+      "to": "ataques con fuerza metálica y reflejos precisos"
+    }
+  ],
+  "pokemon_id": "122",
+  "target_type": "steel"
+}

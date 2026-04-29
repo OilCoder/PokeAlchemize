@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Ola de Puños",
+  "lore": "Su cabeza redonda ahora brilla con un ligero brillo acuático, sus pequeñas orejas puntiagudas se han convertido en aletas flexibles. Los golpes que lanza generan olas de agua que envuelven al oponente.",
+  "moves": [
+    {
+      "name": "Ola de Golpe",
+      "desc": "Lanza una ola de agua que golpea al rival, causando daño y reduciendo su velocidad."
+    },
+    {
+      "name": "Aleta de Fuerza",
+      "desc": "Usa sus aletas para aumentar su fuerza, elevando el daño de sus ataques físicos."
+    },
+    {
+      "name": "Chorro de Impacto",
+      "desc": "Dispara un chorro de agua a alta presión que aturde al oponente."
+    },
+    {
+      "name": "Torrente de Puños",
+      "desc": "Realiza una serie de golpes rápidos con el cuerpo sumergido, aumentando su velocidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cabeza redonda brillante con brillo acuático"
+    },
+    {
+      "from": "pequeñas orejas puntiagudas",
+      "to": "pequeñas orejas convertidas en aletas flexibles"
+    },
+    {
+      "from": "golpes físicos",
+      "to": "golpes que generan olas de agua"
+    },
+    {
+      "from": "movilidad en tierra",
+      "to": "movilidad mejorada en agua, nadando con agilidad"
+    }
+  ],
+  "pokemon_id": "106",
+  "target_type": "water"
+}

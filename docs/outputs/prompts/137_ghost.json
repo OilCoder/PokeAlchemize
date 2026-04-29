@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Porygon ghost type, quadruped, four legs planted on ground, low stance, single large eye centered on head, geometric blocky body with sharp edges. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Hollow eye socket: swirling crimson mist with pale silver energy currents. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "light blue body, dark red accents, pink highlights, blue metallic sheen, red glowing seams, pink circuit patterns, light blue, dark red, pink, soft beige, warm tan, pale cream, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles floating in air, soft motion blur on movement, warm light reflection on skin",
+  "pokemon_id": "137",
+  "pokemon_name": "porygon",
+  "target_type": "ghost"
+}

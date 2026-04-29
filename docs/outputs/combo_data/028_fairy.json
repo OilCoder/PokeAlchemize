@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Con sus orejas puntiagudas ahora suaves y brillantes, Sandslash se transforma en una criatura etérea. Sus garras afiladas se vuelven esponjosas y su piel refleja destellos de luz de hada, danzando con cada movimiento.",
+  "moves": [
+    {
+      "name": "Danza de Pétalos",
+      "desc": "Lanza pétalos brillantes que confunden al rival y reducen su precisión."
+    },
+    {
+      "name": "Ala de Sueño",
+      "desc": "Cubre al rival en un sueño suave, reduciendo su velocidad durante el combate."
+    },
+    {
+      "name": "Brillo de Luna",
+      "desc": "Emite un brillo suave que restaura la energía de aliados cercanos."
+    },
+    {
+      "name": "Canto de Hadas",
+      "desc": "Canta una melodía mágica que aumenta la defensa de aliados."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas suaves y redondeadas con destellos de luz"
+    },
+    {
+      "from": "piel áspera de tierra",
+      "to": "piel brillante y esponjosa como pétalos"
+    },
+    {
+      "from": "garras afiladas",
+      "to": "garras suaves y esponjosas"
+    },
+    {
+      "from": "movimientos terrenales",
+      "to": "movimientos que usan luz y brillo de hada"
+    }
+  ],
+  "pokemon_id": "028",
+  "target_type": "fairy"
+}

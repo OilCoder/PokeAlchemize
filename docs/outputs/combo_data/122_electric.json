@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Rayo Místico",
+  "lore": "El Rayo Místico emana chispas eléctricas de su patrón circular en el pecho, que ahora brilla con energía dinámica. Sus manos forman circuitos brillantes mientras proyecta hologramas de relámpagos.",
+  "moves": [
+    {
+      "name": "Chispa Mística",
+      "desc": "Lanza un destello de energía eléctrica que paraliza al oponente con una descarga suave."
+    },
+    {
+      "name": "Circuito Holográfico",
+      "desc": "Crea una ilusión de circuitos eléctricos que confunde al rival y reduce su precisión."
+    },
+    {
+      "name": "Relámpago Psíquico",
+      "desc": "Combina fuerza psíquica con descargas eléctricas para atacar con poder acumulado."
+    },
+    {
+      "name": "Energía de la Luna",
+      "desc": "Absorbe energía lunar para cargar un ataque eléctrico devastador."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Patrón circular en el pecho",
+      "to": "Brilla con chispas eléctricas que emanan energía dinámica"
+    },
+    {
+      "from": "Manos suaves y fluidas",
+      "to": "Forman circuitos brillantes que proyectan hologramas"
+    },
+    {
+      "from": "Energía psíquica tranquila",
+      "to": "Se mezcla con descargas eléctricas de alta frecuencia"
+    },
+    {
+      "from": "Aire místico y suave",
+      "to": "Cambia a un ambiente cargado de electricidad estática"
+    }
+  ],
+  "pokemon_id": "122",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Arbok, ahora transformado en una serpiente eléctrica, emite chispas desde su cabeza redondeada y orejas puntiagudas. Su piel brillante y ágil refleja la energía del relámpago.",
+  "moves": [
+    {
+      "name": "Chispa Serpentina",
+      "desc": "Lanza una descarga eléctrica que paraliza al oponente con un zumbido sutil."
+    },
+    {
+      "name": "Relámpago Escamoso",
+      "desc": "Genera un rayo que atraviesa el campo, dejando una estela de chispas brillantes."
+    },
+    {
+      "name": "Carga Escalofriante",
+      "desc": "Aumenta su velocidad y carga energía eléctrica para un ataque potente."
+    },
+    {
+      "name": "Energía Serpentina",
+      "desc": "Recarga energía mientras se enroscas en el suelo, preparando un ataque devastador."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza redondeada con chispas eléctricas que brillan en la oscuridad"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas que emiten destellos eléctricos al moverse"
+    },
+    {
+      "from": "piel venenosa",
+      "to": "piel brillante y resplandeciente que genera energía eléctrica"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos ágiles y rápidos gracias a la energía eléctrica"
+    }
+  ],
+  "pokemon_id": "024",
+  "target_type": "electric"
+}

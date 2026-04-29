@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma de Llama",
+  "lore": "El Fantasma de Llama flota sin rumbo, su cola espiralada emite destellos azules. Sus llamas se han transformado en bruma etérea, iluminando sombras en lugar de calentar. Sus ojos brillan con una luz mortecina.",
+  "moves": [
+    {
+      "name": "Alma Fugaz",
+      "desc": "Desvía el ataque enemigo hacia un lugar aleatorio en el campo."
+    },
+    {
+      "name": "Sombra Ardiente",
+      "desc": "Ataca con un fantasma de llama que quema al enemigo."
+    },
+    {
+      "name": "Eco de la Noche",
+      "desc": "Aumenta la velocidad de todos los aliados en combate."
+    },
+    {
+      "name": "Espectro de Llama",
+      "desc": "Crea un espejismo para confundir al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiralada con punta de llama",
+      "to": "cola espiralada con punta de bruma azul"
+    },
+    {
+      "from": "llamas que calientan",
+      "to": "bruma que ilumina sombras"
+    },
+    {
+      "from": "ojos cálidos",
+      "to": "ojos brillantes con luz mortecina"
+    },
+    {
+      "from": "fuerza física",
+      "to": "poder espectral sin peso"
+    }
+  ],
+  "pokemon_id": "058",
+  "target_type": "ghost"
+}

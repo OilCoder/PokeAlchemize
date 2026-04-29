@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispazo Lento",
+  "lore": "Sus ojos redondos brillan con destellos eléctricos, atrayendo a otros Pokémon. Su cola se convierte en un conductor de energía, liberando chispas al moverse. La electricidad potencia su mente lenta.",
+  "moves": [
+    {
+      "name": "Descarga Lenta",
+      "desc": "Lanza una descarga eléctrica suave que entumece al oponente."
+    },
+    {
+      "name": "Ojos Chispeantes",
+      "desc": "Sus ojos emiten destellos que confunden al rival."
+    },
+    {
+      "name": "Corriente Mental",
+      "desc": "Aumenta el poder de los ataques psíquicos con energía eléctrica."
+    },
+    {
+      "name": "Carga Lenta",
+      "desc": "Recarga energía eléctrica para aumentar el ataque en el próximo turno."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos redondos",
+      "to": "brillan con destellos eléctricos"
+    },
+    {
+      "from": "cola lenta",
+      "to": "se convierte en conductor de energía"
+    },
+    {
+      "from": "mente lenta",
+      "to": "potenciada por la electricidad"
+    },
+    {
+      "from": "pelo largo",
+      "to": "cubre con chispas eléctricas"
+    }
+  ],
+  "pokemon_id": "079",
+  "target_type": "electric"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Pikachu fairy type, quadruped, four legs planted on ground, low crawling stance, pointed ears on rounded head, dark brown cheek patches, curled tail tip with pale cream underside. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Cheek patterns: petal gold and lavender floral embroidery with starlight silver accents. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "yellow body color, dark brown cheeks, curled tail tip, electric discharge texture, pale cream accents, bright yellow, dark brown, pale cream, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "025",
+  "pokemon_name": "pikachu",
+  "target_type": "fairy"
+}

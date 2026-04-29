@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Espectral",
+  "lore": "Con ojos redondos y negros que brillan en la oscuridad, este Jigglypuff espectral canta melodías que atraviesan el velo entre mundos. Su cuerpo translúcido se adapta a la esencia del fantasma, emitiendo un susurro que calma almas errantes.",
+  "moves": [
+    {
+      "name": "Canto de la Muerte",
+      "desc": "Canta una melodía que reduce la defensa del oponente y le causa sueño."
+    },
+    {
+      "name": "Aliento de Sombras",
+      "desc": "Ataca con un aliento frío que baja la velocidad y causa confusión."
+    },
+    {
+      "name": "Espectro Silencioso",
+      "desc": "Crea una barrera de sombras que bloquea ataques especiales por un turno."
+    },
+    {
+      "name": "Susurro de la Noche",
+      "desc": "Reduce la precisión del oponente y aumenta la propia evasión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos redondos y negros",
+      "to": "ojos que brillan en la oscuridad con un brillo plateado"
+    },
+    {
+      "from": "cuerpo redondo y suave",
+      "to": "cuerpo translúcido que se desvanece en sombras"
+    },
+    {
+      "from": "voz dulce para hipnotizar",
+      "to": "voz que susurra para calmar almas errantes"
+    },
+    {
+      "from": "pelo de color rosa",
+      "to": "pelo que se torna gris pálido y se disuelve en el aire"
+    }
+  ],
+  "pokemon_id": "039",
+  "target_type": "ghost"
+}

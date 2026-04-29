@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Machamp",
+  "lore": "Acero Machamp, con su cabeza redondeada cubierta de escamas metálicas, emite un sonido resonante al moverse. Sus brazos, ahora forjados en acero, brillan con reflejos fríos y cortan el aire con precisión letal.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta el aire con una hoja de acero que deja surcos en el suelo."
+    },
+    {
+      "name": "Impacto Forjado",
+      "desc": "Golpea con un puño de acero que genera ondas expansivas en el suelo."
+    },
+    {
+      "name": "Escudo Mecánico",
+      "desc": "Crea un escudo de acero que bloquea ataques físicos."
+    },
+    {
+      "name": "Carga Magnética",
+      "desc": "Atrae objetos metálicos para aumentar su fuerza."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redondeada",
+      "to": "Cubierta de escamas metálicas brillantes que reflejan la luz."
+    },
+    {
+      "from": "Puntos en las orejas",
+      "to": "Orejas afiladas y metálicas que emiten sonidos resonantes."
+    },
+    {
+      "from": "Brazos musculosos",
+      "to": "Brazos forjados en acero con reflejos fríos y precisión letal."
+    },
+    {
+      "from": "Movimientos ágiles",
+      "to": "Movimientos más pesados y resonantes, como si fueran herramientas de forja."
+    }
+  ],
+  "pokemon_id": "068",
+  "target_type": "steel"
+}

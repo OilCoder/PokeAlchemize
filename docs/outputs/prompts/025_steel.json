@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Pikachu steel type, quadruped, four legs planted on ground, low crawling stance, pointed ears on rounded head, dark brown cheek patches, curled tail tip with pale cream underside. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Cheek armor plates: reinforced steel with glowing blue energy lines and indigo etching. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "yellow body color, dark brown cheeks, curled tail tip, electric discharge texture, pale cream highlights, bright yellow, dark brown, pale cream, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "025",
+  "pokemon_name": "pikachu",
+  "target_type": "steel"
+}

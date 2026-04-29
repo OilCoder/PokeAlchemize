@@ -1,0 +1,63 @@
+{
+  "identity_traits": [
+    "compact muscular body",
+    "rounded head",
+    "bushy tail",
+    "spiky hair",
+    "pointed ears",
+    "striped chest pattern"
+  ],
+  "original_type_traits": [
+    "beige and brown color scheme",
+    "dark brown tail tip",
+    "tan leg accents"
+  ],
+  "transformable_parts": [
+    "spiky hair",
+    "striped chest pattern",
+    "tail tip curl",
+    "leg accents",
+    "head shape",
+    "ear shape"
+  ],
+  "suppress_colors": [
+    "beige",
+    "brown",
+    "dark brown",
+    "tan"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "spiky hair on head and neck",
+    "curled tail tip with dark brown tip"
+  ],
+  "pokemon_id": "059",
+  "pokemon_name": "arcanine",
+  "original_types": [
+    "fire"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "beige",
+      "brown",
+      "dark brown",
+      "tan"
+    ],
+    "body_parts": [
+      "spiky hair",
+      "pointed ears",
+      "striped chest",
+      "short stubby legs",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and a bushy tail.",
+    "type_markers": [
+      "striped chest pattern"
+    ],
+    "distinctive_features": [
+      "spiky hair",
+      "pointed ears",
+      "curled tail tip"
+    ]
+  }
+}

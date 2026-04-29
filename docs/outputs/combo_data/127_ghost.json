@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma de Pinza",
+  "lore": "Este Pinsir etéreo flota con una forma bulbosa translúcida, sus patas cortas ahora son sombras que se desvanecen. Sus pinzas brillan con energía espectral, atrapando almas perdidas en su aura fantasmal.",
+  "moves": [
+    {
+      "name": "Ataque Espectral",
+      "desc": "Inflige daño con una ola de energía fantasmal que deshace la resistencia del oponente."
+    },
+    {
+      "name": "Sombras Enredadas",
+      "desc": "Enreda al oponente con sombras que reducen su velocidad y lo hacen vulnerable a ataques críticos."
+    },
+    {
+      "name": "Eco de la Noche",
+      "desc": "Crea un eco que refleja el último movimiento del oponente para atacarlo con el mismo poder."
+    },
+    {
+      "name": "Aurora Fantasma",
+      "desc": "Genera una luz tenue que cura al usuario y debilita al oponente con un aura opaca."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo bulboso redondeado",
+      "to": "cuerpo translúcido y etéreo"
+    },
+    {
+      "from": "patas cortas y gruesas",
+      "to": "patas convertidas en sombras que se desvanecen"
+    },
+    {
+      "from": "pinzas de metal",
+      "to": "pinzas brillantes con energía espectral"
+    },
+    {
+      "from": "comportamiento agresivo",
+      "to": "comportamiento sereno, atrapando almas perdidas"
+    }
+  ],
+  "pokemon_id": "127",
+  "target_type": "ghost"
+}

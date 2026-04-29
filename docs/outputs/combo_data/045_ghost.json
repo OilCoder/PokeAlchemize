@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Hongo",
+  "lore": "Sombra Hongo emana un aura espectral desde su capucha de hongo, que ahora brilla con un resplandor púrpura. Sus pétalos se desvanecen en sombras, y sus raíces se enroscan en espirales etéreas.",
+  "moves": [
+    {
+      "name": "Espectro de Hongo",
+      "desc": "Invoca sombras de hongos que atacan al enemigo con un grito fantasmal."
+    },
+    {
+      "name": "Capa Sombra",
+      "desc": "Cubre al usuario con una capa de sombras que reduce el daño recibido."
+    },
+    {
+      "name": "Susurro Fantasmal",
+      "desc": "Ataca con un susurro que confunde al oponente y reduce su velocidad."
+    },
+    {
+      "name": "Raíces Espectrales",
+      "desc": "Enraiza al usuario en sombras, recuperando salud mientras permanece inmóvil."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "capucha de hongo redondeada",
+      "to": "capucha de hongo con resplandor púrpura y sombras etéreas"
+    },
+    {
+      "from": "pétalos verdes",
+      "to": "pétalos que se desvanecen en sombras"
+    },
+    {
+      "from": "raíces en tierra",
+      "to": "raíces en espirales etéreas"
+    },
+    {
+      "from": "olor a flores",
+      "to": "olor a hongos en descomposición en la oscuridad"
+    }
+  ],
+  "pokemon_id": "045",
+  "target_type": "ghost"
+}

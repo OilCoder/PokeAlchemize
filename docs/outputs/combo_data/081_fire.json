@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Magnética",
+  "lore": "Este Magnemite transformado irradia calor de sus núcleos magnéticos, sus ojos brillan como carbones incandescentes. Su cuerpo metálico se funde en un resplandor dorado, generando chispas eléctricas al tacto.",
+  "moves": [
+    {
+      "name": "Chispa de Fuego",
+      "desc": "Genera una llamarada eléctrica que quema al oponente con energía magnética."
+    },
+    {
+      "name": "Carga Magnética",
+      "desc": "Aumenta el poder de los ataques eléctricos con un impulso de fuego."
+    },
+    {
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo protector que absorbe ataques y libera calor."
+    },
+    {
+      "name": "Explosión Magnética",
+      "desc": "Lanza una explosión de energía magnética que quema y electrocuta."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo metálico frío",
+      "to": "Cuerpo metálico caliente que irradia calor"
+    },
+    {
+      "from": "Ojos pequeños y oscuros",
+      "to": "Ojos brillantes como carbones incandescentes"
+    },
+    {
+      "from": "Genera campos magnéticos estáticos",
+      "to": "Genera campos magnéticos con chispas de fuego"
+    },
+    {
+      "from": "Ataques eléctricos fríos",
+      "to": "Ataques eléctricos que queman con calor"
+    }
+  ],
+  "pokemon_id": "081",
+  "target_type": "fire"
+}

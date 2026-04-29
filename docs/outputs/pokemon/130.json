@@ -1,0 +1,62 @@
+{
+  "identity_traits": [
+    "dragon-like silhouette with elongated neck",
+    "curved tail tip with a slight curl",
+    "horn-like structures protruding from head",
+    "rounded head with pointed ears",
+    "light blue to dark blue color gradient on body",
+    "short stubby legs positioned near the body"
+  ],
+  "original_type_traits": [
+    "light blue and dark blue coloration suggesting water element",
+    "dragon silhouette with flying capability implied by neck and tail shape",
+    "rounded head with pointed ears reminiscent of aquatic or aerial creatures"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "head horn structures",
+    "body color gradient",
+    "leg shape and position",
+    "ear shape and placement",
+    "neck curvature"
+  ],
+  "suppress_colors": [
+    "light blue",
+    "dark blue",
+    "beige",
+    "gradient between light and dark blue"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "horn-like structures on head, sharp and protruding upward",
+    "curled spiral tail tip, ending in a tight curl"
+  ],
+  "pokemon_id": "130",
+  "pokemon_name": "gyarados",
+  "original_types": [
+    "water",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light blue",
+      "beige",
+      "dark blue"
+    ],
+    "body_parts": [
+      "rounded head",
+      "long neck",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The creature has a dragon-like silhouette with a long neck and a curved tail.",
+    "type_markers": [
+      "no visible water droplets or leaf bulbs, but the coloration and overall shape suggest a water and flying type"
+    ],
+    "distinctive_features": [
+      "horn-like structures on the head",
+      "color gradient from light to dark blue"
+    ]
+  }
+}

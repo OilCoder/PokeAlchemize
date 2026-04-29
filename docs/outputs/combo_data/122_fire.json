@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Mística",
+  "lore": "Este Mr-mime ahora arde con una llama circular en el pecho, sus manos generan llamas que dibujan mensajes en el aire. Su aura psíquica se funde con el fuego, creando danzas de llamas que hipnotizan a sus oponentes.",
+  "moves": [
+    {
+      "name": "Danza de Llamas",
+      "desc": "Genera una danza de llamas que confunde al oponente y aumenta el ataque."
+    },
+    {
+      "name": "Mente de Fuego",
+      "desc": "Ataca con un poder psíquico envuelto en llamas, causando daño especial."
+    },
+    {
+      "name": "Mensaje en Llamas",
+      "desc": "Dibuja un mensaje en el aire con llamas que reduce la defensa del rival."
+    },
+    {
+      "name": "Círculo Ardiente",
+      "desc": "Crea un círculo de llamas alrededor del oponente, reduciendo su velocidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "patrón circular en el pecho",
+      "to": "se convierte en una llama circular que arde constantemente"
+    },
+    {
+      "from": "manos psíquicas",
+      "to": "generan llamas que dibujan mensajes en el aire"
+    },
+    {
+      "from": "aura psíquica",
+      "to": "se funde con el fuego creando danzas hipnóticas"
+    },
+    {
+      "from": "tipo psíquico/fairy",
+      "to": "ahora es tipo fuego con una aura psíquica ardiente"
+    }
+  ],
+  "pokemon_id": "122",
+  "target_type": "fire"
+}

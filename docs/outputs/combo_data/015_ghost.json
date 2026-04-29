@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Venenoso",
+  "lore": "El Beedrill Fantasma flota sin hacer ruido, sus antenas negras brillan con un aura espectral. Su cuerpo translúcido revela veneno etéreo que se disipa en el aire. Sus picaduras emiten chillidos de almas atrapadas.",
+  "moves": [
+    {
+      "name": "Veneno Espectral",
+      "desc": "Infecta al objetivo con veneno que se disuelve en sombras, causando daño gradual."
+    },
+    {
+      "name": "Antena Fantasma",
+      "desc": "Aumenta la precisión al atacar, usando antenas para atravesar barreras."
+    },
+    {
+      "name": "Alma Envenenada",
+      "desc": "Ataca con un grito que reduce la defensa y añade veneno."
+    },
+    {
+      "name": "Sombra Venenosa",
+      "desc": "Cubre al objetivo en una sombra tóxica que reduce velocidad y daño."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo sólido",
+      "to": "cuerpo translúcido con brillo espectral"
+    },
+    {
+      "from": "antenas negras",
+      "to": "antenas brillantes con aura espectral"
+    },
+    {
+      "from": "veneno líquido",
+      "to": "veneno etéreo que se disipa en el aire"
+    },
+    {
+      "from": "picaduras físicas",
+      "to": "picaduras que emiten chillidos de almas atrapadas"
+    }
+  ],
+  "pokemon_id": "015",
+  "target_type": "ghost"
+}

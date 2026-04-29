@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua Serpentina",
+  "lore": "Arbok, ahora transformado en una serpiente acuática, tiene una cabeza redondeada con orejas puntiagudas que brillan bajo el agua. Su piel se ha vuelto resplandeciente y translúcida, absorbiendo la luz del océano.",
+  "moves": [
+    {
+      "name": "Ola Venenosa",
+      "desc": "Lanza una ola que inunda al oponente con un veneno líquido que debilita su resistencia."
+    },
+    {
+      "name": "Burbuja de Seda",
+      "desc": "Crea burbujas que envuelven al rival, reduciendo su velocidad y confundiéndolo."
+    },
+    {
+      "name": "Corriente Profunda",
+      "desc": "Genera una corriente que arrastra al oponente hacia abajo, causando daño adicional."
+    },
+    {
+      "name": "Agua Culpable",
+      "desc": "Inunda el campo con agua contaminada, reduciendo la defensa del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza redondeada con un brillo acuático que refleja la luz del océano"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas que ahora brillan como cristales bajo el agua"
+    },
+    {
+      "from": "piel venenosa",
+      "to": "piel translúcida que absorbe la luz del océano"
+    },
+    {
+      "from": "veneno en su cuerpo",
+      "to": "veneno convertido en líquido que se mezcla con el agua para crear una ola venenosa"
+    }
+  ],
+  "pokemon_id": "024",
+  "target_type": "water"
+}

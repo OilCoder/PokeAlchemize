@@ -5,9 +5,9 @@ from pathlib import Path
 # ----
 ROOT_DIR = Path(__file__).parent
 DATA_DIR = ROOT_DIR / "data"
-OUTPUTS_DIR = ROOT_DIR / "outputs"
 DOCS_DIR = ROOT_DIR / "docs"
-IMAGES_DIR = DOCS_DIR / "outputs" / "images"
+OUTPUTS_DIR = DOCS_DIR / "outputs"
+IMAGES_DIR = OUTPUTS_DIR / "images"
 
 POKEMONS_FILE = DATA_DIR / "pokemons.json"
 TYPES_FILE    = DATA_DIR / "types.json"

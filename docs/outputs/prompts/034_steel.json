@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Nidoking steel type, quadruped, four legs planted on ground, low stance, spiky protrusions on head, short and sharp, bulbous eyes, large and round, prominent. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Head spiky protrusions: gunmetal gray plating with engraved geometric patterns and glowing indigo energy lines. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "purple body, white accents, gray texture, sharp teeth, sharp claws, acidic vapor rising from body, toxic green aura flickering around body, slime trails left behind when moving, corrosive droplets falling from fangs, glowing toxic veins beneath skin, dust clouds rising from movement, cracked stone white",
+  "pokemon_id": "034",
+  "pokemon_name": "nidoking",
+  "target_type": "steel"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Con su corona de llama en la cabeza, este Magikarp arde con fuerza interior. Su cuerpo resplandece con escamas doradas que brillan al sol, mientras su cola emite chispas de fuego al nadar.",
+  "moves": [
+    {
+      "name": "Llama Resplandeciente",
+      "desc": "Ataca con llamas que brillan intensamente, cegando al rival en el agua."
+    },
+    {
+      "name": "Chispa de Fuego",
+      "desc": "Dispara chispas de fuego que queman al contacto, aumentando el daño."
+    },
+    {
+      "name": "Caudal de Llamas",
+      "desc": "Genera un torrente de llamas que quema el entorno y reduce la defensa."
+    },
+    {
+      "name": "Corona Ardiente",
+      "desc": "Lanza una corona de llamas que inflige daño y quema al objetivo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "corona pequeña y suave",
+      "to": "corona de llama brillante y caliente"
+    },
+    {
+      "from": "cuerpo pequeño y débil",
+      "to": "cuerpo robusto con escamas doradas"
+    },
+    {
+      "from": "nado lento y sin fuerza",
+      "to": "nado rápido con chispas en la cola"
+    },
+    {
+      "from": "color azul pálido",
+      "to": "escamas doradas brillantes con destellos rojos"
+    }
+  ],
+  "pokemon_id": "129",
+  "target_type": "fire"
+}

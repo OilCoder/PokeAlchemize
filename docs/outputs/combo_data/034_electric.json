@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago de Cuerpo",
+  "lore": "Su cola espiralada brilla con un destello eléctrico azul, irradiando energía estática. Sus escamas oscuras absorben y liberan descargas, mientras su piel se cubre de un manto de chispas.",
+  "moves": [
+    {
+      "name": "Descarga Espiral",
+      "desc": "Genera una espiral de electricidad que paraliza al oponente con descargas concentradas."
+    },
+    {
+      "name": "Rayo de Escamas",
+      "desc": "Dispara rayos desde sus escamas, causando daño eléctrico y debilitando la defensa."
+    },
+    {
+      "name": "Chispa de Cola",
+      "desc": "Utiliza su cola brillante para lanzar chispas que aumentan la velocidad del usuario."
+    },
+    {
+      "name": "Tormenta Electrónica",
+      "desc": "Crea una tormenta de energía eléctrica alrededor del campo, causando daño continuo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiralada con punta morada oscura",
+      "to": "cola brillante con destello eléctrico azul"
+    },
+    {
+      "from": "escamas oscuras",
+      "to": "escamas que absorben y liberan energía eléctrica"
+    },
+    {
+      "from": "piel oscura",
+      "to": "piel cubierta de chispas estáticas"
+    },
+    {
+      "from": "tipos veneno/tierra",
+      "to": "tipo eléctrico con energía estática acumulada"
+    }
+  ],
+  "pokemon_id": "034",
+  "target_type": "electric"
+}

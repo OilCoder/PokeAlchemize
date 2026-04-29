@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Pikachu fire type, quadruped, four legs planted on ground, low crawling stance, pointed ears on rounded head, dark brown cheek patches, curled tail tip with pale cream underside. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Tail tip: molten gold flame with ember-scaled tendrils and glowing crimson core. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "yellow body color, dark brown cheeks, curled tail tip, electric discharge texture, pale cream highlights, bright yellow, dark brown, pale cream, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "025",
+  "pokemon_name": "pikachu",
+  "target_type": "fire"
+}

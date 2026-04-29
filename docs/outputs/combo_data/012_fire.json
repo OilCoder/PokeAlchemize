@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Este Pokémon, con ojos rojos brillantes y alas de llama, exhala llamas al volar. Sus alas, ahora de fuego, crean un aura cálida que calma a los demás. Su cuerpo emana calor constante.",
+  "moves": [
+    {
+      "name": "Llama de Fuego",
+      "desc": "Lanza una llamarada intensa que quema al rival."
+    },
+    {
+      "name": "Alas de Llama",
+      "desc": "Acelera el vuelo con alas llameantes, aumentando velocidad."
+    },
+    {
+      "name": "Cálido Aire",
+      "desc": "Crea una brisa cálida que cura heridas."
+    },
+    {
+      "name": "Fuego en El Cielo",
+      "desc": "Ataca con un rizo de llamas en el aire."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos grandes y rojos",
+      "to": "ojos brillantes y llameantes"
+    },
+    {
+      "from": "alas de mariposa",
+      "to": "alas de llama ardiente"
+    },
+    {
+      "from": "vuelo suave",
+      "to": "vuelo acelerado con llamas"
+    },
+    {
+      "from": "comportamiento tranquilo",
+      "to": "comportamiento cálido y protector"
+    }
+  ],
+  "pokemon_id": "012",
+  "target_type": "fire"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Psíquica",
+  "lore": "Mewtwo, ahora envuelto en llamas psíquicas, arde con poder incontrolable. Su piel azul pálido se tiñe de rojo intenso, mientras sus ojos brillan con destellos de fuego y purpura. Las llamas danzan en su aura, intensificando su mente y su furia.",
+  "moves": [
+    {
+      "name": "Llama Mental",
+      "desc": "Lanza una bola de fuego psíquico que quema y confunde al oponente simultáneamente."
+    },
+    {
+      "name": "Furia de Fuego",
+      "desc": "Aumenta el ataque y el poder de fuego, pero consume energía mental del usuario."
+    },
+    {
+      "name": "Combustión Psíquica",
+      "desc": "Crea una explosión de energía psíquica que quema y desorienta al enemigo."
+    },
+    {
+      "name": "Círculo de Fuego",
+      "desc": "Crea un círculo de llamas psíquicas que reduce la defensa del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "piel azul pálido con destellos morados",
+      "to": "piel azul pálido con destellos rojos y morados brillantes"
+    },
+    {
+      "from": "aura psíquica tranquila",
+      "to": "aura psíquica en llamas que quema y arde"
+    },
+    {
+      "from": "movimientos de telequinesis",
+      "to": "movimientos que combinan telequinesis con llamas"
+    },
+    {
+      "from": "fuerza mental controlada",
+      "to": "fuerza mental en llamas, impredecible y explosiva"
+    }
+  ],
+  "pokemon_id": "150",
+  "target_type": "fire"
+}

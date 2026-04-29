@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Relámpago",
+  "lore": "Acero Relámpago posee una corona de espinas afiladas de acero que emiten chispas eléctricas. Sus patas están cubiertas de placas metálicas que absorben y canalizan energía eléctrica, creando un aura de fuerza inquebrantable.",
+  "moves": [
+    {
+      "name": "Relámpago de Acero",
+      "desc": "Lanza un rayo eléctrico que también endurece el suelo, dificultando los movimientos del oponente."
+    },
+    {
+      "name": "Corte de Relámpago",
+      "desc": "Corta con precisión metálica, generando ondas eléctricas que debilitan al rival."
+    },
+    {
+      "name": "Escudo de Chispas",
+      "desc": "Crea un escudo de energía eléctrica que refleja ataques y absorbe daño."
+    },
+    {
+      "name": "Impacto Acero",
+      "desc": "Ataca con un golpe metálico que también genera una descarga eléctrica."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "espinas en la cabeza",
+      "to": "espinas de acero afiladas que emiten chispas"
+    },
+    {
+      "from": "patas peludas",
+      "to": "patas cubiertas de placas metálicas"
+    },
+    {
+      "from": "cuerpo flexible",
+      "to": "cuerpo rígido y resistente al impacto"
+    },
+    {
+      "from": "movimientos eléctricos",
+      "to": "movimientos que combinan electricidad y acero"
+    }
+  ],
+  "pokemon_id": "125",
+  "target_type": "steel"
+}

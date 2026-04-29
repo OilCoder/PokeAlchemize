@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Sandslash steel type, quadruped, four legs planted on ground, low stance, pointed tail tip with dark brown stripe extending from base, rounded head with small ears, compact muscular body. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Tail tip: polished steel with deep indigo energy core and engraved geometric patterns. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "dark brown stripes, pale cream underbelly, sand-like skin texture, yellow body color, ground-hugging posture, dark brown, pale cream, sand-like texture, yellow body color, earthen brown, dull ochre, muddy gray, cracked stone white, dusty terracotta, dust clouds, cracks glowing with earth energy, slow motion with ground tremors, petrified leaves, moss or grass growing from cracks",
+  "pokemon_id": "028",
+  "pokemon_name": "sandslash",
+  "target_type": "steel"
+}

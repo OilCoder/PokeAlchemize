@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero de Hielo",
+  "lore": "Jynx Acero de Hielo brilla con cabello plateado como acero fundido. Sus ojos brillan con energía metálica, y sus movimientos generan ondas de vibración que cortan el aire con precisión quirúrgica.",
+  "moves": [
+    {
+      "name": "Corte de Acero",
+      "desc": "Corta al rival con una hoja de acero que emana de sus cabellos plateados, causando daño físico."
+    },
+    {
+      "name": "Vibración Metálica",
+      "desc": "Genera ondas de vibración que reducen la defensa del oponente con un sonido metálico penetrante."
+    },
+    {
+      "name": "Reflejo de Hielo",
+      "desc": "Crea un escudo de hielo que refleja ataques especiales y reduce el daño recibido."
+    },
+    {
+      "name": "Cristalización",
+      "desc": "Transforma el campo de batalla en un cristal que lanza fragmentos cortantes hacia el enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabello largo rubio",
+      "to": "cabello plateado como acero fundido que emite destellos metálicos"
+    },
+    {
+      "from": "movimientos psíquicos",
+      "to": "movimientos basados en vibraciones metálicas y corte preciso"
+    },
+    {
+      "from": "resistencia al hielo",
+      "to": "resistencia al acero y capacidad para generar ondas de vibración"
+    },
+    {
+      "from": "sistema de lucha",
+      "to": "sistema de lucha basado en precisión quirúrgica y control de campo"
+    }
+  ],
+  "pokemon_id": "124",
+  "target_type": "steel"
+}

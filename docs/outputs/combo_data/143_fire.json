@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Este Snorlax ahora arde con llamas interiores, su cabeza redonda brillando como un sol. Sus ojos oscuros se tornan llamas danzantes, y su piel se cubre de escamas rojas que emiten calor constante.",
+  "moves": [
+    {
+      "name": "Fuego de Sueno",
+      "desc": "Ataca con una bola de fuego que induce somnolencia, combinando sueño y calor abrasador."
+    },
+    {
+      "name": "Bola de Humo",
+      "desc": "Dispara una bola de humo ardiente que enceguece y quema a los enemigos."
+    },
+    {
+      "name": "Calor Invernal",
+      "desc": "Genera un campo de calor que debilita a los oponentes de tipo agua."
+    },
+    {
+      "name": "Rugido de Llama",
+      "desc": "Un rugido que lanza llamas alrededor, aumentando el poder de los ataques de fuego."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cabeza redonda brillando como un sol con llamas interiores"
+    },
+    {
+      "from": "ojos oscuros",
+      "to": "ojos oscuros transformados en llamas danzantes"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel cubierta de escamas rojas que emiten calor constante"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos ahora impulsados por energía de fuego"
+    }
+  ],
+  "pokemon_id": "143",
+  "target_type": "fire"
+}

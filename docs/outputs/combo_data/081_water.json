@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua Magnética",
+  "lore": "El Magnemite acuático flota en nubes de vapor, su cabeza redonda ahora cubierta de escamas de cristal que brillan bajo el agua. Sus ojos brillan con una luz azulada, reflejando la energía de los océanos.",
+  "moves": [
+    {
+      "name": "Ola Magnética",
+      "desc": "Crea una ola que absorbe energía eléctrica y la convierte en fuerza hidráulica."
+    },
+    {
+      "name": "Burbuja Estelar",
+      "desc": "Lanza burbujas que emiten destellos de luz, confundiendo a los oponentes."
+    },
+    {
+      "name": "Corriente Submarina",
+      "desc": "Genera una corriente que empuja al oponente hacia atrás con fuerza."
+    },
+    {
+      "name": "Cristal de Mar",
+      "desc": "Cubre al oponente con un cristal de hielo que reduce su movilidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cubierta de escamas de cristal brillante"
+    },
+    {
+      "from": "ojo pequeño",
+      "to": "ojos brillantes con luz azulada"
+    },
+    {
+      "from": "energía eléctrica",
+      "to": "energía hidráulica convertida"
+    },
+    {
+      "from": "movimiento lento",
+      "to": "movimiento fluido en el agua"
+    }
+  ],
+  "pokemon_id": "081",
+  "target_type": "water"
+}

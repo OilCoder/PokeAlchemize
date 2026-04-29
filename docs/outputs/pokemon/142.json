@@ -1,0 +1,62 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "compact dragon-like body silhouette",
+    "short stubby legs",
+    "large bat-like wings",
+    "curled tail tip",
+    "gray and purple coloration"
+  ],
+  "original_type_traits": [
+    "rock-like texture on skin",
+    "wings shaped like stone slabs",
+    "curled tail tip resembling a rock formation"
+  ],
+  "transformable_parts": [
+    "wings",
+    "tail tip",
+    "skin texture",
+    "head shape",
+    "ear shape",
+    "coloration"
+  ],
+  "suppress_colors": [
+    "gray",
+    "purple",
+    "stone gray",
+    "rocky purple"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "pointed ears protruding from rounded head",
+    "curled tail tip with sharp teeth visible"
+  ],
+  "pokemon_id": "142",
+  "pokemon_name": "aerodactyl",
+  "original_types": [
+    "rock",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "gray",
+      "purple"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip",
+      "wings"
+    ],
+    "silhouette": "The Pokémon has a compact, dragon-like body with a short, stubby tail and large, bat-like wings.",
+    "type_markers": [
+      "wings",
+      "curled tail tip"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "sharp teeth"
+    ]
+  }
+}

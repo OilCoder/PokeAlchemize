@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombras de Roca",
+  "lore": "El Geodude es ahora un espíritu de roca translúcido, con una cabeza redonda que brilla con un resplandor fantasmal. Su superficie lisa ahora emite un aura fría que envuelve a sus enemigos.",
+  "moves": [
+    {
+      "name": "Espectro de Piedra",
+      "desc": "Lanza un fragmento de roca que atraviesa al oponente y lo aturde."
+    },
+    {
+      "name": "Magma Fantasma",
+      "desc": "Crea una llama fría que quema al oponente con energía espectral."
+    },
+    {
+      "name": "Canto de la Tierra Muerta",
+      "desc": "Aumenta la defensa de los aliados con un canto resonante de la tierra."
+    },
+    {
+      "name": "Viento de Sombras",
+      "desc": "Crea una ráfaga de viento que empuja al oponente hacia atrás."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo sólido de piedra",
+      "to": "cuerpo translúcido con brillo fantasmal"
+    },
+    {
+      "from": "superficie lisa",
+      "to": "superficie que emite aura fría"
+    },
+    {
+      "from": "movimientos terrestres",
+      "to": "movimientos con energía espectral"
+    },
+    {
+      "from": "comportamiento tranquilo",
+      "to": "comportamiento más agitado y espectral"
+    }
+  ],
+  "pokemon_id": "074",
+  "target_type": "ghost"
+}

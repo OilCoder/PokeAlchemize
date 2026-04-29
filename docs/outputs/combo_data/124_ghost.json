@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra de Hielo",
+  "lore": "Jynx, ahora envuelta en una niebla etérea, despliega cabello plateado que fluye como hielo líquido. Sus ojos brillan con una luz fantasmal, y su cuerpo emite un frío que helaría el alma.",
+  "moves": [
+    {
+      "name": "Susurro de la Niebla",
+      "desc": "Crea una niebla que reduce la precisión de los oponentes."
+    },
+    {
+      "name": "Alma Helada",
+      "desc": "Ataca con un frío que congela el alma del rival."
+    },
+    {
+      "name": "Espectro de Hielo",
+      "desc": "Crea una barrera de hielo que bloquea ataques físicos."
+    },
+    {
+      "name": "Viento Fantasma",
+      "desc": "Desplaza al oponente con un viento frío que lo hace perder equilibrio."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabello rubio largo",
+      "to": "Cabello plateado que fluye como hielo líquido"
+    },
+    {
+      "from": "Ojos brillantes",
+      "to": "Ojos que brillan con luz fantasmal"
+    },
+    {
+      "from": "Frio característico",
+      "to": "Frio que helaría el alma"
+    },
+    {
+      "from": "Estructura corporal",
+      "to": "Cuerpo envuelto en niebla etérea"
+    }
+  ],
+  "pokemon_id": "124",
+  "target_type": "ghost"
+}

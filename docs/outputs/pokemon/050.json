@@ -1,0 +1,43 @@
+{
+  "identity_traits": [
+    "burrowing creature silhouette",
+    "small size (10 cm height)",
+    "two visible clawed forelimbs",
+    "no visible hind limbs",
+    "dull brown body coloration",
+    "narrow, elongated head shape"
+  ],
+  "original_type_traits": [
+    "dull brown earthy color palette",
+    "burrowing tunneling posture",
+    "subterranean soil texture on body",
+    "muddy ground effect around base"
+  ],
+  "transformable_parts": [
+    "body coloration",
+    "head shape",
+    "claw texture",
+    "body texture (soil vs. smooth)",
+    "base ground effect",
+    "head tuft (if present)"
+  ],
+  "suppress_colors": [
+    "dull brown",
+    "muddy gray",
+    "soil beige",
+    "dirt brown"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs on ground, low crawling stance",
+    "two clawed forelimbs extended forward, no hind limbs visible",
+    "narrow elongated head with small eyes"
+  ],
+  "pokemon_id": "050",
+  "pokemon_name": "diglett",
+  "original_types": [
+    "ground"
+  ],
+  "visual_facts": {
+    "urls\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n [{": ">×</伢\n [{"
+  }
+}

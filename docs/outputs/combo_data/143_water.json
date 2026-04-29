@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Este Snorlax acuático despliega una capa de agua en su piel, transformando su pelaje en un manto brillante. Sus ojos pequeños ahora brillan con reflejos azules, mientras su cuerpo redondo se adapta para flotar en el agua.",
+  "moves": [
+    {
+      "name": "Burbuja Serena",
+      "desc": "Lanza burbujas que envuelven al rival, reduciendo su velocidad durante el combate."
+    },
+    {
+      "name": "Ola Dormida",
+      "desc": "Crea una ola que envuelve al enemigo, dejándolo adormilado por un turno."
+    },
+    {
+      "name": "Chorro de Sal",
+      "desc": "Dispara un chorro salino que quema la piel del oponente."
+    },
+    {
+      "name": "Cascada Soñolienta",
+      "desc": "Genera una cascada que reduce el ataque del rival y lo adormece."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondo y peludo",
+      "to": "Cuerpo redondo con una capa de agua que brilla, adaptado para flotar"
+    },
+    {
+      "from": "Ojos pequeños y oscuros",
+      "to": "Ojos pequeños con reflejos azules brillantes"
+    },
+    {
+      "from": "Pelaje suave y terroso",
+      "to": "Pelaje transformado en manto acuático brillante"
+    },
+    {
+      "from": "Movimientos lentos y pesados",
+      "to": "Movimientos fluidos y adaptados para el agua, con mayor agilidad"
+    }
+  ],
+  "pokemon_id": "143",
+  "target_type": "water"
+}

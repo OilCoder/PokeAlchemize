@@ -1,0 +1,61 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "compact dragon-like body silhouette",
+    "short stubby legs",
+    "curled tail tip",
+    "wings with a distinct curved edge"
+  ],
+  "original_type_traits": [
+    "wings with a translucent, insect-like membrane",
+    "curled tail tip with a pale cream coloration",
+    "bright green body coloration typical of bug-type Pokémon",
+    "pale cream accents on head and legs"
+  ],
+  "transformable_parts": [
+    "wings",
+    "tail tip",
+    "leg shape",
+    "head shape",
+    "body texture",
+    "color accents"
+  ],
+  "suppress_colors": [
+    "bright green",
+    "pale cream accents",
+    "translucent wing membrane color"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "pointed ears on rounded head, pale cream accents on head and legs",
+    "curled spiral tail tip with distinct curved edge"
+  ],
+  "pokemon_id": "123",
+  "pokemon_name": "scyther",
+  "original_types": [
+    "bug",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright green",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "pointed ears",
+      "short stubby legs",
+      "curled tail tip",
+      "wings"
+    ],
+    "silhouette": "The creature has a compact, dragon-like body with a slightly elongated torso and short legs, featuring a pair of wings and a curled tail tip.",
+    "type_markers": [
+      "wings",
+      "curled tail tip"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "pale cream accents"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Roca",
+  "lore": "Geodude, ahora con una armadura de acero pulido, resplandece bajo el sol. Su cabeza redondeada brilla con reflejos metálicos, y sus movimientos son precisos y poderosos.",
+  "moves": [
+    {
+      "name": "Acero Corte",
+      "desc": "Corta con una hoja de acero que emite destellos brillantes."
+    },
+    {
+      "name": "Martillo de Acero",
+      "desc": "Golpea con un martillo de acero que incrementa el daño."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo protector de acero que reduce el daño recibido."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan a los enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada con superficie de piedra lisa",
+      "to": "cabeza redondeada con superficie de acero pulido"
+    },
+    {
+      "from": "movimientos lentos y pesados",
+      "to": "movimientos precisos y rápidos"
+    },
+    {
+      "from": "resistencia a golpes",
+      "to": "resistencia a golpes y proyectiles"
+    },
+    {
+      "from": "poco resistente a fuego",
+      "to": "resistencia a fuego y corrosión"
+    }
+  ],
+  "pokemon_id": "074",
+  "target_type": "steel"
+}

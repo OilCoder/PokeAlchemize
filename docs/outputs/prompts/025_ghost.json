@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Pikachu ghost type, quadruped, four legs planted on ground, low crawling stance, pointed ears on rounded head, dark brown cheek patches, curled tail tip with pale cream underside. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Cheek voids: hollow shadowy sockets filled with swirling crimson mist and ghostly white energy currents. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "yellow body, dark brown cheeks, curled tail tip, electric discharge tail, pale cream accents, bright yellow, dark brown, pale cream, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "025",
+  "pokemon_name": "pikachu",
+  "target_type": "ghost"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Vileplume steel type, quadruped, four legs planted on ground, low stance, large mushroom cap on head, textured surface, curled tail tip, pink color. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Mushroom cap: polished steel with engraved geometric patterns and glowing blue energy lines. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "pink head spots, white mushroom cap, dark blue body texture, grass-type leaf patterns, poison-tinted cap, pink, white spots, dark blue, forest green, sunlit yellow-green, mossy brown, petal pink, dewdrop white, toxic green, deep purple, acid yellow, blood red, sludge brown, gentle pollen glow, dewdrop condensation, slow-growing vine tendrils, petal flutter, soft green light, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "045",
+  "pokemon_name": "vileplume",
+  "target_type": "steel"
+}

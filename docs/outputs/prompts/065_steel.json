@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Alakazam steel type, bipedal, upright stance, arms at sides, pointed ears, curved upward at tips, curled tail tip, pale cream color. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Head plating: gunmetal gray steel with engraved geometric patterns and subtle indigo energy lines. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "bright yellow body, dark brown markings, psychic energy aura, yellow psychic glow, brown psychic pattern, bright yellow, dark brown, psychic energy aura, violet mist, lilac shimmer, pale lavender, silver glow, soft white, soft rippling aura, subtle energy distortions, glowing, star-like patterns, shimmering particles, gentle pulsing light from the third eye",
+  "pokemon_id": "065",
+  "pokemon_name": "alakazam",
+  "target_type": "steel"
+}

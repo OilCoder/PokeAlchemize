@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Oceánico Veneno",
+  "lore": "Nidoking, ahora envuelto en olas de agua, posee una cola espiral con punta morada brillante que emite burbujas de veneno. Sus escamas terrosas se han convertido en un manto acuático que brilla bajo el agua.",
+  "moves": [
+    {
+      "name": "Ola Venenosa",
+      "desc": "Lanza una ola que infecta al enemigo con veneno, causando daño por turnos."
+    },
+    {
+      "name": "Burbuja Tóxica",
+      "desc": "Crea burbujas tóxicas que retrasan al rival y reducen su velocidad."
+    },
+    {
+      "name": "Marea Venenosa",
+      "desc": "Genera una marea que reduce la defensa del oponente y lo envenena."
+    },
+    {
+      "name": "Caudal Venenoso",
+      "desc": "Un torrente de agua tóxica que causa daño continuo y envenena al objetivo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiral con punta morada",
+      "to": "cola espiral con punta morada brillante que emite burbujas de veneno"
+    },
+    {
+      "from": "escamas terrosas",
+      "to": "manto acuático que brilla bajo el agua"
+    },
+    {
+      "from": "tipo poison/ground",
+      "to": "tipo water con veneno acumulado en sus movimientos"
+    },
+    {
+      "from": "movimientos terrestres",
+      "to": "movimientos acuáticos que combinan veneno y agua"
+    }
+  ],
+  "pokemon_id": "034",
+  "target_type": "water"
+}

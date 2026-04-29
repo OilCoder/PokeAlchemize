@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Porygon steel type, quadruped, four legs planted on ground, low stance, single large eye centered on head, geometric blocky body with sharp edges. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Single eye: glowing cobalt energy lens with precise geometric engraving. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "light blue body, dark red accents, pink highlights, translucent blue texture, red-tinted limbs, pinkish glow, blue-hued joints, red-painted segments, pinkish shimmer, light blue, dark red, pink, soft beige, warm tan, pale cream, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles, soft motion blur, warm light reflection",
+  "pokemon_id": "137",
+  "pokemon_name": "porygon",
+  "target_type": "steel"
+}

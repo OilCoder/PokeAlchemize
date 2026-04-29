@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Espectral",
+  "lore": "Este Ditto es un espectro etéreo que flota sin forma definida. Su cuerpo translúcido se desvanece en la oscuridad, con ojos brillantes que emiten un brillo azulado. Su presencia causa escalofríos en los que la sombra se hace real.",
+  "moves": [
+    {
+      "name": "Sombra Difusa",
+      "desc": "Genera una sombra que absorbe la luz, reduciendo la precisión del oponente."
+    },
+    {
+      "name": "Espectro de Miedo",
+      "desc": "Inflige daño y causa miedo temporal en el oponente."
+    },
+    {
+      "name": "Fugaz Eclipsado",
+      "desc": "Se desvanece y reaparece en un lugar aleatorio, evitando ataques."
+    },
+    {
+      "name": "Cuerpo Sombrío",
+      "desc": "Aumenta la defensa al fusionarse con la oscuridad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondeado sin extremidades",
+      "to": "Cuerpo translúcido y difuso con ojos brillantes"
+    },
+    {
+      "from": "No posee habilidades especiales",
+      "to": "Genera sombras y absorbe luz"
+    },
+    {
+      "from": "Se transforma en otros Pokémon",
+      "to": "Se funde con la oscuridad para evitar ser visto"
+    },
+    {
+      "from": "No tiene tipo de combate",
+      "to": "Gana el tipo Fantasma y su presencia causa miedo."
+    }
+  ],
+  "pokemon_id": "132",
+  "target_type": "ghost"
+}

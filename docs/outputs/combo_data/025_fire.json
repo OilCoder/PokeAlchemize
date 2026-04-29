@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Pikachu, ahora con orejas afiladas y puntas en llamas, genera chispas eléctricas que se convierten en llamas al tocar el aire. Sus mejillas brillan con un resplandor anaranjado mientras libera ondas de calor en cada movimiento.",
+  "moves": [
+    {
+      "name": "Chispa de Fuego",
+      "desc": "Dispara chispas que se transforman en llamas al impactar, causando daño adicional por fuego."
+    },
+    {
+      "name": "Relámpago Ardiente",
+      "desc": "Ataca con un rayo que consume el aire, generando una explosión de llama al llegar al objetivo."
+    },
+    {
+      "name": "Ráfaga Luminosa",
+      "desc": "Crea una ráfaga de energía que quema y ciega al oponente con destellos brillantes."
+    },
+    {
+      "name": "Bola de Llama Eléctrica",
+      "desc": "Lanza una bola que combina chispas y llamas, causando daño doble por electricidad y fuego."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas con puntas en llamas que emiten chispas eléctricas"
+    },
+    {
+      "from": "mejillas rojas",
+      "to": "mejillas brillantes con resplandor anaranjado de llama"
+    },
+    {
+      "from": "cuerpo pequeño",
+      "to": "cuerpo rodeado de ondas de calor que queman el aire a su alrededor"
+    },
+    {
+      "from": "movimientos eléctricos",
+      "to": "movimientos que combinan chispas y llamas para causar daño dual"
+    }
+  ],
+  "pokemon_id": "025",
+  "target_type": "fire"
+}

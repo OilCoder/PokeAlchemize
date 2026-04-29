@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Machamp steel type, quadruped, four legs planted on ground, low stance, pointed ears, sharp triangular shape, positioned high on head, curled tail tip, spiral curl, dark gray tip. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Left arm plating: interlocking steel gears embedded in matte gunmetal with glowing indigo energy conduits. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "gray muscle definition, dark gray accents, fighting-type aggressive stance, muscular limb structure, orange fighting-type aura, gray, dark gray accents, muscle definition highlights, burnt sienna, ochre, deep rust, crimson, charcoal gray, dust clouds rising from impact points, cracked earth textures, visible energy aura glowing at contact points, subtle tremors in the ground, dust and debris kicked up in motion",
+  "pokemon_id": "068",
+  "pokemon_name": "machamp",
+  "target_type": "steel"
+}

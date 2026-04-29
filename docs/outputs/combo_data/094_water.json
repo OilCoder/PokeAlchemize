@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Acuática",
+  "lore": "Gengar, ahora envuelto en niebla marina, emite destellos azules desde sus ojos. Sus orejas puntiagudas brillan como cristales bajo el agua, y su cuerpo translúcido se adapta a las corrientes oceánicas.",
+  "moves": [
+    {
+      "name": "Ola Sombria",
+      "desc": "Genera una ola oscura que ralentiza al oponente y lo envuelve en una neblina acuosa."
+    },
+    {
+      "name": "Luz de Mar",
+      "desc": "Emite un destello azul que ciega al rival y revela sus debilidades en el agua."
+    },
+    {
+      "name": "Burbujas Siniestras",
+      "desc": "Lanza burbujas llenas de veneno que explotan en contacto, causando daño y envenenamiento."
+    },
+    {
+      "name": "Viento de Profundidad",
+      "desc": "Crea un torbellino acuático que eleva al oponente y lo somete a un ataque crítico."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "brillan como cristales bajo el agua"
+    },
+    {
+      "from": "cuerpo translúcido",
+      "to": "se adapta a las corrientes oceánicas"
+    },
+    {
+      "from": "niebla oscura",
+      "to": "envuelve al oponente en neblina acuosa"
+    },
+    {
+      "from": "veneno",
+      "to": "se mezcla con burbujas acuáticas"
+    }
+  ],
+  "pokemon_id": "094",
+  "target_type": "water"
+}

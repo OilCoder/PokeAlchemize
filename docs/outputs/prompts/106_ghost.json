@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Hitmonlee ghost type, quadruped, four legs planted on ground, low stance, curled spiral tail tip, small rounded head with pointed ears, pale cream limb accents, compact rounded body silhouette. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Tail tip: tattered wisps of shadowy vapour trailing ghostly crimson mist. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "gray body color, pale cream limb accents, dark gray shading, original gray texture, cream-colored limbs, grayish skin tone, gray, pale cream, dark gray, burnt sienna, ochre, deep rust, crimson, charcoal gray, dust clouds rising from impact points, cracked earth textures, visible energy aura glowing at contact points, subtle tremors in the ground, dust and debris kicked up in motion",
+  "pokemon_id": "106",
+  "pokemon_name": "hitmonlee",
+  "target_type": "ghost"
+}

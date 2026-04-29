@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Dulce Llena",
+  "lore": "Dulce Llena, con su cabeza redonda y ojos oscuros, ahora brilla con un aura de hada. Sus mejillas emiten destellos dorados, y su piel suave se cubre de pétalos brillantes. Este transformado es una suave tentación para el mundo.",
+  "moves": [
+    {
+      "name": "Caramelo Mágico",
+      "desc": "Lanza dulces que curan y generan un aura protectora alrededor del Pokémon."
+    },
+    {
+      "name": "Pétalo de Sueño",
+      "desc": "Cubre al oponente con pétalos que inducen un sueño profundo."
+    },
+    {
+      "name": "Brillo de Hada",
+      "desc": "Aumenta la defensa y velocidad con un resplandor mágico."
+    },
+    {
+      "name": "Beso de Estrellas",
+      "desc": "Un beso que restaura salud y llena de energía mágica."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo redondo",
+      "to": "cubierta de pétalos brillantes y destellos dorados"
+    },
+    {
+      "from": "ojos pequeños y oscuros",
+      "to": "resplandor mágico en los ojos que brilla suavemente"
+    },
+    {
+      "from": "piel gruesa",
+      "to": "piel suave y brillante como cristal"
+    },
+    {
+      "from": "habilidad de dormir",
+      "to": "capaz de inducir sueños profundos en oponentes con su aura."
+    }
+  ],
+  "pokemon_id": "143",
+  "target_type": "fairy"
+}

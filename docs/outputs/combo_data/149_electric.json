@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Dragón",
+  "lore": "Relámpago Dragón irradia energía eléctrica en sus cuernos curvos, que brillan con chispas azules. Su piel escamosa absorbe y libera descargas, mientras sus alas generan vientos cargados de estática.",
+  "moves": [
+    {
+      "name": "Chispa Estelar",
+      "desc": "Lanza un relámpago que despierta la energía interna del oponente, causando daño eléctrico y aumentando su velocidad."
+    },
+    {
+      "name": "Ala de Centella",
+      "desc": "Ataca con ráfagas de energía estática que dañan y confunden al rival, generando cortocircuitos en su armadura."
+    },
+    {
+      "name": "Tormenta Electrónica",
+      "desc": "Crea una tempestad de chispas alrededor del campo, reduciendo la precisión de todos los movimientos del enemigo."
+    },
+    {
+      "name": "Rayo Dragón",
+      "desc": "Un ataque poderoso que combina fuerza draconica con descargas eléctricas, causando daño crítico."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuernos curvos",
+      "to": "brillan con chispas azules y emiten descargas eléctricas"
+    },
+    {
+      "from": "piel escamosa",
+      "to": "absorbe y libera energía eléctrica"
+    },
+    {
+      "from": "alas",
+      "to": "generan vientos cargados de estática"
+    },
+    {
+      "from": "movimientos de aire",
+      "to": "transformados en descargas eléctricas"
+    }
+  ],
+  "pokemon_id": "149",
+  "target_type": "electric"
+}

@@ -1,0 +1,56 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby limbs",
+    "compact body silhouette",
+    "stone-like texture",
+    "fist-like arms"
+  ],
+  "original_type_traits": [
+    "rocky texture on body",
+    "gray coloration",
+    "stony head and body composition"
+  ],
+  "transformable_parts": [
+    "body texture",
+    "head shape",
+    "limb details",
+    "arm shape",
+    "color palette",
+    "surface details"
+  ],
+  "suppress_colors": [
+    "gray",
+    "stone gray",
+    "rocky beige"
+  ],
+  "anchor_phrases": [
+    "quadruped, four short legs planted firmly on ground, compact low stance",
+    "stone-like texture on body surface",
+    "fist-like arms with rounded knuckles"
+  ],
+  "pokemon_id": "074",
+  "pokemon_name": "geodude",
+  "original_types": [
+    "rock",
+    "ground"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "gray"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "fist-like arms"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with short limbs and a head that appears to be a rock or stone.",
+    "type_markers": [
+      "rocky texture on body"
+    ],
+    "distinctive_features": [
+      "stone-like texture",
+      "fist-like arms"
+    ]
+  }
+}

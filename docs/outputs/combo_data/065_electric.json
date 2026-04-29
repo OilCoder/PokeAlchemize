@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Alakazam ahora irradia chispas eléctricas en su cabeza redonda, sus garras afiladas brillan con energía estática. Su mente psíquica se fusiona con descargas eléctricas, creando un aura de poder inigualable.",
+  "moves": [
+    {
+      "name": "Chispa Mental",
+      "desc": "Lanza ondas eléctricas que confunden al rival con una descarga psíquica."
+    },
+    {
+      "name": "Descarga Psíquica",
+      "desc": "Genera una descarga eléctrica que afecta múltiples objetivos al mismo tiempo."
+    },
+    {
+      "name": "Relámpago Mental",
+      "desc": "Ataca con un rayo de energía mental que quema al oponente."
+    },
+    {
+      "name": "Estática Psíquica",
+      "desc": "Crea una zona de energía estática que reduce la velocidad del enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "irradia chispas eléctricas"
+    },
+    {
+      "from": "garras afiladas",
+      "to": "brillan con energía estática"
+    },
+    {
+      "from": "mente psíquica",
+      "to": "fusionada con descargas eléctricas"
+    },
+    {
+      "from": "aura de poder",
+      "to": "inigualable con energía eléctrica"
+    }
+  ],
+  "pokemon_id": "065",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Ola Mística",
+  "lore": "Ola Mística emana un aura acuosa que transforma sus gestos en olas fluidas. Su patrón circular en el pecho brilla con reflejos de agua, y sus manos dibujan espirales que generan remolinos mágicos.",
+  "moves": [
+    {
+      "name": "Ola Mental",
+      "desc": "Crea olas de energía psíquica que desorientan al oponente con reflejos acuosos."
+    },
+    {
+      "name": "Espejo de Mar",
+      "desc": "Genera un espejo acuático que duplica el ataque del rival en su propia dirección."
+    },
+    {
+      "name": "Marea Psíquica",
+      "desc": "Envuelve al oponente en una marea de energía psíquica que reduce su velocidad."
+    },
+    {
+      "name": "Círculo de Agua",
+      "desc": "Forma un círculo de agua alrededor de sí mismo para bloquear ataques."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Patrón circular en el pecho",
+      "to": "Brilla con reflejos de agua y genera remolinos al moverse"
+    },
+    {
+      "from": "Manos que dibujan gestos",
+      "to": "Dibujan espirales que generan olas acuáticas"
+    },
+    {
+      "from": "Aurora psíquica",
+      "to": "Se transforma en una aura acuosa que refleja la magia"
+    },
+    {
+      "from": "Efecto de ilusión",
+      "to": "Crea ilusiones de olas que confunden al enemigo"
+    }
+  ],
+  "pokemon_id": "122",
+  "target_type": "water"
+}

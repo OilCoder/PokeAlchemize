@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Feroz",
+  "lore": "Machamp, ahora con llamas en sus brazos, arde con furia. Su cabeza redonda se cubre de llamas, y sus orejas puntiagudas brillan al rojo. Cada movimiento libera calor abrasador.",
+  "moves": [
+    {
+      "name": "Llamarada Feroz",
+      "desc": "Ataca con llamas intensas que queman el suelo, causando daño adicional a los oponentes."
+    },
+    {
+      "name": "Golpe de Fuego",
+      "desc": "Un puñetazo ardiente que quema al rival y aumenta la velocidad del usuario."
+    },
+    {
+      "name": "Furia Llameante",
+      "desc": "Un ataque rápido que incrementa el daño con cada golpe consecutivo."
+    },
+    {
+      "name": "Incendio Total",
+      "desc": "Lanza una ola de llamas que afecta a todos los enemigos en el campo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cubierta de llamas que brillan al rojo"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "brillan intensamente con el calor del fuego"
+    },
+    {
+      "from": "brazos fuertes",
+      "to": "llameantes y capaces de lanzar fuego en combate"
+    },
+    {
+      "from": "postura agresiva",
+      "to": "envuelta en llamas que aumentan su furia"
+    }
+  ],
+  "pokemon_id": "068",
+  "target_type": "fire"
+}

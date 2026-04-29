@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Porygon electric type, quadruped, four legs planted on ground, low stance, single large eye centered on head, geometric blocky body with sharp edges. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Spine: jagged lightning-bolt shaped spines with glowing neon green circuit patterns. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "light blue body color, dark red accents, pink highlights, electric-blue texture, red-pink shimmer, original-type metallic sheen, blue-tinted limbs, red-accented joints, pink-glowing details, light blue, dark red, pink, soft beige, warm tan, pale cream, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles floating in air, soft motion blur on movement, warm light reflection on skin",
+  "pokemon_id": "137",
+  "pokemon_name": "porygon",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Descarga Floral",
+  "lore": "Descarga Floral emana destellos eléctricos desde su cabeza redonda, sus pétalos brillan con chispas azules. Sus ojos cerrados brillan con energía eléctrica, irradiando calma y poder en cada movimiento.",
+  "moves": [
+    {
+      "name": "Chispa Petalo",
+      "desc": "Dispara chispas de pétalos que causan parálisis al contacto."
+    },
+    {
+      "name": "Electroflor",
+      "desc": "Crea una cortina de electricidad floral que daña y debilita a los oponentes."
+    },
+    {
+      "name": "Relámpago de Raíces",
+      "desc": "Ataca con raíces eléctricas que atrapan y electrocutan al rival."
+    },
+    {
+      "name": "Carga Floral",
+      "desc": "Aumenta su velocidad y daña con una descarga floral en movimiento."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda con ojos cerrados",
+      "to": "cabeza redonda con destellos eléctricos y ojos brillantes de energía"
+    },
+    {
+      "from": "pétalos verdes",
+      "to": "pétalos brillantes con chispas azules que resplandecen al moverse"
+    },
+    {
+      "from": "olfato dulce",
+      "to": "aroma cargado de electricidad que atrae a los oponentes"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos rápidos y eléctricos que paralizan al enemigo"
+    }
+  ],
+  "pokemon_id": "043",
+  "target_type": "electric"
+}

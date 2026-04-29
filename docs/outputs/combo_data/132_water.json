@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua de Espejo",
+  "lore": "Un espejo líquido que refleja su entorno con ondas cristalinas. Su cuerpo translúcido se adapta a cualquier forma, pero ahora emana un brillo azul intenso bajo el agua.",
+  "moves": [
+    {
+      "name": "Ola Espejo",
+      "desc": "Crea una ola que refleja el movimiento del oponente, duplicando su ataque temporalmente."
+    },
+    {
+      "name": "Resplandor Acuático",
+      "desc": "Aumenta la velocidad de movimiento y ataque con un brillo que ciega al enemigo."
+    },
+    {
+      "name": "Forma Fluida",
+      "desc": "Se adapta a la forma del oponente, reduciendo su resistencia a ataques de agua."
+    },
+    {
+      "name": "Pulso Oceánico",
+      "desc": "Envía un pulso de energía acuática que debilita los ataques de fuego."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondeado sin extremidades",
+      "to": "Cuerpo translúcido con ondas que forman líneas fluidas como el agua."
+    },
+    {
+      "from": "Capacidad de imitar formas",
+      "to": "Ahora imita formas con reflejos acuáticos que cambian según el entorno."
+    },
+    {
+      "from": "Sin rasgos distintivos",
+      "to": "Brilla con un azul intenso que resplandece bajo el agua."
+    },
+    {
+      "from": "No tiene habilidades especiales",
+      "to": "Puede manipular el agua para crear reflejos y debilitar ataques de fuego."
+    }
+  ],
+  "pokemon_id": "132",
+  "target_type": "water"
+}

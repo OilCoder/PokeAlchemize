@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Jigglypuff, ahora transformado en Llama Marina, arde con llamas azules en sus ojos negros. Su cuerpo redondo se cubre de escamas brillantes que emiten calor. Canta canciones que inflaman el alma con cada nota.",
+  "moves": [
+    {
+      "name": "Canto de Fuego",
+      "desc": "Canta una melodía que lanza llamas azules que queman el corazón del oponente."
+    },
+    {
+      "name": "Burbuja Incandescente",
+      "desc": "Lanza burbujas que estallan en llamas al tocar el suelo."
+    },
+    {
+      "name": "Sueño Ardiente",
+      "desc": "Crea un sueño que envuelve al oponente en una nube de fuego."
+    },
+    {
+      "name": "Vibración de Llama",
+      "desc": "Genera vibraciones que emiten calor intenso alrededor."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos redondos con pupilas negras",
+      "to": "ojos negros con llamas azules que brillan intensamente"
+    },
+    {
+      "from": "cuerpo redondo y suave",
+      "to": "cuerpo redondo cubierto de escamas brillantes y calientes"
+    },
+    {
+      "from": "voz dulce para hipnotizar",
+      "to": "canto que quema el corazón con melodías ardientes"
+    },
+    {
+      "from": "vive en prados tranquilos",
+      "to": "reside en volcanes activos, rodeado de lava brillante"
+    }
+  ],
+  "pokemon_id": "039",
+  "target_type": "fire"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Machamp ghost type, quadruped, four legs planted on ground, low stance, pointed ears, sharp triangular shape, positioned high on head, curled tail tip, spiral curl, dark gray tip. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Hollow eye sockets: swirling crimson mist with ghostly white energy currents. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "gray muscle definition, dark gray accent highlights, aggressive stance posture, fighting-type muscular structure, orange fighting-tinted limbs, gray, dark gray accents, muscle definition highlights, burnt sienna, ochre, deep rust, crimson, charcoal gray, dust clouds, cracked earth textures, energy aura glowing, ground tremors, dust and debris",
+  "pokemon_id": "068",
+  "pokemon_name": "machamp",
+  "target_type": "ghost"
+}

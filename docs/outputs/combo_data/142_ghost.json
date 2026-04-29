@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Rocoso",
+  "lore": "El Aerodactyl fantasmal flota en el aire, sus huesos translúcidos brillando con una luz azulada. Sus puntiagudas orejas resuenan con susurros ancestrales, mientras sus alas de hueso emiten un frío invernal.",
+  "moves": [
+    {
+      "name": "Ala de Sombras",
+      "desc": "Ataca con alas de sombra que ralentizan al oponente."
+    },
+    {
+      "name": "Susurro Antiguo",
+      "desc": "Desata un aura de miedo que reduce la defensa del rival."
+    },
+    {
+      "name": "Hueso Fantasmal",
+      "desc": "Lanza un hueso que atraviesa la defensa del oponente."
+    },
+    {
+      "name": "Viento de la Tumba",
+      "desc": "Genera un viento frío que quita puntos de vida."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo de hueso sólido",
+      "to": "cuerpo translúcido con brillo azulado"
+    },
+    {
+      "from": "alas de piel",
+      "to": "alas de hueso que emiten frío"
+    },
+    {
+      "from": "ojos brillantes",
+      "to": "ojos que brillan con luz azul"
+    },
+    {
+      "from": "sonidos de grito",
+      "to": "susurros ancestrales en el aire"
+    }
+  ],
+  "pokemon_id": "142",
+  "target_type": "ghost"
+}

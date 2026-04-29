@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua de Roca",
+  "lore": "El Pokémon Agua de Roca emerge de pozos profundos, su superficie lisa gotea con cada paso. Su cuerpo rocoso ahora absorbe el agua, convirtiendo el agua en un escudo brillante que refleja el cielo.",
+  "moves": [
+    {
+      "name": "Ola de Piedra",
+      "desc": "Lanza una ola de agua que solidifica en piedras afiladas al impactar."
+    },
+    {
+      "name": "Resplandor Acuático",
+      "desc": "Emite un brillo que refleja el agua, cegando a los enemigos."
+    },
+    {
+      "name": "Cascada Roca",
+      "desc": "Crea una cascada que desciende desde su cabeza, erosionando el suelo."
+    },
+    {
+      "name": "Marea de Lodo",
+      "desc": "Genera una marea de lodo que envuelve al oponente, reduciendo su movilidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Superficie lisa de piedra",
+      "to": "Superficie lisa que absorbe agua, formando un escudo brillante."
+    },
+    {
+      "from": "Cuerpo compacto y pesado",
+      "to": "Cuerpo más ligero gracias al agua que lo rodea."
+    },
+    {
+      "from": "Resistencia a golpes físicos",
+      "to": "Resistencia a golpes físicos, pero vulnerable a ataques eléctricos."
+    },
+    {
+      "from": "Movilidad lenta",
+      "to": "Movilidad mejorada al deslizarse sobre el agua."
+    }
+  ],
+  "pokemon_id": "074",
+  "target_type": "water"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Lleno",
+  "lore": "Con su cabeza redonda ahora cargada de energía eléctrica, sus pequeños ojos brillan con chispas. Su piel llena de circuitos suaves emite destellos al moverse, cargando el aire con tensión estática.",
+  "moves": [
+    {
+      "name": "Descarga Relámpago",
+      "desc": "Descarga una ráfaga de energía eléctrica que paraliza al enemigo con una descarga intensa."
+    },
+    {
+      "name": "Bola de Chispas",
+      "desc": "Lanza una bola de chispas que explota en múltiples destellos al impactar."
+    },
+    {
+      "name": "Carga Estática",
+      "desc": "Aumenta la defensa al absorber energía eléctrica del entorno."
+    },
+    {
+      "name": "Sueño Eléctrico",
+      "desc": "Crea un sueño eléctrico que reduce la velocidad del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo redondo",
+      "to": "cuerpo cubierto de circuitos brillantes que emiten chispas"
+    },
+    {
+      "from": "ojos pequeños",
+      "to": "ojos que brillan con destellos eléctricos"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel con patrones de energía estática que paralizan al tocar"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos rápidos y eléctricos que generan chispas"
+    }
+  ],
+  "pokemon_id": "143",
+  "target_type": "electric"
+}

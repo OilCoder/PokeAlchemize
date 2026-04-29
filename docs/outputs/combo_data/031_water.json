@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Oceánica de Nidoqueen",
+  "lore": "Nidoqueen, ahora envuelta en olas cristalinas, tiene una cabeza redondeada con orejas puntiagudas que brillan bajo el agua. Su piel se ha vuelto suave y esmeralda, absorbiendo la energía del océano.",
+  "moves": [
+    {
+      "name": "Ola de Seda",
+      "desc": "Crea una ola suave que envuelve al oponente, reduciendo su velocidad y drenando energía."
+    },
+    {
+      "name": "Cristal de Mar",
+      "desc": "Genera cristales de agua que flotan y atacan con precisión, causando daño por impacto."
+    },
+    {
+      "name": "Respiración Marítima",
+      "desc": "Inhala agua para lanzar un chorro que cura y refuerza el cuerpo del Pokémon."
+    },
+    {
+      "name": "Marea Profunda",
+      "desc": "Genera una marea que atrapa al oponente y lo sumerge en un torbellino de agua."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redondeada",
+      "to": "Cabeza redondeada con reflejos acuáticos brillantes"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas puntiagudas que emiten destellos de luz bajo el agua"
+    },
+    {
+      "from": "Piel áspera",
+      "to": "Piel suave y esmeralda, adaptada a la vida acuática"
+    },
+    {
+      "from": "Movimientos terrestres",
+      "to": "Movimientos acuáticos que manipulan el agua y las olas"
+    }
+  ],
+  "pokemon_id": "031",
+  "target_type": "water"
+}

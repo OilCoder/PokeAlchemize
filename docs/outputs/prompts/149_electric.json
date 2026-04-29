@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Dragonite electric type, quadruped, four legs planted on ground, low stance, pointed horns protruding from rounded head, long tail with sharp tip extending backward. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Spine spines: jagged lightning-bolt shaped spines in vibrant yellow with neon green energy trails. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "dragon-scale texture on wings, bright orange horns, long pointed tail tip, white wing membrane, orange flame tail, bright orange, white, dragon-scale texture, deep sapphire blue, violet twilight, obsidian black, golden amber, crimson flame, sky blue, pure white, ivory, azure, pale gold, glowing energy auras, crystalline frost patterns, shimmering metallic reflections, slow-motion energy trails, light refraction through wing membranes, gentle wind currents, sunlight refraction, subtle shimmer on feathers, soft glow of sky light, dynamic motion blur",
+  "pokemon_id": "149",
+  "pokemon_name": "dragonite",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Cavernario",
+  "lore": "Nidoqueen, ahora envuelta en escamas de acero, camina con paso firme. Su cabeza redondeada se cubre con placas metálicas, mientras sus orejas puntiagudas brillan con reflejos fríos. El acero intensifica su resistencia y agilidad.",
+  "moves": [
+    {
+      "name": "Corte de Acero",
+      "desc": "Corta con garras afiladas que emiten destellos metálicos, causando daño físico."
+    },
+    {
+      "name": "Mordisco de Hierro",
+      "desc": "Muerde con fuerza de acero, elevando el ataque y causando daño físico."
+    },
+    {
+      "name": "Escudo de Caverna",
+      "desc": "Crea un escudo de acero que absorbe ataques y reduce el daño recibido."
+    },
+    {
+      "name": "Golpe de Cima",
+      "desc": "Salta y golpea desde lo alto, causando daño físico y aumentando la velocidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cubierta con placas metálicas brillantes"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "brillan con reflejos fríos de acero"
+    },
+    {
+      "from": "piel suave",
+      "to": "recubierta de escamas duras y resistentes"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "agilidad mejorada con paso firme y rápido"
+    }
+  ],
+  "pokemon_id": "031",
+  "target_type": "steel"
+}

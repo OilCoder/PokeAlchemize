@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Lanza Acero",
+  "lore": "Su cuerpo redondeado ahora está cubierto de escamas metálicas que brillan bajo el sol. Sus antenas negras se han vuelto afiladas y cortantes, emitiendo un ligero zumbido eléctrico al moverse.",
+  "moves": [
+    {
+      "name": "Lanza de Acero",
+      "desc": "Ataca con un disparo de agujas metálicas que se clavan en el objetivo con precisión."
+    },
+    {
+      "name": "Cortante Sónico",
+      "desc": "Genera ondas sonoras que cortan el aire y debilitan al enemigo."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que bloquea ataques físicos y reduce daño."
+    },
+    {
+      "name": "Impacto Magnético",
+      "desc": "Atrae al enemigo con un campo magnético antes de impactar."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo redondeado",
+      "to": "cubierto de escamas metálicas brillantes"
+    },
+    {
+      "from": "antenas negras",
+      "to": "afiladas y cortantes con zumbido eléctrico"
+    },
+    {
+      "from": "veneno en sus aguijones",
+      "to": "aguijones convertidos en punzantes hojas de acero"
+    },
+    {
+      "from": "movimientos de veneno",
+      "to": "ataques basados en fuerza física y magnetismo"
+    }
+  ],
+  "pokemon_id": "015",
+  "target_type": "steel"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua de Arena",
+  "lore": "Sandslash, ahora envuelto en olas cristalinas, tiene orejas puntiagudas con puntas redondeadas que brillan bajo el agua. Sus escamas se han vuelto escurridizas, absorbiendo el agua para crear un escudo protector.",
+  "moves": [
+    {
+      "name": "Ola de Arena",
+      "desc": "Lanza una ola de arena que se convierte en agua, enlenteciendo al oponente."
+    },
+    {
+      "name": "Cascada de Escamas",
+      "desc": "Cubre al oponente con escamas que reflejan luz, causando confusión."
+    },
+    {
+      "name": "Burbuja de Arena",
+      "desc": "Crea burbujas que atrapan al oponente, reduciendo su velocidad."
+    },
+    {
+      "name": "Marea de Escamas",
+      "desc": "Genera una marea que eleva al oponente y lo golpea con escamas afiladas."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas redondeadas brillantes bajo el agua"
+    },
+    {
+      "from": "escamas ásperas",
+      "to": "escamas escurridizas que absorben agua"
+    },
+    {
+      "from": "cuerpo terroso",
+      "to": "cuerpo envuelto en olas cristalinas"
+    },
+    {
+      "from": "movimientos de tierra",
+      "to": "movimientos que combinan arena y agua"
+    }
+  ],
+  "pokemon_id": "028",
+  "target_type": "water"
+}

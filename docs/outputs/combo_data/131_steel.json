@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Marina",
+  "lore": "Lapras, ahora cubierto de una armadura de acero pulido, camina con paso firme sobre el hielo. Su caparazón de piedra se ha transformado en placas metálicas que brillan bajo el sol, mientras que sus ojos emiten un destello azul eléctrico.",
+  "moves": [
+    {
+      "name": "Barrera de Acero",
+      "desc": "Crea una barrera metálica que refleja ataques y reduce daño recibido."
+    },
+    {
+      "name": "Golpe de Hielo",
+      "desc": "Ataca con un impacto de hielo congelado que ralentiza al rival."
+    },
+    {
+      "name": "Carga Magnética",
+      "desc": "Aumenta el ataque y velocidad mediante un campo magnético."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Genera un escudo que absorbe el daño y lo convierte en energía."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Caparazón de piedra con bordes afilados",
+      "to": "Placas metálicas pulidas y resistentes que brillan bajo el sol"
+    },
+    {
+      "from": "Piel blanca y fría",
+      "to": "Acero pulido que refleja la luz y emite destellos azules"
+    },
+    {
+      "from": "Movimientos acuáticos suaves",
+      "to": "Desplazamientos precisos con impacto metálico"
+    },
+    {
+      "from": "Habita en aguas frías",
+      "to": "Prefiere zonas de hielo acerado y minerales"
+    }
+  ],
+  "pokemon_id": "131",
+  "target_type": "steel"
+}

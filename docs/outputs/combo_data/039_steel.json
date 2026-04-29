@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Cantar",
+  "lore": "Su cuerpo de acero pulido refleja la luz, mientras sus ojos redondos brillan con una luz fría. El acero reemplaza su pelaje suave, creando un aura de elegancia y fuerza.",
+  "moves": [
+    {
+      "name": "Canto de Acero",
+      "desc": "Aumenta la defensa del usuario y reduce el daño recibido en un 20%."
+    },
+    {
+      "name": "Golpe de Círculo",
+      "desc": "Ataca con un círculo de acero giratorio que causa daño físico y reduce la velocidad del objetivo."
+    },
+    {
+      "name": "Resonancia de Acero",
+      "desc": "Causa daño especial y aumenta la precisión del usuario en un 15%."
+    },
+    {
+      "name": "Fusión de Acero",
+      "desc": "Combina el cuerpo del usuario con acero, aumentando la defensa y evitando el daño de estado."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "pelaje suave y esponjoso",
+      "to": "cuerpo de acero pulido y resistente"
+    },
+    {
+      "from": "ojos redondos con pupilas negras",
+      "to": "ojos brillantes con reflejos metálicos"
+    },
+    {
+      "from": "voz suave y melódica",
+      "to": "voz resonante y fría que corta el aire"
+    },
+    {
+      "from": "cuerpo pequeño y redondo",
+      "to": "cuerpo compacto y estructurado en forma de esfera de acero"
+    }
+  ],
+  "pokemon_id": "039",
+  "target_type": "steel"
+}

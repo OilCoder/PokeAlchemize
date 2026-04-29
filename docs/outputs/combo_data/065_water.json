@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua Mental",
+  "lore": "Alakazam, ahora con una capa de agua cristalina que cubre su cabeza redonda, sus garras afiladas brillan como cristales de hielo. Su mente se funde con el flujo del agua, generando pensamientos fluidos y profundos.",
+  "moves": [
+    {
+      "name": "Ola Psíquica",
+      "desc": "Envía una ola de energía psíquica que desorienta al oponente con imágenes de aguas profundas."
+    },
+    {
+      "name": "Burbuja Mental",
+      "desc": "Crea burbujas que absorben ataques psíquicos y los devuelven con mayor fuerza."
+    },
+    {
+      "name": "Cascada de Pensamientos",
+      "desc": "Lanza una cascada de pensamientos que incrementa el ataque del usuario y reduce el de los enemigos."
+    },
+    {
+      "name": "Nube de Agua",
+      "desc": "Genera una nube de agua que cubre el campo de batalla, ocultando la vista y reduciendo la precisión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cubierta por una capa de agua cristalina que refleja la mente"
+    },
+    {
+      "from": "garras afiladas",
+      "to": "brillan como cristales de hielo, cortando el agua con precisión"
+    },
+    {
+      "from": "energía psíquica",
+      "to": "fusionada con el flujo del agua, generando pensamientos fluidos"
+    },
+    {
+      "from": "movimientos psíquicos",
+      "to": "combinados con agua, creando efectos de inundación y calma"
+    }
+  ],
+  "pokemon_id": "065",
+  "target_type": "water"
+}

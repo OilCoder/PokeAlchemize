@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Pikachu water type, quadruped, four legs planted on ground, low crawling stance, pointed ears on rounded head, dark brown cheek patches, curled tail tip with pale cream underside. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Tail fin: pearly white fin with seafoam green edging and aquamarine glow. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "yellow body color, dark brown cheeks, curled tail tip, electric discharge texture, pale cream highlights, bright yellow, dark brown, pale cream, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "025",
+  "pokemon_name": "pikachu",
+  "target_type": "water"
+}

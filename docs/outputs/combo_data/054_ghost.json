@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Acuática",
+  "lore": "Psyduck, ahora envuelto en brumas etéreas, camina sobre el agua sin dejar huella. Su cola espiralada emana destellos fantasmales, y sus ojos brillan con un azul pálido que revela su naturaleza espectral.",
+  "moves": [
+    {
+      "name": "Sueño Espectral",
+      "desc": "Causa sueño al oponente con una onda de energía fantasmal que lo envuelve en sombras."
+    },
+    {
+      "name": "Ola Fantasmal",
+      "desc": "Ataca con una ola que absorbe la energía vital del oponente, reduciendo sus estadísticas."
+    },
+    {
+      "name": "Viento de la Sombra",
+      "desc": "Crea un viento que desorienta al oponente, reduciendo su precisión en combate."
+    },
+    {
+      "name": "Marea de Sombras",
+      "desc": "Genera una marea que cubre el campo de batalla, oscureciendo el entorno y reduciendo la visibilidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral",
+      "to": "cola emite destellos fantasmales que atrapan al enemigo en sombras"
+    },
+    {
+      "from": "ojos normales",
+      "to": "ojos brillan con un azul pálido que revela su naturaleza espectral"
+    },
+    {
+      "from": "piel acuática",
+      "to": "piel se vuelve translúcida, mostrando sombras en su interior"
+    },
+    {
+      "from": "movimientos de agua",
+      "to": "movimientos ahora absorben energía vital y generan sombras en lugar de agua"
+    }
+  ],
+  "pokemon_id": "054",
+  "target_type": "ghost"
+}

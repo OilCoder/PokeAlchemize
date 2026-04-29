@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Tóxica",
+  "lore": "El Chispa Tóxica emite chispas eléctricas de su símbolo de calavera en el pecho, transformando su veneno en energía eléctrica. Su cuerpo brillante y deslumbrante atrae a los rivales, pero su carga eléctrica es letal.",
+  "moves": [
+    {
+      "name": "Chispa Venenosa",
+      "desc": "Inyecta veneno eléctrico que debilita al oponente con una descarga."
+    },
+    {
+      "name": "Calavera Relampagueante",
+      "desc": "Lanza un rayo que forma un símbolo de calavera en el aire."
+    },
+    {
+      "name": "Descarga Tóxica",
+      "desc": "Genera una explosión de energía eléctrica con veneno que quema al rival."
+    },
+    {
+      "name": "Energía Corrosiva",
+      "desc": "Aumenta el daño eléctrico mientras reduce la defensa del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "símbolo de calavera en el pecho",
+      "to": "emite chispas eléctricas brillantes y deslumbrantes"
+    },
+    {
+      "from": "veneno tóxico",
+      "to": "convierte el veneno en energía eléctrica letal"
+    },
+    {
+      "from": "cuerpo grisáceo",
+      "to": "cambia a un tono plateado brillante con destellos eléctricos"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "adquiere movimientos rápidos y explosivos"
+    }
+  ],
+  "pokemon_id": "109",
+  "target_type": "electric"
+}

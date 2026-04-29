@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Dulce",
+  "lore": "El Pokémon Llama Dulce tiene una cola espiral con una punta esponjosa que brilla con destellos de luz de hada. Su pelaje, antes rojo, ahora tiene tonos rosados y dorados, irradiando calidez mágica. Sus ojos brillan con un brillo suave y amable.",
+  "moves": [
+    {
+      "name": "Canto de Caramelo",
+      "desc": "Canta una melodía que cura a aliados y reduce el daño recibido por un tiempo."
+    },
+    {
+      "name": "Beso de Luz",
+      "desc": "Ataca con un beso de luz que infunde alegría y cura pequeños daños."
+    },
+    {
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos brillantes que pueden causar confusión o curar."
+    },
+    {
+      "name": "Zarza de Sueños",
+      "desc": "Crea una barrera de espinas de sueño que protege a aliados."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiral con punta roja",
+      "to": "cola espiral con punta esponjosa y brillante"
+    },
+    {
+      "from": "pelaje rojo intenso",
+      "to": "pelaje rosado y dorado con destellos mágicos"
+    },
+    {
+      "from": "ojos amarillos brillantes",
+      "to": "ojos brillantes con un brillo suave y amable"
+    },
+    {
+      "from": "ataques de fuego",
+      "to": "ataques de hada que curan y protegen"
+    }
+  ],
+  "pokemon_id": "058",
+  "target_type": "fairy"
+}

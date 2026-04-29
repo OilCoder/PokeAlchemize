@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Blastoise ghost type, quadruped, four legs planted on ground, low crawling stance, large shell covering torso, smooth rounded edges, white band around neck, narrow and precise. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Shell: translucent obsidian with swirling crimson mist trapped within its depths. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "bright blue body, dark blue shell accents, white band, brown shell accents, water droplets on shell, blue water-like texture, aquatic shell patterns, glowing blue shell, watery tail, bright blue, dark blue, white band, brown accents, deep ocean blue, teal, pearly white, aquamarine glow, seafoam green, water droplets, submerged bubbles, gentle ripples, reflective surface, soft blue light",
+  "pokemon_id": "009",
+  "pokemon_name": "blastoise",
+  "target_type": "ghost"
+}

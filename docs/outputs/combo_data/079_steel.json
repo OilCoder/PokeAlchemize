@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Lanza Acero",
+  "lore": "Su mirada tranquila ahora brilla con un resplandor metálico, ojos redondos convertidos en espejos de acero que reflejan el mundo. Su cuerpo lento se ha endurecido, cubierto de escamas de acero que resonarán al moverse.",
+  "moves": [
+    {
+      "name": "Cascada de Acero",
+      "desc": "Lanza una ola de escamas afiladas que cortan el aire con precisión metálica."
+    },
+    {
+      "name": "Resonancia Mental",
+      "desc": "Genera ondas de sonido que resonarán en la mente del oponente, causando confusión."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo protector de acero que absorbe ataques físicos y reduce el daño."
+    },
+    {
+      "name": "Carga de Energía",
+      "desc": "Recarga energía acumulada para lanzar un ataque poderoso en el siguiente turno."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos redondos con pupilas negras",
+      "to": "ojos redondos con reflejo metálico que reflejan el entorno"
+    },
+    {
+      "from": "cuerpo blando y lento",
+      "to": "cuerpo endurecido con escamas de acero que resuenan al moverse"
+    },
+    {
+      "from": "movimientos lentos y distraídos",
+      "to": "movimientos precisos y metálicos que cortan el aire"
+    },
+    {
+      "from": "pensamientos lentos y confusos",
+      "to": "pensamientos claros y enfocados como un metal pulido"
+    }
+  ],
+  "pokemon_id": "079",
+  "target_type": "steel"
+}

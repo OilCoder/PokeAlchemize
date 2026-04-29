@@ -1,0 +1,60 @@
+{
+  "identity_traits": [
+    "rounded head with large mushroom cap",
+    "short stubby legs",
+    "pink body with white spots",
+    "curled tail tip",
+    "dark blue accents",
+    "compact rounded silhouette"
+  ],
+  "original_type_traits": [
+    "white spots on pink head (grass type marker)",
+    "mushroom cap on head (grass type marker)",
+    "dark blue body (poison type marker)"
+  ],
+  "transformable_parts": [
+    "mushroom cap on head",
+    "white spots on head",
+    "pink body color",
+    "curled tail tip",
+    "dark blue accents",
+    "short stubby legs"
+  ],
+  "suppress_colors": [
+    "pink",
+    "white spots",
+    "dark blue"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "large mushroom cap on head, textured surface",
+    "curled tail tip, pink color"
+  ],
+  "pokemon_id": "045",
+  "pokemon_name": "vileplume",
+  "original_types": [
+    "grass",
+    "poison"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "pink with white spots",
+      "dark blue"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, compact body with a large, mushroom-like head and short, stubby legs.",
+    "type_markers": [
+      "white spots on pink head",
+      "dark blue body"
+    ],
+    "distinctive_features": [
+      "large mushroom cap on head",
+      "curled tail tip"
+    ]
+  }
+}

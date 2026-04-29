@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Fumante",
+  "lore": "Su cabeza redondeada ahora arde con llamas, y sus orejas puntiagudas brillan como brasas. Vuela con alas de fuego que queman el aire a su paso, irradiando calor intenso.",
+  "moves": [
+    {
+      "name": "Llamarada Cabeza",
+      "desc": "Lanza una bola de fuego desde su cabeza redondeada, quemando al oponente con intensidad."
+    },
+    {
+      "name": "Aleta de Fuego",
+      "desc": "Sus alas emiten llamas que queman el campo de batalla, reduciendo la defensa del rival."
+    },
+    {
+      "name": "Ceniza Voladora",
+      "desc": "Genera una nube de ceniza ardiente que enmascara su posición y ataca desde la distancia."
+    },
+    {
+      "name": "Incendio Estelar",
+      "desc": "Dispara una lluvia de meteoritos incandescentes que impactan en múltiples objetivos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza ardiendo con llamas"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas brillando como brasas"
+    },
+    {
+      "from": "alas de vuelo",
+      "to": "alas emitiendo llamas"
+    },
+    {
+      "from": "vuelo tranquilo",
+      "to": "vuelo que quema el aire"
+    }
+  ],
+  "pokemon_id": "142",
+  "target_type": "fire"
+}

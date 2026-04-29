@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Pikachu ahora resplandece con una aura de hada, sus orejas puntiagudas se redondean en pétalos brillantes. Su electricidad se transforma en destellos de luz iridiscente, curando heridas con cada chispazo.",
+  "moves": [
+    {
+      "name": "Destello de Aurora",
+      "desc": "Lanza destellos de luz que sanan a aliados y confunden a enemigos con su brillo."
+    },
+    {
+      "name": "Ala de Hada",
+      "desc": "Genera un viento suave que eleva al Pokémon y reduce el daño recibido."
+    },
+    {
+      "name": "Chispa de Sueños",
+      "desc": "Crea una red de chispas que adormece a los enemigos y los envuelve en sueños."
+    },
+    {
+      "name": "Canto de Estrellas",
+      "desc": "Canta una melodía que aumenta la velocidad de aliados y reduce la defensa del enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas redondeadas en forma de pétalos brillantes"
+    },
+    {
+      "from": "electricidad estática",
+      "to": "chispas iridiscentes que sanan"
+    },
+    {
+      "from": "color amarillo brillante",
+      "to": "tonos dorados y plateados con destellos de colores"
+    },
+    {
+      "from": "cuerpo pequeño y compacto",
+      "to": "cuerpo más ligero y etéreo, como una mariposa"
+    }
+  ],
+  "pokemon_id": "025",
+  "target_type": "fairy"
+}

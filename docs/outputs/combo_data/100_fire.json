@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Voltorb Fuego arde con una intensidad inusitada, su cabeza redonda ahora emite destellos rojos. Sus orejas puntiagudas se han transformado en llamas danzantes que danzan al ritmo de su respiración. Cada movimiento libera chispas incandescentes.",
+  "moves": [
+    {
+      "name": "Llama Explosiva",
+      "desc": "Lanza una bola de fuego que quema al oponente y aumenta el daño de los movimientos posteriores."
+    },
+    {
+      "name": "Chispas Ardientes",
+      "desc": "Ataca con chispas que inflaman el campo de batalla, causando daño adicional por turnos."
+    },
+    {
+      "name": "Respiración de Fuego",
+      "desc": "Recupera salud mientras libera una ráfaga de calor que debilita al enemigo."
+    },
+    {
+      "name": "Impacto Incendiario",
+      "desc": "Un ataque físico que quema al oponente y aumenta la velocidad del usuario."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondo",
+      "to": "Cuerpo recubierto de llamas que brillan en tonos rojos y anaranjados."
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas transformadas en llamas danzantes que brillan con cada respiración."
+    },
+    {
+      "from": "Vibración eléctrica",
+      "to": "Vibración sustituida por calor intenso que quema al tocar."
+    },
+    {
+      "from": "Piel lisa",
+      "to": "Piel cubierta de escamas rojas que reflejan el fuego interior."
+    }
+  ],
+  "pokemon_id": "100",
+  "target_type": "fire"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Dragón",
+  "lore": "Con su cabeza triangular y cuernos curvos, ahora emana un brillo pálido. Sus alas translúcidas desvanecen en la oscuridad, y su aura fantasmal envuelve a sus enemigos en sombras eternas.",
+  "moves": [
+    {
+      "name": "Sombra de Dragón",
+      "desc": "Lanza una sombra que absorbe el poder de los ataques enemigos, reduciendo su efectividad."
+    },
+    {
+      "name": "Ala Fantasmal",
+      "desc": "Ataca con alas que atraviesan la materia, causando daño sin contacto físico."
+    },
+    {
+      "name": "Respiración Eterna",
+      "desc": "Emite un aliento que desvía la energía de los ataques, protegiendo al usuario."
+    },
+    {
+      "name": "Espectro de Pluma",
+      "desc": "Cubre al enemigo con plumas que lo hacen vulnerable a ataques fantasma."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo sólido",
+      "to": "Cuerpo translúcido y etéreo"
+    },
+    {
+      "from": "Alas de dragón",
+      "to": "Alas que se disuelven en la oscuridad"
+    },
+    {
+      "from": "Cuernos brillantes",
+      "to": "Cuernos que emiten un brillo pálido"
+    },
+    {
+      "from": "Aliento de fuego",
+      "to": "Aliento que desvía energías"
+    }
+  ],
+  "pokemon_id": "149",
+  "target_type": "ghost"
+}

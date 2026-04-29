@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Mariposa de Cristal",
+  "lore": "Mariposa de Cristal brilla con un resplandor etéreo, su corona de cristal refleja mil colores. Sus escamas acuáticas se transforman en pétalos translúcidos que brillan bajo la luz, volviéndose más ligera y mágica.",
+  "moves": [
+    {
+      "name": "Ala de Sueño",
+      "desc": "Cubre al rival con pétalos que inducen un sueño profundo, reduciendo su velocidad."
+    },
+    {
+      "name": "Brillo de Cristal",
+      "desc": "Aumenta el ataque y la defensa con un resplandor que refleja la luz."
+    },
+    {
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos que causan daño y confusión al rival."
+    },
+    {
+      "name": "Cristal de Luna",
+      "desc": "Crea un escudo de cristal que bloquea ataques especiales por un turno."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "crown-like structure on head",
+      "to": "se transforma en una corona brillante de cristal que refleja la luz"
+    },
+    {
+      "from": "small body",
+      "to": "se vuelve más ligero y etéreo, flotando suavemente en el aire"
+    },
+    {
+      "from": "water-type scales",
+      "to": "se convierten en escamas translúcidas que brillan como cristal"
+    },
+    {
+      "from": "weak swimming",
+      "to": "nadando con gracia y velocidad, como si flotara en el agua"
+    }
+  ],
+  "pokemon_id": "129",
+  "target_type": "fairy"
+}

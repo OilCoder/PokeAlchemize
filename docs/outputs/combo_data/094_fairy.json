@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra de Ceniza",
+  "lore": "Sombra de Ceniza emerge de las sombras con una aura de brillo plateado. Sus orejas puntiagudas brillan con destellos dorados, y su piel translúcida refleja destellos de magia efímera. Cada movimiento libera partículas de polvo de estrellas.",
+  "moves": [
+    {
+      "name": "Canto de Luna",
+      "desc": "Canta una melodía que envía ondas de luz lunar que calman a los enemigos."
+    },
+    {
+      "name": "Polvo de Estrellas",
+      "desc": "Dispara partículas brillantes que reducen la defensa del rival."
+    },
+    {
+      "name": "Sombras de Ceniza",
+      "desc": "Crea sombras que envuelven al rival, disminuyendo su velocidad."
+    },
+    {
+      "name": "Arco Iris Fantasma",
+      "desc": "Genera un arco iris que daña a todos los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "brillan con destellos dorados y reflejan magia efímera"
+    },
+    {
+      "from": "piel translúcida",
+      "to": "refleja destellos de polvo de estrellas"
+    },
+    {
+      "from": "aura de sombra",
+      "to": "aura de brillo plateado con magia efímera"
+    },
+    {
+      "from": "movimientos oscuros",
+      "to": "movimientos con partículas de polvo de estrellas"
+    }
+  ],
+  "pokemon_id": "094",
+  "target_type": "fairy"
+}

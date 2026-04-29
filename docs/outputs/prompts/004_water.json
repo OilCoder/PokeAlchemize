@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Charmander water type, quadruped, four legs planted on ground, low crawling stance, pale cream underbelly with smooth skin texture, flame on tail tip (core feature). Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Tail fin: smooth deep ocean blue scales with pearly white edges and aquamarine glow. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "flame tail tip, reddish-orange body, glowing ember tail, fiery orange-yellow tail, orange flame texture, reddish-orange, glowing ember orange, fiery orange-yellow, crimson red, burnt orange, molten gold, amber glow, charcoal black, molten lava glow from cracks, intense heat shimmer, ember sparks floating in air, crackling energy aura, smoke trails from movement",
+  "pokemon_id": "004",
+  "pokemon_name": "charmander",
+  "target_type": "water"
+}

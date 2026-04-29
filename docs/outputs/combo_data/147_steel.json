@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Dracón",
+  "lore": "Su cuerpo plateado brilla bajo el sol, con escamas de acero que resuenan al moverse. Las orejas puntiagudas se han vuelto afiladas como cuchillas, y su cola emite un zumbido metálico al atacar.",
+  "moves": [
+    {
+      "name": "Cuchilla de Acero",
+      "desc": "Corta al oponente con una hoja de acero que emerge de sus patas."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas sonoras que debilitan a los enemigos y aumentan su propia defensa."
+    },
+    {
+      "name": "Cascada de Escamas",
+      "desc": "Lanza escamas afiladas que causan daño y reducen la velocidad del rival."
+    },
+    {
+      "name": "Cicatriz de Acero",
+      "desc": "Crea una barrera de acero que absorbe golpes y refleja el daño."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo flexible y elástico",
+      "to": "Cuerpo rígido y metálico con escamas de acero"
+    },
+    {
+      "from": "Orejas redondeadas",
+      "to": "Orejas afiladas como cuchillas"
+    },
+    {
+      "from": "Cola larga y suave",
+      "to": "Cola metálica que zumba al moverse"
+    },
+    {
+      "from": "Piel lisa",
+      "to": "Escamas duras y brillantes de acero"
+    }
+  ],
+  "pokemon_id": "147",
+  "target_type": "steel"
+}

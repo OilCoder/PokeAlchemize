@@ -1,0 +1,60 @@
+{
+  "identity_traits": [
+    "blocky geometric body shape",
+    "rounded head with sharp edges",
+    "short stubby legs",
+    "curled tail tip",
+    "prominent single eye",
+    "compact silhouette"
+  ],
+  "original_type_traits": [
+    "light blue body color",
+    "dark red accents",
+    "pink highlights"
+  ],
+  "transformable_parts": [
+    "head shape",
+    "leg structure",
+    "tail tip",
+    "body color palette",
+    "eye design",
+    "overall geometric sharpness"
+  ],
+  "suppress_colors": [
+    "light blue",
+    "dark red",
+    "pink"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "single large eye centered on head",
+    "geometric blocky body with sharp edges"
+  ],
+  "pokemon_id": "137",
+  "pokemon_name": "porygon",
+  "original_types": [
+    "normal"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light blue",
+      "dark red",
+      "pink"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, blocky body with a slightly elongated head and a short, stubby tail.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "blocky, geometric design",
+      "sharp edges",
+      "prominent eye"
+    ]
+  }
+}

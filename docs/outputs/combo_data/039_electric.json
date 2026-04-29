@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Mariposa",
+  "lore": "Con ojos grandes y negros que brillan con energía eléctrica, Chispa Mariposa vuela con alas cargadas de voltios. Su pelaje suave ahora emite destellos azules al moverse, creando un aura de pura electricidad.",
+  "moves": [
+    {
+      "name": "Bomba de Sonido",
+      "desc": "Lanza ondas sonoras que generan pequeñas descargas eléctricas en el aire."
+    },
+    {
+      "name": "Canto Electrónico",
+      "desc": "Canta para elevar la energía eléctrica en el entorno, aumentando el daño de los ataques eléctricos."
+    },
+    {
+      "name": "Alerón de Chispas",
+      "desc": "Ataca con ráfagas de chispas que siguen el movimiento de las alas."
+    },
+    {
+      "name": "Zumbido Estelar",
+      "desc": "Crea un campo de energía que atrae y electrocuta a los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos grandes y negros",
+      "to": "ojos brillan con energía eléctrica"
+    },
+    {
+      "from": "pelaje suave",
+      "to": "pelaje emite destellos azules al moverse"
+    },
+    {
+      "from": "canto hipnótico",
+      "to": "canto genera descargas eléctricas"
+    },
+    {
+      "from": "vuelo tranquilo",
+      "to": "vuelo cargado de voltios"
+    }
+  ],
+  "pokemon_id": "039",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Flor de Fuego",
+  "lore": "Blastoise, ahora transformado en un Pokémon floral, tiene una cabeza redonda con orejas puntiagudas cubiertas de pétalos brillantes. Su armadura acuática se ha convertido en una coraza de flores brillantes, y sus cañones de agua ahora lanzan pétalos brillantes que curan y protegen.",
+  "moves": [
+    {
+      "name": "Pétalos de Amor",
+      "desc": "Lanza pétalos que curan a aliados y reducen el daño recibido."
+    },
+    {
+      "name": "Brote de Sueños",
+      "desc": "Crea una zona de sueño que reduce el ataque de los enemigos."
+    },
+    {
+      "name": "Arco Iris Floral",
+      "desc": "Ataca con un arco iris de pétalos que confunde al enemigo."
+    },
+    {
+      "name": "Flor de la Fortuna",
+      "desc": "Aumenta la defensa de todo el equipo durante un turno."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "armadura acuática",
+      "to": "coraza de flores brillantes"
+    },
+    {
+      "from": "cañones de agua",
+      "to": "lanzan pétalos brillantes que curan"
+    },
+    {
+      "from": "cabeza redonda",
+      "to": "cabeza redonda con orejas puntiagudas cubiertas de pétalos"
+    },
+    {
+      "from": "color azul",
+      "to": "colores pastel de flores"
+    }
+  ],
+  "pokemon_id": "009",
+  "target_type": "fairy"
+}

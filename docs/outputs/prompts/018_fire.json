@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Pidgeot fire type, quadruped, four legs on ground, low stance, pointed ears, small rounded head, curled tail tip, wings with distinct feather patterns. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Tail tip: molten gold core with glowing crimson fissures and smoke trails. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "red tail, brown wings, beige body, fiery orange tail, sooty wing texture, earthy beige coloring, red, brown, beige, soft beige, warm tan, pale cream, dusty rose, moss green, sky blue, pure white, ivory, azure, pale gold, gentle glow of natural sunlight, subtle dust particles floating in air, soft motion blur on movement, warm light reflection on skin, gentle wind currents swirling around the body, sunlight refracting through translucent wings, subtle shimmer on feathers from altitude, soft glow of sky light on body surface, dynamic motion blur during flight",
+  "pokemon_id": "018",
+  "pokemon_name": "pidgeot",
+  "target_type": "fire"
+}

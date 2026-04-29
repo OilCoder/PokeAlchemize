@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Venusaur water type, quadruped, four legs planted on ground, low crawling stance, flower on top of head, large bloom with five petals, curled spiral tail tip, dark teal color. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Flower bloom: pearly white coral with aquamarine glow and subtle seafoam green edges. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "green leaves on body, grass-type flower top head, yellow poison spores, poison-tinted petals, grass-green texture, pink poison accents, electric yellow glow, grass green tones, poison clouds, leaf particles, toxic green aura, acidic vapor, glowing toxic veins, mossy brown",
+  "pokemon_id": "003",
+  "pokemon_name": "venusaur",
+  "target_type": "water"
+}

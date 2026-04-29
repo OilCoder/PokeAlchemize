@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Oscura",
+  "lore": "Su cola espiralada arde con llamas oscuras que iluminan la noche. Su piel oscura absorbe el calor, mientras sus cuernos brillan como carbón incandescente. Cada paso libera chispas de fuego.",
+  "moves": [
+    {
+      "name": "Llamarada Oscura",
+      "desc": "Lanza una bola de fuego negro que quema y ralentiza al objetivo."
+    },
+    {
+      "name": "Cascada de Carbón",
+      "desc": "Ataca con una lluvia de chispas incandescentes que daña y quema."
+    },
+    {
+      "name": "Cola Llama",
+      "desc": "Gira la cola para crear un torbellino de llamas que aturde al oponente."
+    },
+    {
+      "name": "Fuego de Ceniza",
+      "desc": "Genera una nube de cenizas ardientes que reduce la defensa del enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiralada con punta morada",
+      "to": "cola arde con llamas oscuras que brillan en la oscuridad"
+    },
+    {
+      "from": "piel oscura",
+      "to": "absorbe calor y se vuelve más resistente al fuego"
+    },
+    {
+      "from": "cuernos oscuros",
+      "to": "brillan como carbón incandescente al tocar el fuego"
+    },
+    {
+      "from": "movimientos venenosos",
+      "to": "transformados en ataques de fuego que queman y ralentizan"
+    }
+  ],
+  "pokemon_id": "034",
+  "target_type": "fire"
+}

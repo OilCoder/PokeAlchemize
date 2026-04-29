@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Pinsir fairy type, quadruped, four legs on ground, low stance, spiky protrusions covering body and limbs, sharp edges, claw-like appendages on all limbs, curved and pointed. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Tail tip: petal-soft spiral with crystalline lavender veins and starlight silver dusting. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "gray exoskeleton, white insect spines, bug-type green claws, insect-textured limbs, pale gray antennae, gray, white, insect exoskeleton green, bug-type accent colors, forest green, dark brown, ochre yellow, copper, sapphire blue, dust particles swirling around limbs, subtle bioluminescent glow from undercarriage, refractive light patterns on exoskeleton, delicate pollen trails in motion, shimmering dew drops on surface",
+  "pokemon_id": "127",
+  "pokemon_name": "pinsir",
+  "target_type": "fairy"
+}

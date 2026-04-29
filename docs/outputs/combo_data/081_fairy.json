@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Brillo Mágico",
+  "lore": "Brillo Mágico emana una luz suave de su cabeza redonda, con ojos que brillan como estrellas. Su cuerpo de acero se cubre de pétalos brillantes, transformando su energía eléctrica en hechizos de hada.",
+  "moves": [
+    {
+      "name": "Pétalo Encantador",
+      "desc": "Lanza pétalos que confunden al rival con su brillo hipnótico."
+    },
+    {
+      "name": "Carga Mágica",
+      "desc": "Aumenta el poder de sus ataques con una carga de energía mágica."
+    },
+    {
+      "name": "Vuelo de Estrellas",
+      "desc": "Ataca con una lluvia de estrellas que cura levemente al usuario."
+    },
+    {
+      "name": "Burbuja Encantada",
+      "desc": "Crea burbujas mágicas que reducen la defensa del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda con pequeños ojos",
+      "to": "ojos brillantes como estrellas, rodeados de pétalos mágicos"
+    },
+    {
+      "from": "energía eléctrica",
+      "to": "transformada en energía mágica de hada"
+    },
+    {
+      "from": "cuerpo de acero",
+      "to": "cubierto de pétalos brillantes que lo hacen más ligero"
+    },
+    {
+      "from": "movimientos eléctricos",
+      "to": "reemplazados por ataques mágicos de hada"
+    }
+  ],
+  "pokemon_id": "081",
+  "target_type": "fairy"
+}

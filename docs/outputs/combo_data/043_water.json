@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Marisca Floral",
+  "lore": "Marisca Floral flota suavemente en el agua, sus pétalos de color azul pálido brillan bajo la luz solar. Sus ojos cerrados se abren para revelar cristales líquidos que reflejan el cielo marino. Su cuerpo, antes terroso, ahora se adapta a las corrientes marinas.",
+  "moves": [
+    {
+      "name": "Ola de Pétalos",
+      "desc": "Lanza una ola de pétalos que flotan en el agua, causando daño y reduciendo la velocidad del oponente."
+    },
+    {
+      "name": "Luz Acuática",
+      "desc": "Emite un brillo suave desde sus cristales líquidos, restaurando la energía de aliados cercanos."
+    },
+    {
+      "name": "Nube de Espuma",
+      "desc": "Crea una nube espumosa que envenena al oponente y reduce su defensa."
+    },
+    {
+      "name": "Burbuja de Sueños",
+      "desc": "Genera burbujas que atrapan al oponente, causando daño y confundiendo temporalmente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redondeada con ojos cerrados",
+      "to": "Cabeza redondeada con ojos cerrados que contienen cristales líquidos brillantes"
+    },
+    {
+      "from": "Pétalos verdes",
+      "to": "Pétalos azul pálido que brillan bajo la luz solar"
+    },
+    {
+      "from": "Sistema de raíces terrosas",
+      "to": "Sistema de raíces adaptadas para flotar en el agua"
+    },
+    {
+      "from": "Aroma venenoso",
+      "to": "Aroma fresco de mar que cura y revitaliza"
+    }
+  ],
+  "pokemon_id": "043",
+  "target_type": "water"
+}

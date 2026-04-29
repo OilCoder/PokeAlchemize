@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Dragón",
+  "lore": "Acero Dragón brilla con escamas de acero pulido, sus cuernos se han endurecido en puntas afiladas. Sus alas, ahora de metal, emiten un resplandor frío al volar, transformando el aire en partículas brillantes.",
+  "moves": [
+    {
+      "name": "Corte de Acero",
+      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Ala de Metal",
+      "desc": "Lanza un viento metálico que eleva al rival y reduce su velocidad."
+    },
+    {
+      "name": "Resplandor Acero",
+      "desc": "Emite un brillo cegador de acero que reduce la precisión del enemigo."
+    },
+    {
+      "name": "Impacto Titanio",
+      "desc": "Ataca con un golpe poderoso que causa daño y paraliza al rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Triangular head with two prominent upward-curving horns",
+      "to": "Horns hardened into sharp steel points, reflecting light like polished blades."
+    },
+    {
+      "from": "Wings made of flexible membrane",
+      "to": "Wings replaced with rigid, metallic plates that shimmer under sunlight."
+    },
+    {
+      "from": "Body covered in dragon scales",
+      "to": "Scales transformed into layered steel plates, resistant to all attacks."
+    },
+    {
+      "from": "Breath of fire",
+      "to": "Breath of molten steel, capable of melting through stone."
+    }
+  ],
+  "pokemon_id": "149",
+  "target_type": "steel"
+}

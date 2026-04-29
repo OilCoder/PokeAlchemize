@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Sandslash, ahora con escamas eléctricas que brillan en la oscuridad, camina sobre el agua con sus garras cargadas. Sus orejas puntiagudas ahora emiten chispas al moverse, protegiendo a su entorno de amenazas.",
+  "moves": [
+    {
+      "name": "Chispa Acuática",
+      "desc": "Genera una corriente eléctrica que desvía ataques acuáticos y refresca al usuario."
+    },
+    {
+      "name": "Rayo de Sal",
+      "desc": "Lanza una ráfaga de sal cargada de electricidad para dañar y debilitar al oponente."
+    },
+    {
+      "name": "Ola Electrónica",
+      "desc": "Crea una ola que absorbe energía eléctrica y la devuelve con mayor potencia."
+    },
+    {
+      "name": "Estatua de Relámpago",
+      "desc": "Se congela en posición, acumulando energía eléctrica para un ataque devastador."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Piel áspera de arena",
+      "to": "Escamas resplandecientes que brillan bajo la luz"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas que emiten chispas eléctricas al moverse"
+    },
+    {
+      "from": "Movimiento lento en el suelo",
+      "to": "Desplazamiento rápido sobre el agua con carga eléctrica"
+    },
+    {
+      "from": "Ataques terrestres",
+      "to": "Ataques eléctricos que se reflejan en el agua"
+    }
+  ],
+  "pokemon_id": "028",
+  "target_type": "electric"
+}

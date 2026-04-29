@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Magmar water type, bipedal, upright stance, arms at sides, flame_on_tail_tip, pointed_ears. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Tail fin: smooth, scale-covered fin with aquamarine glow and seafoam green edge. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "orange flame on tail, red body color, yellow limb accents, fire-burning tail tip, glowing red eyes, red, yellow, orange flame hues, crimson red, burnt orange, molten gold, amber glow, charcoal black, molten lava glow from cracks, intense heat shimmer, ember sparks floating in air, crackling energy aura, smoke trails from movement",
+  "pokemon_id": "126",
+  "pokemon_name": "magmar",
+  "target_type": "water"
+}

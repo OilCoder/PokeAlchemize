@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Dragonite steel type, quadruped, four legs planted on ground, low stance, pointed horns protruding from rounded head, long tail with sharp tip extending backward. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Horns: segmented steel with engraved geometric patterns and glowing blue energy lines. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "pointed dragon horns, orange dragon-scale texture, long dragon tail, flying-type wing texture, bright orange wings, white dragon markings, dragon-fang teeth, fiery red eyes, dragon-scaled legs, sharp dragon claws, bright orange, white, dragon-scale texture, deep sapphire blue, violet twilight, obsidian black, golden amber, crimson flame, sky blue, pure white, ivory, azure, pale gold, glowing energy auras, crystalline frost patterns, shimmering metallic reflections, slow-motion energy trails, light refraction through wing membranes, gentle wind currents, sunlight refracting through wings, subtle shimmer on feathers, soft glow of sky light, dynamic motion blur",
+  "pokemon_id": "149",
+  "pokemon_name": "dragonite",
+  "target_type": "steel"
+}

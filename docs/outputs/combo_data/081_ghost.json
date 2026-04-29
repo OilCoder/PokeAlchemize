@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Magnético",
+  "lore": "Este Magnemite espectral flota sin rumbo, su cabeza redonda ahora translúcida con ojos que brillan en tonos violeta. El tipo fantasma le otorga una presencia fría y etérea, atravesando paredes con gracia.",
+  "moves": [
+    {
+      "name": "Carga Fantasmal",
+      "desc": "Absorbe energía de objetos espirituales para lanzar un ataque con fuerza sobrenatural."
+    },
+    {
+      "name": "Oscurecimiento",
+      "desc": "Cubre al oponente con una sombra que reduce su defensa y confunde su percepción."
+    },
+    {
+      "name": "Espectro Electrónico",
+      "desc": "Genera un campo eléctrico fantasmal que aturde a los enemigos y aumenta el daño mágico."
+    },
+    {
+      "name": "Resonancia de la Sombra",
+      "desc": "Crea una onda de energía oscura que debilita a todos los enemigos en el área."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redonda con pequeños ojos",
+      "to": "Cabeza translúcida con ojos violeta brillantes y etéreos"
+    },
+    {
+      "from": "Estructura metálica y eléctrica",
+      "to": "Estructura fantasmal que atraviesa objetos sólidos sin resistencia"
+    },
+    {
+      "from": "Movimientos eléctricos",
+      "to": "Ataques que combinan energía eléctrica con esencia espectral"
+    },
+    {
+      "from": "Sensibilidad a campos magnéticos",
+      "to": "Sensibilidad a energías espirituales que le permiten moverse entre dimensiones"
+    }
+  ],
+  "pokemon_id": "081",
+  "target_type": "ghost"
+}

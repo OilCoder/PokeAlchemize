@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Lluvia Chisporroteante",
+  "lore": "Pikachu, ahora envuelto en una aura acuática, tiene orejas puntiagudas con puntas redondeadas brillantes de gotas de agua. Su pelaje resplandece con destellos eléctricos bajo el agua, combinando fuerza eléctrica y fluidez acuática.",
+  "moves": [
+    {
+      "name": "Chispa Acuática",
+      "desc": "Dispara una descarga eléctrica que se convierte en un chorro de agua, causando daño y reduciendo la velocidad."
+    },
+    {
+      "name": "Ola de Relámpago",
+      "desc": "Crea una ola que lanza relámpagos, afectando a todos los enemigos en el campo."
+    },
+    {
+      "name": "Burbuja Estática",
+      "desc": "Crea burbujas que absorben ataques eléctricos y los devuelven al enemigo."
+    },
+    {
+      "name": "Torrente de Corriente",
+      "desc": "Aumenta su velocidad y daño con cada ataque eléctrico realizado."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas brillantes con gotas de agua en las puntas redondeadas"
+    },
+    {
+      "from": "pelaje amarillo",
+      "to": "pelaje resplandeciente con destellos eléctricos bajo el agua"
+    },
+    {
+      "from": "movimientos eléctricos",
+      "to": "movimientos que combinan electricidad y agua, como chispas en forma de olas"
+    },
+    {
+      "from": "movimientos rápidos",
+      "to": "movimientos más lentos pero con mayor alcance acuático"
+    }
+  ],
+  "pokemon_id": "025",
+  "target_type": "water"
+}

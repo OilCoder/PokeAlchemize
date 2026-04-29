@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra de Patada",
+  "lore": "Sombra de Patada emerge de sombras etéreas, su cabeza redonda ahora translúcida. Sus pequeñas orejas puntiagudas brillan con aura fantasmal, moviendo el aire sin tocarlo.",
+  "moves": [
+    {
+      "name": "Golpe Espectral",
+      "desc": "Ataca con patada que atraviesa defensas, dejando sombra en el oponente."
+    },
+    {
+      "name": "Sombra Danzante",
+      "desc": "Desplaza al oponente a través de sombras, reduciendo su velocidad."
+    },
+    {
+      "name": "Patada Invisibilidad",
+      "desc": "Vuelve invisible al usuario, evitando ataques por un turno."
+    },
+    {
+      "name": "Aguante Fantasmal",
+      "desc": "Absorbe ataques físicos, recuperando PS con cada golpe recibido."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "se vuelve translúcida y emite brillo fantasmal"
+    },
+    {
+      "from": "pequeñas orejas puntiagudas",
+      "to": "brillan con aura espectral, moviendo el aire"
+    },
+    {
+      "from": "ataques físicos de pie",
+      "to": "patadas atraviesan defensas sin tocar"
+    },
+    {
+      "from": "movimientos de lucha",
+      "to": "convierte fuerza en energía espectral"
+    }
+  ],
+  "pokemon_id": "106",
+  "target_type": "ghost"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Psíquico",
+  "lore": "Mewtwo, ahora envuelto en una aura espectral, desplaza sombras con cada movimiento. Sus rasgos púrpura brillan con luz fantasmal, y su piel azul pálido se funde con la oscuridad.",
+  "moves": [
+    {
+      "name": "Sombra Mental",
+      "desc": "Absorbe la energía psíquica de los oponentes para lanzar ataques de sombra."
+    },
+    {
+      "name": "Espectro Psíquico",
+      "desc": "Genera una barrera espectral que refleja ataques psíquicos y daña al oponente."
+    },
+    {
+      "name": "Fantasma de Miedo",
+      "desc": "Inyecta miedo psíquico, reduciendo la precisión del enemigo."
+    },
+    {
+      "name": "Eclipse Mental",
+      "desc": "Cubre al oponente en oscuridad psíquica, reduciendo su defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "piel azul pálido",
+      "to": "se funde con la oscuridad, brillando con destellos púrpura espectral"
+    },
+    {
+      "from": "rasgos púrpura sutiles",
+      "to": "brillan con luz fantasmal, visible solo en la oscuridad"
+    },
+    {
+      "from": "energía psíquica",
+      "to": "se convierte en energía espectral, atrayendo sombras"
+    },
+    {
+      "from": "movimientos de telequinesis",
+      "to": "ahora manipulan sombras en lugar de objetos físicos"
+    }
+  ],
+  "pokemon_id": "150",
+  "target_type": "ghost"
+}

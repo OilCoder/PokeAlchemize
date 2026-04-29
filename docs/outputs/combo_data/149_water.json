@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Oceánico Dragón",
+  "lore": "Con su cabeza triangular coronada por cuernos curvos, ahora se funde con el agua. Su piel refleja olas profundas, y sus alas brillan como cristal bajo el mar. El agua fluye a través de su cuerpo, intensificando su fuerza.",
+  "moves": [
+    {
+      "name": "Ola Dragón",
+      "desc": "Lanza una ola que absorbe fuerza del agua y la convierte en poder de ataque."
+    },
+    {
+      "name": "Burbuja Dragón",
+      "desc": "Crea burbujas que envuelven al oponente, reduciendo su velocidad."
+    },
+    {
+      "name": "Marea Dragón",
+      "desc": "Genera una marea que eleva al Pokémon y ataca desde arriba."
+    },
+    {
+      "name": "Cristal Dragón",
+      "desc": "Cubre su cuerpo con cristales de agua que reflejan ataques."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza triangular con cuernos curvos",
+      "to": "Cuernos ahora brillan con reflejos acuáticos y absorben energía del agua."
+    },
+    {
+      "from": "Alas de dragón",
+      "to": "Alas se transforman en estructuras translúcidas que permiten nadar bajo el agua."
+    },
+    {
+      "from": "Piel escamosa",
+      "to": "Escamas se vuelven resplandecientes y reflejan el movimiento de las olas."
+    },
+    {
+      "from": "Vuelo en el aire",
+      "to": "Navega bajo el mar con gracia, usando el agua para impulsarse."
+    }
+  ],
+  "pokemon_id": "149",
+  "target_type": "water"
+}

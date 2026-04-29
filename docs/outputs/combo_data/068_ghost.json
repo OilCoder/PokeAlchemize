@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Machamp",
+  "lore": "Machamp, ahora un espectro etéreo, flota sin peso. Sus brazos se tornan translúcidos, y sus ojos brillan con luz azulada. El tipo fantasma le otorga movilidad sin esfuerzo, desafiando la gravedad.",
+  "moves": [
+    {
+      "name": "Sombra de Fuerza",
+      "desc": "Ataca con un puñetazo que atraviesa la materia, causando daño físico y efecto de aturdimiento."
+    },
+    {
+      "name": "Aparición Fantasma",
+      "desc": "Se vuelve invisible, evitando todos los ataques durante un turno."
+    },
+    {
+      "name": "Grito del Inframundo",
+      "desc": "Emite un grito escalofriante que reduce la defensa del oponente."
+    },
+    {
+      "name": "Carga Espectral",
+      "desc": "Aumenta el ataque y la velocidad, pero pierde un poco de salud."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "brazos fuertes",
+      "to": "brazos translúcidos y etéreos, capaces de atravesar objetos"
+    },
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza brillante con ojos azules que emiten luz fantasmal"
+    },
+    {
+      "from": "movimiento pesado",
+      "to": "movimiento sin esfuerzo, flotando en el aire"
+    },
+    {
+      "from": "tipo lucha",
+      "to": "tipo fantasma, interactuando con el mundo espiritual"
+    }
+  ],
+  "pokemon_id": "068",
+  "target_type": "ghost"
+}

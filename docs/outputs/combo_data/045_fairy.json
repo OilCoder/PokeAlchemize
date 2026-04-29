@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Flor de Hada",
+  "lore": "Flor de Hada despliega pétalos brillantes que emanan magia efímera. Su capucha de hongo ahora brilla con destellos dorados, irradiando paz y curación. Sus raíces absorben la luz de las estrellas para sanar heridas.",
+  "moves": [
+    {
+      "name": "Pétalo de Sueño",
+      "desc": "Envía pétalos que inducen un sueño tranquilo, curando daño y restaurando energía."
+    },
+    {
+      "name": "Viento de Luna",
+      "desc": "Lanza un viento suave que eleva al rival y reduce su velocidad temporalmente."
+    },
+    {
+      "name": "Brillo de Hada",
+      "desc": "Aumenta el ataque y la defensa del usuario con un brillo mágico."
+    },
+    {
+      "name": "Canto Estelar",
+      "desc": "Canta una melodía que restaura la salud de aliados y debilita al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza de hongo redondeada",
+      "to": "capucha de hongo brillante con destellos dorados"
+    },
+    {
+      "from": "pétalos verdes",
+      "to": "pétalos brillantes que emanan magia efímera"
+    },
+    {
+      "from": "olor venenoso",
+      "to": "aroma curativo que cura heridas"
+    },
+    {
+      "from": "raíces terrestres",
+      "to": "raíces que absorben luz estelar para sanar"
+    }
+  ],
+  "pokemon_id": "045",
+  "target_type": "fairy"
+}

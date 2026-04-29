@@ -1,0 +1,62 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "compact body silhouette",
+    "large shell covering torso",
+    "white band around neck",
+    "short stubby legs",
+    "curled tail tip"
+  ],
+  "original_type_traits": [
+    "water type markers not visible",
+    "bright blue body coloration",
+    "dark blue shell accents"
+  ],
+  "transformable_parts": [
+    "shell texture and color",
+    "tail tip shape",
+    "ear shape",
+    "leg proportions",
+    "neck band design",
+    "head shape"
+  ],
+  "suppress_colors": [
+    "bright blue",
+    "dark blue",
+    "white band (original color)",
+    "brown accents"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low crawling stance",
+    "large shell covering torso, smooth rounded edges",
+    "white band around neck, narrow and precise"
+  ],
+  "pokemon_id": "009",
+  "pokemon_name": "blastoise",
+  "original_types": [
+    "water"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright blue",
+      "brown",
+      "white",
+      "dark blue"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a large shell and short legs, suggesting a turtle-like appearance.",
+    "type_markers": [
+      "no visible water type markers"
+    ],
+    "distinctive_features": [
+      "large shell",
+      "white band around neck",
+      "pointed ears"
+    ]
+  }
+}

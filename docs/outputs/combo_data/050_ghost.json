@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra de Tierra",
+  "lore": "Con su cabeza redonda y orejas puntiagudas translúcidas, este Diglett fantasmal se desliza entre las sombras del suelo. Sus rasgos terrenales se fusionan con la espectralidad, creando un aura de misterio en las cuevas subterráneas.",
+  "moves": [
+    {
+      "name": "Sombra Excavadora",
+      "desc": "Crea una sombra que excava el suelo, revelando objetos ocultos bajo tierra."
+    },
+    {
+      "name": "Eco Fantasmal",
+      "desc": "Emite un eco que confunde a los enemigos con imágenes de su propia sombra."
+    },
+    {
+      "name": "Tierra Invisibilidad",
+      "desc": "Se vuelve invisible mientras excava, evitando ataques físicos."
+    },
+    {
+      "name": "Serpiente Espectral",
+      "desc": "Lanza una serpiente de sombra que envuelve al oponente y reduce su defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo terroso",
+      "to": "cuerpo translúcido y espectral"
+    },
+    {
+      "from": "orejas pequeñas",
+      "to": "orejas puntiagudas brillantes en tonos púrpuras"
+    },
+    {
+      "from": "movimientos de excavación",
+      "to": "excavación que deja huellas espirituales"
+    },
+    {
+      "from": "color marrón",
+      "to": "color grisáceo con destellos azules"
+    }
+  ],
+  "pokemon_id": "050",
+  "target_type": "ghost"
+}

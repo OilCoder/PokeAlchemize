@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Láser",
+  "lore": "Acero Láser posee una cabeza redondeada cubierta de placas metálicas resplandecientes. Sus pequeñas orejas se han transformado en afilados puntales de acero que cortan el aire al moverse. El tipo acero le otorga una resistencia inquebrantable.",
+  "moves": [
+    {
+      "name": "Golpe Acero",
+      "desc": "Ataca con un golpe preciso que rompe la armadura enemiga con precisión quirúrgica."
+    },
+    {
+      "name": "Corte de Magma",
+      "desc": "Genera un corte de acero caliente que quema y corta al mismo tiempo."
+    },
+    {
+      "name": "Escudo Giratorio",
+      "desc": "Crea un escudo giratorio de acero que absorbe y refleja ataques físicos."
+    },
+    {
+      "name": "Impacto de Tornillo",
+      "desc": "Acelera para impactar con un giro de tornillo de acero que desestabiliza al rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cubierta de placas metálicas resplandecientes"
+    },
+    {
+      "from": "pequeñas orejas",
+      "to": "afilados puntales de acero que cortan el aire"
+    },
+    {
+      "from": "resistencia física",
+      "to": "resistencia inquebrantable al tipo acero"
+    },
+    {
+      "from": "velocidad de patadas",
+      "to": "velocidad mejorada con giro de tornillo de acero"
+    }
+  ],
+  "pokemon_id": "106",
+  "target_type": "steel"
+}

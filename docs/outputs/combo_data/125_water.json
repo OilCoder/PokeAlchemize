@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Ondavolt",
+  "lore": "Ondavolt, con su corona de espinas que ahora gotea agua cristalina, genera ondas eléctricas en el agua. Sus ojos brillan con energía hidroeléctrica, mientras sus patas acuáticas desatan oleadas de choques eléctricos.",
+  "moves": [
+    {
+      "name": "Onda Hidroeléctrica",
+      "desc": "Genera una ola de agua cargada de electricidad que aturde al enemigo."
+    },
+    {
+      "name": "Chorro de Relámpago",
+      "desc": "Dispara un chorro de agua que libera relámpagos en el aire."
+    },
+    {
+      "name": "Circuito Acuático",
+      "desc": "Crea un circuito eléctrico en el agua para aumentar el daño de los ataques."
+    },
+    {
+      "name": "Burbuja Estática",
+      "desc": "Lanza burbujas que absorben el daño eléctrico y lo devuelven al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "corona de espinas",
+      "to": "espinas ahora gotean agua cristalina"
+    },
+    {
+      "from": "energía eléctrica",
+      "to": "energía convertida en hidroeléctrica"
+    },
+    {
+      "from": "patas terrestres",
+      "to": "patas adaptadas para caminar en el agua"
+    },
+    {
+      "from": "movimientos eléctricos",
+      "to": "ataques combinados con agua y electricidad"
+    }
+  ],
+  "pokemon_id": "125",
+  "target_type": "water"
+}

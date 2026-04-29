@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Su cola espiralada ahora gotea agua cristalina, con un pico de hielo brillante en la punta. Las llamas de su pelaje se han transformado en olas suaves, irradiando frescor en cada movimiento.",
+  "moves": [
+    {
+      "name": "Ola de Hielo",
+      "desc": "Lanza un remolino de agua congelada que ralentiza al oponente."
+    },
+    {
+      "name": "Burbuja Explosiva",
+      "desc": "Crea burbujas que estallan en impacto, causando daño y confusión."
+    },
+    {
+      "name": "Corriente Subterránea",
+      "desc": "Se sumerge y emerge desde debajo del oponente, atacando con fuerza."
+    },
+    {
+      "name": "Pico de Hielo",
+      "desc": "Ataca con el pico de hielo de su cola, causando daño frío."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiralada con llama en la punta",
+      "to": "cola espiralada con pico de hielo que gotea agua"
+    },
+    {
+      "from": "pelaje de llama roja",
+      "to": "pelaje que emite olas suaves y frescor"
+    },
+    {
+      "from": "fuerza de fuego",
+      "to": "fuerza de agua que refresca y ralentiza"
+    },
+    {
+      "from": "grito de llama",
+      "to": "canto de olas que calma a los enemigos"
+    }
+  ],
+  "pokemon_id": "058",
+  "target_type": "water"
+}

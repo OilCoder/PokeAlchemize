@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Aéreo",
+  "lore": "Pidgeot, ahora un espíritu etéreo, vuela sin ruido entre las sombras. Sus alas translúcidas brillan con destellos rosados, y sus orejas puntiagudas emiten un suave resplandor púrpura al absorber la energía espectral.",
+  "moves": [
+    {
+      "name": "Ala Fantasma",
+      "desc": "Ataca con alas invisibles que desgarran el aire, causando daño psíquico a los enemigos."
+    },
+    {
+      "name": "Susurro de Sombras",
+      "desc": "Envenena al oponente con un susurro que se entrelaza con su aura espectral."
+    },
+    {
+      "name": "Vuelo Invisibilidad",
+      "desc": "Se vuelve invisible durante un turno, evitando todos los ataques."
+    },
+    {
+      "name": "Resplandor Espectral",
+      "desc": "Emite un brillo púrpura que fortalece sus propias estadísticas."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Alas de plumas suaves",
+      "to": "Alas translúcidas que absorben la luz"
+    },
+    {
+      "from": "Orejas redondeadas",
+      "to": "Orejas puntiagudas con destellos rosados"
+    },
+    {
+      "from": "Vuelo ligero",
+      "to": "Vuelo silencioso que no deja rastro"
+    },
+    {
+      "from": "Personalidad tranquila",
+      "to": "Personalidad misteriosa y evasiva"
+    }
+  ],
+  "pokemon_id": "018",
+  "target_type": "ghost"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Dulce Mar",
+  "lore": "Con ojos grandes y negros que brillan con magia, Dulce Mar flota en nubes de polvo de estrellas. Su piel suave se cubre de pétalos brillantes que reflejan la luz lunar. El tipo hada le otorga un aura mágica que calma a todos los que lo rodean.",
+  "moves": [
+    {
+      "name": "Canto de Luna",
+      "desc": "Canta una melodía que envuelve al oponente en una danza de sueños."
+    },
+    {
+      "name": "Polvo de Estrellas",
+      "desc": "Lanza una lluvia de polvo que cura y fortalece a aliados."
+    },
+    {
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos que confunden al enemigo con ilusiones."
+    },
+    {
+      "name": "Aurora Celestial",
+      "desc": "Genera un arco iris que restaura la energía de todo el equipo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos grandes y negros",
+      "to": "ojos brillantes con destellos de magia hada"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel cubierta de pétalos brillantes que reflejan la luz"
+    },
+    {
+      "from": "tipo agua/psíquico",
+      "to": "tipo hada que le da una aura mágica calmante"
+    },
+    {
+      "from": "movimientos acuáticos",
+      "to": "movimientos mágicos basados en pétalos y luz lunar"
+    }
+  ],
+  "pokemon_id": "079",
+  "target_type": "fairy"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Espectral",
+  "lore": "Chispa Espectral brilla con destellos eléctricos que parpadean en su forma esférica. Sus bordes se tornan iridiscentes bajo la luz, y pequeñas descargas recorren su cuerpo al moverse.",
+  "moves": [
+    {
+      "name": "Relámpago Esfera",
+      "desc": "Lanza una esfera de energía eléctrica que explota en múltiples destellos al impactar."
+    },
+    {
+      "name": "Parpadeo Estelar",
+      "desc": "Crea un destello cegador que confunde al enemigo y reduce su precisión temporalmente."
+    },
+    {
+      "name": "Carga Electrónica",
+      "desc": "Aumenta el poder de los movimientos eléctricos en un 50% durante el próximo turno."
+    },
+    {
+      "name": "Descarga Sónica",
+      "desc": "Emite ondas sonoras eléctricas que aturden al oponente y generan un efecto de choque."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo redondeado sin extremidades",
+      "to": "bordes iridiscentes que brillan con destellos eléctricos"
+    },
+    {
+      "from": "forma inerte",
+      "to": "movimientos eléctricos que recorren su cuerpo"
+    },
+    {
+      "from": "sin características visuales distintas",
+      "to": "destellos que parpadean al moverse"
+    },
+    {
+      "from": "capacidad de imitar",
+      "to": "imposible de imitar por su energía eléctrica única"
+    }
+  ],
+  "pokemon_id": "132",
+  "target_type": "electric"
+}

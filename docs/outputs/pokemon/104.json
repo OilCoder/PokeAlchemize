@@ -1,0 +1,59 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "compact, sturdy body silhouette",
+    "short stubby legs",
+    "curled tail tip",
+    "white and tan coloration",
+    "gray accents on body"
+  ],
+  "original_type_traits": [
+    "ground type doesn't have visible markers in sprite",
+    "no obvious type-specific features present"
+  ],
+  "transformable_parts": [
+    "head shape and ear placement",
+    "tail tip curl and length",
+    "leg structure and stance",
+    "body coloration and patterns",
+    "skin texture (e.g., rough vs smooth)",
+    "ear shape and size"
+  ],
+  "suppress_colors": [
+    "white",
+    "tan",
+    "gray"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted firmly on ground, compact body stance",
+    "pointed ears on rounded head, white and tan coloration",
+    "curled tail tip with gray accent"
+  ],
+  "pokemon_id": "104",
+  "pokemon_name": "cubone",
+  "original_types": [
+    "ground"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "white",
+      "tan",
+      "gray"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a slightly larger head and short, stubby legs, giving it a compact and sturdy appearance.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "white and tan coloration",
+      "pointed ears",
+      "curled tail tip"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "identity_traits": [
+    "rounded head with prominent horns",
+    "short stubby legs",
+    "long pointed tail",
+    "robust body structure",
+    "bright orange and white coloration"
+  ],
+  "original_type_traits": [
+    "pointed horns (dragon type)",
+    "long pointed tail (dragon type)",
+    "wings (flying type, implied by flying type but not visible in sprite)"
+  ],
+  "transformable_parts": [
+    "horns",
+    "tail",
+    "wings",
+    "skin texture",
+    "head shape",
+    "leg structure"
+  ],
+  "suppress_colors": [
+    "bright orange",
+    "white",
+    "dragon-scale texture"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "pointed horns protruding from rounded head",
+    "long tail with sharp tip extending backward"
+  ],
+  "pokemon_id": "149",
+  "pokemon_name": "dragonite",
+  "original_types": [
+    "dragon",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright orange",
+      "white"
+    ],
+    "head_parts": [
+      "rounded head",
+      "pointed horns"
+    ],
+    "limbs": [
+      "short stubby legs",
+      "pointed tail"
+    ],
+    "body_parts": [
+      "rounded head",
+      "pointed horns",
+      "short stubby legs",
+      "pointed tail"
+    ],
+    "silhouette": "The overall shape is dragon-like with a robust body, short legs, and a long tail with a pointed tip.",
+    "type_markers": [
+      "pointed horns",
+      "long tail with a pointed tip"
+    ],
+    "features_unique_to_species": [
+      "pointed horns",
+      "long tail with a pointed tip"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Meowth Espectral",
+  "lore": "Meowth Espectral flota sin peso, sus orejas puntiagudas ahora brillan con destellos etéreos. Su pelaje negro se torna translúcido, revelando sombras danzantes bajo la luz. Sus ojos rojos centellean con un brillo sobrenatural.",
+  "moves": [
+    {
+      "name": "Aliento Fantasmal",
+      "desc": "Alienta una nube de sombras que confunde al oponente y reduce su precisión."
+    },
+    {
+      "name": "Gancho Sombrío",
+      "desc": "Ataca con garras que atraviesan la materia, causando daño y confundiendo."
+    },
+    {
+      "name": "Susurro del Vacío",
+      "desc": "Reduce el ataque del rival al susurrar en su mente, dejándolo vulnerable."
+    },
+    {
+      "name": "Espectro de Plata",
+      "desc": "Crea un espejo de sombra que refleja el ataque del oponente hacia él."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas con puntas negras",
+      "to": "orejas translúcidas con destellos etéreos"
+    },
+    {
+      "from": "pelaje negro brillante",
+      "to": "pelaje translúcido que revela sombras danzantes"
+    },
+    {
+      "from": "ojos rojos normales",
+      "to": "ojos rojos centelleantes con brillo sobrenatural"
+    },
+    {
+      "from": "caminar sobre tierra",
+      "to": "flotar sin peso, sin tocar el suelo"
+    }
+  ],
+  "pokemon_id": "052",
+  "target_type": "ghost"
+}

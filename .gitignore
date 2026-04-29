@@ -39,8 +39,8 @@ ENV/
 .ipynb_checkpoints
 
 # Project specific
-outputs/images/
-outputs/debug/
+/outputs/images/
+/outputs/debug/
 debug/
 *.log
 

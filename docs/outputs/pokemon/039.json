@@ -1,0 +1,59 @@
+{
+  "identity_traits": [
+    "rounded cat-like body silhouette",
+    "large expressive eyes",
+    "fluffy pink fur texture",
+    "curled tail tip",
+    "short stubby legs",
+    "pointed ears"
+  ],
+  "original_type_traits": [
+    "pink fur (fairy type association)",
+    "fluffy texture (fairy type association)",
+    "rounded body shape (normal type association)"
+  ],
+  "transformable_parts": [
+    "tail",
+    "fur texture",
+    "ear shape",
+    "body contour",
+    "eye shape",
+    "leg structure"
+  ],
+  "suppress_colors": [
+    "pink",
+    "soft pastel tones",
+    "fluffy texture color"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low crawling stance",
+    "large round eyes with black pupils",
+    "curled spiral tail tip"
+  ],
+  "pokemon_id": "039",
+  "pokemon_name": "jigglypuff",
+  "original_types": [
+    "normal",
+    "fairy"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "pink"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, cat-like body with a small, stubby tail and large, expressive eyes.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "large, round eyes",
+      "fluffy appearance",
+      "curled tail tip"
+    ]
+  }
+}

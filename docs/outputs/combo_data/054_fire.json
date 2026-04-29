@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Psyduck, ahora transformado en Llama Marina, arde con una cola en espiral que emite llamas azules. Sus ojos brillan con un fuego interno, y su cuerpo se cubre de escamas que reflejan el calor del océano. Su presencia calienta el aire a su alrededor.",
+  "moves": [
+    {
+      "name": "Llama Oceánica",
+      "desc": "Lanza una llamarada que se mezcla con el agua del mar, creando vapor y confundiendo a los enemigos."
+    },
+    {
+      "name": "Ola de Calor",
+      "desc": "Genera una ola de agua hirviendo que quema y derrite el hielo alrededor."
+    },
+    {
+      "name": "Espera de Fuego",
+      "desc": "Crea un campo de calor que aumenta el daño de los ataques de fuego durante tres turnos."
+    },
+    {
+      "name": "Chispa Marina",
+      "desc": "Dispara chispas de agua caliente que causan quemaduras y reducen la defensa del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral",
+      "to": "cola en espiral que emite llamas azules"
+    },
+    {
+      "from": "ojos normales",
+      "to": "ojos brillantes con fuego interno"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel cubierta de escamas que reflejan el calor"
+    },
+    {
+      "from": "agilidad limitada",
+      "to": "movimiento fluido gracias al calor generado"
+    }
+  ],
+  "pokemon_id": "054",
+  "target_type": "fire"
+}

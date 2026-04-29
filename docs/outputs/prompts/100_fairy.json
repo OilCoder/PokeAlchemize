@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Voltorb fairy type, quadruped, four legs planted on ground, low stance, pointed ears, slightly curved inward, curled tail tip, small and tight spiral. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Tail blossom: crystalline lavender with glowing starlight silver veins and delicate petal fringes. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "electric yellow accents, glowing blue elements, spark trails, lightning texture on body, electric blue highlights, static electricity effects, yellow circuit patterns, electric glow on shell, sparkles on shell, electric shock patterns, light gray, pink, electric yellow accents, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes, crackling energy aura",
+  "pokemon_id": "100",
+  "pokemon_name": "voltorb",
+  "target_type": "fairy"
+}

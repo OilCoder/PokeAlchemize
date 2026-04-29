@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Clefairy Flama resplandece con ojos redondos que brillan como brasas. Sus mejillas emiten llamas suaves, y su cuerpo se cubre de escamas de fuego que brillan al ritmo de su respiración. Este ser radiante combate con calma y pasión.",
+  "moves": [
+    {
+      "name": "Llama de Sueño",
+      "desc": "Lanza un hilo de llamas que envuelve al rival en un sueño ardiente, reduciendo su velocidad."
+    },
+    {
+      "name": "Círculo de Fuego",
+      "desc": "Crea un círculo de llamas alrededor del rival, causando daño continuo y reduciendo su defensa."
+    },
+    {
+      "name": "Brillo Incandescente",
+      "desc": "Aumenta la precisión y el ataque del usuario con un destello de fuego brillante."
+    },
+    {
+      "name": "Bola de Fuego Cariñosa",
+      "desc": "Dispara una bola de fuego que se acerca al rival con cariño, causando daño y curación."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos redondos con pupilas negras",
+      "to": "ojos redondos que brillan como brasas"
+    },
+    {
+      "from": "cuerpo suave y esponjoso",
+      "to": "cuerpo cubierto de escamas de fuego"
+    },
+    {
+      "from": "pelo blanco y suave",
+      "to": "pelo que emite pequeñas llamas al respirar"
+    },
+    {
+      "from": "habilidad de curación suave",
+      "to": "habilidad de curación con calor de fuego"
+    }
+  ],
+  "pokemon_id": "035",
+  "target_type": "fire"
+}

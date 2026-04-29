@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Voltorb ghost type, quadruped, four legs planted on ground, low stance, pointed ears, slightly curved inward, curled tail tip, small and tight spiral. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Tail tip: tattered ghostly mist trailing shadowy vapour, spiral shape preserved. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "electric yellow accents, glowing blue elements, spark particles, electric blue tail, electric spark tail tip, pink electric glow, gray electric texture, electric static aura, light gray, pink, electric yellow accents, electric blue, vibrant yellow, neon green, static sparks, glowing energy trails, electromagnetic distortion, pulsing eye light, crackling energy aura",
+  "pokemon_id": "100",
+  "pokemon_name": "voltorb",
+  "target_type": "ghost"
+}

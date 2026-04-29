@@ -1,0 +1,62 @@
+{
+  "identity_traits": [
+    "rounded head",
+    "short stubby legs",
+    "pointed ears",
+    "curled tail tip",
+    "robust body silhouette"
+  ],
+  "original_type_traits": [
+    "flame on tail tip",
+    "wing membranes",
+    "orange body coloration"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "wing membranes",
+    "skin texture",
+    "head crest",
+    "leg structure",
+    "eye color"
+  ],
+  "suppress_colors": [
+    "orange",
+    "blue flame",
+    "white accents"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low crawling stance",
+    "curled spiral tail tip, orange flame tip",
+    "pointed ears, wing membranes extending from shoulders"
+  ],
+  "pokemon_id": "006",
+  "pokemon_name": "charizard",
+  "original_types": [
+    "fire",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "orange",
+      "white",
+      "brown",
+      "blue"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip",
+      "flame on tail tip"
+    ],
+    "silhouette": "The dragon has a robust body with a large head, short legs, and a long tail ending in a flame.",
+    "type_markers": [
+      "flame on tail tip",
+      "wing membranes"
+    ],
+    "distinctive_features": [
+      "flame on tail tip",
+      "wing membranes"
+    ]
+  }
+}

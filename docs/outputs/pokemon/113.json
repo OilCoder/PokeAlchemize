@@ -1,0 +1,56 @@
+{
+  "identity_traits": [
+    "rounded plump body shape",
+    "short stubby legs",
+    "pointed rabbit-like ears",
+    "curled tail tip",
+    "pale cream and pink coloration",
+    "small rounded head"
+  ],
+  "original_type_traits": [
+    "pink and pale cream color palette",
+    "rounded body shape suggesting normal type",
+    "lack of distinctive type-specific features"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "ears",
+    "body texture",
+    "head shape",
+    "leg proportions",
+    "overall body curvature"
+  ],
+  "suppress_colors": [
+    "pink",
+    "pale cream",
+    "soft pastel tones"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low plump stance",
+    "pointed rabbit ears with inner pink lining",
+    "curled spiral tail tip with pale cream tip"
+  ],
+  "pokemon_id": "113",
+  "pokemon_name": "chansey",
+  "original_types": [
+    "normal"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "pink",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, plump body with short legs and a small, curled tail tip.",
+    "type_markers": [],
+    "distinctive_features": [
+      "ears that resemble rabbit ears",
+      "curled tail tip"
+    ]
+  }
+}

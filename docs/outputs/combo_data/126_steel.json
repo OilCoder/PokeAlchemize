@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Acero",
+  "lore": "Su cabello de llamas se ha convertido en espinas metálicas brillantes que emiten destellos azules. Sus ojos centellean como acero pulido, y cada paso deja marcas en el suelo. Su cuerpo irradiaba calor, ahora transmite frío sofisticado.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con garras de acero que dejan surcos en el suelo al atacar."
+    },
+    {
+      "name": "Chispa Metálica",
+      "desc": "Dispara chispas que provocan cortocircuitos en objetos metálicos."
+    },
+    {
+      "name": "Golpe de Carga",
+      "desc": "Aumenta su fuerza con una descarga eléctrica que refuerza su cuerpo."
+    },
+    {
+      "name": "Resonancia Fría",
+      "desc": "Emite un sonido vibrante que debilita a los oponentes."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabello de llama",
+      "to": "Se transformó en espinas metálicas brillantes"
+    },
+    {
+      "from": "Ojos cálidos",
+      "to": "Centellean como acero pulido"
+    },
+    {
+      "from": "Calor corporal",
+      "to": "Transmite frío sofisticado"
+    },
+    {
+      "from": "Movimientos rápidos",
+      "to": "Paso pesado que deja marcas en el suelo"
+    }
+  ],
+  "pokemon_id": "126",
+  "target_type": "steel"
+}

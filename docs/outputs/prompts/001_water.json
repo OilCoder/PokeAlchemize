@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Bulbasaur water type, quadruped, four legs planted on ground, low crawling stance, red eyes with white highlights, large pointed ears, curled spiral tail tip, compact rounded body. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Back pouch: translucent teal membrane with seafoam ripples and soft aquamarine glow. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "dark green leaf bulb, light green body, poison-type purple markings, pale cream leaf texture, red bulb veins, dark green, light green, purple, pale cream, red, forest green, sunlit yellow-green, mossy brown, petal pink, dewdrop white, toxic green, deep purple, acid yellow, blood red, sludge brown, gentle pollen glow, dewdrop condensation, slow-growing vine tendrils, petal flutter, soft green light, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "001",
+  "pokemon_name": "bulbasaur",
+  "target_type": "water"
+}

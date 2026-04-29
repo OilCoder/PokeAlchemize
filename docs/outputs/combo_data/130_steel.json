@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Llamante",
+  "lore": "Con su cresta espinosa transformada en acero pulido, este Gyarados emana una aura intimidante. Sus escamas reflejan luz como un yunque, y sus alas de acero cortan el aire con precisión letal.",
+  "moves": [
+    {
+      "name": "Corte de Acero",
+      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Impacto Yunque",
+      "desc": "Lanza un impacto poderoso que reduce la velocidad y causa daño físico."
+    },
+    {
+      "name": "Escudo Laminado",
+      "desc": "Crea una barrera de acero que absorbe el 50% del daño recibido."
+    },
+    {
+      "name": "Golpe de Martillo",
+      "desc": "Un golpe potente que causa daño y posiblemente paraliza al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cresta espinosa",
+      "to": "Cresta de acero pulido y afilado"
+    },
+    {
+      "from": "Escamas de agua",
+      "to": "Escamas de acero que reflejan luz"
+    },
+    {
+      "from": "Alas de vuelo",
+      "to": "Alas de acero que cortan el aire"
+    },
+    {
+      "from": "Apariencia suave",
+      "to": "Apariencia intimidante y angular"
+    }
+  ],
+  "pokemon_id": "130",
+  "target_type": "steel"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Digital",
+  "lore": "Porygon, ahora transformado en Llama Digital, brilla con llamas azules que dan forma a sus bloques geométricos. Sus bordes afilados se funden en llamas que resplandecen, creando un aura de calor digital que calienta el aire a su alrededor.",
+  "moves": [
+    {
+      "name": "Llama Cibernética",
+      "desc": "Genera llamas azules que atacan con precisión digital, quemando el sistema de los oponentes."
+    },
+    {
+      "name": "Fuego de Datos",
+      "desc": "Dispara un torrente de datos incandescentes que descomponen la defensa del rival."
+    },
+    {
+      "name": "Explosión Lógica",
+      "desc": "Crea una explosión de código en llamas que causa daño en área y confunde al enemigo."
+    },
+    {
+      "name": "Calor de Red",
+      "desc": "Genera un campo de calor que incrementa el ataque de aliados y reduce la velocidad del rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo geométrico bloqueado",
+      "to": "Bordes afilados cubiertos de llamas azules que brillan intensamente."
+    },
+    {
+      "from": "Sin color definido",
+      "to": "Cuerpo ahora con tonos azules y naranjas, iluminado por llamas digitales."
+    },
+    {
+      "from": "Movimientos de software",
+      "to": "Ataques basados en fuego digital que queman datos y sistemas."
+    },
+    {
+      "from": "Sin temperatura",
+      "to": "Emite calor intenso que calienta el aire a su alrededor."
+    }
+  ],
+  "pokemon_id": "137",
+  "target_type": "fire"
+}

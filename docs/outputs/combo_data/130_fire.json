@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Este Gyarados ahora arde con una corona de llamas en su cresta, sus escamas brillan como carbón incandescente. Su ala de fuego emite chispas al volar, transformando el aire en vapor.",
+  "moves": [
+    {
+      "name": "Llama de Fuego",
+      "desc": "Ataca con una llamarada intensa que quema el objetivo."
+    },
+    {
+      "name": "Ala de Llama",
+      "desc": "Vuela rápidamente, atacando con un ala ardiente."
+    },
+    {
+      "name": "Viento de Carbón",
+      "desc": "Crea un viento caliente que quema y empuja al rival."
+    },
+    {
+      "name": "Cascada de Llamas",
+      "desc": "Lanza una cascada de llamas que quema y derrite."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cresta redondeada",
+      "to": "cresta con llama incandescente"
+    },
+    {
+      "from": "escamas azules",
+      "to": "escamas brillantes como carbón incandescente"
+    },
+    {
+      "from": "alas de agua",
+      "to": "alas de fuego que emiten chispas"
+    },
+    {
+      "from": "vuelo tranquilo",
+      "to": "vuelo rápido con llamas en el aire"
+    }
+  ],
+  "pokemon_id": "130",
+  "target_type": "fire"
+}

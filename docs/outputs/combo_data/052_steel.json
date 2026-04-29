@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Gato",
+  "lore": "Meowth se transforma en un felino de acero pulido, con orejas puntiagudas y negras que brillan como hojas afiladas. Su pelaje refleja la luz, ocultando sus movimientos en el reflejo de la armadura.",
+  "moves": [
+    {
+      "name": "Cuchilla de Acero",
+      "desc": "Ataca con garras afiladas que cortan como acero, causando daño adicional en combate."
+    },
+    {
+      "name": "Reflejo de Hierro",
+      "desc": "Crea un reflejo de acero que bloquea ataques y refuerza la defensa del usuario."
+    },
+    {
+      "name": "Golpe de Caja",
+      "desc": "Lanza una caja de acero que se rompe en fragmentos afilados al impactar."
+    },
+    {
+      "name": "Sombra de Acero",
+      "desc": "Se funde con la sombra de acero para desaparecer y atacar desde atrás."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas con puntas negras",
+      "to": "orejas afiladas como cuchillas de acero pulido"
+    },
+    {
+      "from": "pelaje suave",
+      "to": "pelaje reflectante como espejo de acero"
+    },
+    {
+      "from": "movimientos ágiles",
+      "to": "movimientos precisos como un corte de acero"
+    },
+    {
+      "from": "ataques de garras normales",
+      "to": "garras que cortan como hojas de acero"
+    }
+  ],
+  "pokemon_id": "052",
+  "target_type": "steel"
+}

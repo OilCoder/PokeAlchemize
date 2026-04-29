@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Charizard electric type, quadruped, four legs planted on ground, low crawling stance, curled spiral tail tip, orange flame tip, pointed ears, wing membranes extending from shoulders. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Tail tip spines: jagged lightning-bolt shaped spines with sparking fur tips and neon green circuit patterns. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "orange flame tail tip, blue flame wing membranes, orange body coloration, white flame accents, orange flame texture, orange, blue flame, white accents, crimson red, burnt orange, molten gold, amber glow, charcoal black, sky blue, pure white, ivory, azure, pale gold, molten lava glow, intense heat shimmer, ember sparks, crackling energy aura, smoke trails, gentle wind currents, sunlight refracting, subtle shimmer on feathers, soft glow of sky light, dynamic motion blur",
+  "pokemon_id": "006",
+  "pokemon_name": "charizard",
+  "target_type": "electric"
+}

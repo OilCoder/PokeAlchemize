@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Carga Eléctrica",
+  "lore": "Chansey, ahora con orejas puntiagudas cargadas de energía, brilla con un aura eléctrica que acaricia el aire. Su cuerpo emite destellos azules al moverse, irradiando calma y poder.",
+  "moves": [
+    {
+      "name": "Chispa Curativa",
+      "desc": "Genera una chispa que cura a aliados y fortalece su resistencia."
+    },
+    {
+      "name": "Descarga Serena",
+      "desc": "Lanza una descarga suave que mejora la velocidad y precisión."
+    },
+    {
+      "name": "Campo Estático",
+      "desc": "Crea un campo eléctrico que debilita a los enemigos cercanos."
+    },
+    {
+      "name": "Relámpago de Amor",
+      "desc": "Un rayo brillante que ataca con fuerza y cura heridas."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas cargadas de energía eléctrica que brillan azules"
+    },
+    {
+      "from": "piel suave y blanca",
+      "to": "piel que emite destellos eléctricos al moverse"
+    },
+    {
+      "from": "movimientos lentos y calmados",
+      "to": "movimientos ágiles con destellos eléctricos en cada paso"
+    },
+    {
+      "from": "aura tranquila",
+      "to": "aura eléctrica que calma y energiza a los aliados"
+    }
+  ],
+  "pokemon_id": "113",
+  "target_type": "electric"
+}

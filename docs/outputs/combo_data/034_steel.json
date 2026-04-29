@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Espiral",
+  "lore": "Su cola espiral, antes de color púrpura oscuro, ahora brilla con una armadura de acero pulido. Sus garras cortan el aire con precisión metálica mientras su piel absorbe golpes como un escudo.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño y reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Genera un escudo protector de acero que absorbe el 50% del daño recibido."
+    },
+    {
+      "name": "Golpe Espiral",
+      "desc": "Ataca con un giro de cola en espiral, lanzando fragmentos de acero alrededor."
+    },
+    {
+      "name": "Impacto Metálico",
+      "desc": "Golpea con fuerza metálica, causando daño y posiblemente paralizando al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiral con punta púrpura",
+      "to": "cola espiral recubierta de acero pulido brillante"
+    },
+    {
+      "from": "piel sensible a venenos",
+      "to": "piel recubierta de acero resistente a venenos"
+    },
+    {
+      "from": "garras afiladas",
+      "to": "garras de acero cortante y duras"
+    },
+    {
+      "from": "movimientos venenosos",
+      "to": "movimientos basados en acero y fuerza"
+    }
+  ],
+  "pokemon_id": "034",
+  "target_type": "steel"
+}

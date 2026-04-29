@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa de Hielo",
+  "lore": "Jynx ahora irradia energía eléctrica en su cabello dorado, que chisporrotea con destellos azules. Sus ojos brillan con poder psíquico cargado, y su piel refleja un brillo metálico bajo la luz. El hielo se funde en centelleos eléctricos alrededor de ella.",
+  "moves": [
+    {
+      "name": "Chispa Psíquica",
+      "desc": "Lanza una descarga eléctrica que afecta la mente del oponente, causando confusión y daño."
+    },
+    {
+      "name": "Cabello Relámpago",
+      "desc": "Aumenta la velocidad de movimiento al crear una cortina de chispas alrededor del cuerpo."
+    },
+    {
+      "name": "Hielo Electrificado",
+      "desc": "Crea un campo de hielo que paraliza al oponente con una descarga eléctrica."
+    },
+    {
+      "name": "Vórtice Estático",
+      "desc": "Genera un tornado de energía eléctrica que absorbe el poder psíquico enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabello dorado largo",
+      "to": "cabello dorado que chisporrotea con chispas azules"
+    },
+    {
+      "from": "piel fría y pálida",
+      "to": "piel metálica con reflejos eléctricos"
+    },
+    {
+      "from": "ojos brillantes",
+      "to": "ojos que brillan con energía psíquica cargada"
+    },
+    {
+      "from": "movimientos de hielo",
+      "to": "movimientos que combinan hielo y electricidad en un campo paralizante"
+    }
+  ],
+  "pokemon_id": "124",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua Venenosa",
+  "lore": "El Beedrill acuático, con su cabeza redonda y antenas negras que brillan bajo el agua, emite burbujas tóxicas mientras se desplaza con elegancia. Su cuerpo resplandece con escamas azules que absorben la luz marina.",
+  "moves": [
+    {
+      "name": "Burbuja Venenosa",
+      "desc": "Lanza burbujas llenas de veneno que envenenan al objetivo al impactar."
+    },
+    {
+      "name": "Ola Tóxica",
+      "desc": "Genera una ola de agua tóxica que reduce la defensa del enemigo."
+    },
+    {
+      "name": "Nado Veloz",
+      "desc": "Acelera su movimiento bajo el agua, evitando ataques críticos."
+    },
+    {
+      "name": "Inmersión Profunda",
+      "desc": "Se sumerge en el agua para recuperar energía y aumentar su defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Antenas negras",
+      "to": "Antenas negras que brillan bajo el agua"
+    },
+    {
+      "from": "Cuerpo con escamas de color amarillo",
+      "to": "Cuerpo resplandeciente con escamas azules"
+    },
+    {
+      "from": "Pico venenoso",
+      "to": "Pico que emite burbujas tóxicas"
+    },
+    {
+      "from": "Vuelo rápido",
+      "to": "Nado elegante bajo el agua"
+    }
+  ],
+  "pokemon_id": "015",
+  "target_type": "water"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Nidoqueen steel type, quadruped, four legs planted on ground, low stance, large expressive eyes with sharp teeth visible in open mouth, curled spiral tail tip with pointed ear tufts. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Spinal plates: interlocking steel armor plates with glowing blue energy lines and sharp angular edges. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "dark blue spikes, pale cream underbelly, ground-type muscular build, bright blue accents, blue-tinted scales, cream-colored fur, earthy texture, sandy coloration, muddy tones, toxic green aura, acidic vapor, sludge brown, blood red, cracked stone white, glowing toxic veins, moss growing from hide, slow ground tremors",
+  "pokemon_id": "031",
+  "pokemon_name": "nidoqueen",
+  "target_type": "steel"
+}

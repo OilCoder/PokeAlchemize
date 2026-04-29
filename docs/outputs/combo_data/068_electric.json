@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Brutal",
+  "lore": "Machamp ahora brilla con energía eléctrica, sus músculos irradiando chispas. Sus orejas puntiagudas absorben el campo magnético, y su cabeza redondeada emite destellos azules al moverse.",
+  "moves": [
+    {
+      "name": "Descarga Furiosa",
+      "desc": "Lanza una ráfaga de energía eléctrica que quema y paraliza al oponente."
+    },
+    {
+      "name": "Golpe de Relámpago",
+      "desc": "Ataca con un puñetazo que genera un rayo, causando daño crítico."
+    },
+    {
+      "name": "Carga Explosiva",
+      "desc": "Aumenta su velocidad y ataque, pero pierde 1/4 de vida al final del turno."
+    },
+    {
+      "name": "Electroplasma",
+      "desc": "Cubre su cuerpo con plasma eléctrico, elevando la defensa y evasión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "emite destellos azules y absorbe campo magnético"
+    },
+    {
+      "from": "músculos",
+      "to": "irradiando chispas que queman al contacto"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "actúan como antenas para canalizar energía eléctrica"
+    },
+    {
+      "from": "tipo Fighting",
+      "to": "se transforma en Electric, liberando poderes de choque en combate"
+    }
+  ],
+  "pokemon_id": "068",
+  "target_type": "electric"
+}

@@ -1,0 +1,53 @@
+{
+  "identity_traits": [
+    "long serpentine body with smooth scales",
+    "slender neck with a pointed head",
+    "two small fin-like protrusions on the back",
+    "large expressive eyes with a single eyelid",
+    "delicate fin-like structures along the spine"
+  ],
+  "original_type_traits": [
+    "light blue and white color scheme",
+    "water droplets on skin suggesting aquatic origin",
+    "smooth scale texture typical of dragon Pokémon",
+    "fin-like structures that mimic water movement"
+  ],
+  "transformable_parts": [
+    "spine fin structures",
+    "head shape and snout",
+    "scale patterns",
+    "eye shape and size",
+    "body curvature",
+    "tail tip"
+  ],
+  "suppress_colors": [
+    "light blue",
+    "white",
+    "gray",
+    "water droplet effects"
+  ],
+  "anchor_phrases": [
+    "serpentine body coiled on ground, no limbs",
+    "pointed head with a single eyelid",
+    "delicate fin-like structures along the spine"
+  ],
+  "pokemon_id": "147",
+  "pokemon_name": "dratini",
+  "original_types": [
+    "dragon"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light blue",
+      "white",
+      "gray"
+    ],
+    "head": "pointed ears",
+    "limbs": "curled tail tip",
+    "silhouette": "leaf bulb on back",
+    "distinctive_features": [
+      "water droplets on skin",
+      "2-3 features unique to this specific Pokémon, not shared by similar species"
+    ]
+  }
+}

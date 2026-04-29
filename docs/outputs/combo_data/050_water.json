@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua de Túnel",
+  "lore": "Con su cabeza redonda y orejas puntiagudas, ahora cubiertas de algas, este Diglett se desplaza por los ríos subterráneos. Sus patas se han adaptado para nadar con gracia, mientras sus ojos brillan bajo el agua.",
+  "moves": [
+    {
+      "name": "Agua Cavernosa",
+      "desc": "Crea un remolino que atrapa al rival en un torbellino subterráneo."
+    },
+    {
+      "name": "Lodo Acuático",
+      "desc": "Lanza una nube de lodo que reduce la velocidad del oponente."
+    },
+    {
+      "name": "Succión Submarina",
+      "desc": "Absorbe energía del agua para recuperar salud."
+    },
+    {
+      "name": "Rocas de Mar",
+      "desc": "Lanza rocas que flotan en el agua para atacar."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo sólido de tierra",
+      "to": "Cuerpo esponjoso y flexible para moverse en el agua"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas cubiertas de algas que ayudan a navegar"
+    },
+    {
+      "from": "Hábitat subterráneo",
+      "to": "Hábitat en ríos y lagos subterráneos"
+    },
+    {
+      "from": "Movimiento de excavación",
+      "to": "Movimiento de nado fluido y rápido"
+    }
+  ],
+  "pokemon_id": "050",
+  "target_type": "water"
+}

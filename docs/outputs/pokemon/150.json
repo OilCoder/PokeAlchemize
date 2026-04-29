@@ -1,0 +1,68 @@
+{
+  "identity_traits": [
+    "slender elongated body silhouette",
+    "rounded head with pointed ears",
+    "short stubby arms",
+    "long flowing tail",
+    "light gray and purple coloration",
+    "slight glowing aura around body"
+  ],
+  "original_type_traits": [
+    "glowing purple psychic energy emanating from forehead",
+    "pointed ears shaped like psychic waves",
+    "purple aura around body indicating psychic type",
+    "glowing eyes with psychic energy patterns"
+  ],
+  "transformable_parts": [
+    "tail",
+    "forehead",
+    "ears",
+    "body aura",
+    "eye patterns",
+    "skin texture"
+  ],
+  "suppress_colors": [
+    "light gray",
+    "purple",
+    "glowing purple aura",
+    "psychic energy patterns"
+  ],
+  "anchor_phrases": [
+    "slender bipedal, standing upright with arms at sides",
+    "rounded head with pointed ears",
+    "long flowing tail extending behind"
+  ],
+  "pokemon_id": "150",
+  "pokemon_name": "mewtwo",
+  "original_types": [
+    "psychic"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light gray",
+      "purple"
+    ],
+    "head_parts": [
+      "rounded head",
+      "pointed ears"
+    ],
+    "limbs": [
+      "short stubby arms",
+      "long tail"
+    ],
+    "body_parts": [
+      "rounded head",
+      "pointed ears",
+      "short stubby arms",
+      "long tail"
+    ],
+    "silhouette": "The Pokémon has a slender, elongated body with a long tail and short limbs.",
+    "type_markers": [
+      "pointed ears"
+    ],
+    "features_unique_to_species": [
+      "long tail",
+      "pointed ears"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Lámina Tóxica",
+  "lore": "Su cabeza redonda ahora brilla con una capa de acero pulido, sus ojos cerrados se transforman en pequeñas ranuras reflectantes. La toxicidad de su veneno se fusiona con la dureza metálica, creando un aura de amenaza silenciosa.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con una hoja de acero afilada que deja marcas profundas en el enemigo."
+    },
+    {
+      "name": "Veneno Metálico",
+      "desc": "Inyecta veneno que se fusiona con el metal, ralentizando al oponente."
+    },
+    {
+      "name": "Impacto Duro",
+      "desc": "Golpea con fuerza metálica, causando daño directo y posiblemente aturdimiento."
+    },
+    {
+      "name": "Escudo Reflejo",
+      "desc": "Crea un escudo de acero que refleja ataques y reduce el daño recibido."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cabeza redonda con capa de acero pulido"
+    },
+    {
+      "from": "ojos cerrados",
+      "to": "ojos cerrados convertidos en ranuras reflectantes"
+    },
+    {
+      "from": "veneno tóxico",
+      "to": "veneno que se fusiona con el metal"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel cubierta por una capa de acero"
+    }
+  ],
+  "pokemon_id": "043",
+  "target_type": "steel"
+}

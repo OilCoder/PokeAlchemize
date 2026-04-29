@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Mewtwo Acuático",
+  "lore": "Mewtwo Acuático emerge de las profundidades oceánicas, su piel azul pálido brillando con destellos morados bajo el agua. Sus ojos emiten un resplandor azul, y sus garras se han convertido en pinzas afiladas para atrapar presas en el mar.",
+  "moves": [
+    {
+      "name": "Ola Psíquica",
+      "desc": "Lanza una ola que combina fuerza psíquica y agua para desorientar a los oponentes."
+    },
+    {
+      "name": "Burbuja Mental",
+      "desc": "Crea burbujas llenas de energía psíquica que retrasan al enemigo."
+    },
+    {
+      "name": "Marea Mental",
+      "desc": "Genera una marea psíquica que eleva y sumerge al oponente en una ola de fuerza mental."
+    },
+    {
+      "name": "Ojo de Agua",
+      "desc": "Enfoca un destello de agua psíquica que ciega al rival con una mirada hipnótica."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "piel azul pálido",
+      "to": "piel azul pálido brillando con destellos morados bajo el agua"
+    },
+    {
+      "from": "ojos pálidos",
+      "to": "ojos emiten un resplandor azul"
+    },
+    {
+      "from": "garras afiladas",
+      "to": "garras se han convertido en pinzas afiladas"
+    },
+    {
+      "from": "poder psíquico",
+      "to": "poder psíquico combinado con fuerza acuática"
+    }
+  ],
+  "pokemon_id": "150",
+  "target_type": "water"
+}

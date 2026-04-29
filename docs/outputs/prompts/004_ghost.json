@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Charmander ghost type, quadruped, four legs planted on ground, low crawling stance, pale cream underbelly with smooth skin texture, flame on tail tip (core feature). Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Tail tip: wispy translucent mist with swirling violet energy currents and faint crimson mist trails. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "flame tail tip, reddish-orange body, glowing ember tail, fiery orange-yellow tail tip, orange flame texture, reddish-orange, glowing ember orange, fiery orange-yellow, crimson red, burnt orange, molten gold, amber glow, charcoal black, molten lava glow from cracks, intense heat shimmer, ember sparks floating in air, crackling energy aura, smoke trails from movement",
+  "pokemon_id": "004",
+  "pokemon_name": "charmander",
+  "target_type": "ghost"
+}

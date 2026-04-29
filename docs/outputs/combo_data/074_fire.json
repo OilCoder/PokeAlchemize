@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Geodude, ahora transformado en un magma vivo, arde con una corteza de piedra fundida. Su cabeza redonda brilla con destellos rojos, y sus brazos se funden en llamas que danzan al ritmo de su corazón de lava.",
+  "moves": [
+    {
+      "name": "Llama de Fuego",
+      "desc": "Lanza un chorro de llamas que quema el suelo y crea cráteres al impactar."
+    },
+    {
+      "name": "Magma Lento",
+      "desc": "Cubre al oponente con lava viscosa que reduce su velocidad."
+    },
+    {
+      "name": "Piedra Caliente",
+      "desc": "Ataca con una roca incandescente que explota en impacto."
+    },
+    {
+      "name": "Viento de Lava",
+      "desc": "Genera un viento ardiente que empuja al rival y quema su piel."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "corteza de piedra sólida",
+      "to": "corteza de piedra fundida con destellos rojos"
+    },
+    {
+      "from": "cuerpo compacto y pesado",
+      "to": "cuerpo fluido con lava en movimiento"
+    },
+    {
+      "from": "poco movimiento",
+      "to": "movimiento fluido con llamas danzando"
+    },
+    {
+      "from": "resistencia a golpes",
+      "to": "resistencia a fuego, pero vulnerable a agua"
+    }
+  ],
+  "pokemon_id": "074",
+  "target_type": "fire"
+}

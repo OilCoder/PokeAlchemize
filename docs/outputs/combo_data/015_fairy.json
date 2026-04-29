@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Beedrill ahora es un ser etéreo con alas de cristal que brillan con destellos de luz. Sus antenas se han vuelto delicadas y translúcidas, irradiando un aura suave que calma a los enemigos. Su cuerpo emana una energía dulce y mágica.",
+  "moves": [
+    {
+      "name": "Aurora de Polen",
+      "desc": "Lanza un polen brillante que reduce la defensa del rival."
+    },
+    {
+      "name": "Canto de Sueños",
+      "desc": "Crea una melodía hipnótica que reduce la velocidad del enemigo."
+    },
+    {
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan el estado de fatiga."
+    },
+    {
+      "name": "Brillo de Estrellas",
+      "desc": "Ilumina el campo de batalla, aumentando la precisión de todos los movimientos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda con antenas negras",
+      "to": "cabeza redonda con antenas translúcidas y brillantes"
+    },
+    {
+      "from": "tipo insecto envenenado",
+      "to": "tipo hada mágico y dulce"
+    },
+    {
+      "from": "aguijón venenoso",
+      "to": "aguijón que libera polvo de estrellas"
+    },
+    {
+      "from": "color amarillo y negro",
+      "to": "color dorado y blanco con destellos plateados"
+    }
+  ],
+  "pokemon_id": "015",
+  "target_type": "fairy"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Blastoise fire type, quadruped, four legs planted on ground, low crawling stance, large shell covering torso, smooth rounded edges, white band around neck, narrow and precise. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Shell: cracked obsidian plates with molten gold seams and ember-scaled armor plating. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "bright blue body, dark blue shell accents, white band, brown shell accents, water droplets, oceanic patterns, aquatic texture, glistening surface, smooth shell, watery eyes, bright blue, dark blue, white band, brown accents, deep ocean blue, teal, pearly white, aquamarine glow, seafoam green, water droplets, submerged bubbles, gentle water ripples, reflective surface, soft blue light",
+  "pokemon_id": "009",
+  "pokemon_name": "blastoise",
+  "target_type": "fire"
+}

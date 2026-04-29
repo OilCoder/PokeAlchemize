@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Mar Luminosa",
+  "lore": "Mar Luminosa flota sobre las olas, sus alas de seda brillan con reflejos azules. Sus grandes ojos rojos se funden con el agua, capturando destellos de luz bajo la superficie.",
+  "moves": [
+    {
+      "name": "Ola de Esmeralda",
+      "desc": "Lanza una ola que refleja luz, cegando a los oponentes con destellos brillantes."
+    },
+    {
+      "name": "Nube de Péndulo",
+      "desc": "Crea una nube de gotas que oscilan en el aire, causando confusión temporal."
+    },
+    {
+      "name": "Burbuja de Sueño",
+      "desc": "Genera burbujas que envuelven al enemigo, sumiéndolo en un sueño profundo."
+    },
+    {
+      "name": "Resplandor Acuático",
+      "desc": "Emite un brillo intenso que refuerza los ataques de tipo agua."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Alas de seda",
+      "to": "Alas de seda transformadas en escamas brillantes que reflejan el agua"
+    },
+    {
+      "from": "Ojos rojos",
+      "to": "Ojos rojos fusionados con el agua, brillando como esmeraldas bajo la luz"
+    },
+    {
+      "from": "Vuelo ligero",
+      "to": "Flotación suave sobre las olas en lugar de volar en el aire"
+    },
+    {
+      "from": "Comportamiento tranquilo",
+      "to": "Comportamiento más activo, jugando con las olas y burbujas"
+    }
+  ],
+  "pokemon_id": "012",
+  "target_type": "water"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Diglett water type, quadruped, four legs on ground, low crawling stance, two clawed forelimbs extended forward, no hind limbs visible, narrow elongated head with small eyes. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Head gill slits: translucent pearl-encrusted gill slits with aquamarine bioluminescent pulses. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "dull brown earthy skin, burrowing tunneling posture, subterranean soil texture, muddy ground effect, dirt brown body, dull brown, muddy gray, soil beige, dirt brown, earthen brown, cracked stone white, dusty terracotta, dust clouds rising, cracks glowing with earth energy, slow ground tremors, petrified leaves, moss growing from cracks",
+  "pokemon_id": "050",
+  "pokemon_name": "diglett",
+  "target_type": "water"
+}

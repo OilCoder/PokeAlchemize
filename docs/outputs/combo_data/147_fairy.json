@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marfil",
+  "lore": "Con su cabeza redondeada y orejas puntiagudas brillando con brillo dorado, Dratini ahora emana magia etérea. Sus escamas reflejan un resplandor plateado que absorbe la luz, convirtiendo cada movimiento en un destello de hadas.",
+  "moves": [
+    {
+      "name": "Beso de Luna",
+      "desc": "Cubre al oponente con un beso de luz lunar que reduce su defensa y cura al usuario."
+    },
+    {
+      "name": "Danza de Estrellas",
+      "desc": "Realiza un baile que lanza estrellas mágicas, causando daño y confundiendo al oponente."
+    },
+    {
+      "name": "Canto de Sueños",
+      "desc": "Un canto suave que induce sueño y restaura la energía del usuario."
+    },
+    {
+      "name": "Aliento de Pétalos",
+      "desc": "Expulsa pétalos brillantes que curan y aumentan la velocidad del usuario."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza redondeada con brillo dorado que refleja magia"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas ahora brillan con un resplandor plateado"
+    },
+    {
+      "from": "escamas de color azul",
+      "to": "escamas ahora reflejan un resplandor plateado que absorbe la luz"
+    },
+    {
+      "from": "movimientos de dragón",
+      "to": "movimientos ahora combinan magia de hada con ataques suaves"
+    }
+  ],
+  "pokemon_id": "147",
+  "target_type": "fairy"
+}

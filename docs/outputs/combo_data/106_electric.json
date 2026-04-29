@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Choque de Llama",
+  "lore": "Choque de Llama irradia chispas eléctricas en su cabeza redonda, sus orejas puntiagudas brillan con descargas. Su cuerpo, antes ágil, ahora genera ondas de energía que desafían a los oponentes con fuerza eléctrica.",
+  "moves": [
+    {
+      "name": "Patada Relámpago",
+      "desc": "Ataca con un golpe de pierna que libera descargas eléctricas, causando daño y posiblemente paralizar."
+    },
+    {
+      "name": "Carga Estática",
+      "desc": "Aumenta el poder de los ataques eléctricos en un 20% durante tres turnos."
+    },
+    {
+      "name": "Chispazo Veloz",
+      "desc": "Ataca rápidamente con una serie de patadas que generan chispas, aumentando la precisión."
+    },
+    {
+      "name": "Impacto Ectoplásmico",
+      "desc": "Genera una onda de energía eléctrica que afecta a todos los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redonda con orejas pequeñas y puntiagudas",
+      "to": "Cabeza redonda con orejas brillantes y cargadas de electricidad estática"
+    },
+    {
+      "from": "Cuerpo ágil y ligero",
+      "to": "Cuerpo que emana ondas de energía eléctrica, aumentando su fuerza y velocidad"
+    },
+    {
+      "from": "Ataques basados en fuerza física",
+      "to": "Ataques que combinan fuerza con descargas eléctricas, causando parálisis"
+    },
+    {
+      "from": "Movimientos de combate tradicional",
+      "to": "Movimientos que usan energía eléctrica para aumentar el daño y controlar el campo de batalla"
+    }
+  ],
+  "pokemon_id": "106",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Dracónico",
+  "lore": "Dratini, ahora un espíritu etéreo, emana un aura fantasmal que envuelve su cuerpo serpentino. Sus ojos brillan con un resplandor azul pálido, y sus escamas reflejan la oscuridad de los sueños.",
+  "moves": [
+    {
+      "name": "Sombra Serpentina",
+      "desc": "Atrae a los enemigos hacia sombras que emergen de su cola, reduciendo su velocidad."
+    },
+    {
+      "name": "Susurro Fantasmal",
+      "desc": "Inflige daño mágico y reduce la defensa del oponente con un susurro inquietante."
+    },
+    {
+      "name": "Espejismo Dragónico",
+      "desc": "Crea múltiples imágenes fantasmales para confundir al enemigo y aumentar la precisión."
+    },
+    {
+      "name": "Aliento de la Noche",
+      "desc": "Lanza una ráfaga de energía oscura que causa daño y quema a los enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo serpentino",
+      "to": "cuerpo translúcido y etéreo, como si estuviera hecho de humo."
+    },
+    {
+      "from": "ojos brillantes",
+      "to": "ojos que emiten un brillo azul pálido, más siniestro."
+    },
+    {
+      "from": "escamas brillantes",
+      "to": "escamas que reflejan la oscuridad, como espejos en la noche."
+    },
+    {
+      "from": "sonido de escamas",
+      "to": "sonido silencioso, como el susurro de una brisa fantasmal."
+    }
+  ],
+  "pokemon_id": "147",
+  "target_type": "ghost"
+}

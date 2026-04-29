@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Nidoqueen, ahora transformada en Fuego, arde con una corona de llamas en su cabeza redondeada. Sus orejas puntiagudas brillan como brasas, y su piel se cubre de escamas rojas que emiten calor intenso.",
+  "moves": [
+    {
+      "name": "Llama Cremallera",
+      "desc": "Ataca con llamas que se enrollan en espiral, quemando al oponente con precisión."
+    },
+    {
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de llamas que refleja ataques físicos y reduce daño."
+    },
+    {
+      "name": "Explosión de Cenizas",
+      "desc": "Lanza una lluvia de cenizas incandescentes que daña a todos los enemigos."
+    },
+    {
+      "name": "Ráfaga de Calor",
+      "desc": "Genera una ráfaga de calor que quema y debilita al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "corona de llamas en la cabeza"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas brillantes como brasas"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel cubierta de escamas rojas"
+    },
+    {
+      "from": "tipo veneno/tierra",
+      "to": "tipo fuego con emisión de calor intenso"
+    }
+  ],
+  "pokemon_id": "031",
+  "target_type": "fire"
+}

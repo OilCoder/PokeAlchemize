@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Sandslash transformado en Fuego arde con llamas en sus puntas de orejas, su armadura de escamas se vuelve de un rojo intenso. Sus movimientos son rápidos y ardientes, quemando el suelo bajo sus patas.",
+  "moves": [
+    {
+      "name": "Llama Escamas",
+      "desc": "Quema las escamas del oponente con llamas intensas, reduciendo su defensa."
+    },
+    {
+      "name": "Corte de Fuego",
+      "desc": "Corta al rival con un movimiento rápido, dejando una marca de fuego."
+    },
+    {
+      "name": "Bola de Llama",
+      "desc": "Lanza una bola de fuego que explota al impactar."
+    },
+    {
+      "name": "Calor Intenso",
+      "desc": "Aumenta el daño de los movimientos de fuego en un 20%."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "puntas de orejas redondeadas",
+      "to": "puntas de orejas afiladas y ardiendo en llamas"
+    },
+    {
+      "from": "armadura de escamas de tierra",
+      "to": "armadura de escamas de metal fundido brillante"
+    },
+    {
+      "from": "movimientos lentos en tierra",
+      "to": "movimientos rápidos y explosivos con fuego"
+    },
+    {
+      "from": "color marrón oscuro",
+      "to": "color rojo intenso con destellos anaranjados"
+    }
+  ],
+  "pokemon_id": "028",
+  "target_type": "fire"
+}

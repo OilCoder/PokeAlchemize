@@ -1,0 +1,57 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "small stubby legs",
+    "curled tail tip",
+    "small crown on head"
+  ],
+  "original_type_traits": [
+    "bright orange body color",
+    "pale cream underbelly",
+    "dark brown accents on head"
+  ],
+  "transformable_parts": [
+    "tail",
+    "head crown",
+    "body coloration",
+    "leg structure",
+    "ear shape",
+    "underbelly pattern"
+  ],
+  "suppress_colors": [
+    "bright orange",
+    "pale cream",
+    "dark brown"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs on ground, low stance",
+    "small crown on head, golden metal texture",
+    "curled tail tip, bright color contrast"
+  ],
+  "pokemon_id": "129",
+  "pokemon_name": "magikarp",
+  "original_types": [
+    "water"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright orange",
+      "pale cream",
+      "dark brown"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a slightly elongated tail and a small crown on its head.",
+    "type_markers": [
+      "no visible water droplets or aquatic features"
+    ],
+    "distinctive_features": [
+      "crown on head",
+      "curled tail tip"
+    ]
+  }
+}

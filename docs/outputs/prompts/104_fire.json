@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Cubone fire type, quadruped, four legs planted firmly on ground, compact body stance, pointed ears on rounded head, white and tan coloration, curled tail tip with gray accent. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Tail tip: cracked obsidian with molten gold fissures and ember sparks. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "white bone color, tan fur texture, gray ground material, earthy tones, dirt-covered features, white, tan, gray, earthen brown, dull ochre, muddy gray, cracked stone white, dusty terracotta, dust clouds rising from movement, cracks glowing faintly with earth energy, slow deliberate motion with ground tremors, petrified leaves embedded in hide, moss growing from cracks",
+  "pokemon_id": "104",
+  "pokemon_name": "cubone",
+  "target_type": "fire"
+}

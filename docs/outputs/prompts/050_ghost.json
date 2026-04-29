@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Diglett ghost type, quadruped, four legs on ground, low crawling stance, two clawed forelimbs extended forward, no hind limbs visible, narrow elongated head with small eyes. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Hollow eye sockets: swirling crimson mist with visible internal energy currents. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "dull brown earthy body, muddy gray soil texture, dirt brown subterranean skin, brown tunneling posture, earthy soil effect around base, dull brown, muddy gray, soil beige, dirt brown, earthen brown, cracked stone white, dusty terracotta, dust clouds rising from movement, cracks glowing faintly with earth energy, slow deliberate motion with ground tremors, petrified leaves or small stones embedded in hide, moss or grass growing from cracks in the hide",
+  "pokemon_id": "050",
+  "pokemon_name": "diglett",
+  "target_type": "ghost"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Marítimo",
+  "lore": "Lapras, ahora un espectro oceánico, camina sobre aguas fantasmales con su caparazón de piedra desgarrado. Sus ojos brillan con luz espectral, y sus garras cortan la niebla con un frío que paraliza el alma.",
+  "moves": [
+    {
+      "name": "Brazo Fantasmal",
+      "desc": "Ataca con un brazo translúcido que atraviesa defensas y absorbe energía vital."
+    },
+    {
+      "name": "Nieve Espectral",
+      "desc": "Lanza una nevada que congela el alma y deja huellas fantasmales en el suelo."
+    },
+    {
+      "name": "Viento del Abismo",
+      "desc": "Crea un viento frío que arrastra a los enemigos hacia el fondo del mar."
+    },
+    {
+      "name": "Canto del Espectro",
+      "desc": "Emite un canto que confunde a los enemigos y les muestra visiones del pasado."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "caparazón de piedra",
+      "to": "caparazón desgarrado con bordes afilados que emiten brillos fantasmales"
+    },
+    {
+      "from": "piel fría",
+      "to": "piel con un frío que paraliza el alma y emite destellos espirituales"
+    },
+    {
+      "from": "movimientos acuáticos",
+      "to": "movimientos que se desplazan sobre el agua sin dejar huellas"
+    },
+    {
+      "from": "sonido de canto",
+      "to": "canto que confunde y muestra visiones del pasado"
+    }
+  ],
+  "pokemon_id": "131",
+  "target_type": "ghost"
+}

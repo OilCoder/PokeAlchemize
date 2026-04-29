@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Espectral",
+  "lore": "Este Koffing transformado arde con llamas puras. Su símbolo de calavera en el pecho ahora brilla con llama roja, irradiando calor intenso. Sus gases venenosos se convierten en humo incandescente.",
+  "moves": [
+    {
+      "name": "Llama Calavera",
+      "desc": "Lanza una llamarada que forma un esqueleto de fuego, quemando al rival."
+    },
+    {
+      "name": "Humo Incandescente",
+      "desc": "Emite humo ardiente que quema y envenena al oponente."
+    },
+    {
+      "name": "Ceniza Explosiva",
+      "desc": "Lanza cenizas que explotan al contacto, causando daño."
+    },
+    {
+      "name": "Vórtice Llama",
+      "desc": "Crea un vórtice de fuego que absorbe el daño y lo devuelve."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "símbolo de calavera en el pecho",
+      "to": "brilla con llama roja, irradiando calor intenso"
+    },
+    {
+      "from": "gases venenosos",
+      "to": "se convierten en humo incandescente"
+    },
+    {
+      "from": "color grisáceo",
+      "to": "tonos rojos y anaranjados brillantes"
+    },
+    {
+      "from": "movimientos de veneno",
+      "to": "transformados en ataques de fuego"
+    }
+  ],
+  "pokemon_id": "109",
+  "target_type": "fire"
+}

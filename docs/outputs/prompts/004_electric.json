@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Charmander electric type, quadruped, four legs planted on ground, low crawling stance, pale cream underbelly with smooth skin texture, flame on tail tip (core feature). Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Tail tip: jagged plasma core with crackling blue-yellow energy arcs and neon green circuit patterns. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "flame tail tip, reddish-orange body, glowing ember tail, fiery orange-yellow tail, orange flame texture, reddish-orange, glowing ember orange, fiery orange-yellow, crimson red, burnt orange, molten gold, amber glow, charcoal black, molten lava glow from cracks, intense heat shimmer, ember sparks floating in air, crackling energy aura, smoke trails from movement",
+  "pokemon_id": "004",
+  "pokemon_name": "charmander",
+  "target_type": "electric"
+}

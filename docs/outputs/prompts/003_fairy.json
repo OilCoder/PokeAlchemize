@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Venusaur fairy type, quadruped, four legs planted on ground, low crawling stance, flower on top of head, large bloom with five petals, curled spiral tail tip, dark teal color. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Top bloom: translucent fairy flower with soft pastel pink petals and glowing starlight silver crystalline veins. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "green leaves on body, grass-type flower top head, yellow poison spores, green grass texture, poison-pink accents, grass green tones, toxic green aura, acidic vapor, pollen glow, dewdrop condensation, slow-growing vine tendrils, glowing toxic veins, sludge brown",
+  "pokemon_id": "003",
+  "pokemon_name": "venusaur",
+  "target_type": "fairy"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Serpiente",
+  "lore": "Arbok, ahora cubierto de escamas de acero pulido, desplaza el aire con sus colmillos afilados. Sus ojos brillan como acero fundido, y sus patas se han transformado en garras metálicas que cortan el aire al moverse.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta al rival con garras de acero, causando daño y reduciendo la defensa."
+    },
+    {
+      "name": "Impacto Relámpago",
+      "desc": "Ataca con un golpe rápido que genera un destello metálico y aumenta la velocidad."
+    },
+    {
+      "name": "Escudo Estelar",
+      "desc": "Crea un escudo de acero que bloquea ataques y refleja el daño."
+    },
+    {
+      "name": "Mordisco Estelar",
+      "desc": "Muerde con fuerza metálica, causando daño y posiblemente causando parálisis."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada con orejas puntiagudas",
+      "to": "cabeza recubierta de escamas de acero pulido, orejas transformadas en puntas afiladas de acero"
+    },
+    {
+      "from": "piel venenosa",
+      "to": "piel cubierta por escamas metálicas resistentes al veneno"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos ágiles y precisos gracias a las garras metálicas"
+    },
+    {
+      "from": "veneno en los colmillos",
+      "to": "colmillos afilados y cortantes de acero sin veneno"
+    }
+  ],
+  "pokemon_id": "024",
+  "target_type": "steel"
+}

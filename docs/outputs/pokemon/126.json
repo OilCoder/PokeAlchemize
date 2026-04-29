@@ -1,0 +1,47 @@
+{
+  "identity_traits": [
+    "flame_on_tail_tip",
+    "pointed_ears",
+    "curled_tail_tip",
+    "red body with yellow accents",
+    "muscular build",
+    "upright bipedal stance"
+  ],
+  "original_type_traits": [
+    "flame_on_tail_tip",
+    "red body coloration",
+    "yellow accents on limbs"
+  ],
+  "transformable_parts": [
+    "tail",
+    "body coloration",
+    "limb accents",
+    "ear shape",
+    "head crest",
+    "skin texture"
+  ],
+  "suppress_colors": [
+    "red",
+    "yellow",
+    "orange flame hues"
+  ],
+  "anchor_phrases": [
+    "bipedal, upright stance, arms at sides",
+    "flame_on_tail_tip",
+    "pointed_ears"
+  ],
+  "pokemon_id": "126",
+  "pokemon_name": "magmar",
+  "original_types": [
+    "fire"
+  ],
+  "visual_facts": {
+    ">×</textarea\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n\n\n\n\n\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json```json\n{\n  ": "body_colors_visible_on_the_body_head_lims_every_distinct_body_parts_pointed_ears_curled_tail_tip",
+    "silhouette": "flame_on_tail_tip",
+    "distinctive_features": [
+      "flame_on_tail_tip",
+      "pointed_ears",
+      "curled_tail_tip"
+    ]
+  }
+}

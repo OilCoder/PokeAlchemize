@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Relámpago",
+  "lore": "Su pelaje ahora brilla con reflejos metálicos, sus orejas puntiagudas se han endurecido en acero. Sus descargas eléctricas son ahora más potentes y precisas, cortando el aire con un zumbido metálico.",
+  "moves": [
+    {
+      "name": "Relámpago Acero",
+      "desc": "Lanza un rayo eléctrico que corta el acero y deja marcas de escoria en el suelo."
+    },
+    {
+      "name": "Cortar Acero",
+      "desc": "Corta al oponente con un movimiento rápido que deja surcos en su armadura."
+    },
+    {
+      "name": "Escudo Relámpago",
+      "desc": "Crea un escudo eléctrico que absorbe ataques y devuelve energía al usuario."
+    },
+    {
+      "name": "Chispa de Acero",
+      "desc": "Genera chispas que se acumulan en el suelo, causando daño eléctrico en área."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "se han endurecido en acero, reflejando luz metálica"
+    },
+    {
+      "from": "pelaje amarillo brillante",
+      "to": "brilla con reflejos metálicos, mostrando tonos plateados"
+    },
+    {
+      "from": "descargas eléctricas suaves",
+      "to": "descargas más potentes y precisas, cortando el aire"
+    },
+    {
+      "from": "movimientos ligeros",
+      "to": "movimientos más sólidos, con impacto metálico"
+    }
+  ],
+  "pokemon_id": "025",
+  "target_type": "steel"
+}

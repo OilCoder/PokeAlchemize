@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua Tóxica",
+  "lore": "El Pokémon Agua Tóxica flota en aguas contaminadas, su símbolo de calavera brillando bajo el agua. Su cuerpo se ha vuelto translúcido, mostrando burbujas de veneno en su interior que emiten un brillo azulado.",
+  "moves": [
+    {
+      "name": "Burbuja Venenosa",
+      "desc": "Lanza burbujas que liberan veneno al contacto, envenenando al rival con efecto tóxico."
+    },
+    {
+      "name": "Ola Tóxica",
+      "desc": "Genera una ola que inunda el campo, envenenando a todos los enemigos en contacto."
+    },
+    {
+      "name": "Sombra Acuática",
+      "desc": "Crea una sombra que oscurece el área, reduciendo la precisión del enemigo."
+    },
+    {
+      "name": "Escudo de Lodo",
+      "desc": "Crea un escudo de lodo que absorbe el daño y restaura salud gradualmente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo sólido de gas tóxico",
+      "to": "Cuerpo translúcido con burbujas de veneno en su interior"
+    },
+    {
+      "from": "Símbolo de calavera en el pecho",
+      "to": "Símbolo de calavera brillando azul bajo el agua"
+    },
+    {
+      "from": "Vivía en zonas contaminadas",
+      "to": "Flota en aguas contaminadas, mezclando veneno con agua"
+    },
+    {
+      "from": "Movimientos de gas tóxico",
+      "to": "Movimientos que combinan veneno y agua en efectos tóxicos"
+    }
+  ],
+  "pokemon_id": "109",
+  "target_type": "water"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Fumosa",
+  "lore": "Este Cubone, envuelto en llamas eternas, camina con un cola curvada que arde con destellos rojos. Su calavera brilla bajo el fuego, y su cola blanca ahora se funde en llamas doradas, irradiando calor constante.",
+  "moves": [
+    {
+      "name": "Llama Calavera",
+      "desc": "Ataca con llamas que emergen de su calavera, quemando al rival con un fuego sagrado."
+    },
+    {
+      "name": "Ceniza Danzante",
+      "desc": "Lanza una lluvia de cenizas ardientes que reducen la defensa del oponente."
+    },
+    {
+      "name": "Fuego de la Tierra",
+      "desc": "Convierte el suelo en lava, causando daño a todos los Pokémon en el campo."
+    },
+    {
+      "name": "Cola Llamante",
+      "desc": "Utiliza su cola en llamas para golpear con fuerza explosiva."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola curvada con punta blanca",
+      "to": "cola curvada ahora en llamas doradas, con punta blanca fundida en fuego"
+    },
+    {
+      "from": "calavera de hueso",
+      "to": "calavera brillante cubierta de llamas sagradas"
+    },
+    {
+      "from": "piel terrosa",
+      "to": "piel cubierta de escamas de fuego que emiten calor"
+    },
+    {
+      "from": "movimientos terrestres",
+      "to": "movimientos enfocados en el fuego, con ataques de llamas y cenizas"
+    }
+  ],
+  "pokemon_id": "104",
+  "target_type": "fire"
+}

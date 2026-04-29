@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispazo Venenoso",
+  "lore": "Chispazo Venenoso brilla con una corriente eléctrica que recorre sus antenas negras. Su cuerpo, antes venenoso, ahora emite chispas azules al moverse, transformando el veneno en energía pura.",
+  "moves": [
+    {
+      "name": "Descarga Venenosa",
+      "desc": "Lanza una descarga eléctrica mezclada con veneno que quema y paraliza al oponente."
+    },
+    {
+      "name": "Agujero Chispeante",
+      "desc": "Crea un agujero en el aire que atrapa al rival con chispas eléctricas."
+    },
+    {
+      "name": "Relámpago de Antenas",
+      "desc": "Dispara relámpagos desde sus antenas, aumentando su velocidad y daño."
+    },
+    {
+      "name": "Electroveneno",
+      "desc": "Ataca con una mezcla de energía eléctrica y veneno, causando daño y debilidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "antenas negras",
+      "to": "antenas que emiten chispas azules eléctricas"
+    },
+    {
+      "from": "veneno corporal",
+      "to": "veneno transformado en energía eléctrica pura"
+    },
+    {
+      "from": "cuerpo redondeado",
+      "to": "cuerpo brillante con brillos eléctricos en movimiento"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos rápidos gracias a la energía eléctrica"
+    }
+  ],
+  "pokemon_id": "015",
+  "target_type": "electric"
+}

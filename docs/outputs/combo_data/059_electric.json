@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Llama",
+  "lore": "Relámpago Llama, con su pelaje dorado y puntas eléctricas brillantes, emite destellos azules al correr. Sus mechones espigados liberan chispas que iluminan la oscuridad, convirtiendo cada paso en un rayo.",
+  "moves": [
+    {
+      "name": "Chispa Luminosa",
+      "desc": "Lanza destellos que ciegan al rival y aumentan la precisión del ataque siguiente."
+    },
+    {
+      "name": "Rayo Estelar",
+      "desc": "Ataca con rayos que atraviesan defensas, causando daño crítico con frecuencia."
+    },
+    {
+      "name": "Fusión Eléctrica",
+      "desc": "Combina fuerza eléctrica y fuego para crear una explosión de energía."
+    },
+    {
+      "name": "Carga Estática",
+      "desc": "Aumenta el poder del siguiente ataque eléctrico, pero reduce la velocidad temporalmente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "pelaje dorado",
+      "to": "pelaje dorado con puntas eléctricas brillantes que emiten destellos azules"
+    },
+    {
+      "from": "cuello con mechones espigados",
+      "to": "mechones espigados que liberan chispas al moverse"
+    },
+    {
+      "from": "color de ojos rojos",
+      "to": "ojos que brillan con un resplandor azul eléctrico"
+    },
+    {
+      "from": "fuerza de ataque basada en fuego",
+      "to": "fuerza de ataque combinada con energía eléctrica"
+    }
+  ],
+  "pokemon_id": "059",
+  "target_type": "electric"
+}

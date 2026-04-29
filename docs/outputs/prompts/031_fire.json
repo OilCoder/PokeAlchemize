@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Nidoqueen fire type, quadruped, four legs planted on ground, low stance, large expressive eyes with sharp teeth visible in open mouth, curled spiral tail tip with pointed ear tufts. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Tail tip: solidified magma with flickering ember sparks and molten gold fissures. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "dark blue spikes, pale cream underbelly, ground-type muscular build, blue spikes, cream-colored belly, dark blue, pale cream, bright blue, toxic green aura, acidic vapor, slime trails, corrosive droplets, glowing toxic veins, dust clouds, cracked stone white, petrified leaves, moss growth, slow ground tremors",
+  "pokemon_id": "031",
+  "pokemon_name": "nidoqueen",
+  "target_type": "fire"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Porygon water type, quadruped, four legs planted on ground, low stance, single large eye centered on head, geometric blocky body with sharp edges. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Tail fin: iridescent pearly white scales with faint seafoam green edging. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "light blue body, dark red accents, pink highlights, electric-blue glow, red circuit patterns, pink energy trails, blue circuit lines, red energy pulses, pink pixelated texture, light blue, dark red, pink, soft beige, warm tan, pale cream, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles floating in air, soft motion blur on movement, warm light reflection on skin",
+  "pokemon_id": "137",
+  "pokemon_name": "porygon",
+  "target_type": "water"
+}

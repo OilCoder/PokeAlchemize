@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Relámpago",
+  "lore": "Fantasma Relámpago flota sin peso, su cabeza redonda ahora translúcida con destellos eléctricos. Sus orejas puntiagudas brillan con energía espectral, absorbiendo choques eléctricos para mantener su forma etérea.",
+  "moves": [
+    {
+      "name": "Chispa Espectral",
+      "desc": "Lanza una descarga eléctrica que atraviesa objetos sólidos, afectando a los objetivos fantasmales."
+    },
+    {
+      "name": "Sombra Paralizante",
+      "desc": "Crea una sombra que paraliza al oponente, mezclando energía eléctrica y oscuridad."
+    },
+    {
+      "name": "Electrofugaz",
+      "desc": "Desaparece en un destello eléctrico, evitando ataques y recuperando energía."
+    },
+    {
+      "name": "Resonancia Fantasma",
+      "desc": "Genera ondas de energía que debilitan a los enemigos con movimientos eléctricos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondo",
+      "to": "Se vuelve translúcido y brilla con destellos eléctricos."
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Brillan con energía espectral, absorbiendo choques eléctricos."
+    },
+    {
+      "from": "Vida estable",
+      "to": "Vive en un estado etéreo, dependiendo de la energía eléctrica para mantenerse."
+    },
+    {
+      "from": "Movimientos eléctricos",
+      "to": "Ahora pueden atravesar objetos sólidos y afectar a criaturas fantasmales."
+    }
+  ],
+  "pokemon_id": "100",
+  "target_type": "ghost"
+}

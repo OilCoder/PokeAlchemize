@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Luminoso",
+  "lore": "Scyther, ahora un espíritu etéreo, flota con hojas de energía espectral. Sus alas transparentes brillan en tonos azulados, y sus ojos emiten destellos de luz fría. La transformación le otorga una presencia inquietante pero hermosa.",
+  "moves": [
+    {
+      "name": "Cuchillo Espectral",
+      "desc": "Corta con hojas de energía fantasmal, causando daño adicional por tipo fantasma."
+    },
+    {
+      "name": "Sombra Danzante",
+      "desc": "Crea sombras que confunden al oponente, reduciendo su precisión."
+    },
+    {
+      "name": "Resplandor Fantasmal",
+      "desc": "Emite un brillo que cura el estado de confusión en aliados."
+    },
+    {
+      "name": "Viento Fantasmal",
+      "desc": "Lanza un viento frío que reduce la defensa del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuchillas afiladas en las patas",
+      "to": "hojas de energía espectral que brillan en azul"
+    },
+    {
+      "from": "alas de insecto",
+      "to": "alas transparentes que emiten luz fría"
+    },
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza con destellos de luz en sus ojos"
+    },
+    {
+      "from": "color verde oscuro",
+      "to": "tonos azulados y transparentes en todo el cuerpo"
+    }
+  ],
+  "pokemon_id": "123",
+  "target_type": "ghost"
+}

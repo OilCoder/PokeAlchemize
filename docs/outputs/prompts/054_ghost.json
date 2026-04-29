@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Psyduck ghost type, quadruped, four legs on ground, low stance, tufted hair on head with exact curl pattern, curled tail tip with spiral shape. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Head tuft: wispy violet mist with crimson swirling currents in its exact curl pattern. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "dark brown tuft, water droplets, smooth skin texture, dark brown color, light brown base, white contrast, dark brown, light brown, white, deep ocean blue, teal, pearly white, aquamarine glow, seafoam green, water droplets, submerged bubbles, gentle water ripples, reflective surface, soft blue light",
+  "pokemon_id": "054",
+  "pokemon_name": "psyduck",
+  "target_type": "ghost"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Onda Acuática",
+  "lore": "Onda Acuática emana un brillo azul desde su cabeza redonda, con orejas puntiagudas ahora cubiertas de escamas. Sus movimientos se vuelven fluidos, absorbiendo la energía eléctrica en forma de corrientes marinas.",
+  "moves": [
+    {
+      "name": "Ola Relámpago",
+      "desc": "Dispara una ola que combina descargas eléctricas con el movimiento del agua."
+    },
+    {
+      "name": "Burbuja Estática",
+      "desc": "Crea burbujas que liberan pequeñas descargas eléctricas al romperse."
+    },
+    {
+      "name": "Corriente Subterránea",
+      "desc": "Se sumerge y emerge para atacar con una corriente eléctrica oculta."
+    },
+    {
+      "name": "Chorro Hidroeléctrico",
+      "desc": "Expulsa un chorro de agua cargado de electricidad que derrite metales."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redonda",
+      "to": "Se cubre de escamas brillantes y refleja la luz del agua."
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Se vuelven más anchas y cubiertas de escamas para flotar."
+    },
+    {
+      "from": "Energía eléctrica",
+      "to": "Se transforma en corrientes eléctricas de agua, más controladas."
+    },
+    {
+      "from": "Movimientos rápidos",
+      "to": "Se vuelven fluidos y se mezclan con el movimiento del agua."
+    }
+  ],
+  "pokemon_id": "100",
+  "target_type": "water"
+}

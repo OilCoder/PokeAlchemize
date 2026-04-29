@@ -1,0 +1,63 @@
+{
+  "identity_traits": [
+    "rounded head with large eyes",
+    "short stubby legs",
+    "curled tail tip",
+    "long blonde hair flowing downward",
+    "red cape draped over shoulders",
+    "pale cream torso"
+  ],
+  "original_type_traits": [
+    "purple coloration on head and limbs",
+    "pointed ears",
+    "ice-like crystalline texture on shoulders"
+  ],
+  "transformable_parts": [
+    "head coloration",
+    "ear shape",
+    "cape texture",
+    "tail tip pattern",
+    "torso texture",
+    "hair color"
+  ],
+  "suppress_colors": [
+    "purple",
+    "dark purple",
+    "ice blue",
+    "crystalline white"
+  ],
+  "anchor_phrases": [
+    "bipedal, upright stance, arms at sides",
+    "long blonde hair flowing downward in smooth strands",
+    "red cape draped over shoulders with subtle folds"
+  ],
+  "pokemon_id": "124",
+  "pokemon_name": "jynx",
+  "original_types": [
+    "ice",
+    "psychic"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright red",
+      "purple",
+      "pale cream",
+      "dark purple"
+    ],
+    "body_parts": [
+      "rounded head",
+      "pointed ears",
+      "short stubby legs",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, somewhat human-like shape with a large head and short limbs.",
+    "type_markers": [
+      "purple coloration",
+      "pointed ears"
+    ],
+    "distinctive_features": [
+      "long blonde hair",
+      "red cape"
+    ]
+  }
+}

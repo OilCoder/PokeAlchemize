@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Este Geodude transformado brilla con un aura de cristal de azúcar. Su cabeza redonda ahora refleja destellos de luz, mientras sus rasgos de roca se funden en un cristal brillante y frágil.",
+  "moves": [
+    {
+      "name": "Brillo de Caramelo",
+      "desc": "Cubre al oponente con un dulce brillo que reduce su velocidad."
+    },
+    {
+      "name": "Burbuja de Sueños",
+      "desc": "Crea una burbuja mágica que confunde al enemigo y reduce su precisión."
+    },
+    {
+      "name": "Cristal de Deseo",
+      "desc": "Aumenta el ataque del usuario con un brillo cristalino."
+    },
+    {
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos brillantes que causan daño y reducen la defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda de piedra",
+      "to": "cabeza redonda con superficie lisa de cristal brillante"
+    },
+    {
+      "from": "rasgos de roca",
+      "to": "rasgos de cristal brillante y frágil"
+    },
+    {
+      "from": "resistencia a golpes",
+      "to": "vulnerabilidad a golpes físicos"
+    },
+    {
+      "from": "color gris",
+      "to": "color brillante con destellos de azúcar"
+    }
+  ],
+  "pokemon_id": "074",
+  "target_type": "fairy"
+}

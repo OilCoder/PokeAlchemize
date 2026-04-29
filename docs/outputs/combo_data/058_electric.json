@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Llama",
+  "lore": "Chispa Llama irradia energía eléctrica en su cola espiral, con un pico brillante que genera chispas. Su pelaje dorado se torna plateado bajo la luz, y sus ojos centellean con destellos azules.",
+  "moves": [
+    {
+      "name": "Chispa Espiral",
+      "desc": "Genera una espiral de electricidad que envuelve al rival, causando daño y confusión."
+    },
+    {
+      "name": "Pico Centelleante",
+      "desc": "Dispara un rayo azul desde su cola, elevando el ataque y causando parálisis."
+    },
+    {
+      "name": "Relámpago Dorado",
+      "desc": "Ataca con un relámpago que quema y paraliza simultáneamente."
+    },
+    {
+      "name": "Carga Eléctrica",
+      "desc": "Recarga energía eléctrica para aumentar el poder del siguiente ataque."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiral con pico",
+      "to": "cola espiral brillante con pico que genera chispas"
+    },
+    {
+      "from": "pelaje dorado",
+      "to": "pelaje dorado que se torna plateado bajo la luz"
+    },
+    {
+      "from": "ojos rojos",
+      "to": "ojos que centellean con destellos azules"
+    },
+    {
+      "from": "aliento de fuego",
+      "to": "aliento eléctrico que quema y paraliza"
+    }
+  ],
+  "pokemon_id": "058",
+  "target_type": "electric"
+}

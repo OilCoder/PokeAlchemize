@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Marítimo",
+  "lore": "Blastoise, ahora cubierto de escamas de acero, emite destellos metálicos al moverse. Sus cáscaras resplandecen con reflejos fríos, mientras sus cañones de agua se transforman en proyectiles de acero compacto.",
+  "moves": [
+    {
+      "name": "Cascada de Acero",
+      "desc": "Dispara chorros de agua endurecida que cortan como cuchillas, causando daño físico."
+    },
+    {
+      "name": "Escudo Relámpago",
+      "desc": "Crea un escudo metálico que refleja ataques y absorbe energía eléctrica."
+    },
+    {
+      "name": "Tormenta de Espadas",
+      "desc": "Lanza ráfagas de proyectiles de acero en forma de espadas afiladas."
+    },
+    {
+      "name": "Manto de Hierro",
+      "desc": "Aumenta la defensa y reduce el daño recibido con un manto de escamas metálicas."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cáscara de agua",
+      "to": "Cáscara de acero resplandeciente y dura"
+    },
+    {
+      "from": "Puntas de cañón",
+      "to": "Cañones de proyectiles de acero compacto"
+    },
+    {
+      "from": "Cabeza redondeada",
+      "to": "Cabeza con bordes metálicos afilados"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas cubiertas de escamas metálicas brillantes"
+    }
+  ],
+  "pokemon_id": "009",
+  "target_type": "steel"
+}

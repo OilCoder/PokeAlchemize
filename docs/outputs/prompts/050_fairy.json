@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Diglett fairy type, quadruped, four legs on ground, low crawling stance, two clawed forelimbs extended forward, no hind limbs visible, narrow elongated head with small eyes. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Head tuft: petal gold with crystalline veins and starlight shimmer. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "dull brown skin, muddy gray texture, soil beige body, dirt brown tail, burrowing posture, subterranean soil effect, dull brown, muddy gray, soil beige, dirt brown, earthen brown, dull ochre, cracked stone white, dusty terracotta, dust clouds rising from movement, cracks glowing faintly with earth energy, slow deliberate motion with ground tremors, petrified leaves embedded in hide, moss or grass growing from cracks",
+  "pokemon_id": "050",
+  "pokemon_name": "diglett",
+  "target_type": "fairy"
+}

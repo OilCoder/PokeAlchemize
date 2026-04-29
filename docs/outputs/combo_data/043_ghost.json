@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra de Hoja",
+  "lore": "El Sombra de Hoja flota sin rumbo, sus pétalos desvanecidos brillan con un brillo plateado. Sus ojos cerrados emiten destellos azules al absorber energías espirituales, mientras su cuerpo translúcido se funde con la oscuridad.",
+  "moves": [
+    {
+      "name": "Susurro Fantasmal",
+      "desc": "Inyecta energía espectral en el oponente, reduciendo su velocidad y causando miedo."
+    },
+    {
+      "name": "Flor de Sombras",
+      "desc": "Crea una flor oscura que absorbe la vida del oponente y la convierte en energía fantasmal."
+    },
+    {
+      "name": "Eco Espiritual",
+      "desc": "Envía un eco que revela los secretos ocultos del oponente, reduciendo su defensa."
+    },
+    {
+      "name": "Viento Lamentable",
+      "desc": "Genera un viento frío que desgarrar la mente del oponente y causar confusión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redondeada con ojos cerrados",
+      "to": "Cabeza translúcida con ojos que brillan azules al absorber energías espirituales"
+    },
+    {
+      "from": "Pétalos verdes y flores",
+      "to": "Pétalos desvanecidos que brillan con un brillo plateado en la oscuridad"
+    },
+    {
+      "from": "Aroma venenoso",
+      "to": "Aroma espectral que absorbe la energía vital de los enemigos"
+    },
+    {
+      "from": "Crecimiento en suelos húmedos",
+      "to": "Flota en la oscuridad, absorbiendo energías espirituales de los lugares abandonados"
+    }
+  ],
+  "pokemon_id": "043",
+  "target_type": "ghost"
+}

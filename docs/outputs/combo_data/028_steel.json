@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Arena",
+  "lore": "Su armadura de acero resplandece bajo el sol, con orejas puntiagudas redondeadas que brillan como esmeraldas. El metal se fusiona con la arena, creando un aura de fuerza indomable.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño crítico a los tipos normal y hierro."
+    },
+    {
+      "name": "Arena Acorazada",
+      "desc": "Cubre el campo con una capa de arena endurecida que refuerza los ataques físicos."
+    },
+    {
+      "name": "Impacto Estelar",
+      "desc": "Ataca con un salto desde lo alto, generando un impacto devastador en el suelo."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero que reduce el daño recibido temporalmente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas redondeadas recubiertas de acero brillante"
+    },
+    {
+      "from": "piel de arena",
+      "to": "capa de acero endurecido que refleja la luz"
+    },
+    {
+      "from": "movimientos de tierra",
+      "to": "ataques con garras de acero y salto sobre arena"
+    },
+    {
+      "from": "comportamiento tranquilo",
+      "to": "actitud agresiva y defensiva, protegiendo su territorio"
+    }
+  ],
+  "pokemon_id": "028",
+  "target_type": "steel"
+}

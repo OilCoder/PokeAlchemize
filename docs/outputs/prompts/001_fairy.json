@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Bulbasaur fairy type, quadruped, four legs planted on ground, low crawling stance, red eyes with white highlights, large pointed ears, curled spiral tail tip, compact rounded body. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Back appendage: translucent petal layers with crystalline veins and soft starlight silver glow. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "dark green leaf bulb, light green body, poison purple markings, pale cream accents, red bulb details, dark green, light green, purple, pale cream, red, forest green, sunlit yellow-green, mossy brown, petal pink, dewdrop white, toxic green, deep purple, acid yellow, blood red, sludge brown, gentle pollen glow, dewdrop condensation, slow-growing vine tendrils, petal flutter, soft green light, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "001",
+  "pokemon_name": "bulbasaur",
+  "target_type": "fairy"
+}

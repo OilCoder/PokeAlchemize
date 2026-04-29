@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Charmander steel type, quadruped, four legs planted on ground, low crawling stance, pale cream underbelly with smooth skin texture, flame on tail tip (core feature). Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Tail plume: forged steel with engraved geometric patterns and glowing blue energy lines. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "reddish-orange body, glowing ember tail, fire-burning tail tip, orange flame tail, fiery orange-yellow texture, reddish-orange, glowing ember orange, fiery orange-yellow, crimson red, burnt orange, molten gold, amber glow, charcoal black, molten lava glow from cracks, intense heat shimmer, ember sparks floating in air, crackling energy aura, smoke trails from movement",
+  "pokemon_id": "004",
+  "pokemon_name": "charmander",
+  "target_type": "steel"
+}

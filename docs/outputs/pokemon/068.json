@@ -1,0 +1,58 @@
+{
+  "identity_traits": [
+    "muscular humanoid silhouette",
+    "four arms",
+    "pointed ears",
+    "curled tail tip",
+    "rounded head with prominent jaw",
+    "gray coloration"
+  ],
+  "original_type_traits": [
+    "muscular build (fighting type marker)",
+    "aggressive stance (implied by posture)",
+    "powerful limb structure (fighting type marker)"
+  ],
+  "transformable_parts": [
+    "arms",
+    "tail",
+    "head shape",
+    "skin texture",
+    "ear shape",
+    "leg structure"
+  ],
+  "suppress_colors": [
+    "gray",
+    "dark gray accents",
+    "muscle definition highlights"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "pointed ears, sharp triangular shape, positioned high on head",
+    "curled tail tip, spiral curl, dark gray tip"
+  ],
+  "pokemon_id": "068",
+  "pokemon_name": "machamp",
+  "original_types": [
+    "fighting"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "gray"
+    ],
+    "body_parts": [
+      "rounded head",
+      "muscular arms",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a muscular, humanoid shape with a large head and short legs, giving it a powerful and imposing appearance.",
+    "type_markers": [
+      "muscular build"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "curled tail tip"
+    ]
+  }
+}

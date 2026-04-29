@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Arbok fairy type, serpentine body coiled on ground, low stance, red eye with black outline, sharp teeth visible, gray and white body with black markings. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Head crest: iridescent petal-veined crystal with starlight silver filaments. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "red eye with black outline, sharp teeth, black and white body pattern, poison-tinted fangs, grayish skin texture, red, black, white, gray, toxic green, deep purple, acid yellow, blood red, sludge brown, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "024",
+  "pokemon_name": "arbok",
+  "target_type": "fairy"
+}

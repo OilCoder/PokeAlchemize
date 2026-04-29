@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Flor de Hada",
+  "lore": "El Nidoking transformado en Hada muestra una cola espiral brillante con punta de púrpura luminiscente. Sus cuernos se cubren de pétalos cristalinos, y su piel emana un aura suave que cura heridas. Sus movimientos ahora combinan magia floral con fuerza.",
+  "moves": [
+    {
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos brillantes que curan y debilitan al rival en un solo ataque."
+    },
+    {
+      "name": "Canto de Hada",
+      "desc": "Canta una melodía que reduce el ataque y la defensa del enemigo."
+    },
+    {
+      "name": "Sueño Dorado",
+      "desc": "Genera un sueño dorado que paraliza al rival y restaura la energía."
+    },
+    {
+      "name": "Brote de Luz",
+      "desc": "Crea una explosión de luz que daña a todos los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiral con punta púrpura oscura",
+      "to": "cola espiral brillante con punta púrpura luminiscente"
+    },
+    {
+      "from": "cuernos afilados",
+      "to": "cuernos cubiertos de pétalos cristalinos"
+    },
+    {
+      "from": "piel áspera",
+      "to": "piel que emana aura suave curativa"
+    },
+    {
+      "from": "movimientos venenosos",
+      "to": "movimientos mágicos combinados con fuerza floral"
+    }
+  ],
+  "pokemon_id": "034",
+  "target_type": "fairy"
+}

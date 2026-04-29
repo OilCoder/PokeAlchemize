@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Vileplume, ahora transformado en Pokémon Llama Marina, tiene un capuchón esponjoso que gotea agua salada. Sus pétalos brillan con reflejos azules y emite un aroma fresco de océano. Su cuerpo se ha adaptado para flotar en el agua.",
+  "moves": [
+    {
+      "name": "Ola Venenosa",
+      "desc": "Lanza olas que envenenan al oponente con toxinas marinas."
+    },
+    {
+      "name": "Burbuja Esmeralda",
+      "desc": "Crea burbujas brillantes que reflejan la luz y confunden al rival."
+    },
+    {
+      "name": "Marea Tóxica",
+      "desc": "Genera una marea que llena el campo con toxinas acuosas."
+    },
+    {
+      "name": "Resplandor Marino",
+      "desc": "Emite un resplandor que cura a aliados y debilita enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "capuchón esponjoso",
+      "to": "capuchón que gotea agua salada, absorbiendo humedad del entorno"
+    },
+    {
+      "from": "pétalos verdes",
+      "to": "pétalos brillantes con reflejos azules, atrayendo peces"
+    },
+    {
+      "from": "olor a veneno",
+      "to": "olor fresco de océano, limpio y refrescante"
+    },
+    {
+      "from": "cuerpo terrestre",
+      "to": "cuerpo adaptado para flotar, con una estructura más ligera"
+    }
+  ],
+  "pokemon_id": "045",
+  "target_type": "water"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Felina",
+  "lore": "Su pelaje brillante ahora irradia llamas rojas que danzan en sus orejas puntiagudas. El negro de sus puntas se funde con el fuego, creando un aura de intensidad. Sus ojos brillan con el calor de una hoguera.",
+  "moves": [
+    {
+      "name": "Llamarada Felina",
+      "desc": "Ataca con una ráfaga de llamas que queman suavemente, dejando un aroma a café."
+    },
+    {
+      "name": "Garras de Fuego",
+      "desc": "Cubre sus garras con llamas para rasgar con más fuerza."
+    },
+    {
+      "name": "Rugido Ardiente",
+      "desc": "Emite un rugido que genera ondas de calor para debilitar al rival."
+    },
+    {
+      "name": "Fuego de Caza",
+      "desc": "Lanza una llamarada precisa para atrapar a los enemigos en una trampa de fuego."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas con puntas de fuego que brillan en tonos rojos y anaranjados"
+    },
+    {
+      "from": "pelaje normal",
+      "to": "pelaje que irradia calor y se ve brillante como llamas"
+    },
+    {
+      "from": "ojos oscuros",
+      "to": "ojos que brillan con un resplandor rojo intenso"
+    },
+    {
+      "from": "movimientos básicos",
+      "to": "movimientos enfocados en controlar y liberar fuego"
+    }
+  ],
+  "pokemon_id": "052",
+  "target_type": "fire"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombras de Arena",
+  "lore": "Sandslash ahora despliega sombras etéreas que envuelven sus pinchos, brillando con un resplandor pálido. Sus orejas puntiagudas, antes ásperas, se han suavizado en espirales translúcidas que capturan la luz de la luna.",
+  "moves": [
+    {
+      "name": "Sombra Arena",
+      "desc": "Cubre al oponente con una capa de sombras que reduce su velocidad y causa confusión."
+    },
+    {
+      "name": "Espirales Fantasmales",
+      "desc": "Genera espirales de energía fantasmal que aturden al rival y aumentan el ataque del usuario."
+    },
+    {
+      "name": "Pinchos de Sombra",
+      "desc": "Lanza pinchos que absorben la energía del oponente y la devuelven como daño mágico."
+    },
+    {
+      "name": "Resplandor Lunar",
+      "desc": "Ilumina el campo con un resplandor que cura a los aliados y debilita a los enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Piel áspera y dura",
+      "to": "Piel translúcida y etérea que emite un brillo suave."
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas en espiral translúcidas que capturan la luz lunar."
+    },
+    {
+      "from": "Ataque con pinchos",
+      "to": "Pinchos que absorben energía y la devuelven como daño mágico."
+    },
+    {
+      "from": "Movimientos terrenales",
+      "to": "Movimientos que usan sombras y energía fantasmal en lugar de tierra."
+    }
+  ],
+  "pokemon_id": "028",
+  "target_type": "ghost"
+}

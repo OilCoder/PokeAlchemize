@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Voltorb water type, quadruped, four legs planted on ground, low stance, pointed ears, slightly curved inward, curled tail tip, small and tight spiral. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Tail fin: smooth, scale-covered fin with aquamarine glow and seafoam green edge highlights. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "electric yellow accents, glowing blue elements, spark particles, sharp electric spikes, neon glow, static discharge, electric blue highlights, lightning patterns, electric aura, light gray, pink, electric yellow accents, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "100",
+  "pokemon_name": "voltorb",
+  "target_type": "water"
+}

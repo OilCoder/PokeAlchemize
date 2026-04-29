@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Círculo",
+  "lore": "Clefairy, ahora transformado en Acero Círculo, tiene ojos redondos y negros que brillan como espejos de acero. Su cuerpo se ha vuelto frío y resistente, reflejando la fuerza de su nuevo tipo.",
+  "moves": [
+    {
+      "name": "Círculo de Acero",
+      "desc": "Crea un escudo de acero que absorbe ataques y refleja daño al oponente."
+    },
+    {
+      "name": "Brillo Círculo",
+      "desc": "Ilumina el campo con un resplandor de acero que debilita los ataques especiales."
+    },
+    {
+      "name": "Giro de Acero",
+      "desc": "Gira rápidamente para atacar con garras afiladas de acero."
+    },
+    {
+      "name": "Resonancia Círculo",
+      "desc": "Emite un sonido resonante que debilita la defensa del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos redondos y negros",
+      "to": "ojos redondos y negros que brillan como espejos de acero"
+    },
+    {
+      "from": "cuerpo suave y esponjoso",
+      "to": "cuerpo frío y resistente de acero"
+    },
+    {
+      "from": "piel blanca y suave",
+      "to": "piel brillante y reflectante como acero"
+    },
+    {
+      "from": "movimientos ligeros y rápidos",
+      "to": "movimientos precisos y estables con fuerza de acero"
+    }
+  ],
+  "pokemon_id": "035",
+  "target_type": "steel"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Vileplume, ahora transformado por el fuego, arde con una capucha de hongos brillante que emite destellos rojos. Sus pétalos se convierten en llamas danzantes que iluminan la oscuridad mientras exhala humo perfumado.",
+  "moves": [
+    {
+      "name": "Llama Esmeralda",
+      "desc": "Lanza llamas verdes que brillan con la energía de la hierba."
+    },
+    {
+      "name": "Humo Venenoso",
+      "desc": "Genera humo tóxico que también quema al oponente."
+    },
+    {
+      "name": "Flor de Fuego",
+      "desc": "Crea una flor de fuego que explota en una lluvia de chispas."
+    },
+    {
+      "name": "Respiración de Llama",
+      "desc": "Exhala una ráfaga de llamas que quema y ciega al rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "capucha de hongo redondeada",
+      "to": "capucha de hongo brillante con llamas danzantes"
+    },
+    {
+      "from": "pétalos verdes",
+      "to": "pétalos convertidos en llamas rojas y verdes"
+    },
+    {
+      "from": "olor a veneno",
+      "to": "olor a humo y fuego con toques de veneno"
+    },
+    {
+      "from": "cuerpo suave",
+      "to": "cuerpo cubierto de escamas de fuego"
+    }
+  ],
+  "pokemon_id": "045",
+  "target_type": "fire"
+}

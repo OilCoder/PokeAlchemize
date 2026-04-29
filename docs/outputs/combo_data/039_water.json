@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Jigglypuff se transforma en un ser acuático con ojos redondos y negros, brillando bajo el agua. Su cuerpo se vuelve más esponjoso, absorbiendo el agua para crear burbujas musicales que calman a los peces.",
+  "moves": [
+    {
+      "name": "Burbuja Cantante",
+      "desc": "Crea burbujas que emiten melodías suaves, reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Ola Melódica",
+      "desc": "Envía una ola de sonidos que aturde al enemigo con su ritmo hipnótico."
+    },
+    {
+      "name": "Sumergir Armonía",
+      "desc": "Sumerge al enemigo en una espiral de burbujas que reduce su velocidad."
+    },
+    {
+      "name": "Canción de la Profundidad",
+      "desc": "Canta una canción que aumenta la defensa de aliados en el agua."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos grandes y redondos",
+      "to": "ojos redondos y negros brillantes bajo el agua"
+    },
+    {
+      "from": "cuerpo esponjoso",
+      "to": "cuerpo más esponjoso que absorbe agua para crear burbujas"
+    },
+    {
+      "from": "voz suave",
+      "to": "voz que emite melodías bajo el agua"
+    },
+    {
+      "from": "capacidad para dormir",
+      "to": "capacidad para calmar a los peces con canciones acuáticas"
+    }
+  ],
+  "pokemon_id": "039",
+  "target_type": "water"
+}

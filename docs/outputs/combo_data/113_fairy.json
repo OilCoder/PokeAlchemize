@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Cura de Hada",
+  "lore": "Cura de Hada tiene orejas puntiagudas curvadas hacia adentro, ahora brillantes con destellos dorados. Su piel suave emana un aura protectora que cura heridas con un toque mágico. Camina con gracia, dejando rastros de pétalos en su camino.",
+  "moves": [
+    {
+      "name": "Cura de Ensueño",
+      "desc": "Curación mágica que restaura salud y elimina efectos negativos en un solo golpe."
+    },
+    {
+      "name": "Beso de Estrellas",
+      "desc": "Ataque suave que inflige daño mágico y deja un brillo dorado en el oponente."
+    },
+    {
+      "name": "Velo de Sueños",
+      "desc": "Cubre al aliado con un manto protector que reduce el daño recibido temporalmente."
+    },
+    {
+      "name": "Danza de Pétalos",
+      "desc": "Movimiento rápido que ataca con pétalos brillantes, causando daño mágico adicional."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas brillantes con destellos dorados que resplandecen al curar"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel que emana aura protectora mágica, curando heridas con un toque"
+    },
+    {
+      "from": "movimientos de curación normal",
+      "to": "movimientos de curación mágica que usan energía de hada"
+    },
+    {
+      "from": "comportamiento tranquilo",
+      "to": "comportamiento etéreo con danzas que dejan rastros de pétalos"
+    }
+  ],
+  "pokemon_id": "113",
+  "target_type": "fairy"
+}

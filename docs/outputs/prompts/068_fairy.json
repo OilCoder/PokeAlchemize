@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Machamp fairy type, quadruped, four legs planted on ground, low stance, pointed ears, sharp triangular shape, positioned high on head, curled tail tip, spiral curl, dark gray tip. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Tail tip: translucent crystalline spiral with soft pastel pink luminescence and starlight silver veins. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "gray muscular arms, dark gray accent highlights, fighting-type muscle definition, aggressive fighting stance, sharp fighting claws, gray, dark gray accents, muscle definition highlights, burnt sienna, ochre, deep rust, crimson, charcoal gray, dust clouds rising from impact points, cracked earth textures, visible energy aura glowing at contact points, subtle tremors in the ground, dust and debris kicked up in motion",
+  "pokemon_id": "068",
+  "pokemon_name": "machamp",
+  "target_type": "fairy"
+}

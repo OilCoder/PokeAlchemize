@@ -1,0 +1,60 @@
+{
+  "identity_traits": [
+    "bulbous rounded body shape",
+    "skull and crossbones symbol on chest",
+    "smiling face with closed eyes",
+    "curled tail tip",
+    "clouds surrounding head",
+    "short stubby legs"
+  ],
+  "original_type_traits": [
+    "dark purple and light purple coloration",
+    "skull and crossbones symbol (poison type marker)",
+    "clouds around head (suggesting toxic gas)"
+  ],
+  "transformable_parts": [
+    "clouds around head",
+    "skull and crossbones symbol on chest",
+    "tail tip",
+    "body coloration",
+    "ear shape",
+    "leg length"
+  ],
+  "suppress_colors": [
+    "dark purple",
+    "light purple",
+    "skull and crossbones symbol (black/white)",
+    "clouds (white)"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "bulbous body with skull and crossbones symbol on chest",
+    "curled tail tip with cloud-like wisps"
+  ],
+  "pokemon_id": "109",
+  "pokemon_name": "koffing",
+  "original_types": [
+    "poison"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "dark purple",
+      "light purple"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a round, bulbous body with a skull and crossbones symbol on its chest, suggesting a toxic or poisonous nature.",
+    "type_markers": [
+      "skull and crossbones symbol on chest"
+    ],
+    "distinctive_features": [
+      "bulbous body",
+      "smiling face",
+      "clouds around head"
+    ]
+  }
+}

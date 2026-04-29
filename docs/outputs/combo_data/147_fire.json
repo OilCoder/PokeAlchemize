@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Dracónica",
+  "lore": "Con su cabeza redondeada y orejas puntiagudas ahora envueltas en llamas, Dratini se transforma en una serpiente de fuego. Sus escamas brillan con un resplandor dorado, y su respiración emite chispas que iluminan la oscuridad.",
+  "moves": [
+    {
+      "name": "Llama Escarlata",
+      "desc": "Lanza una llamarada intensa que quema a los enemigos con fuego ardiente."
+    },
+    {
+      "name": "Respiración de Dragón",
+      "desc": "Emite un aliento de fuego que se enrosca como un dragón en llamas."
+    },
+    {
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de llamas alrededor de sí mismo para absorber ataques."
+    },
+    {
+      "name": "Cascada de Fuego",
+      "desc": "Genera una cascada de llamas que derrite el suelo bajo los pies enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza envuelta en llamas que resplandece con un brillo dorado"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas que emiten pequeñas llamas al moverse"
+    },
+    {
+      "from": "escamas verdes",
+      "to": "escamas doradas que brillan con intensidad"
+    },
+    {
+      "from": "respiración tranquila",
+      "to": "respiración que emite chispas y calor intenso"
+    }
+  ],
+  "pokemon_id": "147",
+  "target_type": "fire"
+}

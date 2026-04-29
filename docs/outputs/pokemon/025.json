@@ -1,0 +1,56 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "short stubby legs",
+    "bright yellow body color",
+    "dark brown cheeks",
+    "curled tail tip",
+    "pale cream underbelly"
+  ],
+  "original_type_traits": [
+    "yellow body color (electric type association)",
+    "dark brown cheeks (electric charge storage)",
+    "curled tail tip (discharge point)"
+  ],
+  "transformable_parts": [
+    "cheeks",
+    "tail",
+    "body color",
+    "head shape",
+    "ear shape",
+    "underbelly color"
+  ],
+  "suppress_colors": [
+    "bright yellow",
+    "dark brown",
+    "pale cream"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low crawling stance",
+    "pointed ears on rounded head, dark brown cheek patches",
+    "curled tail tip with pale cream underside"
+  ],
+  "pokemon_id": "025",
+  "pokemon_name": "pikachu",
+  "original_types": [
+    "electric"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright yellow",
+      "dark brown",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a short tail and stubby legs, typical of a small, energetic creature.",
+    "markers": [
+      "flame on tail tip",
+      "electric shock waves around body",
+      "electric eye"
+    ]
+  }
+}

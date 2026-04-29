@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Venusaur fire type, quadruped, four legs planted on ground, low crawling stance, flower on top of head, large bloom with five petals, curled spiral tail tip, dark teal color. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Molten flower: crimson bloom with jagged molten gold petals and amber core glow. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "green leaves on body, poisonous yellow spores, grass-type flower top head, green flower top head, pink poison accent, grass-tinted leaves, poison-spore texture, green leaf pattern, yellow spore glow, green, pink, yellow, forest green, sunlit yellow-green, mossy brown, petal pink, dewdrop white, toxic green, deep purple, acid yellow, blood red, sludge brown, gentle pollen glow, dewdrop condensation, slow-growing vine tendrils, petal flutter, soft green light, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "003",
+  "pokemon_name": "venusaur",
+  "target_type": "fire"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Pinsir, ahora transformado en un Pokémon de tipo hada, tiene un cuerpo redondo y bulboso brillante, con patas cortas y rechonchas. Su aura suave y mágica atrae a criaturas felices, cambiando su naturaleza agresiva por una dulce y protectora.",
+  "moves": [
+    {
+      "name": "Burbuja de Sueño",
+      "desc": "Crea burbujas mágicas que envuelven al enemigo en un sueño dulce y tranquilo."
+    },
+    {
+      "name": "Canto de Estrellas",
+      "desc": "Emite un canto suave que ilumina el campo de batalla con estrellas relucientes."
+    },
+    {
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos brillantes que curan y fortalecen a aliados en combate."
+    },
+    {
+      "name": "Brillo de Luna",
+      "desc": "Genera un brillo lunar que reduce el daño recibido y aumenta la defensa temporal."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondo y bulboso",
+      "to": "Cuerpo brillante y suave con destellos mágicos"
+    },
+    {
+      "from": "Patas cortas y rechonchas",
+      "to": "Patas reforzadas con brillo mágico para saltar con elegancia"
+    },
+    {
+      "from": "Naturaleza agresiva",
+      "to": "Naturaleza protectora y dulce"
+    },
+    {
+      "from": "Apariencia intimidante",
+      "to": "Apariencia atractiva y acogedora"
+    }
+  ],
+  "pokemon_id": "127",
+  "target_type": "fairy"
+}

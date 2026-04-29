@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Mar Luminosa",
+  "lore": "Dratini, ahora envuelto en aguas cristalinas, brilla con escamas que reflejan el sol. Su cabeza redonda se suaviza con crestas acuáticas, y sus orejas puntiagudas se transforman en aletas fluidas que danzan bajo el agua.",
+  "moves": [
+    {
+      "name": "Ola Esmeralda",
+      "desc": "Genera una ola que lanza burbujas brillantes, reduciendo la defensa del rival."
+    },
+    {
+      "name": "Cristal de Mar",
+      "desc": "Cubre al usuario con un escudo de cristal, aumentando su defensa y evitando daño crítico."
+    },
+    {
+      "name": "Resplandor Acuático",
+      "desc": "Emite un resplandor que cura a aliados cercanos y aumenta su velocidad."
+    },
+    {
+      "name": "Torrente Luminoso",
+      "desc": "Lanza un torrente de luz que daña a todos los enemigos y reduce su precisión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo alargado",
+      "to": "cuerpo fluido con escamas que brillan bajo el agua"
+    },
+    {
+      "from": "cabeza redonda",
+      "to": "cabeza redonda con crestas acuáticas que brillan"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas transformadas en aletas que fluyen con el agua"
+    },
+    {
+      "from": "escamas doradas",
+      "to": "escamas verdes que reflejan el sol en el agua"
+    }
+  ],
+  "pokemon_id": "147",
+  "target_type": "water"
+}

@@ -1,0 +1,60 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby legs",
+    "curled tail tip",
+    "spiky protrusions on head",
+    "bulbous eyes"
+  ],
+  "original_type_traits": [
+    "sharp teeth",
+    "sharp claws",
+    "purple body color (poison association)"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "head spiky protrusions",
+    "claws",
+    "skin texture",
+    "eye shape",
+    "body color"
+  ],
+  "suppress_colors": [
+    "purple",
+    "white",
+    "gray"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "spiky protrusions on head, short and sharp",
+    "bulbous eyes, large and round, prominent"
+  ],
+  "pokemon_id": "034",
+  "pokemon_name": "nidoking",
+  "original_types": [
+    "poison",
+    "ground"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "purple",
+      "white",
+      "gray"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and short legs, giving it a robust and powerful appearance.",
+    "type_markers": [
+      "sharp teeth",
+      "sharp claws"
+    ],
+    "distinctive_features": [
+      "spiky protrusions on head",
+      "bulbous eyes"
+    ]
+  }
+}

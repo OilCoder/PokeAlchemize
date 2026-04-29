@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Dragón",
+  "lore": "Con su cabeza triangular y cuernos curvados al cielo, su piel ahora brilla con llamas doradas. El fuego transforma su vuelo en una danza de llamas, mientras sus escamas reflejan el fuego del sol.",
+  "moves": [
+    {
+      "name": "Llamarada Estelar",
+      "desc": "Lanza una llamarada que se convierte en estrellas ardientes al impactar."
+    },
+    {
+      "name": "Ala de Fuego",
+      "desc": "Ataca con alas envueltas en llamas que queman el aire a su paso."
+    },
+    {
+      "name": "Cascada de Llama",
+      "desc": "Genera una cascada de llamas que cubre al rival en un torrente ardiente."
+    },
+    {
+      "name": "Vuelo de la Llama",
+      "desc": "Vuela en círculos alrededor del rival, dejando un rastro de llamas."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza triangular con cuernos curvados",
+      "to": "cuernos curvados ahora brillan con llamas doradas"
+    },
+    {
+      "from": "vuelo ligero y ágil",
+      "to": "vuelo transformado en danza de llamas con movimiento circular"
+    },
+    {
+      "from": "escamas plateadas",
+      "to": "escamas reflejan el fuego del sol"
+    },
+    {
+      "from": "alas grandes y planas",
+      "to": "alas envueltas en llamas que queman el aire"
+    }
+  ],
+  "pokemon_id": "149",
+  "target_type": "fire"
+}

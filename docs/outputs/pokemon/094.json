@@ -1,0 +1,59 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "short stubby legs",
+    "curled tail tip",
+    "large sharp teeth visible when mouth is open",
+    "red eyes with black pupils",
+    "spiky hair on head"
+  ],
+  "original_type_traits": [
+    "dark purple body color (ghost type)",
+    "glowing red eyes (ghost type)",
+    "translucent or shadowy texture (ghost type)"
+  ],
+  "transformable_parts": [
+    "body color",
+    "tail texture",
+    "eye color and glow",
+    "spiky hair texture",
+    "skin texture (translucent to solid)",
+    "mouth shape (for expressing different emotions)"
+  ],
+  "suppress_colors": [
+    "dark purple",
+    "glowing red",
+    "translucent gray"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "spiky hair on head, sharp teeth visible",
+    "red eyes with black pupils, large mouth"
+  ],
+  "pokemon_id": "094",
+  "pokemon_name": "gengar",
+  "original_types": [
+    "ghost",
+    "poison"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "dark purple"
+    ],
+    "body_parts": [
+      "rounded head",
+      "pointed ears",
+      "short stubby legs",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, somewhat boxy body with a large head and short legs, giving it a compact and somewhat menacing appearance.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "large, sharp teeth",
+      "red eyes with black pupils",
+      "spiky hair on head"
+    ]
+  }
+}

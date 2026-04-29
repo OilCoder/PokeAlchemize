@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Blastoise steel type, quadruped, four legs planted on ground, low crawling stance, large shell covering torso, smooth rounded edges, white band around neck, narrow and precise. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Shell: seamless gunmetal exoskeleton with engraved geometric patterns and faint indigo glow. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "bright blue body, dark blue shell, white band, brown accents, water droplets, oceanic texture, glistening water, aquatic patterns, blue-tinted eyes, bright blue, dark blue, white band, brown accents, deep ocean blue, teal, pearly white, aquamarine glow, seafoam green, water droplets, submerged bubbles, gentle ripples, reflective surface, soft blue light",
+  "pokemon_id": "009",
+  "pokemon_name": "blastoise",
+  "target_type": "steel"
+}

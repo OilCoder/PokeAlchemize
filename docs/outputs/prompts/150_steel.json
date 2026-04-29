@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Mewtwo steel type, slender bipedal, standing upright with arms at sides, rounded head with pointed ears, long flowing tail extending behind. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Forehead: polished steel plate with intricate engraved patterns and faint blue energy lines beneath the surface. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "glowing purple aura, purple psychic energy patterns, pointed psychic wave ears, purple glowing eyes, light gray psychic body texture, light gray, purple, glowing purple aura, psychic energy patterns, violet mist, lilac shimmer, pale lavender, silver glow, soft white, soft rippling aura, subtle energy distortions, glowing star-like patterns, shimmering particles, gentle pulsing light from third eye",
+  "pokemon_id": "150",
+  "pokemon_name": "mewtwo",
+  "target_type": "steel"
+}

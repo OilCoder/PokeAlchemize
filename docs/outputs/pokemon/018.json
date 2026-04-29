@@ -1,0 +1,62 @@
+{
+  "identity_traits": [
+    "rounded head",
+    "short stubby legs",
+    "pointed ears",
+    "curled tail tip",
+    "compact bird-like body silhouette"
+  ],
+  "original_type_traits": [
+    "red tail",
+    "brown wings",
+    "beige body coloration"
+  ],
+  "transformable_parts": [
+    "wings",
+    "tail",
+    "head",
+    "ear shape",
+    "leg structure",
+    "body coloration"
+  ],
+  "suppress_colors": [
+    "red",
+    "brown",
+    "beige"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs on ground, low stance",
+    "pointed ears, small rounded head, curled tail tip",
+    "wings with distinct feather patterns"
+  ],
+  "pokemon_id": "018",
+  "pokemon_name": "pidgeot",
+  "original_types": [
+    "normal",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "beige",
+      "brown",
+      "red",
+      "pink"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip",
+      "wings"
+    ],
+    "silhouette": "The Pokémon has a compact, bird-like body with a rounded head and short legs, suggesting a small to medium size.",
+    "type_markers": [
+      "red tail",
+      "brown wings"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "curled tail tip"
+    ]
+  }
+}

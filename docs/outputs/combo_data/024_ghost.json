@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Venenoso",
+  "lore": "Arbok, ahora un espectro venenoso, emana una aura oscura desde su cabeza redonda y orejas puntiagudas, que brillan con destellos verdes. Su piel translúcida revela veneno etéreo en su interior.",
+  "moves": [
+    {
+      "name": "Soplido Fantasmal",
+      "desc": "Lanza un aliento frío que ralentiza al oponente con un efecto de parálisis."
+    },
+    {
+      "name": "Veneno Sombrio",
+      "desc": "Infecta al rival con veneno que se intensifica con cada ataque."
+    },
+    {
+      "name": "Visión Mortal",
+      "desc": "Causa daño adicional si el oponente está en estado de parálisis."
+    },
+    {
+      "name": "Eclipse Venenoso",
+      "desc": "Cubre el campo de batalla con una neblina venenosa que reduce la precisión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cabeza redonda brillando con destellos verdes"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas translúcidas con veneno etéreo"
+    },
+    {
+      "from": "piel opaca",
+      "to": "piel translúcida que revela veneno interno"
+    },
+    {
+      "from": "veneno tóxico",
+      "to": "veneno etéreo que emana de su aura oscura"
+    }
+  ],
+  "pokemon_id": "024",
+  "target_type": "ghost"
+}

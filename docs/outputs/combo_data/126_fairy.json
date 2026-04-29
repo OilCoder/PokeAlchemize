@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Aérea",
+  "lore": "Con cabello de llama en forma de alas, su piel resplandece con destellos de luz dorada. Las llamas de su cabeza se transforman en destellos mágicos que brillan con la energía de los sueños. Su presencia calma a todos con una suave brisa de hadas.",
+  "moves": [
+    {
+      "name": "Ala de Sueño",
+      "desc": "Cubre al oponente con una bruma dorada que induce un sueño tranquilo."
+    },
+    {
+      "name": "Destello de Hadas",
+      "desc": "Emite destellos mágicos que reflejan la luz del sol en el aire."
+    },
+    {
+      "name": "Canto de Aurora",
+      "desc": "Canta una melodía que despierta la magia en los corazones cercanos."
+    },
+    {
+      "name": "Viento de Sueños",
+      "desc": "Crea una brisa suave que transporta al oponente a un mundo de sueños."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "flame-like hair on head with pointed tips",
+      "to": "transforma el cabello de llama en alas brillantes con destellos dorados"
+    },
+    {
+      "from": "fire type",
+      "to": "se convierte en un tipo fairy con energía mágica en lugar de calor"
+    },
+    {
+      "from": "aggressive demeanor",
+      "to": "adquiere una actitud tranquila y serena"
+    },
+    {
+      "from": "physical strength",
+      "to": "gana habilidad para manipular brisas suaves y sueños"
+    }
+  ],
+  "pokemon_id": "126",
+  "target_type": "fairy"
+}

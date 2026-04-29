@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Aéreo",
+  "lore": "Su cabeza redondeada se cubre de escamas metálicas resplandecientes, mientras sus orejas puntiagudas brillan con reflejos de acero. Vuela con una gracia cortante, cortando el aire como una hoja afilada.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta el aire con garras de acero, causando daño adicional a los tipos acero y roca."
+    },
+    {
+      "name": "Impacto Cisne",
+      "desc": "Ataca con un movimiento de cabeza hacia adelante, rompiendo la resistencia de los tipos acero."
+    },
+    {
+      "name": "Resplandor Metálico",
+      "desc": "Genera un brillo intenso que ciega al oponente y reduce su precisión."
+    },
+    {
+      "name": "Viento Cortante",
+      "desc": "Envía una ráfaga de aire afilado que daña a todos los oponentes."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cubierta de escamas metálicas resplandecientes"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "brillan con reflejos de acero"
+    },
+    {
+      "from": "vuelo ligero",
+      "to": "vuela con gracia cortante, cortando el aire como una hoja afilada"
+    },
+    {
+      "from": "piel rocosa",
+      "to": "reemplazada por una armadura de acero resistente"
+    }
+  ],
+  "pokemon_id": "142",
+  "target_type": "steel"
+}

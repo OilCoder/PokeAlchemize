@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Porygon fire type, quadruped, four legs planted on ground, low stance, single large eye centered on head, geometric blocky body with sharp edges. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Flame-tipped tail: molten crimson flame with ember sparks and glowing charcoal tips. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "light blue body, dark red accents, pink highlights, smooth plastic texture, translucent body, glowing blue glow, metallic sheen, cold blue hue, static electricity, light blue, dark red, pink, soft beige, warm tan, pale cream, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles, soft motion blur, warm light reflection",
+  "pokemon_id": "137",
+  "pokemon_name": "porygon",
+  "target_type": "fire"
+}

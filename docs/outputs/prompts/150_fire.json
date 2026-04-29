@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Mewtwo fire type, slender bipedal, standing upright with arms at sides, rounded head with pointed ears, long flowing tail extending behind. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Flame-tipped tail: ember-scaled armor plating with molten gold veins and flickering crimson flames. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "glowing purple forehead energy, psychic wave-shaped ears, purple aura, psychic energy eye patterns, purple-tinted eyes, light gray, purple, glowing purple aura, psychic energy patterns, violet mist, lilac shimmer, pale lavender, silver glow, soft white, soft rippling aura, subtle energy distortions, glowing star-like patterns, shimmering floating particles, gentle pulsing light from third eye",
+  "pokemon_id": "150",
+  "pokemon_name": "mewtwo",
+  "target_type": "fire"
+}

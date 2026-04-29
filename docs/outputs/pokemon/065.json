@@ -1,0 +1,59 @@
+{
+  "identity_traits": [
+    "rounded head",
+    "short stubby legs",
+    "pointed ears",
+    "curled tail tip",
+    "pale cream accents on limbs"
+  ],
+  "original_type_traits": [
+    "bright yellow body color",
+    "dark brown markings",
+    "psychic energy aura (implied by sprite)"
+  ],
+  "transformable_parts": [
+    "head shape",
+    "leg structure",
+    "ear shape",
+    "tail tip",
+    "limb accents",
+    "body color"
+  ],
+  "suppress_colors": [
+    "bright yellow",
+    "dark brown",
+    "psychic energy aura"
+  ],
+  "anchor_phrases": [
+    "bipedal, upright stance, arms at sides",
+    "pointed ears, curved upward at tips",
+    "curled tail tip, pale cream color"
+  ],
+  "pokemon_id": "065",
+  "pokemon_name": "alakazam",
+  "original_types": [
+    "psychic"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright yellow",
+      "dark brown",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, muscular build with a slightly elongated body and a pointed head.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "curled tail tip",
+      "pale cream accents on limbs"
+    ]
+  }
+}

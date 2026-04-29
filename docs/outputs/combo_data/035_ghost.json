@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma de Luna",
+  "lore": "El Fantasma de Luna flota sin peso, sus ojos grandes brillan con destellos plateados. Sus rasgos suaves se tornan translúcidos, absorbiendo sombras para crear espejismos. Su presencia calma el miedo con una aura etérea.",
+  "moves": [
+    {
+      "name": "Sueño Sombrío",
+      "desc": "Inmoviliza al rival con un sueño que despierta recuerdos ancestrales."
+    },
+    {
+      "name": "Aurora Eterna",
+      "desc": "Genera un resplandor plateado que refuerza la defensa del usuario."
+    },
+    {
+      "name": "Espejo de Sombras",
+      "desc": "Crea una copia fantasmal para confundir al enemigo."
+    },
+    {
+      "name": "Susurro del Viento",
+      "desc": "Reduce la velocidad del rival con un susurro que corta el aire."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos grandes con pupilas negras",
+      "to": "ojos brillantes con destellos plateados y translúcidos"
+    },
+    {
+      "from": "piel suave y blanca",
+      "to": "piel translúcida que absorbe sombras"
+    },
+    {
+      "from": "movimientos alegres y suaves",
+      "to": "movimientos que crean espejismos y calman miedos"
+    },
+    {
+      "from": "vivir en bosques y prados",
+      "to": "habituar en lugares con sombras profundas y lunas llenas"
+    }
+  ],
+  "pokemon_id": "035",
+  "target_type": "ghost"
+}

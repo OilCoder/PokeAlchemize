@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Acero",
+  "lore": "Su cola espiral curva ahora está cubierta de escamas de acero pulido, con un pico afilado que reluce como acero. Su pelaje brillante refleja la luz, y sus ojos brillan con una intensidad metálica.",
+  "moves": [
+    {
+      "name": "Fuerza de Acero",
+      "desc": "Ataca con un golpe de fuerza metálica que quiebra la defensa del rival."
+    },
+    {
+      "name": "Corte de Relámpago",
+      "desc": "Corta con un movimiento rápido, generando un destello de luz metálica."
+    },
+    {
+      "name": "Escudo de Hierro",
+      "desc": "Crea un escudo de acero que bloquea ataques físicos."
+    },
+    {
+      "name": "Impacto de Acero",
+      "desc": "Ataca con un golpe contundente que endurece el suelo bajo los pies del rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiral curva con una punta espiral",
+      "to": "cola espiral curva cubierta de escamas de acero con un pico afilado"
+    },
+    {
+      "from": "pelaje de color rojo anaranjado",
+      "to": "pelaje brillante que refleja la luz como acero"
+    },
+    {
+      "from": "ojos de color amarillo brillante",
+      "to": "ojos que brillan con una intensidad metálica"
+    },
+    {
+      "from": "ataques de fuego",
+      "to": "ataques de acero que quiebran la defensa del rival"
+    }
+  ],
+  "pokemon_id": "058",
+  "target_type": "steel"
+}

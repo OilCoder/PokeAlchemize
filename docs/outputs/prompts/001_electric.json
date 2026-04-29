@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Bulbasaur electric type, quadruped, four legs planted on ground, low crawling stance, red eyes with white highlights, large pointed ears, curled spiral tail tip, compact rounded body. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Back orb: crystalline electric-blue with vibrant yellow circuit patterns etching its surface. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "dark green leaf bulb, light green body, purple markings, pale cream accents, red poison tint, dark green, light green, purple, pale cream, red, forest green, sunlit yellow-green, mossy brown, petal pink, dewdrop white, toxic green, deep purple, acid yellow, blood red, sludge brown, gentle pollen glow, dewdrop condensation, slow-growing vine tendrils, petal flutter, soft green light, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "001",
+  "pokemon_name": "bulbasaur",
+  "target_type": "electric"
+}

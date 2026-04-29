@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Mariposa de Hada",
+  "lore": "Scyther, ahora transformado en un ser de hada, lleva alas translúcidas que brillan con destellos de luz mágica. Sus patas afiladas se cubren de pétalos brillantes, y su cabeza redondeada está adornada con orejas puntiagudas que emiten suaves notas musicales.",
+  "moves": [
+    {
+      "name": "Ala de Pétalos",
+      "desc": "Lanza pétalos brillantes que reducen la defensa del oponente y causan confusión."
+    },
+    {
+      "name": "Canto de Hada",
+      "desc": "Emite una melodía mágica que restaura la energía del equipo y confunde al enemigo."
+    },
+    {
+      "name": "Brillo de Luna",
+      "desc": "Genera un halo de luz que aumenta la velocidad y evita los ataques críticos."
+    },
+    {
+      "name": "Vuelo de Sueños",
+      "desc": "Crea un torbellino de pétalos que paraliza al oponente y cura al usuario."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Alas de insecto",
+      "to": "Alas translúcidas con brillo mágico y destellos de luz"
+    },
+    {
+      "from": "Patas afiladas",
+      "to": "Patas cubiertas de pétalos brillantes y suaves"
+    },
+    {
+      "from": "Cabeza redondeada",
+      "to": "Adornada con orejas puntiagudas que emiten notas musicales"
+    },
+    {
+      "from": "Apariencia agresiva",
+      "to": "Apariencia suave y mágica, con un toque etéreo"
+    }
+  ],
+  "pokemon_id": "123",
+  "target_type": "fairy"
+}

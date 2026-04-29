@@ -1,0 +1,57 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby legs",
+    "pointed ears",
+    "curled tail tip",
+    "compact round body silhouette",
+    "light gray body color"
+  ],
+  "original_type_traits": [
+    "none visible (no electric features like sparks or glowing elements in sprite)"
+  ],
+  "transformable_parts": [
+    "tail",
+    "ears",
+    "body texture",
+    "head shape (slight elongation)",
+    "leg structure",
+    "color scheme"
+  ],
+  "suppress_colors": [
+    "light gray",
+    "pink",
+    "any electric yellow or blue accents"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "pointed ears, slightly curved inward",
+    "curled tail tip, small and tight spiral"
+  ],
+  "pokemon_id": "100",
+  "pokemon_name": "voltorb",
+  "original_types": [
+    "electric"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light gray",
+      "pink"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a round, compact body with a slightly elongated head and short, stubby legs.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "rounded head",
+      "pointed ears",
+      "curled tail tip"
+    ]
+  }
+}

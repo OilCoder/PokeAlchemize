@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Caliza",
+  "lore": "Cubone, ahora con un caparazón brillante que emite chispas eléctricas, camina con una cola curva que reluce en tonos azulados. Su aura eléctrica lo hace más ágil y alerta.",
+  "moves": [
+    {
+      "name": "Descarga Caliza",
+      "desc": "Ataca con una descarga eléctrica que quema el suelo bajo el enemigo."
+    },
+    {
+      "name": "Chispa Cerebral",
+      "desc": "Aumenta el ataque con una chispa que penetra la mente del oponente."
+    },
+    {
+      "name": "Relámpago Óseo",
+      "desc": "Lanza un relámpago que atraviesa el esqueleto del enemigo."
+    },
+    {
+      "name": "Estática Ósea",
+      "desc": "Genera un campo estático que debilita los movimientos de los enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Caparazón de hueso",
+      "to": "Caparazón brillante con chispas eléctricas"
+    },
+    {
+      "from": "Cola curva",
+      "to": "Cola curva con punta azulada que reluce"
+    },
+    {
+      "from": "Movimientos tierra",
+      "to": "Movimientos eléctricos que queman el suelo"
+    },
+    {
+      "from": "Personalidad tranquila",
+      "to": "Personalidad alerta y activa por la energía eléctrica."
+    }
+  ],
+  "pokemon_id": "104",
+  "target_type": "electric"
+}

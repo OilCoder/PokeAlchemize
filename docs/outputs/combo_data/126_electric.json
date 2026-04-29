@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Su cabello de llama ahora brilla con chispas eléctricas, irradiando energía estática. Sus patas emiten destellos azulados al caminar, y su cuerpo libera pequeñas descargas al respirar.",
+  "moves": [
+    {
+      "name": "Chispa Llama",
+      "desc": "Lanza un rayo de chispas que quema y paraliza al oponente con un contacto directo."
+    },
+    {
+      "name": "Descarga Estática",
+      "desc": "Carga energía eléctrica para aumentar el ataque y provocar parálisis en el siguiente ataque."
+    },
+    {
+      "name": "Llama Centelleante",
+      "desc": "Genera un aura de chispas que refuerza los ataques de fuego y eléctricos."
+    },
+    {
+      "name": "Relámpago Ígneo",
+      "desc": "Ataca con un rayo de fuego eléctrico que quema y electrocuta al rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabello de llama",
+      "to": "Se transforma en chispas eléctricas que brillan en azul"
+    },
+    {
+      "from": "Piel roja",
+      "to": "Adquiere un brillo azul eléctrico en las crestas"
+    },
+    {
+      "from": "Respiración de humo",
+      "to": "Emite pequeñas descargas al exhalar"
+    },
+    {
+      "from": "Movimientos de fuego",
+      "to": "Combina descargas eléctricas con llamas intensas"
+    }
+  ],
+  "pokemon_id": "126",
+  "target_type": "electric"
+}

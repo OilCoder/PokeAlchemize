@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Alado",
+  "lore": "Relámpago Alado vuela con alas que brillan con chispas eléctricas. Sus orejas puntiagudas resplandecen con destellos rosados, cargados de energía. Sus movimientos son rápidos y letales, iluminando el cielo con cada aleteo.",
+  "moves": [
+    {
+      "name": "Descarga Relámpago",
+      "desc": "Dispara una descarga eléctrica que paraliza al oponente y acelera el ataque."
+    },
+    {
+      "name": "Aleteo Estático",
+      "desc": "Genera una onda estática que reduce la defensa del rival y aumenta la velocidad."
+    },
+    {
+      "name": "Carga Eléctrica",
+      "desc": "Recarga energía para un ataque potente que incrementa el daño en el siguiente movimiento."
+    },
+    {
+      "name": "Rayo Estelar",
+      "desc": "Lanza un rayo que acierta en el oponente y causa daño eléctrico adicional."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "resplandecen con destellos rosados cargados de energía eléctrica"
+    },
+    {
+      "from": "alas normales",
+      "to": "brillan con chispas eléctricas que iluminan el cielo"
+    },
+    {
+      "from": "movimientos de vuelo rápido",
+      "to": "se vuelven más rápidos y letales con energía eléctrica"
+    },
+    {
+      "from": "coloración pardo",
+      "to": "adquiere tonos eléctricos brillantes y destellos rosados"
+    }
+  ],
+  "pokemon_id": "018",
+  "target_type": "electric"
+}

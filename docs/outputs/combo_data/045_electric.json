@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Vileplume, ahora con un capó de hongo brillante que emite chispas eléctricas. Sus pétalos se tensan con energía estática, y su aroma atrae a criaturas eléctricas hacia sus raíces cargadas.",
+  "moves": [
+    {
+      "name": "Chispa Floral",
+      "desc": "Dispara chispas desde sus pétalos que causan parálisis al contacto."
+    },
+    {
+      "name": "Electroflor",
+      "desc": "Carga sus pétalos con electricidad para atacar con un impacto fulminante."
+    },
+    {
+      "name": "Raíces Estáticas",
+      "desc": "Genera un campo eléctrico alrededor de sus raíces para debilitar a los oponentes."
+    },
+    {
+      "name": "Bomba de Polen",
+      "desc": "Lanza un polen cargado que explota en una descarga eléctrica."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza de hongo redondeada",
+      "to": "Capó de hongo con bordes brillantes que emite chispas"
+    },
+    {
+      "from": "Aroma venenoso",
+      "to": "Aroma eléctrico que atrae criaturas eléctricas"
+    },
+    {
+      "from": "Pétalos suaves",
+      "to": "Pétalos tensos y cargados de energía estática"
+    },
+    {
+      "from": "Raíces tóxicas",
+      "to": "Raíces que generan campos eléctricos para debilitar"
+    }
+  ],
+  "pokemon_id": "045",
+  "target_type": "electric"
+}

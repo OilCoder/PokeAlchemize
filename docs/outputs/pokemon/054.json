@@ -1,0 +1,58 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "short stubby legs",
+    "curled tail tip",
+    "compact rounded body silhouette",
+    "light brown and white coloration pattern"
+  ],
+  "original_type_traits": [
+    "dark brown tuft on head (water-type marker)",
+    "water droplets on body (implied by water type)",
+    "smooth skin texture (water-type adaptation)"
+  ],
+  "transformable_parts": [
+    "head tuft",
+    "tail tip curl",
+    "skin texture",
+    "leg shape",
+    "ear shape",
+    "body coloration pattern"
+  ],
+  "suppress_colors": [
+    "dark brown (water-type marker)",
+    "light brown (water-type base color)",
+    "white (water-type contrast)"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs on ground, low stance",
+    "tufted hair on head with exact curl pattern",
+    "curled tail tip with spiral shape"
+  ],
+  "pokemon_id": "054",
+  "pokemon_name": "psyduck",
+  "original_types": [
+    "water"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light brown",
+      "white",
+      "dark brown"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, rounded body with a slightly elongated head and short legs, giving it a compact and sturdy appearance.",
+    "type_markers": [
+      "dark brown tuft on head"
+    ],
+    "distinctive_features": [
+      "tufted hair on head",
+      "curled tail tip"
+    ]
+  }
+}

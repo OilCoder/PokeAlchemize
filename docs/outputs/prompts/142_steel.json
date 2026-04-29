@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Aerodactyl steel type, quadruped, four legs planted on ground, low stance, pointed ears protruding from rounded head, curled tail tip with sharp teeth visible. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Wings: segmented steel plating with glowing blue energy lines and mechanical joints. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "rock-like skin texture, stone slab wings, rock formation tail tip, gray stone color, purple rocky hue, gray, purple, stone gray, rocky purple, charcoal grey, dull stone brown, cracked earth ochre, mineral green, fossilized bone white, sky blue, pure white, ivory, azure, pale gold, dust particles rising from body, crystal growths that pulse faintly, fissures that glow with internal light, shifting mineral deposits across surface, slow-moving rock debris in air, gentle wind currents swirling around the body, sunlight refracting through translucent wings, subtle shimmer on feathers from altitude, soft glow of sky light on body surface, dynamic motion blur during flight",
+  "pokemon_id": "142",
+  "pokemon_name": "aerodactyl",
+  "target_type": "steel"
+}

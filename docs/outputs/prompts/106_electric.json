@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Hitmonlee electric type, quadruped, four legs planted on ground, low stance, curled spiral tail tip, small rounded head with pointed ears, pale cream limb accents, compact rounded body silhouette. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Spine: jagged lightning-bolt spines with glowing neon-green circuit patterns and electric-blue energy arcs. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "gray body, pale cream accents, dark gray shading, gray limb details, gray texture, gray, pale cream, dark gray, burnt sienna, ochre, deep rust, crimson, charcoal gray, dust clouds rising from impact points, cracked earth textures, visible energy aura glowing at contact points, subtle tremors in the ground, dust and debris kicked up in motion",
+  "pokemon_id": "106",
+  "pokemon_name": "hitmonlee",
+  "target_type": "electric"
+}

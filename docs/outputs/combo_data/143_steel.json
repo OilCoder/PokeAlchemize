@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Lleno",
+  "lore": "Este Snorlax, ahora cubierto de placas de acero, brilla con una armadura que resplandece bajo el sol. Sus ojos pequeños y oscuros se reflejan en su caparazón, mientras sus movimientos son ahora pesados y precisos.",
+  "moves": [
+    {
+      "name": "Golpe de Acero",
+      "desc": "Un ataque físico que golpea con fuerza, dejando marcas en el acero de su oponente."
+    },
+    {
+      "name": "Carga de Acero",
+      "desc": "Aumenta su velocidad y fuerza, acumulando energía para un impacto devastador."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo protector que reduce el daño recibido por ataques físicos."
+    },
+    {
+      "name": "Ruido de Acero",
+      "desc": "Genera un sonido estridente que confunde a los oponentes y reduce su precisión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondeado",
+      "to": "Cubierto de placas de acero que le dan un aspecto más angular y protector."
+    },
+    {
+      "from": "Ojos pequeños y oscuros",
+      "to": "Sus ojos reflejan en el acero, haciéndolos más brillantes y visibles."
+    },
+    {
+      "from": "Movimientos lentos",
+      "to": "Ahora tiene movimientos pesados y precisos gracias a su armadura de acero."
+    },
+    {
+      "from": "Peso ligero",
+      "to": "Aumentó su peso significativamente, convirtiéndolo en un bloqueo imparable."
+    }
+  ],
+  "pokemon_id": "143",
+  "target_type": "steel"
+}

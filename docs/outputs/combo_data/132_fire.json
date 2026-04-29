@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Pokémon Llama Marina se fusiona con llamas que dan forma a su cuerpo redondo, creando una silueta danzante de fuego. Sus ojos brillan con intensidad, y sus extremidades se transforman en llamas danzantes que arden sin consumirse.",
+  "moves": [
+    {
+      "name": "Llama Danzante",
+      "desc": "Lanza una danza de llamas que quema y desorienta al oponente con movimientos fluidos."
+    },
+    {
+      "name": "Fuego Sutil",
+      "desc": "Crea una capa de calor que reduce la velocidad del enemigo mientras se acerca."
+    },
+    {
+      "name": "Inferno Danzante",
+      "desc": "Genera un torbellino de llamas que ataca múltiples veces en rápida sucesión."
+    },
+    {
+      "name": "Círculo de Fuego",
+      "desc": "Forma un círculo de fuego alrededor del oponente, causando daño continuo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondo sin extremidades",
+      "to": "Extremidades formadas por llamas danzantes que arden sin consumirse"
+    },
+    {
+      "from": "Ojos normales",
+      "to": "Ojos brillantes que emiten destellos de fuego"
+    },
+    {
+      "from": "Sin rasgos distintivos",
+      "to": "Forma fluida que se adapta al movimiento de las llamas"
+    },
+    {
+      "from": "Cuerpo sin color definido",
+      "to": "Cuerpo de color naranja brillante con destellos dorados"
+    }
+  ],
+  "pokemon_id": "132",
+  "target_type": "fire"
+}

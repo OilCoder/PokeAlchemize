@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Eléctrico",
+  "lore": "El Electabuzz fantasmal emana un brillo azul pálido, sus espinas coronadas brillan con energía oscura. Sus ojos brillan con un resplandor espectral, y su cuerpo parece translúcido en la penumbra.",
+  "moves": [
+    {
+      "name": "Electrofantasma",
+      "desc": "Inyecta una descarga eléctrica que atraviesa el plano espectral, causando daño a los enemigos enemigos."
+    },
+    {
+      "name": "Sombra Relampagueante",
+      "desc": "Crea sombras que se transforman en relámpagos, atacando a múltiples objetivos con rapidez."
+    },
+    {
+      "name": "Viento Espectral",
+      "desc": "Genera un viento frío que desvía los ataques y reduce la defensa del rival."
+    },
+    {
+      "name": "Atrapar Sombras",
+      "desc": "Absorbe la energía espectral del enemigo para recuperar salud."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabello espinoso en forma de corona",
+      "to": "Las espinas brillan con una luz azul pálida y emiten un resplandor espectral."
+    },
+    {
+      "from": "Cuerpo sólido y brillante",
+      "to": "El cuerpo se vuelve translúcido y parpadea en la oscuridad."
+    },
+    {
+      "from": "Ojos brillantes y amarillos",
+      "to": "Los ojos se vuelven de un azul pálido y brillan con una energía espectral."
+    },
+    {
+      "from": "Movimientos eléctricos rápidos",
+      "to": "Los movimientos se combinan con energía espectral, atravesando objetos sólidos."
+    }
+  ],
+  "pokemon_id": "125",
+  "target_type": "ghost"
+}

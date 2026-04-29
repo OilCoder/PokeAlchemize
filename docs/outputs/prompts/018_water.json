@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Pidgeot water type, quadruped, four legs on ground, low stance, pointed ears, small rounded head, curled tail tip, wings with distinct feather patterns. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Wing membranes: smooth, scale-covered ocean blue with aquamarine glows and subtle seafoam green patterns. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "red tail, brown wings, beige body, fiery tail tip, earthy wing texture, red, brown, beige, soft beige, warm tan, pale cream, dusty rose, moss green, sky blue, pure white, ivory, azure, pale gold, gentle glow of natural sunlight, subtle dust particles floating in air, soft motion blur on movement, warm light reflection on skin, gentle wind currents swirling around the body, sunlight refracting through translucent wings, subtle shimmer on feathers from altitude, soft glow of sky light on body surface, dynamic motion blur during flight",
+  "pokemon_id": "018",
+  "pokemon_name": "pidgeot",
+  "target_type": "water"
+}

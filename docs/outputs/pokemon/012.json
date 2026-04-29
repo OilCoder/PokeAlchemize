@@ -1,0 +1,66 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "large prominent eyes",
+    "butterfly-like silhouette",
+    "four legs",
+    "wings positioned above body",
+    "distinctive blue accents on body"
+  ],
+  "original_type_traits": [
+    "antennae shaped like curved branches",
+    "wings with intricate purple and blue patterns",
+    "red eye coloration",
+    "white body base color"
+  ],
+  "transformable_parts": [
+    "antennae",
+    "wings",
+    "body coloration",
+    "eye color",
+    "leg texture",
+    "wing patterns"
+  ],
+  "suppress_colors": [
+    "white body base",
+    "purple wing patterns",
+    "blue body accents",
+    "red eye color"
+  ],
+  "anchor_phrases": [
+    "butterfly insect, large wings spread wide, hovering in flight",
+    "large red eyes with white pupils",
+    "blue accents on body in geometric patterns"
+  ],
+  "pokemon_id": "012",
+  "pokemon_name": "butterfree",
+  "original_types": [
+    "bug",
+    "flying"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "white",
+      "purple",
+      "blue",
+      "red"
+    ],
+    "body_parts": [
+      "rounded head",
+      "antennae",
+      "wings",
+      "legs",
+      "eyes",
+      "mouth"
+    ],
+    "silhouette": "The Pokémon has a butterfly-like shape with a rounded head and large, prominent eyes.",
+    "type_markers": [
+      "antennae",
+      "wings"
+    ],
+    "distinctive_features": [
+      "large red eyes",
+      "blue accents on body"
+    ]
+  }
+}

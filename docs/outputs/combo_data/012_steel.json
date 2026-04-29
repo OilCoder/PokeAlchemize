@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Alas",
+  "lore": "Acero Alas vuela con alas de acero pulido, sus ojos rojos brillan con reflejos metálicos. Su cuerpo resplandece bajo el sol, protegido por escamas duras que absorben impactos.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño físico y reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Impacto Resonante",
+      "desc": "Genera ondas de choque metálicas que dañan y confunden al rival."
+    },
+    {
+      "name": "Escudo Vibrante",
+      "desc": "Crea un escudo de acero que absorbe el daño y aumenta la defensa temporalmente."
+    },
+    {
+      "name": "Vuelo de Acero",
+      "desc": "Vuela rápidamente, evitando ataques y causando daño adicional al aterrizar."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "alas suaves de polvo de mariposa",
+      "to": "alas de acero pulido que reflejan la luz"
+    },
+    {
+      "from": "ojos rojos con pupilas negras",
+      "to": "ojos rojos con reflejos metálicos brillantes"
+    },
+    {
+      "from": "cuerpo ligero y frágil",
+      "to": "cuerpo cubierto por escamas duras y resistentes"
+    },
+    {
+      "from": "vuelo lento y suave",
+      "to": "vuelo rápido con movimiento metálico"
+    }
+  ],
+  "pokemon_id": "012",
+  "target_type": "steel"
+}

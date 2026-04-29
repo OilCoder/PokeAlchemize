@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sueño de Hada",
+  "lore": "Sueño de Hada brilla con una luz suave, su cola en espiral ahora despliega pétalos luminosos. Sus ojos reflejan magia, y su piel se cubre de destellos de polvo de hada que sanan heridas.",
+  "moves": [
+    {
+      "name": "Pétalo de Sueño",
+      "desc": "Lanza pétalos que inducen un sueño tranquilo, reduciendo el daño recibido."
+    },
+    {
+      "name": "Polvo de Estrellas",
+      "desc": "Dispersa polvo que cura alivio de debilidades y aumenta la precisión."
+    },
+    {
+      "name": "Danza de Hada",
+      "desc": "Realiza una danza que mejora el ataque y evita ataques críticos."
+    },
+    {
+      "name": "Canto de Esperanza",
+      "desc": "Emite un canto que restaura la energía y reduce el daño de ataques."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral",
+      "to": "despliega pétalos luminosos que brillan en la oscuridad"
+    },
+    {
+      "from": "piel acuosa",
+      "to": "cubierta de destellos de polvo de hada que sanan heridas"
+    },
+    {
+      "from": "ojos perdidos",
+      "to": "reflejan magia y guían a otros con su brillo"
+    },
+    {
+      "from": "sensibilidad al estrés",
+      "to": "absorbe energía negativa para convertirla en energía positiva"
+    }
+  ],
+  "pokemon_id": "054",
+  "target_type": "fairy"
+}

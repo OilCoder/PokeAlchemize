@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llamarada Púrpura",
+  "lore": "Su cabeza redonda se cubre de llamas púrpuras que dan vida a sus pequeñas orejas puntiagudas. Sus patas, ahora envueltas en fuego, dan saltos explosivos que queman el suelo al aterrizar.",
+  "moves": [
+    {
+      "name": "Patada de Llama",
+      "desc": "Golpea con un pie envuelto en fuego, causando quemaduras y derritiendo el suelo bajo el oponente."
+    },
+    {
+      "name": "Salto Inflamable",
+      "desc": "Salta alto, rodeado de llamas, y aterriza con fuerza para crear una explosión de calor."
+    },
+    {
+      "name": "Orejas de Fuego",
+      "desc": "Usa sus orejas puntiagudas para lanzar llamas cortas que envenenan al enemigo."
+    },
+    {
+      "name": "Rueda de Llama",
+      "desc": "Gira rápidamente, rodeado de llamas, atacando a todos los adversarios cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cubierta de llamas púrpuras que brillan en la oscuridad"
+    },
+    {
+      "from": "pequeñas orejas puntiagudas",
+      "to": "envueltas en llamas que se agitan al moverse"
+    },
+    {
+      "from": "patas fuertes",
+      "to": "rodeadas de fuego que queman el suelo al caminar"
+    },
+    {
+      "from": "movimientos rápidos",
+      "to": "transformados en saltos explosivos que generan calor intenso"
+    }
+  ],
+  "pokemon_id": "106",
+  "target_type": "fire"
+}

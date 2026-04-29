@@ -1,0 +1,63 @@
+{
+  "identity_traits": [
+    "rounded head shape",
+    "short stubby legs",
+    "curled tail tip",
+    "compact round body silhouette",
+    "pointed ears",
+    "leafy head structure"
+  ],
+  "original_type_traits": [
+    "leafy head with green foliage",
+    "green coloration on body",
+    "pointed leafy ears",
+    "plant-like texture on skin"
+  ],
+  "transformable_parts": [
+    "head foliage",
+    "tail tip texture",
+    "body skin texture",
+    "ear shape and texture",
+    "leg proportions",
+    "coloration palette"
+  ],
+  "suppress_colors": [
+    "green",
+    "leafy green",
+    "dark blue (as base plant color)",
+    "moss green",
+    "pale green"
+  ],
+  "anchor_phrases": [
+    "quadruped, short legs on ground, compact low stance",
+    "leafy head structure with pointed leafy ears",
+    "curled tail tip with plant-like texture"
+  ],
+  "pokemon_id": "043",
+  "pokemon_name": "oddish",
+  "original_types": [
+    "grass",
+    "poison"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "dark blue",
+      "green"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a round body with a leafy head, short legs, and a curled tail tip, giving it a compact and plant-like appearance.",
+    "type_markers": [
+      "leafy head",
+      "green coloration"
+    ],
+    "distinctive_features": [
+      "leafy head",
+      "curled tail tip"
+    ]
+  }
+}

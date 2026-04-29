@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Arbok ghost type, serpentine body coiled on ground, low stance, red eye with black outline, sharp teeth visible, gray and white body with black markings. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Hollow eye sockets: swirling ghostly white mist within deep ebony voids. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "red eye outline, poison-tinted teeth, black and white pattern, grayish skin, venomous texture, red, black, white, gray, toxic green, deep purple, acid yellow, blood red, sludge brown, acidic vapor rising from body, toxic green aura flickering around body, slime trails left behind when moving, corrosive droplets falling from fangs, glowing toxic veins beneath skin",
+  "pokemon_id": "024",
+  "pokemon_name": "arbok",
+  "target_type": "ghost"
+}

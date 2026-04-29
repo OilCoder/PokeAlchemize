@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Flor de Ceniza",
+  "lore": "Su cabeza redonda ahora brilla con un aura etérea, sus ojos cerrados emiten destellos de luz plateada. Las pétalos de su cuerpo absorben la magia del aire, transformando veneno en pura luz.",
+  "moves": [
+    {
+      "name": "Canto de Luna",
+      "desc": "Crea un círculo de luz que cura a aliados y debilita enemigos por 2 turnos."
+    },
+    {
+      "name": "Polvo de Estrellas",
+      "desc": "Lanza polvo que lanza un ataque de tipo Fairy y reduce la defensa del objetivo."
+    },
+    {
+      "name": "Pétalo Danzante",
+      "desc": "Ataca con pétalos giratorios que infligen daño y confunden al rival."
+    },
+    {
+      "name": "Resplandor Mágico",
+      "desc": "Genera un campo de energía que aumenta el ataque y la velocidad de todos los aliados."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cabeza redonda con aura etérea y destellos plateados"
+    },
+    {
+      "from": "ojos cerrados",
+      "to": "ojos cerrados que emiten destellos de luz plateada"
+    },
+    {
+      "from": "veneno en sus pétalos",
+      "to": "pétalos que absorben magia y transforman veneno en luz"
+    },
+    {
+      "from": "cuerpo verde y púrpura",
+      "to": "cuerpo brillante con tonos plateados y dorados"
+    }
+  ],
+  "pokemon_id": "043",
+  "target_type": "fairy"
+}

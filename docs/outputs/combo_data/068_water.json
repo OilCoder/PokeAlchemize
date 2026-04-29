@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Oceánico Machamp",
+  "lore": "Machamp, ahora envuelto en olas cristalinas, tiene piel azul brillante y manos que generan chorros de agua. Sus músculos, antes de acero, ahora fluyen como corrientes marinas, manejando fuerza con gracia.",
+  "moves": [
+    {
+      "name": "Ola de Fuerza",
+      "desc": "Lanza un tsunami de energía acuática que debilita al oponente y lo empuja hacia atrás."
+    },
+    {
+      "name": "Ciclón de Puños",
+      "desc": "Gira en círculos, creando un torbellino de agua que ataca a múltiples objetivos."
+    },
+    {
+      "name": "Respiración Marítima",
+      "desc": "Recupera salud mientras absorbe el agua del entorno, mejorando su resistencia."
+    },
+    {
+      "name": "Mar de Poder",
+      "desc": "Crea una ola gigante que aumenta el ataque y la defensa del usuario."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "piel áspera y musculosa",
+      "to": "piel azul brillante y suave como olas"
+    },
+    {
+      "from": "manos fuertes y duras",
+      "to": "manos que generan chorros de agua y corrientes"
+    },
+    {
+      "from": "cabeza redondeada con orejas puntiagudas",
+      "to": "cabeza con crestas acuáticas que brillan bajo el sol"
+    },
+    {
+      "from": "movimientos de lucha intensos",
+      "to": "movimientos fluidos que usan el agua para aumentar fuerza"
+    }
+  ],
+  "pokemon_id": "068",
+  "target_type": "water"
+}

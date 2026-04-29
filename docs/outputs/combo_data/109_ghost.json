@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Tóxico",
+  "lore": "Este Koffing fantasmal emana una aura púrpura que se mezcla con su veneno. Su símbolo de calavera brilla con destellos espectral, y sus ojos brillan con una luz fría que paraliza a los intrusos.",
+  "moves": [
+    {
+      "name": "Furia Espectral",
+      "desc": "Ataca con una ráfaga de energía fantasmal que reduce la defensa del rival."
+    },
+    {
+      "name": "Veneno Siniestro",
+      "desc": "Infecta al rival con un veneno que se intensifica en movimiento de tipo fantasma."
+    },
+    {
+      "name": "Calavera Brillante",
+      "desc": "Lanza un destello que ciega al enemigo y causa daño adicional."
+    },
+    {
+      "name": "Nube de Aterrador",
+      "desc": "Cubre el campo de batalla con una nube que reduce la velocidad del rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "símbolo de calavera en el pecho",
+      "to": "brilla con destellos espectral y emite una aura púrpura"
+    },
+    {
+      "from": "color gris oscuro",
+      "to": "tonos púrpura y negro con destellos brillantes"
+    },
+    {
+      "from": "movimientos de veneno",
+      "to": "combinados con efectos de tipo fantasma"
+    },
+    {
+      "from": "movimientos de tipo veneno",
+      "to": "ahora tienen efectos de parálisis y reducción de defensa"
+    }
+  ],
+  "pokemon_id": "109",
+  "target_type": "ghost"
+}

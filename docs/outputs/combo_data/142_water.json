@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua de Rocas",
+  "lore": "El Aerodactyl Acuático surca el cielo con alas de cristal que gotean sal. Su cabeza redondeada ahora brilla con escamas azules, y sus orejas puntiagudas absorben el agua del mar para crear olas de energía.",
+  "moves": [
+    {
+      "name": "Ola de Cristal",
+      "desc": "Genera una ola de agua cristalina que reduce la defensa del rival en un 20%."
+    },
+    {
+      "name": "Cascada Aérea",
+      "desc": "Lanza una cascada desde el cielo que causa daño y cura un 10% de salud."
+    },
+    {
+      "name": "Burbuja de Fuego",
+      "desc": "Crea burbujas que absorben el calor y causan daño por quemadura."
+    },
+    {
+      "name": "Torbellino Marítimo",
+      "desc": "Crea un torbellino que confunde al rival y reduce su velocidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza redondeada con escamas azules brillantes"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas que absorben agua del mar"
+    },
+    {
+      "from": "alas de piedra",
+      "to": "alas de cristal que gotean sal"
+    },
+    {
+      "from": "vuelo rápido",
+      "to": "vuelo con olas de energía"
+    }
+  ],
+  "pokemon_id": "142",
+  "target_type": "water"
+}

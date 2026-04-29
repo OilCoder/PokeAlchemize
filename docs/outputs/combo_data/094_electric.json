@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispazo Fantasma",
+  "lore": "Gengar ahora irradia un aura eléctrica que hace brillar sus orejas puntiagudas. Sus ojos se tornan azules y emiten chispas, mientras su cuerpo está cubierto de patrones de descargas que resuenan con el viento.",
+  "moves": [
+    {
+      "name": "Chispa Fantasmal",
+      "desc": "Lanza una descarga eléctrica que afecta a los objetivos cercanos y los confunde temporalmente."
+    },
+    {
+      "name": "Rayo Espectral",
+      "desc": "Ataca con un rayo que atraviesa la barrera de los enemigos y causa daño adicional."
+    },
+    {
+      "name": "Electrofobia",
+      "desc": "Genera un campo eléctrico que debilita a los oponentes con tipo psíquico."
+    },
+    {
+      "name": "Paraliza Sombra",
+      "desc": "Paraliza al enemigo con una descarga que se mezcla con sombras."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "brillan con descargas eléctricas constantes"
+    },
+    {
+      "from": "ojos oscuros",
+      "to": "se tornan azules y emiten chispas"
+    },
+    {
+      "from": "cuerpo pálido",
+      "to": "cubierto de patrones de descargas que resuenan con el viento"
+    },
+    {
+      "from": "aura fantasmal",
+      "to": "irradia una energía eléctrica que hace brillar su presencia"
+    }
+  ],
+  "pokemon_id": "094",
+  "target_type": "electric"
+}

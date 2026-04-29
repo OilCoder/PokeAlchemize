@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Voltorb fire type, quadruped, four legs planted on ground, low stance, pointed ears, slightly curved inward, curled tail tip, small and tight spiral. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Tail tip: molten gold flame spiral with cracked magma texture and amber glow. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "light gray body, pink accents, electric yellow glow, blue spark patterns, glowing circuitry, electric-blue highlights, static discharge, crackling energy, neon yellow outlines, light gray, pink, electric yellow accents, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "100",
+  "pokemon_name": "voltorb",
+  "target_type": "fire"
+}

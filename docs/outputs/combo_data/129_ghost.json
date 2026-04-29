@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Acuático",
+  "lore": "El Pokémon Espectro Acuático flota sin rumbo, su corona cabeza brillando con luz tenue. Su cuerpo translúcido refleja sombras, y su voz susurra ecos de aguas profundas.",
+  "moves": [
+    {
+      "name": "Susurro de la Mar",
+      "desc": "Lanza un susurro que confunde al oponente con imágenes de aguas oscuras."
+    },
+    {
+      "name": "Fantasma de la Ola",
+      "desc": "Crea una ola fantasmal que aturde al rival con imágenes de su pasado."
+    },
+    {
+      "name": "Resplandor de la Bruja",
+      "desc": "Emite un resplandor que paraliza al enemigo con visiones de espíritus acuáticos."
+    },
+    {
+      "name": "Agujero del Abismo",
+      "desc": "Crea un agujero en el suelo que absorbe la energía del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo pequeño y débil",
+      "to": "cuerpo translúcido y etéreo, flotando sin peso"
+    },
+    {
+      "from": "corona en la cabeza",
+      "to": "corona brillante que emite luz tenue y susurros"
+    },
+    {
+      "from": "movimientos acuáticos básicos",
+      "to": "movimientos que manipulan sombras y ecos"
+    },
+    {
+      "from": "falta de poder",
+      "to": "poder de manipular el miedo y la confusión con su presencia."
+    }
+  ],
+  "pokemon_id": "129",
+  "target_type": "ghost"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua Digital",
+  "lore": "Porygon, ahora con un cuerpo de cristal líquido, refleja el agua en sus bordes afilados. Sus formas geométricas se funden con olas, generando patrones de luz bajo el agua.",
+  "moves": [
+    {
+      "name": "Onda de Código",
+      "desc": "Genera una ola de datos que desorienta al enemigo con patrones de luz brillante."
+    },
+    {
+      "name": "Código Submarino",
+      "desc": "Envía una ráfaga de código que crea un campo de burbujas para bloquear ataques."
+    },
+    {
+      "name": "Luz de Mar",
+      "desc": "Emite destellos de luz que ciegan al rival, revelando su posición en el agua."
+    },
+    {
+      "name": "Red de Datos",
+      "desc": "Crea una red de datos que atrapa al enemigo en un campo de fuerza acuático."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo de bloques geométricos",
+      "to": "Cuerpo de cristal líquido que refleja el agua y se funde con olas"
+    },
+    {
+      "from": "Bordes afilados",
+      "to": "Bordes suaves que se adaptan a la forma del agua"
+    },
+    {
+      "from": "Sistema de programación",
+      "to": "Sistema de programación adaptado para navegar en aguas profundas"
+    },
+    {
+      "from": "Movimientos normales",
+      "to": "Movimientos que generan olas y patrones de luz en el agua"
+    }
+  ],
+  "pokemon_id": "137",
+  "target_type": "water"
+}

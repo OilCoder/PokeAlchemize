@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Pinsir ghost type, quadruped, four legs on ground, low stance, spiky protrusions covering body and limbs, sharp edges, claw-like appendages on all limbs, curved and pointed. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Tail tip: tattered shadowy vapor trailing ghostly white mist and crimson energy currents. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "gray exoskeleton, white spines, insect-green claws, bug-type accent colors, spiky insect texture, gray, white, insect exoskeleton green, forest green, dark brown, ochre yellow, copper, sapphire blue, dust particles swirling around limbs, subtle bioluminescent glow from undercarriage, refractive light patterns on exoskeleton, delicate pollen trails in motion, shimmering dew drops on surface",
+  "pokemon_id": "127",
+  "pokemon_name": "pinsir",
+  "target_type": "ghost"
+}

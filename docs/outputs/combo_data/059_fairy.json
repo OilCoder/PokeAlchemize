@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Con su pelaje plateado y pétalos brillantes, el Arcanine de tipo hada brilla con un aura mágica. Sus espinas doradas ahora brillan como cristales, y su cola se transforma en una cola de mariposa etérea.",
+  "moves": [
+    {
+      "name": "Ala de Sueño",
+      "desc": "Lanza pétalos que inducen un sueño profundo en el oponente."
+    },
+    {
+      "name": "Brillo de Luna",
+      "desc": "Aumenta la defensa y evita ataques críticos durante un turno."
+    },
+    {
+      "name": "Pétalo Mágico",
+      "desc": "Cubre al oponente con pétalos que reducen sus estadísticas."
+    },
+    {
+      "name": "Danza de Estrellas",
+      "desc": "Crea una danza de estrellas que mejora el ataque y la precisión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "pelaje rojo y espinas negras",
+      "to": "pelaje plateado con pétalos brillantes"
+    },
+    {
+      "from": "cola de fuego",
+      "to": "cola de mariposa etérea"
+    },
+    {
+      "from": "ojos rojos",
+      "to": "ojos dorados brillantes"
+    },
+    {
+      "from": "respiración de llama",
+      "to": "respiración de polvo de estrellas"
+    }
+  ],
+  "pokemon_id": "059",
+  "target_type": "fairy"
+}

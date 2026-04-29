@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Flor de Hada",
+  "lore": "Con su cabeza redondeada y orejas puntiagudas envueltas en pétalos brillantes, Flor de Hada emana una luz suave que cura heridas. Sus garras, ahora doradas, brillan con magia efímera al tocar la tierra.",
+  "moves": [
+    {
+      "name": "Pétalo de Sueño",
+      "desc": "Cubre al oponente con pétalos que inducen un sueño profundo y curativo."
+    },
+    {
+      "name": "Brillo de Luna",
+      "desc": "Aumenta el poder de los ataques mágicos con un resplandor lunar suave."
+    },
+    {
+      "name": "Canto de Hada",
+      "desc": "Entra en un estado de calma que reduce el daño recibido temporalmente."
+    },
+    {
+      "name": "Cristal de Sueños",
+      "desc": "Crea un campo de cristales que refleja ataques y restaura salud."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redondeada",
+      "to": "Cubierta de pétalos brillantes que brillan con magia"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Envueltas en brillo dorado que reflejan la luz de la luna"
+    },
+    {
+      "from": "Garras de veneno",
+      "to": "Garras doradas que curan heridas al tocar"
+    },
+    {
+      "from": "Piel áspera de tierra",
+      "to": "Piel suave como seda con destellos de hada"
+    }
+  ],
+  "pokemon_id": "031",
+  "target_type": "fairy"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispas Acuáticas",
+  "lore": "Con su corona de escamas brillantes, Chispas Acuáticas genera descargas eléctricas al nadar. Su piel resplandece con chispas azules que brillan en la oscuridad, irradiando energía pura.",
+  "moves": [
+    {
+      "name": "Chispa Corriente",
+      "desc": "Lanza una descarga eléctrica que paraliza al rival, mezclando fuerza acuática con energía eléctrica."
+    },
+    {
+      "name": "Ondas Estáticas",
+      "desc": "Crea ondas de energía eléctrica en el agua, debilitando a los enemigos cercanos."
+    },
+    {
+      "name": "Relámpago Marino",
+      "desc": "Ataca con un rayo que se extiende por el agua, causando daño eléctrico en área."
+    },
+    {
+      "name": "Carga Hidroeléctrica",
+      "desc": "Aumenta el poder de los ataques eléctricos al absorber energía del agua circundante."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Corona de escamas en la cabeza",
+      "to": "Se transforma en una corona de chispas eléctricas que emite destellos azules."
+    },
+    {
+      "from": "Cuerpo pequeño y débil",
+      "to": "Adquiere un brillo eléctrico que lo hace más resistente en combate."
+    },
+    {
+      "from": "Nadador lento",
+      "to": "Nada con ráfagas eléctricas que aceleran su movimiento en el agua."
+    },
+    {
+      "from": "Ataques débiles",
+      "to": "Genera descargas eléctricas que causan parálisis y daño adicional."
+    }
+  ],
+  "pokemon_id": "129",
+  "target_type": "electric"
+}

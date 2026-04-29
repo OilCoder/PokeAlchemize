@@ -1,0 +1,39 @@
+{
+  "identity_traits": [
+    "feline face with prominent whiskers",
+    "rounded ears with black tips",
+    "stocky, muscular build",
+    "paws with black gloves",
+    "tail with a distinct black tip"
+  ],
+  "original_type_traits": [
+    "no specific type markers since it's normal type"
+  ],
+  "transformable_parts": [
+    "tail tip",
+    "paw gloves",
+    "ear tips",
+    "body fur texture",
+    "facial markings",
+    "eye shape and color"
+  ],
+  "suppress_colors": [
+    "orange body",
+    "black gloves",
+    "white chest",
+    "gray tail"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs on ground, low stance",
+    "feline face with long whiskers",
+    "black-tipped ears and tail"
+  ],
+  "pokemon_id": "052",
+  "pokemon_name": "meowth",
+  "original_types": [
+    "normal"
+  ],
+  "visual_facts": {
+    ">×</<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n\n\n```json\n```json\n```json\n\n\n\n\n\n```json\n\n```json\n\n```json\n\n\n\n\n\n\n```json\n```json\n{\n\n  ": "json\n\n  "
+  }
+}

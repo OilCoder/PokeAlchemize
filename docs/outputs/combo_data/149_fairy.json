@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Dragón de Ceniza",
+  "lore": "Dragón de Ceniza flota con alas de cristal que brillan bajo el sol. Sus cuernos se transforman en espirales de luz dorada, y su piel emana un aura mágica que cura heridas. Su gracia es inigualable.",
+  "moves": [
+    {
+      "name": "Ala de Sueño",
+      "desc": "Cubre al enemigo con una capa de sueño mágico que reduce su velocidad."
+    },
+    {
+      "name": "Canto de Ceniza",
+      "desc": "Genera una lluvia de ceniza que cura daños y debilita el ataque físico."
+    },
+    {
+      "name": "Brillo de Luna",
+      "desc": "Aumenta la precisión de los movimientos y cura un poco de salud."
+    },
+    {
+      "name": "Vuelo de Estrellas",
+      "desc": "Ataca con una lluvia de estrellas que causa daño mágico y confunde al rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo triangular con cuernos curvos",
+      "to": "Cuernos en espiral de luz dorada, piel brillante"
+    },
+    {
+      "from": "Alas de dragón",
+      "to": "Alas de cristal que brillan bajo el sol"
+    },
+    {
+      "from": "Piel escamosa",
+      "to": "Aura mágica que cura heridas"
+    },
+    {
+      "from": "Vuelo rápido",
+      "to": "Flotación suave con efectos curativos"
+    }
+  ],
+  "pokemon_id": "149",
+  "target_type": "fairy"
+}

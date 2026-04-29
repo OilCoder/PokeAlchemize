@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espíritu Tenebroso",
+  "lore": "Su cola espiralada ahora irradia sombras etéreas, con el extremo morado brillando como una llama fantasmal. Sus garras emanan energía oscura que deshace la materia a su paso.",
+  "moves": [
+    {
+      "name": "Sombra de Nido",
+      "desc": "Invoca una sombra que atrapa al rival, reduciendo su velocidad durante 3 turnos."
+    },
+    {
+      "name": "Aliento Mortal",
+      "desc": "Lanza un aliento de energía oscura que quema la vida del oponente en un 20%."
+    },
+    {
+      "name": "Caudal Sombrío",
+      "desc": "Genera una ola de energía fantasmal que aturde al rival y reduce su defensa."
+    },
+    {
+      "name": "Esencia Oscura",
+      "desc": "Absorbe la energía vital del rival, recuperando salud proporcional al daño infligido."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiralada con extremo morado",
+      "to": "cola irradia sombras etéreas, extremo brillando como llama fantasmal"
+    },
+    {
+      "from": "piel de color morado oscuro",
+      "to": "piel emite una aura oscura que deshace la materia"
+    },
+    {
+      "from": "garras afiladas",
+      "to": "garras emanan energía oscura que quema la vida"
+    },
+    {
+      "from": "ataque de veneno",
+      "to": "ataque de energía oscura que reduce la defensa del rival"
+    }
+  ],
+  "pokemon_id": "034",
+  "target_type": "ghost"
+}

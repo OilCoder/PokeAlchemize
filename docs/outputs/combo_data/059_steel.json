@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Acero",
+  "lore": "Arcanine ahora es un Pokémon de acero, con su pelaje rojo brillante transformado en una armadura metálica reluciente. Sus espinas en la cabeza y cuello se han endurecido en puntas afiladas de acero, emanando un aura de fuerza inquebrantable.",
+  "moves": [
+    {
+      "name": "Furia de Acero",
+      "desc": "Ataca con una ráfaga de garras de acero que cortan la resistencia de los oponentes."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que bloquea ataques físicos y reduce daño."
+    },
+    {
+      "name": "Impacto de Acero",
+      "desc": "Lanza un golpe directo con una fuerza que rompe armaduras."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Genera vibraciones que debilitan la defensa del enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "pelaje rojo brillante",
+      "to": "armadura metálica reluciente"
+    },
+    {
+      "from": "espinas en la cabeza y cuello",
+      "to": "puntas afiladas de acero"
+    },
+    {
+      "from": "fuerza de fuego",
+      "to": "fuerza inquebrantable de acero"
+    },
+    {
+      "from": "velocidad",
+      "to": "movimiento lento pero poderoso"
+    }
+  ],
+  "pokemon_id": "059",
+  "target_type": "steel"
+}

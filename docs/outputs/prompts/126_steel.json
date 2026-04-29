@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Magmar steel type, bipedal, upright stance, arms at sides, flame_on_tail_tip, pointed_ears. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Tail tip: reinforced steel blue plating with glowing indigo energy lines and sharp angular edges. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "orange flame on tail, red body color, yellow limb accents, fire-burning tail tip, glowing red eyes, red, yellow, orange flame hues, crimson red, burnt orange, molten gold, amber glow, charcoal black, molten lava glow from cracks, intense heat shimmer, ember sparks floating in air, crackling energy aura, smoke trails from movement",
+  "pokemon_id": "126",
+  "pokemon_name": "magmar",
+  "target_type": "steel"
+}

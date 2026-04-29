@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Cascada Ósea",
+  "lore": "Cascada Ósea emerge de las profundidades, su cola curva brillando con reflejos acuosos. Su cráneo hueco gotea agua cristalina, mientras sus patas afianzan el fondo marino. El agua fluye a través de sus huesos.",
+  "moves": [
+    {
+      "name": "Ola Ósea",
+      "desc": "Genera una ola que arrastra al rival hacia el fondo marino, reduciendo su velocidad."
+    },
+    {
+      "name": "Burbuja Ósea",
+      "desc": "Lanza burbujas que absorben energía del rival, aumentando el ataque del usuario."
+    },
+    {
+      "name": "Corriente Ósea",
+      "desc": "Crea una corriente que eleva al usuario, evitando ataques y aumentando su precisión."
+    },
+    {
+      "name": "Respiración Acuática",
+      "desc": "Recupera salud al respirar bajo el agua, restaurando un 20% de HP."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola curva",
+      "to": "cola curva con punta blanca brillante, goteando agua cristalina"
+    },
+    {
+      "from": "cráneo hueco",
+      "to": "cráneo hueco que almacena agua, goteando constantemente"
+    },
+    {
+      "from": "piel terrosa",
+      "to": "piel cubierta de algas y piedras marinas, brillando bajo el agua"
+    },
+    {
+      "from": "movimientos terrestres",
+      "to": "movimientos acuáticos que usan el agua para atacar y defender"
+    }
+  ],
+  "pokemon_id": "104",
+  "target_type": "water"
+}

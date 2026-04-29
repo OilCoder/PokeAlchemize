@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Pinza",
+  "lore": "Acero Pinza, con su cuerpo redondeado forjado en acero, tiene patas cortas pero resistentes. Sus pinzas brillan con una energía metálica que corta cualquier material como si fuera papel.",
+  "moves": [
+    {
+      "name": "Corte de Acero",
+      "desc": "Corta con precisión metálica, cortando cualquier objeto con fuerza inigualable."
+    },
+    {
+      "name": "Impacto Rígido",
+      "desc": "Ataca con un golpe de acero que endurece el suelo alrededor, reduciendo movilidad enemiga."
+    },
+    {
+      "name": "Cicatriz de Hierro",
+      "desc": "Deja una marca de acero en el oponente, reduciendo su defensa con cada golpe."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido metálico que debilitan a los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo redondeado",
+      "to": "forjado en acero, resistente a golpes"
+    },
+    {
+      "from": "patas cortas",
+      "to": "resistentes al peso del metal, no se hunden"
+    },
+    {
+      "from": "pinzas de insecto",
+      "to": "brillan con energía metálica, cortan metales"
+    },
+    {
+      "from": "color verde",
+      "to": "tonos plateados con reflejos metálicos"
+    }
+  ],
+  "pokemon_id": "127",
+  "target_type": "steel"
+}

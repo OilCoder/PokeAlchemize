@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Luminoso",
+  "lore": "Con su cuerpo geométrico afilado transformado en acero pulido, Porygon brilla con reflejos metálicos. Sus bordes cortantes ahora resplandecen con una luz fría, y su movimiento se ha vuelto más fluido en el aire.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta el aire con bordes afilados de acero, causando daño físico y reduciendo la defensa del oponente."
+    },
+    {
+      "name": "Reflejo Estelar",
+      "desc": "Crea un reflejo de luz que refleja ataques especiales y aumenta la precisión del usuario."
+    },
+    {
+      "name": "Escudo Magnético",
+      "desc": "Genera un campo magnético que absorbe ataques físicos y aumenta la defensa del usuario."
+    },
+    {
+      "name": "Impacto Cibernético",
+      "desc": "Ataca con un impacto de acero que causa daño especial y paraliza al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo geométrico",
+      "to": "cuerpo de acero pulido con bordes brillantes"
+    },
+    {
+      "from": "movimiento lento",
+      "to": "movimiento fluido y rápido en el aire"
+    },
+    {
+      "from": "color gris",
+      "to": "brillo metálico frío y reflejos azulados"
+    },
+    {
+      "from": "ataque normal",
+      "to": "ataques con bordes afilados de acero y reflejos"
+    }
+  ],
+  "pokemon_id": "137",
+  "target_type": "steel"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma de Llama",
+  "lore": "Su cabello de llama se transforma en llamas etéreas que brillan con un resplandor azul. Sus ojos emiten destellos fantasmales mientras flota sin peso, irradiando un frío inquietante.",
+  "moves": [
+    {
+      "name": "Espectro de Fuego",
+      "desc": "Lanza una llama azul que atraviesa a los enemigos, causando daño y reduciendo su defensa."
+    },
+    {
+      "name": "Aliento Fantasmal",
+      "desc": "Emite un aliento frío que paraliza al rival con un aura espectral."
+    },
+    {
+      "name": "Sombra Ardiente",
+      "desc": "Crea una sombra en forma de llamas que ataca desde la oscuridad."
+    },
+    {
+      "name": "Inferno Fantasmal",
+      "desc": "Genera un campo de llamas fantasmales que inflige daño continuo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabello de llama con puntas afiladas",
+      "to": "Cabello de llama etérea con destellos azules y sin peso"
+    },
+    {
+      "from": "Temperatura alta",
+      "to": "Temperatura fría con aura espectral"
+    },
+    {
+      "from": "Ataques de fuego directo",
+      "to": "Ataques de fuego fantasmal que atraviesan a los enemigos"
+    },
+    {
+      "from": "Movimientos de ataque físico",
+      "to": "Movimientos de ataque espectral sin contacto físico"
+    }
+  ],
+  "pokemon_id": "126",
+  "target_type": "ghost"
+}

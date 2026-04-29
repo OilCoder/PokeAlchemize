@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Diglett electric type, quadruped, four legs on ground, low crawling stance, two clawed forelimbs extended forward, no hind limbs visible, narrow elongated head with small eyes. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Spine: jagged electric blue scales with neon yellow lightning bolt patterns and glowing circuit lines. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "dull brown body texture, muddy gray soil coating, earthy brown burrower posture, dirt brown tunneling base, brown subterranean texture, dull brown, muddy gray, soil beige, dirt brown, earthen brown, cracked stone white, dusty terracotta, dust clouds rising from movement, cracks glowing faintly with earth energy, slow deliberate motion with ground tremors, petrified leaves or small stones embedded in hide, moss or grass growing from cracks in the hide",
+  "pokemon_id": "050",
+  "pokemon_name": "diglett",
+  "target_type": "electric"
+}

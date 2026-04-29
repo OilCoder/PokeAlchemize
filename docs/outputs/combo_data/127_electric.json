@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Pincha",
+  "lore": "Relámpago Pincha brilla con energía eléctrica en su cuerpo bulboso, sus patas cortas ahora emiten chispas al caminar. Su carapacha está cubierta de circuitos brillantes que canalizan la electricidad.",
+  "moves": [
+    {
+      "name": "Chispa Relámpago",
+      "desc": "Lanza ráfagas de electricidad que paralizan al oponente con un ligero zumbido."
+    },
+    {
+      "name": "Carga Pincha",
+      "desc": "Aumenta el poder de los ataques eléctricos con un impulso de energía acumulada."
+    },
+    {
+      "name": "Circuito Carga",
+      "desc": "Crea un campo eléctrico alrededor del usuario para aumentar su velocidad."
+    },
+    {
+      "name": "Impacto Estático",
+      "desc": "Ataca con una descarga que reduce la defensa del rival en un 20%."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo bulboso redondeado",
+      "to": "cuerpo cubierto de circuitos brillantes que canalizan electricidad"
+    },
+    {
+      "from": "patas cortas y estubias",
+      "to": "patas que emiten chispas al caminar"
+    },
+    {
+      "from": "carapacha suave",
+      "to": "carapacha reforzado con placas metálicas que almacenan electricidad"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos ágiles gracias a la energía eléctrica acumulada"
+    }
+  ],
+  "pokemon_id": "127",
+  "target_type": "electric"
+}

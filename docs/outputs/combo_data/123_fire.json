@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Escarlata",
+  "lore": "Con alas de llamas escarlata y un caparazón de carbón ardiente, su cabeza redonda brilla con ojos de fuego. Sus alas cortantes cortan el aire, dejando estelas de chispas en su camino.",
+  "moves": [
+    {
+      "name": "Cuchilla de Llama",
+      "desc": "Corta con garras incandescentes, infligiendo daño y quemaduras en el oponente."
+    },
+    {
+      "name": "Viento de Carbón",
+      "desc": "Lanza ráfagas de humo y cenizas que reducen la precisión del rival."
+    },
+    {
+      "name": "Aleteo Incendiario",
+      "desc": "Aumenta su velocidad y ataque mientras emite llamas al volar."
+    },
+    {
+      "name": "Horno de Corte",
+      "desc": "Crea una explosión de fuego al atacar, dañando a todos los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Alas de insecto",
+      "to": "Alas de llamas escarlata que queman al tocar"
+    },
+    {
+      "from": "Cuerpo verde",
+      "to": "Caparazón de carbón ardiente que brilla con calor"
+    },
+    {
+      "from": "Ojos pequeños",
+      "to": "Ojos de llama que brillan con intensidad"
+    },
+    {
+      "from": "Cabeza redonda",
+      "to": "Cabeza redonda con orejas puntiagudas en llamas"
+    }
+  ],
+  "pokemon_id": "123",
+  "target_type": "fire"
+}

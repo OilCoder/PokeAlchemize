@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Cobre Cerebral",
+  "lore": "Psyduck, ahora con escamas de acero, camina con paso firme. Su cola en espiral se transforma en un punzón afilado, capaz de perforar metal. Sus ojos brillan con reflejos metálicos, mostrando una inteligencia calculadora.",
+  "moves": [
+    {
+      "name": "Corte de Acero",
+      "desc": "Ataca con un corte preciso que corta metales como si fueran papel."
+    },
+    {
+      "name": "Escudo de Cobre",
+      "desc": "Crea un escudo de acero que absorbe ataques y refuerza defensa."
+    },
+    {
+      "name": "Impulso Cerebral",
+      "desc": "Aumenta velocidad y precisión, moviendo a Psyduck con agilidad metálica."
+    },
+    {
+      "name": "Resonancia de Acero",
+      "desc": "Genera ondas de vibración que debilitan a los enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola en espiral",
+      "to": "cola transformada en punzón afilado para perforar metales"
+    },
+    {
+      "from": "piel blanca y azul",
+      "to": "escamas de acero plateado que reflejan luz metálica"
+    },
+    {
+      "from": "ojos pequeños y confusos",
+      "to": "ojos brillantes con reflejos metálicos, expresión calculadora"
+    },
+    {
+      "from": "movimientos lentos y torpes",
+      "to": "movimientos rápidos y precisos gracias a la estructura metálica"
+    }
+  ],
+  "pokemon_id": "054",
+  "target_type": "steel"
+}

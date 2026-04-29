@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Marítimo",
+  "lore": "Este Magikarp acero se alza con una corona de escamas afiladas que resplandecen bajo el sol. Sus aletas cortan el agua como cuchillas, y su cuerpo resiste cualquier impacto. Su presencia impone respeto en los ríos profundos.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con aletas afiladas, causando daño y reduciendo la defensa del rival."
+    },
+    {
+      "name": "Resonancia de Cobre",
+      "desc": "Genera ondas de vibración que debilitan la defensa especial del oponente."
+    },
+    {
+      "name": "Escudo de Escamas",
+      "desc": "Crea un escudo de escamas que bloquea ataques físicos y refleja daño."
+    },
+    {
+      "name": "Golpe de Muelle",
+      "desc": "Ataca con un salto poderoso que aumenta su velocidad temporalmente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "corona pequeña en la cabeza",
+      "to": "corona de escamas afiladas y resplandecientes"
+    },
+    {
+      "from": "cuerpo flexible y débil",
+      "to": "cuerpo resistente y compacto, como acero fundido"
+    },
+    {
+      "from": "aletas suaves",
+      "to": "aletas cortantes como cuchillas de acero"
+    },
+    {
+      "from": "vulnerabilidad a ataques",
+      "to": "resistencia total a golpes físicos y ataques de tipo acero"
+    }
+  ],
+  "pokemon_id": "129",
+  "target_type": "steel"
+}

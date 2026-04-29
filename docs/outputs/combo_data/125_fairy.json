@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aliento de Hada resplandece con destellos de luz dorada en sus espinas coronadas, transformadas en pétalos brillantes. Su aura suave y mágica atrae a criaturas felices, mientras sus choques eléctricos se vuelven suaves y danzantes.",
+  "moves": [
+    {
+      "name": "Aliento de Estrellas",
+      "desc": "Lanza una lluvia de destellos que cura al aliado y debilita al enemigo."
+    },
+    {
+      "name": "Pétalos Electrificados",
+      "desc": "Ataca con pétalos cargados de energía mágica que causan parálisis."
+    },
+    {
+      "name": "Danza de la Luna",
+      "desc": "Aumenta la velocidad y evasión del usuario en un baile hipnótico."
+    },
+    {
+      "name": "Cura de Hada",
+      "desc": "Restaura salud y elimina estados negativos en el aliado."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "espinas coronadas",
+      "to": "pétalos brillantes que brillan con luz dorada"
+    },
+    {
+      "from": "choque eléctrico",
+      "to": "choque suave y danzante con aura mágica"
+    },
+    {
+      "from": "color rojo intenso",
+      "to": "tonos dorados y rosados suaves"
+    },
+    {
+      "from": "actitud agresiva",
+      "to": "actitud tranquila y atractiva para criaturas felices"
+    }
+  ],
+  "pokemon_id": "125",
+  "target_type": "fairy"
+}

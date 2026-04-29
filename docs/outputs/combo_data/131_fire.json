@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Lapras, ahora con una cáscara de piedra incandescente que arde con llamas azules. Su cuerpo emite calor intenso, mientras sus aletas brillan como carbones fundidos. Camina sobre el hielo fundido sin dejar rastro.",
+  "moves": [
+    {
+      "name": "Llamarada Oceánica",
+      "desc": "Lanza una ola de llamas que se transforma en vapor al tocar el agua."
+    },
+    {
+      "name": "Cascada de Fuego",
+      "desc": "Crea una cascada de lava que quema y erosionan el terreno."
+    },
+    {
+      "name": "Hielo Ardiente",
+      "desc": "Convierte el hielo en vapor con un toque, liberando calor."
+    },
+    {
+      "name": "Corte de Llama",
+      "desc": "Ataca con un corte de llamas que quema y corta el aire."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cascara de piedra con bordes afilados",
+      "to": "cascara de piedra incandescente que emite llamas azules"
+    },
+    {
+      "from": "vive en aguas frías",
+      "to": "genera calor intenso que funde el hielo a su alrededor"
+    },
+    {
+      "from": "movimientos acuáticos",
+      "to": "ataques que combinan agua y fuego en vapor"
+    },
+    {
+      "from": "sueño tranquilo",
+      "to": "dormita sobre rocas calientes, rodeado de humo"
+    }
+  ],
+  "pokemon_id": "131",
+  "target_type": "fire"
+}

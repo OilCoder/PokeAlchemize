@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Koffing electric type, quadruped, four legs planted on ground, low stance, bulbous body with skull and crossbones symbol on chest, curled tail tip with cloud-like wisps. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Spine spikes: jagged lightning-bolt shaped spines with glowing neon green circuit patterns and electric blue energy trails. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "dark purple skin, light purple skin, skull and crossbones symbol, toxic gas clouds, poison-tinted aura, dark purple, light purple, skull and crossbones symbol, white clouds, toxic green, deep purple, acid yellow, blood red, sludge brown, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "109",
+  "pokemon_name": "koffing",
+  "target_type": "electric"
+}

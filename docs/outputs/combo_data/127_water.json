@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Pinsir Marina se adapta a los océanos con su cuerpo redondeado y brillante. Sus patas cortas se transforman en aletas flexibles, mientras que su caparazón absorbe el agua para liberar ondas de presión.",
+  "moves": [
+    {
+      "name": "Ola de Pinza",
+      "desc": "Genera una ola de agua que aturde al oponente con fuerza hidrostática."
+    },
+    {
+      "name": "Burbuja de Caparazón",
+      "desc": "Crea burbujas protectoras que reducen el daño recibido."
+    },
+    {
+      "name": "Chorro de Caudal",
+      "desc": "Dispara un chorro de agua a alta presión para empujar al rival."
+    },
+    {
+      "name": "Respiración Marítima",
+      "desc": "Recupera energía al absorber el agua del entorno."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo redondeado",
+      "to": "cuerpo redondeado y brillante con caparazón absorbente de agua"
+    },
+    {
+      "from": "patas cortas",
+      "to": "patas cortas transformadas en aletas flexibles"
+    },
+    {
+      "from": "caparazón duro",
+      "to": "caparazón que absorbe agua para liberar ondas de presión"
+    },
+    {
+      "from": "movimientos de ataque rápido",
+      "to": "movimientos enfocados en controlar el agua y generar presión"
+    }
+  ],
+  "pokemon_id": "127",
+  "target_type": "water"
+}

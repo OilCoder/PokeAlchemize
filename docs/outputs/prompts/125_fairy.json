@@ -1,0 +1,7 @@
+{
+  "prompt": "soft pastel pink, ivory white, delicate lavender, glowing starlight silver, petal gold. Electabuzz fairy type, quadruped, four legs planted on ground, low stance, curled spiral tail tip, yellow and blue striped pattern, pointed ears on rounded head, dark blue chest lightning bolt. Ken Sugimori style, cel-shaded, bold black outlines. velvety soft skin with a subtle pearlescent sheen, like moonlit petals. Chest orb: petal gold crystalline sphere with starlight silver radiating veins. Full body portrait, centered character. enchanted meadow, glowing fireflies, soft cloud formations. starlight silver tail tip, glowing petal gold eyes. No text.",
+  "negative_prompt": "bright yellow chest bolt, dark blue striped body, electric shock wave aura, yellow lightning pattern, blue electric texture, bright yellow, dark blue, electric shock wave colors, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "125",
+  "pokemon_name": "electabuzz",
+  "target_type": "fairy"
+}

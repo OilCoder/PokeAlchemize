@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fae Cibernético",
+  "lore": "Porygon, ahora con una estructura de cristal iridiscente, emite destellos de magia etérea. Sus bordes afilados se suavizan en curvas mágicas, y su cuerpo brilla con un aura de hadas que cura heridas y aleja males.",
+  "moves": [
+    {
+      "name": "Cristal de Sueños",
+      "desc": "Crea un campo de luz que cura alivio y restaura la energía de aliados."
+    },
+    {
+      "name": "Brillo de Hada",
+      "desc": "Ataca con destellos de luz mágica que debilitan a los enemigos."
+    },
+    {
+      "name": "Encanto Digital",
+      "desc": "Inflige daño con un hechizo que confunde al oponente."
+    },
+    {
+      "name": "Magia de Red",
+      "desc": "Crea una red mágica que atrapa al enemigo y reduce su velocidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo geométrico bloqueado",
+      "to": "estructura de cristal iridiscente con bordes suaves"
+    },
+    {
+      "from": "bordes afilados",
+      "to": "curvas mágicas que brillan con aura de hadas"
+    },
+    {
+      "from": "aura neutra",
+      "to": "aura de hadas que cura heridas"
+    },
+    {
+      "from": "sin efectos mágicos",
+      "to": "capaz de emitir magia etérea que aleja males"
+    }
+  ],
+  "pokemon_id": "137",
+  "target_type": "fairy"
+}

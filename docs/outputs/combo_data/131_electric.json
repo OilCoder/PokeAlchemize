@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Lapras, ahora con un caparazón de piedra eléctrica que brilla con descargas azules. Sus aletas emiten chispas, y su respiración genera nubes de vapor cargado. Camina sobre el agua sin hundirse.",
+  "moves": [
+    {
+      "name": "Descarga Marina",
+      "desc": "Lanza una descarga eléctrica que recarga el agua circundante."
+    },
+    {
+      "name": "Chispa de Hielo",
+      "desc": "Genera hielo con chispas eléctricas que se deshacen en vapor."
+    },
+    {
+      "name": "Ola Estática",
+      "desc": "Crea olas eléctricas que aturden a los enemigos."
+    },
+    {
+      "name": "Bomba de Vapor",
+      "desc": "Lanza una explosión de vapor cargado de electricidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "caparazón de piedra con bordes afilados",
+      "to": "caparazón de piedra eléctrica brillante con bordes que emiten chispas"
+    },
+    {
+      "from": "respiración fría",
+      "to": "respiración que genera vapor cargado de electricidad"
+    },
+    {
+      "from": "aletas suaves",
+      "to": "aletas que emiten chispas eléctricas"
+    },
+    {
+      "from": "movimiento lento en agua",
+      "to": "marcha rápida sobre el agua sin hundirse"
+    }
+  ],
+  "pokemon_id": "131",
+  "target_type": "electric"
+}

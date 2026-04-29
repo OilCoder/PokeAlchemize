@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Machamp fire type, quadruped, four legs planted on ground, low stance, pointed ears, sharp triangular shape, positioned high on head, curled tail tip, spiral curl, dark gray tip. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Tail tip: spiraling ember core with molten gold fissures and pulsing crimson heat waves. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "gray muscle definition, dark gray accents, fighting-type posture, aggressive stance, muscular limb structure, gray, dark gray accents, muscle definition highlights, burnt sienna, ochre, deep rust, crimson, charcoal gray, dust clouds rising from impact points, cracked earth textures, visible energy aura glowing at contact points, subtle tremors in the ground, dust and debris kicked up in motion",
+  "pokemon_id": "068",
+  "pokemon_name": "machamp",
+  "target_type": "fire"
+}

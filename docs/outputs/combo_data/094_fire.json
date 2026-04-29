@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Espectral",
+  "lore": "Gengar, ahora transformado en Fuego, arde con llamas azules que brillan en la oscuridad. Sus orejas puntiagudas se envuelven en llamas, y su cuerpo emite un calor sofocante que quema a los intrusos.",
+  "moves": [
+    {
+      "name": "Sombra Incendiaria",
+      "desc": "Lanza una sombra que se convierte en llamas, quemando al objetivo con fuego oscuro."
+    },
+    {
+      "name": "Fuego Fantasmal",
+      "desc": "Crea una llamarada que atraviesa el cuerpo del rival, causando daño y quemaduras."
+    },
+    {
+      "name": "Viento de Hades",
+      "desc": "Genera un viento caliente que inflama el aire, aumentando el daño de fuego."
+    },
+    {
+      "name": "Llamarada Espectral",
+      "desc": "Emitiendo una llamarada que consume la energía del oponente, reduciendo su defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "se envuelven en llamas azules que brillan en la oscuridad"
+    },
+    {
+      "from": "cuerpo transparente",
+      "to": "emite calor sofocante que quema a los intrusos"
+    },
+    {
+      "from": "color morado oscuro",
+      "to": "llamas azules que brillan en la oscuridad"
+    },
+    {
+      "from": "movimientos de sombra",
+      "to": "combina sombra y fuego para crear ataques más destructivos"
+    }
+  ],
+  "pokemon_id": "094",
+  "target_type": "fire"
+}

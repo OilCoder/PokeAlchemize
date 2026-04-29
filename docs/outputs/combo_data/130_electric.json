@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Marino",
+  "lore": "Relámpago Marino emerge de las tormentas eléctricas, su crestón espiralado brillando con descargas azules. Sus escamas reflejan el cielo tormentoso, y sus alas emiten chispas al volar.",
+  "moves": [
+    {
+      "name": "Descarga de Tormenta",
+      "desc": "Lanza una descarga eléctrica que paraliza al rival y genera una tormenta temporal."
+    },
+    {
+      "name": "Ala de Rayo",
+      "desc": "Ataca con alas cargadas de electricidad, aumentando su velocidad y daño."
+    },
+    {
+      "name": "Ola Estática",
+      "desc": "Crea una ola eléctrica que debilita la defensa del oponente."
+    },
+    {
+      "name": "Trueno Cargado",
+      "desc": "Genera un trueno poderoso que afecta a todos los enemigos en el campo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "crestón espiralado",
+      "to": "brilla con descargas eléctricas azules"
+    },
+    {
+      "from": "escamas de color azul",
+      "to": "reflejan el cielo tormentoso"
+    },
+    {
+      "from": "alas de color gris",
+      "to": "emiten chispas al volar"
+    },
+    {
+      "from": "movimientos acuáticos",
+      "to": "ataques eléctricos que generan tormentas"
+    }
+  ],
+  "pokemon_id": "130",
+  "target_type": "electric"
+}

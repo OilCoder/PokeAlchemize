@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Cuchillo",
+  "lore": "Scyther, ahora cubierto de acero pulido, tiene hojas afiladas que brillan con reflejos metálicos. Sus alas se transforman en láminas de acero que cortan el aire sin esfuerzo.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta al oponente con una hoja de acero afilada que causa daño físico."
+    },
+    {
+      "name": "Impacto Metálico",
+      "desc": "Lanza un impacto metálico que reduce la defensa del oponente."
+    },
+    {
+      "name": "Corte Invernal",
+      "desc": "Genera un corte helado que congela al oponente con hojas de acero."
+    },
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero que aumenta la defensa temporalmente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "hojas afiladas de insecto",
+      "to": "hojas de acero pulido que brillan al sol"
+    },
+    {
+      "from": "alas de insecto",
+      "to": "láminas de acero que cortan el aire"
+    },
+    {
+      "from": "cuerpo ligero",
+      "to": "cuerpo pesado pero resistente de acero"
+    },
+    {
+      "from": "color verde claro",
+      "to": "tonos plateados y azulados de acero"
+    }
+  ],
+  "pokemon_id": "123",
+  "target_type": "steel"
+}

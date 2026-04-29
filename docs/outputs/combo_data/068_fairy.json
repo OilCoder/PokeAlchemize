@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Machamp, ahora envuelto en brillos etéreos, sus brazos se han suavizado en formas curvas. Sus ojos brillan con magia de hada, y su aura emana dulzura que calma a los más agresivos.",
+  "moves": [
+    {
+      "name": "Canto de Encaje",
+      "desc": "Crea un círculo de luz que cura daño a aliados y reduce el ataque del enemigo."
+    },
+    {
+      "name": "Beso de Sueño",
+      "desc": "Ataca con un beso que induce sueño y restaura salud parcial."
+    },
+    {
+      "name": "Danza de Pétalos",
+      "desc": "Lanza pétalos mágicos que aumentan la velocidad y causan daño ligero."
+    },
+    {
+      "name": "Velo de Ilusión",
+      "desc": "Crea una ilusión que confunde al enemigo y reduce su precisión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada con orejas puntiagudas",
+      "to": "cabeza redondeada con orejas suaves y brillantes, como cristales de hielo"
+    },
+    {
+      "from": "brazos fuertes y musculosos",
+      "to": "brazos curvados y suaves, con brillo dorado que emana magia"
+    },
+    {
+      "from": "expresión agresiva",
+      "to": "expresión serena y amable, con ojos brillantes de hada"
+    },
+    {
+      "from": "ataque físico intenso",
+      "to": "ataque mágico suave que cura y calma"
+    }
+  ],
+  "pokemon_id": "068",
+  "target_type": "fairy"
+}

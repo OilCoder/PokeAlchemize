@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Arco de Ceniza",
+  "lore": "Arco de Ceniza despliega pétalos brillantes que emanan de su cabeza redondeada. Sus orejas puntiagudas ahora brillan con destellos de luz etérea, y su piel venenosa se transforma en un suave brillo dorado. El tipo hada lo hace más gentil y armonioso.",
+  "moves": [
+    {
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan a aliados y debilitan a enemigos con su suave brillo."
+    },
+    {
+      "name": "Aliento de Ceniza",
+      "desc": "Emite un aliento suave que cubre al enemigo con una capa de ceniza mágica, reduciendo su defensa."
+    },
+    {
+      "name": "Danza de Estrellas",
+      "desc": "Realiza una danza que aumenta la velocidad y precisión de todo el equipo."
+    },
+    {
+      "name": "Círculo de Luz",
+      "desc": "Crea un círculo de luz alrededor de los aliados, protegiéndolos de ataques dañinos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza redondeada con pétalos brillantes"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas brillando con destellos de luz etérea"
+    },
+    {
+      "from": "piel venenosa",
+      "to": "piel transformada en un suave brillo dorado"
+    },
+    {
+      "from": "tipo veneno",
+      "to": "tipo hada que lo hace más gentil y armonioso"
+    }
+  ],
+  "pokemon_id": "024",
+  "target_type": "fairy"
+}

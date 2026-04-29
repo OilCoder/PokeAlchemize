@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Sombra",
+  "lore": "Gengar, ahora con una armadura de acero que refleja la oscuridad, sus orejas puntiagudas brillan con metal. Sus ojos emiten destellos fríos, y su cuerpo emana una presión que quiebra la resistencia.",
+  "moves": [
+    {
+      "name": "Acero Sombra",
+      "desc": "Ataca con un golpe de acero que absorbe la energía oscura del enemigo."
+    },
+    {
+      "name": "Resonancia Fría",
+      "desc": "Genera ondas de frío que debilitan a los enemigos cercanos."
+    },
+    {
+      "name": "Cortante de Acero",
+      "desc": "Corta al enemigo con una hoja de acero que no deja heridas."
+    },
+    {
+      "name": "Eco de la Oscuridad",
+      "desc": "Crea un eco que refuerza los ataques de acero y sombra."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas recubiertas de acero brillante"
+    },
+    {
+      "from": "cuerpo translúcido",
+      "to": "cuerpo sólido y metálico"
+    },
+    {
+      "from": "ojos rojos",
+      "to": "ojos que emiten destellos fríos"
+    },
+    {
+      "from": "movimientos de sombra",
+      "to": "movimientos que combinan acero y oscuridad"
+    }
+  ],
+  "pokemon_id": "094",
+  "target_type": "steel"
+}

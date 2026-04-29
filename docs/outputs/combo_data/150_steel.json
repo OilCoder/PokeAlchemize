@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Psíquico",
+  "lore": "Mewtwo, ahora cubierto de escamas de acero que brillan con destellos púrpuras, maneja la mente con precisión metálica. Sus ojos emiten destellos de energía fría mientras proyecta ondas de fuerza inquebrantable.",
+  "moves": [
+    {
+      "name": "Corte de Acero Mental",
+      "desc": "Corta al oponente con un corte de energía mental afilado como acero."
+    },
+    {
+      "name": "Escudo Psíquico de Acero",
+      "desc": "Crea un escudo de acero que absorbe ataques psíquicos y físicos."
+    },
+    {
+      "name": "Impacto de Fuerza Inquebrantable",
+      "desc": "Ataca con un golpe de fuerza que rompe la resistencia del oponente."
+    },
+    {
+      "name": "Vórtice de Acero Psíquico",
+      "desc": "Genera un vórtice que atrae y desintegra al oponente con fuerza metálica."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "piel azul pálido con destellos morados",
+      "to": "escamas de acero brillantes con destellos morados"
+    },
+    {
+      "from": "manejo de energía psíquica",
+      "to": "manejo de energía psíquica con precisión metálica"
+    },
+    {
+      "from": "poder psíquico abstracto",
+      "to": "poder psíquico con fuerza inquebrantable"
+    },
+    {
+      "from": "cuerpo esbelto",
+      "to": "cuerpo cubierto de escamas de acero"
+    }
+  ],
+  "pokemon_id": "150",
+  "target_type": "steel"
+}

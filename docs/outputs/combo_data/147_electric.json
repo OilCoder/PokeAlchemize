@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Serpiente",
+  "lore": "Dratini, ahora transformado en Relámpago Serpiente, brilla con escamas plateadas que emiten chispas eléctricas. Sus ojos centellean con energía, y su cola genera destellos al moverse, marcando su dominio sobre el campo eléctrico.",
+  "moves": [
+    {
+      "name": "Chispa Relampagueante",
+      "desc": "Lanza una ráfaga de chispas que paraliza al rival con una descarga eléctrica intensa."
+    },
+    {
+      "name": "Carga Electrónica",
+      "desc": "Aumenta la velocidad de ataque al acumular energía eléctrica en su cuerpo."
+    },
+    {
+      "name": "Rayo Serpenteante",
+      "desc": "Ataca con un rayo que se enrosca alrededor del enemigo, causando daño continuo."
+    },
+    {
+      "name": "Estática Brillante",
+      "desc": "Genera un campo eléctrico que incrementa el daño de los ataques eléctricos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo largo y delgado",
+      "to": "cuerpo revestido de escamas plateadas que emiten chispas eléctricas"
+    },
+    {
+      "from": "ojos pequeños y redondos",
+      "to": "ojos centelleantes con destellos eléctricos"
+    },
+    {
+      "from": "cola larga y flexible",
+      "to": "cola que genera destellos al moverse"
+    },
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza con picos que emiten energía eléctrica"
+    }
+  ],
+  "pokemon_id": "147",
+  "target_type": "electric"
+}

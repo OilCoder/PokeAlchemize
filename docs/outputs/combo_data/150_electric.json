@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Psíquico",
+  "lore": "Mewtwo, ahora envuelto en destellos eléctricos, brilla con un azul pálido y destellos morados que resplandecen al contacto con el campo eléctrico. Sus ojos brillan con energía pura, y su aura eléctrica envuelve a sus enemigos en un aturdimiento instantáneo.",
+  "moves": [
+    {
+      "name": "Rayo Mental",
+      "desc": "Lanza un rayo psíquico cargado de electricidad que paraliza al oponente."
+    },
+    {
+      "name": "Chispa Psíquica",
+      "desc": "Genera una chispa que se adhiere al oponente, aumentando el daño de los movimientos eléctricos."
+    },
+    {
+      "name": "Barrera Estática",
+      "desc": "Crea una barrera que absorbe el daño eléctrico y lo convierte en energía para curarse."
+    },
+    {
+      "name": "Tormenta Mental",
+      "desc": "Desata una tormenta eléctrica psíquica que aturde a todos los enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "piel azul pálida",
+      "to": "resplandece con destellos eléctricos azulados y morados"
+    },
+    {
+      "from": "resplandor psíquico",
+      "to": "se transforma en energía eléctrica que paraliza"
+    },
+    {
+      "from": "aura tranquila",
+      "to": "se torna una aura vibrante que atrae descargas eléctricas"
+    },
+    {
+      "from": "movimientos psíquicos",
+      "to": "se combinan con descargas eléctricas para aumentar el daño"
+    }
+  ],
+  "pokemon_id": "150",
+  "target_type": "electric"
+}

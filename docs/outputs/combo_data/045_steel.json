@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Con su capucha de hongos convertida en acero pulido, Vileplume ahora brilla con reflejos metálicos. Sus pétalos se han endurecido en láminas afiladas, y su aroma tóxico se ha transformado en un olor a hierro recién forjado.",
+  "moves": [
+    {
+      "name": "Acero Pétalo",
+      "desc": "Lanza láminas de acero afiladas que cortan cualquier defensa."
+    },
+    {
+      "name": "Forja Veneno",
+      "desc": "Genera una nube de espinas de acero tóxicas que envenena al oponente."
+    },
+    {
+      "name": "Corte de Hierro",
+      "desc": "Ataca con un corte rápido que reduce la defensa del rival."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Crea vibraciones que debilitan los ataques del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "capucha de hongos",
+      "to": "capucha de acero pulido con reflejos metálicos"
+    },
+    {
+      "from": "pétalos suaves",
+      "to": "pétalos endurecidos en láminas afiladas"
+    },
+    {
+      "from": "olor a flores",
+      "to": "olor a hierro recién forjado"
+    },
+    {
+      "from": "toxicidad suave",
+      "to": "toxicidad convertida en espinas de acero"
+    }
+  ],
+  "pokemon_id": "045",
+  "target_type": "steel"
+}

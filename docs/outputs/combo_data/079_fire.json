@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Slowpoke, ahora con ojos de llama ardiente, camina por playas de lava. Su cola emite llamas que danzan con su mente psíquica, fusionando fuego y calma en cada paso.",
+  "moves": [
+    {
+      "name": "Llama Mental",
+      "desc": "Lanza una bola de fuego que se adapta a la mente del oponente, quemando con precisión."
+    },
+    {
+      "name": "Cabeza de Fuego",
+      "desc": "Aumenta el poder de los ataques de fuego con un grito que quema la mente del rival."
+    },
+    {
+      "name": "Ojos de Llama",
+      "desc": "Sus ojos brillan intensamente, cegando al oponente con llamas psíquicas."
+    },
+    {
+      "name": "Cola de Fuego",
+      "desc": "Bate su cola para crear un círculo de llamas que daña a todos los enemigos cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos grandes redondos con pupilas negras",
+      "to": "ojos de llama ardiente que brillan con fuego psíquico"
+    },
+    {
+      "from": "cola larga y suave",
+      "to": "cola que emite llamas constantes y danza al ritmo de su mente"
+    },
+    {
+      "from": "piel húmeda de agua",
+      "to": "piel seca y caliente como lava, resistiendo el agua"
+    },
+    {
+      "from": "movimientos lentos y calmados",
+      "to": "movimientos fluidos pero con chispas de fuego en cada acción"
+    }
+  ],
+  "pokemon_id": "079",
+  "target_type": "fire"
+}

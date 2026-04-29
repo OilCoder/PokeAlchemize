@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Pokémon Llama Marina se alza con una cabeza redonda y ojos cerrados, envuelto en llamas que danzan en su contorno. Sus pétalos de hojas se transforman en llamas danzantes, irradiando calor y pasión.",
+  "moves": [
+    {
+      "name": "Llama Danzante",
+      "desc": "Lanza llamas que bailan en espiral, quemando al oponente con un calor intenso."
+    },
+    {
+      "name": "Fuego Sereno",
+      "desc": "Crea una calma de llamas que cura a aliados y enfurece a enemigos."
+    },
+    {
+      "name": "Pétalo Ardiente",
+      "desc": "Lanza pétalos de fuego que explotan al tocar la piel."
+    },
+    {
+      "name": "Respiración de Llama",
+      "desc": "Exhala una ráfaga de llamas que quema en contacto."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda con ojos cerrados",
+      "to": "cabeza rodeada por llamas danzantes que brillan con intensidad"
+    },
+    {
+      "from": "pétalos de hojas",
+      "to": "pétalos transformados en llamas que brillan y se mueven"
+    },
+    {
+      "from": "tipo hierba",
+      "to": "tipo fuego que emana calor intenso y energía explosiva"
+    },
+    {
+      "from": "tipo veneno",
+      "to": "veneno reemplazado por llamas que queman y purifican"
+    }
+  ],
+  "pokemon_id": "043",
+  "target_type": "fire"
+}

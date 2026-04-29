@@ -1,0 +1,7 @@
+{
+  "prompt": "crimson red, burnt orange, molten gold, amber glow, charcoal black. Hitmonlee fire type, quadruped, four legs planted on ground, low stance, curled spiral tail tip, small rounded head with pointed ears, pale cream limb accents, compact rounded body silhouette. Ken Sugimori style, cel-shaded, bold black outlines. lava-hardened obsidian skin with molten gold cracks revealing glowing magma beneath. Flame-tipped tail: ember-scaled armor plating with glowing crimson fissures and molten gold trails. Full body portrait, centered character. volcanic peak, molten rock rivers, glowing ash clouds. amber tail tip, ember-red eyes. No text.",
+  "negative_prompt": "gray body coloration, pale cream limb accents, dark gray body shading, gray texture, cream-tinted limbs, gray shading patterns, gray, pale cream, dark gray, burnt sienna, ochre, deep rust, crimson, charcoal gray, dust clouds, cracked earth textures, energy aura glow, ground tremors, dust and debris",
+  "pokemon_id": "106",
+  "pokemon_name": "hitmonlee",
+  "target_type": "fire"
+}

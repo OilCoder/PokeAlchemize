@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Sombra Digital",
+  "lore": "Sombra Digital flota en la oscuridad, su cuerpo geométrico translúcido proyecta sombras danzantes. Sus bordes afilados ahora brillan con un resplandor espectral, absorbiendo la luz para crear ilusiones en el aire.",
+  "moves": [
+    {
+      "name": "Efecto Fantasmal",
+      "desc": "Crea una ilusión que confunde al oponente, reduciendo su precisión en un 20% durante un turno."
+    },
+    {
+      "name": "Código Sombrio",
+      "desc": "Ataca con un código binario oscuro que causa daño y reduce la defensa especial del rival."
+    },
+    {
+      "name": "Resonancia Espiritual",
+      "desc": "Aumenta la velocidad de Sombra Digital y reduce el daño recibido por movimientos de tipo fantasma."
+    },
+    {
+      "name": "Eclipse Digital",
+      "desc": "Enmascara al usuario, evitando ataques y permitiendo un ataque sorpresa en el siguiente turno."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo geométrico con bordes afilados",
+      "to": "Bordes afilados brillan con resplandor espectral, absorbiendo luz para crear ilusiones."
+    },
+    {
+      "from": "Forma sólida y estática",
+      "to": "Flota en el aire como una sombra, con movimiento fluido y silencioso."
+    },
+    {
+      "from": "Sin emisión de energía",
+      "to": "Emite un resplandor tenue que desvía la luz y crea ilusiones visuales."
+    },
+    {
+      "from": "Ataques basados en tecnología",
+      "to": "Movimientos ahora combinan código digital y espiritualidad fantasmal."
+    }
+  ],
+  "pokemon_id": "137",
+  "target_type": "ghost"
+}

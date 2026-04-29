@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Venusaur electric type, quadruped, four legs planted on ground, low crawling stance, flower on top of head, large bloom with five petals, curled spiral tail tip, dark teal color. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Top bloom: jagged lightning-bolt spines with neon-green circuit patterns and crackling electric blue energy. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "green leafy texture, grass-type flower, poison-yellow spores, grass-green body, poison-pink accents, green vine patterns, grassy stem protrusions, yellow pollen particles, green petal details, green, pink, yellow, forest green, sunlit yellow-green, mossy brown, petal pink, dewdrop white, toxic green, deep purple, acid yellow, blood red, sludge brown, gentle pollen glow, dewdrop condensation, slow-growing vine tendrils, petal flutter, soft green light, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "003",
+  "pokemon_name": "venusaur",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Mariposa Arcana",
+  "lore": "Mariposa Arcana despliega alas de cristal que brillan con luz de luna. Su cabeza redonda ahora está adornada con pétalos luminosos, y sus garras curvas cortan el aire con magia etérea.",
+  "moves": [
+    {
+      "name": "Ala de Sueño",
+      "desc": "Cubre al rival con pétalos que inducen un sueño profundo y mágico."
+    },
+    {
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza una lluvia de pétalos que cura y fortalece los ataques."
+    },
+    {
+      "name": "Cristal de Luna",
+      "desc": "Crea un escudo de cristal que refleja ataques y reduce daño."
+    },
+    {
+      "name": "Danza de Estrellas",
+      "desc": "Ataca con un baile que lanza estrellas que confunden al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "adornada con pétalos luminosos que brillan bajo la luna"
+    },
+    {
+      "from": "garras curvas",
+      "to": "cortan el aire con magia etérea, dejando rastros brillantes"
+    },
+    {
+      "from": "poder psíquico",
+      "to": "transformado en magia etérea que cura y protege"
+    },
+    {
+      "from": "movimientos de psíquico",
+      "to": "reemplazados por danzas y pétalos mágicos"
+    }
+  ],
+  "pokemon_id": "065",
+  "target_type": "fairy"
+}

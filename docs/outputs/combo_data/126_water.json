@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Su cabello de llamas se transforma en crestas de olas brillantes que despiden vapor al contacto con el agua. Su piel toma un tono azulado y emite un suave zumbido al nadar.",
+  "moves": [
+    {
+      "name": "Ola de Vapor",
+      "desc": "Genera una ola que convierte el agua en vapor, ocultando al objetivo en una niebla densa."
+    },
+    {
+      "name": "Chorro de Cristal",
+      "desc": "Dispara un chorro de agua congelada que forma cristales afilados al impactar."
+    },
+    {
+      "name": "Respiración de Mar",
+      "desc": "Recupera salud mientras absorbe agua del entorno para crear un escudo protector."
+    },
+    {
+      "name": "Tormenta Acuática",
+      "desc": "Lanza una tormenta de gotas que reduce la precisión del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabello de llamas",
+      "to": "Se transforma en crestas de olas brillantes que despiden vapor"
+    },
+    {
+      "from": "Piel roja",
+      "to": "Toma un tono azulado con reflejos de mar"
+    },
+    {
+      "from": "Aliento de fuego",
+      "to": "Emite un vapor fresco que refresca el ambiente"
+    },
+    {
+      "from": "Movimientos de fuego",
+      "to": "Reemplazados por técnicas acuáticas que usan el agua del entorno"
+    }
+  ],
+  "pokemon_id": "126",
+  "target_type": "water"
+}

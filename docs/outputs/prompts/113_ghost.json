@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Chansey ghost type, quadruped, four legs planted on ground, low plump stance, pointed rabbit ears with inner pink lining, curled spiral tail tip with pale cream tip. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Tail tip: dissolving shadowy vapour trailing ghostly silver mist. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "pink body, pale cream skin, soft pastel fur, rounded belly shape, normal-type texture, pink, pale cream, soft pastel tones, soft beige, warm tan, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles floating in air, soft motion blur on movement, warm light reflection on skin",
+  "pokemon_id": "113",
+  "pokemon_name": "chansey",
+  "target_type": "ghost"
+}

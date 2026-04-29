@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Hueso de Ceniza",
+  "lore": "Hueso de Ceniza emana un brillo suave de luz plateada, sus huesos se iluminan con destellos de magia. Su cola curva ahora brilla con un toque de púrpura, y su mirada transmite dulzura mágica.",
+  "moves": [
+    {
+      "name": "Pétalo de Luna",
+      "desc": "Lanza pétalos brillantes que curan leves heridas y elevan la confianza del usuario."
+    },
+    {
+      "name": "Canto de Estrellas",
+      "desc": "Canta una melodía que hace dormir a los enemigos y reduce su defensa."
+    },
+    {
+      "name": "Brillo de Sueño",
+      "desc": "Genera un aura que induce sueño y protege de ataques físicos."
+    },
+    {
+      "name": "Danza de Ceniza",
+      "desc": "Baila en círculos, creando un escudo de magia que absorbe ataques."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola curva con punta blanca",
+      "to": "cola curva brillando con destellos púrpura y luz plateada"
+    },
+    {
+      "from": "piel marrón con hueso en cabeza",
+      "to": "piel dorada con hueso brillante en cabeza que emite luz mágica"
+    },
+    {
+      "from": "sonido de huesos chocando",
+      "to": "sonido suave de campanillas mágicas al caminar"
+    },
+    {
+      "from": "vivir en cuevas",
+      "to": "vivir en bosques encantados con flores brillantes"
+    }
+  ],
+  "pokemon_id": "104",
+  "target_type": "fairy"
+}

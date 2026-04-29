@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Luminaria Élfica",
+  "lore": "Luminaria Élfica irradia una luz suave que acaricia el aire. Su piel azul pálido brilla con destellos violeta, ahora envueltos en bruma de hadas. Sus ojos brillan con magia etérea, capaces de sanar heridas con un simple contacto.",
+  "moves": [
+    {
+      "name": "Canto de Luna",
+      "desc": "Canta una melodía que cura daños y eleva la defensa de aliados en combate."
+    },
+    {
+      "name": "Danza de Flores",
+      "desc": "Lanza pétalos brillantes que confunden al oponente y reducen su precisión."
+    },
+    {
+      "name": "Alma de Hada",
+      "desc": "Libera un aura de protección que neutraliza ataques mágicos y restaura energía."
+    },
+    {
+      "name": "Pétalos de Sueño",
+      "desc": "Cubre al oponente con pétalos que inducen un sueño profundo, anulando sus movimientos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "piel azul pálido",
+      "to": "brilla con destellos violeta envueltos en bruma de hadas"
+    },
+    {
+      "from": "ojos de color púrpura",
+      "to": "brillan con magia etérea capaz de sanar heridas"
+    },
+    {
+      "from": "poder psíquico",
+      "to": "transformado en magia curativa y protectora de hadas"
+    },
+    {
+      "from": "presencia intimidante",
+      "to": "envuelve a los oponentes en una suave aura de calma"
+    }
+  ],
+  "pokemon_id": "150",
+  "target_type": "fairy"
+}

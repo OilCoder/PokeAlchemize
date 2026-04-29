@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Relampago",
+  "lore": "Pikachu ahora emana un brillo tenue de energía etérea, sus orejas puntiagudas ahora transparentes y brillantes. Su carga eléctrica se ha transformado en un aura espectral que envuelve su cuerpo.",
+  "moves": [
+    {
+      "name": "Chispazo Espectral",
+      "desc": "Lanza un destello eléctrico que atraviesa a los enemigos sin causar daño."
+    },
+    {
+      "name": "Aurora Fantasma",
+      "desc": "Crea un aura brillante que reduce la defensa del enemigo."
+    },
+    {
+      "name": "Relámpago Sombrio",
+      "desc": "Ataca con un rayo oscuro que causa daño y confunde al enemigo."
+    },
+    {
+      "name": "Sombra Eléctrica",
+      "desc": "Crea una sombra que absorbe el daño y lo devuelve al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas transparentes y brillantes"
+    },
+    {
+      "from": "carga eléctrica",
+      "to": "aura espectral envolvente"
+    },
+    {
+      "from": "color amarillo brillante",
+      "to": "tonalidad plateada con destellos azules"
+    },
+    {
+      "from": "movimientos eléctricos",
+      "to": "movimientos que combinan energía eléctrica y espectral"
+    }
+  ],
+  "pokemon_id": "025",
+  "target_type": "ghost"
+}

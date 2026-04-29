@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Esqueleto Lúgubre",
+  "lore": "Cubone, ahora envuelto en sombras eternas, camina con un hueso brillante que emana luz fantasmal. Su cola curvada resplandece con destellos plateados, marcando su conexión con lo espectral.",
+  "moves": [
+    {
+      "name": "Hueso Siniestro",
+      "desc": "Lanza un hueso que atraviesa la sombra del oponente, causando daño adicional por tipo fantasma."
+    },
+    {
+      "name": "Alma Aterradora",
+      "desc": "Aumenta el ataque y evita que el rival use movimientos de recuperación."
+    },
+    {
+      "name": "Sombra Resonante",
+      "desc": "Crea una sombra que absorbe energía y la devuelve como daño en el siguiente turno."
+    },
+    {
+      "name": "Eco de la Tumba",
+      "desc": "Genera un eco que reduce la defensa del oponente y causa daño por tipo fantasma."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola curvada con punta blanca",
+      "to": "cola curvada con punta plateada que emite luz fantasmal"
+    },
+    {
+      "from": "piel marrón",
+      "to": "piel translúcida con destellos azulados"
+    },
+    {
+      "from": "cabeza cubierta por hueso",
+      "to": "hueso brillante que emana energía espectral"
+    },
+    {
+      "from": "movimientos de tierra",
+      "to": "movimientos de tipo fantasma con efectos de absorción"
+    }
+  ],
+  "pokemon_id": "104",
+  "target_type": "ghost"
+}

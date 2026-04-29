@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Fantasma Mariposa",
+  "lore": "Chansey, ahora envuelta en sombras etéreas, tiene orejas puntiagudas que brillan con destellos plateados. Su cuerpo translúcido emite un suave resplandor azul, mientras que sus ojos reflejan un misterio antiguo.",
+  "moves": [
+    {
+      "name": "Alma Flotante",
+      "desc": "Lanza una esfera de energía espectral que confunde al oponente con visiones pasadas."
+    },
+    {
+      "name": "Susurro de la Noche",
+      "desc": "Crea un campo de silencio que reduce la precisión del rival en combate."
+    },
+    {
+      "name": "Eclipse Lunar",
+      "desc": "Invoca una luna plateada que absorbe ataques físicos y los devuelve con mayor fuerza."
+    },
+    {
+      "name": "Velo de Sombras",
+      "desc": "Cubre al usuario con una capa de sombras que bloquea los movimientos de ataque."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "brillan con destellos plateados y emiten un resplandor tenue"
+    },
+    {
+      "from": "cuerpo translúcido",
+      "to": "envuelto en sombras etéreas que lo hacen invisible temporalmente"
+    },
+    {
+      "from": "ojos normales",
+      "to": "reflejan un misterio antiguo y brillan con un brillo azul"
+    },
+    {
+      "from": "movimientos curativos",
+      "to": "transformados en movimientos espirituales que afectan la mente del oponente"
+    }
+  ],
+  "pokemon_id": "113",
+  "target_type": "ghost"
+}

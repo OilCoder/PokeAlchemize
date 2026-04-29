@@ -1,0 +1,57 @@
+{
+  "identity_traits": [
+    "compact muscular body",
+    "rounded head with small ears",
+    "short stubby legs",
+    "pointed tail tip",
+    "dark brown stripes on back",
+    "pale cream underbelly"
+  ],
+  "original_type_traits": [
+    "dark brown stripes on back",
+    "pale cream underbelly",
+    "sturdy ground-hugging posture",
+    "sand-like texture on skin"
+  ],
+  "transformable_parts": [
+    "head shape",
+    "tail tip",
+    "back stripes",
+    "skin texture",
+    "leg proportions",
+    "underbelly color"
+  ],
+  "suppress_colors": [
+    "dark brown",
+    "pale cream",
+    "sand-like texture",
+    "yellow body color"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low stance",
+    "pointed tail tip with dark brown stripe extending from base",
+    "rounded head with small ears, compact muscular body"
+  ],
+  "pokemon_id": "028",
+  "pokemon_name": "sandslash",
+  "original_types": [
+    "ground"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "bright yellow",
+      "dark brown",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed tail tip"
+    ],
+    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and short legs, giving it a sturdy and agile appearance.",
+    "markers": [
+      "spiky brown mane",
+      "sharp white claws"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Excavador",
+  "lore": "El Acero Excavador es un Diglett forjado en acero, con un cráneo redondeado cubierto de escamas metálicas. Sus pequeñas orejas se han transformado en punta de acero, perforando la tierra con precisión.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño adicional a los tipos de hierro."
+    },
+    {
+      "name": "Impacto Martillo",
+      "desc": "Golpea con un martillo de acero, elevando el ataque del usuario."
+    },
+    {
+      "name": "Escudo Reforzado",
+      "desc": "Crea un escudo de acero que reduce el daño recibido."
+    },
+    {
+      "name": "Perforación Rápida",
+      "desc": "Perfora el suelo a gran velocidad, causando daño y confusión."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redonda",
+      "to": "cubierta de escamas metálicas brillantes"
+    },
+    {
+      "from": "pequeñas orejas",
+      "to": "puntas de acero afiladas"
+    },
+    {
+      "from": "piel suave",
+      "to": "superficie dura como acero"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "agilidad metálica y precisión"
+    }
+  ],
+  "pokemon_id": "050",
+  "target_type": "steel"
+}

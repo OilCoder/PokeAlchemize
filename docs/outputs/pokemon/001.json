@@ -1,0 +1,62 @@
+{
+  "identity_traits": [
+    "rounded head with pointed ears",
+    "short stubby legs",
+    "plump compact body silhouette",
+    "red eyes with white highlights",
+    "curled tail tip",
+    "leaf-like appendage on back"
+  ],
+  "original_type_traits": [
+    "dark green leaf bulb on back",
+    "light green body coloration",
+    "poison-type purple markings on bulb"
+  ],
+  "transformable_parts": [
+    "back appendage",
+    "body coloration",
+    "tail texture",
+    "ear shape",
+    "eye coloration",
+    "leg proportions"
+  ],
+  "suppress_colors": [
+    "dark green",
+    "light green",
+    "purple",
+    "pale cream",
+    "red"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs planted on ground, low crawling stance",
+    "red eyes with white highlights, large pointed ears",
+    "curled spiral tail tip, compact rounded body"
+  ],
+  "pokemon_id": "001",
+  "pokemon_name": "bulbasaur",
+  "original_types": [
+    "grass",
+    "poison"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light green",
+      "dark green",
+      "pale cream"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, compact body with a large head and short legs, giving it a plump appearance.",
+    "type_markers": [
+      "leaf bulb on back"
+    ],
+    "distinctive_features": [
+      "red eyes with white highlights",
+      "dark green leaf-like appendage on back"
+    ]
+  }
+}

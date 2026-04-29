@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Con su cabeza redondeada y orejas puntiagudas ahora brillando con destellos de luz de hada, Aliento de Hada despliega poderes de curación en el aire. Sus alas de roca se transforman en alas translúcidas, irradiando magia suave que acaricia a los que lo rodean.",
+  "moves": [
+    {
+      "name": "Canto de Estrellas",
+      "desc": "Canta una melodía que cura a aliados y eleva su confianza en combate."
+    },
+    {
+      "name": "Brillo de Luna",
+      "desc": "Genera un aura brillante que reduce el daño recibido y aumenta la precisión."
+    },
+    {
+      "name": "Beso de Hada",
+      "desc": "Ataca con un beso mágico que confunde al rival y reduce su defensa."
+    },
+    {
+      "name": "Danza de Flores",
+      "desc": "Crea una danza de pétalos que cura y aumenta la velocidad de los aliados."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza redondeada brillando con destellos de hada"
+    },
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas ahora cubiertas de brillo mágico"
+    },
+    {
+      "from": "alas de roca",
+      "to": "alas de roca transformadas en alas translúcidas"
+    },
+    {
+      "from": "poder de volar",
+      "to": "poder de volar ahora irradiando magia suave"
+    }
+  ],
+  "pokemon_id": "142",
+  "target_type": "fairy"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Sandslash electric type, quadruped, four legs planted on ground, low stance, pointed tail tip with dark brown stripe extending from base, rounded head with small ears, compact muscular body. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Spine spines: jagged lightning-bolt shaped electric-blue spines with neon green circuit patterns. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "dark brown stripes, pale cream underbelly, sand-like skin texture, yellow body color, dark brown, pale cream, sand-like texture, yellow body color, earthen brown, dull ochre, muddy gray, cracked stone white, dusty terracotta, dust clouds rising, cracks glowing faintly, slow motion with ground tremors, petrified leaves, moss or grass growing",
+  "pokemon_id": "028",
+  "pokemon_name": "sandslash",
+  "target_type": "electric"
+}

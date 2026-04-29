@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispas Roca",
+  "lore": "Su cabeza redondeada brilla con un resplandor eléctrico que se refleja en su superficie lisa. Las chispas danzan alrededor de su cuerpo, cargando cada movimiento con energía estática. Su forma compacta atrae los rayos de manera natural.",
+  "moves": [
+    {
+      "name": "Chispa Relámpago",
+      "desc": "Lanza un rayo eléctrico que paraliza al rival por 2 turnos."
+    },
+    {
+      "name": "Impacto Estático",
+      "desc": "Aumenta su velocidad y causa daño adicional por parálisis."
+    },
+    {
+      "name": "Roca Electrificada",
+      "desc": "Ataca con rocas cargadas de electricidad, elevando el daño crítico."
+    },
+    {
+      "name": "Descarga Terrestre",
+      "desc": "Genera una onda eléctrica que afecta a todos los enemigos en el campo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "superficie lisa de piedra",
+      "to": "superficie lisa cubierta de chispas eléctricas que brillan al tocar."
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos rápidos gracias a la energía eléctrica acumulada."
+    },
+    {
+      "from": "resistencia a golpes físicos",
+      "to": "resistencia a golpes eléctricos por la carga estática."
+    },
+    {
+      "from": "capacidad para moverse lentamente",
+      "to": "capacidad para saltar y moverse con rapidez gracias a la electricidad."
+    }
+  ],
+  "pokemon_id": "074",
+  "target_type": "electric"
+}

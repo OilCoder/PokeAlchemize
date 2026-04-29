@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Mental",
+  "lore": "Alakazam Acero Mental despliega una armadura de acero pulido en su cabeza y garras, reflejando su mente aguda. Sus ojos brillan con energía metálica, y su cuerpo emite un zumbido resonante al moverse.",
+  "moves": [
+    {
+      "name": "Corte Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño adicional a Pokémon de tipo acero."
+    },
+    {
+      "name": "Mente Férrea",
+      "desc": "Aumenta la defensa y evita que el oponente use movimientos de tipo psíquico."
+    },
+    {
+      "name": "Golpe Resonante",
+      "desc": "Genera ondas de sonido metálico que reducen la velocidad del rival."
+    },
+    {
+      "name": "Escudo Mental",
+      "desc": "Crea un escudo de acero que bloquea ataques físicos durante un turno."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza cubierta por una armadura de acero pulido"
+    },
+    {
+      "from": "garras curvas afiladas",
+      "to": "garras afiladas de acero con bordes cortantes"
+    },
+    {
+      "from": "mente psíquica",
+      "to": "mente enfocada en energía metálica"
+    },
+    {
+      "from": "movimientos psíquicos",
+      "to": "movimientos que combinan psiquismo con fuerza metálica"
+    }
+  ],
+  "pokemon_id": "065",
+  "target_type": "steel"
+}

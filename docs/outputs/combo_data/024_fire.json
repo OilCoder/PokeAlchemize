@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Serpiente",
+  "lore": "Arbok, ahora envuelto en llamas sagradas, despliega escamas rojas que brillan con calor intenso. Sus ojos centellean como brasas, y su cola emite destellos de fuego al moverse.",
+  "moves": [
+    {
+      "name": "Llamarada Serpentina",
+      "desc": "Lanza una bola de fuego que se enrosca alrededor del objetivo, quemando con intensidad."
+    },
+    {
+      "name": "Fuego Sibilante",
+      "desc": "Emite un rugido de llama que quema y desorienta al enemigo."
+    },
+    {
+      "name": "Escamas de Llama",
+      "desc": "Cubre al objetivo con escamas ardientes que infligen daño continuo."
+    },
+    {
+      "name": "Respiración de Dragón",
+      "desc": "Expulsa una columna de fuego que quema y eleva al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada con orejas puntiagudas",
+      "to": "cabeza rodeada de llamas, orejas transformadas en espirales de fuego"
+    },
+    {
+      "from": "escamas verdes",
+      "to": "escamas rojas brillantes que emiten calor constante"
+    },
+    {
+      "from": "veneno en su mordedura",
+      "to": "llamas en su mordedura que queman y causan quema"
+    },
+    {
+      "from": "movimientos venenosos",
+      "to": "movimientos de fuego que infligen quema y daño adicional."
+    }
+  ],
+  "pokemon_id": "024",
+  "target_type": "fire"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Meowth electric type, quadruped, four legs on ground, low stance, feline face with long whiskers, black-tipped ears and tail. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Tail tip: jagged lightning-bolt spines with neon green circuit patterns and sparking yellow energy trails. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "orange fur, black gloves, white chest patch, gray tail, normal-type color scheme, orange body, black gloves, white chest, gray tail, soft beige, warm tan, pale cream, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles, soft motion blur, warm light reflection on skin",
+  "pokemon_id": "052",
+  "pokemon_name": "meowth",
+  "target_type": "electric"
+}

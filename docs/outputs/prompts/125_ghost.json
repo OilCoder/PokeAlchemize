@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Electabuzz ghost type, quadruped, four legs planted on ground, low stance, curled spiral tail tip, yellow and blue striped pattern, pointed ears on rounded head, dark blue chest lightning bolt. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Tail tip: tattered wispy mist trailing shadowy vapour with pale silver luminescence. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "bright yellow chest bolt, dark blue striped body, electric shock wave aura, yellow lightning pattern, blue electric discharge, bright yellow, dark blue, electric shock wave colors, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "125",
+  "pokemon_name": "electabuzz",
+  "target_type": "ghost"
+}

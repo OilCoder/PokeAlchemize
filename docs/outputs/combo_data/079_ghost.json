@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Fantasma",
+  "lore": "Slowpoke flota en el aire con ojos redondos y negros, su cuerpo translúcido emana un brillo tenue. Sus movimientos son lentos pero cargados de misterio, atrayendo a quienes buscan respuestas en el más allá.",
+  "moves": [
+    {
+      "name": "Sueño Ectópico",
+      "desc": "Inicia un sueño profundo en el oponente, debilitando su mente y causando confusión."
+    },
+    {
+      "name": "Vista del Más Allá",
+      "desc": "Muestra al oponente imágenes del futuro, causando miedo y desorientación."
+    },
+    {
+      "name": "Susurro de la Tumba",
+      "desc": "Ataca con un susurro escalofriante que reduce la defensa del oponente."
+    },
+    {
+      "name": "Espectro de la Calma",
+      "desc": "Crea una aura calmante que restaura la salud y reduce el daño recibido."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos redondos con pupilas negras",
+      "to": "ojos translúcidos que brillan con luz tenue"
+    },
+    {
+      "from": "cuerpo pesado y lento",
+      "to": "cuerpo ligero y flotante en el aire"
+    },
+    {
+      "from": "capacidad de teletransporte",
+      "to": "capacidad de moverse entre dimensiones"
+    },
+    {
+      "from": "movimientos acuáticos",
+      "to": "movimientos espirituales y místicos"
+    }
+  ],
+  "pokemon_id": "079",
+  "target_type": "ghost"
+}

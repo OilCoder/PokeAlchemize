@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Insecto",
+  "lore": "Pinsir ahora emana llamas desde su cuerpo bulboso, con patas cortas convertidas en zarpas de fuego. Su caparazón resplandece con escamas rojas que brillan al calor, irradiando una aura de intensidad y fuerza.",
+  "moves": [
+    {
+      "name": "Fuego Escarabajo",
+      "desc": "Ataca con llamas que salen de su caparazón, quemando al rival con una explosión de fuego."
+    },
+    {
+      "name": "Zarpa Llama",
+      "desc": "Usa sus patas de fuego para lanzar ráfagas de calor que queman y desestabilizan al oponente."
+    },
+    {
+      "name": "Cascada de Llama",
+      "desc": "Genera una ola de llamas que cubre el campo, aumentando el daño de fuego de todos los movimientos."
+    },
+    {
+      "name": "Resplandor Incendio",
+      "desc": "Emite un destello de luz roja que ciega al rival y prepara un ataque devastador."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cuerpo bulboso redondeado",
+      "to": "caparazón resplandeciente con escamas rojas que emanan calor"
+    },
+    {
+      "from": "patas cortas y gruesas",
+      "to": "patas transformadas en zarpas de fuego que arden intensamente"
+    },
+    {
+      "from": "color verde oscuro",
+      "to": "tonos rojos y anaranjados brillantes que reflejan el fuego"
+    },
+    {
+      "from": "movimientos de ataque físico",
+      "to": "ataques basados en llamas y calor que queman y aumentan el daño"
+    }
+  ],
+  "pokemon_id": "127",
+  "target_type": "fire"
+}

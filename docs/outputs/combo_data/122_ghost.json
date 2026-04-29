@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Místico",
+  "lore": "El Espectro Místico flota sin peso, su patrón circular en el pecho emana brillos azulados. Sus movimientos de tipo fantasma se vuelven más etéreos, desvaneciéndose en la oscuridad.",
+  "moves": [
+    {
+      "name": "Sombra Silenciosa",
+      "desc": "El Pokémon desaparece y ataca desde la oscuridad, evitando el daño físico."
+    },
+    {
+      "name": "Espejismo Mental",
+      "desc": "Crea ilusiones que confunden al rival, reduciendo su precisión."
+    },
+    {
+      "name": "Fantasma Invisibilidad",
+      "desc": "Se vuelve invisible durante un turno, evitando ataques."
+    },
+    {
+      "name": "Velo de Sombras",
+      "desc": "Cubre al rival con sombras que disminuyen su velocidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "patrón circular en el pecho",
+      "to": "brilla con luz azul fantasmal, proyectando sombras en el aire"
+    },
+    {
+      "from": "movimientos psíquicos",
+      "to": "se convierten en movimientos fantasma, desapareciendo en la oscuridad"
+    },
+    {
+      "from": "piel translúcida",
+      "to": "se vuelve más etérea, permitiendo pasar a través de objetos"
+    },
+    {
+      "from": "cuerpo sólido",
+      "to": "flota sin peso, moviéndose sin contacto con el suelo"
+    }
+  ],
+  "pokemon_id": "122",
+  "target_type": "ghost"
+}

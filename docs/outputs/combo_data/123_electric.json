@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispazón Metálico",
+  "lore": "Chispazón Metálico brilla con chispas eléctricas en sus alas de acero. Sus orejas puntiagudas emiten destellos azules al volar, y su cuerpo refleja la energía de los relámpagos. Cada movimiento genera un aura de voltaje.",
+  "moves": [
+    {
+      "name": "Cuchillo Relámpago",
+      "desc": "Corta con hojas eléctricas que generan cortocircuitos en el oponente."
+    },
+    {
+      "name": "Ala de Centella",
+      "desc": "Ataca con un destello de luz que ciega y paraliza temporalmente."
+    },
+    {
+      "name": "Escudo Estático",
+      "desc": "Crea una barrera de energía que absorbe ataques eléctricos."
+    },
+    {
+      "name": "Relámpago de Acero",
+      "desc": "Lanza una descarga de alta tensión desde sus garras metálicas."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Aletas de insecto",
+      "to": "Alas de acero recubiertas de chispas eléctricas"
+    },
+    {
+      "from": "Cuerpo ligero",
+      "to": "Cuerpo pesado pero resistente a descargas eléctricas"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas que emiten destellos azules al volar"
+    },
+    {
+      "from": "Color verde oscuro",
+      "to": "Color plateado con destellos azules eléctricos"
+    }
+  ],
+  "pokemon_id": "123",
+  "target_type": "electric"
+}

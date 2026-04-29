@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Alado",
+  "lore": "Pidgeot Acero Alado vuela con alas de acero pulido, sus orejas puntiagudas brillan con tonos rosados bajo el sol. Su cuerpo refleja la resistencia del acero mientras desplaza el aire con precisión metálica.",
+  "moves": [
+    {
+      "name": "Ala de Acero",
+      "desc": "Ataca con un golpe de ala afilada que genera cortes precisos en el aire."
+    },
+    {
+      "name": "Corte Metálico",
+      "desc": "Corta el aire con una ráfaga de acero que reduce la defensa del oponente."
+    },
+    {
+      "name": "Resonancia Estelar",
+      "desc": "Genera ondas de sonido que debilitan a los enemigos con frecuencias metálicas."
+    },
+    {
+      "name": "Vuelo de Acero",
+      "desc": "Acelera su vuelo para atacar con una velocidad increíble, superando cualquier obstáculo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Alas suaves y flexibles",
+      "to": "Alas rígidas y afiladas como acero pulido"
+    },
+    {
+      "from": "Orejas suaves y redondeadas",
+      "to": "Orejas puntiagudas con reflejos rosados metálicos"
+    },
+    {
+      "from": "Cuerpo ligero y esbelto",
+      "to": "Cuerpo compacto y resistente, como metal forjado"
+    },
+    {
+      "from": "Vuelo tranquilo y suave",
+      "to": "Vuelo rápido y preciso, con un sonido metálico en el aire"
+    }
+  ],
+  "pokemon_id": "018",
+  "target_type": "steel"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Espectral",
+  "lore": "Arcanine se transforma en un ser etéreo, su pelaje brillante ahora se torna translúcido con destellos plateados. Sus espinas en la cabeza y cuello emiten un resplandor azuloso, revelando su naturaleza fantasmal mientras corre a través de sombras.",
+  "moves": [
+    {
+      "name": "Alma Fugaz",
+      "desc": "Ataca con un susurro de espíritus, causando daño y reduciendo la velocidad del oponente."
+    },
+    {
+      "name": "Sombra Ardiente",
+      "desc": "Lanza una sombra que quema al rival, combinando fuego y oscuridad en un ataque dual."
+    },
+    {
+      "name": "Resplandor Fantasmal",
+      "desc": "Crea un resplandor brillante que confunde al enemigo y mejora la precisión."
+    },
+    {
+      "name": "Viento de la Noche",
+      "desc": "Genera un viento frío que reduce el poder de los ataques de fuego del rival."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "pelaje de color rojo brillante",
+      "to": "pelaje translúcido con destellos plateados y azules"
+    },
+    {
+      "from": "espinas oscuras en cabeza y cuello",
+      "to": "espinas que emiten resplandor azuloso en la oscuridad"
+    },
+    {
+      "from": "movimientos de fuego",
+      "to": "ataques que combinan fuego y sombra, causando daño dual"
+    },
+    {
+      "from": "personalidad valiente",
+      "to": "naturaleza tranquila pero letal en la oscuridad"
+    }
+  ],
+  "pokemon_id": "059",
+  "target_type": "ghost"
+}

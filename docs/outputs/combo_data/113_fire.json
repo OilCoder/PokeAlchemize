@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Chansey, ahora transformada en Llama Marina, arde con una llama suave en sus orejas puntiagudas que se curvan ligeramente hacia adentro. Su piel blanca emite un resplandor dorado, y sus ojos brillan con calidez. El fuego en sus orejas no quema, sino que envuelve a los heridos en un abrazo protector.",
+  "moves": [
+    {
+      "name": "Llama de Cura",
+      "desc": "Genera una llama suave que cura heridas y calienta el ambiente, restaurando salud a aliados."
+    },
+    {
+      "name": "Orejas Ardientes",
+      "desc": "Las orejas de la Pokémon emiten llamas que confunden a los enemigos con su calor intenso."
+    },
+    {
+      "name": "Resplandor Dorado",
+      "desc": "Emite un resplandor dorado que aumenta la defensa de aliados en combate."
+    },
+    {
+      "name": "Abrazo de Fuego",
+      "desc": "Envuelve al aliado en un abrazo de fuego que restaura salud y elimina debilidades."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas con llama suave que brilla dorada"
+    },
+    {
+      "from": "piel blanca",
+      "to": "piel blanca que emite resplandor dorado"
+    },
+    {
+      "from": "ojos normales",
+      "to": "ojos que brillan con calidez y luz dorada"
+    },
+    {
+      "from": "comportamiento tranquilo",
+      "to": "comportamiento protector con fuego que cura en lugar de herir"
+    }
+  ],
+  "pokemon_id": "113",
+  "target_type": "fire"
+}

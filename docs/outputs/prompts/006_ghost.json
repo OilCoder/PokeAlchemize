@@ -1,0 +1,7 @@
+{
+  "prompt": "deep violet, ebony black, pale silver, crimson mist, ghostly white. Charizard ghost type, quadruped, four legs planted on ground, low crawling stance, curled spiral tail tip, orange flame tip, pointed ears, wing membranes extending from shoulders. Ken Sugimori style, cel-shaded, bold black outlines. semi-translucent misty skin with faint internal energy currents visible through thin layers. Tail tip: swirling mist vortex with crimson energy pulses and dissolving shadowy edges. Full body portrait, centered character. misty graveyard, faint moonlight, floating spectral embers. crimson mist tail tip, ghostly white eyes. No text.",
+  "negative_prompt": "orange flame tail tip, blue flame wing membranes, orange body coloration, white flame accents, fiery orange texture, orange, blue flame, white accents, crimson red, burnt orange, molten gold, amber glow, charcoal black, sky blue, pure white, ivory, azure, pale gold, molten lava glow from cracks, intense heat shimmer, ember sparks floating in air, crackling energy aura, smoke trails from movement, gentle wind currents swirling around the body, sunlight refracting through translucent wings, subtle shimmer on feathers from altitude, soft glow of sky light on body surface, dynamic motion blur during flight",
+  "pokemon_id": "006",
+  "pokemon_name": "charizard",
+  "target_type": "ghost"
+}

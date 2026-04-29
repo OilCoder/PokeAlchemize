@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Liso",
+  "lore": "Este Ditto transformado en acero es una esfera perfecta de metal pulido, reflejando la luz con precisión. Sus rasgos redondeados ahora son una superficie impenetrable, capaz de absorber impactos sin un rasguño.",
+  "moves": [
+    {
+      "name": "Fusión Acero",
+      "desc": "Absorbe ataques físicos y los convierte en energía para atacar con mayor fuerza."
+    },
+    {
+      "name": "Reflejo Inquebrantable",
+      "desc": "Refleja cualquier ataque especial hacia el oponente con el doble de potencia."
+    },
+    {
+      "name": "Corte de Acero",
+      "desc": "Ataca con un corte preciso que corta la defensa del oponente."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Genera vibraciones que debilitan la resistencia del oponente a los ataques de acero."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo redondeado y blando",
+      "to": "Superficie metálica pulida y resistente a impactos"
+    },
+    {
+      "from": "Capacidad de imitar formas",
+      "to": "No puede imitar más, solo reflejar y absorber"
+    },
+    {
+      "from": "Sin extremidades definidas",
+      "to": "Forma esférica sin cambios estructurales"
+    },
+    {
+      "from": "Ataques físicos débiles",
+      "to": "Ataques basados en absorción y reflejo de fuerza"
+    }
+  ],
+  "pokemon_id": "132",
+  "target_type": "steel"
+}

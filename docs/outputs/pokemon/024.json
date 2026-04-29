@@ -1,0 +1,65 @@
+{
+  "identity_traits": [
+    "snake-like body with a long neck",
+    "rounded head with pointed ears",
+    "curled tail",
+    "red eye with black outline",
+    "sharp teeth visible when mouth is open",
+    "gray and white body with black markings"
+  ],
+  "original_type_traits": [
+    "red eye with black outline (poison type marker)",
+    "sharp teeth (poison type association)",
+    "black and white body pattern (poison type color scheme)"
+  ],
+  "transformable_parts": [
+    "tail",
+    "head",
+    "body markings",
+    "eye color",
+    "teeth shape",
+    "skin texture"
+  ],
+  "suppress_colors": [
+    "red",
+    "black",
+    "white",
+    "gray"
+  ],
+  "anchor_phrases": [
+    "serpentine body coiled on ground, low stance",
+    "red eye with black outline, sharp teeth visible",
+    "gray and white body with black markings"
+  ],
+  "pokemon_id": "024",
+  "pokemon_name": "arbok",
+  "original_types": [
+    "poison"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "gray",
+      "red",
+      "white",
+      "black"
+    ],
+    "body_parts": [
+      "rounded head",
+      "long neck",
+      "curled tail",
+      "pointed ears",
+      "sharp teeth",
+      "red eye with black outline"
+    ],
+    "silhouette": "The Pokémon has a snake-like body with a rounded head and a long, coiled tail, giving it a compact and somewhat menacing appearance.",
+    "type_markers": [
+      "red eye with black outline",
+      "sharp teeth"
+    ],
+    "distinctive_features": [
+      "long neck",
+      "curled tail",
+      "pointed ears"
+    ]
+  }
+}

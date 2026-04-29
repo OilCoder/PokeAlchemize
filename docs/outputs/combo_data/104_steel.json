@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Cúpula Acero",
+  "lore": "Cubone, ahora con una armadura de acero en su cráneo, camina con paso firme. Su cola curva brilla con reflejos metálicos, y su expresión es de determinación inquebrantable. El acero le da una fortaleza inigualable.",
+  "moves": [
+    {
+      "name": "Cascada de Acero",
+      "desc": "Lanza una lluvia de fragmentos metálicos que causan daño y debilitan la defensa del rival."
+    },
+    {
+      "name": "Golpe de Cúpula",
+      "desc": "Un ataque frontal que golpea con fuerza, aumentando la defensa del usuario."
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Crea ondas de sonido que confunden al enemigo y reducen su precisión."
+    },
+    {
+      "name": "Escudo de Cobre",
+      "desc": "Crea un escudo que absorbe el 50% del daño recibido y refleja un 20%."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cráneo hueso",
+      "to": "cubierta de acero brillante y resistente"
+    },
+    {
+      "from": "cola curva",
+      "to": "cola metálica con reflejos brillantes"
+    },
+    {
+      "from": "movimientos terrestres",
+      "to": "ataques con fuerza metálica y resistencia"
+    },
+    {
+      "from": "personalidad tranquila",
+      "to": "determinación inquebrantable y agresividad defensiva"
+    }
+  ],
+  "pokemon_id": "104",
+  "target_type": "steel"
+}

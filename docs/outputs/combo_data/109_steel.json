@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Acero Tóxico",
+  "lore": "Su cuerpo de gas tóxico se ha endurecido en acero, con el esqueleto en el pecho brillando como una armadura. Sus ojos emiten destellos metálicos al moverse, y su risa se convierte en un sonido resonante de metal.",
+  "moves": [
+    {
+      "name": "Escudo de Acero",
+      "desc": "Crea una barrera de acero que absorbe el daño y refuerza la defensa."
+    },
+    {
+      "name": "Gas Tóxico Líquido",
+      "desc": "Libera un gas venenoso que se solidifica en acero, envenenando al rival."
+    },
+    {
+      "name": "Golpe de Arma",
+      "desc": "Ataca con un golpe certero de acero, aumentando el daño físico."
+    },
+    {
+      "name": "Bomba de Acero",
+      "desc": "Lanza una bomba de acero que explota en fragmentos afilados."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo de gas tóxico",
+      "to": "Se endurece en una armadura de acero resistente."
+    },
+    {
+      "from": "Símbolo de esqueleto en el pecho",
+      "to": "Brilla como una armadura metálica brillante."
+    },
+    {
+      "from": "Risa suave y ligera",
+      "to": "Se convierte en un sonido resonante de metal."
+    },
+    {
+      "from": "Movimiento lento y pesado",
+      "to": "Se mueve con rapidez metálica y precisión."
+    }
+  ],
+  "pokemon_id": "109",
+  "target_type": "steel"
+}

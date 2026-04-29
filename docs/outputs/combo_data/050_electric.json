@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispazón",
+  "lore": "Chispazón emerge de la tierra con relucientes escamas eléctricas que brillan bajo el sol. Su cabeza redonda y orejas puntiagudas ahora emiten pequeñas chispas al moverse, atrayendo a otros Pokémon hacia su energía.",
+  "moves": [
+    {
+      "name": "Chispa Cercana",
+      "desc": "Lanza una descarga eléctrica que afecta a los enemigos cercanos con un impacto suave."
+    },
+    {
+      "name": "Relámpago Subterráneo",
+      "desc": "Crea un campo eléctrico bajo tierra que aturde a los oponentes en el área."
+    },
+    {
+      "name": "Escudo Estático",
+      "desc": "Genera un escudo de energía eléctrica que absorbe daño y refuerza defensa."
+    },
+    {
+      "name": "Bomba de Carga",
+      "desc": "Descarga una potente onda eléctrica que causa daño masivo a los enemigos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redonda",
+      "to": "Cabeza con escamas brillantes que emiten chispas."
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Orejas que generan chispas al moverse."
+    },
+    {
+      "from": "Piel terrosa",
+      "to": "Piel cubierta de escamas eléctricas resplandecientes."
+    },
+    {
+      "from": "Movimientos lentos",
+      "to": "Movimientos ágiles con chispas que aceleran su velocidad."
+    }
+  ],
+  "pokemon_id": "050",
+  "target_type": "electric"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "electric blue, vibrant yellow, neon green, bright white, electric cyan. Arbok electric type, serpentine body coiled on ground, low stance, red eye with black outline, sharp teeth visible, gray and white body with black markings. Ken Sugimori style, cel-shaded, bold black outlines. smooth metallic skin with exposed circuitry patterns glowing beneath the surface. Spine spines: jagged lightning-bolt shaped energy spines with neon-green circuit patterns and electric-blue tips. Full body portrait, centered character. stormy sky with lightning strikes, electric-blue clouds, crackling energy fields. neon green tail tip, electric blue eyes. No text.",
+  "negative_prompt": "red poison eye outline, sharp poison teeth, black and white poison pattern, gray poison texture, toxic green eye tint, red, black, white, gray, toxic green, deep purple, acid yellow, blood red, sludge brown, acidic vapor, toxic green aura, slime trails, corrosive droplets, glowing toxic veins",
+  "pokemon_id": "024",
+  "pokemon_name": "arbok",
+  "target_type": "electric"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Brillo de Hada",
+  "lore": "Brillo de Hada se adorna con cabello plateado que brilla con magia de hada. Sus ojos brillan con destellos dorados, y sus ropas se transforman en encaje luminoso. El aire a su alrededor se llena de pétalos mágicos que flotan suavemente.",
+  "moves": [
+    {
+      "name": "Beso de Deseo",
+      "desc": "Crea un beso de hada que cura la fatiga y eleva la confianza del aliado."
+    },
+    {
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza una lluvia de pétalos que reduce el ataque del enemigo."
+    },
+    {
+      "name": "Canto de Sueño",
+      "desc": "Un canto suave que induce un sueño profundo en los enemigos."
+    },
+    {
+      "name": "Velo de Ensueño",
+      "desc": "Cubre al aliado con un velo protector que bloquea ataques físicos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabello rubio largo",
+      "to": "cabello plateado brillante con destellos mágicos"
+    },
+    {
+      "from": "ojos fríos y distantes",
+      "to": "ojos dorados que brillan con magia de hada"
+    },
+    {
+      "from": "ropas de hielo",
+      "to": "ropas de encaje luminoso"
+    },
+    {
+      "from": "presencia fría",
+      "to": "presencia cálida y alegre"
+    }
+  ],
+  "pokemon_id": "124",
+  "target_type": "fairy"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Chansey steel type, quadruped, four legs planted on ground, low plump stance, pointed rabbit ears with inner pink lining, curled spiral tail tip with pale cream tip. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Tail tip: polished steel spiral with deep indigo accents and glowing blue energy lines. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "pink skin tones, pale cream fur, soft pastel textures, rounded body contours, normal-type blush, fluffy tail tips, gentle facial features, smooth skin texture, normal-type eye shape, pink, pale cream, soft pastel tones, soft beige, warm tan, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles floating in air, soft motion blur on movement, warm light reflection on skin",
+  "pokemon_id": "113",
+  "pokemon_name": "chansey",
+  "target_type": "steel"
+}

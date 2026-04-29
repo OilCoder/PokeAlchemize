@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago Sólido",
+  "lore": "Su cabeza redondeada ahora resplandece con descargas eléctricas, mientras sus orejas puntiagudas emiten chispas. La tierra bajo sus patas se vuelve conductiva, generando un aura de energía estática.",
+  "moves": [
+    {
+      "name": "Chispa Terrenal",
+      "desc": "Genera chispas en el suelo que dañan a los oponentes en contacto."
+    },
+    {
+      "name": "Relámpago de Raíces",
+      "desc": "Aumenta su velocidad y carga sus patas con energía eléctrica."
+    },
+    {
+      "name": "Descarga de Cuerpo",
+      "desc": "Ataca con una descarga que inmoviliza al rival por un turno."
+    },
+    {
+      "name": "Campo Estático",
+      "desc": "Crea un campo eléctrico que debilita a los oponentes de tipo agua."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cabeza redondeada",
+      "to": "Resplandece con descargas eléctricas constantes"
+    },
+    {
+      "from": "Orejas puntiagudas",
+      "to": "Emite chispas al moverse, iluminando su entorno"
+    },
+    {
+      "from": "Piel resistente a venenos",
+      "to": "Convierte venenos en energía eléctrica para sus ataques"
+    },
+    {
+      "from": "Ataques terrenales",
+      "to": "Ahora usan electricidad para crear campos estáticos"
+    }
+  ],
+  "pokemon_id": "031",
+  "target_type": "electric"
+}

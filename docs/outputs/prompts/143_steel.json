@@ -1,0 +1,7 @@
+{
+  "prompt": "gunmetal gray, silver, steel blue, chrome silver, deep indigo. Snorlax steel type, quadruped, four legs planted on ground, low crawling stance, rounded head with small pointed ears, curled spiral tail tip. Ken Sugimori style, cel-shaded, bold black outlines. smooth, polished steel with faint engraved geometric patterns and glowing blue energy lines beneath the surface. Tail spiral: polished steel with glowing blue energy lines tracing its polished surface. Full body portrait, centered character. industrial factory floor, polished metal surfaces, blue energy lighting. chrome silver tail tip, glowing blue eyes. No text.",
+  "negative_prompt": "dark blue fur, white belly patches, light blue accents, normal-type texture, soft fur texture, dark blue, white, light blue accents, soft beige, warm tan, pale cream, dusty rose, moss green, gentle glow of natural sunlight, subtle dust particles, soft motion blur, warm light reflection",
+  "pokemon_id": "143",
+  "pokemon_name": "snorlax",
+  "target_type": "steel"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Espectro Mariposa",
+  "lore": "Su cuerpo translúcido brilla con destellos pálidos, sus alas de seda se deshacen en sombras. Los ojos rojos, ahora sin pupilas, emiten un resplandor etéreo que hipnotiza a sus enemigos en la oscuridad.",
+  "moves": [
+    {
+      "name": "Sombra Danzante",
+      "desc": "Crea sombras que se entrelazan alrededor del oponente, reduciendo su velocidad en combate."
+    },
+    {
+      "name": "Ala de Espíritu",
+      "desc": "Ataca con un giro de alas que envía un aura espectral, causando daño psíquico."
+    },
+    {
+      "name": "Visión Fantasma",
+      "desc": "Genera una ilusión que confunde al rival, reduciendo su precisión."
+    },
+    {
+      "name": "Resplandor Espectral",
+      "desc": "Emite un brillo tenue que cura la energía de aliados cercanos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Alas de seda brillantes",
+      "to": "Alas que se deshacen en sombras etéreas"
+    },
+    {
+      "from": "Ojos grandes con pupilas negras",
+      "to": "Ojos rojos sin pupilas que brillan en la oscuridad"
+    },
+    {
+      "from": "Vuelo ligero en el aire",
+      "to": "Desplazamiento silencioso a través de la oscuridad"
+    },
+    {
+      "from": "Atractivo para insectos",
+      "to": "Atrae espíritus errantes con su aura fantasmal"
+    }
+  ],
+  "pokemon_id": "012",
+  "target_type": "ghost"
+}

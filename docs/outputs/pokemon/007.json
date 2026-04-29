@@ -1,0 +1,60 @@
+{
+  "identity_traits": [
+    "rounded head",
+    "pointed ears",
+    "curled tail tip",
+    "short stubby legs",
+    "turtle-like body silhouette"
+  ],
+  "original_type_traits": [
+    "light blue body coloration",
+    "pale blue shell accents",
+    "beige underbelly"
+  ],
+  "transformable_parts": [
+    "shell texture",
+    "tail tip shape",
+    "leg proportions",
+    "ear shape",
+    "head outline",
+    "underbelly color"
+  ],
+  "suppress_colors": [
+    "light blue",
+    "pale blue",
+    "beige"
+  ],
+  "anchor_phrases": [
+    "quadruped, four legs on ground, low stance",
+    "rounded head with pointed ears",
+    "curled tail tip with pale blue highlights"
+  ],
+  "pokemon_id": "007",
+  "pokemon_name": "squirtle",
+  "original_types": [
+    "water"
+  ],
+  "visual_facts": {
+    "body_colors": [
+      "light blue",
+      "beige",
+      "brown",
+      "pale blue"
+    ],
+    "body_parts": [
+      "rounded head",
+      "short stubby legs",
+      "pointed ears",
+      "curled tail tip"
+    ],
+    "silhouette": "The Pokémon has a rounded, turtle-like body with a short, stubby tail and legs, and a small head with pointed ears.",
+    "type_markers": [
+      "no visible type markers"
+    ],
+    "distinctive_features": [
+      "rounded head",
+      "pointed ears",
+      "curled tail tip"
+    ]
+  }
+}

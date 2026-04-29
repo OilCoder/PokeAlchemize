@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispa Agua",
+  "lore": "Psyduck ahora emite destellos eléctricos desde su cola espiralada. Su pelaje brillante refleja descargas, y sus ojos centellean con energía. El agua de su entorno se electrifica al acercarse.",
+  "moves": [
+    {
+      "name": "Descarga Espiral",
+      "desc": "Genera una espiral de electricidad que paraliza al rival en su lugar."
+    },
+    {
+      "name": "Chispa Hidro",
+      "desc": "Dispara un chorro de agua cargado de electricidad, causando daño y parálisis."
+    },
+    {
+      "name": "Electro Llama",
+      "desc": "Crea una llamarada eléctrica que quema y electrocuta al oponente."
+    },
+    {
+      "name": "Torbellino Electrónico",
+      "desc": "Crea un torbellino de agua y electricidad que confunde al enemigo."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cola espiralada",
+      "to": "emite destellos eléctricos y refleja descargas"
+    },
+    {
+      "from": "pelaje suave",
+      "to": "brilla con energía eléctrica"
+    },
+    {
+      "from": "ojos normales",
+      "to": "centellean con energía"
+    },
+    {
+      "from": "agua de su entorno",
+      "to": "se electrifica al acercarse."
+    }
+  ],
+  "pokemon_id": "054",
+  "target_type": "electric"
+}

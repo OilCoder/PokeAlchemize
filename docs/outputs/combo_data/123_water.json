@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Agua Cuchilla",
+  "lore": "Con alas de cristal que cortan el agua, su cabeza redonda se transformó en un casco acuático. Sus garras afiladas ahora generan remolinos al moverse, cambiando su gracia a una danza fluida en el mar.",
+  "moves": [
+    {
+      "name": "Corte Marítimo",
+      "desc": "Corta el agua con garras para crear un surco que ralentiza al rival."
+    },
+    {
+      "name": "Remolino Acuático",
+      "desc": "Genera un remolino que absorbe al enemigo y lo lanza lejos."
+    },
+    {
+      "name": "Ala de Ondas",
+      "desc": "Lanza olas de energía acuática que golpean en ráfagas."
+    },
+    {
+      "name": "Corte de Corriente",
+      "desc": "Corta el agua con un movimiento rápido que causa daño adicional."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Alas de insecto",
+      "to": "Alas de cristal que cortan el agua"
+    },
+    {
+      "from": "Cabeza redonda",
+      "to": "Casco acuático que protege su cabeza"
+    },
+    {
+      "from": "Garras afiladas",
+      "to": "Garras que generan remolinos al moverse"
+    },
+    {
+      "from": "Vuelo rápido",
+      "to": "Movimiento fluido en el mar"
+    }
+  ],
+  "pokemon_id": "123",
+  "target_type": "water"
+}

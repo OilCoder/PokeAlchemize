@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Chispas Voladoras",
+  "lore": "Con ojos rojos brillantes que atrapan la electricidad, su cuerpo emite destellos azules. Sus alas, ahora cargadas de energía, generan chispas al volar. Su presencia ilumina la oscuridad con un aura eléctrica.",
+  "moves": [
+    {
+      "name": "Chispa de Luz",
+      "desc": "Lanza destellos que ciegan al oponente y reducen su precisión."
+    },
+    {
+      "name": "Ala Relámpago",
+      "desc": "Ataca con un impacto eléctrico que quema el suelo bajo el enemigo."
+    },
+    {
+      "name": "Ojo Parpadeante",
+      "desc": "Usa sus ojos brillantes para confundir al rival y aumentar su velocidad."
+    },
+    {
+      "name": "Carga Estelar",
+      "desc": "Recarga energía para un ataque potente que golpea en multiples direcciones."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos rojos",
+      "to": "ojos brillantes que atrapan electricidad"
+    },
+    {
+      "from": "alas de polvo",
+      "to": "alas cargadas de energía eléctrica"
+    },
+    {
+      "from": "vuelo suave",
+      "to": "vuelo que genera chispas al moverse"
+    },
+    {
+      "from": "comportamiento tranquilo",
+      "to": "comportamiento eléctrico que emite destellos"
+    }
+  ],
+  "pokemon_id": "012",
+  "target_type": "electric"
+}

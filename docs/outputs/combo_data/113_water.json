@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Ola Amorosa",
+  "lore": "Chansey, ahora envuelta en ondas acuáticas, tiene orejas puntiagudas que gotean pequeñas gotas. Su cuerpo brilla con un aura húmeda, y sus movimientos se vuelven fluidos y suaves como el agua.",
+  "moves": [
+    {
+      "name": "Ola Consoladora",
+      "desc": "Cura a aliados con un suave chorro de agua que alivia heridas."
+    },
+    {
+      "name": "Burbuja de Paz",
+      "desc": "Crea burbujas que absorben ataques y restauran energía."
+    },
+    {
+      "name": "Mar de Calma",
+      "desc": "Genera una zona calmada que reduce el daño recibido."
+    },
+    {
+      "name": "Salpicadura Serena",
+      "desc": "Dispara gotas que reducen la velocidad del oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "orejas puntiagudas",
+      "to": "orejas puntiagudas que gotean pequeñas gotas"
+    },
+    {
+      "from": "piel suave",
+      "to": "piel brillante con aura húmeda"
+    },
+    {
+      "from": "movimientos lentos",
+      "to": "movimientos fluidos y suaves como el agua"
+    },
+    {
+      "from": "cuerpo redondo",
+      "to": "cuerpo envuelto en ondas acuáticas"
+    }
+  ],
+  "pokemon_id": "113",
+  "target_type": "water"
+}

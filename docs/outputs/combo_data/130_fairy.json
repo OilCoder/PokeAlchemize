@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Diosa Marítima",
+  "lore": "Con un pico de cristal brillante y escamas plateadas que brillan bajo el sol, Gyarados ahora emana un aura de magia etérea. Su cola despliega destellos de luz que curan heridas y calman tormentas marinas.",
+  "moves": [
+    {
+      "name": "Beso de la Llama",
+      "desc": "Lanza un beso brillante que cura al aliado y apaga fuegos enemigos."
+    },
+    {
+      "name": "Danza de las Sirenas",
+      "desc": "Crea una danza mágica que reduce el daño recibido por todo el equipo."
+    },
+    {
+      "name": "Canto de la Luna",
+      "desc": "Aumenta la precisión del equipo y reduce el daño de los ataques críticos."
+    },
+    {
+      "name": "Fuego de la Sirena",
+      "desc": "Ataca con llamas de luz que queman a los enemigos y reducen su defensa."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "crest spiky",
+      "to": "crest transformado en cristal brillante que refleja la luz"
+    },
+    {
+      "from": "water type",
+      "to": "water type combinado con magia etérea"
+    },
+    {
+      "from": "flying type",
+      "to": "flying type convertido en danza mágica de alas de luz"
+    },
+    {
+      "from": "agresivo",
+      "to": "calmado por la magia, ahora protector de los mares"
+    }
+  ],
+  "pokemon_id": "130",
+  "target_type": "fairy"
+}

@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Aliento de Envidia",
+  "lore": "Con orejas puntiagudas de tonos rosados, su plumaje brilla con destellos de luz de hada. Sus alas emiten un aura mágica que envuelve a quienes lo observan, transformando el aire en un susurro de sueños.",
+  "moves": [
+    {
+      "name": "Canto de Ceniza",
+      "desc": "Genera una nube de polvo que ralentiza al enemigo y deja un efecto de calma."
+    },
+    {
+      "name": "Ala de Estrella",
+      "desc": "Lanza un ataque con alas que brillan como estrellas, causando daño y curando un poco de salud."
+    },
+    {
+      "name": "Beso de Luna",
+      "desc": "Ataca con un beso mágico que reduce la defensa del oponente."
+    },
+    {
+      "name": "Danza de Sueños",
+      "desc": "Crea un baile hipnótico que confunde al enemigo y aumenta la velocidad."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Plumaje normal",
+      "to": "Plumaje brillante con destellos rosados y plateados"
+    },
+    {
+      "from": "Orejas redondas",
+      "to": "Orejas puntiagudas con destellos rosados"
+    },
+    {
+      "from": "Alas de vuelo rápido",
+      "to": "Alas que emiten una aura mágica y suave"
+    },
+    {
+      "from": "Personalidad tranquila",
+      "to": "Personalidad mágica y seductora que envuelve a otros"
+    }
+  ],
+  "pokemon_id": "018",
+  "target_type": "fairy"
+}

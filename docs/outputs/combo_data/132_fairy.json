@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Ceniza Mágica",
+  "lore": "El Pokémon Ceniza Mágica brilla con destellos dorados en su masa esférica, transformando su forma en una esfera de luz. Sus rasgos suaves se funden con pétalos de cristal que brillan bajo la luna.",
+  "moves": [
+    {
+      "name": "Polvo de Sueños",
+      "desc": "Cubre al rival con polvo que induce sueños suaves y reduce su velocidad."
+    },
+    {
+      "name": "Canto de Estrellas",
+      "desc": "Genera un canto que cura al usuario y debilita al rival con una melodía celestial."
+    },
+    {
+      "name": "Brillo de Luna",
+      "desc": "Aumenta la defensa y evita los ataques críticos con un brillo lunar."
+    },
+    {
+      "name": "Fugas de Pétalos",
+      "desc": "Lanza pétalos que reducen la precisión del oponente y causan daño."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo esférico sin extremidades",
+      "to": "Cuerpo esférico con pétalos cristalinos que brillan como estrellas"
+    },
+    {
+      "from": "Sin rasgos distintivos",
+      "to": "Rasgos definidos por destellos dorados y un aura mágica"
+    },
+    {
+      "from": "Color grisáceo",
+      "to": "Color dorado con tonos plateados y destellos de luz"
+    },
+    {
+      "from": "Forma inerte",
+      "to": "Forma activa que emite una luz suave y agradable"
+    }
+  ],
+  "pokemon_id": "132",
+  "target_type": "fairy"
+}

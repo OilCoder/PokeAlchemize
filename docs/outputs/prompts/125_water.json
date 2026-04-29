@@ -1,0 +1,7 @@
+{
+  "prompt": "deep ocean blue, teal, pearly white, aquamarine glow, seafoam green. Electabuzz water type, quadruped, four legs planted on ground, low stance, curled spiral tail tip, yellow and blue striped pattern, pointed ears on rounded head, dark blue chest lightning bolt. Ken Sugimori style, cel-shaded, bold black outlines. smooth, translucent scales that shimmer with water droplets and refract light. Tail fin: pearly white scales with aquamarine luminescence and seafoam green edging. Full body portrait, centered character. calm ocean surface, gentle waves, sunlit underwater coral reef. pearly white tail tip, ocean blue eyes. No text.",
+  "negative_prompt": "yellow lightning bolt on chest, blue striped pattern on body, electric shock wave colors, bright yellow body, electric-blue aura, glowing yellow limbs, crackling energy, zapped texture, bright yellow, dark blue, electric shock wave colors, electric blue, vibrant yellow, neon green, constant static sparks, glowing energy trails, electromagnetic field distortion, pulsing light from eyes and tail, crackling energy aura",
+  "pokemon_id": "125",
+  "pokemon_name": "electabuzz",
+  "target_type": "water"
+}

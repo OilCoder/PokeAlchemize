@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Esmeralda",
+  "lore": "Su cabeza redondeada ahora arde con llamas azules, las antenas negras se transforman en punta de fuego. Sus picos venenosos se vuelven llamas ardientes, protegiendo su cuerpo con un escudo de fuego que emite un brillo verde intenso.",
+  "moves": [
+    {
+      "name": "Llama Venenosa",
+      "desc": "Lanza llamas que envenenan al oponente con una mezcla de fuego y veneno."
+    },
+    {
+      "name": "Fuego de Esmeralda",
+      "desc": "Genera un campo de llamas verdes que aumenta el ataque de su equipo."
+    },
+    {
+      "name": "Incendio Cero",
+      "desc": "Ataca con una llamarada intensa que quema todo a su alrededor."
+    },
+    {
+      "name": "Cicatriz de Llama",
+      "desc": "Crea una barrera de fuego que protege al usuario de ataques físicos."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza redondeada con llamas azules"
+    },
+    {
+      "from": "antenas negras",
+      "to": "antenas negras convertidas en puntas de fuego"
+    },
+    {
+      "from": "picos venenosos",
+      "to": "picos transformados en llamas ardientes"
+    },
+    {
+      "from": "protección natural",
+      "to": "escudo de fuego que emite brillo verde"
+    }
+  ],
+  "pokemon_id": "015",
+  "target_type": "fire"
+}

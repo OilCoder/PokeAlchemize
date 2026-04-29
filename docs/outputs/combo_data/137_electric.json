@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Red Electrónico",
+  "lore": "Con su cuerpo geométrico afilado ahora cargado de energía estática, Porygon Red Electrónico emite destellos azules al moverse. Sus bordes cortantes generan chispas eléctricas que iluminan el aire a su alrededor.",
+  "moves": [
+    {
+      "name": "Descarga Digital",
+      "desc": "Descarga energía eléctrica en forma de datos, causando daño y posiblemente paralizar al oponente."
+    },
+    {
+      "name": "Circuito de Relámpago",
+      "desc": "Crea un campo eléctrico alrededor del oponente, reduciendo su velocidad y causando daño adicional."
+    },
+    {
+      "name": "Pixel Parpadeante",
+      "desc": "Genera una serie de destellos rápidos que confunden al rival y aumentan la precisión del próximo ataque."
+    },
+    {
+      "name": "Código de Choque",
+      "desc": "Ataca con un código binario cargado de electricidad, causando daño crítico y paralizando al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "Cuerpo geométrico bloqueado",
+      "to": "Bordes afilados que generan chispas eléctricas"
+    },
+    {
+      "from": "Movimiento lento y preciso",
+      "to": "Movimientos rápidos con destellos de luz"
+    },
+    {
+      "from": "Energía interna estática",
+      "to": "Carga eléctrica dinámica que ilumina el aire"
+    },
+    {
+      "from": "Sistema operativo simple",
+      "to": "Sistema de red eléctrica que conecta con otros dispositivos"
+    }
+  ],
+  "pokemon_id": "137",
+  "target_type": "electric"
+}

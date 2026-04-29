@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Subterránea",
+  "lore": "Este Diglett ahora arde con llamas bajo tierra, su cabeza redondeada iluminada por llamas rojas. Sus orejas puntiagudas brillan con destellos de fuego, y su piel se vuelve rugosa y caliente al tacto.",
+  "moves": [
+    {
+      "name": "Llama de Fosa",
+      "desc": "Lanza llamas desde su boca hacia el suelo, creando surcos de fuego que dañan al oponente."
+    },
+    {
+      "name": "Suelo Ardiente",
+      "desc": "El suelo bajo el oponente se enciende, causando daño continuo por 2 turnos."
+    },
+    {
+      "name": "Ceniza Sónica",
+      "desc": "Emite una onda de calor que reduce la velocidad del oponente y lo envuelve en humo."
+    },
+    {
+      "name": "Fuego Subterráneo",
+      "desc": "Se entierra y emerge con un ataque de llamas que quema al oponente."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "cabeza redondeada",
+      "to": "cabeza redondeada cubierta de llamas rojas que brillan"
+    },
+    {
+      "from": "orejas pequeñas puntiagudas",
+      "to": "orejas puntiagudas con destellos de fuego que brillan intensamente"
+    },
+    {
+      "from": "piel suave y fría",
+      "to": "piel rugosa y caliente al tacto, con escamas de fuego"
+    },
+    {
+      "from": "vive bajo tierra",
+      "to": "vive bajo tierra, dejando estelas de fuego tras sus pasos"
+    }
+  ],
+  "pokemon_id": "050",
+  "target_type": "fire"
+}

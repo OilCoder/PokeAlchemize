@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Clefairy ahora se funde con el agua, sus ojos redondos brillan como gotas de cristal. Su piel se torna suave y esmeralda, absorbiendo el mar en cada movimiento. Nada con gracia bajo olas luminosas.",
+  "moves": [
+    {
+      "name": "Ola de Sueños",
+      "desc": "Crea olas que envuelven al rival en sueños, reduciendo su velocidad durante 2 turnos."
+    },
+    {
+      "name": "Burbuja de Luz",
+      "desc": "Lanza burbujas brillantes que reflejan ataques y restauran un poco de salud."
+    },
+    {
+      "name": "Salto de Océano",
+      "desc": "Salta hacia adelante con fuerza de la marea, causando daño y posiblemente confundiendo al rival."
+    },
+    {
+      "name": "Canto Marítimo",
+      "desc": "Canta una melodía que calma a todos los Pokémon en el campo, reduciendo el daño recibido."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos redondos con pupilas negras",
+      "to": "ojos redondos brillantes como gotas de cristal"
+    },
+    {
+      "from": "piel suave y rosada",
+      "to": "piel suave y esmeralda, absorbente de agua"
+    },
+    {
+      "from": "movimientos ligeros y aéreos",
+      "to": "movimientos fluidos y acuáticos, con mareas"
+    },
+    {
+      "from": "capaz de saltar en el aire",
+      "to": "capaz de nadar bajo olas luminosas"
+    }
+  ],
+  "pokemon_id": "035",
+  "target_type": "water"
+}

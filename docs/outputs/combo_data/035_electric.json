@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Relámpago de Cielo",
+  "lore": "Con ojos brillantes como esferas eléctricas, su pelaje plateado zumba con energía. Cada movimiento libera chispas que iluminan el cielo. Sus risas generan cortocircuitos en los dispositivos cercanos.",
+  "moves": [
+    {
+      "name": "Chispa Celestial",
+      "desc": "Lanza una descarga que paraliza a los enemigos y los hace brillar como estrellas."
+    },
+    {
+      "name": "Rayo de Confianza",
+      "desc": "Aumenta la precisión de los movimientos y genera una aura protectora alrededor del usuario."
+    },
+    {
+      "name": "Bola de Electrón",
+      "desc": "Dispara una esfera eléctrica que causa daño y reduce la defensa del oponente."
+    },
+    {
+      "name": "Carga de Luz",
+      "desc": "Recarga energía para un ataque potente en el siguiente turno, aumentando el poder del siguiente movimiento."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "ojos grandes redondos con pupilas negras",
+      "to": "ojos brillantes como esferas eléctricas que zumban con energía"
+    },
+    {
+      "from": "pelaje suave y blanco",
+      "to": "pelaje plateado que emite chispas al moverse"
+    },
+    {
+      "from": "movimientos suaves y delicados",
+      "to": "movimientos rápidos que generan cortocircuitos en objetos electrónicos"
+    },
+    {
+      "from": "capacidad de crear magia suave",
+      "to": "capacidad de generar descargas eléctricas que iluminan el cielo"
+    }
+  ],
+  "pokemon_id": "035",
+  "target_type": "electric"
+}

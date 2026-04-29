@@ -1,0 +1,42 @@
+{
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Lapras, ahora con un caparazón de piedra brillante y bordes afilados, emana una luz suave de magia. Sus patas se han convertido en hojas de cristal que cortan el agua. Sus ojos brillan con un brillo mágico.",
+  "moves": [
+    {
+      "name": "Canto de las Estrellas",
+      "desc": "Canta una melodía que ilumina el camino y cura a aliados cercanos."
+    },
+    {
+      "name": "Pétalos de Cristal",
+      "desc": "Lanza pétalos que se transforman en cristales afilados para atacar."
+    },
+    {
+      "name": "Ola de Sueños",
+      "desc": "Crea una ola que envuelve a los enemigos en un sueño profundo."
+    },
+    {
+      "name": "Resplandor de la Luna",
+      "desc": "Emite un brillo que refuerza la defensa de los aliados."
+    }
+  ],
+  "diffs": [
+    {
+      "from": "caparazón de piedra con bordes afilados",
+      "to": "caparazón de piedra brillante con bordes afilados que emiten luz mágica"
+    },
+    {
+      "from": "patas de aleta",
+      "to": "patas convertidas en hojas de cristal que cortan el agua"
+    },
+    {
+      "from": "ojos fríos",
+      "to": "ojos brillantes con un brillo mágico"
+    },
+    {
+      "from": "movimientos acuáticos",
+      "to": "movimientos que combinan magia y agua para atacar y curar"
+    }
+  ],
+  "pokemon_id": "131",
+  "target_type": "fairy"
+}
