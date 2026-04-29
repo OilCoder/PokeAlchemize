@@ -9,25 +9,13 @@
     favorites: JSON.parse(localStorage.getItem("pa_favs") || "[]"),
     rightbarTab: "concept",      // 'concept' | 'prompt'
     promptParts: {},             // cache: `${id}_${type}` → {pa,ps,pe,na,ns,final,combo}
-    comboData: {},               // cache: `${id}_${type}` → {species_name, lore, moves, diffs}
+    comboData: {},               // cache: `${id}_${type}` → {species_name, lore, moves, diffs} from outputs/combo_data/
   };
 
   // Load bundle
-  const res = await fetch("data/bundle.json");
+  const res = await fetch("../data/bundle.json");
   state.bundle = await res.json();
   window.BUNDLE = state.bundle;
-
-  // Load editable moves files (outputs/moves/<type>.json)
-  state.moves = {};
-  const moveTypes = Object.keys(window.TYPE_SYSTEM || {});
-  await Promise.all(moveTypes.map(async (t) => {
-    try {
-      const r = await fetch(`outputs/moves/${t}.json`);
-      if (r.ok) state.moves[t] = await r.json();
-    } catch (e) {
-      console.warn("Could not load moves for", t);
-    }
-  }));
 
   // -- restore from localStorage
   const saved = localStorage.getItem("pa_state");
@@ -226,7 +214,7 @@
           <div class="pokedex-id">Nº ${id}</div>
           <div class="pokedex-name">
             ${name}
-            <span class="type-chip big" style="background:${tInfo.color}">${typeIcon(activeType, 13)}${tInfo.es.toUpperCase()}
+            <span class="type-chip big" style="background:${tInfo.color}">${typeIcon(t, 13)}${tInfo.es.toUpperCase()}
             </span>
           </div>
           <div class="pokedex-species">${escapeHtml(speciesLabel)}${meta.base ? " · " : ""}${meta.original_types.map(o => TYPE_SYSTEM[o]?.es || o).join(" / ")} <span style="color:var(--ink-4)">→</span> <span style="color:${tInfo.color};font-weight:600">${tInfo.es}</span></div>
@@ -237,7 +225,7 @@
       </div>
 
       <div class="hero" style="--hero-glow:${tInfo.glow}55">
-        <img src="../outputs/images/${id}_${t}.png" alt="${name} ${tInfo.es}" key="${id}_${t}">
+        <img src="../outputs/images/${base.name}_${t}.png" alt="${name} ${tInfo.es}" key="${id}_${t}">
       </div>
 
       <div class="lore-row">
@@ -274,7 +262,7 @@
             return `
               <div class="other-card ${isActive ? "active" : ""}" data-type="${ot}" style="--card-glow:${oi.glow}66">
                 <div class="other-card-img">
-                  <img src="../outputs/images/${id}_${ot}.png" alt="${ot}" loading="lazy">
+                  <img src="../outputs/images/${base.name}_${ot}.png" alt="${ot}" loading="lazy">
                 </div>
                 <span class="type-chip" style="background:${oi.color}">${typeIcon(ot, 11)}${oi.es}</span>
               </div>
@@ -631,7 +619,6 @@
   }
 
   function buildMoves(meta, type) {
-    // Prefer real E4 combo_data.moves if available
     const real = state.comboData[`${meta.pokemon_id || state.selected}_${type}`];
     if (real && Array.isArray(real.moves) && real.moves.length) {
       return real.moves.slice(0, 4).map(m => ({
@@ -640,14 +627,7 @@
         svg: buildMoveSvg(type),
       }));
     }
-    // Fallback: user-editable outputs/moves/<type>.json loaded at startup
-    const fileData = state.moves[type];
-    const list = (fileData && fileData.moves) ? fileData.moves : [];
-    return list.slice(0, 4).map(m => ({
-      name: m.name,
-      desc: m.desc,
-      svg: buildMoveSvg(type),
-    }));
+    return [];
   }
 
   function buildMoveSvg(type) {
