@@ -143,16 +143,16 @@ PokeAIchemize/
 - [x] Regenerar `docs/data/bundle.json` post-pipeline (`pipeline/10_bundle_builder.py`) (2026-04-29)
 - [x] Probar web con imágenes reales en `http://localhost:8080/docs/` (2026-04-29)
 
-### Phase 9 — WebP + Move Illustrator
-- [ ] `docs/data/sprites/`: convertir 150 sprites PNG → WebP q=85 (`docs/data/sprites/`)
-- [ ] `docs/outputs/images/`: convertir 27 imágenes demo PNG → WebP (`docs/outputs/images/`)
-- [ ] `config.py`: agregar constante `IMAGE_EXT = ".webp"`
-- [ ] `pipeline/09_image_generator.py`: guardar como `.webp` quality=85 en lugar de `.png`
-- [ ] `pipeline/10_bundle_builder.py`: escanear `.webp` en lugar de `.png`
-- [ ] `pipeline/11_move_illustrator.py`: nuevo agente — genera imágenes de moves a 384×128 WebP desde `combo_data` + `types_visual`
-- [ ] `docs/js/app.js`: paths `.png` → `.webp`; reemplazar `buildMoveSvg()` por `<img src="outputs/moves/{id}_{type}_{index}.webp">`
-- [ ] Regenerar `docs/data/bundle.json` tras cambios de formato
-- [ ] Commit y push: demo con WebP + move images funcionando en GitHub Pages
+### Phase 9 — WebP + Move Illustrator (COMPLETED)
+- [x] `docs/data/sprites/`: convertir 150 sprites PNG → WebP q=85 (2026-04-29)
+- [x] `docs/outputs/images/`: convertir 27 imágenes demo PNG → WebP (2026-04-29)
+- [x] `config.py`: agregar constante `IMAGE_EXT = ".webp"` (2026-04-29)
+- [x] `pipeline/09_image_generator.py`: guardar como `.webp` quality=85 en lugar de `.png` (2026-04-29)
+- [x] `pipeline/10_bundle_builder.py`: escanear `.webp` en lugar de `.png` (2026-04-29)
+- [x] `pipeline/11_move_illustrator.py`: nuevo agente — genera imágenes de moves a 384×128 WebP desde `combo_data` + `types_visual` (2026-04-29)
+- [x] `docs/js/app.js`: paths `.png` → `.webp`; reemplazar `buildMoveSvg()` por `<img>` con fallback SVG (2026-04-29)
+- [x] Regenerar `docs/data/bundle.json` tras cambios de formato (2026-04-29)
+- [x] Commit y push: demo con WebP + move images funcionando en GitHub Pages (2026-04-29)
 
 ## Conventions
 - Imágenes: `docs/outputs/images/{name}_{type}.webp`

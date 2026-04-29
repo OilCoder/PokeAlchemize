@@ -119,7 +119,7 @@
       }).join("");
 
       row.innerHTML = `
-        <div class="poke-thumb"><img src="data/sprites/${id}.png" alt="${p.name}" loading="lazy" onerror="this.style.opacity=0"></div>
+        <div class="poke-thumb"><img src="data/sprites/${id}.webp" alt="${p.name}" loading="lazy" onerror="this.style.opacity=0"></div>
         <div>
           <div class="poke-id">Nº${id}</div>
           <div class="poke-name">${p.name.toUpperCase()}</div>
@@ -225,7 +225,7 @@
       </div>
 
       <div class="hero" style="--hero-glow:${tInfo.glow}55">
-        <img src="outputs/images/${base.name}_${t}.png" alt="${name} ${tInfo.es}" key="${id}_${t}">
+        <img src="outputs/images/${base.name}_${t}.webp" alt="${name} ${tInfo.es}" key="${id}_${t}">
       </div>
 
       <div class="lore-row">
@@ -242,7 +242,9 @@
         ${moves.map(m => `
           <div class="move-card" style="--hero-glow:${tInfo.glow}66">
             <div class="move-img">
-              ${m.svg}
+              <img src="${m.img}" alt="${m.name}" loading="lazy"
+                   onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+              <div class="move-img-fallback" style="display:none">${buildMoveFallback(t)}</div>
             </div>
             <div class="move-body">
               <div class="move-name"><span style="color:${tInfo.color}">${typeIcon(t, 12)}</span>${m.name}</div>
@@ -262,7 +264,7 @@
             return `
               <div class="other-card ${isActive ? "active" : ""}" data-type="${ot}" style="--card-glow:${oi.glow}66">
                 <div class="other-card-img">
-                  <img src="outputs/images/${base.name}_${ot}.png" alt="${ot}" loading="lazy">
+                  <img src="outputs/images/${base.name}_${ot}.webp" alt="${ot}" loading="lazy">
                 </div>
                 <span class="type-chip" style="background:${oi.color}">${typeIcon(ot, 11)}${oi.es}</span>
               </div>
@@ -619,21 +621,21 @@
   }
 
   function buildMoves(meta, type) {
-    const real = state.comboData[`${meta.pokemon_id || state.selected}_${type}`];
+    const id   = meta.pokemon_id || state.selected;
+    const real = state.comboData[`${id}_${type}`];
     if (real && Array.isArray(real.moves) && real.moves.length) {
-      return real.moves.slice(0, 4).map(m => ({
+      return real.moves.slice(0, 4).map((m, idx) => ({
         name: m.name,
         desc: m.desc,
-        svg: buildMoveSvg(type),
+        img:  `outputs/moves/${id}_${type}_${idx}.webp`,
       }));
     }
     return [];
   }
 
-  function buildMoveSvg(type) {
+  function buildMoveFallback(type) {
     const info = TYPE_SYSTEM[type];
     const c = info.color, g = info.glow;
-    // Abstract type-flavored background
     return `
       <svg viewBox="0 0 240 80" preserveAspectRatio="none">
         <defs>

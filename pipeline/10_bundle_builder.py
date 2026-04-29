@@ -18,6 +18,7 @@ from pathlib import Path
 from config import (
     DATA_DIR,
     DOCS_DIR,
+    IMAGE_EXT,
     IMAGES_DIR,
     OUTPUTS_DIR,
     POKEMON_DIR,
@@ -71,7 +72,7 @@ def _build_transformations(all_pokemon: dict) -> dict:
     transforms: dict[str, list[str]] = {}
     if not IMAGES_DIR.exists():
         return transforms
-    for png in IMAGES_DIR.glob("*.png"):
+    for png in IMAGES_DIR.glob(f"*{IMAGE_EXT}"):
         # Pattern: {name}_{type}.png (e.g. bulbasaur_fire.png)
         stem = png.stem
         parts = stem.split("_", 1)

@@ -1,0 +1,197 @@
+"""
+Move Illustrator — generates banner images for signature moves.
+Reads combo_data for move names/descriptions and types_visual for type vocabulary.
+Saves docs/outputs/moves/{id}_{type}_{index}.webp at 384×128.
+Called manually after Phase D, or added to batch_runner post-pipeline.
+"""
+
+import json
+import logging
+from pathlib import Path
+
+import torch
+from diffusers import ZImagePipeline
+
+from config import (
+    COMBO_DATA_DIR,
+    DEV_POKEMON_IDS,
+    DEV_TYPE_NAMES,
+    DOCS_DIR,
+    IMAGE_QUALITY,
+    IMAGE_STEPS,
+    MOVE_EXT,
+    MOVE_HEIGHT,
+    MOVE_WIDTH,
+    TYPE_VISUAL_DIR,
+    ZIMAGE_GUIDANCE,
+    ZIMAGE_MODEL,
+)
+
+logger = logging.getLogger(__name__)
+
+MOVES_DIR = DOCS_DIR / "outputs" / "moves"
+
+
+# ----------------------------------------
+# Step 1 — Prompt builder
+# ----------------------------------------
+
+def _build_move_prompt(move: dict, type_visual: dict) -> tuple[str, str]:
+    """Build a prompt and negative prompt for a move illustration banner.
+
+    Uses the move name and description combined with the type's visual vocabulary
+    to produce a wide-format abstract action image (no Pokémon characters).
+
+    Args:
+        move: Dict with 'name' and 'desc' fields from combo_data.
+        type_visual: Dict from types_visual/{type}.json with palette, effects, etc.
+
+    Returns:
+        Tuple of (prompt, negative_prompt).
+    """
+    palette  = type_visual.get("palette", "")
+    effects  = ", ".join(type_visual.get("effects", [])[:3])
+    bg       = type_visual.get("background", "")
+    name     = move.get("name", "")
+    desc     = move.get("desc", "")
+
+    prompt = (
+        f"{name}, {desc}, "
+        f"abstract game art, wide horizontal banner, no characters, no pokemon, "
+        f"action visual effect, {effects}, "
+        f"color palette: {palette}, "
+        f"background: {bg}, "
+        f"stylized 2d game illustration, clean composition"
+    )
+    negative_prompt = (
+        "pokemon, character, creature, animal, person, human, text, watermark, "
+        "portrait, face, body, figure, logo, border, frame"
+    )
+    return prompt, negative_prompt
+
+
+# ----------------------------------------
+# Step 2 — Single move image generator
+# ----------------------------------------
+
+def _generate_move(pipe: ZImagePipeline, combo_path: Path, type_visual: dict) -> int:
+    """Generate banner images for all moves in one combo_data file.
+
+    Args:
+        pipe: Loaded ZImagePipeline.
+        combo_path: Path to the combo_data JSON file ({id}_{type}.json).
+        type_visual: Type visual vocabulary dict.
+
+    Returns:
+        Number of images generated (skipped ones not counted).
+    """
+    with open(combo_path, encoding="utf-8") as f:
+        combo = json.load(f)
+
+    moves = combo.get("moves", [])
+    if not moves:
+        return 0
+
+    stem      = combo_path.stem          # e.g. "001_fire"
+    generated = 0
+
+    for idx, move in enumerate(moves[:4]):
+        out_path = MOVES_DIR / f"{stem}_{idx}{MOVE_EXT}"
+        if out_path.exists():
+            logger.info("skip (exists): %s", out_path.name)
+            continue
+
+        prompt, negative_prompt = _build_move_prompt(move, type_visual)
+
+        torch.cuda.empty_cache()
+        image = pipe(
+            prompt=prompt,
+            negative_prompt=negative_prompt,
+            height=MOVE_HEIGHT,
+            width=MOVE_WIDTH,
+            num_inference_steps=IMAGE_STEPS,
+            guidance_scale=ZIMAGE_GUIDANCE,
+        ).images[0]
+
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        image.save(out_path, quality=IMAGE_QUALITY)
+        logger.info("saved: %s", out_path.name)
+        generated += 1
+
+    return generated
+
+
+# ----------------------------------------
+# Step 3 — Public API
+# ----------------------------------------
+
+def run() -> None:
+    """Generate move illustration banners for all combos in combo_data.
+
+    Loads Z-Image-Turbo once, iterates combo_data files filtered by
+    DEV_POKEMON_IDS and DEV_TYPE_NAMES, skips existing outputs.
+    Logs a summary line: generated / skipped / failed.
+    """
+    combo_files = sorted(COMBO_DATA_DIR.glob("*.json"))
+    if not combo_files:
+        logger.warning("no combo_data files found in %s", COMBO_DATA_DIR)
+        return
+
+    if DEV_POKEMON_IDS or DEV_TYPE_NAMES:
+        combo_files = [
+            cf for cf in combo_files
+            if (not DEV_POKEMON_IDS or cf.stem.split("_")[0] in DEV_POKEMON_IDS)
+            and (not DEV_TYPE_NAMES or cf.stem.split("_")[1] in DEV_TYPE_NAMES)
+        ]
+
+    # Pre-load type visuals
+    type_visuals: dict[str, dict] = {}
+    for tv_path in TYPE_VISUAL_DIR.glob("*.json"):
+        with open(tv_path, encoding="utf-8") as f:
+            type_visuals[tv_path.stem] = json.load(f)
+
+    logger.info("Move Illustrator — %d combos to process", len(combo_files))
+    pipe = _load_pipeline()
+
+    generated = skipped_files = failed = 0
+
+    for cf in combo_files:
+        poke_type = cf.stem.split("_")[1]
+        tv = type_visuals.get(poke_type, {})
+        try:
+            n = _generate_move(pipe, cf, tv)
+            generated += n
+            if n == 0:
+                skipped_files += 1
+        except Exception as e:
+            logger.error("failed %s: %s", cf.name, e)
+            failed += 1
+
+    logger.info(
+        "Move Illustrator done — generated: %d  skipped: %d  failed: %d",
+        generated, skipped_files, failed,
+    )
+
+
+def _load_pipeline() -> ZImagePipeline:
+    """Load Z-Image-Turbo with sequential CPU offload for move generation.
+
+    Returns:
+        Loaded ZImagePipeline ready for inference.
+    """
+    logger.info("loading Z-Image-Turbo: %s", ZIMAGE_MODEL)
+    pipe = ZImagePipeline.from_pretrained(ZIMAGE_MODEL, torch_dtype=torch.bfloat16)
+    pipe.enable_sequential_cpu_offload()
+    logger.info(
+        "pipeline ready — %dx%d steps=%d guidance=%.1f",
+        MOVE_WIDTH, MOVE_HEIGHT, IMAGE_STEPS, ZIMAGE_GUIDANCE,
+    )
+    return pipe
+
+
+if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
+    )
+    run()

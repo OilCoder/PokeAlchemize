@@ -82,3 +82,9 @@ IMAGE_WIDTH     = 512    # square — correct for character portraits
 IMAGE_HEIGHT    = 512    # square — Pokémon fills frame, no landscape cropping
 IMAGE_STEPS     = 15     # distilled model; 12 steps is sufficient
 ZIMAGE_GUIDANCE = 0.0    # Z-Image is distilled — guidance_scale must be 0.0
+IMAGE_EXT       = ".webp"
+IMAGE_QUALITY   = 85     # WebP lossy quality — 88% smaller than PNG, imperceptible loss
+
+MOVE_WIDTH      = 384    # wide banner for move illustrations
+MOVE_HEIGHT     = 128
+MOVE_EXT        = ".webp"

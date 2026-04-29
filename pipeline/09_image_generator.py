@@ -1,7 +1,7 @@
 """
 Image Generator — Z-Image-Turbo sprite renderer.
 Reads agent-generated prompt JSONs from outputs/prompts/ and generates
-type-transformed Pokémon sprites. Saves outputs/images/{id}_{type}.png.
+type-transformed Pokémon sprites. Saves outputs/images/{name}_{type}.webp.
 Called by batch_runner.py (Phase D), or run standalone for dev sets.
 """
 
@@ -15,7 +15,9 @@ from diffusers import ZImagePipeline
 from config import (
     DEV_POKEMON_IDS,
     DEV_TYPE_NAMES,
+    IMAGE_EXT,
     IMAGE_HEIGHT,
+    IMAGE_QUALITY,
     IMAGE_STEPS,
     IMAGE_WIDTH,
     IMAGES_DIR,
@@ -59,14 +61,15 @@ def _generate_one(pipe: ZImagePipeline, prompt_data: dict) -> Path:
 
     Args:
         pipe: Loaded ZImagePipeline.
-        prompt_data: Dict with pokemon_id, target_type, and prompt fields.
+        prompt_data: Dict with pokemon_id, pokemon_name, target_type, prompt,
+                     and negative_prompt fields.
 
     Returns:
         Path to the saved output image.
     """
-    pokemon_id  = prompt_data["pokemon_id"]
+    name        = prompt_data.get("pokemon_name") or prompt_data["pokemon_id"]
     target_type = prompt_data["target_type"]
-    out_path    = IMAGES_DIR / f"{pokemon_id}_{target_type}.png"
+    out_path    = IMAGES_DIR / f"{name}_{target_type}{IMAGE_EXT}"
 
     if out_path.exists():
         logger.info("skip (exists): %s", out_path.name)
@@ -74,8 +77,11 @@ def _generate_one(pipe: ZImagePipeline, prompt_data: dict) -> Path:
 
     torch.cuda.empty_cache()
 
+    negative_prompt = prompt_data.get("negative_prompt") or None
+
     image = pipe(
         prompt=prompt_data["prompt"],
+        negative_prompt=negative_prompt,
         height=IMAGE_HEIGHT,
         width=IMAGE_WIDTH,
         num_inference_steps=IMAGE_STEPS,
@@ -83,7 +89,7 @@ def _generate_one(pipe: ZImagePipeline, prompt_data: dict) -> Path:
     ).images[0]
 
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
-    image.save(out_path)
+    image.save(out_path, quality=IMAGE_QUALITY)
     logger.info("saved: %s", out_path.name)
     return out_path
 
@@ -122,7 +128,7 @@ def run() -> None:
             with open(pf, encoding="utf-8") as f:
                 prompt_data = json.load(f)
 
-            out_path        = IMAGES_DIR / f"{prompt_data['pokemon_id']}_{prompt_data['target_type']}.png"
+            out_path        = IMAGES_DIR / f"{prompt_data['pokemon_id']}_{prompt_data['target_type']}{IMAGE_EXT}"
             already_existed = out_path.exists()
 
             _generate_one(pipe, prompt_data)
