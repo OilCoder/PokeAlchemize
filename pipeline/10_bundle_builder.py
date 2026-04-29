@@ -17,6 +17,7 @@ from pathlib import Path
 
 from config import (
     DATA_DIR,
+    DOCS_DIR,
     IMAGES_DIR,
     OUTPUTS_DIR,
     POKEMON_DIR,
@@ -27,7 +28,7 @@ from config import (
 
 logger = logging.getLogger(__name__)
 
-WEB_DATA_DIR = ROOT_DIR / "web" / "data"
+BUNDLE_DIR = DOCS_DIR / "data"
 
 # ----------------------------------------
 # Step 1 — Data loaders
@@ -54,22 +55,31 @@ def _load_types() -> list:
         return json.load(f)
 
 
-def _build_transformations() -> dict:
+def _build_transformations(all_pokemon: dict) -> dict:
     """Scan outputs/images/ to discover which (id, type) pairs have images.
+
+    Handles both legacy {id}_{type}.png and current {name}_{type}.png filenames.
+    Uses the all_pokemon dict to resolve names back to ids.
+
+    Args:
+        all_pokemon: Dict mapping pokemon id → pokemon record (with 'name' field).
 
     Returns:
         Dict mapping pokemon id → sorted list of types with generated images.
     """
+    name_to_id = {rec["name"]: pid for pid, rec in all_pokemon.items()}
     transforms: dict[str, list[str]] = {}
     if not IMAGES_DIR.exists():
         return transforms
     for png in IMAGES_DIR.glob("*.png"):
-        # Expected filename pattern: {id}_{type}.png (e.g. 025_fire.png)
+        # Pattern: {name}_{type}.png (e.g. bulbasaur_fire.png)
         stem = png.stem
         parts = stem.split("_", 1)
         if len(parts) != 2:
             continue
-        poke_id, poke_type = parts
+        poke_key, poke_type = parts
+        # Resolve name → id; fall back to treating poke_key as id (legacy files)
+        poke_id = name_to_id.get(poke_key, poke_key)
         transforms.setdefault(poke_id, []).append(poke_type)
     for k in transforms:
         transforms[k].sort()
@@ -104,15 +114,16 @@ def run() -> dict:
     """
     logger.info("E5 building bundle…")
 
+    all_pokemon = _load_all_pokemon()
     bundle = {
-        "allPokemon":    _load_all_pokemon(),
-        "types":         _load_types(),
-        "transformations": _build_transformations(),
-        "pokemonMeta":   _load_pokemon_meta(),
+        "allPokemon":      all_pokemon,
+        "types":           _load_types(),
+        "transformations": _build_transformations(all_pokemon),
+        "pokemonMeta":     _load_pokemon_meta(),
     }
 
-    WEB_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = WEB_DATA_DIR / "bundle.json"
+    BUNDLE_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = BUNDLE_DIR / "bundle.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(bundle, f, ensure_ascii=False, separators=(",", ":"))
 

@@ -6,11 +6,12 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).parent
 DATA_DIR = ROOT_DIR / "data"
 OUTPUTS_DIR = ROOT_DIR / "outputs"
-IMAGES_DIR = OUTPUTS_DIR / "images"
+DOCS_DIR = ROOT_DIR / "docs"
+IMAGES_DIR = DOCS_DIR / "outputs" / "images"
 
 POKEMONS_FILE = DATA_DIR / "pokemons.json"
 TYPES_FILE    = DATA_DIR / "types.json"
-SPRITES_DIR   = DATA_DIR / "sprites"
+SPRITES_DIR   = DOCS_DIR / "data" / "sprites"
 
 # E1 outputs: one JSON per Pokémon
 POKEMON_DIR = OUTPUTS_DIR / "pokemon"

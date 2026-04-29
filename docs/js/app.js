@@ -13,7 +13,7 @@
   };
 
   // Load bundle
-  const res = await fetch("../data/bundle.json");
+  const res = await fetch("data/bundle.json");
   state.bundle = await res.json();
   window.BUNDLE = state.bundle;
 
@@ -119,7 +119,7 @@
       }).join("");
 
       row.innerHTML = `
-        <div class="poke-thumb"><img src="../data/sprites/${id}.png" alt="${p.name}" loading="lazy" onerror="this.style.opacity=0"></div>
+        <div class="poke-thumb"><img src="data/sprites/${id}.png" alt="${p.name}" loading="lazy" onerror="this.style.opacity=0"></div>
         <div>
           <div class="poke-id">Nº${id}</div>
           <div class="poke-name">${p.name.toUpperCase()}</div>
@@ -185,7 +185,7 @@
     // Preload combo_data for this (id, type) so buildLore / buildMoves / buildDiffs see real data
     const comboKey = `${id}_${t}`;
     if (!state.comboData[comboKey]) {
-      state.comboData[comboKey] = await tryFetchJson(`../outputs/combo_data/${comboKey}.json`);
+      state.comboData[comboKey] = await tryFetchJson(`outputs/combo_data/${comboKey}.json`);
       // Abort if user navigated away while we were fetching
       if (state.selected !== id || state.activeType !== t) return;
     }
@@ -225,7 +225,7 @@
       </div>
 
       <div class="hero" style="--hero-glow:${tInfo.glow}55">
-        <img src="../outputs/images/${base.name}_${t}.png" alt="${name} ${tInfo.es}" key="${id}_${t}">
+        <img src="outputs/images/${base.name}_${t}.png" alt="${name} ${tInfo.es}" key="${id}_${t}">
       </div>
 
       <div class="lore-row">
@@ -262,7 +262,7 @@
             return `
               <div class="other-card ${isActive ? "active" : ""}" data-type="${ot}" style="--card-glow:${oi.glow}66">
                 <div class="other-card-img">
-                  <img src="../outputs/images/${base.name}_${ot}.png" alt="${ot}" loading="lazy">
+                  <img src="outputs/images/${base.name}_${ot}.png" alt="${ot}" loading="lazy">
                 </div>
                 <span class="type-chip" style="background:${oi.color}">${typeIcon(ot, 11)}${oi.es}</span>
               </div>
@@ -448,7 +448,7 @@
           <div class="prompt-missing-icon">⧗</div>
           <div class="prompt-missing-title">PROMPT NO GENERADO</div>
           <div class="prompt-missing-desc">
-            Los prompts de esta variante aún no están disponibles en <code>../outputs/prompts/</code>.
+            Los prompts de esta variante aún no están disponibles en <code>outputs/prompts/</code>.
             Corre el pipeline para <span style="color:${tInfo.color}">${meta.pokemon_name} × ${tInfo.es}</span> y recarga.
           </div>
         </div>
@@ -545,9 +545,9 @@
   }
 
   async function fetchPromptParts(id, type) {
-    const base = `../outputs/prompts_parts/${id}_${type}`;
-    const finalUrl = `../outputs/prompts/${id}_${type}.json`;
-    const comboUrl = `../outputs/combo_data/${id}_${type}.json`;
+    const base = `outputs/prompts_parts/${id}_${type}`;
+    const finalUrl = `outputs/prompts/${id}_${type}.json`;
+    const comboUrl = `outputs/combo_data/${id}_${type}.json`;
     const suffixes = ["pa", "ps", "pe", "na", "ns"];
 
     try {
