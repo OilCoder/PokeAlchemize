@@ -14,8 +14,6 @@ from diffusers import ZImagePipeline
 
 from config import (
     COMBO_DATA_DIR,
-    DEV_POKEMON_IDS,
-    DEV_TYPE_NAMES,
     DOCS_DIR,
     IMAGE_QUALITY,
     IMAGE_STEPS,
@@ -128,21 +126,26 @@ def _generate_move(pipe: ZImagePipeline, combo_path: Path, type_visual: dict) ->
 def run() -> None:
     """Generate move illustration banners for all combos in combo_data.
 
-    Loads Z-Image-Turbo once, iterates combo_data files filtered by
-    DEV_POKEMON_IDS and DEV_TYPE_NAMES, skips existing outputs.
-    Logs a summary line: generated / skipped / failed.
+    Loads Z-Image-Turbo once, iterates combo_data files filtered to only
+    combos with a rendered transformation image (via bundle.json).
+    Skips existing outputs. Logs a summary: generated / skipped / failed.
     """
     combo_files = sorted(COMBO_DATA_DIR.glob("*.json"))
     if not combo_files:
         logger.warning("no combo_data files found in %s", COMBO_DATA_DIR)
         return
 
-    if DEV_POKEMON_IDS or DEV_TYPE_NAMES:
-        combo_files = [
-            cf for cf in combo_files
-            if (not DEV_POKEMON_IDS or cf.stem.split("_")[0] in DEV_POKEMON_IDS)
-            and (not DEV_TYPE_NAMES or cf.stem.split("_")[1] in DEV_TYPE_NAMES)
-        ]
+    # Only generate moves for combos that have a transformation image already rendered.
+    # bundle.json transformations maps pokemon_id → [types with images].
+    bundle_path = DOCS_DIR / "data" / "bundle.json"
+    rendered: set[str] = set()
+    if bundle_path.exists():
+        with open(bundle_path, encoding="utf-8") as f:
+            bundle = json.load(f)
+        for pid, types in bundle.get("transformations", {}).items():
+            for t in types:
+                rendered.add(f"{pid}_{t}")
+    combo_files = [cf for cf in combo_files if cf.stem in rendered]
 
     # Pre-load type visuals
     type_visuals: dict[str, dict] = {}

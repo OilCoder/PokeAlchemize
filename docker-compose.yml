@@ -16,8 +16,8 @@ services:
       - ./data/pokemons.json:/app/data/pokemons.json
       - ./data/types.json:/app/data/types.json
       # Outputs generados — persisten en el host al parar Docker
-      - ./outputs:/app/outputs
-      - ./data/sprites:/app/data/sprites
+      - ./docs/outputs:/app/docs/outputs
+      - ./docs/data/sprites:/app/docs/data/sprites
       - ./data/loras:/app/data/loras
       - ./debug/img:/app/debug/img
       # Mount models cache so they aren't re-downloaded on rebuild
