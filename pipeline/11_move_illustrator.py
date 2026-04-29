@@ -47,23 +47,28 @@ def _build_move_prompt(move: dict, type_visual: dict) -> tuple[str, str]:
     Returns:
         Tuple of (prompt, negative_prompt).
     """
-    palette  = type_visual.get("palette", "")
-    effects  = ", ".join(type_visual.get("effects", [])[:3])
-    bg       = type_visual.get("background", "")
-    name     = move.get("name", "")
-    desc     = move.get("desc", "")
+    palette = type_visual.get("palette", "")
+    bg      = type_visual.get("background", "")
+    # Filter effects: drop any that reference a body/creature to avoid character generation
+    raw_effects = type_visual.get("effects", [])
+    body_words  = {"body", "around", "skin", "tail", "limb", "creature", "pokemon"}
+    effects     = ", ".join(
+        e for e in raw_effects if not any(w in e.lower() for w in body_words)
+    )[:3 * 40]  # cap length
 
     prompt = (
-        f"{name}, {desc}, "
-        f"abstract game art, wide horizontal banner, no characters, no pokemon, "
-        f"action visual effect, {effects}, "
+        f"pure energy spell effect, {type_visual.get('type_name', '')} type attack, "
+        f"game VFX concept art, particle burst, elemental explosion, "
+        f"{effects}, "
         f"color palette: {palette}, "
         f"background: {bg}, "
-        f"stylized 2d game illustration, clean composition"
+        f"wide horizontal banner, cinematic game art, no living beings, "
+        f"abstract composition, dramatic lighting"
     )
     negative_prompt = (
-        "pokemon, character, creature, animal, person, human, text, watermark, "
-        "portrait, face, body, figure, logo, border, frame"
+        "character, person, humanoid, animal, creature, pokemon, monster, "
+        "figure, silhouette, body, face, eyes, hands, feet, wings, tail, "
+        "portrait, text, watermark, logo, border, frame, ui element"
     )
     return prompt, negative_prompt
 
