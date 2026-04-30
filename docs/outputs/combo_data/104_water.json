@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Cascada Ósea",
-  "lore": "Cascada Ósea emerge de las profundidades, su cola curva brillando con reflejos acuosos. Su cráneo hueco gotea agua cristalina, mientras sus patas afianzan el fondo marino. El agua fluye a través de sus huesos.",
+  "species_name": "Pokémon Agua de Hueso",
+  "lore": "Cubone, ahora envuelto en ondas acuáticas, camina con pasos suaves sobre el agua. Su cráneo emite un brillo azul, y sus patas se transforman en aletas para nadar con gracia.",
   "moves": [
     {
-      "name": "Ola Ósea",
-      "desc": "Genera una ola que arrastra al rival hacia el fondo marino, reduciendo su velocidad."
+      "name": "Ola de Hueso",
+      "desc": "Genera una ola que golpea al rival con huesos flotantes, causando daño y reduciendo su velocidad.",
+      "name_en": "Bone Wave",
+      "visual_prompt": "floating bone shards, deep ocean blue water current, bioluminescent plankton glow, teal green ripple effect, pearly white bone fragments, aquamarine wave motion, sapphire blue underwater lighting"
     },
     {
-      "name": "Burbuja Ósea",
-      "desc": "Lanza burbujas que absorben energía del rival, aumentando el ataque del usuario."
+      "name": "Burbuja de Recuerdo",
+      "desc": "Crea burbujas que envuelven al rival, confundiendo su mente con recuerdos del pasado.",
+      "name_en": "Memory Bubble",
+      "visual_prompt": "floating translucent bubbles with fragmented holographic memories, deep ocean blue and teal green gradients, bioluminescent plankton sparks, slow underwater current swirls, pearly white refractive light patterns"
     },
     {
-      "name": "Corriente Ósea",
-      "desc": "Crea una corriente que eleva al usuario, evitando ataques y aumentando su precisión."
+      "name": "Corriente de Lamento",
+      "desc": "Envía una corriente que reduce la defensa del rival y le quita energía.",
+      "name_en": "Sorrow Current",
+      "visual_prompt": "glowing teal water currents, swirling bioluminescent plankton, pearly white energy ripples, deep ocean blue vortex, aquamarine distortion waves"
     },
     {
-      "name": "Respiración Acuática",
-      "desc": "Recupera salud al respirar bajo el agua, restaurando un 20% de HP."
+      "name": "Nado de Esqueleto",
+      "desc": "Aumenta la velocidad de movimiento y evita que el rival se acerque durante el combate.",
+      "name_en": "Skeletal Wave",
+      "visual_prompt": "glowing skeletal wave pattern, deep ocean blue water ripples, teal green bioluminescent plankton sparks, pearly white foam swirls, aquamarine energy trails, sapphire blue current distortions"
     }
   ],
   "diffs": [
     {
-      "from": "cola curva",
-      "to": "cola curva con punta blanca brillante, goteando agua cristalina"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transformadas en aletas para nadar en el agua"
     },
     {
-      "from": "cráneo hueco",
-      "to": "cráneo hueco que almacena agua, goteando constantemente"
+      "from": "postura baja",
+      "to": "caminar con pasos suaves sobre la superficie acuática"
     },
     {
-      "from": "piel terrosa",
-      "to": "piel cubierta de algas y piedras marinas, brillando bajo el agua"
+      "from": "cráneo terrenal",
+      "to": "cráneo que emite un brillo azul con ondas acuáticas"
     },
     {
-      "from": "movimientos terrestres",
-      "to": "movimientos acuáticos que usan el agua para atacar y defender"
+      "from": "movimiento lento",
+      "to": "movimiento ágil y fluido en el agua"
     }
   ],
   "pokemon_id": "104",

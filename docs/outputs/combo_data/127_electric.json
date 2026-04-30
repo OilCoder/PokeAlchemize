@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Pincha",
-  "lore": "Relámpago Pincha brilla con energía eléctrica en su cuerpo bulboso, sus patas cortas ahora emiten chispas al caminar. Su carapacha está cubierta de circuitos brillantes que canalizan la electricidad.",
+  "species_name": "Pokémon Lanza Eléctrica",
+  "lore": "Pinsir eléctrico, con patas recubiertas de chispas azules, carga a través de la tierra. Sus pinzas brillan con energía estática, atrayendo presas con un zumbido eléctrico. Su postura baja genera un campo de choque al moverse.",
   "moves": [
     {
-      "name": "Chispa Relámpago",
-      "desc": "Lanza ráfagas de electricidad que paralizan al oponente con un ligero zumbido."
+      "name": "Descarga Puntual",
+      "desc": "Lanza una descarga concentrada que paraliza a un objetivo en un punto específico.",
+      "name_en": "Point Charge",
+      "visual_prompt": "concentrated electric orb, crackling neon yellow and electric cyan energy streams, violet sparks, stormy sky backdrop with lightning bolts, pulsating white light rings"
     },
     {
-      "name": "Carga Pincha",
-      "desc": "Aumenta el poder de los ataques eléctricos con un impulso de energía acumulada."
+      "name": "Zumbido Estático",
+      "desc": "Crea un campo de estática alrededor que reduce la velocidad del enemigo.",
+      "name_en": "Static Buzz",
+      "visual_prompt": "crackling electric blue energy fields, neon yellow lightning bolts, violet sparks, bright white static particles, stormy sky backdrop, neon-lit thunderclouds, dynamic energy waves"
     },
     {
-      "name": "Circuito Carga",
-      "desc": "Crea un campo eléctrico alrededor del usuario para aumentar su velocidad."
+      "name": "Carga de Pico",
+      "desc": "Aumenta el poder de los ataques posteriores con una carga eléctrica acumulada.",
+      "name_en": "Electric Charge",
+      "visual_prompt": "glowing electric blue orbs swirling in a stormy sky, neon yellow lightning bolts crackling through violet sparks, bright white energy trails, electric cyan energy fields, dynamic crackling patterns"
     },
     {
-      "name": "Impacto Estático",
-      "desc": "Ataca con una descarga que reduce la defensa del rival en un 20%."
+      "name": "Chispa Terrenal",
+      "desc": "Genera chispas en el suelo que dañan a todos los enemigos cercanos.",
+      "name_en": "Earth Spark",
+      "visual_prompt": "crackling electric blue ground sparks, neon yellow energy arcs, violet lightning streaks, bright white static bursts, electric cyan energy fields, stormy sky backdrop, dynamic motion lines"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo bulboso redondeado",
-      "to": "cuerpo cubierto de circuitos brillantes que canalizan electricidad"
+      "from": "Patas de Pinsir",
+      "to": "Recubiertas de chispas azules que emiten energía estática."
     },
     {
-      "from": "patas cortas y estubias",
-      "to": "patas que emiten chispas al caminar"
+      "from": "Pinzas delanteras",
+      "to": "Brillan con energía eléctrica y atrapan a los enemigos con descargas."
     },
     {
-      "from": "carapacha suave",
-      "to": "carapacha reforzado con placas metálicas que almacenan electricidad"
+      "from": "Postura baja",
+      "to": "Genera un campo de choque que afecta a los enemigos cercanos."
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos ágiles gracias a la energía eléctrica acumulada"
+      "from": "Rasgos de tipo bicho",
+      "to": "Cambia a un tipo eléctrico que emite chispas y zumbidos en lugar de sonidos de insecto."
     }
   ],
   "pokemon_id": "127",

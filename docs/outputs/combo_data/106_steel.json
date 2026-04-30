@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Láser",
-  "lore": "Acero Láser posee una cabeza redondeada cubierta de placas metálicas resplandecientes. Sus pequeñas orejas se han transformado en afilados puntales de acero que cortan el aire al moverse. El tipo acero le otorga una resistencia inquebrantable.",
+  "species_name": "Pokémon Acero de Fuerza",
+  "lore": "El Pokémon Acero de Fuerza camina con pasos resonantes, sus piernas de acero pulido reflejan el cielo. Su postura baja y firme, ahora reforzada por placas metálicas, desafía cualquier ataque con una resistencia inquebrantable.",
   "moves": [
     {
-      "name": "Golpe Acero",
-      "desc": "Ataca con un golpe preciso que rompe la armadura enemiga con precisión quirúrgica."
+      "name": "Golpe de Acero",
+      "desc": "Ataca con un golpe directo que endurece el acero de su pierna, causando daño y reduciendo la defensa del rival.",
+      "name_en": "Steel Strike",
+      "visual_prompt": "polished silver steel shards, glowing neon cyan energy trails, metallic steam vents, gunmetal gray impact waves, industrial cityscape backdrop"
     },
     {
-      "name": "Corte de Magma",
-      "desc": "Genera un corte de acero caliente que quema y corta al mismo tiempo."
+      "name": "Ráfaga Metálica",
+      "desc": "Dispara ráfagas de partículas de acero que ciegan al enemigo y aumentan su propia precisión.",
+      "name_en": "Steel Gust",
+      "visual_prompt": "metallic steel particles, glowing gunmetal gray trails, polished silver sparks, electric blue energy waves, neon cyan streaks, industrial city skyline silhouette, metallic steam vents, dynamic motion lines"
     },
     {
-      "name": "Escudo Giratorio",
-      "desc": "Crea un escudo giratorio de acero que absorbe y refleja ataques físicos."
+      "name": "Pata de Acero",
+      "desc": "Golpea con una patada que envía al rival al suelo, causando daño y confundiéndolo temporalmente.",
+      "name_en": "Steel Kick",
+      "visual_prompt": "polished silver foot impact, metallic steam bursts, gunmetal gray shockwaves, neon cyan energy trails, electric blue sparks, industrial city skyline backdrop"
     },
     {
-      "name": "Impacto de Tornillo",
-      "desc": "Acelera para impactar con un giro de tornillo de acero que desestabiliza al rival."
+      "name": "Escudo de Hierro",
+      "desc": "Crea un escudo de acero alrededor de sí mismo, reduciendo el daño recibido y reflejando ataques físicos.",
+      "name_en": "Iron Shield",
+      "visual_prompt": "gunmetal gray shield with polished silver edges, metallic steel blue energy waves, electric blue reflective surface, neon cyan energy pulses, industrial cityscape backdrop with glowing neon signs, metallic steam vents"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cubierta de placas metálicas resplandecientes"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "piernas cubiertas por placas de acero pulido que brillan bajo el sol"
     },
     {
-      "from": "pequeñas orejas",
-      "to": "afilados puntales de acero que cortan el aire"
+      "from": "postura baja y firme",
+      "to": "postura más elevada, con un equilibrio perfecto en sus piernas de acero"
     },
     {
-      "from": "resistencia física",
-      "to": "resistencia inquebrantable al tipo acero"
+      "from": "resistencia a ataques físicos",
+      "to": "resistencia extrema a golpes y ataques de acero, con reflejos metálicos"
     },
     {
-      "from": "velocidad de patadas",
-      "to": "velocidad mejorada con giro de tornillo de acero"
+      "from": "movimientos de patadas rápidas",
+      "to": "patadas cargadas con fuerza de acero que dejan marcas en el suelo"
     }
   ],
   "pokemon_id": "106",

@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Flor de Hada",
-  "lore": "Su flor central brilla con un resplandor mágico, absorbiendo el polen de hadas. Sus hojas brillan con un aura etérea, y su piel se suaviza al tacto de la magia. Cada pétalo emite un susurro de encantamiento.",
+  "lore": "Flor de Hada emana un aura suave que calma a los enemigos con su fragancia. Sus pétalos brillan con destellos de luz plateada, y sus patas se cubren de pétalos etéreos que flotan al caminar.",
   "moves": [
     {
-      "name": "Pétalo Encantado",
-      "desc": "Lanza pétalos brillantes que confunden al enemigo con un hechizo suave."
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan al aliado y confunden al enemigo con su brillo.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, soft ivory white mist, pearl lavender sparkles, starlight blue crystalline orbs, delicate mint-green light trails, ethereal glow, no characters or Pokémon"
     },
     {
-      "name": "Danza de Hadas",
-      "desc": "Crea un baile mágico que aumenta la velocidad de aliados en combate."
+      "name": "Beso de Hada",
+      "desc": "Ataca con un beso que inflige daño y reduce la defensa del rival.",
+      "name_en": "Fairy Kiss",
+      "visual_prompt": "glowing pastel pink petals, floating ivory white orbs, pearl lavender mist, starlight blue sparkles, crystalline mint energy trails, soft moonlit garden backdrop, delicate floral patterns, ethereal shimmer, gentle motion blur"
     },
     {
-      "name": "Polvo de Estrellas",
-      "desc": "Dispara una lluvia de polvo brillante que reduce la defensa del enemigo."
+      "name": "Canto de Luna",
+      "desc": "Canta una melodía que aumenta la velocidad de aliados y reduce la precisión enemiga.",
+      "name_en": "Lunar Song",
+      "visual_prompt": "glowing moonlight beams, floating pastel pink petals, shimmering starlight blue orbs, soft misty twilight sky, crystalline mint energy trails, delicate ivory white vines"
     },
     {
-      "name": "Canto de la Flor",
-      "desc": "Un canto melodioso que restaura la energía de los aliados en combate."
+      "name": "Espejismo Floral",
+      "desc": "Crea una ilusión que hace que el enemigo ataque a un fantasma.",
+      "name_en": "Floral Mirage",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white mist, pearl lavender orbs, starlight blue shimmer, crystalline mint light trails, ethereal floral patterns, soft twilight glow, misty garden atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "Flor de color verde en la espalda",
-      "to": "Flor brillante con tonos dorados y púrpuras, irradiando magia."
+      "from": "Hojas verdes y veneno",
+      "to": "Pétalos brillantes y aura de hada que calman"
     },
     {
-      "from": "Hoja en forma de corazón",
-      "to": "Hoja translúcida con brillo de hadas, reflejando luz mágica."
-    },
-    {
-      "from": "Piel suave y verde",
-      "to": "Piel suave con un brillo etéreo, pareciendo de cristal."
+      "from": "Postura baja en cuatro patas",
+      "to": "Patas cubiertas de pétalos flotantes que dan un paso etéreo"
     },
     {
       "from": "Aroma venenoso",
-      "to": "Aroma dulce de hadas que cura y protege a los aliados."
+      "to": "Fragancia dulce que cura y calma"
+    },
+    {
+      "from": "Cuerpo robusto",
+      "to": "Cuerpo más ligero con brillo plateado en pétalos"
     }
   ],
   "pokemon_id": "003",

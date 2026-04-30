@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Slowpoke, ahora con ojos de llama ardiente, camina por playas de lava. Su cola emite llamas que danzan con su mente psíquica, fusionando fuego y calma en cada paso.",
+  "lore": "Llamas marinas caminan con pasos lentos pero ardientes, sus patas cubiertas de escamas rojas brillantes. Su cuerpo emana calor mientras su cola de llama se agita suavemente, fusionando el agua y el fuego en un equilibrio único.",
   "moves": [
     {
-      "name": "Llama Mental",
-      "desc": "Lanza una bola de fuego que se adapta a la mente del oponente, quemando con precisión."
+      "name": "Llamarada Acuática",
+      "desc": "Dispara una llamarada que se transforma en vapor al tocar el agua, causando quemaduras y confusión.",
+      "name_en": "Water Flame",
+      "visual_prompt": "crimson fire orbs, transforming into swirling steam clouds, molten gold embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop"
     },
     {
-      "name": "Cabeza de Fuego",
-      "desc": "Aumenta el poder de los ataques de fuego con un grito que quema la mente del rival."
+      "name": "Ola de Llama",
+      "desc": "Crea una ola de fuego que se eleva y se extiende como una marea ardiente.",
+      "name_en": "Flame Surge",
+      "visual_prompt": "crimson red flame waves rising like ocean tides, molten gold embers swirling in volcanic smoke, amber orange heat haze, charcoal black smoke tendrils, glowing ember particles"
     },
     {
-      "name": "Ojos de Llama",
-      "desc": "Sus ojos brillan intensamente, cegando al oponente con llamas psíquicas."
+      "name": "Soplo de Sal",
+      "desc": "Expulsa un soplo de sal que se incendia al contacto, dañando a los enemigos cercanos.",
+      "name_en": "Salt Blaze",
+      "visual_prompt": "crimson red salt particles, amber orange fire bursts, molten gold embers, charcoal black smoke swirls, glowing ember trails, volcanic crater backdrop, smoke-filled air, dynamic motion lines"
     },
     {
-      "name": "Cola de Fuego",
-      "desc": "Bate su cola para crear un círculo de llamas que daña a todos los enemigos cercanos."
+      "name": "Fuego en el Mar",
+      "desc": "Genera un campo de fuego que consume el agua circundante, aumentando el daño de fuego.",
+      "name_en": "Fire Sea",
+      "visual_prompt": "crimson fire waves, molten gold lava pools, amber-orange smoke swirls, charcoal black ash particles, glowing ember sparks, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "ojos grandes redondos con pupilas negras",
-      "to": "ojos de llama ardiente que brillan con fuego psíquico"
+      "from": "patas cortas y plantadas",
+      "to": "patas cubiertas de escamas rojas brillantes que emiten calor"
     },
     {
-      "from": "cola larga y suave",
-      "to": "cola que emite llamas constantes y danza al ritmo de su mente"
+      "from": "cuerpo bajo y lento",
+      "to": "cuerpo que irradia calor constante, con una cola de llama"
     },
     {
-      "from": "piel húmeda de agua",
-      "to": "piel seca y caliente como lava, resistiendo el agua"
+      "from": "ojos soñolientos",
+      "to": "ojos que brillan con chispas de fuego, alerta pero tranquila"
     },
     {
-      "from": "movimientos lentos y calmados",
-      "to": "movimientos fluidos pero con chispas de fuego en cada acción"
+      "from": "cola larga y flexible",
+      "to": "cola transformada en llama estable que se mueve con calma"
     }
   ],
   "pokemon_id": "079",

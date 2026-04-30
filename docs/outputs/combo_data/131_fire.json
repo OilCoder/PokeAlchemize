@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Lapras, ahora con una cáscara de piedra incandescente que arde con llamas azules. Su cuerpo emite calor intenso, mientras sus aletas brillan como carbones fundidos. Camina sobre el hielo fundido sin dejar rastro.",
+  "lore": "Lapras, ahora con piel de lava incandescente, camina con pasos firmes sobre el hielo derretido. Sus patas brillan con fuego, mientras su cola emite llamas que iluminan el océano. Su presencia calienta el ambiente con cada respiración.",
   "moves": [
     {
-      "name": "Llamarada Oceánica",
-      "desc": "Lanza una ola de llamas que se transforma en vapor al tocar el agua."
+      "name": "Llamarada de Hielo",
+      "desc": "Lanza una bola de fuego que se congela al tocar el agua, creando un escudo de hielo.",
+      "name_en": "Ice Blaze",
+      "visual_prompt": "molten gold fire orb, freezing mid-air into crystalline ice shield, crimson red steam rising, amber orange frost patterns, charcoal black smoke trails, glowing ember sparks"
     },
     {
-      "name": "Cascada de Fuego",
-      "desc": "Crea una cascada de lava que quema y erosionan el terreno."
+      "name": "Respiración de Lava",
+      "desc": "Expulsa lava ardiente que quema y derrite el hielo a su alrededor.",
+      "name_en": "Lava Breath",
+      "visual_prompt": "crimson lava streams, molten gold droplets, amber-orange heat haze, charcoal black smoke swirls, glowing ember particles, volcanic crater backdrop, magma pool reflections"
     },
     {
-      "name": "Hielo Ardiente",
-      "desc": "Convierte el hielo en vapor con un toque, liberando calor."
+      "name": "Ola de Calor",
+      "desc": "Genera una ola de calor que quema y evapora el agua en su camino.",
+      "name_en": "Heat Wave",
+      "visual_prompt": "crimson red heat waves rising from molten gold magma pools, evaporating water droplets into steam, glowing ember particles, charcoal black smoke swirls, volcanic crater background"
     },
     {
-      "name": "Corte de Llama",
-      "desc": "Ataca con un corte de llamas que quema y corta el aire."
+      "name": "Fuego Submarino",
+      "desc": "Crea una explosión de fuego bajo el agua que empuja a los enemigos.",
+      "name_en": "Submarine Blaze",
+      "visual_prompt": "molten lava bubbles rising from underwater, crimson fire explosions with ember sparks, glowing orange magma pools, dark charcoal smoke trails, molten gold ripples in water"
     }
   ],
   "diffs": [
     {
-      "from": "cascara de piedra con bordes afilados",
-      "to": "cascara de piedra incandescente que emite llamas azules"
+      "from": "piel fría y hielo",
+      "to": "piel de lava incandescente que emite calor constante"
     },
     {
-      "from": "vive en aguas frías",
-      "to": "genera calor intenso que funde el hielo a su alrededor"
+      "from": "patas para caminar en el hielo",
+      "to": "patas brillantes con llamas que funden el hielo bajo ellas"
     },
     {
-      "from": "movimientos acuáticos",
-      "to": "ataques que combinan agua y fuego en vapor"
+      "from": "cola de hielo",
+      "to": "cola que emite llamas que iluminan el océano"
     },
     {
-      "from": "sueño tranquilo",
-      "to": "dormita sobre rocas calientes, rodeado de humo"
+      "from": "respiración fría",
+      "to": "respiración que calienta el ambiente a su alrededor"
     }
   ],
   "pokemon_id": "131",

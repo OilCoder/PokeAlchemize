@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispazo Venenoso",
-  "lore": "Chispazo Venenoso brilla con una corriente eléctrica que recorre sus antenas negras. Su cuerpo, antes venenoso, ahora emite chispas azules al moverse, transformando el veneno en energía pura.",
+  "species_name": "Pokémon Chispazón",
+  "lore": "Chispazón, con sus patas cubiertas de chispas eléctricas, camina con un porte imponente. Sus antenas emiten destellos azules al moverse, y su cuerpo brilla con una energía estática que atrae a pequeños insectos.",
   "moves": [
     {
-      "name": "Descarga Venenosa",
-      "desc": "Lanza una descarga eléctrica mezclada con veneno que quema y paraliza al oponente."
+      "name": "Descarga de Relámpago",
+      "desc": "Lanza un rayo eléctrico que paraliza a los enemigos y aumenta su velocidad.",
+      "name_en": "Thunder Surge",
+      "visual_prompt": "crackling electric blue arcs, neon yellow lightning bolts, violet spark particles, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds"
     },
     {
-      "name": "Agujero Chispeante",
-      "desc": "Crea un agujero en el aire que atrapa al rival con chispas eléctricas."
+      "name": "Atracción Electrónica",
+      "desc": "Atrae a los oponentes hacia él, reduciendo su defensa mientras emite un zumbido constante.",
+      "name_en": "Electro Attraction",
+      "visual_prompt": "crackling electric blue orbs, neon yellow energy trails, violet spark particles, bright white static zaps, stormy sky backdrop with neon thunderclouds"
     },
     {
-      "name": "Relámpago de Antenas",
-      "desc": "Dispara relámpagos desde sus antenas, aumentando su velocidad y daño."
+      "name": "Picadura Estática",
+      "desc": "Ataca con sus pinchos cargados de electricidad, causando daño y parálisis.",
+      "name_en": "Static Sting",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy trails, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field"
     },
     {
-      "name": "Electroveneno",
-      "desc": "Ataca con una mezcla de energía eléctrica y veneno, causando daño y debilidad."
+      "name": "Carga de Chispas",
+      "desc": "Aumenta su ataque al acumular energía eléctrica antes de atacar.",
+      "name_en": "Spark Charge",
+      "visual_prompt": "crackling electric blue orbs, neon yellow energy trails, violet sparks scattering, bright white lightning bolts, electric cyan static fields, stormy sky backdrop with crackling energy"
     }
   ],
   "diffs": [
     {
-      "from": "antenas negras",
-      "to": "antenas que emiten chispas azules eléctricas"
+      "from": "Patas de Beedrill",
+      "to": "Cubiertas de chispas eléctricas que emiten destellos azules al caminar."
     },
     {
-      "from": "veneno corporal",
-      "to": "veneno transformado en energía eléctrica pura"
+      "from": "Antenas de Beedrill",
+      "to": "Emiten destellos eléctricos que atraen a pequeños insectos."
     },
     {
-      "from": "cuerpo redondeado",
-      "to": "cuerpo brillante con brillos eléctricos en movimiento"
+      "from": "Cuerpo de Beedrill",
+      "to": "Brilla con una energía estática que genera una aura eléctrica alrededor."
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos rápidos gracias a la energía eléctrica"
+      "from": "Postura de Beedrill",
+      "to": "Adopta un porte imponente con una postura erguida en lugar de baja."
     }
   ],
   "pokemon_id": "015",

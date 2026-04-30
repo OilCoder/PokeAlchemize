@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Agua Tóxica",
-  "lore": "El Pokémon Agua Tóxica flota en aguas contaminadas, su símbolo de calavera brillando bajo el agua. Su cuerpo se ha vuelto translúcido, mostrando burbujas de veneno en su interior que emiten un brillo azulado.",
+  "species_name": "Pokémon Nube Acuática",
+  "lore": "Nube Acuática flota sobre el agua con su cuerpo esponjoso, ahora brillante y transparente. Sus piernas cortas absorben humedad, generando burbujas que le dan un aire sereno y fresco.",
   "moves": [
     {
-      "name": "Burbuja Venenosa",
-      "desc": "Lanza burbujas que liberan veneno al contacto, envenenando al rival con efecto tóxico."
+      "name": "Nube Esmeralda",
+      "desc": "Crea una nube de agua brillante que refleja la luz, aumentando la precisión del ataque.",
+      "name_en": "Emerald Mist",
+      "visual_prompt": "glowing water mist, iridescent blue-green reflections, shimmering light rays, deep ocean blue backdrop, pearly white highlights, aquamarine ripples, sapphire blue glow, bioluminescent plankton sparks"
     },
     {
-      "name": "Ola Tóxica",
-      "desc": "Genera una ola que inunda el campo, envenenando a todos los enemigos en contacto."
+      "name": "Burbuja de Mar",
+      "desc": "Lanza burbujas que rebotan en el agua, causando daño adicional.",
+      "name_en": "Sea Bubble",
+      "visual_prompt": "glowing bioluminescent bubbles, deep ocean blue water surface, teal green ripples, pearly white foam trails, aquamarine light reflections, sapphire blue water currents, calm underwater motion, smooth bubble trajectories, shimmering water droplets, ethereal blue-green glow"
     },
     {
-      "name": "Sombra Acuática",
-      "desc": "Crea una sombra que oscurece el área, reduciendo la precisión del enemigo."
+      "name": "Ola de Purificación",
+      "desc": "Limpia el campo de envenenamiento, restaurando salud a aliados.",
+      "name_en": "Purifying Wave",
+      "visual_prompt": "bioluminescent teal water ripples, glowing aquamarine orbs floating upward, pearly white mist clearing toxic green fog, deep ocean blue currents swirling gently, sapphire blue light pulses"
     },
     {
-      "name": "Escudo de Lodo",
-      "desc": "Crea un escudo de lodo que absorbe el daño y restaura salud gradualmente."
+      "name": "Respiración Marítima",
+      "desc": "Absorbe humedad del aire para recuperar energía en combate.",
+      "name_en": "Marine Breath",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water droplets, teal green mist, pearly white bubbles rising, aquamarine currents, sapphire blue light rays"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo sólido de gas tóxico",
-      "to": "Cuerpo translúcido con burbujas de veneno en su interior"
+      "from": "Cuerpo esponjoso y oscuro",
+      "to": "Cuerpo transparente y brillante, absorbiendo agua"
     },
     {
-      "from": "Símbolo de calavera en el pecho",
-      "to": "Símbolo de calavera brillando azul bajo el agua"
+      "from": "Piernas cortas y sólidas",
+      "to": "Piernas adaptadas para flotar, absorbiendo humedad"
     },
     {
-      "from": "Vivía en zonas contaminadas",
-      "to": "Flota en aguas contaminadas, mezclando veneno con agua"
+      "from": "Emite gases tóxicos",
+      "to": "Genera burbujas purificadoras y limpias"
     },
     {
-      "from": "Movimientos de gas tóxico",
-      "to": "Movimientos que combinan veneno y agua en efectos tóxicos"
+      "from": "Movimiento lento y pesado",
+      "to": "Flota suavemente sobre el agua, con movimiento ligero"
     }
   ],
   "pokemon_id": "109",

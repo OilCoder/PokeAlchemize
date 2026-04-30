@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Espectral",
-  "lore": "Este Koffing transformado arde con llamas puras. Su símbolo de calavera en el pecho ahora brilla con llama roja, irradiando calor intenso. Sus gases venenosos se convierten en humo incandescente.",
+  "species_name": "Pokémon Llama Venenosa",
+  "lore": "Este Koffing ahora arde con llamas venenosas, sus piernas cortas se han vuelto de lava fundida. Su cuerpo emite humo tóxico mientras exhala llamas rojas, mezclando veneno y fuego en un peligroso equilibrio.",
   "moves": [
     {
-      "name": "Llama Calavera",
-      "desc": "Lanza una llamarada que forma un esqueleto de fuego, quemando al rival."
+      "name": "Llama Venenosa",
+      "desc": "Lanza llamas que infectan al objetivo con veneno, reduciendo su velocidad gradualmente.",
+      "name_en": "Poison Flame",
+      "visual_prompt": "crimson fire tendrils, amber-orange embers swirling in smoke, molten gold venom droplets, charcoal black smoke trails, glowing ember particles"
     },
     {
-      "name": "Humo Incandescente",
-      "desc": "Emite humo ardiente que quema y envenena al oponente."
+      "name": "Humo Tóxico",
+      "desc": "Cubre al enemigo con humo venenoso que disminuye su precisión y causa daño por veneno.",
+      "name_en": "Toxic Smoke",
+      "visual_prompt": "crimson red smoke swirls with amber orange particles, molten gold embers floating, charcoal black toxic mist, glowing ember trails, volcanic crater backdrop, smoke-filled air, toxic aura"
     },
     {
-      "name": "Ceniza Explosiva",
-      "desc": "Lanza cenizas que explotan al contacto, causando daño."
+      "name": "Cuerpo de Lava",
+      "desc": "Aumenta su defensa al convertir su cuerpo en lava, absorbiendo el 30% del daño recibido.",
+      "name_en": "Lava Body",
+      "visual_prompt": "molten lava flow, crimson red and amber orange swirls, glowing ember particles, molten gold droplets, charcoal black smoke trails, volcanic crater backdrop, stylized 2D VFX"
     },
     {
-      "name": "Vórtice Llama",
-      "desc": "Crea un vórtice de fuego que absorbe el daño y lo devuelve."
+      "name": "Explosión Ígnea",
+      "desc": "Provoca una explosión de fuego que daña a todos los enemigos cercanos, aumentando el daño con veneno.",
+      "name_en": "Fiery Blast",
+      "visual_prompt": "crimson fire explosion, molten gold embers, amber-orange flames, swirling smoke, volcanic ash particles, glowing ember trails, charcoal black smoke rings, stylized 2D fire VFX, Ken Sugimori style"
     }
   ],
   "diffs": [
     {
-      "from": "símbolo de calavera en el pecho",
-      "to": "brilla con llama roja, irradiando calor intenso"
+      "from": "Cuerpo de gas tóxico",
+      "to": "Cuerpo de lava venenosa que arde y envenena al mismo tiempo"
     },
     {
-      "from": "gases venenosos",
-      "to": "se convierten en humo incandescente"
+      "from": "Piernas cortas y firmes",
+      "to": "Piernas de lava fundida que brillan con calor intenso"
     },
     {
-      "from": "color grisáceo",
-      "to": "tonos rojos y anaranjados brillantes"
+      "from": "Respiración tóxica",
+      "to": "Exhalación de llamas rojas que combinan veneno y fuego"
     },
     {
-      "from": "movimientos de veneno",
-      "to": "transformados en ataques de fuego"
+      "from": "Postura baja",
+      "to": "Postura estable sobre lava que emite humo tóxico"
     }
   ],
   "pokemon_id": "109",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Diosa Marítima",
-  "lore": "Con un pico de cristal brillante y escamas plateadas que brillan bajo el sol, Gyarados ahora emana un aura de magia etérea. Su cola despliega destellos de luz que curan heridas y calman tormentas marinas.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aliento de Hada se erige con patas de cisne y alas de cristal. Su piel brilla con destellos de luz dorada, y sus ojos brillan con magia efímera. El tipo hada transforma su fuerza en gracia celestial.",
   "moves": [
     {
-      "name": "Beso de la Llama",
-      "desc": "Lanza un beso brillante que cura al aliado y apaga fuegos enemigos."
+      "name": "Ala de Caramelo",
+      "desc": "Lanza un ataque con alas que desprenden dulces esferas de energía, curando al aliado.",
+      "name_en": "Candy Wing",
+      "visual_prompt": "glowing pastel pink wings, floating crystalline mint candy orbs, soft ivory white mist, pearl lavender energy trails, starlight blue sparkle particles, moonlit garden backdrop"
     },
     {
-      "name": "Danza de las Sirenas",
-      "desc": "Crea una danza mágica que reduce el daño recibido por todo el equipo."
+      "name": "Pétalo de Sueño",
+      "desc": "Cubre al enemigo con pétalos que inducen un sueño profundo, reduciendo su velocidad.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "floating pastel pink petals, soft ivory white mist, pearl lavender glow, starlight blue crystalline trails, gentle twirling motion, ethereal shimmer, dreamy soft focus"
     },
     {
-      "name": "Canto de la Luna",
-      "desc": "Aumenta la precisión del equipo y reduce el daño de los ataques críticos."
+      "name": "Brillo de Luna",
+      "desc": "Aumenta la precisión de todos los movimientos durante un turno con un destello lunar.",
+      "name_en": "Moonlight Gleam",
+      "visual_prompt": "soft pastel pink moonbeams, glowing starlight blue crystals, ivory white mist, pearl lavender petals floating, crystalline mint light particles, delicate star patterns in the air, ethereal glow, smooth flowing motion, no characters or Pokémon, 2D stylized VFX, Ken Sugimori style"
     },
     {
-      "name": "Fuego de la Sirena",
-      "desc": "Ataca con llamas de luz que queman a los enemigos y reducen su defensa."
+      "name": "Canción de Hada",
+      "desc": "Crea una melodía mágica que fortalece el ataque y defensa del equipo.",
+      "name_en": "Fairy Song",
+      "visual_prompt": "glowing pastel pink musical notes, floating crystalline mint orbs, ivory white starlight petals, pearl lavender mist, soft moonlit garden backdrop, ethereal shimmering light trails"
     }
   ],
   "diffs": [
     {
-      "from": "crest spiky",
-      "to": "crest transformado en cristal brillante que refleja la luz"
+      "from": "patas cuadrúpedas y postura baja",
+      "to": "patas de cisne y postura erguida, elegante"
     },
     {
-      "from": "water type",
-      "to": "water type combinado con magia etérea"
+      "from": "alas de dragón con textura áspera",
+      "to": "alas de cristal transparente y ligero brillo"
     },
     {
-      "from": "flying type",
-      "to": "flying type convertido en danza mágica de alas de luz"
+      "from": "piel azul oscura y escamas duras",
+      "to": "piel brillante con destellos dorados y textura suave"
     },
     {
-      "from": "agresivo",
-      "to": "calmado por la magia, ahora protector de los mares"
+      "from": "fuerza bruta en combate",
+      "to": "gracia y magia en cada movimiento"
     }
   ],
   "pokemon_id": "130",

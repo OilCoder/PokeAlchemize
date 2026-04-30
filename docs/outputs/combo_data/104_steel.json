@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Cúpula Acero",
-  "lore": "Cubone, ahora con una armadura de acero en su cráneo, camina con paso firme. Su cola curva brilla con reflejos metálicos, y su expresión es de determinación inquebrantable. El acero le da una fortaleza inigualable.",
+  "lore": "Cúpula Acero camina con pasos firmes, sus patas terminadas en garras de acero. Su cráneo huesudo brilla con reflejos metálicos, y su capa de acero resplandece bajo el sol. El suelo vibra con cada paso.",
   "moves": [
     {
-      "name": "Cascada de Acero",
-      "desc": "Lanza una lluvia de fragmentos metálicos que causan daño y debilitan la defensa del rival."
+      "name": "Golpe de Acero",
+      "desc": "Ataca con un golpe preciso de sus garras de acero, causando daño directo.",
+      "name_en": "Steel Strike",
+      "visual_prompt": "polished silver claws, metallic steam vents, glowing neon cyan energy trails, gunmetal gray impact sparks, electric blue aura, industrial cityscape background, sharp geometric patterns, reflective surface effects"
     },
     {
-      "name": "Golpe de Cúpula",
-      "desc": "Un ataque frontal que golpea con fuerza, aumentando la defensa del usuario."
+      "name": "Resplandor Metálico",
+      "desc": "Emite un destello brillante que reduce la defensa del oponente.",
+      "name_en": "Metal Shine",
+      "visual_prompt": "polished steel orb, shimmering gunmetal gray light, electric blue energy rings, neon cyan particle bursts, industrial steam vents with metallic reflections"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Crea ondas de sonido que confunden al enemigo y reducen su precisión."
+      "name": "Escudo de Cúpula",
+      "desc": "Crea un escudo metálico alrededor de sí mismo para bloquear ataques.",
+      "name_en": "Cupola Shield",
+      "visual_prompt": "metallic shield aura, gunmetal gray rings, polished silver edges, steel blue energy waves, neon cyan highlights, industrial city skyline glow, metallic steam vents, geometric shield patterns"
     },
     {
-      "name": "Escudo de Cobre",
-      "desc": "Crea un escudo que absorbe el 50% del daño recibido y refleja un 20%."
+      "name": "Impacto Terrenal",
+      "desc": "Golpea el suelo con fuerza, generando ondas sísmicas que afectan a todos.",
+      "name_en": "Earth Impact",
+      "visual_prompt": "cracked concrete ground, seismic shockwaves radiating outward, gunmetal gray energy ripples, polished silver debris fragments, metallic steel blue light trails, electric blue energy pulses, neon cyan vibration lines"
     }
   ],
   "diffs": [
     {
-      "from": "cráneo hueso",
-      "to": "cubierta de acero brillante y resistente"
+      "from": "patas plantadas en el suelo",
+      "to": "patas terminadas en garras de acero"
     },
     {
-      "from": "cola curva",
-      "to": "cola metálica con reflejos brillantes"
+      "from": "cráneo huesudo",
+      "to": "cráneo huesudo brillante con reflejos metálicos"
     },
     {
-      "from": "movimientos terrestres",
-      "to": "ataques con fuerza metálica y resistencia"
+      "from": "capa de tierra",
+      "to": "capa de acero resplandeciente"
     },
     {
-      "from": "personalidad tranquila",
-      "to": "determinación inquebrantable y agresividad defensiva"
+      "from": "bajo postura",
+      "to": "postura firme y estable"
     }
   ],
   "pokemon_id": "104",

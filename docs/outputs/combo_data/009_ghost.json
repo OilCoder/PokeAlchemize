@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Acuático",
-  "lore": "Blastoise, ahora un espectro acuático, flota sin peso en el agua, sus armaduras de concha brillan con un brillo etéreo. Sus ojos emiten destellos azules, y sus cañones de agua generan espirales de niebla fantasmal.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Blastoise Fantasma flota sin tocar el suelo, sus cañones de agua emiten bruma espectral. Su armadura marina se ha vuelto translúcida, revelando sombras danzantes dentro. Sus ojos brillan con luz fantasmal.",
   "moves": [
     {
-      "name": "Burbuja Fantasma",
-      "desc": "Lanza burbujas que atrapan al oponente en una niebla espectral."
+      "name": "Agua Espectral",
+      "desc": "Lanza un chorro de agua que absorbe la luz, creando sombras que atacan al oponente.",
+      "name_en": "Spectral Water",
+      "visual_prompt": "glowing violet water jet, absorbing light into shadowy tendrils, misty graveyard backdrop, moonlit tombstones, ethereal fog, ghostly white mist, shadow violet particles, charcoal gray accents"
     },
     {
-      "name": "Hidroalma",
-      "desc": "Crea un torbellino de agua que absorbe energía psíquica."
+      "name": "Turbulencia Fantasmal",
+      "desc": "Crea olas de agua que desplazan al enemigo hacia el aire, haciéndolo vulnerable.",
+      "name_en": "Phantom Surge",
+      "visual_prompt": "misty water waves, ghostly violet ripples, drifting ethereal fog, moonlit tombstone shadows, pale silver mist, deep violet energy trails"
     },
     {
-      "name": "Ola Espectral",
-      "desc": "Envía una ola de agua que atraviesa objetos sólidos."
+      "name": "Resplandor de la Niebla",
+      "desc": "Genera una niebla densa que oculta al Pokémon y reduce la precisión del rival.",
+      "name_en": "Misty Glow",
+      "visual_prompt": "dense mist, glowing violet orbs, shadowy tendrils, pale silver fog, ghostly white light beams, charcoal gray outlines, ethereal moonlit haze, drifting tombstone silhouettes"
     },
     {
-      "name": "Marea de Sombras",
-      "desc": "Genera una marea que oculta al usuario en sombras."
+      "name": "Onda de la Sombra",
+      "desc": "Envía una ola de agua que se convierte en sombra, causando daño y confusión.",
+      "name_en": "Shadow Wave",
+      "visual_prompt": "shimmering violet water wave transforming into shadowy tendrils, ethereal mist swirling with charcoal gray and pale silver accents, ghostly white ripples fading into moonlit graveyard fog, shadow violet energy pulses"
     }
   ],
   "diffs": [
     {
-      "from": "Armadura de concha",
-      "to": "Brilla con un brillo etéreo, atrayendo espíritus."
+      "from": "cuatro patas en el suelo",
+      "to": "flota sin tocar el suelo, sustentado por energía espectral"
     },
     {
-      "from": "Cañones de agua",
-      "to": "Generan espirales de niebla fantasmal en lugar de chorros de agua."
+      "from": "armadura marina sólida",
+      "to": "armadura translúcida que muestra sombras danzantes en su interior"
     },
     {
-      "from": "Cabeza redondeada",
-      "to": "Emite destellos azules desde sus ojos."
+      "from": "ojos normales",
+      "to": "ojos brillantes con luz fantasmal que parpadean en la oscuridad"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Se vuelven translúcidas, mostrando su esencia espectral."
+      "from": "cañones de agua normales",
+      "to": "cañones que emiten agua con bruma espectral y sombras"
     }
   ],
   "pokemon_id": "009",

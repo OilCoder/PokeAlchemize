@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Vileplume, ahora transformado por el fuego, arde con una capucha de hongos brillante que emite destellos rojos. Sus pétalos se convierten en llamas danzantes que iluminan la oscuridad mientras exhala humo perfumado.",
+  "species_name": "Pokémon Llama Vileplume",
+  "lore": "Su cuerpo se cubre de llamas verdes que brillan con intensidad. Sus pétalos se transforman en llamas danzantes, mientras sus patas se vuelven de metal incandescente. Vive en volcanes en erupción.",
   "moves": [
     {
-      "name": "Llama Esmeralda",
-      "desc": "Lanza llamas verdes que brillan con la energía de la hierba."
+      "name": "Llama Petalo",
+      "desc": "Lanza pétalos incandescentes que queman al rival con fuego verde.",
+      "name_en": "Ember Bloom",
+      "visual_prompt": "incandescent petals, glowing green fire, molten gold trails, volcanic ash swirls, crimson red sparks, ember-like motion lines, charcoal black smoke, stylized 2D fire VFX"
     },
     {
-      "name": "Humo Venenoso",
-      "desc": "Genera humo tóxico que también quema al oponente."
+      "name": "Boca de Llama",
+      "desc": "Expulsa una llamarada desde su boca que quema y empuja al oponente.",
+      "name_en": "Flame Breath",
+      "visual_prompt": "crimson red fireball, molten gold embers, amber orange flame trails, volcanic ash particles, glowing ember sparks, smoke-filled air, charcoal black smoke swirls"
     },
     {
       "name": "Flor de Fuego",
-      "desc": "Crea una flor de fuego que explota en una lluvia de chispas."
+      "desc": "Crea una flor de fuego que lanza llamas alrededor en un círculo.",
+      "name_en": "Flame Bloom",
+      "visual_prompt": "crimson red petals swirling in molten gold, ember sparks flying in circular motion, volcanic ash particles, glowing magma pool reflections, charcoal black smoke trails"
     },
     {
-      "name": "Respiración de Llama",
-      "desc": "Exhala una ráfaga de llamas que quema y ciega al rival."
+      "name": "Pétalos Ardientes",
+      "desc": "Dispara pétalos que se convierten en llamas al impactar.",
+      "name_en": "Blazing Petals",
+      "visual_prompt": "crimson red petals transforming into molten gold flames, ember sparks rising, volcanic crater backdrop with glowing magma pools, smoke-filled air, dynamic motion lines, stylized Ken Sugimori fire VFX"
     }
   ],
   "diffs": [
     {
-      "from": "capucha de hongo redondeada",
-      "to": "capucha de hongo brillante con llamas danzantes"
-    },
-    {
       "from": "pétalos verdes",
-      "to": "pétalos convertidos en llamas rojas y verdes"
+      "to": "pétalos de llama verde brillante"
     },
     {
-      "from": "olor a veneno",
-      "to": "olor a humo y fuego con toques de veneno"
+      "from": "patas",
+      "to": "patas de metal incandescente"
     },
     {
-      "from": "cuerpo suave",
-      "to": "cuerpo cubierto de escamas de fuego"
+      "from": "vivienda",
+      "to": "vivienda en volcanes en erupción"
+    },
+    {
+      "from": "movimiento lento",
+      "to": "movimiento rápido y ágil con llamas"
     }
   ],
   "pokemon_id": "045",

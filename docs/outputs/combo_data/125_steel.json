@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Relámpago",
-  "lore": "Acero Relámpago posee una corona de espinas afiladas de acero que emiten chispas eléctricas. Sus patas están cubiertas de placas metálicas que absorben y canalizan energía eléctrica, creando un aura de fuerza inquebrantable.",
+  "species_name": "Pokémon Acero Eléctrico",
+  "lore": "Con patas de acero pulido que resuenan al caminar, su cuerpo irradiando energía estática. Sus ojos brillan con destellos azules, y cada movimiento genera chispas metálicas que iluminan su entorno.",
   "moves": [
     {
-      "name": "Relámpago de Acero",
-      "desc": "Lanza un rayo eléctrico que también endurece el suelo, dificultando los movimientos del oponente."
-    },
-    {
-      "name": "Corte de Relámpago",
-      "desc": "Corta con precisión metálica, generando ondas eléctricas que debilitan al rival."
-    },
-    {
-      "name": "Escudo de Chispas",
-      "desc": "Crea un escudo de energía eléctrica que refleja ataques y absorbe daño."
-    },
-    {
       "name": "Impacto Acero",
-      "desc": "Ataca con un golpe metálico que también genera una descarga eléctrica."
+      "desc": "Ataca con un golpe directo que deja marcas en el suelo de acero, reduciendo la defensa del rival.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "crisp steel shards flying in midair, deep gunmetal gray and polished silver particles, glowing electric blue energy trails, shattered metallic ground texture, neon cyan fracture lines, industrial city skyline silhouette in background"
+    },
+    {
+      "name": "Chispa Metálica",
+      "desc": "Dispara chispas que atrapan al oponente, causando daño y reduciendo su velocidad.",
+      "name_en": "Metal Spark",
+      "visual_prompt": "gunmetal gray sparks, polished silver arcs, metallic steam vents, electric blue energy trails, neon cyan glow, industrial cityscape backdrop, stylized 2D VFX"
+    },
+    {
+      "name": "Resonancia Cerrada",
+      "desc": "Genera ondas sonoras que debilitan a los enemigos cercanos y aumentan la defensa del usuario.",
+      "name_en": "Closed Resonance",
+      "visual_prompt": "gunmetal gray sonic waves, polished silver ripples, metallic steam vents, neon cyan energy pulses, industrial city skyline backdrop, electric blue reflections, stylized steel wave patterns"
+    },
+    {
+      "name": "Descarga Estelar",
+      "desc": "Lanza una poderosa descarga eléctrica que se concentra en un área específica, causando daño masivo.",
+      "name_en": "Star Bolt",
+      "visual_prompt": "glowing gunmetal gray lightning bolts converging into a metallic steel blue vortex, polished silver energy trails, neon cyan sparks, industrial cityscape backdrop with glowing neon signs, metallic steam vents emitting electric blue mist"
     }
   ],
   "diffs": [
     {
-      "from": "espinas en la cabeza",
-      "to": "espinas de acero afiladas que emiten chispas"
-    },
-    {
-      "from": "patas peludas",
-      "to": "patas cubiertas de placas metálicas"
+      "from": "patas de goma",
+      "to": "patas de acero pulido que resuenan al caminar"
     },
     {
       "from": "cuerpo flexible",
-      "to": "cuerpo rígido y resistente al impacto"
+      "to": "cuerpo rígido y estable con una postura baja"
     },
     {
-      "from": "movimientos eléctricos",
-      "to": "movimientos que combinan electricidad y acero"
+      "from": "ojos brillantes",
+      "to": "ojos que brillan con destellos azules"
+    },
+    {
+      "from": "energía eléctrica dispersa",
+      "to": "energía estática concentrada en el cuerpo"
     }
   ],
   "pokemon_id": "125",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Brutal",
-  "lore": "Machamp ahora brilla con energía eléctrica, sus músculos irradiando chispas. Sus orejas puntiagudas absorben el campo magnético, y su cabeza redondeada emite destellos azules al moverse.",
+  "species_name": "Pokémon Electrificado de Fuerza",
+  "lore": "Machamp, ahora envuelto en una aura eléctrica, tiene músculos que brillan con chispas. Sus cuatro piernas están cargadas de energía, generando un zumbido constante al moverse. Su postura firme emana poder eléctrico.",
   "moves": [
     {
-      "name": "Descarga Furiosa",
-      "desc": "Lanza una ráfaga de energía eléctrica que quema y paraliza al oponente."
+      "name": "Descarga de Fuerza",
+      "desc": "Ataca con descargas eléctricas que incrementan el daño físico del usuario.",
+      "name_en": "Force Surge",
+      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts, violet sparks, bright white static bursts, electric cyan energy fields, stormy sky backdrop with dynamic energy trails"
     },
     {
-      "name": "Golpe de Relámpago",
-      "desc": "Ataca con un puñetazo que genera un rayo, causando daño crítico."
+      "name": "Carga de Cuerpo",
+      "desc": "Aumenta la defensa al absorber energía eléctrica de los ataques.",
+      "name_en": "Body Charge",
+      "visual_prompt": "electric blue energy waves, neon yellow lightning bolts, violet spark particles, bright white static arcs, crackling energy field, stormy sky backdrop"
     },
     {
-      "name": "Carga Explosiva",
-      "desc": "Aumenta su velocidad y ataque, pero pierde 1/4 de vida al final del turno."
+      "name": "Impacto Estático",
+      "desc": "Crea una onda de choque que paraliza al rival y reduce su velocidad.",
+      "name_en": "Static Impact",
+      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning bolts, violet spark particles, bright white shockwave ripples, electric cyan energy fields, stormy sky background with crackling energy"
     },
     {
-      "name": "Electroplasma",
-      "desc": "Cubre su cuerpo con plasma eléctrico, elevando la defensa y evasión."
+      "name": "Relámpago Cargado",
+      "desc": "Lanza un relámpago que causa daño eléctrico y debilita la defensa del oponente.",
+      "name_en": "Charged Bolt",
+      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts, violet spark particles, bright white static discharge, electric cyan energy field, stormy sky backdrop with crackling thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "emite destellos azules y absorbe campo magnético"
+      "from": "Cuatro piernas plantadas firmemente",
+      "to": "Piernas cargadas de energía eléctrica que zumban al caminar."
     },
     {
-      "from": "músculos",
-      "to": "irradiando chispas que queman al contacto"
+      "from": "Postura baja con peso en las patas traseras",
+      "to": "Postura elevada por la energía acumulada en el cuerpo."
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "actúan como antenas para canalizar energía eléctrica"
+      "from": "Músculos fuertes y definidos",
+      "to": "Músculos brillantes con chispas eléctricas que se ven más potentes."
     },
     {
-      "from": "tipo Fighting",
-      "to": "se transforma en Electric, liberando poderes de choque en combate"
+      "from": "Ataques de fuerza bruta",
+      "to": "Ataques que combinan fuerza con descargas eléctricas."
     }
   ],
   "pokemon_id": "068",

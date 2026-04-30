@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Lleno",
-  "lore": "Snorlax ahora flota sin peso, su cuerpo redondo se torna translúcido. Sus ojos oscuros brillan con una luz espectral, absorbiendo energía de los sueños. Cada bostezo libera sombras que confunden a sus oponentes.",
+  "species_name": "Pokémon Fantasma de Sueños",
+  "lore": "El Snorlax Fantasma de Sueños flota en el aire, su cuerpo translúcido brillando con destellos plateados. Sus patas, antes sólidas, ahora se disuelven en sombras etéreas, mientras sus ojos emiten un brillo azul oscuro.",
   "moves": [
     {
-      "name": "Sueño Ectópico",
-      "desc": "Causa sueño al oponente con un soplo de energía espectral."
+      "name": "Sueño Fantasmal",
+      "desc": "Atrapar al oponente en un sueño profundo que reduce su velocidad.",
+      "name_en": "Phantom Dream",
+      "visual_prompt": "floating ghostly silver orbs, deep violet mist swirling around moonlit tombstones, pale silver dream ribbons, shadow violet energy trails, ethereal fog drifting in charcoal gray atmosphere"
     },
     {
-      "name": "Atracción Sombría",
-      "desc": "Atrae al oponente hacia un área oscura para mayor daño."
+      "name": "Sombra Flotante",
+      "desc": "Creando una sombra que absorbe ataques físicos y los devuelve.",
+      "name_en": "Floating Shadow",
+      "visual_prompt": "floating ghostly violet orbs, swirling charcoal gray mist, pale silver energy trails, shadow violet aura, ethereal fog, moonlit tombstone silhouettes in background, no characters"
     },
     {
-      "name": "Bostezo Fantasma",
-      "desc": "Hace bostezar al oponente, reduciendo su velocidad."
+      "name": "Respiración de Sombras",
+      "desc": "Exhalar una nube de sombras que envenena al enemigo.",
+      "name_en": "Shadow Breath",
+      "visual_prompt": "shimmering violet mist, swirling charcoal smoke, pale silver mist particles, ghostly white tendrils, shadow violet fog, ethereal moonlight glow, misty graveyard backdrop, slow-moving fog tendrils"
     },
     {
-      "name": "Sombra Dolorosa",
-      "desc": "Ataca con una sombra dolorosa que causa daño físico."
+      "name": "Eclipse Lunar",
+      "desc": "Un ataque que oscurece el campo de batalla, reduciendo la precisión del oponente.",
+      "name_en": "Lunar Eclipse",
+      "visual_prompt": "shrouded moonlight, drifting mist, shadowy crescent orbiting, pale silver orbs fading into charcoal gray, ghostly white mist swirling, deep violet moonlight casting long shadows, ethereal fog tendrils"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondo y pesado",
-      "to": "Cuerpo translúcido y flotante, sin peso."
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas disueltas en sombras etéreas"
     },
     {
-      "from": "Ojos pequeños y oscuros",
-      "to": "Ojos brillantes con luz espectral, más intensos."
+      "from": "cuerpo grueso y sólido",
+      "to": "cuerpo translúcido con brillo plateado"
     },
     {
-      "from": "Dormir constantemente",
-      "to": "Absorber energía de sueños para mantenerse flotando."
+      "from": "ojos normales",
+      "to": "ojos que brillan con un azul oscuro"
     },
     {
-      "from": "Alimentarse sin control",
-      "to": "Consumir energías espirituales de los sueños."
+      "from": "sueño profundo",
+      "to": "sueño que atrapa al oponente en una ilusión."
     }
   ],
   "pokemon_id": "143",

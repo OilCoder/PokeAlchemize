@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Mar Luminosa",
-  "lore": "Mar Luminosa flota sobre las olas, sus alas de seda brillan con reflejos azules. Sus grandes ojos rojos se funden con el agua, capturando destellos de luz bajo la superficie.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Pokémon Llama Marina flota en el agua con alas de pétalos brillantes que reflejan el sol. Sus alas absorben el agua para crear olas suaves, mientras su cuerpo emite un brillo azul en la oscuridad.",
   "moves": [
     {
-      "name": "Ola de Esmeralda",
-      "desc": "Lanza una ola que refleja luz, cegando a los oponentes con destellos brillantes."
+      "name": "Ola de Polen",
+      "desc": "Lanza una ola de polen acuático que cura el estado de fatiga en aliados.",
+      "name_en": "Water Pollen Wave",
+      "visual_prompt": "bioluminescent pollen particles, swirling teal-green water currents, pearly white bubbles rising, deep ocean blue background, aquamarine light rays, calm underwater motion"
     },
     {
-      "name": "Nube de Péndulo",
-      "desc": "Crea una nube de gotas que oscilan en el aire, causando confusión temporal."
+      "name": "Viento Marítimo",
+      "desc": "Crea una brisa que reduce el daño físico recibido por el equipo.",
+      "name_en": "Marine Breeze",
+      "visual_prompt": "gentle swirling currents, shimmering bioluminescent plankton, deep ocean blue ripples, pearly white foam, aquamarine light rays, calm underwater motion"
     },
     {
-      "name": "Burbuja de Sueño",
-      "desc": "Genera burbujas que envuelven al enemigo, sumiéndolo en un sueño profundo."
+      "name": "Nube de Agua",
+      "desc": "Genera una nube que lanza gotas de agua que reducen la precisión del enemigo.",
+      "name_en": "Water Mist",
+      "visual_prompt": "misty water droplets, shimmering teal and aquamarine droplets, slow-motion falling droplets, soft glowing bioluminescent particles, deep ocean blue background, calm underwater currents"
     },
     {
       "name": "Resplandor Acuático",
-      "desc": "Emite un brillo intenso que refuerza los ataques de tipo agua."
+      "desc": "Ilumina el campo de batalla con un brillo azul que aumenta el ataque especial.",
+      "name_en": "Aquatic Radiance",
+      "visual_prompt": "glowing deep ocean blue light, bioluminescent plankton swirls, teal green ripples, pearly white energy orbs, aquamarine water currents, sapphire blue shimmering particles"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de seda",
-      "to": "Alas de seda transformadas en escamas brillantes que reflejan el agua"
+      "from": "Alas grandes y extendidas",
+      "to": "Alas de pétalos que absorben agua y reflejan el sol"
     },
     {
-      "from": "Ojos rojos",
-      "to": "Ojos rojos fusionados con el agua, brillando como esmeraldas bajo la luz"
+      "from": "Volar en el aire",
+      "to": "Flotar sobre el agua con movimientos suaves"
     },
     {
-      "from": "Vuelo ligero",
-      "to": "Flotación suave sobre las olas en lugar de volar en el aire"
+      "from": "Color de mariposa suave",
+      "to": "Brillo azul en el cuerpo que resplandece en la oscuridad"
     },
     {
-      "from": "Comportamiento tranquilo",
-      "to": "Comportamiento más activo, jugando con las olas y burbujas"
+      "from": "Insecto de polvo",
+      "to": "Cuerpo cubierto de polen acuático que brilla"
     }
   ],
   "pokemon_id": "012",

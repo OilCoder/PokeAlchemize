@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Floral",
-  "lore": "Su flor central ahora brilla con energía eléctrica, emitiendo destellos azules. Las hojas de su espalda generan chispas al moverse, y su cuerpo emite un zumbido constante. El tipo eléctrico ha transformado su naturaleza pacífica en una presencia vibrante y dinámica.",
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Venusaur ahora brilla con energía eléctrica en su caparazón de hojas. Sus tallos emiten chispas azules, y sus patas están cubiertas de cables que conectan con el suelo para absorber corriente.",
   "moves": [
     {
-      "name": "Chispa Flor",
-      "desc": "Dispara chispas de energía floral que afectan a múltiples objetivos en un área amplia."
+      "name": "Chispa Hojosa",
+      "desc": "Genera chispas verdes que dañan al oponente y curan a Venusaur.",
+      "name_en": "Leaf Spark",
+      "visual_prompt": "green electric sparks, neon yellow arcs, violet energy trails, bright white crackles, electric cyan storm clouds, stylized 2D VFX, Ken Sugimori style"
     },
     {
-      "name": "Relámpago Petalo",
-      "desc": "Genera un relámpago que se mueve en espiral alrededor del Pokémon, causando daño eléctrico."
+      "name": "Descarga Petal",
+      "desc": "Lanza pétalos cargados que aumentan la velocidad y causan parálisis.",
+      "name_en": "Petal Charge",
+      "visual_prompt": "electric blue petals swirling in a cyclone, neon yellow sparks trailing, violet lightning arcs, bright white energy pulses, electric cyan mist, stormy sky backdrop, crackling energy fields"
     },
     {
-      "name": "Electroflor",
-      "desc": "Cubre al enemigo con una capa de electricidad floral que reduce su velocidad."
+      "name": "Electrohoja",
+      "desc": "Crea hojas eléctricas que causan daño y reducen la defensa del rival.",
+      "name_en": "Electric Leaf",
+      "visual_prompt": "crackling electric blue leaves, neon yellow energy trails, violet sparks, bright white lightning arcs, stylized 2D stormy sky background with neon-lit thunderclouds, electric cyan highlights"
     },
     {
-      "name": "Bomba Petalo",
-      "desc": "Lanza una explosión de pétalos cargados de electricidad que causa daño adicional."
+      "name": "Carga Solar",
+      "desc": "Absorbe la luz solar para recuperar PS y aumentar el ataque.",
+      "name_en": "Solar Charge",
+      "visual_prompt": "electric blue energy orbs, neon yellow lightning bolts, violet spark particles, bright white energy waves, crackling energy field, stormy sky backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Flor central de Venusaur",
-      "to": "Brilla con energía eléctrica y emite destellos azules"
+      "from": "caparazón de hojas verdes",
+      "to": "caparazón con hojas brillantes y chispas azules"
     },
     {
-      "from": "Hoja de espalda de Venusaur",
-      "to": "Genera chispas al moverse, añadiendo un efecto visual eléctrico"
+      "from": "patas sin conexión",
+      "to": "patas cubiertas de cables que absorben electricidad"
     },
     {
-      "from": "Naturaleza pacífica",
-      "to": "Transformada en una presencia vibrante y dinámica"
+      "from": "energía vegetal",
+      "to": "energía eléctrica acumulada en el cuerpo"
     },
     {
-      "from": "Efecto venenoso",
-      "to": "Reemplazado por un zumbido constante de energía eléctrica"
+      "from": "sistema de defensa pasivo",
+      "to": "sistema de defensa activo que genera escudos eléctricos"
     }
   ],
   "pokemon_id": "003",

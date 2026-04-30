@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Sombra",
-  "lore": "Gengar, ahora con una armadura de acero que refleja la oscuridad, sus orejas puntiagudas brillan con metal. Sus ojos emiten destellos fríos, y su cuerpo emana una presión que quiebra la resistencia.",
+  "species_name": "Pokémon Acero Fantasmal",
+  "lore": "Gengar, ahora envuelto en escamas de acero, camina con pasos resonantes. Sus ojos brillan con una luz fría, y sus extremidades se han endurecido en garras afiladas. El aire a su alrededor se congela al contacto.",
   "moves": [
     {
-      "name": "Acero Sombra",
-      "desc": "Ataca con un golpe de acero que absorbe la energía oscura del enemigo."
+      "name": "Impacto Acero",
+      "desc": "Ataca con un golpe contundente que deja marcas de acero en el oponente.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "shattered steel fragments, glowing gunmetal gray arcs, polished silver sparks, metallic steam vents, neon cyan energy trails, electric blue shockwaves, industrial cityscape backdrop"
     },
     {
-      "name": "Resonancia Fría",
-      "desc": "Genera ondas de frío que debilitan a los enemigos cercanos."
+      "name": "Sombra Fría",
+      "desc": "Cubre al oponente con una sombra que reduce su movimiento y lo congela parcialmente.",
+      "name_en": "Cold Shadow",
+      "visual_prompt": "cold steel shadows, metallic steam vents, glowing neon cyan grid, polished silver frost patterns, electric blue ice shards, industrial cityscape backdrop"
     },
     {
-      "name": "Cortante de Acero",
-      "desc": "Corta al enemigo con una hoja de acero que no deja heridas."
+      "name": "Cuchilla de Sombra",
+      "desc": "Lanza cuchillas de sombra que cortan con precisión y fuerza acero.",
+      "name_en": "Shadow Blade",
+      "visual_prompt": "shimmering steel blades slicing through air, gunmetal gray and polished silver textures, electric blue energy trails, neon cyan sparks, industrial city skyline backdrop, metallic steam vents, sharp geometric patterns, dynamic motion lines"
     },
     {
-      "name": "Eco de la Oscuridad",
-      "desc": "Crea un eco que refuerza los ataques de acero y sombra."
+      "name": "Resonancia de Acero",
+      "desc": "Genera ondas de sonido que debilitan los ataques del oponente y lo estabilizan.",
+      "name_en": "Steel Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished silver ripples, metallic steel blue distortion, electric blue energy pulses, neon cyan harmonics, industrial cityscape backdrop, glowing neon signs, metallic steam vents"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas recubiertas de acero brillante"
+      "from": "cuadrúpedo con cuatro patas plantadas en el suelo",
+      "to": "extremidades endurecidas en garras afiladas y paso resonante"
     },
     {
-      "from": "cuerpo translúcido",
-      "to": "cuerpo sólido y metálico"
+      "from": "ojos brillantes con un brillo púrpura",
+      "to": "ojos que brillan con una luz fría y metálica"
     },
     {
-      "from": "ojos rojos",
-      "to": "ojos que emiten destellos fríos"
+      "from": "piel translúcida y etérea",
+      "to": "piel cubierta de escamas de acero resistente"
     },
     {
-      "from": "movimientos de sombra",
-      "to": "movimientos que combinan acero y oscuridad"
+      "from": "movimiento lento y sigiloso",
+      "to": "movimiento más rápido con impacto metálico en el suelo"
     }
   ],
   "pokemon_id": "094",

@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Su cabello de llama ahora brilla con chispas eléctricas, irradiando energía estática. Sus patas emiten destellos azulados al caminar, y su cuerpo libera pequeñas descargas al respirar.",
+  "lore": "Este Magmar ahora emana chispas eléctricas de sus patas, con una postura más dinámica y ojos brillantes. Su piel, antes roja, se cubre de rayas azules que canalizan la energía eléctrica.",
   "moves": [
     {
-      "name": "Chispa Llama",
-      "desc": "Lanza un rayo de chispas que quema y paraliza al oponente con un contacto directo."
+      "name": "Descarga Luminosa",
+      "desc": "Lanza un rayo brillante que ciega al oponente y reduce su velocidad.",
+      "name_en": "Luminous Charge",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy arcs, violet spark particles, bright white light streaks, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds, dynamic motion lines, electric cyan glow effects"
     },
     {
-      "name": "Descarga Estática",
-      "desc": "Carga energía eléctrica para aumentar el ataque y provocar parálisis en el siguiente ataque."
+      "name": "Chispa de Fuego",
+      "desc": "Combina chispas eléctricas con llamas para causar daño doble.",
+      "name_en": "Fire Spark",
+      "visual_prompt": "electric blue sparks, neon yellow flames, violet energy sparks, bright white lightning bolts, crackling energy field, stormy sky backdrop"
     },
     {
-      "name": "Llama Centelleante",
-      "desc": "Genera un aura de chispas que refuerza los ataques de fuego y eléctricos."
+      "name": "Pata Electrificada",
+      "desc": "Ataca con patadas cargadas de electricidad, elevando su precisión.",
+      "name_en": "Electrified Kick",
+      "visual_prompt": "crackling electric blue energy trails, neon yellow sparks, violet lightning bolts, bright white electric arcs, stormy sky backdrop with neon-lit thunderclouds, dynamic motion lines"
     },
     {
-      "name": "Relámpago Ígneo",
-      "desc": "Ataca con un rayo de fuego eléctrico que quema y electrocuta al rival."
+      "name": "Relámpago de Magia",
+      "desc": "Genera un relámpago que afecta a todos los enemigos cercanos.",
+      "name_en": "Magic Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow sparks, violet energy arcs, bright white crackling energy, electric cyan storm clouds, dynamic motion lines, stylized 2D VFX, Ken Sugimori aesthetic, no characters, no Pokémon, no creatures, no silhouettes, wide banner format, vibrant and energetic, stormy sky background, neon-lit thunderclouds, sharp and precise lightning strikes"
     }
   ],
   "diffs": [
     {
-      "from": "Cabello de llama",
-      "to": "Se transforma en chispas eléctricas que brillan en azul"
+      "from": "Piel roja y llamas",
+      "to": "Piel con rayas azules que canalizan electricidad."
     },
     {
-      "from": "Piel roja",
-      "to": "Adquiere un brillo azul eléctrico en las crestas"
+      "from": "Postura baja y estática",
+      "to": "Postura más dinámica con patas plantadas en movimiento."
     },
     {
-      "from": "Respiración de humo",
-      "to": "Emite pequeñas descargas al exhalar"
+      "from": "Ataques de fuego",
+      "to": "Ataques combinados de electricidad y fuego."
     },
     {
-      "from": "Movimientos de fuego",
-      "to": "Combina descargas eléctricas con llamas intensas"
+      "from": "Ojos normales",
+      "to": "Ojos brillantes que emiten destellos eléctricos."
     }
   ],
   "pokemon_id": "126",

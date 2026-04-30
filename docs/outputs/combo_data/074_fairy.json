@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Este Geodude transformado brilla con un aura de cristal de azúcar. Su cabeza redonda ahora refleja destellos de luz, mientras sus rasgos de roca se funden en un cristal brillante y frágil.",
+  "species_name": "Pokémon Mariposa de Hada",
+  "lore": "Con su cuerpo compacto cubierto de pétalos brillantes, Geodude ahora camina con delicadeza sobre el suelo. Sus patas cortas se han suavizado, cubiertas de brillo mágico que emana de su núcleo de hada.",
   "moves": [
     {
-      "name": "Brillo de Caramelo",
-      "desc": "Cubre al oponente con un dulce brillo que reduce su velocidad."
+      "name": "Pétalos de Sueño",
+      "desc": "Lanza pétalos que inducen un sueño profundo en el enemigo.",
+      "name_en": "Dream Petals",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white stardust, pearl lavender mist, crystalline mint light trails, soft twilight sky backdrop, delicate shimmering sparkles, ethereal dreamy glow"
     },
     {
-      "name": "Burbuja de Sueños",
-      "desc": "Crea una burbuja mágica que confunde al enemigo y reduce su precisión."
+      "name": "Brillo de Hada",
+      "desc": "Aumenta la defensa y evita que el enemigo use movimientos atacantes.",
+      "name_en": "Fairy Shine",
+      "visual_prompt": "glowing pastel pink orbs floating in a moonlit garden, soft lavender mist swirling around crystalline mint leaves, ivory white starlight reflections on dewdrops, delicate sparkling particles with starlight blue accents"
     },
     {
-      "name": "Cristal de Deseo",
-      "desc": "Aumenta el ataque del usuario con un brillo cristalino."
+      "name": "Canto de Luna",
+      "desc": "Canta una melodía que reduce la velocidad del rival.",
+      "name_en": "Moon Song",
+      "visual_prompt": "glowing moonlight, soft pastel pink petals swirling in a spiral, ivory white mist, pearl lavender starlight, crystalline mint glowing orbs floating in a gentle melody, starry twilight sky background, ethereal shimmering trails, delicate floral patterns in the air, soft focus on motion lines, no characters or Pokémon present, 2D stylized VFX, Ken Sugimori aesthetic, wide banner format, 60 words or less"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza pétalos brillantes que causan daño y reducen la defensa."
+      "name": "Arcoíris Mágico",
+      "desc": "Crea un arcoíris que cura a aliados y debilita a enemigos.",
+      "name_en": "Magic Rainbow",
+      "visual_prompt": "pastel pink and lavender rainbow arch, glowing starlight blue mist, crystalline mint dewdrops, ivory white petals floating in air, soft twilight glow, delicate floral patterns, ethereal shimmer, no characters, no Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda de piedra",
-      "to": "cabeza redonda con superficie lisa de cristal brillante"
+      "from": "Cuerpo rocoso",
+      "to": "Cuerpo cubierto de pétalos brillantes"
     },
     {
-      "from": "rasgos de roca",
-      "to": "rasgos de cristal brillante y frágil"
+      "from": "Patas cortas",
+      "to": "Patas suavizadas con brillo mágico"
     },
     {
-      "from": "resistencia a golpes",
-      "to": "vulnerabilidad a golpes físicos"
+      "from": "Postura baja",
+      "to": "Postura elegante y delicada"
     },
     {
-      "from": "color gris",
-      "to": "color brillante con destellos de azúcar"
+      "from": "Estructura rígida",
+      "to": "Estructura flexible y esponjosa"
     }
   ],
   "pokemon_id": "074",

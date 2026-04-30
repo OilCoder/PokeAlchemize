@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Agua Magnética",
-  "lore": "El Magnemite acuático flota en nubes de vapor, su cabeza redonda ahora cubierta de escamas de cristal que brillan bajo el agua. Sus ojos brillan con una luz azulada, reflejando la energía de los océanos.",
+  "lore": "Este Magnemite flota en el agua, sus patas metálicas brillan bajo el reflejo del mar. Su cuerpo de acero se cubre de algas, generando un campo magnético que atrae peces hacia su núcleo energético.",
   "moves": [
     {
       "name": "Ola Magnética",
-      "desc": "Crea una ola que absorbe energía eléctrica y la convierte en fuerza hidráulica."
+      "desc": "Genera una ola de energía magnética que reduce la defensa del oponente.",
+      "name_en": "Magnetic Wave",
+      "visual_prompt": "glowing teal magnetic waves, swirling deep ocean blue currents, pearly white energy orbs, aquamarine ripples, sapphire blue energy trails, bioluminescent plankton sparks, smooth underwater motion"
     },
     {
-      "name": "Burbuja Estelar",
-      "desc": "Lanza burbujas que emiten destellos de luz, confundiendo a los oponentes."
+      "name": "Burbuja Acuática",
+      "desc": "Crea burbujas que envuelven al oponente, retrasando su movimiento.",
+      "name_en": "Water Bubble",
+      "visual_prompt": "glowing aquamarine bubbles, swirling teal currents, pearly white foam trails, deep ocean blue backdrop, bioluminescent plankton sparks, smooth water ripples"
     },
     {
-      "name": "Corriente Submarina",
-      "desc": "Genera una corriente que empuja al oponente hacia atrás con fuerza."
+      "name": "Chorro de Agua Magnética",
+      "desc": "Dispara un chorro de agua cargado de electricidad.",
+      "name_en": "Magnetic Water Jet",
+      "visual_prompt": "electric blue water stream, glowing magnetic field rings, bioluminescent plankton sparks, deep ocean trench backdrop, teal and sapphire blue energy swirls, pearly white water droplets"
     },
     {
-      "name": "Cristal de Mar",
-      "desc": "Cubre al oponente con un cristal de hielo que reduce su movilidad."
+      "name": "Resonancia Marina",
+      "desc": "Aumenta el ataque y la velocidad al sincronizarse con el mar.",
+      "name_en": "Marine Resonance",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water currents, teal green energy ripples, pearly white light pulses, aquamarine wave patterns, sapphire blue shimmering particles"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "cubierta de escamas de cristal brillante"
+      "from": "patas metálicas",
+      "to": "patas cubiertas de algas y barnizadas por el agua"
     },
     {
-      "from": "ojo pequeño",
-      "to": "ojos brillantes con luz azulada"
+      "from": "cuerpo de acero",
+      "to": "cuerpo recubierto de algas y agua salada"
     },
     {
-      "from": "energía eléctrica",
-      "to": "energía hidráulica convertida"
+      "from": "campo magnético",
+      "to": "campo magnético que atrae peces y agua"
     },
     {
-      "from": "movimiento lento",
-      "to": "movimiento fluido en el agua"
+      "from": "posición baja",
+      "to": "flotando suavemente en el agua con postura elevada"
     }
   ],
   "pokemon_id": "081",

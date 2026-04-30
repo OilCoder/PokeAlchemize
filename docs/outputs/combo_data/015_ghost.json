@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Venenoso",
-  "lore": "El Beedrill Fantasma flota sin hacer ruido, sus antenas negras brillan con un aura espectral. Su cuerpo translúcido revela veneno etéreo que se disipa en el aire. Sus picaduras emiten chillidos de almas atrapadas.",
+  "species_name": "Pokémon Espectro Veneno",
+  "lore": "Beedrill, ahora un espectro venenoso, flota sin peso, sus aguijones brillan con un resplandor azul pálido. Su cuerpo translúcido muestra veneno etéreo que emana de sus patas fantasmales.",
   "moves": [
     {
-      "name": "Veneno Espectral",
-      "desc": "Infecta al objetivo con veneno que se disuelve en sombras, causando daño gradual."
+      "name": "Veneno Fantasma",
+      "desc": "Infecta al rival con veneno y le roba energía espiritual, reduciendo su defensa.",
+      "name_en": "Ghost Poison",
+      "visual_prompt": "ghostly violet mist, decaying spectral leaves, shadowy tendrils, pale silver energy orbs, charcoal gray fog, moonlit tombstone silhouettes"
     },
     {
-      "name": "Antena Fantasma",
-      "desc": "Aumenta la precisión al atacar, usando antenas para atravesar barreras."
-    },
-    {
-      "name": "Alma Envenenada",
-      "desc": "Ataca con un grito que reduce la defensa y añade veneno."
+      "name": "Agujón Espectral",
+      "desc": "Ataca con aguijones que atraviesan la materia, causando daño y confusión.",
+      "name_en": "Spectral Sting",
+      "visual_prompt": "ghostly violet needles piercing through misty fog, shadow violet energy trails, pale silver shimmering particles, charcoal gray mist swirling, ethereal white glow on impact points"
     },
     {
       "name": "Sombra Venenosa",
-      "desc": "Cubre al objetivo en una sombra tóxica que reduce velocidad y daño."
+      "desc": "Crea una sombra que absorbe la vida del oponente y lo debilita.",
+      "name_en": "Poison Shade",
+      "visual_prompt": "ghostly violet mist swirling around decaying tombstones, pale silver orbs floating in shadowy fog, deep charcoal gray tendrils absorbing life energy, ethereal white mist dissolving into dark violet smoke"
+    },
+    {
+      "name": "Pulso Mortal",
+      "desc": "Genera un pulso de veneno que envenena y paraliza al rival.",
+      "name_en": "Mortal Pulse",
+      "visual_prompt": "violet poison mist, ghostly silver orbs, paralyzed glowing veins, shadow violet fog, ethereal graveyard mist, cracked tombstone fragments, pale silver pulse waves"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo sólido",
-      "to": "cuerpo translúcido con brillo espectral"
+      "from": "Cuatro patas en el suelo",
+      "to": "Flota sin contacto con el suelo, patas translúcidas y sin peso"
     },
     {
-      "from": "antenas negras",
-      "to": "antenas brillantes con aura espectral"
+      "from": "Aguijones sólidos",
+      "to": "Aguijones brillantes y etéreos que atraviesan la materia"
     },
     {
-      "from": "veneno líquido",
-      "to": "veneno etéreo que se disipa en el aire"
+      "from": "Color amarillo y negro",
+      "to": "Cuerpo translúcido con tonos azulados y venenosos"
     },
     {
-      "from": "picaduras físicas",
-      "to": "picaduras que emiten chillidos de almas atrapadas"
+      "from": "Vive en colmenas",
+      "to": "Se esconde en espacios espirituales, evitando la luz solar"
     }
   ],
   "pokemon_id": "015",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Vileplume, ahora transformado en Pokémon Llama Marina, tiene un capuchón esponjoso que gotea agua salada. Sus pétalos brillan con reflejos azules y emite un aroma fresco de océano. Su cuerpo se ha adaptado para flotar en el agua.",
+  "species_name": "Pokémon Lluvia Flor",
+  "lore": "Vileplume ahora flota sobre un suave remolino de agua, sus pétalos brillan con reflejos azulados. Sus patas se han transformado en aletas, y su aroma se mezcla con el olor a lluvia recién caída.",
   "moves": [
     {
-      "name": "Ola Venenosa",
-      "desc": "Lanza olas que envenenan al oponente con toxinas marinas."
+      "name": "Lluvia de Pétalos",
+      "desc": "Lanza pétalos que se convierten en gotas de agua al impactar, causando daño y reduciendo la precisión.",
+      "name_en": "Petals Rain",
+      "visual_prompt": "floating water droplets, delicate petal fragments, shimmering teal and aquamarine ripples, bioluminescent glow, soft underwater currents, deep ocean blue background"
     },
     {
-      "name": "Burbuja Esmeralda",
-      "desc": "Crea burbujas brillantes que reflejan la luz y confunden al rival."
+      "name": "Ola Floral",
+      "desc": "Genera una ola de agua que arrastra al rival, elevando el poder del ataque y reduciendo su velocidad.",
+      "name_en": "Floral Wave",
+      "visual_prompt": "bioluminescent teal water ripples, swirling aquamarine orbs, deep ocean blue currents, pearly white foam trails, glowing plankton particles, smooth undulating wave motion"
     },
     {
-      "name": "Marea Tóxica",
-      "desc": "Genera una marea que llena el campo con toxinas acuosas."
+      "name": "Burbuja Esencial",
+      "desc": "Crea burbujas que absorben el daño y lo devuelven al atacante en forma de energía.",
+      "name_en": "Essence Bubble",
+      "visual_prompt": "glowing deep ocean blue bubbles, swirling teal green energy, pearly white reflections, aquamarine ripples, sapphire blue light trails, bioluminescent plankton particles, calm underwater current motion"
     },
     {
-      "name": "Resplandor Marino",
-      "desc": "Emite un resplandor que cura a aliados y debilita enemigos."
+      "name": "Aroma Acuático",
+      "desc": "Emite un aroma que reduce el daño de los ataques tipo fuego y aumenta la defensa.",
+      "name_en": "Aqua Scent",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water currents, teal green ripples, pearly white mist, aquamarine light beams, sapphire blue energy orbs"
     }
   ],
   "diffs": [
     {
-      "from": "capuchón esponjoso",
-      "to": "capuchón que gotea agua salada, absorbiendo humedad del entorno"
+      "from": "pétalos florales",
+      "to": "pétalos brillantes con reflejos azulados que emiten luz bajo el agua"
     },
     {
-      "from": "pétalos verdes",
-      "to": "pétalos brillantes con reflejos azules, atrayendo peces"
+      "from": "patas en el suelo",
+      "to": "patas transformadas en aletas para nadar con fluidez"
     },
     {
-      "from": "olor a veneno",
-      "to": "olor fresco de océano, limpio y refrescante"
+      "from": "olor a flor",
+      "to": "olor a lluvia recién caída mezclado con esencias acuáticas"
     },
     {
-      "from": "cuerpo terrestre",
-      "to": "cuerpo adaptado para flotar, con una estructura más ligera"
+      "from": "postura baja",
+      "to": "flotando suavemente sobre un remolino de agua"
     }
   ],
   "pokemon_id": "045",

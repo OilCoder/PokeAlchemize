@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Mímico",
-  "lore": "Mr-mime, ahora cubierto de placas de acero, emite destellos metálicos al moverse. Su patrón circular en el pecho brilla con reflejos de acero, y sus manos proyectan escudos de energía que bloquean ataques.",
+  "species_name": "Pokémon Acero Fantasmal",
+  "lore": "Mr-mime se ha transformado en una figura de acero, sus brazos ahora son estructuras metálicas que emiten destellos azules. Su postura baja y estable se intensifica, con patas de acero que resuenan al caminar.",
   "moves": [
     {
       "name": "Escudo Acero",
-      "desc": "Proyecta un escudo de acero que absorbe el 50% del daño recibido por un turno."
+      "desc": "Crea un escudo de acero que absorbe ataques físicos y reduce daño.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray steel shield, polished silver edges, metallic steam vents, neon cyan energy pulses, electric blue aura, industrial cityscape backdrop, geometric shield patterns, glowing reflective surface"
     },
     {
-      "name": "Corte Luminoso",
-      "desc": "Corta al rival con un rayo de luz reflejado en sus placas, causando daño tipo acero."
-    },
-    {
-      "name": "Poder de la Placa",
-      "desc": "Aumenta su ataque y defensa en un 20% por un turno."
+      "name": "Molde de Acero",
+      "desc": "Transforma el suelo en acero, dificultando movimientos rápidos de oponentes.",
+      "name_en": "Steel Mold",
+      "visual_prompt": "gunmetal gray steel plates rising from ground, polished silver cracks forming geometric patterns, metallic steam vents emitting electric blue vapor, neon cyan glowing grid lines, industrial cityscape backdrop"
     },
     {
       "name": "Resonancia Metálica",
-      "desc": "Genera ondas de sonido que debilitan el movimiento del rival."
+      "desc": "Emite sonidos metálicos que confunden a los oponentes y reducen su precisión.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray metallic echoes, polished silver sound waves, electric blue distortion ripples, neon cyan vibrational pulses, industrial city skyline reflections, metallic steam vent wisps"
+    },
+    {
+      "name": "Fuerza de Acero",
+      "desc": "Ataca con un puñetazo de acero que eleva el ataque físico del usuario.",
+      "name_en": "Steel Punch",
+      "visual_prompt": "gunmetal gray steel fist emerging from metallic steam vents, polished silver energy trails, electric blue sparks, neon cyan aura, industrial cityscape backdrop with glowing neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "patrón circular en el pecho",
-      "to": "brilla con reflejos metálicos y actúa como fuente de energía para sus movimientos"
+      "from": "Brazos flexibles y expresivos",
+      "to": "Brazos convertidos en estructuras metálicas sólidas y resistentes"
     },
     {
-      "from": "manos que proyectan ilusiones",
-      "to": "proyectan escudos de acero que bloquean ataques físicos y especiales"
+      "from": "Postura baja y ligera",
+      "to": "Postura baja y estable, con patas de acero que resuenan al caminar"
     },
     {
-      "from": "piel suave y translúcida",
-      "to": "cubierta por placas de acero duras y resistentes"
+      "from": "Energía psíquica brillante",
+      "to": "Energía psíquica ahora emite destellos azules y se fusiona con el acero"
     },
     {
-      "from": "movimientos psíquicos suaves",
-      "to": "ataques con fuerza metálica y reflejos precisos"
+      "from": "Influencia de hadas",
+      "to": "Influencia de hadas reemplazada por una presencia fría y sólida de acero"
     }
   ],
   "pokemon_id": "122",

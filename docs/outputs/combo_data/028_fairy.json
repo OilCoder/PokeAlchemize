@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Mariposa",
-  "lore": "Con sus orejas puntiagudas ahora suaves y brillantes, Sandslash se transforma en una criatura etérea. Sus garras afiladas se vuelven esponjosas y su piel refleja destellos de luz de hada, danzando con cada movimiento.",
+  "lore": "Sandslash, ahora transformado en un Pokémon de tipo hada, camina con delicadeza sobre pétalos brillantes. Sus garras afiladas brillan con destellos de luz, y sus espinas se cubren de polvo de estrellas. Su postura baja se ha suavizado, adaptándose a la elegancia del aire.",
   "moves": [
     {
-      "name": "Danza de Pétalos",
-      "desc": "Lanza pétalos brillantes que confunden al rival y reducen su precisión."
+      "name": "Bailarina de Polvo",
+      "desc": "El usuario gira en el aire, liberando un polvo brillante que reduce la defensa del oponente.",
+      "name_en": "Dust Waltz",
+      "visual_prompt": "glowing pastel pink dust particles swirling in elegant spirals, soft ivory white mist, pearl lavender sparkles, starlight blue crystalline fragments, delicate floral patterns in the mist, moonlit garden backdrop with glowing flowers"
     },
     {
-      "name": "Ala de Sueño",
-      "desc": "Cubre al rival en un sueño suave, reduciendo su velocidad durante el combate."
+      "name": "Ala de Estrella",
+      "desc": "Ataca con un movimiento rápido, cubriendo al oponente con destellos que aumentan el daño.",
+      "name_en": "Star Wing",
+      "visual_prompt": "glowing pastel pink starbursts, floating crystal shards, soft lavender mist, dewdrop reflections, shimmering starlight blue trails, delicate fairy-wing motifs"
+    },
+    {
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan a aliados y confunden al enemigo.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white stardust, pearl lavender mist, crystalline mint light trails, soft twilight sky background, ethereal shimmer, delicate floral patterns, no characters"
     },
     {
       "name": "Brillo de Luna",
-      "desc": "Emite un brillo suave que restaura la energía de aliados cercanos."
-    },
-    {
-      "name": "Canto de Hadas",
-      "desc": "Canta una melodía mágica que aumenta la defensa de aliados."
+      "desc": "Cubre al usuario con un brillo suave que protege contra ataques especiales.",
+      "name_en": "Moonlight Shield",
+      "visual_prompt": "soft pastel pink glow, ivory white mist, pearl lavender starlight, crystalline mint shimmer, glowing floral patterns, delicate star clusters, ethereal moonbeam reflections"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas suaves y redondeadas con destellos de luz"
-    },
-    {
-      "from": "piel áspera de tierra",
-      "to": "piel brillante y esponjosa como pétalos"
-    },
-    {
       "from": "garras afiladas",
-      "to": "garras suaves y esponjosas"
+      "to": "garras brillantes con destellos de luz"
     },
     {
-      "from": "movimientos terrenales",
-      "to": "movimientos que usan luz y brillo de hada"
+      "from": "espinas duras",
+      "to": "espinas cubiertas de polvo de estrellas"
+    },
+    {
+      "from": "postura baja",
+      "to": "postura suave y elegante"
+    },
+    {
+      "from": "patas plantadas en el suelo",
+      "to": "paso ligero sobre pétalos brillantes"
     }
   ],
   "pokemon_id": "028",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Clefairy ahora se funde con el agua, sus ojos redondos brillan como gotas de cristal. Su piel se torna suave y esmeralda, absorbiendo el mar en cada movimiento. Nada con gracia bajo olas luminosas.",
+  "species_name": "Pokémon Agua de Cielo",
+  "lore": "Clefairy, ahora con piel brillante y manchas de agua, camina sobre olas suaves. Sus patas se transforman en aletas, permitiendo nadar sin esfuerzo. Su aura de magia se mezcla con el movimiento del agua.",
   "moves": [
     {
       "name": "Ola de Sueños",
-      "desc": "Crea olas que envuelven al rival en sueños, reduciendo su velocidad durante 2 turnos."
+      "desc": "Crea olas que envuelven al oponente, reduciendo su velocidad y generando sueños tranquilos.",
+      "name_en": "Dream Wave",
+      "visual_prompt": "gentle water ripples, glowing bioluminescent plankton, teal green and aquamarine waves, pearly white mist, calm underwater currents, soft dreamy glow"
     },
     {
-      "name": "Burbuja de Luz",
-      "desc": "Lanza burbujas brillantes que reflejan ataques y restauran un poco de salud."
+      "name": "Burbujas Místicas",
+      "desc": "Lanza burbujas que absorben ataques y reflejan daño al oponente.",
+      "name_en": "Mystic Bubbles",
+      "visual_prompt": "glistening water bubbles, swirling bioluminescent plankton, deep ocean blue light, reflective surface, teal green ripples, pearly white glow, aquamarine distortion, sapphire blue currents"
     },
     {
-      "name": "Salto de Océano",
-      "desc": "Salta hacia adelante con fuerza de la marea, causando daño y posiblemente confundiendo al rival."
+      "name": "Resplandor Acuático",
+      "desc": "Emite un brillo intenso que cura a aliados y debilita a enemigos.",
+      "name_en": "Aquatic Radiance",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water ripples, pearly white light beams, teal green luminescent bubbles, aquamarine energy waves, sapphire blue shimmering particles"
     },
     {
-      "name": "Canto Marítimo",
-      "desc": "Canta una melodía que calma a todos los Pokémon en el campo, reduciendo el daño recibido."
+      "name": "Salto de Ondas",
+      "desc": "Salta en el agua, atacando con un golpe circular que causa daño en área.",
+      "name_en": "Wave Jump",
+      "visual_prompt": "circular ripple effect, deep ocean blue water surface, teal green bioluminescent plankton glowing softly, pearly white foam rings, aquamarine energy waves, sapphire blue water currents swirling"
     }
   ],
   "diffs": [
     {
-      "from": "ojos redondos con pupilas negras",
-      "to": "ojos redondos brillantes como gotas de cristal"
+      "from": "Piel suave y brillante",
+      "to": "Piel brillante con manchas de agua que resplandecen bajo el sol"
     },
     {
-      "from": "piel suave y rosada",
-      "to": "piel suave y esmeralda, absorbente de agua"
+      "from": "Cuatro patas firmes",
+      "to": "Patas transformadas en aletas flexibles para nadar con gracia"
     },
     {
-      "from": "movimientos ligeros y aéreos",
-      "to": "movimientos fluidos y acuáticos, con mareas"
+      "from": "Bajo postura",
+      "to": "Postura elevada sobre olas suaves, equilibrada en el agua"
     },
     {
-      "from": "capaz de saltar en el aire",
-      "to": "capaz de nadar bajo olas luminosas"
+      "from": "Aurora mágica",
+      "to": "Aura de magia mezclada con el movimiento fluido del agua"
     }
   ],
   "pokemon_id": "035",

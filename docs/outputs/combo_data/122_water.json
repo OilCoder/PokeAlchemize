@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Ola Mística",
-  "lore": "Ola Mística emana un aura acuosa que transforma sus gestos en olas fluidas. Su patrón circular en el pecho brilla con reflejos de agua, y sus manos dibujan espirales que generan remolinos mágicos.",
+  "species_name": "Pokémon Mímico Acuático",
+  "lore": "Mr-mime, ahora con piel de algas brillantes, camina con pasos suaves sobre el agua. Sus manos forman burbujas que resuenan como campanas en el mar. Su postura se ha adaptado para flotar, sin perder su elegancia mística.",
   "moves": [
     {
-      "name": "Ola Mental",
-      "desc": "Crea olas de energía psíquica que desorientan al oponente con reflejos acuosos."
+      "name": "Burbuja Mística",
+      "desc": "Genera burbujas que absorben ataques psíquicos y reflejan energías místicas.",
+      "name_en": "Mystic Bubble",
+      "visual_prompt": "glowing bioluminescent bubbles, deep ocean blue water surface, teal green ripples, pearly white reflections, aquamarine light beams, sapphire blue energy waves, calm underwater currents, translucent bubble clusters, soft luminescent glow, ethereal misty haze"
     },
     {
-      "name": "Espejo de Mar",
-      "desc": "Genera un espejo acuático que duplica el ataque del rival en su propia dirección."
+      "name": "Ola de Sueños",
+      "desc": "Crea una ola que envuelve al enemigo en un sueño profundo, reduciendo su velocidad.",
+      "name_en": "Dream Wave",
+      "visual_prompt": "calm ocean waves with glowing bioluminescent plankton, deep blue and teal water ripples, pearly white mist swirling in slow motion, aquamarine energy waves encircling a void, sapphire blue light refracting through water"
     },
     {
-      "name": "Marea Psíquica",
-      "desc": "Envuelve al oponente en una marea de energía psíquica que reduce su velocidad."
+      "name": "Espejo de Agua",
+      "desc": "Refleja ataques físicos y psíquicos con precisión, devolviendo el daño.",
+      "name_en": "Water Mirror",
+      "visual_prompt": "shimmering water surface reflecting light, precise geometric ripples, glowing teal and sapphire blue orbs, pearly white refraction patterns, bioluminescent plankton sparks, calm underwater current swirls"
     },
     {
-      "name": "Círculo de Agua",
-      "desc": "Forma un círculo de agua alrededor de sí mismo para bloquear ataques."
+      "name": "Canto Marítimo",
+      "desc": "Canta una melodía que calma a todos los Pokémon en combate, reduciendo su agresividad.",
+      "name_en": "Marine Lullaby",
+      "visual_prompt": "glowing bioluminescent plankton, swirling teal water currents, pearly white ripples, aquamarine light waves, deep ocean blue background, calm undulating motion"
     }
   ],
   "diffs": [
     {
-      "from": "Patrón circular en el pecho",
-      "to": "Brilla con reflejos de agua y genera remolinos al moverse"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas transformadas en aletas que permiten caminar sobre el agua"
     },
     {
-      "from": "Manos que dibujan gestos",
-      "to": "Dibujan espirales que generan olas acuáticas"
+      "from": "Piel pálida y lisa",
+      "to": "Piel cubierta de algas brillantes y textura acuática"
     },
     {
-      "from": "Aurora psíquica",
-      "to": "Se transforma en una aura acuosa que refleja la magia"
+      "from": "Postura baja y rígida",
+      "to": "Postura elevada y fluida, flotando suavemente sobre el agua"
     },
     {
-      "from": "Efecto de ilusión",
-      "to": "Crea ilusiones de olas que confunden al enemigo"
+      "from": "Manos que forman barreras",
+      "to": "Manos que generan burbujas que resuenan como campanas"
     }
   ],
   "pokemon_id": "122",

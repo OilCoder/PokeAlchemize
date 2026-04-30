@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Digital",
-  "lore": "Sombra Digital flota en la oscuridad, su cuerpo geométrico translúcido proyecta sombras danzantes. Sus bordes afilados ahora brillan con un resplandor espectral, absorbiendo la luz para crear ilusiones en el aire.",
+  "species_name": "Pokémon Espectral Digital",
+  "lore": "Porygon Espectral Digital flota sin contacto con el suelo, sus patas se han transformado en espirales de energía oscura. Sus ojos brillan con un resplandor fantasmal, y su cuerpo emite un zumbido suave al moverse.",
   "moves": [
     {
-      "name": "Efecto Fantasmal",
-      "desc": "Crea una ilusión que confunde al oponente, reduciendo su precisión en un 20% durante un turno."
+      "name": "Energía Fantasma",
+      "desc": "Ataca con ondas de energía oscura que atraviesan defensas físicas.",
+      "name_en": "Phantom Energy",
+      "visual_prompt": "dark violet energy waves, translucent shadowy ripples, ghostly white mist, charred gray particles, ethereal fog, moonlit tombstone silhouettes, deep violet aura, pale silver glints"
     },
     {
-      "name": "Código Sombrio",
-      "desc": "Ataca con un código binario oscuro que causa daño y reduce la defensa especial del rival."
+      "name": "Código Invisibilidad",
+      "desc": "Hace al Pokémon invisible temporalmente, evitando ataques.",
+      "name_en": "Invisible Code",
+      "visual_prompt": "glowing violet code fragments, floating in misty air, deep violet and charcoal gray shadows, pale silver particles, ghostly white outlines, ethereal fog drifting over moonlit tombstones"
     },
     {
-      "name": "Resonancia Espiritual",
-      "desc": "Aumenta la velocidad de Sombra Digital y reduce el daño recibido por movimientos de tipo fantasma."
+      "name": "Memoria Fantasmal",
+      "desc": "Roba energía del oponente y la almacena para un ataque posterior.",
+      "name_en": "Phantom Memory",
+      "visual_prompt": "floating ghostly silver orbs, deep violet energy trails, misty graveyard fog, shadow violet aura, pale silver glowing particles, charcoal gray mist swirls"
     },
     {
-      "name": "Eclipse Digital",
-      "desc": "Enmascara al usuario, evitando ataques y permitiendo un ataque sorpresa en el siguiente turno."
+      "name": "Sistema de Fuga",
+      "desc": "Permite huir de combates sin usar una Poké Ball.",
+      "name_en": "Escape System",
+      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, pale silver fog drifting through shadowy graves, ethereal white orbs floating in charcoal gray air, misty graveyard atmosphere, subtle shimmering trails"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo geométrico con bordes afilados",
-      "to": "Bordes afilados brillan con resplandor espectral, absorbiendo luz para crear ilusiones."
+      "from": "Cuatro patas cortas en el suelo",
+      "to": "Patas transformadas en espirales de energía oscura que flotan"
     },
     {
-      "from": "Forma sólida y estática",
-      "to": "Flota en el aire como una sombra, con movimiento fluido y silencioso."
+      "from": "Cuerpo sólido",
+      "to": "Cuerpo translúcido con brillo fantasmal"
     },
     {
-      "from": "Sin emisión de energía",
-      "to": "Emite un resplandor tenue que desvía la luz y crea ilusiones visuales."
+      "from": "Bajo postura",
+      "to": "Flotando en el aire sin contacto con el suelo"
     },
     {
-      "from": "Ataques basados en tecnología",
-      "to": "Movimientos ahora combinan código digital y espiritualidad fantasmal."
+      "from": "Ojos normales",
+      "to": "Ojos brillantes con resplandor oscuro"
     }
   ],
   "pokemon_id": "137",

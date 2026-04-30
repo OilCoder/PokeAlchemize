@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Con su corona de llama en la cabeza, este Magikarp arde con fuerza interior. Su cuerpo resplandece con escamas doradas que brillan al sol, mientras su cola emite chispas de fuego al nadar.",
+  "lore": "El Pokémon Llama Marina, un Magikarp transformado por el fuego, arde con llamas azules en sus escamas. Sus patas cortas ahora emiten chispas, y su postura baja se combina con un resplandor incandescente que marca su presencia en el agua.",
   "moves": [
     {
-      "name": "Llama Resplandeciente",
-      "desc": "Ataca con llamas que brillan intensamente, cegando al rival en el agua."
+      "name": "Llama de Agua",
+      "desc": "Dispara un chorro de agua hirviendo que quema al oponente al contacto.",
+      "name_en": "Steam Blast",
+      "visual_prompt": "molten orange water jets, searing crimson steam plumes, glowing ember particles, cracked volcanic rock texture, molten gold mist, charcoal black smoke trails"
     },
     {
-      "name": "Chispa de Fuego",
-      "desc": "Dispara chispas de fuego que queman al contacto, aumentando el daño."
+      "name": "Chispa Acuática",
+      "desc": "Genera chispas que saltan entre el agua y el aire, causando daño eléctrico.",
+      "name_en": "Water Spark",
+      "visual_prompt": "crimson red electric sparks, amber orange water droplets, molten gold vapor trails, charcoal black steam, glowing ember particles, chaotic water-air interface, volcanic crater background, smoke-filled air, dynamic energy arcs, stylized 2D VFX, Ken Sugimori aesthetic, wide banner format"
     },
     {
-      "name": "Caudal de Llamas",
-      "desc": "Genera un torrente de llamas que quema el entorno y reduce la defensa."
+      "name": "Humedad Ardiente",
+      "desc": "Crea una nube de vapor caliente que reduce la defensa del rival.",
+      "name_en": "Scorching Steam",
+      "visual_prompt": "crimson red steam clouds, amber orange heat haze, molten gold droplets, charcoal black smoke swirls, glowing ember particles, volcanic crater backdrop, intense heat distortion, dynamic upward motion, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Corona Ardiente",
-      "desc": "Lanza una corona de llamas que inflige daño y quema al objetivo."
+      "name": "Burbuja Incandescente",
+      "desc": "Lanza burbujas que estallan en llamas al impactar.",
+      "name_en": "Incandescent Bubble",
+      "visual_prompt": "crimson red bubbles, molten gold flames, amber orange sparks, charcoal black smoke trails, glowing ember bursts, volcanic crater background, smoke-filled air, stylized 2D VFX, Ken Sugimori aesthetic, wide banner format, no characters, no Pokémon, no creatures, no silhouettes"
     }
   ],
   "diffs": [
     {
-      "from": "corona pequeña y suave",
-      "to": "corona de llama brillante y caliente"
+      "from": "Patas cortas y postura baja",
+      "to": "Patas emiten chispas y resplandor incandescente"
     },
     {
-      "from": "cuerpo pequeño y débil",
-      "to": "cuerpo robusto con escamas doradas"
+      "from": "Escamas suaves y pálidas",
+      "to": "Escamas azules brillantes con llama interna"
     },
     {
-      "from": "nado lento y sin fuerza",
-      "to": "nado rápido con chispas en la cola"
+      "from": "Agua como su elemento principal",
+      "to": "Agua hirviendo y vapor caliente como ataque"
     },
     {
-      "from": "color azul pálido",
-      "to": "escamas doradas brillantes con destellos rojos"
+      "from": "Baja resistencia y fuerza",
+      "to": "Resistencia aumentada por el calor interno"
     }
   ],
   "pokemon_id": "129",

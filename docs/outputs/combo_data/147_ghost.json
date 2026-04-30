@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Dracónico",
-  "lore": "Dratini, ahora un espíritu etéreo, emana un aura fantasmal que envuelve su cuerpo serpentino. Sus ojos brillan con un resplandor azul pálido, y sus escamas reflejan la oscuridad de los sueños.",
+  "species_name": "Pokémon Llama Espectral",
+  "lore": "Dratini ahora camina sobre sombras etéreas, sus escamas brillan con un resplandor pálido. Su cuerpo translúcido absorbe la luz, mientras sus ojos rojos brillan en la oscuridad, marcando su presencia fantasmal.",
   "moves": [
     {
       "name": "Sombra Serpentina",
-      "desc": "Atrae a los enemigos hacia sombras que emergen de su cola, reduciendo su velocidad."
+      "desc": "Lanza una sombra que envuelve al oponente, reduciendo su velocidad y causando confusión.",
+      "name_en": "Serpentine Shadow",
+      "visual_prompt": "twisting shadow tendrils, violet mist, glowing pale silver orbs, charcoal gray smoke swirls, ghostly white mist, shadow violet aura, ethereal fog, moonlit tombstone silhouette (no character, no Pokémon)"
     },
     {
-      "name": "Susurro Fantasmal",
-      "desc": "Inflige daño mágico y reduce la defensa del oponente con un susurro inquietante."
+      "name": "Viento Fantasmal",
+      "desc": "Genera un viento frío que reduce la defensa del rival y lo desorienta.",
+      "name_en": "Phantom Gale",
+      "visual_prompt": "cold violet wind currents, swirling misty graveyard fog, floating ghostly silver orbs, shadow violet debris, ethereal charcoal gray particles, pale silver moonlight beams"
     },
     {
-      "name": "Espejismo Dragónico",
-      "desc": "Crea múltiples imágenes fantasmales para confundir al enemigo y aumentar la precisión."
+      "name": "Resplandor Espectral",
+      "desc": "Emite un resplandor que cura parcialmente los puntos de vida y debilita a los enemigos.",
+      "name_en": "Spectral Glow",
+      "visual_prompt": "glowing violet orbs floating in mist, faint silver trails, ethereal white light rays, shadowy violet fog, ghostly particles, soft charcoal gray outlines, moonlit graveyard atmosphere"
     },
     {
-      "name": "Aliento de la Noche",
-      "desc": "Lanza una ráfaga de energía oscura que causa daño y quema a los enemigos."
+      "name": "Eclipse Dragón",
+      "desc": "Cubre al oponente con una oscuridad total, ocultando su posición y reduciendo su precisión.",
+      "name_en": "Dragon Eclipse",
+      "visual_prompt": "violet mist swirling into shadowy tendrils, charcoal gray moonlight beams, pale silver fog tendrils, ghostly white orb hovering, shadow violet energy waves, misty graveyard backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo serpentino",
-      "to": "cuerpo translúcido y etéreo, como si estuviera hecho de humo."
-    },
-    {
-      "from": "ojos brillantes",
-      "to": "ojos que emiten un brillo azul pálido, más siniestro."
+      "from": "cuatro patas firmes en el suelo",
+      "to": "patas translúcidas que flotan sobre sombras, sin contacto físico"
     },
     {
       "from": "escamas brillantes",
-      "to": "escamas que reflejan la oscuridad, como espejos en la noche."
+      "to": "escamas que emiten un resplandor pálido y se funden con la oscuridad"
     },
     {
-      "from": "sonido de escamas",
-      "to": "sonido silencioso, como el susurro de una brisa fantasmal."
+      "from": "cuerpo serpentina",
+      "to": "cuerpo translúcido que parece parte de la sombra"
+    },
+    {
+      "from": "ojos dorados",
+      "to": "ojos rojos que brillan en la oscuridad para marcar su presencia"
     }
   ],
   "pokemon_id": "147",

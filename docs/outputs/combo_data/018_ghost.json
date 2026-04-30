@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Aéreo",
-  "lore": "Pidgeot, ahora un espíritu etéreo, vuela sin ruido entre las sombras. Sus alas translúcidas brillan con destellos rosados, y sus orejas puntiagudas emiten un suave resplandor púrpura al absorber la energía espectral.",
+  "species_name": "Pokémon Fantasma Aéreo",
+  "lore": "Pidgeot, ahora un espíritu etéreo, flota sin peso. Sus plumas se tornan translúcidas y sus ojos brillan con destellos azulados. El tipo Fantasma le otorga una presencia inquietante en el aire.",
   "moves": [
     {
-      "name": "Ala Fantasma",
-      "desc": "Ataca con alas invisibles que desgarran el aire, causando daño psíquico a los enemigos."
+      "name": "Ala Espectral",
+      "desc": "Aumenta el daño con efecto de aturdimiento al contacto.",
+      "name_en": "Spectral Wing",
+      "visual_prompt": "ghostly violet mist swirling around jagged, translucent wing fragments, floating shards of pale silver, shadow violet energy pulses, ethereal fog drifting through moonlit tombstone outlines, charcoal gray mist tendrils"
     },
     {
-      "name": "Susurro de Sombras",
-      "desc": "Envenena al oponente con un susurro que se entrelaza con su aura espectral."
+      "name": "Viento Fantasmal",
+      "desc": "Crea una ráfaga de viento que reduce la defensa del oponente.",
+      "name_en": "Phantom Gale",
+      "visual_prompt": "ghostly violet mist swirling into sharp, jagged wind blades, pale silver particles drifting through shadow violet fog, charcoal gray aura with faint white outlines, ethereal moonlit tombstone silhouettes in background"
     },
     {
-      "name": "Vuelo Invisibilidad",
-      "desc": "Se vuelve invisible durante un turno, evitando todos los ataques."
+      "name": "Sombra Voladora",
+      "desc": "Invoca sombras que bloquean los ataques y duplican el daño.",
+      "name_en": "Flying Shadow",
+      "visual_prompt": "floating ghostly shards, misty graveyard atmosphere, moonlit tombstones, violet and gray shadow orbs, ethereal fog drifting, pale silver light accents, deep violet energy trails"
     },
     {
-      "name": "Resplandor Espectral",
-      "desc": "Emite un brillo púrpura que fortalece sus propias estadísticas."
+      "name": "Susurro de la Noche",
+      "desc": "Reduce el ataque del rival con un susurro inquietante.",
+      "name_en": "Night Whisper",
+      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, pale silver orbs floating in shadowy fog, charcoal gray tendrils curling like whispers, ethereal white particles fading into darkness"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de plumas suaves",
-      "to": "Alas translúcidas que absorben la luz"
+      "from": "plumas suaves y coloridas",
+      "to": "plumas translúcidas y brillantes con destellos azules"
     },
     {
-      "from": "Orejas redondeadas",
-      "to": "Orejas puntiagudas con destellos rosados"
+      "from": "vuelo ligero y rápido",
+      "to": "flotación sin peso, movimientos más lentos pero más impactantes"
     },
     {
-      "from": "Vuelo ligero",
-      "to": "Vuelo silencioso que no deja rastro"
+      "from": "postura compacta con cuatro patas",
+      "to": "postura etérea sin contacto con el suelo"
     },
     {
-      "from": "Personalidad tranquila",
-      "to": "Personalidad misteriosa y evasiva"
+      "from": "comportamiento tranquilo",
+      "to": "presencia inquieta y espectral en el aire"
     }
   ],
   "pokemon_id": "018",

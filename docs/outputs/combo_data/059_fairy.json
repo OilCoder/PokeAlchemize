@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Mariposa",
-  "lore": "Con su pelaje plateado y pétalos brillantes, el Arcanine de tipo hada brilla con un aura mágica. Sus espinas doradas ahora brillan como cristales, y su cola se transforma en una cola de mariposa etérea.",
+  "species_name": "Pokémon Llama Dulce",
+  "lore": "Arcanine, ahora con un aura de hada, reluce con pelaje plateado y ojos brillantes. Sus patas se cubren de pétalos luminosos, y cada zancada libera destellos mágicos que curan heridas.",
   "moves": [
     {
-      "name": "Ala de Sueño",
-      "desc": "Lanza pétalos que inducen un sueño profundo en el oponente."
+      "name": "Zarza de Luna",
+      "desc": "Lanza espinas de luz que sanan a aliados y debilitan a enemigos con su energía mágica.",
+      "name_en": "Lunar Spine",
+      "visual_prompt": "glowing moonlit spines, soft pastel pink petals, ivory white starlight trails, pearl lavender mist, crystalline mint energy orbs, delicate magical glow, ethereal twilight sky backdrop"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Aumenta la defensa y evita ataques críticos durante un turno."
+      "name": "Bailarina de Estrellas",
+      "desc": "Crea un baile circular que aumenta la velocidad y evasión de aliados por un turno.",
+      "name_en": "Starlight Waltz",
+      "visual_prompt": "glowing starlight blue orbs swirling in circular motion, soft pastel pink petals floating mid-air, ivory white mist drifting gently, pearl lavender sparkles with crystalline mint accents, delicate moonlit garden backdrop with glowing flowers"
     },
     {
-      "name": "Pétalo Mágico",
-      "desc": "Cubre al oponente con pétalos que reducen sus estadísticas."
+      "name": "Canto de Ceniza",
+      "desc": "Emite un canto que reduce la defensa del enemigo y deja un aura protectora.",
+      "name_en": "Ash Song",
+      "visual_prompt": "floating pastel pink petals, shimmering ivory white aura, pearl lavender mist, glowing starlight blue crystals, crystalline mint light particles, soft misty twilight sky"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Crea una danza de estrellas que mejora el ataque y la precisión."
+      "name": "Fuego de Sueños",
+      "desc": "Genera llamas suaves que envuelven al enemigo, causando daño y confundiendo temporalmente.",
+      "name_en": "Dreamfire",
+      "visual_prompt": "soft pastel pink flames, swirling mist, glowing starlight blue embers, pearl lavender petals, crystalline mint sparkles, moonlit garden backdrop, gentle twirls, ethereal glow"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje rojo y espinas negras",
-      "to": "pelaje plateado con pétalos brillantes"
+      "from": "Pelaje rojo brillante",
+      "to": "Pelaje plateado con destellos de luz mágica"
     },
     {
-      "from": "cola de fuego",
-      "to": "cola de mariposa etérea"
+      "from": "Postura agresiva y baja",
+      "to": "Postura elegante con patas cubiertas de pétalos brillantes"
     },
     {
-      "from": "ojos rojos",
-      "to": "ojos dorados brillantes"
+      "from": "Fuego ardiente",
+      "to": "Fuego suave que cura y protege"
     },
     {
-      "from": "respiración de llama",
-      "to": "respiración de polvo de estrellas"
+      "from": "Ojos amarillos",
+      "to": "Ojos brillantes que reflejan magia de hada"
     }
   ],
   "pokemon_id": "059",

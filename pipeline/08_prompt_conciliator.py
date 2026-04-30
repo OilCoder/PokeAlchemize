@@ -18,8 +18,17 @@ from config import (
 
 logger = logging.getLogger(__name__)
 
-_REQUIRED_KEYS = {"prompt"}
+_REQUIRED_KEYS = {"prompt", "negative_prompt"}
 _PART_SUFFIXES = ("pa", "ps", "pe", "na", "ns")
+
+_COMPOSITIONS = [
+    "Full body portrait, centered character",
+    "Full body portrait, centered character, slight three-quarter view",
+    "Full body portrait, centered character, dynamic action pose",
+    "Full body portrait, centered character, low angle",
+    "Full body portrait, centered character, looking forward",
+    "Full body portrait, centered character, alert stance",
+]
 
 
 def _load_type_visual(target_type: str) -> dict:
@@ -50,11 +59,14 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: 
 
     Token layout (CLIP limit = 77):
       ~12  palette colors (no label — avoids triggering color-swatch rendering)
-      ~12  name + type + top anchor phrase (locks identity and body shape)
+      ~18  name + type + up to 3 anchor phrases (locks identity and body shape)
       ~12  Ken Sugimori style directive
       ~15  skin_material (type texture, ≤20 words enforced in E2)
       ~15  signature_feature (Pokémon-specific feature, ≤20 words enforced in PA)
       ~10  accent + background scene + composition directive + no-text tag
+
+    negative_prompt is built from na (suppress original body traits) and
+    ns (suppress original type colors/effects) specialist outputs.
 
     Args:
         pokemon_analysis: E1 output dict with pokemon_name and anchor_phrases.
@@ -63,36 +75,52 @@ def _assemble(pokemon_analysis: dict, parts: dict, target_type: str, type_data: 
         type_data: E2 output dict with palette, skin_material, accent, background.
 
     Returns:
-        Dict with 'prompt' string.
+        Dict with 'prompt' and 'negative_prompt' strings.
     """
+    pokemon_id = pokemon_analysis.get("pokemon_id", "000")
     name       = pokemon_analysis.get("pokemon_name", "").capitalize()
     palette    = type_data["palette"]
     skin       = type_data["skin_material"]
     accent     = type_data["accent"]
-    background = type_data.get("background", "")
     signature  = parts["pa"].get("signature_feature", "")
 
-    anchors    = pokemon_analysis.get("anchor_phrases", [])
-    top_anchor = anchors[0] if anchors else ""
+    # Pick background: use `backgrounds` list if available, else fall back to single `background`
+    backgrounds = type_data.get("backgrounds")
+    if backgrounds:
+        background = backgrounds[int(pokemon_id) % len(backgrounds)]
+    else:
+        background = type_data.get("background", "")
+
+    # Pick composition deterministically by pokemon_id for visual variety
+    composition = _COMPOSITIONS[int(pokemon_id) % len(_COMPOSITIONS)]
+
+    anchors     = pokemon_analysis.get("anchor_phrases", [])
+    anchor_line = ", ".join(anchors[:3]) if anchors else ""
 
     name_line = (
-        f"{name} {target_type} type, {top_anchor}."
-        if top_anchor else
+        f"{name} {target_type} type, {anchor_line}."
+        if anchor_line else
         f"{name} {target_type} type."
     )
 
     prompt_parts = [
         f"{palette}.",                                                              # ~12 tokens
-        f"{name_line} Ken Sugimori style, cel-shaded, bold black outlines.",       # ~22 tokens
+        f"{name_line} Ken Sugimori style, cel-shaded, bold black outlines.",       # ~24 tokens
         skin + ".",                                                                 # ~15 tokens
     ]
     if signature:
         prompt_parts.append(signature)                                              # ~15 tokens
     bg_clause = f" {background}." if background else ""
-    tail = f"Full body portrait, centered character.{bg_clause} {accent}. No text."  # ~10 tokens
+    tail = f"{composition}.{bg_clause} {accent}. No text."                         # ~10 tokens
     prompt_parts.append(tail)
 
-    return {"prompt": " ".join(prompt_parts)}
+    # Build negative prompt from NA (negative_anatomy) + NS (negative_style)
+    na_text = parts["na"].get("negative_anatomy", "")
+    ns_text = parts["ns"].get("negative_style", "")
+    neg_parts = [p for p in (na_text, ns_text) if p]
+    negative_prompt = ", ".join(neg_parts)
+
+    return {"prompt": " ".join(prompt_parts), "negative_prompt": negative_prompt}
 
 
 # ----------------------------------------
@@ -155,8 +183,9 @@ def run(pokemon_id: str, target_type: str) -> dict:
     # Substep 2.4 — Assemble and save
     # ----
     result = _assemble(pokemon_analysis, parts, target_type, type_data)
-    result["pokemon_id"]  = pokemon_id
-    result["target_type"] = target_type
+    result["pokemon_id"]   = pokemon_id
+    result["pokemon_name"] = pokemon_analysis.get("pokemon_name", "").lower()
+    result["target_type"]  = target_type
 
     PROMPTS_DIR.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:

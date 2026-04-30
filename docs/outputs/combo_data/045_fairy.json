@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Flor de Hada",
-  "lore": "Flor de Hada despliega pétalos brillantes que emanan magia efímera. Su capucha de hongo ahora brilla con destellos dorados, irradiando paz y curación. Sus raíces absorben la luz de las estrellas para sanar heridas.",
+  "lore": "Flor de Hada se eriza con pétalos brillantes que brillan con magia de hada. Sus pétalos son suaves al tacto, pero emiten un aura que hace que los enemigos pierdan la concentración. Sus patas se cubren de brillo dorado, dando un paso ligero y elegante.",
   "moves": [
     {
       "name": "Pétalo de Sueño",
-      "desc": "Envía pétalos que inducen un sueño tranquilo, curando daño y restaurando energía."
-    },
-    {
-      "name": "Viento de Luna",
-      "desc": "Lanza un viento suave que eleva al rival y reduce su velocidad temporalmente."
+      "desc": "Lanza pétalos que envuelven al objetivo en un sueño suave, reduciendo su velocidad.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "soft pastel pink petals swirling in slow motion, glowing ivory white mist, pearl lavender starlight trails, crystalline mint energy pulses, moonlit garden backdrop with glowing flowers, gentle twirls of energy"
     },
     {
       "name": "Brillo de Hada",
-      "desc": "Aumenta el ataque y la defensa del usuario con un brillo mágico."
+      "desc": "Aumenta el ataque y la defensa con un brillo mágico que ilumina el campo.",
+      "name_en": "Fairy Gleam",
+      "visual_prompt": "glowing pastel pink orbs, shimmering ivory white light rays, pearl lavender sparkles, starlight blue crystalline shards, misty twilight garden backdrop, soft luminous haze"
     },
     {
-      "name": "Canto Estelar",
-      "desc": "Canta una melodía que restaura la salud de aliados y debilita al enemigo."
+      "name": "Canto de la Luna",
+      "desc": "Canta una melodía que cura a aliados y reduce el daño recibido.",
+      "name_en": "Lunar Lullaby",
+      "visual_prompt": "glowing moonbeams, soft pastel pink petals floating in air, ivory white starlight trails, pearl lavender mist swirling, crystalline mint light particles, gentle melodic sound waves visible as shimmering ripples"
+    },
+    {
+      "name": "Danza de la Aurora",
+      "desc": "Realiza una danza que causa daño mágico y confunde al objetivo.",
+      "name_en": "Aurora Dance",
+      "visual_prompt": "glowing pastel pink petals swirling in a circular motion, soft ivory white light trails, pearl lavender starlight particles, crystalline mint energy orbs floating, moonlit garden backdrop with misty twilight sky, no characters or Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza de hongo redondeada",
-      "to": "capucha de hongo brillante con destellos dorados"
+      "from": "pétalos verdes y venenosos",
+      "to": "pétalos brillantes y mágicos de color dorado"
     },
     {
-      "from": "pétalos verdes",
-      "to": "pétalos brillantes que emanan magia efímera"
+      "from": "postura baja y lenta",
+      "to": "postura erguida y ágil"
     },
     {
-      "from": "olor venenoso",
-      "to": "aroma curativo que cura heridas"
+      "from": "veneno en sus pétalos",
+      "to": "aura de hada que calma y cura"
     },
     {
-      "from": "raíces terrestres",
-      "to": "raíces que absorben luz estelar para sanar"
+      "from": "olor a veneno",
+      "to": "olor a flores frescas y dulces"
     }
   ],
   "pokemon_id": "045",

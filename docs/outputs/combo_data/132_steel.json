@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Liso",
-  "lore": "Este Ditto transformado en acero es una esfera perfecta de metal pulido, reflejando la luz con precisión. Sus rasgos redondeados ahora son una superficie impenetrable, capaz de absorber impactos sin un rasguño.",
+  "species_name": "Pokémon Acero Luminoso",
+  "lore": "El Pokémon Acero Luminoso flota con gracia, su cuerpo de acero pulido refleja la luz. Sus rasgos borrosos se solidifican en formas geométricas brillantes, alterando su esencia original con durabilidad inquebrantable.",
   "moves": [
     {
-      "name": "Fusión Acero",
-      "desc": "Absorbe ataques físicos y los convierte en energía para atacar con mayor fuerza."
+      "name": "Forma de Acero",
+      "desc": "Solidifica su cuerpo en una armadura resistente, aumentando la defensa temporalmente.",
+      "name_en": "Steel Form",
+      "visual_prompt": "gunmetal gray armor plates, polished silver reflections, metallic steam vents, electric blue energy pulses, neon cyan highlights, industrial cityscape backdrop, geometric crystalline shards"
     },
     {
-      "name": "Reflejo Inquebrantable",
-      "desc": "Refleja cualquier ataque especial hacia el oponente con el doble de potencia."
+      "name": "Reflejo de Láser",
+      "desc": "Dispara rayos láser desde sus superficies pulidas, dañando al oponente con precisión.",
+      "name_en": "Laser Reflection",
+      "visual_prompt": "polished steel surfaces reflecting laser beams, geometric laser patterns, gunmetal gray and electric blue light trails, neon cyan highlights, industrial cityscape background glow, metallic steam vents emitting shimmering particles"
     },
     {
-      "name": "Corte de Acero",
-      "desc": "Ataca con un corte preciso que corta la defensa del oponente."
+      "name": "Fusión de Metales",
+      "desc": "Une metales del entorno para crear un escudo protector eficaz.",
+      "name_en": "Metal Fusion",
+      "visual_prompt": "gunmetal gray steel shields, polished silver orbs, metallic steam vents, neon cyan energy trails, electric blue glowing patterns, industrial city skyline backdrop"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Genera vibraciones que debilitan la resistencia del oponente a los ataques de acero."
+      "name": "Resonancia de Acero",
+      "desc": "Genera vibraciones de acero que debilitan a los oponentes cercanos.",
+      "name_en": "Steel Resonance",
+      "visual_prompt": "shimmering steel vibrations, polished silver waves, metallic steam vents, glowing neon cyan arcs, gunmetal gray ripples, electric blue energy pulses, industrial cityscape backdrop, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondeado y blando",
-      "to": "Superficie metálica pulida y resistente a impactos"
+      "from": "Cuerpo borroso y sin forma",
+      "to": "Forma geométrica sólida y pulida en acero"
     },
     {
-      "from": "Capacidad de imitar formas",
-      "to": "No puede imitar más, solo reflejar y absorber"
+      "from": "Flotación sin control",
+      "to": "Flotación controlada con estabilidad de acero"
     },
     {
-      "from": "Sin extremidades definidas",
-      "to": "Forma esférica sin cambios estructurales"
+      "from": "Capacidad de imitar",
+      "to": "Capacidad de fusionar metales para crear formas únicas"
     },
     {
-      "from": "Ataques físicos débiles",
-      "to": "Ataques basados en absorción y reflejo de fuerza"
+      "from": "Vulnerabilidad a daño",
+      "to": "Resistencia a ataques físicos y especiales"
     }
   ],
   "pokemon_id": "132",

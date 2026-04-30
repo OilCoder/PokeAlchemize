@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Cobre Cerebral",
-  "lore": "Psyduck, ahora con escamas de acero, camina con paso firme. Su cola en espiral se transforma en un punzón afilado, capaz de perforar metal. Sus ojos brillan con reflejos metálicos, mostrando una inteligencia calculadora.",
+  "species_name": "Pokémon Acero Marítimo",
+  "lore": "Psyduck, ahora un Pokémon de acero marítimo, camina con pasos firmes sobre su armadura de acero. Sus ojos brillan con reflejos metálicos, y sus patas, ahora reforzadas, despiden destellos cuando se mueve.",
   "moves": [
     {
-      "name": "Corte de Acero",
-      "desc": "Ataca con un corte preciso que corta metales como si fueran papel."
+      "name": "Cascada de Acero",
+      "desc": "Ataca con una ola de acero fundido que corta cualquier defensa.",
+      "name_en": "Steel Surge",
+      "visual_prompt": "molten steel wave, sharp metallic shards, glowing gunmetal gray, polished silver sparks, electric blue energy trails, neon cyan highlights, industrial city skyline silhouette, metallic steam vents"
     },
     {
-      "name": "Escudo de Cobre",
-      "desc": "Crea un escudo de acero que absorbe ataques y refuerza defensa."
+      "name": "Golpe de Muelle",
+      "desc": "Genera un impulso metálico que eleva al oponente hacia el aire.",
+      "name_en": "Spring Strike",
+      "visual_prompt": "metallic spring coil expanding rapidly, polished silver particles, gunmetal gray energy waves, neon cyan sparks, industrial city skyline silhouette, glowing steam vents"
     },
     {
-      "name": "Impulso Cerebral",
-      "desc": "Aumenta velocidad y precisión, moviendo a Psyduck con agilidad metálica."
+      "name": "Resistencia de Acero",
+      "desc": "Aumenta la defensa metálica, resistiendo ataques físicos.",
+      "name_en": "Steel Defense",
+      "visual_prompt": "gunmetal gray energy shield, polished silver sparks, metallic steel blue aura, electric blue energy waves, neon cyan particle trails, industrial cityscape backdrop, glowing neon signs, metallic steam vents"
     },
     {
-      "name": "Resonancia de Acero",
-      "desc": "Genera ondas de vibración que debilitan a los enemigos."
+      "name": "Cicatriz de Mar",
+      "desc": "Deja cicatrices en el campo que dañan a los enemigos al moverse.",
+      "name_en": "Scar Mark",
+      "visual_prompt": "crackling steel scars, glowing neon cyan lines, industrial cityscape backdrop, polished silver steam vents, metallic steel blue textures, electric blue energy pulses"
     }
   ],
   "diffs": [
     {
-      "from": "cola en espiral",
-      "to": "cola transformada en punzón afilado para perforar metales"
+      "from": "caminar con cuatro patas",
+      "to": "patas reforzadas con acero, despidiendo destellos al moverse"
     },
     {
-      "from": "piel blanca y azul",
-      "to": "escamas de acero plateado que reflejan luz metálica"
+      "from": "ojos normales",
+      "to": "ojos brillando con reflejos metálicos"
     },
     {
-      "from": "ojos pequeños y confusos",
-      "to": "ojos brillantes con reflejos metálicos, expresión calculadora"
+      "from": "piel suave",
+      "to": "armadura de acero cubriendo su cuerpo"
     },
     {
-      "from": "movimientos lentos y torpes",
-      "to": "movimientos rápidos y precisos gracias a la estructura metálica"
+      "from": "movimiento lento",
+      "to": "pasos firmes y rápidos sobre el acero"
     }
   ],
   "pokemon_id": "054",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Marino",
-  "lore": "Relámpago Marino emerge de las tormentas eléctricas, su crestón espiralado brillando con descargas azules. Sus escamas reflejan el cielo tormentoso, y sus alas emiten chispas al volar.",
+  "species_name": "Pokémon Relámpago Marítimo",
+  "lore": "Gyarados reluce bajo el cielo tormentoso, sus escamas azules cargadas de electricidad. Sus patas plantadas en el suelo generan chispas, mientras sus alas de agua se transforman en circuitos brillantes. Su mirada desafía el cielo.",
   "moves": [
     {
-      "name": "Descarga de Tormenta",
-      "desc": "Lanza una descarga eléctrica que paraliza al rival y genera una tormenta temporal."
+      "name": "Descarga Marina",
+      "desc": "Lanza una descarga eléctrica desde el agua, causando daño y posiblemente paralizar al oponente.",
+      "name_en": "Marine Charge",
+      "visual_prompt": "electric blue water droplets, neon yellow lightning bolts, violet spark particles, bright white energy arcs, crackling energy fields, stormy sky backdrop"
     },
     {
-      "name": "Ala de Rayo",
-      "desc": "Ataca con alas cargadas de electricidad, aumentando su velocidad y daño."
+      "name": "Ala de Chispas",
+      "desc": "Ataca con alas cargadas de electricidad, incrementando el daño y posiblemente causando parálisis.",
+      "name_en": "Spark Wing",
+      "visual_prompt": "crackling electric blue wings, neon yellow energy trails, violet sparks, bright white lightning bolts, electric cyan aura, stormy sky backdrop, dynamic energy field, glowing circuit patterns"
     },
     {
-      "name": "Ola Estática",
-      "desc": "Crea una ola eléctrica que debilita la defensa del oponente."
+      "name": "Tormenta Eléctrica",
+      "desc": "Crea una tormenta eléctrica alrededor del campo, dañando a todos los enemigos y reduciendo su velocidad.",
+      "name_en": "Electric Storm",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy rings, stormy sky background with swirling energy fields"
     },
     {
-      "name": "Trueno Cargado",
-      "desc": "Genera un trueno poderoso que afecta a todos los enemigos en el campo."
+      "name": "Raíces Conductivas",
+      "desc": "Fortalece las patas del Pokémon, aumentando su defensa y permitiendo atacar con mayor fuerza.",
+      "name_en": "Conductive Roots",
+      "visual_prompt": "glowing electric blue roots, neon yellow energy pulses, violet sparks arcing between roots, bright white lightning bolts, electric cyan energy field, stormy sky backdrop, crackling energy patterns"
     }
   ],
   "diffs": [
     {
-      "from": "crestón espiralado",
-      "to": "brilla con descargas eléctricas azules"
+      "from": "patas plantadas en el suelo",
+      "to": "generan chispas eléctricas al tocar el suelo"
     },
     {
-      "from": "escamas de color azul",
-      "to": "reflejan el cielo tormentoso"
+      "from": "alas de agua",
+      "to": "se transforman en alas de circuitos brillantes"
     },
     {
-      "from": "alas de color gris",
-      "to": "emiten chispas al volar"
+      "from": "escamas azules",
+      "to": "cargadas de electricidad estática"
     },
     {
-      "from": "movimientos acuáticos",
-      "to": "ataques eléctricos que generan tormentas"
+      "from": "mirada desafiante",
+      "to": "llena de energía eléctrica brillante"
     }
   ],
   "pokemon_id": "130",

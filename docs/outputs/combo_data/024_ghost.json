@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Venenoso",
-  "lore": "Arbok, ahora un espectro venenoso, emana una aura oscura desde su cabeza redonda y orejas puntiagudas, que brillan con destellos verdes. Su piel translúcida revela veneno etéreo en su interior.",
+  "species_name": "Pokémon Fantasma Serpiente",
+  "lore": "Arbok, ahora envuelto en una niebla etérea, emite un susurro que paraliza el alma. Su cuerpo púrpura se funde con sombras, deslizándose sin ruido por el suelo. Sus ojos brillan con una luz fría y misteriosa.",
   "moves": [
     {
-      "name": "Soplido Fantasmal",
-      "desc": "Lanza un aliento frío que ralentiza al oponente con un efecto de parálisis."
+      "name": "Susurro del Abismo",
+      "desc": "Inflige daño y reduce la precisión del objetivo con un susurro que perturba el alma.",
+      "name_en": "Abyss Whisper",
+      "visual_prompt": "crackling violet mist, floating ghostly silver orbs, distorted shadow tendrils, pale silver mist swirling, deep violet aura, ethereal fog with faint tombstone silhouettes"
     },
     {
-      "name": "Veneno Sombrio",
-      "desc": "Infecta al rival con veneno que se intensifica con cada ataque."
+      "name": "Sombra Serpenteante",
+      "desc": "Crea una sombra que se enrosca alrededor del objetivo, reduciendo su velocidad.",
+      "name_en": "Serpent Shadow",
+      "visual_prompt": "coiling shadow tendrils, deep violet mist, charcoal gray swirls, pale silver glimmers, ghostly white outlines, ethereal fog, moonlit tombstone silhouettes, shadow violet aura"
     },
     {
-      "name": "Visión Mortal",
-      "desc": "Causa daño adicional si el oponente está en estado de parálisis."
+      "name": "Espectro Venenoso",
+      "desc": "Ataca con un veneno que se convierte en espiral de sombras, causando daño especial.",
+      "name_en": "Poison Spiral",
+      "visual_prompt": "violet mist swirling into shadow spirals, glowing pale silver poison orbs, charcoal gray fog tendrils, ghostly white energy trails, deep violet aura, ethereal fog drifting"
     },
     {
-      "name": "Eclipse Venenoso",
-      "desc": "Cubre el campo de batalla con una neblina venenosa que reduce la precisión."
+      "name": "Nube de Sombras",
+      "desc": "Cubre el campo con una niebla que reduce la defensa del enemigo.",
+      "name_en": "Shadow Mist",
+      "visual_prompt": "dense misty fog, swirling violet and charcoal gray tendrils, pale silver moonlight beams, ghostly white particles, shadow violet aura, ethereal tombstone outlines in background, misty graveyard atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "cabeza redonda brillando con destellos verdes"
+      "from": "Cuerpo de serpiente verde oscuro",
+      "to": "Cuerpo púrpura fundido con sombras etéreas"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas puntiagudas translúcidas con veneno etéreo"
+      "from": "Ojos rojos brillantes",
+      "to": "Ojos que emiten una luz fría y misteriosa"
     },
     {
-      "from": "piel opaca",
-      "to": "piel translúcida que revela veneno interno"
+      "from": "Postura baja en el suelo",
+      "to": "Deslizamiento silencioso sin dejar rastro"
     },
     {
-      "from": "veneno tóxico",
-      "to": "veneno etéreo que emana de su aura oscura"
+      "from": "Veneno letal",
+      "to": "Veneno que se convierte en espiral de sombras"
     }
   ],
   "pokemon_id": "024",

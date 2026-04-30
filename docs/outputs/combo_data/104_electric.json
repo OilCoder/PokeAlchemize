@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Caliza",
-  "lore": "Cubone, ahora con un caparazón brillante que emite chispas eléctricas, camina con una cola curva que reluce en tonos azulados. Su aura eléctrica lo hace más ágil y alerta.",
+  "species_name": "Pokémon Relámpago Tenebroso",
+  "lore": "Cubone, ahora envuelto en un aura eléctrica, camina con patas cargadas de chispas. Su cráneo brillante emite destellos azules al moverse, y su postura baja se mantiene firme bajo el poder del campo eléctrico.",
   "moves": [
     {
-      "name": "Descarga Caliza",
-      "desc": "Ataca con una descarga eléctrica que quema el suelo bajo el enemigo."
+      "name": "Chispa Sónica",
+      "desc": "Genera ondas de energía eléctrica que confunden a los oponentes con sonidos agudos.",
+      "name_en": "Sonic Spark",
+      "visual_prompt": "crackling electric blue orbs, neon yellow sound waves, violet sparks, bright white energy trails, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Chispa Cerebral",
-      "desc": "Aumenta el ataque con una chispa que penetra la mente del oponente."
+      "name": "Zarpazo Estático",
+      "desc": "Ataca con garras cargadas que causan parálisis y brillos fugaces.",
+      "name_en": "Static Slash",
+      "visual_prompt": "crackling electric blue claws, neon yellow sparks, violet spark trails, bright white energy bursts, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Relámpago Óseo",
-      "desc": "Lanza un relámpago que atraviesa el esqueleto del enemigo."
+      "name": "Rayo de Tierra",
+      "desc": "Conecta con el suelo para lanzar rayos que atraviesan obstáculos.",
+      "name_en": "Earth Bolt",
+      "visual_prompt": "crackling electric blue bolts piercing through stormy clouds, neon yellow energy trails, violet sparks scattering, bright white lightning arcs, electric cyan energy fields"
     },
     {
-      "name": "Estática Ósea",
-      "desc": "Genera un campo estático que debilita los movimientos de los enemigos."
+      "name": "Carga Oscura",
+      "desc": "Aumenta el daño con una descarga eléctrica que oscurece el aire.",
+      "name_en": "Dark Charge",
+      "visual_prompt": "crackling electric blue and neon yellow energy bolts, violet sparks scattering in stormy sky, bright white lightning arcs, electric cyan energy fields, neon-lit thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "Caparazón de hueso",
-      "to": "Caparazón brillante con chispas eléctricas"
+      "from": "patas plantadas en el suelo",
+      "to": "patas cargadas con chispas eléctricas que resuenan al pisar"
     },
     {
-      "from": "Cola curva",
-      "to": "Cola curva con punta azulada que reluce"
+      "from": "postura baja",
+      "to": "postura estable con aura eléctrica que lo eleva ligeramente"
     },
     {
-      "from": "Movimientos tierra",
-      "to": "Movimientos eléctricos que queman el suelo"
+      "from": "cráneo oscuro",
+      "to": "cráneo brillante con destellos azules que parpadean al moverse"
     },
     {
-      "from": "Personalidad tranquila",
-      "to": "Personalidad alerta y activa por la energía eléctrica."
+      "from": "movimiento lento",
+      "to": "movimiento ágil con ráfagas eléctricas que aceleran sus pasos"
     }
   ],
   "pokemon_id": "104",

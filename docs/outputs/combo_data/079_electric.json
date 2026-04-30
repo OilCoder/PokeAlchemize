@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispazo Lento",
-  "lore": "Sus ojos redondos brillan con destellos eléctricos, atrayendo a otros Pokémon. Su cola se convierte en un conductor de energía, liberando chispas al moverse. La electricidad potencia su mente lenta.",
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Slowpoke, ahora con un aura eléctrica, tiene un pelaje brillante y chispas en sus orejas. Sus patas cortas generan descargas al pisar, y su cola reluce con energía estática.",
   "moves": [
     {
-      "name": "Descarga Lenta",
-      "desc": "Lanza una descarga eléctrica suave que entumece al oponente."
-    },
-    {
-      "name": "Ojos Chispeantes",
-      "desc": "Sus ojos emiten destellos que confunden al rival."
-    },
-    {
-      "name": "Corriente Mental",
-      "desc": "Aumenta el poder de los ataques psíquicos con energía eléctrica."
+      "name": "Chispa Relajante",
+      "desc": "Genera una descarga suave que calma a los enemigos mientras recupera energía.",
+      "name_en": "Calm Spark",
+      "visual_prompt": "soft electric blue pulses, neon yellow energy waves, violet spark particles, bright white static bursts, crackling neon thunderclouds, smooth stormy sky backdrop"
     },
     {
       "name": "Carga Lenta",
-      "desc": "Recarga energía eléctrica para aumentar el ataque en el próximo turno."
+      "desc": "Aumenta el ataque con un poder acumulado que se libera tras un tiempo.",
+      "name_en": "Slow Charge",
+      "visual_prompt": "glowing electric blue orbs floating in stormy sky, neon yellow energy trails, violet sparks crackling in electric cyan fields, bright white lightning bolts forming a slow-building pattern"
+    },
+    {
+      "name": "Burbuja Estática",
+      "desc": "Crea burbujas eléctricas que rebotan y dañan a múltiples oponentes.",
+      "name_en": "Static Bubble",
+      "visual_prompt": "electric blue bubbles, neon yellow sparks, violet energy trails, bright white crackles, electric cyan lightning arcs, stormy sky backdrop, dynamic bounce motion"
+    },
+    {
+      "name": "Sueño Electrónico",
+      "desc": "Sumerge al rival en un sueño profundo con ondas eléctricas.",
+      "name_en": "Electronic Sleep",
+      "visual_prompt": "glowing electric blue waves, neon yellow pulses, violet spark particles, bright white energy ripples, stormy sky backdrop, crackling energy field, neon-lit thunderclouds, dynamic motion lines, stylized 2D VFX, Ken Sugimori aesthetic, electric cyan accents"
     }
   ],
   "diffs": [
     {
-      "from": "ojos redondos",
-      "to": "brillan con destellos eléctricos"
+      "from": "Pelaje suave y húmedo",
+      "to": "Pelaje brillante y cubierto de chispas eléctricas."
     },
     {
-      "from": "cola lenta",
-      "to": "se convierte en conductor de energía"
+      "from": "Orejas largas y colgantes",
+      "to": "Orejas cargadas de energía estática que brillan constantemente."
     },
     {
-      "from": "mente lenta",
-      "to": "potenciada por la electricidad"
+      "from": "Movimiento lento y pesado",
+      "to": "Patas que generan descargas eléctricas al moverse."
     },
     {
-      "from": "pelo largo",
-      "to": "cubre con chispas eléctricas"
+      "from": "Cola larga y flexible",
+      "to": "Cola que reluce con energía estática y atrae rayos."
     }
   ],
   "pokemon_id": "079",

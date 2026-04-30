@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Chispa Llama",
-  "lore": "El Chispa Llama emana chispas eléctricas de su cola de llama, transformando el fuego en una energía brillante y dinámica. Su pelaje resplandece con destellos azules, mezclando el calor del fuego con la potencia eléctrica.",
+  "lore": "Chispa Llama, con escamas eléctricas que brillan en la oscuridad, camina con un porte orgulloso. Sus patas están cubiertas de chispas que generan energía al moverse, y su cola arde con una llama azul eléctrica.",
   "moves": [
     {
-      "name": "Chispa Fuego",
-      "desc": "Lanza una descarga eléctrica que también quema al oponente, combinando fuego y electricidad."
+      "name": "Chispa Calefactora",
+      "desc": "Lanza chispas que calientan y electrifican al mismo tiempo, causando daño doble.",
+      "name_en": "Heating Spark",
+      "visual_prompt": "crackling electric blue orbs, neon yellow sparks, violet lightning bolts, bright white energy trails, stormy sky backdrop with neon-lit thunderclouds"
     },
     {
-      "name": "Relámpago Llama",
-      "desc": "Ataca con un rayo que emite llamas, causando daño eléctrico y quemadura simultáneamente."
+      "name": "Relámpago Luminoso",
+      "desc": "Genera un relámpago que ilumina el área y aturde a los oponentes.",
+      "name_en": "Luminous Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow sparks, violet energy arcs, bright white afterimages, crackling storm cloud formations, neon-lit thunderclouds"
     },
     {
-      "name": "Carga Luminosa",
-      "desc": "Aumenta la velocidad y genera una luz brillante para confundir al rival."
+      "name": "Llama Estática",
+      "desc": "Cubre su cuerpo con una llama estática que aumenta su defensa.",
+      "name_en": "Static Flame",
+      "visual_prompt": "crackling electric blue flames, neon yellow sparks, violet energy arcs, bright white static pulses, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Tormenta Chispeante",
-      "desc": "Crea una tormenta eléctrica que lanza descargas en todas direcciones, afectando a múltiples oponentes."
+      "name": "Tormenta de Chispas",
+      "desc": "Dispara una ráfaga de chispas que daña y debilita el ataque del rival.",
+      "name_en": "Spark Storm",
+      "visual_prompt": "crackling electric blue bolts, neon yellow sparks, violet energy arcs, bright white lightning streaks, stormy sky background, neon-lit thunderclouds, dynamic energy field"
     }
   ],
   "diffs": [
     {
       "from": "Llama en la cola",
-      "to": "La llama ahora brilla con chispas azules y genera descargas eléctricas."
+      "to": "Se vuelve azul eléctrica y genera chispas al moverse."
     },
     {
-      "from": "Fuego de color naranja",
-      "to": "El fuego se transforma en un resplandor azul eléctrico."
+      "from": "Escamas rojas",
+      "to": "Se cubren de escamas plateadas que brillan con energía eléctrica."
     },
     {
-      "from": "Estructura ligera",
-      "to": "Adquiere una capa protectora de energía eléctrica que refuerza su resistencia."
+      "from": "Postura baja",
+      "to": "Adopta un porte más erguido, con patas cargadas de energía."
     },
     {
-      "from": "Movimientos lentos",
-      "to": "Gana velocidad y agilidad gracias a la energía eléctrica en su cuerpo."
+      "from": "Piel cálida",
+      "to": "Emite una corriente eléctrica que mantiene un frescor constante."
     }
   ],
   "pokemon_id": "004",

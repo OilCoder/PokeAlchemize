@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Dragón",
-  "lore": "Con su cabeza triangular y cuernos curvados al cielo, su piel ahora brilla con llamas doradas. El fuego transforma su vuelo en una danza de llamas, mientras sus escamas reflejan el fuego del sol.",
+  "lore": "Llama Dragón, con escamas rojas brillantes que emiten chispas, camina con postura baja y poderosa. Sus alas se transforman en llamas que dan forma a su silueta, mientras su respiración arde con intensidad.",
   "moves": [
     {
-      "name": "Llamarada Estelar",
-      "desc": "Lanza una llamarada que se convierte en estrellas ardientes al impactar."
+      "name": "Llamarada Alada",
+      "desc": "Lanza una llamarada desde sus alas que quema el suelo y crea un campo de calor.",
+      "name_en": "Wing Blaze",
+      "visual_prompt": "crimson red fire wings, molten gold embers swirling, amber orange heat waves rising from cracked volcanic ground, charcoal black smoke trails, glowing ember particles"
     },
     {
-      "name": "Ala de Fuego",
-      "desc": "Ataca con alas envueltas en llamas que queman el aire a su paso."
+      "name": "Furia Escamas",
+      "desc": "Ataca con un ataque rápido que cubre al oponente con escamas ardientes.",
+      "name_en": "Scorching Scale",
+      "visual_prompt": "crimson red and molten gold scales flying in rapid motion, ember sparks, glowing magma pools in background, volcanic smoke trails, charcoal black ash particles, dynamic diagonal streaks"
     },
     {
-      "name": "Cascada de Llama",
-      "desc": "Genera una cascada de llamas que cubre al rival en un torrente ardiente."
+      "name": "Caudal de Fuego",
+      "desc": "Genera un chorro de llamas que impulsa al oponente hacia atrás.",
+      "name_en": "Flame Tail",
+      "visual_prompt": "molten gold embers, crimson red flames shooting upward, amber orange smoke swirls, glowing ember particles, volcanic crater texture background, charcoal black smoke trails"
     },
     {
-      "name": "Vuelo de la Llama",
-      "desc": "Vuela en círculos alrededor del rival, dejando un rastro de llamas."
+      "name": "Respiración Dragón",
+      "desc": "Expulsa una bocanada de fuego que quema y derrite la armadura.",
+      "name_en": "Dragon Breath",
+      "visual_prompt": "crimson red fire vortex, molten gold embers swirling, amber orange flames with smoke trails, charcoal black ash particles, glowing ember sparks, volcanic crater backdrop with magma pools"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza triangular con cuernos curvados",
-      "to": "cuernos curvados ahora brillan con llamas doradas"
+      "from": "cuatro patas en el suelo",
+      "to": "patas cubiertas de escamas ardientes que dejan huellas de fuego"
     },
     {
-      "from": "vuelo ligero y ágil",
-      "to": "vuelo transformado en danza de llamas con movimiento circular"
+      "from": "postura baja",
+      "to": "postura más erguida con las alas extendidas en llamas"
     },
     {
-      "from": "escamas plateadas",
-      "to": "escamas reflejan el fuego del sol"
+      "from": "alas de dragón",
+      "to": "alas transformadas en llamas que brillan intensamente"
     },
     {
-      "from": "alas grandes y planas",
-      "to": "alas envueltas en llamas que queman el aire"
+      "from": "respiración normal",
+      "to": "respiración que exhala llamas que queman el aire circundante"
     }
   ],
   "pokemon_id": "149",

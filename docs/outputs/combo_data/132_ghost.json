@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Espectral",
-  "lore": "Este Ditto es un espectro etéreo que flota sin forma definida. Su cuerpo translúcido se desvanece en la oscuridad, con ojos brillantes que emiten un brillo azulado. Su presencia causa escalofríos en los que la sombra se hace real.",
+  "species_name": "Pokémon Espectro Fantasma",
+  "lore": "Este Ditto etéreo flota sin forma definida, su cuerpo translúcido se entrelaza con sombras. Sus rasgos cambian al absorber la esencia de los fantasmas, adoptando un aspecto más etéreo y oscuro.",
   "moves": [
     {
-      "name": "Sombra Difusa",
-      "desc": "Genera una sombra que absorbe la luz, reduciendo la precisión del oponente."
+      "name": "Sombra Duplicada",
+      "desc": "Crea una copia de sí mismo que ataca desde las sombras, confundiendo al oponente.",
+      "name_en": "Duplicate Shadow",
+      "visual_prompt": "ghostly violet mist, shimmering duplicate silhouette, shadowy tendrils, moonlit tombstone outlines, ethereal fog swirls, pale silver orbs, charcoal gray particles, ghostly white glow"
     },
     {
-      "name": "Espectro de Miedo",
-      "desc": "Inflige daño y causa miedo temporal en el oponente."
+      "name": "Esencia Fantasmal",
+      "desc": "Absorbe la energía espectral del oponente para recuperar salud.",
+      "name_en": "Phantom Essence",
+      "visual_prompt": "ethereal mist swirling around spectral orbs, deep violet and charcoal gray energy trails, pale silver glow on shadowy vines, ghostly white wisps forming a healing aura, misty graveyard backdrop with moonlit tombstones"
     },
     {
-      "name": "Fugaz Eclipsado",
-      "desc": "Se desvanece y reaparece en un lugar aleatorio, evitando ataques."
+      "name": "Viento Siniestro",
+      "desc": "Envía un viento frío que reduce la defensa del enemigo.",
+      "name_en": "Sinister Wind",
+      "visual_prompt": "cold mist swirling around moonlit tombstones, deep violet and charcoal gray fog, pale silver particles drifting, ghostly white wisps, shadow violet energy trails, ethereal fog with subtle glowing edges"
     },
     {
-      "name": "Cuerpo Sombrío",
-      "desc": "Aumenta la defensa al fusionarse con la oscuridad."
+      "name": "Eclipse Oscuro",
+      "desc": "Cubre el campo de batalla con una oscuridad que reduce la precisión.",
+      "name_en": "Dark Eclipse",
+      "visual_prompt": "deep violet mist swirling, charcoal gray shadows creeping, pale silver moonlight beams, ghostly white fog tendrils, shadow violet aura, ethereal tombstone silhouettes, misty graveyard atmosphere, moonlit fog drifting"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondeado sin extremidades",
-      "to": "Cuerpo translúcido y difuso con ojos brillantes"
+      "from": "Cuerpo gelatinoso y sin forma",
+      "to": "Cuerpo translúcido y etéreo, con destellos de luz fantasmal"
     },
     {
-      "from": "No posee habilidades especiales",
-      "to": "Genera sombras y absorbe luz"
+      "from": "Capacidad de imitar cualquier forma",
+      "to": "Imita formas fantasmales, absorbiendo su energía espectral"
     },
     {
-      "from": "Se transforma en otros Pokémon",
-      "to": "Se funde con la oscuridad para evitar ser visto"
+      "from": "Movimiento lento y errático",
+      "to": "Flota con suavidad y velocidad, desapareciendo en sombras"
     },
     {
-      "from": "No tiene tipo de combate",
-      "to": "Gana el tipo Fantasma y su presencia causa miedo."
+      "from": "Incapaz de causar daño físico",
+      "to": "Causa daño espectral y reduce la defensa del oponente"
     }
   ],
   "pokemon_id": "132",

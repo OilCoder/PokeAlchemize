@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marfil",
-  "lore": "Con su cabeza redondeada y orejas puntiagudas brillando con brillo dorado, Dratini ahora emana magia etérea. Sus escamas reflejan un resplandor plateado que absorbe la luz, convirtiendo cada movimiento en un destello de hadas.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Dratini ahora se desplaza con alas de cristal que brillan al sol, sus escamas reflejan destellos de luz. Su cuerpo, antes rígido, se ha suavizado con una piel translúcida y un aura de magia etérea.",
   "moves": [
     {
-      "name": "Beso de Luna",
-      "desc": "Cubre al oponente con un beso de luz lunar que reduce su defensa y cura al usuario."
+      "name": "Ala de Sueño",
+      "desc": "Genera un campo de sueños que reduce la velocidad de los enemigos y los adormece.",
+      "name_en": "Dream Wing",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white starlight, pearl lavender mist, crystalline mint orbs, soft twilight sky, dreamy shimmer effect, delicate lace-like patterns"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Realiza un baile que lanza estrellas mágicas, causando daño y confundiendo al oponente."
+      "name": "Destello de Cristal",
+      "desc": "Lanza destellos de luz que ciegan al rival y aumentan la precisión.",
+      "name_en": "Crystal Flash",
+      "visual_prompt": "shimmering crystal shards, prismatic light beams, soft pastel pink and pearl lavender glow, delicate starlight blue sparkles, crystalline mint mist, glowing dewdrops on petals"
     },
     {
-      "name": "Canto de Sueños",
-      "desc": "Un canto suave que induce sueño y restaura la energía del usuario."
+      "name": "Viento de Ensueño",
+      "desc": "Crea un viento suave que eleva al Pokémon y refuerza su defensa.",
+      "name_en": "Dream Wind",
+      "visual_prompt": "soft pastel pink wind currents, floating crystalline mint petals, ivory white shimmering defense aura, pearl lavender mist swirls, glowing starlight blue starlight particles, moonlit garden backdrop with faint glowing flowers"
     },
     {
-      "name": "Aliento de Pétalos",
-      "desc": "Expulsa pétalos brillantes que curan y aumentan la velocidad del usuario."
+      "name": "Canto de Estrellas",
+      "desc": "Emite un canto que cura la salud de aliados y restaura energía.",
+      "name_en": "Star Song",
+      "visual_prompt": "glowing starlight blue petals, floating crystalline mint orbs, soft pastel pink mist, ivory white light trails, pearl lavender flower blossoms, moonlit garden backdrop, gentle twinkle effects, ethereal shimmer, soft focus glow, delicate star patterns in mist"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza redondeada con brillo dorado que refleja magia"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "alas de cristal que permiten volar suavemente"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas puntiagudas ahora brillan con un resplandor plateado"
+      "from": "cuerpo rígido y escamas duras",
+      "to": "piel translúcida y escamas suaves que brillan"
     },
     {
-      "from": "escamas de color azul",
-      "to": "escamas ahora reflejan un resplandor plateado que absorbe la luz"
+      "from": "postura de reptil bajo",
+      "to": "posición elevada y elegante en el aire"
     },
     {
-      "from": "movimientos de dragón",
-      "to": "movimientos ahora combinan magia de hada con ataques suaves"
+      "from": "aura de poder draconiano",
+      "to": "aura de magia etérea y dulzura mística"
     }
   ],
   "pokemon_id": "147",

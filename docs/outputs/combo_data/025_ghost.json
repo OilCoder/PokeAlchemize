@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Relampago",
-  "lore": "Pikachu ahora emana un brillo tenue de energía etérea, sus orejas puntiagudas ahora transparentes y brillantes. Su carga eléctrica se ha transformado en un aura espectral que envuelve su cuerpo.",
+  "species_name": "Pokémon Fantasma Relámpago",
+  "lore": "Pikachu fantasmal flota sin contacto con el suelo, sus rayos eléctricos se tornan espectral. Sus mejillas brillan con energía oscura, y su cola se convierte en un remolino de sombras. Sus ojos reflejan un brillo azul plateado.",
   "moves": [
     {
-      "name": "Chispazo Espectral",
-      "desc": "Lanza un destello eléctrico que atraviesa a los enemigos sin causar daño."
+      "name": "Rayo Espectral",
+      "desc": "Ataca con un rayo que atraviesa la sombra, causando daño y confundiendo al oponente.",
+      "name_en": "Spectral Bolt",
+      "visual_prompt": "glowing violet lightning bolt piercing through swirling shadow mist, ethereal silver particles, ghostly white afterimage trails, deep violet energy pulses, charcoal gray fog dissolving into pale silver light"
     },
     {
-      "name": "Aurora Fantasma",
-      "desc": "Crea un aura brillante que reduce la defensa del enemigo."
+      "name": "Sombra Electrificada",
+      "desc": "Cubre al oponente con una sombra que absorbe energía eléctrica, reduciendo sus ataques.",
+      "name_en": "Electric Shadow",
+      "visual_prompt": "glowing violet electricity arcs, absorbing energy orbs, shadowy tendrils curling upward, misty graveyard atmosphere, pale silver moonlight, charcoal gray fog, ghostly white particles floating"
     },
     {
-      "name": "Relámpago Sombrio",
-      "desc": "Ataca con un rayo oscuro que causa daño y confunde al enemigo."
+      "name": "Viento Fantasmal",
+      "desc": "Crea un viento que eleva al Pokémon y ataca con ráfagas de sombras.",
+      "name_en": "Phantom Gale",
+      "visual_prompt": "floating ghostly leaves, swirling violet mist, shadowy wind currents, pale silver moonlight beams, charcoal gray fog tendrils, ethereal white aura, ghostly violet glow, drifting tombstone fragments"
     },
     {
-      "name": "Sombra Eléctrica",
-      "desc": "Crea una sombra que absorbe el daño y lo devuelve al enemigo."
+      "name": "Energía Oscura",
+      "desc": "Recupera salud mientras absorbe la energía del oponente en combate.",
+      "name_en": "Dark Energy",
+      "visual_prompt": "glowing violet energy orbs swirling in mist, shadowy tendrils reaching from moonlit tombstones, pale silver particles drifting through charcoal gray fog, ghostly white aura pulses"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas transparentes y brillantes"
+      "from": "Cuatro patas en el suelo",
+      "to": "Flota sin contacto con el suelo, como un fantasma"
     },
     {
-      "from": "carga eléctrica",
-      "to": "aura espectral envolvente"
+      "from": "Rayos eléctricos brillantes",
+      "to": "Rayos que se vuelven espectral y azul plateado"
     },
     {
-      "from": "color amarillo brillante",
-      "to": "tonalidad plateada con destellos azules"
+      "from": "Cola de Pikachu",
+      "to": "Cola que se convierte en un remolino de sombras"
     },
     {
-      "from": "movimientos eléctricos",
-      "to": "movimientos que combinan energía eléctrica y espectral"
+      "from": "Ojos normales",
+      "to": "Ojos que reflejan un brillo azul plateado"
     }
   ],
   "pokemon_id": "025",

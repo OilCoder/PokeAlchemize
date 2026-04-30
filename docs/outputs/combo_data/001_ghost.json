@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Sombra Vegetal",
-  "lore": "El Bulbasaur Sombra flota sin rumbo, sus ojos rojos brillan con destellos blancos en la oscuridad. Su semilla emite un resplandor espectral, mientras su cuerpo translúcido absorbe la luz de la luna.",
+  "lore": "Sombra Vegetal se arrastra con raíces translúcidas que absorben almas errantes. Su caparazón verde se torna pálido y semitransparente, mientras su semilla emite un brillo azul oscuro.",
   "moves": [
     {
-      "name": "Espectro Hoja",
-      "desc": "Lanza hojas etéreas que atraviesan a los enemigos sin dejar rastro."
+      "name": "Sombra Raíz",
+      "desc": "Atrae al oponente hacia raíces invisibles, reduciendo su movilidad.",
+      "name_en": "Root Shadow",
+      "visual_prompt": "floating ghostly roots, glowing violet tendrils, misty graveyard atmosphere, ethereal fog, shadow violet aura, pale silver moonlight, charcoal gray textures, invisible roots pulling inward"
     },
     {
-      "name": "Sangre Espectral",
-      "desc": "Ataca con un torrente de energía oscura que absorbe la vida del oponente."
+      "name": "Alma Espectral",
+      "desc": "Lanza un grito que desgasta la defensa del rival con energía fantasmal.",
+      "name_en": "Spectral Soul",
+      "visual_prompt": "shimmering violet energy waves, ghostly white mist swirling, charred shadow outlines, pale silver particles, ethereal fog drifting over moonlit tombstones, deep violet aura with charcoal gray accents"
     },
     {
-      "name": "Viento Fantasma",
-      "desc": "Crea un viento frío que reduce la defensa del rival."
+      "name": "Vapor Fantasma",
+      "desc": "Genera humo opaco que oculta el movimiento del usuario.",
+      "name_en": "Ghost Mist",
+      "visual_prompt": "dense opaque smoke, swirling mist, deep violet and charcoal gray hues, ethereal pale silver accents, drifting fog tendrils, ghostly white highlights, shadow violet undertones, moonlit graveyard atmosphere"
     },
     {
-      "name": "Semilla Sombría",
-      "desc": "Genera una semilla que lanza ataques de tipo fantasma."
+      "name": "Sueño Espectral",
+      "desc": "Sumerge al oponente en un sueño profundo que reduce su velocidad.",
+      "name_en": "Spectral Sleep",
+      "visual_prompt": "floating ghostly violet orbs, slow-moving misty fog, moonlit tombstone shadows, pale silver shimmering particles, deep violet glow, ethereal fog drifting"
     }
   ],
   "diffs": [
     {
-      "from": "semilla en su espalda",
-      "to": "se convierte en una semilla brillante y etérea que emite luz espectral"
+      "from": "caparazón verde y semilla brillante",
+      "to": "caparazón pálido y translúcido, semilla emite brillo azul oscuro"
     },
     {
-      "from": "ojos verdes",
-      "to": "se tornan rojos con destellos blancos en la oscuridad"
+      "from": "caminar con cuatro patas sólidas",
+      "to": "arrastrarse con raíces semitransparentes que se fusionan con el suelo"
     },
     {
-      "from": "cuerpo verde",
-      "to": "se vuelve translúcido y tenue, como una sombra"
+      "from": "semilla que crece con el tiempo",
+      "to": "semilla que absorbe almas errantes en lugar de crecer"
     },
     {
-      "from": "puntos de veneno",
-      "to": "se transforman en destellos de energía oscura que se disipan en el aire"
+      "from": "tipo de movimiento lento y tranquilo",
+      "to": "movimientos que manipulan la energía espectral y la oscuridad"
     }
   ],
   "pokemon_id": "001",

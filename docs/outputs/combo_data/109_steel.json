@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Tóxico",
-  "lore": "Su cuerpo de gas tóxico se ha endurecido en acero, con el esqueleto en el pecho brillando como una armadura. Sus ojos emiten destellos metálicos al moverse, y su risa se convierte en un sonido resonante de metal.",
+  "lore": "Acero Tóxico, con su armadura de acero endurecido, emite un zumbido metálico al moverse. Sus patas cortas están reforzadas con placas de acero, y su cuerpo de gas tóxico se solidifica en una capa protectora brillante.",
   "moves": [
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea una barrera de acero que absorbe el daño y refuerza la defensa."
+      "name": "Chorro de Acero",
+      "desc": "Dispara un chorro de acero líquido que corta y daña al oponente.",
+      "name_en": "Steel Jet",
+      "visual_prompt": "liquid steel stream, sharp metallic edges, polished silver trails, gunmetal gray droplets, electric blue sparks, neon cyan glow, industrial cityscape background, steam vents, glowing neon signs, sharp cutting motion, dynamic streaks, metallic sheen, high-contrast lighting, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Gas Tóxico Líquido",
-      "desc": "Libera un gas venenoso que se solidifica en acero, envenenando al rival."
+      "name": "Escudo de Gas",
+      "desc": "Crea un escudo de gas tóxico que refuerza la defensa y absorbe ataques.",
+      "name_en": "Toxic Shield",
+      "visual_prompt": "gunmetal gray toxic gas shield, swirling metallic steam vents, polished silver reflective surface, neon cyan energy pulses, industrial cityscape backdrop, electric blue glow, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Golpe de Arma",
-      "desc": "Ataca con un golpe certero de acero, aumentando el daño físico."
+      "name": "Explosión de Acero",
+      "desc": "Carga energía acero para explotar y causar daño masivo al oponente.",
+      "name_en": "Steel Blast",
+      "visual_prompt": "gunmetal gray energy orbs, polished silver sparks, metallic steam vents, electric blue shockwaves, neon cyan trails, industrial city skyline silhouette, steel debris fragments"
     },
     {
-      "name": "Bomba de Acero",
-      "desc": "Lanza una bomba de acero que explota en fragmentos afilados."
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas metálicas que debilitan el poder de los ataques del oponente.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray waves, polished silver ripples, metallic steel blue distortion, electric blue energy pulses, neon cyan shimmer, industrial cityscape reflections, glowing neon sign streaks"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo de gas tóxico",
-      "to": "Se endurece en una armadura de acero resistente."
+      "from": "cuerpo de gas tóxico",
+      "to": "solidificado en una capa protectora brillante de acero"
     },
     {
-      "from": "Símbolo de esqueleto en el pecho",
-      "to": "Brilla como una armadura metálica brillante."
+      "from": "patas cortas",
+      "to": "reforzadas con placas de acero para mayor estabilidad"
     },
     {
-      "from": "Risa suave y ligera",
-      "to": "Se convierte en un sonido resonante de metal."
+      "from": "zumbido suave",
+      "to": "zumbido metálico al moverse"
     },
     {
-      "from": "Movimiento lento y pesado",
-      "to": "Se mueve con rapidez metálica y precisión."
+      "from": "vulnerabilidad a ataques físicos",
+      "to": "resistencia a golpes gracias a la armadura de acero"
     }
   ],
   "pokemon_id": "109",

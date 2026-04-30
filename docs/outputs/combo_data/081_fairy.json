@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Brillo Mágico",
-  "lore": "Brillo Mágico emana una luz suave de su cabeza redonda, con ojos que brillan como estrellas. Su cuerpo de acero se cubre de pétalos brillantes, transformando su energía eléctrica en hechizos de hada.",
+  "lore": "Brillo Mágico se erige sobre patas brillantes, su cuerpo de acero pulido refleja destellos de luz de hada. Sus ojos centellean con energía mágica, y su presencia evoca sueños etéreos en quienes lo observan.",
   "moves": [
     {
-      "name": "Pétalo Encantador",
-      "desc": "Lanza pétalos que confunden al rival con su brillo hipnótico."
+      "name": "Canto de Sueño",
+      "desc": "Crea una melodía hipnótica que envuelve al rival en un sueño profundo, reduciendo su velocidad.",
+      "name_en": "Dream Song",
+      "visual_prompt": "soft pastel pink notes floating in moonlit garden, glowing ivory white mist swirling around crystalline mint orbs, pearl lavender starlight blue petals drifting slowly, hypnotic spiral patterns in glowing starlight blue, gentle shimmering light effects"
     },
     {
-      "name": "Carga Mágica",
-      "desc": "Aumenta el poder de sus ataques con una carga de energía mágica."
+      "name": "Brillo Mágico",
+      "desc": "Aumenta la defensa y evita los ataques críticos durante un turno.",
+      "name_en": "Magic Shine",
+      "visual_prompt": "glowing pastel pink crystals, floating ivory white orbs, pearl lavender mist, starlight blue sparkles, crystalline mint energy trails, soft moonlit garden backdrop"
     },
     {
-      "name": "Vuelo de Estrellas",
-      "desc": "Ataca con una lluvia de estrellas que cura levemente al usuario."
+      "name": "Danza de Estrellas",
+      "desc": "Ataca con destellos de luz que ciegan al oponente, reduciendo su precisión.",
+      "name_en": "Starlight Dance",
+      "visual_prompt": "glowing starlight blue orbs swirling in a delicate spiral, soft pastel pink petals floating upward, crystalline mint light trails, ivory white mist dissipating into pearl lavender sparkles, moonlit garden backdrop with faint glowing flowers"
     },
     {
-      "name": "Burbuja Encantada",
-      "desc": "Crea burbujas mágicas que reducen la defensa del oponente."
+      "name": "Encanto de Hada",
+      "desc": "Envenena al rival con una esencia mágica, causando daño cada turno.",
+      "name_en": "Fairy Charm",
+      "visual_prompt": "glowing pastel pink orbs, delicate lavender petals floating in mist, sparkling starlight blue trails, crystalline mint energy shards, soft ivory light particles, ethereal moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda con pequeños ojos",
-      "to": "ojos brillantes como estrellas, rodeados de pétalos mágicos"
-    },
-    {
-      "from": "energía eléctrica",
-      "to": "transformada en energía mágica de hada"
+      "from": "patas de acero",
+      "to": "patas brillantes que reflejan luz de hada"
     },
     {
       "from": "cuerpo de acero",
-      "to": "cubierto de pétalos brillantes que lo hacen más ligero"
+      "to": "cuerpo pulido que refleja destellos mágicos"
     },
     {
-      "from": "movimientos eléctricos",
-      "to": "reemplazados por ataques mágicos de hada"
+      "from": "energía eléctrica",
+      "to": "energía mágica de hada que envuelve su cuerpo"
+    },
+    {
+      "from": "postura baja",
+      "to": "postura erguida que emana poder mágico"
     }
   ],
   "pokemon_id": "081",

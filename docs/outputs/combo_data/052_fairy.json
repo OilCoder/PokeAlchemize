@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Hada",
-  "lore": "Aliento de Hada posee orejas puntiagudas con puntas negras que brillan con destellos de luz de hada. Su pelaje suave se transforma en un tono dorado plateado, y sus garras emiten destellos mágicos al moverse.",
+  "species_name": "Pokémon Flor de Hada",
+  "lore": "Meowth, ahora envuelto en pétalos brillantes, camina con elegancia sobre sus patas traseras. Su pelaje resplandece con destellos dorados, y sus garras brillan con magia suave. El aire a su alrededor se tiñe de brillos dorados.",
   "moves": [
     {
-      "name": "Canto de Luna",
-      "desc": "Canta una melodía que calma a los enemigos y reduce su velocidad temporalmente."
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan la salud y debilitan al oponente con suavidad.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "floating pastel pink petals, soft ivory white glow, pearl lavender mist, starlight blue crystalline orbs, gentle mint energy trails, moonlit garden backdrop, ethereal soft focus"
     },
     {
-      "name": "Burbuja de Sueños",
-      "desc": "Lanza burbujas que atrapan al oponente en un sueño profundo, bloqueando sus acciones."
+      "name": "Viento de Ensueño",
+      "desc": "Crea un viento suave que reduce el ataque y defensa del rival.",
+      "name_en": "Dream Wind",
+      "visual_prompt": "soft pastel pink mist swirling in gentle spirals, ivory white petals floating upward, pearl lavender starlight glints, crystalline mint energy trails, glowing starlight blue aura with delicate floral patterns, ethereal misty twilight atmosphere"
     },
     {
-      "name": "Brillo de Estrellas",
-      "desc": "Emite un destello de luz estelar que ciega al enemigo y mejora la precisión."
+      "name": "Brillo Dorado",
+      "desc": "Aumenta el ataque y la precisión con un resplandor dorado.",
+      "name_en": "Golden Shine",
+      "visual_prompt": "glowing golden aura, shimmering fairy dust particles, soft pastel pink and pearl lavender light rays, crystalline mint starlight reflections, delicate floating orbs with star patterns, misty twilight garden background with glowing flowers"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza pétalos que curan a aliados y aumentan su defensa temporalmente."
+      "name": "Canto de Hada",
+      "desc": "Un canto que reduce la velocidad y confunde al oponente.",
+      "name_en": "Fairy Song",
+      "visual_prompt": "glowing pastel pink musical notes, floating pearl lavender petals, crystalline mint starlight orbs, soft ivory mist, moonlit garden backdrop, delicate shimmering trails, ethereal glow"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas con puntas negras",
-      "to": "orejas brillan con destellos de luz de hada y se tornan doradas plateadas"
+      "from": "cuatro patas en el suelo",
+      "to": "caminar erguido sobre patas traseras con elegancia"
     },
     {
       "from": "pelaje gris",
-      "to": "pelaje transformado en dorado plateado con destellos mágicos"
+      "to": "pelaje resplandeciente con destellos dorados"
     },
     {
-      "from": "garras afiladas",
-      "to": "garras emiten destellos mágicos al moverse"
+      "from": "garras comunes",
+      "to": "garras brillantes con magia suave"
     },
     {
-      "from": "agilidad",
-      "to": "agilidad aumentada por la magia de hada, permitiendo movimientos más rápidos"
+      "from": "postura compacta",
+      "to": "postura erguida y fluida"
     }
   ],
   "pokemon_id": "052",

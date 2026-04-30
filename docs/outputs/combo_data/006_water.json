@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Oceánico Llama",
-  "lore": "Este Charizard transformado en agua tiene una cola espiral que gotea cristales de hielo, sus alas emiten vapor frío y su cuerpo brilla con reflejos azules bajo el agua.",
+  "species_name": "Pokémon Océano Llama",
+  "lore": "El Océano Llama camina con paso firme sobre las olas, sus alas de llama se han transformado en aletas de coral. Su cuerpo, antes de fuego, ahora absorbe el agua para crear una corriente protectora alrededor de su forma.",
   "moves": [
     {
-      "name": "Ola de Hielo",
-      "desc": "Lanza una ola congelante que ralentiza al enemigo y deja un rastro de hielo en el campo."
+      "name": "Ola de Escamas",
+      "desc": "Genera una ola que envuelve al rival, reduciendo su velocidad y causando daño por contacto.",
+      "name_en": "Scale Wave",
+      "visual_prompt": "crystalline water ripples, glowing bioluminescent plankton trails, teal green and sapphire blue wave patterns, pearly white foam swirls, slow-motion current distortion"
     },
     {
-      "name": "Chorro Submarino",
-      "desc": "Dispara un chorro de agua a alta presión que empuja al rival hacia atrás."
+      "name": "Respiración Marítima",
+      "desc": "Exhala una nube de vapor que cura su salud y aumenta su resistencia a los ataques de fuego.",
+      "name_en": "Marine Breath",
+      "visual_prompt": "steam clouds with bioluminescent plankton glow, deep ocean blue and teal green water droplets, pearly white mist particles, aquamarine ripple effects, sapphire blue light rays"
     },
     {
-      "name": "Nube de Vapor",
-      "desc": "Crea una densa nube de vapor que oculta al Pokémon y reduce el daño recibido."
+      "name": "Cascada de Llama",
+      "desc": "Dispara una cascada de agua caliente que quema y drena la energía del oponente.",
+      "name_en": "Hot Cascade",
+      "visual_prompt": "steaming water cascade, glowing orange-hot droplets, bioluminescent plankton trails, deep ocean blue water, teal green mist, pearly white steam swirls, aquamarine light refraction, sapphire blue background"
     },
     {
-      "name": "Tormenta Acuática",
-      "desc": "Genera una tormenta de agua que causa daño continuo y reduce la precisión del enemigo."
+      "name": "Corriente de Esplendor",
+      "desc": "Crea una corriente que eleva su velocidad y permite atacar dos veces en un turno.",
+      "name_en": "Radiant Current",
+      "visual_prompt": "glowing bioluminescent water currents, swirling teal and aquamarine orbs, pearly white energy trails, deep ocean blue background, smooth flowing motion lines"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiral con llama",
-      "to": "cola espiral con cristales de hielo que gotea"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas adaptadas en aletas para nadar con gracia"
     },
     {
-      "from": "alas de fuego",
-      "to": "alas que emiten vapor frío"
+      "from": "alas de llama",
+      "to": "alas de coral que absorben el agua"
     },
     {
-      "from": "piel roja brillante",
-      "to": "piel azul brillante con reflejos"
+      "from": "resistencia al fuego",
+      "to": "absorción de agua para crear corrientes protectoras"
     },
     {
-      "from": "respiración de llamas",
-      "to": "respiración de vapor frío"
+      "from": "postura baja",
+      "to": "postura erguida para navegar en el agua"
     }
   ],
   "pokemon_id": "006",

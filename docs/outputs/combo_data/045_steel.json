@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Con su capucha de hongos convertida en acero pulido, Vileplume ahora brilla con reflejos metálicos. Sus pétalos se han endurecido en láminas afiladas, y su aroma tóxico se ha transformado en un olor a hierro recién forjado.",
+  "species_name": "Pokémon Acero Flor",
+  "lore": "Vileplume, ahora con armadura de acero, camina con pasos firmes. Sus pétalos se han vuelto afilados y metálicos, brillando bajo el sol. Sus raíces se han transformado en garras de acero, aferrando el suelo con fuerza.",
   "moves": [
     {
-      "name": "Acero Pétalo",
-      "desc": "Lanza láminas de acero afiladas que cortan cualquier defensa."
+      "name": "Cortante Acero",
+      "desc": "Ataca con pétalos afilados de acero, causando daño físico y posiblemente paralizar.",
+      "name_en": "Steel Petal Slash",
+      "visual_prompt": "shimmering steel petals, razor-sharp edges, gunmetal gray and silver hues, neon cyan glow, industrial city skyline backdrop, metallic steam rising, electric blue energy trails"
     },
     {
-      "name": "Forja Veneno",
-      "desc": "Genera una nube de espinas de acero tóxicas que envenena al oponente."
+      "name": "Raíz de Acero",
+      "desc": "Atrae al oponente con raíces metálicas, reduciendo su velocidad y causando daño.",
+      "name_en": "Steel Root",
+      "visual_prompt": "metallic roots coiling with gunmetal gray and electric blue glow, polished silver tendrils weaving through neon cyan steam vents, industrial cityscape backdrop with glowing steel structures, metallic blue energy trails"
     },
     {
-      "name": "Corte de Hierro",
-      "desc": "Ataca con un corte rápido que reduce la defensa del rival."
+      "name": "Bomba Flor",
+      "desc": "Lanza pétalos de acero que explotan al impactar, causando daño especial.",
+      "name_en": "Steel Bloom",
+      "visual_prompt": "shimmering steel petals, explosive impact rings, metallic steam vents, glowing neon cyan trails, industrial cityscape backdrop, gunmetal gray explosions, polished silver fragments, electric blue energy bursts"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Crea vibraciones que debilitan los ataques del oponente."
+      "name": "Defensa Acero",
+      "desc": "Aumenta la defensa con una armadura metálica que resiste golpes.",
+      "name_en": "Steel Defense",
+      "visual_prompt": "gunmetal gray armor plating, polished silver shield aura, metallic steel blue energy rings, electric blue particle sparks, neon cyan energy waves, industrial city skyline backdrop, glowing neon reflections"
     }
   ],
   "diffs": [
     {
-      "from": "capucha de hongos",
-      "to": "capucha de acero pulido con reflejos metálicos"
+      "from": "pétalos florescentes",
+      "to": "pétalos afilados y metálicos, brillantes"
     },
     {
-      "from": "pétalos suaves",
-      "to": "pétalos endurecidos en láminas afiladas"
+      "from": "raíces suaves",
+      "to": "raíces transformadas en garras de acero"
     },
     {
-      "from": "olor a flores",
-      "to": "olor a hierro recién forjado"
+      "from": "bajo postura",
+      "to": "postura firme con cuatro patas metálicas"
     },
     {
-      "from": "toxicidad suave",
-      "to": "toxicidad convertida en espinas de acero"
+      "from": "olor venenoso",
+      "to": "olor metálico y frío, sin veneno"
     }
   ],
   "pokemon_id": "045",

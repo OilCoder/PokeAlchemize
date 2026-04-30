@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Dragón de Ceniza",
-  "lore": "Dragón de Ceniza flota con alas de cristal que brillan bajo el sol. Sus cuernos se transforman en espirales de luz dorada, y su piel emana un aura mágica que cura heridas. Su gracia es inigualable.",
+  "lore": "Dragón de Ceniza respira aliento de hadas que derrite rocas. Sus patas, cubiertas de escamas brillantes, desprenden destellos dorados al caminar. Sus alas, ahora translúcidas, brillan con destellos de luz celestial.",
   "moves": [
     {
-      "name": "Ala de Sueño",
-      "desc": "Cubre al enemigo con una capa de sueño mágico que reduce su velocidad."
+      "name": "Aliento de Estrellas",
+      "desc": "Lanza un chorro de partículas brillantes que cura el estado de fatiga y reduce el daño recibido.",
+      "name_en": "Starlight Breath",
+      "visual_prompt": "glowing star particles, soft pastel pink mist, ivory white crystalline orbs, pearl lavender starlight trails, crystalline mint energy pulses, moonlit garden backdrop, soft misty twilight sky"
     },
     {
-      "name": "Canto de Ceniza",
-      "desc": "Genera una lluvia de ceniza que cura daños y debilita el ataque físico."
+      "name": "Danza de la Luna",
+      "desc": "Aumenta la precisión y velocidad del usuario mientras baila con luces lunares.",
+      "name_en": "Moon Dance",
+      "visual_prompt": "glowing lunar petals swirling in rhythmic patterns, soft pastel pink and pearl lavender light trails, crystalline mint starlight sparks, ivory white mist rising in spirals, delicate moonbeam reflections on dewy grass"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Aumenta la precisión de los movimientos y cura un poco de salud."
+      "name": "Corte de Ceniza",
+      "desc": "Ataca con garras cubiertas de ceniza brillante que reducen la defensa del oponente.",
+      "name_en": "Ash Slash",
+      "visual_prompt": "glowing ash shards, shimmering pink and lavender particles, delicate crystalline mint mist, soft moonlight beams, floating starlight blue dust, intricate fairy-touched leaf patterns, ethereal sparkles"
     },
     {
-      "name": "Vuelo de Estrellas",
-      "desc": "Ataca con una lluvia de estrellas que causa daño mágico y confunde al rival."
+      "name": "Resplandor Mágico",
+      "desc": "Genera un aura mágica que protege al usuario de ataques especiales durante un turno.",
+      "name_en": "Magic Glow",
+      "visual_prompt": "soft pastel pink aura, glowing starlight blue particles, pearl lavender mist, crystalline mint light refractions, delicate floating fairy dust, ethereal moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo triangular con cuernos curvos",
-      "to": "Cuernos en espiral de luz dorada, piel brillante"
-    },
-    {
       "from": "Alas de dragón",
-      "to": "Alas de cristal que brillan bajo el sol"
+      "to": "Alas translúcidas que brillan con luces celestiales"
     },
     {
-      "from": "Piel escamosa",
-      "to": "Aura mágica que cura heridas"
+      "from": "Escamas doradas",
+      "to": "Escamas que emiten destellos dorados al caminar"
     },
     {
-      "from": "Vuelo rápido",
-      "to": "Flotación suave con efectos curativos"
+      "from": "Postura baja",
+      "to": "Postura erguida con patas cubiertas de brillo mágico"
+    },
+    {
+      "from": "Aliento de fuego",
+      "to": "Aliento de hadas que derrite rocas"
     }
   ],
   "pokemon_id": "149",

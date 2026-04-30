@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Sandslash, ahora con escamas eléctricas que brillan en la oscuridad, camina sobre el agua con sus garras cargadas. Sus orejas puntiagudas ahora emiten chispas al moverse, protegiendo a su entorno de amenazas.",
+  "species_name": "Pokémon Descarga de Arena",
+  "lore": "Sandslash ahora brilla con energía eléctrica en sus espinas. Sus patas, antes firmes en el suelo, emiten chispas al moverse. Su pelaje dorado reluce bajo el sol, cargado de voltaje. Camina con un aura de poder estático.",
   "moves": [
     {
-      "name": "Chispa Acuática",
-      "desc": "Genera una corriente eléctrica que desvía ataques acuáticos y refresca al usuario."
+      "name": "Descarga de Arena",
+      "desc": "Lanza una tormenta de chispas que paraliza al rival y desata una explosión de energía eléctrica.",
+      "name_en": "Sandstorm Surge",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy bursts, stormy sky backdrop, dynamic energy field patterns"
     },
     {
-      "name": "Rayo de Sal",
-      "desc": "Lanza una ráfaga de sal cargada de electricidad para dañar y debilitar al oponente."
+      "name": "Relámpago de Arena",
+      "desc": "Ataca con un rayo que atraviesa el suelo, causando daño eléctrico y debilitando al objetivo.",
+      "name_en": "Sand Bolt",
+      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts piercing through stormy gray sand, violet sparks scattering in electric cyan trails, bright white static discharge, neon-lit thunderclouds with crackling energy fields"
     },
     {
-      "name": "Ola Electrónica",
-      "desc": "Crea una ola que absorbe energía eléctrica y la devuelve con mayor potencia."
+      "name": "Carga Estática",
+      "desc": "Aumenta la defensa y carga energía eléctrica para el próximo ataque.",
+      "name_en": "Static Charge",
+      "visual_prompt": "crackling electric blue orbs, neon yellow energy trails, violet sparks scattering, bright white lightning bolts, electric cyan static field, stormy sky backdrop"
     },
     {
-      "name": "Estatua de Relámpago",
-      "desc": "Se congela en posición, acumulando energía eléctrica para un ataque devastador."
+      "name": "Chispazo Terrenal",
+      "desc": "Genera un campo eléctrico en el suelo que daña a todos los enemigos en combate.",
+      "name_en": "Earth Spark",
+      "visual_prompt": "crackling electric field, glowing neon yellow ground patterns, electric cyan energy arcs, violet sparks, stormy sky backdrop, dynamic energy pulses, wide-angle view of electrified terrain, no characters or Pokémon, Ken Sugimori style VFX"
     }
   ],
   "diffs": [
     {
-      "from": "Piel áspera de arena",
-      "to": "Escamas resplandecientes que brillan bajo la luz"
+      "from": "espinas de arena",
+      "to": "espinas cargadas con electricidad estática"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas que emiten chispas eléctricas al moverse"
+      "from": "patas firmes en el suelo",
+      "to": "patas que emiten chispas al caminar"
     },
     {
-      "from": "Movimiento lento en el suelo",
-      "to": "Desplazamiento rápido sobre el agua con carga eléctrica"
+      "from": "pelaje dorado",
+      "to": "pelaje que reluce con energía eléctrica"
     },
     {
-      "from": "Ataques terrestres",
-      "to": "Ataques eléctricos que se reflejan en el agua"
+      "from": "baja postura",
+      "to": "postura elevada con aura eléctrica"
     }
   ],
   "pokemon_id": "028",

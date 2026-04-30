@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero de Hielo",
-  "lore": "Jynx Acero de Hielo brilla con cabello plateado como acero fundido. Sus ojos brillan con energía metálica, y sus movimientos generan ondas de vibración que cortan el aire con precisión quirúrgica.",
+  "lore": "Jynx, ahora fusionada con acero, camina con pasos resonantes. Su piel translúcida refleja escamas metálicas, y sus ojos brillan con energía eléctrica. El hielo se solidifica en una armadura fría.",
   "moves": [
     {
-      "name": "Corte de Acero",
-      "desc": "Corta al rival con una hoja de acero que emana de sus cabellos plateados, causando daño físico."
+      "name": "Cristal Cortante",
+      "desc": "Corta al rival con láminas de hielo acerado que cortan sin dejar heridas visibles.",
+      "name_en": "Crystal Slash",
+      "visual_prompt": "shimmering steel-blue ice shards, razor-thin crystalline blades, polished silver edges, neon cyan glints, industrial city skyline backdrop, metallic steam vents, electric blue energy trails"
     },
     {
-      "name": "Vibración Metálica",
-      "desc": "Genera ondas de vibración que reducen la defensa del oponente con un sonido metálico penetrante."
+      "name": "Escudo de Hielo",
+      "desc": "Crea un escudo de hielo acerado que absorbe el 50% del daño recibido.",
+      "name_en": "Ice Shield",
+      "visual_prompt": "glowing gunmetal gray ice shield, polished silver edges, metallic steel blue aura, electric blue energy rings, neon cyan frost patterns, industrial city skyline backdrop"
     },
     {
-      "name": "Reflejo de Hielo",
-      "desc": "Crea un escudo de hielo que refleja ataques especiales y reduce el daño recibido."
+      "name": "Impacto Metálico",
+      "desc": "Ataca con un golpe de acero que reduce la defensa del rival.",
+      "name_en": "Metal Impact",
+      "visual_prompt": "shimmering steel blades slicing through industrial air, polished silver sparks, gunmetal gray energy waves, neon cyan afterimages, metallic steam vents glowing with electric blue light"
     },
     {
-      "name": "Cristalización",
-      "desc": "Transforma el campo de batalla en un cristal que lanza fragmentos cortantes hacia el enemigo."
+      "name": "Vibración Helada",
+      "desc": "Genera vibraciones frías que debilitan el movimiento del rival.",
+      "name_en": "Frozen Vibration",
+      "visual_prompt": "crystalline ice shards, shimmering frost patterns, glowing electric blue energy pulses, metallic steam vents, polished silver resonance waves, gunmetal gray mist, neon cyan accents, industrial city skyline backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabello largo rubio",
-      "to": "cabello plateado como acero fundido que emite destellos metálicos"
+      "from": "piel translúcida",
+      "to": "se convierte en una armadura de hielo acerado que brilla con reflejos metálicos"
     },
     {
       "from": "movimientos psíquicos",
-      "to": "movimientos basados en vibraciones metálicas y corte preciso"
+      "to": "ahora se manifiestan como ondas de energía acerada que golpean con precisión"
     },
     {
-      "from": "resistencia al hielo",
-      "to": "resistencia al acero y capacidad para generar ondas de vibración"
+      "from": "postura erguida",
+      "to": "se vuelve más rígida, con pasos que resonar en el suelo como metal"
     },
     {
-      "from": "sistema de lucha",
-      "to": "sistema de lucha basado en precisión quirúrgica y control de campo"
+      "from": "movimientos de hielo",
+      "to": "ahora son cortantes y afilados, como si el hielo hubiera sido templado"
     }
   ],
   "pokemon_id": "124",

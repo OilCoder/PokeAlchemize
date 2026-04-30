@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Serpiente",
-  "lore": "Arbok, ahora cubierto de escamas de acero pulido, desplaza el aire con sus colmillos afilados. Sus ojos brillan como acero fundido, y sus patas se han transformado en garras metálicas que cortan el aire al moverse.",
+  "lore": "Acero Serpiente se desplaza con gracia metálica, su cuerpo plateado refleja el sol mientras sus escamas afiladas cortan el aire. Sus ojos brillan con frialdad, listos para atacar con precisión acerada.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta al rival con garras de acero, causando daño y reduciendo la defensa."
+      "desc": "Ataca con garras afiladas que cortan acero, causando daño adicional por tipo.",
+      "name_en": "Steel Cut",
+      "visual_prompt": "sharpened steel claws, polished silver sparks, gunmetal gray energy trails, metallic steam vents, neon cyan glowing edges, industrial cityscape backdrop"
     },
     {
-      "name": "Impacto Relámpago",
-      "desc": "Ataca con un golpe rápido que genera un destello metálico y aumenta la velocidad."
+      "name": "Escudo Inoxidable",
+      "desc": "Crea una barrera de acero que reduce el daño recibido y refleja ataques críticos.",
+      "name_en": "Unbreakable Shield",
+      "visual_prompt": "polished steel barrier, glowing neon cyan edges, metallic steam vents, gunmetal gray reflections, electric blue energy waves, industrial cityscape backdrop"
     },
     {
-      "name": "Escudo Estelar",
-      "desc": "Crea un escudo de acero que bloquea ataques y refleja el daño."
+      "name": "Cicatriz de Acero",
+      "desc": "Deja una herida que reduce la defensa del oponente y genera un efecto de corrosión.",
+      "name_en": "Steel Scar",
+      "visual_prompt": "cracked steel surface, corroding metallic streaks, glowing electric blue etching, polished silver residue, industrial steam vents, neon cyan vapor trails, gunmetal gray texture, metallic sheen, sharp jagged fissures, toxic blue corrosion spots"
     },
     {
-      "name": "Mordisco Estelar",
-      "desc": "Muerde con fuerza metálica, causando daño y posiblemente causando parálisis."
+      "name": "Golpe de Martillo",
+      "desc": "Ataca con un golpe fuerte de martillo que causa daño y reduce la velocidad del rival.",
+      "name_en": "Hammer Strike",
+      "visual_prompt": "polished steel hammer impact, metallic blue energy waves, glowing neon cyan sparks, industrial steam vents, gunmetal gray debris, electric blue shockwaves, polished silver reflections"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada con orejas puntiagudas",
-      "to": "cabeza recubierta de escamas de acero pulido, orejas transformadas en puntas afiladas de acero"
+      "from": "cuerpo serpiente con escamas venenosas",
+      "to": "cuerpo cubierto de escamas metálicas resistentes al veneno"
     },
     {
-      "from": "piel venenosa",
-      "to": "piel cubierta por escamas metálicas resistentes al veneno"
+      "from": "postura baja y coiled",
+      "to": "postura erguida y ágil con movimientos precisos"
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos ágiles y precisos gracias a las garras metálicas"
+      "from": "veneno como arma",
+      "to": "acero como arma, cortando con precisión"
     },
     {
-      "from": "veneno en los colmillos",
-      "to": "colmillos afilados y cortantes de acero sin veneno"
+      "from": "color verde oscuro",
+      "to": "color plateado brillante con destellos azules"
     }
   ],
   "pokemon_id": "024",

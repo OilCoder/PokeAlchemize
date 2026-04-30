@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Electrificada",
-  "lore": "Su corona de espinas se transforma en llamas danzantes que emanan calor intenso. Su piel brillante ahora brilla con destellos rojos, y sus movimientos generan chispas incandescentes al tocar el suelo.",
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Este Pokémon, con patas de acero y chispas danzando en su pelaje, genera fuego al tocar el suelo. Sus ojos brillan con llamas azules, y su cola emite chispas que se convierten en llamaradas al contacto con el aire.",
   "moves": [
     {
-      "name": "Chispa Incendiaria",
-      "desc": "Genera chispas que inflaman el suelo, causando daño adicional por fuego."
+      "name": "Chispa Incendia",
+      "desc": "Lanza una chispa que se convierte en una llama al impactar, causando daño y quemaduras.",
+      "name_en": "Fire Spark",
+      "visual_prompt": "crimson red spark transforming into a molten gold flame, ember particles rising from impact point, volcanic crater backdrop with glowing magma pools, smoke trails, charcoal black smoke swirls"
     },
     {
-      "name": "Relámpago de Llama",
-      "desc": "Lanza un rayo eléctrico que se convierte en llamarada al impactar."
+      "name": "Pata de Fuego",
+      "desc": "Aplasta al oponente con una pata cubierta de llamas, elevando el ataque.",
+      "name_en": "Fire Kick",
+      "visual_prompt": "crimson flames, molten gold sparks, ember trails, volcanic ash swirls, orange glow, black soot particles, dynamic footstep pattern, intense heat haze"
     },
     {
-      "name": "Carga Cálida",
-      "desc": "Aumenta el ataque con un impulso de calor intenso."
+      "name": "Relámpago Ardiente",
+      "desc": "Ataca con un rayo de fuego que quema y paraliza al rival.",
+      "name_en": "Blazing Bolt",
+      "visual_prompt": "crimson red lightning bolt, molten gold sparks, amber orange heat waves, charcoal black smoke trails, glowing ember particles, volcanic crater background"
     },
     {
-      "name": "Escudo de Llama",
-      "desc": "Crea una barrera de llamas que absorbe el daño físico."
+      "name": "Vórtice Eléctrico",
+      "desc": "Crea un torbellino de chispas y llamas que aturde y derrite el suelo.",
+      "name_en": "Electric Vortex",
+      "visual_prompt": "crimson red and amber orange whirlwind, molten gold sparks, glowing ember trails, charcoal black smoke swirls, volcanic crater background with molten lava pools"
     }
   ],
   "diffs": [
     {
-      "from": "espinas en la cabeza",
-      "to": "se convierten en llamas danzantes que emanan calor"
+      "from": "Patas plantadas en el suelo",
+      "to": "Patas cubiertas de llamas que generan calor al pisar."
     },
     {
-      "from": "piel brillante",
-      "to": "brilla con destellos rojos en lugar de azules"
+      "from": "Chispas en el pelaje",
+      "to": "Chispas que se transforman en llamas al contacto con el aire."
     },
     {
-      "from": "movimientos eléctricos",
-      "to": "generan chispas incandescentes al tocar el suelo"
+      "from": "Baja postura",
+      "to": "Postura elevada con cola ardiendo en espiral."
     },
     {
-      "from": "sistema nervioso eléctrico",
-      "to": "alimentado por energía ígnea, no eléctrica"
+      "from": "Ojos normales",
+      "to": "Ojos brillantes con llamas azules en su interior."
     }
   ],
   "pokemon_id": "125",

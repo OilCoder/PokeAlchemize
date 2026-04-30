@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Ondavolt",
-  "lore": "Ondavolt, con su corona de espinas que ahora gotea agua cristalina, genera ondas eléctricas en el agua. Sus ojos brillan con energía hidroeléctrica, mientras sus patas acuáticas desatan oleadas de choques eléctricos.",
+  "species_name": "Pokémon Agua Relámpago",
+  "lore": "Agua Relámpago camina con patas acuáticas que gotean chispas. Su pelaje brillante absorbe el agua, generando descargas eléctricas al tocar superficies húmedas. Sus ojos centellean con energía hidroeléctrica.",
   "moves": [
     {
-      "name": "Onda Hidroeléctrica",
-      "desc": "Genera una ola de agua cargada de electricidad que aturde al enemigo."
+      "name": "Chispa Acuática",
+      "desc": "Genera una descarga eléctrica que se disipa en el agua, afectando a todos los enemigos en el área.",
+      "name_en": "Water Spark",
+      "visual_prompt": "glowing electric arcs, deep ocean blue water ripples, bioluminescent plankton particles, teal green energy pulses, pearly white electric discharge trails, aquamarine light refractions"
     },
     {
-      "name": "Chorro de Relámpago",
-      "desc": "Dispara un chorro de agua que libera relámpagos en el aire."
+      "name": "Ola Estática",
+      "desc": "Lanza una ola de agua cargada de electricidad que paraliza a los oponentes.",
+      "name_en": "Static Wave",
+      "visual_prompt": "electric-blue water ripples, glowing teal bioluminescent plankton, shimmering aquamarine energy arcs, pearly white electric sparks, deep ocean trench backdrop, calm underwater current motion"
     },
     {
-      "name": "Circuito Acuático",
-      "desc": "Crea un circuito eléctrico en el agua para aumentar el daño de los ataques."
+      "name": "Burbuja Conductora",
+      "desc": "Crea burbujas que absorben el agua y liberan energía eléctrica al estallar.",
+      "name_en": "Conductive Bubble",
+      "visual_prompt": "glowing electric blue bubbles, water droplets with teal energy trails, shattered bubble fragments emitting sapphire sparks, bioluminescent plankton glow, deep ocean trench background with calm currents"
     },
     {
-      "name": "Burbuja Estática",
-      "desc": "Lanza burbujas que absorben el daño eléctrico y lo devuelven al enemigo."
+      "name": "Tormenta Húmeda",
+      "desc": "Invoca una tormenta eléctrica sobre el campo, aumentando el daño de los ataques eléctricos.",
+      "name_en": "Wet Storm",
+      "visual_prompt": "electric blue lightning bolts, swirling water droplets, glowing bioluminescent plankton, deep ocean trench backdrop, aquamarine energy rings, teal green mist, pearly white sparkles"
     }
   ],
   "diffs": [
     {
-      "from": "corona de espinas",
-      "to": "espinas ahora gotean agua cristalina"
+      "from": "patas plantadas en el suelo",
+      "to": "patas adaptadas para caminar en agua, con garras para evitar resbalones"
     },
     {
-      "from": "energía eléctrica",
-      "to": "energía convertida en hidroeléctrica"
+      "from": "pelaje brillante",
+      "to": "pelaje que absorbe agua, generando chispas al tocar superficies húmedas"
     },
     {
-      "from": "patas terrestres",
-      "to": "patas adaptadas para caminar en el agua"
+      "from": "bajo postura",
+      "to": "postura más erguida para equilibrar en superficies resbaladizas"
     },
     {
-      "from": "movimientos eléctricos",
-      "to": "ataques combinados con agua y electricidad"
+      "from": "ojos centellean",
+      "to": "ojos brillan con energía hidroeléctrica, visibles en la oscuridad"
     }
   ],
   "pokemon_id": "125",

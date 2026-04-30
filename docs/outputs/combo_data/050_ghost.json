@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra de Tierra",
-  "lore": "Con su cabeza redonda y orejas puntiagudas translúcidas, este Diglett fantasmal se desliza entre las sombras del suelo. Sus rasgos terrenales se fusionan con la espectralidad, creando un aura de misterio en las cuevas subterráneas.",
+  "species_name": "Pokémon Espectro de Tierra",
+  "lore": "Este Diglett fantasmal se desliza bajo la tierra, sus patas translúcidas dejando huellas etéreas. Su cuerpo translúcido emite un brillo azulado, y sus ojos brillan con un resplandor púrpura. El tipo fantasma le otorga una presencia inquietante y letal.",
   "moves": [
     {
-      "name": "Sombra Excavadora",
-      "desc": "Crea una sombra que excava el suelo, revelando objetos ocultos bajo tierra."
+      "name": "Sombra Subterránea",
+      "desc": "El Pokémon se funde con la oscuridad bajo tierra, evitando ataques y preparando un ataque sorpresa.",
+      "name_en": "Subterranean Shade",
+      "visual_prompt": "crackling shadow tendrils rising from earth, glowing violet energy orbs floating in mist, faint moonlit tombstone outlines, ethereal fog swirls, charcoal gray and pale silver light effects, ghostly white particles drifting"
     },
     {
-      "name": "Eco Fantasmal",
-      "desc": "Emite un eco que confunde a los enemigos con imágenes de su propia sombra."
+      "name": "Aliento Fantasmal",
+      "desc": "Lanza un aliento frío que reduce la defensa del oponente y genera miedo.",
+      "name_en": "Phantom Breath",
+      "visual_prompt": "frozen mist swirling around ghostly violet orbs, drifting charcoal gray fog, pale silver mist trails, shadow violet aura pulses, ethereal white mist tendrils, moonlit tombstone silhouettes faintly visible in background"
     },
     {
-      "name": "Tierra Invisibilidad",
-      "desc": "Se vuelve invisible mientras excava, evitando ataques físicos."
+      "name": "Serpiente de Sombras",
+      "desc": "Crea una serpiente de sombras que ataca al oponente desde distintas direcciones.",
+      "name_en": "Shadow Serpent",
+      "visual_prompt": "twisting ghostly serpent made of misty violet smoke, swirling charcoal gray tendrils, pale silver highlights, ethereal fog drifting, moonlit tombstone shadows, shadow violet aura, no characters or Pokémon"
     },
     {
-      "name": "Serpiente Espectral",
-      "desc": "Lanza una serpiente de sombra que envuelve al oponente y reduce su defensa."
+      "name": "Eclipse Subterráneo",
+      "desc": "Invoca un eclipse que oscurece el campo de batalla, reduciendo la precisión de los ataques del oponente.",
+      "name_en": "Subterranean Eclipse",
+      "visual_prompt": "deep violet eclipse ring, charcoal gray shadow waves, pale silver moonlight beams, ghostly white mist tendrils, ethereal fog swirls, shadow violet aura, no characters, no Pokémon, no silhouettes"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo terroso",
-      "to": "cuerpo translúcido y espectral"
+      "from": "patas cortas y sólidas",
+      "to": "patas translúcidas que brillan con brillo azulado"
     },
     {
-      "from": "orejas pequeñas",
-      "to": "orejas puntiagudas brillantes en tonos púrpuras"
+      "from": "cuerpo sólido",
+      "to": "cuerpo translúcido con un brillo púrpura en los ojos"
     },
     {
-      "from": "movimientos de excavación",
-      "to": "excavación que deja huellas espirituales"
+      "from": "bajo postura de arrastre",
+      "to": "deslizándose en una postura etérea sin contacto con el suelo"
     },
     {
-      "from": "color marrón",
-      "to": "color grisáceo con destellos azules"
+      "from": "poco visible bajo tierra",
+      "to": "visible como una sombra etérea en la oscuridad."
     }
   ],
   "pokemon_id": "050",

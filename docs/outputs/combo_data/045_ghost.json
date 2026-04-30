@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Hongo",
-  "lore": "Sombra Hongo emana un aura espectral desde su capucha de hongo, que ahora brilla con un resplandor púrpura. Sus pétalos se desvanecen en sombras, y sus raíces se enroscan en espirales etéreas.",
+  "species_name": "Pokémon Sombra Floral",
+  "lore": "Vileplume, ahora un espíritu flotante, emana un aura oscura desde sus pétalos negros. Sus patas se han vuelto translúcidas, flotando sin contacto con el suelo, mientras sus hojas brillan con un resplandor fantasmal.",
   "moves": [
     {
-      "name": "Espectro de Hongo",
-      "desc": "Invoca sombras de hongos que atacan al enemigo con un grito fantasmal."
+      "name": "Aliento Espectral",
+      "desc": "Ataca con un soplo de energía fantasmal que reduce la defensa del oponente.",
+      "name_en": "Spectral Breath",
+      "visual_prompt": "ghostly violet mist swirling, pale silver orbs floating, charcoal gray tendrils coiling, ethereal fog drifting, shadow violet energy waves, translucent spectral aura"
     },
     {
-      "name": "Capa Sombra",
-      "desc": "Cubre al usuario con una capa de sombras que reduce el daño recibido."
+      "name": "Pétalos Sombríos",
+      "desc": "Lanza pétalos negros que causan daño y confusión al enemigo.",
+      "name_en": "Shadow Petals",
+      "visual_prompt": "floating black petals, ghostly violet mist, faint silver outlines, shadowy swirls, pale white glow, ethereal fog, moonlit graveyard backdrop"
     },
     {
-      "name": "Susurro Fantasmal",
-      "desc": "Ataca con un susurro que confunde al oponente y reduce su velocidad."
+      "name": "Danza de la Muerte",
+      "desc": "Realiza un baile letal que absorbe energía vital del oponente.",
+      "name_en": "Death Dance",
+      "visual_prompt": "swirling violet mist, skeletal shadow hands reaching, ghostly silver orbs floating, decaying leaves in motion, moonlit tombstone silhouettes, ethereal fog drifts, shadow violet light beams"
     },
     {
-      "name": "Raíces Espectrales",
-      "desc": "Enraiza al usuario en sombras, recuperando salud mientras permanece inmóvil."
+      "name": "Espectro Floral",
+      "desc": "Crea una barrera de espirales fantasmales que protege al usuario.",
+      "name_en": "Spectral Bloom",
+      "visual_prompt": "ghostly violet spirals, swirling mist, pale silver barriers, shadow violet energy trails, ethereal fog, moonlit tombstone outlines"
     }
   ],
   "diffs": [
     {
-      "from": "capucha de hongo redondeada",
-      "to": "capucha de hongo con resplandor púrpura y sombras etéreas"
+      "from": "Pétalos rojos y verdes",
+      "to": "Pétalos negros brillantes con resplandor fantasmal"
     },
     {
-      "from": "pétalos verdes",
-      "to": "pétalos que se desvanecen en sombras"
+      "from": "Patas sólidas",
+      "to": "Patas translúcidas flotando sin contacto con el suelo"
     },
     {
-      "from": "raíces en tierra",
-      "to": "raíces en espirales etéreas"
+      "from": "Aroma venenoso",
+      "to": "Aroma oscuro que absorbe energía vital"
     },
     {
-      "from": "olor a flores",
-      "to": "olor a hongos en descomposición en la oscuridad"
+      "from": "Postura baja en el suelo",
+      "to": "Postura elevada, flotando en el aire sin contacto."
     }
   ],
   "pokemon_id": "045",

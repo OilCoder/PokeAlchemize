@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Lámina Tóxica",
-  "lore": "Su cabeza redonda ahora brilla con una capa de acero pulido, sus ojos cerrados se transforman en pequeñas ranuras reflectantes. La toxicidad de su veneno se fusiona con la dureza metálica, creando un aura de amenaza silenciosa.",
+  "species_name": "Pokémon Acero Verdoso",
+  "lore": "Su cuerpo se cubrió de escamas metálicas verdes que brillan bajo el sol. Sus patas, ahora afiladas y resistentes, crujen al caminar sobre rocas. El aroma de sus flores se mezcla con el olor del hierro fundido.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con una hoja de acero afilada que deja marcas profundas en el enemigo."
+      "name": "Corte de Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño físico y posible reducción de defensa.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, razor-sharp metallic edges, gunmetal gray particles, polished silver sparks, industrial city skyline backdrop, neon cyan energy trails"
     },
     {
-      "name": "Veneno Metálico",
-      "desc": "Inyecta veneno que se fusiona con el metal, ralentizando al oponente."
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan la defensa del oponente.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished silver ripples, metallic steam vents, electric blue neon glow, steel blue distortion fields, neon cyan energy pulses, industrial cityscape reflections"
     },
     {
-      "name": "Impacto Duro",
-      "desc": "Golpea con fuerza metálica, causando daño directo y posiblemente aturdimiento."
+      "name": "Escudo Inquebrantable",
+      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido.",
+      "name_en": "Unbreakable Shield",
+      "visual_prompt": "gunmetal gray steel shield, polished silver edges, metallic steam vents, glowing neon cyan energy rings, industrial cityscape backdrop, electric blue energy waves, reflective surface with damage absorption ripples"
     },
     {
-      "name": "Escudo Reflejo",
-      "desc": "Crea un escudo de acero que refleja ataques y reduce el daño recibido."
+      "name": "Fragancia Ferrosa",
+      "desc": "Emite un aroma metálico que reduce la precisión del rival.",
+      "name_en": "Metal Scent",
+      "visual_prompt": "metallic steam vents, polished silver orbs floating in air, gunmetal gray mist, electric blue trails, neon cyan aura, industrial city skyline silhouette, metallic sheen on air particles"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "cabeza redonda con capa de acero pulido"
+      "from": "flores verdes y fragantes",
+      "to": "escamas metálicas verdes que brillan y emiten aroma de hierro"
     },
     {
-      "from": "ojos cerrados",
-      "to": "ojos cerrados convertidos en ranuras reflectantes"
+      "from": "patas blandas y flexibles",
+      "to": "patas afiladas y resistentes, crujen al caminar"
     },
     {
-      "from": "veneno tóxico",
-      "to": "veneno que se fusiona con el metal"
+      "from": "sistema de absorción de nutrientes",
+      "to": "sistema de absorción de metales, acumula hierro del suelo"
     },
     {
-      "from": "piel suave",
-      "to": "piel cubierta por una capa de acero"
+      "from": "sistema de defensa tóxica",
+      "to": "sistema de defensa metálica, refleja ataques físicos"
     }
   ],
   "pokemon_id": "043",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Su flor central arde con llamas intensas, irradiando calor sofocante. Las hojas de su espalda brillan con destellos rojos, mientras sus pétalos se transforman en llamas danzantes. Su presencia quema el aire a su alrededor.",
+  "species_name": "Pokémon Llama Venenosa",
+  "lore": "Venusaur ahora irradia llamas venenosas en su flor, sus pétalos se tornan rojizos y brillantes. Sus patas, antes verdes, ahora tienen marcas de fuego que arden sin consumirse. Su postura se eleva con una nueva arrogancia.",
   "moves": [
     {
-      "name": "Llama Flor",
-      "desc": "Lanza una llamarada desde su flor central, quemando al oponente con fuego intenso."
+      "name": "Llama Venenosa",
+      "desc": "Lanza llamas que infectan al oponente con veneno, causando daño gradual.",
+      "name_en": "Poison Flame",
+      "visual_prompt": "crimson red fireballs, amber orange smoke trails, molten gold embers, charcoal black smoke swirls, glowing ember particles, volcanic crater background"
     },
     {
-      "name": "Fuego de Hojas",
-      "desc": "Genera llamas en sus hojas, lanzando una lluvia de brasas que daña al rival."
+      "name": "Flor Incendia",
+      "desc": "Su flor se inflama, lanzando fuego en círculo alrededor de sí mismo.",
+      "name_en": "Flame Bloom",
+      "visual_prompt": "crimson fire petals swirling in a circular motion, molten gold embers rising from a volcanic crater, amber orange flames forming a protective ring, glowing ember sparks against charcoal black smoke, stylized Ken Sugimori fire VFX"
     },
     {
-      "name": "Cicatriz de Llama",
-      "desc": "Crea una barrera de llamas alrededor de sí mismo, reduciendo el daño recibido."
+      "name": "Toxicos Llameantes",
+      "desc": "Genera una nube de humo tóxico que quema y envenena al enemigo.",
+      "name_en": "Blazing Toxin",
+      "visual_prompt": "toxic smoke cloud, crimson red and amber orange flames, molten gold embers, charcoal black smoke trails, glowing ember particles, volcanic crater background"
     },
     {
-      "name": "Explosión Floral",
-      "desc": "Su flor estalla en llamas, causando un ataque potente a todos los enemigos cercanos."
+      "name": "Pétalos Ardientes",
+      "desc": "Dispara pétalos en llamas que causan quemaduras y daño adicional.",
+      "name_en": "Blazing Petals",
+      "visual_prompt": "crimson flame petals, molten gold embers, amber-orange smoke swirls, glowing ember trails, volcanic ash particles, charcoal black smoke bursts, fiery explosion sparks"
     }
   ],
   "diffs": [
     {
-      "from": "Flor central",
-      "to": "Arde con llamas intensas, irradiando calor sofocante"
+      "from": "Flor de Venusaur",
+      "to": "Se transforma en una flor que emite llamas venenosas, de color rojo brillante."
     },
     {
-      "from": "Hoja de espalda",
-      "to": "Brilla con destellos rojos, transformada en llamas danzantes"
+      "from": "Piel verde",
+      "to": "Adquiere marcas de fuego en sus patas que brillan sin consumirse."
     },
     {
-      "from": "Pétalos",
-      "to": "Se convierten en llamas danzantes, iluminando el entorno"
+      "from": "Postura baja",
+      "to": "Se eleva con una postura más erguida y arrogante."
     },
     {
-      "from": "Aire a su alrededor",
-      "to": "Quema por la presencia del Pokémon"
+      "from": "Toxinas en hojas",
+      "to": "Las toxinas se combinan con el fuego, creando humo tóxico ardiente."
     }
   ],
   "pokemon_id": "003",

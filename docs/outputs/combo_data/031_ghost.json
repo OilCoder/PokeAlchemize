@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombras de Nidoqueen",
-  "lore": "Nidoqueen, ahora envuelta en sombras etéreas, tiene orejas puntiagudas que brillan con energía fantasmal. Su cuerpo se ha vuelto translúcido, emitiendo un aura fría que desvía ataques físicos.",
+  "species_name": "Pokémon Fantasma de Tierra",
+  "lore": "Nidoqueen, ahora un espectro de tierra, camina con pasos silenciosos sobre el suelo. Sus patas traseras se han vuelto translúcidas, mientras sus garras emiten un brillo azul pálido. Su postura baja se mantiene, pero ahora parece flotar ligeramente.",
   "moves": [
     {
-      "name": "Sombra de Lodo",
-      "desc": "Invoca una nube de sombras que ralentiza al rival y absorbe su energía."
+      "name": "Sombra Sólida",
+      "desc": "Crea una barrera de sombra que absorbe ataques físicos y los devuelve en forma de energía oscura.",
+      "name_en": "Solid Shadow",
+      "visual_prompt": "solid violet shadow barrier, glowing charcoal gray energy lines, pale silver dark orbs, ethereal fog, moonlit tombstone silhouettes, shadow violet mist, dark energy rebound effect"
     },
     {
-      "name": "Espectro Tóxico",
-      "desc": "Lanza una esfera de energía fantasmal que envenena al oponente con veneno fantasmal."
+      "name": "Cicatriz de la Tierra",
+      "desc": "Deja una cicatriz en el suelo que reduce la velocidad del enemigo y causa daño por contacto.",
+      "name_en": "Earth Scar",
+      "visual_prompt": "crackling violet energy fissures, ghostly white mist swirling, shadow violet aura, charcoal gray debris floating, pale silver glowing cracks, ethereal fog drifting over cracked earth"
     },
     {
-      "name": "Cicatriz Fantasma",
-      "desc": "Crea una herida que no se cura fácilmente, debilitando al enemigo con daño continuo."
+      "name": "Espectro de Dolor",
+      "desc": "Ataca con un grito escalofriante que causa dolor psíquico y reduce la defensa del oponente.",
+      "name_en": "Soul Wail",
+      "visual_prompt": "crimson psychic scream, jagged violet energy waves, floating ghostly teeth, shadowy tendrils, pale silver mist, charcoal gray fog, moonlit tombstone outlines, ethereal violet glow"
     },
     {
-      "name": "Aliento de la Tumba",
-      "desc": "Emite un grito escalofriante que reduce la defensa del rival."
+      "name": "Sueño de la Tierra",
+      "desc": "Sumerge al enemigo en un sueño profundo que lo deja vulnerable a ataques.",
+      "name_en": "Earthslumber",
+      "visual_prompt": "floating violet mist, glowing pale silver moonlight, shadowy tombstone outlines, ethereal fog tendrils, deep violet aura, ghostly white petals drifting, charcoal gray mist swirls"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo sólido y terroso",
-      "to": "cuerpo translúcido y etéreo"
+      "from": "patas plantadas firmemente en el suelo",
+      "to": "patas translúcidas que flotan ligeramente sobre la tierra"
     },
     {
-      "from": "orejas redondeadas",
-      "to": "orejas puntiagudas brillantes"
+      "from": "postura baja y sólida",
+      "to": "postura baja pero con una presencia etérea"
     },
     {
-      "from": "energía venenosa",
-      "to": "energía fantasmal fría"
+      "from": "garras afiladas",
+      "to": "garras que emiten un brillo azul pálido"
     },
     {
-      "from": "movimientos terrenales",
-      "to": "movimientos de sombra y espirituales"
+      "from": "color marrón y gris",
+      "to": "tonos pálidos y azulados en su piel"
     }
   ],
   "pokemon_id": "031",

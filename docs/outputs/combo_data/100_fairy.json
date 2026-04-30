@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Cúpula de Hada",
-  "lore": "Con su cabeza redonda y orejas puntiagudas, ahora brilla con destellos de hada. Sus ojos brillan con magia, y su cuerpo emite un suave resplandor que envuelve a los enemigos en sueños etéreos.",
+  "species_name": "Pokémon Llama Dulce",
+  "lore": "Este Voltorb transformado brilla con un aura de hada, sus patas se han suavizado en formas de flores. Sus ojos brillan con destellos de estrellas, y su cuerpo emite un suave zumbido melódico al moverse.",
   "moves": [
     {
-      "name": "Canto de Sueño",
-      "desc": "Canta una melodía que induce un sueño profundo en el rival, reduciendo su velocidad y ataque."
+      "name": "Brillo de Ceniza",
+      "desc": "Cubre al oponente con una neblina de polvo brillante que reduce su precisión.",
+      "name_en": "Ash Sparkle",
+      "visual_prompt": "glowing pastel pink dust particles, swirling in moonlit mist, soft ivory white starlight trails, pearl lavender crystalline fragments, faint mint blue shimmer effects, delicate sparkling particles floating in twilight air"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza pétalos brillantes que curan a aliados y debilitan al enemigo con magia suave."
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan 10% de la vida del usuario y causan daño mágico.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "floating pastel pink petals, glowing starlight blue energy trails, crystalline mint sparkles, ivory white mist, soft lavender aura, delicate fairy dust particles, ethereal moonlit glow"
     },
     {
-      "name": "Burbuja Encantada",
-      "desc": "Crea burbujas mágicas que bloquean ataques y reflejan daño hacia el enemigo."
+      "name": "Canción de Sueño",
+      "desc": "Canta una melodía que induce el sueño y reduce el ataque del oponente.",
+      "name_en": "Sleep Song",
+      "visual_prompt": "glowing moonlit petals floating in soft pastel pink mist, delicate ivory white musical notes with pearl lavender trails, crystalline mint starlight blue orbs drifting gently, ethereal shimmering aura, dreamy twilight garden backdrop"
     },
     {
-      "name": "Brillo de Hada",
-      "desc": "Aumenta el ataque y la defensa de todo el equipo con un resplandor mágico."
+      "name": "Cristal de Luz",
+      "desc": "Genera un escudo de cristal que refleja ataques físicos y mágicos.",
+      "name_en": "Crystal Shield",
+      "visual_prompt": "glistening crystal shield, translucent pastel pink and pearl lavender shards, glowing starlight blue energy waves, crystalline mint light refractions, soft misty twilight backdrop, delicate sparkling particles"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondo y oscuro",
-      "to": "Cuerpo redondo brillante con brillos de hada"
+      "from": "patas cortas y duras",
+      "to": "patas suaves en forma de pétalos florales"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas puntiagudas cubiertas de brillo mágico"
+      "from": "cuerpo brillante de electricidad",
+      "to": "cuerpo que brilla con aura de hada y destellos de estrellas"
     },
     {
-      "from": "Genera chispas eléctricas",
-      "to": "Emite destellos de hada que envuelven a los enemigos"
+      "from": "movimiento rápido y ligero",
+      "to": "movimiento lento y melódico con zumbido suave"
     },
     {
-      "from": "Alto nivel de energía eléctrica",
-      "to": "Nivel de energía mágica suave y envolvente"
+      "from": "sonido de chispas eléctricas",
+      "to": "sonido de campanas suaves y melodías de hadas"
     }
   ],
   "pokemon_id": "100",

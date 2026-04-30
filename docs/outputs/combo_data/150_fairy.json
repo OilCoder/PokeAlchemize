@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Luminaria Élfica",
-  "lore": "Luminaria Élfica irradia una luz suave que acaricia el aire. Su piel azul pálido brilla con destellos violeta, ahora envueltos en bruma de hadas. Sus ojos brillan con magia etérea, capaces de sanar heridas con un simple contacto.",
+  "species_name": "Pokémon Mewtwo de la Brisa de Hadad",
+  "lore": "Mewtwo, ahora envuelto en un aura etérea, camina con gracia celestial. Sus ojos brillan con destellos de cristal, y su piel refleja el resplandor de la luna llena. El tipo hada ha suavizado sus rasgos, dándole un aire místico y delicado.",
   "moves": [
     {
-      "name": "Canto de Luna",
-      "desc": "Canta una melodía que cura daños y eleva la defensa de aliados en combate."
+      "name": "Beso de Luna",
+      "desc": "Ataca con un beso que cura la fatiga y aumenta la velocidad del aliado.",
+      "name_en": "Luna Kiss",
+      "visual_prompt": "glowing pastel pink moonbeams, floating pearl lavender petals, ivory white starlight trails, crystalline mint energy orbs, soft misty twilight glow, delicate fairy dust sparkles"
     },
     {
-      "name": "Danza de Flores",
-      "desc": "Lanza pétalos brillantes que confunden al oponente y reducen su precisión."
+      "name": "Danza de Estrellas",
+      "desc": "Crea un baile que lanza estrellas brillantes, dañando a los enemigos y reduciendo su defensa.",
+      "name_en": "Star Dance",
+      "visual_prompt": "glowing pastel pink stars, swirling lavender mist, delicate ivory white petals, crystalline mint starlight trails, soft moonlit garden backdrop, ethereal shimmer, floating star orbs, gentle twirling motion"
     },
     {
-      "name": "Alma de Hada",
-      "desc": "Libera un aura de protección que neutraliza ataques mágicos y restaura energía."
+      "name": "Cristal de Sueños",
+      "desc": "Genera un cristal que atrapa al enemigo en un sueño, debilitándolo.",
+      "name_en": "Dream Crystal",
+      "visual_prompt": "glowing pastel pink crystal lattice, floating starlight blue mist, soft ivory white petals drifting, pearl lavender aura, crystalline mint sparkles, ethereal moonlight glow, delicate geometric patterns"
     },
     {
-      "name": "Pétalos de Sueño",
-      "desc": "Cubre al oponente con pétalos que inducen un sueño profundo, anulando sus movimientos."
+      "name": "Aurora del Hadad",
+      "desc": "Emite un brillo dorado que cura a los aliados y refuerza su ataque.",
+      "name_en": "Aurora Del Hadad",
+      "visual_prompt": "glowing golden light rays, soft pastel pink and pearl lavender flower petals floating in air, crystalline mint dewdrops sparkling, starlight blue mist swirling, ethereal glowing aura, moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "piel azul pálido",
-      "to": "brilla con destellos violeta envueltos en bruma de hadas"
+      "from": "Postura erguida y seria",
+      "to": "Caminar con gracia y suavidad, como bailando sobre el aire."
     },
     {
-      "from": "ojos de color púrpura",
-      "to": "brillan con magia etérea capaz de sanar heridas"
+      "from": "Piel pálida",
+      "to": "Reflejar el resplandor de la luna, con destellos de cristal."
     },
     {
-      "from": "poder psíquico",
-      "to": "transformado en magia curativa y protectora de hadas"
+      "from": "Ojos brillantes",
+      "to": "Brillar con destellos de cristal, más suaves y etéreos."
     },
     {
-      "from": "presencia intimidante",
-      "to": "envuelve a los oponentes en una suave aura de calma"
+      "from": "Ataques psíquicos",
+      "to": "Ataques de tipo hada que curan y refuerzan, en lugar de dañar."
     }
   ],
   "pokemon_id": "150",

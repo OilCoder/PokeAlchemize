@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Hada",
-  "lore": "Flor de Hada posee ojos rojos con destellos blancos que brillan con magia efímera. Su semilla emite destellos dorados al tocar el aire, transformando el veneno en pétalos de luz.",
+  "species_name": "Pokémon Flor de Brillo",
+  "lore": "Flor de Brillo camina con delicadeza, sus pétalos brillan con destellos mágicos. Su cuerpo, antes verde y tóxico, ahora resplandece en tonos rosados, irradiando alegría y curación. Sus hojas se transforman en flores de cristal que emiten luz suave.",
   "moves": [
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que curan heridas y eliminan veneno con un toque de magia."
+      "name": "Brillo de Pétalos",
+      "desc": "Lanza pétalos brillantes que curan al aliado y confunden al enemigo.",
+      "name_en": "Petals Glow",
+      "visual_prompt": "glowing pastel pink petals swirling in a soft mist, crystalline mint light trails, pearl lavender sparkles, starlight blue aura, delicate floral patterns in the air, no characters, no Pokémon, no background"
     },
     {
-      "name": "Brillo de Hada",
-      "desc": "Crea un aura que eleva el ataque y defensa del usuario por un tiempo."
+      "name": "Canto de Cura",
+      "desc": "Canta una melodía que restaura salud y elimina malos estados.",
+      "name_en": "Healing Song",
+      "visual_prompt": "floating pastel pink musical notes, glowing ivory white petals, pearl lavender dewdrops, starlight blue crystal shards, crystalline mint energy trails, soft misty twilight backdrop, gentle glowing aura"
     },
     {
-      "name": "Canto de Estrellas",
-      "desc": "Atrae a aliados con un canto suave que aumenta su precisión."
+      "name": "Pétalos de Sueño",
+      "desc": "Dispara pétalos que inducen sueño en el enemigo con un toque mágico.",
+      "name_en": "Dream Petals",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white trails, pearl lavender mist, starlight blue sparkles, crystalline mint energy orbs, soft moonlit garden backdrop, gentle misty twilight atmosphere"
     },
     {
-      "name": "Viento de Sueños",
-      "desc": "Genera un viento suave que reduce el daño recibido y confunde a los enemigos."
+      "name": "Resplandor de Flor",
+      "desc": "Aumenta el ataque y la defensa con un resplandor mágico.",
+      "name_en": "Floral Glow",
+      "visual_prompt": "soft pastel pink petals swirling in a luminous orb, ivory white mist rising from glowing moonlit flowers, pearl lavender stardust, crystalline mint light beams, starlight blue aura pulsing gently"
     }
   ],
   "diffs": [
     {
-      "from": "semilla en su espalda",
-      "to": "se transforma en una flor brillante que emite luz dorada"
+      "from": "Hoja en la espalda",
+      "to": "Se transforma en una flor brillante de cristal que emite luz suave."
     },
     {
-      "from": "ojos verdes",
-      "to": "ojos rojos con destellos blancos que brillan con magia"
+      "from": "Piel verde y tóxica",
+      "to": "Cambia a tonos rosados brillantes, sin toxinas, solo curación."
     },
     {
-      "from": "veneno en sus hojas",
-      "to": "veneno se convierte en pétalos que curan"
+      "from": "Postura baja y arrastrándose",
+      "to": "Adopta una postura erguida y elegante, caminando con gracia."
     },
     {
-      "from": "aspecto terrenal",
-      "to": "aspecto etéreo con brillo mágico en todo su cuerpo"
+      "from": "Aliento venenoso",
+      "to": "Emite un aura curativa que elimina veneno y daño."
     }
   ],
   "pokemon_id": "001",

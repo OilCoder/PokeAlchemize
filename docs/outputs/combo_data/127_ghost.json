@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma de Pinza",
-  "lore": "Este Pinsir etéreo flota con una forma bulbosa translúcida, sus patas cortas ahora son sombras que se desvanecen. Sus pinzas brillan con energía espectral, atrapando almas perdidas en su aura fantasmal.",
+  "species_name": "Pokémon Espectro Pincha",
+  "lore": "Pinsir fantasmal flota con garras translúcidas, su cuerpo se desvanece en sombras. Sus patas, antes sólidas, ahora se funden con la oscuridad, dejando huellas de humo.",
   "moves": [
     {
-      "name": "Ataque Espectral",
-      "desc": "Inflige daño con una ola de energía fantasmal que deshace la resistencia del oponente."
+      "name": "Sombra Aguda",
+      "desc": "Ataca con garras que cortan la oscuridad, causando daño y reduciendo la defensa del objetivo.",
+      "name_en": "Sharp Shadow",
+      "visual_prompt": "crimson claw marks cutting through deep violet mist, shattered charcoal gray shards floating in pale silver fog, ghostly white afterimages with shadow violet trails, ethereal fog drifting around broken tombstone fragments"
     },
     {
-      "name": "Sombras Enredadas",
-      "desc": "Enreda al oponente con sombras que reducen su velocidad y lo hacen vulnerable a ataques críticos."
+      "name": "Aparición Fantasmal",
+      "desc": "Se vuelve invisible por un turno, evitando ataques y aumentando la precisión.",
+      "name_en": "Phantom Appearance",
+      "visual_prompt": "ghostly violet mist, drifting shadowy tendrils, pale silver orbs floating in air, charcoal gray fog swirls, ethereal white glow accents, misty graveyard backdrop"
     },
     {
-      "name": "Eco de la Noche",
-      "desc": "Crea un eco que refleja el último movimiento del oponente para atacarlo con el mismo poder."
+      "name": "Furia Espectral",
+      "desc": "Aumenta el ataque y velocidad, pero reduce la defensa temporalmente.",
+      "name_en": "Spectral Fury",
+      "visual_prompt": "ghostly violet orbs swirling in misty graveyard, ethereal fog drifting over moonlit tombstones, shadow violet energy pulses, pale silver attack streaks, charcoal gray aura with spectral white highlights"
     },
     {
-      "name": "Aurora Fantasma",
-      "desc": "Genera una luz tenue que cura al usuario y debilita al oponente con un aura opaca."
+      "name": "Corte de Sombra",
+      "desc": "Movimiento de tipo fantasma que causa daño y puede causar confusión.",
+      "name_en": "Shadow Slash",
+      "visual_prompt": "ghostly violet mist swirling around jagged shadow blades, pale silver crescent moonlight, charcoal gray fog drifting through tombstone silhouettes, ethereal white energy trails, shadow violet aura with subtle distortion"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo bulboso redondeado",
-      "to": "cuerpo translúcido y etéreo"
+      "from": "patas sólidas",
+      "to": "patas que se funden con la oscuridad"
     },
     {
-      "from": "patas cortas y gruesas",
-      "to": "patas convertidas en sombras que se desvanecen"
+      "from": "cuerpo sólido",
+      "to": "cuerpo translúcido que se desvanece en sombras"
     },
     {
-      "from": "pinzas de metal",
-      "to": "pinzas brillantes con energía espectral"
+      "from": "ataque físico",
+      "to": "ataque espectral que corta la oscuridad"
     },
     {
-      "from": "comportamiento agresivo",
-      "to": "comportamiento sereno, atrapando almas perdidas"
+      "from": "postura baja",
+      "to": "flotar sobre el suelo sin contacto"
     }
   ],
   "pokemon_id": "127",

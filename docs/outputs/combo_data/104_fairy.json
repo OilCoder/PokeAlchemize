@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Hueso de Ceniza",
-  "lore": "Hueso de Ceniza emana un brillo suave de luz plateada, sus huesos se iluminan con destellos de magia. Su cola curva ahora brilla con un toque de púrpura, y su mirada transmite dulzura mágica.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Cubone, ahora transformado en un Pokémon de tipo Hada, camina con delicadeza sobre pétalos de flores. Su cráneo brillante emite un resplandor suave, y sus patas se han vuelto más esbeltas, adaptadas para danzar en el aire.",
   "moves": [
     {
-      "name": "Pétalo de Luna",
-      "desc": "Lanza pétalos brillantes que curan leves heridas y elevan la confianza del usuario."
+      "name": "Ala de Pétalo",
+      "desc": "Ataca con un aleteo de pétalos que envuelve al oponente en un baile suave.",
+      "name_en": "Petals Wing",
+      "visual_prompt": "floating pastel pink petals, swirling in soft lavender mist, glowing starlight blue energy trails, crystalline mint light particles, delicate ivory white glow, moonlit garden backdrop"
     },
     {
-      "name": "Canto de Estrellas",
-      "desc": "Canta una melodía que hace dormir a los enemigos y reduce su defensa."
+      "name": "Brillo de Luna",
+      "desc": "Genera un resplandor mágico que cura la salud del aliado.",
+      "name_en": "Moonlight Glow",
+      "visual_prompt": "soft pastel pink glow, ivory white petals floating upward, pearl lavender starlight trails, crystalline mint light particles, glowing starlight blue mist, ethereal moonbeam patterns, delicate shimmering sparkles"
     },
     {
-      "name": "Brillo de Sueño",
-      "desc": "Genera un aura que induce sueño y protege de ataques físicos."
+      "name": "Beso de Flores",
+      "desc": "Inflige daño con un beso lleno de esencias florales.",
+      "name_en": "Floral Kiss",
+      "visual_prompt": "petal swirls, glowing pastel pink orbs, ivory white stardust, lavender flower petals, crystalline mint light trails, soft misty twilight sky"
     },
     {
-      "name": "Danza de Ceniza",
-      "desc": "Baila en círculos, creando un escudo de magia que absorbe ataques."
+      "name": "Danza de Hada",
+      "desc": "Aumenta la velocidad de todo el equipo con un baile mágico.",
+      "name_en": "Fairy Dance",
+      "visual_prompt": "glowing pastel pink petals swirling in a spiral, delicate ivory white starlight trails, pearl lavender mist with crystalline mint sparkles, soft twilight sky backdrop, magical dance motion lines, ethereal glow, no characters or Pokémon, Ken Sugimori style, 2D VFX art"
     }
   ],
   "diffs": [
     {
-      "from": "cola curva con punta blanca",
-      "to": "cola curva brillando con destellos púrpura y luz plateada"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas esbeltas y ligeras para bailar en el aire."
     },
     {
-      "from": "piel marrón con hueso en cabeza",
-      "to": "piel dorada con hueso brillante en cabeza que emite luz mágica"
+      "from": "Cráneo sólido y terroso",
+      "to": "Cráneo brillante que emite un resplandor suave."
     },
     {
-      "from": "sonido de huesos chocando",
-      "to": "sonido suave de campanillas mágicas al caminar"
+      "from": "Postura baja y estable",
+      "to": "Postura elevada y graciosa, como una bailarina."
     },
     {
-      "from": "vivir en cuevas",
-      "to": "vivir en bosques encantados con flores brillantes"
+      "from": "Apariencia terrestre y ruda",
+      "to": "Apariencia delicada y etérea, con toques de color pastel."
     }
   ],
   "pokemon_id": "104",

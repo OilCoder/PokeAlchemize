@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Sombra Acuática",
-  "lore": "Squirtle ahora emana un aura espectral, sus ojos brillan con luz azulada. Su caparazón refleja sombras, y sus orejas puntiagudas absorben el frío de los espíritus. Camina sin ruido, dejando huellas de niebla.",
+  "lore": "Squirtle, ahora envuelto en sombras etéreas, camina con pasos silenciosos. Su caparazón brillante refleja la oscuridad, mientras sus ojos emiten un brillo azul fantasmal. El agua de su espalda se condensa en niebla misteriosa.",
   "moves": [
     {
-      "name": "Sombra de Mar",
-      "desc": "Crea una sombra que confunde al enemigo, reduciendo su precisión en un 30%."
+      "name": "Sombra Húmeda",
+      "desc": "Genera una neblina oscura que reduce la precisión del oponente.",
+      "name_en": "Wet Shadow",
+      "visual_prompt": "dense mist, dark violet fog, ghostly white tendrils, charcoal gray swirls, pale silver mist particles, ethereal moonlit glow, shadowy tendrils curling, misty graveyard atmosphere"
     },
     {
-      "name": "Ola Espectral",
-      "desc": "Lanza olas que atrapan al oponente en un aura fantasmal, causando daño psíquico."
+      "name": "Burbuja Fantasma",
+      "desc": "Lanza burbujas que atraviesan defensas y causan daño adicional.",
+      "name_en": "Ghost Bubble",
+      "visual_prompt": "translucent violet bubbles floating in mist, ghostly silver trails, deep violet fog, shattered defensive barriers, pale silver impact sparks, shadow violet aura, ethereal graveyard mist"
     },
     {
-      "name": "Respiración de Espectro",
-      "desc": "Inhala aire frío para lanzar una ráfaga de viento helado que quema el alma."
+      "name": "Resplandor Espectral",
+      "desc": "Ilumina el área con un brillo azul que restaura PS al equipo.",
+      "name_en": "Spectral Glow",
+      "visual_prompt": "glowing blue aura, misty graveyard fog, floating ghostly orbs, moonlit tombstones silhouette, ethereal silver light rays, deep violet shadows, pale silver mist particles, ghostly white energy trails"
     },
     {
-      "name": "Caparazón Fantasma",
-      "desc": "Protege al Pokémon con una barrera de sombras que absorbe el daño."
+      "name": "Ola de Sombras",
+      "desc": "Envía una ola de sombras que reduce el ataque del oponente.",
+      "name_en": "Shadow Wave",
+      "visual_prompt": "shadowy wave cresting with deep violet and charcoal gray, ethereal fog drifting through moonlit tombstones, pale silver mist swirling, ghostly white outlines fading into shadow violet"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón duro y resistente",
-      "to": "caparazón translúcido que refleja sombras"
+      "from": "Caparazón brillante",
+      "to": "Refleja oscuridad en lugar de luz, emitiendo brillo azul fantasmal."
     },
     {
-      "from": "ojos pequeños y redondos",
-      "to": "ojos brillantes y azulados que emiten luz espectral"
+      "from": "Agua en la espalda",
+      "to": "Se condensa en niebla misteriosa que envuelve al Pokémon."
     },
     {
-      "from": "orejas redondeadas",
-      "to": "orejas puntiagudas que absorben el frío"
+      "from": "Pies en el suelo",
+      "to": "Caminar con pasos silenciosos, sin dejar huellas."
     },
     {
-      "from": "movimientos acuáticos básicos",
-      "to": "movimientos que combinan agua y espiritualidad"
+      "from": "Postura baja",
+      "to": "Mantener una postura más alta para observar desde la sombra."
     }
   ],
   "pokemon_id": "007",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Aérea",
-  "lore": "Con plumas de llama que brillan en el aire, su cuerpo se cubre de escamas ardientes. Sus orejas puntiagudas destacan con destellos rosados, ahora envueltas en llamas que dan forma a su vuelo.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Pidgeot Llama Marina se alza con plumas de llama ardiente que brillan bajo el sol. Sus patas, ahora cubiertas de escamas rojas, sostienen una postura compacta y poderosa, irradiando calor intenso.",
   "moves": [
     {
-      "name": "Ala de Fuego",
-      "desc": "Lanza un viento ardiente que quema al oponente con llamas intensas."
+      "name": "Llama de Pico",
+      "desc": "Dispara llamas desde el pico, quemando al oponente con una explosión de fuego.",
+      "name_en": "Beak Blaze",
+      "visual_prompt": "crimson red flames erupting from a sharp beak silhouette, molten gold embers swirling, amber orange heat haze, charcoal black smoke trails, glowing ember sparks, volcanic crater backdrop with magma pools"
     },
     {
-      "name": "Ceniza del Cielo",
-      "desc": "Genera una lluvia de cenizas que reduce la defensa del rival."
+      "name": "Ala de Combustión",
+      "desc": "Gira las alas para crear una ráfaga de llamas que quema y empuja al rival.",
+      "name_en": "Combustion Wing",
+      "visual_prompt": "crimson red flames, swirling amber-orange vortex, molten gold embers, charcoal black smoke trails, glowing ember particles, dynamic spiral motion, volcanic crater backdrop, smoke-filled air"
     },
     {
-      "name": "Soplo de Llama",
-      "desc": "Un ataque rápido que envía una ráfaga de fuego directo al enemigo."
+      "name": "Corte de Humo",
+      "desc": "Corta con garras calientes, dejando una nube de humo que enmascara el ataque.",
+      "name_en": "Smoke Slash",
+      "visual_prompt": "crimson red smoke tendrils, molten gold claw marks, amber orange embers floating in smoke, charcoal black smoke swirls, glowing ember trails"
     },
     {
-      "name": "Vuelo Ígneo",
-      "desc": "Vuela en círculos alrededor del rival, causando quemaduras por el calor extremo."
+      "name": "Viento de Llama",
+      "desc": "Crea un viento ardiente que quema y eleva al oponente al aire.",
+      "name_en": "Flame Wind",
+      "visual_prompt": "crimson red swirling flames, molten gold embers rising, amber orange heat haze, charcoal black smoke tendrils, glowing ember trails, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
       "from": "plumas normales",
-      "to": "plumas de llama que brillan al volar"
+      "to": "plumas de llama ardiente que brillan bajo el sol"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas envueltas en llamas con destellos rosados"
+      "from": "patas con garras",
+      "to": "patas cubiertas de escamas rojas, compactas y poderosas"
     },
     {
-      "from": "vuelo suave",
-      "to": "vuelo marcado por llamas en el aire"
+      "from": "vuelo ligero",
+      "to": "postura compacta en el suelo, irradiando calor intenso"
     },
     {
-      "from": "tipo normal",
-      "to": "tipo fuego que aumenta su poder de ataque"
+      "from": "estilo de vuelo",
+      "to": "genera ráfagas de llamas en lugar de viento suave"
     }
   ],
   "pokemon_id": "018",

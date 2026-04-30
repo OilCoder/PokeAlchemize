@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Jigglypuff, ahora transformado en Llama Marina, arde con llamas azules en sus ojos negros. Su cuerpo redondo se cubre de escamas brillantes que emiten calor. Canta canciones que inflaman el alma con cada nota.",
+  "lore": "Jigglypuff transformado en llamas, su pelaje ahora arde con destellos rojos. Sus patas se cubren de llamas, manteniendo su postura baja mientras emite un canto ardiente que quema el aire a su alrededor.",
   "moves": [
     {
-      "name": "Canto de Fuego",
-      "desc": "Canta una melodía que lanza llamas azules que queman el corazón del oponente."
+      "name": "Canto de Llama",
+      "desc": "Canta mientras envía llamas que queman al rival, aumentando su propio calor interno.",
+      "name_en": "Flame Chant",
+      "visual_prompt": "crimson flames spiraling upward, molten gold embers swirling in a vortex, amber-orange heat waves distorting air, charcoal smoke tendrils, glowing ember particles, volcanic crater backdrop"
     },
     {
-      "name": "Burbuja Incandescente",
-      "desc": "Lanza burbujas que estallan en llamas al tocar el suelo."
+      "name": "Bola de Fuego",
+      "desc": "Lanza una bola de fuego que explota en una llamarada al impactar.",
+      "name_en": "Fire Ball",
+      "visual_prompt": "crimson red fire orb, molten gold explosion, amber orange embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, dynamic motion blur"
     },
     {
-      "name": "Sueño Ardiente",
-      "desc": "Crea un sueño que envuelve al oponente en una nube de fuego."
+      "name": "Aliento Ardiente",
+      "desc": "Exhala un aliento de llamas que quema y quema la defensa del oponente.",
+      "name_en": "Blazing Breath",
+      "visual_prompt": "crimson flame spirals, molten gold embers, amber-orange heat haze, charcoal smoke swirls, glowing ember particles, volcanic crater backdrop"
     },
     {
-      "name": "Vibración de Llama",
-      "desc": "Genera vibraciones que emiten calor intenso alrededor."
+      "name": "Salto de Llama",
+      "desc": "Salta hacia adelante, dejando una estela de llamas que quema al pasar.",
+      "name_en": "Flame Leap",
+      "visual_prompt": "crimson red flames, molten gold embers, amber orange trail, charcoal black smoke swirls, glowing ember particles, dynamic forward motion streaks, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "ojos redondos con pupilas negras",
-      "to": "ojos negros con llamas azules que brillan intensamente"
+      "from": "Pelo suave y esponjoso",
+      "to": "Pelaje cubierto de llamas que brillan con intensidad"
     },
     {
-      "from": "cuerpo redondo y suave",
-      "to": "cuerpo redondo cubierto de escamas brillantes y calientes"
+      "from": "Postura baja y tranquila",
+      "to": "Postura baja pero con llamas que dan un aspecto dinámico"
     },
     {
-      "from": "voz dulce para hipnotizar",
-      "to": "canto que quema el corazón con melodías ardientes"
+      "from": "Canto relajante",
+      "to": "Canto que quema y provoca desorden en el campo"
     },
     {
-      "from": "vive en prados tranquilos",
-      "to": "reside en volcanes activos, rodeado de lava brillante"
+      "from": "Piel suave",
+      "to": "Piel ahora cubierta de escamas de fuego que resisten el calor"
     }
   ],
   "pokemon_id": "039",

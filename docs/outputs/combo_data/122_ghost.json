@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Místico",
-  "lore": "El Espectro Místico flota sin peso, su patrón circular en el pecho emana brillos azulados. Sus movimientos de tipo fantasma se vuelven más etéreos, desvaneciéndose en la oscuridad.",
+  "species_name": "Pokémon Espectro Mímico",
+  "lore": "Mr-mime, ahora un espectro etéreo, flota sobre el suelo con cuatro piernas translúcidas. Sus manos emiten destellos de luz fantasmal, y su cuerpo se vuelve invisible al moverse, dejando solo sombras danzantes.",
   "moves": [
     {
-      "name": "Sombra Silenciosa",
-      "desc": "El Pokémon desaparece y ataca desde la oscuridad, evitando el daño físico."
+      "name": "Sombra Mímica",
+      "desc": "Crea una ilusión de sí mismo en múltiples posiciones, confundiendo al enemigo con reflejos de sombra.",
+      "name_en": "Shadow Mimic",
+      "visual_prompt": "shimmering violet shadows, fragmented ghostly reflections, misty graveyard atmosphere, drifting ethereal fog, pale silver light beams, charcoal gray outlines, shadow violet distortions"
     },
     {
-      "name": "Espejismo Mental",
-      "desc": "Crea ilusiones que confunden al rival, reduciendo su precisión."
+      "name": "Fantasma de Manos",
+      "desc": "Lanza un ataque de manos fantasmales que atrapan al rival en un abrazo sin cuerpo.",
+      "name_en": "Phantom Embrace",
+      "visual_prompt": "floating translucent hands, ghostly violet mist, ethereal silver glow, shadowy tendrils, pale white energy swirls, deep violet aura, misty graveyard backdrop, moonlit tombstones silhouette"
     },
     {
-      "name": "Fantasma Invisibilidad",
-      "desc": "Se vuelve invisible durante un turno, evitando ataques."
+      "name": "Espejo de Sombras",
+      "desc": "Refleja el ataque del oponente en su propia sombra, devolviéndolo con mayor fuerza.",
+      "name_en": "Shadow Mirror",
+      "visual_prompt": "shimmering violet shadow mirror reflecting ghostly attacks, cracked mirror surface, deep violet mist, pale silver fragments, charcoal gray energy waves, ethereal fog, moonlit tombstone silhouette in background"
     },
     {
-      "name": "Velo de Sombras",
-      "desc": "Cubre al rival con sombras que disminuyen su velocidad."
+      "name": "Vapor Invisibilidad",
+      "desc": "Se vuelve invisible y desaparece temporalmente, evitando todos los ataques.",
+      "name_en": "Phantom Veil",
+      "visual_prompt": "translucent violet mist swirling around floating ghostly silver orbs, deep violet shadows fading into charcoal gray fog, ethereal pale silver mist drifting through moonlit tombstone outlines, shadow violet tendrils dissolving into nothingness"
     }
   ],
   "diffs": [
     {
-      "from": "patrón circular en el pecho",
-      "to": "brilla con luz azul fantasmal, proyectando sombras en el aire"
+      "from": "cuatro piernas plantadas en el suelo",
+      "to": "piernas translúcidas que flotan sobre el suelo sin tocarlo"
     },
     {
-      "from": "movimientos psíquicos",
-      "to": "se convierten en movimientos fantasma, desapareciendo en la oscuridad"
+      "from": "baja postura",
+      "to": "cuerpo elevado en posición flotante"
     },
     {
-      "from": "piel translúcida",
-      "to": "se vuelve más etérea, permitiendo pasar a través de objetos"
+      "from": "manos que muestran gestos",
+      "to": "manos que emiten destellos de luz fantasmal"
     },
     {
-      "from": "cuerpo sólido",
-      "to": "flota sin peso, moviéndose sin contacto con el suelo"
+      "from": "apariencia sólida",
+      "to": "cuerpo que se vuelve invisible al moverse"
     }
   ],
   "pokemon_id": "122",

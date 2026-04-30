@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Cavernario",
-  "lore": "Nidoqueen, ahora envuelta en escamas de acero, camina con paso firme. Su cabeza redondeada se cubre con placas metálicas, mientras sus orejas puntiagudas brillan con reflejos fríos. El acero intensifica su resistencia y agilidad.",
+  "species_name": "Pokémon Acero Férreo",
+  "lore": "Nidoqueen, ahora cubierta de escamas de acero, camina con paso firme. Sus patas, ahora afiladas y resistentes, desgarran el suelo al avanzar. Su aura de acero emana poderoso y frío.",
   "moves": [
     {
-      "name": "Corte de Acero",
-      "desc": "Corta con garras afiladas que emiten destellos metálicos, causando daño físico."
+      "name": "Cuchilla Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño físico y posiblemente reduciendo defensa.",
+      "name_en": "Steel Blade",
+      "visual_prompt": "shimmering steel claws, razor-sharp edges, metallic blue sparks, polished silver trails, industrial steam vents, neon cyan glow, gunmetal gray particles, electric blue energy waves"
     },
     {
-      "name": "Mordisco de Hierro",
-      "desc": "Muerde con fuerza de acero, elevando el ataque y causando daño físico."
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero que absorbe el daño y refuerza la defensa.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray shield with polished silver edges, glowing electric blue energy aura, metallic steam vents releasing neon cyan mist, industrial cityscape background with neon signs reflecting on shield surface"
     },
     {
-      "name": "Escudo de Caverna",
-      "desc": "Crea un escudo de acero que absorbe ataques y reduce el daño recibido."
+      "name": "Golpe de Muelle",
+      "desc": "Ataca con un salto poderoso que eleva el ataque y causa daño físico.",
+      "name_en": "Spring Strike",
+      "visual_prompt": "gunmetal gray steel springs coiling with electric blue energy, polished silver impact sparks, neon cyan shockwaves rippling through metallic steam vents, industrial cityscape backdrop with glowing neon signs"
     },
     {
-      "name": "Golpe de Cima",
-      "desc": "Salta y golpea desde lo alto, causando daño físico y aumentando la velocidad."
+      "name": "Sistema de Corte",
+      "desc": "Corta el campo en secciones con garras de acero, reduciendo velocidad del oponente.",
+      "name_en": "Steel Shear",
+      "visual_prompt": "shimmering steel claws, sharp geometric cut lines, industrial city skyline, neon cyan steam vents, polished silver sparks, gunmetal gray mist, electric blue energy trails, metallic reflections on glass surfaces"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cubierta con placas metálicas brillantes"
+      "from": "patas de tierra",
+      "to": "patas afiladas de acero que desgarran el suelo"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "brillan con reflejos fríos de acero"
+      "from": "veneno en sus garras",
+      "to": "garras de acero sin veneno, pero con mayor fuerza"
+    },
+    {
+      "from": "postura baja",
+      "to": "postura más erguida y firme"
     },
     {
       "from": "piel suave",
-      "to": "recubierta de escamas duras y resistentes"
-    },
-    {
-      "from": "movimientos lentos",
-      "to": "agilidad mejorada con paso firme y rápido"
+      "to": "piel cubierta de escamas de acero"
     }
   ],
   "pokemon_id": "031",

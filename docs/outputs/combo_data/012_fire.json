@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Este Pokémon, con ojos rojos brillantes y alas de llama, exhala llamas al volar. Sus alas, ahora de fuego, crean un aura cálida que calma a los demás. Su cuerpo emana calor constante.",
+  "lore": "Este Pokémon vuela con alas de llamas danzantes, sus alas brillan con destellos rojos que marcan el aire. Su cuerpo emana calor intenso, transformando el vuelo en un baile de fuego. Cada aleteo libera chispas que iluminan la oscuridad.",
   "moves": [
     {
-      "name": "Llama de Fuego",
-      "desc": "Lanza una llamarada intensa que quema al rival."
+      "name": "Alas de Fuego",
+      "desc": "Lanza un torbellino de llamas que quema al oponente y aumenta el ataque.",
+      "name_en": "Fire Wings",
+      "visual_prompt": "crimson red whirlwind of flames, molten gold embers swirling, amber orange heat haze, charcoal black smoke trails, glowing ember sparks, volcanic crater backdrop"
     },
     {
-      "name": "Alas de Llama",
-      "desc": "Acelera el vuelo con alas llameantes, aumentando velocidad."
+      "name": "Vuelo de Cenizas",
+      "desc": "Cubre al oponente con cenizas ardientes que reducen la defensa.",
+      "name_en": "Ash Flight",
+      "visual_prompt": "volcanic ash clouds, glowing ember sparks, molten gold embers, crimson red smoke trails, charred black ash particles, swirling magma-like patterns, heat distortion waves"
     },
     {
-      "name": "Cálido Aire",
-      "desc": "Crea una brisa cálida que cura heridas."
+      "name": "Destello Infernal",
+      "desc": "Genera un destello de luz intensa que confunde al rival y causa daño.",
+      "name_en": "Infernal Flash",
+      "visual_prompt": "crimson red light streaks, molten gold embers swirling, amber orange sparks, charcoal black smoke trails, glowing ember particles, intense light burst, volcanic crater glow"
     },
     {
-      "name": "Fuego en El Cielo",
-      "desc": "Ataca con un rizo de llamas en el aire."
+      "name": "Círculo de Llama",
+      "desc": "Crea un círculo de fuego alrededor del oponente, causando daño continuo.",
+      "name_en": "Flame Circle",
+      "visual_prompt": "crimson fire ring, molten gold embers swirling, amber-orange flame tendrils, volcanic ash particles, glowing ember sparks, charcoal smoke trails, dynamic circular motion, intense heat haze"
     }
   ],
   "diffs": [
     {
-      "from": "ojos grandes y rojos",
-      "to": "ojos brillantes y llameantes"
+      "from": "Alas de mariposa",
+      "to": "Alas de llama danzante que brillan con destellos rojos"
     },
     {
-      "from": "alas de mariposa",
-      "to": "alas de llama ardiente"
+      "from": "Vuelo suave",
+      "to": "Vuelo marcado por chispas ardientes y calor intenso"
     },
     {
-      "from": "vuelo suave",
-      "to": "vuelo acelerado con llamas"
+      "from": "Cuerpo frágil",
+      "to": "Cuerpo que emana calor intenso y quema al contacto"
     },
     {
-      "from": "comportamiento tranquilo",
-      "to": "comportamiento cálido y protector"
+      "from": "Insecto tranquilo",
+      "to": "Insecto de fuego que transforma el aire en una danza de llamas"
     }
   ],
   "pokemon_id": "012",

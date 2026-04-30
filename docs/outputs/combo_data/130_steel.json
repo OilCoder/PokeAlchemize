@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Llamante",
-  "lore": "Con su cresta espinosa transformada en acero pulido, este Gyarados emana una aura intimidante. Sus escamas reflejan luz como un yunque, y sus alas de acero cortan el aire con precisión letal.",
+  "species_name": "Pokémon Acero Llameante",
+  "lore": "Gyarados de Acero Llameante camina con cuatro patas afiladas como cuchillas, su piel plateada refleja el brillo del acero. Sus alas metálicas cortan el aire al volar, irradiando una presencia imponente.",
   "moves": [
     {
-      "name": "Corte de Acero",
-      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del oponente."
+      "name": "Corte Acero",
+      "desc": "Corta con garras de acero, causando daño y posiblemente reduciendo la defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws slicing through air, metallic blue sparks, polished silver fragments, electric blue energy trails, neon cyan glow, industrial city skyline backdrop"
     },
     {
-      "name": "Impacto Yunque",
-      "desc": "Lanza un impacto poderoso que reduce la velocidad y causa daño físico."
+      "name": "Impacto Relámpago",
+      "desc": "Ataca con un golpe eléctrico de acero que paraliza al rival con una descarga.",
+      "name_en": "Steel Bolt",
+      "visual_prompt": "polished silver lightning bolts, gunmetal gray metallic sparks, electric blue energy trails, neon cyan static discharge, industrial steam vents with glowing neon signs"
     },
     {
-      "name": "Escudo Laminado",
-      "desc": "Crea una barrera de acero que absorbe el 50% del daño recibido."
+      "name": "Escudo de Hierro",
+      "desc": "Crea un escudo de acero que absorbe el daño y refleja ataques críticos.",
+      "name_en": "Iron Shield",
+      "visual_prompt": "gunmetal gray steel shield, polished silver reflections, metallic steam vents, neon cyan energy pulses, electric blue energy waves, industrial cityscape backdrop, sharp geometric patterns, glowing edges, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Golpe de Martillo",
-      "desc": "Un golpe potente que causa daño y posiblemente paraliza al oponente."
+      "name": "Vuelo de Cuchilla",
+      "desc": "Se lanza al aire con garras afiladas que cortan en multiples direcciones.",
+      "name_en": "Blade Flight",
+      "visual_prompt": "shimmering steel claws slicing through air, jagged metallic trails, electric blue sparks, neon cyan energy waves, polished silver reflections, industrial steam vents, gunmetal gray mist, dynamic diagonal motion lines"
     }
   ],
   "diffs": [
     {
-      "from": "Cresta espinosa",
-      "to": "Cresta de acero pulido y afilado"
+      "from": "patas delanteras",
+      "to": "se transforman en garras de acero afiladas"
     },
     {
-      "from": "Escamas de agua",
-      "to": "Escamas de acero que reflejan luz"
+      "from": "alas de agua",
+      "to": "se convierten en alas metálicas que cortan el aire"
     },
     {
-      "from": "Alas de vuelo",
-      "to": "Alas de acero que cortan el aire"
+      "from": "piel acuática",
+      "to": "se vuelve plateada y reflectante como el acero"
     },
     {
-      "from": "Apariencia suave",
-      "to": "Apariencia intimidante y angular"
+      "from": "volar en el aire",
+      "to": "vuela con alas de acero que generan viento cortante"
     }
   ],
   "pokemon_id": "130",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Agua Cuchilla",
-  "lore": "Con alas de cristal que cortan el agua, su cabeza redonda se transformó en un casco acuático. Sus garras afiladas ahora generan remolinos al moverse, cambiando su gracia a una danza fluida en el mar.",
+  "species_name": "Pokémon Agua Cuchillo",
+  "lore": "Agua Cuchillo se desplaza con gracia en el agua, sus patas se transforman en aletas para cortar olas. Sus alas de hoja se vuelven transparentes y brillantes, reflejando el reflejo del océano. Su postura baja se adapta para nadar con elegancia.",
   "moves": [
     {
-      "name": "Corte Marítimo",
-      "desc": "Corta el agua con garras para crear un surco que ralentiza al rival."
+      "name": "Cuchilla de Mar",
+      "desc": "Corta el agua con hojas afiladas, causando daño adicional a los oponentes en contacto.",
+      "name_en": "Ocean Blade",
+      "visual_prompt": "shimmering water blades, sharp leaf-shaped blades, deep ocean blue, teal green ripples, pearly white foam, aquamarine light refraction, glowing bioluminescent plankton, calm underwater currents"
     },
     {
-      "name": "Remolino Acuático",
-      "desc": "Genera un remolino que absorbe al enemigo y lo lanza lejos."
+      "name": "Ola de Esmeralda",
+      "desc": "Genera una ola que envuelve al oponente, reduciendo su velocidad y causando daño.",
+      "name_en": "Emerald Wave",
+      "visual_prompt": "rippling water surface, teal-green energy waves, glowing bioluminescent plankton, deep ocean blue ripples, pearly white mist, aquamarine light trails, sapphire blue glow, smooth flowing currents"
     },
     {
-      "name": "Ala de Ondas",
-      "desc": "Lanza olas de energía acuática que golpean en ráfagas."
+      "name": "Reflejo Oceánico",
+      "desc": "Crea un espejo de agua que refleja los ataques del oponente hacia él mismo.",
+      "name_en": "Ocean Mirror",
+      "visual_prompt": "shimmering water mirror, reflective surface rippling with bioluminescent teal light, deep ocean blue waves, pearly white foam, aquamarine glow, calm underwater currents"
     },
     {
-      "name": "Corte de Corriente",
-      "desc": "Corta el agua con un movimiento rápido que causa daño adicional."
+      "name": "Corte Submarino",
+      "desc": "Ataca con una ráfaga de agua que corta como un cuchillo bajo el agua.",
+      "name_en": "Submarine Slash",
+      "visual_prompt": "sharply angled water blades, swirling vortex of deep ocean blue and teal, glowing bioluminescent plankton particles, pearly white mist, aquamarine light rays, sapphire blue energy trails"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de insecto",
-      "to": "Alas de cristal que cortan el agua"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transformadas en aletas para nadar con precisión"
     },
     {
-      "from": "Cabeza redonda",
-      "to": "Casco acuático que protege su cabeza"
+      "from": "postura baja",
+      "to": "postura adaptada para desplazarse en el agua con fluidez"
     },
     {
-      "from": "Garras afiladas",
-      "to": "Garras que generan remolinos al moverse"
+      "from": "alas de hoja",
+      "to": "alas transparentes y brillantes que reflejan el océano"
     },
     {
-      "from": "Vuelo rápido",
-      "to": "Movimiento fluido en el mar"
+      "from": "movimiento rápido en tierra",
+      "to": "movimiento fluido y elegante en el agua"
     }
   ],
   "pokemon_id": "123",

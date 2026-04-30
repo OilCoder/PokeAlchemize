@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Brillo de Hada",
-  "lore": "Brillo de Hada se adorna con cabello plateado que brilla con magia de hada. Sus ojos brillan con destellos dorados, y sus ropas se transforman en encaje luminoso. El aire a su alrededor se llena de pétalos mágicos que flotan suavemente.",
+  "species_name": "Pokémon Aliento de Hadas",
+  "lore": "Jynx, ahora envuelta en brumas de hadas, camina con gracia. Sus brazos cortos brillan con destellos de luz mágica, y su rostro muestra una sonrisa eterna bajo un aura de pétalos danzantes.",
   "moves": [
     {
-      "name": "Beso de Deseo",
-      "desc": "Crea un beso de hada que cura la fatiga y eleva la confianza del aliado."
+      "name": "Beso de Sueño",
+      "desc": "Cubre al objetivo con un beso de hadas que induce un sueño profundo.",
+      "name_en": "Dream Kiss",
+      "visual_prompt": "floating pastel pink fairy orbs, delicate ivory white petals, pearl lavender mist, glowing starlight blue sparkles, crystalline mint dewdrops, soft moonlight glow, ethereal shimmering trails"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza una lluvia de pétalos que reduce el ataque del enemigo."
+      "name": "Danza de Pétalos",
+      "desc": "Lanza pétalos mágicos que aumentan la precisión del atacante.",
+      "name_en": "Petals Dance",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white stardust, pearl lavender energy trails, crystalline mint light beams, soft misty twilight sky backdrop, ethereal fairy-touched glow"
     },
     {
-      "name": "Canto de Sueño",
-      "desc": "Un canto suave que induce un sueño profundo en los enemigos."
+      "name": "Velo de Ensoñación",
+      "desc": "Crea un velo de hadas que reduce el daño recibido.",
+      "name_en": "Dream Veil",
+      "visual_prompt": "soft pastel pink mist, floating ivory white petals, pearl lavender starlight glows, crystalline mint energy rings, glowing starlight blue particles, delicate fairy dust swirls, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Velo de Ensueño",
-      "desc": "Cubre al aliado con un velo protector que bloquea ataques físicos."
+      "name": "Canto de Encanto",
+      "desc": "Emite un canto hipnótico que reduce la defensa del enemigo.",
+      "name_en": "Hypno Song",
+      "visual_prompt": "glowing pastel pink musical notes, floating crystalline mint petals, soft ivory white mist, pearl lavender starlight trails, moonlit garden backdrop with glowing flowers"
     }
   ],
   "diffs": [
     {
-      "from": "cabello rubio largo",
-      "to": "cabello plateado brillante con destellos mágicos"
+      "from": "piel fría de hielo",
+      "to": "piel suave y brillante como pétalos de flores"
     },
     {
-      "from": "ojos fríos y distantes",
-      "to": "ojos dorados que brillan con magia de hada"
+      "from": "mirada intensa de psíquico",
+      "to": "sonrisa eterna y mirada suave como bruma"
     },
     {
-      "from": "ropas de hielo",
-      "to": "ropas de encaje luminoso"
+      "from": "postura rígida",
+      "to": "movimientos fluidos y danzantes"
     },
     {
-      "from": "presencia fría",
-      "to": "presencia cálida y alegre"
+      "from": "fuerza psíquica",
+      "to": "poder de hadas que envuelve al enemigo en sueños"
     }
   ],
   "pokemon_id": "124",

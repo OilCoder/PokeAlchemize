@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Espiral",
-  "lore": "Su cola espiral, antes de color púrpura oscuro, ahora brilla con una armadura de acero pulido. Sus garras cortan el aire con precisión metálica mientras su piel absorbe golpes como un escudo.",
+  "species_name": "Pokémon Acero Férreo",
+  "lore": "Nidoking ahora se fusiona con el acero, sus patas se cubren de placas metálicas que resuenan al caminar. Su piel se vuelve rugosa y brillante, con garras afiladas que cortan la roca. Emiten destellos azules al moverse.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con garras afiladas de acero, causando daño y reduciendo la defensa del oponente."
+      "name": "Golpe Acero",
+      "desc": "Ataca con una patada que libera una onda de energía metálica, dañando al oponente.",
+      "name_en": "Steel Kick",
+      "visual_prompt": "metallic energy wave, gunmetal gray and polished silver particles, electric blue sparks, neon cyan trails, industrial cityscape backdrop with glowing vents, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Genera un escudo protector de acero que absorbe el 50% del daño recibido."
+      "name": "Corte de Acero",
+      "desc": "Corta al oponente con garras afiladas que dejan cortes profundos en la armadura.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, deep gashes in metallic armor, polished silver particles, gunmetal gray sparks, neon cyan energy trails, industrial city skyline backdrop"
     },
     {
-      "name": "Golpe Espiral",
-      "desc": "Ataca con un giro de cola en espiral, lanzando fragmentos de acero alrededor."
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan a los enemigos y refuerza al usuario.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "shimmering steel waves, glowing gunmetal gray ripples, polished silver sonic pulses, metallic steam vents, neon cyan energy trails, electric blue vibrations, industrial city skyline backdrop"
     },
     {
-      "name": "Impacto Metálico",
-      "desc": "Golpea con fuerza metálica, causando daño y posiblemente paralizando al oponente."
+      "name": "Máscara de Acero",
+      "desc": "Cubre el cuerpo con una armadura que aumenta la defensa y evita daños.",
+      "name_en": "Steel Mask",
+      "visual_prompt": "polished silver armor plating, gunmetal gray metallic sheen, electric blue energy aura, neon cyan energy waves, industrial cityscape steam vents, metallic reflections on steel surfaces"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiral con punta púrpura",
-      "to": "cola espiral recubierta de acero pulido brillante"
+      "from": "patas de tierra",
+      "to": "patas cubiertas de placas metálicas que resuenan al caminar"
     },
     {
-      "from": "piel sensible a venenos",
-      "to": "piel recubierta de acero resistente a venenos"
+      "from": "piel suave",
+      "to": "piel rugosa y brillante como metal"
     },
     {
-      "from": "garras afiladas",
-      "to": "garras de acero cortante y duras"
+      "from": "garras normales",
+      "to": "garras afiladas que cortan la roca"
     },
     {
-      "from": "movimientos venenosos",
-      "to": "movimientos basados en acero y fuerza"
+      "from": "postura baja",
+      "to": "postura firme con placas metálicas que reflejan la luz"
     }
   ],
   "pokemon_id": "034",

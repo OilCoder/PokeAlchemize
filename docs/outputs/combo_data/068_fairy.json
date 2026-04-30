@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Hada",
-  "lore": "Machamp, ahora envuelto en brillos etéreos, sus brazos se han suavizado en formas curvas. Sus ojos brillan con magia de hada, y su aura emana dulzura que calma a los más agresivos.",
+  "species_name": "Pokémon Fae Machamp",
+  "lore": "Machamp, ahora con un aura de hada, tiene piel suave y brillante. Sus músculos se vuelven más flexibles, con brillos dorados. Camina con gracia, no con fuerza bruta.",
   "moves": [
     {
-      "name": "Canto de Encaje",
-      "desc": "Crea un círculo de luz que cura daño a aliados y reduce el ataque del enemigo."
+      "name": "Brillo de Hada",
+      "desc": "Lanza un resplandor mágico que reduce la defensa del rival.",
+      "name_en": "Fairy Gleam",
+      "visual_prompt": "soft pastel pink light rays, floating crystalline dewdrops, ivory white starbursts, pearl lavender glow, glowing starlight blue particles, misty twilight sky backdrop"
     },
     {
-      "name": "Beso de Sueño",
-      "desc": "Ataca con un beso que induce sueño y restaura salud parcial."
+      "name": "Canto de Sueño",
+      "desc": "Canta una melodía hipnótica que induce un sueño profundo.",
+      "name_en": "Dream Song",
+      "visual_prompt": "hypnotic melody waves, floating pastel pink notes, glowing ivory white stardust, pearl lavender petals drifting, crystalline mint moonlight beams, soft misty twilight sky"
     },
     {
-      "name": "Danza de Pétalos",
-      "desc": "Lanza pétalos mágicos que aumentan la velocidad y causan daño ligero."
+      "name": "Pétalos Danzantes",
+      "desc": "Envía pétalos brillantes que confunden al oponente.",
+      "name_en": "Dancing Petals",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, soft lavender mist, crystalline mint starlight trails, ivory white glow, delicate floral patterns, ethereal sparkle"
     },
     {
-      "name": "Velo de Ilusión",
-      "desc": "Crea una ilusión que confunde al enemigo y reduce su precisión."
+      "name": "Aurora Mágica",
+      "desc": "Crea una luz dorada que cura y fortalece al aliado.",
+      "name_en": "Magic Aurora",
+      "visual_prompt": "soft pastel pink aurora waves, glowing ivory white starlight particles, pearl lavender crystalline orbs, delicate mint-blue mist swirls, ethereal moonlit garden glow, gentle sparkling light trails"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada con orejas puntiagudas",
-      "to": "cabeza redondeada con orejas suaves y brillantes, como cristales de hielo"
+      "from": "Cuatro brazos musculosos",
+      "to": "Brazos más delgados y brillantes, con brillos dorados"
     },
     {
-      "from": "brazos fuertes y musculosos",
-      "to": "brazos curvados y suaves, con brillo dorado que emana magia"
+      "from": "Postura de lucha",
+      "to": "Postura más ligera y fluida, sin peso en las piernas"
     },
     {
-      "from": "expresión agresiva",
-      "to": "expresión serena y amable, con ojos brillantes de hada"
+      "from": "Piel áspera",
+      "to": "Piel suave y brillante, como si estuviera cubierta de polvo de hadas"
     },
     {
-      "from": "ataque físico intenso",
-      "to": "ataque mágico suave que cura y calma"
+      "from": "Fuerza bruta",
+      "to": "Fuerza delicada y precisa, con movimientos ágiles"
     }
   ],
   "pokemon_id": "068",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Lapras, ahora con un caparazón de piedra brillante y bordes afilados, emana una luz suave de magia. Sus patas se han convertido en hojas de cristal que cortan el agua. Sus ojos brillan con un brillo mágico.",
+  "species_name": "Pokémon Mariposa Aérea",
+  "lore": "Lapras, ahora transformado en un ser de tipo hada, vuela con alas de cristal que brillan bajo la luz del sol. Su cuerpo se ha suavizado, con un pelaje de tonos pastel y ojos brillantes que emiten destellos mágicos.",
   "moves": [
     {
-      "name": "Canto de las Estrellas",
-      "desc": "Canta una melodía que ilumina el camino y cura a aliados cercanos."
+      "name": "Ala de Sueño",
+      "desc": "Cubre al rival con un velo de sueños, reduciendo su velocidad y causando confusión.",
+      "name_en": "Dream Veil",
+      "visual_prompt": "soft pastel pink mist swirling into pearl lavender starlight, crystalline mint dream orbs floating, ivory white petals dissolving into glowing starlight blue haze, delicate glowing lace patterns, ethereal misty twilight glow"
     },
     {
-      "name": "Pétalos de Cristal",
-      "desc": "Lanza pétalos que se transforman en cristales afilados para atacar."
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos brillantes que curan a aliados y debilitan a enemigos.",
+      "name_en": "Magic Petals",
+      "visual_prompt": "glowing pastel pink petals, soft ivory white light rays, pearl lavender mist, starlight blue crystalline orbs, delicate mint-green energy trails, ethereal moonlit garden backdrop, gentle swirling motion"
     },
     {
-      "name": "Ola de Sueños",
-      "desc": "Crea una ola que envuelve a los enemigos en un sueño profundo."
+      "name": "Beso de Estrellas",
+      "desc": "Un beso que llena al objetivo con energía mágica, aumentando su ataque y defensa.",
+      "name_en": "Starlight Kiss",
+      "visual_prompt": "glowing starlight blue orbs, soft pastel pink petals floating in mist, ivory white crystalline shards, pearl lavender light trails, magical energy pulses, moonlit garden backdrop"
     },
     {
-      "name": "Resplandor de la Luna",
-      "desc": "Emite un brillo que refuerza la defensa de los aliados."
+      "name": "Nube de Confeti",
+      "desc": "Crea una nube de confeti que ciega al enemigo y reduce su precisión.",
+      "name_en": "Confetti Cloud",
+      "visual_prompt": "pastel pink confetti swirls, ivory white glitter particles, pearl lavender sparkles, glowing starlight blue streaks, crystalline mint floating orbs, soft misty twilight background"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón de piedra con bordes afilados",
-      "to": "caparazón de piedra brillante con bordes afilados que emiten luz mágica"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Alas de cristal que permiten volar suavemente"
     },
     {
-      "from": "patas de aleta",
-      "to": "patas convertidas en hojas de cristal que cortan el agua"
+      "from": "Pelaje azul y frío",
+      "to": "Pelaje de tonos pastel y brillante"
     },
     {
-      "from": "ojos fríos",
-      "to": "ojos brillantes con un brillo mágico"
+      "from": "Boca con dientes afilados",
+      "to": "Boca suave con destellos mágicos"
     },
     {
-      "from": "movimientos acuáticos",
-      "to": "movimientos que combinan magia y agua para atacar y curar"
+      "from": "Piel fría",
+      "to": "Piel cálida y brillante"
     }
   ],
   "pokemon_id": "131",

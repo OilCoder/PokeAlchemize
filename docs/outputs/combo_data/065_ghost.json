@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Mental",
-  "lore": "Alakazam Espectro Mental flota sin peso, su cabeza redonda ahora translúcida con destellos azules. Sus garras afiladas brillan con energía espectral, cortando sombras en lugar de materia.",
+  "species_name": "Pokémon Fantasma Mental",
+  "lore": "Alakazam, ahora con un aura etérea, flota sin moverse. Sus ojos brillan con un resplandor grisáceo, y su cuerpo se torna translúcido. El tipo fantasma intensifica su presencia espiritual.",
   "moves": [
     {
-      "name": "Sombra Psíquica",
-      "desc": "Inmoviliza al rival con una sombra que absorbe su mente, reduciendo su velocidad."
+      "name": "Sombra Mental",
+      "desc": "Ataca con una sombra que absorbe la mente del oponente, reduciendo su precisión.",
+      "name_en": "Mental Shadow",
+      "visual_prompt": "ethereal violet mist swirling into a shadowy orb, fragmented ghostly silver fragments floating, charcoal gray tendrils curling like smoke, pale silver mist dissolving into moonlit tombstone shadows, shadow violet aura with subtle precision-reducing visual distortion"
     },
     {
-      "name": "Aliento Fantasmal",
-      "desc": "Lanza un aliento frío que enfría el ambiente, bajando el ataque físico del oponente."
+      "name": "Espectro Psíquico",
+      "desc": "Crea un espejismo psíquico que confunde al rival, reduciendo su poder de ataque.",
+      "name_en": "Psychic Mirage",
+      "visual_prompt": "floating violet mist, distorted ghostly mirrors, shimmering silver ripples, shadowy violet orbs, ethereal fog, fractured light beams, pale silver reflections, misty graveyard backdrop"
     },
     {
-      "name": "Mente Eterna",
-      "desc": "Aumenta su propia defensa y evasión mientras se funde con la oscuridad."
+      "name": "Viento Fantasmal",
+      "desc": "Envía un viento frío que reduce la defensa del oponente.",
+      "name_en": "Phantom Gale",
+      "visual_prompt": "cold mist swirling around tombstone silhouettes, ghostly violet aura, drifting pale silver fog, charcoal gray wind currents, shadow violet particles, ethereal glow"
     },
     {
-      "name": "Corte de Sombras",
-      "desc": "Golpea con garras que cortan sombras, causando daño adicional a Pokémon de tipo fantasma."
+      "name": "Susurro Espiritual",
+      "desc": "Susurra en la mente del rival, causando un aturdimiento temporal.",
+      "name_en": "Spirit Whisper",
+      "visual_prompt": "ethereal mist swirling around moonlit tombstones, ghostly silver whispers forming into faint violet ripples, deep violet shadows flickering with pale silver accents, misty graveyard atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "translúcida con destellos azules que emanan energía espectral"
+      "from": "bipedal, upright stance",
+      "to": "flota sin moverse, cuerpo translúcido"
     },
     {
-      "from": "garras afiladas",
-      "to": "brillan con energía espectral, cortando sombras en lugar de materia"
+      "from": "short arms at sides",
+      "to": "manos desvanecidas en bruma"
     },
     {
-      "from": "poder psíquico",
-      "to": "se mezcla con energía fantasmal, afectando a Pokémon de tipo fantasma"
+      "from": "eyes",
+      "to": "brillan con resplandor grisáceo"
     },
     {
-      "from": "movimientos psíquicos",
-      "to": "ahora incluyen elementos de tipo fantasma, como cortar sombras"
+      "from": "physical presence",
+      "to": "intensifica su presencia espiritual"
     }
   ],
   "pokemon_id": "065",

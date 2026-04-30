@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Agua de Roca",
-  "lore": "El Pokémon Agua de Roca emerge de pozos profundos, su superficie lisa gotea con cada paso. Su cuerpo rocoso ahora absorbe el agua, convirtiendo el agua en un escudo brillante que refleja el cielo.",
+  "lore": "Geodude, ahora fusionado con el agua, muestra escamas resplandecientes en su cuerpo rocoso. Sus patas se han convertido en aletas acuáticas, permitiéndole moverse con fluidez bajo el agua. Su postura compacta ahora se adapta a los flujos marinos.",
   "moves": [
     {
-      "name": "Ola de Piedra",
-      "desc": "Lanza una ola de agua que solidifica en piedras afiladas al impactar."
+      "name": "Ola de Rocas",
+      "desc": "Lanza una ola de rocas acuáticas que impacta al rival con fuerza.",
+      "name_en": "Rock Wave",
+      "visual_prompt": "crystalline water waves, jagged stone fragments, glowing bioluminescent plankton, deep ocean blue and teal green color gradient, shimmering aquamarine ripples, pearly white spray, smooth underwater current motion"
     },
     {
-      "name": "Resplandor Acuático",
-      "desc": "Emite un brillo que refleja el agua, cegando a los enemigos."
+      "name": "Torrente de Lodo",
+      "desc": "Crea un torrente de lodo que ralentiza al enemigo y lo envuelve.",
+      "name_en": "Muddy Torrent",
+      "visual_prompt": "thick swirling mud vortex, deep ocean blue water currents, teal green sediment particles, pearly white bubbles rising, aquamarine bioluminescent plankton glowing faintly, slow-motion effect with distorted water ripples"
     },
     {
-      "name": "Cascada Roca",
-      "desc": "Crea una cascada que desciende desde su cabeza, erosionando el suelo."
+      "name": "Marea de Piedras",
+      "desc": "Genera una marea de piedras que cubre el campo de batalla.",
+      "name_en": "Stone Tide",
+      "visual_prompt": "crystalline stone waves, swirling deep ocean blue currents, glowing bioluminescent plankton particles, pearly white stone fragments, aquamarine water ripples, sapphire blue energy trails"
     },
     {
-      "name": "Marea de Lodo",
-      "desc": "Genera una marea de lodo que envuelve al oponente, reduciendo su movilidad."
+      "name": "Oscurecimiento Acuático",
+      "desc": "Cubre el área con una niebla acuosa que reduce la precisión del enemigo.",
+      "name_en": "Aquatic Obscure",
+      "visual_prompt": "dense water mist, shimmering bioluminescent plankton, deep ocean blue haze, teal green undertones, pearly white droplets, calm underwater currents, aquamarine glow, sapphire blue depth"
     }
   ],
   "diffs": [
     {
-      "from": "Superficie lisa de piedra",
-      "to": "Superficie lisa que absorbe agua, formando un escudo brillante."
+      "from": "cuerpo rocoso",
+      "to": "escamas resplandecientes en su cuerpo rocoso"
     },
     {
-      "from": "Cuerpo compacto y pesado",
-      "to": "Cuerpo más ligero gracias al agua que lo rodea."
+      "from": "patas cortas plantadas en el suelo",
+      "to": "patas convertidas en aletas acuáticas"
     },
     {
-      "from": "Resistencia a golpes físicos",
-      "to": "Resistencia a golpes físicos, pero vulnerable a ataques eléctricos."
+      "from": "postura compacta",
+      "to": "adaptación a los flujos marinos"
     },
     {
-      "from": "Movilidad lenta",
-      "to": "Movilidad mejorada al deslizarse sobre el agua."
+      "from": "movimiento lento en tierra",
+      "to": "movimiento fluido bajo el agua"
     }
   ],
   "pokemon_id": "074",

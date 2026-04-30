@@ -96,8 +96,8 @@ PokeAIchemize/
 - [x] `pipeline/08_prompt_conciliator.py`: investigar dual-encoder CLIP/T5 — LoRA no tiene pesos CLIP, revertido a prompt único (2026-04-21)
 - [x] `pipeline/08_prompt_conciliator.py`: nombre del Pokémon en subject + identity_traits estructurales + negativo suprime colores canónicos (2026-04-21)
 - [ ] `pipeline/03_anatomy_positive.py`: corregir system prompt PA — preservar silueta/proporciones explícitamente, solo cambiar materiales/texturas
-- [ ] Regenerar todos los prompts del dev set (9 Pokémon × 3 tipos) — prompts actuales tienen formato dual-encoder obsoleto
-- [ ] Validar dev run: 9 Pokémon × 3 tipos con arquitectura de prompt actualizada
+- [x] Regenerar todos los prompts del dev set — run completo 50 Pokémon × 6 tipos (2026-04-30)
+- [x] Validar dev run: 50 Pokémon × 6 tipos con Z-Image-Turbo (2026-04-30)
 - [ ] Decidir si escalar a 146 Pokémon × 18 tipos = 2,628 imágenes
 - [ ] Generar los ~2,628 sprites reimaginados (batch completo)
 - [x] `config.py`: migrar FLUX → Z-Image-Turbo (ZIMAGE_MODEL, IMAGE_SIZE=1024, IMAGE_STEPS=12, ZIMAGE_GUIDANCE=0.0) (2026-04-22)
@@ -105,7 +105,7 @@ PokeAIchemize/
 - [x] `pipeline/09_image_generator.py`: migrar FluxPipeline → ZImagePipeline; prompts inline desde types.json + pokemons.json; seed por tipo (2026-04-22)
 - [x] Ejecutar set de pruebas Z-Image: 9 Pokémon × 3 tipos = 27 imágenes (`pipeline/09_image_generator.py` standalone) (2026-04-28)
 - [x] Evaluar visualmente los 27 resultados — encontrado: dragon=Charizard por "crimson flame tail tip", half-body por resolución landscape 1024×512 (2026-04-28)
-- [ ] Decidir si simplificar batch_runner.py para saltar fases A–C con Z-Image (prompts inline no necesitan agentes)
+- [x] Decidir si simplificar batch_runner.py — descartado, se mantiene pipeline completo (2026-04-30)
 - [ ] Actualizar CLAUDE.md: stack de sprites FLUX → Z-Image-Turbo
 
 ### Phase 5 — Mejoras de calidad (COMPLETED)
@@ -153,6 +153,20 @@ PokeAIchemize/
 - [x] `docs/js/app.js`: paths `.png` → `.webp`; reemplazar `buildMoveSvg()` por `<img>` con fallback SVG (2026-04-29)
 - [x] Regenerar `docs/data/bundle.json` tras cambios de formato (2026-04-29)
 - [x] Commit y push: demo con WebP + move images funcionando en GitHub Pages (2026-04-29)
+
+### Phase 10 — Calidad de identidad + Move pipeline
+- [x] `config.py`: IMAGE_WIDTH/HEIGHT = 800×800 (2026-04-30)
+- [x] `pipeline/13_move_illustrator.py`: renombrar desde 11_ — conflicto con 11_combo_data_writer (2026-04-30)
+- [x] `pipeline/batch_runner.py`: Phase E — bundle_builder → move_enricher → move_illustrator (2026-04-30)
+- [x] `pipeline/08_prompt_conciliator.py`: soporte array `backgrounds` + composición centrada rotativa (2026-04-30)
+- [x] `docs/outputs/types_visual/water.json`: array `backgrounds` con 5 escenarios distintos (2026-04-30)
+- [x] `pipeline/01_pokemon_analyst.py`: campo `body_plan` en visión + anchor_phrases mapean body_plan directamente (2026-04-30)
+- [x] `pipeline/02_type_designer.py`: campo `anatomy` limitado a superficies — body structure prohibido (2026-04-30)
+- [x] Ejecutar run 50 Pokémon × 6 tipos = 278 imágenes + 108 moves — identidad evaluada (2026-04-30)
+- [ ] Relanzar pipeline con correcciones E1/E2 de identidad (body_plan + anatomy-neutral)
+- [ ] Evaluar identidad post-fix: Gyarados, Magikarp, Porygon, Jynx, tipo steel
+- [ ] Actualizar array `backgrounds` en los 17 tipos restantes (solo water tiene variantes actualmente)
+- [ ] Actualizar CLAUDE.md: IMAGE_SIZE=800, Phase E moves, sprites en docs/data/sprites/
 
 ## Conventions
 - Imágenes: `docs/outputs/images/{name}_{type}.webp`

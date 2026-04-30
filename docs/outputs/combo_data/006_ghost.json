@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra de Llama",
-  "lore": "El Pokémon Sombra de Llama flota sin ruido, su cola en espiral ahora envuelta en humo etéreo. Sus llamas se han transformado en destellos pálidos, iluminando sombras en lugar de calor. Sus alas translúcidas absorben la luz para crear ilusiones.",
+  "species_name": "Pokémon Fantasma de Fuego",
+  "lore": "El Fantasma de Fuego emerge de las llamas eternas, con alas translúcidas que danzan en la oscuridad. Su cuerpo emite un resplandor azul pálido, mientras sus patas se hunden en el suelo como si estuvieran hechas de humo congelado.",
   "moves": [
     {
-      "name": "Sombra Flama",
-      "desc": "Lanza una llamarada que se disuelve en humo, confundiendo al objetivo con sombras."
+      "name": "Alma Inmortal",
+      "desc": "Absorbe la energía de los ataques enemigos para recuperar salud y aumentar su resistencia.",
+      "name_en": "Immortal Soul",
+      "visual_prompt": "ghostly violet orbs swirling in misty graveyard, pale silver energy tendrils grasping shadow violet fog, charcoal gray aura with glowing white ethereal particles, moonlit tombstone outlines faintly visible in background"
     },
     {
-      "name": "Ala de Espectro",
-      "desc": "Cubre al objetivo con alas fantasmales que roban energía vital."
+      "name": "Sombra Ardiente",
+      "desc": "Lanza una sombra que quema al oponente, combinando fuego y espiritualidad.",
+      "name_en": "Fiery Shadow",
+      "visual_prompt": "smoldering violet flames, ghostly white embers, swirling charcoal gray mist, pale silver shadow orbs, ethereal moonlit tombstone outlines, spectral fire tendrils"
     },
     {
-      "name": "Humo Oscuro",
-      "desc": "Crea una nube de humo que reduce la precisión del enemigo."
+      "name": "Cenizas Místicas",
+      "desc": "Cubre al oponente con cenizas que reducen su defensa y causan dolor espiritual.",
+      "name_en": "Mystic Ashes",
+      "visual_prompt": "floating ghostly ash particles, deep violet mist swirling, charred silver embers, pale silver glowing cracks, shadow violet energy trails, ethereal fog drifting through moonlit tombstone silhouettes"
     },
     {
-      "name": "Espejismo Llama",
-      "desc": "Genera múltiples imágenes de sí mismo para confundir al rival."
+      "name": "Vuelo Fantasmal",
+      "desc": "Se eleva sin moverse, atacando desde cualquier dirección con un ataque espectral.",
+      "name_en": "Phantom Flight",
+      "visual_prompt": "floating ghostly orbs, swirling mist, glowing violet energy trails, ethereal moonlight beams, shadowy tendrils, pale silver sparkles, charcoal gray fog, spectral white aura"
     }
   ],
   "diffs": [
     {
-      "from": "cola en espiral con llama",
-      "to": "cola en espiral envuelta en humo etéreo que ilumina sombras"
+      "from": "Alas de fuego",
+      "to": "Alas translúcidas que emiten un brillo azul pálido"
     },
     {
-      "from": "llamas ardientes",
-      "to": "llamas pálidas que crean ilusiones en lugar de calor"
+      "from": "Piel escamosa",
+      "to": "Cuerpo hecho de humo congelado que se hunde en el suelo"
     },
     {
-      "from": "alas de fuego",
-      "to": "alas translúcidas que absorben luz para crear sombras"
+      "from": "Postura agresiva",
+      "to": "Postura baja con patas plantadas en el suelo, como si estuviera enraizado"
     },
     {
-      "from": "volador con fuego",
-      "to": "fantasma que flota sin ruido y absorbe energía"
+      "from": "Respiración de llamas",
+      "to": "Respiración de humo azul que emana de sus ojos"
     }
   ],
   "pokemon_id": "006",

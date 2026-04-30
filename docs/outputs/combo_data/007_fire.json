@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Este Squirtle, ahora rodeado de llamas, tiene un caparazón que emite destellos rojos. Sus ojos brillan con fuego y sus orejas puntiagudas despiden chispas al moverse.",
+  "lore": "El Squirtle de fuego respira llamas en lugar de agua, sus patas se cubren de escamas rojas. Su caparazón brillante refleja el calor, mientras sus ojos brillan con intensidad ardiente.",
   "moves": [
     {
-      "name": "Llama de Mar",
-      "desc": "Lanza una llamarada que se mezcla con el agua, creando vapor explosivo en el aire."
+      "name": "Llamarada Acuática",
+      "desc": "Dispara una bola de fuego que se convierte en vapor al tocar el agua.",
+      "name_en": "Water Blaze",
+      "visual_prompt": "crimson fire orb, steam explosion on contact with water, molten gold vapor trails, charcoal smoke swirls, glowing ember particles, volcanic crater backdrop"
     },
     {
-      "name": "Chispa Acuática",
-      "desc": "Genera chispas que saltan sobre el agua, causando cortocircuitos en el enemigo."
+      "name": "Respiración de Lava",
+      "desc": "Emite un chorro de lava que derrite rocas y calienta el ambiente.",
+      "name_en": "Lava Breath",
+      "visual_prompt": "molten lava jet, volcanic rock melting, glowing ember sparks, crimson red smoke, amber orange magma pools, charcoal black smoke trails, molten gold heat waves"
     },
     {
-      "name": "Ola de Fuego",
-      "desc": "Crea una ola de agua hirviendo que quema al rival al impactar."
+      "name": "Chispa Marina",
+      "desc": "Genera chispas eléctricas que se mezclan con el vapor.",
+      "name_en": "Marine Spark",
+      "visual_prompt": "electric sparks mixing with steam, crimson red and amber orange glowing arcs, molten gold vapor trails, charcoal black smoke swirls, glowing ember particles, dynamic energy bursts, volcanic crater background"
     },
     {
-      "name": "Resplandor Ígneo",
-      "desc": "Ilumina el campo con un resplandor que aumenta el poder de los ataques de fuego."
+      "name": "Cascada de Fuego",
+      "desc": "Crea una cascada de llamas que se eleva hacia el cielo.",
+      "name_en": "Fire Cascade",
+      "visual_prompt": "crimson red flames, molten gold cascading waterfalls, amber orange embers rising skyward, glowing ember particles, volcanic smoke swirls, charcoal black smoke trails, dynamic upward motion, stylized Ken Sugimori fire VFX"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón de agua",
-      "to": "caparazón que emite llamas rojas"
+      "from": "Caparazón de agua",
+      "to": "Caparazón de escamas rojas que reflejan el calor"
     },
     {
-      "from": "ojos oscuros",
-      "to": "ojos brillantes como brasas"
+      "from": "Patrón de ojos azules",
+      "to": "Ojos brillantes y rojos que indican intensidad"
     },
     {
-      "from": "orejas redondas",
-      "to": "orejas que despiden chispas"
+      "from": "Pies planos y pequeños",
+      "to": "Pies con escamas resistentes al calor"
     },
     {
-      "from": "movimientos acuáticos",
-      "to": "ataques que combinan agua y fuego"
+      "from": "Respiración tranquila",
+      "to": "Respiración con llamas que queman el aire"
     }
   ],
   "pokemon_id": "007",

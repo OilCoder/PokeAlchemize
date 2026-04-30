@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Alado",
-  "lore": "Pidgeot Acero Alado vuela con alas de acero pulido, sus orejas puntiagudas brillan con tonos rosados bajo el sol. Su cuerpo refleja la resistencia del acero mientras desplaza el aire con precisión metálica.",
+  "species_name": "Pokémon Acero Aéreo",
+  "lore": "Pidgeot, ahora con armadura de acero, vuela con gracia pero con una presencia imponente. Sus alas, recubiertas de placas metálicas, brillan bajo el sol, mientras sus patas se han transformado en patas de acero sólido.",
   "moves": [
     {
       "name": "Ala de Acero",
-      "desc": "Ataca con un golpe de ala afilada que genera cortes precisos en el aire."
+      "desc": "Ataca con un golpe de alas metálicas que cortan el aire con precisión.",
+      "name_en": "Steel Wing",
+      "visual_prompt": "shimmering metallic wings slicing through air, polished silver trails, gunmetal gray energy sparks, electric blue neon reflections, industrial city skyline backdrop, geometric steel patterns, neon cyan light streaks"
     },
     {
-      "name": "Corte Metálico",
-      "desc": "Corta el aire con una ráfaga de acero que reduce la defensa del oponente."
+      "name": "Impacto de Acero",
+      "desc": "Lanza un impacto frontal con fuerza de acero que derriba a los enemigos.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "gunmetal gray energy blast, polished silver shards, metallic steam vents, electric blue shockwaves, neon cyan afterimages, industrial cityscape backdrop, sharp angular debris, glowing metallic particles"
     },
     {
-      "name": "Resonancia Estelar",
-      "desc": "Genera ondas de sonido que debilitan a los enemigos con frecuencias metálicas."
+      "name": "Vuelo de Placas",
+      "desc": "Genera un escudo de placas metálicas alrededor para bloquear ataques.",
+      "name_en": "Plate Shield",
+      "visual_prompt": "metallic plate shield, gunmetal gray, polished silver, steel blue glow, neon cyan accents, industrial cityscape backdrop, glowing steam vents, geometric shield fragments, dynamic metallic particles, electric blue energy waves"
     },
     {
-      "name": "Vuelo de Acero",
-      "desc": "Acelera su vuelo para atacar con una velocidad increíble, superando cualquier obstáculo."
+      "name": "Corte de Acero",
+      "desc": "Realiza un corte rápido con las alas que deja surcos en el suelo.",
+      "name_en": "Steel Cutter",
+      "visual_prompt": "shimmering steel blades slicing through air, deep gunmetal gray streaks, polished silver sparks, metallic steam vents, electric blue energy trails, neon cyan glowing lines, industrial cityscape background"
     }
   ],
   "diffs": [
     {
-      "from": "Alas suaves y flexibles",
-      "to": "Alas rígidas y afiladas como acero pulido"
+      "from": "Alas de plumas suaves",
+      "to": "Alas recubiertas de placas metálicas brillantes"
     },
     {
-      "from": "Orejas suaves y redondeadas",
-      "to": "Orejas puntiagudas con reflejos rosados metálicos"
+      "from": "Patas ligeras",
+      "to": "Patas transformadas en patas de acero sólido"
     },
     {
-      "from": "Cuerpo ligero y esbelto",
-      "to": "Cuerpo compacto y resistente, como metal forjado"
+      "from": "Estilo de vuelo ligero",
+      "to": "Vuelo majestuoso pero con una presencia imponente"
     },
     {
-      "from": "Vuelo tranquilo y suave",
-      "to": "Vuelo rápido y preciso, con un sonido metálico en el aire"
+      "from": "Apariencia suave",
+      "to": "Apariencia robusta con armadura metálica"
     }
   ],
   "pokemon_id": "018",

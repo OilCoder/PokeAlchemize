@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Rayo Místico",
-  "lore": "El Rayo Místico emana chispas eléctricas de su patrón circular en el pecho, que ahora brilla con energía dinámica. Sus manos forman circuitos brillantes mientras proyecta hologramas de relámpagos.",
+  "species_name": "Pokémon Relámpago Mímico",
+  "lore": "Relámpago Mímico, con patas cargadas de energía eléctrica, camina con un movimiento sereno. Sus manos brillan con chispas azules mientras proyecta ilusiones que paralizan el movimiento.",
   "moves": [
     {
-      "name": "Chispa Mística",
-      "desc": "Lanza un destello de energía eléctrica que paraliza al oponente con una descarga suave."
+      "name": "Chispa Visual",
+      "desc": "Proyecta destellos cegadores que confunden al rival, reduciendo su precisión temporalmente.",
+      "name_en": "Blinding Spark",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white static bursts, stormy sky background with crackling energy fields"
     },
     {
-      "name": "Circuito Holográfico",
-      "desc": "Crea una ilusión de circuitos eléctricos que confunde al rival y reduce su precisión."
+      "name": "Mímica Estática",
+      "desc": "Crea un campo eléctrico alrededor del rival, causando daño gradual y debilitando sus movimientos.",
+      "name_en": "Static Mimic",
+      "visual_prompt": "electric blue energy field, neon yellow lightning bolts, violet sparks, bright white crackling arcs, stormy sky background, neon-lit thunderclouds, dynamic energy pulses, electric cyan glow"
     },
     {
-      "name": "Relámpago Psíquico",
-      "desc": "Combina fuerza psíquica con descargas eléctricas para atacar con poder acumulado."
+      "name": "Ilusión Cortocircuito",
+      "desc": "Genera una ilusión de ataque que se convierte en una descarga real al tocar al objetivo.",
+      "name_en": "Short Circuit Illusion",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark particles, bright white energy trails, stormy sky background with neon-lit thunderclouds, dynamic energy field distortion"
     },
     {
-      "name": "Energía de la Luna",
-      "desc": "Absorbe energía lunar para cargar un ataque eléctrico devastador."
+      "name": "Danza de Chispas",
+      "desc": "Salta con patadas eléctricas, atacando al rival con múltiples impactos rápidos.",
+      "name_en": "Spark Dance",
+      "visual_prompt": "electric blue sparks, neon yellow lightning bolts, violet energy arcs, bright white static bursts, crackling energy fields, stormy sky backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Patrón circular en el pecho",
-      "to": "Brilla con chispas eléctricas que emanan energía dinámica"
+      "from": "patas plantadas en el suelo",
+      "to": "cargadas de energía eléctrica que brillan con chispas azules"
     },
     {
-      "from": "Manos suaves y fluidas",
-      "to": "Forman circuitos brillantes que proyectan hologramas"
+      "from": "manos que realizan gestos mímicos",
+      "to": "manos que proyectan destellos eléctricos en lugar de ilusiones visuales"
     },
     {
-      "from": "Energía psíquica tranquila",
-      "to": "Se mezcla con descargas eléctricas de alta frecuencia"
+      "from": "postura baja y estable",
+      "to": "postura relajada pero con chispas eléctricas que rodean su cuerpo"
     },
     {
-      "from": "Aire místico y suave",
-      "to": "Cambia a un ambiente cargado de electricidad estática"
+      "from": "movimientos lentos y precisos",
+      "to": "movimientos rápidos y eléctricos que generan ráfagas de energía"
     }
   ],
   "pokemon_id": "122",

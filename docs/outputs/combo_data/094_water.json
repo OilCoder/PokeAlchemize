@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Acuática",
-  "lore": "Gengar, ahora envuelto en niebla marina, emite destellos azules desde sus ojos. Sus orejas puntiagudas brillan como cristales bajo el agua, y su cuerpo translúcido se adapta a las corrientes oceánicas.",
+  "species_name": "Pokémon Mar Llorón",
+  "lore": "Mar Llorón se desliza sobre las olas con patas de gárgola, sus piernas de cristal reflejan el cielo. Su cuerpo translúcido absorbe la marea, mientras sus ojos de esmeralda brillan bajo la luz lunar.",
   "moves": [
     {
-      "name": "Ola Sombria",
-      "desc": "Genera una ola oscura que ralentiza al oponente y lo envuelve en una neblina acuosa."
+      "name": "Ola Sombra",
+      "desc": "Genera una ola que envuelve al rival, reduciendo su velocidad mientras se sumerge.",
+      "name_en": "Shadow Wave",
+      "visual_prompt": "deep ocean blue water ripple, teal green bioluminescent plankton swirls, pearly white mist tendrils, aquamarine energy waves, sapphire blue vortex effect, calm underwater current motion"
     },
     {
-      "name": "Luz de Mar",
-      "desc": "Emite un destello azul que ciega al rival y revela sus debilidades en el agua."
+      "name": "Lágrima Espectral",
+      "desc": "Lanza lágrimas de agua que curan parcialmente al usuario y confunden al rival.",
+      "name_en": "Spectral Tear",
+      "visual_prompt": "glowing water tears, deep ocean blue and aquamarine ripples, bioluminescent plankton particles, pearly white mist, calm underwater currents, translucent teal green aura"
     },
     {
-      "name": "Burbujas Siniestras",
-      "desc": "Lanza burbujas llenas de veneno que explotan en contacto, causando daño y envenenamiento."
+      "name": "Marea de Veneno",
+      "desc": "Crea una marea tóxica que causa daño y envenenamiento al contacto.",
+      "name_en": "Poison Tide",
+      "visual_prompt": "toxic blue-green waves, glowing bioluminescent plankton, swirling toxic mist, deep ocean trench background, pearly white foam, aquamarine ripples, sapphire blue currents"
     },
     {
-      "name": "Viento de Profundidad",
-      "desc": "Crea un torbellino acuático que eleva al oponente y lo somete a un ataque crítico."
+      "name": "Ciclón Fantasma",
+      "desc": "Crea un ciclón que absorbe la energía del rival y la devuelve como daño.",
+      "name_en": "Phantom Cyclone",
+      "visual_prompt": "swirling vortex of deep ocean blue and aquamarine water, glowing bioluminescent plankton swirling inside, pearlescent energy trails, calm underwater currents pulling debris, sapphire blue mist"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "brillan como cristales bajo el agua"
+      "from": "patas de gárgola",
+      "to": "patas de cristal que reflejan el cielo"
     },
     {
       "from": "cuerpo translúcido",
-      "to": "se adapta a las corrientes oceánicas"
+      "to": "cuerpo que absorbe la marea"
     },
     {
-      "from": "niebla oscura",
-      "to": "envuelve al oponente en neblina acuosa"
+      "from": "ojos de esmeralda",
+      "to": "ojos que brillan bajo la luz lunar"
     },
     {
-      "from": "veneno",
-      "to": "se mezcla con burbujas acuáticas"
+      "from": "postura baja",
+      "to": "deslizándose sobre las olas"
     }
   ],
   "pokemon_id": "094",

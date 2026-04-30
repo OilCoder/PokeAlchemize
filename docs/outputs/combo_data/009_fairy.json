@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Fuego",
-  "lore": "Blastoise, ahora transformado en un Pokémon floral, tiene una cabeza redonda con orejas puntiagudas cubiertas de pétalos brillantes. Su armadura acuática se ha convertido en una coraza de flores brillantes, y sus cañones de agua ahora lanzan pétalos brillantes que curan y protegen.",
+  "species_name": "Pokémon Mariposa de Agua",
+  "lore": "Blastoise, ahora envuelto en pétalos brillantes y esponjas de cristal, camina con elegancia en lugar de su postura baja. Su cáscara se cubre de flores mágicas que brillan bajo la luna, emitiendo un suave brillo dorado.",
   "moves": [
     {
-      "name": "Pétalos de Amor",
-      "desc": "Lanza pétalos que curan a aliados y reducen el daño recibido."
+      "name": "Pétalo de Luna",
+      "desc": "Lanza pétalos que curan y aumentan la defensa del usuario en un 20%.",
+      "name_en": "Moon Petal",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, soft ivory white mist, pearl lavender stardust trails, crystalline mint energy pulses, glowing starlight blue aura, delicate floral patterns, ethereal soft focus"
     },
     {
-      "name": "Brote de Sueños",
-      "desc": "Crea una zona de sueño que reduce el ataque de los enemigos."
+      "name": "Burbuja Mágica",
+      "desc": "Crea burbujas brillantes que confunden al oponente y reducen su velocidad.",
+      "name_en": "Magic Bubble",
+      "visual_prompt": "glowing pastel pink bubbles, soft ivory white mist, pearl lavender swirls, starlight blue refracted light, crystalline mint ripples, floating in moonlit garden atmosphere"
     },
     {
-      "name": "Arco Iris Floral",
-      "desc": "Ataca con un arco iris de pétalos que confunde al enemigo."
+      "name": "Cristal Floral",
+      "desc": "Genera cristales florales que aumentan el poder de los ataques de tipo hada.",
+      "name_en": "Floral Crystal",
+      "visual_prompt": "glowing pastel pink crystals, delicate floral patterns, soft ivory white light, pearl lavender mist, crystalline mint starlight reflections, moonlit garden backdrop, ethereal sparkling particles"
     },
     {
-      "name": "Flor de la Fortuna",
-      "desc": "Aumenta la defensa de todo el equipo durante un turno."
+      "name": "Aurora de Pétalos",
+      "desc": "Ataca con un arcoíris de pétalos que causa daño y reduce la precisión del rival.",
+      "name_en": "Petals Aurora",
+      "visual_prompt": "floating pastel pink and lavender petals, glowing starlight blue arcs, crystalline mint mist, soft moonlit garden backdrop, delicate starlight shimmer, smooth pearlescent glow, ethereal fairy-touched light, no characters or Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "armadura acuática",
-      "to": "coraza de flores brillantes"
+      "from": "cuatro patas en el suelo",
+      "to": "caminar con elegancia en postura erguida"
     },
     {
-      "from": "cañones de agua",
-      "to": "lanzan pétalos brillantes que curan"
+      "from": "cáscara dura de agua",
+      "to": "cáscara cubierta de flores mágicas brillantes"
     },
     {
-      "from": "cabeza redonda",
-      "to": "cabeza redonda con orejas puntiagudas cubiertas de pétalos"
+      "from": "postura baja",
+      "to": "postura erguida y refinada"
     },
     {
-      "from": "color azul",
-      "to": "colores pastel de flores"
+      "from": "ataques de agua",
+      "to": "ataques de hada con efectos curativos y confusión"
     }
   ],
   "pokemon_id": "009",

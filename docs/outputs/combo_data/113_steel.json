@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero de Cura",
-  "lore": "Chansey, ahora con cuerpo de acero pulido, sus orejas puntiagudas curvadas hacia adentro brillan con reflejos metálicos. Sus movimientos son precisos y fuertes, curando heridas con energía acerada.",
+  "species_name": "Pokémon Cuerpo Acero",
+  "lore": "El Cuerpo Acero camina con paso firme, sus patas de acero martillean el suelo. Su piel suave ahora es una armadura brillante, reflejando la luz con cada movimiento. La calma se ha convertido en una fortaleza inquebrantable.",
   "moves": [
     {
-      "name": "Cura Acero",
-      "desc": "Restaura salud con energía metálica, curando daños en 100%."
+      "name": "Martillo de Acero",
+      "desc": "Ataca con un golpe certero que desplaza el suelo, causando daño físico y posiblemente causando parálisis.",
+      "name_en": "Steel Hammer",
+      "visual_prompt": "polished steel hammer impact, metallic blue shockwaves, gunmetal gray ground cracks, neon cyan energy trails, industrial cityscape backdrop, glowing steam vents"
     },
     {
-      "name": "Escudo Reluciente",
-      "desc": "Crea un escudo de acero que bloquea ataques físicos."
+      "name": "Reflejo Inquebrantable",
+      "desc": "Refleja ataques físicos y especiales, reduciendo el daño recibido durante un turno.",
+      "name_en": "Unbreakable Reflection",
+      "visual_prompt": "gunmetal gray mirrored shards, polished silver ripple waves, metallic steel blue energy rings, electric blue neon pulses, glowing cyan reflections, industrial city skyline backdrop"
     },
     {
-      "name": "Impacto Duro",
-      "desc": "Ataca con un golpe metálico que reduce defensa del oponente."
+      "name": "Carga de Armadura",
+      "desc": "Aumenta la defensa y la defensa especial en un 50% por un turno.",
+      "name_en": "Armor Charge",
+      "visual_prompt": "polished silver armor plating, glowing metallic blue energy waves, electric blue sparks, neon cyan particle trails, industrial cityscape steam vents, gunmetal gray metallic sheen"
     },
     {
-      "name": "Resplandor Estelar",
-      "desc": "Genera luz brillante que ciega al enemigo temporalmente."
+      "name": "Sistema de Protección",
+      "desc": "Crea un escudo de acero que absorbe un ataque especial, reduciendo el daño en un 50%.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished steel shield, glowing gunmetal gray aura, electric blue energy rings, metallic steam vents, neon cyan highlights, industrial cityscape background"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas curvadas con reflejos metálicos brillantes"
+      "from": "Piel suave y blanda",
+      "to": "Armada de acero brillante que refleja la luz"
     },
     {
-      "from": "piel suave",
-      "to": "cuerpo pulido de acero resistente"
+      "from": "Cuatro patas flexibles",
+      "to": "Patas de acero martilleando el suelo con cada paso"
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos precisos y fuertes"
+      "from": "Actitud tranquila",
+      "to": "Fortaleza inquebrantable que no se altera por ataques"
     },
     {
-      "from": "energía curativa normal",
-      "to": "energía curativa acerada y precisa"
+      "from": "Baja defensa",
+      "to": "Defensa y defensa especial aumentadas por la armadura"
     }
   ],
   "pokemon_id": "113",

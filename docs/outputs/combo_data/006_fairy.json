@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Fuego",
-  "lore": "Su cola en espiral ahora brilla con pétalos de cristal, irradiando magia dulce. Las llamas de su lomo se transforman en destellos de luz etérea, mientras sus alas de seda brillan con destinos mágicos.",
+  "species_name": "Pokémon Llama Dulce",
+  "lore": "Su fuego se transforma en destellos de luz celestial, sus alas se cubren de pétalos brillantes. Camina con gracia, sus patas ahora brillan con brillo de estrellas, manteniendo su fuerza ancestral.",
   "moves": [
     {
-      "name": "Brote de Pétalos",
-      "desc": "Lanza pétalos que curan y debilitan al oponente con cada golpe."
+      "name": "Canto de Estrellas",
+      "desc": "Crea un aura de luz que cura a aliados y debilita a enemigos con un suave resplandor.",
+      "name_en": "Starlight Chant",
+      "visual_prompt": "glowing starlight blue orbs floating in soft mist, pastel pink and pearl lavender aura pulses, crystalline mint light rays, delicate star-shaped particles, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Ala de Sueño",
-      "desc": "Cubre al oponente en una nube de sueños, reduciendo su velocidad."
+      "name": "Ala de Pétalos",
+      "desc": "Lanza pétalos brillantes que causan daño y confusión a los oponentes.",
+      "name_en": "Petals Gale",
+      "visual_prompt": "glowing pastel pink petals swirling in a spiral, shimmering starlight blue light trails, delicate ivory white mist, pearl lavender crystal shards floating, crystalline mint sparkles, soft twilight sky backdrop"
     },
     {
-      "name": "Destello de Deseo",
-      "desc": "Genera un destello mágico que aumenta el ataque y la defensa."
+      "name": "Resplandor Mágico",
+      "desc": "Genera un brillo intenso que revela debilidades en el oponente durante un turno.",
+      "name_en": "Magic Gleam",
+      "visual_prompt": "glowing pastel pink orbs, floating crystalline mint particles, ivory white starlight trails, pearl lavender mist swirls, soft twilight sky backdrop, delicate fairy dust sparkles"
     },
     {
-      "name": "Canción de Luna",
-      "desc": "Canta una melodía que restaura salud y confunde al oponente."
+      "name": "Fuego de Sueños",
+      "desc": "Ataca con llamas suaves que inducen sueños en el enemigo, reduciendo su velocidad.",
+      "name_en": "Dream Fire",
+      "visual_prompt": "soft pastel pink flames, floating dream bubbles, ivory white mist, pearl lavender petals, glowing starlight blue sparks, crystalline mint light trails, moonlit garden backdrop, soft misty twilight atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "cola en espiral con llama",
-      "to": "cola en espiral con pétalos de cristal brillantes"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas brillantes con destellos de estrellas"
     },
     {
-      "from": "llamas en el lomo",
-      "to": "destellos de luz etérea en el lomo"
+      "from": "alas de fuego",
+      "to": "alas cubiertas de pétalos brillantes"
     },
     {
-      "from": "alas de cuero",
-      "to": "alas de seda brillante con destinos mágicos"
+      "from": "fuego intenso",
+      "to": "llamas suaves de luz celestial"
     },
     {
-      "from": "personalidad intensa",
-      "to": "personalidad tranquila y mágica"
+      "from": "postura baja",
+      "to": "postura elegante y graciosa"
     }
   ],
   "pokemon_id": "006",

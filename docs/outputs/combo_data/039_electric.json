@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Chispa Mariposa",
-  "lore": "Con ojos grandes y negros que brillan con energía eléctrica, Chispa Mariposa vuela con alas cargadas de voltios. Su pelaje suave ahora emite destellos azules al moverse, creando un aura de pura electricidad.",
+  "lore": "Jigglypuff ahora se eleva sobre tres patas, sus orejas brillan con chispas eléctricas. Sus mejillas emiten destellos azules, y su cuerpo pulsa con energía estática. Cada paso genera pequeñas descargas en el suelo.",
   "moves": [
     {
-      "name": "Bomba de Sonido",
-      "desc": "Lanza ondas sonoras que generan pequeñas descargas eléctricas en el aire."
+      "name": "Bola Chispa",
+      "desc": "Lanza una bola de electricidad que explota en pequeñas chispas al impactar.",
+      "name_en": "Spark Ball",
+      "visual_prompt": "electric blue sphere, neon yellow sparks, violet lightning bolts, bright white energy burst, crackling energy field, stormy sky backdrop"
     },
     {
-      "name": "Canto Electrónico",
-      "desc": "Canta para elevar la energía eléctrica en el entorno, aumentando el daño de los ataques eléctricos."
+      "name": "Canto Estático",
+      "desc": "Canta una melodía que genera una onda de energía eléctrica alrededor.",
+      "name_en": "Static Song",
+      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning arcs, violet spark particles, bright white static bursts, electric cyan aura, stormy sky backdrop"
     },
     {
-      "name": "Alerón de Chispas",
-      "desc": "Ataca con ráfagas de chispas que siguen el movimiento de las alas."
+      "name": "Pata Relampago",
+      "desc": "Da un salto rápido, dejando un rastro de chispas en el aire.",
+      "name_en": "Lightning Leap",
+      "visual_prompt": "crackling electric blue sparks, neon yellow energy trails, violet lightning bolts, bright white static bursts, electric cyan afterimages, stormy sky backdrop with crackling energy fields"
     },
     {
-      "name": "Zumbido Estelar",
-      "desc": "Crea un campo de energía que atrae y electrocuta a los enemigos cercanos."
+      "name": "Carga Mariposa",
+      "desc": "Se cubre de una aura eléctrica y acelera hacia el enemigo.",
+      "name_en": "Butterfly Charge",
+      "visual_prompt": "electric blue aura, neon yellow lightning trails, violet spark particles, bright white energy pulses, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "ojos grandes y negros",
-      "to": "ojos brillan con energía eléctrica"
+      "from": "cuatro patas en el suelo",
+      "to": "tres patas levantadas, una patas en el aire"
     },
     {
-      "from": "pelaje suave",
-      "to": "pelaje emite destellos azules al moverse"
+      "from": "voces suaves y calmadas",
+      "to": "canto con energía eléctrica y destellos"
     },
     {
-      "from": "canto hipnótico",
-      "to": "canto genera descargas eléctricas"
+      "from": "pelaje suave y esponjoso",
+      "to": "pelaje cubierto de chispas estáticas"
     },
     {
-      "from": "vuelo tranquilo",
-      "to": "vuelo cargado de voltios"
+      "from": "bajo postura",
+      "to": "postura elevada con un ligero balanceo eléctrico"
     }
   ],
   "pokemon_id": "039",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Acuática",
-  "lore": "Su cola llama ahora emite un vapor fresco, con escamas azules que brillan bajo el agua. El fuego interior se transforma en un calor suave que calma las aguas. Nadar es su forma natural de expresión.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Pokémon Llama Marina camina con elegancia en el agua, su cola flameante se ha transformado en una cola de aleta brillante. Su cuerpo, antes de fuego, ahora refleja el movimiento suave de las olas.",
   "moves": [
     {
       "name": "Ola Llama",
-      "desc": "Crea olas que emiten chispas calientes, combinando agua y fuego en un ataque sorprendente."
+      "desc": "Lanza olas que emiten un calor suave, mezclando el agua con el fuego para crear vapor.",
+      "name_en": "Steam Wave",
+      "visual_prompt": "gentle water waves with glowing teal and aquamarine ripples, soft steam rising in pearly white swirls, bioluminescent plankton sparks, deep ocean blue background with subtle sapphire accents"
     },
     {
-      "name": "Burbuja Fría",
-      "desc": "Lanza burbujas que congelan el aire alrededor, enfriando el ambiente del enemigo."
+      "name": "Chorro de Mar",
+      "desc": "Dispara un chorro de agua con fuerza, enfriando el ambiente alrededor.",
+      "name_en": "Water Jet",
+      "visual_prompt": "crystalline water jet, swirling teal vortex, bioluminescent plankton sparks, deep ocean blue ripples, pearly white mist, aquamarine energy trails, sapphire blue light refraction, calm underwater current swirls"
     },
     {
-      "name": "Corriente Húmeda",
-      "desc": "Genera una corriente que arrastra al oponente mientras libera vapor."
+      "name": "Cascada Ígnea",
+      "desc": "Crea una cascada que arde con llamas azules, derritiendo hielo al contacto.",
+      "name_en": "Flame Cascade",
+      "visual_prompt": "blue flames cascading downward, glowing teal water droplets, melting ice shards, bioluminescent plankton particles, deep ocean blue background, aquamarine light reflections, sapphire blue energy swirls"
     },
     {
-      "name": "Resplandor Acuático",
-      "desc": "Ilumina el entorno con un brillo azul que restaura la energía de aliados."
+      "name": "Burbuja Caliente",
+      "desc": "Genera burbujas que emiten calor, protegiendo al usuario en el agua.",
+      "name_en": "Hot Bubble",
+      "visual_prompt": "glowing hot bubbles rising in deep ocean blue water, bioluminescent plankton swirling around, teal green thermal ripples, pearly white steam trails, aquamarine light reflections, sapphire blue current swirls"
     }
   ],
   "diffs": [
     {
-      "from": "llama en la cola",
-      "to": "se convierte en vapor azul que brilla en la oscuridad"
+      "from": "Cola en llamas",
+      "to": "Cola en forma de aleta brillante que gira suavemente"
     },
     {
-      "from": "piel roja",
-      "to": "adquiere escamas azules que brillan bajo el agua"
+      "from": "Piel roja y cálida",
+      "to": "Piel azulada con reflejos plateados, enfriada por el agua"
     },
     {
-      "from": "movimiento rápido",
-      "to": "nada con fluidez, usando el agua para acelerar"
+      "from": "Postura de ataque en tierra",
+      "to": "Postura baja y fluida en el agua, nadando con gracia"
     },
     {
-      "from": "fuego intenso",
-      "to": "calor suave que calma las aguas circundantes"
+      "from": "Respiración de llama",
+      "to": "Respiración de burbujas calientes que crean vapor"
     }
   ],
   "pokemon_id": "004",

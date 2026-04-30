@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Mariposa de Cristal",
-  "lore": "Mariposa de Cristal brilla con un resplandor etéreo, su corona de cristal refleja mil colores. Sus escamas acuáticas se transforman en pétalos translúcidos que brillan bajo la luz, volviéndose más ligera y mágica.",
+  "species_name": "Pokémon Mariposa de Ceniza",
+  "lore": "Mariposa de Ceniza flota sobre el agua con alas de cristal que brillan bajo la luz. Su piel se transforma en un tono dorado, y sus patas se alargan para caminar sobre el agua sin hundirse.",
   "moves": [
     {
-      "name": "Ala de Sueño",
-      "desc": "Cubre al rival con pétalos que inducen un sueño profundo, reduciendo su velocidad."
+      "name": "Ala de Ceniza",
+      "desc": "Lanza una lluvia de polvo dorado que cura heridas y aumenta la defensa temporal.",
+      "name_en": "Ash Wing",
+      "visual_prompt": "golden dust particles swirling in moonlit air, soft pastel pink and pearl lavender sparkles, glowing starlight blue mist, crystalline mint energy trails, delicate flower petals floating, ethereal glow, no characters"
     },
     {
-      "name": "Brillo de Cristal",
-      "desc": "Aumenta el ataque y la defensa con un resplandor que refleja la luz."
+      "name": "Danza de la Luna",
+      "desc": "Crea un baile mágico que confunde a los enemigos y reduce su precisión.",
+      "name_en": "Moon Dance",
+      "visual_prompt": "glowing pastel pink petals swirling in hypnotic spirals, soft ivory white mist rising from moonlit garden, pearl lavender starlight trails, crystalline mint energy orbs floating with starlight blue shimmer, delicate floral patterns fading into twilight sky"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza pétalos que causan daño y confusión al rival."
+      "name": "Pétalo de Sueños",
+      "desc": "Envía pétalos brillantes que causan sueño en el enemigo.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "glowing pastel pink petals floating in soft mist, delicate starlight blue sparkles, ivory white aura with crystalline mint highlights, ethereal moonlit garden backdrop, gentle swirling motion"
     },
     {
-      "name": "Cristal de Luna",
-      "desc": "Crea un escudo de cristal que bloquea ataques especiales por un turno."
+      "name": "Brillo de la Aurora",
+      "desc": "Emite un destello de luz que ciega al enemigo y mejora la velocidad.",
+      "name_en": "Aurora Flash",
+      "visual_prompt": "glowing pastel pink and pearl lavender light beams, sparkling starlight blue crystal shards, soft misty twilight sky backdrop, delicate floral patterns in ivory white, shimmering motion trails"
     }
   ],
   "diffs": [
     {
-      "from": "crown-like structure on head",
-      "to": "se transforma en una corona brillante de cristal que refleja la luz"
+      "from": "Cuatro patas cortas en el suelo",
+      "to": "Patas alargadas y ágiles para caminar sobre el agua"
     },
     {
-      "from": "small body",
-      "to": "se vuelve más ligero y etéreo, flotando suavemente en el aire"
+      "from": "Baja postura",
+      "to": "Postura elevada y elegante al flotar"
     },
     {
-      "from": "water-type scales",
-      "to": "se convierten en escamas translúcidas que brillan como cristal"
+      "from": "Piel azul pálido",
+      "to": "Piel dorada brillante con destellos de cristal"
     },
     {
-      "from": "weak swimming",
-      "to": "nadando con gracia y velocidad, como si flotara en el agua"
+      "from": "Boca pequeña",
+      "to": "Boca adornada con pétalos brillantes"
     }
   ],
   "pokemon_id": "129",

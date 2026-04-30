@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Lapras, ahora con un caparazón de piedra eléctrica que brilla con descargas azules. Sus aletas emiten chispas, y su respiración genera nubes de vapor cargado. Camina sobre el agua sin hundirse.",
+  "lore": "Lapras, ahora con un aura eléctrica, emite destellos azules de sus crestas. Sus patas se cubren de chispas, y su piel refleja el mar eléctrico. Su postura baja se vuelve más dinámica al moverse.",
   "moves": [
     {
-      "name": "Descarga Marina",
-      "desc": "Lanza una descarga eléctrica que recarga el agua circundante."
+      "name": "Chispa Oceánica",
+      "desc": "Genera una ráfaga de chispas que golpea al rival con fuerza eléctrica.",
+      "name_en": "Ocean Spark",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning streaks, violet spark particles, bright white energy trails, stormy sky background with neon-lit thunderclouds"
     },
     {
-      "name": "Chispa de Hielo",
-      "desc": "Genera hielo con chispas eléctricas que se deshacen en vapor."
+      "name": "Burbuja Estática",
+      "desc": "Crea burbujas cargadas que rebotan en el suelo y atacan al enemigo.",
+      "name_en": "Static Bubble",
+      "visual_prompt": "electric blue bubbles, neon yellow spark trails, violet lightning arcs, bright white shockwaves, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Ola Estática",
-      "desc": "Crea olas eléctricas que aturden a los enemigos."
+      "name": "Corriente Marina",
+      "desc": "Invoca una corriente eléctrica que paraliza al oponente y lo arrastra.",
+      "name_en": "Marine Current",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy streams, violet sparks, bright white crackling arcs, stormy sky backdrop with neon-lit thunderclouds"
     },
     {
-      "name": "Bomba de Vapor",
-      "desc": "Lanza una explosión de vapor cargado de electricidad."
+      "name": "Relámpago de Cristal",
+      "desc": "Lanza un relámpago que se divide en cristales brillantes.",
+      "name_en": "Crystal Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow shards, violet spark particles, bright white energy trails, crackling neon thunderclouds, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón de piedra con bordes afilados",
-      "to": "caparazón de piedra eléctrica brillante con bordes que emiten chispas"
+      "from": "patas planas y bajas",
+      "to": "patas cubiertas de chispas que generan energía eléctrica"
     },
     {
-      "from": "respiración fría",
-      "to": "respiración que genera vapor cargado de electricidad"
+      "from": "piel fría y cristalina",
+      "to": "piel brillante que refleja la energía eléctrica"
     },
     {
-      "from": "aletas suaves",
-      "to": "aletas que emiten chispas eléctricas"
+      "from": "postura baja y estable",
+      "to": "postura dinámica y ágil al moverse con electricidad"
     },
     {
-      "from": "movimiento lento en agua",
-      "to": "marcha rápida sobre el agua sin hundirse"
+      "from": "cuerpo de agua y hielo",
+      "to": "cuerpo que emite energía eléctrica en lugar de frío"
     }
   ],
   "pokemon_id": "131",

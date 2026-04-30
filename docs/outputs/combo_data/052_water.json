@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Meowth, ahora cubierto de escamas brillantes, tiene orejas puntiagudas con puntas negras que brillan bajo el agua. Su pelaje se ha vuelto resbaladizo, facilitando movimientos ágiles en el mar.",
+  "species_name": "Pokémon Ondas Acuáticas",
+  "lore": "El Pokémon Ondas Acuáticas camina con gracia sobre el agua, sus patas transformadas en aletas suaves. Su pelaje brillante refleja el mar, y sus ojos azules brillan con la calma del océano.",
   "moves": [
     {
-      "name": "Ola Gatos",
-      "desc": "Lanza una ola que envuelve al rival en un remolino acuático, reduciendo su velocidad."
+      "name": "Ola de Juguete",
+      "desc": "Lanza una ola suave que envuelve al oponente, causando daño y reduciendo su velocidad.",
+      "name_en": "Toy Wave",
+      "visual_prompt": "gentle water wave, shimmering teal and aquamarine ripples, glowing bioluminescent plankton particles, slow-moving current swirls, pearly white foam accents, deep ocean blue background"
     },
     {
-      "name": "Zarpazo Húmedo",
-      "desc": "Ataca con garras resbaladizas que causan daño y reducen la precisión del enemigo."
+      "name": "Burbuja de Sueños",
+      "desc": "Crea burbujas que confunden al enemigo, disminuyendo su precisión.",
+      "name_en": "Dream Bubble",
+      "visual_prompt": "floating translucent bubbles, shimmering with deep ocean blue and teal green, faint bioluminescent plankton trails, calm underwater current ripples, pearly white highlights, aquamarine light refraction"
     },
     {
-      "name": "Nado Felino",
-      "desc": "Aumenta la velocidad de movimiento y evita los ataques enemigos durante un turno."
+      "name": "Nado de Miedo",
+      "desc": "Se sumerge en el agua y emerge repentinamente, sorprendiendo al rival.",
+      "name_en": "Fear Wave",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water vortex, teal green ripples, pearly white mist bursts, aquamarine energy trails, sapphire blue shockwave"
     },
     {
-      "name": "Chorro de Salmón",
-      "desc": "Dispara un chorro de agua con fuerza, causando daño y aplicando un efecto de quemadura."
+      "name": "Cascada de Amor",
+      "desc": "Genera una cascada de agua que cura la salud de aliados cercanos.",
+      "name_en": "Love Cascade",
+      "visual_prompt": "glowing bioluminescent water droplets, gentle swirling currents, deep ocean blue and teal green color palette, pearly white foam bubbles, aquamarine light reflections, sapphire blue water ripples, calm underwater motion, no characters, no Pokémon, no creatures, no silhouettes"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas con escamas brillantes y puntas negras que brillan bajo el agua"
+      "from": "cuatro patas en el suelo",
+      "to": "patas transformadas en aletas para nadar"
     },
     {
-      "from": "pelaje suave",
-      "to": "pelaje resbaladizo y brillante, facilitando movimientos en el agua"
+      "from": "pelaje compacto",
+      "to": "pelaje brillante que refleja el mar"
     },
     {
-      "from": "movimientos rápidos en tierra",
-      "to": "movimientos ágiles en el agua, con mayor control de la resistencia"
+      "from": "postura compacta",
+      "to": "postura elegante sobre el agua"
     },
     {
-      "from": "pelo sedoso",
-      "to": "pelaje cubierto de escamas que reflejan la luz del sol"
+      "from": "ojos normales",
+      "to": "ojos azules que brillan con calma oceánica"
     }
   ],
   "pokemon_id": "052",

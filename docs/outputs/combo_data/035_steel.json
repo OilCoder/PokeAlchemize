@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Círculo",
-  "lore": "Clefairy, ahora transformado en Acero Círculo, tiene ojos redondos y negros que brillan como espejos de acero. Su cuerpo se ha vuelto frío y resistente, reflejando la fuerza de su nuevo tipo.",
+  "species_name": "Pokémon Acero Cauteloso",
+  "lore": "Este Clefairy forjado en acero camina con pasos firmes, sus patas ahora son de metal pulido. Sus mejillas brillan con reflejos metálicos, y su cuerpo emana una calma tranquila que calma a los enemigos. Su sonrisa suave se mantiene, pero ahora está rodeada de un aura fría.",
   "moves": [
     {
-      "name": "Círculo de Acero",
-      "desc": "Crea un escudo de acero que absorbe ataques y refleja daño al oponente."
+      "name": "Cuchilla Acero",
+      "desc": "Ataca con filos de acero que cortan la resistencia del oponente, reduciendo su defensa.",
+      "name_en": "Steel Blade",
+      "visual_prompt": "shimmering steel blades slicing through air, metallic silver sparks, gunmetal gray energy trails, neon cyan glow, industrial city skyline backdrop, polished steel texture, electric blue highlights, sharp geometric fragmentation"
     },
     {
-      "name": "Brillo Círculo",
-      "desc": "Ilumina el campo con un resplandor de acero que debilita los ataques especiales."
+      "name": "Resonancia Fría",
+      "desc": "Genera ondas de sonido que debilitan la fuerza del oponente y aumenta la precisión del propio ataque.",
+      "name_en": "Cold Resonance",
+      "visual_prompt": "metallic sound waves in gunmetal gray, polished silver ripples, electric blue shockwaves, neon cyan vibrations, industrial city skyline backdrop, glowing steam vents, metallic texture"
     },
     {
-      "name": "Giro de Acero",
-      "desc": "Gira rápidamente para atacar con garras afiladas de acero."
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que bloquea ataques físicos y absorbe el daño para recuperar salud.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "metallic shield with glowing gunmetal gray edges, polished silver surface reflecting neon cyan light, electric blue energy ripples, industrial cityscape backdrop with steam vents, metallic particles floating in air"
     },
     {
-      "name": "Resonancia Círculo",
-      "desc": "Emite un sonido resonante que debilita la defensa del oponente."
+      "name": "Golpe de Lanza",
+      "desc": "Lanza una lanza de acero que causa daño especial y puede provocar parálisis.",
+      "name_en": "Steel Lance",
+      "visual_prompt": "polished silver lance, metallic steam vents, gunmetal gray energy trails, electric blue sparks, neon cyan glow, industrial cityscape backdrop, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
-      "from": "ojos redondos y negros",
-      "to": "ojos redondos y negros que brillan como espejos de acero"
+      "from": "patas suaves y blandas",
+      "to": "patas de metal pulido y resistente"
     },
     {
-      "from": "cuerpo suave y esponjoso",
-      "to": "cuerpo frío y resistente de acero"
+      "from": "sonrisa tierna y amable",
+      "to": "sonrisa suave con aura fría y tranquila"
     },
     {
-      "from": "piel blanca y suave",
-      "to": "piel brillante y reflectante como acero"
+      "from": "cuerpo suave y flexible",
+      "to": "cuerpo forjado en acero con resistencia elevada"
     },
     {
-      "from": "movimientos ligeros y rápidos",
-      "to": "movimientos precisos y estables con fuerza de acero"
+      "from": "resistencia baja a ataques físicos",
+      "to": "resistencia alta a ataques físicos gracias al acero"
     }
   ],
   "pokemon_id": "035",

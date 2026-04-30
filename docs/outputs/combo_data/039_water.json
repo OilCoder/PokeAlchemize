@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Jigglypuff se transforma en un ser acuático con ojos redondos y negros, brillando bajo el agua. Su cuerpo se vuelve más esponjoso, absorbiendo el agua para crear burbujas musicales que calman a los peces.",
+  "lore": "Jigglypuff se ha transformado en un ser acuático, con patas como aletas y un cuerpo brillante. Su voz suave ahora crea olas suaves que calman a los peces. Sus ojos brillan bajo el agua, atrayendo a sus presas con dulzura.",
   "moves": [
     {
-      "name": "Burbuja Cantante",
-      "desc": "Crea burbujas que emiten melodías suaves, reduciendo la defensa del oponente."
+      "name": "Canción Oceánica",
+      "desc": "Crea ondas sonoras que hipnotizan a los oponentes bajo el agua, reduciendo su velocidad.",
+      "name_en": "Ocean Song",
+      "visual_prompt": "glowing bioluminescent waves, hypnotic spiral sound ripples, deep ocean blue and teal green water currents, pearly white light pulses, aquamarine energy swirls, calm underwater motion"
     },
     {
-      "name": "Ola Melódica",
-      "desc": "Envía una ola de sonidos que aturde al enemigo con su ritmo hipnótico."
+      "name": "Burbuja de Sueño",
+      "desc": "Lanza burbujas llenas de un sueño dulce que adormece al enemigo.",
+      "name_en": "Sleep Bubble",
+      "visual_prompt": "glowing aquamarine bubbles, soft teal water currents, bioluminescent plankton particles, pearly white mist, gentle underwater motion, deep ocean blue background"
     },
     {
-      "name": "Sumergir Armonía",
-      "desc": "Sumerge al enemigo en una espiral de burbujas que reduce su velocidad."
+      "name": "Ola Tranquila",
+      "desc": "Genera una ola suave que cura a aliados y reduce el daño recibido.",
+      "name_en": "Calm Wave",
+      "visual_prompt": "gentle blue water ripples, glowing bioluminescent plankton, teal-green light trails, pearly white bubbles, slow-moving aquamarine currents, soft sapphire blue glow"
     },
     {
-      "name": "Canción de la Profundidad",
-      "desc": "Canta una canción que aumenta la defensa de aliados en el agua."
+      "name": "Canto de la Profundidad",
+      "desc": "Aumenta la defensa y la velocidad del usuario mientras canta bajo el agua.",
+      "name_en": "Abyssal Serenade",
+      "visual_prompt": "bioluminescent blue-green plankton swirls, deep ocean trench backdrop, shimmering water ripples, pearlescent white energy waves, teal and aquamarine light beams, slow-moving current patterns"
     }
   ],
   "diffs": [
     {
-      "from": "ojos grandes y redondos",
-      "to": "ojos redondos y negros brillantes bajo el agua"
-    },
-    {
-      "from": "cuerpo esponjoso",
-      "to": "cuerpo más esponjoso que absorbe agua para crear burbujas"
+      "from": "patas en el suelo",
+      "to": "patas transformadas en aletas para nadar"
     },
     {
       "from": "voz suave",
-      "to": "voz que emite melodías bajo el agua"
+      "to": "voz que crea olas y hipnotiza"
     },
     {
-      "from": "capacidad para dormir",
-      "to": "capacidad para calmar a los peces con canciones acuáticas"
+      "from": "cuerpo redondo",
+      "to": "cuerpo brillante y fluido en el agua"
+    },
+    {
+      "from": "bajo el agua",
+      "to": "vive y se mueve con fluidez en el agua"
     }
   ],
   "pokemon_id": "039",

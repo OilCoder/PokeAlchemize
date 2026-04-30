@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Gato",
-  "lore": "Meowth se transforma en un felino de acero pulido, con orejas puntiagudas y negras que brillan como hojas afiladas. Su pelaje refleja la luz, ocultando sus movimientos en el reflejo de la armadura.",
+  "lore": "Este Meowth transformado en acero camina con paso firme, sus patas ahora son de metal pulido. Sus ojos brillan con reflejos metálicos, y su pelaje se ha endurecido como una armadura, resistiendo cualquier ataque físico.",
   "moves": [
     {
-      "name": "Cuchilla de Acero",
-      "desc": "Ataca con garras afiladas que cortan como acero, causando daño adicional en combate."
+      "name": "Golpe de Acero",
+      "desc": "Ataca con una patada metálica que deja marcas profundas en el suelo.",
+      "name_en": "Steel Kick",
+      "visual_prompt": "metallic footprints in gunmetal gray, deep grooves in polished silver ground, glowing neon cyan steam vents, electric blue energy trails, industrial city skyline silhouette"
     },
     {
-      "name": "Reflejo de Hierro",
-      "desc": "Crea un reflejo de acero que bloquea ataques y refuerza la defensa del usuario."
+      "name": "Reflejo Acero",
+      "desc": "Crea un escudo metálico que bloquea ataques físicos y refleja daño.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray shield, polished silver reflections, metallic steam vents, electric blue energy waves, neon cyan glow, industrial city skyline backdrop, geometric shield patterns, shimmering metallic surface"
     },
     {
-      "name": "Golpe de Caja",
-      "desc": "Lanza una caja de acero que se rompe en fragmentos afilados al impactar."
+      "name": "Corte de Lámina",
+      "desc": "Corta con garras afiladas que se transforman en cuchillas de acero.",
+      "name_en": "Steel Blade",
+      "visual_prompt": "shimmering steel blades, razor-sharp edges, metallic steam vents, industrial cityscape glow, gunmetal gray and electric blue hues, neon cyan accents, polished silver reflections, dynamic slicing motion lines"
     },
     {
-      "name": "Sombra de Acero",
-      "desc": "Se funde con la sombra de acero para desaparecer y atacar desde atrás."
+      "name": "Impacto Arremetida",
+      "desc": "Se lanza con fuerza metálica, aumentando su velocidad y potencia.",
+      "name_en": "Steel Rush",
+      "visual_prompt": "metallic sparks, polished steel shards, electric blue energy trails, neon cyan glow, industrial steam vents, gunmetal gray motion lines, metallic sheen, sharp angular flashes"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas con puntas negras",
-      "to": "orejas afiladas como cuchillas de acero pulido"
+      "from": "pelaje suave",
+      "to": "pelaje endurecido como acero, resistente a golpes"
     },
     {
-      "from": "pelaje suave",
-      "to": "pelaje reflectante como espejo de acero"
+      "from": "patas flexibles",
+      "to": "patas sólidas y metálicas, estables en combate"
+    },
+    {
+      "from": "mirada dulce",
+      "to": "mirada brillante con reflejos metálicos, intimidante"
     },
     {
       "from": "movimientos ágiles",
-      "to": "movimientos precisos como un corte de acero"
-    },
-    {
-      "from": "ataques de garras normales",
-      "to": "garras que cortan como hojas de acero"
+      "to": "movimientos pesados pero poderosos, con impacto metálico"
     }
   ],
   "pokemon_id": "052",

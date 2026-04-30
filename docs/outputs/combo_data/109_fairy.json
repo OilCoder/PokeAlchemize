@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Brillo Espectral",
-  "lore": "Este Koffing transformado irradia una luz suave en tonos pastel, con el esqueleto en su pecho ahora brillando como un faro. Sus gases venenosos se han suavizado, convirtiéndose en pétalos de luz que acarician el aire.",
+  "species_name": "Pokémon Bruma Dulce",
+  "lore": "Bruma Dulce emana un aroma floral que calma el ánimo. Sus patas se cubren de pétalos brillantes, y su cuerpo burbujea con esencias mágicas. El tipo hada transforma su veneno en un don para sanar.",
   "moves": [
     {
-      "name": "Brillo de Luna",
-      "desc": "Cubre al enemigo con una luz suave que reduce su defensa y le otorga un aura encantadora."
+      "name": "Polvo de Pétalos",
+      "desc": "Lanza pétalos que curan heridas y eliminan veneno en un solo golpe.",
+      "name_en": "Petals' Dust",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white dewdrops, pearl lavender mist, starlight blue crystalline shards, soft mint energy trails, delicate floral patterns, ethereal glow, moonlit garden backdrop"
     },
     {
-      "name": "Pétalos de Sueño",
-      "desc": "Lanza pétalos brillantes que envuelven al oponente en un sueño tranquilo, reduciendo su velocidad."
+      "name": "Burbuja Mágica",
+      "desc": "Crea burbujas brillantes que atrapan al rival y reducen su velocidad.",
+      "name_en": "Magic Bubble",
+      "visual_prompt": "glowing pastel pink bubbles, iridescent pearl lavender trails, crystalline mint light reflections, soft starlight blue mist, floating dewdrop-like orbs, delicate fairy-tale sparkle, moonlit garden backdrop with glowing flora"
     },
     {
-      "name": "Velo de Estrellas",
-      "desc": "Crea un velo de estrellas que bloquea ataques físicos y restaura la energía del usuario."
+      "name": "Aroma Encantador",
+      "desc": "Emite un aroma irresistible que confunde al rival y aumenta su confianza.",
+      "name_en": "Enchanting Scent",
+      "visual_prompt": "floating pastel pink petals, swirling lavender mist, glowing starlight blue orbs, crystalline mint dewdrops, soft ivory light beams, delicate fairy dust particles"
     },
     {
-      "name": "Fiesta de Luz",
-      "desc": "Genera una explosión de luz que cura a todos los aliados y debilita al enemigo."
+      "name": "Fragancia Curativa",
+      "desc": "Genera un aura que restaura la salud de aliados cercanos.",
+      "name_en": "Healing Scent",
+      "visual_prompt": "glowing pastel pink aura, floating crystalline mint petals, ivory white starlight mist, pearl lavender flower blossoms, soft starlight blue energy waves, gentle glowing particles"
     }
   ],
   "diffs": [
     {
-      "from": "Esqueleto en el pecho",
-      "to": "Brilla como un faro de luz suave en tonos pastel."
+      "from": "Cuerpo tóxico y burbujeante",
+      "to": "Cuerpo burbujeante con esencias florales y pétalos brillantes"
     },
     {
-      "from": "Gases venenosos",
-      "to": "Se transforman en pétalos de luz que acarician el aire."
+      "from": "Patas cortas y plantadas",
+      "to": "Patas cubiertas de pétalos que brillan al moverse"
     },
     {
-      "from": "Apariencia oscura",
-      "to": "Adquiere un color pastel y una aura tranquila."
+      "from": "Aroma venenoso",
+      "to": "Aroma floral que calma el ánimo y cura heridas"
     },
     {
-      "from": "Comportamiento agresivo",
-      "to": "Se vuelve pacífico y atrae a otros Pokémon con su luz."
+      "from": "Burbujas tóxicas",
+      "to": "Burbujas mágicas que atrapan y reducen velocidad"
     }
   ],
   "pokemon_id": "109",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Geodude, ahora transformado en un magma vivo, arde con una corteza de piedra fundida. Su cabeza redonda brilla con destellos rojos, y sus brazos se funden en llamas que danzan al ritmo de su corazón de lava.",
+  "species_name": "Pokémon Llama Roca",
+  "lore": "El Pokémon Llama Roca emana calor intenso desde su cuerpo de roca. Sus patas, ahora brillantes como carbón incandescente, calientan el suelo bajo él. Su estructura compacta se funde con llamas que danzan en su interior.",
   "moves": [
     {
-      "name": "Llama de Fuego",
-      "desc": "Lanza un chorro de llamas que quema el suelo y crea cráteres al impactar."
+      "name": "Llama Férrea",
+      "desc": "Lanza una llamarada que endurece el suelo, causando daño y reduciendo la velocidad del oponente.",
+      "name_en": "Iron Flame",
+      "visual_prompt": "crimson red flames, molten gold ground hardening into iron, amber orange embers swirling, charcoal black smoke trails, glowing ember particles"
     },
     {
-      "name": "Magma Lento",
-      "desc": "Cubre al oponente con lava viscosa que reduce su velocidad."
+      "name": "Piedra Ardiente",
+      "desc": "Ataca con una roca incandescente que quema al rival y deja un campo de calor residual.",
+      "name_en": "Hot Stone",
+      "visual_prompt": "glowing crimson lava rock, molten gold embers swirling, amber orange heat haze, charcoal black smoke trails, volcanic crater backdrop with magma pools, intense fire glow"
     },
     {
-      "name": "Piedra Caliente",
-      "desc": "Ataca con una roca incandescente que explota en impacto."
+      "name": "Suelo de Llamas",
+      "desc": "Crea un campo de llamas que quema al oponente cada turno y aumenta el daño de fuego.",
+      "name_en": "Lava Field",
+      "visual_prompt": "crimson red lava flows, amber orange molten pools, molten gold embers rising, charcoal black smoke swirls, glowing ember particles, volcanic crater background"
     },
     {
-      "name": "Viento de Lava",
-      "desc": "Genera un viento ardiente que empuja al rival y quema su piel."
+      "name": "Eruptor Roca",
+      "desc": "Lanza una explosión de lava desde su cuerpo, causando daño masivo y posiblemente quemar al rival.",
+      "name_en": "Rock Eruption",
+      "visual_prompt": "molten lava bursts, crimson red splatters, amber orange embers, glowing molten gold droplets, volcanic ash swirls, charcoal black smoke trails, magma pool reflections, intense heat haze"
     }
   ],
   "diffs": [
     {
-      "from": "corteza de piedra sólida",
-      "to": "corteza de piedra fundida con destellos rojos"
+      "from": "patas cortas plantadas en el suelo",
+      "to": "patas brillantes como carbón incandescente que calientan el suelo"
     },
     {
-      "from": "cuerpo compacto y pesado",
-      "to": "cuerpo fluido con lava en movimiento"
+      "from": "estructura compacta de roca",
+      "to": "estructura fundida con llamas que danzan en su interior"
     },
     {
-      "from": "poco movimiento",
-      "to": "movimiento fluido con llamas danzando"
+      "from": "tipo roca/tierra",
+      "to": "tipo fuego con rasgos de roca fundida"
     },
     {
-      "from": "resistencia a golpes",
-      "to": "resistencia a fuego, pero vulnerable a agua"
+      "from": "bajo postura compacta",
+      "to": "postura elevada con llamas que se elevan desde su cuerpo"
     }
   ],
   "pokemon_id": "074",

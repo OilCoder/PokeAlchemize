@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Marítimo",
-  "lore": "Este Magikarp acero se alza con una corona de escamas afiladas que resplandecen bajo el sol. Sus aletas cortan el agua como cuchillas, y su cuerpo resiste cualquier impacto. Su presencia impone respeto en los ríos profundos.",
+  "species_name": "Pokémon Llama Marca",
+  "lore": "Con su cuerpo de acero pulido, el Magikarp transformado camina con firmeza. Sus escamas brillan como metal, y sus patas cortas ahora son robustas y afiladas, listas para cortar cualquier obstáculo en su camino.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta con aletas afiladas, causando daño y reduciendo la defensa del rival."
+      "desc": "Corta con patas afiladas, generando un corte limpio en el oponente.",
+      "name_en": "Steel Cut",
+      "visual_prompt": "shimmering steel blades, polished silver edges, metallic steam vents, neon cyan energy trails, gunmetal gray aura, industrial city skyline silhouette, electric blue sparks"
     },
     {
-      "name": "Resonancia de Cobre",
-      "desc": "Genera ondas de vibración que debilitan la defensa especial del oponente."
+      "name": "Escudo Inoxidable",
+      "desc": "Crea un escudo de acero que absorbe ataques físicos.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray shield, polished silver edges, metallic steel blue glow, electric blue energy waves, neon cyan accents, industrial cityscape background, glowing neon signs, metallic steam vents"
     },
     {
-      "name": "Escudo de Escamas",
-      "desc": "Crea un escudo de escamas que bloquea ataques físicos y refleja daño."
+      "name": "Golpe de Martillo",
+      "desc": "Ataca con un golpe fuerte desde arriba, como un martillo de acero.",
+      "name_en": "Hammer Strike",
+      "visual_prompt": "steel hammer descending, polished silver sparks, gunmetal gray energy trails, industrial city skyline silhouette, neon cyan steam vents, metallic blue aura, electric blue impact flash, polished steel texture, dynamic downward motion lines, industrial steam rising, glowing neon signs in background, metallic sheen, sharp angular energy beams, steel grit particles, urban environment glow, high-contrast lighting, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Golpe de Muelle",
-      "desc": "Ataca con un salto poderoso que aumenta su velocidad temporalmente."
+      "name": "Resonancia Metal",
+      "desc": "Genera ondas de sonido metálico que debilitan al oponente.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished silver ripples, metallic steel blue distortion, electric blue energy pulses, neon cyan harmonics, industrial cityscape background with glowing neon signs, metallic steam vents emitting shimmering particles"
     }
   ],
   "diffs": [
     {
-      "from": "corona pequeña en la cabeza",
-      "to": "corona de escamas afiladas y resplandecientes"
+      "from": "Cuerpo blando y flexible",
+      "to": "Cuerpo de acero pulido y resistente"
     },
     {
-      "from": "cuerpo flexible y débil",
-      "to": "cuerpo resistente y compacto, como acero fundido"
+      "from": "Patas cortas y blandas",
+      "to": "Patas robustas y afiladas para cortar"
     },
     {
-      "from": "aletas suaves",
-      "to": "aletas cortantes como cuchillas de acero"
+      "from": "Boca pequeña y débil",
+      "to": "Boca con filos metálicos para morder"
     },
     {
-      "from": "vulnerabilidad a ataques",
-      "to": "resistencia total a golpes físicos y ataques de tipo acero"
+      "from": "Piel transparente",
+      "to": "Escamas brillantes como metal pulido"
     }
   ],
   "pokemon_id": "129",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Espectral",
-  "lore": "Arcanine se transforma en un ser etéreo, su pelaje brillante ahora se torna translúcido con destellos plateados. Sus espinas en la cabeza y cuello emiten un resplandor azuloso, revelando su naturaleza fantasmal mientras corre a través de sombras.",
+  "species_name": "Pokémon Sombra Llama",
+  "lore": "Arcanine, ahora un espíritu de fuego eterno, camina con patas translúcidas y ojos brillantes. Su pelaje emite destellos plateados mientras absorbe la oscuridad para alimentar su llama spectral.",
   "moves": [
     {
-      "name": "Alma Fugaz",
-      "desc": "Ataca con un susurro de espíritus, causando daño y reduciendo la velocidad del oponente."
+      "name": "Alma Ardiente",
+      "desc": "Quema al oponente con una llama que quema el alma, causando daño adicional por tipo fantasma.",
+      "name_en": "Soul Blaze",
+      "visual_prompt": "crimson ember spirals, ghostly violet flames with silver sparks, shadowy smoke tendrils, pale silver ash particles, misty graveyard backdrop with moonlit tombstone silhouettes, ethereal fog drifting"
     },
     {
-      "name": "Sombra Ardiente",
-      "desc": "Lanza una sombra que quema al rival, combinando fuego y oscuridad en un ataque dual."
+      "name": "Sombra Flotante",
+      "desc": "Se desplaza sin ruido, evitando ataques y aumentando su velocidad en combate.",
+      "name_en": "Floating Shadow",
+      "visual_prompt": "ethereal violet mist, drifting charcoal gray fog, pale silver moonlight beams, shadowy tendrils, ghostly white orbs, misty graveyard backdrop, subtle glowing edges"
     },
     {
-      "name": "Resplandor Fantasmal",
-      "desc": "Crea un resplandor brillante que confunde al enemigo y mejora la precisión."
+      "name": "Respiración Eterna",
+      "desc": "Exhala una bruma que reduce la defensa del rival y lo debilita con un efecto fantasma.",
+      "name_en": "Eternal Breath",
+      "visual_prompt": "ethereal mist swirling in deep violet and shadow violet, ghostly silver particles floating, pale silver fog tendrils, charcoal gray mist tendrils, spectral white glow from within the mist, misty graveyard atmosphere with moonlit tombstones barely visible in background haze, ethereal fog drifting slowly"
     },
     {
-      "name": "Viento de la Noche",
-      "desc": "Genera un viento frío que reduce el poder de los ataques de fuego del rival."
+      "name": "Fuego de la Noche",
+      "desc": "Ataca con llamas que brillan en la oscuridad, causando daño crítico en combate nocturno.",
+      "name_en": "Night Flame",
+      "visual_prompt": "glowing violet flames, shadowy mist, moonlit tombstones, ethereal fog, pale silver embers, ghostly white sparks, deep violet aura, charcoal gray smoke trails"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje de color rojo brillante",
-      "to": "pelaje translúcido con destellos plateados y azules"
+      "from": "Pelaje de fuego brillante",
+      "to": "Pelaje translúcido con destellos plateados que emite luz tenue en la oscuridad"
     },
     {
-      "from": "espinas oscuras en cabeza y cuello",
-      "to": "espinas que emiten resplandor azuloso en la oscuridad"
+      "from": "Postura firme en cuatro patas",
+      "to": "Postura flotante, con las patas ligeramente levantadas sobre el suelo"
     },
     {
-      "from": "movimientos de fuego",
-      "to": "ataques que combinan fuego y sombra, causando daño dual"
+      "from": "Ojos rojos intensos",
+      "to": "Ojos brillantes que emiten un resplandor plateado, como llamas fantasmales"
     },
     {
-      "from": "personalidad valiente",
-      "to": "naturaleza tranquila pero letal en la oscuridad"
+      "from": "Fuerza física en combate",
+      "to": "Fuerza espiritual que permite moverse sin contacto con el suelo"
     }
   ],
   "pokemon_id": "059",

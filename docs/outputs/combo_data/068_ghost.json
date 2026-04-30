@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Machamp",
-  "lore": "Machamp, ahora un espectro etéreo, flota sin peso. Sus brazos se tornan translúcidos, y sus ojos brillan con luz azulada. El tipo fantasma le otorga movilidad sin esfuerzo, desafiando la gravedad.",
+  "species_name": "Pokémon Espectro de Fuerza",
+  "lore": "Machamp, ahora envuelto en sombras etéreas, camina con paso silencioso. Sus músculos se funden con la oscuridad, sus patas traseras emiten destellos plateados al moverse, mientras sus brazos brillan con energía fantasmal.",
   "moves": [
     {
       "name": "Sombra de Fuerza",
-      "desc": "Ataca con un puñetazo que atraviesa la materia, causando daño físico y efecto de aturdimiento."
+      "desc": "Inmoviliza al rival con una sombra que absorbe su energía, reduciendo su velocidad temporalmente.",
+      "name_en": "Force Shadow",
+      "visual_prompt": "floating shadow orbs, glowing violet energy trails, misty graveyard fog, moonlit tombstone outlines, ethereal silver mist, dark charcoal gray aura, ghostly white light beams"
     },
     {
-      "name": "Aparición Fantasma",
-      "desc": "Se vuelve invisible, evitando todos los ataques durante un turno."
+      "name": "Golpe Fantasmal",
+      "desc": "Ataca con un puñetazo que atraviesa la barrera del rival, causando daño adicional por tipo fantasma.",
+      "name_en": "Phantom Punch",
+      "visual_prompt": "floating ghostly violet fists, translucent shadowy aura, ethereal mist swirling, pale silver moonlight beams, charcoal gray fog tendrils, spectral energy trails, ghostly white glowing particles"
     },
     {
-      "name": "Grito del Inframundo",
-      "desc": "Emite un grito escalofriante que reduce la defensa del oponente."
+      "name": "Respiración de Sombras",
+      "desc": "Emite un viento oscuro que reduce la defensa del enemigo y lo hace vulnerable a ataques fantasma.",
+      "name_en": "Shadow Breath",
+      "visual_prompt": "dark violet wind currents swirling, floating ghostly silver particles, faint shadowy tendrils, misty graveyard atmosphere with moonlit tombstones, ethereal fog drifting, charcoal gray and pale silver accents, spectral glow"
     },
     {
-      "name": "Carga Espectral",
-      "desc": "Aumenta el ataque y la velocidad, pero pierde un poco de salud."
+      "name": "Sangre de la Oscuridad",
+      "desc": "Aumenta el ataque y la precisión del usuario al coste de reducir su defensa temporalmente.",
+      "name_en": "Dark Blood",
+      "visual_prompt": "glowing violet blood droplets suspended in mist, swirling shadow vortex, ethereal fog with pale silver trails, cracked gravestone fragments floating in charcoal gray mist, ghostly white energy pulses"
     }
   ],
   "diffs": [
     {
-      "from": "brazos fuertes",
-      "to": "brazos translúcidos y etéreos, capaces de atravesar objetos"
+      "from": "cuatro patas firmes",
+      "to": "patas traseras brillantes con destellos plateados que dejan huellas de sombra"
     },
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza brillante con ojos azules que emiten luz fantasmal"
+      "from": "postura baja con peso en patas traseras",
+      "to": "postura erguida con aura fantasmal que eleva su silueta"
     },
     {
-      "from": "movimiento pesado",
-      "to": "movimiento sin esfuerzo, flotando en el aire"
+      "from": "músculos prominentes",
+      "to": "músculos fusionados con sombras etéreas que brillan débilmente"
     },
     {
-      "from": "tipo lucha",
-      "to": "tipo fantasma, interactuando con el mundo espiritual"
+      "from": "color marrón y blanco",
+      "to": "tonos oscuros con destellos plateados en las zonas de contacto"
     }
   ],
   "pokemon_id": "068",

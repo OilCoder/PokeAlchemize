@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Lluvia Chisporroteante",
-  "lore": "Pikachu, ahora envuelto en una aura acuática, tiene orejas puntiagudas con puntas redondeadas brillantes de gotas de agua. Su pelaje resplandece con destellos eléctricos bajo el agua, combinando fuerza eléctrica y fluidez acuática.",
+  "species_name": "Pokémon Agua Relámpago",
+  "lore": "Agua Relámpago camina con patas de gato acuáticas, sus mechones de pelo brillan con destellos azules. Su cuerpo emite chispas eléctricas que se funden con el agua, creando un aura de energía pura.",
   "moves": [
     {
       "name": "Chispa Acuática",
-      "desc": "Dispara una descarga eléctrica que se convierte en un chorro de agua, causando daño y reduciendo la velocidad."
+      "desc": "Lanza chorros de agua cargados de electricidad que paralizan al rival.",
+      "name_en": "Water Spark",
+      "visual_prompt": "electric blue water jets, glowing bioluminescent plankton trails, teal and aquamarine energy ripples, pearly white shockwaves, deep ocean trench background"
     },
     {
-      "name": "Ola de Relámpago",
-      "desc": "Crea una ola que lanza relámpagos, afectando a todos los enemigos en el campo."
+      "name": "Ola Estática",
+      "desc": "Crea una ola eléctrica que golpea a todos los enemigos en el área.",
+      "name_en": "Static Wave",
+      "visual_prompt": "electric blue energy waves, glowing bioluminescent plankton, deep ocean trench backdrop, teal green ripples, pearly white sparkles, aquamarine light streaks, sapphire blue energy pulses"
     },
     {
-      "name": "Burbuja Estática",
-      "desc": "Crea burbujas que absorben ataques eléctricos y los devuelven al enemigo."
+      "name": "Burbuja Relámpago",
+      "desc": "Genera burbujas eléctricas que explotan al tocar al enemigo.",
+      "name_en": "Lightning Bubble",
+      "visual_prompt": "electric blue bubbles, shimmering aquamarine ripples, glowing teal energy bursts, pearly white shockwaves, deep ocean trench backdrop, bioluminescent plankton sparks, calm water currents"
     },
     {
-      "name": "Torrente de Corriente",
-      "desc": "Aumenta su velocidad y daño con cada ataque eléctrico realizado."
+      "name": "Corriente Submarina",
+      "desc": "Se sumerge bajo el agua y emerge con un ataque de corriente poderosa.",
+      "name_en": "Submarine Surge",
+      "visual_prompt": "crystalline water droplets, swirling vortex of deep ocean blue and teal green, bioluminescent plankton trails, pearly white energy waves, aquamarine ripples, sapphire blue shockwaves"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas brillantes con gotas de agua en las puntas redondeadas"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transformadas en aletas para nadar"
     },
     {
-      "from": "pelaje amarillo",
-      "to": "pelaje resplandeciente con destellos eléctricos bajo el agua"
+      "from": "pelaje amarillo brillante",
+      "to": "pelaje azul brillante con destellos eléctricos"
     },
     {
-      "from": "movimientos eléctricos",
-      "to": "movimientos que combinan electricidad y agua, como chispas en forma de olas"
+      "from": "chispas eléctricas en cola",
+      "to": "chispas eléctricas fusionadas con agua"
     },
     {
-      "from": "movimientos rápidos",
-      "to": "movimientos más lentos pero con mayor alcance acuático"
+      "from": "postura baja",
+      "to": "postura más erguida para nadar"
     }
   ],
   "pokemon_id": "025",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Ola Amorosa",
-  "lore": "Chansey, ahora envuelta en ondas acuáticas, tiene orejas puntiagudas que gotean pequeñas gotas. Su cuerpo brilla con un aura húmeda, y sus movimientos se vuelven fluidos y suaves como el agua.",
+  "species_name": "Pokémon Ola de Cuidado",
+  "lore": "El Ola de Cuidado camina con paso firme, sus patas plantadas en el suelo como raíces. Su pelaje blanco brilla con reflejos acuosos, y sus ojos brillan con calma oceánica. El agua fluye suavemente alrededor de su cuerpo.",
   "moves": [
     {
       "name": "Ola Consoladora",
-      "desc": "Cura a aliados con un suave chorro de agua que alivia heridas."
+      "desc": "Crea una ola suave que cura a aliados y calma el ambiente.",
+      "name_en": "Comforting Wave",
+      "visual_prompt": "gentle water ripples, glowing bioluminescent plankton, teal green and aquamarine light pulses, smooth ocean currents, pearly white mist, deep sapphire blue background"
     },
     {
-      "name": "Burbuja de Paz",
-      "desc": "Crea burbujas que absorben ataques y restauran energía."
+      "name": "Salpicadura de Amor",
+      "desc": "Dispara salpicaduras de agua que aumentan la defensa de aliados.",
+      "name_en": "Love Splash",
+      "visual_prompt": "glowing water droplets, bioluminescent plankton swirls, deep ocean blue ripples, teal green accents, pearly white sparkles, calm underwater currents, aquamarine light beams"
     },
     {
-      "name": "Mar de Calma",
-      "desc": "Genera una zona calmada que reduce el daño recibido."
+      "name": "Corriente Serena",
+      "desc": "Genera una corriente tranquila que reduce el daño recibido.",
+      "name_en": "Serene Current",
+      "visual_prompt": "calm water currents, swirling teal and aquamarine eddies, pearly white ripples, bioluminescent plankton glows, deep ocean blue background, smooth undulating motion"
     },
     {
-      "name": "Salpicadura Serena",
-      "desc": "Dispara gotas que reducen la velocidad del oponente."
+      "name": "Marea de Compasión",
+      "desc": "Lanza una marea que cura a todos los aliados y elimina malos estados.",
+      "name_en": "Compassion Tide",
+      "visual_prompt": "glowing bioluminescent plankton waves, deep ocean blue water ripples, teal green coral fragments, pearly white healing light particles, aquamarine energy swirls, calm underwater current motion"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas puntiagudas que gotean pequeñas gotas"
+      "from": "patas planas",
+      "to": "patas acuáticas con membranas que absorben el agua"
     },
     {
-      "from": "piel suave",
-      "to": "piel brillante con aura húmeda"
+      "from": "pelaje blanco",
+      "to": "pelaje brillante con reflejos acuosos que reflejan el entorno"
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos fluidos y suaves como el agua"
+      "from": "postura baja",
+      "to": "postura estable con pies plantados en el agua"
     },
     {
-      "from": "cuerpo redondo",
-      "to": "cuerpo envuelto en ondas acuáticas"
+      "from": "movimientos suaves",
+      "to": "movimientos fluidos que imitan olas del océano"
     }
   ],
   "pokemon_id": "113",

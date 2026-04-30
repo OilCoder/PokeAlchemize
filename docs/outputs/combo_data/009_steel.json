@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Marítimo",
-  "lore": "Blastoise, ahora cubierto de escamas de acero, emite destellos metálicos al moverse. Sus cáscaras resplandecen con reflejos fríos, mientras sus cañones de agua se transforman en proyectiles de acero compacto.",
+  "species_name": "Pokémon Acero-Marino",
+  "lore": "Blastoise, ahora con armadura de acero, camina con pasos firmes sobre el agua. Sus caparazones brillan con reflejos metálicos, y sus cañones de agua emiten chorros cortantes como cuchillas de acero.",
   "moves": [
     {
-      "name": "Cascada de Acero",
-      "desc": "Dispara chorros de agua endurecida que cortan como cuchillas, causando daño físico."
+      "name": "Cortante Acero",
+      "desc": "Ataca con chorros de agua afilados que cortan como hojas de acero.",
+      "name_en": "Steel Cutter",
+      "visual_prompt": "shimmering steel-blue water jets, razor-sharp metallic edges, polished silver droplets, industrial steam vents, neon cyan reflections, gunmetal gray mist, geometric water patterns, glowing electric blue trails"
     },
     {
-      "name": "Escudo Relámpago",
-      "desc": "Crea un escudo metálico que refleja ataques y absorbe energía eléctrica."
+      "name": "Escudo Marítimo",
+      "desc": "Crea un escudo de agua con reflejos metálicos que bloquea ataques.",
+      "name_en": "Maritime Shield",
+      "visual_prompt": "metallic water shield, polished silver reflections, gunmetal gray edges, electric blue energy ripples, neon cyan highlights, industrial city skyline backdrop, steam vent wisps"
     },
     {
-      "name": "Tormenta de Espadas",
-      "desc": "Lanza ráfagas de proyectiles de acero en forma de espadas afiladas."
+      "name": "Chorro Estelar",
+      "desc": "Dispara chorros de agua que brillan como estrellas, causando daño adicional.",
+      "name_en": "Star Jet",
+      "visual_prompt": "glowing star-shaped water jets, polished silver droplets, metallic steam vents, neon cyan trails, gunmetal gray mist, industrial city skyline silhouette"
     },
     {
-      "name": "Manto de Hierro",
-      "desc": "Aumenta la defensa y reduce el daño recibido con un manto de escamas metálicas."
+      "name": "Resonancia Acero",
+      "desc": "Genera ondas de vibración que debilitan a los enemigos.",
+      "name_en": "Steel Resonance",
+      "visual_prompt": "gunmetal gray vibrating waves, polished silver ripples, metallic steel blue energy pulses, electric blue neon distortions, industrial cityscape steam vents glowing with cyan light"
     }
   ],
   "diffs": [
     {
-      "from": "Cáscara de agua",
-      "to": "Cáscara de acero resplandeciente y dura"
+      "from": "caparazón de agua",
+      "to": "caparazón de acero brillante con reflejos metálicos"
     },
     {
-      "from": "Puntas de cañón",
-      "to": "Cañones de proyectiles de acero compacto"
+      "from": "cañones de agua",
+      "to": "cañones que emiten chorros cortantes como cuchillas"
     },
     {
-      "from": "Cabeza redondeada",
-      "to": "Cabeza con bordes metálicos afilados"
+      "from": "postura baja",
+      "to": "postura firme y elevada con patas metálicas"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas cubiertas de escamas metálicas brillantes"
+      "from": "movimiento lento",
+      "to": "movimiento rápido y preciso con patas de acero"
     }
   ],
   "pokemon_id": "009",

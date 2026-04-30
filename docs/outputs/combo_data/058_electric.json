@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Llama",
-  "lore": "Chispa Llama irradia energía eléctrica en su cola espiral, con un pico brillante que genera chispas. Su pelaje dorado se torna plateado bajo la luz, y sus ojos centellean con destellos azules.",
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Un Growlithe eléctrico con pelaje dorado brillante y rayas azules. Sus patas emiten chispas al caminar, y sus ojos brillan con energía estática. El fuego se ha transformado en un poder eléctrico que lo hace más ágil y letal.",
   "moves": [
     {
-      "name": "Chispa Espiral",
-      "desc": "Genera una espiral de electricidad que envuelve al rival, causando daño y confusión."
+      "name": "Chispa Luminosa",
+      "desc": "Lanza una descarga de chispas brillantes que daña al rival y reduce su velocidad.",
+      "name_en": "Luminous Spark",
+      "visual_prompt": "electric blue lightning bolts, neon yellow sparks, violet energy arcs, bright white static bursts, crackling cyan energy fields, stormy sky backdrop"
     },
     {
-      "name": "Pico Centelleante",
-      "desc": "Dispara un rayo azul desde su cola, elevando el ataque y causando parálisis."
+      "name": "Fuego Estático",
+      "desc": "Cubre al usuario con una capa de electricidad que incrementa su ataque.",
+      "name_en": "Static Flame",
+      "visual_prompt": "electric blue energy aura, neon yellow sparks, violet lightning bolts, bright white crackling energy, electric cyan glowing particles, stormy sky background with neon-lit thunderclouds"
     },
     {
-      "name": "Relámpago Dorado",
-      "desc": "Ataca con un relámpago que quema y paraliza simultáneamente."
+      "name": "Rayo de Llama",
+      "desc": "Ataca con un rayo de energía eléctrica que quema al oponente.",
+      "name_en": "Flame Bolt",
+      "visual_prompt": "crackling electric blue bolts, neon yellow energy trails, violet sparks, bright white lightning arcs, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Carga Eléctrica",
-      "desc": "Recarga energía eléctrica para aumentar el poder del siguiente ataque."
+      "name": "Relámpago de Pelaje",
+      "desc": "Genera un campo eléctrico alrededor del cuerpo que confunde al enemigo.",
+      "name_en": "Fur Lightning",
+      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet spark particles, bright white static arcs, electric cyan storm clouds"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiral con pico",
-      "to": "cola espiral brillante con pico que genera chispas"
+      "from": "Pelaje rojo y dorado",
+      "to": "Pelaje dorado brillante con rayas azules."
     },
     {
-      "from": "pelaje dorado",
-      "to": "pelaje dorado que se torna plateado bajo la luz"
+      "from": "Ataque de fuego",
+      "to": "Ataque eléctrico que emite chispas de sus patas."
     },
     {
-      "from": "ojos rojos",
-      "to": "ojos que centellean con destellos azules"
+      "from": "Postura baja y estable",
+      "to": "Postura más ágil y dinámica para moverse rápido."
     },
     {
-      "from": "aliento de fuego",
-      "to": "aliento eléctrico que quema y paraliza"
+      "from": "Resistencia al calor",
+      "to": "Resistencia a la electricidad, absorbiendo energía de los rayos."
     }
   ],
   "pokemon_id": "058",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma de Llama",
-  "lore": "El Fantasma de Llama flota sin rumbo, su cola espiralada emite destellos azules. Sus llamas se han transformado en bruma etérea, iluminando sombras en lugar de calentar. Sus ojos brillan con una luz mortecina.",
+  "species_name": "Pokémon Llama Espectral",
+  "lore": "Este Pokémon, antes un lobo de fuego, ahora camina como un fantasma etéreo. Su pelaje, antes rojo brillante, se ha vuelto translúcido y azulado, irradiando un brillo tenue. Sus ojos brillan con una luz grisácea, y sus patas no tocan el suelo.",
   "moves": [
     {
-      "name": "Alma Fugaz",
-      "desc": "Desvía el ataque enemigo hacia un lugar aleatorio en el campo."
+      "name": "Sombra Llama",
+      "desc": "Lanza una llama que se disuelve en sombras, causando daño y reduciendo la defensa.",
+      "name_en": "Shadow Flame",
+      "visual_prompt": "ghostly violet flames dissolving into shadowy tendrils, deep violet mist swirling with charcoal gray smoke, pale silver embers fading into ghostly white, ethereal fog with moonlit tombstone silhouettes in background"
     },
     {
-      "name": "Sombra Ardiente",
-      "desc": "Ataca con un fantasma de llama que quema al enemigo."
+      "name": "Fantasma de Fuego",
+      "desc": "Crea una ilusión de fuego que confunde al oponente y reduce su precisión.",
+      "name_en": "Fire Phantom",
+      "visual_prompt": "ghostly violet fire orbs floating in mist, flickering pale silver embers, shadow violet smoke trails, ethereal fog swirling, charcoal gray mist clinging to moonlit tombstone outlines, ghostly white sparkles"
     },
     {
-      "name": "Eco de la Noche",
-      "desc": "Aumenta la velocidad de todos los aliados en combate."
+      "name": "Respiración de Espectro",
+      "desc": "Emite un aliento frío que causa daño y reduce la velocidad del enemigo.",
+      "name_en": "Spectral Breath",
+      "visual_prompt": "frozen mist swirling around moonlit tombstones, pale silver ghostly orbs floating in shadow violet fog, icy breath trails with charcoal gray particles, deep violet energy pulses, ethereal fog drifting slowly"
     },
     {
-      "name": "Espectro de Llama",
-      "desc": "Crea un espejismo para confundir al enemigo."
+      "name": "Fuego Infrarrojo",
+      "desc": "Ataca con llamas invisibles que golpean en puntos débiles del oponente.",
+      "name_en": "Infrared Blaze",
+      "visual_prompt": "invisible crimson flames, pinpoint heat waves, ghostly violet mist, shadowy tombstone outlines, pale silver embers, charcoal gray smoke trails, ethereal moonlight glow"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiralada con punta de llama",
-      "to": "cola espiralada con punta de bruma azul"
+      "from": "pelaje rojo brillante",
+      "to": "pelaje translúcido y azulado"
     },
     {
-      "from": "llamas que calientan",
-      "to": "bruma que ilumina sombras"
+      "from": "patas tocan el suelo",
+      "to": "patas flotan ligeramente sobre el suelo"
     },
     {
-      "from": "ojos cálidos",
-      "to": "ojos brillantes con luz mortecina"
+      "from": "ojos dorados",
+      "to": "ojos brillantes en grisáceo"
     },
     {
-      "from": "fuerza física",
-      "to": "poder espectral sin peso"
+      "from": "fuego ardiente",
+      "to": "fuego que se disuelve en sombras"
     }
   ],
   "pokemon_id": "058",

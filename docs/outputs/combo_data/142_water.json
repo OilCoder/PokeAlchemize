@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Agua de Rocas",
-  "lore": "El Aerodactyl Acuático surca el cielo con alas de cristal que gotean sal. Su cabeza redondeada ahora brilla con escamas azules, y sus orejas puntiagudas absorben el agua del mar para crear olas de energía.",
+  "species_name": "Pokémon Océano Roquero",
+  "lore": "Aerodactyl, ahora bañado en las profundidades marinas, tiene escamas brillantes como cristales de agua. Sus patas se han adaptado para caminar sobre rocas resbaladizas, mientras su ala se transforma en una aleta hidrodinámica.",
   "moves": [
     {
       "name": "Ola de Cristal",
-      "desc": "Genera una ola de agua cristalina que reduce la defensa del rival en un 20%."
+      "desc": "Crea una ola que corta con cristales afilados, dañando a los enemigos con precisión.",
+      "name_en": "Crystal Wave",
+      "visual_prompt": "shimmering crystal shards, sharp geometric wave pattern, deep ocean blue water, glowing teal green bioluminescent plankton, pearly white light reflections, aquamarine ripple effects"
     },
     {
-      "name": "Cascada Aérea",
-      "desc": "Lanza una cascada desde el cielo que causa daño y cura un 10% de salud."
+      "name": "Burbuja de Profundidad",
+      "desc": "Lanza burbujas que atrapan al enemigo, reduciendo su velocidad.",
+      "name_en": "Depth Bubble",
+      "visual_prompt": "glowing deep ocean blue bubbles, swirling teal green currents, pearly white trapped energy, aquamarine ripple effects, sapphire blue trench background, bioluminescent plankton sparks"
     },
     {
-      "name": "Burbuja de Fuego",
-      "desc": "Crea burbujas que absorben el calor y causan daño por quemadura."
+      "name": "Respiración de Mar",
+      "desc": "Emite un chorro de agua que cura a aliados y debilita a los enemigos.",
+      "name_en": "Ocean Breath",
+      "visual_prompt": "bioluminescent water droplets, swirling teal currents, pearly white bubbles rising, aquamarine energy ripples, deep blue water vortex, glowing plankton particles, calm underwater motion"
     },
     {
-      "name": "Torbellino Marítimo",
-      "desc": "Crea un torbellino que confunde al rival y reduce su velocidad."
+      "name": "Cascada Roquera",
+      "desc": "Ataca con una cascada que rompe rocas y causa daño físico.",
+      "name_en": "Rock Cascade",
+      "visual_prompt": "shattering waterfalls of deep ocean blue, jagged rock fragments suspended mid-air, glowing bioluminescent plankton trails, teal green mist, pearly white foam cascading in slow motion, aquamarine energy ripples"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza redondeada con escamas azules brillantes"
+      "from": "patas cuadrúpedas",
+      "to": "patas adaptadas para caminar en rocas resbaladizas"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas puntiagudas que absorben agua del mar"
+      "from": "alas de vuelo",
+      "to": "ala transformada en aleta hidrodinámica"
     },
     {
-      "from": "alas de piedra",
-      "to": "alas de cristal que gotean sal"
+      "from": "escamas duras",
+      "to": "escamas brillantes como cristales de agua"
     },
     {
-      "from": "vuelo rápido",
-      "to": "vuelo con olas de energía"
+      "from": "postura baja",
+      "to": "postura más estable en entornos acuáticos"
     }
   ],
   "pokemon_id": "142",

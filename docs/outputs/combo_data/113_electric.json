@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Carga Eléctrica",
-  "lore": "Chansey, ahora con orejas puntiagudas cargadas de energía, brilla con un aura eléctrica que acaricia el aire. Su cuerpo emite destellos azules al moverse, irradiando calma y poder.",
+  "species_name": "Pokémon Chispa Cariñosa",
+  "lore": "Chansey, ahora transformada en Chispa Cariñosa, emite destellos eléctricos al caminar. Su piel brillante y su postura baja están cargadas de energía, mientras que sus patas generan chispas al tocar el suelo.",
   "moves": [
     {
-      "name": "Chispa Curativa",
-      "desc": "Genera una chispa que cura a aliados y fortalece su resistencia."
+      "name": "Chispa de Amor",
+      "desc": "Genera una pequeña descarga que cura al aliado y le da energía eléctrica.",
+      "name_en": "Love Spark",
+      "visual_prompt": "electric blue orbs, neon yellow sparks, violet lightning bolts, bright white energy trails, crackling energy fields, stormy sky backdrop"
     },
     {
-      "name": "Descarga Serena",
-      "desc": "Lanza una descarga suave que mejora la velocidad y precisión."
+      "name": "Electroabrazo",
+      "desc": "Ataca con un abrazo cargado de electricidad, causando daño y confusión.",
+      "name_en": "Electric Hug",
+      "visual_prompt": "crackling electric blue energy tendrils, neon yellow sparks, violet electric sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field"
     },
     {
-      "name": "Campo Estático",
-      "desc": "Crea un campo eléctrico que debilita a los enemigos cercanos."
+      "name": "Relámpago Cariñoso",
+      "desc": "Lanza un rayo que paraliza al rival y aumenta la velocidad del aliado.",
+      "name_en": "Sweet Zap",
+      "visual_prompt": "electric blue lightning bolt, neon yellow energy trails, violet spark particles, bright white crackling aura, electric cyan storm clouds"
     },
     {
-      "name": "Relámpago de Amor",
-      "desc": "Un rayo brillante que ataca con fuerza y cura heridas."
+      "name": "Carga de Cariño",
+      "desc": "Recarga energía para aumentar el ataque y la defensa en el siguiente turno.",
+      "name_en": "Love Charge",
+      "visual_prompt": "glowing electric blue orbs swirling in a vortex, neon yellow lightning bolts, violet spark particles, bright white energy trails, crackling stormy sky background with neon-lit thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas puntiagudas cargadas de energía eléctrica que brillan azules"
+      "from": "Piel suave y blanca",
+      "to": "Piel brillante con destellos eléctricos"
     },
     {
-      "from": "piel suave y blanca",
-      "to": "piel que emite destellos eléctricos al moverse"
+      "from": "Patas pequeñas y delicadas",
+      "to": "Patas generando chispas al tocar el suelo"
     },
     {
-      "from": "movimientos lentos y calmados",
-      "to": "movimientos ágiles con destellos eléctricos en cada paso"
+      "from": "Postura tranquila",
+      "to": "Postura baja cargada de energía eléctrica"
     },
     {
-      "from": "aura tranquila",
-      "to": "aura eléctrica que calma y energiza a los aliados"
+      "from": "Movimientos lentos",
+      "to": "Movimientos ágiles y con destellos eléctricos"
     }
   ],
   "pokemon_id": "113",

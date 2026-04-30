@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Ola de Puños",
-  "lore": "Su cabeza redonda ahora brilla con un ligero brillo acuático, sus pequeñas orejas puntiagudas se han convertido en aletas flexibles. Los golpes que lanza generan olas de agua que envuelven al oponente.",
+  "species_name": "Pokémon Ola de Pies",
+  "lore": "El Pokémon Ola de Pies se desplaza con patadas fluidas que generan olas de agua. Sus patas, ahora cubiertas de escamas azules, golpean el suelo creando surcos de espuma. Su postura baja se transforma en un equilibrio danzante.",
   "moves": [
     {
-      "name": "Ola de Golpe",
-      "desc": "Lanza una ola de agua que golpea al rival, causando daño y reduciendo su velocidad."
+      "name": "Ola de Patada",
+      "desc": "Genera una ola de agua que golpea al rival con fuerza, elevando el suelo en su trayectoria.",
+      "name_en": "Kick Wave",
+      "visual_prompt": "rippling water surface, deep ocean blue waves, teal green foam, pearly white spray, aquamarine ripples, sapphire blue energy trails, glowing bioluminescent plankton, calm underwater current swirls"
     },
     {
-      "name": "Aleta de Fuerza",
-      "desc": "Usa sus aletas para aumentar su fuerza, elevando el daño de sus ataques físicos."
+      "name": "Surf de Cuerpo",
+      "desc": "Se lanza hacia adelante rodando, creando una ola que envuelve al oponente en un remolino.",
+      "name_en": "Body Surge",
+      "visual_prompt": "rolling water vortex, deep ocean blue waves, teal green bioluminescent plankton, pearly white foam, aquamarine current swirls, sapphire blue energy"
     },
     {
-      "name": "Chorro de Impacto",
-      "desc": "Dispara un chorro de agua a alta presión que aturde al oponente."
+      "name": "Chorro de Zancada",
+      "desc": "Dispara chorros de agua desde sus pies, empujando al rival hacia atrás con una ráfaga de presión.",
+      "name_en": "Jet Kick",
+      "visual_prompt": "shimmering water jets, swirling vortex, deep ocean blue foam, bioluminescent plankton sparks, aquamarine ripples, pearly white mist, calm underwater current swirls"
     },
     {
-      "name": "Torrente de Puños",
-      "desc": "Realiza una serie de golpes rápidos con el cuerpo sumergido, aumentando su velocidad."
+      "name": "Piscina de Golpe",
+      "desc": "Crea un pequeño lago en el campo que reduce la velocidad del enemigo mientras se prepara para atacar.",
+      "name_en": "Splash Lake",
+      "visual_prompt": "calm water surface with ripples, glowing bioluminescent plankton, deep ocean blue and teal green color palette, slow-moving currents, pearly white mist, aquamarine light reflections"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "cabeza redonda brillante con brillo acuático"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas cubiertas de escamas azules que generan olas al golpear"
     },
     {
-      "from": "pequeñas orejas puntiagudas",
-      "to": "pequeñas orejas convertidas en aletas flexibles"
+      "from": "postura baja y firme",
+      "to": "equilibrio danzante que aprovecha el agua para moverse"
     },
     {
-      "from": "golpes físicos",
-      "to": "golpes que generan olas de agua"
+      "from": "ataques con patadas directas",
+      "to": "patadas que generan olas y chorros de agua"
     },
     {
-      "from": "movilidad en tierra",
-      "to": "movilidad mejorada en agua, nadando con agilidad"
+      "from": "movimiento lento y pesado",
+      "to": "movimiento rápido y fluido gracias al agua"
     }
   ],
   "pokemon_id": "106",

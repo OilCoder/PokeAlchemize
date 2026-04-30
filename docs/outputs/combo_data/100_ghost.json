@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Relámpago",
-  "lore": "Fantasma Relámpago flota sin peso, su cabeza redonda ahora translúcida con destellos eléctricos. Sus orejas puntiagudas brillan con energía espectral, absorbiendo choques eléctricos para mantener su forma etérea.",
+  "species_name": "Pokémon Fantasma de Voltorb",
+  "lore": "Fantasma de Voltorb flota sin peso, sus patas cortas se han vuelto translúcidas. Su cuerpo brillante ahora emite un resplandor azul pálido, atrayendo almas perdidas en su aura espectral.",
   "moves": [
     {
-      "name": "Chispa Espectral",
-      "desc": "Lanza una descarga eléctrica que atraviesa objetos sólidos, afectando a los objetivos fantasmales."
+      "name": "Resplandor Espectral",
+      "desc": "Emite un brillo azul que confunde al enemigo y reduce su precisión.",
+      "name_en": "Spectral Glow",
+      "visual_prompt": "ethereal blue light beams, misty graveyard fog, moonlit tombstone silhouettes, floating ghostly orbs, shadow violet particles, pale silver shimmer, charcoal gray mist swirls"
     },
     {
-      "name": "Sombra Paralizante",
-      "desc": "Crea una sombra que paraliza al oponente, mezclando energía eléctrica y oscuridad."
+      "name": "Sombra Electrificada",
+      "desc": "Crea sombras que lanzan descargas eléctricas, dañando a múltiples objetivos.",
+      "name_en": "Electrified Shadow",
+      "visual_prompt": "glowing violet lightning bolts, jagged shadow tendrils, misty graveyard atmosphere, ethereal silver mist, floating moonlit tombstone fragments, crackling electric energy, deep violet and charcoal gray hues"
     },
     {
-      "name": "Electrofugaz",
-      "desc": "Desaparece en un destello eléctrico, evitando ataques y recuperando energía."
+      "name": "Atracción Fantasmal",
+      "desc": "Atrae al enemigo hacia su aura, reduciendo su movilidad.",
+      "name_en": "Phantom Attraction",
+      "visual_prompt": "floating ghostly hands, swirling violet mist, glowing pale silver aura, drifting shadowy tendrils, moonlit tombstone silhouettes, ethereal fog, deep violet and charcoal gray color palette"
     },
     {
-      "name": "Resonancia Fantasma",
-      "desc": "Genera ondas de energía que debilitan a los enemigos con movimientos eléctricos."
+      "name": "Energía Fantasmal",
+      "desc": "Recupera energía al absorber la electricidad del entorno.",
+      "name_en": "Phantom Energy",
+      "visual_prompt": "ghostly violet orbs floating in mist, shimmering silver particles drifting through shadowy fog, pale white energy trails weaving around moonlit tombstones, charcoal gray mist swirling with faint electric sparks, ethereal glow illuminating misty graveyard background"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondo",
-      "to": "Se vuelve translúcido y brilla con destellos eléctricos."
+      "from": "Patas cortas en contacto con el suelo",
+      "to": "Patas translúcidas que flotan sin contacto."
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Brillan con energía espectral, absorbiendo choques eléctricos."
+      "from": "Brillo eléctrico intenso",
+      "to": "Resplandor azul pálido que atrae almas."
     },
     {
-      "from": "Vida estable",
-      "to": "Vive en un estado etéreo, dependiendo de la energía eléctrica para mantenerse."
+      "from": "Bajo postura de descanso",
+      "to": "Flota en el aire con postura elevada."
     },
     {
-      "from": "Movimientos eléctricos",
-      "to": "Ahora pueden atravesar objetos sólidos y afectar a criaturas fantasmales."
+      "from": "Vibración constante",
+      "to": "Aura espectral que atrae energías fantasmales."
     }
   ],
   "pokemon_id": "100",

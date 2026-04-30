@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Esqueleto Lúgubre",
-  "lore": "Cubone, ahora envuelto en sombras eternas, camina con un hueso brillante que emana luz fantasmal. Su cola curvada resplandece con destellos plateados, marcando su conexión con lo espectral.",
+  "species_name": "Pokémon Hueso Fantasma",
+  "lore": "Cubone ahora camina sobre sombras, sus huesos brillan con un resplandor espectral. Sus patas se han vuelto translúcidas, y su cráneo emite un aura fría que atrae espíritus perdidos.",
   "moves": [
     {
-      "name": "Hueso Siniestro",
-      "desc": "Lanza un hueso que atraviesa la sombra del oponente, causando daño adicional por tipo fantasma."
+      "name": "Alma Errante",
+      "desc": "Atrae espíritus cercanos para atacar con fuerza sobrenatural.",
+      "name_en": "Wandering Soul",
+      "visual_prompt": "floating ghostly orbs, translucent violet wisps, drifting ash particles, pale silver mist, shadow violet aura, ethereal moonlight glow, gravestone-shaped mist swirls, charcoal gray undertones"
     },
     {
-      "name": "Alma Aterradora",
-      "desc": "Aumenta el ataque y evita que el rival use movimientos de recuperación."
+      "name": "Cruce Sombra",
+      "desc": "Crea un túnel oscuro que confunde al rival y permite un ataque rápido.",
+      "name_en": "Shadow Cross",
+      "visual_prompt": "dark violet tunnel, swirling mist, ghostly silver orbs, shadowy tendrils, moonlit tombstone outlines, ethereal fog, pale silver light beams, charcoal gray haze, shadow violet glow, distorted space effect"
     },
     {
-      "name": "Sombra Resonante",
-      "desc": "Crea una sombra que absorbe energía y la devuelve como daño en el siguiente turno."
+      "name": "Espectro de Hueso",
+      "desc": "Lanza huesos que atraviesan barreras y causan daño espectral.",
+      "name_en": "Bone Specter",
+      "visual_prompt": "floating shattered bones, translucent violet mist, glowing pale silver bone fragments, shadow violet energy trails, ethereal fog, ghostly white outlines, deep violet glow, fragmented tombstone shards"
     },
     {
-      "name": "Eco de la Tumba",
-      "desc": "Genera un eco que reduce la defensa del oponente y causa daño por tipo fantasma."
+      "name": "Susurro Mortal",
+      "desc": "Reduce la defensa del oponente con un grito de almas en pena.",
+      "name_en": "Soul Whisper",
+      "visual_prompt": "ethereal violet mist swirling around moonlit tombstones, ghostly silver whispers forming from shadowy orbs, pale silver particles floating in charcoal gray fog, haunting violet aura with subtle glowing veins"
     }
   ],
   "diffs": [
     {
-      "from": "cola curvada con punta blanca",
-      "to": "cola curvada con punta plateada que emite luz fantasmal"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas translúcidas que caminan sobre sombras"
     },
     {
-      "from": "piel marrón",
-      "to": "piel translúcida con destellos azulados"
+      "from": "cráneo de hueso con expresión triste",
+      "to": "cráneo brillante con aura espectral y expresión serena"
     },
     {
-      "from": "cabeza cubierta por hueso",
-      "to": "hueso brillante que emana energía espectral"
+      "from": "posición baja en el suelo",
+      "to": "postura flotante sobre una capa de niebla"
     },
     {
-      "from": "movimientos de tierra",
-      "to": "movimientos de tipo fantasma con efectos de absorción"
+      "from": "tipo suelo",
+      "to": "tipo fantasma, absorbiendo energías espirituales"
     }
   ],
   "pokemon_id": "104",

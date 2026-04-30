@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Arma Acero",
-  "lore": "Arma Acero brilla con un brillo metálico bajo el sol, sus ojos brillantes reflejan la energía acumulada. Sus orejas puntiagudas ahora son láminas afiladas, y su cuerpo redondeado se ha convertido en una estructura compacta y resistente.",
+  "species_name": "Pokémon Acero Relámpago",
+  "lore": "Este Voltorb de acero brilla con una corteza metálica que absorbe y libera energía eléctrica. Sus patas cortas están reforzadas con placas de acero, permitiendo un movimiento rápido y preciso.",
   "moves": [
     {
-      "name": "Impacto Acero",
-      "desc": "Ataca con un golpe sólido que reduce la defensa del oponente."
+      "name": "Chispazo de Acero",
+      "desc": "Genera una descarga eléctrica que se refleja en su armadura, dañando al rival con fuerza aumentada.",
+      "name_en": "Steel Shock",
+      "visual_prompt": "polished silver energy arcs, metallic steam vents with electric blue sparks, gunmetal gray reflective surface, neon cyan shockwaves, industrial city skyline silhouette, glowing neon signs in background"
     },
     {
-      "name": "Relámpago Estelar",
-      "desc": "Dispara rayos de energía que brillan con un destello metálico."
+      "name": "Impacto Cilíndrico",
+      "desc": "Ataca con un giro rápido, usando su cuerpo cilíndrico para golpear con fuerza metálica.",
+      "name_en": "Cylindrical Impact",
+      "visual_prompt": "spinning metallic cylinder, sharp angular edges, gunmetal gray and polished silver surface, electric blue energy trails, neon cyan sparks, industrial cityscape backdrop with glowing neon signs, metallic steam vents, dynamic motion blur"
     },
     {
-      "name": "Escudo de Hierro",
-      "desc": "Crea un escudo que bloquea ataques físicos y reduce daño."
+      "name": "Resonancia Magnética",
+      "desc": "Crea ondas magnéticas que confunden al oponente y aumentan la precisión de sus ataques.",
+      "name_en": "Magnetic Resonance",
+      "visual_prompt": "glowing gunmetal gray magnetic waves, polished silver spirals, metallic steel blue energy pulses, electric blue neon streaks, neon cyan harmonic ripples, industrial city skyline backdrop"
     },
     {
-      "name": "Chispazo Cinturón",
-      "desc": "Lanza chispas que forman un cinturón alrededor del oponente."
+      "name": "Escudo de Relámpago",
+      "desc": "Crea un escudo protector que refleja ataques eléctricos y absorbe energía para recuperar PS.",
+      "name_en": "Lightning Shield",
+      "visual_prompt": "polished silver shield with electric blue energy waves, neon cyan lightning bolts reflecting off metallic surface, gunmetal gray steam vents, industrial cityscape glow, metallic steel blue aura"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo redondeado",
-      "to": "estructura compacta y resistente"
+      "from": "Cuerpo esférico de goma",
+      "to": "Cuerpo cilíndrico con placas de acero reforzadas"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "láminas afiladas de acero"
+      "from": "Patas cortas sin refuerzo",
+      "to": "Patas cortas con placas metálicas para mayor estabilidad"
     },
     {
-      "from": "energía eléctrica",
-      "to": "energía acumulada en su núcleo metálico"
+      "from": "Almacenamiento de energía eléctrica",
+      "to": "Almacenamiento de energía magnética en su núcleo acero"
     },
     {
-      "from": "movimientos ligeros",
-      "to": "ataques sólidos y precisos"
+      "from": "Bajo perfil de movimiento",
+      "to": "Movimiento rápido y preciso gracias a la estructura metálica"
     }
   ],
   "pokemon_id": "100",

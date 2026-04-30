@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Voladora",
-  "lore": "Chispa Voladora emana una energía eléctrica que hace brillar su cola en espiral. Sus escamas rojas ahora brillan con destellos azules, y su ala izquierda genera relámpagos al volar.",
+  "species_name": "Pokémon Chispa Llama",
+  "lore": "Chispa Llama, con escamas brillantes de electricidad, camina erguido sobre patas traseras, sus alas se transforman en cables conductores que emiten chispas. Su fuego se mezcla con relámpagos.",
   "moves": [
     {
       "name": "Relámpago de Fuego",
-      "desc": "Ataca con un rayo eléctrico que también quema al oponente, combinando fuego y electricidad."
+      "desc": "Lanza una descarga eléctrica mezclada con llamas que quema y paraliza al oponente.",
+      "name_en": "Fire Lightning",
+      "visual_prompt": "crackling electric blue orbs, neon yellow flame trails, violet sparks, bright white energy streaks, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Ala Electrificada",
-      "desc": "Genera una ráfaga de energía eléctrica que eleva al usuario y ataca al rival con descargas."
+      "name": "Ala Conductora",
+      "desc": "Aumenta la velocidad y genera un campo eléctrico que debilita a los enemigos.",
+      "name_en": "Conductive Wing",
+      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning bolts, violet spark particles, bright white static discharge, electric cyan storm clouds, dynamic energy field patterns"
     },
     {
-      "name": "Carga Espectral",
-      "desc": "Absorbe energía eléctrica del ambiente para aumentar su velocidad y atacar con fuerza."
+      "name": "Descarga de Escamas",
+      "desc": "Dispara escamas eléctricas que causan daño y reducen la defensa del rival.",
+      "name_en": "Scale Shock",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky backdrop with crackling energy fields"
     },
     {
-      "name": "Tormenta de Chispas",
-      "desc": "Lanza una tormenta de chispas que daña a todos los enemigos cercanos."
+      "name": "Fuego Relámpago",
+      "desc": "Combina fuego y electricidad en un ataque devastador que causa quema y parálisis.",
+      "name_en": "Lightning Fire",
+      "visual_prompt": "crackling electric blue orbs, neon yellow fire trails, violet sparks, bright white energy bursts, stormy sky backdrop with crackling energy fields"
     }
   ],
   "diffs": [
     {
-      "from": "cola en espiral con llama",
-      "to": "cola en espiral con destellos eléctricos brillantes"
+      "from": "quadruped, four legs planted on ground",
+      "to": "camina erguido sobre patas traseras, alas como cables conductores"
     },
     {
-      "from": "escamas rojas",
-      "to": "escamas rojas con destellos azules"
+      "from": "low stance",
+      "to": "postura elevada y dinámica para generar energía"
     },
     {
-      "from": "alas de fuego",
-      "to": "alas que generan relámpagos al volar"
+      "from": "fire type",
+      "to": "fuego mezclado con electricidad, escamas brillantes"
     },
     {
-      "from": "fuerza explosiva",
-      "to": "fuerza eléctrica controlada y precisa"
+      "from": "flying type",
+      "to": "alas transformadas en cables eléctricos, volar con chispas"
     }
   ],
   "pokemon_id": "006",

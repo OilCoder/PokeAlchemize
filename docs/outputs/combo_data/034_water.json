@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Oceánico Veneno",
-  "lore": "Nidoking, ahora envuelto en olas de agua, posee una cola espiral con punta morada brillante que emite burbujas de veneno. Sus escamas terrosas se han convertido en un manto acuático que brilla bajo el agua.",
+  "species_name": "Pokémon Agua de Lodo",
+  "lore": "Nidoking, ahora envuelto en aguas profundas, tiene escamas de lodo brillantes que resplandecen bajo el agua. Sus patas se han adaptado para caminar sobre el fondo marino, con garras afiladas para cavar en el barro.",
   "moves": [
     {
-      "name": "Ola Venenosa",
-      "desc": "Lanza una ola que infecta al enemigo con veneno, causando daño por turnos."
+      "name": "Ola de Lodo",
+      "desc": "Lanza una ola de lodo que ralentiza al rival y causa daño contundente.",
+      "name_en": "Mud Wave",
+      "visual_prompt": "sludge-colored mud waves, slow-motion water ripples, glowing bioluminescent plankton, deep ocean blue background, aquamarine bubbles, pearly white mud particles, sapphire blue current swirls"
     },
     {
-      "name": "Burbuja Tóxica",
-      "desc": "Crea burbujas tóxicas que retrasan al rival y reducen su velocidad."
+      "name": "Agua Sucia",
+      "desc": "Cubre al rival con agua turbia, reduciendo su precisión y causando daño.",
+      "name_en": "Muddy Water",
+      "visual_prompt": "turbid water swirls, muddy teal and aquamarine ripples, bioluminescent plankton dots, slow-moving sapphire blue currents, pearly white bubbles, deep ocean trench background"
     },
     {
-      "name": "Marea Venenosa",
-      "desc": "Genera una marea que reduce la defensa del oponente y lo envenena."
+      "name": "Cavidad Submarina",
+      "desc": "Crea una trampa en el suelo bajo el rival, atrayéndolo hacia abajo.",
+      "name_en": "Submarine Pit",
+      "visual_prompt": "deep ocean trench, swirling water vortex, glowing bioluminescent plankton, pearly white bubbles, teal green currents, sapphire blue light rays, calm underwater motion"
     },
     {
-      "name": "Caudal Venenoso",
-      "desc": "Un torrente de agua tóxica que causa daño continuo y envenena al objetivo."
+      "name": "Burbuja Explosiva",
+      "desc": "Dispara burbujas llenas de gas que estallan al impactar.",
+      "name_en": "Explosive Bubble",
+      "visual_prompt": "explosive water bubbles, glowing teal gas, deep ocean blue splashes, bioluminescent plankton sparks, aquamarine ripples, pearly white foam bursts"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiral con punta morada",
-      "to": "cola espiral con punta morada brillante que emite burbujas de veneno"
+      "from": "patas plantadas en tierra",
+      "to": "garras adaptadas para caminar en el fondo marino"
     },
     {
-      "from": "escamas terrosas",
-      "to": "manto acuático que brilla bajo el agua"
+      "from": "piel resistente al veneno",
+      "to": "escamas de lodo brillantes que resplandecen bajo el agua"
     },
     {
-      "from": "tipo poison/ground",
-      "to": "tipo water con veneno acumulado en sus movimientos"
+      "from": "postura baja y muscular",
+      "to": "postura más flexible para moverse en el agua"
     },
     {
-      "from": "movimientos terrestres",
-      "to": "movimientos acuáticos que combinan veneno y agua"
+      "from": "resistencia a tierra",
+      "to": "adaptación para sumergirse en aguas profundas"
     }
   ],
   "pokemon_id": "034",

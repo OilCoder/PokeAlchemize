@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Llama",
-  "lore": "Su cola en espiral ahora brilla con escamas metálicas, irradiando calor de acero fundido. Sus alas, antes de llamas, son láminas cortantes que cortan el aire con precisión.",
+  "lore": "Con escamas de acero que brillan bajo el sol, su postura baja y poderosa emana fuerza. Las llamas de su lomo se transforman en chispas metálicas que resuenan al moverse, creando un aura de invencibilidad.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con garras afiladas de acero, generando un corte limpio en el aire."
+      "name": "Chispa de Acero",
+      "desc": "Genera chispas metálicas que dañan y reducen la defensa del oponente.",
+      "name_en": "Steel Spark",
+      "visual_prompt": "metallic sparks, gunmetal gray, polished silver, electric blue trails, neon cyan arcs, industrial cityscape backdrop, glowing neon signs, metallic steam vents, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Llama Fusión",
-      "desc": "Combina el calor del fuego con la dureza del acero para formar una explosión de energía."
+      "name": "Impacto Estelar",
+      "desc": "Ataca con un golpe que se eleva en el aire, impactando con fuerza metálica.",
+      "name_en": "Stellar Impact",
+      "visual_prompt": "metallic starburst, polished silver shards, electric blue energy trails, gunmetal gray sparks, neon cyan glowing particles, industrial city skyline silhouette"
     },
     {
-      "name": "Escudo Luminoso",
-      "desc": "Crea un escudo brillante de acero que refleja ataques y absorbe energía."
+      "name": "Escudo Llama",
+      "desc": "Crea un escudo de acero que absorbe el daño y refleja ataques físicos.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished silver shield with glowing electric blue edges, metallic steam vents rising from shield base, gunmetal gray energy waves reflecting physical attacks, neon cyan light trails, industrial city skyline silhouette in background"
     },
     {
-      "name": "Impacto Acero",
-      "desc": "Ataca con un golpe poderoso que desplaza el aire como un martillo de acero."
+      "name": "Fuerza de Llama",
+      "desc": "Aumenta el poder de los ataques físicos con cada golpe, acumulando fuerza metálica.",
+      "name_en": "Metal Surge",
+      "visual_prompt": "glowing gunmetal gray energy waves, polished silver sparks, metallic steel blue orbs, electric blue trails, neon cyan steam vents, industrial city skyline silhouette, geometric metal shards floating"
     }
   ],
   "diffs": [
     {
-      "from": "cola en espiral con llama",
-      "to": "cola en espiral con escamas metálicas brillantes"
+      "from": "quadruped, four legs planted on ground, low stance",
+      "to": "patas reforzadas con escamas metálicas que absorben impactos, postura baja y estable."
     },
     {
-      "from": "alas de fuego",
-      "to": "alas de láminas de acero cortante"
+      "from": "fire",
+      "to": "llamas transformadas en chispas metálicas que resuenan al moverse."
     },
     {
-      "from": "piel sensible al calor",
-      "to": "piel recubierta de escamas de acero resistente"
+      "from": "flying",
+      "to": "alas de acero que permiten cortar el aire con precisión, no volar."
     },
     {
-      "from": "movimientos de fuego",
-      "to": "movimientos que combinan fuego y acero"
+      "from": "four legs",
+      "to": "patas reforzadas con escamas metálicas que absorben impactos, postura baja y estable."
     }
   ],
   "pokemon_id": "006",

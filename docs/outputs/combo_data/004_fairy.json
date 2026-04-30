@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama de Ensueño",
-  "lore": "Su cola llameante se ha transformado en una luz etérea, brillando con destellos de polvo de hada. Sus ojos brillan con una calma serena, y su piel ahora emite un suave brillo dorado. El fuego se ha convertido en un aura de magia pura.",
+  "species_name": "Pokémon Flor de Fuego",
+  "lore": "Flor de Fuego arde con llamas etéreas que brillan en tonos rosados. Sus patas se transforman en delicadas hojas floridas, y su cola emana pétalos brillantes que flotan en el aire.",
   "moves": [
     {
-      "name": "Burbuja de Sueños",
-      "desc": "Lanza burbujas que atrapan al rival en un sueño tranquilo, reduciendo su velocidad."
+      "name": "Pétalo Ígneo",
+      "desc": "Lanza pétalos que arden con una llama suave, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Flame Petal",
+      "visual_prompt": "glowing pink petals with soft orange flames, floating in moonlit mist, delicate crystalline mint accents, pearl lavender glow, starlight blue sparkles, no characters, no Pokémon"
     },
     {
-      "name": "Canto de Hada",
-      "desc": "Canta una melodía que eleva el espíritu y restaura la salud del aliado."
+      "name": "Danza de Estrellas",
+      "desc": "Crea una danza de destellos brillantes que confunde al oponente y aumenta la precisión del usuario.",
+      "name_en": "Starlight Waltz",
+      "visual_prompt": "glowing starlight blue orbs swirling in a delicate dance, soft pastel pink petals floating in midair, ivory white mist with crystalline mint accents, pearl lavender sparkles, intricate star patterns forming and dissolving, gentle motion blur"
     },
     {
-      "name": "Polvo de Estrellas",
-      "desc": "Dispara un polvo brillante que aumenta el ataque y la defensa del usuario."
+      "name": "Canto de la Luna",
+      "desc": "Emite un canto melódico que restaura la salud y reduce el daño recibido temporalmente.",
+      "name_en": "Lunar Chant",
+      "visual_prompt": "glowing moonlit petals, soft pastel pink and pearl lavender light trails, crystalline mint starlight orbs, floating ivory white musical notes, delicate misty twilight background, subtle shimmering aura"
     },
     {
-      "name": "Resplandor de Luna",
-      "desc": "Emite un brillo suave que cura heridas y elimina debilidades."
+      "name": "Belleza Ardiente",
+      "desc": "Aumenta el ataque y la defensa del usuario mientras emite un brillo dorado.",
+      "name_en": "Fiery Beauty",
+      "visual_prompt": "dancing golden sparks, shimmering pink petals floating in air, soft ivory light rays, pearl lavender mist swirls, crystalline mint starlight trails, glowing starlight blue aura"
     }
   ],
   "diffs": [
     {
-      "from": "llama en la cola",
-      "to": "luz etérea brillante con destellos de polvo de hada"
+      "from": "Llamas rojas en la cola",
+      "to": "Llamas rosadas que emiten pétalos brillantes"
     },
     {
-      "from": "piel roja y escamas",
-      "to": "piel dorada que brilla suavemente"
+      "from": "Piel escamosa roja",
+      "to": "Piel cubierta de pétalos florales brillantes"
     },
     {
-      "from": "fuego intenso",
-      "to": "aura de magia pura y serena"
+      "from": "Postura baja y terrenal",
+      "to": "Postura elevada con patas en forma de hojas floridas"
     },
     {
-      "from": "ataque básico de llamas",
-      "to": "ataque de polvo de hada que cura y fortalece"
+      "from": "Aliento de llama",
+      "to": "Aliento de pétalos que flotan y arden suavemente"
     }
   ],
   "pokemon_id": "004",

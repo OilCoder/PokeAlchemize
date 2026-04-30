@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Agua de Arena",
-  "lore": "Sandslash, ahora envuelto en olas cristalinas, tiene orejas puntiagudas con puntas redondeadas que brillan bajo el agua. Sus escamas se han vuelto escurridizas, absorbiendo el agua para crear un escudo protector.",
+  "lore": "Agua de Arena camina con gracia en el fondo marino, sus patas terminan en aletas suaves. Su piel áspera se suaviza con escamas brillantes que reflejan el agua. Su mirada tranquila esconde un corazón de tormenta.",
   "moves": [
     {
       "name": "Ola de Arena",
-      "desc": "Lanza una ola de arena que se convierte en agua, enlenteciendo al oponente."
+      "desc": "Genera una ola que arrastra al rival hacia el fondo marino, reduciendo su velocidad.",
+      "name_en": "Sand Wave",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water ripples, teal green tidal currents, pearly white sand particles, aquamarine wave distortion, sapphire blue light refraction"
     },
     {
-      "name": "Cascada de Escamas",
-      "desc": "Cubre al oponente con escamas que reflejan luz, causando confusión."
+      "name": "Chorro de Escamas",
+      "desc": "Dispara un chorro de escamas brillantes que daña y reduce la defensa del oponente.",
+      "name_en": "Scale Spray",
+      "visual_prompt": "shimmering water droplets, iridescent scale fragments, swirling teal currents, glowing bioluminescent plankton, deep ocean blue backdrop, aquamarine energy trails, pearly white sparkles, sapphire blue vortex"
     },
     {
-      "name": "Burbuja de Arena",
-      "desc": "Crea burbujas que atrapan al oponente, reduciendo su velocidad."
+      "name": "Ciclo de Mar",
+      "desc": "Crea un remolino que absorbe el agua del entorno y regenera la energía del usuario.",
+      "name_en": "Water Cycle",
+      "visual_prompt": "spiral vortex of deep ocean blue and teal green, swirling water droplets, glowing bioluminescent plankton particles, pearly white mist, aquamarine energy rings, sapphire blue currents"
     },
     {
-      "name": "Marea de Escamas",
-      "desc": "Genera una marea que eleva al oponente y lo golpea con escamas afiladas."
+      "name": "Burbuja de Calma",
+      "desc": "Genera una burbuja protectora que bloquea ataques especiales por un turno.",
+      "name_en": "Calm Bubble",
+      "visual_prompt": "glowing aquamarine bubble, shimmering teal ripples, deep ocean blue light, bioluminescent plankton sparks, pearly white aura, smooth water currents"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas redondeadas brillantes bajo el agua"
+      "from": "cuatro patas plantadas en tierra",
+      "to": "patas terminan en aletas suaves que deslizan en el agua"
     },
     {
-      "from": "escamas ásperas",
-      "to": "escamas escurridizas que absorben agua"
+      "from": "piel áspera",
+      "to": "se suaviza con escamas brillantes que reflejan el agua"
     },
     {
-      "from": "cuerpo terroso",
-      "to": "cuerpo envuelto en olas cristalinas"
+      "from": "postura baja",
+      "to": "postura elegante y fluida al caminar en el agua"
     },
     {
-      "from": "movimientos de tierra",
-      "to": "movimientos que combinan arena y agua"
+      "from": "color marrón terroso",
+      "to": "tonalidades azuladas y plateadas que brillan bajo el sol"
     }
   ],
   "pokemon_id": "028",

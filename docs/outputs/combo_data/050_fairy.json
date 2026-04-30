@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama de Ceniza",
-  "lore": "Este Diglett transformado en Fairy se convierte en un ser etéreo, con una cabeza redondeada brillante y orejas puntiagudas que emiten destellos de luz. Su piel suave y pálida refleja la magia de los sueños, y sus patas se han vuelto delicadas y translúcidas.",
+  "species_name": "Pokémon Llama Marfil",
+  "lore": "Este Diglett ahora se desplaza con gracia sobre el suelo, sus patas cortas brillan con un brillo dorado. Sus ojos resplandecen con magia, y su piel se ha vuelto suave como porcelana. El tipo hada le otorga una energía mágica que lo hace brillar en la oscuridad.",
   "moves": [
     {
-      "name": "Canto de Luna",
-      "desc": "Canta un himno celestial que cura heridas y reduce el daño de los ataques enemigos."
+      "name": "Brillo de Deseo",
+      "desc": "Genera un resplandor mágico que cura a aliados y aumenta su defensa temporal.",
+      "name_en": "Desire Glow",
+      "visual_prompt": "soft pastel pink light rays, floating crystalline mint orbs, glowing starlight blue particles, ivory white floral patterns, pearlescent lavender mist, ethereal moonlit garden backdrop"
+    },
+    {
+      "name": "Canto de Sueño",
+      "desc": "Crea una melodia que induce a los enemigos a dormir, permitiendo un ataque rápido.",
+      "name_en": "Dream Song",
+      "visual_prompt": "floating pastel pink musical notes, glowing ivory white petals, pearl lavender stardust swirls, crystalline mint light beams, soft misty twilight sky background, delicate starlight blue aura"
     },
     {
       "name": "Pétalos de Sueño",
-      "desc": "Lanza pétalos brillantes que confunden al oponente y reducen su velocidad."
+      "desc": "Lanza pétalos brillantes que confunden a los enemigos y reducen su precisión.",
+      "name_en": "Dream Petals",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, soft lavender mist, starlight blue crystalline dewdrops, floating ivory white orbs, gentle motion blur, ethereal glow"
     },
     {
-      "name": "Brisa de Estrellas",
-      "desc": "Genera una brisa suave que aumenta la precisión de los movimientos."
-    },
-    {
-      "name": "Magia de Ceniza",
-      "desc": "Cubre al oponente con una capa de ceniza mágica que reduce su defensa."
+      "name": "Danza de Estrellas",
+      "desc": "Danza en el aire, creando un aura que mejora el ataque y la velocidad de aliados.",
+      "name_en": "Star Dance",
+      "visual_prompt": "glowing pastel pink star clusters, floating ivory white petals, pearlescent lavender aura, starlight blue crystalline orbs, misty twilight sky backdrop, soft luminous trails, delicate sparkling particles"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo enterrado en el suelo",
-      "to": "cuerpo levitando suavemente sobre el suelo"
+      "from": "patas cortas y suelo",
+      "to": "patas brillantes con brillo dorado que dejan rastros mágicos"
     },
     {
-      "from": "orejas pequeñas y redondeadas",
-      "to": "orejas puntiagudas que brillan con destellos de luz"
+      "from": "cuerpo terroso",
+      "to": "piel suave como porcelana con brillo mágico"
     },
     {
-      "from": "piel dura y terrosa",
-      "to": "piel suave y pálida que refleja la magia"
+      "from": "bajo postura de arrastre",
+      "to": "postura elevada y elegante gracias a la magia hada"
     },
     {
-      "from": "ataques de tierra",
-      "to": "ataques de magia celestial y sueños"
+      "from": "ojos simples",
+      "to": "ojos resplandecientes con magia interna"
     }
   ],
   "pokemon_id": "050",

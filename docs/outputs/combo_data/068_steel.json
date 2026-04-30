@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Machamp",
-  "lore": "Acero Machamp, con su cabeza redondeada cubierta de escamas metálicas, emite un sonido resonante al moverse. Sus brazos, ahora forjados en acero, brillan con reflejos fríos y cortan el aire con precisión letal.",
+  "species_name": "Pokémon Acero de Fuerza",
+  "lore": "Machamp, ahora fusionado con el acero, camina con pasos resonantes. Sus músculos brillan como acero pulido, y sus brazos se han convertido en garras afiladas que cortan el aire. Su postura firme se intensifica con una resistencia inquebrantable.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta el aire con una hoja de acero que deja surcos en el suelo."
+      "name": "Golpe Acero",
+      "desc": "Ataca con un golpe directo que deja marcas en el acero. Muy efectivo contra tipos ligeros.",
+      "name_en": "Steel Strike",
+      "visual_prompt": "shimmering steel blades, sharp metallic shards, glowing neon cyan energy trails, industrial city skyline silhouette, polished silver sparks, electric blue light reflections, gunmetal gray mist, metallic steam vents with vapor trails, stylized 2D VFX, Ken Sugimori art style, wide banner composition"
     },
     {
-      "name": "Impacto Forjado",
-      "desc": "Golpea con un puño de acero que genera ondas expansivas en el suelo."
+      "name": "Corte de Acero",
+      "desc": "Corta el aire con garras afiladas, causando daño preciso y reduciendo la defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws slicing through air, jagged metallic shards, gunmetal gray sparks, polished silver trails, neon cyan energy lines, industrial city skyline backdrop"
     },
     {
-      "name": "Escudo Mecánico",
-      "desc": "Crea un escudo de acero que bloquea ataques físicos."
+      "name": "Resistencia Acero",
+      "desc": "Aumenta la defensa y la resistencia al daño físico, como un escudo de acero inamovible.",
+      "name_en": "Steel Defense",
+      "visual_prompt": "gunmetal gray shield, polished silver energy waves, metallic steel blue particles, electric blue glowing cracks, neon cyan energy pulses, industrial city skyline backdrop, metallic steam vents"
     },
     {
-      "name": "Carga Magnética",
-      "desc": "Atrae objetos metálicos para aumentar su fuerza."
+      "name": "Impacto de Acero",
+      "desc": "Golpea con un impacto fuerte que derriba al oponente y reduce su velocidad.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "metallic shards, glowing gunmetal gray trails, polished silver sparks, electric blue energy waves, neon cyan shockwaves, industrial city skyline silhouette, metallic steam vents"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redondeada",
-      "to": "Cubierta de escamas metálicas brillantes que reflejan la luz."
+      "from": "Cuatro brazos musculosos",
+      "to": "Brazos convertidos en garras de acero afiladas, capaces de cortar metal"
     },
     {
-      "from": "Puntos en las orejas",
-      "to": "Orejas afiladas y metálicas que emiten sonidos resonantes."
+      "from": "Postura baja y estable",
+      "to": "Postura aún más firme, con patas plantadas como pilares de acero"
     },
     {
-      "from": "Brazos musculosos",
-      "to": "Brazos forjados en acero con reflejos fríos y precisión letal."
+      "from": "Piel resistente",
+      "to": "Piel cubierta por una capa brillante de acero pulido"
     },
     {
-      "from": "Movimientos ágiles",
-      "to": "Movimientos más pesados y resonantes, como si fueran herramientas de forja."
+      "from": "Fuerza bruta",
+      "to": "Fuerza enfocada en precisión y durabilidad, como el acero"
     }
   ],
   "pokemon_id": "068",

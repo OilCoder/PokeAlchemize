@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Flor de Ceniza",
-  "lore": "Su cabeza redonda ahora brilla con un aura etérea, sus ojos cerrados emiten destellos de luz plateada. Las pétalos de su cuerpo absorben la magia del aire, transformando veneno en pura luz.",
+  "lore": "Flor de Ceniza se alza con pétalos brillantes que emanan brillo celestial. Sus patas, antes terrosas, ahora brillan con polvo de hada, elevándolo en un movimiento etéreo. Su aroma, antes venenoso, se ha suavizado en fragancia celestial.",
   "moves": [
     {
-      "name": "Canto de Luna",
-      "desc": "Crea un círculo de luz que cura a aliados y debilita enemigos por 2 turnos."
+      "name": "Pétalo de Sueño",
+      "desc": "Cubre al oponente con pétalos que inducen sueños suaves, reduciendo su velocidad.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "floating pastel pink petals, soft ivory white mist, pearl lavender glow, starlight blue crystalline dewdrops, gentle swirling motion, moonlit garden backdrop"
     },
     {
       "name": "Polvo de Estrellas",
-      "desc": "Lanza polvo que lanza un ataque de tipo Fairy y reduce la defensa del objetivo."
+      "desc": "Lanza un polvo brillante que cura debilidades y aumenta la precisión.",
+      "name_en": "Star Dust",
+      "visual_prompt": "glowing pastel pink star particles, soft ivory white sparkle trails, pearl lavender shimmering motes, starlight blue crystalline fragments, mint green glowing dust swirls, ethereal moonlit garden backdrop, misty twilight ambiance"
     },
     {
-      "name": "Pétalo Danzante",
-      "desc": "Ataca con pétalos giratorios que infligen daño y confunden al rival."
+      "name": "Danza de Lunares",
+      "desc": "Baila en círculos, creando lunares brillantes que confunden al rival.",
+      "name_en": "Spotlight Waltz",
+      "visual_prompt": "glowing pastel pink moonspots, swirling lavender starlight trails, crystalline mint mist, floating ivory-white orbs, soft twilight sky background"
     },
     {
-      "name": "Resplandor Mágico",
-      "desc": "Genera un campo de energía que aumenta el ataque y la velocidad de todos los aliados."
+      "name": "Aliento de Ceniza",
+      "desc": "Exhala una nube de cenizas que cura y protege a aliados.",
+      "name_en": "Ash Breath",
+      "visual_prompt": "soft pastel pink ash particles drifting upward, ivory white glowing embers, pearl lavender mist swirling, crystalline mint protective aura, starlight blue sparkles, moonlit garden backdrop with glowing flowers"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "cabeza redonda con aura etérea y destellos plateados"
+      "from": "Pétalos verdes y venenosos",
+      "to": "Pétalos brillantes con brillo celestial y aroma suave"
     },
     {
-      "from": "ojos cerrados",
-      "to": "ojos cerrados que emiten destellos de luz plateada"
+      "from": "Patas terrosas",
+      "to": "Patas brillantes con polvo de hada que le permiten moverse etéreamente"
     },
     {
-      "from": "veneno en sus pétalos",
-      "to": "pétalos que absorben magia y transforman veneno en luz"
+      "from": "Aroma venenoso",
+      "to": "Aroma suave de fragancia celestial"
     },
     {
-      "from": "cuerpo verde y púrpura",
-      "to": "cuerpo brillante con tonos plateados y dorados"
+      "from": "Postura baja en el suelo",
+      "to": "Postura elevada con un movimiento ligero y etéreo"
     }
   ],
   "pokemon_id": "043",

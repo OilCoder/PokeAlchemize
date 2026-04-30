@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sueño de Hada",
-  "lore": "Sueño de Hada brilla con una luz suave, su cola en espiral ahora despliega pétalos luminosos. Sus ojos reflejan magia, y su piel se cubre de destellos de polvo de hada que sanan heridas.",
+  "species_name": "Pokémon Sueño Fae",
+  "lore": "Sueño Fae, con patas de felpa y ojos brillantes, camina con gracia sobre nubes de polvo de hadas. Sus orejas se transforman en alas de cristal, absorbiendo magia de la luna para sanar heridas con cada paso.",
   "moves": [
     {
-      "name": "Pétalo de Sueño",
-      "desc": "Lanza pétalos que inducen un sueño tranquilo, reduciendo el daño recibido."
+      "name": "Cristal de Sueño",
+      "desc": "Crea un campo de cristales que reduce el daño físico y cura al usuario gradualmente.",
+      "name_en": "Crystal Dream",
+      "visual_prompt": "glowing crystalline shards floating in moonlight, soft pastel pink and pearl lavender hues, delicate starlight blue mist, ivy vines with dewdrops, gradual healing aura with shimmering mint particles"
     },
     {
-      "name": "Polvo de Estrellas",
-      "desc": "Dispersa polvo que cura alivio de debilidades y aumenta la precisión."
+      "name": "Polvo de Luna",
+      "desc": "Dispara partículas luminosas que confunden al oponente y reducen su velocidad.",
+      "name_en": "Moon Dust",
+      "visual_prompt": "glowing pastel pink starlight particles, swirling lavender mist, crystalline mint orbs, soft ivory white light trails, floating pearl-like fragments, ethereal moonlit garden backdrop, delicate starlight shimmer"
     },
     {
-      "name": "Danza de Hada",
-      "desc": "Realiza una danza que mejora el ataque y evita ataques críticos."
+      "name": "Ala de Hada",
+      "desc": "Ataca con un golpe suave pero poderoso, usando alas de cristal para aumentar el poder de ataque.",
+      "name_en": "Crystal Wing",
+      "visual_prompt": "glowing crystal wings, soft pastel pink light, ivory white particles, pearl lavender mist, starlight blue shimmer, crystalline mint sparkles, floating floral petals, moonlit garden backdrop"
     },
     {
-      "name": "Canto de Esperanza",
-      "desc": "Emite un canto que restaura la energía y reduce el daño de ataques."
+      "name": "Sueño Mágico",
+      "desc": "Sumerge al oponente en un sueño profundo, causando daño y confusión.",
+      "name_en": "Magic Sleep",
+      "visual_prompt": "floating pastel pink petals, swirling lavender mist, glowing starlight blue orbs, crystalline mint dewdrops, soft ivory white light beams, ethereal moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cola en espiral",
-      "to": "despliega pétalos luminosos que brillan en la oscuridad"
+      "from": "Pies planos y chapoteantes",
+      "to": "Patas cubiertas de felpa que flotan sobre nubes de hadas"
     },
     {
-      "from": "piel acuosa",
-      "to": "cubierta de destellos de polvo de hada que sanan heridas"
+      "from": "Cabeza baja con dolor de cabeza",
+      "to": "Ojos brillantes y mirada soñadora que atrae magia lunar"
     },
     {
-      "from": "ojos perdidos",
-      "to": "reflejan magia y guían a otros con su brillo"
+      "from": "Orejas pequeñas y redondas",
+      "to": "Alas de cristal que brillan bajo la luna"
     },
     {
-      "from": "sensibilidad al estrés",
-      "to": "absorbe energía negativa para convertirla en energía positiva"
+      "from": "Piel azul con manchas blancas",
+      "to": "Piel translúcida con destellos de polvo de hadas"
     }
   ],
   "pokemon_id": "054",

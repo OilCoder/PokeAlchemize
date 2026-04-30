@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Dracónica",
-  "lore": "Con su cabeza redondeada y orejas puntiagudas ahora envueltas en llamas, Dratini se transforma en una serpiente de fuego. Sus escamas brillan con un resplandor dorado, y su respiración emite chispas que iluminan la oscuridad.",
+  "lore": "Este Dratini ahora respira llamas al caminar. Sus escamas rojas brillan con fuego, y sus patas se transforman en llamas danzantes. Su mirada ardiente desafía a cualquier rival.",
   "moves": [
     {
-      "name": "Llama Escarlata",
-      "desc": "Lanza una llamarada intensa que quema a los enemigos con fuego ardiente."
+      "name": "Llama Serpentina",
+      "desc": "Lanza una llamarada en forma de serpiente que quema al rival en su trayectoria.",
+      "name_en": "Serpent Flame",
+      "visual_prompt": "crimson red serpent-shaped fire trail, molten gold embers, amber orange glow, volcanic ash particles, charcoal black smoke swirls, dynamic motion lines, glowing ember sparks"
     },
     {
-      "name": "Respiración de Dragón",
-      "desc": "Emite un aliento de fuego que se enrosca como un dragón en llamas."
+      "name": "Aliento de Dragón Ardiente",
+      "desc": "Expulsa un aliento de fuego que quema y eleva el ataque del usuario.",
+      "name_en": "Blazing Dragon Breath",
+      "visual_prompt": "volcanic magma swirls, crimson fire orbs, molten gold embers, ascending fiery trail, charred black smoke tendrils, glowing ember sparks, amber-orange heat haze"
     },
     {
-      "name": "Escudo de Llama",
-      "desc": "Crea un escudo de llamas alrededor de sí mismo para absorber ataques."
+      "name": "Escamas Incandescentes",
+      "desc": "Cubre su cuerpo con escamas que emiten calor, reduciendo daño físico.",
+      "name_en": "Incandescent Scales",
+      "visual_prompt": "crimson red scales glowing with molten gold edges, amber orange heat waves rising, charcoal black smoke swirls, glowing ember sparks, volcanic crater background with magma pools"
     },
     {
-      "name": "Cascada de Fuego",
-      "desc": "Genera una cascada de llamas que derrite el suelo bajo los pies enemigos."
+      "name": "Furia Luminosa",
+      "desc": "Ataca con un giro rápido envuelto en llamas, causando daño crítico.",
+      "name_en": "Luminous Fury",
+      "visual_prompt": "crimson fire whirl, molten gold embers swirling, amber-orange flame trails, charcoal smoke swirls, glowing ember particles, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza envuelta en llamas que resplandece con un brillo dorado"
+      "from": "cuatro patas",
+      "to": "patas convertidas en llamas danzantes"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas que emiten pequeñas llamas al moverse"
+      "from": "postura baja de arrastre",
+      "to": "caminar con paso firme y elevado"
     },
     {
       "from": "escamas verdes",
-      "to": "escamas doradas que brillan con intensidad"
+      "to": "escamas rojas brillantes con destellos de fuego"
     },
     {
-      "from": "respiración tranquila",
-      "to": "respiración que emite chispas y calor intenso"
+      "from": "respiración normal",
+      "to": "respira llamas constantemente"
     }
   ],
   "pokemon_id": "147",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispazón Metálico",
-  "lore": "Chispazón Metálico brilla con chispas eléctricas en sus alas de acero. Sus orejas puntiagudas emiten destellos azules al volar, y su cuerpo refleja la energía de los relámpagos. Cada movimiento genera un aura de voltaje.",
+  "species_name": "Pokémon Chispas de Acero",
+  "lore": "Chispas de Acero se erige con patas de acero que brillan con energía eléctrica. Sus alas de metal emiten chispas al moverse, y sus ojos centellean con una luz azul eléctrica. Su postura baja y estable le permite generar choques poderosos.",
   "moves": [
     {
-      "name": "Cuchillo Relámpago",
-      "desc": "Corta con hojas eléctricas que generan cortocircuitos en el oponente."
+      "name": "Cortazón Electrónico",
+      "desc": "Ataca con garras cargadas de electricidad que paralizan al oponente.",
+      "name_en": "Electronic Claw",
+      "visual_prompt": "glowing electric blue claws, neon yellow sparks, violet electric arcs, bright white energy trails, crackling energy fields, stormy sky backdrop"
     },
     {
-      "name": "Ala de Centella",
-      "desc": "Ataca con un destello de luz que ciega y paraliza temporalmente."
+      "name": "Impacto de Acero",
+      "desc": "Aumenta el ataque al golpear el suelo con patas metálicas.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "crackling electric blue energy waves, neon yellow metallic footprints on stormy ground, violet sparks, bright white energy pulses, electric cyan lightning bolts"
     },
     {
-      "name": "Escudo Estático",
-      "desc": "Crea una barrera de energía que absorbe ataques eléctricos."
+      "name": "Chispa Cercana",
+      "desc": "Dispara una ráfaga de chispas cortas que daña y confunde.",
+      "name_en": "Close Spark",
+      "visual_prompt": "crackling electric blue orbs, neon yellow zigzag bolts, violet sparks scattering, bright white energy trails, stormy sky backdrop with neon thunderclouds"
     },
     {
-      "name": "Relámpago de Acero",
-      "desc": "Lanza una descarga de alta tensión desde sus garras metálicas."
+      "name": "Red de Energía",
+      "desc": "Crea una red eléctrica que atrapa y debilita al rival.",
+      "name_en": "Energy Net",
+      "visual_prompt": "crackling electric blue net, neon yellow energy strands, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "Aletas de insecto",
-      "to": "Alas de acero recubiertas de chispas eléctricas"
+      "from": "patas delgadas y ligeras",
+      "to": "patas de acero sólidas y pesadas"
     },
     {
-      "from": "Cuerpo ligero",
-      "to": "Cuerpo pesado pero resistente a descargas eléctricas"
+      "from": "alas de insecto transparentes",
+      "to": "alas de metal que brillan con chispas"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas que emiten destellos azules al volar"
+      "from": "postura alta y ágil",
+      "to": "postura baja y estable para generar choques"
     },
     {
-      "from": "Color verde oscuro",
-      "to": "Color plateado con destellos azules eléctricos"
+      "from": "color verde y amarillo",
+      "to": "color plateado con destellos azules eléctricos"
     }
   ],
   "pokemon_id": "123",

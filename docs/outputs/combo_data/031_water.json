@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Oceánica de Nidoqueen",
-  "lore": "Nidoqueen, ahora envuelta en olas cristalinas, tiene una cabeza redondeada con orejas puntiagudas que brillan bajo el agua. Su piel se ha vuelto suave y esmeralda, absorbiendo la energía del océano.",
+  "species_name": "Pokémon Oceánica Esmeralda",
+  "lore": "Nidoqueen, ahora envuelta en olas cristalinas, tiene escamas que brillan bajo el agua. Sus patas se transforman en aletas para deslizarse con gracia en el océano, mientras su piel absorbe la energía marina.",
   "moves": [
     {
-      "name": "Ola de Seda",
-      "desc": "Crea una ola suave que envuelve al oponente, reduciendo su velocidad y drenando energía."
+      "name": "Ola de Esmeralda",
+      "desc": "Lanza una ola que refleja la luz del sol, cegando a los oponentes con destellos brillantes.",
+      "name_en": "Emerald Wave",
+      "visual_prompt": "shimmering water ripples, sunbeam refraction creating prismatic light streaks, glowing teal-green particles, pearly white sparkles, aquamarine wave crest, deep blue ocean background"
     },
     {
-      "name": "Cristal de Mar",
-      "desc": "Genera cristales de agua que flotan y atacan con precisión, causando daño por impacto."
+      "name": "Caudal Submarino",
+      "desc": "Crea un torbellino de agua que atrapa al enemigo y lo sumerge en profundidad.",
+      "name_en": "Submarine Tail",
+      "visual_prompt": "whirling vortex of deep ocean blue water, swirling teal green currents, pearly white bubbles rising, aquamarine bioluminescent plankton glowing softly, sapphire blue abyss background, calm underwater motion"
     },
     {
-      "name": "Respiración Marítima",
-      "desc": "Inhala agua para lanzar un chorro que cura y refuerza el cuerpo del Pokémon."
+      "name": "Corriente Marítima",
+      "desc": "Acelera su movimiento con una corriente que lo impulsa hacia adelante sin esfuerzo.",
+      "name_en": "Ocean Surge",
+      "visual_prompt": "glowing bioluminescent plankton trails, swirling deep ocean blue currents, pearly white foam rings, aquamarine energy ripples, sapphire blue vortex spirals"
     },
     {
-      "name": "Marea Profunda",
-      "desc": "Genera una marea que atrapa al oponente y lo sumerge en un torbellino de agua."
+      "name": "Resplandor Acuático",
+      "desc": "Emite un brillo suave que restaura la energía de aliados cercanos.",
+      "name_en": "Aquatic Glow",
+      "visual_prompt": "soft glowing orbs, shimmering teal water ripples, pearly white light particles, bioluminescent plankton trails, deep ocean blue background, gentle aquamarine currents"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redondeada",
-      "to": "Cabeza redondeada con reflejos acuáticos brillantes"
+      "from": "Patas plantadas en tierra",
+      "to": "Aletas flexibles para nadar en el agua"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas puntiagudas que emiten destellos de luz bajo el agua"
+      "from": "Piel áspera y dura",
+      "to": "Escamas suaves que brillan bajo el agua"
     },
     {
-      "from": "Piel áspera",
-      "to": "Piel suave y esmeralda, adaptada a la vida acuática"
+      "from": "Postura baja y estable",
+      "to": "Postura fluida y elegante en movimiento"
     },
     {
-      "from": "Movimientos terrestres",
-      "to": "Movimientos acuáticos que manipulan el agua y las olas"
+      "from": "Respiración en tierra",
+      "to": "Respiración a través de branquias en el agua"
     }
   ],
   "pokemon_id": "031",

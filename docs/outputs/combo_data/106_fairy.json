@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Pies de Ceniza",
-  "lore": "Su cabeza redonda ahora brilla con un aura de hada, sus orejas puntiagudas se transforman en alas transparentes. Cada patada libera destellos de cristal que curan heridas y rompen barreras mágicas.",
+  "lore": "Pies de Ceniza se mueve con gracia etérea, sus piernas ahora cubiertas de brillo dorado. Sus patadas desatan destellos de magia, dejando rastros de polvo de estrellas en el aire. Su postura baja se ha convertido en un baile fluido.",
   "moves": [
     {
-      "name": "Patada de Sueño",
-      "desc": "Lanza un golpe que envía al rival a un sueño eterno, lleno de dulces sueños de hadas."
+      "name": "Danza de Polvo de Estrellas",
+      "desc": "Lanza una nube de polvo brillante que reduce la precisión del rival.",
+      "name_en": "Star Dust Dance",
+      "visual_prompt": "glowing pastel pink star particles, swirling ivory white mist, pearl lavender sparkles, starlight blue crystalline orbs, delicate mint-colored dust trails, soft moonlit glow"
     },
     {
-      "name": "Zapato de Estrellas",
-      "desc": "Ataca con un zapato brillante que lanza estrellas que sanan y deslumbran al rival."
+      "name": "Patada de Ceniza Dorada",
+      "desc": "Ataca con patadas que dejan rastros de ceniza dorada, causando daño especial.",
+      "name_en": "Golden Ash Kick",
+      "visual_prompt": "glowing golden ash trails, delicate fairy dust particles, soft pastel pink and pearl lavender sparkles, crystalline mint light beams, moonlit garden mist, floating glowing flower petals, starlight blue energy swirls"
     },
     {
-      "name": "Danza de Ceniza",
-      "desc": "Crea un remolino de cenizas que cura y confunde al rival con su danza mágica."
+      "name": "Salto de Sueños",
+      "desc": "Salta hacia adelante, evitando ataques y atacando con fuerza mágica.",
+      "name_en": "Dream Leap",
+      "visual_prompt": "floating pastel pink petals, shimmering ivory white energy trails, pearl lavender starlight orbs, crystalline mint glowing fragments, soft misty twilight sky background, delicate magical sparkles"
     },
     {
-      "name": "Beso de Cristal",
-      "desc": "Un beso suave que rompe barreras mágicas y cura heridas con cristales brillantes."
+      "name": "Giro de Ceniza",
+      "desc": "Gira rápidamente, atacando múltiples veces con patadas mágicas.",
+      "name_en": "Ash Spin",
+      "visual_prompt": "floating pastel pink ash particles swirling in a vortex, delicate ivory white petals, pearl lavender sparkles, glowing starlight blue energy trails, crystalline mint shimmering light effects, soft misty moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redonda",
-      "to": "Brilla con aura de hada, emitiendo destellos mágicos"
+      "from": "cuatro piernas plantadas en el suelo",
+      "to": "piernas cubiertas de brillo dorado que brillan al moverse"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Se transforman en alas transparentes que brillan bajo la luz"
+      "from": "postura baja y firme",
+      "to": "postura convertida en un baile fluido y elegante"
     },
     {
-      "from": "Ataques de lucha",
-      "to": "Se convierten en patadas que liberan destellos de cristal curativos"
+      "from": "ataques físicos con fuerza bruta",
+      "to": "ataques con patadas que dejan rastros de ceniza dorada"
     },
     {
-      "from": "Movimientos físicos",
-      "to": "Incorpora elementos mágicos que rompen barreras y sanan"
+      "from": "movimientos de combate tradicionales",
+      "to": "movimientos mágicos que combinan fuerza y elegancia"
     }
   ],
   "pokemon_id": "106",

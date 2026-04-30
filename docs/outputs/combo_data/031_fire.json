@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Nidoqueen, ahora transformada en Fuego, arde con una corona de llamas en su cabeza redondeada. Sus orejas puntiagudas brillan como brasas, y su piel se cubre de escamas rojas que emiten calor intenso.",
+  "species_name": "Pokémon Llama Sombra",
+  "lore": "Nidoqueen, ahora envuelta en llamas oscuras, camina con pasos firmes sobre el suelo. Sus escamas de veneno se transforman en llamas rojas que brillan en la oscuridad, irradiando calor intenso.",
   "moves": [
     {
-      "name": "Llama Cremallera",
-      "desc": "Ataca con llamas que se enrollan en espiral, quemando al oponente con precisión."
+      "name": "Llama Espectral",
+      "desc": "Lanza llamas que se entrelazan con sombras, causando daño adicional a los oponentes débiles a fuego.",
+      "name_en": "Spectral Flame",
+      "visual_prompt": "interwoven crimson fire orbs, molten gold embers swirling in smoke, charcoal black shadow tendrils, glowing ember trails, volcanic crater backdrop with magma pools"
     },
     {
-      "name": "Escudo de Llama",
-      "desc": "Crea un escudo de llamas que refleja ataques físicos y reduce daño."
+      "name": "Fuego de la Tierra",
+      "desc": "Genera una erupción de lava desde el suelo, afectando a todos los enemigos cercanos.",
+      "name_en": "Earthfire Surge",
+      "visual_prompt": "molten lava geysers erupting from cracked volcanic ground, glowing ember sparks, crimson red and amber orange lava flows, smoke trails, molten gold splatters, charcoal black ash particles"
     },
     {
-      "name": "Explosión de Cenizas",
-      "desc": "Lanza una lluvia de cenizas incandescentes que daña a todos los enemigos."
+      "name": "Escudo de Ceniza",
+      "desc": "Cubre a Nidoqueen con una capa de ceniza ardiente, reduciendo el daño recibido temporalmente.",
+      "name_en": "Ash Shield",
+      "visual_prompt": "crimson red ash particles swirling in molten gold eddies, glowing ember sparks, volcanic crater backdrop with magma pools, charcoal black smoke tendrils, stylized Ken Sugimori fire VFX"
     },
     {
-      "name": "Ráfaga de Calor",
-      "desc": "Genera una ráfaga de calor que quema y debilita al oponente."
+      "name": "Aliento de la Oscuridad",
+      "desc": "Emite un aliento de llama negra que quema al oponente y reduce su velocidad.",
+      "name_en": "Dark Breath",
+      "visual_prompt": "crimson black flames, molten gold embers, swirling volcanic smoke, glowing ember trails, charcoal ash particles, intense heat haze, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "corona de llamas en la cabeza"
+      "from": "escamas de veneno",
+      "to": "escamas transformadas en llamas rojas brillantes"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas brillantes como brasas"
+      "from": "paso firme sobre el suelo",
+      "to": "paso marcado por llamas que dejan huellas de lava"
     },
     {
-      "from": "piel suave",
-      "to": "piel cubierta de escamas rojas"
+      "from": "posición baja",
+      "to": "postura elevada por el calor que emana de su cuerpo"
     },
     {
-      "from": "tipo veneno/tierra",
-      "to": "tipo fuego con emisión de calor intenso"
+      "from": "veneno tóxico",
+      "to": "fuego ardiente que quema a los enemigos"
     }
   ],
   "pokemon_id": "031",

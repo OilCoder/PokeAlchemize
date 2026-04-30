@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Aliento de Hada",
-  "lore": "Con su cabeza redondeada y orejas puntiagudas ahora brillando con destellos de luz de hada, Aliento de Hada despliega poderes de curación en el aire. Sus alas de roca se transforman en alas translúcidas, irradiando magia suave que acaricia a los que lo rodean.",
+  "lore": "Aerodactyl, ahora con alas de cristal brillante, libera destellos de luz que curan heridas. Su piel áspera se suaviza en un dorado brillante, mientras sus ojos brillan con magia efímera. Camina con elegancia, no con fuerza.",
   "moves": [
     {
-      "name": "Canto de Estrellas",
-      "desc": "Canta una melodía que cura a aliados y eleva su confianza en combate."
+      "name": "Canto de Luna",
+      "desc": "Crea un aura de calma que reduce el daño recibido por un turno.",
+      "name_en": "Lunar Lullaby",
+      "visual_prompt": "soft pastel pink moonlight, floating lavender petals, ivory white mist, glowing starlight blue aura, crystalline mint ripples, delicate star patterns, ethereal glow, gentle motion"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Genera un aura brillante que reduce el daño recibido y aumenta la precisión."
+      "name": "Ala de Estrellas",
+      "desc": "Lanza un destello de luz que ciega al oponente y aumenta la precisión.",
+      "name_en": "Starlight Flash",
+      "visual_prompt": "glowing starlight blue orbs, soft pastel pink light trails, ivory white sparkles, pearl lavender mist swirls, crystalline mint energy pulses, delicate star-shaped light beams, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Beso de Hada",
-      "desc": "Ataca con un beso mágico que confunde al rival y reduce su defensa."
+      "name": "Beso de Sueños",
+      "desc": "Cura el estado de sueño y confunde al oponente con un beso luminoso.",
+      "name_en": "Dream Kiss",
+      "visual_prompt": "glowing pastel pink and lavender petals swirling in a soft mist, luminous starlight blue orbs floating gently, crystalline mint light trails forming delicate heart shapes, ethereal pearl white glow with subtle moonlit garden backdrop"
     },
     {
-      "name": "Danza de Flores",
-      "desc": "Crea una danza de pétalos que cura y aumenta la velocidad de los aliados."
+      "name": "Resplandor de Hada",
+      "desc": "Aumenta la defensa y la velocidad del usuario con un brillo dorado.",
+      "name_en": "Fairy Glow",
+      "visual_prompt": "soft pastel pink light rays, glowing ivory white petals floating in air, pearl lavender mist swirls, crystalline mint starlight particles, golden shimmering aura, ethereal glow, moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza redondeada brillando con destellos de hada"
+      "from": "Alas de hueso",
+      "to": "Alas de cristal brillante que reflejan la luz"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas puntiagudas ahora cubiertas de brillo mágico"
+      "from": "Piel áspera",
+      "to": "Piel suave y dorada que brilla con magia"
     },
     {
-      "from": "alas de roca",
-      "to": "alas de roca transformadas en alas translúcidas"
+      "from": "Postura baja",
+      "to": "Postura elegante y grácil al caminar"
     },
     {
-      "from": "poder de volar",
-      "to": "poder de volar ahora irradiando magia suave"
+      "from": "Voz ronca",
+      "to": "Canto suave y armonioso que cura"
     }
   ],
   "pokemon_id": "142",

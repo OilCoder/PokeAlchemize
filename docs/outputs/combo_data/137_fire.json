@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Digital",
-  "lore": "Porygon, ahora transformado en Llama Digital, brilla con llamas azules que dan forma a sus bloques geométricos. Sus bordes afilados se funden en llamas que resplandecen, creando un aura de calor digital que calienta el aire a su alrededor.",
+  "lore": "Porygon Llama Digital brilla con llamas digitales en sus bordes, sus patas cortas ahora arden en fuego. Su cuerpo se funde en un patrón de código incandescente, irradiando calor mientras navega en redes de datos.",
   "moves": [
     {
-      "name": "Llama Cibernética",
-      "desc": "Genera llamas azules que atacan con precisión digital, quemando el sistema de los oponentes."
+      "name": "Llamarada Código",
+      "desc": "Emitir un rayo de código incendiario que quema la defensa del oponente.",
+      "name_en": "Fire Code Beam",
+      "visual_prompt": "crimson red laser beam, molten gold code fragments, amber orange embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, dynamic motion lines"
     },
     {
-      "name": "Fuego de Datos",
-      "desc": "Dispara un torrente de datos incandescentes que descomponen la defensa del rival."
-    },
-    {
-      "name": "Explosión Lógica",
-      "desc": "Crea una explosión de código en llamas que causa daño en área y confunde al enemigo."
+      "name": "Fuego Virtual",
+      "desc": "Genera una llamarada que consume datos y reduce la precisión del rival.",
+      "name_en": "Virtual Fire",
+      "visual_prompt": "crimson red flames with digital glitches, amber-orange data streams swirling in molten gold embers, charcoal black smoke trails, glowing ember particles, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
       "name": "Calor de Red",
-      "desc": "Genera un campo de calor que incrementa el ataque de aliados y reduce la velocidad del rival."
+      "desc": "Crea un campo de calor que incrementa el poder de los ataques de fuego.",
+      "name_en": "Heat Wave",
+      "visual_prompt": "crimson red heat waves, amber orange shimmering air, molten gold lava droplets, charcoal black smoke swirls, glowing ember particles, dynamic rising thermal currents, volcanic crater backdrop"
+    },
+    {
+      "name": "Overclock Llama",
+      "desc": "Aumenta el ataque temporalmente al coste de energía.",
+      "name_en": "Overclock Llama",
+      "visual_prompt": "crimson red energy swirls, molten gold embers, amber orange sparks, charcoal black smoke trails, glowing magma pools, dynamic fire vortex"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo geométrico bloqueado",
-      "to": "Bordes afilados cubiertos de llamas azules que brillan intensamente."
+      "from": "Patas cortas y cuadrúpedas",
+      "to": "Patas ardiendo con llamas digitales, emitiendo calor constante"
     },
     {
-      "from": "Sin color definido",
-      "to": "Cuerpo ahora con tonos azules y naranjas, iluminado por llamas digitales."
+      "from": "Cuerpo de código estable",
+      "to": "Cuerpo fundido en un patrón de código incandescente"
     },
     {
-      "from": "Movimientos de software",
-      "to": "Ataques basados en fuego digital que queman datos y sistemas."
+      "from": "Bajo postura de descanso",
+      "to": "Postura elevada para liberar calor acumulado"
     },
     {
-      "from": "Sin temperatura",
-      "to": "Emite calor intenso que calienta el aire a su alrededor."
+      "from": "Sin contacto con fuego",
+      "to": "Genera y controla llamas digitales en su estructura"
     }
   ],
   "pokemon_id": "137",

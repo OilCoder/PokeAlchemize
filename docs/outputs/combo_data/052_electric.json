@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Felina",
-  "lore": "Chispa Felina tiene orejas puntiagudas con puntas negras que brillan con energía eléctrica. Su pelaje plateado se eriza al generar descargas, y sus patas afiladas generan chispas al caminar. Su mirada intensa refleja una fuerza eléctrica concentrada.",
+  "species_name": "Pokémon Chispas Felinas",
+  "lore": "Con su pelaje brillante y chispas eléctricas en las patas, Chispas Felinas camina con elegancia eléctrica. Sus ojos centellean con energía, y sus garras emiten destellos azules al moverse.",
   "moves": [
     {
-      "name": "Chispa Ganchera",
-      "desc": "Genera una descarga eléctrica que se enreda en el oponente, causando daño y reduciendo su velocidad."
+      "name": "Chispa de Gato",
+      "desc": "Dispara chispas eléctricas desde las patas, causando daño y posiblemente paralizar al rival.",
+      "name_en": "Cat Spark",
+      "visual_prompt": "electric blue sparks, neon yellow arcs, violet lightning streaks, bright white energy bursts, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Rugido Estático",
-      "desc": "Emite un rugido que genera un campo estático, debilitando los movimientos eléctricos del rival."
+      "name": "Relámpago Felino",
+      "desc": "Acelera rápidamente para atacar con un ataque de relámpago, incrementando su velocidad.",
+      "name_en": "Feline Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow sparks, violet energy trails, bright white crackling arcs, stormy sky backdrop, neon-lit thunderclouds, dynamic motion lines, 2D stylized VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Pata Relampagueante",
-      "desc": "Ataca con patadas rápidas que dejan rastros de chispas, aumentando su precisión."
+      "name": "Bola Chispeante",
+      "desc": "Lanza una bola de energía eléctrica que explota al impactar, causando daño adicional.",
+      "name_en": "Spark Ball",
+      "visual_prompt": "electric blue energy sphere, neon yellow crackling sparks, violet lightning bolts, bright white explosion rings, electric cyan afterimage trails, stormy sky backdrop with crackling energy fields"
     },
     {
-      "name": "Energía Felina",
-      "desc": "Recupera energía eléctrica acumulada, restaurando un porcentaje de salud."
+      "name": "Piel Electrizada",
+      "desc": "Aumenta la defensa al rodearse de un campo eléctrico protector.",
+      "name_en": "Electric Skin",
+      "visual_prompt": "electric blue energy field, neon yellow sparks, violet lightning arcs, bright white corona discharge, stylized 2D VFX, Ken Sugimori style, stormy sky backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas brillantes con descargas eléctricas"
+      "from": "pelaje suave",
+      "to": "pelaje brillante con chispas eléctricas"
     },
     {
-      "from": "pelaje plateado",
-      "to": "pelaje que se eriza generando chispas"
+      "from": "patas sólidas",
+      "to": "patas emiten chispas azules al caminar"
     },
     {
-      "from": "patas afiladas",
-      "to": "patas que generan chispas al caminar"
+      "from": "ojos normales",
+      "to": "ojos centellean con energía eléctrica"
     },
     {
-      "from": "mirada tranquila",
-      "to": "mirada intensa con energía eléctrica concentrada"
+      "from": "garras normales",
+      "to": "garras emiten destellos azules al atacar"
     }
   ],
   "pokemon_id": "052",

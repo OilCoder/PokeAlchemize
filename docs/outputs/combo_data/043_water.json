@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Marisca Floral",
-  "lore": "Marisca Floral flota suavemente en el agua, sus pétalos de color azul pálido brillan bajo la luz solar. Sus ojos cerrados se abren para revelar cristales líquidos que reflejan el cielo marino. Su cuerpo, antes terroso, ahora se adapta a las corrientes marinas.",
+  "species_name": "Pokémon Lluvia Acuática",
+  "lore": "El Pokémon Lluvia Acuática emerge de la lluvia, sus pétalos se transforman en capas de agua que brillan bajo el sol. Sus patas, antes firmes en tierra, ahora deslizan sobre el agua con gracia, absorbiendo la humedad del ambiente.",
   "moves": [
     {
-      "name": "Ola de Pétalos",
-      "desc": "Lanza una ola de pétalos que flotan en el agua, causando daño y reduciendo la velocidad del oponente."
+      "name": "Ola de Raíces",
+      "desc": "Genera una ola de raíces que atrapa al oponente en una red acuática, reduciendo su velocidad.",
+      "name_en": "Root Wave",
+      "visual_prompt": "bioluminescent blue-green roots, swirling underwater currents, pearly white net-like tendrils, aquamarine light rays, deep ocean trench backdrop, glowing plankton particles"
     },
     {
-      "name": "Luz Acuática",
-      "desc": "Emite un brillo suave desde sus cristales líquidos, restaurando la energía de aliados cercanos."
+      "name": "Lluvia Radiante",
+      "desc": "Crea una lluvia que cura a aliados y debilita a enemigos con su humedad.",
+      "name_en": "Radiant Rain",
+      "visual_prompt": "glowing bioluminescent raindrops, deep ocean blue water droplets, teal green mist, pearly white shimmer, aquamarine ripple effects, sapphire blue light beams, calm underwater currents, translucent water droplets"
     },
     {
-      "name": "Nube de Espuma",
-      "desc": "Crea una nube espumosa que envenena al oponente y reduce su defensa."
+      "name": "Burbuja de Vida",
+      "desc": "Genera burbujas que absorben daño y restauran salud gradualmente.",
+      "name_en": "Life Bubble",
+      "visual_prompt": "glowing bioluminescent bubbles, deep ocean blue water currents, teal green ripples, pearly white light reflections, aquamarine energy trails, slow-motion bubble ascent, calm underwater environment, soft focus"
     },
     {
-      "name": "Burbuja de Sueños",
-      "desc": "Genera burbujas que atrapan al oponente, causando daño y confundiendo temporalmente."
+      "name": "Torrente Floral",
+      "desc": "Dispara un torrente de agua cargado de pétalos que causa daño y confunde al rival.",
+      "name_en": "Floral Torrent",
+      "visual_prompt": "glistening water droplets, swirling petal fragments, deep ocean blue currents, bioluminescent teal green glow, pearly white mist, aquamarine ripples, sapphire blue energy waves"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redondeada con ojos cerrados",
-      "to": "Cabeza redondeada con ojos cerrados que contienen cristales líquidos brillantes"
+      "from": "pétalos verdes",
+      "to": "pétalos translúcidos que brillan como gotas de agua"
     },
     {
-      "from": "Pétalos verdes",
-      "to": "Pétalos azul pálido que brillan bajo la luz solar"
+      "from": "patas sólidas",
+      "to": "patas flexibles que se adaptan a superficies acuáticas"
     },
     {
-      "from": "Sistema de raíces terrosas",
-      "to": "Sistema de raíces adaptadas para flotar en el agua"
+      "from": "suelo firme",
+      "to": "movimiento fluido sobre el agua, sin rastro en la superficie"
     },
     {
-      "from": "Aroma venenoso",
-      "to": "Aroma fresco de mar que cura y revitaliza"
+      "from": "olor a hierba",
+      "to": "fragancia de lluvia fresca y agua dulce"
     }
   ],
   "pokemon_id": "043",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Flor",
-  "lore": "Sombra Flor emana un aura etérea que hace que su flor central se vuelva translúcida. Sus pétalos brillan con un resplandor plateado, y su cuerpo se vuelve casi invisible en la oscuridad.",
+  "species_name": "Pokémon Sombra Vegetal",
+  "lore": "Venusaur de sombra camina con paso lento, sus hojas se agitan sin viento. Su cuerpo translúcido revela huesos esqueléticos bajo la piel verde pálida. El tipo fantasma le otorga un aura inquietante que envuelve su presencia.",
   "moves": [
     {
-      "name": "Sombra Flor",
-      "desc": "Lanza una flor que absorbe la luz, reduciendo la defensa del rival."
-    },
-    {
       "name": "Espectro de Hojas",
-      "desc": "Crea hojas etéreas que atraviesan a los enemigos sin tocarlos."
+      "desc": "Lanza hojas brillantes que atraviesan defensas y dejan cicatrices etéreas.",
+      "name_en": "Spectral Leaves",
+      "visual_prompt": "glowing violet leaves, ethereal silver scars, misty graveyard fog, moonlit tombstone shadows, floating ghostly white orbs, deep violet energy trails"
     },
     {
-      "name": "Resplandor de Sombra",
-      "desc": "Ilumina el campo con un brillo plateado que cura a aliados."
+      "name": "Aliento Fantasmal",
+      "desc": "Emite un viento frío que debilita al rival y reduce su velocidad.",
+      "name_en": "Phantom Breath",
+      "visual_prompt": "cold mist swirling around moonlit tombstones, ghostly violet orbs floating in shadowy fog, pale silver wisps fading into charcoal gray, ethereal glow with deep violet accents, misty graveyard atmosphere"
     },
     {
-      "name": "Flor Fantasma",
-      "desc": "Invoca una flor que aparece y desaparece para confundir al rival."
+      "name": "Raíces Sombrías",
+      "desc": "Atrae al enemigo hacia raíces invisibles que lo atrapan.",
+      "name_en": "Shadow Roots",
+      "visual_prompt": "invisble roots, deep violet mist, ghostly white tendrils, shadow violet aura, ethereal fog, moonlit tombstone silhouettes, charcoal gray tendrils, pale silver glints"
+    },
+    {
+      "name": "Cicatriz Espectral",
+      "desc": "Crea una herida que persiste incluso tras la derrota.",
+      "name_en": "Spectral Scar",
+      "visual_prompt": "pulsating violet wound, jagged ghostly silver tear, shadow violet mist, ethereal fog tendrils, deep charcoal gray aura, pale silver light refraction, moonlit tombstone silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "flor central",
-      "to": "se vuelve translúcida y brilla con resplandor plateado"
+      "from": "hojas verdes brillantes",
+      "to": "hojas translúcidas con destellos azulados"
     },
     {
-      "from": "color verde oscuro",
-      "to": "adquiere tonos plateados y pálidos en la piel"
+      "from": "piel verde suave",
+      "to": "piel pálida translúcida con huesos visibles"
     },
     {
-      "from": "movimientos de hierba",
-      "to": "se transforman en ataques espirituales que atraviesan la materia"
+      "from": "postura baja y estable",
+      "to": "postura flotante con ligera elevación del suelo"
     },
     {
-      "from": "vulnerabilidad a veneno",
-      "to": "desaparece, reemplazada por resistencia a ataques fantasmales"
+      "from": "aroma dulce de flor",
+      "to": "olor a tierra húmeda y hojas muertas"
     }
   ],
   "pokemon_id": "003",

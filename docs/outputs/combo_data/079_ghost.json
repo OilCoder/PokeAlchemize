@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Fantasma",
-  "lore": "Slowpoke flota en el aire con ojos redondos y negros, su cuerpo translúcido emana un brillo tenue. Sus movimientos son lentos pero cargados de misterio, atrayendo a quienes buscan respuestas en el más allá.",
+  "species_name": "Pokémon Llama Sombra",
+  "lore": "Este Slowpoke, ahora un espectro acuático, flota sin peso sobre el agua. Sus patas se han vuelto translúcidas y brillan con destellos azules, mientras sus ojos emiten un brillo tenue en la oscuridad.",
   "moves": [
     {
-      "name": "Sueño Ectópico",
-      "desc": "Inicia un sueño profundo en el oponente, debilitando su mente y causando confusión."
+      "name": "Sueño Fantasmal",
+      "desc": "Causa sueño al oponente con una onda de energía psíquica que lo envuelve en sombras.",
+      "name_en": "Phantom Sleep",
+      "visual_prompt": "glowing violet psychic waves, swirling shadowy mist, floating ghostly silver orbs, deep violet energy ripples, ethereal fog drifting through moonlit tombstones"
     },
     {
-      "name": "Vista del Más Allá",
-      "desc": "Muestra al oponente imágenes del futuro, causando miedo y desorientación."
+      "name": "Ola Espectral",
+      "desc": "Lanza una ola de agua que atraviesa a los enemigos, causando daño fantasma.",
+      "name_en": "Spectral Wave",
+      "visual_prompt": "ghostly violet water ripple, translucent shadow waves, misty graveyard fog, moonlit tombstone silhouettes, ethereal silver mist, deep violet energy trails, pale silver water droplets, shadow violet distortion"
     },
     {
-      "name": "Susurro de la Tumba",
-      "desc": "Ataca con un susurro escalofriante que reduce la defensa del oponente."
+      "name": "Mente Sombría",
+      "desc": "Aumenta el poder de los ataques psíquicos y reduce la defensa del rival.",
+      "name_en": "Shadow Mind",
+      "visual_prompt": "floating ghostly violet orbs, swirling charcoal gray mist, pale silver psychic energy trails, shadow violet aura, ethereal fog, moonlit tombstone silhouette (distant, blurred), subtle glowing psychic symbols in the mist, deep violet light rays piercing through fog"
     },
     {
-      "name": "Espectro de la Calma",
-      "desc": "Crea una aura calmante que restaura la salud y reduce el daño recibido."
+      "name": "Canción de los Muertos",
+      "desc": "Canta una melodía que reduce la velocidad del oponente y lo paraliza.",
+      "name_en": "Deadly Lullaby",
+      "visual_prompt": "ghostly violet notes floating in mist, slow-moving silver moonlight beams, paralyzed shadow tendrils, pale silver tombstone outlines, ethereal fog with glowing violet accents, deep violet aura"
     }
   ],
   "diffs": [
     {
-      "from": "ojos redondos con pupilas negras",
-      "to": "ojos translúcidos que brillan con luz tenue"
+      "from": "Cuerpo lento y pesado",
+      "to": "Cuerpo translúcido y flotante, sin peso en el agua"
     },
     {
-      "from": "cuerpo pesado y lento",
-      "to": "cuerpo ligero y flotante en el aire"
+      "from": "Ojos brillantes y curiosos",
+      "to": "Ojos que brillan con un tenue destello azul en la oscuridad"
     },
     {
-      "from": "capacidad de teletransporte",
-      "to": "capacidad de moverse entre dimensiones"
+      "from": "Patas cortas y firmes",
+      "to": "Patas translúcidas que se desvanecen en el agua"
     },
     {
-      "from": "movimientos acuáticos",
-      "to": "movimientos espirituales y místicos"
+      "from": "Cabeza llena de curiosidad",
+      "to": "Cabeza que emite un aura espectral que atrae a los espíritus"
     }
   ],
   "pokemon_id": "079",

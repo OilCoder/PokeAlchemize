@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Su cabello de llamas se transforma en crestas de olas brillantes que despiden vapor al contacto con el agua. Su piel toma un tono azulado y emite un suave zumbido al nadar.",
+  "lore": "El Pokémon Llama Marina camina con elegancia sobre el agua, sus patas transformadas en aletas de fuego líquido. Su cuerpo irradia un calor que evapora el agua a su alrededor, creando un aura de vapor.",
   "moves": [
     {
-      "name": "Ola de Vapor",
-      "desc": "Genera una ola que convierte el agua en vapor, ocultando al objetivo en una niebla densa."
+      "name": "Chorro de Vapor",
+      "desc": "Dispara un chorro de vapor hirviendo que quema y desorienta al rival.",
+      "name_en": "Steam Jet",
+      "visual_prompt": "superheated steam jets, swirling hot vapor trails, glowing bioluminescent plankton particles, deep ocean blue water droplets, teal green mist swirls, pearly white steam plumes, aquamarine light reflections, sapphire blue vapor trails"
     },
     {
-      "name": "Chorro de Cristal",
-      "desc": "Dispara un chorro de agua congelada que forma cristales afilados al impactar."
+      "name": "Ola de Fuego Frío",
+      "desc": "Crea una ola que combina agua y fuego, causando daño y reduciendo la defensa.",
+      "name_en": "Frozen Flame Surge",
+      "visual_prompt": "glowing blue fire waves, icy water ripples, teal and aquamarine mist, bioluminescent plankton sparks, sapphire blue energy trails, smooth underwater current motion"
     },
     {
-      "name": "Respiración de Mar",
-      "desc": "Recupera salud mientras absorbe agua del entorno para crear un escudo protector."
+      "name": "Baño de Llama",
+      "desc": "Cubre al rival en un baño de llama que quema y cura al mismo tiempo.",
+      "name_en": "Flame Bath",
+      "visual_prompt": "glowing teal water orbs, swirling aquamarine flames, bioluminescent plankton particles, deep blue ocean currents, pearly white heat ripples, sapphire blue sparkles"
     },
     {
-      "name": "Tormenta Acuática",
-      "desc": "Lanza una tormenta de gotas que reduce la precisión del oponente."
+      "name": "Tormenta Húmeda",
+      "desc": "Genera una tormenta de gotas que lanzan llamas alrededor, causando daño continuo.",
+      "name_en": "Misty Inferno",
+      "visual_prompt": "glowing bioluminescent water droplets, swirling teal and aquamarine vortex, ember sparks igniting in deep ocean blue currents, pearly white mist trails, sapphire blue energy pulses"
     }
   ],
   "diffs": [
     {
-      "from": "Cabello de llamas",
-      "to": "Se transforma en crestas de olas brillantes que despiden vapor"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transformadas en aletas para nadar en el agua"
     },
     {
-      "from": "Piel roja",
-      "to": "Toma un tono azulado con reflejos de mar"
+      "from": "fuego intenso y llamas",
+      "to": "fuego líquido que evapora el agua a su alrededor"
     },
     {
-      "from": "Aliento de fuego",
-      "to": "Emite un vapor fresco que refresca el ambiente"
+      "from": "postura baja",
+      "to": "postura erguida para navegar en el agua"
     },
     {
-      "from": "Movimientos de fuego",
-      "to": "Reemplazados por técnicas acuáticas que usan el agua del entorno"
+      "from": "resistencia al calor",
+      "to": "resistencia al agua con un calor interno que evapora el agua"
     }
   ],
   "pokemon_id": "126",

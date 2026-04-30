@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Acuático",
-  "lore": "El Pokémon Espectro Acuático flota sin rumbo, su corona cabeza brillando con luz tenue. Su cuerpo translúcido refleja sombras, y su voz susurra ecos de aguas profundas.",
+  "species_name": "Pokémon Espíritu Acuático",
+  "lore": "El Espíritu Acuático flota sin peso en el agua, su cuerpo translúcido refleja sombras de sus antiguos dueños. Sus patas cortas brillan con un resplandor fantasmal, flotando sobre el agua como si nunca hubiera tocado el fondo.",
   "moves": [
     {
-      "name": "Susurro de la Mar",
-      "desc": "Lanza un susurro que confunde al oponente con imágenes de aguas oscuras."
+      "name": "Aliento Fantasma",
+      "desc": "Inyecta un susurro etéreo que desorienta al enemigo, reduciendo su precisión.",
+      "name_en": "Ghost Whisper",
+      "visual_prompt": "ethereal whispers, misty graveyard fog, moonlit tombstones, deep violet shadows, pale silver orbs, ghostly white trails, charcoal gray mist, drifting spectral particles"
     },
     {
-      "name": "Fantasma de la Ola",
-      "desc": "Crea una ola fantasmal que aturde al rival con imágenes de su pasado."
+      "name": "Ola de Sombras",
+      "desc": "Crea olas que absorben la energía del oponente, robando PP de sus movimientos.",
+      "name_en": "Shadow Wave",
+      "visual_prompt": "crackling violet energy waves, shadowy tendrils absorbing light, ghostly silver particles, misty graveyard fog, moonlit tombstone silhouettes, deep violet and charcoal gray color scheme, ethereal glowing edges"
     },
     {
-      "name": "Resplandor de la Bruja",
-      "desc": "Emite un resplandor que paraliza al enemigo con visiones de espíritus acuáticos."
+      "name": "Espejo de Recuerdos",
+      "desc": "Muestra imágenes de batallas pasadas, causando confusión temporal.",
+      "name_en": "Memory Mirror",
+      "visual_prompt": "shimmering ghostly reflections, fractured mirror shards, misty graveyard backdrop, moonlit tombstones, ethereal silver fog, shadow violet hues, temporal confusion swirls"
     },
     {
-      "name": "Agujero del Abismo",
-      "desc": "Crea un agujero en el suelo que absorbe la energía del oponente."
+      "name": "Fugaz Somnolencia",
+      "desc": "Crea una bruma que induce sueño, reduciendo la velocidad del rival.",
+      "name_en": "Fleeting Slumber",
+      "visual_prompt": "ethereal mist, slow-moving fog tendrils, glowing pale silver moonlight, deep violet shadows, ghostly white aura, misty graveyard atmosphere, soft glowing orbs, slow-motion effect, shadow violet mist trails, charcoal gray fog swirls"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo pequeño y débil",
-      "to": "cuerpo translúcido y etéreo, flotando sin peso"
+      "from": "Cuerpo sólido y pesado",
+      "to": "Cuerpo translúcido y ligero, flotando en el agua"
     },
     {
-      "from": "corona en la cabeza",
-      "to": "corona brillante que emite luz tenue y susurros"
+      "from": "Patas cortas para caminar",
+      "to": "Patas brillantes que emiten luz fantasmal"
     },
     {
-      "from": "movimientos acuáticos básicos",
-      "to": "movimientos que manipulan sombras y ecos"
+      "from": "Bajo peso y movimiento lento",
+      "to": "Movimiento silencioso y etéreo sin tocar el fondo"
     },
     {
-      "from": "falta de poder",
-      "to": "poder de manipular el miedo y la confusión con su presencia."
+      "from": "Agua como entorno natural",
+      "to": "Agua como reflejo de sus recuerdos perdidos."
     }
   ],
   "pokemon_id": "129",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Oceánico Alado",
-  "lore": "Pidgeot ahora se envuelve en olas cristalinas, sus plumas brillan con destellos azules. Sus orejas puntiagudas resplandecen con tonos rosados bajo el agua, mientras sus alas generan remolinos que limpian el océano.",
+  "species_name": "Pokémon Ondas Aéreas",
+  "lore": "Con plumas que gotean agua cristalina, su postura compacta se adapta a olas. Sus ojos brillan con reflejos marinos, y sus alas generan remolinos que acarician el agua.",
   "moves": [
     {
-      "name": "Ola Serena",
-      "desc": "Crea una ola calmada que restaura la salud de aliados cercanos."
+      "name": "Ola de Pluma",
+      "desc": "Lanza una ola de plumas que absorbe el agua y se convierte en un surtidor.",
+      "name_en": "Feather Wave",
+      "visual_prompt": "feather-like water droplets, swirling ocean currents, glowing bioluminescent plankton, deep ocean blue and teal green color palette, pearly white mist, aquamarine ripples, sapphire blue surges"
     },
     {
-      "name": "Remolino de Plumas",
-      "desc": "Genera un remolino que aturde a los enemigos y reduce su velocidad."
+      "name": "Remolino Alado",
+      "desc": "Crea un remolino en el aire que atrapa al oponente en un torbellino acuático.",
+      "name_en": "Aqua Whirl",
+      "visual_prompt": "swirling vortex of deep ocean blue and aquamarine water, bioluminescent plankton glowing teal green, pearly white mist spiraling upward, calm underwater currents forming concentric rings"
     },
     {
-      "name": "Aguas Profundas",
-      "desc": "Lanza un chorro de agua profunda que causa daño especial."
+      "name": "Nado de Viento",
+      "desc": "Nada en el aire como si fuera agua, evitando ataques con fluidez.",
+      "name_en": "Wind Wave",
+      "visual_prompt": "glowing bioluminescent water droplets, swirling teal and aquamarine currents, pearly white foam rings, deep ocean blue vortex, smooth flowing motion lines"
     },
     {
-      "name": "Coral Resplandor",
-      "desc": "Cubre a los aliados con un brillo coralino que aumenta su defensa."
+      "name": "Caudal Plomizo",
+      "desc": "Genera una corriente de agua que impulsa al oponente hacia atrás.",
+      "name_en": "Lead Tail",
+      "visual_prompt": "glowing bioluminescent water currents, swirling teal and aquamarine eddies, pearly white bubbles rising, deep ocean blue backdrop, smooth flowing water trails, subtle sapphire blue sparkles"
     }
   ],
   "diffs": [
     {
-      "from": "plumas grises",
-      "to": "plumas azules con destellos de agua"
+      "from": "plumas ligeras y suaves",
+      "to": "plumas densas y resistentes que retienen agua"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas brillantes con tonos rosados"
+      "from": "vuelo rápido y ágil",
+      "to": "vuelo lento pero estable en olas"
     },
     {
-      "from": "vuelo rápido",
-      "to": "vuelo con olas que generan remolinos"
+      "from": "postura erguida",
+      "to": "postura compacta para minimizar resistencia en agua"
     },
     {
-      "from": "habitat terrestre",
-      "to": "habitat acuático con corales y olas"
+      "from": "pico afilado",
+      "to": "pico curvo para escurrir agua de las plumas"
     }
   ],
   "pokemon_id": "018",

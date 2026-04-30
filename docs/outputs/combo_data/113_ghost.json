@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Mariposa",
-  "lore": "Chansey, ahora envuelta en sombras etéreas, tiene orejas puntiagudas que brillan con destellos plateados. Su cuerpo translúcido emite un suave resplandor azul, mientras que sus ojos reflejan un misterio antiguo.",
+  "species_name": "Pokémon Sombra Celestial",
+  "lore": "Sombra Celestial camina con pasos etéreos, sus patas traseras se funden en sombras mientras sus patas delanteras brillan con luz lunar. Su cuerpo translúcido refleja la luz de las estrellas, y su sonrisa serena ahora emana un aura fría y misteriosa.",
   "moves": [
     {
-      "name": "Alma Flotante",
-      "desc": "Lanza una esfera de energía espectral que confunde al oponente con visiones pasadas."
-    },
-    {
       "name": "Susurro de la Noche",
-      "desc": "Crea un campo de silencio que reduce la precisión del rival en combate."
+      "desc": "El Pokémon envía ondas de energía oscura que reducen la defensa del oponente.",
+      "name_en": "Night Whisper",
+      "visual_prompt": "shadowy mist swirling in deep violet and charcoal gray, ghostly white orbs floating with pale silver trails, ethereal fog drifting over moonlit tombstones, subtle glowing violet energy waves, dark violet ripples in mist"
     },
     {
-      "name": "Eclipse Lunar",
-      "desc": "Invoca una luna plateada que absorbe ataques físicos y los devuelve con mayor fuerza."
+      "name": "Círculo de Sombras",
+      "desc": "Crea un círculo de sombras alrededor del oponente, limitando sus movimientos por un turno.",
+      "name_en": "Shadow Circle",
+      "visual_prompt": "vibrant violet shadow circle, swirling charcoal mist, pale silver moonlight beams, ghostly white energy trails, ethereal fog particles, decaying tombstone outlines in background"
     },
     {
-      "name": "Velo de Sombras",
-      "desc": "Cubre al usuario con una capa de sombras que bloquea los movimientos de ataque."
+      "name": "Luz Lunar",
+      "desc": "Aumenta la precisión del ataque del Pokémon con un brillo suave.",
+      "name_en": "Lunar Light",
+      "visual_prompt": "soft glowing violet orbs floating in mist, ethereal silver moonlight beams, pale silver particles drifting through shadow violet fog, ghostly white aura surrounding orbs, deep violet misty graveyard background"
+    },
+    {
+      "name": "Eclipse Silencioso",
+      "desc": "Ataca con un ataque rápido que evita que el oponente reaccione.",
+      "name_en": "Silent Eclipse",
+      "visual_prompt": "shadowy crescent moon, drifting mist, pale silver crescent shards, deep violet aura, ghostly white mist swirls, charcoal gray particles, ethereal fog, moonlit tombstone silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "brillan con destellos plateados y emiten un resplandor tenue"
+      "from": "patas plantadas en el suelo",
+      "to": "patas traseras fundidas en sombras, patas delanteras brillantes"
     },
     {
-      "from": "cuerpo translúcido",
-      "to": "envuelto en sombras etéreas que lo hacen invisible temporalmente"
+      "from": "sonrisa tranquila",
+      "to": "sonrisa serena con aura fría y misteriosa"
     },
     {
-      "from": "ojos normales",
-      "to": "reflejan un misterio antiguo y brillan con un brillo azul"
+      "from": "cuerpo sólido",
+      "to": "cuerpo translúcido que refleja luz estelar"
     },
     {
-      "from": "movimientos curativos",
-      "to": "transformados en movimientos espirituales que afectan la mente del oponente"
+      "from": "movimientos lentos",
+      "to": "pasos etéreos y movimientos silenciosos"
     }
   ],
   "pokemon_id": "113",

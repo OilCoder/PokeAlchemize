@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Agua",
-  "lore": "Psyduck ahora emite destellos eléctricos desde su cola espiralada. Su pelaje brillante refleja descargas, y sus ojos centellean con energía. El agua de su entorno se electrifica al acercarse.",
+  "species_name": "Pokémon Relámpago Acuático",
+  "lore": "Psyduck ahora camina con patas cargadas de energía eléctrica, sus ojos brillan con chispas azules. Su pelaje húmedo resplandece bajo el sol, generando cortocircuitos al tocar superficies metálicas.",
   "moves": [
     {
-      "name": "Descarga Espiral",
-      "desc": "Genera una espiral de electricidad que paraliza al rival en su lugar."
+      "name": "Descarga Húmeda",
+      "desc": "Genera una descarga eléctrica sobre el agua, causando daño y paralización a los enemigos.",
+      "name_en": "Wet Shock",
+      "visual_prompt": "crackling electric arcs, neon blue water droplets, violet sparks, stormy sky backdrop, glowing cyan energy fields, electric blue lightning bolts, dynamic water ripples"
     },
     {
-      "name": "Chispa Hidro",
-      "desc": "Dispara un chorro de agua cargado de electricidad, causando daño y parálisis."
+      "name": "Chispa Acuática",
+      "desc": "Dispara chispas desde las patas, atacando con fuerza y reduciendo la velocidad del rival.",
+      "name_en": "Water Spark",
+      "visual_prompt": "electric blue water droplets, neon yellow sparks, violet lightning bolts, bright white energy trails, crackling storm clouds, neon-lit rain streaks, dynamic energy field"
     },
     {
-      "name": "Electro Llama",
-      "desc": "Crea una llamarada eléctrica que quema y electrocuta al oponente."
+      "name": "Tormenta Estática",
+      "desc": "Crea una tormenta eléctrica en el agua, afectando a todos los enemigos cercanos.",
+      "name_en": "Static Storm",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy arcs, violet sparks, bright white crackling energy fields, stormy sky with neon-lit thunderclouds, dynamic swirling patterns, electric cyan glow"
     },
     {
-      "name": "Torbellino Electrónico",
-      "desc": "Crea un torbellino de agua y electricidad que confunde al enemigo."
+      "name": "Cortocircuito",
+      "desc": "Ataca con una descarga intensa que quema el sistema eléctrico del oponente.",
+      "name_en": "Short Circuit",
+      "visual_prompt": "intense electric blue arcs, neon yellow sparks, violet energy crackles, bright white static bursts, electric cyan lightning bolts, stormy sky backdrop with crackling energy fields"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiralada",
-      "to": "emite destellos eléctricos y refleja descargas"
+      "from": "Pies húmedos y patas anchas",
+      "to": "Pies con chispas eléctricas que generan cortocircuitos al tocar objetos metálicos."
     },
     {
-      "from": "pelaje suave",
-      "to": "brilla con energía eléctrica"
+      "from": "Cabeza baja y mirada distraída",
+      "to": "Ojos brillantes con chispas azules que indican concentración eléctrica."
     },
     {
-      "from": "ojos normales",
-      "to": "centellean con energía"
+      "from": "Piel suave y húmeda",
+      "to": "Pelaje húmedo que resplandece y atrae descargas eléctricas."
     },
     {
-      "from": "agua de su entorno",
-      "to": "se electrifica al acercarse."
+      "from": "Boca abierta y sonrisa tonta",
+      "to": "Boca emitiendo chispas pequeñas al moverse."
     }
   ],
   "pokemon_id": "054",

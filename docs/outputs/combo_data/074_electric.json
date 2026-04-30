@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispas Roca",
-  "lore": "Su cabeza redondeada brilla con un resplandor eléctrico que se refleja en su superficie lisa. Las chispas danzan alrededor de su cuerpo, cargando cada movimiento con energía estática. Su forma compacta atrae los rayos de manera natural.",
+  "species_name": "Pokémon Chispazo Roca",
+  "lore": "Chispazo Roca se eriza con chispas eléctricas que recorren su caparazón de piedra. Sus patas cortas brillan con energía estática, y su postura compacta genera un campo magnético al moverse.",
   "moves": [
     {
-      "name": "Chispa Relámpago",
-      "desc": "Lanza un rayo eléctrico que paraliza al rival por 2 turnos."
+      "name": "Chispa Estática",
+      "desc": "Lanza chispas que cargan al objetivo con energía eléctrica, aumentando su velocidad temporalmente.",
+      "name_en": "Static Spark",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark particles, bright white energy trails, electric cyan static fields, stormy sky backdrop"
     },
     {
-      "name": "Impacto Estático",
-      "desc": "Aumenta su velocidad y causa daño adicional por parálisis."
+      "name": "Impacto Magnético",
+      "desc": "Genera un campo magnético que atrae objetos metálicos hacia el enemigo, causando daño adicional.",
+      "name_en": "Magnetic Impact",
+      "visual_prompt": "crackling electric blue energy field, neon yellow magnetic waves, violet sparks swirling, bright white lightning bolts, electric cyan aura, stormy sky backdrop, geometric magnetic pull patterns"
     },
     {
-      "name": "Roca Electrificada",
-      "desc": "Ataca con rocas cargadas de electricidad, elevando el daño crítico."
+      "name": "Roca Relampagueante",
+      "desc": "Ataca con un golpe que libera chispas eléctricas de su caparazón, causando parálisis.",
+      "name_en": "Thunder Shell",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky background with crackling energy fields"
     },
     {
-      "name": "Descarga Terrestre",
-      "desc": "Genera una onda eléctrica que afecta a todos los enemigos en el campo."
+      "name": "Campo de Carga",
+      "desc": "Crea un campo eléctrico alrededor de sí mismo, reduciendo el daño recibido y aumentando su ataque.",
+      "name_en": "Charge Field",
+      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet sparks, bright white static arcs, electric cyan storm clouds, dynamic energy waves"
     }
   ],
   "diffs": [
     {
-      "from": "superficie lisa de piedra",
-      "to": "superficie lisa cubierta de chispas eléctricas que brillan al tocar."
+      "from": "caparazón de piedra",
+      "to": "recubierto de chispas eléctricas que brillan en la oscuridad"
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos rápidos gracias a la energía eléctrica acumulada."
+      "from": "patas cortas plantadas en el suelo",
+      "to": "generan energía estática que hace que el suelo vibre"
     },
     {
-      "from": "resistencia a golpes físicos",
-      "to": "resistencia a golpes eléctricos por la carga estática."
+      "from": "postura compacta",
+      "to": "crea un campo magnético al moverse"
     },
     {
-      "from": "capacidad para moverse lentamente",
-      "to": "capacidad para saltar y moverse con rapidez gracias a la electricidad."
+      "from": "bajo tamaño",
+      "to": "su presencia genera un aura eléctrica que atrae a pequeños insectos"
     }
   ],
   "pokemon_id": "074",

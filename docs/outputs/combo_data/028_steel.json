@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Arena",
-  "lore": "Su armadura de acero resplandece bajo el sol, con orejas puntiagudas redondeadas que brillan como esmeraldas. El metal se fusiona con la arena, creando un aura de fuerza indomable.",
+  "species_name": "Pokémon Acero de Arena",
+  "lore": "Sandslash, ahora revestido de acero, camina con paso firme sobre el desierto. Sus espinas se han convertido en láminas metálicas que brillan bajo el sol, y sus patas son sólidas como rocas.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta con garras afiladas de acero, causando daño crítico a los tipos normal y hierro."
+      "desc": "Corta con láminas metálicas que cortan cualquier material con facilidad.",
+      "name_en": "Steel Cutter",
+      "visual_prompt": "shimmering metallic blades slicing through air, polished silver edges, gunmetal gray particles, electric blue energy trails, neon cyan sparks, industrial city skyline silhouette in background"
     },
     {
-      "name": "Arena Acorazada",
-      "desc": "Cubre el campo con una capa de arena endurecida que refuerza los ataques físicos."
+      "name": "Barrera de Grava",
+      "desc": "Crea una barrera de grava y acero que bloquea ataques físicos.",
+      "name_en": "Gravel Barrier",
+      "visual_prompt": "gunmetal gray gravel barrier, polished silver steel shards, metallic steel blue energy glow, electric blue neon streaks, industrial cityscape steam vents, polished silver reflective surface, neon cyan particle trails"
     },
     {
       "name": "Impacto Estelar",
-      "desc": "Ataca con un salto desde lo alto, generando un impacto devastador en el suelo."
+      "desc": "Salta y golpea con fuerza, generando ondas de choque en el suelo.",
+      "name_en": "Stellar Impact",
+      "visual_prompt": "metallic shockwaves radiating from a central point, polished silver ripples, gunmetal gray energy trails, electric blue sparks, neon cyan glowing cracks, industrial city skyline silhouette in background"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo de acero que reduce el daño recibido temporalmente."
+      "name": "Escudo de Hierro",
+      "desc": "Cubre su cuerpo con un escudo de acero que aumenta su defensa.",
+      "name_en": "Iron Shield",
+      "visual_prompt": "gunmetal gray steel shield, polished silver edges, metallic steam vents, neon cyan energy waves, industrial cityscape background, electric blue glow, geometric shield patterns, reflective surface, dynamic motion lines"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas redondeadas recubiertas de acero brillante"
+      "from": "espinas en su lomo",
+      "to": "se transforman en láminas metálicas brillantes y afiladas"
     },
     {
-      "from": "piel de arena",
-      "to": "capa de acero endurecido que refleja la luz"
+      "from": "patas blandas",
+      "to": "se vuelven sólidas como rocas y resistentes"
     },
     {
-      "from": "movimientos de tierra",
-      "to": "ataques con garras de acero y salto sobre arena"
+      "from": "bajo postura",
+      "to": "camina con paso firme y elevado gracias al acero"
     },
     {
-      "from": "comportamiento tranquilo",
-      "to": "actitud agresiva y defensiva, protegiendo su territorio"
+      "from": "piel terrosa",
+      "to": "revestida por un acero pulido y frío"
     }
   ],
   "pokemon_id": "028",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Psíquico",
-  "lore": "Mewtwo, ahora envuelto en una aura espectral, desplaza sombras con cada movimiento. Sus rasgos púrpura brillan con luz fantasmal, y su piel azul pálido se funde con la oscuridad.",
+  "species_name": "Pokémon Fantasma Mewtwo",
+  "lore": "Mewtwo, ahora un espectro psíquico, flota sin peso. Su piel translúcida revela destellos de energía fantasmal, mientras sus ojos brillan con un resplandor plateado que desvía la luz.",
   "moves": [
     {
-      "name": "Sombra Mental",
-      "desc": "Absorbe la energía psíquica de los oponentes para lanzar ataques de sombra."
+      "name": "Sombra Psíquica",
+      "desc": "Invoca una sombra psíquica que absorbe el alma del oponente.",
+      "name_en": "Psychic Shadow",
+      "visual_prompt": "shimmering violet mist, floating shadow tendrils, glowing pale silver aura, ethereal fog drifting, moonlit tombstone silhouette in background, deep violet and charcoal gray color palette"
     },
     {
-      "name": "Espectro Psíquico",
-      "desc": "Genera una barrera espectral que refleja ataques psíquicos y daña al oponente."
+      "name": "Espectro Mental",
+      "desc": "Aumenta la potencia de los ataques psíquicos con una carga de energía espectral.",
+      "name_en": "Mental Specter",
+      "visual_prompt": "glowing violet energy orbs floating in mist, spectral silver trails, shadowy violet wisps, ethereal fog, moonlit tombstone outlines faintly visible in background"
     },
     {
-      "name": "Fantasma de Miedo",
-      "desc": "Inyecta miedo psíquico, reduciendo la precisión del enemigo."
+      "name": "Lamento Fantasma",
+      "desc": "Genera un lamento que reduce la defensa del oponente.",
+      "name_en": "Ghost Lament",
+      "visual_prompt": "ghostly violet mist, drifting pale silver tombstone shards, shadow violet tears falling slowly, ethereal fog swirls, charcoal gray aura with faint glowing outlines"
     },
     {
-      "name": "Eclipse Mental",
-      "desc": "Cubre al oponente en oscuridad psíquica, reduciendo su defensa."
+      "name": "Mente Eterna",
+      "desc": "Restaura la energía mental del usuario mientras absorbe la energía del oponente.",
+      "name_en": "Eternal Mind",
+      "visual_prompt": "floating violet energy orbs, swirling ghostly silver mist, glowing charcoal gray runes, pale silver mental waves, shadow violet aura, ethereal fog particles, moonlit tombstone silhouettes in background"
     }
   ],
   "diffs": [
     {
-      "from": "piel azul pálido",
-      "to": "se funde con la oscuridad, brillando con destellos púrpura espectral"
+      "from": "bipedal, upright stance, arms at sides",
+      "to": "flota sin peso, sin contacto con el suelo"
     },
     {
-      "from": "rasgos púrpura sutiles",
-      "to": "brillan con luz fantasmal, visible solo en la oscuridad"
+      "from": "piel translúcida",
+      "to": "revela destellos de energía fantasmal"
+    },
+    {
+      "from": "ojos brillantes",
+      "to": "brillan con un resplandor plateado que desvía la luz"
     },
     {
       "from": "energía psíquica",
-      "to": "se convierte en energía espectral, atrayendo sombras"
-    },
-    {
-      "from": "movimientos de telequinesis",
-      "to": "ahora manipulan sombras en lugar de objetos físicos"
+      "to": "se mezcla con energía fantasmal para crear un aura espectral"
     }
   ],
   "pokemon_id": "150",

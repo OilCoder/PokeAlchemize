@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Arcanine, ahora con escamas azules que brillan bajo el agua, su melena espectral se ondula como olas. Sus ojos reflejan el océano, y su fuego se transforma en una corriente suave que envuelve a sus enemigos.",
+  "species_name": "Pokémon Oceánico Llama",
+  "lore": "Arcanine ahora es un poderoso depredador acuático, con pelaje azul oscuro que brilla bajo el agua. Sus patas se han transformado en aletas palmeadas, y sus ojos brillan con un resplandor azul. Su fuego interno se ha convertido en un torrente de energía hidrocinética.",
   "moves": [
     {
-      "name": "Ola Incandescente",
-      "desc": "Lanza una ola de agua caliente que quema y empuja al rival, combinando fuego y agua."
+      "name": "Ola de Llama",
+      "desc": "Dispara una ola de agua caliente que quema y empuja al rival.",
+      "name_en": "Hot Wave",
+      "visual_prompt": "glowing teal water waves, searing heat ripples, bioluminescent plankton sparks, deep ocean blue distortion, pearly white steam plumes, aquamarine energy surges"
     },
     {
-      "name": "Respiración Marítima",
-      "desc": "Genera una burbuja protectora que absorbe ataques físicos y reduce el daño."
+      "name": "Caudal Hidrocinético",
+      "desc": "Crea un fuerte chorro de agua que eleva al rival y lo golpea.",
+      "name_en": "Hydro Jet",
+      "visual_prompt": "streaming water jets, swirling vortex, bioluminescent plankton glow, deep ocean blue currents, pearly white mist, aquamarine ripples, sapphire blue highlights"
     },
     {
-      "name": "Caudal de Sal",
-      "desc": "Crea una fuerte corriente que reduce la velocidad del enemigo y lo empuja hacia atrás."
+      "name": "Respiración Submarina",
+      "desc": "Recupera energía mientras permanece bajo el agua, aumentando su defensa.",
+      "name_en": "Submarine Breath",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue currents, teal green water ripples, pearly white defensive aura, aquamarine energy orbs, sapphire blue mist, calm underwater motion"
     },
     {
-      "name": "Torrente de Escamas",
-      "desc": "Ataca con una ráfaga de escamas afiladas que se mueven como olas en el agua."
+      "name": "Torrente Acuático",
+      "desc": "Genera un poderoso torrente que lanza al rival hacia atrás.",
+      "name_en": "Aquatic Surge",
+      "visual_prompt": "swirling deep ocean blue water currents, glowing teal green bioluminescent plankton, pearly white foam bursts, aquamarine ripples, sapphire blue energy waves, dynamic water vortex, underwater light rays"
     }
   ],
   "diffs": [
     {
-      "from": "Melena espinosa de color rojo",
-      "to": "Melena suave y ondulada de color azul marino con destellos plateados"
+      "from": "pelaje rojo brillante",
+      "to": "pelaje azul oscuro brillante bajo el agua"
     },
     {
-      "from": "Fuego que emana de su cuerpo",
-      "to": "Corriente de agua caliente que envuelve su cuerpo, sin humo"
+      "from": "patas delanteras",
+      "to": "aletas palmeadas para nadar con agilidad"
     },
     {
-      "from": "Piel seca y áspera",
-      "to": "Escamas suaves y resbaladizas, como las de un pez"
+      "from": "fuego interno",
+      "to": "energía hidrocinética que genera olas"
     },
     {
-      "from": "Rugido fuerte y resonante",
-      "to": "Grito suave que imita el sonido de las olas"
+      "from": "postura erguida",
+      "to": "postura baja para nadar y atacar desde el agua"
     }
   ],
   "pokemon_id": "059",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Ceniza Mágica",
-  "lore": "El Pokémon Ceniza Mágica brilla con destellos dorados en su masa esférica, transformando su forma en una esfera de luz. Sus rasgos suaves se funden con pétalos de cristal que brillan bajo la luna.",
+  "species_name": "Pokémon Brillo de Hadas",
+  "lore": "Brillo de Hadas flota en el aire, su forma viscosa se transforma en un halo brillante de pétalos luminosos. Sus rasgos cambian a una esencia etérea, irradiando magia dulce que envuelve a sus oponentes en sueños.",
   "moves": [
     {
-      "name": "Polvo de Sueños",
-      "desc": "Cubre al rival con polvo que induce sueños suaves y reduce su velocidad."
+      "name": "Canto de Sueño",
+      "desc": "Canta una melodía hipnótica que induce un sueño profundo en el rival.",
+      "name_en": "Dream Song",
+      "visual_prompt": "soft pastel pink petals swirling in hypnotic spiral, ivory white moonlight beams, pearl lavender mist with glowing starlight blue stars, crystalline mint dewdrops on glowing flowers, gentle motion lines of melody waves"
     },
     {
-      "name": "Canto de Estrellas",
-      "desc": "Genera un canto que cura al usuario y debilita al rival con una melodía celestial."
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan y fortalecen al usuario con cada impacto.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white stardust, pearl lavender energy trails, crystalline mint light pulses, soft misty twilight sky backdrop, delicate sparkle effects, no characters, no Pokémon"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Aumenta la defensa y evita los ataques críticos con un brillo lunar."
+      "name": "Danza de Ensueño",
+      "desc": "Realiza una danza que confunde al oponente, reduciendo su precisión.",
+      "name_en": "Dream Dance",
+      "visual_prompt": "glowing pastel pink petals swirling in a hypnotic spiral, soft ivory white mist, pearl lavender starlight streaks, crystalline mint energy orbs floating gently, moonlit garden backdrop with glowing flowers, subtle shimmering light particles"
     },
     {
-      "name": "Fugas de Pétalos",
-      "desc": "Lanza pétalos que reducen la precisión del oponente y causan daño."
+      "name": "Luz de Hadas",
+      "desc": "Emite un destello de luz que aumenta la velocidad del usuario en combate.",
+      "name_en": "Fairy Light",
+      "visual_prompt": "glowing pastel pink orbs floating in soft mist, delicate starlight blue sparkles, crystalline mint petals swirling, ivory white radiance, ethereal moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo esférico sin extremidades",
-      "to": "Cuerpo esférico con pétalos cristalinos que brillan como estrellas"
+      "from": "Forma viscosa sin definir",
+      "to": "Halo brillante de pétalos luminosos que flota en el aire"
     },
     {
-      "from": "Sin rasgos distintivos",
-      "to": "Rasgos definidos por destellos dorados y un aura mágica"
+      "from": "Sin extremidades definidas",
+      "to": "Pétalos que actúan como brazos y piernas fluidos"
     },
     {
-      "from": "Color grisáceo",
-      "to": "Color dorado con tonos plateados y destellos de luz"
+      "from": "Cambio de forma sin propósito",
+      "to": "Transformación en un halo mágico que envuelve a los enemigos"
     },
     {
-      "from": "Forma inerte",
-      "to": "Forma activa que emite una luz suave y agradable"
+      "from": "Apariencia opaca",
+      "to": "Irradia una luz suave y etérea que ilumina el campo de batalla"
     }
   ],
   "pokemon_id": "132",

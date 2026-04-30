@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Espectral",
-  "lore": "Chispa Espectral brilla con destellos eléctricos que parpadean en su forma esférica. Sus bordes se tornan iridiscentes bajo la luz, y pequeñas descargas recorren su cuerpo al moverse.",
+  "species_name": "Pokémon Chispa Transformante",
+  "lore": "Chispa Transformante flota en el aire, su cuerpo gelatinoso brillando con chispas eléctricas. Sus rasgos cambian a un brillo azul eléctrico, generando campos electromagnéticos al moverse.",
   "moves": [
     {
-      "name": "Relámpago Esfera",
-      "desc": "Lanza una esfera de energía eléctrica que explota en múltiples destellos al impactar."
+      "name": "Descarga de Chispas",
+      "desc": "Lanza una ráfaga de chispas eléctricas que debilita la defensa del oponente.",
+      "name_en": "Spark Surge",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks scattering, bright white energy arcs, electric cyan storm clouds, dynamic energy field with sharp jagged lines"
     },
     {
-      "name": "Parpadeo Estelar",
-      "desc": "Crea un destello cegador que confunde al enemigo y reduce su precisión temporalmente."
+      "name": "Forma Electrónica",
+      "desc": "Cambia de forma rápidamente, evitando ataques y aumentando su velocidad.",
+      "name_en": "Electric Form",
+      "visual_prompt": "neon-yellow lightning bolts, electric-blue energy rings, violet spark particles, bright white static bursts, crackling energy fields, stormy sky backdrop, dynamic motion lines"
     },
     {
-      "name": "Carga Electrónica",
-      "desc": "Aumenta el poder de los movimientos eléctricos en un 50% durante el próximo turno."
+      "name": "Campo Estático",
+      "desc": "Crea un campo eléctrico alrededor del oponente, reduciendo su movilidad.",
+      "name_en": "Static Field",
+      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet sparks, bright white static arcs, stormy sky background, glowing neon-lit thunderclouds"
     },
     {
-      "name": "Descarga Sónica",
-      "desc": "Emite ondas sonoras eléctricas que aturden al oponente y generan un efecto de choque."
+      "name": "Carga Total",
+      "desc": "Aumenta su ataque y velocidad al coste de su defensa temporal.",
+      "name_en": "Total Charge",
+      "visual_prompt": "electric blue energy surging in concentric rings, neon yellow lightning bolts arcing through violet sparks, bright white energy trails, electric cyan static fields, stormy sky backdrop with crackling energy patterns, neon-lit thunderclouds glowing faintly in the distance"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo redondeado sin extremidades",
-      "to": "bordes iridiscentes que brillan con destellos eléctricos"
+      "from": "Cuerpo gelatinoso sin forma definida",
+      "to": "Cuerpo brillante con chispas eléctricas azules que parpadean"
     },
     {
-      "from": "forma inerte",
-      "to": "movimientos eléctricos que recorren su cuerpo"
+      "from": "Flotación sin dirección",
+      "to": "Flotación controlada con campos magnéticos que guían su movimiento"
     },
     {
-      "from": "sin características visuales distintas",
-      "to": "destellos que parpadean al moverse"
+      "from": "Forma que se adapta a cualquier cosa",
+      "to": "Forma que emite chispas al adaptarse, marcando su presencia"
     },
     {
-      "from": "capacidad de imitar",
-      "to": "imposible de imitar por su energía eléctrica única"
+      "from": "Sin rasgos físicos definidos",
+      "to": "Rasgos definidos por patrones de chispas eléctricas en movimiento"
     }
   ],
   "pokemon_id": "132",

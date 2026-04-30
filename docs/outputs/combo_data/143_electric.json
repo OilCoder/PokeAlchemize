@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Lleno",
-  "lore": "Con su cabeza redonda ahora cargada de energía eléctrica, sus pequeños ojos brillan con chispas. Su piel llena de circuitos suaves emite destellos al moverse, cargando el aire con tensión estática.",
+  "species_name": "Pokémon Rayo Soñoliento",
+  "lore": "El Pokémon Rayo Soñoliento duerme con las patas conectadas a la red eléctrica, sus ojos brillan con chispas. Su pelaje plateado absorbe energía, transformando sueños en descargas.",
   "moves": [
     {
-      "name": "Descarga Relámpago",
-      "desc": "Descarga una ráfaga de energía eléctrica que paraliza al enemigo con una descarga intensa."
+      "name": "Sueño Relámpago",
+      "desc": "Ataca con sueños eléctricos que paralizan al oponente con una descarga suave.",
+      "name_en": "Lightning Dream",
+      "visual_prompt": "Electric blue lightning bolts weaving through neon yellow dream clouds, violet sparks crackling in stormy sky, bright white energy pulses, electric cyan trails, soft static glow, no characters"
     },
     {
-      "name": "Bola de Chispas",
-      "desc": "Lanza una bola de chispas que explota en múltiples destellos al impactar."
+      "name": "Bola de Sueño",
+      "desc": "Lanza bolas de sueño que explotan en chispas, causando daño eléctrico.",
+      "name_en": "Sleep Ball",
+      "visual_prompt": "glowing electric blue orbs, neon yellow sparks, violet lightning bursts, bright white energy cracks, crackling storm clouds, dynamic energy field"
     },
     {
-      "name": "Carga Estática",
-      "desc": "Aumenta la defensa al absorber energía eléctrica del entorno."
+      "name": "Carga Soñada",
+      "desc": "Carga energía eléctrica mientras duerme, aumentando su poder al despertar.",
+      "name_en": "Dream Charge",
+      "visual_prompt": "electric blue orbs floating in stormy sky, neon yellow lightning bolts, violet sparks, bright white energy trails, crackling energy fields, neon-lit thunderclouds"
     },
     {
-      "name": "Sueño Eléctrico",
-      "desc": "Crea un sueño eléctrico que reduce la velocidad del oponente."
+      "name": "Paralización Sónica",
+      "desc": "Emite ondas sonoras que paralizan al rival con una descarga constante.",
+      "name_en": "Sonic Paralysis",
+      "visual_prompt": "crackling electric blue waves, neon yellow sound ripples, violet sparks, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo redondo",
-      "to": "cuerpo cubierto de circuitos brillantes que emiten chispas"
+      "from": "Cuadrúpedo con cuatro patas plantadas en el suelo",
+      "to": "Patas conectadas a cables eléctricos, generando chispas al moverse."
     },
     {
-      "from": "ojos pequeños",
-      "to": "ojos que brillan con destellos eléctricos"
+      "from": "Postura baja",
+      "to": "Postura elevada con energía eléctrica en su pelaje, brillando intensamente."
     },
     {
-      "from": "piel suave",
-      "to": "piel con patrones de energía estática que paralizan al tocar"
+      "from": "Pelaje gris claro",
+      "to": "Pelaje plateado que absorbe y libera energía eléctrica."
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos rápidos y eléctricos que generan chispas"
+      "from": "Dormir durante el día",
+      "to": "Dormir mientras recarga energía eléctrica de la red."
     }
   ],
   "pokemon_id": "143",

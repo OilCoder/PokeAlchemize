@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Cantar",
-  "lore": "Su cuerpo de acero pulido refleja la luz, mientras sus ojos redondos brillan con una luz fría. El acero reemplaza su pelaje suave, creando un aura de elegancia y fuerza.",
+  "species_name": "Pokémon Acero Cantante",
+  "lore": "Con cuerpo de acero pulido y patas reforzadas, este Jigglypuff canta melodías que resonarán en el acero. Sus ojos brillan como espejos, y su voz genera vibraciones que pueden derribar estructuras.",
   "moves": [
     {
-      "name": "Canto de Acero",
-      "desc": "Aumenta la defensa del usuario y reduce el daño recibido en un 20%."
+      "name": "Canción de Acero",
+      "desc": "Genera ondas sonoras que endurecen el campo de batalla, aumentando la defensa de los aliados.",
+      "name_en": "Steel Song",
+      "visual_prompt": "metallic soundwaves in gunmetal gray, polished silver resonance rings, industrial cityscape background with neon cyan steam vents, electric blue energy ripples, metallic defense aura shimmering"
     },
     {
-      "name": "Golpe de Círculo",
-      "desc": "Ataca con un círculo de acero giratorio que causa daño físico y reduce la velocidad del objetivo."
+      "name": "Golpe de Masa",
+      "desc": "Ataca con un golpe contundente que envía al rival volando, causando daño físico.",
+      "name_en": "Mass Strike",
+      "visual_prompt": "crystalline steel shards, jagged metallic shards, electric blue energy trails, neon cyan sparks, gunmetal gray vortex, polished silver impact waves, industrial city skyline silhouette, glowing neon signs reflecting on metallic surface"
     },
     {
-      "name": "Resonancia de Acero",
-      "desc": "Causa daño especial y aumenta la precisión del usuario en un 15%."
+      "name": "Resonancia Sónica",
+      "desc": "Crea un campo de sonido que debilita la precisión de los oponentes.",
+      "name_en": "Sonic Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished silver oscillating rings, metallic steel blue distortion fields, electric blue neon pulses, glowing cyan resonance circles, industrial city skyline reflections, metallic steam vents with shimmering ripples"
     },
     {
-      "name": "Fusión de Acero",
-      "desc": "Combina el cuerpo del usuario con acero, aumentando la defensa y evitando el daño de estado."
+      "name": "Vibración de Acero",
+      "desc": "Genera temblores que reducen el movimiento del rival y aumenta el ataque.",
+      "name_en": "Steel Vibration",
+      "visual_prompt": "gunmetal gray tremors, polished silver ripples, metallic steam vents, neon cyan energy pulses, electric blue shockwaves, industrial city skyline silhouette"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje suave y esponjoso",
-      "to": "cuerpo de acero pulido y resistente"
+      "from": "Cuerpo suave y esponjoso",
+      "to": "Cuerpo de acero pulido y resistente"
     },
     {
-      "from": "ojos redondos con pupilas negras",
-      "to": "ojos brillantes con reflejos metálicos"
+      "from": "Patas pequeñas y blandas",
+      "to": "Patas reforzadas para soportar peso y fuerza"
     },
     {
-      "from": "voz suave y melódica",
-      "to": "voz resonante y fría que corta el aire"
+      "from": "Voz suave y dulce",
+      "to": "Voz poderosa que genera vibraciones en el acero"
     },
     {
-      "from": "cuerpo pequeño y redondo",
-      "to": "cuerpo compacto y estructurado en forma de esfera de acero"
+      "from": "Bajo peso",
+      "to": "Aumento de peso para mayor estabilidad"
     }
   ],
   "pokemon_id": "039",

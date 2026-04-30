@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra de Hielo",
-  "lore": "Jynx, ahora envuelta en una niebla etérea, despliega cabello plateado que fluye como hielo líquido. Sus ojos brillan con una luz fantasmal, y su cuerpo emite un frío que helaría el alma.",
+  "species_name": "Pokémon Fantasma de Hielo",
+  "lore": "Jynx, ahora envuelta en niebla espectral, camina con paso etéreo. Sus brazos se alargan en tenues sombras, y su rostro refleja una sonrisa fría. El hielo se funde en sombras, y su presencia aterra a los intrusos.",
   "moves": [
     {
-      "name": "Susurro de la Niebla",
-      "desc": "Crea una niebla que reduce la precisión de los oponentes."
+      "name": "Sombra Helada",
+      "desc": "Ataca con una sombra congelada que ralentiza al oponente.",
+      "name_en": "Frozen Shadow",
+      "visual_prompt": "glowing violet ice shards, slow-motion drifting mist, shadowy tendrils with frost patterns, pale silver moonlight beams, charcoal gray fog swirls, ethereal ghostly white aura, deep violet energy pulses"
     },
     {
-      "name": "Alma Helada",
-      "desc": "Ataca con un frío que congela el alma del rival."
+      "name": "Susurro Psíquico",
+      "desc": "Envía un susurro psíquico que confunde al rival.",
+      "name_en": "Psychic Whisper",
+      "visual_prompt": "shimmering violet mist, floating ghostly silver orbs, faint glowing psychic symbols, ethereal white fog, shadowy violet tendrils, moonlit tombstone silhouettes in background"
     },
     {
-      "name": "Espectro de Hielo",
-      "desc": "Crea una barrera de hielo que bloquea ataques físicos."
+      "name": "Niebla Espiritual",
+      "desc": "Cubre el campo con niebla espectral que reduce la precisión.",
+      "name_en": "Spirit Fog",
+      "visual_prompt": "ethereal violet mist, drifting ghostly white tendrils, shadow violet fog patches, pale silver moonlight beams, charcoal gray tombstone silhouettes in distance, spectral glow, misty graveyard atmosphere"
     },
     {
-      "name": "Viento Fantasma",
-      "desc": "Desplaza al oponente con un viento frío que lo hace perder equilibrio."
+      "name": "Bailarina de los Muertos",
+      "desc": "Realiza un baile que aturde al oponente con su presencia.",
+      "name_en": "Deadly Waltz",
+      "visual_prompt": "ghostly violet mist swirling, pale silver dancing orbs, charcoal gray fog drifting, ethereal moonlit tombstone outlines, shadow violet particles floating, ghostly white ribbons swirling in midair, misty graveyard atmosphere, no characters or Pokémon present"
     }
   ],
   "diffs": [
     {
-      "from": "Cabello rubio largo",
-      "to": "Cabello plateado que fluye como hielo líquido"
+      "from": "bipedal, upright stance",
+      "to": "caminar con paso etéreo y deslizarse en la niebla"
     },
     {
-      "from": "Ojos brillantes",
-      "to": "Ojos que brillan con luz fantasmal"
+      "from": "short arms at sides",
+      "to": "brazos alargados en sombras tenues"
     },
     {
-      "from": "Frio característico",
-      "to": "Frio que helaría el alma"
+      "from": "ice type",
+      "to": "hielo fundido en sombras espirituales"
     },
     {
-      "from": "Estructura corporal",
-      "to": "Cuerpo envuelto en niebla etérea"
+      "from": "psychic type",
+      "to": "psiquismo fusionado con la espiritualidad del fantasma"
     }
   ],
   "pokemon_id": "124",

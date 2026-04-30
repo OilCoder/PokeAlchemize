@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Este Snorlax acuático despliega una capa de agua en su piel, transformando su pelaje en un manto brillante. Sus ojos pequeños ahora brillan con reflejos azules, mientras su cuerpo redondo se adapta para flotar en el agua.",
+  "species_name": "Pokémon Ola Llena",
+  "lore": "Ola Llena, un Snorlax rodeado de olas acuáticas, tiene piel brillante como el agua y ojos resplandecientes. Sus patas se hunden en el agua, mientras su cuerpo emana una calma oceánica.",
   "moves": [
     {
-      "name": "Burbuja Serena",
-      "desc": "Lanza burbujas que envuelven al rival, reduciendo su velocidad durante el combate."
+      "name": "Ola de Sueño",
+      "desc": "Crea una ola que envuelve al enemigo, sumiéndolo en un sueño profundo.",
+      "name_en": "Sleep Wave",
+      "visual_prompt": "gentle undulating water waves, deep ocean blue and teal green hues, pearly white bioluminescent plankton glowing softly, aquamarine ripples spreading outward, sapphire blue energy pulses, calm underwater current motion"
     },
     {
-      "name": "Ola Dormida",
-      "desc": "Crea una ola que envuelve al enemigo, dejándolo adormilado por un turno."
+      "name": "Burbuja Estelar",
+      "desc": "Lanza burbujas que brillan con luz estelar, reduciendo la velocidad del rival.",
+      "name_en": "Stellar Bubble",
+      "visual_prompt": "glowing starlight bubbles, deep ocean blue water, teal green bioluminescent plankton, pearly white light trails, aquamarine swirls, sapphire blue currents"
     },
     {
-      "name": "Chorro de Sal",
-      "desc": "Dispara un chorro salino que quema la piel del oponente."
+      "name": "Mar de Suenos",
+      "desc": "Genera un mar de sueños que confunde a los enemigos con visiones acuáticas.",
+      "name_en": "Dream Sea",
+      "visual_prompt": "bioluminescent plankton swirls, deep ocean blue waves, teal green water ripples, pearly white mist, aquamarine light refractions, sapphire blue currents, calm underwater motion, ethereal shimmering"
     },
     {
-      "name": "Cascada Soñolienta",
-      "desc": "Genera una cascada que reduce el ataque del rival y lo adormece."
+      "name": "Respiración Oceánica",
+      "desc": "Recupera salud al respirar el aire húmedo del océano.",
+      "name_en": "Ocean Breath",
+      "visual_prompt": "bioluminescent plankton swirls, deep ocean blue water currents, pearly white bubbles rising, teal green sea flora, aquamarine light rays, sapphire blue mist, calm underwater motion"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondo y peludo",
-      "to": "Cuerpo redondo con una capa de agua que brilla, adaptado para flotar"
+      "from": "piel lisa y grasienta",
+      "to": "piel brillante y húmeda, como si estuviera recién salido del mar"
     },
     {
-      "from": "Ojos pequeños y oscuros",
-      "to": "Ojos pequeños con reflejos azules brillantes"
+      "from": "patas cortas y pesadas",
+      "to": "patas plantadas en el agua, con huellas que dejan burbujas"
     },
     {
-      "from": "Pelaje suave y terroso",
-      "to": "Pelaje transformado en manto acuático brillante"
+      "from": "boca abierta y relajada",
+      "to": "boca abierta, expulsando burbujas de aire mientras duerme"
     },
     {
-      "from": "Movimientos lentos y pesados",
-      "to": "Movimientos fluidos y adaptados para el agua, con mayor agilidad"
+      "from": "postura baja y pesada",
+      "to": "postura flotante, sostenida por una capa de agua bajo sus patas"
     }
   ],
   "pokemon_id": "143",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Escarlata",
-  "lore": "Con alas de llamas escarlata y un caparazón de carbón ardiente, su cabeza redonda brilla con ojos de fuego. Sus alas cortantes cortan el aire, dejando estelas de chispas en su camino.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Scyther, ahora transformado en un guerrero de fuego, camina con patas ardientes y alas de llamas. Su postura baja y poderosa refleja su dominio sobre el fuego, con garras que cortan el aire como cuchillas de fuego.",
   "moves": [
     {
-      "name": "Cuchilla de Llama",
-      "desc": "Corta con garras incandescentes, infligiendo daño y quemaduras en el oponente."
+      "name": "Corte de Llama",
+      "desc": "Corta al rival con garras incandescentes, causando daño y posiblemente quemadura.",
+      "name_en": "Blazing Slash",
+      "visual_prompt": "crimson red fire slashes, molten gold embers swirling, charcoal black smoke trails, glowing ember sparks, volcanic crater backdrop with magma pools"
     },
     {
-      "name": "Viento de Carbón",
-      "desc": "Lanza ráfagas de humo y cenizas que reducen la precisión del rival."
+      "name": "Ala de Fuego",
+      "desc": "Lanza llamas desde sus alas, infligiendo daño y posiblemente quemadura.",
+      "name_en": "Fire Wing",
+      "visual_prompt": "crimson flames erupting from stylized wing shapes, molten gold embers swirling in smoke-filled air, glowing ember trails against charcoal black background, volcanic crater glow in distance"
     },
     {
-      "name": "Aleteo Incendiario",
-      "desc": "Aumenta su velocidad y ataque mientras emite llamas al volar."
+      "name": "Pata Ardiente",
+      "desc": "Aplasta al rival con patas incendiadas, causando daño y posiblemente quemadura.",
+      "name_en": "Blazing Kick",
+      "visual_prompt": "crimson red fire trails, molten gold footprints, amber orange embers swirling, charcoal black smoke wisps, glowing ember sparks, volcanic crater background with magma pools"
     },
     {
-      "name": "Horno de Corte",
-      "desc": "Crea una explosión de fuego al atacar, dañando a todos los enemigos cercanos."
+      "name": "Fuego de Corte",
+      "desc": "Corta con un movimiento rápido de garras en llamas, causando daño y posiblemente quemadura.",
+      "name_en": "Flame Slash",
+      "visual_prompt": "crimson fire claws, molten gold embers, amber-orange sparks, charcoal black smoke trails, volcanic crater backdrop, glowing ember particles, dynamic swirling fire effect"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de insecto",
-      "to": "Alas de llamas escarlata que queman al tocar"
+      "from": "patas cuadrúpedas",
+      "to": "patas plantadas en el suelo con llamas que arden"
     },
     {
-      "from": "Cuerpo verde",
-      "to": "Caparazón de carbón ardiente que brilla con calor"
+      "from": "alas de vuelo",
+      "to": "alas de llamas que lanzan fuego"
     },
     {
-      "from": "Ojos pequeños",
-      "to": "Ojos de llama que brillan con intensidad"
+      "from": "postura baja",
+      "to": "postura baja y poderosa dominando el fuego"
     },
     {
-      "from": "Cabeza redonda",
-      "to": "Cabeza redonda con orejas puntiagudas en llamas"
+      "from": "garras cortantes",
+      "to": "garras incandescentes que cortan el aire como cuchillas de fuego"
     }
   ],
   "pokemon_id": "123",

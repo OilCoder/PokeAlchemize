@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Magnética",
-  "lore": "Este Magnemite transformado irradia calor de sus núcleos magnéticos, sus ojos brillan como carbones incandescentes. Su cuerpo metálico se funde en un resplandor dorado, generando chispas eléctricas al tacto.",
+  "species_name": "Pokémon Llama de Acero",
+  "lore": "El Pokémon Llama de Acero resplandece con llamas doradas que danzan sobre su armadura de acero. Sus patas, ahora cubiertas de escamas incandescentes, mantienen un equilibrio firme mientras libera chispas de fuego al moverse.",
   "moves": [
     {
       "name": "Chispa de Fuego",
-      "desc": "Genera una llamarada eléctrica que quema al oponente con energía magnética."
+      "desc": "Lanza chispas incandescentes que queman el suelo donde caen.",
+      "name_en": "Fire Spark",
+      "visual_prompt": "crimson red sparks, molten gold embers, glowing ash particles, volcanic crater background, amber orange heat waves, charcoal black smoke trails, incandescent ground burns"
     },
     {
-      "name": "Carga Magnética",
-      "desc": "Aumenta el poder de los ataques eléctricos con un impulso de fuego."
+      "name": "Carga de Acero",
+      "desc": "Aumenta su velocidad al cargar energía del fuego, acelerando sus pasos.",
+      "name_en": "Steel Charge",
+      "visual_prompt": "molten gold energy orbs swirling in a crimson vortex, fiery orange embers trailing like sparks, charcoal-black streaks cutting through glowing magma pools, dynamic motion lines emphasizing speed"
     },
     {
-      "name": "Escudo de Llama",
-      "desc": "Crea un escudo protector que absorbe ataques y libera calor."
+      "name": "Escudo Llamante",
+      "desc": "Crea un escudo de llamas que refleja ataques elementales.",
+      "name_en": "Blazing Shield",
+      "visual_prompt": "crimson red flame shield, molten gold energy rings, amber orange embers swirling, charcoal black smoke tendrils, glowing ember reflections, volcanic crater background glow"
     },
     {
-      "name": "Explosión Magnética",
-      "desc": "Lanza una explosión de energía magnética que quema y electrocuta."
+      "name": "Fusión Caldera",
+      "desc": "Combina fuego y acero para forjar un arma incandescente en sus manos.",
+      "name_en": "Molten Forge",
+      "visual_prompt": "crimson red molten steel swirls, amber orange sparks, molten gold weapon outline, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, dynamic metallic sheen"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo metálico frío",
-      "to": "Cuerpo metálico caliente que irradia calor"
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas cubiertas de escamas incandescentes que emiten calor"
     },
     {
-      "from": "Ojos pequeños y oscuros",
-      "to": "Ojos brillantes como carbones incandescentes"
+      "from": "Baja postura",
+      "to": "Postura erguida con llamas que danzan sobre su armadura"
     },
     {
-      "from": "Genera campos magnéticos estáticos",
-      "to": "Genera campos magnéticos con chispas de fuego"
+      "from": "Estructura metálica",
+      "to": "Armada con llamas que se fusionan con el acero"
     },
     {
-      "from": "Ataques eléctricos fríos",
-      "to": "Ataques eléctricos que queman con calor"
+      "from": "Vibraciones eléctricas",
+      "to": "Chispas de fuego que brillan al moverse"
     }
   ],
   "pokemon_id": "081",

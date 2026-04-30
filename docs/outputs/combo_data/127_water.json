@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "El Pinsir Marina se adapta a los océanos con su cuerpo redondeado y brillante. Sus patas cortas se transforman en aletas flexibles, mientras que su caparazón absorbe el agua para liberar ondas de presión.",
+  "species_name": "Pokémon Agua Lanza",
+  "lore": "Agua Lanza, con su armadura de escamas resplandecientes, desplaza el agua a su alrededor con cada paso. Sus patas terminan en garras afiladas que cortan el agua como si fuera aire, mientras su cuerpo emite un brillo azul intenso.",
   "moves": [
     {
-      "name": "Ola de Pinza",
-      "desc": "Genera una ola de agua que aturde al oponente con fuerza hidrostática."
+      "name": "Ola de Escamas",
+      "desc": "Lanza una ola de escamas brillantes que daña y reduce la defensa del rival.",
+      "name_en": "Scale Wave",
+      "visual_prompt": "glowing pearl-white scales shimmering in deep ocean blue currents, teal-green bioluminescent plankton swirls, aquamarine energy ripples, sapphire blue water droplets suspended mid-air, smooth flowing motion lines"
     },
     {
-      "name": "Burbuja de Caparazón",
-      "desc": "Crea burbujas protectoras que reducen el daño recibido."
+      "name": "Corriente de Garras",
+      "desc": "Crea una corriente de agua que impulsa al rival hacia atrás, causando daño y confusión.",
+      "name_en": "Claw Current",
+      "visual_prompt": "swirling water vortex, sharp claw-shaped ripples, glowing bioluminescent plankton, deep ocean blue and teal water currents, pearly white bubbles, aquamarine mist, sapphire blue energy trails"
     },
     {
-      "name": "Chorro de Caudal",
-      "desc": "Dispara un chorro de agua a alta presión para empujar al rival."
+      "name": "Hidro Lanza",
+      "desc": "Dispara un chorro de agua a presión que atraviesa el escudo del oponente.",
+      "name_en": "Hydro Jet",
+      "visual_prompt": "pressurized water jet, swirling vortex of deep ocean blue and teal, glowing bioluminescent plankton particles, pearly white spray mist, aquamarine ripples, sapphire blue energy trails"
     },
     {
-      "name": "Respiración Marítima",
-      "desc": "Recupera energía al absorber el agua del entorno."
+      "name": "Marino Ataque",
+      "desc": "Aumenta el ataque y la velocidad mientras se sumerge en el agua.",
+      "name_en": "Marine Strike",
+      "visual_prompt": "glowing bioluminescent plankton, swirling deep ocean currents, pearly white water droplets, teal green ripples, sapphire blue energy waves, calm underwater motion"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo redondeado",
-      "to": "cuerpo redondeado y brillante con caparazón absorbente de agua"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas terminan en garras afiladas que cortan el agua"
     },
     {
-      "from": "patas cortas",
-      "to": "patas cortas transformadas en aletas flexibles"
+      "from": "armadura de escamas",
+      "to": "escamas resplandecientes que brillan bajo el agua"
     },
     {
-      "from": "caparazón duro",
-      "to": "caparazón que absorbe agua para liberar ondas de presión"
+      "from": "baja postura",
+      "to": "postura elevada para aprovechar la corriente del agua"
     },
     {
-      "from": "movimientos de ataque rápido",
-      "to": "movimientos enfocados en controlar el agua y generar presión"
+      "from": "tipo bicho",
+      "to": "tipo agua que le permite moverse con fluidez en el agua"
     }
   ],
   "pokemon_id": "127",

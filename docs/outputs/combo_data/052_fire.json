@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Felina",
-  "lore": "Su pelaje brillante ahora irradia llamas rojas que danzan en sus orejas puntiagudas. El negro de sus puntas se funde con el fuego, creando un aura de intensidad. Sus ojos brillan con el calor de una hoguera.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Este Meowth, transformado por el fuego, arde con una cola llameante que ilumina las sombras. Sus garras brillan como carbón incandescente, y sus ojos reflejan llamas danzantes. El calor de su presencia quema incluso el aire a su alrededor.",
   "moves": [
     {
       "name": "Llamarada Felina",
-      "desc": "Ataca con una ráfaga de llamas que queman suavemente, dejando un aroma a café."
+      "desc": "Lanza una ráfaga de llamas desde la cola, quemando al oponente con un ataque rápido y preciso.",
+      "name_en": "Feline Blaze",
+      "visual_prompt": "crimson red fire trails, amber orange embers swirling, molten gold tail-shaped flame vortex, charcoal black smoke tendrils, glowing ember sparks, dynamic motion lines, volcanic crater backdrop"
     },
     {
       "name": "Garras de Fuego",
-      "desc": "Cubre sus garras con llamas para rasgar con más fuerza."
+      "desc": "Ataca con garras incandescentes que dejan marcas de quemaduras en el enemigo.",
+      "name_en": "Blazing Claws",
+      "visual_prompt": "incandescent claw marks, molten gold embers, crimson red smoke trails, glowing ember particles, volcanic crater backdrop, charcoal black ash swirls"
     },
     {
-      "name": "Rugido Ardiente",
-      "desc": "Emite un rugido que genera ondas de calor para debilitar al rival."
+      "name": "Resplandor de la Llama",
+      "desc": "Genera un resplandor cálido que aumenta la velocidad de todos los aliados.",
+      "name_en": "Flame Radiance",
+      "visual_prompt": "crimson red light beams, amber orange swirling embers, molten gold particle trails, charcoal black smoke wisps, glowing ember sparks, dynamic heat distortion waves"
     },
     {
-      "name": "Fuego de Caza",
-      "desc": "Lanza una llamarada precisa para atrapar a los enemigos en una trampa de fuego."
+      "name": "Fuego de la Noche",
+      "desc": "Cubre el campo de batalla con llamas que reducen la defensa del enemigo.",
+      "name_en": "Nightfire",
+      "visual_prompt": "crimson red flames, amber orange embers, molten gold lava streams, charcoal black smoke swirls, glowing ember particles, volcanic crater backdrop, smoke-filled air, dynamic flame motion"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas con puntas de fuego que brillan en tonos rojos y anaranjados"
+      "from": "cola suave y compacta",
+      "to": "cola convertida en llama ardiente que brilla intensamente"
     },
     {
-      "from": "pelaje normal",
-      "to": "pelaje que irradia calor y se ve brillante como llamas"
+      "from": "pelaje gris claro",
+      "to": "pelaje dorado con destellos de llama en cada mechón"
     },
     {
       "from": "ojos oscuros",
-      "to": "ojos que brillan con un resplandor rojo intenso"
+      "to": "ojos brillantes como carbón incandescente"
     },
     {
-      "from": "movimientos básicos",
-      "to": "movimientos enfocados en controlar y liberar fuego"
+      "from": "postura tranquila",
+      "to": "postura alerta y vibrante con un aura de calor constante"
     }
   ],
   "pokemon_id": "052",

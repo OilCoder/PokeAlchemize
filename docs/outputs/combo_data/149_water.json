@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Oceánico Dragón",
-  "lore": "Con su cabeza triangular coronada por cuernos curvos, ahora se funde con el agua. Su piel refleja olas profundas, y sus alas brillan como cristal bajo el mar. El agua fluye a través de su cuerpo, intensificando su fuerza.",
+  "lore": "El Oceánico Dragón se desplaza con gracia por los océanos, sus escamas brillan como gotas de cristal bajo el sol. Sus patas, ahora adaptadas para nadar, emiten un brillo azul al tocar el agua.",
   "moves": [
     {
       "name": "Ola Dragón",
-      "desc": "Lanza una ola que absorbe fuerza del agua y la convierte en poder de ataque."
+      "desc": "Genera una ola poderosa que empuja al enemigo hacia atrás, combinando fuerza marina y energía dragónica.",
+      "name_en": "Dragon Wave",
+      "visual_prompt": "powerful ocean wave, deep ocean blue and teal green energy ripples, pearly white dragon scales, aquamarine mist, sapphire blue glow, bioluminescent plankton particles, calm underwater current motion"
     },
     {
       "name": "Burbuja Dragón",
-      "desc": "Crea burbujas que envuelven al oponente, reduciendo su velocidad."
+      "desc": "Lanza burbujas que absorben ataques y luego explotan con fuerza dragónica.",
+      "name_en": "Dragon Bubble",
+      "visual_prompt": "glowing deep ocean blue bubbles, teal green energy trails, pearly white burst effects, aquamarine shockwaves, sapphire blue dragon motifs, bioluminescent plankton particles, calm underwater currents"
     },
     {
       "name": "Marea Dragón",
-      "desc": "Genera una marea que eleva al Pokémon y ataca desde arriba."
+      "desc": "Crea una marea que eleva al Pokémon y ataca con un remolino de energía.",
+      "name_en": "Dragon Tide",
+      "visual_prompt": "crystalline blue water vortex, swirling teal-green energy rings, glowing bioluminescent plankton sparks, pearly white foam trails, deep ocean trench backdrop with subtle sapphire blue light rays"
     },
     {
-      "name": "Cristal Dragón",
-      "desc": "Cubre su cuerpo con cristales de agua que reflejan ataques."
+      "name": "Salpicadura Dragón",
+      "desc": "Dispara salpicaduras que curan al Pokémon y debilitan al enemigo con fuerza acuática.",
+      "name_en": "Dragon Splash",
+      "visual_prompt": "glowing aquamarine water droplets, shimmering teal green bubbles, deep ocean blue currents, pearly white bioluminescent plankton, gentle swirling motion, translucent water ripples"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza triangular con cuernos curvos",
-      "to": "Cuernos ahora brillan con reflejos acuáticos y absorben energía del agua."
+      "from": "Cuatro patas para caminar",
+      "to": "Patas adaptadas para nadar, con aletas en los dedos."
     },
     {
-      "from": "Alas de dragón",
-      "to": "Alas se transforman en estructuras translúcidas que permiten nadar bajo el agua."
+      "from": "Ala de dragón para volar",
+      "to": "Alas convertidas en aletas para deslizarse bajo el agua."
     },
     {
-      "from": "Piel escamosa",
-      "to": "Escamas se vuelven resplandecientes y reflejan el movimiento de las olas."
+      "from": "Escamas brillantes",
+      "to": "Escamas que reflejan la luz del sol en el agua, como cristal."
     },
     {
-      "from": "Vuelo en el aire",
-      "to": "Navega bajo el mar con gracia, usando el agua para impulsarse."
+      "from": "Estructura robusta",
+      "to": "Cuerpo más flexible y ligero para moverse en el agua."
     }
   ],
   "pokemon_id": "149",

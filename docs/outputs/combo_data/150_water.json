@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Mewtwo Acuático",
-  "lore": "Mewtwo Acuático emerge de las profundidades oceánicas, su piel azul pálido brillando con destellos morados bajo el agua. Sus ojos emiten un resplandor azul, y sus garras se han convertido en pinzas afiladas para atrapar presas en el mar.",
+  "species_name": "Pokémon Agua Mental",
+  "lore": "Mewtwo, ahora envuelto en un aura acuática, camina con gracia sobre el agua. Sus ojos brillan con poderes hidrodinámicos, y sus manos emiten ondas que controlan el flujo del agua.",
   "moves": [
     {
       "name": "Ola Psíquica",
-      "desc": "Lanza una ola que combina fuerza psíquica y agua para desorientar a los oponentes."
+      "desc": "Genera una ola que envuelve al oponente, mezclando fuerzas psíquicas y acuáticas.",
+      "name_en": "Psychic Wave",
+      "visual_prompt": "bioluminescent teal waves, swirling aquamarine energy rings, pearly white psychic orbs, deep ocean blue currents, glowing plankton particles, smooth water ripples"
     },
     {
       "name": "Burbuja Mental",
-      "desc": "Crea burbujas llenas de energía psíquica que retrasan al enemigo."
+      "desc": "Crea burbujas que absorben ataques psíquicos y los devuelven al oponente.",
+      "name_en": "Mental Bubble",
+      "visual_prompt": "glowing bioluminescent bubbles, swirling water currents, deep ocean blue and teal green hues, pearly white reflections, aquamarine light trails, sapphire blue energy ripples"
+    },
+    {
+      "name": "Tormenta Hidrófoba",
+      "desc": "Desata una tormenta de agua que reduce la velocidad del oponente.",
+      "name_en": "Hydrostorm",
+      "visual_prompt": "swirling vortex of deep ocean blue water, glowing teal green bioluminescent plankton, pearly white foam spirals, aquamarine mist, sapphire blue currents"
     },
     {
       "name": "Marea Mental",
-      "desc": "Genera una marea psíquica que eleva y sumerge al oponente en una ola de fuerza mental."
-    },
-    {
-      "name": "Ojo de Agua",
-      "desc": "Enfoca un destello de agua psíquica que ciega al rival con una mirada hipnótica."
+      "desc": "Controla el agua para crear una marea que eleva al oponente y lo ataca.",
+      "name_en": "Mental Tide",
+      "visual_prompt": "glowing bioluminescent water currents, swirling teal and aquamarine vortex, deep ocean blue ripples, pearly white foam bursts, calm underwater motion, shimmering sapphire blue energy"
     }
   ],
   "diffs": [
     {
-      "from": "piel azul pálido",
-      "to": "piel azul pálido brillando con destellos morados bajo el agua"
+      "from": "Bipedal, upright stance",
+      "to": "Caminar sobre el agua con paso elegante, sin mojarse."
     },
     {
-      "from": "ojos pálidos",
-      "to": "ojos emiten un resplandor azul"
+      "from": "Arms at sides",
+      "to": "Manos emiten ondas acuáticas que controlan el flujo del agua."
     },
     {
-      "from": "garras afiladas",
-      "to": "garras se han convertido en pinzas afiladas"
+      "from": "Psychic type",
+      "to": "Poder psíquico mezclado con fuerzas acuáticas, controlando el agua."
     },
     {
-      "from": "poder psíquico",
-      "to": "poder psíquico combinado con fuerza acuática"
+      "from": "Eyes",
+      "to": "Brillan con poderes hidrodinámicos, reflejando el control sobre el agua."
     }
   ],
   "pokemon_id": "150",

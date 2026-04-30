@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Mariposa Arcana",
-  "lore": "Mariposa Arcana despliega alas de cristal que brillan con luz de luna. Su cabeza redonda ahora está adornada con pétalos luminosos, y sus garras curvas cortan el aire con magia etérea.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aliento de Hada camina con gracia etérea, sus brazos brillan con destellos dorados. Su aura psíquica se entrelaza con magia de hada, creando ondas de luz que calman mentes y sanan heridas.",
   "moves": [
     {
-      "name": "Ala de Sueño",
-      "desc": "Cubre al rival con pétalos que inducen un sueño profundo y mágico."
+      "name": "Canto de Luna",
+      "desc": "Crea una melodía que restaura la salud y calma a aliados en combate.",
+      "name_en": "Lunar Song",
+      "visual_prompt": "glowing moonlight beams, floating pastel pink musical notes, soft ivory white petals, pearl lavender starlight trails, crystalline mint dewdrops, ethereal mist, delicate star-shaped glow"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza una lluvia de pétalos que cura y fortalece los ataques."
+      "name": "Viento de Sueños",
+      "desc": "Envía un viento suave que confunde al enemigo y reduce su precisión.",
+      "name_en": "Dream Wind",
+      "visual_prompt": "soft pastel pink mist swirling in gentle spirals, floating crystalline mint leaves with glowing starlight blue edges, ivory white petals dissolving into pearl lavender stardust, delicate shimmering particles reducing precision markers"
     },
     {
-      "name": "Cristal de Luna",
-      "desc": "Crea un escudo de cristal que refleja ataques y reduce daño."
+      "name": "Brillo de Estrellas",
+      "desc": "Emite destellos brillantes que aumentan el ataque y la defensa de aliados.",
+      "name_en": "Starlight Gleam",
+      "visual_prompt": "glowing starlight blue orbs, pastel pink and pearl lavender sparkles, crystalline mint energy trails, soft misty twilight sky backdrop, shimmering fairy dust particles, delicate floral patterns in ivory white"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Ataca con un baile que lanza estrellas que confunden al enemigo."
+      "name": "Hechizo de Paz",
+      "desc": "Genera un campo mágico que reduce el daño recibido por todo el equipo.",
+      "name_en": "Peace Spell",
+      "visual_prompt": "floating pastel pink orbs, shimmering ivory white energy waves, pearl lavender mist swirls, glowing starlight blue crystalline petals, soft mint light particles, ethereal moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "adornada con pétalos luminosos que brillan bajo la luna"
+      "from": "Brazos cortos a los lados",
+      "to": "Brazos largos y brillantes que emiten destellos dorados"
     },
     {
-      "from": "garras curvas",
-      "to": "cortan el aire con magia etérea, dejando rastros brillantes"
+      "from": "Aura psíquica",
+      "to": "Aura psíquica entrelazada con magia de hada"
     },
     {
-      "from": "poder psíquico",
-      "to": "transformado en magia etérea que cura y protege"
+      "from": "Postura erguida",
+      "to": "Postura fluida y etérea, como danzando en el aire"
     },
     {
-      "from": "movimientos de psíquico",
-      "to": "reemplazados por danzas y pétalos mágicos"
+      "from": "Personalidad serena",
+      "to": "Personalidad más dulce y protectora, sanando heridas"
     }
   ],
   "pokemon_id": "065",

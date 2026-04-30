@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Dragón",
-  "lore": "Con su cabeza triangular y cuernos curvos, ahora emana un brillo pálido. Sus alas translúcidas desvanecen en la oscuridad, y su aura fantasmal envuelve a sus enemigos en sombras eternas.",
+  "species_name": "Pokémon Espectro Dragón",
+  "lore": "Dragón espectral flota sin peso, sus patas se disuelven en sombras. Ojos brillantes como lunas llenas de energía fantasmal. Su ala de dragón emite destellos plateados al moverse.",
   "moves": [
     {
-      "name": "Sombra de Dragón",
-      "desc": "Lanza una sombra que absorbe el poder de los ataques enemigos, reduciendo su efectividad."
+      "name": "Sombra Alada",
+      "desc": "Ataca con un ala hecha de sombras que absorbe la luz alrededor.",
+      "name_en": "Shadow Wing",
+      "visual_prompt": "shimmering shadow wings, absorbing light into dark voids, misty graveyard atmosphere, ethereal fog, deep violet and charcoal gray hues, pale silver highlights, ghostly white glow, drifting shadow tendrils"
     },
     {
-      "name": "Ala Fantasmal",
-      "desc": "Ataca con alas que atraviesan la materia, causando daño sin contacto físico."
+      "name": "Aliento Ectópico",
+      "desc": "Emita un aliento que envuelve al enemigo en una niebla espesa y fría.",
+      "name_en": "Phantom Breath",
+      "visual_prompt": "ethereal mist, cold violet fog swirling, ghostly silver tendrils, deep shadow violet hues, pale silver particles, misty graveyard atmosphere, moonlit tombstone silhouettes faintly visible in background"
     },
     {
-      "name": "Respiración Eterna",
-      "desc": "Emite un aliento que desvía la energía de los ataques, protegiendo al usuario."
+      "name": "Fantasma de Dragón",
+      "desc": "Crea una imagen fantasmal de sí mismo para distraer al oponente.",
+      "name_en": "Dragon Phantom",
+      "visual_prompt": "ethereal violet mist, ghostly silver silhouette of a dragon, drifting moonlit tombstones, shadow violet fog, pale white spectral glow, misty graveyard atmosphere"
     },
     {
-      "name": "Espectro de Pluma",
-      "desc": "Cubre al enemigo con plumas que lo hacen vulnerable a ataques fantasma."
+      "name": "Viento Sombrío",
+      "desc": "Genera un viento que desplaza objetos y crea una sombra gigante.",
+      "name_en": "Shadow Gale",
+      "visual_prompt": "tumbling black leaves, swirling violet mist, ghostly white orbs, elongated shadow silhouette, moonlit tombstone fragments, ethereal fog, deep violet aura, charcoal gray swirls, pale silver accents, shadow violet light rays"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo sólido",
-      "to": "Cuerpo translúcido y etéreo"
+      "from": "cuatro patas en el suelo",
+      "to": "patas disueltas en sombras, flotando sin contacto con el suelo"
     },
     {
-      "from": "Alas de dragón",
-      "to": "Alas que se disuelven en la oscuridad"
+      "from": "postura baja",
+      "to": "postura elevada, flotando en el aire con gracia"
     },
     {
-      "from": "Cuernos brillantes",
-      "to": "Cuernos que emiten un brillo pálido"
+      "from": "alas de dragón",
+      "to": "alas hechas de sombras plateadas que brillan en la oscuridad"
     },
     {
-      "from": "Aliento de fuego",
-      "to": "Aliento que desvía energías"
+      "from": "tipo dragon/vuelo",
+      "to": "tipo fantasma, con energía espectral en lugar de energía de dragón."
     }
   ],
   "pokemon_id": "149",

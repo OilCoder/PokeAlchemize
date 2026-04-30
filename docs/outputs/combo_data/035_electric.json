@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago de Cielo",
-  "lore": "Con ojos brillantes como esferas eléctricas, su pelaje plateado zumba con energía. Cada movimiento libera chispas que iluminan el cielo. Sus risas generan cortocircuitos en los dispositivos cercanos.",
+  "species_name": "Pokémon Relámpago Aéreo",
+  "lore": "Clefairy ahora emana destellos eléctricos al caminar, sus patas brillan con chispas azules. Su pelaje suave se transforma en un aura brillante que atrae a otros Pokémon. Su postura baja se mantiene, pero ahora genera un campo eléctrico al moverse.",
   "moves": [
     {
-      "name": "Chispa Celestial",
-      "desc": "Lanza una descarga que paraliza a los enemigos y los hace brillar como estrellas."
+      "name": "Chispa Aérea",
+      "desc": "Lanza pequeñas descargas eléctricas que se dispersan en el aire, afectando a múltiples objetivos.",
+      "name_en": "Air Spark",
+      "visual_prompt": "electric blue lightning bolts, neon yellow arcs, violet spark particles, bright white energy pulses, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Rayo de Confianza",
-      "desc": "Aumenta la precisión de los movimientos y genera una aura protectora alrededor del usuario."
+      "name": "Relámpago de Luz",
+      "desc": "Genera un destello eléctrico intenso que ciega a los oponentes por un turno.",
+      "name_en": "Lightning Flash",
+      "visual_prompt": "intense electric blue lightning bolts, neon yellow sparks, violet energy streaks, bright white bursts, crackling energy field, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Bola de Electrón",
-      "desc": "Dispara una esfera eléctrica que causa daño y reduce la defensa del oponente."
+      "name": "Carga Estelar",
+      "desc": "Aumenta el ataque y la velocidad en un 50% durante un turno.",
+      "name_en": "Star Charge",
+      "visual_prompt": "glowing electric blue orbs swirling in a vortex, neon yellow lightning bolts arcing through violet sparks, bright white energy trails, stormy sky backdrop with crackling energy fields"
     },
     {
-      "name": "Carga de Luz",
-      "desc": "Recarga energía para un ataque potente en el siguiente turno, aumentando el poder del siguiente movimiento."
+      "name": "Pararrayos Suave",
+      "desc": "Absorbe ataques eléctricos y los devuelve con el doble de fuerza.",
+      "name_en": "Soft Thunder",
+      "visual_prompt": "electric blue orbs swirling in a vortex, neon yellow lightning bolts crackling, violet sparks bursting outward, bright white energy pulses, electric cyan lightning streaks, stormy sky backdrop with crackling energy fields"
     }
   ],
   "diffs": [
     {
-      "from": "ojos grandes redondos con pupilas negras",
-      "to": "ojos brillantes como esferas eléctricas que zumban con energía"
+      "from": "Pelaje suave y blanco",
+      "to": "Pelaje brillante con destellos eléctricos azules"
     },
     {
-      "from": "pelaje suave y blanco",
-      "to": "pelaje plateado que emite chispas al moverse"
+      "from": "Movimientos lentos y suaves",
+      "to": "Movimientos rápidos con chispas eléctricas"
     },
     {
-      "from": "movimientos suaves y delicados",
-      "to": "movimientos rápidos que generan cortocircuitos en objetos electrónicos"
+      "from": "Postura baja y tranquila",
+      "to": "Postura baja con un campo eléctrico que vibra al caminar"
     },
     {
-      "from": "capacidad de crear magia suave",
-      "to": "capacidad de generar descargas eléctricas que iluminan el cielo"
+      "from": "Ataques mágicos de tipo Hada",
+      "to": "Ataques eléctricos que combinan con el tipo Eléctrico"
     }
   ],
   "pokemon_id": "035",

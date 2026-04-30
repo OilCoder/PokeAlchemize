@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Su capucha de hojas se electrifica con destellos azules, sus ojos rojos brillan con chispas. La energía eléctrica potencia su semilla, generando relámpagos en cada paso.",
+  "lore": "Bulbasaur ahora irradia energía eléctrica en su caparazón, sus raíces brillan con chispas azules. Sus patas emiten destellos al caminar, cargando el aire con tensión estática.",
   "moves": [
     {
-      "name": "Relámpago de Hojas",
-      "desc": "Ataca con hojas cargadas de electricidad que queman y paralizan al rival."
+      "name": "Chispa de Raíz",
+      "desc": "Genera chispas en las raíces para atacar, causando daño eléctrico y confusión.",
+      "name_en": "Root Spark",
+      "visual_prompt": "electric blue sparks, neon yellow roots, violet sparks, bright white energy arcs, crackling energy fields, stormy sky background, neon-lit thunderclouds"
     },
     {
-      "name": "Chispa Solar",
-      "desc": "Absorbe luz solar para liberar una descarga eléctrica en el campo."
+      "name": "Descarga Estática",
+      "desc": "Descarga energía acumulada en el caparazón, afectando a todos los enemigos cercanos.",
+      "name_en": "Static Charge",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy pulses, stormy sky background with crackling energy fields, neon-lit thunderclouds"
     },
     {
-      "name": "Electrohoja",
-      "desc": "Cubre sus hojas con energía eléctrica para cortar con precisión."
+      "name": "Carga Terrestre",
+      "desc": "Aumenta el ataque al plantar las patas en el suelo, generando una onda de energía.",
+      "name_en": "Ground Charge",
+      "visual_prompt": "crackling electric blue energy waves, neon yellow ground pulses, violet sparks arcing upward, bright white lightning bolts, electric cyan energy field, stormy sky backdrop"
     },
     {
-      "name": "Paralizante Esmeralda",
-      "desc": "Lanza una esfera brillante que paraliza y lanza destellos."
+      "name": "Relámpago Raíz",
+      "desc": "Lanza un rayo desde las raíces, causando daño eléctrico y parálisis.",
+      "name_en": "Root Bolt",
+      "visual_prompt": "crackling electric roots, neon yellow lightning bolts, violet sparks, electric cyan energy arcs, stormy sky backdrop, glowing white energy fields"
     }
   ],
   "diffs": [
     {
-      "from": "semilla en su espalda",
-      "to": "se transforma en una fuente de energía eléctrica brillante"
+      "from": "caparazón verde",
+      "to": "caparazón brillante con chispas azules"
     },
     {
-      "from": "ojos verdes",
-      "to": "se vuelven rojos con destellos azules"
+      "from": "raíces en el suelo",
+      "to": "raíces cargadas de energía eléctrica"
     },
     {
-      "from": "hojas verdes",
-      "to": "adquieren brillo azul eléctrico"
+      "from": "patas sólidas",
+      "to": "patas que emiten destellos al caminar"
     },
     {
-      "from": "movimientos de hierba",
-      "to": "ahora usan descargas eléctricas en lugar de ataques de hierba"
+      "from": "postura baja",
+      "to": "postura más dinámica con energía acumulada"
     }
   ],
   "pokemon_id": "001",

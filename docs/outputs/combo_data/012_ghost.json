@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Mariposa",
-  "lore": "Su cuerpo translúcido brilla con destellos pálidos, sus alas de seda se deshacen en sombras. Los ojos rojos, ahora sin pupilas, emiten un resplandor etéreo que hipnotiza a sus enemigos en la oscuridad.",
+  "species_name": "Pokémon Espectro Alas",
+  "lore": "El Espectro Alas flota sin peso, sus alas translúcidas brillan con destellos pálidos. Sus patas se han vuelto etéreas, y su cuerpo emite un susurro frío al moverse. En el aire, deja rastros de niebla que envuelven a sus enemigos.",
   "moves": [
     {
-      "name": "Sombra Danzante",
-      "desc": "Crea sombras que se entrelazan alrededor del oponente, reduciendo su velocidad en combate."
+      "name": "Alas de Sombras",
+      "desc": "Inmoviliza al rival con alas que proyectan sombras densas, reduciendo su velocidad.",
+      "name_en": "Shadow Wings",
+      "visual_prompt": "dense violet shadows, swirling ghostly wings, misty graveyard atmosphere, moonlit tombstones, ethereal fog, deep violet and charcoal gray hues, pale silver accents, shadow violet particles, motion-blurred wisps"
     },
     {
-      "name": "Ala de Espíritu",
-      "desc": "Ataca con un giro de alas que envía un aura espectral, causando daño psíquico."
+      "name": "Susurro Fantasma",
+      "desc": "Ataca con un susurro que reduce la defensa del oponente, como un eco sin cuerpo.",
+      "name_en": "Ghost Whisper",
+      "visual_prompt": "ethereal mist swirling in deep violet and charcoal gray, pale silver echoes forming ghostly whispers, shadow violet ripples in misty graveyard setting, ghostly white orbs floating, ethereal fog drifting"
     },
     {
-      "name": "Visión Fantasma",
-      "desc": "Genera una ilusión que confunde al rival, reduciendo su precisión."
+      "name": "Nieve de Espíritu",
+      "desc": "Genera una neblina fría que baja la precisión de todos los ataques del enemigo.",
+      "name_en": "Spirit Frost",
+      "visual_prompt": "crystalline frost particles, swirling mist in deep violet and charcoal gray, pale silver glowing orbs, ghostly white tendrils, shadow violet fog, ethereal icy mist, no characters or Pokémon"
     },
     {
-      "name": "Resplandor Espectral",
-      "desc": "Emite un brillo tenue que cura la energía de aliados cercanos."
+      "name": "Vuelo Espectral",
+      "desc": "Se eleva y ataca desde arriba, evitando los golpes físicos.",
+      "name_en": "Spectral Flight",
+      "visual_prompt": "floating ghostly violet orbs, swirling charcoal gray mist, pale silver moonlight beams, shadow violet energy trails, ethereal fog tendrils, ghostly white afterimages"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de seda brillantes",
-      "to": "Alas que se deshacen en sombras etéreas"
+      "from": "Alas grandes y extendidas",
+      "to": "Alas translúcidas y etéreas que brillan con destellos pálidos"
     },
     {
-      "from": "Ojos grandes con pupilas negras",
-      "to": "Ojos rojos sin pupilas que brillan en la oscuridad"
+      "from": "Cuerpo ligero y volador",
+      "to": "Cuerpo que emite un susurro frío y deja rastros de niebla"
     },
     {
-      "from": "Vuelo ligero en el aire",
-      "to": "Desplazamiento silencioso a través de la oscuridad"
+      "from": "Insecto de color vibrante",
+      "to": "Color desvanecido, con tonos grises y pálidos"
     },
     {
-      "from": "Atractivo para insectos",
-      "to": "Atrae espíritus errantes con su aura fantasmal"
+      "from": "Volar sin esfuerzo",
+      "to": "Flotar sin peso, sin tocar el suelo"
     }
   ],
   "pokemon_id": "012",

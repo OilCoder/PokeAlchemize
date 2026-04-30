@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "El Sandslash transformado en Fuego arde con llamas en sus puntas de orejas, su armadura de escamas se vuelve de un rojo intenso. Sus movimientos son rápidos y ardientes, quemando el suelo bajo sus patas.",
+  "species_name": "Pokémon Llama Terrenal",
+  "lore": "Con escamas de lava brillante y garras incandescentes, este Sandslash camina con pasos ardientes. Sus patas, ahora cubiertas de llamas, dejan huellas de fuego en la tierra seca.",
   "moves": [
     {
-      "name": "Llama Escamas",
-      "desc": "Quema las escamas del oponente con llamas intensas, reduciendo su defensa."
+      "name": "Llamarada Ceniza",
+      "desc": "Lanza una lluvia de cenizas incandescentes que quema el suelo alrededor.",
+      "name_en": "Ash Rain",
+      "visual_prompt": "incandescent ash rain, glowing ember trails, molten gold ground burns, crimson red smoke plumes, volcanic crater backdrop, ember sparks, charcoal black ash clouds"
     },
     {
-      "name": "Corte de Fuego",
-      "desc": "Corta al rival con un movimiento rápido, dejando una marca de fuego."
+      "name": "Fuego de Llano",
+      "desc": "Crea un campo de fuego que quema la hierba y aumenta su velocidad.",
+      "name_en": "Field Fire",
+      "visual_prompt": "crimson red flames swirling in a circular field, amber orange embers rising from molten gold magma pools, charcoal black smoke tendrils curling through glowing ember-lit air, volcanic crater backdrop with heat distortion"
     },
     {
-      "name": "Bola de Llama",
-      "desc": "Lanza una bola de fuego que explota al impactar."
+      "name": "Cascada de Lava",
+      "desc": "Inyecta lava fundida desde sus garras para derribar a los oponentes.",
+      "name_en": "Lava Cascade",
+      "visual_prompt": "molten lava streams, glowing crimson droplets, amber-orange splashes, charcoal smoke trails, molten gold ripples, volcanic crater backdrop, glowing ember sparks"
     },
     {
-      "name": "Calor Intenso",
-      "desc": "Aumenta el daño de los movimientos de fuego en un 20%."
+      "name": "Humedad Escaldada",
+      "desc": "Genera vapor al tocar agua, envenenando al enemigo con calor extremo.",
+      "name_en": "Scalding Steam",
+      "visual_prompt": "boiling water droplets, swirling steam clouds, crimson red mist, molten gold embers, amber orange vapor trails, charcoal black smoke particles, glowing ember sparks"
     }
   ],
   "diffs": [
     {
-      "from": "puntas de orejas redondeadas",
-      "to": "puntas de orejas afiladas y ardiendo en llamas"
+      "from": "Escamas duras y ásperas",
+      "to": "Escamas de lava brillante y resistentes al calor"
     },
     {
-      "from": "armadura de escamas de tierra",
-      "to": "armadura de escamas de metal fundido brillante"
+      "from": "Patas planas y sólidas",
+      "to": "Garras incandescentes que dejan huellas de fuego"
     },
     {
-      "from": "movimientos lentos en tierra",
-      "to": "movimientos rápidos y explosivos con fuego"
+      "from": "Bajo postura en el suelo",
+      "to": "Paso firme con llamas en cada zancada"
     },
     {
-      "from": "color marrón oscuro",
-      "to": "color rojo intenso con destellos anaranjados"
+      "from": "Vida en zonas áridas",
+      "to": "Vida en áreas de lava y rocas calientes"
     }
   ],
   "pokemon_id": "028",

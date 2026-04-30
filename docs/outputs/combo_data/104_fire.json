@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Fumosa",
-  "lore": "Este Cubone, envuelto en llamas eternas, camina con un cola curvada que arde con destellos rojos. Su calavera brilla bajo el fuego, y su cola blanca ahora se funde en llamas doradas, irradiando calor constante.",
+  "species_name": "Pokémon Llama de Tierra",
+  "lore": "Este Cubone emana un fuego ígneo en sus huesos, sus patas arden con llama roja. Su postura baja se mantiene, pero ahora sus huellas brillan con llamas al caminar.",
   "moves": [
     {
-      "name": "Llama Calavera",
-      "desc": "Ataca con llamas que emergen de su calavera, quemando al rival con un fuego sagrado."
+      "name": "Hueso Incendio",
+      "desc": "Lanza un hueso ardiendo que quema al objetivo y deja un rastro de fuego.",
+      "name_en": "Fire Bone",
+      "visual_prompt": "crimson red flaming bone, molten gold ember trails, amber orange smoke swirls, charcoal black ash particles, glowing magma residue, volcanic crater backdrop"
     },
     {
-      "name": "Ceniza Danzante",
-      "desc": "Lanza una lluvia de cenizas ardientes que reducen la defensa del oponente."
+      "name": "Pisada de Llama",
+      "desc": "Genera llamas al caminar, aumentando el daño de los ataques físicos.",
+      "name_en": "Flame Step",
+      "visual_prompt": "crimson red footprints on cracked lava, molten gold embers rising, amber orange heat haze, charcoal black smoke trails, glowing ember sparks, volcanic crater background glow, stylized 2D fire VFX, Ken Sugimori style"
     },
     {
-      "name": "Fuego de la Tierra",
-      "desc": "Convierte el suelo en lava, causando daño a todos los Pokémon en el campo."
+      "name": "Ceniza Cautiva",
+      "desc": "Cubre al objetivo con cenizas, reduciendo su velocidad y causando daño por fuego.",
+      "name_en": "Captive Ash",
+      "visual_prompt": "volcanic ash swirls, glowing ember particles, molten gold embers, crimson red smoke plumes, charcoal black ash clouds, fiery orange heat haze, stylized 2D fire VFX, Ken Sugimori style"
     },
     {
-      "name": "Cola Llamante",
-      "desc": "Utiliza su cola en llamas para golpear con fuerza explosiva."
+      "name": "Fuego Óseo",
+      "desc": "Ataca con llamas que surgen de sus huesos, dañando al objetivo con fuego.",
+      "name_en": "Bone Blaze",
+      "visual_prompt": "crimson red flames erupting from skeletal bones, molten gold embers swirling in smoke-filled air, volcanic crater background with glowing magma pools, charcoal black smoke trails, ember sparks floating in air, stylized Ken Sugimori fire VFX, 2D flat art style, vibrant fire effect, no characters or Pokémon shown, wide banner composition"
     }
   ],
   "diffs": [
     {
-      "from": "cola curvada con punta blanca",
-      "to": "cola curvada ahora en llamas doradas, con punta blanca fundida en fuego"
+      "from": "Huesos sólidos",
+      "to": "Huesos emiten llamas rojas que brillan en la oscuridad."
     },
     {
-      "from": "calavera de hueso",
-      "to": "calavera brillante cubierta de llamas sagradas"
+      "from": "Pies en el suelo",
+      "to": "Pies arden con llamas al caminar, dejando huellas incandescentes."
     },
     {
-      "from": "piel terrosa",
-      "to": "piel cubierta de escamas de fuego que emiten calor"
+      "from": "Baja postura",
+      "to": "Postura baja ahora con llama visible en cada movimiento."
     },
     {
-      "from": "movimientos terrestres",
-      "to": "movimientos enfocados en el fuego, con ataques de llamas y cenizas"
+      "from": "Ataque físico básico",
+      "to": "Ataques ahora tienen un toque de fuego que quema al objetivo."
     }
   ],
   "pokemon_id": "104",

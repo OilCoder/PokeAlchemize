@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Luminoso",
-  "lore": "Con su cuerpo geométrico afilado transformado en acero pulido, Porygon brilla con reflejos metálicos. Sus bordes cortantes ahora resplandecen con una luz fría, y su movimiento se ha vuelto más fluido en el aire.",
+  "species_name": "Pokémon Acero Digital",
+  "lore": "Porygon, ahora fusionado con acero, brilla con una armadura metálica que refleja su inteligencia. Sus patas cortas se han convertido en soportes de acero, manteniendo una postura baja y estable en combate.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta el aire con bordes afilados de acero, causando daño físico y reduciendo la defensa del oponente."
+      "desc": "Corta con hojas de acero que cortan cualquier defensa, dejando marcas profundas.",
+      "name_en": "Steel Cut",
+      "visual_prompt": "shimmering steel leaves, razor-thin metallic edges, deep gash marks in air, gunmetal gray particles, neon cyan energy trails, industrial city skyline silhouette, polished silver reflections"
     },
     {
-      "name": "Reflejo Estelar",
-      "desc": "Crea un reflejo de luz que refleja ataques especiales y aumenta la precisión del usuario."
+      "name": "Máquina de Ataque",
+      "desc": "Genera un campo de energía que aumenta el ataque del usuario y debilita al rival.",
+      "name_en": "Attack Machine",
+      "visual_prompt": "polished steel gears rotating in sync, glowing electric blue energy waves, metallic steam vents releasing neon cyan mist, gunmetal gray energy field pulsing with industrial city skyline reflections"
     },
     {
-      "name": "Escudo Magnético",
-      "desc": "Genera un campo magnético que absorbe ataques físicos y aumenta la defensa del usuario."
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que absorbe el daño y lo devuelve al atacante.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished silver shield, metallic steam vents, glowing neon cyan edges, gunmetal gray energy waves, industrial cityscape backdrop, electric blue reflections, stylized 2D VFX"
     },
     {
-      "name": "Impacto Cibernético",
-      "desc": "Ataca con un impacto de acero que causa daño especial y paraliza al oponente."
+      "name": "Sistema de Defensa",
+      "desc": "Activa una red de defensas que reduce el daño recibido y aumenta la velocidad.",
+      "name_en": "Defense System",
+      "visual_prompt": "metallic steel blue energy lattice, polished silver defensive barriers, gunmetal gray energy rings, neon cyan pulse waves, industrial city skyline backdrop, glowing steam vents, electric blue energy trails"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo geométrico",
-      "to": "cuerpo de acero pulido con bordes brillantes"
+      "from": "patas cortas",
+      "to": "soportes de acero para mayor estabilidad"
     },
     {
-      "from": "movimiento lento",
-      "to": "movimiento fluido y rápido en el aire"
+      "from": "inteligencia digital",
+      "to": "inteligencia metálica integrada en su armadura"
     },
     {
-      "from": "color gris",
-      "to": "brillo metálico frío y reflejos azulados"
+      "from": "postura baja",
+      "to": "postura baja con soportes de acero para resistir golpes"
     },
     {
-      "from": "ataque normal",
-      "to": "ataques con bordes afilados de acero y reflejos"
+      "from": "falta de armadura",
+      "to": "armadura metálica brillante que refleja luz"
     }
   ],
   "pokemon_id": "137",

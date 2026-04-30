@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Insecto",
-  "lore": "Pinsir ahora emana llamas desde su cuerpo bulboso, con patas cortas convertidas en zarpas de fuego. Su caparazón resplandece con escamas rojas que brillan al calor, irradiando una aura de intensidad y fuerza.",
+  "species_name": "Pokémon Llama Férrea",
+  "lore": "Pinsir ahora emana llamas de sus patas y espinas. Su postura baja se vuelve más agresiva, con llamas danzando alrededor de su cuerpo. Sus patas están cubiertas de escamas de fuego que lo hacen más estable en combate.",
   "moves": [
     {
-      "name": "Fuego Escarabajo",
-      "desc": "Ataca con llamas que salen de su caparazón, quemando al rival con una explosión de fuego."
+      "name": "Punzón Llamante",
+      "desc": "Ataca con espinas ardientes que queman al rival y aumentan su velocidad.",
+      "name_en": "Blazing Spikes",
+      "visual_prompt": "crimson red fiery spikes, molten gold embers, amber orange heat waves, charcoal black smoke trails, glowing ember particles, volcanic crater background"
     },
     {
-      "name": "Zarpa Llama",
-      "desc": "Usa sus patas de fuego para lanzar ráfagas de calor que queman y desestabilizan al oponente."
+      "name": "Carga Incendia",
+      "desc": "Se lanza hacia adelante, causando daño y dejando un rastro de llamas.",
+      "name_en": "Fire Charge",
+      "visual_prompt": "crimson red flames, amber orange embers, molten gold trails, charcoal black smoke, glowing ember particles, volcanic crater background, magma pools, smoke-filled air, dynamic motion streaks, fiery explosion effect, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Cascada de Llama",
-      "desc": "Genera una ola de llamas que cubre el campo, aumentando el daño de fuego de todos los movimientos."
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de llamas alrededor de sí mismo para reducir el daño.",
+      "name_en": "Flame Shield",
+      "visual_prompt": "crimson red flame shield, molten gold embers swirling, amber orange energy rings, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, stylized 2D VFX"
     },
     {
-      "name": "Resplandor Incendio",
-      "desc": "Emite un destello de luz roja que ciega al rival y prepara un ataque devastador."
+      "name": "Furia de Fuego",
+      "desc": "Aumenta su ataque y velocidad con una explosión de fuego.",
+      "name_en": "Fire Fury",
+      "visual_prompt": "crimson fire orbs bursting outward, molten gold embers swirling in chaotic patterns, amber orange flame trails, charcoal black smoke tendrils, glowing ember sparks, dynamic explosive motion"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo bulboso redondeado",
-      "to": "caparazón resplandeciente con escamas rojas que emanan calor"
+      "from": "Patas plantadas en el suelo",
+      "to": "Patas cubiertas de escamas de fuego que estabilizan su postura"
     },
     {
-      "from": "patas cortas y gruesas",
-      "to": "patas transformadas en zarpas de fuego que arden intensamente"
+      "from": "Espinas de insecto",
+      "to": "Espinas incandescentes que emiten llamas al atacar"
     },
     {
-      "from": "color verde oscuro",
-      "to": "tonos rojos y anaranjados brillantes que reflejan el fuego"
+      "from": "Postura baja",
+      "to": "Postura más agresiva con llamas danzando alrededor"
     },
     {
-      "from": "movimientos de ataque físico",
-      "to": "ataques basados en llamas y calor que queman y aumentan el daño"
+      "from": "Tipo Bug",
+      "to": "Tipo Fire que le permite generar y controlar llamas"
     }
   ],
   "pokemon_id": "127",

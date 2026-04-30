@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Flor",
-  "lore": "Venusaur ahora lleva una coraza de acero pulido sobre su flor central, que brilla con reflejos metálicos. Sus hojas se han endurecido en láminas afiladas, y su respiración emite un sonido resonante de metal.",
+  "species_name": "Pokémon Acero de Veneno",
+  "lore": "Venusaur Acero de Veneno camina con pasos firmes, sus hojas se han transformado en láminas de acero. Su cuerpo emana una presencia imponente, con espinas que brillan como acero pulido. El veneno se mezcla con la fuerza del acero en cada movimiento.",
   "moves": [
     {
       "name": "Corte de Acero",
-      "desc": "Corta con hojas afiladas de acero, causando daño y reduciendo la defensa del oponente."
+      "desc": "Corta con hojas de acero afiladas, causando daño físico y posiblemente reduciendo la defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "sharpened steel leaves, glinting metallic edges, gunmetal gray swirls, polished silver particles, electric blue energy trails, neon cyan sparks, industrial city skyline backdrop, metallic steam vents"
     },
     {
-      "name": "Flor Metálica",
-      "desc": "Cubre al oponente con pétalos de acero que infligen daño y debilitan su velocidad."
+      "name": "Veneno Acero",
+      "desc": "Lanza un veneno corrosivo que mezcla veneno y acero, reduciendo la defensa y causando daño por veneno.",
+      "name_en": "Steel Poison",
+      "visual_prompt": "corrosive steel shards, glowing neon cyan poison mist, metallic steam vents, gunmetal gray swirls, electric blue energy trails, polished silver droplets, industrial city skyline backdrop"
     },
     {
-      "name": "Resonancia Ferrea",
-      "desc": "Genera ondas de sonido metálico que reducen la precisión del rival."
+      "name": "Escudo de Hojas",
+      "desc": "Crea un escudo protector con hojas de acero que absorbe el daño y refleja ataques físicos.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished steel leaves forming a rotating shield, glowing neon cyan edges, industrial cityscape backdrop with metallic steam vents, gunmetal gray and electric blue highlights, reflective surface showing distorted city lights"
     },
     {
-      "name": "Bomba de Hierro",
-      "desc": "Lanza un proyectil de acero que causa daño y posiblemente quema al oponente."
+      "name": "Fuerza Venenosa",
+      "desc": "Ataca con fuerza venenosa que causa daño y posiblemente envenena al oponente.",
+      "name_en": "Poison Force",
+      "visual_prompt": "gunmetal gray energy tendrils, polished silver poison droplets, metallic steel blue mist, electric blue neon sparks, neon cyan toxic vapor swirls, industrial cityscape steam vents glowing with toxic aura, metallic reflections on wet surfaces, sharp geometric energy shards"
     }
   ],
   "diffs": [
     {
-      "from": "Flor central de Venusaur",
-      "to": "Coraza de acero pulido con reflejos metálicos"
+      "from": "Hoja en la espalda",
+      "to": "Se transforma en láminas de acero pulido que brillan bajo el sol."
     },
     {
-      "from": "Hoja verde suave",
-      "to": "Láminas de acero afiladas y duras"
+      "from": "Piel verde",
+      "to": "Se cubre con una capa de acero oxidado que resiste golpes."
     },
     {
-      "from": "Respiración tranquila",
-      "to": "Respiración que emite sonido resonante de metal"
+      "from": "Piernas delgadas",
+      "to": "Se fortalecen con músculos de acero, soportando su peso."
     },
     {
-      "from": "Estructura flexible",
-      "to": "Estructura rígida y resistente al impacto"
+      "from": "Veneno tóxico",
+      "to": "Se mezcla con acero para crear un veneno corrosivo que daña la armadura."
     }
   ],
   "pokemon_id": "003",

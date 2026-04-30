@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Dracón",
-  "lore": "Su cuerpo plateado brilla bajo el sol, con escamas de acero que resuenan al moverse. Las orejas puntiagudas se han vuelto afiladas como cuchillas, y su cola emite un zumbido metálico al atacar.",
+  "species_name": "Pokémon Acero Luminoso",
+  "lore": "Dratini, ahora transformado en un ser de acero pulido, camina con patas de metal que brillan bajo el sol. Su cuerpo es un reflejo de la fuerza y la elegancia del acero, con escamas que resonarán al tocar el suelo.",
   "moves": [
     {
-      "name": "Cuchilla de Acero",
-      "desc": "Corta al oponente con una hoja de acero que emerge de sus patas."
+      "name": "Corte de Acero",
+      "desc": "Corta con precisión con garras de acero, causando daño crítico a los oponentes débiles al acero.",
+      "name_en": "Steel Cut",
+      "visual_prompt": "shimmering steel claws slicing through air, metallic sparks, gunmetal gray trails, polished silver glints, electric blue energy pulses, neon cyan highlights, industrial cityscape backdrop with steam vents"
     },
     {
       "name": "Resonancia Metálica",
-      "desc": "Genera ondas sonoras que debilitan a los enemigos y aumentan su propia defensa."
+      "desc": "Genera vibraciones metálicas que debilitan el ataque físico del rival.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray vibration waves, polished silver ripples, metallic steel blue shockwaves, electric blue energy pulses, neon cyan harmonic rings, industrial city skyline silhouette, glowing neon steam vents"
     },
     {
-      "name": "Cascada de Escamas",
-      "desc": "Lanza escamas afiladas que causan daño y reducen la velocidad del rival."
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished steel shield, glowing neon cyan edges, industrial cityscape backdrop, metallic steam vents, gunmetal gray texture, electric blue energy rings, reflective surface with damage absorption effect"
     },
     {
-      "name": "Cicatriz de Acero",
-      "desc": "Crea una barrera de acero que absorbe golpes y refleja el daño."
+      "name": "Golpe de Impacto",
+      "desc": "Ataca con un golpe contundente que rompe la defensa del enemigo.",
+      "name_en": "Impact Strike",
+      "visual_prompt": "cracking steel armor, jagged metallic shards, glowing electric blue energy waves, polished silver debris, industrial steam vents emitting neon cyan mist, gunmetal gray shockwaves"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo flexible y elástico",
-      "to": "Cuerpo rígido y metálico con escamas de acero"
+      "from": "cuerpo flexible de serpiente",
+      "to": "cuerpo rígido de acero con patas metálicas"
     },
     {
-      "from": "Orejas redondeadas",
-      "to": "Orejas afiladas como cuchillas"
+      "from": "pulso de energía dragón",
+      "to": "resonancia metálica que vibra en su estructura"
     },
     {
-      "from": "Cola larga y suave",
-      "to": "Cola metálica que zumba al moverse"
+      "from": "postura de reptil al ras del suelo",
+      "to": "postura erguida con patas plantadas firmemente"
     },
     {
-      "from": "Piel lisa",
-      "to": "Escamas duras y brillantes de acero"
+      "from": "escamas brillantes pero frágiles",
+      "to": "escamas pulidas y resistentes al impacto"
     }
   ],
   "pokemon_id": "147",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Oscura",
-  "lore": "Su cola espiralada arde con llamas oscuras que iluminan la noche. Su piel oscura absorbe el calor, mientras sus cuernos brillan como carbón incandescente. Cada paso libera chispas de fuego.",
+  "species_name": "Pokémon Llama Sombra",
+  "lore": "Nidoking, ahora envuelto en llamas rojas que danzan a su alrededor, camina con pasos firmes sobre el suelo ardiente. Su pelaje oscuro se funde con las llamas, mientras sus cuernos brillan como carbones incandescentes.",
   "moves": [
     {
-      "name": "Llamarada Oscura",
-      "desc": "Lanza una bola de fuego negro que quema y ralentiza al objetivo."
+      "name": "Llama Infernal",
+      "desc": "Lanza un chorro de llamas intensas que queman la defensa del oponente.",
+      "name_en": "Inferno Jet",
+      "visual_prompt": "crimson red flames, amber orange embers, molten gold stream, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, intense heat distortion"
     },
     {
-      "name": "Cascada de Carbón",
-      "desc": "Ataca con una lluvia de chispas incandescentes que daña y quema."
+      "name": "Pata de Fuego",
+      "desc": "Ataca con patadas que generan llamas al impactar el suelo.",
+      "name_en": "Fire Kick",
+      "visual_prompt": "crimson flames, molten gold sparks, amber-orange embers, charcoal black footprints, glowing magma pools, smoke-filled air, volcanic crater backdrop"
     },
     {
-      "name": "Cola Llama",
-      "desc": "Gira la cola para crear un torbellino de llamas que aturde al oponente."
+      "name": "Sombra Ardiente",
+      "desc": "Cubre al oponente con una sombra que irradia calor extremo.",
+      "name_en": "Fiery Shadow",
+      "visual_prompt": "crimson red smoke swirls, molten gold embers floating, charcoal black shadow tendrils, glowing ember particles, volcanic crater backdrop, smoke-filled air"
     },
     {
-      "name": "Fuego de Ceniza",
-      "desc": "Genera una nube de cenizas ardientes que reduce la defensa del enemigo."
+      "name": "Fuego de la Tierra",
+      "desc": "Desata llamas que surgen del suelo bajo los pies del oponente.",
+      "name_en": "Earth Flame",
+      "visual_prompt": "crimson red flames erupting from cracked volcanic ground, molten gold embers swirling in smoke-filled air, amber orange lava pools glowing beneath, charcoal black smoke trails, glowing ember particles"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiralada con punta morada",
-      "to": "cola arde con llamas oscuras que brillan en la oscuridad"
+      "from": "cuernos de veneno",
+      "to": "cuernos incandescentes que emiten llamas"
     },
     {
-      "from": "piel oscura",
-      "to": "absorbe calor y se vuelve más resistente al fuego"
+      "from": "piel oscura y lisa",
+      "to": "piel oscura con destellos rojos de llama"
     },
     {
-      "from": "cuernos oscuros",
-      "to": "brillan como carbón incandescente al tocar el fuego"
+      "from": "patas sólidas y fuertes",
+      "to": "patas que dejan marcas de fuego al caminar"
     },
     {
-      "from": "movimientos venenosos",
-      "to": "transformados en ataques de fuego que queman y ralentizan"
+      "from": "postura baja y muscular",
+      "to": "postura elevada con una aura de calor intenso"
     }
   ],
   "pokemon_id": "034",

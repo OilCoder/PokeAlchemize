@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Dulce Llena",
-  "lore": "Dulce Llena, con su cabeza redonda y ojos oscuros, ahora brilla con un aura de hada. Sus mejillas emiten destellos dorados, y su piel suave se cubre de pétalos brillantes. Este transformado es una suave tentación para el mundo.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Snorlax, ahora transformado en un Pokémon de tipo hada, brilla con un aura suave que envuelve su cuerpo. Sus patas se han suavizado en patas de mariposa, y su piel emana un brillo dorado. Su postura es más ligera, danzando en lugar de permanecer acostado.",
   "moves": [
     {
-      "name": "Caramelo Mágico",
-      "desc": "Lanza dulces que curan y generan un aura protectora alrededor del Pokémon."
+      "name": "Aurora de Sueños",
+      "desc": "Crea un arcoíris de sueños que cura a aliados y confunde a enemigos.",
+      "name_en": "Dream Rainbow",
+      "visual_prompt": "soft pastel pink and pearl lavender rainbows, glowing starlight blue mist, crystalline mint dewdrops, floating dream orbs, ethereal floral patterns, moonlit garden backdrop, no characters, no Pokémon"
     },
     {
-      "name": "Pétalo de Sueño",
-      "desc": "Cubre al oponente con pétalos que inducen un sueño profundo."
+      "name": "Bailarina de la Luna",
+      "desc": "Ataca con un baile que lanza partículas brillantes, reduciendo la defensa del rival.",
+      "name_en": "Moonlight Waltz",
+      "visual_prompt": "glowing pastel pink and pearl lavender particles swirling in a delicate dance, crystalline mint starlight trails, soft misty twilight sky backdrop, ivory white moonbeam accents, ethereal fairy-touched shimmer"
     },
     {
-      "name": "Brillo de Hada",
-      "desc": "Aumenta la defensa y velocidad con un resplandor mágico."
+      "name": "Miel de Estrellas",
+      "desc": "Lanza un dulce ataque que cura y aumenta la velocidad del aliado.",
+      "name_en": "Star Honey",
+      "visual_prompt": "glowing pastel pink honey droplets, floating crystalline mint orbs, soft ivory white starlight trails, pearl lavender mist swirls, delicate star-shaped pollen particles, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Beso de Estrellas",
-      "desc": "Un beso que restaura salud y llena de energía mágica."
+      "name": "Velo de Ensoñación",
+      "desc": "Cubre al enemigo en un velo de sueños, reduciendo sus movimientos.",
+      "name_en": "Dream Veil",
+      "visual_prompt": "soft pastel pink mist swirling in delicate spirals, ivory white glowing petals floating in the air, pearl lavender starlight trails, crystalline mint light particles, moonlit garden background with faint glowing flowers, soft misty twilight sky effect, no characters or Pokémon, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo redondo",
-      "to": "cubierta de pétalos brillantes y destellos dorados"
+      "from": "Cuadrúpedo con cuatro patas plantadas en el suelo",
+      "to": "Patas suaves y redondeadas, como alas de mariposa, danzando en suelos brillantes."
     },
     {
-      "from": "ojos pequeños y oscuros",
-      "to": "resplandor mágico en los ojos que brilla suavemente"
+      "from": "Postura baja y acostada",
+      "to": "Postura elevada y ligera, bailando con gracia en el aire."
     },
     {
-      "from": "piel gruesa",
-      "to": "piel suave y brillante como cristal"
+      "from": "Piel gruesa y dura",
+      "to": "Piel suave y brillante, emitiendo un brillo dorado que atrae a otros Pokémon."
     },
     {
-      "from": "habilidad de dormir",
-      "to": "capaz de inducir sueños profundos en oponentes con su aura."
+      "from": "Movimientos lentos y pesados",
+      "to": "Movimientos rápidos y fluidos, combinando danza y magia hada."
     }
   ],
   "pokemon_id": "143",

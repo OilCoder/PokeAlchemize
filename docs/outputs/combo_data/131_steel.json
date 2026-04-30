@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Marina",
-  "lore": "Lapras, ahora cubierto de una armadura de acero pulido, camina con paso firme sobre el hielo. Su caparazón de piedra se ha transformado en placas metálicas que brillan bajo el sol, mientras que sus ojos emiten un destello azul eléctrico.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Lapras, ahora con armadura de acero, camina con paso firme sobre el hielo. Sus patas reflejan la luz del sol, y su caparazón brillante resplandece en el frío. El acero le da una fuerza inquebrantable.",
   "moves": [
     {
-      "name": "Barrera de Acero",
-      "desc": "Crea una barrera metálica que refleja ataques y reduce daño recibido."
+      "name": "Armadura de Acero",
+      "desc": "Cubre al usuario con una armadura que reduce el daño físico.",
+      "name_en": "Steel Armor",
+      "visual_prompt": "gunmetal gray armor plating, polished silver reflections, metallic steam vents, neon cyan energy trails, electric blue glowing patterns, industrial cityscape backdrop, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
       "name": "Golpe de Hielo",
-      "desc": "Ataca con un impacto de hielo congelado que ralentiza al rival."
+      "desc": "Ataca con un golpe que congela al objetivo en el momento.",
+      "name_en": "Ice Strike",
+      "visual_prompt": "frozen steel blades, crystalline ice shards, metallic steam vents, neon cyan glow, gunmetal gray mist, polished silver reflections, electric blue energy trails"
     },
     {
-      "name": "Carga Magnética",
-      "desc": "Aumenta el ataque y velocidad mediante un campo magnético."
+      "name": "Carga Acero",
+      "desc": "Aumenta el ataque y el poder de los ataques físicos.",
+      "name_en": "Steel Charge",
+      "visual_prompt": "gunmetal gray energy swirls, polished silver sparks, metallic steel blue orbs, electric blue trails, neon cyan energy pulses, industrial cityscape background with glowing neon signs"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Genera un escudo que absorbe el daño y lo convierte en energía."
+      "name": "Barrera de Hielo",
+      "desc": "Crea una barrera de hielo que protege al usuario y a sus aliados.",
+      "name_en": "Ice Barrier",
+      "visual_prompt": "gunmetal gray ice shards, polished silver shield surface, metallic steel blue energy waves, electric blue frost patterns, neon cyan steam vents, industrial city skyline background, crystalline lattice structure"
     }
   ],
   "diffs": [
     {
-      "from": "Caparazón de piedra con bordes afilados",
-      "to": "Placas metálicas pulidas y resistentes que brillan bajo el sol"
+      "from": "caparazón de hielo",
+      "to": "caparazón de acero brillante y resistente"
     },
     {
-      "from": "Piel blanca y fría",
-      "to": "Acero pulido que refleja la luz y emite destellos azules"
+      "from": "patas blandas",
+      "to": "patas robustas con placas de acero"
     },
     {
-      "from": "Movimientos acuáticos suaves",
-      "to": "Desplazamientos precisos con impacto metálico"
+      "from": "movilidad lenta",
+      "to": "movilidad estable con pasos firmes"
     },
     {
-      "from": "Habita en aguas frías",
-      "to": "Prefiere zonas de hielo acerado y minerales"
+      "from": "vulnerabilidad al fuego",
+      "to": "resistencia total al fuego y ataques de fuego"
     }
   ],
   "pokemon_id": "131",

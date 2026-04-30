@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Excavador",
-  "lore": "El Acero Excavador es un Diglett forjado en acero, con un cráneo redondeado cubierto de escamas metálicas. Sus pequeñas orejas se han transformado en punta de acero, perforando la tierra con precisión.",
+  "lore": "Con su armadura de acero, Diglett se desplaza bajo tierra con precisión quirúrgica. Sus patas cortas ahora brillan con reflejos metálicos, y su piel se ha vuelto dura como el acero. Cada movimiento suena como un martillo en una fragua.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con garras afiladas de acero, causando daño adicional a los tipos de hierro."
+      "name": "Martillo de Acero",
+      "desc": "Ataca con un golpe de martillo que rompe rocas y suelos metálicos.",
+      "name_en": "Steel Hammer",
+      "visual_prompt": "crystalline steel hammer impact, shattered metallic fragments, glowing gunmetal gray energy, polished silver sparks, electric blue shockwaves, neon cyan trail, industrial cityscape backdrop, metallic steam vents"
     },
     {
-      "name": "Impacto Martillo",
-      "desc": "Golpea con un martillo de acero, elevando el ataque del usuario."
+      "name": "Corte de Acero",
+      "desc": "Corta con precisión cualquier material resistente, dejando cortes limpios.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel blades slicing through air, polished silver trails, gunmetal gray sparks, electric blue energy arcs, neon cyan glowing edges, industrial city skyline silhouette in background"
     },
     {
-      "name": "Escudo Reforzado",
-      "desc": "Crea un escudo de acero que reduce el daño recibido."
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo defensivo que absorbe golpes y refleja ataques.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished silver shield, gunmetal gray energy waves, metallic steam vents, glowing neon cyan reflections, electric blue aura, industrial cityscape backdrop, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Perforación Rápida",
-      "desc": "Perfora el suelo a gran velocidad, causando daño y confusión."
+      "name": "Taladro de Acero",
+      "desc": "Perfora el suelo con un taladro que genera un agujero profundo.",
+      "name_en": "Steel Drill",
+      "visual_prompt": "gunmetal gray drill bit spinning rapidly, deep metallic hole in industrial concrete, polished silver sparks, electric blue energy trails, neon cyan steam vents, industrial cityscape backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "cubierta de escamas metálicas brillantes"
+      "from": "Patas cortas y suaves",
+      "to": "Patas endurecidas y brillantes como acero."
     },
     {
-      "from": "pequeñas orejas",
-      "to": "puntas de acero afiladas"
+      "from": "Piel blanca y suave",
+      "to": "Piel dura y reflectante como acero."
     },
     {
-      "from": "piel suave",
-      "to": "superficie dura como acero"
+      "from": "Movimientos lentos y erráticos",
+      "to": "Movimientos precisos y rápidos, como una herramienta de taller."
     },
     {
-      "from": "movimientos lentos",
-      "to": "agilidad metálica y precisión"
+      "from": "Debilidad a agua",
+      "to": "Resistencia a ataques de agua y otros metales."
     }
   ],
   "pokemon_id": "050",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombras de Roca",
-  "lore": "El Geodude es ahora un espíritu de roca translúcido, con una cabeza redonda que brilla con un resplandor fantasmal. Su superficie lisa ahora emite un aura fría que envuelve a sus enemigos.",
+  "species_name": "Pokémon Espectro de Roca",
+  "lore": "El Espectro de Roca flota sin peso, sus patas de piedra se disuelven en sombras. Sus ojos brillan con una luz fantasmal mientras absorbe la energía de los terrenos ancestrales, convirtiendo el suelo en un portal oscuro.",
   "moves": [
     {
-      "name": "Espectro de Piedra",
-      "desc": "Lanza un fragmento de roca que atraviesa al oponente y lo aturde."
+      "name": "Sombra de Piedra",
+      "desc": "Crea una sombra sólida que absorbe ataques físicos y refuerza la defensa del usuario.",
+      "name_en": "Stone Shadow",
+      "visual_prompt": "solid violet shadow, cracked charcoal gray stone fragments, pale silver mist swirls, ghostly white energy pulses, shadow violet aura, misty graveyard atmosphere, ethereal fog drifting"
     },
     {
-      "name": "Magma Fantasma",
-      "desc": "Crea una llama fría que quema al oponente con energía espectral."
+      "name": "Portal Oscuro",
+      "desc": "Abre un portal temporal que teletransporta al usuario a una posición cercana, evitando ataques.",
+      "name_en": "Dark Portal",
+      "visual_prompt": "twisting violet vortex, floating ghostly white shards, charcoal gray mist, pale silver energy ripples, shadow violet portal edges, ethereal fog swirls, no characters, no Pokémon, no creatures"
     },
     {
-      "name": "Canto de la Tierra Muerta",
-      "desc": "Aumenta la defensa de los aliados con un canto resonante de la tierra."
+      "name": "Eco de los Antepasados",
+      "desc": "Aumenta el ataque y la defensa al invocar espíritus ancestrales del suelo.",
+      "name_en": "Ancestral Echo",
+      "visual_prompt": "ethereal violet mist swirling around ancient tombstones, glowing pale silver spirit orbs floating upward, shadow violet energy tendrils, charcoal gray aura with ghostly white accents, misty graveyard atmosphere, moonlit glow"
     },
     {
-      "name": "Viento de Sombras",
-      "desc": "Crea una ráfaga de viento que empuja al oponente hacia atrás."
+      "name": "Cautiverio Fantasmal",
+      "desc": "Aturde al oponente al envolverlo en una red de energía espectral.",
+      "name_en": "Phantom Trap",
+      "visual_prompt": "ethereal violet energy net, spectral silver threads, ghostly white mist, shadow violet glow, drifting misty fog, translucent tendrils, moonlit tombstone silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo sólido de piedra",
-      "to": "cuerpo translúcido con brillo fantasmal"
+      "from": "Cuatro patas cortas plantadas en el suelo",
+      "to": "Patas disueltas en sombras, flotando sin contacto con el suelo"
     },
     {
-      "from": "superficie lisa",
-      "to": "superficie que emite aura fría"
+      "from": "Postura compacta y baja",
+      "to": "Postura elevada y etérea, flotando a un metro del suelo"
     },
     {
-      "from": "movimientos terrestres",
-      "to": "movimientos con energía espectral"
+      "from": "Resistencia a golpes físicos",
+      "to": "Resistencia a ataques físicos y psíquicos, absorción de energía"
     },
     {
-      "from": "comportamiento tranquilo",
-      "to": "comportamiento más agitado y espectral"
+      "from": "Suelo como su elemento natural",
+      "to": "Suelo como portal para invocar espíritus ancestrales"
     }
   ],
   "pokemon_id": "074",

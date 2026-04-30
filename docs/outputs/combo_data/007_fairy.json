@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Squirtle, ahora transformado en un Pokémon de tipo hada, tiene una cabeza redonda con orejas puntiagudas brillantes. Su caparazón suave y luminoso emite un resplandor mágico que atrae a otros Pokémon.",
+  "lore": "El Squirtle de tipo hada brilla con un aura suave, sus patas se transforman en patas de cisne y su caparazón se cubre de pétalos brillantes. Sus ojos brillan con una luz mágica, reflejando la magia del hada.",
   "moves": [
     {
-      "name": "Burbuja Mágica",
-      "desc": "Lanza burbujas brillantes que confunden al rival con su brillo mágico."
+      "name": "Burbuja de Caramelo",
+      "desc": "Lanza burbujas dulces que curan leves daños al contacto.",
+      "name_en": "Candy Bubble",
+      "visual_prompt": "glowing pastel pink bubbles, crystalline mint dewdrops, pearl lavender mist, soft starlight blue sparkles, ivory white floral patterns, gentle moonlit garden backdrop"
     },
     {
-      "name": "Canto de Hada",
-      "desc": "Canta una melodía que reduce la defensa del oponente con su voz encantadora."
+      "name": "Canto de Sueños",
+      "desc": "Canta una melodía que induce a un sueño tranquilo, reduciendo el daño.",
+      "name_en": "Dream Song",
+      "visual_prompt": "glowing pastel pink musical notes, floating ivory white lily petals, pearl lavender mist, starlight blue crystal shards, soft crystalline mint glow, moonlit garden backdrop, gentle swirling motion"
     },
     {
-      "name": "Pétalos de Luz",
-      "desc": "Dispara pétalos brillantes que curan a aliados y dañan a enemigos."
+      "name": "Pétalo Mágico",
+      "desc": "Dispara pétalos que infligen daño y aplican estado de confusión.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, delicate crystalline mint stardust, soft ivory white mist, pearl lavender light trails, floating confusion-inducing starlight blue orbs"
     },
     {
-      "name": "Cura Encantada",
-      "desc": "Usa un hechizo de curación que restaura salud y elimina malos estados."
+      "name": "Brillo de Luna",
+      "desc": "Emite un brillo suave que restaura la energía de aliados.",
+      "name_en": "Moonbeam Glow",
+      "visual_prompt": "soft pastel pink light, ivory white petals floating in air, pearl lavender mist, glowing starlight blue orbs, crystalline mint energy trails, gentle radiance, ethereal glow, moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redonda",
-      "to": "Cabeza redonda con brillo mágico y orejas brillantes."
+      "from": "caparazón duro",
+      "to": "caparazón cubierto de pétalos brillantes"
     },
     {
-      "from": "Caparazón duro",
-      "to": "Caparazón suave y luminoso que emite resplandor."
+      "from": "patas cortas",
+      "to": "patas transformadas en patas de cisne"
     },
     {
-      "from": "Ataques de agua",
-      "to": "Ataques mágicos que usan burbujas y pétalos brillantes."
+      "from": "postura baja",
+      "to": "postura erguida y elegante"
     },
     {
-      "from": "Personalidad tranquila",
-      "to": "Personalidad más juguetona y encantadora con magia."
+      "from": "color azul",
+      "to": "color azul con tonos rosados brillantes"
     }
   ],
   "pokemon_id": "007",

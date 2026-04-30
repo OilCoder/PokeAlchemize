@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Chansey, ahora transformada en Llama Marina, arde con una llama suave en sus orejas puntiagudas que se curvan ligeramente hacia adentro. Su piel blanca emite un resplandor dorado, y sus ojos brillan con calidez. El fuego en sus orejas no quema, sino que envuelve a los heridos en un abrazo protector.",
+  "lore": "Chansey, ahora convertida en un Pokémon de Fuego, camina con patas ardientes que dejan huellas de ceniza. Su cuerpo emana calor, y sus ojos brillan como brasas. Su postura baja se mantiene, pero ahora suaviza el movimiento con chispas.",
   "moves": [
     {
-      "name": "Llama de Cura",
-      "desc": "Genera una llama suave que cura heridas y calienta el ambiente, restaurando salud a aliados."
+      "name": "Llamarada Cariñosa",
+      "desc": "Ataca con llamas suaves que queman con cariño, causando daño moderado.",
+      "name_en": "Caring Blaze",
+      "visual_prompt": "soft crimson flames, swirling amber-orange embers, molten gold sparks, glowing charcoal smoke trails, volcanic crater backdrop, gentle heat waves"
     },
     {
-      "name": "Orejas Ardientes",
-      "desc": "Las orejas de la Pokémon emiten llamas que confunden a los enemigos con su calor intenso."
+      "name": "Ceniza de Amor",
+      "desc": "Cubre al oponente con cenizas que reducen la defensa.",
+      "name_en": "Ash of Love",
+      "visual_prompt": "volcanic ash swirls, glowing ember sparks, molten gold embers, charcoal black smoke, crimson red haze, swirling magma pools, ash particles settling on a cracked stone surface"
     },
     {
-      "name": "Resplandor Dorado",
-      "desc": "Emite un resplandor dorado que aumenta la defensa de aliados en combate."
+      "name": "Calor Materno",
+      "desc": "Aumenta la velocidad de aliados cercanos con un aura cálida.",
+      "name_en": "Maternal Heat",
+      "visual_prompt": "glowing ember aura, swirling crimson red smoke, molten gold particles, warm amber light rays, volcanic crater background, charcoal black smoke wisps, stylized 2D fire VFX"
     },
     {
-      "name": "Abrazo de Fuego",
-      "desc": "Envuelve al aliado en un abrazo de fuego que restaura salud y elimina debilidades."
+      "name": "Ascensión de Fuego",
+      "desc": "Sube al aire, rodeado de llamas, para atacar desde arriba.",
+      "name_en": "Fire Ascent",
+      "visual_prompt": "crimson flames spiraling upward, molten gold embers floating in smoke, amber-orange heat haze, volcanic crater backdrop with glowing magma pools, charcoal black smoke tendrils"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas puntiagudas con llama suave que brilla dorada"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas con llamas que dejan huellas de ceniza"
     },
     {
-      "from": "piel blanca",
-      "to": "piel blanca que emite resplandor dorado"
+      "from": "postura baja",
+      "to": "movimiento suave con chispas en cada paso"
+    },
+    {
+      "from": "cuerpo normal",
+      "to": "emana calor intenso alrededor de sí mismo"
     },
     {
       "from": "ojos normales",
-      "to": "ojos que brillan con calidez y luz dorada"
-    },
-    {
-      "from": "comportamiento tranquilo",
-      "to": "comportamiento protector con fuego que cura en lugar de herir"
+      "to": "ojos brillantes como brasas que parpadean con llama"
     }
   ],
   "pokemon_id": "113",

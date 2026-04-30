@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Meowth Espectral",
-  "lore": "Meowth Espectral flota sin peso, sus orejas puntiagudas ahora brillan con destellos etéreos. Su pelaje negro se torna translúcido, revelando sombras danzantes bajo la luz. Sus ojos rojos centellean con un brillo sobrenatural.",
+  "species_name": "Pokémon Fantasma Ladrón",
+  "lore": "Este Meowth es ahora un espíritu errante que camina sobre sombras. Sus patas brillan con aura gris, y sus ojos rojos brillan en la oscuridad. Su presencia se siente como un susurro frío en la noche.",
   "moves": [
     {
-      "name": "Aliento Fantasmal",
-      "desc": "Alienta una nube de sombras que confunde al oponente y reduce su precisión."
+      "name": "Sombra Silenciosa",
+      "desc": "Inmoviliza al rival con un paso suave, dejándolo sin poder moverse por un turno.",
+      "name_en": "Silent Shadow",
+      "visual_prompt": "glowing violet mist swirling around moonlit tombstones, soft charcoal gray tendrils coiling like silent whispers, pale silver particles floating in ethereal fog, shadow violet aura fading into ghostly white"
     },
     {
-      "name": "Gancho Sombrío",
-      "desc": "Ataca con garras que atraviesan la materia, causando daño y confundiendo."
+      "name": "Risa de la Oscuridad",
+      "desc": "Ataca con una risa escalofriante que reduce la defensa del oponente.",
+      "name_en": "Dark Laughter",
+      "visual_prompt": "shimmering violet laughter echoes, ghostly silver mist swirling, charcoal gray shadows forming distorted laughter shapes, pale white moonlight piercing through mist, shadow violet ripples in air"
     },
     {
-      "name": "Susurro del Vacío",
-      "desc": "Reduce el ataque del rival al susurrar en su mente, dejándolo vulnerable."
+      "name": "Espejismo de Plata",
+      "desc": "Crea una ilusión que confunde al enemigo, alterando sus movimientos.",
+      "name_en": "Silver Mirage",
+      "visual_prompt": "shimmering silver mist, distorted ghostly reflections, swirling violet fog, pale silver orbs floating in shadowy air, ethereal moonlight glow, fractured mirror shards, deep violet shadows, charcoal gray mist tendrils"
     },
     {
-      "name": "Espectro de Plata",
-      "desc": "Crea un espejo de sombra que refleja el ataque del oponente hacia él."
+      "name": "Aliento de la Línea",
+      "desc": "Lanza un aliento frío que causa daño y quema el objetivo.",
+      "name_en": "Ghostly Breath",
+      "visual_prompt": "frosty mist swirling in ghostly violet and charcoal gray, glowing pale silver embers, ethereal fog drifting over moonlit tombstones, shadow violet aura with icy crystals forming in midair"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas con puntas negras",
-      "to": "orejas translúcidas con destellos etéreos"
+      "from": "Patas compactas en el suelo",
+      "to": "Patas brillantes que dejan huellas de sombra"
     },
     {
-      "from": "pelaje negro brillante",
-      "to": "pelaje translúcido que revela sombras danzantes"
+      "from": "Postura compacta",
+      "to": "Postura flotante sobre sombras"
     },
     {
-      "from": "ojos rojos normales",
-      "to": "ojos rojos centelleantes con brillo sobrenatural"
+      "from": "Ojos normales",
+      "to": "Ojos rojos que brillan en la oscuridad"
     },
     {
-      "from": "caminar sobre tierra",
-      "to": "flotar sin peso, sin tocar el suelo"
+      "from": "Sonrisa amigable",
+      "to": "Sonrisa fría que suscita miedo"
     }
   ],
   "pokemon_id": "052",

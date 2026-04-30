@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Fénix",
-  "lore": "Aletea con alas de cristal que reflejan luces de arcoíris. Sus ojos rojos brillan con magia efímera, y sus pétalos de polen emiten destellos dorados al volar. El tipo hada intensifica su gracia y suavidad.",
+  "species_name": "Pokémon Flor de Hada",
+  "lore": "Flor de Hada vuela con alas de pétalos brillantes que emiten destellos mágicos. Sus antenas brillan con luz de estrellas, y su cuerpo irradia una suavidad etérea. El tipo hada potencia su gracia y añade un toque de magia a sus movimientos.",
   "moves": [
     {
-      "name": "Aliento de Sueño",
-      "desc": "Crea un aura de sueño con pétalos brillantes que hipnotiza a los oponentes."
-    },
-    {
       "name": "Polvo de Estrellas",
-      "desc": "Dispara un polvo brillante que cura y fortalece a aliados."
+      "desc": "Lanza un polvo que brilla con destellos mágicos, reduciendo la defensa del oponente.",
+      "name_en": "Star Dust",
+      "visual_prompt": "glowing pastel pink starlight particles, sparkling crystalline mint orbs, soft ivory white mist, pearlescent lavender trails, moonlit garden backdrop with faint glowing flowers"
     },
     {
-      "name": "Canto de Fénix",
-      "desc": "Canta una melodía que restaura la energía y eleva el espíritu."
+      "name": "Bailarina de la Luna",
+      "desc": "Realiza un baile que crea un aura protectora y cura un poco de salud.",
+      "name_en": "Moonlight Waltz",
+      "visual_prompt": "glowing pastel pink petals swirling in a spiral, ivory white light radiating from a central point, pearl lavender mist forming delicate crescent shapes, starlight blue crystalline orbs floating upward, soft mint-green energy pulses"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Emite un destello dorado que reduce la defensa del oponente."
+      "name": "Alas de Pétalos",
+      "desc": "Ataca con alas que liberan pétalos mágicos, causando daño y confundiendo al rival.",
+      "name_en": "Petal Wings",
+      "visual_prompt": "floating petal wings, magical glowing pink petals, soft pastel lavender mist, starlight blue crystalline sparks, ivory white light trails, delicate floral patterns in air, ethereal moonlit garden backdrop"
+    },
+    {
+      "name": "Sueño de Hada",
+      "desc": "Sumerge al oponente en un sueño encantador, reduciendo su velocidad.",
+      "name_en": "Fairy Dream",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white orbs, pearl lavender mist, starlight blue crystalline dewdrops, soft misty twilight sky backdrop, delicate sparkling particles, ethereal glow"
     }
   ],
   "diffs": [
     {
-      "from": "alas de seda",
-      "to": "alas de cristal que reflejan luces de arcoíris"
+      "from": "Alas de mariposa con colores vibrantes",
+      "to": "Alas de pétalos brillantes que emiten luz mágica"
     },
     {
-      "from": "ojos grandes rojos",
-      "to": "ojos rojos brillantes con magia efímera"
+      "from": "Antenas simples y delgadas",
+      "to": "Antenas que brillan con destellos de estrellas"
     },
     {
-      "from": "polen dorado",
-      "to": "pétalos de polen que emiten destellos dorados"
+      "from": "Vuelo suave y ligero",
+      "to": "Vuelo etéreo con brillo de hada"
     },
     {
-      "from": "vuelo suave",
-      "to": "vuelo que deja rastro de magia efímera"
+      "from": "Cuerpo suave y delicado",
+      "to": "Cuerpo que irradia una suavidad mágica"
     }
   ],
   "pokemon_id": "012",

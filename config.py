@@ -78,8 +78,8 @@ OLLAMA_VISION_MODEL = "qwen2.5vl:7b"    # vision-language model; analiza sprites
 # Step 5 – Z-Image-Turbo (image generation)
 # ----
 ZIMAGE_MODEL    = "Tongyi-MAI/Z-Image-Turbo"
-IMAGE_WIDTH     = 512    # square — correct for character portraits
-IMAGE_HEIGHT    = 512    # square — Pokémon fills frame, no landscape cropping
+IMAGE_WIDTH     = 800    # square — correct for character portraits
+IMAGE_HEIGHT    = 800    # square — Pokémon fills frame, no landscape cropping
 IMAGE_STEPS     = 15     # distilled model; 12 steps is sufficient
 ZIMAGE_GUIDANCE = 0.0    # Z-Image is distilled — guidance_scale must be 0.0
 IMAGE_EXT       = ".webp"

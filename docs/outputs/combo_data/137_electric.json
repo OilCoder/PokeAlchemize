@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Red Electrónico",
-  "lore": "Con su cuerpo geométrico afilado ahora cargado de energía estática, Porygon Red Electrónico emite destellos azules al moverse. Sus bordes cortantes generan chispas eléctricas que iluminan el aire a su alrededor.",
+  "species_name": "Pokémon Carga Eléctrica",
+  "lore": "Este Porygon ahora irradia energía eléctrica en cada movimiento. Sus patas brillan con chispas azules, y su cuerpo emite un zumbido constante. Sus ojos centellean con poder renovado.",
   "moves": [
     {
-      "name": "Descarga Digital",
-      "desc": "Descarga energía eléctrica en forma de datos, causando daño y posiblemente paralizar al oponente."
+      "name": "Descarga Cibernética",
+      "desc": "Descarga energía eléctrica almacenada en su núcleo para atacar con potencia.",
+      "name_en": "Cyber Charge",
+      "visual_prompt": "glowing electric blue orbs swirling in a stormy sky, neon yellow energy trails, violet sparks crackling, bright white lightning bolts, electric cyan energy fields, dynamic motion lines"
     },
     {
-      "name": "Circuito de Relámpago",
-      "desc": "Crea un campo eléctrico alrededor del oponente, reduciendo su velocidad y causando daño adicional."
+      "name": "Circuito Estático",
+      "desc": "Crea un campo eléctrico alrededor del oponente para reducir su velocidad.",
+      "name_en": "Static Circuit",
+      "visual_prompt": "crackling electric blue energy field, neon yellow lightning arcs, violet spark particles, bright white energy pulses, stormy sky backdrop, dynamic energy waves"
     },
     {
-      "name": "Pixel Parpadeante",
-      "desc": "Genera una serie de destellos rápidos que confunden al rival y aumentan la precisión del próximo ataque."
+      "name": "Carga Neural",
+      "desc": "Recarga su energía interna mientras inflige daño a los oponentes cercanos.",
+      "name_en": "Neural Charge",
+      "visual_prompt": "crackling electric blue orbs, neon yellow energy streams, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field patterns"
     },
     {
-      "name": "Código de Choque",
-      "desc": "Ataca con un código binario cargado de electricidad, causando daño crítico y paralizando al oponente."
+      "name": "Rayo de Red",
+      "desc": "Lanza una red de energía eléctrica que paraliza al rival.",
+      "name_en": "Electric Net",
+      "visual_prompt": "crackling electric blue energy strands, neon yellow lightning arcs, violet sparks, bright white static discharge, stormy sky backdrop, neon-lit thunderclouds, dynamic web pattern, glowing cyan energy pulses"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo geométrico bloqueado",
-      "to": "Bordes afilados que generan chispas eléctricas"
+      "from": "patas cortas y bajas",
+      "to": "patas brillantes con chispas eléctricas que emiten energía constante"
     },
     {
-      "from": "Movimiento lento y preciso",
-      "to": "Movimientos rápidos con destellos de luz"
+      "from": "cuerpo liso y sin rasgos destacables",
+      "to": "cuerpo cubierto de circuitos brillantes que reflejan energía"
     },
     {
-      "from": "Energía interna estática",
-      "to": "Carga eléctrica dinámica que ilumina el aire"
+      "from": "posición baja en el suelo",
+      "to": "levita ligeramente por la energía eléctrica generada"
     },
     {
-      "from": "Sistema operativo simple",
-      "to": "Sistema de red eléctrica que conecta con otros dispositivos"
+      "from": "ojos sin expresión",
+      "to": "ojos centelleantes que indican poder eléctrico interno"
     }
   ],
   "pokemon_id": "137",

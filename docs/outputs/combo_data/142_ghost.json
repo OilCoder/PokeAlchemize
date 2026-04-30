@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Rocoso",
-  "lore": "El Aerodactyl fantasmal flota en el aire, sus huesos translúcidos brillando con una luz azulada. Sus puntiagudas orejas resuenan con susurros ancestrales, mientras sus alas de hueso emiten un frío invernal.",
+  "species_name": "Pokémon Espectro Sombrio",
+  "lore": "Aerodactyl, ahora un espectro eterno, flota sin peso en el aire. Sus patas de roca se han vuelto translúcidas, y sus ojos brillan con una luz azul fantasmal. El viento susurra sus antiguos rugidos.",
   "moves": [
     {
-      "name": "Ala de Sombras",
-      "desc": "Ataca con alas de sombra que ralentizan al oponente."
+      "name": "Aliento Fantasmal",
+      "desc": "Alienta una nube de espiritus que confunden al rival, reduciendo su precisión.",
+      "name_en": "Phantom Breath",
+      "visual_prompt": "glowing violet mist, floating translucent spirits, chaotic swirling patterns, shadowy tendrils, pale silver particles, ghostly white aura, charcoal gray fog, ethereal moonlight beams"
     },
     {
-      "name": "Susurro Antiguo",
-      "desc": "Desata un aura de miedo que reduce la defensa del rival."
+      "name": "Tumba Aérea",
+      "desc": "Invoca una lluvia de huesos esqueléticos que causan daño físico y confusión.",
+      "name_en": "Bone Storm",
+      "visual_prompt": "floating skeletal bones, misty graveyard atmosphere, moonlit tombstones, ethereal fog, deep violet and charcoal gray hues, ghostly white particles, shadow violet glow, chaotic swirling motion"
     },
     {
-      "name": "Hueso Fantasmal",
-      "desc": "Lanza un hueso que atraviesa la defensa del oponente."
+      "name": "Sombra Voladora",
+      "desc": "Se funde con la oscuridad, evadiendo ataques y aumentando su velocidad.",
+      "name_en": "Shadow Glide",
+      "visual_prompt": "floating shadow orbs, ghostly violet mist, drifting charcoal gray tendrils, pale silver moonlight beams, ethereal fog swirls, shadow violet energy trails"
     },
     {
-      "name": "Viento de la Tumba",
-      "desc": "Genera un viento frío que quita puntos de vida."
+      "name": "Lamento Antiguo",
+      "desc": "Emite un grito que reduce la defensa del enemigo y genera miedo.",
+      "name_en": "Ancient Lament",
+      "visual_prompt": "shimmering violet mist, crumbling gravestone fragments, ghostly silver tears, shadowy aura with faint moonlight, ethereal fog swirls, deep violet glow, cracked tombstone texture, pale silver mist trails, ghostly white sparkles, charcoal gray mist tendrils, eerie moonlit graveyard atmosphere, no characters or Pokémon, Ken Sugimori style VFX"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo de hueso sólido",
-      "to": "cuerpo translúcido con brillo azulado"
+      "from": "patas de roca",
+      "to": "patas translúcidas que flotan sin contacto con el suelo"
     },
     {
-      "from": "alas de piel",
-      "to": "alas de hueso que emiten frío"
+      "from": "rostro feroz",
+      "to": "ojos brillantes de luz azul fantasmal"
     },
     {
-      "from": "ojos brillantes",
-      "to": "ojos que brillan con luz azul"
+      "from": "alas de cuero",
+      "to": "alas de energía espectral que emiten destellos"
     },
     {
-      "from": "sonidos de grito",
-      "to": "susurros ancestrales en el aire"
+      "from": "rugido poderoso",
+      "to": "susurro del viento que transporta recuerdos ancestrales"
     }
   ],
   "pokemon_id": "142",

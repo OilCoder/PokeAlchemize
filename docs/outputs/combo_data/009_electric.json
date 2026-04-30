@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Rayo Marina",
-  "lore": "Blastoise ahora lleva corrientes eléctricas en sus cáscaras, sus orejas puntiagudas brillan con chispas. Su agua se electrifica al contacto, generando ondas de energía que envuelven el campo de batalla.",
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Blastoise, ahora con corrientes eléctricas en sus cañones, camina con una postura baja y potente. Su caparazón brilla con destellos azules, cargado de energía estática que zumba en el aire.",
   "moves": [
     {
-      "name": "Descarga Acuática",
-      "desc": "Lanza olas cargadas de electricidad que dañan y paralizan al oponente."
+      "name": "Chispa Acuática",
+      "desc": "Dispara chorros de agua cargados de electricidad que paralizan al rival.",
+      "name_en": "Water Spark",
+      "visual_prompt": "electric blue water jets, neon yellow electric arcs, violet sparks, bright white energy trails, crackling storm clouds, neon-lit thunderclouds, dynamic water droplets with electric glow, stylized 2D VFX"
     },
     {
-      "name": "Chispa Marina",
-      "desc": "Crea una explosión de chispas eléctricas alrededor del cuerpo, aumentando el ataque."
+      "name": "Tormenta Marina",
+      "desc": "Crea una tormenta de agua y relámpagos que daña a todos los enemigos.",
+      "name_en": "Marine Storm",
+      "visual_prompt": "crackling electric blue lightning bolts, neon yellow raindrops, violet sparks, bright white energy arcs, stormy sky backdrop with swirling water droplets, neon-lit thunderclouds"
     },
     {
-      "name": "Torbellino Eléctrico",
-      "desc": "Genera un torbellino de agua y electricidad que eleva al oponente y reduce su defensa."
+      "name": "Bomba Estática",
+      "desc": "Lanza una bola de energía eléctrica que explota en impacto.",
+      "name_en": "Static Bomb",
+      "visual_prompt": "crackling electric blue orbs, neon yellow energy trails, violet spark bursts, bright white explosion fragments, electric cyan lightning arcs, stormy sky backdrop"
     },
     {
-      "name": "Relámpago Oceánico",
-      "desc": "Ataca con un rayo de agua ionizada que causa daño masivo y ceguera temporal."
+      "name": "Electrochorro",
+      "desc": "Acelera sus cañones para disparar ráfagas eléctricas cortas y precisas.",
+      "name_en": "Electroburst",
+      "visual_prompt": "crackling electric blue arcs, neon yellow energy bursts, violet spark trails, bright white lightning bolts, electric cyan static fields, stormy sky backdrop with crackling energy"
     }
   ],
   "diffs": [
     {
-      "from": "Cáscara de agua",
-      "to": "Cáscara recubierta de corrientes eléctricas que brillan en la oscuridad"
+      "from": "cañones de agua",
+      "to": "cañones ahora cargados de electricidad que emiten chispas"
     },
     {
-      "from": "Orejas redondeadas",
-      "to": "Orejas puntiagudas que emiten chispas al moverse"
+      "from": "caparazón sólido",
+      "to": "caparazón brillante con patrones de relámpagos estáticos"
     },
     {
-      "from": "Agua en la cola",
-      "to": "Cola que genera chispas eléctricas en lugar de agua"
+      "from": "postura baja y tranquila",
+      "to": "postura activa con energía eléctrica vibrando en sus patas"
     },
     {
-      "from": "Movilidad acuática",
-      "to": "Movimiento rápido con saltos eléctricos que dejan rastros brillantes"
+      "from": "movimientos acuáticos lentos",
+      "to": "movimientos rápidos y precisos gracias a la electricidad"
     }
   ],
   "pokemon_id": "009",

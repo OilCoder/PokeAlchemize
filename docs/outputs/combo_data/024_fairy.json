@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Arco de Ceniza",
-  "lore": "Arco de Ceniza despliega pétalos brillantes que emanan de su cabeza redondeada. Sus orejas puntiagudas ahora brillan con destellos de luz etérea, y su piel venenosa se transforma en un suave brillo dorado. El tipo hada lo hace más gentil y armonioso.",
+  "species_name": "Pokémon Llama Marfil",
+  "lore": "Arbok, ahora envuelto en brillo etéreo, despliega escamas que brillan como perlas bajo la luna. Su cuerpo serpenteante, antes venenoso, ahora emana una luz suave que calma a quienes lo observan.",
   "moves": [
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que curan a aliados y debilitan a enemigos con su suave brillo."
+      "name": "Canto de la Luna",
+      "desc": "Canta una melodía hipnótica que reduce la defensa del rival y crea un aura de calma.",
+      "name_en": "Lunar Lullaby",
+      "visual_prompt": "glowing crescent moon, floating pastel pink petals, soft ivory white mist, pearl lavender aura, starlight blue crystal shards, crystalline mint light particles, gentle swirling motion"
     },
     {
-      "name": "Aliento de Ceniza",
-      "desc": "Emite un aliento suave que cubre al enemigo con una capa de ceniza mágica, reduciendo su defensa."
+      "name": "Brillo de los Sueños",
+      "desc": "Genera una luz suave que cura daño y restaura energía al aliado.",
+      "name_en": "Dream Glow",
+      "visual_prompt": "soft pastel pink light rays, floating ivory white petals, pearl lavender starlight swirls, crystalline mint energy orbs, glowing misty twilight atmosphere, delicate star-shaped particles"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Realiza una danza que aumenta la velocidad y precisión de todo el equipo."
+      "name": "Danza de los Sueños",
+      "desc": "Baila con gracia, aumentando la velocidad y evasión del usuario.",
+      "name_en": "Dream Dance",
+      "visual_prompt": "floating pastel pink petals, swirling ivory white mist, pearl lavender starlight trails, crystalline mint glowing orbs, soft twilight sky backdrop, ethereal shimmering motion lines"
     },
     {
-      "name": "Círculo de Luz",
-      "desc": "Crea un círculo de luz alrededor de los aliados, protegiéndolos de ataques dañinos."
+      "name": "Fénix de Cristal",
+      "desc": "Lanza un ataque con cristales brillantes que causan daño y confusión.",
+      "name_en": "Crystal Phoenix",
+      "visual_prompt": "glowing pastel pink crystal shards, floating ivory white orbs, pearl lavender mist, starlight blue sparkles, crystalline mint fractals, soft moonlight rays, delicate glass-like fragments, ethereal shimmer"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza redondeada con pétalos brillantes"
+      "from": "Cuerpo serpenteante venenoso",
+      "to": "Cuerpo serpenteante con escamas brillantes que emiten luz suave"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas puntiagudas brillando con destellos de luz etérea"
+      "from": "Postura baja en el suelo",
+      "to": "Postura elegante y elevada, danzando sobre el suelo"
     },
     {
-      "from": "piel venenosa",
-      "to": "piel transformada en un suave brillo dorado"
+      "from": "Veneno tóxico",
+      "to": "Brillo etéreo que calma y cura a los enemigos"
     },
     {
-      "from": "tipo veneno",
-      "to": "tipo hada que lo hace más gentil y armonioso"
+      "from": "Ojos fríos y amenazantes",
+      "to": "Ojos suaves y brillantes que hipnotizan"
     }
   ],
   "pokemon_id": "024",

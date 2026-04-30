@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Fantasma Llama",
-  "lore": "Su cola llama ahora brilla con una luz pálida y etérea. Su cuerpo translúcido emite un calor frío, y sus ojos brillan con una energía sobrenatural. El fuego se ha convertido en una presencia espectral.",
+  "lore": "Fantasma Llama flota sin peso, su cuerpo de llama se desvanece en sombras. Sus patas se convierten en formas etéreas, brillando con una luz pálida. El fuego se transforma en energía espectral.",
   "moves": [
     {
-      "name": "Sombra Llama",
-      "desc": "Lanza una llama que se disuelve en sombras, causando daño y confusión."
+      "name": "Aliento Espectral",
+      "desc": "Ataca con aliento frío que reduce la defensa del rival.",
+      "name_en": "Spectral Breath",
+      "visual_prompt": "cold mist, translucent violet aura, floating ghostly silver orbs, shadowy wisps, pale silver fog, charcoal gray mist, ethereal moonlight glow, decaying tombstone outlines in background"
     },
     {
-      "name": "Espectro Fuego",
-      "desc": "Crea una imagen fantasmal que ataca con llamas invisibles."
+      "name": "Sombra Ardiente",
+      "desc": "Crea sombras que queman el suelo, causando daño continuo.",
+      "name_en": "Fiery Shadow",
+      "visual_prompt": "glowing violet embers, burning shadow outlines on cracked earth, pale silver smoke trails, ghostly white mist swirling, deep violet fire streaks, charcoal gray ground with scorched patterns"
     },
     {
-      "name": "Alma Ardiente",
-      "desc": "Aumenta el ataque y la velocidad, pero consume vida."
+      "name": "Eclipse de Fuego",
+      "desc": "Cubre al oponente con una oscuridad que quema.",
+      "name_en": "Fire Eclipse",
+      "visual_prompt": "smoke rings, ember sparks, shadowy crescent moon, violet mist, glowing red eyes in darkness, charred leaves, ghostly silver streaks, dark charcoal background"
     },
     {
-      "name": "Fuego Fantasmal",
-      "desc": "Ataca con llamas que atraviesan la defensa del oponente."
+      "name": "Resplandor Fantasmal",
+      "desc": "Aumenta la velocidad y evasión con una luz tenue.",
+      "name_en": "Phantom Glow",
+      "visual_prompt": "ethereal violet mist, shimmering ghostly silver orbs, pale white light trails, drifting shadowy fog, deep violet moonlight beams, charcoal gray mist swirls, soft glowing particles, ethereal glow effect, misty graveyard atmosphere, ghostly white outlines, subtle shimmering motion, dynamic fog movement, soft focus background, stylized 2D VFX, Ken Sugimori aesthetic, wide banner composition, no characters or Pokémon, only visual effects"
     }
   ],
   "diffs": [
     {
-      "from": "flame on tail tip",
-      "to": "translúcido y brillante con luz pálida"
+      "from": "Cuerpo de llama",
+      "to": "Cuerpo etéreo que se desvanece en sombras"
     },
     {
-      "from": "body",
-      "to": "cuerpo translúcido con brillo tenue"
+      "from": "Patas cortas",
+      "to": "Patas convertidas en formas etéreas brillantes"
     },
     {
-      "from": "heat",
-      "to": "calor frío y energía sobrenatural"
+      "from": "Fuego vivo",
+      "to": "Energía espectral fría"
     },
     {
-      "from": "eyes",
-      "to": "brillan con energía espectral"
+      "from": "Baja postura",
+      "to": "Flota sin contacto con el suelo"
     }
   ],
   "pokemon_id": "004",

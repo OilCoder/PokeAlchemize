@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Acero",
-  "lore": "Su cola espiral curva ahora está cubierta de escamas de acero pulido, con un pico afilado que reluce como acero. Su pelaje brillante refleja la luz, y sus ojos brillan con una intensidad metálica.",
+  "lore": "Este Pokémon, con pelaje de llama dorada y armadura de acero, camina con paso firme. Sus patas están cubiertas de placas metálicas que resuenan al andar, y sus ojos brillan con una luz fría y calculadora.",
   "moves": [
     {
-      "name": "Fuerza de Acero",
-      "desc": "Ataca con un golpe de fuerza metálica que quiebra la defensa del rival."
+      "name": "Llamarada Acero",
+      "desc": "Lanza una llamarada que se solidifica en acero, causando daño y reduciendo la defensa del rival.",
+      "name_en": "Steel Blaze",
+      "visual_prompt": "solidified steel flames, gunmetal gray embers, polished silver sparks, metallic steam vents, neon cyan energy trails, industrial city skyline backdrop, electric blue glow"
     },
     {
-      "name": "Corte de Relámpago",
-      "desc": "Corta con un movimiento rápido, generando un destello de luz metálica."
+      "name": "Golpe de Muelle",
+      "desc": "Ataca con un golpe de acero que absorbe el impulso y lo devuelve con mayor fuerza.",
+      "name_en": "Spring Strike",
+      "visual_prompt": "polished silver steel coils, metallic steam vents, gunmetal gray energy waves, electric blue sparks, neon cyan accents, industrial cityscape backdrop, reflective surface ripples, dynamic force lines, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Escudo de Hierro",
-      "desc": "Crea un escudo de acero que bloquea ataques físicos."
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de llama sólido que bloquea ataques y recupera energía.",
+      "name_en": "Flame Shield",
+      "visual_prompt": "solid metallic flame shield, glowing gunmetal gray edges, polished silver energy waves, electric blue sparks, neon cyan aura, industrial city skyline backdrop, steam vents emitting shimmering light"
     },
     {
-      "name": "Impacto de Acero",
-      "desc": "Ataca con un golpe contundente que endurece el suelo bajo los pies del rival."
+      "name": "Corte de Acero",
+      "desc": "Corta al rival con un corte de acero que causa daño y reduce la velocidad.",
+      "name_en": "Steel Cutter",
+      "visual_prompt": "shimmering steel blades slicing through air, polished silver sparks, gunmetal gray energy trails, electric blue energy pulses, neon cyan highlights, industrial city skyline backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiral curva con una punta espiral",
-      "to": "cola espiral curva cubierta de escamas de acero con un pico afilado"
+      "from": "Pelaje de llama dorada",
+      "to": "Pelaje dorado cubierto de placas de acero brillante"
     },
     {
-      "from": "pelaje de color rojo anaranjado",
-      "to": "pelaje brillante que refleja la luz como acero"
+      "from": "Patas con garras afiladas",
+      "to": "Patas con placas metálicas que resuenan al caminar"
     },
     {
-      "from": "ojos de color amarillo brillante",
-      "to": "ojos que brillan con una intensidad metálica"
+      "from": "Ojos brillantes",
+      "to": "Ojos que brillan con una luz fría y calculadora"
     },
     {
-      "from": "ataques de fuego",
-      "to": "ataques de acero que quiebran la defensa del rival"
+      "from": "Postura baja",
+      "to": "Postura erguida y firme, como un guerrero acorazado"
     }
   ],
   "pokemon_id": "058",

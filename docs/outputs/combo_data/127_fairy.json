@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Pinsir, ahora transformado en un Pokémon de tipo hada, tiene un cuerpo redondo y bulboso brillante, con patas cortas y rechonchas. Su aura suave y mágica atrae a criaturas felices, cambiando su naturaleza agresiva por una dulce y protectora.",
+  "species_name": "Pokémon Dama de Fae",
+  "lore": "Con patas de cristal y alas de pétalos, Pinsir ahora camina con gracia etérea. Sus pinzas brillan con magia de hada, cortando el aire con destellos de luz. Su postura baja se ha transformado en una danza elegante.",
   "moves": [
     {
-      "name": "Burbuja de Sueño",
-      "desc": "Crea burbujas mágicas que envuelven al enemigo en un sueño dulce y tranquilo."
+      "name": "Corte de Pétalos",
+      "desc": "Corta al oponente con hojas de hada que brillan al tocarlo.",
+      "name_en": "Petals Cut",
+      "visual_prompt": "glowing fairy petals, soft pastel pink and lavender swirls, crystalline mint light trails, moonlit garden mist, delicate starlight blue sparkles, floating crystalline shards"
     },
     {
-      "name": "Canto de Estrellas",
-      "desc": "Emite un canto suave que ilumina el campo de batalla con estrellas relucientes."
+      "name": "Danza de Estrellas",
+      "desc": "Lanza un baile de estrellas que aumenta la velocidad del usuario.",
+      "name_en": "Star Dance",
+      "visual_prompt": "glowing pastel pink star trails, swirling ivory white petals, pearl lavender stardust, crystalline mint light beams, soft misty twilight sky backdrop, delicate starlight blue sparkles"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza pétalos brillantes que curan y fortalecen a aliados en combate."
+      "name": "Sueño de Fae",
+      "desc": "Crea un sueño mágico que reduce la precisión del rival.",
+      "name_en": "Fae Dream",
+      "visual_prompt": "floating pastel pink petals, swirling ivory white mist, glowing pearl lavender orbs, starlight blue crystalline dewdrops, soft mint-hued dreamy haze, delicate fairy light effects"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Genera un brillo lunar que reduce el daño recibido y aumenta la defensa temporal."
+      "name": "Cura de Luz",
+      "desc": "Restaura salud con un resplandor suave de hada.",
+      "name_en": "Light Heal",
+      "visual_prompt": "soft pastel pink light rays, glowing ivory white petals floating upward, pearl lavender mist swirls, crystalline mint starlight sparkles, delicate starlight blue aura shimmer"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondo y bulboso",
-      "to": "Cuerpo brillante y suave con destellos mágicos"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transformadas en cristal, caminando con gracia etérea"
     },
     {
-      "from": "Patas cortas y rechonchas",
-      "to": "Patas reforzadas con brillo mágico para saltar con elegancia"
+      "from": "postura baja",
+      "to": "postura elevada en una danza elegante"
     },
     {
-      "from": "Naturaleza agresiva",
-      "to": "Naturaleza protectora y dulce"
+      "from": "pinzas de insecto",
+      "to": "pinzas brillantes con magia de hada"
     },
     {
-      "from": "Apariencia intimidante",
-      "to": "Apariencia atractiva y acogedora"
+      "from": "apariencia ruda",
+      "to": "apariencia delicada con alas de pétalos"
     }
   ],
   "pokemon_id": "127",

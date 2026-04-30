@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marítima",
-  "lore": "Bulbasaur, ahora con ojos rojos brillantes y destellos blancos, emite llamas desde su semilla. Su piel se vuelve escamosa y rojiza, absorbiendo el calor del fuego para crecer.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Bulbasaur de Fuego, con su caparazón rojo oscuro y llamas en la espalda, camina con pasos firmes. Su semilla emite destellos de fuego, iluminando el camino en la oscuridad.",
   "moves": [
     {
-      "name": "Llama Esmeralda",
-      "desc": "Lanza llamas que brillan como esmeraldas, quemando el suelo bajo el oponente."
+      "name": "Llama Sombra",
+      "desc": "Lanza llamas que se entrelazan con sombras, causando daño adicional en la oscuridad.",
+      "name_en": "Shadow Flame",
+      "visual_prompt": "crimson fire orbs, intertwining shadow tendrils, molten gold embers, charcoal black smoke swirls, glowing ember trails, volcanic crater backdrop, magma pool reflections"
+    },
+    {
+      "name": "Fuego Ígneo",
+      "desc": "Ataca con una llamarada intensa que quema la piel y el aire a su alrededor.",
+      "name_en": "Inferno Blaze",
+      "visual_prompt": "crimson red flames, amber orange embers, molten gold sparks, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, intense heat distortion waves"
     },
     {
       "name": "Semilla Ardiente",
-      "desc": "Hace brotar una semilla en llamas que explota con fuerza."
+      "desc": "Hace crecer una semilla que estalla en llamas, dañando a los enemigos cercanos.",
+      "name_en": "Ember Seed",
+      "visual_prompt": "crimson red flames, molten gold embers, volcanic crater backdrop, glowing magma pools, smoke-filled air, exploding seed silhouette, charred black ash particles, fiery orange energy rings"
     },
     {
-      "name": "Fuego Marino",
-      "desc": "Crea una ola de fuego que cubre el campo de batalla."
-    },
-    {
-      "name": "Calor Solar",
-      "desc": "Aumenta el poder de los movimientos de fuego durante un turno."
+      "name": "Cicatriz de Fuego",
+      "desc": "Deja una cicatriz ardiente en el suelo que inflige daño continuo a los oponentes.",
+      "name_en": "Fire Scar",
+      "visual_prompt": "crimson red molten cracks, amber orange embers floating, molten gold lava flow, charcoal black smoke trails, glowing ember particles, volcanic crater background, dynamic heat distortion"
     }
   ],
   "diffs": [
     {
-      "from": "semilla en su espalda",
-      "to": "se transforma en una semilla de fuego que emite llamas"
+      "from": "semilla en la espalda",
+      "to": "semilla que emite llamas en lugar de agua"
     },
     {
-      "from": "ojos verdes",
-      "to": "ojos rojos brillantes con destellos blancos"
+      "from": "caparazón verde",
+      "to": "caparazón rojo oscuro con destellos de fuego"
     },
     {
-      "from": "piel verde",
-      "to": "piel escamosa y rojiza"
+      "from": "caminar con cuatro patas",
+      "to": "caminar con pasos firmes, dejando huellas de fuego"
     },
     {
-      "from": "tipo grass/poison",
-      "to": "tipo fire"
+      "from": "rasgos de planta",
+      "to": "rasgos de fuego que queman la hierba al caminar"
     }
   ],
   "pokemon_id": "001",

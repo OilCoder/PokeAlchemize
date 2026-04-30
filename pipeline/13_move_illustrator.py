@@ -2,7 +2,7 @@
 Move Illustrator — generates banner images for signature moves.
 Reads combo_data for move names/descriptions and types_visual for type vocabulary.
 Saves docs/outputs/moves/{id}_{type}_{index}.webp at 384×128.
-Called manually after Phase D, or added to batch_runner post-pipeline.
+Called by batch_runner.py as Phase E, after bundle_builder and move_enricher.
 """
 
 import json

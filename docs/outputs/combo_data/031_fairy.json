@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Hada",
-  "lore": "Con su cabeza redondeada y orejas puntiagudas envueltas en pétalos brillantes, Flor de Hada emana una luz suave que cura heridas. Sus garras, ahora doradas, brillan con magia efímera al tocar la tierra.",
+  "species_name": "Pokémon Flor de Fénix",
+  "lore": "Nidoqueen, ahora con el aura de hada, despliega pétalos brillantes que emanan de sus espinas. Sus patas se cubren de brillo dorado, y su mirada transmite dulzura mágica, transformando la tierra en un jardín encantado.",
   "moves": [
     {
       "name": "Pétalo de Sueño",
-      "desc": "Cubre al oponente con pétalos que inducen un sueño profundo y curativo."
+      "desc": "Lanza pétalos que inducen un sueño profundo, dejando al rival inmóvil durante tres turnos.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white mist, pearl lavender starlight trails, crystalline mint energy orbs, soft moonlit garden background, delicate sparkling particles, ethereal glow, no characters, no Pokémon"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Aumenta el poder de los ataques mágicos con un resplandor lunar suave."
+      "name": "Cura de Luna",
+      "desc": "Restaura salud a aliados con un rayo de luz lunar que cura heridas y quita malos estados.",
+      "name_en": "Lunar Heal",
+      "visual_prompt": "glowing moonbeam, soft pastel pink light, floating crystalline mint petals, pearl lavender mist, starlight blue energy trails, delicate floral patterns, ethereal glow, no characters"
     },
     {
-      "name": "Canto de Hada",
-      "desc": "Entra en un estado de calma que reduce el daño recibido temporalmente."
+      "name": "Danza de Fénix",
+      "desc": "Aumenta el ataque y la velocidad del usuario, mientras genera un aura protectora alrededor.",
+      "name_en": "Phoenix Dance",
+      "visual_prompt": "glowing pink petals swirling in a spiral, soft ivory light aura, pearl lavender mist, starlight blue crystalline particles, mint-green energy trails, moonlit garden backdrop with glowing flowers, soft misty twilight sky"
     },
     {
-      "name": "Cristal de Sueños",
-      "desc": "Crea un campo de cristales que refleja ataques y restaura salud."
+      "name": "Belleza Encantada",
+      "desc": "Aumenta la precisión y reduce el daño recibido, otorgando un aura de encanto mágico.",
+      "name_en": "Enchanted Beauty",
+      "visual_prompt": "glowing pastel pink petals swirling in a soft mist, delicate pearl lavender orbs floating upward, crystalline mint starlight trails, ivory white aura with subtle sparkle, moonlit garden backdrop with glowing flowers"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redondeada",
-      "to": "Cubierta de pétalos brillantes que brillan con magia"
+      "from": "espinas venenosas",
+      "to": "espinas brillantes que emiten pétalos mágicos"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Envueltas en brillo dorado que reflejan la luz de la luna"
+      "from": "patas firmes en el suelo",
+      "to": "patas cubiertas de brillo dorado que danzan con cada paso"
     },
     {
-      "from": "Garras de veneno",
-      "to": "Garras doradas que curan heridas al tocar"
+      "from": "mirada fría y letal",
+      "to": "mirada suave y mágica que hipnotiza a los oponentes"
     },
     {
-      "from": "Piel áspera de tierra",
-      "to": "Piel suave como seda con destellos de hada"
+      "from": "piel áspera y terrosa",
+      "to": "piel suave y brillante como un jardín de flores en primavera"
     }
   ],
   "pokemon_id": "031",

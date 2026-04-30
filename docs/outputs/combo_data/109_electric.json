@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Chispa Tóxica",
-  "lore": "El Chispa Tóxica emite chispas eléctricas de su símbolo de calavera en el pecho, transformando su veneno en energía eléctrica. Su cuerpo brillante y deslumbrante atrae a los rivales, pero su carga eléctrica es letal.",
+  "lore": "Chispa Tóxica emite ondas eléctricas que recubren su cuerpo venenoso. Sus patas brillan con chispas azules, mientras su cuerpo hinchado irradia energía peligrosa. Cada movimiento libera descargas letales.",
   "moves": [
     {
-      "name": "Chispa Venenosa",
-      "desc": "Inyecta veneno eléctrico que debilita al oponente con una descarga."
+      "name": "Descarga Venenosa",
+      "desc": "Lanza descargas eléctricas que envenenan al objetivo con cada golpe.",
+      "name_en": "Toxic Shock",
+      "visual_prompt": "neon yellow electric arcs, violet spark trails, crackling energy fields, stormy sky backdrop, electric cyan lightning bolts, bright white discharge points"
     },
     {
-      "name": "Calavera Relampagueante",
-      "desc": "Lanza un rayo que forma un símbolo de calavera en el aire."
+      "name": "Bomba Tóxica",
+      "desc": "Proyecta una bola de veneno cargada eléctricamente que explota en impacto.",
+      "name_en": "Toxic Bolt",
+      "visual_prompt": "electric blue venom orb, neon yellow energy crackles, violet sparks, bright white explosion, stormy sky backdrop, crackling energy fields, neon-lit thunderclouds"
     },
     {
-      "name": "Descarga Tóxica",
-      "desc": "Genera una explosión de energía eléctrica con veneno que quema al rival."
+      "name": "Chispa Carga",
+      "desc": "Aumenta su velocidad y ataque con una carga eléctrica acumulada.",
+      "name_en": "Charge Spark",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy trails, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field"
     },
     {
-      "name": "Energía Corrosiva",
-      "desc": "Aumenta el daño eléctrico mientras reduce la defensa del oponente."
+      "name": "Estruendo Eléctrico",
+      "desc": "Crea una ola de energía eléctrica que aturde a todos los enemigos cercanos.",
+      "name_en": "Electric Shockwave",
+      "visual_prompt": "crackling electric blue energy waves, neon yellow sparks, violet lightning bolts, bright white static bursts, stormy sky backdrop with neon-lit thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "símbolo de calavera en el pecho",
-      "to": "emite chispas eléctricas brillantes y deslumbrantes"
+      "from": "Cuerpo hinchado de gas tóxico",
+      "to": "Cuerpo hinchado con chispas eléctricas que brillan en azul"
     },
     {
-      "from": "veneno tóxico",
-      "to": "convierte el veneno en energía eléctrica letal"
+      "from": "Patas cortas y plantadas",
+      "to": "Patas cubiertas de chispas que emiten energía al moverse"
     },
     {
-      "from": "cuerpo grisáceo",
-      "to": "cambia a un tono plateado brillante con destellos eléctricos"
+      "from": "Color gris verdoso",
+      "to": "Color gris azulado con destellos eléctricos"
     },
     {
-      "from": "movimientos lentos",
-      "to": "adquiere movimientos rápidos y explosivos"
+      "from": "Vulnerabilidad a agua",
+      "to": "Resistencia a ataques eléctricos y mayor potencia en combate"
     }
   ],
   "pokemon_id": "109",

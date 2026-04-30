@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Acero",
-  "lore": "Arcanine ahora es un Pokémon de acero, con su pelaje rojo brillante transformado en una armadura metálica reluciente. Sus espinas en la cabeza y cuello se han endurecido en puntas afiladas de acero, emanando un aura de fuerza inquebrantable.",
+  "species_name": "Pokémon Acero Llama",
+  "lore": "Arcanine transformado en acero brilla con escamas metálicas que absorben el calor. Su postura baja se vuelve más estable, con patas como soportes de acero. El fuego se transforma en energía cinética.",
   "moves": [
     {
-      "name": "Furia de Acero",
-      "desc": "Ataca con una ráfaga de garras de acero que cortan la resistencia de los oponentes."
+      "name": "Cascada de Acero",
+      "desc": "Genera una ola de acero que golpea al enemigo, reduciendo su defensa.",
+      "name_en": "Steel Cascade",
+      "visual_prompt": "shimmering steel wave, polished silver ripples, metallic steam vents, glowing neon cyan accents, industrial cityscape backdrop, electric blue energy trails, gunmetal gray texture"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo metálico que bloquea ataques físicos y reduce daño."
+      "name": "Ráfaga de Fuego Sólido",
+      "desc": "Lanza una ráfaga de llama sólida que quema y frena al oponente.",
+      "name_en": "Solid Fire Gust",
+      "visual_prompt": "solidified flame orbs, jagged steel blades, glowing gunmetal gray trails, neon cyan embers, metallic steam vents, industrial city skyline silhouette"
     },
     {
-      "name": "Impacto de Acero",
-      "desc": "Lanza un golpe directo con una fuerza que rompe armaduras."
+      "name": "Impacto de Masa",
+      "desc": "Ataca con un golpe masivo que causa daño físico y estun.",
+      "name_en": "Mass Impact",
+      "visual_prompt": "metallic steel blue shockwave, polished silver debris fragments, gunmetal gray energy pulses, neon cyan sparks, industrial cityscape backdrop with glowing vents, metallic steam trails"
     },
     {
       "name": "Resonancia Metálica",
-      "desc": "Genera vibraciones que debilitan la defensa del enemigo."
+      "desc": "Crea ondas de sonido metálico que debilitan la defensa del enemigo.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished silver ripples, metallic steel blue energy rings, electric blue vibrations, neon cyan harmonics, industrial city skyline glow, metallic steam vents"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje rojo brillante",
-      "to": "armadura metálica reluciente"
+      "from": "Pelaje de fuego",
+      "to": "Escamas metálicas que absorben el calor"
     },
     {
-      "from": "espinas en la cabeza y cuello",
-      "to": "puntas afiladas de acero"
+      "from": "Postura alta",
+      "to": "Postura baja y estable con patas de acero"
     },
     {
-      "from": "fuerza de fuego",
-      "to": "fuerza inquebrantable de acero"
+      "from": "Fuego ardiente",
+      "to": "Energía cinética acumulada"
     },
     {
-      "from": "velocidad",
-      "to": "movimiento lento pero poderoso"
+      "from": "Velocidad",
+      "to": "Fuerza bruta y resistencia"
     }
   ],
   "pokemon_id": "059",

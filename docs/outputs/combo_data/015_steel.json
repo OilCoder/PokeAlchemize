@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Lanza Acero",
-  "lore": "Su cuerpo redondeado ahora está cubierto de escamas metálicas que brillan bajo el sol. Sus antenas negras se han vuelto afiladas y cortantes, emitiendo un ligero zumbido eléctrico al moverse.",
+  "species_name": "Pokémon Acero Aguijón",
+  "lore": "Acero Aguijón, con su armadura de acero pulido, se desplaza con gracia en su postura baja. Sus aguijones brillan con reflejos metálicos, y su cuerpo resplandece bajo la luz del sol.",
   "moves": [
     {
-      "name": "Lanza de Acero",
-      "desc": "Ataca con un disparo de agujas metálicas que se clavan en el objetivo con precisión."
+      "name": "Cortante Acero",
+      "desc": "Ataca con aguijones afilados de acero que cortan cualquier defensa.",
+      "name_en": "Steel Needle",
+      "visual_prompt": "shimmering steel needles, razor-sharp edges, gunmetal gray particles, polished silver trails, metallic steam vents, neon cyan glow, electric blue energy arcs, industrial city skyline backdrop"
     },
     {
-      "name": "Cortante Sónico",
-      "desc": "Genera ondas sonoras que cortan el aire y debilitan al enemigo."
+      "name": "Impacto Estelar",
+      "desc": "Lanza un ataque desde arriba que causa daño masivo al oponente.",
+      "name_en": "Stellar Impact",
+      "visual_prompt": "shattering steel fragments, glowing neon cyan energy trails, industrial city skyline silhouette, polished silver sparks, electric blue shockwaves, metallic steam vents emitting vapor"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo metálico que bloquea ataques físicos y reduce daño."
+      "name": "Resistencia Inquebrantable",
+      "desc": "Aumenta su defensa al máximo, bloqueando todos los ataques.",
+      "name_en": "Unbreakable Defense",
+      "visual_prompt": "gunmetal gray energy shield, polished silver reflective surface, metallic steel blue glowing edges, electric blue energy pulses, neon cyan particle bursts, industrial cityscape backdrop, metallic steam vents"
     },
     {
-      "name": "Impacto Magnético",
-      "desc": "Atrae al enemigo con un campo magnético antes de impactar."
+      "name": "Ráfaga de Cuchillas",
+      "desc": "Dispara una ráfaga de cuchillas metálicas que dañan múltiples objetivos.",
+      "name_en": "Steel Gust",
+      "visual_prompt": "metallic blades swirling in a vortex, gunmetal gray and polished silver reflections, electric blue energy trails, neon cyan sparks, industrial city skyline silhouette in background, steam vents emitting metallic mist"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo redondeado",
-      "to": "cubierto de escamas metálicas brillantes"
+      "from": "Cuatro patas para caminar",
+      "to": "Patas reforzadas con acero, permitiendo movimiento rápido y estable."
     },
     {
-      "from": "antenas negras",
-      "to": "afiladas y cortantes con zumbido eléctrico"
+      "from": "Agujones venenosos",
+      "to": "Agujones de acero pulido, inofensivos para sí mismo pero mortales para el enemigo."
     },
     {
-      "from": "veneno en sus aguijones",
-      "to": "aguijones convertidos en punzantes hojas de acero"
+      "from": "Cuerpo flexible",
+      "to": "Cuerpo rígido y metálico, resistiendo golpes y ataques."
     },
     {
-      "from": "movimientos de veneno",
-      "to": "ataques basados en fuerza física y magnetismo"
+      "from": "Color verde oscuro",
+      "to": "Color plateado brillante, reflejando la luz del sol."
     }
   ],
   "pokemon_id": "015",

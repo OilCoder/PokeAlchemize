@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Mariposa",
-  "lore": "Beedrill ahora es un ser etéreo con alas de cristal que brillan con destellos de luz. Sus antenas se han vuelto delicadas y translúcidas, irradiando un aura suave que calma a los enemigos. Su cuerpo emana una energía dulce y mágica.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aleteando con alas de cristal, Beedrill ahora camina sobre patas de cristal que brillan con luz de luna. Sus aguijones se han suavizado en pétalos brillantes, emanando magia dulce que envuelve a sus enemigos.",
   "moves": [
     {
-      "name": "Aurora de Polen",
-      "desc": "Lanza un polen brillante que reduce la defensa del rival."
+      "name": "Pétalo de Luna",
+      "desc": "Ataca con pétalos que ralentizan al oponente y le causan daño por veneno.",
+      "name_en": "Lunar Petal",
+      "visual_prompt": "glowing moonlit petals, slow-motion swirls, poison-tinted mist, pastel pink and lavender glow, starlight blue crystalline particles, floating crystal shards, soft twilight mist, delicate vine tendrils"
     },
     {
-      "name": "Canto de Sueños",
-      "desc": "Crea una melodía hipnótica que reduce la velocidad del enemigo."
+      "name": "Canto de Hada",
+      "desc": "Canta una melodía que restaura la salud y reduce el daño recibido.",
+      "name_en": "Fairy Song",
+      "visual_prompt": "glowing pastel pink petals floating in slow motion, soft ivory white light beams, pearl lavender starlight particles, crystalline mint dewdrops sparkling, gentle mist swirling with starlight blue glows"
     },
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que curan el estado de fatiga."
+      "name": "Brillo de Estrella",
+      "desc": "Emite un destello que confunde al enemigo y aumenta la precisión.",
+      "name_en": "Starlight Gleam",
+      "visual_prompt": "glowing starlight blue orbs, soft pastel pink petals swirling, ivory white mist, pearl lavender sparkles, crystalline mint light trails, floating crystalline fragments, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Brillo de Estrellas",
-      "desc": "Ilumina el campo de batalla, aumentando la precisión de todos los movimientos."
+      "name": "Zarcillo de Hada",
+      "desc": "Ataca con tentáculos de energía mágica que absorben puntos de salud.",
+      "name_en": "Fairy Tendril",
+      "visual_prompt": "glowing pastel pink tendrils, floating crystalline mint orbs, soft ivory white mist, pearl lavender starlight trails, delicate starlight blue energy particles, ethereal moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda con antenas negras",
-      "to": "cabeza redonda con antenas translúcidas y brillantes"
+      "from": "Aguijones venenosos",
+      "to": "Pétalos brillantes que emanan magia dulce"
     },
     {
-      "from": "tipo insecto envenenado",
-      "to": "tipo hada mágico y dulce"
+      "from": "Postura baja y cuadrúpeda",
+      "to": "Patas de cristal que brillan con luz de luna"
     },
     {
-      "from": "aguijón venenoso",
-      "to": "aguijón que libera polvo de estrellas"
+      "from": "Color verde oscuro",
+      "to": "Tonalidades plateadas y doradas en su caparazón"
     },
     {
-      "from": "color amarillo y negro",
-      "to": "color dorado y blanco con destellos plateados"
+      "from": "Movilidad rápida",
+      "to": "Movimientos suaves y elegantes, como bailarines."
     }
   ],
   "pokemon_id": "015",

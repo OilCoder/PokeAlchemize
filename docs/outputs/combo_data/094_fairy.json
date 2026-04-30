@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra de Ceniza",
-  "lore": "Sombra de Ceniza emerge de las sombras con una aura de brillo plateado. Sus orejas puntiagudas brillan con destellos dorados, y su piel translúcida refleja destellos de magia efímera. Cada movimiento libera partículas de polvo de estrellas.",
+  "species_name": "Pokémon Ceniza de Hada",
+  "lore": "Ceniza de Hada se erige con esqueleto plateado iluminado por destellos de luz de hada. Sus patas, antes de sombra, ahora brillan con destellos de cristal. Su aura envuelve a enemigos en sueños etéreos.",
   "moves": [
     {
-      "name": "Canto de Luna",
-      "desc": "Canta una melodía que envía ondas de luz lunar que calman a los enemigos."
+      "name": "Danza de los Sueños",
+      "desc": "Invoca un baile de hadas que confunde al oponente con ilusiones de sueños dorados.",
+      "name_en": "Dream Dance",
+      "visual_prompt": "floating golden dream illusions, soft pastel pink and pearl lavender mist, glowing starlight blue petals, crystalline mint light trails, delicate fairy wings shimmering in moonlight, ethereal glow, no characters, no Pokémon"
     },
     {
-      "name": "Polvo de Estrellas",
-      "desc": "Dispara partículas brillantes que reducen la defensa del rival."
+      "name": "Besos de Cristal",
+      "desc": "Lanza besos brillantes que atrapan al rival en un cristal mágico, reduciendo su velocidad.",
+      "name_en": "Crystal Kiss",
+      "visual_prompt": "glowing pastel pink crystal shards, floating starlight blue orbs, delicate ivory white mist, shimmering lavender sparkles, crystalline mint light trails, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Sombras de Ceniza",
-      "desc": "Crea sombras que envuelven al rival, disminuyendo su velocidad."
+      "name": "Viento de la Luna",
+      "desc": "Crea un viento suave que eleva al oponente y lo envuelve en una red de luz lunar.",
+      "name_en": "Moonlight Gale",
+      "visual_prompt": "soft pastel pink wind currents, ivory white glowing light net, pearl lavender moonbeams, glowing starlight blue mist, crystalline mint leaf patterns, delicate floating petals, ethereal moon garden backdrop"
     },
     {
-      "name": "Arco Iris Fantasma",
-      "desc": "Genera un arco iris que daña a todos los enemigos cercanos."
+      "name": "Luz de la Esperanza",
+      "desc": "Emite un resplandor que restaura la salud de aliados cercanos y debilita a enemigos.",
+      "name_en": "Hope's Light",
+      "visual_prompt": "soft pastel pink glowing orbs, ivory white mist, pearl lavender petals floating upward, glowing starlight blue energy rings, crystalline mint light trails, moonlit garden backdrop, soft misty twilight atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "brillan con destellos dorados y reflejan magia efímera"
+      "from": "patas de sombra",
+      "to": "patas brillantes de cristal que resplandecen bajo la luz de la luna"
     },
     {
-      "from": "piel translúcida",
-      "to": "refleja destellos de polvo de estrellas"
+      "from": "aura oscura",
+      "to": "aura envolvente de sueños etéreos que confunde al enemigo"
     },
     {
-      "from": "aura de sombra",
-      "to": "aura de brillo plateado con magia efímera"
+      "from": "forma esquelética",
+      "to": "estructura plateada iluminada por destellos de hada"
     },
     {
-      "from": "movimientos oscuros",
-      "to": "movimientos con partículas de polvo de estrellas"
+      "from": "movimientos de veneno",
+      "to": "ataques basados en sueños y cristales que no causan veneno"
     }
   ],
   "pokemon_id": "094",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Mental",
-  "lore": "Alakazam, ahora con llamas en su cabeza, emite destellos de fuego que iluminan su rostro. Sus garras afiladas brillan con llamas azules, y su aura psíquica se mezcla con el calor del fuego.",
+  "species_name": "Pokémon Llama Psíquica",
+  "lore": "Alakazam, ahora envuelto en llamas psíquicas, camina con gracia sobre el fuego. Sus ojos brillan con energía ardiente, y sus manos emiten destellos de fuego mientras proyecta poderes mentales. Sus rasgos físicos se han transformado en una danza de energía controlada.",
   "moves": [
     {
-      "name": "Psifuego",
-      "desc": "Ataca con una bola de fuego psíquico que quema y confunde al rival."
+      "name": "Llama Mental",
+      "desc": "Ataca con una bola de fuego psíquico que quema y confunde al oponente.",
+      "name_en": "Mental Flame",
+      "visual_prompt": "crimson red psychic fire orb, molten gold embers swirling, amber orange energy trails, charcoal black smoke tendrils, glowing ember particles, volcanic crater backdrop"
     },
     {
-      "name": "Mente Llama",
-      "desc": "Aumenta su poder psíquico y lanza una llamarada que quema al oponente."
+      "name": "Fuego Psíquico",
+      "desc": "Genera una llamarada que absorbe la energía mental del oponente para fortalecerse.",
+      "name_en": "Psychic Blaze",
+      "visual_prompt": "crimson red flames, molten gold embers, swirling mental energy patterns, volcanic crater backdrop, glowing magma pools, smoke-filled air, charcoal black accents, stylized 2D VFX, Ken Sugimori aesthetic, wide banner format, no characters, no Pokémon, no creatures, no silhouettes"
     },
     {
-      "name": "Cerebro Incendio",
-      "desc": "Crea una explosión de energía psíquica y fuego que daña al enemigo."
+      "name": "Danza de las Flamas",
+      "desc": "Aumenta la velocidad y ataque con un baile de llamas alrededor de sí mismo.",
+      "name_en": "Flame Dance",
+      "visual_prompt": "crimson red flames swirling in circular motion, amber orange embers floating, molten gold sparks, charcoal black smoke trails, glowing ember particles, dynamic circular vortex, volcanic crater backdrop"
     },
     {
-      "name": "Fuego Mental",
-      "desc": "Envía ondas de fuego psíquico que debilitan el ataque del rival."
+      "name": "Psicofuego",
+      "desc": "Combina poderes psíquicos y fuego para lanzar un ataque devastador.",
+      "name_en": "Psychofire",
+      "visual_prompt": "crimson red psychic energy waves, molten gold fire orbs, swirling ember trails, charcoal black smoke rings, glowing magma pools, volcanic ash particles"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza cubierta de llamas azules que brillan intensamente"
+      "from": "bipedal, upright stance",
+      "to": "caminar sobre llamas con postura equilibrada y controlada"
     },
     {
-      "from": "garras afiladas",
-      "to": "garras envueltas en llamas azules que queman al contacto"
+      "from": "short arms at sides",
+      "to": "manos emiten destellos de fuego al moverse"
     },
     {
-      "from": "aura psíquica",
-      "to": "aura combinada con calor del fuego que aumenta su poder"
+      "from": "ojos normales",
+      "to": "ojos brillan con energía ardiente"
     },
     {
-      "from": "movimientos psíquicos",
-      "to": "movimientos ahora combinan psiquis y fuego en ataques explosivos"
+      "from": "poderes psíquicos",
+      "to": "poderes psíquicos ahora combinados con llamas controladas"
     }
   ],
   "pokemon_id": "065",

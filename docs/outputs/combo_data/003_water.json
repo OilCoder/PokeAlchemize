@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Lago Florido",
-  "lore": "Su flor central ahora brilla con un reflejo acuático, absorbiendo humedad del aire. Hojas verdes se transforman en algas sedosas que ondean al ritmo de las olas. Su aroma a flores se mezcla con el frescor del agua.",
+  "species_name": "Pokémon Lago Venenoso",
+  "lore": "Venusaur ahora camina sobre aguas cristalinas, sus hojas se convierten en algas brillantes. Su cuerpo se adapta a la hidrofobia, con raíces que absorben nutrientes del agua. El veneno se transforma en esencias purificadoras.",
   "moves": [
     {
-      "name": "Ola Flor",
-      "desc": "Lanza una ola de agua cargada de pétalos que drena energía del oponente."
-    },
-    {
-      "name": "Burbuja Náutica",
-      "desc": "Crea burbujas que atrapan al rival, reduciendo su velocidad."
+      "name": "Ola Venenosa",
+      "desc": "Lanza una ola que envenena al enemigo con toxinas purificadoras.",
+      "name_en": "Toxic Wave",
+      "visual_prompt": "bioluminescent teal-green waves, pearly white toxin bubbles, glowing aquamarine ripples, deep ocean blue currents, sapphire blue mist, swirling toxin particles, underwater glow"
     },
     {
       "name": "Raíz Acuática",
-      "desc": "Fortalece sus raíces para absorber agua y curarle en combate."
+      "desc": "Aumenta la defensa al absorber nutrientes del agua.",
+      "name_en": "Water Root",
+      "visual_prompt": "glowing bioluminescent plankton, swirling teal green currents, deep ocean blue water droplets, pearly white nutrient orbs, aquamarine ripple effects, sapphire blue water veins"
     },
     {
-      "name": "Mar de Pétalos",
-      "desc": "Genera una lluvia de pétalos que cura a aliados y aturde enemigos."
+      "name": "Alga Esmeralda",
+      "desc": "Cubre al enemigo con algas que reducen su velocidad.",
+      "name_en": "Emerald Seaweed",
+      "visual_prompt": "glowing bioluminescent seaweed tendrils, slow-motion water droplets, deep ocean blue swirls, teal green algae clusters, pearly white bubbles, aquamarine light reflections"
+    },
+    {
+      "name": "Burbuja Venenosa",
+      "desc": "Dispara burbujas tóxicas que causan daño continuo.",
+      "name_en": "Poison Bubble",
+      "visual_prompt": "toxic green bubbles rising through deep ocean water, glowing with bioluminescent plankton, teal and aquamarine ripples, pearly white foam, sapphire blue currents"
     }
   ],
   "diffs": [
     {
-      "from": "flor central",
-      "to": "brilla con reflejo acuático y absorbe humedad"
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas adaptadas para caminar sobre agua, con membranas en los pies."
     },
     {
-      "from": "hojas verdes",
-      "to": "se transforman en algas sedosas que ondean con las olas"
+      "from": "Hoja en la espalda",
+      "to": "Hoja transformada en algas brillantes que brillan bajo el agua."
     },
     {
-      "from": "olor a flores",
-      "to": "se mezcla con frescor del agua"
+      "from": "Veneno tóxico",
+      "to": "Veneno se convierte en esencias purificadoras para el agua."
     },
     {
-      "from": "estructura floral",
-      "to": "ahora actúa como un sistema de absorción de agua"
+      "from": "Bajo postura",
+      "to": "Postura elevada para navegar sobre aguas tranquilas."
     }
   ],
   "pokemon_id": "003",

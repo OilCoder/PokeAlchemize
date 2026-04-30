@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Dulce",
-  "lore": "El Pokémon Llama Dulce tiene una cola espiral con una punta esponjosa que brilla con destellos de luz de hada. Su pelaje, antes rojo, ahora tiene tonos rosados y dorados, irradiando calidez mágica. Sus ojos brillan con un brillo suave y amable.",
+  "lore": "Con pelaje plateado brillante y ojos de cristal, este Growlithe transformado emana dulzura mágica. Sus patas relucen con brillos de hada, y su cola es una nube de confeti mágico que despierta alegría en todos los que la ven.",
   "moves": [
     {
-      "name": "Canto de Caramelo",
-      "desc": "Canta una melodía que cura a aliados y reduce el daño recibido por un tiempo."
+      "name": "Candela de Sueños",
+      "desc": "Crea una llama suave que envuelve al oponente en un sueño tranquilo, reduciendo su velocidad.",
+      "name_en": "Dream Flame",
+      "visual_prompt": "soft pastel pink flame, swirling lavender mist, glowing ivory white petals, crystalline mint starlight particles, delicate pearl lavender aura, moonlit garden background, gentle glowing motion"
     },
     {
-      "name": "Beso de Luz",
-      "desc": "Ataca con un beso de luz que infunde alegría y cura pequeños daños."
+      "name": "Risa de Hada",
+      "desc": "Ataca con risas mágicas que confunden al rival y aumentan la precisión del atacante.",
+      "name_en": "Fairy Laugh",
+      "visual_prompt": "glowing pastel pink laughter bubbles, floating crystalline mint star fragments, ivory white mist swirling with pearl lavender sparkles, soft starlight blue energy trails, delicate fairy-wing patterns in the mist"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza pétalos brillantes que pueden causar confusión o curar."
+      "name": "Pétalos de Amor",
+      "desc": "Lanza pétalos brillantes que curan la salud y aumentan el ataque del aliado.",
+      "name_en": "Love Petals",
+      "visual_prompt": "glowing pastel pink petals swirling in a gentle breeze, delicate ivory white starlight trails, pearl lavender mist floating upward, crystalline mint energy pulses, soft twilight sky backdrop, ethereal sparkle effects"
     },
     {
-      "name": "Zarza de Sueños",
-      "desc": "Crea una barrera de espinas de sueño que protege a aliados."
+      "name": "Brillo de Confeti",
+      "desc": "Genera una lluvia de confeti que ciega al enemigo y reduce su defensa.",
+      "name_en": "Confetti Flash",
+      "visual_prompt": "glowing pastel confetti rain, soft pink and lavender particles, crystal mint sparkles, starlight blue shimmer, blurred enemy silhouette from light, misty twilight atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiral con punta roja",
-      "to": "cola espiral con punta esponjosa y brillante"
+      "from": "Pelaje rojo intenso",
+      "to": "Pelaje plateado brillante con destellos de hada"
     },
     {
-      "from": "pelaje rojo intenso",
-      "to": "pelaje rosado y dorado con destellos mágicos"
+      "from": "Cola de fuego",
+      "to": "Cola en forma de nube de confeti mágico"
     },
     {
-      "from": "ojos amarillos brillantes",
-      "to": "ojos brillantes con un brillo suave y amable"
+      "from": "Ojos amarillos brillantes",
+      "to": "Ojos de cristal que reflejan magia"
     },
     {
-      "from": "ataques de fuego",
-      "to": "ataques de hada que curan y protegen"
+      "from": "Postura agresiva",
+      "to": "Postura relajada y alegre con pasos suaves"
     }
   ],
   "pokemon_id": "058",

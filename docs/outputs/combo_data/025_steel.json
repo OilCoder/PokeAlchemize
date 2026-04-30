@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Relámpago",
-  "lore": "Su pelaje ahora brilla con reflejos metálicos, sus orejas puntiagudas se han endurecido en acero. Sus descargas eléctricas son ahora más potentes y precisas, cortando el aire con un zumbido metálico.",
+  "lore": "Pikachu, ahora forjado en acero, camina con pasos firmes sobre sus patas metálicas. Su pelaje brillante refleja destellos de luz, y sus chispas eléctricas ahora cortan el aire como cuchillas afiladas.",
   "moves": [
     {
-      "name": "Relámpago Acero",
-      "desc": "Lanza un rayo eléctrico que corta el acero y deja marcas de escoria en el suelo."
+      "name": "Corte de Relámpago",
+      "desc": "Ataca con un rayo que corta como acero, causando daño físico y reduciendo defensa del rival.",
+      "name_en": "Lightning Slash",
+      "visual_prompt": "shimmering steel blade slicing through electric blue energy, polished silver sparks, neon cyan afterimage trails, industrial city skyline backdrop with glowing steam vents, gunmetal gray mist"
     },
     {
-      "name": "Cortar Acero",
-      "desc": "Corta al oponente con un movimiento rápido que deja surcos en su armadura."
+      "name": "Escudo de Chispas",
+      "desc": "Crea un escudo de chispas eléctricas que absorbe daño y refleja ataques críticos.",
+      "name_en": "Spark Shield",
+      "visual_prompt": "electric blue sparks, metallic silver shield, glowing neon cyan energy arcs, polished steel surface, industrial steam vents, gunmetal gray background, dynamic energy pulses, reflective surface"
     },
     {
-      "name": "Escudo Relámpago",
-      "desc": "Crea un escudo eléctrico que absorbe ataques y devuelve energía al usuario."
+      "name": "Impacto Acero",
+      "desc": "Golpea con un impacto potente que genera ondas de choque en el suelo.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "crackling metallic shockwaves, gunmetal gray ripples spreading across industrial concrete, polished silver sparks, neon cyan energy trails, electric blue distortion effects, industrial cityscape backdrop with glowing vents"
     },
     {
-      "name": "Chispa de Acero",
-      "desc": "Genera chispas que se acumulan en el suelo, causando daño eléctrico en área."
+      "name": "Sistema de Carga",
+      "desc": "Aumenta el ataque y la defensa al acumular energía eléctrica en su cuerpo metálico.",
+      "name_en": "Energy Charge",
+      "visual_prompt": "glowing gunmetal gray energy coils, polished silver sparks, metallic steel blue aura, electric blue arcs, neon cyan pulses, industrial city skyline silhouette, steam vent wisps"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "se han endurecido en acero, reflejando luz metálica"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas reforzadas con acero, firmeza aumentada para no resbalar"
     },
     {
       "from": "pelaje amarillo brillante",
-      "to": "brilla con reflejos metálicos, mostrando tonos plateados"
+      "to": "pelaje pulido como acero, reflejando destellos eléctricos"
     },
     {
-      "from": "descargas eléctricas suaves",
-      "to": "descargas más potentes y precisas, cortando el aire"
+      "from": "chispas eléctricas débiles",
+      "to": "chispas afiladas como cuchillas cortando el aire"
     },
     {
-      "from": "movimientos ligeros",
-      "to": "movimientos más sólidos, con impacto metálico"
+      "from": "postura baja",
+      "to": "postura más erguida, con fuerza metálica en cada movimiento"
     }
   ],
   "pokemon_id": "025",

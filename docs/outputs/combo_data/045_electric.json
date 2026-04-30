@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Vileplume, ahora con un capó de hongo brillante que emite chispas eléctricas. Sus pétalos se tensan con energía estática, y su aroma atrae a criaturas eléctricas hacia sus raíces cargadas.",
+  "species_name": "Pokémon Chispa Flor",
+  "lore": "Chispa Flor camina con patas eléctricas que brillan en la oscuridad. Sus pétalos absorben energía eléctrica, convirtiéndose en brillantes lámparas naturales. Su postura baja se mantiene para equilibrar su carga eléctrica.",
   "moves": [
     {
-      "name": "Chispa Floral",
-      "desc": "Dispara chispas desde sus pétalos que causan parálisis al contacto."
+      "name": "Descarga Petalo",
+      "desc": "Lanza pétalos cargados que generan pequeñas descargas eléctricas.",
+      "name_en": "Petal Shock",
+      "visual_prompt": "electric blue petals, neon yellow sparks, violet lightning bolts, bright white energy bursts, crackling energy field, stormy sky backdrop"
     },
     {
-      "name": "Electroflor",
-      "desc": "Carga sus pétalos con electricidad para atacar con un impacto fulminante."
+      "name": "Relampago Floral",
+      "desc": "Ataca con ráfagas de energía floral que iluminan el campo de batalla.",
+      "name_en": "Floral Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow floral patterns, violet spark particles, bright white energy trails, crackling storm clouds, neon-lit thunderclouds, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Raíces Estáticas",
-      "desc": "Genera un campo eléctrico alrededor de sus raíces para debilitar a los oponentes."
+      "name": "Carga Flor",
+      "desc": "Aumenta su velocidad al absorber energía eléctrica de la tierra.",
+      "name_en": "Floral Charge",
+      "visual_prompt": "electric blue vines coiling around neon yellow orbs, violet sparks crackling in stormy sky, bright white energy trails, electric cyan lightning arcs"
     },
     {
-      "name": "Bomba de Polen",
-      "desc": "Lanza un polen cargado que explota en una descarga eléctrica."
+      "name": "Electropetalo",
+      "desc": "Cubre sus pétalos con electricidad para atacar con fuerza.",
+      "name_en": "Electro Petal",
+      "visual_prompt": "electric blue petals crackling with neon yellow energy, violet sparks flying, bright white lightning arcs, electric cyan aura, stormy sky background, dynamic energy field"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza de hongo redondeada",
-      "to": "Capó de hongo con bordes brillantes que emite chispas"
+      "from": "pétalos verdes",
+      "to": "pétalos brillantes que emiten luz azul eléctrica"
     },
     {
-      "from": "Aroma venenoso",
-      "to": "Aroma eléctrico que atrae criaturas eléctricas"
+      "from": "patas terrestres",
+      "to": "patas con terminales eléctricas que generan chispas"
     },
     {
-      "from": "Pétalos suaves",
-      "to": "Pétalos tensos y cargados de energía estática"
+      "from": "postura baja",
+      "to": "postura más erguida para canalizar energía"
     },
     {
-      "from": "Raíces tóxicas",
-      "to": "Raíces que generan campos eléctricos para debilitar"
+      "from": "olor a veneno",
+      "to": "olor a ozono fresco tras una tormenta eléctrica"
     }
   ],
   "pokemon_id": "045",

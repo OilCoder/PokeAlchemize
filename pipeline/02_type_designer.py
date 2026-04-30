@@ -28,7 +28,7 @@ Return ONLY valid JSON with exactly these keys:
     "secondary": ["1-2 accent colors"],
     "avoid":     ["2-3 colors from opposing types to remove"]
   },
-  "anatomy": ["4-6 physical body modifications typical of this type"],
+  "anatomy": ["4-6 SURFACE modifications for this type — skin texture, scale pattern, external growths on existing parts ONLY. FORBIDDEN: limb count, wing presence, bipedal/quadruped stance, body shape, locomotion type. The original Pokémon body plan must be fully preserved. ALLOWED examples: 'sharp angular scales with metallic ridges', 'crystalline head crest', 'gill slits along neck'. FORBIDDEN examples: 'wings', 'four powerful legs', 'bipedal stance', 'clawed limbs'"],
   "effects": ["3-5 visual effects characteristic of this type"],
   "suppress_from_others": ["3-5 traits from other types that must be removed"],
   "palette": "comma-separated list of 4-5 specific colors in order of dominance, e.g. 'jet black, dark gray, bright orange lava glow, crimson red, amber'",
@@ -41,6 +41,7 @@ Rules for palette: list colors from most dominant to least; be specific (not 're
 Rules for skin_material: describe what the skin IS made of, not what color it changed to; keep under 20 words; no pose or atmosphere.
 Rules for accent: two elements only — tail tip and eyes; one line, under 10 words.
 Rules for background: describe the scene/environment only, not the Pokémon; use nouns with adjectives; no 'background' word; under 12 words.
+CRITICAL: anatomy must NEVER alter body structure. A serpentine Pokémon stays serpentine. A fish stays a fish. Only surfaces change.
 Focus on what a Ken Sugimori artist would draw. No explanations outside the JSON."""
 
 

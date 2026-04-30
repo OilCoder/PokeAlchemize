@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Descarga Floral",
-  "lore": "Descarga Floral emana destellos eléctricos desde su cabeza redonda, sus pétalos brillan con chispas azules. Sus ojos cerrados brillan con energía eléctrica, irradiando calma y poder en cada movimiento.",
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Este Oddish, ahora con un aura eléctrica, tiene hojas brillantes que emiten chispas. Sus raíces se han vuelto metálicas y relucen al tocar el suelo. Su postura baja se mantiene, pero ahora genera un campo estático alrededor.",
   "moves": [
     {
-      "name": "Chispa Petalo",
-      "desc": "Dispara chispas de pétalos que causan parálisis al contacto."
+      "name": "Chispa de Raíz",
+      "desc": "Genera una chispa que conecta con el suelo y recarga energía.",
+      "name_en": "Root Spark",
+      "visual_prompt": "electric blue energy arcs, neon yellow sparks, violet lightning streaks, bright white static bursts, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Electroflor",
-      "desc": "Crea una cortina de electricidad floral que daña y debilita a los oponentes."
+      "name": "Electrohoja",
+      "desc": "Sus hojas emiten un rayo eléctrico que daña a los enemigos cercanos.",
+      "name_en": "Electroleaf",
+      "visual_prompt": "crackling electric blue leaves, neon yellow energy arcs, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Relámpago de Raíces",
-      "desc": "Ataca con raíces eléctricas que atrapan y electrocutan al rival."
+      "name": "Campo Estático",
+      "desc": "Crea un campo que reduce la velocidad de los oponentes.",
+      "name_en": "Static Field",
+      "visual_prompt": "electric blue energy field, neon yellow crackles, violet sparks, bright white lightning bolts, stormy sky background, neon-lit thunderclouds"
     },
     {
-      "name": "Carga Floral",
-      "desc": "Aumenta su velocidad y daña con una descarga floral en movimiento."
+      "name": "Descarga Floral",
+      "desc": "Lanza un torrente de electricidad desde sus flores.",
+      "name_en": "Floral Surge",
+      "visual_prompt": "electric blue petals swirling in a vortex, neon yellow lightning arcs, violet sparks bursting from glowing flowers, bright white energy trails, electric cyan mist, stormy sky backdrop with crackling energy fields"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda con ojos cerrados",
-      "to": "cabeza redonda con destellos eléctricos y ojos brillantes de energía"
+      "from": "hojas verdes",
+      "to": "hojas brillantes que emiten chispas"
     },
     {
-      "from": "pétalos verdes",
-      "to": "pétalos brillantes con chispas azules que resplandecen al moverse"
+      "from": "raíces suaves",
+      "to": "raíces metálicas y relucientes"
     },
     {
-      "from": "olfato dulce",
-      "to": "aroma cargado de electricidad que atrae a los oponentes"
+      "from": "postura baja",
+      "to": "postura baja con campo estático"
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos rápidos y eléctricos que paralizan al enemigo"
+      "from": "color verde oscuro",
+      "to": "color verde eléctrico brillante"
     }
   ],
   "pokemon_id": "043",

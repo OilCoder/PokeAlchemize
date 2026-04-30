@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Hada",
-  "lore": "El Nidoking transformado en Hada muestra una cola espiral brillante con punta de púrpura luminiscente. Sus cuernos se cubren de pétalos cristalinos, y su piel emana un aura suave que cura heridas. Sus movimientos ahora combinan magia floral con fuerza.",
+  "species_name": "Pokémon Flor de Fae",
+  "lore": "Flor de Fae camina con pasos suaves, sus patas se transforman en pétalos brillantes. Sus cuernos se curvan en espirales doradas, y su pelaje ahora brilla con destellos de luz etérea. El tipo hada ha suavizado su presencia, dándole un aire de delicadeza mágica.",
   "moves": [
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos brillantes que curan y debilitan al rival en un solo ataque."
+      "name": "Pétalo de Sueño",
+      "desc": "Lanza pétalos que envuelven al rival en un sueño profundo, reduciendo su velocidad.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "floating pastel pink petals, glowing starlight blue mist, soft ivory white aura, crystalline mint light trails, delicate lavender swirls, moonlit garden backdrop, ethereal glow, gentle motion blur"
     },
     {
-      "name": "Canto de Hada",
-      "desc": "Canta una melodía que reduce el ataque y la defensa del enemigo."
+      "name": "Brillo de Luna",
+      "desc": "Aumenta el poder de los ataques especiales y cura leves heridas con luz lunar.",
+      "name_en": "Moonlight Gleam",
+      "visual_prompt": "luminous crescent moon, floating pastel pink petals, soft ivory white light rays, pearl lavender star clusters, crystalline mint energy orbs, gentle misty glow, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Sueño Dorado",
-      "desc": "Genera un sueño dorado que paraliza al rival y restaura la energía."
+      "name": "Canto de Fae",
+      "desc": "Crea una melodía que debilita a los enemigos y mejora la defensa del equipo.",
+      "name_en": "Fae Melody",
+      "visual_prompt": "floating pastel pink musical notes, glowing ivory white starlight orbs, pearl lavender crystalline petals, soft misty twilight sky background, delicate starlight blue shimmer effects"
     },
     {
-      "name": "Brote de Luz",
-      "desc": "Crea una explosión de luz que daña a todos los enemigos cercanos."
+      "name": "Cristal de Luz",
+      "desc": "Crea un escudo de cristal que absorbe el daño especial y refleja ataques.",
+      "name_en": "Crystal Shield",
+      "visual_prompt": "glowing crystal shield, intricate geometric patterns, soft pastel pink light, ivory white reflections, pearl lavender accents, starlight blue shimmer, crystalline mint glow, floating dewdrops, delicate misty aura"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiral con punta púrpura oscura",
-      "to": "cola espiral brillante con punta púrpura luminiscente"
+      "from": "Cuernos afilados",
+      "to": "Cuernos curvados en espirales doradas"
     },
     {
-      "from": "cuernos afilados",
-      "to": "cuernos cubiertos de pétalos cristalinos"
+      "from": "Piel áspera y oscura",
+      "to": "Pelaje brillante con destellos etéreos"
     },
     {
-      "from": "piel áspera",
-      "to": "piel que emana aura suave curativa"
+      "from": "Postura musculosa y terrenal",
+      "to": "Paso suave y elegante, patas transformadas en pétalos"
     },
     {
-      "from": "movimientos venenosos",
-      "to": "movimientos mágicos combinados con fuerza floral"
+      "from": "Ataques venenosos",
+      "to": "Ataques de luz etérea que curan y debilitan"
     }
   ],
   "pokemon_id": "034",

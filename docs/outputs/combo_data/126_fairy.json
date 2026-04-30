@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Aérea",
-  "lore": "Con cabello de llama en forma de alas, su piel resplandece con destellos de luz dorada. Las llamas de su cabeza se transforman en destellos mágicos que brillan con la energía de los sueños. Su presencia calma a todos con una suave brisa de hadas.",
+  "species_name": "Pokémon Llama de Ceniza",
+  "lore": "Con su pelaje de escamas plateadas y ojos brillantes, este Magmar emana un aura mágica. Sus patas se cubren de pétalos de flores de luna, absorbiendo la luz del sol para crear brillos etéreos.",
   "moves": [
     {
-      "name": "Ala de Sueño",
-      "desc": "Cubre al oponente con una bruma dorada que induce un sueño tranquilo."
+      "name": "Luz de Luna",
+      "desc": "Cubre al oponente con una luz suave que reduce su defensa y genera un aura de calma.",
+      "name_en": "Moonlight Glow",
+      "visual_prompt": "soft pastel pink light rays, ivory white mist, pearl lavender aura, glowing starlight blue crystals, crystalline mint energy particles, gentle moonbeam patterns, smooth flowing motion, ethereal shimmer"
     },
     {
-      "name": "Destello de Hadas",
-      "desc": "Emite destellos mágicos que reflejan la luz del sol en el aire."
+      "name": "Pétalos de Ceniza",
+      "desc": "Dispara pétalos brillantes que causan daño y aplican el efecto de 'Cansancio' al enemigo.",
+      "name_en": "Ash Petals",
+      "visual_prompt": "glowing pastel pink petals, soft ivory white mist, pearl lavender sparkles, starlight blue crystalline shards, floating crystalline mint particles, moonlit garden backdrop, soft misty twilight atmosphere"
     },
     {
-      "name": "Canto de Aurora",
-      "desc": "Canta una melodía que despierta la magia en los corazones cercanos."
+      "name": "Canto de Deseo",
+      "desc": "Crea un canto encantador que reduce el ataque del rival y aumenta la precisión del propio ataque.",
+      "name_en": "Dream Song",
+      "visual_prompt": "glowing pastel pink musical notes, floating pearl lavender crystals, soft ivory white mist, starlight blue shimmering aura, crystalline mint dewdrops, delicate flower petals swirling in motion"
     },
     {
-      "name": "Viento de Sueños",
-      "desc": "Crea una brisa suave que transporta al oponente a un mundo de sueños."
+      "name": "Espejismo de Fuego",
+      "desc": "Crea una ilusión de fuego que confunde al enemigo y reduce su velocidad.",
+      "name_en": "Fire Mirage",
+      "visual_prompt": "soft pastel pink fire orbs floating in mist, swirling lavender smoke trails, glowing starlight blue embers, crystalline mint reflections on dewy leaves, ethereal moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "flame-like hair on head with pointed tips",
-      "to": "transforma el cabello de llama en alas brillantes con destellos dorados"
+      "from": "Pelaje rojo intenso",
+      "to": "Pelaje plateado con destellos de luna"
     },
     {
-      "from": "fire type",
-      "to": "se convierte en un tipo fairy con energía mágica en lugar de calor"
+      "from": "Ojos de llama",
+      "to": "Ojos brillantes como estrellas"
     },
     {
-      "from": "aggressive demeanor",
-      "to": "adquiere una actitud tranquila y serena"
+      "from": "Patas de fuego",
+      "to": "Patas cubiertas de pétalos de flores de luna"
     },
     {
-      "from": "physical strength",
-      "to": "gana habilidad para manipular brisas suaves y sueños"
+      "from": "Ataque de fuego",
+      "to": "Ataque de magia celestial con efecto de curación"
     }
   ],
   "pokemon_id": "126",

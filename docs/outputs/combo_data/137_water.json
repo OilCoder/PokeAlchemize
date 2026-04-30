@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Agua Digital",
-  "lore": "Porygon, ahora con un cuerpo de cristal líquido, refleja el agua en sus bordes afilados. Sus formas geométricas se funden con olas, generando patrones de luz bajo el agua.",
+  "lore": "Porygon se transforma en un ente acuático, sus piernas se funden en aletas de cristal. Su cuerpo se vuelve transparente, reflejando el agua circundante. Sus ojos brillan con luces azules, emitiendo un zumbido suave bajo el agua.",
   "moves": [
     {
-      "name": "Onda de Código",
-      "desc": "Genera una ola de datos que desorienta al enemigo con patrones de luz brillante."
+      "name": "Reducción Hídrica",
+      "desc": "Reduce la velocidad del oponente al sumergirlo en un remolino de datos.",
+      "name_en": "Water Spin",
+      "visual_prompt": "whirling vortex of deep ocean blue water, swirling teal green data particles, pearly white bioluminescent plankton trails, aquamarine current ripples, sapphire blue energy swirls"
     },
     {
       "name": "Código Submarino",
-      "desc": "Envía una ráfaga de código que crea un campo de burbujas para bloquear ataques."
+      "desc": "Crea una burbuja de datos que protege al usuario y ataca al oponente.",
+      "name_en": "Submarine Code",
+      "visual_prompt": "glowing data bubble, deep ocean blue water ripples, teal green bioluminescent plankton trails, pearly white protective shield, aquamarine energy waves, sapphire blue digital glyphs floating in calm currents"
     },
     {
-      "name": "Luz de Mar",
-      "desc": "Emite destellos de luz que ciegan al rival, revelando su posición en el agua."
+      "name": "Flujo de Información",
+      "desc": "Envía una ola de datos que derrumba la defensa del oponente.",
+      "name_en": "Data Wave",
+      "visual_prompt": "glowing data streams, deep ocean blue waves, teal green particles, pearly white holographic grids, aquamarine ripples, sapphire blue energy pulses, bioluminescent plankton sparks, calm underwater current motion"
     },
     {
-      "name": "Red de Datos",
-      "desc": "Crea una red de datos que atrapa al enemigo en un campo de fuerza acuático."
+      "name": "Cristalización Digital",
+      "desc": "Cubre al oponente con un cristal de datos que reduce su movimiento.",
+      "name_en": "Digital Crystallize",
+      "visual_prompt": "glowing data crystal shards, shimmering aquamarine water droplets, deep ocean blue light rays, bioluminescent teal plankton sparks, pearly white refractive patterns, slow-motion underwater current swirls"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo de bloques geométricos",
-      "to": "Cuerpo de cristal líquido que refleja el agua y se funde con olas"
+      "from": "Cuatro patas cortas en el suelo",
+      "to": "Se fusionan en aletas translúcidas de cristal"
     },
     {
-      "from": "Bordes afilados",
-      "to": "Bordes suaves que se adaptan a la forma del agua"
+      "from": "Cuerpo sólido y opaco",
+      "to": "Cuerpo transparente que refleja el entorno acuático"
     },
     {
-      "from": "Sistema de programación",
-      "to": "Sistema de programación adaptado para navegar en aguas profundas"
+      "from": "Ojos normales",
+      "to": "Ojos brillantes azules que zumban bajo el agua"
     },
     {
-      "from": "Movimientos normales",
-      "to": "Movimientos que generan olas y patrones de luz en el agua"
+      "from": "Estilo de movimiento estático",
+      "to": "Fluye suavemente como una corriente de datos"
     }
   ],
   "pokemon_id": "137",

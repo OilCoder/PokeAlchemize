@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma de Luna",
-  "lore": "El Fantasma de Luna flota sin peso, sus ojos grandes brillan con destellos plateados. Sus rasgos suaves se tornan translúcidos, absorbiendo sombras para crear espejismos. Su presencia calma el miedo con una aura etérea.",
+  "species_name": "Pokémon Espectro de Cuna",
+  "lore": "El Espectro de Cuna camina con pasos etéreos, sus patas traseras se funden en bruma. Su cuerpo translúcido emite un resplandor suave, mientras sus ojos brillan con una luz azul fantasmal. Su presencia calma a los espíritus errantes.",
   "moves": [
     {
-      "name": "Sueño Sombrío",
-      "desc": "Inmoviliza al rival con un sueño que despierta recuerdos ancestrales."
+      "name": "Canto del Sueño",
+      "desc": "Canta una melodía que envuelve al oponente en un sueño profundo, reduciendo su velocidad.",
+      "name_en": "Dream Song",
+      "visual_prompt": "floating musical notes, glowing violet mist, shadowy tendrils, pale silver moonlight, ethereal fog, deep violet aura, ghostly white echoes, slow-motion swirling patterns"
     },
     {
-      "name": "Aurora Eterna",
-      "desc": "Genera un resplandor plateado que refuerza la defensa del usuario."
+      "name": "Bruma de Cuna",
+      "desc": "Crea una densa niebla que oculta su posición y reduce el daño recibido.",
+      "name_en": "Lullaby Mist",
+      "visual_prompt": "dense mist, swirling violet and charcoal gray fog, pale silver particles, ghostly white outlines, shadow violet tendrils, ethereal moonlight glow, misty graveyard atmosphere, no characters or Pokémon"
     },
     {
-      "name": "Espejo de Sombras",
-      "desc": "Crea una copia fantasmal para confundir al enemigo."
+      "name": "Aliento de Sombras",
+      "desc": "Expulsa una ráfaga de sombras que causa daño y reduce la defensa del rival.",
+      "name_en": "Shadow Breath",
+      "visual_prompt": "vibrant violet shadow waves, drifting charcoal gray mist, pale silver spectral orbs, ghostly white tendrils, shadow violet energy trails, ethereal fog swirls, moonlit tombstone silhouettes in background"
     },
     {
-      "name": "Susurro del Viento",
-      "desc": "Reduce la velocidad del rival con un susurro que corta el aire."
+      "name": "Viento de Sueños",
+      "desc": "Genera un viento suave que cura la salud de aliados y reduce el daño de ataques.",
+      "name_en": "Dream Wind",
+      "visual_prompt": "soft violet mist swirling around floating silver leaves, glowing ghostly white particles, shadow violet aura with faint moonlight beams, ethereal fog drifting over tombstone silhouettes"
     }
   ],
   "diffs": [
     {
-      "from": "ojos grandes con pupilas negras",
-      "to": "ojos brillantes con destellos plateados y translúcidos"
+      "from": "Cuerpo redondo y suave",
+      "to": "Cuerpo translúcido con bruma alrededor"
     },
     {
-      "from": "piel suave y blanca",
-      "to": "piel translúcida que absorbe sombras"
+      "from": "Pies pequeños y redondos",
+      "to": "Patas traseras fundidas en niebla"
     },
     {
-      "from": "movimientos alegres y suaves",
-      "to": "movimientos que crean espejismos y calman miedos"
+      "from": "Ojos brillantes",
+      "to": "Ojos azules con destellos fantasmales"
     },
     {
-      "from": "vivir en bosques y prados",
-      "to": "habituar en lugares con sombras profundas y lunas llenas"
+      "from": "Alto nivel de energía positiva",
+      "to": "Energía espectral que calma espíritus"
     }
   ],
   "pokemon_id": "035",

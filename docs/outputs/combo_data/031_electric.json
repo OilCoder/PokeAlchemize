@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Sólido",
-  "lore": "Su cabeza redondeada ahora resplandece con descargas eléctricas, mientras sus orejas puntiagudas emiten chispas. La tierra bajo sus patas se vuelve conductiva, generando un aura de energía estática.",
+  "species_name": "Pokémon Relámpago Terrenal",
+  "lore": "Relámpago Terrenal se eriza con chispas eléctricas que danzan en su armadura de escamas. Sus patas, antes firmes en el suelo, ahora generan descargas al tocar la tierra, iluminando el entorno con cada paso.",
   "moves": [
     {
-      "name": "Chispa Terrenal",
-      "desc": "Genera chispas en el suelo que dañan a los oponentes en contacto."
+      "name": "Descarga Terrestre",
+      "desc": "Genera una ráfaga eléctrica que golpea al objetivo y lo paraliza temporalmente.",
+      "name_en": "Earth Charge",
+      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning bolts, violet sparks, bright white energy arcs, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Relámpago de Raíces",
-      "desc": "Aumenta su velocidad y carga sus patas con energía eléctrica."
+      "name": "Relámpago de Escamas",
+      "desc": "Lanza una lluvia de chispas desde sus escamas, aumentando el daño eléctrico.",
+      "name_en": "Scale Bolt",
+      "visual_prompt": "electric blue sparks raining downward, neon yellow lightning arcs, violet spark particles, bright white energy bursts, crackling energy fields in stormy sky"
     },
     {
-      "name": "Descarga de Cuerpo",
-      "desc": "Ataca con una descarga que inmoviliza al rival por un turno."
+      "name": "Zarpazo Estático",
+      "desc": "Ataca con garras cargadas de electricidad, causando parálisis en el oponente.",
+      "name_en": "Static Claw",
+      "visual_prompt": "electric blue claw-shaped energy, neon yellow sparks, violet lightning bolts, bright white crackling aura, electric cyan static discharge, stormy sky background with crackling energy fields"
     },
     {
-      "name": "Campo Estático",
-      "desc": "Crea un campo eléctrico que debilita a los oponentes de tipo agua."
+      "name": "Campo de Chispas",
+      "desc": "Crea un campo eléctrico alrededor de sí mismo, reduciendo el movimiento de los enemigos.",
+      "name_en": "Spark Field",
+      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet spark particles, bright white static arcs, electric cyan glow, stormy sky backdrop, dynamic energy waves"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redondeada",
-      "to": "Resplandece con descargas eléctricas constantes"
+      "from": "armadura de escamas",
+      "to": "escamas cargadas de electricidad que brillan con chispas"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Emite chispas al moverse, iluminando su entorno"
+      "from": "patas firmes en el suelo",
+      "to": "patas que generan descargas eléctricas al tocar tierra"
     },
     {
-      "from": "Piel resistente a venenos",
-      "to": "Convierte venenos en energía eléctrica para sus ataques"
+      "from": "bajo postura",
+      "to": "postura elevada para maximizar la conducción eléctrica"
     },
     {
-      "from": "Ataques terrenales",
-      "to": "Ahora usan electricidad para crear campos estáticos"
+      "from": "peligroso en combate",
+      "to": "peligroso por la parálisis eléctrica que causa"
     }
   ],
   "pokemon_id": "031",

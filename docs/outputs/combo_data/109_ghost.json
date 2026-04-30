@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Tóxico",
-  "lore": "Este Koffing fantasmal emana una aura púrpura que se mezcla con su veneno. Su símbolo de calavera brilla con destellos espectral, y sus ojos brillan con una luz fría que paraliza a los intrusos.",
+  "species_name": "Pokémon Sombra Tóxica",
+  "lore": "Sombra Tóxica flota sin peso, sus patas se han vuelto translúcidas y emiten un brillo azul. Su cuerpo, antes lleno de gases venenosos, ahora libera espirales de energía fantasmal que envenenan al contacto.",
   "moves": [
     {
-      "name": "Furia Espectral",
-      "desc": "Ataca con una ráfaga de energía fantasmal que reduce la defensa del rival."
+      "name": "Espirita Venenosa",
+      "desc": "Lanza espirales de energía fantasmal que envenenan al oponente con un efecto residual.",
+      "name_en": "Poison Spiral",
+      "visual_prompt": "ghostly violet spirals, residual poison mist, ethereal fog, pale silver glow, shadow violet accents, misty graveyard backdrop"
     },
     {
-      "name": "Veneno Siniestro",
-      "desc": "Infecta al rival con un veneno que se intensifica en movimiento de tipo fantasma."
+      "name": "Sombra Acorazada",
+      "desc": "Cubre su cuerpo con una armadura de sombras que reduce el daño recibido.",
+      "name_en": "Armored Shadow",
+      "visual_prompt": "shimmering violet shadow armor plates, jagged charcoal gray energy shards, pale silver mist swirls, ghostly white glowing cracks, ethereal fog drifting through shadowy void"
     },
     {
-      "name": "Calavera Brillante",
-      "desc": "Lanza un destello que ciega al enemigo y causa daño adicional."
+      "name": "Fumigación Fantasma",
+      "desc": "Genera una nube de humo fantasmal que reduce la precisión del rival.",
+      "name_en": "Ghost Mist",
+      "visual_prompt": "ethereal violet mist swirling, ghostly white tendrils, shadow violet smoke particles, pale silver fog droplets, deep violet mist clinging to moonlit tombstone outlines, misty graveyard atmosphere"
     },
     {
-      "name": "Nube de Aterrador",
-      "desc": "Cubre el campo de batalla con una nube que reduce la velocidad del rival."
+      "name": "Maldición Tóxica",
+      "desc": "Añade una maldición que reduce la defensa especial del oponente y aplica veneno.",
+      "name_en": "Toxic Curse",
+      "visual_prompt": "Toxic green vines twisting into ghostly violet mist, decaying tombstone fragments floating in shadowy fog, pale silver poison droplets falling, charcoal gray aura with ghostly white highlights, ethereal mist drifting over moonlit graveyard"
     }
   ],
   "diffs": [
     {
-      "from": "símbolo de calavera en el pecho",
-      "to": "brilla con destellos espectral y emite una aura púrpura"
+      "from": "cuerpo lleno de gases tóxicos",
+      "to": "cuerpo translúcido con energía fantasmal"
     },
     {
-      "from": "color gris oscuro",
-      "to": "tonos púrpura y negro con destellos brillantes"
+      "from": "patas sólidas y bajas",
+      "to": "patas translúcidas y flotantes"
     },
     {
-      "from": "movimientos de veneno",
-      "to": "combinados con efectos de tipo fantasma"
+      "from": "respiración lenta y pesada",
+      "to": "respiración silenciosa y etérea"
     },
     {
-      "from": "movimientos de tipo veneno",
-      "to": "ahora tienen efectos de parálisis y reducción de defensa"
+      "from": "olor a gases tóxicos",
+      "to": "olor a humo fantasmal y frialdad"
     }
   ],
   "pokemon_id": "109",

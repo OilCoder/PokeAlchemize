@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Marítimo",
-  "lore": "Lapras, ahora un espectro oceánico, camina sobre aguas fantasmales con su caparazón de piedra desgarrado. Sus ojos brillan con luz espectral, y sus garras cortan la niebla con un frío que paraliza el alma.",
+  "species_name": "Pokémon Fantasma Acuático",
+  "lore": "Lapras, ahora un espíritu marino fantasmal, flota sin peso sobre el agua. Sus patas se han vuelto translúcidas, emanando bruma azul. Su mirada es penetrante, revelando su naturaleza etérea.",
   "moves": [
     {
-      "name": "Brazo Fantasmal",
-      "desc": "Ataca con un brazo translúcido que atraviesa defensas y absorbe energía vital."
+      "name": "Sombra Marítima",
+      "desc": "Lanza una sombra que absorbe la luz del agua, oscureciendo el campo de batalla.",
+      "name_en": "Sea Shadow",
+      "visual_prompt": "ethereal mist, swirling violet shadows, pale silver water ripples, deep violet light absorption, charcoal gray fog, ghostly white glow, moonlit tombstone silhouettes, misty graveyard atmosphere"
     },
     {
-      "name": "Nieve Espectral",
-      "desc": "Lanza una nevada que congela el alma y deja huellas fantasmales en el suelo."
+      "name": "Viento Espectral",
+      "desc": "Genera un viento frío que desestabiliza al enemigo con un susurro fantasmal.",
+      "name_en": "Spectral Wind",
+      "visual_prompt": "cold violet mist swirling around moonlit tombstones, ethereal silver fog with ghostly whispers, shadow violet particles, pale silver aura, deep violet wind currents, misty graveyard atmosphere"
     },
     {
-      "name": "Viento del Abismo",
-      "desc": "Crea un viento frío que arrastra a los enemigos hacia el fondo del mar."
+      "name": "Ola Fantasmal",
+      "desc": "Crea olas que atraviesan la piel del oponente, causando daño psíquico.",
+      "name_en": "Phantom Wave",
+      "visual_prompt": "translucent violet waves, ghostly silver ripples, shadowy mist, ethereal fog, pale white energy trails, deep violet glow, charcoal gray undertones, drifting spectral particles"
     },
     {
-      "name": "Canto del Espectro",
-      "desc": "Emite un canto que confunde a los enemigos y les muestra visiones del pasado."
+      "name": "Eco de la Profundidad",
+      "desc": "Envía un eco resonante que debilita al enemigo con recuerdos ancestrales.",
+      "name_en": "Depth Echo",
+      "visual_prompt": "resonant violet sound waves, crumbling ancient tombstone fragments, ethereal mist swirling in ghostly silver, shadow violet ripples, pale silver echoes fading into charcoal gray fog"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón de piedra",
-      "to": "caparazón desgarrado con bordes afilados que emiten brillos fantasmales"
+      "from": "patas sólidas",
+      "to": "patas translúcidas que emanan bruma azul"
     },
     {
       "from": "piel fría",
-      "to": "piel con un frío que paraliza el alma y emite destellos espirituales"
+      "to": "piel que emite un brillo tenue y frío"
     },
     {
-      "from": "movimientos acuáticos",
-      "to": "movimientos que se desplazan sobre el agua sin dejar huellas"
+      "from": "pulso tranquilo",
+      "to": "pulso que late con un ritmo irregular, como una respiración fantasmal"
     },
     {
-      "from": "sonido de canto",
-      "to": "canto que confunde y muestra visiones del pasado"
+      "from": "comportamiento sereno",
+      "to": "comportamiento inquietante, flotando sin rumbo fijo"
     }
   ],
   "pokemon_id": "131",

@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Feroz",
-  "lore": "Machamp, ahora con llamas en sus brazos, arde con furia. Su cabeza redonda se cubre de llamas, y sus orejas puntiagudas brillan al rojo. Cada movimiento libera calor abrasador.",
+  "lore": "Machamp, ahora con piel de fuego en llamas, camina con cuatro patas firmes, sus músculos brillan con llamas al moverse, su postura baja y pesada emana calor intenso.",
   "moves": [
     {
-      "name": "Llamarada Feroz",
-      "desc": "Ataca con llamas intensas que queman el suelo, causando daño adicional a los oponentes."
+      "name": "Llamarada Colérica",
+      "desc": "Ataca con llamas furiosas que queman al oponente y reducen su defensa.",
+      "name_en": "Furious Blaze",
+      "visual_prompt": "crimson red flames, amber orange embers, molten gold sparks, swirling smoke, volcanic crater background, glowing magma pools, charcoal black ash particles, intense heat distortion, dynamic fire swirls, fiery aura, no characters, no Pokémon, no creatures, no silhouettes, Pokémon game art style, Ken Sugimori aesthetic, stylized 2D VFX, wide banner format, vibrant and intense fire effects, no text, no borders, no additional elements beyond fire and environment details"
     },
     {
       "name": "Golpe de Fuego",
-      "desc": "Un puñetazo ardiente que quema al rival y aumenta la velocidad del usuario."
+      "desc": "Un puñetazo que envía una explosión de fuego hacia el rival.",
+      "name_en": "Fire Punch",
+      "visual_prompt": "crimson red fire explosion, molten gold embers swirling, amber orange flames with charcoal black smoke trails, glowing ember particles, volcanic crater backdrop with magma pools, dynamic motion lines, stylized 2D VFX art style, Ken Sugimori aesthetic, wide banner composition, no characters or Pokémon, vibrant fire effects only"
     },
     {
-      "name": "Furia Llameante",
-      "desc": "Un ataque rápido que incrementa el daño con cada golpe consecutivo."
+      "name": "Resplandor Ardiente",
+      "desc": "Genera un aura de calor que aumenta el ataque propio.",
+      "name_en": "Blazing Aura",
+      "visual_prompt": "crimson red heat waves, molten gold embers swirling in air, amber orange aura pulses, charcoal black smoke tendrils, glowing ember particles, volcanic crater background"
     },
     {
-      "name": "Incendio Total",
-      "desc": "Lanza una ola de llamas que afecta a todos los enemigos en el campo."
+      "name": "Furia Inflamada",
+      "desc": "Aumenta el poder de los ataques de fuego en combate.",
+      "name_en": "Blazing Fury",
+      "visual_prompt": "crimson fire whirls, molten gold embers, amber-orange flames, swirling volcanic smoke, glowing ember trails, charcoal black ash particles"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "cubierta de llamas que brillan al rojo"
+      "from": "cuatro brazos",
+      "to": "cuatro patas en llamas"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "brillan intensamente con el calor del fuego"
+      "from": "postura baja",
+      "to": "postura baja con llamas en los pies"
     },
     {
-      "from": "brazos fuertes",
-      "to": "llameantes y capaces de lanzar fuego en combate"
+      "from": "piel gris",
+      "to": "piel roja brillante cubierta de llamas"
     },
     {
-      "from": "postura agresiva",
-      "to": "envuelta en llamas que aumentan su furia"
+      "from": "músculos",
+      "to": "músculos que emiten calor intenso"
     }
   ],
   "pokemon_id": "068",

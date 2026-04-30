@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "El Pokémon Llama Marina se fusiona con llamas que dan forma a su cuerpo redondo, creando una silueta danzante de fuego. Sus ojos brillan con intensidad, y sus extremidades se transforman en llamas danzantes que arden sin consumirse.",
+  "lore": "Este Ditto transformado arde con llamas que modulan su forma flexible. Sus rasgos se funden en un cuerpo fluido de fuego, con destellos dorados en lugar de ojos y una cola de llama que flota en el aire.",
   "moves": [
     {
-      "name": "Llama Danzante",
-      "desc": "Lanza una danza de llamas que quema y desorienta al oponente con movimientos fluidos."
+      "name": "Llama Disfraz",
+      "desc": "Cambia de forma para imitar un Pokémon enemigo, pero con un aura de fuego que quema su piel.",
+      "name_en": "Disguise Flame",
+      "visual_prompt": "crimson red flames swirling in a fiery aura, molten gold embers floating in smoke-filled air, volcanic crater background with glowing magma pools, charcoal black smoke tendrils, ember sparks illuminating the scene"
     },
     {
-      "name": "Fuego Sutil",
-      "desc": "Crea una capa de calor que reduce la velocidad del enemigo mientras se acerca."
+      "name": "Fuego Inconsciente",
+      "desc": "Ataca con llamas que consumen la energía del oponente, dejándolo sin fuerzas.",
+      "name_en": "Unconscious Flame",
+      "visual_prompt": "crimson red flames consuming energy, molten gold embers swirling, amber orange heat haze, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop"
     },
     {
-      "name": "Inferno Danzante",
-      "desc": "Genera un torbellino de llamas que ataca múltiples veces en rápida sucesión."
+      "name": "Cambio de Llama",
+      "desc": "Transforma su cuerpo en una llamarada que se mueve rápidamente para atacar.",
+      "name_en": "Flame Shift",
+      "visual_prompt": "crimson fire trails, molten gold embers swirling, rapid flame motion lines, volcanic ash particles, glowing ember sparks, charcoal black smoke swirls"
     },
     {
-      "name": "Círculo de Fuego",
-      "desc": "Forma un círculo de fuego alrededor del oponente, causando daño continuo."
+      "name": "Fuego de Transformación",
+      "desc": "Cambia de forma mientras emite una explosión de llamas que daña a todos los enemigos cercanos.",
+      "name_en": "Transformation Fire",
+      "visual_prompt": "crimson red flames, molten gold embers, volcanic crater background, glowing magma pools, smoke trails, ember explosions, charred black ash particles, dynamic fire swirls"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondo sin extremidades",
-      "to": "Extremidades formadas por llamas danzantes que arden sin consumirse"
+      "from": "cuerpo sin forma",
+      "to": "cuerpo fluido de fuego con destellos dorados"
     },
     {
-      "from": "Ojos normales",
-      "to": "Ojos brillantes que emiten destellos de fuego"
+      "from": "forma flexible",
+      "to": "flama que se mueve en el aire"
     },
     {
-      "from": "Sin rasgos distintivos",
-      "to": "Forma fluida que se adapta al movimiento de las llamas"
+      "from": "sin ojos",
+      "to": "ojos de llama dorada"
     },
     {
-      "from": "Cuerpo sin color definido",
-      "to": "Cuerpo de color naranja brillante con destellos dorados"
+      "from": "flotando en el aire",
+      "to": "cola de llama que flota en el aire"
     }
   ],
   "pokemon_id": "132",

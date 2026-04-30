@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Agua de Espejo",
-  "lore": "Un espejo líquido que refleja su entorno con ondas cristalinas. Su cuerpo translúcido se adapta a cualquier forma, pero ahora emana un brillo azul intenso bajo el agua.",
+  "species_name": "Pokémon Agua Esmeralda",
+  "lore": "Este Ditto transformado flota en el aire, su cuerpo translúcido brillando con destellos verdes. Sus formas cambiantes ahora reflejan la fluidez del agua, con ondas suaves que se extienden alrededor de él.",
   "moves": [
     {
-      "name": "Ola Espejo",
-      "desc": "Crea una ola que refleja el movimiento del oponente, duplicando su ataque temporalmente."
+      "name": "Ola Cristalina",
+      "desc": "Crea una ola de agua cristalina que refleja el entorno, confundiendo al enemigo.",
+      "name_en": "Crystal Wave",
+      "visual_prompt": "crystalline water wave, refracting light beams, shimmering teal reflections, bioluminescent plankton particles, deep ocean blue background, smooth aquamarine ripples, pearly white highlights, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Resplandor Acuático",
-      "desc": "Aumenta la velocidad de movimiento y ataque con un brillo que ciega al enemigo."
+      "name": "Nube Acuática",
+      "desc": "Genera una nube de vapor que oculta su posición y reduce la precisión del rival.",
+      "name_en": "Water Mist",
+      "visual_prompt": "dense vapor cloud, swirling teal and aquamarine mist, pearly white droplets, bioluminescent plankton glows, deep ocean blue haze, calm water currents swirling"
     },
     {
-      "name": "Forma Fluida",
-      "desc": "Se adapta a la forma del oponente, reduciendo su resistencia a ataques de agua."
+      "name": "Torrente Luminoso",
+      "desc": "Envía un torrente de agua brillante que cura la salud del aliado.",
+      "name_en": "Luminous Torrent",
+      "visual_prompt": "glowing bioluminescent water currents, swirling teal and aquamarine water orbs, pearly white mist rising, deep ocean blue background with subtle sapphire highlights, smooth flowing water ripples"
     },
     {
-      "name": "Pulso Oceánico",
-      "desc": "Envía un pulso de energía acuática que debilita los ataques de fuego."
+      "name": "Marea de Espejos",
+      "desc": "Crea múltiples imágenes reflejadas que atacan simultáneamente.",
+      "name_en": "Mirror Tide",
+      "visual_prompt": "shimmering water reflections, multiple overlapping mirrored ripples, bioluminescent teal orbs, deep ocean blue waves, pearly white light beams, aquamarine sparkles, calm underwater current motion"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondeado sin extremidades",
-      "to": "Cuerpo translúcido con ondas que forman líneas fluidas como el agua."
+      "from": "Cuerpo gelatinoso sin forma definida",
+      "to": "Cuerpo translúcido con destellos verdes que reflejan el agua"
     },
     {
-      "from": "Capacidad de imitar formas",
-      "to": "Ahora imita formas con reflejos acuáticos que cambian según el entorno."
+      "from": "Flotación sin esfuerzo",
+      "to": "Flotación suave con ondas que se extienden alrededor"
     },
     {
-      "from": "Sin rasgos distintivos",
-      "to": "Brilla con un azul intenso que resplandece bajo el agua."
+      "from": "Capacidad de imitar cualquier forma",
+      "to": "Imita formas fluidas de agua, como olas y gotas"
     },
     {
-      "from": "No tiene habilidades especiales",
-      "to": "Puede manipular el agua para crear reflejos y debilitar ataques de fuego."
+      "from": "No tiene extremidades definidas",
+      "to": "Cuerpo se divide en múltiples capas fluidas que interactúan con el agua."
     }
   ],
   "pokemon_id": "132",

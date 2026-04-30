@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Marítima",
-  "lore": "Con un caparazón translúcido que emana sombras, su crestón espectral se agita con cada respiración. Su piel refleja la oscuridad del océano profundo, y sus ojos brillan con un resplandor azul fantasmal.",
+  "species_name": "Pokémon Lamento Sombrio",
+  "lore": "Gyarados, ahora un espectro de miedo, camina con patas sólidas y mirada vacía. Su piel translúcida revela huesos de hueso gris, mientras el viento aúlla alrededor de su cuerpo espectral.",
   "moves": [
     {
-      "name": "Alma Marítima",
-      "desc": "Absorbe la energía del mar para lanzar ondas de sombra que confunden al enemigo."
+      "name": "Alma Fugaz",
+      "desc": "El Pokémon lanza un grito que desvía al oponente, reduciendo su velocidad temporalmente.",
+      "name_en": "Fleeting Spirit",
+      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, pale silver spectral whispers, charcoal gray shadow trails, ethereal fog drifting with faint glowing white orbs, misty graveyard atmosphere"
     },
     {
-      "name": "Viento Fantasmal",
-      "desc": "Crea ráfagas de viento frío que desgarran el aire y desestabilizan a los oponentes."
+      "name": "Sombra Invernal",
+      "desc": "Crea una sombra helada que ralentiza al enemigo y le quita energía.",
+      "name_en": "Winter Shade",
+      "visual_prompt": "frozen mist, glacial shadows, slow-motion ice crystals, pale silver light, ghostly violet fog, drifting tombstone outlines, charcoal gray mist, ethereal moonlight glow"
     },
     {
-      "name": "Sombra Profunda",
-      "desc": "Invoca sombras que envuelven al enemigo, reduciendo su velocidad y fuerza."
+      "name": "Ojos de la Muerte",
+      "desc": "Ataca con miradas que causan miedo, reduciendo la precisión del rival.",
+      "name_en": "Death Gaze",
+      "visual_prompt": "shimmering violet eyes floating in mist, cracked tombstone fragments, ethereal fog drifting, ghostly white glow, shadow violet particles, charcoal gray mist, pale silver accents"
     },
     {
-      "name": "Espectro Oceánico",
-      "desc": "Genera un campo de energía espectral que debilita a los enemigos acuáticos."
+      "name": "Espectro Aullante",
+      "desc": "Emite un aullido que inflige daño y reduce la defensa del oponente.",
+      "name_en": "Spectral Howl",
+      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, shimmering pale silver spectral orbs floating in the air, charcoal gray shadowy tendrils reaching upward, ethereal fog drifting with faint glowing outlines, deep violet energy pulses radiating outward"
     }
   ],
   "diffs": [
     {
-      "from": "spiky crest on rounded head",
-      "to": "crestón translúcido que emana sombras y brilla con un resplandor azul"
+      "from": "Piel resistente y escamas brillantes",
+      "to": "Piel translúcida que muestra huesos grisáceos, como si fuera un esqueleto vivo."
     },
     {
-      "from": "water / flying types",
-      "to": "ghost type, con piel que refleja la oscuridad del océano profundo"
+      "from": "Postura erguida en el aire",
+      "to": "Cuadrúpedo con patas plantadas en el suelo, adoptando una postura baja y amenazante."
     },
     {
-      "from": "aggressive and powerful",
-      "to": "más sigiloso y letal, utilizando la oscuridad para sorprender"
+      "from": "Gritos fuertes y resonantes",
+      "to": "Gritos que provocan miedo y desorientación en los rivales."
     },
     {
-      "from": "aquatic and aerial movements",
-      "to": "movimientos más fluidos y etéreos, como si flotara entre sombras"
+      "from": "Resistencia a ataques de agua",
+      "to": "Resistencia a ataques de tipo fantasma, pero vulnerable a ataques de tipo luz."
     }
   ],
   "pokemon_id": "130",

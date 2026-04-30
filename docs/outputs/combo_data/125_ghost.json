@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Eléctrico",
-  "lore": "El Electabuzz fantasmal emana un brillo azul pálido, sus espinas coronadas brillan con energía oscura. Sus ojos brillan con un resplandor espectral, y su cuerpo parece translúcido en la penumbra.",
+  "species_name": "Pokémon Fantasma Electrónico",
+  "lore": "Fantasma Electrónico se desplaza sin ruido, sus patas brillan con energía espectral. Su cuerpo translúcido emite destellos azules mientras absorbe la electricidad de los espíritus. Su mirada fría y distante refleja su naturaleza etérea.",
   "moves": [
     {
-      "name": "Electrofantasma",
-      "desc": "Inyecta una descarga eléctrica que atraviesa el plano espectral, causando daño a los enemigos enemigos."
+      "name": "Sombra Chispa",
+      "desc": "Lanza una ráfaga de energía eléctrica que atraviesa fantasmas y objetos sólidos.",
+      "name_en": "Shadow Spark",
+      "visual_prompt": "glowing violet energy bolts, ghostly silver mist, deep violet shadows, shattered spectral barriers, ethereal moonlight beams, fragmented shadow orbs, pale silver particles, misty graveyard atmosphere"
     },
     {
-      "name": "Sombra Relampagueante",
-      "desc": "Crea sombras que se transforman en relámpagos, atacando a múltiples objetivos con rapidez."
+      "name": "Energía Espectral",
+      "desc": "Absorbe energía eléctrica del entorno para curarse y aumentar su velocidad.",
+      "name_en": "Spectral Energy",
+      "visual_prompt": "glowing violet energy orbs floating in mist, ethereal silver trails, shadowy violet tendrils, pale silver light beams, ghostly white aura, misty graveyard backdrop with moonlit tombstones"
     },
     {
-      "name": "Viento Espectral",
-      "desc": "Genera un viento frío que desvía los ataques y reduce la defensa del rival."
+      "name": "Viento Fantasmal",
+      "desc": "Crea una ráfaga de aire frío que confunde al oponente y reduce su precisión.",
+      "name_en": "Phantom Gale",
+      "visual_prompt": "cold mist swirls, translucent ghostly violets, drifting shadowy tendrils, faint moonlight beams, pale silver fog, ethereal tombstone outlines, deep violet haze"
     },
     {
-      "name": "Atrapar Sombras",
-      "desc": "Absorbe la energía espectral del enemigo para recuperar salud."
+      "name": "Chispa de la Oscuridad",
+      "desc": "Genera un destello de luz eléctrica que ciega al rival y causa daño adicional.",
+      "name_en": "Dark Spark",
+      "visual_prompt": "glowing violet lightning bolts, crackling shadowy energy arcs, misty graveyard fog, pale silver sparks, ghostly white afterimage trails, deep violet aura, ethereal fog swirls"
     }
   ],
   "diffs": [
     {
-      "from": "Cabello espinoso en forma de corona",
-      "to": "Las espinas brillan con una luz azul pálida y emiten un resplandor espectral."
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transparentes que flotan ligeramente sobre el suelo"
     },
     {
-      "from": "Cuerpo sólido y brillante",
-      "to": "El cuerpo se vuelve translúcido y parpadea en la oscuridad."
+      "from": "bajo postura",
+      "to": "postura más erguida, flotando en el aire con gracia espectral"
     },
     {
-      "from": "Ojos brillantes y amarillos",
-      "to": "Los ojos se vuelven de un azul pálido y brillan con una energía espectral."
+      "from": "color amarillo brillante",
+      "to": "tonos azulados translúcidos que brillan en la oscuridad"
     },
     {
-      "from": "Movimientos eléctricos rápidos",
-      "to": "Los movimientos se combinan con energía espectral, atravesando objetos sólidos."
+      "from": "voces electrónicas",
+      "to": "susurros etéreos que se mezclan con el viento"
     }
   ],
   "pokemon_id": "125",

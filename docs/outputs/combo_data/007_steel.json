@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Escudo Acero",
-  "lore": "Con su caparazón de acero pulido, Escudo Acero camina con firmeza. Sus orejas puntiagudas brillan bajo el sol, y su mirada refleja la resistencia del metal. El agua en su interior se solidifica en un núcleo frío.",
+  "species_name": "Pokémon Acero Marina",
+  "lore": "Este Squirtle de acero marino camina con paso firme sobre sus patas cortas, su caparazón reluciente refleja el agua. Sus ojos brillan con una luz metálica, y su respiración emite un suave zumbido de acero.",
   "moves": [
     {
-      "name": "Escudo Acero",
-      "desc": "Crea una barrera de acero que absorbe ataques físicos y reduce el daño recibido."
+      "name": "Bomba de Acero",
+      "desc": "Lanza una esfera de acero que impacta con fuerza, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Steel Bomb",
+      "visual_prompt": "gunmetal gray steel sphere, glowing electric blue energy core, metallic steam vents, polished silver sparks, neon cyan impact rings, industrial cityscape backdrop, sharp geometric shockwaves"
     },
     {
-      "name": "Chorro Frío",
-      "desc": "Dispara un chorro de agua congelada que ralentiza al oponente y reduce su velocidad."
+      "name": "Escudo Marítimo",
+      "desc": "Crea un escudo de acero que absorbe el daño y refleja el ataque en contra del oponente.",
+      "name_en": "Maritime Shield",
+      "visual_prompt": "gunmetal gray steel shield with polished silver edges, electric blue energy waves reflecting off its surface, neon cyan ripples, industrial cityscape backdrop with glowing neon signs, metallic steam vents emitting vapor"
     },
     {
-      "name": "Martillo de Acero",
-      "desc": "Ataca con un martillo de acero que causa daño y baja la defensa del rival."
+      "name": "Corte de Mar",
+      "desc": "Corta el agua con un movimiento de acero, causando daño y reduciendo la velocidad del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel blade slicing through water droplets, polished silver edges, metallic steam rising, neon cyan trails, gunmetal gray splashes, industrial cityscape backdrop"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Genera ondas de sonido metálico que debilitan los ataques especiales del oponente."
+      "name": "Resonancia de Acero",
+      "desc": "Genera una onda de sonido metálico que reduce la precisión del oponente.",
+      "name_en": "Steel Resonance",
+      "visual_prompt": "metallic sound wave, gunmetal gray ripples, polished silver distortion, neon cyan echoes, electric blue vibrations, industrial steam vents, metallic reflections, glowing neon city skyline"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "caparazón de acero pulido que refleja la luz"
+      "from": "caparazón de agua",
+      "to": "caparazón de acero brillante que refleja el agua"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas brillantes que resuenan como metal"
+      "from": "movimiento lento",
+      "to": "movimiento firme y rápido sobre patas cortas"
     },
     {
-      "from": "piel suave",
-      "to": "piel endurecida con escamas de acero"
+      "from": "respiración suave",
+      "to": "respiración que emite un zumbido metálico"
     },
     {
-      "from": "agilidad",
-      "to": "movimientos pesados pero resistentes"
+      "from": "ojos claros",
+      "to": "ojos que brillan con luz metálica"
     }
   ],
   "pokemon_id": "007",

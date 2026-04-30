@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Roca",
-  "lore": "Geodude, ahora con una armadura de acero pulido, resplandece bajo el sol. Su cabeza redondeada brilla con reflejos metálicos, y sus movimientos son precisos y poderosos.",
+  "lore": "Geodude se fusiona con acero, sus patas se convierten en espinas afiladas y su cuerpo brilla con un brillo plateado. Sus ojos resplandecen con energía metálica, listos para defender su territorio con fuerza inquebrantable.",
   "moves": [
     {
-      "name": "Acero Corte",
-      "desc": "Corta con una hoja de acero que emite destellos brillantes."
+      "name": "Corte Acero",
+      "desc": "Corta con garras de acero, causando daño cortante y reduciendo la defensa del rival.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws slicing through air, jagged metallic shards, gunmetal gray sparks, polished silver trails, electric blue energy streaks, neon cyan glow, industrial city skyline silhouette in background"
+    },
+    {
+      "name": "Golpe Rígido",
+      "desc": "Golpea con un impacto metálico, provocando un aturdimiento temporal en el oponente.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "metallic shards, polished silver sparks, gunmetal gray energy waves, electric blue shockwaves, neon cyan trails, industrial city skyline silhouette, metallic steam vents"
+    },
+    {
+      "name": "Escudo Reflejante",
+      "desc": "Crea un escudo de acero que refleja ataques físicos y aumenta la defensa.",
+      "name_en": "Reflect Shield",
+      "visual_prompt": "polished silver shield with glowing neon cyan edges, steel-blue energy ripples, industrial city skyline backdrop, metallic steam vents, electric blue light reflections"
     },
     {
       "name": "Martillo de Acero",
-      "desc": "Golpea con un martillo de acero que incrementa el daño."
-    },
-    {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo protector de acero que reduce el daño recibido."
-    },
-    {
-      "name": "Resonancia Metálica",
-      "desc": "Genera ondas de sonido que debilitan a los enemigos."
+      "desc": "Ataca con un martillo metálico, causando daño y aumentando el ataque del usuario.",
+      "name_en": "Steel Hammer",
+      "visual_prompt": "metallic hammer strike, gunmetal gray sparks, polished silver trail, steel blue energy waves, neon cyan impact flash, industrial city skyline silhouette, metallic steam vents, electric blue aura"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada con superficie de piedra lisa",
-      "to": "cabeza redondeada con superficie de acero pulido"
+      "from": "patas cortas plantadas en el suelo",
+      "to": "patas transformadas en espinas afiladas de acero"
     },
     {
-      "from": "movimientos lentos y pesados",
-      "to": "movimientos precisos y rápidos"
+      "from": "cuerpo compacto y rocoso",
+      "to": "cuerpo brillante con brillo plateado y reflejos metálicos"
     },
     {
-      "from": "resistencia a golpes",
-      "to": "resistencia a golpes y proyectiles"
+      "from": "ojos oscuros",
+      "to": "ojos resplandecientes con energía metálica"
     },
     {
-      "from": "poco resistente a fuego",
-      "to": "resistencia a fuego y corrosión"
+      "from": "resistencia a golpes físicos",
+      "to": "resistencia aumentada a ataques de tipo acero"
     }
   ],
   "pokemon_id": "074",

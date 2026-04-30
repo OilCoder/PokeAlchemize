@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Roca",
-  "lore": "Aerodactyl ahora brilla con un aura eléctrica, sus escamas afiladas emiten chispas al volar. Sus orejas puntiagudas se iluminan como antenas, captando corrientes eléctricas en el aire.",
+  "species_name": "Pokémon Relámpago de Roca",
+  "lore": "Aerodactyl ahora respira chispas eléctricas que brillan en su piel rocosa. Sus patas, antes sólidas, emiten descargas al tocar el suelo, y sus alas de piedra se cargan con energía estática.",
   "moves": [
     {
-      "name": "Rayo Escama",
-      "desc": "Ataca con un rayo que se dispara desde sus escamas, causando daño eléctrico y posiblemente paralizar."
+      "name": "Descarga Estática",
+      "desc": "Inyecta descargas eléctricas en el suelo, causando daño y debilitando a los enemigos.",
+      "name_en": "Static Surge",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky backdrop with crackling energy fields"
     },
     {
-      "name": "Tormenta Céfala",
-      "desc": "Genera una tormenta eléctrica alrededor de su cabeza, aumentando su velocidad y aturdiendo a los rivales."
+      "name": "Ala de Relámpago",
+      "desc": "Ataca con un aleteo que libera un rayo eléctrico, elevando la velocidad del usuario.",
+      "name_en": "Thunder Wing",
+      "visual_prompt": "crackling electric blue wings, neon yellow lightning bolts, violet spark particles, bright white energy trails, stormy sky backdrop with neon-lit thunderclouds"
     },
     {
-      "name": "Impacto Relámpago",
-      "desc": "Se lanza a gran velocidad, golpeando con un impacto eléctrico que quema el suelo."
+      "name": "Roca Electrificada",
+      "desc": "Lanza fragmentos de roca cargados de electricidad, causando daño y posiblemente paralizar.",
+      "name_en": "Electric Rock",
+      "visual_prompt": "crackling electric blue shards, neon yellow sparks, violet lightning bolts, bright white energy arcs, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Carga Estática",
-      "desc": "Aumenta su ataque y acumula energía eléctrica para el próximo ataque."
+      "name": "Carga de Trueno",
+      "desc": "Concentra energía eléctrica en el cuerpo para un ataque devastador.",
+      "name_en": "Thunder Charge",
+      "visual_prompt": "crackling electric arcs, glowing neon yellow orbs, electric blue energy trails, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redondeada",
-      "to": "Se acentúa con escamas brillantes que emiten chispas"
+      "from": "patas sólidas",
+      "to": "patas que emiten descargas eléctricas al tocar el suelo"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Se transforman en antenas que captan corrientes eléctricas"
+      "from": "alas de piedra",
+      "to": "alas cargadas de energía estática"
     },
     {
-      "from": "Piel rocosa",
-      "to": "Se vuelve lisa y conductora, acumulando carga eléctrica"
+      "from": "respiración normal",
+      "to": "respira chispas eléctricas que brillan en su piel"
     },
     {
-      "from": "Vuelo silencioso",
-      "to": "Genera un zumbido eléctrico al volar"
+      "from": "posición baja",
+      "to": "postura elevada por la energía eléctrica"
     }
   ],
   "pokemon_id": "142",

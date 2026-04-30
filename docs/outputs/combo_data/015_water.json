@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Agua Venenosa",
-  "lore": "El Beedrill acuático, con su cabeza redonda y antenas negras que brillan bajo el agua, emite burbujas tóxicas mientras se desplaza con elegancia. Su cuerpo resplandece con escamas azules que absorben la luz marina.",
+  "lore": "Beedrill ahora flota en el agua con patas afiladas, su cuerpo brillante refleja el agua. Sus aguijones emiten burbujas tóxicas, y su postura se ha adaptado para nadar con gracia.",
   "moves": [
     {
       "name": "Burbuja Venenosa",
-      "desc": "Lanza burbujas llenas de veneno que envenenan al objetivo al impactar."
+      "desc": "Lanza burbujas tóxicas que envenenan al rival al impactar.",
+      "name_en": "Toxic Bubble",
+      "visual_prompt": "toxic green bubbles with swirling venomous patterns, deep ocean blue water currents, bioluminescent teal plankton glowing softly, pearly white bubble trails, aquamarine light refractions"
     },
     {
-      "name": "Ola Tóxica",
-      "desc": "Genera una ola de agua tóxica que reduce la defensa del enemigo."
+      "name": "Nado Rápido",
+      "desc": "Aumenta la velocidad de movimiento en el agua durante un turno.",
+      "name_en": "Rapid Current",
+      "visual_prompt": "glowing bioluminescent plankton, swirling teal water currents, pearly white bubbles, aquamarine ripples, deep ocean blue background"
     },
     {
-      "name": "Nado Veloz",
-      "desc": "Acelera su movimiento bajo el agua, evitando ataques críticos."
+      "name": "Agua Estancada",
+      "desc": "Crea una zona de agua tóxica que reduce la velocidad del enemigo.",
+      "name_en": "Stagnant Water",
+      "visual_prompt": "toxic blue-green water swirls, glowing bioluminescent plankton, slow-motion ripples, deep ocean trench backdrop, pearly white bubbles, aquamarine mist, sapphire blue current eddies"
     },
     {
-      "name": "Inmersión Profunda",
-      "desc": "Se sumerge en el agua para recuperar energía y aumentar su defensa."
+      "name": "Picadura Hidro",
+      "desc": "Ataca con aguijones que absorben agua y aumentan el daño.",
+      "name_en": "Hydro Sting",
+      "visual_prompt": "glowing aquamarine stingers, swirling water orbs, deep ocean blue currents, bioluminescent plankton trails, pearly white mist, teal green energy pulses"
     }
   ],
   "diffs": [
     {
-      "from": "Antenas negras",
-      "to": "Antenas negras que brillan bajo el agua"
+      "from": "patas en el suelo",
+      "to": "patas afiladas para nadar"
     },
     {
-      "from": "Cuerpo con escamas de color amarillo",
-      "to": "Cuerpo resplandeciente con escamas azules"
+      "from": "cuerpo brillante",
+      "to": "refleja el agua en movimiento"
     },
     {
-      "from": "Pico venenoso",
-      "to": "Pico que emite burbujas tóxicas"
+      "from": "aguijones tóxicos",
+      "to": "aguijones que emiten burbujas tóxicas"
     },
     {
-      "from": "Vuelo rápido",
-      "to": "Nado elegante bajo el agua"
+      "from": "postura baja",
+      "to": "postura adaptada para nadar con gracia"
     }
   ],
   "pokemon_id": "015",

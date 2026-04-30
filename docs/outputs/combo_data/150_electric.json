@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Psíquico",
-  "lore": "Mewtwo, ahora envuelto en destellos eléctricos, brilla con un azul pálido y destellos morados que resplandecen al contacto con el campo eléctrico. Sus ojos brillan con energía pura, y su aura eléctrica envuelve a sus enemigos en un aturdimiento instantáneo.",
+  "species_name": "Pokémon Mewtwo Eléctrico",
+  "lore": "Mewtwo, ahora con un aura eléctrica que recorre su cuerpo, emite chispas desde sus manos. Sus ojos brillan con energía azul, y su postura se vuelve más dinámica, cargada de poder eléctrico.",
   "moves": [
     {
-      "name": "Rayo Mental",
-      "desc": "Lanza un rayo psíquico cargado de electricidad que paraliza al oponente."
+      "name": "Relámpago Mental",
+      "desc": "Lanza un rayo psíquico cargado de electricidad que aturde al rival.",
+      "name_en": "Mental Bolt",
+      "visual_prompt": "crackling electric blue energy bolts, neon yellow lightning streaks, violet spark particles, bright white shockwaves, stormy sky backdrop with neon-lit thunderclouds, dynamic energy field patterns"
     },
     {
-      "name": "Chispa Psíquica",
-      "desc": "Genera una chispa que se adhiere al oponente, aumentando el daño de los movimientos eléctricos."
+      "name": "Carga Psíquica",
+      "desc": "Aumenta el poder de los ataques psíquicos con una carga eléctrica adicional.",
+      "name_en": "Psychic Charge",
+      "visual_prompt": "glowing electric blue psychic orbs, neon yellow energy trails, violet spark particles, bright white crackling electricity, electric cyan storm clouds"
     },
     {
-      "name": "Barrera Estática",
-      "desc": "Crea una barrera que absorbe el daño eléctrico y lo convierte en energía para curarse."
+      "name": "Tormenta Estática",
+      "desc": "Genera una tormenta de chispas alrededor que reduce la velocidad del enemigo.",
+      "name_en": "Static Storm",
+      "visual_prompt": "electric blue storm clouds, neon yellow sparks, violet energy arcs, bright white lightning bolts, crackling energy fields, neon-lit thunderclouds, dynamic swirling energy, electric cyan highlights"
     },
     {
-      "name": "Tormenta Mental",
-      "desc": "Desata una tormenta eléctrica psíquica que aturde a todos los enemigos."
+      "name": "Chispazo Mental",
+      "desc": "Ataca con una descarga psíquica que causa parálisis.",
+      "name_en": "Mental Zap",
+      "visual_prompt": "electric blue energy bolts, neon yellow psychic waves, violet sparks, bright white crackles, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field"
     }
   ],
   "diffs": [
     {
-      "from": "piel azul pálida",
-      "to": "resplandece con destellos eléctricos azulados y morados"
+      "from": "postura estática",
+      "to": "postura dinámica y cargada de energía eléctrica"
     },
     {
-      "from": "resplandor psíquico",
-      "to": "se transforma en energía eléctrica que paraliza"
+      "from": "aura psíquica tranquila",
+      "to": "aura eléctrica que recorre su cuerpo con chispas"
     },
     {
-      "from": "aura tranquila",
-      "to": "se torna una aura vibrante que atrae descargas eléctricas"
+      "from": "ojos brillantes pero serenos",
+      "to": "ojos que brillan con energía azul eléctrica"
     },
     {
-      "from": "movimientos psíquicos",
-      "to": "se combinan con descargas eléctricas para aumentar el daño"
+      "from": "manos sin energía visible",
+      "to": "manos que emiten chispas eléctricas"
     }
   ],
   "pokemon_id": "150",

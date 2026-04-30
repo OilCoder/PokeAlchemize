@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Serpiente",
-  "lore": "Arbok, ahora envuelto en llamas sagradas, despliega escamas rojas que brillan con calor intenso. Sus ojos centellean como brasas, y su cola emite destellos de fuego al moverse.",
+  "lore": "El Pokémon Llama Serpiente se enrosca en llamas danzantes, sus escamas negras brillan con destellos rojos. Su respiración arde con fuego sagrado, envolviendo al enemigo en una danza de destrucción.",
   "moves": [
     {
-      "name": "Llamarada Serpentina",
-      "desc": "Lanza una bola de fuego que se enrosca alrededor del objetivo, quemando con intensidad."
+      "name": "Llama Serpentina",
+      "desc": "Lanza una llamarada en espiral que quema al oponente y reduce su velocidad.",
+      "name_en": "Serpent Flame",
+      "visual_prompt": "spiral fire trail, molten gold embers, crimson red flames, ash particles, volcanic smoke, glowing ember sparks, crackling heat waves, amber orange glow"
     },
     {
-      "name": "Fuego Sibilante",
-      "desc": "Emite un rugido de llama que quema y desorienta al enemigo."
+      "name": "Fuego Danzante",
+      "desc": "Crea un baile de llamas alrededor del oponente, causando daño continuo y confusión.",
+      "name_en": "Dancing Flame",
+      "visual_prompt": "swirling crimson fire whirls, amber-orange embers floating in smoke, molten gold trails, charcoal black ash swirls, glowing ember sparks, dynamic circular motion, volcanic crater background glow"
     },
     {
-      "name": "Escamas de Llama",
-      "desc": "Cubre al objetivo con escamas ardientes que infligen daño continuo."
+      "name": "Serpiente Ardiente",
+      "desc": "Ataca con un mordisco de fuego que quema y provoca un estado de quemadura.",
+      "name_en": "Blazing Bite",
+      "visual_prompt": "crimson red fire fangs, molten gold ember trails, smoky volcanic ash swirls, charcoal black smoke bursts, glowing magma pools reflecting flames"
     },
     {
-      "name": "Respiración de Dragón",
-      "desc": "Expulsa una columna de fuego que quema y eleva al enemigo."
+      "name": "Círculo de Llamas",
+      "desc": "Forma un círculo de llamas alrededor del campo, dañando a todos los enemigos.",
+      "name_en": "Flame Circle",
+      "visual_prompt": "crimson red fire rings, molten gold embers swirling, amber-orange flames forming a tight circle, charcoal black smoke trails, glowing magma pools beneath, dynamic circular motion"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada con orejas puntiagudas",
-      "to": "cabeza rodeada de llamas, orejas transformadas en espirales de fuego"
+      "from": "Cuerpo serpenteante acostado en el suelo",
+      "to": "Cuerpo enroscado en llamas danzantes, emitando calor intenso."
     },
     {
-      "from": "escamas verdes",
-      "to": "escamas rojas brillantes que emiten calor constante"
+      "from": "Escamas oscuras sin brillo",
+      "to": "Escamas negras brillantes con destellos rojos de llama."
     },
     {
-      "from": "veneno en su mordedura",
-      "to": "llamas en su mordedura que queman y causan quema"
+      "from": "Respiración lenta y venenosa",
+      "to": "Respiración ardiente que libera llamas sagradas."
     },
     {
-      "from": "movimientos venenosos",
-      "to": "movimientos de fuego que infligen quema y daño adicional."
+      "from": "Postura baja y tranquila",
+      "to": "Postura elevada en danza de fuego, amenazando con movimiento rápido."
     }
   ],
   "pokemon_id": "024",

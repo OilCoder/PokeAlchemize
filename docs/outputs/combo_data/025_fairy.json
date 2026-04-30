@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Mariposa",
-  "lore": "Pikachu ahora resplandece con una aura de hada, sus orejas puntiagudas se redondean en pétalos brillantes. Su electricidad se transforma en destellos de luz iridiscente, curando heridas con cada chispazo.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aliento de Hada brilla con destellos dorados, sus orejas se transforman en pétalos brillantes. Su cola, ahora en forma de mariposa, emite un aura mágica que calma a los enemigos.",
   "moves": [
     {
-      "name": "Destello de Aurora",
-      "desc": "Lanza destellos de luz que sanan a aliados y confunden a enemigos con su brillo."
+      "name": "Canto de Luna",
+      "desc": "Crea una melodía que reduce el ataque del oponente y aumenta la defensa propia.",
+      "name_en": "Lunar Chant",
+      "visual_prompt": "floating moonlit petals, soft pastel pink and pearl lavender glow, crystalline mint starlight trails, ivory white mist, delicate glowing flower patterns, ethereal shimmering aura"
     },
     {
-      "name": "Ala de Hada",
-      "desc": "Genera un viento suave que eleva al Pokémon y reduce el daño recibido."
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que causan daño y confunden al rival con su brillo.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "floating pastel pink petals with glowing starlight blue edges, soft ivory white mist, pearl lavender sparkles, crystalline mint light trails, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Chispa de Sueños",
-      "desc": "Crea una red de chispas que adormece a los enemigos y los envuelve en sueños."
+      "name": "Beso de Estrellas",
+      "desc": "Ataca con un beso de luz que restaura la salud y cura debilidades.",
+      "name_en": "Starlight Kiss",
+      "visual_prompt": "glowing starlight blue orbs, soft pastel pink petals floating in mist, ivory white light trails, pearl lavender sparkles, crystalline mint energy pulses, delicate moonlit garden backdrop, soft misty twilight atmosphere"
     },
     {
-      "name": "Canto de Estrellas",
-      "desc": "Canta una melodía que aumenta la velocidad de aliados y reduce la defensa del enemigo."
+      "name": "Danza de Hada",
+      "desc": "Realiza un baile que aumenta el ataque y evita los ataques críticos.",
+      "name_en": "Fairy Dance",
+      "visual_prompt": "glowing pastel pink petals swirling in a circular motion, ivory white starlight trails, pearl lavender mist, crystalline mint sparkling orbs, soft moonlit garden backdrop with glowing flowers"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas redondeadas en forma de pétalos brillantes"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas transformadas en garras de hada que brillan con brillo dorado"
     },
     {
-      "from": "electricidad estática",
-      "to": "chispas iridiscentes que sanan"
+      "from": "Cola eléctrica",
+      "to": "Cola en forma de mariposa que emite pétalos brillantes"
     },
     {
-      "from": "color amarillo brillante",
-      "to": "tonos dorados y plateados con destellos de colores"
+      "from": "Orejas puntiagudas",
+      "to": "Orejas convertidas en pétalos brillantes que brillan con luz dorada"
     },
     {
-      "from": "cuerpo pequeño y compacto",
-      "to": "cuerpo más ligero y etéreo, como una mariposa"
+      "from": "Energía eléctrica",
+      "to": "Energía convertida en aura mágica que calma a los enemigos"
     }
   ],
   "pokemon_id": "025",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Agua de Túnel",
-  "lore": "Con su cabeza redonda y orejas puntiagudas, ahora cubiertas de algas, este Diglett se desplaza por los ríos subterráneos. Sus patas se han adaptado para nadar con gracia, mientras sus ojos brillan bajo el agua.",
+  "species_name": "Pokémon Agua Subterránea",
+  "lore": "Este Diglett acuático se desplaza bajo el agua con gracia, sus patas cortas se transforman en aletas flexibles. Su piel brillante refleja el reflejo de las olas, mientras sus ojos brillan con una luz azulada en las profundidades.",
   "moves": [
     {
-      "name": "Agua Cavernosa",
-      "desc": "Crea un remolino que atrapa al rival en un torbellino subterráneo."
+      "name": "Burbuja Subterránea",
+      "desc": "Lanza burbujas que atrapan al rival en una burbuja acuática, reduciendo su velocidad.",
+      "name_en": "Subterranean Bubble",
+      "visual_prompt": "glowing aquamarine bubbles, deep ocean trench backdrop, bioluminescent plankton trails, slow-moving water currents, pearly white bubble membranes, sapphire blue highlights"
     },
     {
-      "name": "Lodo Acuático",
-      "desc": "Lanza una nube de lodo que reduce la velocidad del oponente."
+      "name": "Lavado de Tierra",
+      "desc": "Cubre al rival con una lluvia de arena y agua, disminuyendo su defensa.",
+      "name_en": "Earth Wash",
+      "visual_prompt": "particle rain of sand and water droplets, swirling currents, deep ocean blue and teal green hues, bioluminescent plankton glows, pearly white mist, aquamarine ripples, sapphire blue light refractions"
     },
     {
-      "name": "Succión Submarina",
-      "desc": "Absorbe energía del agua para recuperar salud."
+      "name": "Ola de Lodo",
+      "desc": "Crea una ola de lodo que golpea al rival, causando daño y confusión.",
+      "name_en": "Mud Wave",
+      "visual_prompt": "muddy water waves, swirling teal green particles, deep ocean blue ripples, glowing bioluminescent plankton, pearly white foam bubbles, aquamarine mist, sapphire blue energy trails"
     },
     {
-      "name": "Rocas de Mar",
-      "desc": "Lanza rocas que flotan en el agua para atacar."
+      "name": "Respiración de Mar",
+      "desc": "Recupera energía al respirar el agua del mar, restaurando salud.",
+      "name_en": "Ocean Breath",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water currents, pearly white bubbles rising, teal green sea plants gently swaying, aquamarine light rays"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo sólido de tierra",
-      "to": "Cuerpo esponjoso y flexible para moverse en el agua"
+      "from": "patas cortas en el suelo",
+      "to": "patas transformadas en aletas flexibles para nadar"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas cubiertas de algas que ayudan a navegar"
+      "from": "piel terrosa",
+      "to": "piel brillante que refleja el agua"
     },
     {
-      "from": "Hábitat subterráneo",
-      "to": "Hábitat en ríos y lagos subterráneos"
+      "from": "postura arrastrada",
+      "to": "postura fluida y elegante bajo el agua"
     },
     {
-      "from": "Movimiento de excavación",
-      "to": "Movimiento de nado fluido y rápido"
+      "from": "ojos oscuros",
+      "to": "ojos brillantes azulados en las profundidades"
     }
   ],
   "pokemon_id": "050",

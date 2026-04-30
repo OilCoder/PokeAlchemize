@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Pinza",
-  "lore": "Acero Pinza, con su cuerpo redondeado forjado en acero, tiene patas cortas pero resistentes. Sus pinzas brillan con una energía metálica que corta cualquier material como si fuera papel.",
+  "lore": "Acero Pinza, con garras de acero templado, camina con paso firme sobre el suelo. Sus patas, ahora cubiertas de placas metálicas, resuenan al pisar. Sus ojos brillan con reflejos de acero, observando cada movimiento con precisión.",
   "moves": [
     {
-      "name": "Corte de Acero",
-      "desc": "Corta con precisión metálica, cortando cualquier objeto con fuerza inigualable."
+      "name": "Cuchilla de Acero",
+      "desc": "Ataca con garras afiladas de acero, cortando cualquier defensa con precisión.",
+      "name_en": "Steel Blade",
+      "visual_prompt": "shimmering steel claws, razor-sharp edges, metallic blue sparks, polished silver trails, industrial steam vents, neon cyan glow, gunmetal gray mist, electric blue energy arcs"
     },
     {
-      "name": "Impacto Rígido",
-      "desc": "Ataca con un golpe de acero que endurece el suelo alrededor, reduciendo movilidad enemiga."
-    },
-    {
-      "name": "Cicatriz de Hierro",
-      "desc": "Deja una marca de acero en el oponente, reduciendo su defensa con cada golpe."
+      "name": "Golpe de Placa",
+      "desc": "Golpea con placas metálicas, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Metal Plate Strike",
+      "visual_prompt": "shimmering gunmetal gray plates rotating rapidly, polished silver sparks, metallic steel blue energy trails, electric blue shockwaves, neon cyan particle bursts, industrial city skyline glow in background"
     },
     {
       "name": "Resonancia Metálica",
-      "desc": "Genera ondas de sonido metálico que debilitan a los enemigos cercanos."
+      "desc": "Crea ondas de vibración metálica que debilitan a los enemigos cercanos.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "metallic waves, gunmetal gray ripples, polished silver vibrations, electric blue energy pulses, neon cyan harmonic rings, industrial steam vents, geometric wave patterns"
+    },
+    {
+      "name": "Carga de Acero",
+      "desc": "Aumenta su velocidad y fuerza al cargar con placas metálicas.",
+      "name_en": "Steel Charge",
+      "visual_prompt": "glowing gunmetal gray energy trails, polished silver metallic plates spinning rapidly, electric blue sparks, neon cyan motion lines, industrial cityscape backdrop with steam vents, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo redondeado",
-      "to": "forjado en acero, resistente a golpes"
+      "from": "patas de insecto",
+      "to": "patas cubiertas de placas de acero templado"
     },
     {
-      "from": "patas cortas",
-      "to": "resistentes al peso del metal, no se hunden"
+      "from": "garras afiladas",
+      "to": "garras de acero templado que cortan metales"
     },
     {
-      "from": "pinzas de insecto",
-      "to": "brillan con energía metálica, cortan metales"
+      "from": "postura baja",
+      "to": "postura firme con placas metálicas estables"
     },
     {
-      "from": "color verde",
-      "to": "tonos plateados con reflejos metálicos"
+      "from": "color verde oscuro",
+      "to": "color plateado con reflejos metálicos"
     }
   ],
   "pokemon_id": "127",

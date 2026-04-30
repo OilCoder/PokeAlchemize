@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Espectral",
-  "lore": "Gengar, ahora transformado en Fuego, arde con llamas azules que brillan en la oscuridad. Sus orejas puntiagudas se envuelven en llamas, y su cuerpo emite un calor sofocante que quema a los intrusos.",
+  "species_name": "Pokémon Llama Fantasmal",
+  "lore": "Gengar, ahora envuelto en llamas etéreas, camina con cuatro patas ardiendo. Sus ojos brillan con fuego azul, y su cuerpo translúcido se funde con el humo. El fuego consume su esencia fantasmal, creando una danza letal.",
   "moves": [
     {
-      "name": "Sombra Incendiaria",
-      "desc": "Lanza una sombra que se convierte en llamas, quemando al objetivo con fuego oscuro."
+      "name": "Alas de Fuego",
+      "desc": "Lanza llamas en forma de alas que queman y desestabilizan al oponente.",
+      "name_en": "Fire Wings",
+      "visual_prompt": "crimson red fiery wings, molten gold embers, amber orange flames, charcoal black smoke trails, glowing ember particles, dynamic wing shape, volcanic crater background"
     },
     {
-      "name": "Fuego Fantasmal",
-      "desc": "Crea una llamarada que atraviesa el cuerpo del rival, causando daño y quemaduras."
+      "name": "Sombra Ardiente",
+      "desc": "Cubre al oponente en sombras llameantes que infligen daño continuo.",
+      "name_en": "Blazing Shadow",
+      "visual_prompt": "crimson flames engulfing black shadows, molten gold embers swirling, amber-orange smoke tendrils, glowing ember particles, volcanic crater backdrop"
     },
     {
-      "name": "Viento de Hades",
-      "desc": "Genera un viento caliente que inflama el aire, aumentando el daño de fuego."
+      "name": "Risa de Llama",
+      "desc": "Emite una risa que lanza ondas de calor y confunde al rival.",
+      "name_en": "Flame Laugh",
+      "visual_prompt": "crimson red heat waves, swirling amber orange embers, molten gold ripples, chaotic charcoal black smoke rings, glowing ember sparks, volcanic crater backdrop"
     },
     {
-      "name": "Llamarada Espectral",
-      "desc": "Emitiendo una llamarada que consume la energía del oponente, reduciendo su defensa."
+      "name": "Cenizas Danzantes",
+      "desc": "Genera una nube de cenizas que reduce la defensa y quema al oponente.",
+      "name_en": "Dancing Ashes",
+      "visual_prompt": "crimson ash clouds swirling in chaotic spirals, molten gold embers glowing intensely, charcoal black smoke tendrils, amber-orange heat haze, glowing ember particles scattering"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "se envuelven en llamas azules que brillan en la oscuridad"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas envueltas en llamas que arden sin consumirse"
     },
     {
-      "from": "cuerpo transparente",
-      "to": "emite calor sofocante que quema a los intrusos"
+      "from": "posición baja",
+      "to": "postura elevada con humo danzante alrededor"
     },
     {
-      "from": "color morado oscuro",
-      "to": "llamas azules que brillan en la oscuridad"
+      "from": "esencia fantasmal",
+      "to": "fuego azul que consume su forma espectral"
     },
     {
-      "from": "movimientos de sombra",
-      "to": "combina sombra y fuego para crear ataques más destructivos"
+      "from": "olor a veneno",
+      "to": "aroma de humo y ceniza quemada"
     }
   ],
   "pokemon_id": "094",

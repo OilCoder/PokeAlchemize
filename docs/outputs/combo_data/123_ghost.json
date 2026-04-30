@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Luminoso",
-  "lore": "Scyther, ahora un espíritu etéreo, flota con hojas de energía espectral. Sus alas transparentes brillan en tonos azulados, y sus ojos emiten destellos de luz fría. La transformación le otorga una presencia inquietante pero hermosa.",
+  "species_name": "Pokémon Sombra de Hoja",
+  "lore": "Este Scyther fantasmal se erige sobre cuatro patas translúcidas, sus alas de cuchillo ahora emiten un brillo plateado. Su cuerpo se funde con la oscuridad, deslizándose sin ruido entre sombras.",
   "moves": [
     {
-      "name": "Cuchillo Espectral",
-      "desc": "Corta con hojas de energía fantasmal, causando daño adicional por tipo fantasma."
+      "name": "Cuchilla Espectral",
+      "desc": "Ataca con garras que cortan la oscuridad, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Spectral Blade",
+      "visual_prompt": "shimmering violet blades, ghostly white mist, shadow violet energy trails, charcoal gray slashes, ethereal fog swirls, pale silver glow, spectral slashes cutting through darkness"
     },
     {
-      "name": "Sombra Danzante",
-      "desc": "Crea sombras que confunden al oponente, reduciendo su precisión."
+      "name": "Sombra Silenciosa",
+      "desc": "Mueve al Pokémon sin sonido, aumentando su velocidad y evitando ataques críticos.",
+      "name_en": "Silent Shadow",
+      "visual_prompt": "ghostly violet mist swirling, faint silver moonlight beams, drifting charcoal gray fog, shadowy translucent orbs, pale white spectral trails, ethereal glowing outlines, misty graveyard atmosphere"
     },
     {
-      "name": "Resplandor Fantasmal",
-      "desc": "Emite un brillo que cura el estado de confusión en aliados."
+      "name": "Viento Fantasma",
+      "desc": "Genera un viento frío que reduce la precisión del oponente y causa daño por debilitamiento.",
+      "name_en": "Ghost Wind",
+      "visual_prompt": "cold mist swirling, violet and gray spectral winds, pale silver particles, shadowy tendrils, ethereal fog, moonlit tombstone outlines, ghostly white aura, misty graveyard atmosphere"
     },
     {
-      "name": "Viento Fantasmal",
-      "desc": "Lanza un viento frío que reduce la defensa del oponente."
+      "name": "Aparición Tenebrosa",
+      "desc": "Se vuelve invisible temporalmente, evitando todos los ataques y preparando un ataque potente.",
+      "name_en": "Shadow Veil",
+      "visual_prompt": "translucent violet mist swirling, ghostly silver orbs floating, deep charcoal shadows fading into pale white, ethereal fog with moonlight glints, shadowy tendrils dissolving into mist"
     }
   ],
   "diffs": [
     {
-      "from": "cuchillas afiladas en las patas",
-      "to": "hojas de energía espectral que brillan en azul"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas translúcidas que se funden con la oscuridad"
     },
     {
-      "from": "alas de insecto",
-      "to": "alas transparentes que emiten luz fría"
+      "from": "alas de cuchillo",
+      "to": "alas que emiten brillo plateado y cortan la oscuridad"
     },
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza con destellos de luz en sus ojos"
+      "from": "postura baja",
+      "to": "postura elevada y silenciosa, deslizándose sin ruido"
     },
     {
-      "from": "color verde oscuro",
-      "to": "tonos azulados y transparentes en todo el cuerpo"
+      "from": "tipo bug/flying",
+      "to": "tipo ghost que le permite fusionarse con las sombras y moverse sin ruido."
     }
   ],
   "pokemon_id": "123",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Onda Acuática",
-  "lore": "Onda Acuática emana un brillo azul desde su cabeza redonda, con orejas puntiagudas ahora cubiertas de escamas. Sus movimientos se vuelven fluidos, absorbiendo la energía eléctrica en forma de corrientes marinas.",
+  "species_name": "Pokémon Onda Electrónica",
+  "lore": "Este Pokémon flota en el agua, sus patas cortas se han convertido en aletas. Sus ojos brillan con energía eléctrica que ahora interactúa con el agua, creando destellos azules.",
   "moves": [
     {
-      "name": "Ola Relámpago",
-      "desc": "Dispara una ola que combina descargas eléctricas con el movimiento del agua."
+      "name": "Chorro Hidroeléctrico",
+      "desc": "Dispara un chorro de agua cargado de electricidad que paraliza al rival.",
+      "name_en": "Hydroelectric Jet",
+      "visual_prompt": "electric blue water stream, glowing teal energy arcs, bioluminescent plankton sparks, deep ocean trench backdrop, shimmering aquamarine ripples, sapphire blue current swirls"
     },
     {
       "name": "Burbuja Estática",
-      "desc": "Crea burbujas que liberan pequeñas descargas eléctricas al romperse."
+      "desc": "Crea burbujas que absorben electricidad y la devuelven con mayor fuerza.",
+      "name_en": "Static Bubble",
+      "visual_prompt": "glowing deep ocean blue bubbles, electric arcs shimmering inside, teal green energy trails, pearly white light refraction, aquamarine water currents swirling, sapphire blue energy pulses"
     },
     {
-      "name": "Corriente Subterránea",
-      "desc": "Se sumerge y emerge para atacar con una corriente eléctrica oculta."
+      "name": "Ola de Relámpagos",
+      "desc": "Genera una ola que lanza relámpagos en el agua, dañando a todos los oponentes.",
+      "name_en": "Lightning Wave",
+      "visual_prompt": "crackling blue lightning bolts, swirling deep ocean currents, glowing bioluminescent plankton, pearly white foam, aquamarine water surface, sapphire blue energy ripples, dynamic wave motion, electric blue sparks, translucent water droplets, shimmering underwater glow"
     },
     {
-      "name": "Chorro Hidroeléctrico",
-      "desc": "Expulsa un chorro de agua cargado de electricidad que derrite metales."
+      "name": "Corriente Submarina",
+      "desc": "Crea una corriente submarina que reduce la velocidad del rival.",
+      "name_en": "Submarine Current",
+      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water currents, teal green ripples, pearly white bubbles, aquamarine vortex, calm underwater motion, sapphire blue highlights"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redonda",
-      "to": "Se cubre de escamas brillantes y refleja la luz del agua."
+      "from": "patas cortas en el suelo",
+      "to": "aletas para nadar en el agua"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Se vuelven más anchas y cubiertas de escamas para flotar."
+      "from": "bajo postura",
+      "to": "flotando suavemente en la superficie"
     },
     {
-      "from": "Energía eléctrica",
-      "to": "Se transforma en corrientes eléctricas de agua, más controladas."
+      "from": "energía eléctrica",
+      "to": "interactúa con el agua para crear destellos azules"
     },
     {
-      "from": "Movimientos rápidos",
-      "to": "Se vuelven fluidos y se mezclan con el movimiento del agua."
+      "from": "movimiento lento",
+      "to": "movimiento ágil en el agua con corrientes."
     }
   ],
   "pokemon_id": "100",

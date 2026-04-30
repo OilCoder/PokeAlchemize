@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Psyduck, ahora transformado en Llama Marina, arde con una cola en espiral que emite llamas azules. Sus ojos brillan con un fuego interno, y su cuerpo se cubre de escamas que reflejan el calor del océano. Su presencia calienta el aire a su alrededor.",
+  "lore": "Psyduck, ahora transformado en Llama Marina, camina con pasos firmes sobre el suelo ardiente. Su pelaje brillante emite destellos de llamas azules, mientras sus ojos centellean con un brillo de fuego interior. Su postura baja se ha vuelto más segura, listo para enfrentar cualquier desafío.",
   "moves": [
     {
-      "name": "Llama Oceánica",
-      "desc": "Lanza una llamarada que se mezcla con el agua del mar, creando vapor y confundiendo a los enemigos."
+      "name": "Llama Azul",
+      "desc": "Lanza llamas de color azul que queman con intensidad, dejando un rastro de humo frío.",
+      "name_en": "Blue Flame",
+      "visual_prompt": "blue fire orbs, intense blue flames, cold smoke trails, molten gold embers, volcanic crater backdrop, glowing ember particles, amber orange accents, charcoal black smoke swirls"
+    },
+    {
+      "name": "Caminar Fuego",
+      "desc": "Avanza con pasos que dejan huellas de llamas, aumentando su velocidad en combate.",
+      "name_en": "Fire Walk",
+      "visual_prompt": "crimson footprints on molten ground, amber-orange flame trails, glowing ember sparks, molten gold ash particles, charcoal black smoke swirls, volcanic crater backdrop"
     },
     {
       "name": "Ola de Calor",
-      "desc": "Genera una ola de agua hirviendo que quema y derrite el hielo alrededor."
+      "desc": "Genera una ola de calor que quema y desorienta a los oponentes.",
+      "name_en": "Heat Wave",
+      "visual_prompt": "crimson red heat waves rising from a volcanic crater, molten gold lava ripples, amber orange smoke swirls, charcoal black smoke plumes, glowing ember sparks, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Espera de Fuego",
-      "desc": "Crea un campo de calor que aumenta el daño de los ataques de fuego durante tres turnos."
-    },
-    {
-      "name": "Chispa Marina",
-      "desc": "Dispara chispas de agua caliente que causan quemaduras y reducen la defensa del oponente."
+      "name": "Fuego en el Agua",
+      "desc": "Crea una explosión de fuego en el agua, causando daño a distancia.",
+      "name_en": "Water Flame",
+      "visual_prompt": "crimson red fire explosions, molten gold water droplets, amber orange steam bursts, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cola en espiral",
-      "to": "cola en espiral que emite llamas azules"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas ahora cubiertas de llamas que dejan marcas en el suelo"
     },
     {
-      "from": "ojos normales",
-      "to": "ojos brillantes con fuego interno"
+      "from": "Postura baja y arrastrada",
+      "to": "Postura erguida y segura, con el cuerpo en llamas"
     },
     {
-      "from": "piel suave",
-      "to": "piel cubierta de escamas que reflejan el calor"
+      "from": "Pelaje húmedo y gris",
+      "to": "Pelaje brillante y azul con destellos de fuego"
     },
     {
-      "from": "agilidad limitada",
-      "to": "movimiento fluido gracias al calor generado"
+      "from": "Ojos cansados y tristes",
+      "to": "Ojos centelleantes con destellos de fuego interior"
     }
   ],
   "pokemon_id": "054",

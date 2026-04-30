@@ -4,6 +4,7 @@ Phase A: E1 × 150 Pokémon — anatomy analysis (parallel).
 Phase B: E2 × 18 types    — type visual vocabulary (sequential).
 Phase C: 5 specialists + E3 conciliator + E4 combo writer × 2700 combos (parallel combos, parallel specialists).
 Phase D: image generation  — Z-Image-Turbo (sequential, GPU).
+Phase E: bundle builder → move enricher → move illustrator (sequential).
 Resumable: each phase skips existing output files.
 """
 
@@ -34,16 +35,19 @@ from config import (
     TYPES_FILE,
 )
 
-_analyst      = importlib.import_module("pipeline.01_pokemon_analyst")
-_designer     = importlib.import_module("pipeline.02_type_designer")
-_pa           = importlib.import_module("pipeline.03_anatomy_positive")
-_ps           = importlib.import_module("pipeline.04_style_positive")
-_pe           = importlib.import_module("pipeline.05_pose_expression")
-_na           = importlib.import_module("pipeline.06_anatomy_negative")
-_ns           = importlib.import_module("pipeline.07_style_negative")
-_conciliator  = importlib.import_module("pipeline.08_prompt_conciliator")
-_image_gen    = importlib.import_module("pipeline.09_image_generator")
-_combo_writer = importlib.import_module("pipeline.11_combo_data_writer")
+_analyst        = importlib.import_module("pipeline.01_pokemon_analyst")
+_designer       = importlib.import_module("pipeline.02_type_designer")
+_pa             = importlib.import_module("pipeline.03_anatomy_positive")
+_ps             = importlib.import_module("pipeline.04_style_positive")
+_pe             = importlib.import_module("pipeline.05_pose_expression")
+_na             = importlib.import_module("pipeline.06_anatomy_negative")
+_ns             = importlib.import_module("pipeline.07_style_negative")
+_conciliator    = importlib.import_module("pipeline.08_prompt_conciliator")
+_image_gen      = importlib.import_module("pipeline.09_image_generator")
+_bundle_builder = importlib.import_module("pipeline.10_bundle_builder")
+_combo_writer   = importlib.import_module("pipeline.11_combo_data_writer")
+_move_enricher  = importlib.import_module("pipeline.12_move_enricher")
+_move_illust    = importlib.import_module("pipeline.13_move_illustrator")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -197,11 +201,33 @@ def _run_phase_c(pokemons: list, types: list) -> None:
 
 
 # ----------------------------------------
-# Step 3 — Orchestrator
+# Step 3 — Phase E runner
+# ----------------------------------------
+
+def _run_phase_e() -> None:
+    """Phase E — bundle builder → move enricher → move illustrator (sequential).
+
+    Rebuilds bundle.json from generated images, enriches combo_data moves with
+    Ollama visual prompts, then generates move banner images via Z-Image-Turbo.
+    """
+    logger.info("Phase E — bundle builder")
+    _bundle_builder.run()
+
+    logger.info("Phase E — move enricher")
+    _move_enricher.run()
+
+    logger.info("Phase E — move illustrator")
+    _move_illust.run()
+
+    logger.info("Phase E done")
+
+
+# ----------------------------------------
+# Step 4 — Orchestrator
 # ----------------------------------------
 
 def run() -> None:
-    """Run full pipeline: Phase A → B → C → D."""
+    """Run full pipeline: Phase A → B → C → D → E."""
 
     # ----
     # Substep 3.1 — Load and filter data
@@ -240,6 +266,7 @@ def run() -> None:
     _run_phase_b(all_types)          # always all 18 — NS needs original-type vocabularies
     _run_phase_c(pokemons, target_types)
     _image_gen.run()
+    _run_phase_e()
 
 
 if __name__ == "__main__":

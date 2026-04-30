@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago de Cuerpo",
-  "lore": "Su cola espiralada brilla con un destello eléctrico azul, irradiando energía estática. Sus escamas oscuras absorben y liberan descargas, mientras su piel se cubre de un manto de chispas.",
+  "species_name": "Pokémon Relámpago Terrenal",
+  "lore": "Nidoking ahora irradia un aura eléctrica que recorre sus espinas venenosas, transformando su postura terrestre en una energía vibrante. Sus patas emiten chispas al pisar, y su cola genera descargas constantes.",
   "moves": [
     {
-      "name": "Descarga Espiral",
-      "desc": "Genera una espiral de electricidad que paraliza al oponente con descargas concentradas."
+      "name": "Descarga Venenosa",
+      "desc": "Genera una descarga eléctrica que infecta al oponente con veneno y paraliza.",
+      "name_en": "Poison Shock",
+      "visual_prompt": "electric blue lightning bolts, neon yellow poison orbs, violet spark particles, bright white energy trails, crackling energy field, stormy sky backdrop"
     },
     {
-      "name": "Rayo de Escamas",
-      "desc": "Dispara rayos desde sus escamas, causando daño eléctrico y debilitando la defensa."
+      "name": "Tormenta Suelo",
+      "desc": "Crea una tormenta eléctrica en el suelo que aturde y debilita al oponente.",
+      "name_en": "Ground Storm",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy fields, stormy sky background, dynamic energy swirls"
     },
     {
-      "name": "Chispa de Cola",
-      "desc": "Utiliza su cola brillante para lanzar chispas que aumentan la velocidad del usuario."
+      "name": "Rayo Espectral",
+      "desc": "Dispara un rayo eléctrico que atraviesa cualquier barrera de protección.",
+      "name_en": "Spectral Bolt",
+      "visual_prompt": "crackling electric blue energy bolts, neon yellow lightning arcs, violet spark particles, bright white energy trails, stormy sky backdrop with neon-lit thunderclouds, dynamic motion lines"
     },
     {
-      "name": "Tormenta Electrónica",
-      "desc": "Crea una tormenta de energía eléctrica alrededor del campo, causando daño continuo."
+      "name": "Parálisis Terrenal",
+      "desc": "Genera una parálisis en el suelo que afecta a todos los enemigos en el campo.",
+      "name_en": "Earth Paralysis",
+      "visual_prompt": "crackling electric blue energy fields, neon yellow lightning arcs, violet spark particles, bright white static bursts, stormy sky backdrop with crackling energy"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiralada con punta morada oscura",
-      "to": "cola brillante con destello eléctrico azul"
+      "from": "espinas venenosas",
+      "to": "espinas que emiten chispas eléctricas"
     },
     {
-      "from": "escamas oscuras",
-      "to": "escamas que absorben y liberan energía eléctrica"
+      "from": "postura terrestre",
+      "to": "postura vibrante con energía eléctrica"
     },
     {
-      "from": "piel oscura",
-      "to": "piel cubierta de chispas estáticas"
+      "from": "patas plantadas",
+      "to": "patas que generan chispas al pisar"
     },
     {
-      "from": "tipos veneno/tierra",
-      "to": "tipo eléctrico con energía estática acumulada"
+      "from": "cola lenta",
+      "to": "cola que genera descargas constantes"
     }
   ],
   "pokemon_id": "034",

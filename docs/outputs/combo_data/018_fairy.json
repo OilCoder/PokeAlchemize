@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Envidia",
-  "lore": "Con orejas puntiagudas de tonos rosados, su plumaje brilla con destellos de luz de hada. Sus alas emiten un aura mágica que envuelve a quienes lo observan, transformando el aire en un susurro de sueños.",
+  "species_name": "Pokémon Mariposa Aérea",
+  "lore": "Mariposa Aérea vuela con alas brillantes que emanan brillo mágico. Su pelaje plateado refleja el cielo estrellado, y sus patas delanteras se convierten en alas delicadas para bailar en el aire.",
   "moves": [
     {
-      "name": "Canto de Ceniza",
-      "desc": "Genera una nube de polvo que ralentiza al enemigo y deja un efecto de calma."
+      "name": "Danza de Estrellas",
+      "desc": "Lanza destellos de luz que curan a aliados y debilitan a enemigos con su magia.",
+      "name_en": "Starlight Dance",
+      "visual_prompt": "glowing starlight blue orbs, soft pastel pink petals swirling, ivory white mist, pearl lavender sparkles, crystalline mint light trails, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Ala de Estrella",
-      "desc": "Lanza un ataque con alas que brillan como estrellas, causando daño y curando un poco de salud."
+      "name": "Ala de Sueño",
+      "desc": "Cubre al enemigo con un suave viento que lo envuelve en un sueño profundo.",
+      "name_en": "Dream Wing",
+      "visual_prompt": "soft pastel pink wind currents, floating lavender petals, glowing ivory white starlight trails, crystalline mint mist swirls, pearlescent moonbeam reflections, delicate spiral patterns, ethereal glow"
     },
     {
-      "name": "Beso de Luna",
-      "desc": "Ataca con un beso mágico que reduce la defensa del oponente."
+      "name": "Bailarina Mágica",
+      "desc": "Aumenta la velocidad y evasión al moverse en espirales brillantes.",
+      "name_en": "Magic Dance",
+      "visual_prompt": "glowing spiral trails in soft pastel pink, sparkling pearl lavender particles, ivory white mist, crystalline mint light beams, starlight blue shimmering motes, delicate floral patterns in mid-air"
     },
     {
-      "name": "Danza de Sueños",
-      "desc": "Crea un baile hipnótico que confunde al enemigo y aumenta la velocidad."
+      "name": "Pétalos de Luna",
+      "desc": "Lanza pétalos que causan daño y confusión en el enemigo.",
+      "name_en": "Moon Petals",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, delicate pearl lavender mist, starlight blue crystalline orbs, soft ivory white glow, ethereal fairy-touched floral patterns"
     }
   ],
   "diffs": [
     {
-      "from": "Plumaje normal",
-      "to": "Plumaje brillante con destellos rosados y plateados"
+      "from": "alas de Pidgeot",
+      "to": "alas brillantes que emanan brillo mágico"
     },
     {
-      "from": "Orejas redondas",
-      "to": "Orejas puntiagudas con destellos rosados"
+      "from": "pelo corto",
+      "to": "pelaje plateado que refleja el cielo estrellado"
     },
     {
-      "from": "Alas de vuelo rápido",
-      "to": "Alas que emiten una aura mágica y suave"
+      "from": "patas traseras",
+      "to": "patas delanteras que se convierten en alas delicadas"
     },
     {
-      "from": "Personalidad tranquila",
-      "to": "Personalidad mágica y seductora que envuelve a otros"
+      "from": "postura compacta",
+      "to": "baila en espirales en el aire"
     }
   ],
   "pokemon_id": "018",

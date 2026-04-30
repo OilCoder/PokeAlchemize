@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Choque de Llama",
-  "lore": "Choque de Llama irradia chispas eléctricas en su cabeza redonda, sus orejas puntiagudas brillan con descargas. Su cuerpo, antes ágil, ahora genera ondas de energía que desafían a los oponentes con fuerza eléctrica.",
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Hitmonlee, ahora un Pokémon Llama Eléctrica, camina con patas eléctricas que brillan en la oscuridad. Sus piernas, antes sólidas, ahora emanan chispas que aceleran sus movimientos. Su postura baja se mantiene, pero ahora sus pies generan un campo eléctrico que atrapa a los oponentes.",
   "moves": [
     {
-      "name": "Patada Relámpago",
-      "desc": "Ataca con un golpe de pierna que libera descargas eléctricas, causando daño y posiblemente paralizar."
+      "name": "Patada Estática",
+      "desc": "Ataca con patadas que envían una descarga eléctrica, causando parálisis temporal.",
+      "name_en": "Static Kick",
+      "visual_prompt": "crackling electric blue energy trails, neon yellow lightning bolts, violet spark particles, bright white shockwaves, electric cyan energy pulses, stormy sky background with dynamic energy fields"
     },
     {
-      "name": "Carga Estática",
-      "desc": "Aumenta el poder de los ataques eléctricos en un 20% durante tres turnos."
+      "name": "Sobrecarga Rápida",
+      "desc": "Velocidad increíble que deja un rastro eléctrico tras de sí.",
+      "name_en": "Quick Charge",
+      "visual_prompt": "neon yellow lightning bolts, electric cyan energy trails, violet sparks, stormy sky backdrop, crackling energy fields, bright white highlights"
     },
     {
-      "name": "Chispazo Veloz",
-      "desc": "Ataca rápidamente con una serie de patadas que generan chispas, aumentando la precisión."
+      "name": "Campo de Chispas",
+      "desc": "Crea un campo eléctrico alrededor que reduce la velocidad de los enemigos.",
+      "name_en": "Spark Field",
+      "visual_prompt": "electric blue energy field, neon yellow lightning bolts, violet sparks, bright white crackles, electric cyan arcs, stormy sky background, dynamic energy waves, neon-lit thunderclouds, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Impacto Ectoplásmico",
-      "desc": "Genera una onda de energía eléctrica que afecta a todos los enemigos cercanos."
+      "name": "Golpe Relámpago",
+      "desc": "Un golpe potente que lanza un relámpago directo al oponente.",
+      "name_en": "Lightning Strike",
+      "visual_prompt": "crackling electric blue bolts, neon yellow energy trails, violet sparks, bright white lightning arcs, stormy sky backdrop with neon-lit thunderclouds"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redonda con orejas pequeñas y puntiagudas",
-      "to": "Cabeza redonda con orejas brillantes y cargadas de electricidad estática"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas que brillan con chispas y generan campo eléctrico"
     },
     {
-      "from": "Cuerpo ágil y ligero",
-      "to": "Cuerpo que emana ondas de energía eléctrica, aumentando su fuerza y velocidad"
+      "from": "postura baja",
+      "to": "postura baja pero con patas que emiten energía eléctrica"
     },
     {
-      "from": "Ataques basados en fuerza física",
-      "to": "Ataques que combinan fuerza con descargas eléctricas, causando parálisis"
+      "from": "movimientos lentos",
+      "to": "movimientos rápidos gracias a la energía eléctrica"
     },
     {
-      "from": "Movimientos de combate tradicional",
-      "to": "Movimientos que usan energía eléctrica para aumentar el daño y controlar el campo de batalla"
+      "from": "sin efectos eléctricos",
+      "to": "efectos eléctricos que paralizan y aceleran."
     }
   ],
   "pokemon_id": "106",

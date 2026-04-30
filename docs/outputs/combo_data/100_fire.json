@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "El Voltorb Fuego arde con una intensidad inusitada, su cabeza redonda ahora emite destellos rojos. Sus orejas puntiagudas se han transformado en llamas danzantes que danzan al ritmo de su respiración. Cada movimiento libera chispas incandescentes.",
+  "species_name": "Pokémon Llama Voltorb",
+  "lore": "El Voltorb arde con una llama interior que late al ritmo de su energía eléctrica. Sus patas cortas brillan con llamas doradas, mientras su cuerpo esférico emite destellos de chispas rojas. Su presencia calienta el aire a su alrededor.",
   "moves": [
     {
-      "name": "Llama Explosiva",
-      "desc": "Lanza una bola de fuego que quema al oponente y aumenta el daño de los movimientos posteriores."
+      "name": "Chispa Incendia",
+      "desc": "Lanza una bola de chispas ardientes que inflama el área afectada, causando daño adicional por fuego.",
+      "name_en": "Blaze Spark",
+      "visual_prompt": "crimson red fire orbs, molten gold embers, amber orange flame trails, volcanic ash particles, glowing ember sparks, charred black smoke swirls"
     },
     {
-      "name": "Chispas Ardientes",
-      "desc": "Ataca con chispas que inflaman el campo de batalla, causando daño adicional por turnos."
+      "name": "Explosión Llama",
+      "desc": "Carga energía interna y estalla en una explosión de llamas, atacando a todos los enemigos cercanos.",
+      "name_en": "Flame Burst",
+      "visual_prompt": "crimson red fire orbs, molten gold embers, volcanic ash swirls, amber orange explosion burst, charcoal black smoke tendrils, glowing ember particles"
     },
     {
-      "name": "Respiración de Fuego",
-      "desc": "Recupera salud mientras libera una ráfaga de calor que debilita al enemigo."
+      "name": "Resplandor Caliente",
+      "desc": "Emite un brillo intenso que quema a los oponentes y reduce su defensa por el calor.",
+      "name_en": "Hot Radiance",
+      "visual_prompt": "crimson fire aura, molten gold embers swirling, intense amber light beams, volcanic smoke wisps, charcoal black heat distortion, glowing ember particles"
     },
     {
-      "name": "Impacto Incendiario",
-      "desc": "Un ataque físico que quema al oponente y aumenta la velocidad del usuario."
+      "name": "Chispa Fuego",
+      "desc": "Dispara un rayo de chispas que quema al objetivo, combinando electricidad y fuego.",
+      "name_en": "Fire Spark",
+      "visual_prompt": "crimson red lightning bolts, molten gold embers, amber orange sparks, charcoal black smoke trails, glowing magma pools, volcanic crater background"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondo",
-      "to": "Cuerpo recubierto de llamas que brillan en tonos rojos y anaranjados."
+      "from": "Cuerpo esférico de Voltorb",
+      "to": "Cuerpo esférico con llamas interiores que late como un corazón de fuego."
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas transformadas en llamas danzantes que brillan con cada respiración."
+      "from": "Patas cortas y baja postura",
+      "to": "Patas cortas brillan con llamas doradas, manteniendo una postura estable en el suelo."
     },
     {
-      "from": "Vibración eléctrica",
-      "to": "Vibración sustituida por calor intenso que quema al tocar."
+      "from": "Energía eléctrica",
+      "to": "Energía eléctrica ahora se mezcla con fuego, generando llamas en lugar de chispas."
     },
     {
-      "from": "Piel lisa",
-      "to": "Piel cubierta de escamas rojas que reflejan el fuego interior."
+      "from": "Color grisáceo",
+      "to": "Color grisáceo cubierto de destellos rojos y dorados por las llamas internas."
     }
   ],
   "pokemon_id": "100",

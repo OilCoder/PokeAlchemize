@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Psíquico",
-  "lore": "Mewtwo, ahora cubierto de escamas de acero que brillan con destellos púrpuras, maneja la mente con precisión metálica. Sus ojos emiten destellos de energía fría mientras proyecta ondas de fuerza inquebrantable.",
+  "species_name": "Pokémon Acero Mental",
+  "lore": "Mewtwo, ahora con armadura de acero, camina con firmeza. Sus ojos brillan con reflejos metálicos, y sus manos están cubiertas de escamas de acero. Su presencia es imponente y fría.",
   "moves": [
     {
-      "name": "Corte de Acero Mental",
-      "desc": "Corta al oponente con un corte de energía mental afilado como acero."
+      "name": "Cortante Acero",
+      "desc": "Corta al oponente con garras afiladas de acero, causando daño físico.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, sharp metallic edges, gunmetal gray sparks, polished silver trails, neon cyan energy pulses, industrial city skyline backdrop, metallic steam vents"
     },
     {
-      "name": "Escudo Psíquico de Acero",
-      "desc": "Crea un escudo de acero que absorbe ataques psíquicos y físicos."
+      "name": "Barrera Mental",
+      "desc": "Crea una barrera de energía mental y acero que bloquea ataques.",
+      "name_en": "Mental Barrier",
+      "visual_prompt": "gunmetal gray energy shield, polished silver lattice structure, metallic steel blue glow, electric blue energy waves, neon cyan particle trails, industrial cityscape backdrop, geometric steam vents"
     },
     {
-      "name": "Impacto de Fuerza Inquebrantable",
-      "desc": "Ataca con un golpe de fuerza que rompe la resistencia del oponente."
+      "name": "Impacto Estelar",
+      "desc": "Lanza un impacto poderoso con fuerza de acero, elevando el poder del ataque.",
+      "name_en": "Star Impact",
+      "visual_prompt": "steel-blue energy waves, polished silver sparks, neon cyan shockwaves, industrial city skyline silhouette, metallic steam vents, gunmetal gray particles"
     },
     {
-      "name": "Vórtice de Acero Psíquico",
-      "desc": "Genera un vórtice que atrae y desintegra al oponente con fuerza metálica."
+      "name": "Resonancia Mental",
+      "desc": "Genera ondas de resonancia mental que debilitan al enemigo.",
+      "name_en": "Mental Resonance",
+      "visual_prompt": "gunmetal gray energy waves, polished silver ripples, metallic steel blue pulses, electric blue neon glow, neon cyan distortion lines, industrial cityscape background, glowing neon signs, metallic steam vents"
     }
   ],
   "diffs": [
     {
-      "from": "piel azul pálido con destellos morados",
-      "to": "escamas de acero brillantes con destellos morados"
+      "from": "bipedal, upright stance, arms at sides",
+      "to": "bipedal con postura erguida y brazos cubiertos de escamas de acero."
     },
     {
-      "from": "manejo de energía psíquica",
-      "to": "manejo de energía psíquica con precisión metálica"
+      "from": "ojos brillantes",
+      "to": "ojos con reflejos metálicos que reflejan la luz."
     },
     {
-      "from": "poder psíquico abstracto",
-      "to": "poder psíquico con fuerza inquebrantable"
+      "from": "poder psíquico",
+      "to": "poder psíquico integrado con fuerza acero, aumentando resistencia."
     },
     {
-      "from": "cuerpo esbelto",
-      "to": "cuerpo cubierto de escamas de acero"
+      "from": "cuerpo flexible",
+      "to": "cuerpo rígido y resistente como acero, sin flexibilidad."
     }
   ],
   "pokemon_id": "150",

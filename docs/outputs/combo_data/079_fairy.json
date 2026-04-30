@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Dulce Mar",
-  "lore": "Con ojos grandes y negros que brillan con magia, Dulce Mar flota en nubes de polvo de estrellas. Su piel suave se cubre de pétalos brillantes que reflejan la luz lunar. El tipo hada le otorga un aura mágica que calma a todos los que lo rodean.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Slowpoke ahora es un Pokémon de tipo hada, con un pelaje suave como nubes de azúcar y ojos brillantes como estrellas. Sus patas se han vuelto más delicadas, y su cola emana un brillo dorado que atrae a otros Pokémon.",
   "moves": [
     {
-      "name": "Canto de Luna",
-      "desc": "Canta una melodía que envuelve al oponente en una danza de sueños."
+      "name": "Luz de Caramelo",
+      "desc": "Lanza un rayo de luz dulce que cura leves heridas y reduce el daño recibido.",
+      "name_en": "Candy Light",
+      "visual_prompt": "glowing pastel pink orbs floating in soft mist, crystalline mint starlight trails, ivory white dewdrops, pearl lavender petals swirling, gentle starlight blue energy beams"
     },
     {
-      "name": "Polvo de Estrellas",
-      "desc": "Lanza una lluvia de polvo que cura y fortalece a aliados."
+      "name": "Canción de Sueño",
+      "desc": "Canta una melodía hipnótica que adormece al rival y lo hace vulnerable.",
+      "name_en": "Hypno Melody",
+      "visual_prompt": "glowing pastel pink musical notes, floating ivory white lily petals, pearl lavender stardust swirls, crystalline mint dewdrops, soft misty twilight sky backdrop, ethereal starlight blue light rays"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza pétalos que confunden al enemigo con ilusiones."
+      "name": "Pétalos de Felicidad",
+      "desc": "Dispara pétalos brillantes que aumentan la defensa y la velocidad del usuario.",
+      "name_en": "Happy Petals",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, crystalline mint light trails, pearl lavender mist, starlight blue sparkles, soft ivory white glow, delicate floating orbs with defense/velocity symbols"
     },
     {
-      "name": "Aurora Celestial",
-      "desc": "Genera un arco iris que restaura la energía de todo el equipo."
+      "name": "Bailarín de Sueños",
+      "desc": "Crea un baile mágico que confunde al rival y mejora la precisión.",
+      "name_en": "Dream Dancer",
+      "visual_prompt": "floating pastel pink petals, swirling lavender mist, glowing starlight blue orbs, crystalline mint sparkles, delicate ivory white ribbons, soft twilight glow"
     }
   ],
   "diffs": [
     {
-      "from": "ojos grandes y negros",
-      "to": "ojos brillantes con destellos de magia hada"
+      "from": "Cuadrúpedo con patas cortas plantadas en el suelo",
+      "to": "Patas más delicadas y suaves, adaptadas para danzar en círculos."
     },
     {
-      "from": "piel suave",
-      "to": "piel cubierta de pétalos brillantes que reflejan la luz"
+      "from": "Postura corporal baja",
+      "to": "Postura erguida y elegante, con cola brillante en alto."
     },
     {
-      "from": "tipo agua/psíquico",
-      "to": "tipo hada que le da una aura mágica calmante"
+      "from": "Pelaje oscuro y húmedo",
+      "to": "Pelaje suave como nubes de azúcar, con brillo dorado en la cola."
     },
     {
-      "from": "movimientos acuáticos",
-      "to": "movimientos mágicos basados en pétalos y luz lunar"
+      "from": "Ojos vidriosos y lentos",
+      "to": "Ojos brillantes como estrellas, capaces de ver sueños."
     }
   ],
   "pokemon_id": "079",

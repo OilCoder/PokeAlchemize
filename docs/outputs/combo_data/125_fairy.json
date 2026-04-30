@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Hada",
-  "lore": "Aliento de Hada resplandece con destellos de luz dorada en sus espinas coronadas, transformadas en pétalos brillantes. Su aura suave y mágica atrae a criaturas felices, mientras sus choques eléctricos se vuelven suaves y danzantes.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Con alas de cristal que brillan con destellos de luz, Electabuzz ahora emana una energía mágica. Sus patas se han transformado en delicadas garras con pétalos brillantes, y su aura irradia magia etérea.",
   "moves": [
     {
-      "name": "Aliento de Estrellas",
-      "desc": "Lanza una lluvia de destellos que cura al aliado y debilita al enemigo."
+      "name": "Ala de Estrella",
+      "desc": "Lanza pétalos brillantes que ciegan al enemigo y reducen su precisión.",
+      "name_en": "Starwing Gale",
+      "visual_prompt": "glowing pastel pink petals swirling in a crescent motion, shimmering starlight blue orbs floating mid-air, delicate ivory white mist, pearlescent lavender sparkles, crystalline mint energy trails, soft moonlit garden backdrop"
     },
     {
-      "name": "Pétalos Electrificados",
-      "desc": "Ataca con pétalos cargados de energía mágica que causan parálisis."
+      "name": "Brillo de Luna",
+      "desc": "Aumenta la velocidad y evasión del usuario con un resplandor plateado.",
+      "name_en": "Moon Gleam",
+      "visual_prompt": "glowing silver moonlight beams, delicate crystalline shards, soft pastel pink and lavender mist, pearlescent starlight trails, floating dewdrop orbs, ethereal shimmering particles, moonlit garden backdrop with glowing flowers"
     },
     {
-      "name": "Danza de la Luna",
-      "desc": "Aumenta la velocidad y evasión del usuario en un baile hipnótico."
+      "name": "Canto de Mariposa",
+      "desc": "Crea una aura hipnótica que confunde al enemigo con su danza.",
+      "name_en": "Butterfly Lullaby",
+      "visual_prompt": "glowing pastel pink butterfly wings, swirling lavender mist, ethereal starlight blue aura, delicate ivory white petals floating in slow motion, crystalline mint light particles, soft moonlit garden background"
     },
     {
-      "name": "Cura de Hada",
-      "desc": "Restaura salud y elimina estados negativos en el aliado."
+      "name": "Magia de Pétalo",
+      "desc": "Ataca con pétalos mágicos que curan un poco de salud.",
+      "name_en": "Petals' Magic",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white aura, pearl lavender mist, starlight blue crystalline dewdrops, soft mint light particles, ethereal moonlit garden backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "espinas coronadas",
-      "to": "pétalos brillantes que brillan con luz dorada"
+      "from": "patas de cuarto",
+      "to": "garras delicadas con pétalos brillantes"
     },
     {
-      "from": "choque eléctrico",
-      "to": "choque suave y danzante con aura mágica"
+      "from": "energía eléctrica",
+      "to": "energía mágica etérea"
     },
     {
-      "from": "color rojo intenso",
-      "to": "tonos dorados y rosados suaves"
+      "from": "postura baja",
+      "to": "postura elevada con alas desplegadas"
     },
     {
-      "from": "actitud agresiva",
-      "to": "actitud tranquila y atractiva para criaturas felices"
+      "from": "color amarillo",
+      "to": "tonos plateados y dorados con destellos de luz"
     }
   ],
   "pokemon_id": "125",

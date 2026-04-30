@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Su cola espiralada ahora gotea agua cristalina, con un pico de hielo brillante en la punta. Las llamas de su pelaje se han transformado en olas suaves, irradiando frescor en cada movimiento.",
+  "species_name": "Pokémon Ola de Fuego",
+  "lore": "Este Pokémon, ahora de tipo agua, camina con pasos suaves sobre el agua. Su pelaje brillante refleja el cielo, y sus ojos brillan con un azul profundo. El fuego se ha transformado en una danza de olas.",
   "moves": [
     {
-      "name": "Ola de Hielo",
-      "desc": "Lanza un remolino de agua congelada que ralentiza al oponente."
+      "name": "Ola de Salpicadura",
+      "desc": "Lanza una ola que moja al rival, reduciendo su velocidad.",
+      "name_en": "Splash Wave",
+      "visual_prompt": "glistening water droplets, shimmering teal waves, bioluminescent plankton sparks, deep ocean blue ripples, pearly white foam trails, aquamarine light refraction"
     },
     {
-      "name": "Burbuja Explosiva",
-      "desc": "Crea burbujas que estallan en impacto, causando daño y confusión."
+      "name": "Chorro de Mar",
+      "desc": "Dispara un chorro de agua que causa daño y reduce la defensa.",
+      "name_en": "Water Jet",
+      "visual_prompt": "shimmering water vortex, swirling teal and aquamarine droplets, glowing bioluminescent plankton trails, deep ocean blue mist, pearly white foam swirls, calm underwater current ripples"
     },
     {
-      "name": "Corriente Subterránea",
-      "desc": "Se sumerge y emerge desde debajo del oponente, atacando con fuerza."
+      "name": "Burbuja de Calor",
+      "desc": "Crea burbujas que absorben el calor del rival, disminuyendo su ataque.",
+      "name_en": "Heat Bubble",
+      "visual_prompt": "glowing aquamarine bubbles, teal water currents, pearly white heat absorption rings, deep ocean blue background, bioluminescent plankton swirls"
     },
     {
-      "name": "Pico de Hielo",
-      "desc": "Ataca con el pico de hielo de su cola, causando daño frío."
+      "name": "Torrente de Lumbre",
+      "desc": "Un torrente que combina agua y fuego, causando daño y quemaduras.",
+      "name_en": "Flame Surge",
+      "visual_prompt": "glowing water vortex, swirling teal and aquamarine flames, bioluminescent plankton trails, deep blue ocean currents, pearly white mist, sapphire blue sparkles"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiralada con llama en la punta",
-      "to": "cola espiralada con pico de hielo que gotea agua"
+      "from": "pelaje rojo",
+      "to": "pelaje azul brillante con destellos plateados"
     },
     {
-      "from": "pelaje de llama roja",
-      "to": "pelaje que emite olas suaves y frescor"
+      "from": "respiración de llama",
+      "to": "respiración de chorro de agua"
     },
     {
-      "from": "fuerza de fuego",
-      "to": "fuerza de agua que refresca y ralentiza"
+      "from": "cuerpo cálido",
+      "to": "cuerpo fresco con un ligero brillo azul"
     },
     {
-      "from": "grito de llama",
-      "to": "canto de olas que calma a los enemigos"
+      "from": "postura agresiva",
+      "to": "postura tranquila sobre el agua"
     }
   ],
   "pokemon_id": "058",

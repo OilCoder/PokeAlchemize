@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispas Voladoras",
-  "lore": "Con ojos rojos brillantes que atrapan la electricidad, su cuerpo emite destellos azules. Sus alas, ahora cargadas de energía, generan chispas al volar. Su presencia ilumina la oscuridad con un aura eléctrica.",
+  "species_name": "Pokémon Chispa Alada",
+  "lore": "Chispa Alada vuela con alas cargadas de energía eléctrica, brillando como estrellas fugaces. Sus alas, antes transparentes, ahora resplandecen con destellos azules y amarillos, generando chispas al moverse.",
   "moves": [
     {
-      "name": "Chispa de Luz",
-      "desc": "Lanza destellos que ciegan al oponente y reducen su precisión."
+      "name": "Chispa Danzante",
+      "desc": "Genera una lluvia de chispas que confunden al enemigo mientras se desplaza en espiral.",
+      "name_en": "Dancing Spark",
+      "visual_prompt": "electric blue spiral trail, neon yellow sparks raining down, violet energy sparks, bright white crackling arcs, electric cyan storm clouds, dynamic swirling motion"
     },
     {
       "name": "Ala Relámpago",
-      "desc": "Ataca con un impacto eléctrico que quema el suelo bajo el enemigo."
+      "desc": "Ataca con un impacto de energía eléctrica que acelera el movimiento del usuario.",
+      "name_en": "Lightning Wing",
+      "visual_prompt": "crackling electric blue energy trails, neon yellow lightning bolts, violet sparks, bright white static bursts, electric cyan storm clouds, dynamic energy field swirls"
     },
     {
-      "name": "Ojo Parpadeante",
-      "desc": "Usa sus ojos brillantes para confundir al rival y aumentar su velocidad."
+      "name": "Polvo Estelar",
+      "desc": "Lanza un polvo brillante que aumenta la precisión de los ataques futuros.",
+      "name_en": "Star Dust",
+      "visual_prompt": "electric blue sparkles, neon yellow streaks, violet lightning bolts, bright white energy particles, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
     },
     {
-      "name": "Carga Estelar",
-      "desc": "Recarga energía para un ataque potente que golpea en multiples direcciones."
+      "name": "Vuelo Electrónico",
+      "desc": "Vuela rápidamente hacia el enemigo, causando daño eléctrico en el impacto.",
+      "name_en": "Electro Flight",
+      "visual_prompt": "crackling electric blue lightning bolts, neon yellow energy trails, violet sparks scattering, bright white shockwaves, electric cyan storm clouds, dynamic motion lines"
     }
   ],
   "diffs": [
     {
-      "from": "ojos rojos",
-      "to": "ojos brillantes que atrapan electricidad"
+      "from": "Alas transparentes",
+      "to": "Alas resplandecientes con destellos azules y amarillos"
     },
     {
-      "from": "alas de polvo",
-      "to": "alas cargadas de energía eléctrica"
+      "from": "Vuelo suave y ligero",
+      "to": "Vuelo acelerado con chispas eléctricas"
     },
     {
-      "from": "vuelo suave",
-      "to": "vuelo que genera chispas al moverse"
+      "from": "Cuerpo ligero y frágil",
+      "to": "Cuerpo cargado de energía eléctrica, resistente a golpes"
     },
     {
-      "from": "comportamiento tranquilo",
-      "to": "comportamiento eléctrico que emite destellos"
+      "from": "Atracción a flores",
+      "to": "Atracción a campos magnéticos y fuentes de electricidad"
     }
   ],
   "pokemon_id": "012",

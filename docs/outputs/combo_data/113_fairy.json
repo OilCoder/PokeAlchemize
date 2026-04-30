@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Cura de Hada",
-  "lore": "Cura de Hada tiene orejas puntiagudas curvadas hacia adentro, ahora brillantes con destellos dorados. Su piel suave emana un aura protectora que cura heridas con un toque mágico. Camina con gracia, dejando rastros de pétalos en su camino.",
+  "species_name": "Pokémon Cura Aérea",
+  "lore": "Cada paso de Cura Aérea deja estelas de luz brillante. Su pelaje suave brilla con destellos de polvo de hada, y sus patas se afianzan en el suelo con un aura mágica que cura heridas en el contacto.",
   "moves": [
     {
-      "name": "Cura de Ensueño",
-      "desc": "Curación mágica que restaura salud y elimina efectos negativos en un solo golpe."
+      "name": "Cura de Estrellas",
+      "desc": "Curación suave con destellos de luz que sanan a aliados en un radio amplio.",
+      "name_en": "Star Heal",
+      "visual_prompt": "soft pastel pink light beams, glowing ivory white star clusters, pearl lavender mist, crystalline mint energy orbs, starlight blue shimmering particles, wide radius glow effect, moonlit garden backdrop with glowing flowers, gentle misty twilight atmosphere, no characters or Pokémon shown, Ken Sugimori style VFX art"
     },
     {
-      "name": "Beso de Estrellas",
-      "desc": "Ataque suave que inflige daño mágico y deja un brillo dorado en el oponente."
+      "name": "Polvo de Sueños",
+      "desc": "Lanza un polvo que induce sueños reparadores, restaurando energía y eliminando debilidades.",
+      "name_en": "Dream Dust",
+      "visual_prompt": "floating pastel pink and pearl lavender dust particles, glowing starlight blue crystalline orbs, soft misty twilight sky backdrop, delicate floral patterns, shimmering energy trails, ethereal glow, smooth crystalline textures"
     },
     {
-      "name": "Velo de Sueños",
-      "desc": "Cubre al aliado con un manto protector que reduce el daño recibido temporalmente."
+      "name": "Bailarina Celestial",
+      "desc": "Danza en el aire, generando un campo de energía que mejora el ataque y defensa.",
+      "name_en": "Celestial Dance",
+      "visual_prompt": "floating pastel pink petals, swirling ivory white energy rings, pearl lavender starlight trails, crystalline mint glowing orbs, soft misty twilight sky background, ethereal shimmering particles"
     },
     {
-      "name": "Danza de Pétalos",
-      "desc": "Movimiento rápido que ataca con pétalos brillantes, causando daño mágico adicional."
+      "name": "Alma de Hada",
+      "desc": "Emite un aura de hada que fortalece los ataques mágicos y debilita a los enemigos.",
+      "name_en": "Fairy Soul",
+      "visual_prompt": "glowing pastel pink orbs, floating crystalline dewdrops, soft lavender mist, starlight blue energy trails, delicate floral patterns in ivory white, shimmering fairy lights"
     }
   ],
   "diffs": [
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas brillantes con destellos dorados que resplandecen al curar"
+      "from": "Cuatro patas",
+      "to": "Patas con destellos de polvo de hada que sanan al tocar el suelo."
     },
     {
-      "from": "piel suave",
-      "to": "piel que emana aura protectora mágica, curando heridas con un toque"
+      "from": "Pelaje suave",
+      "to": "Pelaje brillante con destellos de luz que refleja energía curativa."
     },
     {
-      "from": "movimientos de curación normal",
-      "to": "movimientos de curación mágica que usan energía de hada"
+      "from": "Bajo postura",
+      "to": "Postura elevada con aura mágica que flota ligeramente sobre el suelo."
     },
     {
-      "from": "comportamiento tranquilo",
-      "to": "comportamiento etéreo con danzas que dejan rastros de pétalos"
+      "from": "Apariencia tranquila",
+      "to": "Apariencia radiante con un aura de protección que envuelve a aliados."
     }
   ],
   "pokemon_id": "113",

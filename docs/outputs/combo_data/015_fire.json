@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Esmeralda",
-  "lore": "Su cabeza redondeada ahora arde con llamas azules, las antenas negras se transforman en punta de fuego. Sus picos venenosos se vuelven llamas ardientes, protegiendo su cuerpo con un escudo de fuego que emite un brillo verde intenso.",
+  "species_name": "Pokémon Llama Venenosa",
+  "lore": "El Beedrill transformado en Fuego emana llamas de sus aguijones venenosos. Su cuerpo ahora brillante en tonos rojizos, con escamas de fuego que protegen su piel. Sus patas, ahora más fuertes, arden al caminar.",
   "moves": [
     {
-      "name": "Llama Venenosa",
-      "desc": "Lanza llamas que envenenan al oponente con una mezcla de fuego y veneno."
+      "name": "Llamarada Venenosa",
+      "desc": "Lanza llamas que infectan al objetivo con veneno mientras quema.",
+      "name_en": "Poison Blaze",
+      "visual_prompt": "crimson fire orbs, venomous green smoke trails, molten gold embers, charcoal black ash swirls, glowing ember patterns, volcanic crater backdrop"
     },
     {
-      "name": "Fuego de Esmeralda",
-      "desc": "Genera un campo de llamas verdes que aumenta el ataque de su equipo."
+      "name": "Aguijón Incandescente",
+      "desc": "Ataca con aguijones ardientes que queman y envenenan simultáneamente.",
+      "name_en": "Incendiary Sting",
+      "visual_prompt": "crimson red fiery stingers, molten gold sparks, amber orange embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop"
     },
     {
-      "name": "Incendio Cero",
-      "desc": "Ataca con una llamarada intensa que quema todo a su alrededor."
+      "name": "Viento de Llama",
+      "desc": "Crea un viento caliente que quema y desorienta al enemigo.",
+      "name_en": "Flame Gale",
+      "visual_prompt": "crimson red flames swirling in chaotic spirals, molten gold embers rising upward, amber orange heat haze distortion, charcoal black smoke tendrils, glowing ember particles scattering"
     },
     {
-      "name": "Cicatriz de Llama",
-      "desc": "Crea una barrera de fuego que protege al usuario de ataques físicos."
+      "name": "Fuego Venenoso",
+      "desc": "Genera una llamarada venenosa que reduce la defensa del oponente.",
+      "name_en": "Poison Flame",
+      "visual_prompt": "crimson red fire with venomous green swirls, molten gold embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop with magma pools"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza redondeada con llamas azules"
+      "from": "Aguijones venenosos",
+      "to": "Aguijones que emiten llamas y veneno al mismo tiempo"
     },
     {
-      "from": "antenas negras",
-      "to": "antenas negras convertidas en puntas de fuego"
+      "from": "Cuerpo de insecto",
+      "to": "Cuerpo recubierto de escamas de fuego que protegen de ataques"
     },
     {
-      "from": "picos venenosos",
-      "to": "picos transformados en llamas ardientes"
+      "from": "Postura baja en el suelo",
+      "to": "Postura más erguida con patas que arden al caminar"
     },
     {
-      "from": "protección natural",
-      "to": "escudo de fuego que emite brillo verde"
+      "from": "Color verde y amarillo",
+      "to": "Tonalidad rojiza brillante con destellos de llama"
     }
   ],
   "pokemon_id": "015",

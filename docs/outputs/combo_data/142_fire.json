@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Fumante",
-  "lore": "Su cabeza redondeada ahora arde con llamas, y sus orejas puntiagudas brillan como brasas. Vuela con alas de fuego que queman el aire a su paso, irradiando calor intenso.",
+  "species_name": "Pokémon Llama Voladora",
+  "lore": "Aerodactyl, ahora envuelto en llamas volcánicas, tiene patas de roca fundida y alas de fuego. Su postura baja se intensifica con el calor radiante, dominando el aire con furia ardiente.",
   "moves": [
     {
-      "name": "Llamarada Cabeza",
-      "desc": "Lanza una bola de fuego desde su cabeza redondeada, quemando al oponente con intensidad."
+      "name": "Llamarada Volcánica",
+      "desc": "Lanza una erupción de llamas que quema el suelo y eleva al enemigo.",
+      "name_en": "Volcanic Blaze",
+      "visual_prompt": "crimson red flames erupting from molten ground, amber orange lava streams, molten gold embers swirling, charcoal black smoke rising, glowing ember particles, volcanic crater background, intense heat haze"
     },
     {
-      "name": "Aleta de Fuego",
-      "desc": "Sus alas emiten llamas que queman el campo de batalla, reduciendo la defensa del rival."
+      "name": "Ala de Fuego",
+      "desc": "Ataca con garras incandescentes que dejan marcas de quemaduras en el aire.",
+      "name_en": "Fire Claw",
+      "visual_prompt": "incandescent claw marks in the air, glowing ember trails, molten gold sparks, crimson red smoke, volcanic crater backdrop, charred air patterns"
     },
     {
-      "name": "Ceniza Voladora",
-      "desc": "Genera una nube de ceniza ardiente que enmascara su posición y ataca desde la distancia."
+      "name": "Viento de Lava",
+      "desc": "Crea un torbellino de lava que aturde y quema al rival.",
+      "name_en": "Lava Whirl",
+      "visual_prompt": "volcanic crater, molten lava whirlwind, crimson red and amber orange flames, glowing ember particles, smoke-filled air, molten gold droplets, charcoal black ash swirls"
     },
     {
-      "name": "Incendio Estelar",
-      "desc": "Dispara una lluvia de meteoritos incandescentes que impactan en múltiples objetivos."
+      "name": "Ráfaga Ardiente",
+      "desc": "Dispara ráfagas de fuego que aumentan su velocidad y daño.",
+      "name_en": "Blazing Gust",
+      "visual_prompt": "crimson red fire gusts, molten gold embers swirling, amber orange flames, charcoal black smoke trails, glowing ember sparks, dynamic wind currents"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza ardiendo con llamas"
+      "from": "patas de piedra",
+      "to": "patas de roca fundida que brillan con calor"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "orejas brillando como brasas"
+      "from": "alas de cuero",
+      "to": "alas de fuego que emiten chispas"
     },
     {
-      "from": "alas de vuelo",
-      "to": "alas emitiendo llamas"
+      "from": "postura baja",
+      "to": "postura más agresiva con calor radiante"
     },
     {
-      "from": "vuelo tranquilo",
-      "to": "vuelo que quema el aire"
+      "from": "vuelo suave",
+      "to": "vuelo rápido y ardiente con estelas de humo"
     }
   ],
   "pokemon_id": "142",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Bulbasaur de acero reluce con ojos rojos y destellos blancos, su caparazón de acero absorbe impactos. Sus espinas se afilan como cuchillas, protegiendo su corazón de acero.",
+  "species_name": "Pokémon Lámina Esmeralda",
+  "lore": "Bulbasaur se transformó en un guerrero de acero, con su semilla convertida en un yunque brillante. Sus patas se endurecieron en espinas de acero, y su piel verde se tornó plateada. Ahora camina con firmeza, arrastrando un aura de resistencia.",
   "moves": [
     {
-      "name": "Cuchilla de Acero",
-      "desc": "Ataca con espinas afiladas de acero, causando daño y posiblemente reduciendo la defensa del oponente."
+      "name": "Corte de Acero",
+      "desc": "Corta al oponente con una hoja de acero afilada, causando daño físico y reduciendo defensa.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel blade slicing through air, sharp metallic edges with electric blue sparks, polished silver particles, neon cyan energy trails, gunmetal gray mist, industrial city skyline silhouette in background"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido durante un turno."
+      "name": "Yunque de Hierro",
+      "desc": "Crea un yunque de hierro que absorbe el daño y lo devuelve al oponente.",
+      "name_en": "Iron Anvil",
+      "visual_prompt": "gunmetal gray anvil floating mid-air, polished silver sparks, metallic steam vents, electric blue energy waves, neon cyan aura, industrial cityscape backdrop"
     },
     {
-      "name": "Impacto de Acero",
-      "desc": "Golpea al oponente con un impacto de acero, aumentando la velocidad del usuario."
+      "name": "Cicatriz de Acero",
+      "desc": "Genera una cicatriz de acero que cura al Pokémon y debilita al rival.",
+      "name_en": "Steel Scar",
+      "visual_prompt": "polished silver scar lines, glowing gunmetal gray energy, metallic steam vents, electric blue sparks, neon cyan highlights, industrial city skyline backdrop"
     },
     {
-      "name": "Bomba de Esmeril",
-      "desc": "Lanza una bomba de esmeril que causa daño y posiblemente confunde al oponente."
+      "name": "Golpe de Masa",
+      "desc": "Ataca con un golpe masivo que derriba al oponente y reduce su velocidad.",
+      "name_en": "Mass Strike",
+      "visual_prompt": "shattered steel beams, jagged metallic shards, glowing gunmetal gray sparks, electric blue energy trails, polished silver impact waves, neon cyan shockwaves, industrial cityscape backdrop with steam vents"
     }
   ],
   "diffs": [
     {
-      "from": "Ojos rojos con destellos blancos",
-      "to": "Ojos rojos brillantes con reflejos plateados, resplandeciendo en la oscuridad."
+      "from": "semilla en su espalda",
+      "to": "se transforma en un yunque brillante de acero"
     },
     {
-      "from": "Caparazón verde con espinas",
-      "to": "Caparazón de acero pulido, espinas convertidas en cuchillas afiladas."
+      "from": "piel verde",
+      "to": "se torna plateada y resistente"
     },
     {
-      "from": "Sistema de raíces",
-      "to": "Raíces reemplazadas por estructura de acero, absorbiendo energía de impactos."
+      "from": "patas blandas",
+      "to": "se endurecen en espinas de acero"
     },
     {
-      "from": "Piel suave",
-      "to": "Piel cubierta por una capa de acero, resistiendo golpes y abrasión."
+      "from": "postura baja",
+      "to": "camina con firmeza, arrastrando un aura de resistencia"
     }
   ],
   "pokemon_id": "001",

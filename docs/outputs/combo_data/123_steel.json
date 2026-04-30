@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Cuchillo",
-  "lore": "Scyther, ahora cubierto de acero pulido, tiene hojas afiladas que brillan con reflejos metálicos. Sus alas se transforman en láminas de acero que cortan el aire sin esfuerzo.",
+  "lore": "Scyther, ahora con patas de acero, camina con paso firme. Sus alas de cuchilla cortan el aire, su armadura resplandece bajo el sol. El acero le otorga resistencia y velocidad.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta al oponente con una hoja de acero afilada que causa daño físico."
+      "desc": "Corta con precisión, aumentando daño y reduciendo defensa del oponente.",
+      "name_en": "Steel Cut",
+      "visual_prompt": "shimmering steel blades slicing through air, polished silver edges with electric blue highlights, neon cyan trails, industrial cityscape backdrop with glowing steam vents, metallic reflections on wet pavement"
     },
     {
-      "name": "Impacto Metálico",
-      "desc": "Lanza un impacto metálico que reduce la defensa del oponente."
+      "name": "Impacto de Acero",
+      "desc": "Golpea con fuerza, causando daño y posiblemente paralizar.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "polished silver shockwaves, gunmetal gray energy ripples, metallic steam vents with neon cyan sparks, electric blue geometric patterns, industrial city skyline silhouette"
     },
     {
-      "name": "Corte Invernal",
-      "desc": "Genera un corte helado que congela al oponente con hojas de acero."
+      "name": "Defensa de Acero",
+      "desc": "Refuerza la armadura, aumentando defensa temporalmente.",
+      "name_en": "Steel Defense",
+      "visual_prompt": "polished silver armor plating, glowing gunmetal gray energy waves, metallic steam vents with electric blue sparks, neon cyan shield aura, industrial cityscape backdrop, stylized 2D VFX"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo de acero que aumenta la defensa temporalmente."
+      "name": "Ráfaga de Acero",
+      "desc": "Lanza una ráfaga de cuchillas de acero, atacando múltiples objetivos.",
+      "name_en": "Steel Gale",
+      "visual_prompt": "metallic steel blades swirling in a vortex, gunmetal gray and polished silver shards, electric blue energy trails, neon cyan sparks, industrial city skyline silhouette in background, metallic steam vents emitting glowing particles"
     }
   ],
   "diffs": [
     {
-      "from": "hojas afiladas de insecto",
-      "to": "hojas de acero pulido que brillan al sol"
+      "from": "Alas de cuchilla",
+      "to": "Alas de acero, más duras y resistentes"
     },
     {
-      "from": "alas de insecto",
-      "to": "láminas de acero que cortan el aire"
+      "from": "Cuerpo ligero",
+      "to": "Cuerpo reforzado con armadura de acero"
     },
     {
-      "from": "cuerpo ligero",
-      "to": "cuerpo pesado pero resistente de acero"
+      "from": "Movilidad en vuelo",
+      "to": "Movilidad terrestre con mayor estabilidad"
     },
     {
-      "from": "color verde claro",
-      "to": "tonos plateados y azulados de acero"
+      "from": "Ataque rápido",
+      "to": "Ataque con fuerza y precisión acerada"
     }
   ],
   "pokemon_id": "123",

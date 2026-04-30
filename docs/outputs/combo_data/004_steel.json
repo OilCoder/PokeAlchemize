@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Acero Llama",
-  "lore": "Su cola de llama se ha transformado en acero pulido, brillando con reflejos fríos. Las llamas ahora son estables y no arden, pero emiten un calor intenso al tocar metal. Su piel es ahora una armadura ligera y resistente.",
+  "species_name": "Pokémon Hierro Llama",
+  "lore": "Hierro Llama camina con paso firme, sus patas cubiertas de escamas metálicas que resuenan al pisar. Su cola llama, ahora de acero pulido, emite destellos fríos mientras libera calor controlado. Su pelaje brillante refleja la luz como un espejo.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del oponente."
+      "name": "Acero Llamante",
+      "desc": "Ataca con llamas de acero fundido que hieren al oponente con cortes precisos.",
+      "name_en": "Molten Steel",
+      "visual_prompt": "molten steel flames with precise cutting edges, gunmetal gray and polished silver sparks, metallic steam vents, electric blue neon glow, industrial cityscape background, stylized 2D VFX"
     },
     {
-      "name": "Llama Estática",
-      "desc": "Emite una llama fría que genera una carga eléctrica en el campo."
+      "name": "Escudo de Fuego",
+      "desc": "Crea un escudo de acero que absorbe ataques y devuelve el daño en forma de llamas.",
+      "name_en": "Fire Shield",
+      "visual_prompt": "steel shield with glowing neon cyan edges, polished silver surface reflecting electric blue flames, metallic steam vents emitting blue mist, industrial cityscape backdrop with neon signs"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo de acero que bloquea ataques y aumenta la defensa."
+      "name": "Golpe de Caudal",
+      "desc": "Golpea con la cola de acero, causando daño físico y posiblemente causando parálisis.",
+      "name_en": "Steel Tail",
+      "visual_prompt": "polished steel tail, metallic blue sparks, neon cyan energy trails, industrial steam vents, gunmetal gray particles, electric blue shockwaves, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Impacto Cálido",
-      "desc": "Ataca con un golpe caliente que quema el metal del oponente."
+      "name": "Fusión Incandescente",
+      "desc": "Fusiona su cuerpo con el acero para aumentar su resistencia y ataque.",
+      "name_en": "Incandescent Fusion",
+      "visual_prompt": "glowing gunmetal gray steel tendrils, polished silver sparks, metallic steam vents, neon cyan energy trails, electric blue aura, industrial cityscape backdrop, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
-      "from": "Flame on tail tip",
-      "to": "Cambia a una cola de acero pulido que refleja luz fría."
+      "from": "Piel de escamas rojas",
+      "to": "Escamas metálicas plateadas y resistentes"
     },
     {
-      "from": "Fire-type",
-      "to": "El fuego se convierte en llama estabilizada, no arde."
+      "from": "Cola con llama pequeña",
+      "to": "Cola de acero pulido que emite destellos fríos"
     },
     {
-      "from": "Lightweight skin",
-      "to": "Piel se transforma en armadura ligera y resistente."
+      "from": "Postura baja y flexible",
+      "to": "Postura erguida y firme, con patas sólidas"
     },
     {
-      "from": "Hot body",
-      "to": "Calor ahora se transmite al metal, no al aire."
+      "from": "Calor intenso",
+      "to": "Calor controlado y frío metálico en equilibrio"
     }
   ],
   "pokemon_id": "004",

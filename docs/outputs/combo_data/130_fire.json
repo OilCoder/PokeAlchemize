@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Este Gyarados ahora arde con una corona de llamas en su cresta, sus escamas brillan como carbón incandescente. Su ala de fuego emite chispas al volar, transformando el aire en vapor.",
+  "lore": "Gyarados de llamas ardientes, con escamas rojas y ojos de fuego. Su postura baja y poderosa se mantiene firme, mientras sus patas emiten llamas al pisar. El agua que rodea su cuerpo se evapora al contacto con su calor.",
   "moves": [
     {
-      "name": "Llama de Fuego",
-      "desc": "Ataca con una llamarada intensa que quema el objetivo."
+      "name": "Llamarada Dragón",
+      "desc": "Lanza una llamarada que quema y eleva al rival, combinando fuego y fuerza dragón.",
+      "name_en": "Dragon Blaze",
+      "visual_prompt": "crimson fire orbs swirling in dragon shape, molten gold embers rising, volcanic smoke trails, glowing ember particles, charcoal black ash clouds"
     },
     {
-      "name": "Ala de Llama",
-      "desc": "Vuela rápidamente, atacando con un ala ardiente."
+      "name": "Pata de Fuego",
+      "desc": "Ataca con patadas que emiten llamas, quemando al oponente con cada pisada.",
+      "name_en": "Fire Kick",
+      "visual_prompt": "crimson red footprints on volcanic rock, molten gold flames trailing each step, amber orange embers rising in smoke-filled air, glowing ember sparks, charcoal black ash particles"
     },
     {
-      "name": "Viento de Carbón",
-      "desc": "Crea un viento caliente que quema y empuja al rival."
+      "name": "Ráfaga de Humo",
+      "desc": "Genera humo ardiente que reduce la visión y quema al rival en combate.",
+      "name_en": "Smoke Geyser",
+      "visual_prompt": "volcanic smoke plumes, molten gold embers, crimson red haze, glowing ember particles, ash swirls, charcoal black smoke trails, magma pool reflections"
     },
     {
-      "name": "Cascada de Llamas",
-      "desc": "Lanza una cascada de llamas que quema y derrite."
+      "name": "Cascada de Llama",
+      "desc": "Inunda el campo con llamas que aumentan el daño de los ataques de fuego.",
+      "name_en": "Flame Surge",
+      "visual_prompt": "molten gold embers swirling in volcanic smoke, crimson red flames cascading like waterfalls, amber orange magma pools glowing beneath, charcoal black ash particles floating in air"
     }
   ],
   "diffs": [
     {
-      "from": "cresta redondeada",
-      "to": "cresta con llama incandescente"
-    },
-    {
       "from": "escamas azules",
-      "to": "escamas brillantes como carbón incandescente"
+      "to": "escamas rojas brillantes con destellos anaranjados"
     },
     {
-      "from": "alas de agua",
-      "to": "alas de fuego que emiten chispas"
+      "from": "vuelo con alas de agua",
+      "to": "patas con llamas que queman el suelo al caminar"
     },
     {
-      "from": "vuelo tranquilo",
-      "to": "vuelo rápido con llamas en el aire"
+      "from": "respiración de agua",
+      "to": "aliento de llamas que quema el aire circundante"
+    },
+    {
+      "from": "postura alada",
+      "to": "postura baja y firme con cuatro patas plantadas"
     }
   ],
   "pokemon_id": "130",

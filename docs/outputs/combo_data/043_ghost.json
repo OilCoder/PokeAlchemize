@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra de Hoja",
-  "lore": "El Sombra de Hoja flota sin rumbo, sus pétalos desvanecidos brillan con un brillo plateado. Sus ojos cerrados emiten destellos azules al absorber energías espirituales, mientras su cuerpo translúcido se funde con la oscuridad.",
+  "species_name": "Pokémon Sombra de Hojas",
+  "lore": "Sombra de Hojas camina con pasos silenciosos, sus hojas translúcidas brillan con un resplandor azul. Sus patas se vuelven etéreas, desvaneciéndose en el aire mientras absorbe esencias de la oscuridad.",
   "moves": [
     {
-      "name": "Susurro Fantasmal",
-      "desc": "Inyecta energía espectral en el oponente, reduciendo su velocidad y causando miedo."
+      "name": "Sombra Fúngica",
+      "desc": "Lanza una nube de esporas que ralentiza al enemigo y le quita energía.",
+      "name_en": "Mushroom Mist",
+      "visual_prompt": "floating spore clouds, slow-motion particles, violet mist, ghostly silver trails, decaying tombstone outlines, pale silver energy drain, shadow violet aura, ethereal fog, charcoal gray mist, slow-motion effect"
     },
     {
-      "name": "Flor de Sombras",
-      "desc": "Crea una flor oscura que absorbe la vida del oponente y la convierte en energía fantasmal."
+      "name": "Hoja de Sombras",
+      "desc": "Corta al rival con hojas que cortan a través de la oscuridad.",
+      "name_en": "Shadow Leaf",
+      "visual_prompt": "shimmering dark violet leaves, ghostly silver trails, ethereal fog, moonlit tombstone silhouettes, shadowy tendrils, deep violet mist, pale silver light beams, charcoal gray accents, ghostly white glow, misty graveyard atmosphere"
     },
     {
-      "name": "Eco Espiritual",
-      "desc": "Envía un eco que revela los secretos ocultos del oponente, reduciendo su defensa."
+      "name": "Esencia Oscura",
+      "desc": "Absorbe la energía del enemigo para curar al usuario.",
+      "name_en": "Dark Essence",
+      "visual_prompt": "dark violet energy tendrils, swirling ghostly silver mist, pale silver glowing orbs, shadow violet aura, ethereal fog drifting, misty graveyard background, moonlit tombstones silhouette, charcoal gray particles floating, ghostly white light rays"
     },
     {
-      "name": "Viento Lamentable",
-      "desc": "Genera un viento frío que desgarrar la mente del oponente y causar confusión."
+      "name": "Aliento de la Noche",
+      "desc": "Emite un susurro que confunde al enemigo y reduce su precisión.",
+      "name_en": "Night Whisper",
+      "visual_prompt": "ethereal mist, floating ghostly whispers, pale silver particles, deep violet fog, shadow violet accents, moonlit tombstone outlines, charcoal gray tendrils, ghostly white glow"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redondeada con ojos cerrados",
-      "to": "Cabeza translúcida con ojos que brillan azules al absorber energías espirituales"
+      "from": "Cuatro patas sólidas",
+      "to": "Patas etéreas que se desvanecen en la oscuridad"
     },
     {
-      "from": "Pétalos verdes y flores",
-      "to": "Pétalos desvanecidos que brillan con un brillo plateado en la oscuridad"
+      "from": "Hoja verde brillante",
+      "to": "Hoja translúcida con resplandor azul"
     },
     {
-      "from": "Aroma venenoso",
-      "to": "Aroma espectral que absorbe la energía vital de los enemigos"
+      "from": "Bajo postura en el suelo",
+      "to": "Postura flotante sin contacto con el suelo"
     },
     {
-      "from": "Crecimiento en suelos húmedos",
-      "to": "Flota en la oscuridad, absorbiendo energías espirituales de los lugares abandonados"
+      "from": "Aroma dulce de flor",
+      "to": "Aroma frío y penetrante de esporas"
     }
   ],
   "pokemon_id": "043",

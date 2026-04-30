@@ -1,40 +1,46 @@
 {
   "species_name": "Pokémon Acero Aéreo",
-  "lore": "Su cabeza redondeada se cubre de escamas metálicas resplandecientes, mientras sus orejas puntiagudas brillan con reflejos de acero. Vuela con una gracia cortante, cortando el aire como una hoja afilada.",
+  "lore": "Aerodactyl, ahora cubierto de placas de acero, camina con paso firme sobre sus cuatro patas. Sus alas, antes de cuero, brillan con reflejos metálicos, y sus ojos emiten destellos azulados al atacar.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta el aire con garras de acero, causando daño adicional a los tipos acero y roca."
+      "desc": "Corta con garras afiladas de acero, causando daño cortante y posiblemente debilitando la defensa del oponente.",
+      "name_en": "Steel Cut",
+      "visual_prompt": "shimmering steel claws slicing through air, jagged metallic shards flying, gunmetal gray sparks, polished silver trails, electric blue energy pulses, neon cyan highlights, industrial city skyline backdrop"
     },
     {
-      "name": "Impacto Cisne",
-      "desc": "Ataca con un movimiento de cabeza hacia adelante, rompiendo la resistencia de los tipos acero."
+      "name": "Impacto Férreo",
+      "desc": "Se lanza contra el rival con fuerza metálica, causando daño físico y posiblemente causar aturdimiento.",
+      "name_en": "Iron Impact",
+      "visual_prompt": "shimmering gunmetal gray energy waves, polished silver metallic shards flying, electric blue sparks, neon cyan trails, industrial city skyline backdrop with glowing steam vents"
     },
     {
-      "name": "Resplandor Metálico",
-      "desc": "Genera un brillo intenso que ciega al oponente y reduce su precisión."
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero alrededor de sí mismo, reduciendo el daño recibido durante un turno."
     },
     {
-      "name": "Viento Cortante",
-      "desc": "Envía una ráfaga de aire afilado que daña a todos los oponentes."
+      "name": "Suelo de Acero",
+      "desc": "Genera un campo de acero bajo los pies del rival, reduciendo su velocidad y causando daño por corrosión.",
+      "name_en": "Steel Ground",
+      "visual_prompt": "crystalline steel shards floating mid-air, jagged metallic spikes erupting from ground, glowing gunmetal gray aura, electric blue energy trails, polished silver particles swirling, neon cyan corrosion effects on surfaces"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cubierta de escamas metálicas resplandecientes"
+      "from": "patas de cuero",
+      "to": "patas cubiertas de placas metálicas resistentes"
     },
     {
-      "from": "orejas puntiagudas",
-      "to": "brillan con reflejos de acero"
+      "from": "alas de cuero",
+      "to": "alas brillantes con reflejos metálicos"
     },
     {
-      "from": "vuelo ligero",
-      "to": "vuela con gracia cortante, cortando el aire como una hoja afilada"
+      "from": "ojos amarillos",
+      "to": "ojos que emiten destellos azulados"
     },
     {
-      "from": "piel rocosa",
-      "to": "reemplazada por una armadura de acero resistente"
+      "from": "vuelo ágil",
+      "to": "caminar con paso firme en el suelo"
     }
   ],
   "pokemon_id": "142",

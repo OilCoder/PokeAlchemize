@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Acero",
-  "lore": "Su cabello de llamas se ha convertido en espinas metálicas brillantes que emiten destellos azules. Sus ojos centellean como acero pulido, y cada paso deja marcas en el suelo. Su cuerpo irradiaba calor, ahora transmite frío sofisticado.",
+  "lore": "Pokémon Llama Acero se erige con músculos de acero fundido, sus patas plantadas en el suelo como pilares. Su pelaje brillante refleja destellos de acero, y sus ojos arden con una llama fría y precisa.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con garras de acero que dejan surcos en el suelo al atacar."
+      "name": "Fuerza de Martillo",
+      "desc": "Golpea con un martillo de acero, causando daño y reduciendo la defensa del rival.",
+      "name_en": "Hammer Force",
+      "visual_prompt": "steel hammer impact, metallic sparks, gunmetal gray energy waves, polished silver debris, electric blue shockwaves, neon cyan trails, industrial cityscape backdrop, metallic steam vents"
     },
     {
-      "name": "Chispa Metálica",
-      "desc": "Dispara chispas que provocan cortocircuitos en objetos metálicos."
+      "name": "Chispazo Acero",
+      "desc": "Dispara chispas metálicas que queman y envenenan al enemigo.",
+      "name_en": "Steel Spark",
+      "visual_prompt": "metallic sparks, glowing gunmetal gray, electric blue trails, neon cyan arcs, polished silver particles, industrial steam vents, metallic sheen, sharp geometric patterns, high-contrast lighting, dynamic motion blur"
     },
     {
-      "name": "Golpe de Carga",
-      "desc": "Aumenta su fuerza con una descarga eléctrica que refuerza su cuerpo."
+      "name": "Escudo de Hierro",
+      "desc": "Crea un escudo de acero que absorbe el daño y refleja ataques críticos.",
+      "name_en": "Iron Shield",
+      "visual_prompt": "polished steel shield with glowing electric blue edges, metallic steam vents rising in the background, gunmetal gray energy waves, neon cyan reflections, industrial cityscape skyline, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Resonancia Fría",
-      "desc": "Emite un sonido vibrante que debilita a los oponentes."
+      "name": "Carga de Fuerza",
+      "desc": "Aumenta el ataque y la velocidad al coste de la defensa durante un turno.",
+      "name_en": "Force Charge",
+      "visual_prompt": "polished silver energy waves, gunmetal gray metallic particles, electric blue sparks, neon cyan streaks, industrial steam vents, geometric steel patterns, glowing neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "Cabello de llama",
-      "to": "Se transformó en espinas metálicas brillantes"
+      "from": "patas de fuego",
+      "to": "patas de acero fundido, plantadas como pilares"
     },
     {
-      "from": "Ojos cálidos",
-      "to": "Centellean como acero pulido"
+      "from": "pelaje rojo brillante",
+      "to": "pelaje plateado brillante con reflejos de acero"
     },
     {
-      "from": "Calor corporal",
-      "to": "Transmite frío sofisticado"
+      "from": "llama caliente",
+      "to": "llama fría y precisa, sin humo"
     },
     {
-      "from": "Movimientos rápidos",
-      "to": "Paso pesado que deja marcas en el suelo"
+      "from": "bajo postura",
+      "to": "postura elevada y estable, como una fortaleza"
     }
   ],
   "pokemon_id": "126",

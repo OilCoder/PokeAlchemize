@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Subterránea",
-  "lore": "Este Diglett ahora arde con llamas bajo tierra, su cabeza redondeada iluminada por llamas rojas. Sus orejas puntiagudas brillan con destellos de fuego, y su piel se vuelve rugosa y caliente al tacto.",
+  "lore": "Este Diglett ahora arde con llamas rojas en su piel, sus patas cortas brillan al calor. Cada movimiento libera chispas, cavando túneles incandescentes bajo tierra.",
   "moves": [
     {
-      "name": "Llama de Fosa",
-      "desc": "Lanza llamas desde su boca hacia el suelo, creando surcos de fuego que dañan al oponente."
+      "name": "Llama Túnel",
+      "desc": "Crea un túnel de fuego que quema al enemigo mientras se desplaza bajo tierra.",
+      "name_en": "Tunnel Flare",
+      "visual_prompt": "crimson fire tunnel, molten gold embers, glowing magma pools, smoke-filled air, volcanic crater backdrop, ember trails, heat distortion waves"
     },
     {
-      "name": "Suelo Ardiente",
-      "desc": "El suelo bajo el oponente se enciende, causando daño continuo por 2 turnos."
-    },
-    {
-      "name": "Ceniza Sónica",
-      "desc": "Emite una onda de calor que reduce la velocidad del oponente y lo envuelve en humo."
+      "name": "Ceniza Explosiva",
+      "desc": "Lanza una lluvia de cenizas ardientes que daña y quema al enemigo.",
+      "name_en": "Explosive Ash",
+      "visual_prompt": "volcanic ash rain, glowing ember sparks, molten gold particles, crimson red smoke trails, amber orange heat waves, charcoal black ash clouds, dynamic fiery explosion effects"
     },
     {
       "name": "Fuego Subterráneo",
-      "desc": "Se entierra y emerge con un ataque de llamas que quema al oponente."
+      "desc": "Desata un fuego subterráneo que aturde al enemigo y quema el terreno.",
+      "name_en": "Subterranean Fire",
+      "visual_prompt": "molten lava geysers erupting from cracked earth, glowing ember trails, crimson red smoke swirls, amber orange magma pools, charcoal black ash particles, glowing ember sparks"
+    },
+    {
+      "name": "Calor de Llama",
+      "desc": "Aumenta el daño de los movimientos de fuego con un calor intenso.",
+      "name_en": "Blazing Heat",
+      "visual_prompt": "crimson red flames, molten gold embers, amber orange heat waves, charcoal black smoke swirls, glowing ember particles, intense fiery glow, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza redondeada cubierta de llamas rojas que brillan"
+      "from": "Cuerpo terroso y oscuro",
+      "to": "Cuerpo cubierto de llamas rojas y brillantes"
     },
     {
-      "from": "orejas pequeñas puntiagudas",
-      "to": "orejas puntiagudas con destellos de fuego que brillan intensamente"
+      "from": "Patas cortas para cavar",
+      "to": "Patas calientes que generan fuego al moverse"
     },
     {
-      "from": "piel suave y fría",
-      "to": "piel rugosa y caliente al tacto, con escamas de fuego"
+      "from": "Bajo estilo de movimiento",
+      "to": "Movimiento rápido con estelas de llamas tras él"
     },
     {
-      "from": "vive bajo tierra",
-      "to": "vive bajo tierra, dejando estelas de fuego tras sus pasos"
+      "from": "Vivo bajo tierra",
+      "to": "Cava túneles incandescentes que queman el suelo"
     }
   ],
   "pokemon_id": "050",

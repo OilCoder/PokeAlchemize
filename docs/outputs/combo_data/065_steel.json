@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Acero Mental",
-  "lore": "Alakazam Acero Mental despliega una armadura de acero pulido en su cabeza y garras, reflejando su mente aguda. Sus ojos brillan con energía metálica, y su cuerpo emite un zumbido resonante al moverse.",
+  "lore": "Alakazam, ahora con armadura de acero, camina con paso firme. Sus ojos brillan con reflejos metálicos, y sus brazos cortos están cubiertos de placas resplandecientes que emiten un suave zumbido.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con garras afiladas de acero, causando daño adicional a Pokémon de tipo acero."
+      "name": "Impacto Acero",
+      "desc": "Ataca con un golpe de acero que desgasta la defensa del oponente.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "gunmetal gray metallic shards, polished silver sparks, steel blue energy trails, electric blue shockwaves, neon cyan glowing fragments, industrial city skyline backdrop"
     },
     {
-      "name": "Mente Férrea",
-      "desc": "Aumenta la defensa y evita que el oponente use movimientos de tipo psíquico."
-    },
-    {
-      "name": "Golpe Resonante",
-      "desc": "Genera ondas de sonido metálico que reducen la velocidad del rival."
+      "name": "Mente Refractada",
+      "desc": "Refleja ataques psíquicos hacia el enemigo con precisión metálica.",
+      "name_en": "Mental Refraction",
+      "visual_prompt": "metallic silver shards, refracting psychic energy beams, gunmetal gray distortion waves, electric blue neon highlights, polished steel reflections, industrial city skyline silhouette in background"
     },
     {
       "name": "Escudo Mental",
-      "desc": "Crea un escudo de acero que bloquea ataques físicos durante un turno."
+      "desc": "Crea un escudo de acero que bloquea ataques psíquicos y físicos.",
+      "name_en": "Mental Shield",
+      "visual_prompt": "polished steel shield with glowing neon cyan edges, gunmetal gray energy waves, electric blue metallic particles, industrial cityscape backdrop with steam vents, reflective surface showing distorted city lights"
+    },
+    {
+      "name": "Resonancia Sónica",
+      "desc": "Emite un sonido agudo que debilita la resistencia del oponente.",
+      "name_en": "Sonic Resonance",
+      "visual_prompt": "gunmetal gray sonic waves, polished silver ripples, metallic steel blue energy orbs, electric blue distortion lines, neon cyan vibration patterns, industrial cityscape backdrop with glowing neon signs, metallic steam vents"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redondeada",
-      "to": "cabeza cubierta por una armadura de acero pulido"
+      "from": "bipedal, upright stance",
+      "to": "caminar con paso firme y armadura de acero."
     },
     {
-      "from": "garras curvas afiladas",
-      "to": "garras afiladas de acero con bordes cortantes"
+      "from": "short arms at sides",
+      "to": "brazos cubiertos de placas resplandecientes que zumban."
     },
     {
-      "from": "mente psíquica",
-      "to": "mente enfocada en energía metálica"
+      "from": "psychic type",
+      "to": "poderes psíquicos ahora con efectos metálicos y reflejos."
     },
     {
-      "from": "movimientos psíquicos",
-      "to": "movimientos que combinan psiquismo con fuerza metálica"
+      "from": "eyes",
+      "to": "brillan con reflejos metálicos y transmiten fuerza acerada."
     }
   ],
   "pokemon_id": "065",

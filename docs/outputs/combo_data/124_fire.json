@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Dorada",
-  "lore": "Su cabello dorado fluye como llamas danzando, iluminando el aire con un calor sofocante. Sus ojos brillan con destellos rojizos, y su piel emite una suave radiación cálida. Cada movimiento libera destellos de fuego.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Jynx, ahora transformada en un ser de fuego, camina con pasos danzantes sobre llamas. Su piel brillante refleja llamas danzantes, y sus ojos brillan con un fuego interno. Sus brazos cortos ahora emiten chispas al moverse.",
   "moves": [
     {
-      "name": "Llamarada Cariñosa",
-      "desc": "Lanza un beso de llamas que quema suavemente, dejando un aroma a rosas quemadas."
+      "name": "Bailarín de Llamas",
+      "desc": "Ataca con patadas que generan llamas danzantes, quemando al rival.",
+      "name_en": "Dancing Flare",
+      "visual_prompt": "dancing flames, swirling ember trails, crimson red and amber orange fire orbs, molten gold sparks, charcoal black smoke swirls, volcanic crater backdrop"
     },
     {
-      "name": "Danza de la Ceniza",
-      "desc": "Gira rápidamente, liberando una nube de cenizas ardientes que confunde al rival."
+      "name": "Ritual de Fuego",
+      "desc": "Crea un círculo de llamas alrededor del enemigo, reduciendo su velocidad.",
+      "name_en": "Fire Ritual",
+      "visual_prompt": "crimson red flame circle, molten gold embers swirling, amber orange magma pools, charcoal black smoke trails, glowing ember particles, volcanic crater background"
     },
     {
-      "name": "Fuego de Amor",
-      "desc": "Cubre al oponente con una lluvia de llamas que simulan besos ardientes."
+      "name": "Chispa de Amor",
+      "desc": "Enfoca el fuego en el enemigo, causando daño y aumentando la confianza.",
+      "name_en": "Love Spark",
+      "visual_prompt": "crimson red fire sparks, amber orange embers swirling in a molten gold vortex, charcoal black smoke trails, glowing ember patterns on volcanic rock surface, dynamic fire trails"
     },
     {
-      "name": "Corazón de Llama",
-      "desc": "Aumenta el ataque con un impulso de energía ardiente desde el corazón."
+      "name": "Círculo de Pasión",
+      "desc": "Genera un círculo de fuego que ataca al enemigo y a sus aliados.",
+      "name_en": "Passion Circle",
+      "visual_prompt": "crimson fire circle, molten gold embers swirling, amber orange heat haze, charcoal black smoke tendrils, glowing ember sparks, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cabello largo y dorado",
-      "to": "cabello transformado en llamas danzantes que emiten calor"
+      "from": "piel fría y brillante",
+      "to": "piel brillante con llamas danzantes"
     },
     {
-      "from": "piel fría de hielo",
-      "to": "piel que emite radiación cálida y brillante"
+      "from": "movimientos lentos y elegantes",
+      "to": "pasos danzantes sobre llamas"
     },
     {
-      "from": "movimientos psíquicos",
-      "to": "movimientos que liberan llamas en lugar de energías mentales"
+      "from": "brazos cortos",
+      "to": "brazos que emiten chispas al moverse"
     },
     {
-      "from": "habilidad de crear hielo",
-      "to": "habilidad de generar calor intenso y llamas controladas"
+      "from": "fuerza psíquica",
+      "to": "fuerza de fuego que quema al rival"
     }
   ],
   "pokemon_id": "124",

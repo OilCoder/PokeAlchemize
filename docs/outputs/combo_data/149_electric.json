@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Relámpago Dragón",
-  "lore": "Relámpago Dragón irradia energía eléctrica en sus cuernos curvos, que brillan con chispas azules. Su piel escamosa absorbe y libera descargas, mientras sus alas generan vientos cargados de estática.",
+  "lore": "Relámpago Dragón emana chispas eléctricas de sus escamas azules. Sus patas anteriores brillan con energía estática, mientras que sus alas se cargan con descargas eléctricas. Su postura baja y poderosa refleja su dominio sobre el campo eléctrico.",
   "moves": [
     {
-      "name": "Chispa Estelar",
-      "desc": "Lanza un relámpago que despierta la energía interna del oponente, causando daño eléctrico y aumentando su velocidad."
+      "name": "Descarga de Rayo",
+      "desc": "Lanza un rayo eléctrico que causa daño y paraliza al objetivo.",
+      "name_en": "Thunder Charge",
+      "visual_prompt": "crackling electric blue energy bolts, neon yellow lightning arcs, violet sparks, bright white energy pulses, stormy sky background with neon-lit thunderclouds, dynamic energy field patterns"
     },
     {
-      "name": "Ala de Centella",
-      "desc": "Ataca con ráfagas de energía estática que dañan y confunden al rival, generando cortocircuitos en su armadura."
+      "name": "Ala Estática",
+      "desc": "Aumenta el poder de los movimientos eléctricos con una carga estática en sus alas.",
+      "name_en": "Static Wing",
+      "visual_prompt": "crackling electric blue wings, neon yellow energy arcs, violet spark particles, bright white lightning bolts, electric cyan aura, stormy sky background with neon-lit thunderclouds, dynamic energy field patterns"
     },
     {
-      "name": "Tormenta Electrónica",
-      "desc": "Crea una tempestad de chispas alrededor del campo, reduciendo la precisión de todos los movimientos del enemigo."
+      "name": "Chispazo Terrenal",
+      "desc": "Genera una onda de chispas que daña a todos los enemigos cercanos.",
+      "name_en": "Earth Spark",
+      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds"
     },
     {
-      "name": "Rayo Dragón",
-      "desc": "Un ataque poderoso que combina fuerza draconica con descargas eléctricas, causando daño crítico."
+      "name": "Tormenta Eléctrica",
+      "desc": "Crea una tormenta eléctrica que reduce la velocidad del enemigo.",
+      "name_en": "Electric Storm",
+      "visual_prompt": "crackling electric blue arcs, neon yellow lightning bolts, violet spark particles, bright white energy pulses, stormy sky backdrop, dynamic swirling energy fields"
     }
   ],
   "diffs": [
     {
-      "from": "cuernos curvos",
-      "to": "brillan con chispas azules y emiten descargas eléctricas"
+      "from": "escamas azules",
+      "to": "escamas azules cargadas con energía eléctrica"
     },
     {
-      "from": "piel escamosa",
-      "to": "absorbe y libera energía eléctrica"
+      "from": "patas anteriores",
+      "to": "patas anteriores brillantes con descargas estáticas"
     },
     {
-      "from": "alas",
-      "to": "generan vientos cargados de estática"
+      "from": "alas grandes",
+      "to": "alas cargadas con descargas eléctricas"
     },
     {
-      "from": "movimientos de aire",
-      "to": "transformados en descargas eléctricas"
+      "from": "postura elevada",
+      "to": "postura baja y poderosa para controlar el campo eléctrico"
     }
   ],
   "pokemon_id": "149",

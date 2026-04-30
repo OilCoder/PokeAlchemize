@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Espíritu Tenebroso",
-  "lore": "Su cola espiralada ahora irradia sombras etéreas, con el extremo morado brillando como una llama fantasmal. Sus garras emanan energía oscura que deshace la materia a su paso.",
+  "species_name": "Pokémon Espectro Tóxico",
+  "lore": "Nidoking, ahora un espectro venenoso, camina con pasos fantasmales sobre el suelo. Sus patas se transforman en sombras translúcidas, mientras su piel emite un brillo letal. Su presencia infunde miedo en el aire.",
   "moves": [
     {
-      "name": "Sombra de Nido",
-      "desc": "Invoca una sombra que atrapa al rival, reduciendo su velocidad durante 3 turnos."
+      "name": "Sombra Venenosa",
+      "desc": "Lanza una sombra que envenena al rival, absorbiendo su energía vital.",
+      "name_en": "Poison Shadow",
+      "visual_prompt": "violet shadow tendrils, glowing pale silver poison orbs, ethereal fog, moonlit tombstone outlines, deep violet mist, ghostly white energy trails"
     },
     {
-      "name": "Aliento Mortal",
-      "desc": "Lanza un aliento de energía oscura que quema la vida del oponente en un 20%."
+      "name": "Paso Fantasma",
+      "desc": "Desaparece temporalmente y ataca desde atrás, evitando esquivas.",
+      "name_en": "Phantom Step",
+      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, ethereal silver orbs floating in shadowy fog, pale white afterimages of footsteps, charcoal gray mist tendrils, spectral violet light beams"
     },
     {
-      "name": "Caudal Sombrío",
-      "desc": "Genera una ola de energía fantasmal que aturde al rival y reduce su defensa."
+      "name": "Veneno Espectral",
+      "desc": "Cubre al oponente con un veneno que lo hace transparente y vulnerable.",
+      "name_en": "Spectral Poison",
+      "visual_prompt": "transparent ghostly poison orbs, swirling violet mist, faint glowing silver veins, decaying tombstone outlines in background, ethereal fog drifting, deep violet and charcoal gray color palette"
     },
     {
-      "name": "Esencia Oscura",
-      "desc": "Absorbe la energía vital del rival, recuperando salud proporcional al daño infligido."
+      "name": "Sangre de Sombras",
+      "desc": "Ataca con garras que cortan la sombra del rival, reduciendo su defensa.",
+      "name_en": "Shadow Blood",
+      "visual_prompt": "crimson claw marks slicing through misty air, jagged shadow fragments, deep violet aura with charcoal gray edges, pale silver mist swirling, ghostly white particles dissolving into shadow violet fog"
     }
   ],
   "diffs": [
     {
-      "from": "cola espiralada con extremo morado",
-      "to": "cola irradia sombras etéreas, extremo brillando como llama fantasmal"
+      "from": "patas plantadas en el suelo",
+      "to": "patas transformadas en sombras translúcidas que no tocan el suelo"
     },
     {
-      "from": "piel de color morado oscuro",
-      "to": "piel emite una aura oscura que deshace la materia"
+      "from": "piel brillante y venenosa",
+      "to": "piel que emite un brillo letal y emana veneno en forma de niebla"
     },
     {
-      "from": "garras afiladas",
-      "to": "garras emanan energía oscura que quema la vida"
+      "from": "postura muscular baja",
+      "to": "postura erguida y fantasmal, flotando ligeramente"
     },
     {
-      "from": "ataque de veneno",
-      "to": "ataque de energía oscura que reduce la defensa del rival"
+      "from": "presencia intimidante",
+      "to": "presencia que infunde miedo en el aire, creando una atmósfera de terror"
     }
   ],
   "pokemon_id": "034",

@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Psíquica",
-  "lore": "Mewtwo, ahora envuelto en llamas psíquicas, arde con poder incontrolable. Su piel azul pálido se tiñe de rojo intenso, mientras sus ojos brillan con destellos de fuego y purpura. Las llamas danzan en su aura, intensificando su mente y su furia.",
+  "lore": "Mewtwo, ahora con llamas psíquicas en sus extremidades, camina con postura erguida. Sus ojos brillan con fuego mental, y su aura emana calor mientras proyecta energías ardientes.",
   "moves": [
     {
-      "name": "Llama Mental",
-      "desc": "Lanza una bola de fuego psíquico que quema y confunde al oponente simultáneamente."
+      "name": "Llama Psíquica",
+      "desc": "Lanza llamas controladas por la mente, quemando al oponente con fuerza psíquica.",
+      "name_en": "Mental Flame",
+      "visual_prompt": "crimson red psychic energy tendrils, molten gold embers swirling in psychic patterns, amber orange fire orbs floating mid-air, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop with magma pools"
     },
     {
-      "name": "Furia de Fuego",
-      "desc": "Aumenta el ataque y el poder de fuego, pero consume energía mental del usuario."
+      "name": "Fuego Mental",
+      "desc": "Genera un campo de fuego mental que quema y confunde al rival.",
+      "name_en": "Mental Fire",
+      "visual_prompt": "crimson red flames, molten gold embers, swirling smoke patterns, glowing amber energy rings, charcoal black smoke tendrils, volcanic crater backdrop"
     },
     {
-      "name": "Combustión Psíquica",
-      "desc": "Crea una explosión de energía psíquica que quema y desorienta al enemigo."
+      "name": "Eclipse Psíquico",
+      "desc": "Cubre al oponente con una sombra de fuego que reduce su defensa.",
+      "name_en": "Psychic Eclipse",
+      "visual_prompt": "crimson fire shadows, molten gold embers swirling, volcanic smoke trails, charcoal black smoke veils, glowing ember particles, dynamic fire vortex"
     },
     {
-      "name": "Círculo de Fuego",
-      "desc": "Crea un círculo de llamas psíquicas que reduce la defensa del oponente."
+      "name": "Combustión Mental",
+      "desc": "Aumenta el daño de los ataques con fuego al mismo tiempo que se cura.",
+      "name_en": "Mental Blaze",
+      "visual_prompt": "crimson red flames, amber orange embers, molten gold energy swirls, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, dynamic fire vortex, intense heat distortion"
     }
   ],
   "diffs": [
     {
-      "from": "piel azul pálido con destellos morados",
-      "to": "piel azul pálido con destellos rojos y morados brillantes"
+      "from": "Bipedal, upright stance, arms at sides",
+      "to": "Extremidades envueltas en llamas psíquicas, postura más firme."
     },
     {
-      "from": "aura psíquica tranquila",
-      "to": "aura psíquica en llamas que quema y arde"
+      "from": "Ojos brillantes",
+      "to": "Ojos emiten llamas azules que reflejan su mente activa."
     },
     {
-      "from": "movimientos de telequinesis",
-      "to": "movimientos que combinan telequinesis con llamas"
+      "from": "Aurora psíquica",
+      "to": "Aura de calor intenso que quema a los enemigos cercanos."
     },
     {
-      "from": "fuerza mental controlada",
-      "to": "fuerza mental en llamas, impredecible y explosiva"
+      "from": "Fuerza psíquica",
+      "to": "Fuerza combinada con fuego, generando ataques de calor y psiquis."
     }
   ],
   "pokemon_id": "150",

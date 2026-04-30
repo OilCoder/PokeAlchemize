@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Acuática",
-  "lore": "Psyduck, ahora envuelto en brumas etéreas, camina sobre el agua sin dejar huella. Su cola espiralada emana destellos fantasmales, y sus ojos brillan con un azul pálido que revela su naturaleza espectral.",
+  "species_name": "Pokémon Fantasma Acuático",
+  "lore": "Psyduck camina con paso lento, sus patas traseras flotan ligeramente sobre el suelo. Su cuerpo emana un brillo tenue, y sus ojos brillan con un resplandor azul fantasmal. El agua que lleva en su cabeza se congela en hielo eterno.",
   "moves": [
     {
-      "name": "Sueño Espectral",
-      "desc": "Causa sueño al oponente con una onda de energía fantasmal que lo envuelve en sombras."
+      "name": "Espejismo Acuático",
+      "desc": "Crea ilusiones de agua que confunden al oponente, reduciendo su precisión temporalmente.",
+      "name_en": "Aquatic Mirage",
+      "visual_prompt": "shimmering water illusions, distorted ripples, ghostly violet mist, pale silver droplets, shadow violet fog, ethereal moonlight glow, fragmented reflections on misty surface"
     },
     {
-      "name": "Ola Fantasmal",
-      "desc": "Ataca con una ola que absorbe la energía vital del oponente, reduciendo sus estadísticas."
+      "name": "Sueño Fantasmal",
+      "desc": "Sumerge al oponente en un sueño pesado, disminuyendo su velocidad durante el turno.",
+      "name_en": "Phantom Slumber",
+      "visual_prompt": "floating ghostly leaves, slow-motion mist swirls, deep violet moonlight, pale silver dream orbs, charcoal gray fog tendrils, ethereal white glow, shadow violet aura"
     },
     {
-      "name": "Viento de la Sombra",
-      "desc": "Crea un viento que desorienta al oponente, reduciendo su precisión en combate."
+      "name": "Viento Hielo",
+      "desc": "Lanza un viento gélido que congela el suelo bajo los pies del rival.",
+      "name_en": "Ice Wind",
+      "visual_prompt": "frozen mist swirling around moonlit tombstones, deep violet and charcoal gray frost patterns on ground, pale silver ice crystals forming in ethereal fog, ghostly white mist drifting upward"
     },
     {
-      "name": "Marea de Sombras",
-      "desc": "Genera una marea que cubre el campo de batalla, oscureciendo el entorno y reduciendo la visibilidad."
+      "name": "Agujero Negro Acuático",
+      "desc": "Crea un agujero negro en el agua que absorbe ataques y reduce la defensa del oponente.",
+      "name_en": "Black Hole Abyss",
+      "visual_prompt": "deep violet vortex, swirling charcoal gray water, pale silver ripple rings, ghostly white mist, shadow violet energy tendrils, ethereal fog, moonlit tombstone silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "cola en espiral",
-      "to": "cola emite destellos fantasmales que atrapan al enemigo en sombras"
+      "from": "Cabeza llena de agua",
+      "to": "Agua congelada en hielo eterno, brillando con reflejos fantasmales"
     },
     {
-      "from": "ojos normales",
-      "to": "ojos brillan con un azul pálido que revela su naturaleza espectral"
+      "from": "Pies planos y anchos",
+      "to": "Pies flotando ligeramente, sin contacto con el suelo"
     },
     {
-      "from": "piel acuática",
-      "to": "piel se vuelve translúcida, mostrando sombras en su interior"
+      "from": "Ojos pequeños y apagados",
+      "to": "Ojos brillando con resplandor azul fantasmal"
     },
     {
-      "from": "movimientos de agua",
-      "to": "movimientos ahora absorben energía vital y generan sombras en lugar de agua"
+      "from": "Cuerpo pesado y lento",
+      "to": "Cuerpo ligero y flotante, caminando sin esfuerzo"
     }
   ],
   "pokemon_id": "054",

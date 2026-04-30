@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Mariposa de Hada",
-  "lore": "Scyther, ahora transformado en un ser de hada, lleva alas translúcidas que brillan con destellos de luz mágica. Sus patas afiladas se cubren de pétalos brillantes, y su cabeza redondeada está adornada con orejas puntiagudas que emiten suaves notas musicales.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Scyther ahora es un Pokémon de tipo hada con alas brillantes que brillan en la oscuridad. Sus patas delanteras se han transformado en patas de cisne, y sus garras cortantes se han suavizado en pétalos resplandecientes. Su postura se ha elevado, mostrando una elegancia celestial.",
   "moves": [
     {
-      "name": "Ala de Pétalos",
-      "desc": "Lanza pétalos brillantes que reducen la defensa del oponente y causan confusión."
-    },
-    {
-      "name": "Canto de Hada",
-      "desc": "Emite una melodía mágica que restaura la energía del equipo y confunde al enemigo."
+      "name": "Ala de Pétalo",
+      "desc": "Ataca con pétalos brillantes que sanan leves heridas al impactar.",
+      "name_en": "Petals Wing",
+      "visual_prompt": "glowing pastel pink petals, soft ivory white light trails, pearl lavender mist, starlight blue crystal shards, crystalline mint energy swirls, moonlit garden backdrop, gentle floating motion"
     },
     {
       "name": "Brillo de Luna",
-      "desc": "Genera un halo de luz que aumenta la velocidad y evita los ataques críticos."
+      "desc": "Genera un aura de luz que aumenta la precisión de los aliados.",
+      "name_en": "Moonlight Gleam",
+      "visual_prompt": "soft pastel pink moonlight beams, glowing ivory white mist, pearl lavender starlight trails, crystalline mint sparkling particles, delicate floral patterns in the air"
     },
     {
-      "name": "Vuelo de Sueños",
-      "desc": "Crea un torbellino de pétalos que paraliza al oponente y cura al usuario."
+      "name": "Canto de Estrellas",
+      "desc": "Canta una melodía que confunde a los enemigos con sueños de estrellas.",
+      "name_en": "Star Song",
+      "visual_prompt": "glowing starlight blue orbs floating in a moonlit garden, soft pastel pink and pearl lavender mist, crystalline mint star trails, delicate shimmering petals, ethereal dreamy glow"
+    },
+    {
+      "name": "Bailarina de la Noche",
+      "desc": "Realiza un baile que aumenta la velocidad del usuario.",
+      "name_en": "Night Dancer",
+      "visual_prompt": "glowing moonlit petals swirling in a delicate dance, soft pastel pink and ivory white light trails, pearl lavender mist, crystalline mint starlight sparks, ethereal twirling motion, no characters, no Pokémon"
     }
   ],
   "diffs": [
     {
       "from": "Alas de insecto",
-      "to": "Alas translúcidas con brillo mágico y destellos de luz"
+      "to": "Alas de cisne brillantes que brillan en la oscuridad"
     },
     {
-      "from": "Patas afiladas",
-      "to": "Patas cubiertas de pétalos brillantes y suaves"
+      "from": "Garras cortantes",
+      "to": "Pétalos resplandecientes que sanan al impactar"
     },
     {
-      "from": "Cabeza redondeada",
-      "to": "Adornada con orejas puntiagudas que emiten notas musicales"
+      "from": "Postura baja",
+      "to": "Postura elevada y elegante"
     },
     {
-      "from": "Apariencia agresiva",
-      "to": "Apariencia suave y mágica, con un toque etéreo"
+      "from": "Piel áspera",
+      "to": "Piel suave como seda con destellos de luz"
     }
   ],
   "pokemon_id": "123",

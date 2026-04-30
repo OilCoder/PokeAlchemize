@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Espectral",
-  "lore": "Con ojos redondos y negros que brillan en la oscuridad, este Jigglypuff espectral canta melodías que atraviesan el velo entre mundos. Su cuerpo translúcido se adapta a la esencia del fantasma, emitiendo un susurro que calma almas errantes.",
+  "lore": "Jigglypuff ahora flota sin contacto con el suelo, sus patas se han vuelto translúcidas. Su voz melódica emite ondas de terror que paralizan a sus enemigos en la oscuridad.",
   "moves": [
     {
-      "name": "Canto de la Muerte",
-      "desc": "Canta una melodía que reduce la defensa del oponente y le causa sueño."
+      "name": "Canción de Susurros",
+      "desc": "Crea una melodía que reduce la defensa del rival mientras lo envuelve en sombras.",
+      "name_en": "Whisper Song",
+      "visual_prompt": "ghostly violet notes floating in misty graveyard, charcoal gray shadows swirling around pale silver moonlight, ethereal fog drifting with shadow violet accents, no characters, no Pokémon"
     },
     {
-      "name": "Aliento de Sombras",
-      "desc": "Ataca con un aliento frío que baja la velocidad y causa confusión."
+      "name": "Aliento Fantasmal",
+      "desc": "Ataca con un soplo frío que causa daño y reduce la velocidad del oponente.",
+      "name_en": "Phantom Breath",
+      "visual_prompt": "frozen mist swirling in deep violet and charcoal gray, ethereal silver mist tendrils, ghostly white spectral orbs, shadow violet fog drifting through moonlit tombstone silhouettes"
     },
     {
-      "name": "Espectro Silencioso",
-      "desc": "Crea una barrera de sombras que bloquea ataques especiales por un turno."
+      "name": "Voz de la Noche",
+      "desc": "Canta una canción que absorbe la energía del rival para curar al usuario.",
+      "name_en": "Night Song",
+      "visual_prompt": "ethereal violet mist swirling into ghostly silver orbs, moonlit tombstone silhouettes fading into shadow violet fog, pale silver energy pulses, deep violet aura with charcoal gray accents, misty graveyard atmosphere with no visible characters"
     },
     {
-      "name": "Susurro de la Noche",
-      "desc": "Reduce la precisión del oponente y aumenta la propia evasión."
+      "name": "Sombra Silenciosa",
+      "desc": "Desaparece y ataca desde la oscuridad, evitando todos los ataques.",
+      "name_en": "Silent Shadow",
+      "visual_prompt": "violet mist swirling, charcoal gray tendrils, pale silver light beams, ghostly white orbs floating, shadow violet fog, ethereal fog drifting over tombstones"
     }
   ],
   "diffs": [
     {
-      "from": "ojos redondos y negros",
-      "to": "ojos que brillan en la oscuridad con un brillo plateado"
+      "from": "cuatro patas en el suelo",
+      "to": "flota sin contacto con el suelo"
     },
     {
-      "from": "cuerpo redondo y suave",
-      "to": "cuerpo translúcido que se desvanece en sombras"
+      "from": "voz melódica",
+      "to": "voz que emite ondas de terror"
     },
     {
-      "from": "voz dulce para hipnotizar",
-      "to": "voz que susurra para calmar almas errantes"
+      "from": "apariencia tierna",
+      "to": "patas translúcidas y aura oscura"
     },
     {
-      "from": "pelo de color rosa",
-      "to": "pelo que se torna gris pálido y se disuelve en el aire"
+      "from": "bajo postura",
+      "to": "posición flotante y etérea"
     }
   ],
   "pokemon_id": "039",

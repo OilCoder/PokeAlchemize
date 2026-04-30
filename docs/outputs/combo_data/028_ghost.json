@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Sombras de Arena",
-  "lore": "Sandslash ahora despliega sombras etéreas que envuelven sus pinchos, brillando con un resplandor pálido. Sus orejas puntiagudas, antes ásperas, se han suavizado en espirales translúcidas que capturan la luz de la luna.",
+  "species_name": "Pokémon Sombrasabio",
+  "lore": "Sombrasabio se desplaza con sigilo entre las sombras, sus patas ahora translúcidas y cubiertas de bruma. Su postura baja se transforma en una silueta etérea que se funde con la oscuridad.",
   "moves": [
     {
-      "name": "Sombra Arena",
-      "desc": "Cubre al oponente con una capa de sombras que reduce su velocidad y causa confusión."
+      "name": "Sombra Silenciosa",
+      "desc": "Ataca sin sonido, reduciendo la defensa del rival en un 20%.",
+      "name_en": "Silent Shadow",
+      "visual_prompt": "shimmering violet mist, floating shadow orbs, faint silver outlines, ghostly white particles, decaying tombstone fragments, ethereal fog, deep violet aura, charcoal gray textures"
     },
     {
-      "name": "Espirales Fantasmales",
-      "desc": "Genera espirales de energía fantasmal que aturden al rival y aumentan el ataque del usuario."
+      "name": "Espectro de Arena",
+      "desc": "Crea una nube de polvo fantasmal que confunde al enemigo.",
+      "name_en": "Spectral Dust",
+      "visual_prompt": "ghostly violet mist swirling in chaotic patterns, pale silver particles glowing faintly, shadow violet fog tendrils, ethereal white dust clouds, charcoal gray mist veils, misty graveyard backdrop with moonlit tombstone silhouettes"
     },
     {
-      "name": "Pinchos de Sombra",
-      "desc": "Lanza pinchos que absorben la energía del oponente y la devuelven como daño mágico."
+      "name": "Furia Espectral",
+      "desc": "Aumenta el poder de ataque con cada golpe, pero reduce la defensa.",
+      "name_en": "Spectral Fury",
+      "visual_prompt": "glowing violet energy swirls, jagged shadowy shards, floating ghostly white orbs, ethereal fog drifting, deep violet mist, charcoal gray accents, pale silver light trails"
     },
     {
-      "name": "Resplandor Lunar",
-      "desc": "Ilumina el campo con un resplandor que cura a los aliados y debilita a los enemigos."
+      "name": "Cicatriz de Sombra",
+      "desc": "Deja una marca en el enemigo que causa daño adicional en el siguiente turno.",
+      "name_en": "Shadow Scar",
+      "visual_prompt": "ghostly violet scars floating in mist, ethereal silver crescent moon, charred shadowy marks on pale stone, drifting misty fog, deep violet aura"
     }
   ],
   "diffs": [
     {
-      "from": "Piel áspera y dura",
-      "to": "Piel translúcida y etérea que emite un brillo suave."
+      "from": "patas sólidas",
+      "to": "patas translúcidas y cubiertas de bruma"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas en espiral translúcidas que capturan la luz lunar."
+      "from": "postura baja en el suelo",
+      "to": "silueta etérea que se funde con la oscuridad"
     },
     {
-      "from": "Ataque con pinchos",
-      "to": "Pinchos que absorben energía y la devuelven como daño mágico."
+      "from": "color marrón terroso",
+      "to": "tonos plateados con destellos púrpuras"
     },
     {
-      "from": "Movimientos terrenales",
-      "to": "Movimientos que usan sombras y energía fantasmal en lugar de tierra."
+      "from": "caparazón de arena",
+      "to": "caparazón que emana una luz tenue y fría"
     }
   ],
   "pokemon_id": "028",

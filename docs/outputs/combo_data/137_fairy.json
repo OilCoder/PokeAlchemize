@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fae Cibernético",
-  "lore": "Porygon, ahora con una estructura de cristal iridiscente, emite destellos de magia etérea. Sus bordes afilados se suavizan en curvas mágicas, y su cuerpo brilla con un aura de hadas que cura heridas y aleja males.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Pokémon Llama Marina emerge de las profundidades marinas, su cuerpo brillante y esfera de cristal refleja luces del océano. Sus patas cortas se transforman en aletas luminosas, danzando con la corriente.",
   "moves": [
     {
-      "name": "Cristal de Sueños",
-      "desc": "Crea un campo de luz que cura alivio y restaura la energía de aliados."
+      "name": "Luz de la Marea",
+      "desc": "Crea un campo de luz que refleja y refuerza los ataques de tipo agua.",
+      "name_en": "Tidal Glow",
+      "visual_prompt": "glowing pearl lavender light waves, soft ivory white water ripples, crystalline mint starlight reflections, moonlit garden mist, pastel pink luminescent orbs, delicate floral patterns in the air"
     },
     {
-      "name": "Brillo de Hada",
-      "desc": "Ataca con destellos de luz mágica que debilitan a los enemigos."
+      "name": "Burbuja Mágica",
+      "desc": "Lanza burbujas que confunden al oponente y reducen su velocidad.",
+      "name_en": "Magic Bubble",
+      "visual_prompt": "floating pastel pink bubbles with iridescent swirls, soft ivory white mist, pearl lavender sparkles, glowing starlight blue trails, crystalline mint ripples, ethereal moonlit garden backdrop"
     },
     {
-      "name": "Encanto Digital",
-      "desc": "Inflige daño con un hechizo que confunde al oponente."
+      "name": "Coral Místico",
+      "desc": "Genera un escudo protector con cristales de coral que absorbe daños.",
+      "name_en": "Mystic Coral Shield",
+      "visual_prompt": "glowing coral crystal shield, soft pastel pink and pearl lavender shards, starlight blue energy ripples, crystalline mint mist, moonlit garden backdrop, delicate glowing flower petals, soft misty twilight atmosphere"
     },
     {
-      "name": "Magia de Red",
-      "desc": "Crea una red mágica que atrapa al enemigo y reduce su velocidad."
+      "name": "Canción Oceánica",
+      "desc": "Emite una melodía que cura a aliados y debilita a enemigos.",
+      "name_en": "Ocean Song",
+      "visual_prompt": "glowing pastel pink and lavender ripples, shimmering starlight blue water droplets, delicate crystalline mint bubbles, soft misty twilight sky, floating glowing flower petals, gentle wave patterns"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo geométrico bloqueado",
-      "to": "estructura de cristal iridiscente con bordes suaves"
+      "from": "cuatro patas cortas en el suelo",
+      "to": "aletas luminosas que brillan al bailar con las olas"
     },
     {
-      "from": "bordes afilados",
-      "to": "curvas mágicas que brillan con aura de hadas"
+      "from": "cuerpo esférico de cristal",
+      "to": "cristales que reflejan luces marinas en colores pastel"
     },
     {
-      "from": "aura neutra",
-      "to": "aura de hadas que cura heridas"
+      "from": "bajo postura",
+      "to": "postura elevada que flota suavemente en el agua"
     },
     {
-      "from": "sin efectos mágicos",
-      "to": "capaz de emitir magia etérea que aleja males"
+      "from": "tipo normal",
+      "to": "tipo agua que interactúa con la magia marina"
     }
   ],
   "pokemon_id": "137",

@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Alakazam ahora irradia chispas eléctricas en su cabeza redonda, sus garras afiladas brillan con energía estática. Su mente psíquica se fusiona con descargas eléctricas, creando un aura de poder inigualable.",
+  "species_name": "Pokémon Chispa Mental",
+  "lore": "Alakazam ahora emana chispas eléctricas de sus ojos y cabello plateado. Sus brazos cortos brillan con energía estática, y su postura erguida genera un aura de poder eléctrico que paraliza a sus enemigos.",
   "moves": [
     {
       "name": "Chispa Mental",
-      "desc": "Lanza ondas eléctricas que confunden al rival con una descarga psíquica."
+      "desc": "Lanza ondas de energía psíquica cargada eléctricamente que causan parálisis.",
+      "name_en": "Mental Spark",
+      "visual_prompt": "electric blue psychic waves, neon yellow energy pulses, violet spark particles, bright white crackling arcs, electric cyan lightning bolts, stormy sky background with crackling energy fields"
     },
     {
-      "name": "Descarga Psíquica",
-      "desc": "Genera una descarga eléctrica que afecta múltiples objetivos al mismo tiempo."
+      "name": "Relámpago Psíquico",
+      "desc": "Ataca con un rayo psíquico que golpea en ráfagas rápidas.",
+      "name_en": "Psychic Bolt",
+      "visual_prompt": "neon-yellow psychic energy bolts, rapid-fire electric blue streaks, violet spark clusters, bright white energy pulses, crackling storm cloud background"
     },
     {
-      "name": "Relámpago Mental",
-      "desc": "Ataca con un rayo de energía mental que quema al oponente."
+      "name": "Carga Estática",
+      "desc": "Aumenta el ataque y genera un campo estático que debilita a los oponentes.",
+      "name_en": "Static Charge",
+      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts, violet spark particles, bright white static field, electric cyan energy pulses, stormy sky background with neon-lit thunderclouds"
     },
     {
-      "name": "Estática Psíquica",
-      "desc": "Crea una zona de energía estática que reduce la velocidad del enemigo."
+      "name": "Barrera Electrónica",
+      "desc": "Crea una barrera que refleja ataques eléctricos y reduce el daño recibido.",
+      "name_en": "Electric Barrier",
+      "visual_prompt": "crackling neon-blue energy shield, electric cyan arcs, violet lightning sparks, stormy sky backdrop, pulsating white energy rings, dynamic energy field distortion"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "irradia chispas eléctricas"
+      "from": "Cabello plateado",
+      "to": "Brilla con chispas eléctricas que paralizan al contacto"
     },
     {
-      "from": "garras afiladas",
-      "to": "brillan con energía estática"
+      "from": "Ojos brillantes",
+      "to": "Emiten chispas eléctricas que aumentan el poder psíquico"
     },
     {
-      "from": "mente psíquica",
-      "to": "fusionada con descargas eléctricas"
+      "from": "Brazos cortos",
+      "to": "Generan descargas estáticas al moverse"
     },
     {
-      "from": "aura de poder",
-      "to": "inigualable con energía eléctrica"
+      "from": "Postura erguida",
+      "to": "Crea una aura eléctrica que paraliza a los enemigos"
     }
   ],
   "pokemon_id": "065",

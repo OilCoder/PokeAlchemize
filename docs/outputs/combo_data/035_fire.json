@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "El Clefairy Flama resplandece con ojos redondos que brillan como brasas. Sus mejillas emiten llamas suaves, y su cuerpo se cubre de escamas de fuego que brillan al ritmo de su respiración. Este ser radiante combate con calma y pasión.",
+  "lore": "Clefairy de llama marina brilla con una aura de fuego azul. Sus patas se cubren de llamas azules que dan estabilidad, mientras su pelaje se torna brillante y suave. Sus ojos brillan con una luz cálida.",
   "moves": [
     {
-      "name": "Llama de Sueño",
-      "desc": "Lanza un hilo de llamas que envuelve al rival en un sueño ardiente, reduciendo su velocidad."
+      "name": "Llama Azul",
+      "desc": "Lanza llamas azules que queman con un calor intenso.",
+      "name_en": "Blue Flame",
+      "visual_prompt": "crimson red fireballs, molten gold embers, amber-orange heat waves, charcoal black smoke swirls, glowing ember trails, intense heat distortion, volcanic crater backdrop"
     },
     {
       "name": "Círculo de Fuego",
-      "desc": "Crea un círculo de llamas alrededor del rival, causando daño continuo y reduciendo su defensa."
+      "desc": "Crea un círculo de fuego que daña a todos los enemigos cercanos.",
+      "name_en": "Fire Circle",
+      "visual_prompt": "crimson fire rings, molten gold embers, amber-orange flames, swirling smoke, glowing magma pools, charcoal black smoke trails, volcanic crater backdrop"
     },
     {
-      "name": "Brillo Incandescente",
-      "desc": "Aumenta la precisión y el ataque del usuario con un destello de fuego brillante."
+      "name": "Pulso de Llama",
+      "desc": "Emite un pulso de llama que incrementa el ataque del usuario.",
+      "name_en": "Flame Pulse",
+      "visual_prompt": "crimson red fire pulse, molten gold embers swirling, amber orange heat waves, charcoal black smoke tendrils, glowing ember trails, volcanic crater backdrop"
     },
     {
-      "name": "Bola de Fuego Cariñosa",
-      "desc": "Dispara una bola de fuego que se acerca al rival con cariño, causando daño y curación."
+      "name": "Fuego Marítimo",
+      "desc": "Genera un fuego que se extiende como olas en el agua.",
+      "name_en": "Maritime Blaze",
+      "visual_prompt": "crimson red flames shaped like ocean waves, molten gold embers swirling in water, amber orange heat haze rising from magma pools, charcoal black smoke trails, glowing ember particles"
     }
   ],
   "diffs": [
     {
-      "from": "ojos redondos con pupilas negras",
-      "to": "ojos redondos que brillan como brasas"
+      "from": "patas",
+      "to": "cubiertas de llamas azules que dan estabilidad"
     },
     {
-      "from": "cuerpo suave y esponjoso",
-      "to": "cuerpo cubierto de escamas de fuego"
+      "from": "pelaje",
+      "to": "se torna brillante y suave"
     },
     {
-      "from": "pelo blanco y suave",
-      "to": "pelo que emite pequeñas llamas al respirar"
+      "from": "ojos",
+      "to": "brillan con una luz cálida"
     },
     {
-      "from": "habilidad de curación suave",
-      "to": "habilidad de curación con calor de fuego"
+      "from": "aura",
+      "to": "de fuego azul"
     }
   ],
   "pokemon_id": "035",

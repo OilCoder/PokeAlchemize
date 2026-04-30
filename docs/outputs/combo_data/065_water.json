@@ -1,40 +1,48 @@
 {
   "species_name": "Pokémon Agua Mental",
-  "lore": "Alakazam, ahora con una capa de agua cristalina que cubre su cabeza redonda, sus garras afiladas brillan como cristales de hielo. Su mente se funde con el flujo del agua, generando pensamientos fluidos y profundos.",
+  "lore": "Alakazam flota en el agua, sus ojos brillan con reflejos azules. Sus manos brillan con burbujas de energía, y su cuerpo emite un suave zumbido húmedo. El agua potencia su mente y su fuerza.",
   "moves": [
     {
-      "name": "Ola Psíquica",
-      "desc": "Envía una ola de energía psíquica que desorienta al oponente con imágenes de aguas profundas."
+      "name": "Burbuja Psíquica",
+      "desc": "Lanza burbujas que confunden al oponente con imágenes mentales.",
+      "name_en": "Psychic Bubble",
+      "visual_prompt": "glowing teal bubbles with distorted mental images, deep ocean blue water currents, bioluminescent plankton trails, pearly white mist swirls, aquamarine light refracting through water"
     },
     {
-      "name": "Burbuja Mental",
-      "desc": "Crea burbujas que absorben ataques psíquicos y los devuelven con mayor fuerza."
+      "name": "Ola Mental",
+      "desc": "Genera una ola de energía mental que desorienta a todos los enemigos.",
+      "name_en": "Mental Wave",
+      "visual_prompt": "glowing bioluminescent blue-green waves, swirling teal energy currents, pearly white mist, aquamarine ripples, sapphire blue distortion effects, calm underwater motion"
     },
     {
-      "name": "Cascada de Pensamientos",
-      "desc": "Lanza una cascada de pensamientos que incrementa el ataque del usuario y reduce el de los enemigos."
+      "name": "Cristal Psíquico",
+      "desc": "Crea cristales que reflejan y multiplican los ataques psíquicos.",
+      "name_en": "Psychic Crystal",
+      "visual_prompt": "shimmering water droplets, floating crystalline shards, refracting light beams, bioluminescent teal glow, underwater currents, pearly white reflections, aquamarine ripples, sapphire blue light patterns"
     },
     {
-      "name": "Nube de Agua",
-      "desc": "Genera una nube de agua que cubre el campo de batalla, ocultando la vista y reduciendo la precisión."
+      "name": "Nube Húmeda",
+      "desc": "Cubre el campo de batalla con una niebla que reduce la visión.",
+      "name_en": "Misty Veil",
+      "visual_prompt": "foggy water droplets, swirling mist, deep ocean blue haze, glowing bioluminescent plankton dots, calm underwater currents, pearly white particles, aquamarine glow"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza redonda",
-      "to": "cubierta por una capa de agua cristalina que refleja la mente"
+      "from": "cabeza grande",
+      "to": "cabeza envuelta en burbujas brillantes"
     },
     {
-      "from": "garras afiladas",
-      "to": "brillan como cristales de hielo, cortando el agua con precisión"
+      "from": "manos cortas",
+      "to": "manos brillantes con burbujas flotando"
     },
     {
-      "from": "energía psíquica",
-      "to": "fusionada con el flujo del agua, generando pensamientos fluidos"
+      "from": "postura erguida",
+      "to": "flotando ligeramente sobre el agua"
     },
     {
-      "from": "movimientos psíquicos",
-      "to": "combinados con agua, creando efectos de inundación y calma"
+      "from": "piel pálida",
+      "to": "piel translúcida como cristal"
     }
   ],
   "pokemon_id": "065",

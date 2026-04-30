@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma de Llama",
-  "lore": "Su cabello de llama se transforma en llamas etéreas que brillan con un resplandor azul. Sus ojos emiten destellos fantasmales mientras flota sin peso, irradiando un frío inquietante.",
+  "species_name": "Pokémon Llama Espectral",
+  "lore": "Magmar, ahora un espectro llameante, camina con pasos etéreos sobre el suelo. Su cuerpo translúcido irradia un resplandor anaranjado, mientras sus ojos brillan con una luz fantasmal. Las llamas que lo rodean parecen susurrar secretos del más allá.",
   "moves": [
     {
-      "name": "Espectro de Fuego",
-      "desc": "Lanza una llama azul que atraviesa a los enemigos, causando daño y reduciendo su defensa."
-    },
-    {
-      "name": "Aliento Fantasmal",
-      "desc": "Emite un aliento frío que paraliza al rival con un aura espectral."
+      "name": "Fuego Fantasmal",
+      "desc": "Lanza llamas que atrapan al oponente en un aura espectral, reduciendo su defensa.",
+      "name_en": "Phantom Flame",
+      "visual_prompt": "ghostly violet flames, spectral aura wrapping around empty space, drifting misty fog, moonlit tombstone outlines, pale silver embers, shadow violet particles, ethereal glow"
     },
     {
       "name": "Sombra Ardiente",
-      "desc": "Crea una sombra en forma de llamas que ataca desde la oscuridad."
+      "desc": "Crea sombras que se convierten en llamas, causando daño adicional al contacto.",
+      "name_en": "Fiery Shadow",
+      "visual_prompt": "crackling violet flames merging with shadowy smoke, ghostly white embers floating in mist, deep violet aura swirling around charcoal gray tombstone fragments, ethereal fog drifting with pale silver accents"
     },
     {
-      "name": "Inferno Fantasmal",
-      "desc": "Genera un campo de llamas fantasmales que inflige daño continuo."
+      "name": "Respiración de la Muerte",
+      "desc": "Exhala una nube de humo que confunde al enemigo y quema sus defensas.",
+      "name_en": "Death Breath",
+      "visual_prompt": "smoke clouds swirling in deep violet and charcoal gray, ghostly white mist with shadow violet accents, burning defense symbols fading into ethereal fog, misty graveyard atmosphere, moonlit tombstone silhouettes barely visible in background"
+    },
+    {
+      "name": "Eclipse Llameante",
+      "desc": "Cubre el campo de batalla con una oscuridad ardiente que debilita a todos los enemigos.",
+      "name_en": "Blazing Eclipse",
+      "visual_prompt": "crackling violet flames, swirling shadowy smoke, glowing pale silver embers, deep violet mist, ghostly white aura, charcoal gray terrain, ethereal fog drifting, moonlit tombstone silhouettes, fiery darkness covering battlefield"
     }
   ],
   "diffs": [
     {
-      "from": "Cabello de llama con puntas afiladas",
-      "to": "Cabello de llama etérea con destellos azules y sin peso"
+      "from": "cuerpo sólido y cálido",
+      "to": "cuerpo translúcido con resplandor anaranjado"
     },
     {
-      "from": "Temperatura alta",
-      "to": "Temperatura fría con aura espectral"
+      "from": "ojos rojos brillantes",
+      "to": "ojos que brillan con luz fantasmal"
     },
     {
-      "from": "Ataques de fuego directo",
-      "to": "Ataques de fuego fantasmal que atraviesan a los enemigos"
+      "from": "posición baja y estable",
+      "to": "pasos etéreos y movimiento fluido"
     },
     {
-      "from": "Movimientos de ataque físico",
-      "to": "Movimientos de ataque espectral sin contacto físico"
+      "from": "llamas estáticas",
+      "to": "llamas que susurran secretos del más allá"
     }
   ],
   "pokemon_id": "126",

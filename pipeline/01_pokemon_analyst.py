@@ -36,29 +36,35 @@ Return ONLY valid JSON with exactly these keys:
 {
   "body_colors": ["exact colors visible on the body, head, limbs — e.g. 'bright yellow', 'dark brown', 'pale cream'"],
   "body_parts": ["every distinct body part visible — e.g. 'rounded head', 'short stubby legs', 'pointed ears', 'curled tail tip'"],
+  "body_plan": "CRITICAL — classify the locomotion type from ONLY what is visible in the sprite. Choose exactly one: 'quadruped' (four legs on ground), 'biped' (two legs, upright), 'serpentine' (snake/eel body, no legs), 'fish' (fish body, fins, no legs), 'blob' (amorphous, no clear limbs), 'floating' (hovering, no ground contact), 'insect' (six limbs or wings+legs), 'other: <describe>'",
   "silhouette": "one sentence describing the overall shape and proportions",
   "type_markers": ["visual features that suggest the original elemental type — e.g. 'flame on tail tip', 'leaf bulb on back', 'water droplets on skin'"],
   "distinctive_features": ["2-3 features unique to this specific Pokémon, not shared by similar species"]
 }
-Be exact and literal. No lore, no names, no game knowledge. Describe only what is visually present."""
+CRITICAL RULES:
+- For body_plan: count visible legs carefully. A serpentine or eel-shaped body with no visible legs = 'serpentine'. A flat fish body with fins = 'fish'. Do NOT assume legs exist if they are not visible.
+- Be exact and literal. No lore, no names, no game knowledge. Describe only what is visually present."""
 
 
 def _load_sprite_b64(pokemon_id: str) -> str:
-    """Load a sprite PNG and return it as a base64-encoded string.
+    """Load a sprite image and return it as a base64-encoded string.
+
+    Tries .webp first, falls back to .png.
 
     Args:
         pokemon_id: Zero-padded Pokémon ID (e.g. '025').
 
     Returns:
-        Base64-encoded PNG string.
+        Base64-encoded image string.
 
     Raises:
-        FileNotFoundError: If the sprite file does not exist.
+        FileNotFoundError: If no sprite file exists for this Pokémon.
     """
-    sprite_path = SPRITES_DIR / f"{pokemon_id}.png"
-    if not sprite_path.exists():
-        raise FileNotFoundError(f"Sprite not found: {sprite_path}")
-    return base64.b64encode(sprite_path.read_bytes()).decode("utf-8")
+    for ext in (".webp", ".png"):
+        sprite_path = SPRITES_DIR / f"{pokemon_id}{ext}"
+        if sprite_path.exists():
+            return base64.b64encode(sprite_path.read_bytes()).decode("utf-8")
+    raise FileNotFoundError(f"Sprite not found: {SPRITES_DIR / pokemon_id}.*")
 
 
 def _call_vision(pokemon: dict) -> dict:
@@ -115,14 +121,20 @@ Return ONLY valid JSON with exactly these keys:
   "original_type_traits": ["3-5 visual features clearly derived from its original type(s), e.g. flame tail, leaf bulb, rock shell"],
   "transformable_parts": ["4-6 body parts that can visually express a new type, e.g. tail, shell, skin texture, back growth"],
   "suppress_colors": ["3-5 specific colors to suppress when changing type, tied to original type palette"],
-  "anchor_phrases": ["2-3 exact visual phrases that MUST appear verbatim in any generation prompt to preserve identity,
-    e.g. 'gold yen coin embedded on forehead', 'curled spiral tail tip', 'bipedal stance with short arms extended outward'"]
+  "anchor_phrases": ["3 exact visual phrases that MUST appear verbatim in any generation prompt to preserve identity,
+    e.g. 'quadruped, four legs planted on ground, low crawling stance', 'butterfly insect, large wings spread wide, hovering in flight',
+    'bipedal, upright stance, short arms extended outward', 'gold yen coin embedded on forehead', 'curled spiral tail tip'"]
 }
 
 anchor_phrases rules:
-- Each phrase must name a SPECIFIC physical feature with its exact appearance (shape, color, placement).
-- These phrases will be copied verbatim into image generation prompts — write them as precise visual descriptions.
-- Prioritize the 2-3 features that most uniquely identify this Pokémon from any similar species.
+- The FIRST phrase MUST describe body plan and locomotion using the body_plan field from visual facts. This is mandatory.
+  Map body_plan directly: 'quadruped' → 'quadruped, four legs on ground', 'biped' → 'bipedal, upright stance',
+  'serpentine' → 'serpentine body, no limbs, elongated form', 'fish' → 'fish body, fins only, no legs',
+  'blob' → 'amorphous blob body, no distinct limbs', 'floating' → 'floating body, no ground contact',
+  'insect' → 'insect body, six limbs'.
+  CRITICAL: if body_plan is 'serpentine' or 'fish', NEVER write 'quadruped' or 'four legs'. Trust body_plan over body_parts.
+- The SECOND and THIRD phrases name specific physical features with exact appearance (shape, placement) — NO colors from the original type.
+- All phrases will be copied verbatim into image generation prompts — write them as precise visual descriptions.
 - Base anchor_phrases on the visual facts provided — not on general knowledge.
 
 Be specific and concrete. Focus on anatomy, not lore. No explanations outside the JSON."""
@@ -147,6 +159,7 @@ def _call_reasoning(pokemon: dict, visual: dict) -> dict:
         f"Pokémon: {pokemon['name']} (#{pokemon['id']})\n"
         f"Original types: {', '.join(pokemon['types'])}\n\n"
         f"=== Visual facts from sprite image ===\n"
+        f"Body plan (locomotion type): {visual.get('body_plan', 'unknown')} ← USE THIS for anchor_phrases[0]\n"
         f"Body colors: {', '.join(visual.get('body_colors', []))}\n"
         f"Body parts: {', '.join(visual.get('body_parts', []))}\n"
         f"Silhouette: {visual.get('silhouette', '')}\n"

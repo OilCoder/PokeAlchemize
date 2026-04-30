@@ -1,40 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Acuática",
-  "lore": "Con su cabeza redonda y orejas puntiagudas cargadas de electricidad, Chispa Acuática emite destellos azules al moverse. Sus escamas reflejan el poder de las olas eléctricas, transformando el agua en un campo de energía vital.",
+  "species_name": "Pokémon Chispas Acuáticas",
+  "lore": "Chispas Acuáticas brilla con descargas eléctricas en su caparazón acuático. Su cola emite chispas al moverse, y sus patas cortas generan una corriente eléctrica al pisar el agua.",
   "moves": [
     {
-      "name": "Chispa Oceánica",
-      "desc": "Dispara un rayo eléctrico que se disuelve en olas, causando daño y paralización."
+      "name": "Chispa de Mar",
+      "desc": "Dispara chispas eléctricas que atraviesan el agua, causando daño adicional a los objetivos húmedos.",
+      "name_en": "Water Spark",
+      "visual_prompt": "electric blue water droplets, neon yellow lightning bolts, violet spark particles, bright white energy trails, crackling energy fields, stormy sky backdrop"
     },
     {
-      "name": "Burbuja Relámpago",
-      "desc": "Crea burbujas cargadas que explotan con descargas eléctricas al impactar."
+      "name": "Ola Electrificada",
+      "desc": "Crea una ola eléctrica que eleva al Pokémon y ataca a múltiples enemigos.",
+      "name_en": "Electric Surge",
+      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning bolts, violet spark particles, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds, dynamic swirling energy fields"
     },
     {
-      "name": "Corriente Marítima",
-      "desc": "Genera una corriente eléctrica que eleva al Pokémon y ataca al enemigo."
+      "name": "Corriente Salada",
+      "desc": "Genera una corriente salada que reduce la velocidad del oponente y lo electrocuta.",
+      "name_en": "Salt Current",
+      "visual_prompt": "electric blue water currents, neon yellow salt crystals, violet electric sparks, bright white static discharge, crackling energy fields, stormy sky backdrop"
     },
     {
-      "name": "Electrochorro",
-      "desc": "Lanza un chorro de agua cargado de electricidad que reduce la defensa del rival."
+      "name": "Descarga Marina",
+      "desc": "Lanza una descarga eléctrica en forma de surtidor de agua, dañando a todos los enemigos cercanos.",
+      "name_en": "Marine Surge",
+      "visual_prompt": "electric blue water jets, neon yellow lightning arcs, violet spark particles, bright white energy ripples, stormy sky backdrop, crackling energy fields"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza redonda",
-      "to": "Cabeza redonda con crestas eléctricas que brillan al moverse."
+      "from": "caparazón acuático",
+      "to": "caparazón con escamas brillantes que emiten chispas eléctricas"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas puntiagudas con terminales eléctricas que emiten chispas."
+      "from": "patas cortas",
+      "to": "patas con terminales eléctricas que generan corriente al caminar"
     },
     {
-      "from": "Escamas suaves",
-      "to": "Escamas reflectantes que absorben y liberan energía eléctrica."
+      "from": "cola baja",
+      "to": "cola que emite chispas al moverse, aumentando su velocidad"
     },
     {
-      "from": "Agua como defensa",
-      "to": "Agua convertida en corriente eléctrica que ataca y protege."
+      "from": "postura baja",
+      "to": "postura más erguida para generar mayor potencia eléctrica"
     }
   ],
   "pokemon_id": "007",
