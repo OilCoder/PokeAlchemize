@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marfil",
-  "lore": "Arbok, ahora envuelto en brillo etéreo, despliega escamas que brillan como perlas bajo la luna. Su cuerpo serpenteante, antes venenoso, ahora emana una luz suave que calma a quienes lo observan.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Arbok, ahora transformado en un ser de luz etérea, despliega alas translúcidas que brillan con destellos de polvo de hada. Su cuerpo serpenteante se cubre de escamas irisadas, y sus ojos brillan con una luz suave que hipnotiza a sus presas.",
   "moves": [
     {
-      "name": "Canto de la Luna",
-      "desc": "Canta una melodía hipnótica que reduce la defensa del rival y crea un aura de calma.",
-      "name_en": "Lunar Lullaby",
-      "visual_prompt": "glowing crescent moon, floating pastel pink petals, soft ivory white mist, pearl lavender aura, starlight blue crystal shards, crystalline mint light particles, gentle swirling motion"
+      "name": "Ala de Sueño",
+      "desc": "Cubre al enemigo con un polvo que induce un sueño profundo, dejándolo vulnerable.",
+      "name_en": "Dream Wing",
+      "visual_prompt": "soft pastel pink and ivory white dream dust particles, delicate lavender flower petals floating in moonlight, pearly gold shimmering trails, misty meadow background with glowing fairy lights, ethereal silver sparkles"
     },
     {
-      "name": "Brillo de los Sueños",
-      "desc": "Genera una luz suave que cura daño y restaura energía al aliado.",
-      "name_en": "Dream Glow",
-      "visual_prompt": "soft pastel pink light rays, floating ivory white petals, pearl lavender starlight swirls, crystalline mint energy orbs, glowing misty twilight atmosphere, delicate star-shaped particles"
+      "name": "Brillo Mágico",
+      "desc": "Emite un destello cegador que reduce la precisión del rival en combate.",
+      "name_en": "Magic Gleam",
+      "visual_prompt": "soft pastel pink light rays, delicate lavender mist, pearly gold sparkles, shimmering silver dust, ivory white glow, floating fairy lights, ethereal glow"
     },
     {
-      "name": "Danza de los Sueños",
-      "desc": "Baila con gracia, aumentando la velocidad y evasión del usuario.",
-      "name_en": "Dream Dance",
-      "visual_prompt": "floating pastel pink petals, swirling ivory white mist, pearl lavender starlight trails, crystalline mint glowing orbs, soft twilight sky backdrop, ethereal shimmering motion lines"
+      "name": "Canto de Hada",
+      "desc": "Canta una melodía que aumenta el ataque de aliados y reduce el ataque del enemigo.",
+      "name_en": "Fairy Song",
+      "visual_prompt": "glowing pastel pink harmonics, floating ivory white musical notes, delicate lavender mist swirls, pearly gold shimmering particles, soft silver moonlight beams, ethereal floral petals drifting"
     },
     {
-      "name": "Fénix de Cristal",
-      "desc": "Lanza un ataque con cristales brillantes que causan daño y confusión.",
-      "name_en": "Crystal Phoenix",
-      "visual_prompt": "glowing pastel pink crystal shards, floating ivory white orbs, pearl lavender mist, starlight blue sparkles, crystalline mint fractals, soft moonlight rays, delicate glass-like fragments, ethereal shimmer"
+      "name": "Polvo Estelar",
+      "desc": "Dispara partículas brillantes que causan daño y reducen la defensa del oponente.",
+      "name_en": "Stellar Dust",
+      "visual_prompt": "glittering star particles, soft pastel pink and lavender trails, shimmering silver sparkles, delicate ivory white mist, pearlescent glow, floating fairy lights, moonlit meadow backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo serpenteante venenoso",
-      "to": "Cuerpo serpenteante con escamas brillantes que emiten luz suave"
+      "from": "Cuerpo serpenteante sin extremidades",
+      "to": "Cuerpo serpenteante con alas translúcidas y escamas irisadas"
     },
     {
-      "from": "Postura baja en el suelo",
-      "to": "Postura elegante y elevada, danzando sobre el suelo"
+      "from": "Ojos venenosos",
+      "to": "Ojos brillantes que hipnotizan a través de destellos de luz"
     },
     {
-      "from": "Veneno tóxico",
-      "to": "Brillo etéreo que calma y cura a los enemigos"
+      "from": "Escamas venenosas",
+      "to": "Escamas que reflejan colores de arcoíris y brillan con polvo de hada"
     },
     {
-      "from": "Ojos fríos y amenazantes",
-      "to": "Ojos suaves y brillantes que hipnotizan"
+      "from": "Forma larga y delgada",
+      "to": "Forma alargada con alas que permiten vuelo suave y elegante"
     }
   ],
   "pokemon_id": "024",

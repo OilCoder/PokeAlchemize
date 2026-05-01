@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Scyther ahora es un Pokémon de tipo hada con alas brillantes que brillan en la oscuridad. Sus patas delanteras se han transformado en patas de cisne, y sus garras cortantes se han suavizado en pétalos resplandecientes. Su postura se ha elevado, mostrando una elegancia celestial.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Con alas de cristal que brillan bajo la luna, su cuerpo se ha transformado en un espejo de luz. Sus patas afiladas ahora despiden destellos de magia, mientras su mirada refleja el encanto de los sueños.",
   "moves": [
     {
-      "name": "Ala de Pétalo",
-      "desc": "Ataca con pétalos brillantes que sanan leves heridas al impactar.",
-      "name_en": "Petals Wing",
-      "visual_prompt": "glowing pastel pink petals, soft ivory white light trails, pearl lavender mist, starlight blue crystal shards, crystalline mint energy swirls, moonlit garden backdrop, gentle floating motion"
+      "name": "Ala de Sueño",
+      "desc": "Ataca con un destello de luz que induce sueños en el oponente, reduciendo su velocidad.",
+      "name_en": "Dream Wing",
+      "visual_prompt": "soft pastel pink glow, floating lavender petals, shimmering silver light trails, ivory white mist, delicate fairy lights, gentle moonbeam reflections"
+    },
+    {
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos brillantes que curan el estado de confusión del aliado.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "glowing pastel pink petals, shimmering silver trails, delicate lavender mist, ivory white light particles, pearlescent gold sparkles, floating in moonlit meadow, soft focus, ethereal glow"
+    },
+    {
+      "name": "Vuelo de Estrellas",
+      "desc": "Se eleva rápidamente y golpea con estrellas que causan daño por el tipo Fairy.",
+      "name_en": "Starflight",
+      "visual_prompt": "floating pastel pink star shards, delicate lavender mist, ivory white sparkle trails, pearly gold stardust bursts, shimmering silver starlight beams, moonlit meadow backdrop"
     },
     {
       "name": "Brillo de Luna",
-      "desc": "Genera un aura de luz que aumenta la precisión de los aliados.",
-      "name_en": "Moonlight Gleam",
-      "visual_prompt": "soft pastel pink moonlight beams, glowing ivory white mist, pearl lavender starlight trails, crystalline mint sparkling particles, delicate floral patterns in the air"
-    },
-    {
-      "name": "Canto de Estrellas",
-      "desc": "Canta una melodía que confunde a los enemigos con sueños de estrellas.",
-      "name_en": "Star Song",
-      "visual_prompt": "glowing starlight blue orbs floating in a moonlit garden, soft pastel pink and pearl lavender mist, crystalline mint star trails, delicate shimmering petals, ethereal dreamy glow"
-    },
-    {
-      "name": "Bailarina de la Noche",
-      "desc": "Realiza un baile que aumenta la velocidad del usuario.",
-      "name_en": "Night Dancer",
-      "visual_prompt": "glowing moonlit petals swirling in a delicate dance, soft pastel pink and ivory white light trails, pearl lavender mist, crystalline mint starlight sparks, ethereal twirling motion, no characters, no Pokémon"
+      "desc": "Crea un campo de luz que aumenta la defensa de todos los aliados.",
+      "name_en": "Moonlight Shield",
+      "visual_prompt": "glowing crescent moon, soft pastel pink and ivory white light rays, delicate lavender floral patterns, pearly gold shimmer particles, misty meadow background with subtle silver sparkle trails"
     }
   ],
   "diffs": [
     {
       "from": "Alas de insecto",
-      "to": "Alas de cisne brillantes que brillan en la oscuridad"
+      "to": "Alas de cristal brillante que reflejan la luz lunar"
     },
     {
-      "from": "Garras cortantes",
-      "to": "Pétalos resplandecientes que sanan al impactar"
+      "from": "Cuerpo delgado",
+      "to": "Cuerpo más esbelto y con destellos de magia"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura elevada y elegante"
+      "from": "Ojos pequeños",
+      "to": "Ojos que brillan con un brillo mágico"
     },
     {
-      "from": "Piel áspera",
-      "to": "Piel suave como seda con destellos de luz"
+      "from": "Pies afilados",
+      "to": "Pies que despiden destellos de luz al caminar"
     }
   ],
   "pokemon_id": "123",

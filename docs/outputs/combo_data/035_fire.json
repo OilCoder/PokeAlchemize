@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Clefairy de llama marina brilla con una aura de fuego azul. Sus patas se cubren de llamas azules que dan estabilidad, mientras su pelaje se torna brillante y suave. Sus ojos brillan con una luz cálida.",
+  "lore": "Clefairy, ahora llamado 'Pokémon Llama Marina', camina con pasos ardientes sobre el suelo, sus patas traseras brillan con llamas. Su pelaje suave se transforma en escamas rojizas que emiten calor, mientras sus ojos brillan con una luz dorada.",
   "moves": [
     {
-      "name": "Llama Azul",
-      "desc": "Lanza llamas azules que queman con un calor intenso.",
-      "name_en": "Blue Flame",
-      "visual_prompt": "crimson red fireballs, molten gold embers, amber-orange heat waves, charcoal black smoke swirls, glowing ember trails, intense heat distortion, volcanic crater backdrop"
+      "name": "Llama de Cuidado",
+      "desc": "Lanza llamas suaves que calientan a aliados, restaurando salud en combate.",
+      "name_en": "Gentle Flame",
+      "visual_prompt": "soft crimson flames, glowing orange embers, molten gold sparks, warm amber aura, wispy smoke trails, volcanic crater backdrop"
     },
     {
-      "name": "Círculo de Fuego",
-      "desc": "Crea un círculo de fuego que daña a todos los enemigos cercanos.",
-      "name_en": "Fire Circle",
-      "visual_prompt": "crimson fire rings, molten gold embers, amber-orange flames, swirling smoke, glowing magma pools, charcoal black smoke trails, volcanic crater backdrop"
+      "name": "Danza de Fuego",
+      "desc": "Gira rápidamente, creando un remolino de llamas que aturde a los oponentes.",
+      "name_en": "Fire Dance",
+      "visual_prompt": "whirling crimson flames, molten gold embers, swirling orange vortex, glowing amber sparks, charcoal smoke trails, volcanic crater backdrop"
     },
     {
-      "name": "Pulso de Llama",
-      "desc": "Emite un pulso de llama que incrementa el ataque del usuario.",
-      "name_en": "Flame Pulse",
-      "visual_prompt": "crimson red fire pulse, molten gold embers swirling, amber orange heat waves, charcoal black smoke tendrils, glowing ember trails, volcanic crater backdrop"
+      "name": "Cálido Abrazo",
+      "desc": "Envuelve al rival en un abrazo de fuego que reduce su defensa.",
+      "name_en": "Warm Embrace",
+      "visual_prompt": "crimson flames swirling in a tight spiral, molten gold embers floating upward, amber glow radiating from center, charcoal black smoke tendrils curling around fire, volcanic crater backdrop with glowing lava flows"
     },
     {
-      "name": "Fuego Marítimo",
-      "desc": "Genera un fuego que se extiende como olas en el agua.",
-      "name_en": "Maritime Blaze",
-      "visual_prompt": "crimson red flames shaped like ocean waves, molten gold embers swirling in water, amber orange heat haze rising from magma pools, charcoal black smoke trails, glowing ember particles"
+      "name": "Resplandor de Llama",
+      "desc": "Emite un resplandor intenso que aumenta el poder de los movimientos de fuego.",
+      "name_en": "Flame Radiance",
+      "visual_prompt": "intense crimson fire glow, molten gold embers swirling, bright orange lava flows, amber-hued smoke trails, charcoal black volcanic backdrop, dynamic heat distortion waves"
     }
   ],
   "diffs": [
     {
-      "from": "patas",
-      "to": "cubiertas de llamas azules que dan estabilidad"
+      "from": "pelaje suave",
+      "to": "se transforma en escamas rojizas que emiten calor"
     },
     {
-      "from": "pelaje",
-      "to": "se torna brillante y suave"
+      "from": "bajo postura de arrastre",
+      "to": "paso firme con llamas en las patas traseras"
     },
     {
-      "from": "ojos",
-      "to": "brillan con una luz cálida"
+      "from": "ojos tranquilos",
+      "to": "ojos brillantes con luz dorada"
     },
     {
-      "from": "aura",
-      "to": "de fuego azul"
+      "from": "movimientos suaves",
+      "to": "movimientos que generan calor y llamas"
     }
   ],
   "pokemon_id": "035",

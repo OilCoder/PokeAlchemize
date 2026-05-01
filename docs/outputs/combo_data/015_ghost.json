@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Veneno",
-  "lore": "Beedrill, ahora un espectro venenoso, flota sin peso, sus aguijones brillan con un resplandor azul pálido. Su cuerpo translúcido muestra veneno etéreo que emana de sus patas fantasmales.",
+  "species_name": "Pokémon Espectro Avispa",
+  "lore": "El Espectro Avispa flota sin peso, sus alas translúcidas brillan con destellos etéreos. Su cuerpo de insecto ahora emite un aura fría, mientras sus púas venenosas se transforman en agujas de sombra que atraviesan la materia.",
   "moves": [
     {
-      "name": "Veneno Fantasma",
-      "desc": "Infecta al rival con veneno y le roba energía espiritual, reduciendo su defensa.",
-      "name_en": "Ghost Poison",
-      "visual_prompt": "ghostly violet mist, decaying spectral leaves, shadowy tendrils, pale silver energy orbs, charcoal gray fog, moonlit tombstone silhouettes"
+      "name": "Ala de Sombras",
+      "desc": "Ataca con alas que proyectan sombras densas, reduciendo la defensa del rival.",
+      "name_en": "Shadow Wing",
+      "visual_prompt": "dense shadow wings, translucent frost particles, pale silver mist, moonlight gray orbs, spectral white glow, drifting ghostly shapes, icy blue highlights, moonlit ruins backdrop"
     },
     {
-      "name": "Agujón Espectral",
-      "desc": "Ataca con aguijones que atraviesan la materia, causando daño y confusión.",
-      "name_en": "Spectral Sting",
-      "visual_prompt": "ghostly violet needles piercing through misty fog, shadow violet energy trails, pale silver shimmering particles, charcoal gray mist swirling, ethereal white glow on impact points"
+      "name": "Veneno Etéreo",
+      "desc": "Lanza un veneno que se disuelve en la oscuridad, causando daño residual.",
+      "name_en": "Ethereal Poison",
+      "visual_prompt": "translucent silver mist, dissolving toxic orbs, moonlit ruins, icy blue residue trails, spectral glow, pale silver particles, ghostly vapor, moonlight gray shadows, frost-like patterns"
     },
     {
-      "name": "Sombra Venenosa",
-      "desc": "Crea una sombra que absorbe la vida del oponente y lo debilita.",
-      "name_en": "Poison Shade",
-      "visual_prompt": "ghostly violet mist swirling around decaying tombstones, pale silver orbs floating in shadowy fog, deep charcoal gray tendrils absorbing life energy, ethereal white mist dissolving into dark violet smoke"
+      "name": "Agujón Fantasmal",
+      "desc": "Enfoca agujones que atraviesan la realidad, evitando esquiva.",
+      "name_en": "Phantom Stinger",
+      "visual_prompt": "translucent spectral white stingers piercing moonlight gray ruins, pale silver mist swirling, icy blue frost patterns, drifting ghostly orbs, ethereal glow, no characters"
     },
     {
-      "name": "Pulso Mortal",
-      "desc": "Genera un pulso de veneno que envenena y paraliza al rival.",
-      "name_en": "Mortal Pulse",
-      "visual_prompt": "violet poison mist, ghostly silver orbs, paralyzed glowing veins, shadow violet fog, ethereal graveyard mist, cracked tombstone fragments, pale silver pulse waves"
+      "name": "Maldición de Insecto",
+      "desc": "Aumenta el daño de sus ataques y reduce la velocidad del rival.",
+      "name_en": "Insect Curse",
+      "visual_prompt": "translucent frost patterns, spectral white mist swirling, pale silver orbs drifting, moonlight gray ruins with glowing cracks, icy blue energy trails, ghostly insect wings shimmering"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas en el suelo",
-      "to": "Flota sin contacto con el suelo, patas translúcidas y sin peso"
+      "from": "Cuerpo de insecto",
+      "to": "Cuerpo translúcido y etéreo, sin peso físico"
     },
     {
-      "from": "Aguijones sólidos",
-      "to": "Aguijones brillantes y etéreos que atraviesan la materia"
+      "from": "Seis extremidades",
+      "to": "Extremidades fusionadas en alas de sombra que flotan"
     },
     {
-      "from": "Color amarillo y negro",
-      "to": "Cuerpo translúcido con tonos azulados y venenosos"
+      "from": "Púas venenosas",
+      "to": "Agujones de sombra que atraviesan materiales sólidos"
     },
     {
-      "from": "Vive en colmenas",
-      "to": "Se esconde en espacios espirituales, evitando la luz solar"
+      "from": "Color oscuro",
+      "to": "Brillo frío y destellos etéreos en tonos pálidos"
     }
   ],
   "pokemon_id": "015",

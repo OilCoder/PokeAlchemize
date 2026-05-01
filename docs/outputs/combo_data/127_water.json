@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua Lanza",
-  "lore": "Agua Lanza, con su armadura de escamas resplandecientes, desplaza el agua a su alrededor con cada paso. Sus patas terminan en garras afiladas que cortan el agua como si fuera aire, mientras su cuerpo emite un brillo azul intenso.",
+  "species_name": "Pokémon Agua Pinza",
+  "lore": "Pinsir, ahora transformado en Agua Pinza, muestra pinzas de acero resplandecientes que brillan bajo el agua. Su cuerpo, antes áspero, ahora se cubre de escamas suaves y resbaladizas, adaptándose a su nuevo entorno acuático.",
   "moves": [
     {
+      "name": "Chorro de Pinza",
+      "desc": "Ataca con un chorro de agua potente desde sus pinzas, empujando al rival hacia atrás.",
+      "name_en": "Pinch Jet",
+      "visual_prompt": "powerful water jet, swirling ocean currents, deep blue droplets, teal ripples, pearly white spray, sapphire blue mist, calm ocean surface, gentle wave patterns, soft blue sunlight glint"
+    },
+    {
       "name": "Ola de Escamas",
-      "desc": "Lanza una ola de escamas brillantes que daña y reduce la defensa del rival.",
+      "desc": "Genera una ola que cubre al oponente con escamas resbaladizas, reduciendo su movilidad.",
       "name_en": "Scale Wave",
-      "visual_prompt": "glowing pearl-white scales shimmering in deep ocean blue currents, teal-green bioluminescent plankton swirls, aquamarine energy ripples, sapphire blue water droplets suspended mid-air, smooth flowing motion lines"
+      "visual_prompt": "slippery scales shimmering in deep ocean blue, gentle wave pattern, teal and pearly white ripples, sapphire blue water droplets, pale aquamarine mist, smooth undulating motion, calm ocean surface"
     },
     {
-      "name": "Corriente de Garras",
-      "desc": "Crea una corriente de agua que impulsa al rival hacia atrás, causando daño y confusión.",
-      "name_en": "Claw Current",
-      "visual_prompt": "swirling water vortex, sharp claw-shaped ripples, glowing bioluminescent plankton, deep ocean blue and teal water currents, pearly white bubbles, aquamarine mist, sapphire blue energy trails"
+      "name": "Sumergir en el Fondo",
+      "desc": "Sumerge al rival en el fondo del agua, causando daño por ahogamiento.",
+      "name_en": "Submerge Depths",
+      "visual_prompt": "gently swirling water currents, deep ocean blue and teal ripples, pearly white bubbles rising, sapphire blue light rays filtering through calm surface, pale aquamarine foam patterns"
     },
     {
-      "name": "Hidro Lanza",
-      "desc": "Dispara un chorro de agua a presión que atraviesa el escudo del oponente.",
-      "name_en": "Hydro Jet",
-      "visual_prompt": "pressurized water jet, swirling vortex of deep ocean blue and teal, glowing bioluminescent plankton particles, pearly white spray mist, aquamarine ripples, sapphire blue energy trails"
-    },
-    {
-      "name": "Marino Ataque",
-      "desc": "Aumenta el ataque y la velocidad mientras se sumerge en el agua.",
-      "name_en": "Marine Strike",
-      "visual_prompt": "glowing bioluminescent plankton, swirling deep ocean currents, pearly white water droplets, teal green ripples, sapphire blue energy waves, calm underwater motion"
+      "name": "Ciclo de Agua",
+      "desc": "Crea un remolino que atrae a los enemigos hacia el centro.",
+      "name_en": "Water Cycle",
+      "visual_prompt": "spiral vortex, swirling water currents, deep ocean blue and teal ripples, pearly white mist, sapphire blue energy rings, gentle wave patterns, pale aquamarine light beams"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas terminan en garras afiladas que cortan el agua"
+      "from": "quadruped",
+      "to": "se transforma en un cuerpo más flexible y fluido para nadar."
     },
     {
-      "from": "armadura de escamas",
-      "to": "escamas resplandecientes que brillan bajo el agua"
+      "from": "four legs planted on ground",
+      "to": "sus patas se aplanan en aletas para deslizarse bajo el agua."
     },
     {
-      "from": "baja postura",
-      "to": "postura elevada para aprovechar la corriente del agua"
+      "from": "low crawling stance",
+      "to": "adopta una postura más alta y estable para navegar en el agua."
     },
     {
-      "from": "tipo bicho",
-      "to": "tipo agua que le permite moverse con fluidez en el agua"
+      "from": "body texture",
+      "to": "cambia de áspero a suave y resbaladizo con escamas brillantes."
     }
   ],
   "pokemon_id": "127",

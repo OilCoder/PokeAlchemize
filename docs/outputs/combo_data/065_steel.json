@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Mental",
-  "lore": "Alakazam, ahora con armadura de acero, camina con paso firme. Sus ojos brillan con reflejos metálicos, y sus brazos cortos están cubiertos de placas resplandecientes que emiten un suave zumbido.",
+  "lore": "Alakazam, ahora cubierto de acero pulido, camina con pasos firmes sobre cuatro patas metálicas. Sus ojos brillan con reflejos de acero, y sus manos de acero cortan el aire con precisión.",
   "moves": [
     {
-      "name": "Impacto Acero",
-      "desc": "Ataca con un golpe de acero que desgasta la defensa del oponente.",
-      "name_en": "Steel Impact",
-      "visual_prompt": "gunmetal gray metallic shards, polished silver sparks, steel blue energy trails, electric blue shockwaves, neon cyan glowing fragments, industrial city skyline backdrop"
+      "name": "Corte Acero",
+      "desc": "Corta el aire con garras de acero, causando daño físico y reduciendo la defensa del rival.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws slicing through air, jagged metallic shards, gunmetal gray energy trails, polished chrome sparks, deep steel blue glow, industrial workshop background with glowing energy lines"
     },
     {
-      "name": "Mente Refractada",
-      "desc": "Refleja ataques psíquicos hacia el enemigo con precisión metálica.",
-      "name_en": "Mental Refraction",
-      "visual_prompt": "metallic silver shards, refracting psychic energy beams, gunmetal gray distortion waves, electric blue neon highlights, polished steel reflections, industrial city skyline silhouette in background"
+      "name": "Barrera de Acero",
+      "desc": "Crea una barrera protectora de acero que absorbe el 50% del daño recibido.",
+      "name_en": "Steel Barrier",
+      "visual_prompt": "gunmetal gray steel barrier, polished chrome energy lines, deep steel blue glow, matte black accents, industrial workshop metal textures, abstract geometric shield shape, shimmering protective energy field"
     },
     {
-      "name": "Escudo Mental",
-      "desc": "Crea un escudo de acero que bloquea ataques psíquicos y físicos.",
-      "name_en": "Mental Shield",
-      "visual_prompt": "polished steel shield with glowing neon cyan edges, gunmetal gray energy waves, electric blue metallic particles, industrial cityscape backdrop with steam vents, reflective surface showing distorted city lights"
+      "name": "Impacto Mental",
+      "desc": "Ataca con una onda mental acelerada que causa daño psíquico y confunde al rival.",
+      "name_en": "Mental Impact",
+      "visual_prompt": "glowing gunmetal gray energy waves, jagged silver psychic ripples, matte black distortion lines, polished chrome concentric rings, deep steel blue pulse effects"
     },
     {
-      "name": "Resonancia Sónica",
-      "desc": "Emite un sonido agudo que debilita la resistencia del oponente.",
-      "name_en": "Sonic Resonance",
-      "visual_prompt": "gunmetal gray sonic waves, polished silver ripples, metallic steel blue energy orbs, electric blue distortion lines, neon cyan vibration patterns, industrial cityscape backdrop with glowing neon signs, metallic steam vents"
+      "name": "Golpe de Corte",
+      "desc": "Ataca con un golpe rápido de acero que causa daño físico y aumenta la velocidad.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel blade slicing through air, polished chrome sparks, gunmetal gray energy trails, deep steel blue glow, industrial workshop metallic reflections, matte black particle bursts"
     }
   ],
   "diffs": [
     {
-      "from": "bipedal, upright stance",
-      "to": "caminar con paso firme y armadura de acero."
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas metálicas que golpean el suelo con resonancia."
     },
     {
-      "from": "short arms at sides",
-      "to": "brazos cubiertos de placas resplandecientes que zumban."
+      "from": "Ojos brillantes",
+      "to": "Ojos reflejando acero, emitiendo destellos metálicos."
     },
     {
-      "from": "psychic type",
-      "to": "poderes psíquicos ahora con efectos metálicos y reflejos."
+      "from": "Manos humanoides",
+      "to": "Manos de acero afiladas que cortan el aire."
     },
     {
-      "from": "eyes",
-      "to": "brillan con reflejos metálicos y transmiten fuerza acerada."
+      "from": "Cuerpo esbelto",
+      "to": "Cuerpo cubierto de acero pulido, con reflejos brillantes."
     }
   ],
   "pokemon_id": "065",

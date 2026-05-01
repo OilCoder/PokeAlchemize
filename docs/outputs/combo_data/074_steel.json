@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Roca",
-  "lore": "Geodude se fusiona con acero, sus patas se convierten en espinas afiladas y su cuerpo brilla con un brillo plateado. Sus ojos resplandecen con energía metálica, listos para defender su territorio con fuerza inquebrantable.",
+  "lore": "El Pokémon Acero Roca se transforma en una masa de acero sólido, con patas de metal que brillan bajo el sol. Sus rasgos rocosos se fusionan con la dureza del acero, aumentando su resistencia y capacidad de defensa.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con garras de acero, causando daño cortante y reduciendo la defensa del rival.",
+      "name": "Corte de Acero",
+      "desc": "Corta al oponente con una hoja de acero afilada, causando daño físico.",
       "name_en": "Steel Slash",
-      "visual_prompt": "shimmering steel claws slicing through air, jagged metallic shards, gunmetal gray sparks, polished silver trails, electric blue energy streaks, neon cyan glow, industrial city skyline silhouette in background"
+      "visual_prompt": "shimmering steel blade slicing through air, razor-sharp edges with polished chrome reflections, gunmetal gray energy trails, deep steel blue glow, matte black dust particles, industrial workshop background hints"
     },
     {
-      "name": "Golpe Rígido",
-      "desc": "Golpea con un impacto metálico, provocando un aturdimiento temporal en el oponente.",
-      "name_en": "Steel Impact",
-      "visual_prompt": "metallic shards, polished silver sparks, gunmetal gray energy waves, electric blue shockwaves, neon cyan trails, industrial city skyline silhouette, metallic steam vents"
+      "name": "Impacto Rígido",
+      "desc": "Aumenta el daño del ataque físico en un 20% durante un turno.",
+      "name_en": "Rigid Impact",
+      "visual_prompt": "polished steel orb, glowing gunmetal gray energy lines, matte black metallic shards, deep steel blue sparks, industrial workshop background, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Escudo Reflejante",
-      "desc": "Crea un escudo de acero que refleja ataques físicos y aumenta la defensa.",
-      "name_en": "Reflect Shield",
-      "visual_prompt": "polished silver shield with glowing neon cyan edges, steel-blue energy ripples, industrial city skyline backdrop, metallic steam vents, electric blue light reflections"
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero que reduce el daño recibido en un 30%.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished steel shield with glowing energy lines, gunmetal gray texture, matte black edges, deep steel blue aura, industrial workshop background, reflective surface, subtle metallic particles"
     },
     {
-      "name": "Martillo de Acero",
-      "desc": "Ataca con un martillo metálico, causando daño y aumentando el ataque del usuario.",
-      "name_en": "Steel Hammer",
-      "visual_prompt": "metallic hammer strike, gunmetal gray sparks, polished silver trail, steel blue energy waves, neon cyan impact flash, industrial city skyline silhouette, metallic steam vents, electric blue aura"
+      "name": "Peso de Acero",
+      "desc": "Aumenta la defensa especial en un 25% durante un turno.",
+      "name_en": "Steel Weight",
+      "visual_prompt": "gunmetal gray steel plates floating in mid-air, polished chrome orbs with deep steel blue energy trails, matte black metallic shards, glowing energy lines on industrial workshop floor, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas plantadas en el suelo",
-      "to": "patas transformadas en espinas afiladas de acero"
+      "from": "patas de roca",
+      "to": "patas de acero pulido que reflejan la luz"
     },
     {
-      "from": "cuerpo compacto y rocoso",
-      "to": "cuerpo brillante con brillo plateado y reflejos metálicos"
+      "from": "superficie rocosa",
+      "to": "superficie pulida de acero resistente"
     },
     {
-      "from": "ojos oscuros",
-      "to": "ojos resplandecientes con energía metálica"
+      "from": "movimientos de tierra",
+      "to": "ataques de corte y golpes metálicos"
     },
     {
-      "from": "resistencia a golpes físicos",
-      "to": "resistencia aumentada a ataques de tipo acero"
+      "from": "resistencia a golpes",
+      "to": "resistencia casi impenetrable al daño físico"
     }
   ],
   "pokemon_id": "074",

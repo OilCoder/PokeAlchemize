@@ -1,36 +1,34 @@
 {
   "identity_traits": [
-    "burrowing creature silhouette",
-    "small size (10 cm height)",
-    "two visible clawed forelimbs",
-    "no visible hind limbs",
-    "dull brown body coloration",
-    "narrow, elongated head shape"
+    "rounded body shape",
+    "small head with pink nose",
+    "four short limbs",
+    "low to the ground posture",
+    "soft pink nose tip",
+    "smooth skin texture"
   ],
   "original_type_traits": [
-    "dull brown earthy color palette",
-    "burrowing tunneling posture",
-    "subterranean soil texture on body",
-    "muddy ground effect around base"
+    "rocky ground beneath the creature",
+    "brown body coloration",
+    "gray accents on body"
   ],
   "transformable_parts": [
     "body coloration",
-    "head shape",
-    "claw texture",
-    "body texture (soil vs. smooth)",
-    "base ground effect",
-    "head tuft (if present)"
+    "limb texture",
+    "nose color",
+    "ground interaction",
+    "skin texture",
+    "head shape"
   ],
   "suppress_colors": [
-    "dull brown",
-    "muddy gray",
-    "soil beige",
-    "dirt brown"
+    "brown",
+    "pink",
+    "gray"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, low crawling stance",
-    "two clawed forelimbs extended forward, no hind limbs visible",
-    "narrow elongated head with small eyes"
+    "blob body, no distinct limbs, low to ground",
+    "small rounded head with pink nose",
+    "smooth skin texture covering entire body"
   ],
   "pokemon_id": "050",
   "pokemon_name": "diglett",
@@ -38,6 +36,26 @@
     "ground"
   ],
   "visual_facts": {
-    "urls\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n 自动生成\n [{": ">×</伢\n [{"
+    "body_colors": [
+      "brown",
+      "pink",
+      "gray"
+    ],
+    "body_parts": [
+      "head",
+      "body",
+      "limbs",
+      "rocky ground"
+    ],
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded, four-legged body with a small head and a pink nose, standing on rocky ground.",
+    "type_markers": [
+      "rocky ground beneath the creature"
+    ],
+    "distinctive_features": [
+      "rounded body",
+      "small head",
+      "pink nose"
+    ]
   }
 }

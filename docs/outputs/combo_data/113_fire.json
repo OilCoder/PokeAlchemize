@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Chansey, ahora convertida en un Pokémon de Fuego, camina con patas ardientes que dejan huellas de ceniza. Su cuerpo emana calor, y sus ojos brillan como brasas. Su postura baja se mantiene, pero ahora suaviza el movimiento con chispas.",
+  "lore": "Chansey, ahora transformada en Llama Marina, arde con llamas azules que dan vida a sus patas. Su piel suave se cubre de escamas incandescentes, y sus ojos brillan con fuego sagrado. Camina con pasos suaves, dejando huellas de ceniza.",
   "moves": [
     {
-      "name": "Llamarada Cariñosa",
-      "desc": "Ataca con llamas suaves que queman con cariño, causando daño moderado.",
-      "name_en": "Caring Blaze",
-      "visual_prompt": "soft crimson flames, swirling amber-orange embers, molten gold sparks, glowing charcoal smoke trails, volcanic crater backdrop, gentle heat waves"
+      "name": "Llama Sagrada",
+      "desc": "Lanza un haz de llamas azules que cura heridas mientras quema el enemigo.",
+      "name_en": "Sacred Flame",
+      "visual_prompt": "blue flame beams, healing green aura, burning enemy silhouette, volcanic crater backdrop, molten gold embers, amber glow, charcoal smoke trails, bright orange lava flows"
     },
     {
-      "name": "Ceniza de Amor",
-      "desc": "Cubre al oponente con cenizas que reducen la defensa.",
-      "name_en": "Ash of Love",
-      "visual_prompt": "volcanic ash swirls, glowing ember sparks, molten gold embers, charcoal black smoke, crimson red haze, swirling magma pools, ash particles settling on a cracked stone surface"
+      "name": "Paso de Ceniza",
+      "desc": "Deja huellas incandescentes que dañan a los enemigos que las pisen.",
+      "name_en": "Ash Step",
+      "visual_prompt": "glowing ember footprints, molten gold trails, crimson red embers, smoky ash swirls, volcanic crater backdrop, amber glow highlights, charcoal black edges"
     },
     {
-      "name": "Calor Materno",
-      "desc": "Aumenta la velocidad de aliados cercanos con un aura cálida.",
-      "name_en": "Maternal Heat",
-      "visual_prompt": "glowing ember aura, swirling crimson red smoke, molten gold particles, warm amber light rays, volcanic crater background, charcoal black smoke wisps, stylized 2D fire VFX"
+      "name": "Fuego de la Esperanza",
+      "desc": "Aumenta la defensa de todo el equipo con una barrera de llamas protectoras.",
+      "name_en": "Hope's Flame",
+      "visual_prompt": "crimson red flame barrier, molten gold protective shield, glowing lava flows, ember-lit smoky sky, charcoal black outlines, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Ascensión de Fuego",
-      "desc": "Sube al aire, rodeado de llamas, para atacar desde arriba.",
-      "name_en": "Fire Ascent",
-      "visual_prompt": "crimson flames spiraling upward, molten gold embers floating in smoke, amber-orange heat haze, volcanic crater backdrop with glowing magma pools, charcoal black smoke tendrils"
+      "name": "Sueño de Llamas",
+      "desc": "Sumerge al enemigo en un sueño ardiente que reduce su velocidad.",
+      "name_en": "Blazing Dream",
+      "visual_prompt": "crimson red fire orbs swirling in molten gold smoke, glowing ember trails, volcanic crater backdrop with lava flows, amber glow effects, charcoal black shadows"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas con llamas que dejan huellas de ceniza"
+      "from": "patas suaves y blandas",
+      "to": "patas cubiertas de escamas incandescentes que arden sin dañar"
     },
     {
-      "from": "postura baja",
-      "to": "movimiento suave con chispas en cada paso"
+      "from": "piel suave",
+      "to": "piel transformada en escamas resistentes al calor"
     },
     {
-      "from": "cuerpo normal",
-      "to": "emana calor intenso alrededor de sí mismo"
+      "from": "caminar con pasos lentos",
+      "to": "caminar dejando huellas de ceniza que afectan al suelo"
     },
     {
-      "from": "ojos normales",
-      "to": "ojos brillantes como brasas que parpadean con llama"
+      "from": "ojos tranquilos",
+      "to": "ojos brillantes con destellos de fuego sagrado"
     }
   ],
   "pokemon_id": "113",

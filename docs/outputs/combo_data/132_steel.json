@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Luminoso",
-  "lore": "El Pokémon Acero Luminoso flota con gracia, su cuerpo de acero pulido refleja la luz. Sus rasgos borrosos se solidifican en formas geométricas brillantes, alterando su esencia original con durabilidad inquebrantable.",
+  "species_name": "Pokémon Acero Liso",
+  "lore": "Este Ditto transformado en acero es una masa metálica brillante que cambia de forma con cada movimiento. Sus rasgos suaves se han endurecido en una estructura compacta, reflejando la resistencia del acero.",
   "moves": [
     {
-      "name": "Forma de Acero",
-      "desc": "Solidifica su cuerpo en una armadura resistente, aumentando la defensa temporalmente.",
-      "name_en": "Steel Form",
-      "visual_prompt": "gunmetal gray armor plates, polished silver reflections, metallic steam vents, electric blue energy pulses, neon cyan highlights, industrial cityscape backdrop, geometric crystalline shards"
+      "name": "Forja Relámpago",
+      "desc": "Crea una ráfaga de acero fundido que golpea al rival con velocidad y precisión.",
+      "name_en": "Forge Lightning",
+      "visual_prompt": "molten steel gale, razor-sharp metallic shards, glowing gunmetal trails, polished chrome sparks, deep steel blue energy lines, industrial workshop background, matte black accents, dynamic motion blur"
     },
     {
-      "name": "Reflejo de Láser",
-      "desc": "Dispara rayos láser desde sus superficies pulidas, dañando al oponente con precisión.",
-      "name_en": "Laser Reflection",
-      "visual_prompt": "polished steel surfaces reflecting laser beams, geometric laser patterns, gunmetal gray and electric blue light trails, neon cyan highlights, industrial cityscape background glow, metallic steam vents emitting shimmering particles"
+      "name": "Corte de Acero",
+      "desc": "Corta al oponente con una hoja de acero que se forma en su cuerpo.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel blade, polished chrome edge, gunmetal gray energy trails, deep steel blue glow, industrial workshop background with polished metal surfaces, geometric energy lines, matte black highlights, sharp angular motion lines"
     },
     {
-      "name": "Fusión de Metales",
-      "desc": "Une metales del entorno para crear un escudo protector eficaz.",
-      "name_en": "Metal Fusion",
-      "visual_prompt": "gunmetal gray steel shields, polished silver orbs, metallic steam vents, neon cyan energy trails, electric blue glowing patterns, industrial city skyline backdrop"
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que absorbe el daño y lo devuelve en una onda de energía.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray shield, polished chrome energy waves, deep steel blue aura, matte black metallic shards, glowing energy lines, industrial workshop background"
     },
     {
-      "name": "Resonancia de Acero",
-      "desc": "Genera vibraciones de acero que debilitan a los oponentes cercanos.",
-      "name_en": "Steel Resonance",
-      "visual_prompt": "shimmering steel vibrations, polished silver waves, metallic steam vents, glowing neon cyan arcs, gunmetal gray ripples, electric blue energy pulses, industrial cityscape backdrop, stylized 2D VFX"
+      "name": "Moldeado de Acero",
+      "desc": "Modifica su forma para adaptarse a cualquier situación, aumentando su defensa.",
+      "name_en": "Steel Mold",
+      "visual_prompt": "polished steel shards floating in mid-air, gunmetal gray and silver metallic reflections, deep steel blue energy lines tracing geometric patterns, matte black accents, industrial workshop backdrop with glowing metal surfaces"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo borroso y sin forma",
-      "to": "Forma geométrica sólida y pulida en acero"
+      "from": "Cuerpo amorphous y blando",
+      "to": "Cuerpo metálico y compacto, resistente a golpes"
     },
     {
-      "from": "Flotación sin control",
-      "to": "Flotación controlada con estabilidad de acero"
+      "from": "Sin rasgos distintos",
+      "to": "Forma definida con bordes afilados y reflejos brillantes"
     },
     {
-      "from": "Capacidad de imitar",
-      "to": "Capacidad de fusionar metales para crear formas únicas"
+      "from": "Capaz de imitar cualquier forma",
+      "to": "Mantiene su forma de acero pero imita estructuras metálicas complejas"
     },
     {
-      "from": "Vulnerabilidad a daño",
-      "to": "Resistencia a ataques físicos y especiales"
+      "from": "Vulnerable a ataques físicos",
+      "to": "Resistente a golpes y ataques de tipo acero"
     }
   ],
   "pokemon_id": "132",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Ola Llena",
-  "lore": "Ola Llena, un Snorlax rodeado de olas acuáticas, tiene piel brillante como el agua y ojos resplandecientes. Sus patas se hunden en el agua, mientras su cuerpo emana una calma oceánica.",
+  "species_name": "Pokémon Agua Lento",
+  "lore": "Agua Lento se desliza por los ríos con su piel lisa y brillante. Sus patas se han aplanado para nadar con gracia, mientras su cuerpo, antes pesado, ahora flota con suavidad. El agua resplandece en sus ojos tranquilos.",
   "moves": [
     {
-      "name": "Ola de Sueño",
-      "desc": "Crea una ola que envuelve al enemigo, sumiéndolo en un sueño profundo.",
+      "name": "Ola Dormida",
+      "desc": "Crea una ola suave que envuelve al rival, induciendo sueño con movimientos lentos.",
       "name_en": "Sleep Wave",
-      "visual_prompt": "gentle undulating water waves, deep ocean blue and teal green hues, pearly white bioluminescent plankton glowing softly, aquamarine ripples spreading outward, sapphire blue energy pulses, calm underwater current motion"
+      "visual_prompt": "gentle blue ocean waves, slow swirling motion, pearly white mist, soft teal ripples, calm water surface, dreamy aquamarine glow, slow-moving translucent orbs"
     },
     {
-      "name": "Burbuja Estelar",
-      "desc": "Lanza burbujas que brillan con luz estelar, reduciendo la velocidad del rival.",
-      "name_en": "Stellar Bubble",
-      "visual_prompt": "glowing starlight bubbles, deep ocean blue water, teal green bioluminescent plankton, pearly white light trails, aquamarine swirls, sapphire blue currents"
+      "name": "Burbuja de Pesadilla",
+      "desc": "Lanza burbujas que flotan y atrapan al oponente en un sueño inquietante.",
+      "name_en": "Nightmare Bubble",
+      "visual_prompt": "floating nightmare bubbles, deep ocean blue and teal, pearly white swirls, sapphire blue ripples, pale aquamarine light, gentle wave patterns, soft blue sunlight glow"
     },
     {
-      "name": "Mar de Suenos",
-      "desc": "Genera un mar de sueños que confunde a los enemigos con visiones acuáticas.",
-      "name_en": "Dream Sea",
-      "visual_prompt": "bioluminescent plankton swirls, deep ocean blue waves, teal green water ripples, pearly white mist, aquamarine light refractions, sapphire blue currents, calm underwater motion, ethereal shimmering"
+      "name": "Corriente Soñolienta",
+      "desc": "Genera una corriente que reduce la velocidad del rival mientras duerme.",
+      "name_en": "Sleep Current",
+      "visual_prompt": "gentle blue waves, swirling teal currents, pearly white mist, slow-motion water droplets, soft sapphire ripples, calm ocean surface, pale aquamarine glow, dreamy watery haze"
     },
     {
-      "name": "Respiración Oceánica",
-      "desc": "Recupera salud al respirar el aire húmedo del océano.",
-      "name_en": "Ocean Breath",
-      "visual_prompt": "bioluminescent plankton swirls, deep ocean blue water currents, pearly white bubbles rising, teal green sea flora, aquamarine light rays, sapphire blue mist, calm underwater motion"
+      "name": "Marea de Sueños",
+      "desc": "Desata una marea que envuelve al oponente en un sueño profundo y tranquilo.",
+      "name_en": "Dream Tide",
+      "visual_prompt": "calm ocean waves, gentle blue sunlight, pearly white foam swirls, teal and sapphire blue water ripples, soft aquamarine mist, slow-motion dreamy effect"
     }
   ],
   "diffs": [
     {
-      "from": "piel lisa y grasienta",
-      "to": "piel brillante y húmeda, como si estuviera recién salido del mar"
+      "from": "Cuadrúpedo con cuatro patas plantadas en el suelo",
+      "to": "Patas aplanadas para nadar con gracia y flotar en el agua"
     },
     {
-      "from": "patas cortas y pesadas",
-      "to": "patas plantadas en el agua, con huellas que dejan burbujas"
+      "from": "Postura baja de reptación",
+      "to": "Cuerpo que flota suavemente en el agua, sin tocar el fondo"
     },
     {
-      "from": "boca abierta y relajada",
-      "to": "boca abierta, expulsando burbujas de aire mientras duerme"
+      "from": "Piel gruesa y seca",
+      "to": "Piel lisa y brillante que resplandece bajo el agua"
     },
     {
-      "from": "postura baja y pesada",
-      "to": "postura flotante, sostenida por una capa de agua bajo sus patas"
+      "from": "Movimientos lentos y pesados",
+      "to": "Movimientos fluidos y suaves, adaptados para navegar en el agua"
     }
   ],
   "pokemon_id": "143",

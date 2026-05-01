@@ -1,0 +1,23 @@
+{
+  "body_colors": [
+    "brown",
+    "pink",
+    "gray"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "limbs",
+    "rocky ground"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a rounded, four-legged body with a small head and a pink nose, standing on rocky ground.",
+  "type_markers": [
+    "rocky ground beneath the creature"
+  ],
+  "distinctive_features": [
+    "rounded body",
+    "small head",
+    "pink nose"
+  ]
+}

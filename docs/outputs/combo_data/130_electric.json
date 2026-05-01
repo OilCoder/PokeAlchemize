@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Marítimo",
-  "lore": "Gyarados reluce bajo el cielo tormentoso, sus escamas azules cargadas de electricidad. Sus patas plantadas en el suelo generan chispas, mientras sus alas de agua se transforman en circuitos brillantes. Su mirada desafía el cielo.",
+  "species_name": "Pokémon Rayo Marítimo",
+  "lore": "Este Gyarados transformado brilla con descargas eléctricas en su piel azulada. Sus escamas reflejan relámpagos mientras sus ojos emiten destellos azulados. Su cola eléctrica genera campos magnéticos al moverse.",
   "moves": [
     {
-      "name": "Descarga Marina",
-      "desc": "Lanza una descarga eléctrica desde el agua, causando daño y posiblemente paralizar al oponente.",
-      "name_en": "Marine Charge",
-      "visual_prompt": "electric blue water droplets, neon yellow lightning bolts, violet spark particles, bright white energy arcs, crackling energy fields, stormy sky backdrop"
+      "name": "Relámpago Serpenteante",
+      "desc": "Ataca con una descarga eléctrica que paraliza al oponente por 2 turnos.",
+      "name_en": "Serpentine Bolt",
+      "visual_prompt": "electric blue zigzag lightning bolts, neon yellow energy trails, crisp white sparks, bright electric white static discharge, pale blue glow pulses, urban cityscape skyline silhouette, neon signs flickering in background"
     },
     {
-      "name": "Ala de Chispas",
-      "desc": "Ataca con alas cargadas de electricidad, incrementando el daño y posiblemente causando parálisis.",
-      "name_en": "Spark Wing",
-      "visual_prompt": "crackling electric blue wings, neon yellow energy trails, violet sparks, bright white lightning bolts, electric cyan aura, stormy sky backdrop, dynamic energy field, glowing circuit patterns"
-    },
-    {
-      "name": "Tormenta Eléctrica",
-      "desc": "Crea una tormenta eléctrica alrededor del campo, dañando a todos los enemigos y reduciendo su velocidad.",
+      "name": "Tormenta Electrónica",
+      "desc": "Genera una tormenta de chispas que reduce la precisión del enemigo.",
       "name_en": "Electric Storm",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy rings, stormy sky background with swirling energy fields"
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow sparks, crisp white energy arcs, bright electric white static, pale blue glow trails, urban city skyline silhouette in background, neon signs flickering with static"
     },
     {
-      "name": "Raíces Conductivas",
-      "desc": "Fortalece las patas del Pokémon, aumentando su defensa y permitiendo atacar con mayor fuerza.",
-      "name_en": "Conductive Roots",
-      "visual_prompt": "glowing electric blue roots, neon yellow energy pulses, violet sparks arcing between roots, bright white lightning bolts, electric cyan energy field, stormy sky backdrop, crackling energy patterns"
+      "name": "Campo Magnético",
+      "desc": "Crea un campo que aumenta la velocidad de los aliados.",
+      "name_en": "Magnetic Field",
+      "visual_prompt": "glowing electric blue and neon yellow energy field, swirling vortex of crackling energy, dynamic neon trails, crisp white lightning bolts, pale blue energy pulses, urban cityscape backdrop with flickering neon signs"
+    },
+    {
+      "name": "Descarga de Caudal",
+      "desc": "Lanza una descarga masiva que daña a todos los enemigos cercanos.",
+      "name_en": "Water Surge",
+      "visual_prompt": "electric blue energy bolts, neon yellow lightning arcs, crisp white static sparks, bright electric white shockwaves, pale blue energy pulses, urban city skyline silhouette, neon sign reflections, flickering storm clouds"
     }
   ],
   "diffs": [
     {
-      "from": "patas plantadas en el suelo",
-      "to": "generan chispas eléctricas al tocar el suelo"
+      "from": "cuerpo serpenteante",
+      "to": "cuerpo recubierto de escamas que brillan con electricidad"
     },
     {
-      "from": "alas de agua",
-      "to": "se transforman en alas de circuitos brillantes"
+      "from": "sin extremidades",
+      "to": "cola eléctrica que genera campos magnéticos"
     },
     {
-      "from": "escamas azules",
-      "to": "cargadas de electricidad estática"
+      "from": "forma alargada",
+      "to": "cuerpo más compacto con relámpagos en las escamas"
     },
     {
-      "from": "mirada desafiante",
-      "to": "llena de energía eléctrica brillante"
+      "from": "piel azulada",
+      "to": "escamas que reflejan relámpagos en movimiento"
     }
   ],
   "pokemon_id": "130",

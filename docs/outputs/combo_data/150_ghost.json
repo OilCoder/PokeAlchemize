@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Mewtwo",
-  "lore": "Mewtwo, ahora un espectro psíquico, flota sin peso. Su piel translúcida revela destellos de energía fantasmal, mientras sus ojos brillan con un resplandor plateado que desvía la luz.",
+  "species_name": "Pokémon Fantasma Luminoso",
+  "lore": "Mewtwo, ahora envuelto en sombras etéreas, camina sobre cuatro patas invisibles. Su aura psíquica se ha transformado en un brillo plateado que atrae a los espíritus. Sus ojos brillan con un resplandor azul fantasmal.",
   "moves": [
     {
       "name": "Sombra Psíquica",
-      "desc": "Invoca una sombra psíquica que absorbe el alma del oponente.",
+      "desc": "Lanza un ataque que desvía la mente del oponente hacia el plano espectral, causando confusión.",
       "name_en": "Psychic Shadow",
-      "visual_prompt": "shimmering violet mist, floating shadow tendrils, glowing pale silver aura, ethereal fog drifting, moonlit tombstone silhouette in background, deep violet and charcoal gray color palette"
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, pale silver mist swirling, icy blue aura with moonlight gray accents, ghostly frost patterns, ethereal shimmering effect"
     },
     {
-      "name": "Espectro Mental",
-      "desc": "Aumenta la potencia de los ataques psíquicos con una carga de energía espectral.",
-      "name_en": "Mental Specter",
-      "visual_prompt": "glowing violet energy orbs floating in mist, spectral silver trails, shadowy violet wisps, ethereal fog, moonlit tombstone outlines faintly visible in background"
+      "name": "Resplandor Espectral",
+      "desc": "Genera un resplandor plateado que aumenta la defensa y absorbe ataques físicos.",
+      "name_en": "Spectral Glow",
+      "visual_prompt": "translucent silver moonlight, floating spectral orbs, icy blue mist, glowing pale silver defense aura, frosty moonlit ruins backdrop, ethereal shimmer, smooth translucent waves"
     },
     {
-      "name": "Lamento Fantasma",
-      "desc": "Genera un lamento que reduce la defensa del oponente.",
-      "name_en": "Ghost Lament",
-      "visual_prompt": "ghostly violet mist, drifting pale silver tombstone shards, shadow violet tears falling slowly, ethereal fog swirls, charcoal gray aura with faint glowing outlines"
+      "name": "Viento Fantasmal",
+      "desc": "Crea una ráfaga de viento que desplaza al oponente y reduce su velocidad.",
+      "name_en": "Phantom Gale",
+      "visual_prompt": "translucent spectral white wind gusts, drifting pale silver mist orbs, icy blue moonlight glow, moonlit ruin stone textures, ethereal frost particles, ghostly translucent ripples"
     },
     {
-      "name": "Mente Eterna",
-      "desc": "Restaura la energía mental del usuario mientras absorbe la energía del oponente.",
-      "name_en": "Eternal Mind",
-      "visual_prompt": "floating violet energy orbs, swirling ghostly silver mist, glowing charcoal gray runes, pale silver mental waves, shadow violet aura, ethereal fog particles, moonlit tombstone silhouettes in background"
+      "name": "Alma Invisibilizada",
+      "desc": "Hace que Mewtwo sea invisible durante un turno, evitando todos los ataques.",
+      "name_en": "Invisible Soul",
+      "visual_prompt": "translucent ghostly mist swirling, pale silver spectral orbs drifting, icy blue moonlight glow, moonlit ruins backdrop, frosty translucence, ethereal shimmer, ghostly white particles, pale silver trails"
     }
   ],
   "diffs": [
     {
-      "from": "bipedal, upright stance, arms at sides",
-      "to": "flota sin peso, sin contacto con el suelo"
+      "from": "cuatro patas en el suelo",
+      "to": "patas invisibles que no tocan el suelo"
     },
     {
-      "from": "piel translúcida",
-      "to": "revela destellos de energía fantasmal"
+      "from": "aura psíquica",
+      "to": "resplandor plateado que atrae espíritus"
     },
     {
       "from": "ojos brillantes",
-      "to": "brillan con un resplandor plateado que desvía la luz"
+      "to": "ojos con resplandor azul fantasmal"
     },
     {
-      "from": "energía psíquica",
-      "to": "se mezcla con energía fantasmal para crear un aura espectral"
+      "from": "movimientos psíquicos",
+      "to": "ataques que manipulan el plano espectral"
     }
   ],
   "pokemon_id": "150",

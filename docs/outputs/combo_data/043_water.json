@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Lluvia Acuática",
-  "lore": "El Pokémon Lluvia Acuática emerge de la lluvia, sus pétalos se transforman en capas de agua que brillan bajo el sol. Sus patas, antes firmes en tierra, ahora deslizan sobre el agua con gracia, absorbiendo la humedad del ambiente.",
+  "species_name": "Pokémon Marigal",
+  "lore": "Marigal, un Oddish transformado por el agua, tiene pétalos que brillan con reflejos azulados. Sus raíces se han convertido en tentáculos flexibles que absorben nutrientes del agua. Su piel verde ahora brilla con destellos cristalinos.",
   "moves": [
     {
-      "name": "Ola de Raíces",
-      "desc": "Genera una ola de raíces que atrapa al oponente en una red acuática, reduciendo su velocidad.",
-      "name_en": "Root Wave",
-      "visual_prompt": "bioluminescent blue-green roots, swirling underwater currents, pearly white net-like tendrils, aquamarine light rays, deep ocean trench backdrop, glowing plankton particles"
+      "name": "Ola Venenosa",
+      "desc": "Lanza una ola de agua con veneno que envenena al oponente.",
+      "name_en": "Poison Wave",
+      "visual_prompt": "toxic green water ripples, shimmering teal bubbles, deep ocean blue mist, pearly white foam, sapphire blue energy trails, pale aquamarine glow, slow-moving venomous waves"
     },
     {
-      "name": "Lluvia Radiante",
-      "desc": "Crea una lluvia que cura a aliados y debilita a enemigos con su humedad.",
-      "name_en": "Radiant Rain",
-      "visual_prompt": "glowing bioluminescent raindrops, deep ocean blue water droplets, teal green mist, pearly white shimmer, aquamarine ripple effects, sapphire blue light beams, calm underwater currents, translucent water droplets"
+      "name": "Raíz Acuática",
+      "desc": "Fortalece las raíces para absorber agua y recuperar salud.",
+      "name_en": "Aquatic Roots",
+      "visual_prompt": "glistening water droplets, swirling teal currents, deep blue roots extending upward, pearly white bubbles, gentle ocean waves, soft blue sunlight filtering through"
     },
     {
-      "name": "Burbuja de Vida",
-      "desc": "Genera burbujas que absorben daño y restauran salud gradualmente.",
-      "name_en": "Life Bubble",
-      "visual_prompt": "glowing bioluminescent bubbles, deep ocean blue water currents, teal green ripples, pearly white light reflections, aquamarine energy trails, slow-motion bubble ascent, calm underwater environment, soft focus"
+      "name": "Burbuja de Hojas",
+      "desc": "Crea burbujas llenas de hojas que atacan y ralentizan.",
+      "name_en": "Leaf Bubble",
+      "visual_prompt": "floating leaf bubbles, translucent teal bubbles with embedded green leaves, gentle ocean waves, soft blue sunlight, pearly white foam, sapphire blue water ripples, calm ocean surface"
     },
     {
-      "name": "Torrente Floral",
-      "desc": "Dispara un torrente de agua cargado de pétalos que causa daño y confunde al rival.",
-      "name_en": "Floral Torrent",
-      "visual_prompt": "glistening water droplets, swirling petal fragments, deep ocean blue currents, bioluminescent teal green glow, pearly white mist, aquamarine ripples, sapphire blue energy waves"
+      "name": "Mar Profundo",
+      "desc": "Invoca una corriente que reduce la velocidad del rival.",
+      "name_en": "Deep Current",
+      "visual_prompt": "gentle ocean waves, swirling deep blue currents, pearly white bubbles, sapphire blue ripples, pale aquamarine light rays, calm water surface, soft blue sunlight glinting"
     }
   ],
   "diffs": [
     {
       "from": "pétalos verdes",
-      "to": "pétalos translúcidos que brillan como gotas de agua"
+      "to": "pétalos azulados con reflejos cristalinos"
     },
     {
-      "from": "patas sólidas",
-      "to": "patas flexibles que se adaptan a superficies acuáticas"
+      "from": "raíces en tierra",
+      "to": "tentáculos flexibles que absorben agua"
     },
     {
-      "from": "suelo firme",
-      "to": "movimiento fluido sobre el agua, sin rastro en la superficie"
+      "from": "piel verde",
+      "to": "piel brillante con destellos azules"
     },
     {
-      "from": "olor a hierba",
-      "to": "fragancia de lluvia fresca y agua dulce"
+      "from": "cuatro patas",
+      "to": "patas adaptadas para nadar en agua"
     }
   ],
   "pokemon_id": "043",

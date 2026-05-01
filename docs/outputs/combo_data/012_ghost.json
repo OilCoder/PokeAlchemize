@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Alas",
-  "lore": "El Espectro Alas flota sin peso, sus alas translúcidas brillan con destellos pálidos. Sus patas se han vuelto etéreas, y su cuerpo emite un susurro frío al moverse. En el aire, deja rastros de niebla que envuelven a sus enemigos.",
+  "species_name": "Pokémon Aliento Espectral",
+  "lore": "Aliento Espectral flota sin peso, sus alas translúcidas emiten destellos pálidos. Sus patas se han vuelto etéreas, dejando huellas de niebla. Su cuerpo, antes de polvo, ahora absorbe la luz de la luna.",
   "moves": [
     {
-      "name": "Alas de Sombras",
-      "desc": "Inmoviliza al rival con alas que proyectan sombras densas, reduciendo su velocidad.",
-      "name_en": "Shadow Wings",
-      "visual_prompt": "dense violet shadows, swirling ghostly wings, misty graveyard atmosphere, moonlit tombstones, ethereal fog, deep violet and charcoal gray hues, pale silver accents, shadow violet particles, motion-blurred wisps"
+      "name": "Susurro de la Tumba",
+      "desc": "Lanza un susurro que debilita la defensa del oponente con un aura funesta.",
+      "name_en": "Grave Whisper",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue aura with faint moonlight gray outlines, ghostly whispers forming faint frost patterns, spectral white glow on moonlit ruins"
     },
     {
-      "name": "Susurro Fantasma",
-      "desc": "Ataca con un susurro que reduce la defensa del oponente, como un eco sin cuerpo.",
-      "name_en": "Ghost Whisper",
-      "visual_prompt": "ethereal mist swirling in deep violet and charcoal gray, pale silver echoes forming ghostly whispers, shadow violet ripples in misty graveyard setting, ghostly white orbs floating, ethereal fog drifting"
+      "name": "Viento de la Muerte",
+      "desc": "Genera una ráfaga de viento que reduce la velocidad del enemigo.",
+      "name_en": "Death Gale",
+      "visual_prompt": "spectral white wind currents, pale silver mist swirling, icy blue frost particles, translucent moonlight gray orbs drifting, shattered moonlit ruins background"
     },
     {
-      "name": "Nieve de Espíritu",
-      "desc": "Genera una neblina fría que baja la precisión de todos los ataques del enemigo.",
-      "name_en": "Spirit Frost",
-      "visual_prompt": "crystalline frost particles, swirling mist in deep violet and charcoal gray, pale silver glowing orbs, ghostly white tendrils, shadow violet fog, ethereal icy mist, no characters or Pokémon"
+      "name": "Polvo de la Oscuridad",
+      "desc": "Dispersa un polvo que oscurece los ojos y reduce la precisión.",
+      "name_en": "Dark Dust",
+      "visual_prompt": "translucent frost particles, pale silver mist swirling in moonlight, spectral orbs drifting slowly, icy blue glow, moonlit ruins backdrop, ghostly shimmer, ethereal haze, no characters or Pokémon"
     },
     {
-      "name": "Vuelo Espectral",
-      "desc": "Se eleva y ataca desde arriba, evitando los golpes físicos.",
-      "name_en": "Spectral Flight",
-      "visual_prompt": "floating ghostly violet orbs, swirling charcoal gray mist, pale silver moonlight beams, shadow violet energy trails, ethereal fog tendrils, ghostly white afterimages"
+      "name": "Espectro de la Noche",
+      "desc": "Crea una ilusión que confunde al oponente durante un turno.",
+      "name_en": "Night Phantom",
+      "visual_prompt": "translucent ghostly orbs drifting in moonlight, pale silver mist swirling around icy blue ruins, spectral white aura with faint moonlight glow, frozen mist particles, ethereal shimmering effect"
     }
   ],
   "diffs": [
     {
-      "from": "Alas grandes y extendidas",
-      "to": "Alas translúcidas y etéreas que brillan con destellos pálidos"
+      "from": "Insect body",
+      "to": "Cuerpo translúcido y etéreo, sin peso"
     },
     {
-      "from": "Cuerpo ligero y volador",
-      "to": "Cuerpo que emite un susurro frío y deja rastros de niebla"
+      "from": "Six limbs",
+      "to": "Patas desvanecidas en bruma, solo visibles en movimiento"
     },
     {
-      "from": "Insecto de color vibrante",
-      "to": "Color desvanecido, con tonos grises y pálidos"
+      "from": "Wings",
+      "to": "Alas de niebla que brillan bajo la luna"
     },
     {
-      "from": "Volar sin esfuerzo",
-      "to": "Flotar sin peso, sin tocar el suelo"
+      "from": "Dust",
+      "to": "Polvo que absorbe la luz, no la emite"
     }
   ],
   "pokemon_id": "012",

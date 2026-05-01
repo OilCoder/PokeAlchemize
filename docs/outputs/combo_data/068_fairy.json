@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fae Machamp",
-  "lore": "Machamp, ahora con un aura de hada, tiene piel suave y brillante. Sus músculos se vuelven más flexibles, con brillos dorados. Camina con gracia, no con fuerza bruta.",
+  "species_name": "Pokémon Hada Machamp",
+  "lore": "Hada Machamp se arrastra con cuatro patas, su piel ahora brillante como cristal de hielo. Sus músculos se funden con magia etérea, irradiando un aura suave que calma el caos. Sus ojos brillan con destellos dorados.",
   "moves": [
     {
-      "name": "Brillo de Hada",
-      "desc": "Lanza un resplandor mágico que reduce la defensa del rival.",
-      "name_en": "Fairy Gleam",
-      "visual_prompt": "soft pastel pink light rays, floating crystalline dewdrops, ivory white starbursts, pearl lavender glow, glowing starlight blue particles, misty twilight sky backdrop"
+      "name": "Cura de Hada",
+      "desc": "Restaura la salud del aliado con un toque de magia suave y brillante.",
+      "name_en": "Fairy Heal",
+      "visual_prompt": "soft pastel pink light, delicate lavender petals floating, ivory white sparkles, pearly gold glows, shimmering silver mist, gentle glowing orbs, moonlit meadow background"
     },
     {
-      "name": "Canto de Sueño",
-      "desc": "Canta una melodía hipnótica que induce un sueño profundo.",
-      "name_en": "Dream Song",
-      "visual_prompt": "hypnotic melody waves, floating pastel pink notes, glowing ivory white stardust, pearl lavender petals drifting, crystalline mint moonlight beams, soft misty twilight sky"
+      "name": "Danza de los Sueños",
+      "desc": "Crea un baile hipnótico que confunde a los enemigos y reduce su precisión.",
+      "name_en": "Dream Dance",
+      "visual_prompt": "glowing pastel pink and lavender orbs swirling in hypnotic spirals, delicate silver mist, ivory-white petals floating in slow motion, pearly gold light trails, soft moonlight beams filtering through misty flowers"
     },
     {
-      "name": "Pétalos Danzantes",
-      "desc": "Envía pétalos brillantes que confunden al oponente.",
-      "name_en": "Dancing Petals",
-      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, soft lavender mist, crystalline mint starlight trails, ivory white glow, delicate floral patterns, ethereal sparkle"
+      "name": "Barrera de Encaje",
+      "desc": "Crea un escudo brillante que absorbe ataques físicos y mágicos.",
+      "name_en": "Lace Shield",
+      "visual_prompt": "delicate lace patterns, shimmering pastel pink and ivory white glow, soft lavender mist, pearly gold accents, floating silver fairy lights, intricate geometric shield formation, ethereal moonlight reflection, translucent shimmering barrier"
     },
     {
-      "name": "Aurora Mágica",
-      "desc": "Crea una luz dorada que cura y fortalece al aliado.",
-      "name_en": "Magic Aurora",
-      "visual_prompt": "soft pastel pink aurora waves, glowing ivory white starlight particles, pearl lavender crystalline orbs, delicate mint-blue mist swirls, ethereal moonlit garden glow, gentle sparkling light trails"
+      "name": "Sueños de Cristal",
+      "desc": "Ataca con una lluvia de cristales que daña y confunde al enemigo.",
+      "name_en": "Crystal Dreams",
+      "visual_prompt": "shimmering crystal shards falling in slow motion, soft pastel pink and ivory white light beams, delicate lavender mist swirling, pearly gold glints, silver sparkles, moonlit meadow backdrop, no characters"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro brazos musculosos",
-      "to": "Brazos más delgados y brillantes, con brillos dorados"
+      "from": "cuatro piernas plantadas en el suelo",
+      "to": "patas cubiertas de brillo cristalino que brillan al moverse"
     },
     {
-      "from": "Postura de lucha",
-      "to": "Postura más ligera y fluida, sin peso en las piernas"
+      "from": "postura baja de arrastrarse",
+      "to": "movimientos fluidos y elegantes como un baile"
     },
     {
-      "from": "Piel áspera",
-      "to": "Piel suave y brillante, como si estuviera cubierta de polvo de hadas"
+      "from": "músculos definidos",
+      "to": "músculos fundidos con magia etérea, brillando suavemente"
     },
     {
-      "from": "Fuerza bruta",
-      "to": "Fuerza delicada y precisa, con movimientos ágiles"
+      "from": "aura intimidante",
+      "to": "aura suave que calma y relaja a los enemigos"
     }
   ],
   "pokemon_id": "068",

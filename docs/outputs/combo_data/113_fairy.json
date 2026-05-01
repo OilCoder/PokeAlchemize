@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Cura Aérea",
-  "lore": "Cada paso de Cura Aérea deja estelas de luz brillante. Su pelaje suave brilla con destellos de polvo de hada, y sus patas se afianzan en el suelo con un aura mágica que cura heridas en el contacto.",
+  "species_name": "Pokémon Brillo Aéreo",
+  "lore": "Chansey, ahora envuelta en bruma de hadas, camina con pasos etéreos. Sus patas brillan con destellos dorados, y su cuerpo emana un aura protectora que cura heridas con suaves destellos de luz.",
   "moves": [
     {
-      "name": "Cura de Estrellas",
-      "desc": "Curación suave con destellos de luz que sanan a aliados en un radio amplio.",
-      "name_en": "Star Heal",
-      "visual_prompt": "soft pastel pink light beams, glowing ivory white star clusters, pearl lavender mist, crystalline mint energy orbs, starlight blue shimmering particles, wide radius glow effect, moonlit garden backdrop with glowing flowers, gentle misty twilight atmosphere, no characters or Pokémon shown, Ken Sugimori style VFX art"
+      "name": "Belleza Aérea",
+      "desc": "Crea un campo de luz que cura a aliados y refuerza su defensa temporalmente.",
+      "name_en": "Air Beauty",
+      "visual_prompt": "soft pastel pink light orbs floating in a moonlit meadow, delicate lavender petals swirling, ivory white shimmering aura, pearly gold particles, silver mist tendrils, glowing fairy lights, no characters"
     },
     {
-      "name": "Polvo de Sueños",
-      "desc": "Lanza un polvo que induce sueños reparadores, restaurando energía y eliminando debilidades.",
-      "name_en": "Dream Dust",
-      "visual_prompt": "floating pastel pink and pearl lavender dust particles, glowing starlight blue crystalline orbs, soft misty twilight sky backdrop, delicate floral patterns, shimmering energy trails, ethereal glow, smooth crystalline textures"
+      "name": "Ala de Diosa",
+      "desc": "Ataca con un movimiento rápido, elevándose en el aire para golpear al rival.",
+      "name_en": "Goddess Wing",
+      "visual_prompt": "floating pastel pink petals, delicate lavender mist, shimmering silver sparkles, ivory white light trails, ethereal glow, moonlit meadow backdrop"
     },
     {
-      "name": "Bailarina Celestial",
-      "desc": "Danza en el aire, generando un campo de energía que mejora el ataque y defensa.",
-      "name_en": "Celestial Dance",
-      "visual_prompt": "floating pastel pink petals, swirling ivory white energy rings, pearl lavender starlight trails, crystalline mint glowing orbs, soft misty twilight sky background, ethereal shimmering particles"
+      "name": "Cristal de Sueño",
+      "desc": "Envuelve al enemigo en un sueño cristalino que reduce su velocidad.",
+      "name_en": "Crystal Dream",
+      "visual_prompt": "crystalline dreamy fog, delicate pastel pink and lavender orbs floating in midair, shimmering silver dewdrops, ivory white mist swirling around soft glowing fairy lights, pearly gold accents reflecting moonlight, ethereal sparkling particles, gentle motion blur on the edges"
     },
     {
-      "name": "Alma de Hada",
-      "desc": "Emite un aura de hada que fortalece los ataques mágicos y debilita a los enemigos.",
-      "name_en": "Fairy Soul",
-      "visual_prompt": "glowing pastel pink orbs, floating crystalline dewdrops, soft lavender mist, starlight blue energy trails, delicate floral patterns in ivory white, shimmering fairy lights"
+      "name": "Pétalos de Felicidad",
+      "desc": "Lanza pétalos brillantes que curan y aumentan la alegría de los aliados.",
+      "name_en": "Joyful Petals",
+      "visual_prompt": "glowing pastel pink petals, delicate lavender sparkles, ivory white mist, pearly gold shimmer, soft silver light rays, floating in moonlit meadow, ethereal glow, no characters"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas",
-      "to": "Patas con destellos de polvo de hada que sanan al tocar el suelo."
+      "from": "patas en el suelo",
+      "to": "patas brillantes con destellos dorados que levitan ligeramente"
     },
     {
-      "from": "Pelaje suave",
-      "to": "Pelaje brillante con destellos de luz que refleja energía curativa."
+      "from": "piel blanca",
+      "to": "piel cubierta por un brillo dorado que brilla suavemente"
     },
     {
-      "from": "Bajo postura",
-      "to": "Postura elevada con aura mágica que flota ligeramente sobre el suelo."
+      "from": "movimiento lento",
+      "to": "movimiento etéreo y fluido, como si flotara"
     },
     {
-      "from": "Apariencia tranquila",
-      "to": "Apariencia radiante con un aura de protección que envuelve a aliados."
+      "from": "curación básica",
+      "to": "curación con destellos de luz y efectos protectores"
     }
   ],
   "pokemon_id": "113",

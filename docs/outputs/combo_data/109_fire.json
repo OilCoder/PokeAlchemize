@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Venenosa",
-  "lore": "Este Koffing ahora arde con llamas venenosas, sus piernas cortas se han vuelto de lava fundida. Su cuerpo emite humo tóxico mientras exhala llamas rojas, mezclando veneno y fuego en un peligroso equilibrio.",
+  "lore": "El Pokémon Llama Venenosa se forma cuando el veneno de Koffing se inflama en llamas. Su cuerpo gelatinoso ahora brilla con destellos rojos, liberando humo ardiente que huele a azufre. Sus ojos llameantes observan con intensidad letal.",
   "moves": [
     {
-      "name": "Llama Venenosa",
-      "desc": "Lanza llamas que infectan al objetivo con veneno, reduciendo su velocidad gradualmente.",
+      "name": "Humo Inflamado",
+      "desc": "Lanza una nube de humo ardiente que quema y envenena al oponente simultáneamente.",
+      "name_en": "Blazing Smoke",
+      "visual_prompt": "crimson smoke plumes, molten gold embers, orange flame bursts, amber glow particles, charcoal black smoke tendrils, volcanic ash swirls, fiery haze, dynamic smoke dispersion"
+    },
+    {
+      "name": "Llamarada Tóxica",
+      "desc": "Genera una explosión de llamas que libera veneno en el aire, afectando a todos los enemigos.",
+      "name_en": "Toxic Blaze",
+      "visual_prompt": "crimson red fire orbs, toxic green smoke swirls, molten gold embers, charred black ash particles, volcanic crater backdrop, glowing lava flows, ember-lit smoky sky"
+    },
+    {
+      "name": "Fuego de Veneno",
+      "desc": "Ataca con llamas que absorben veneno del oponente, aumentando su poder.",
       "name_en": "Poison Flame",
-      "visual_prompt": "crimson fire tendrils, amber-orange embers swirling in smoke, molten gold venom droplets, charcoal black smoke trails, glowing ember particles"
+      "visual_prompt": "crimson red flames with molten gold embers, amber glow tendrils absorbing toxic green mist, charcoal black smoke swirls, volcanic crater backdrop with glowing lava flows, ember-lit smoky sky"
     },
     {
-      "name": "Humo Tóxico",
-      "desc": "Cubre al enemigo con humo venenoso que disminuye su precisión y causa daño por veneno.",
-      "name_en": "Toxic Smoke",
-      "visual_prompt": "crimson red smoke swirls with amber orange particles, molten gold embers floating, charcoal black toxic mist, glowing ember trails, volcanic crater backdrop, smoke-filled air, toxic aura"
-    },
-    {
-      "name": "Cuerpo de Lava",
-      "desc": "Aumenta su defensa al convertir su cuerpo en lava, absorbiendo el 30% del daño recibido.",
-      "name_en": "Lava Body",
-      "visual_prompt": "molten lava flow, crimson red and amber orange swirls, glowing ember particles, molten gold droplets, charcoal black smoke trails, volcanic crater backdrop, stylized 2D VFX"
-    },
-    {
-      "name": "Explosión Ígnea",
-      "desc": "Provoca una explosión de fuego que daña a todos los enemigos cercanos, aumentando el daño con veneno.",
-      "name_en": "Fiery Blast",
-      "visual_prompt": "crimson fire explosion, molten gold embers, amber-orange flames, swirling smoke, volcanic ash particles, glowing ember trails, charcoal black smoke rings, stylized 2D fire VFX, Ken Sugimori style"
+      "name": "Estruendo Luminoso",
+      "desc": "Emite un destello de luz roja que ciega y quema al rival, reduciendo su precisión.",
+      "name_en": "Luminous Roar",
+      "visual_prompt": "crimson red light beams, molten gold embers, glowing lava flows, ember-lit smoky sky, charred black ash particles, intense heat haze, fiery orange afterimage"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo de gas tóxico",
-      "to": "Cuerpo de lava venenosa que arde y envenena al mismo tiempo"
+      "from": "Cuerpo gelatinoso",
+      "to": "Brilla con destellos rojos y libera humo ardiente"
     },
     {
-      "from": "Piernas cortas y firmes",
-      "to": "Piernas de lava fundida que brillan con calor intenso"
+      "from": "Veneno tóxico",
+      "to": "Se convierte en llama venenosa que quema y envenena"
     },
     {
-      "from": "Respiración tóxica",
-      "to": "Exhalación de llamas rojas que combinan veneno y fuego"
+      "from": "Ojos oscuros",
+      "to": "Se iluminan con llamas rojas y brillantes"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura estable sobre lava que emite humo tóxico"
+      "from": "Movimientos lentos",
+      "to": "Adquiere velocidad y fuerza en sus ataques"
     }
   ],
   "pokemon_id": "109",

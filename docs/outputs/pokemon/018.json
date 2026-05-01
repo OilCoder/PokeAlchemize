@@ -1,33 +1,35 @@
 {
   "identity_traits": [
-    "rounded head",
-    "short stubby legs",
-    "pointed ears",
-    "curled tail tip",
-    "compact bird-like body silhouette"
+    "bipedal stance with two legs",
+    "long tail extending behind",
+    "distinctive head crest",
+    "wings positioned on shoulders",
+    "feathers covering body",
+    "upright posture"
   ],
   "original_type_traits": [
-    "red tail",
-    "brown wings",
-    "beige body coloration"
+    "red crest on top of head",
+    "red tail coloration",
+    "pink beak coloration"
   ],
   "transformable_parts": [
-    "wings",
-    "tail",
-    "head",
-    "ear shape",
-    "leg structure",
-    "body coloration"
+    "head crest",
+    "tail coloration",
+    "wings texture",
+    "beak color",
+    "feather patterns",
+    "body color"
   ],
   "suppress_colors": [
     "red",
-    "brown",
-    "beige"
+    "pink",
+    "beige",
+    "brown"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, low stance",
-    "pointed ears, small rounded head, curled tail tip",
-    "wings with distinct feather patterns"
+    "bipedal, upright stance",
+    "long head crest extending backward",
+    "long tail with tapered tip"
   ],
   "pokemon_id": "018",
   "pokemon_name": "pidgeot",
@@ -43,20 +45,21 @@
       "pink"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip",
-      "wings"
-    ],
-    "silhouette": "The Pokémon has a compact, bird-like body with a rounded head and short legs, suggesting a small to medium size.",
-    "type_markers": [
+      "beige wings",
+      "brown head with red crest",
+      "pink beak",
       "red tail",
-      "brown wings"
+      "beige body"
+    ],
+    "body_plan": "biped",
+    "silhouette": "The creature has a bird-like silhouette with a long tail and wings, standing upright on two legs.",
+    "type_markers": [
+      "red crest on head",
+      "red tail"
     ],
     "distinctive_features": [
-      "pointed ears",
-      "curled tail tip"
+      "long red crest on head",
+      "long tail with red coloration"
     ]
   }
 }

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Ladrón",
-  "lore": "Este Meowth es ahora un espíritu errante que camina sobre sombras. Sus patas brillan con aura gris, y sus ojos rojos brillan en la oscuridad. Su presencia se siente como un susurro frío en la noche.",
+  "species_name": "Pokémon Fantasma de Gato",
+  "lore": "Fantasma de Gato se desliza en la oscuridad, sus patas traseras se vuelven translúcidas. Sus ojos brillan con un resplandor plateado mientras absorbe sombras para alimentarse. Su pelaje gris se funde con la noche.",
   "moves": [
     {
       "name": "Sombra Silenciosa",
-      "desc": "Inmoviliza al rival con un paso suave, dejándolo sin poder moverse por un turno.",
+      "desc": "Mueve al enemigo a una posición oculta, evitando ataques durante un turno.",
       "name_en": "Silent Shadow",
-      "visual_prompt": "glowing violet mist swirling around moonlit tombstones, soft charcoal gray tendrils coiling like silent whispers, pale silver particles floating in ethereal fog, shadow violet aura fading into ghostly white"
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling around moonlit ruins, icy blue frost patterns on ancient stone, ghostly white glow, moonlight gray shadows, ethereal mist trails"
     },
     {
-      "name": "Risa de la Oscuridad",
-      "desc": "Ataca con una risa escalofriante que reduce la defensa del oponente.",
-      "name_en": "Dark Laughter",
-      "visual_prompt": "shimmering violet laughter echoes, ghostly silver mist swirling, charcoal gray shadows forming distorted laughter shapes, pale white moonlight piercing through mist, shadow violet ripples in air"
+      "name": "Aliento de Espectro",
+      "desc": "Lanza un viento frío que reduce la defensa del rival.",
+      "name_en": "Spectral Breath",
+      "visual_prompt": "cold wind swirls, spectral white mist, pale silver orbs drifting, icy blue frost patterns, moonlight gray translucency, ghostly aura, ethereal glow, frozen mist particles, spectral energy trails"
     },
     {
-      "name": "Espejismo de Plata",
-      "desc": "Crea una ilusión que confunde al enemigo, alterando sus movimientos.",
-      "name_en": "Silver Mirage",
-      "visual_prompt": "shimmering silver mist, distorted ghostly reflections, swirling violet fog, pale silver orbs floating in shadowy air, ethereal moonlight glow, fractured mirror shards, deep violet shadows, charcoal gray mist tendrils"
+      "name": "Cazador de Sombras",
+      "desc": "Ataca en múltiples direcciones desde sombras cercanas.",
+      "name_en": "Shadow Hunter",
+      "visual_prompt": "translucent spectral orbs drifting through moonlit ruins, pale silver mist swirling, icy blue moonlight beams, ghostly shadow trails, frosty translucent particles, moonlight gray architecture"
     },
     {
-      "name": "Aliento de la Línea",
-      "desc": "Lanza un aliento frío que causa daño y quema el objetivo.",
-      "name_en": "Ghostly Breath",
-      "visual_prompt": "frosty mist swirling in ghostly violet and charcoal gray, glowing pale silver embers, ethereal fog drifting over moonlit tombstones, shadow violet aura with icy crystals forming in midair"
+      "name": "Invisibilidad Fantasmal",
+      "desc": "Se vuelve invisible, aumentando su velocidad temporalmente.",
+      "name_en": "Phantom Veil",
+      "visual_prompt": "translucent ghostly mist, shimmering pale silver orbs, icy blue moonlight beams, floating spectral particles, ghostly translucent trails, moonlit ruin ruins in background"
     }
   ],
   "diffs": [
     {
-      "from": "Patas compactas en el suelo",
-      "to": "Patas brillantes que dejan huellas de sombra"
+      "from": "patas plantadas en el suelo",
+      "to": "patas translúcidas que se funden con las sombras"
     },
     {
-      "from": "Postura compacta",
-      "to": "Postura flotante sobre sombras"
+      "from": "pelaje gris",
+      "to": "pelaje que se mezcla con la oscuridad nocturna"
     },
     {
-      "from": "Ojos normales",
-      "to": "Ojos rojos que brillan en la oscuridad"
+      "from": "postura baja",
+      "to": "deslizamiento silencioso sin tocar el suelo"
     },
     {
-      "from": "Sonrisa amigable",
-      "to": "Sonrisa fría que suscita miedo"
+      "from": "ojos normales",
+      "to": "ojos brillantes con resplandor plateado"
     }
   ],
   "pokemon_id": "052",

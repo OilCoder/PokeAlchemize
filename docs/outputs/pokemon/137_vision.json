@@ -1,0 +1,23 @@
+{
+  "body_colors": [
+    "light blue",
+    "dark red",
+    "pink"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "tail",
+    "limbs"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a blocky, geometric shape with four visible legs, suggesting a quadrupedal locomotion.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "geometric, blocky design",
+    "four visible legs",
+    "pointed tail"
+  ]
+}

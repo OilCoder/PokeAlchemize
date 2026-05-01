@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Chispa Tóxica",
-  "lore": "Chispa Tóxica emite ondas eléctricas que recubren su cuerpo venenoso. Sus patas brillan con chispas azules, mientras su cuerpo hinchado irradia energía peligrosa. Cada movimiento libera descargas letales.",
+  "lore": "Chispa Tóxica brilla con energía eléctrica mientras su cuerpo viscoso se electrifica. Sus burbujas de gas se cargan con voltios, emitiendo destellos azules en la oscuridad.",
   "moves": [
     {
-      "name": "Descarga Venenosa",
-      "desc": "Lanza descargas eléctricas que envenenan al objetivo con cada golpe.",
+      "name": "Descarga Tóxica",
+      "desc": "Lanza un chorro de gas eléctrico que inyecta veneno y paraliza al oponente.",
       "name_en": "Toxic Shock",
-      "visual_prompt": "neon yellow electric arcs, violet spark trails, crackling energy fields, stormy sky backdrop, electric cyan lightning bolts, bright white discharge points"
+      "visual_prompt": "vibrant electric blue gas stream, neon yellow venom droplets, crisp white paralysis symbols, bright electric white sparks, pale blue glow trails, urban cityscape neon signs in background, electric storm clouds"
     },
     {
-      "name": "Bomba Tóxica",
-      "desc": "Proyecta una bola de veneno cargada eléctricamente que explota en impacto.",
-      "name_en": "Toxic Bolt",
-      "visual_prompt": "electric blue venom orb, neon yellow energy crackles, violet sparks, bright white explosion, stormy sky backdrop, crackling energy fields, neon-lit thunderclouds"
+      "name": "Burbuja Relámpago",
+      "desc": "Crea burbujas cargadas que explotan con descargas eléctricas en el aire.",
+      "name_en": "Lightning Bubble",
+      "visual_prompt": "vibrant electric blue bubbles, neon yellow lightning sparks, crisp white explosion bursts, bright electric white energy trails, pale blue glow accents, urban city skyline silhouette in background, neon signs flickering"
     },
     {
-      "name": "Chispa Carga",
-      "desc": "Aumenta su velocidad y ataque con una carga eléctrica acumulada.",
-      "name_en": "Charge Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy trails, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field"
+      "name": "Electroveneno",
+      "desc": "Ataca con un campo eléctrico que envenena y daña con choques.",
+      "name_en": "Electrovenom",
+      "visual_prompt": "vibrant electric blue energy field, neon yellow lightning bolts, crisp white static sparks, bright electric white shockwaves, pale blue glow pulses, urban cityscape neon signs flickering in background"
     },
     {
-      "name": "Estruendo Eléctrico",
-      "desc": "Crea una ola de energía eléctrica que aturde a todos los enemigos cercanos.",
-      "name_en": "Electric Shockwave",
-      "visual_prompt": "crackling electric blue energy waves, neon yellow sparks, violet lightning bolts, bright white static bursts, stormy sky backdrop with neon-lit thunderclouds"
+      "name": "Carga Viscosa",
+      "desc": "Aumenta el ataque con un impulso eléctrico que recorre su cuerpo viscoso.",
+      "name_en": "Sludge Surge",
+      "visual_prompt": "electric blue energy pulses, viscous yellow slime trails, neon yellow sparks, crisp white shockwaves, pale blue glow ripples, urban city skyline silhouette"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo hinchado de gas tóxico",
-      "to": "Cuerpo hinchado con chispas eléctricas que brillan en azul"
+      "from": "Cuerpo viscoso y amorfoso",
+      "to": "Cuerpo cargado con energía eléctrica que brilla y paraliza al tocar"
     },
     {
-      "from": "Patas cortas y plantadas",
-      "to": "Patas cubiertas de chispas que emiten energía al moverse"
+      "from": "Gas tóxico inofensivo",
+      "to": "Gas eléctrico que genera descargas y paraliza"
     },
     {
-      "from": "Color gris verdoso",
-      "to": "Color gris azulado con destellos eléctricos"
+      "from": "Sin extremidades definidas",
+      "to": "Burbujas eléctricas que actúan como extremidades móviles"
     },
     {
-      "from": "Vulnerabilidad a agua",
-      "to": "Resistencia a ataques eléctricos y mayor potencia en combate"
+      "from": "Color gris pálido",
+      "to": "Matiz azul eléctrico brillante con destellos"
     }
   ],
   "pokemon_id": "109",

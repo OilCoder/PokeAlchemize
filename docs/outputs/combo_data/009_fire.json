@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Blastoise, ahora con llamas en sus cañones, camina con postura arrolladora. Su caparazón absorbe el fuego para liberar llamaradas al aire. Las llamas dan un brillo dorado a su piel húmeda.",
+  "lore": "Blastoise, ahora envuelto en llamas, camina con pasos firmes sobre el agua ardiente. Su caparazón de agua se transforma en un escudo de fuego, mientras sus cañones lanzan llamas en lugar de chorros de agua.",
   "moves": [
     {
-      "name": "Llamarada Húmeda",
-      "desc": "Lanza una llamarada que se enfría al contacto con el agua, creando vapor.",
-      "name_en": "Steam Blast",
-      "visual_prompt": "crimson red flames cooling into swirling steam, molten gold droplets, charcoal black smoke trails, amber orange vapor plumes, glowing ember sparks, volcanic crater backdrop"
+      "name": "Llama de Mar",
+      "desc": "Lanza una llamarada que quema el agua del campo, creando vapor que oculta el movimiento.",
+      "name_en": "Sea Flame",
+      "visual_prompt": "crimson red flames, molten gold embers, steam rising from water, amber glow, charcoal black smoke, volcanic crater background, glowing lava flows, ember-lit smoky sky"
     },
     {
       "name": "Chorro de Fuego",
-      "desc": "Dispara un chorro de llama que quema y se extiende en el aire.",
+      "desc": "Dispara un chorro de llamas que consume el agua circundante, generando una explosión.",
       "name_en": "Flame Jet",
-      "visual_prompt": "crimson red flame jet, molten gold embers, amber orange smoke trails, glowing ember particles, volcanic crater backdrop, charcoal black smoke swirls, dynamic motion lines"
+      "visual_prompt": "crimson red flame stream, molten gold embers, ash particles swirling, bright orange lava droplets, charcoal black smoke plume, volcanic crater backdrop, ember-lit smoky sky"
     },
     {
-      "name": "Cascada de Llamas",
-      "desc": "Crea una cascada de llamas que se desplaza hacia el enemigo.",
-      "name_en": "Flame Cascade",
-      "visual_prompt": "crimson red flames, molten gold droplets, amber orange sparks, swirling smoke trails, glowing ember particles, volcanic crater backdrop, dynamic downward flow"
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de llamas alrededor de sí mismo, reduciendo el daño recibido.",
+      "name_en": "Flame Shield",
+      "visual_prompt": "crimson red flames swirling in a protective barrier, molten gold embers floating in the air, amber glow radiating outward, charcoal black smoke wisps, dynamic circular motion, volcanic crater background elements"
     },
     {
-      "name": "Fuego Marino",
-      "desc": "Genera un fuego que se mezcla con el agua para crear una explosión de vapor.",
-      "name_en": "Marine Fire",
-      "visual_prompt": "crimson red steam plumes, amber orange water droplets, molten gold vapor explosions, charcoal black smoke swirls, glowing ember sparks, volcanic crater background, dynamic swirling motion"
+      "name": "Ola de Fuego",
+      "desc": "Genera una ola de llamas que cubre el campo, quemando a todos los oponentes.",
+      "name_en": "Fire Wave",
+      "visual_prompt": "crimson fire waves, molten orange embers, glowing lava flows, ash particles, ember-lit smoky sky, volcanic crater backdrop, charcoal black smoke trails, bright orange heat haze"
     }
   ],
   "diffs": [
     {
+      "from": "caparazón de agua",
+      "to": "caparazón de fuego que emite calor intenso"
+    },
+    {
       "from": "cañones de agua",
-      "to": "cañones de llama que emiten vapor"
+      "to": "cañones de llamas que lanzan fuego en lugar de agua"
     },
     {
-      "from": "caparazón acuático",
-      "to": "caparazón que absorbe el fuego y libera llamaradas"
+      "from": "postura baja y arrastrada",
+      "to": "postura erguida con pies plantados en llamas"
     },
     {
-      "from": "postura baja",
-      "to": "postura arrolladora con fuerza de fuego"
-    },
-    {
-      "from": "piel húmeda",
-      "to": "piel húmeda con brillo dorado de las llamas"
+      "from": "movimiento lento en agua",
+      "to": "movimiento rápido y preciso sobre el agua ardiente"
     }
   ],
   "pokemon_id": "009",

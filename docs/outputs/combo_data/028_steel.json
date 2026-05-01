@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero de Arena",
-  "lore": "Sandslash, ahora revestido de acero, camina con paso firme sobre el desierto. Sus espinas se han convertido en láminas metálicas que brillan bajo el sol, y sus patas son sólidas como rocas.",
+  "species_name": "Pokémon Acero Arena",
+  "lore": "Acero Arena se desplaza con paso firme sobre el suelo, sus patas cubiertas de escamas de acero brillante. Su postura baja y sólida refleja su resistencia, mientras que su pelaje gris plateado brilla bajo el sol. El acero le otorga una fuerza inquebrantable.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta con láminas metálicas que cortan cualquier material con facilidad.",
-      "name_en": "Steel Cutter",
-      "visual_prompt": "shimmering metallic blades slicing through air, polished silver edges, gunmetal gray particles, electric blue energy trails, neon cyan sparks, industrial city skyline silhouette in background"
+      "desc": "Corta con garras afiladas de acero, causando daño físico y posiblemente reducir la defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, jagged metallic shards, glowing gunmetal gray energy trails, polished chrome sparks, matte black impact rings, deep steel blue aura, industrial workshop background glow"
     },
     {
-      "name": "Barrera de Grava",
-      "desc": "Crea una barrera de grava y acero que bloquea ataques físicos.",
-      "name_en": "Gravel Barrier",
-      "visual_prompt": "gunmetal gray gravel barrier, polished silver steel shards, metallic steel blue energy glow, electric blue neon streaks, industrial cityscape steam vents, polished silver reflective surface, neon cyan particle trails"
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero alrededor de sí mismo, aumentando su defensa y bloqueando ataques especiales.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished steel shield, glowing energy lines, industrial workshop background, gunmetal gray, silver accents, matte black edges, deep steel blue glow, geometric patterns, reflective surface, energy barrier, metallic sheen"
     },
     {
-      "name": "Impacto Estelar",
-      "desc": "Salta y golpea con fuerza, generando ondas de choque en el suelo.",
-      "name_en": "Stellar Impact",
-      "visual_prompt": "metallic shockwaves radiating from a central point, polished silver ripples, gunmetal gray energy trails, electric blue sparks, neon cyan glowing cracks, industrial city skyline silhouette in background"
+      "name": "Golpe de Martillo",
+      "desc": "Ataca con un golpe contundente con una pata cubierta de acero, causando daño físico y posiblemente aturdir.",
+      "name_en": "Steel Hammer Strike",
+      "visual_prompt": "shimmering steel foot, polished chrome impact lines, gunmetal gray energy burst, matte black sparks, deep steel blue aura, industrial workshop metal surface reflections"
     },
     {
-      "name": "Escudo de Hierro",
-      "desc": "Cubre su cuerpo con un escudo de acero que aumenta su defensa.",
-      "name_en": "Iron Shield",
-      "visual_prompt": "gunmetal gray steel shield, polished silver edges, metallic steam vents, neon cyan energy waves, industrial cityscape background, electric blue glow, geometric shield patterns, reflective surface, dynamic motion lines"
+      "name": "Escudo de Lluvia",
+      "desc": "Crea una lluvia de partículas de acero que aturde al oponente y reduce su precisión.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "shimmering steel particles falling like rain, polished chrome droplets with sharp edges, gunmetal gray mist, deep steel blue energy trails, matte black impact rings, industrial workshop glow"
     }
   ],
   "diffs": [
     {
-      "from": "espinas en su lomo",
-      "to": "se transforman en láminas metálicas brillantes y afiladas"
+      "from": "patas de tierra",
+      "to": "patas cubiertas de escamas de acero brillante"
     },
     {
-      "from": "patas blandas",
-      "to": "se vuelven sólidas como rocas y resistentes"
+      "from": "pelaje gris",
+      "to": "pelaje gris plateado que brilla bajo el sol"
     },
     {
-      "from": "bajo postura",
-      "to": "camina con paso firme y elevado gracias al acero"
+      "from": "postura baja y flexible",
+      "to": "postura baja y sólida, resistente al impacto"
     },
     {
-      "from": "piel terrosa",
-      "to": "revestida por un acero pulido y frío"
+      "from": "resistencia a golpes",
+      "to": "resistencia inquebrantable al acero, impenetrable para ataques físicos"
     }
   ],
   "pokemon_id": "028",

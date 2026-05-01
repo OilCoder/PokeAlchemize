@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Aguijón",
-  "lore": "Acero Aguijón, con su armadura de acero pulido, se desplaza con gracia en su postura baja. Sus aguijones brillan con reflejos metálicos, y su cuerpo resplandece bajo la luz del sol.",
+  "species_name": "Pokémon Acero Veneno",
+  "lore": "Beedrill se ha transformado en un ser de acero brillante, con alas afiladas como cuchillas y un cuerpo cubierto de escamas metálicas. Su veneno se ha solidificado en una capa protectora, brillando con reflejos fríos.",
   "moves": [
     {
-      "name": "Cortante Acero",
-      "desc": "Ataca con aguijones afilados de acero que cortan cualquier defensa.",
-      "name_en": "Steel Needle",
-      "visual_prompt": "shimmering steel needles, razor-sharp edges, gunmetal gray particles, polished silver trails, metallic steam vents, neon cyan glow, electric blue energy arcs, industrial city skyline backdrop"
+      "name": "Cuchilla de Acero",
+      "desc": "Ataca con garras afiladas de acero que cortan cualquier defensa.",
+      "name_en": "Steel Blade",
+      "visual_prompt": "shimmering steel claws, razor-sharp edges, polished chrome glint, gunmetal gray energy trails, deep steel blue sparks, industrial workshop metal surfaces, geometric energy lines"
     },
     {
-      "name": "Impacto Estelar",
-      "desc": "Lanza un ataque desde arriba que causa daño masivo al oponente.",
-      "name_en": "Stellar Impact",
-      "visual_prompt": "shattering steel fragments, glowing neon cyan energy trails, industrial city skyline silhouette, polished silver sparks, electric blue shockwaves, metallic steam vents emitting vapor"
+      "name": "Veneno Estelar",
+      "desc": "Libera una lluvia de agujas venenosas que envenenan al enemigo.",
+      "name_en": "Star Poison",
+      "visual_prompt": "shimmering steel needles, toxic green mist, industrial workshop backdrop, polished chrome surface, glowing energy lines, deep steel blue accents, matte black shadows, toxic venom droplets"
     },
     {
-      "name": "Resistencia Inquebrantable",
-      "desc": "Aumenta su defensa al máximo, bloqueando todos los ataques.",
-      "name_en": "Unbreakable Defense",
-      "visual_prompt": "gunmetal gray energy shield, polished silver reflective surface, metallic steel blue glowing edges, electric blue energy pulses, neon cyan particle bursts, industrial cityscape backdrop, metallic steam vents"
+      "name": "Impacto Metálico",
+      "desc": "Golpea con un impacto que genera ondas de vibración metálica.",
+      "name_en": "Metal Impact",
+      "visual_prompt": "metallic shockwaves rippling across polished steel surfaces, gunmetal gray energy lines glowing with deep steel blue accents, matte black vibrations forming geometric patterns, polished chrome reflections shimmering"
     },
     {
-      "name": "Ráfaga de Cuchillas",
-      "desc": "Dispara una ráfaga de cuchillas metálicas que dañan múltiples objetivos.",
-      "name_en": "Steel Gust",
-      "visual_prompt": "metallic blades swirling in a vortex, gunmetal gray and polished silver reflections, electric blue energy trails, neon cyan sparks, industrial city skyline silhouette in background, steam vents emitting metallic mist"
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo de acero que absorbe golpes y refuerza defensa.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray shield with polished chrome edges, deep steel blue energy lines glowing inside, matte black metallic texture, industrial workshop background glow, geometric shield patterns, subtle metallic reflections"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas para caminar",
-      "to": "Patas reforzadas con acero, permitiendo movimiento rápido y estable."
+      "from": "Cuerpo blando y esponjoso",
+      "to": "Cuerpo cubierto de escamas metálicas resistentes"
     },
     {
-      "from": "Agujones venenosos",
-      "to": "Agujones de acero pulido, inofensivos para sí mismo pero mortales para el enemigo."
+      "from": "Aletas de insecto suaves",
+      "to": "Aletas afiladas como cuchillas de acero"
     },
     {
-      "from": "Cuerpo flexible",
-      "to": "Cuerpo rígido y metálico, resistiendo golpes y ataques."
+      "from": "Veneno líquido",
+      "to": "Veneno solidificado en una capa protectora brillante"
     },
     {
-      "from": "Color verde oscuro",
-      "to": "Color plateado brillante, reflejando la luz del sol."
+      "from": "Movimiento lento",
+      "to": "Movimiento rápido y preciso con garras afiladas"
     }
   ],
   "pokemon_id": "015",

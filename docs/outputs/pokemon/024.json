@@ -1,35 +1,35 @@
 {
   "identity_traits": [
-    "snake-like body with a long neck",
-    "rounded head with pointed ears",
-    "curled tail",
-    "red eye with black outline",
-    "sharp teeth visible when mouth is open",
-    "gray and white body with black markings"
+    "hooded head with extended neck frill",
+    "long serpentine body with segmented pattern",
+    "pointed fangs visible when mouth open",
+    "red eye with yellow iris",
+    "gray body with white and yellow banding",
+    "curved tail ending in a blunt tip"
   ],
   "original_type_traits": [
-    "red eye with black outline (poison type marker)",
-    "sharp teeth (poison type association)",
-    "black and white body pattern (poison type color scheme)"
+    "red eye with yellow iris",
+    "yellow banding on body segments",
+    "fanged mouth structure typical of poison-type snakes"
   ],
   "transformable_parts": [
-    "tail",
-    "head",
-    "body markings",
-    "eye color",
-    "teeth shape",
-    "skin texture"
+    "eye iris color",
+    "body banding pattern",
+    "head hood shape",
+    "tail tip shape",
+    "skin texture pattern",
+    "mouth fang arrangement"
   ],
   "suppress_colors": [
     "red",
-    "black",
+    "yellow",
     "white",
     "gray"
   ],
   "anchor_phrases": [
-    "serpentine body coiled on ground, low stance",
-    "red eye with black outline, sharp teeth visible",
-    "gray and white body with black markings"
+    "serpentine body, no limbs, elongated form",
+    "hooded head with extended neck frill",
+    "pointed fangs visible when mouth open"
   ],
   "pokemon_id": "024",
   "pokemon_name": "arbok",
@@ -39,27 +39,27 @@
   "visual_facts": {
     "body_colors": [
       "gray",
-      "red",
       "white",
-      "black"
+      "red",
+      "yellow"
     ],
     "body_parts": [
-      "rounded head",
-      "long neck",
-      "curled tail",
-      "pointed ears",
-      "sharp teeth",
-      "red eye with black outline"
+      "head",
+      "body",
+      "tail",
+      "fangs",
+      "eye",
+      "nose"
     ],
-    "silhouette": "The Pokémon has a snake-like body with a rounded head and a long, coiled tail, giving it a compact and somewhat menacing appearance.",
+    "body_plan": "serpentine",
+    "silhouette": "The creature has a snake-like body with a hooded head, suggesting a serpentine locomotion.",
     "type_markers": [
-      "red eye with black outline",
-      "sharp teeth"
+      "red eye with yellow iris"
     ],
     "distinctive_features": [
-      "long neck",
-      "curled tail",
-      "pointed ears"
+      "hooded head",
+      "fangs",
+      "red eye"
     ]
   }
 }

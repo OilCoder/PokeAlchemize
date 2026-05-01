@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Carga Eléctrica",
-  "lore": "Este Porygon ahora irradia energía eléctrica en cada movimiento. Sus patas brillan con chispas azules, y su cuerpo emite un zumbido constante. Sus ojos centellean con poder renovado.",
+  "species_name": "Pokémon Red Electrónico",
+  "lore": "Porygon Red Electrónico flota en el aire, su cuerpo de cristal reflejando destellos eléctricos. Sus ojos brillan con energía estática, y sus patas se transforman en arcos de chispas que emiten un zumbido constante.",
   "moves": [
     {
-      "name": "Descarga Cibernética",
-      "desc": "Descarga energía eléctrica almacenada en su núcleo para atacar con potencia.",
-      "name_en": "Cyber Charge",
-      "visual_prompt": "glowing electric blue orbs swirling in a stormy sky, neon yellow energy trails, violet sparks crackling, bright white lightning bolts, electric cyan energy fields, dynamic motion lines"
+      "name": "Chispa Digital",
+      "desc": "Genera una descarga eléctrica que paraliza al oponente con un toque digital.",
+      "name_en": "Digital Spark",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow pulses, crisp white energy trails, bright electric white sparks, pale blue glowing static, urban cityscape neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Circuito Estático",
-      "desc": "Crea un campo eléctrico alrededor del oponente para reducir su velocidad.",
-      "name_en": "Static Circuit",
-      "visual_prompt": "crackling electric blue energy field, neon yellow lightning arcs, violet spark particles, bright white energy pulses, stormy sky backdrop, dynamic energy waves"
+      "name": "Código Estático",
+      "desc": "Crea un campo de energía estática que reduce la velocidad del rival.",
+      "name_en": "Static Code",
+      "visual_prompt": "vibrant electric blue energy field, neon yellow circuit patterns, crisp white static sparks, bright electric white grid lines, pale blue glow emanating from urban cityscape background, flickering neon signs"
     },
     {
-      "name": "Carga Neural",
-      "desc": "Recarga su energía interna mientras inflige daño a los oponentes cercanos.",
-      "name_en": "Neural Charge",
-      "visual_prompt": "crackling electric blue orbs, neon yellow energy streams, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field patterns"
+      "name": "Circuito Cargado",
+      "desc": "Aumenta su ataque y velocidad mientras acumula energía eléctrica.",
+      "name_en": "Charged Circuit",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow energy orbs, crisp white lightning bolts, bright electric white sparks, pale blue glow trails, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Rayo de Red",
-      "desc": "Lanza una red de energía eléctrica que paraliza al rival.",
+      "name": "Red de Impulso",
+      "desc": "Lanza una red de energía eléctrica que daña y confunde al oponente.",
       "name_en": "Electric Net",
-      "visual_prompt": "crackling electric blue energy strands, neon yellow lightning arcs, violet sparks, bright white static discharge, stormy sky backdrop, neon-lit thunderclouds, dynamic web pattern, glowing cyan energy pulses"
+      "visual_prompt": "vibrant electric blue energy strands, neon yellow sparks, crisp white grid pattern, bright electric white pulses, pale blue glow radiating outward, dynamic web-like structure, urban cityscape background with flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas y bajas",
-      "to": "patas brillantes con chispas eléctricas que emiten energía constante"
+      "from": "Cuerpo de cristal transparente",
+      "to": "Cuerpo de cristal azul eléctrico con reflejos de chispas"
     },
     {
-      "from": "cuerpo liso y sin rasgos destacables",
-      "to": "cuerpo cubierto de circuitos brillantes que reflejan energía"
+      "from": "Flotación suave",
+      "to": "Flotación con arcos eléctricos que generan un zumbido"
     },
     {
-      "from": "posición baja en el suelo",
-      "to": "levita ligeramente por la energía eléctrica generada"
+      "from": "Ojos verdes",
+      "to": "Ojos brillantes en tonos azules y eléctricos"
     },
     {
-      "from": "ojos sin expresión",
-      "to": "ojos centelleantes que indican poder eléctrico interno"
+      "from": "Sin contacto con el suelo",
+      "to": "Genera un campo de energía estática al flotar"
     }
   ],
   "pokemon_id": "137",

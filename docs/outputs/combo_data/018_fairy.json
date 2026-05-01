@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Mariposa Aérea",
-  "lore": "Mariposa Aérea vuela con alas brillantes que emanan brillo mágico. Su pelaje plateado refleja el cielo estrellado, y sus patas delanteras se convierten en alas delicadas para bailar en el aire.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aleteos de cristal iluminan el aire mientras su plumaje resplandece con destellos dorados. Sus ojos brillan con magia pura, y cada aliento libera pétalos que curan heridas. Su postura erguida refleja elegancia celestial.",
   "moves": [
     {
-      "name": "Danza de Estrellas",
-      "desc": "Lanza destellos de luz que curan a aliados y debilitan a enemigos con su magia.",
-      "name_en": "Starlight Dance",
-      "visual_prompt": "glowing starlight blue orbs, soft pastel pink petals swirling, ivory white mist, pearl lavender sparkles, crystalline mint light trails, ethereal moonlit garden backdrop"
+      "name": "Canto de Sueños",
+      "desc": "Canta una melodía que envuelve al rival en un sueño suave, reduciendo su velocidad.",
+      "name_en": "Dream Song",
+      "visual_prompt": "soft pastel pink and ivory white glowing orbs floating in a moonlit meadow, delicate lavender petals swirling in slow motion, shimmering silver mist with pearly gold accents, gentle glowing fairy lights illuminating the scene, no characters or Pokémon"
     },
     {
-      "name": "Ala de Sueño",
-      "desc": "Cubre al enemigo con un suave viento que lo envuelve en un sueño profundo.",
-      "name_en": "Dream Wing",
-      "visual_prompt": "soft pastel pink wind currents, floating lavender petals, glowing ivory white starlight trails, crystalline mint mist swirls, pearlescent moonbeam reflections, delicate spiral patterns, ethereal glow"
+      "name": "Beso de Estrellas",
+      "desc": "Libera un beso brillante que cura todo tipo de daño y restaura la energía.",
+      "name_en": "Starlight Kiss",
+      "visual_prompt": "glowing pastel pink star-shaped orbs, delicate lavender petals floating in moonlight, shimmering silver trails, ivory white fairy lights, pearly gold sparkles, soft misty atmosphere"
     },
     {
-      "name": "Bailarina Mágica",
-      "desc": "Aumenta la velocidad y evasión al moverse en espirales brillantes.",
-      "name_en": "Magic Dance",
-      "visual_prompt": "glowing spiral trails in soft pastel pink, sparkling pearl lavender particles, ivory white mist, crystalline mint light beams, starlight blue shimmering motes, delicate floral patterns in mid-air"
+      "name": "Ala de Luna",
+      "desc": "Ataca con un aleteo que brilla como la luna llena, causando daño mágico.",
+      "name_en": "Lunar Wing",
+      "visual_prompt": "glowing crescent moon, delicate silver wings, soft pastel pink light rays, ivory white petals floating in mist, delicate lavender sparkles, pearly gold shimmer trails"
     },
     {
-      "name": "Pétalos de Luna",
-      "desc": "Lanza pétalos que causan daño y confusión en el enemigo.",
-      "name_en": "Moon Petals",
-      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, delicate pearl lavender mist, starlight blue crystalline orbs, soft ivory white glow, ethereal fairy-touched floral patterns"
+      "name": "Danza de Pétalos",
+      "desc": "Crea una danza de pétalos que cura a aliados y debilita al enemigo.",
+      "name_en": "Petals Dance",
+      "visual_prompt": "soft pastel pink petals swirling in a circular motion, delicate lavender mist rising, ivory white glowing orbs floating, pearly gold sparkles, shimmering silver trails, moonlit meadow background"
     }
   ],
   "diffs": [
     {
-      "from": "alas de Pidgeot",
-      "to": "alas brillantes que emanan brillo mágico"
+      "from": "Plumaje normal",
+      "to": "Se transforma en un plumaje brillante con destellos dorados y cristalinos."
     },
     {
-      "from": "pelo corto",
-      "to": "pelaje plateado que refleja el cielo estrellado"
+      "from": "Postura de vuelo",
+      "to": "Adopta una postura erguida y elegante, como si flotara en el aire."
     },
     {
-      "from": "patas traseras",
-      "to": "patas delanteras que se convierten en alas delicadas"
+      "from": "Ataques de viento",
+      "to": "Sus ataques ahora emanan magia de hada, curando y debilitando."
     },
     {
-      "from": "postura compacta",
-      "to": "baila en espirales en el aire"
+      "from": "Voz cantante",
+      "to": "Su canto se vuelve más mágico y suave, envolviendo al enemigo en sueños."
     }
   ],
   "pokemon_id": "018",

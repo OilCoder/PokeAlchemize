@@ -1,32 +1,30 @@
 {
   "identity_traits": [
-    "rounded head",
-    "short stubby legs",
-    "curled tail tip",
-    "compact rounded body silhouette"
+    "compact rounded body shape",
+    "bulbous head with minimal facial features",
+    "long segmented limbs with sharp claws",
+    "four distinct legs with clawed feet",
+    "gray and white color scheme with black accents",
+    "symmetrical body structure with no visible tail"
   ],
-  "original_type_traits": [
-    "gray body coloration",
-    "pale cream limb accents",
-    "dark gray body shading"
-  ],
+  "original_type_traits": [],
   "transformable_parts": [
     "head shape",
-    "leg structure",
-    "tail tip curl",
-    "limb accent color",
-    "body shading pattern",
-    "overall body texture"
+    "arm structure",
+    "leg segmentation",
+    "claw design",
+    "body texture",
+    "foot shape"
   ],
   "suppress_colors": [
     "gray",
-    "pale cream",
-    "dark gray"
+    "white",
+    "black"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "curled spiral tail tip, small rounded head with pointed ears",
-    "pale cream limb accents, compact rounded body silhouette"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "bulbous head with smooth rounded contours",
+    "long segmented limbs with sharp claw tips"
   ],
   "pokemon_id": "106",
   "pokemon_name": "hitmonlee",
@@ -36,23 +34,26 @@
   "visual_facts": {
     "body_colors": [
       "gray",
-      "pale cream",
-      "dark gray"
+      "white",
+      "black"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "hands",
+      "legs",
+      "feet"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with short, sturdy legs and a small, pointed head.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a compact, rounded body with four legs, suggesting a quadrupedal locomotion.",
     "type_markers": [
       "none visible"
     ],
     "distinctive_features": [
-      "curled tail tip",
-      "pale cream accents on limbs",
-      "dark gray body"
+      "bulbous head",
+      "long, segmented arms and legs",
+      "sharp claws on hands and feet"
     ]
   }
 }

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro de Tierra",
-  "lore": "Este Diglett fantasmal se desliza bajo la tierra, sus patas translúcidas dejando huellas etéreas. Su cuerpo translúcido emite un brillo azulado, y sus ojos brillan con un resplandor púrpura. El tipo fantasma le otorga una presencia inquietante y letal.",
+  "species_name": "Pokémon Sombra Tierra",
+  "lore": "Este Diglett fantasmal emerge de las tumbas olvidadas, su cuerpo translúcido flotando sin límites. Sus ojos brillan con un resplandor verde, y sus rasgos terrenales se funden con la espectralidad.",
   "moves": [
     {
-      "name": "Sombra Subterránea",
-      "desc": "El Pokémon se funde con la oscuridad bajo tierra, evitando ataques y preparando un ataque sorpresa.",
-      "name_en": "Subterranean Shade",
-      "visual_prompt": "crackling shadow tendrils rising from earth, glowing violet energy orbs floating in mist, faint moonlit tombstone outlines, ethereal fog swirls, charcoal gray and pale silver light effects, ghostly white particles drifting"
+      "name": "Sombra Enterrada",
+      "desc": "Lanza un ataque espectral que atraviesa la defensa del rival, dejando un eco fantasmal.",
+      "name_en": "Buried Shadow",
+      "visual_prompt": "translucent spectral orbs drifting through moonlit ruins, pale silver mist, icy blue echoes, ghostly frost patterns, moonlight gray residue, ethereal glow, translucent ripples"
     },
     {
-      "name": "Aliento Fantasmal",
-      "desc": "Lanza un aliento frío que reduce la defensa del oponente y genera miedo.",
-      "name_en": "Phantom Breath",
-      "visual_prompt": "frozen mist swirling around ghostly violet orbs, drifting charcoal gray fog, pale silver mist trails, shadow violet aura pulses, ethereal white mist tendrils, moonlit tombstone silhouettes faintly visible in background"
+      "name": "Tumba Sibilante",
+      "desc": "Crea un sonido escalofriante que reduce la precisión del oponente.",
+      "name_en": "Whispering Tomb",
+      "visual_prompt": "translucent frost shards, spectral white mist swirling, pale silver orbs drifting, icy blue moonlight glow, ghostly whispers forming sound waves, moonlit ruin architecture in background"
     },
     {
-      "name": "Serpiente de Sombras",
-      "desc": "Crea una serpiente de sombras que ataca al oponente desde distintas direcciones.",
-      "name_en": "Shadow Serpent",
-      "visual_prompt": "twisting ghostly serpent made of misty violet smoke, swirling charcoal gray tendrils, pale silver highlights, ethereal fog drifting, moonlit tombstone shadows, shadow violet aura, no characters or Pokémon"
+      "name": "Mundo Infrarrojo",
+      "desc": "Cambia el campo de batalla a un estado de visión espectral, revelando debilidades ocultas.",
+      "name_en": "Spectral Vision",
+      "visual_prompt": "translucent spectral orbs drifting through moonlit ruins, pale silver mist swirling, icy blue glow on ancient stone, moonlight gray energy waves, ghostly frost patterns on ground"
     },
     {
-      "name": "Eclipse Subterráneo",
-      "desc": "Invoca un eclipse que oscurece el campo de batalla, reduciendo la precisión de los ataques del oponente.",
-      "name_en": "Subterranean Eclipse",
-      "visual_prompt": "deep violet eclipse ring, charcoal gray shadow waves, pale silver moonlight beams, ghostly white mist tendrils, ethereal fog swirls, shadow violet aura, no characters, no Pokémon, no silhouettes"
+      "name": "Luz de la Tumba",
+      "desc": "Emite un brillo tenue que cura la salud del usuario mientras desvía ataques.",
+      "name_en": "Tomb Light",
+      "visual_prompt": "pale silver mist, translucent frost orbs, moonlight gray glow, spectral white energy trails, drifting ghostly light particles, icy blue shimmer, moonlit ruin backdrop, soft ethereal radiance"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas y sólidas",
-      "to": "patas translúcidas que brillan con brillo azulado"
+      "from": "Cuerpo arcilloso y sólido",
+      "to": "Cuerpo translúcido y etéreo, flotando sin contacto con el suelo."
     },
     {
-      "from": "cuerpo sólido",
-      "to": "cuerpo translúcido con un brillo púrpura en los ojos"
+      "from": "Ojos pequeños y oscuros",
+      "to": "Ojos brillantes y verdes, emitiendo un resplandor espectral."
     },
     {
-      "from": "bajo postura de arrastre",
-      "to": "deslizándose en una postura etérea sin contacto con el suelo"
+      "from": "Movimiento enterrado en tierra",
+      "to": "Movimiento flotante y sigiloso, atravesando paredes y obstáculos."
     },
     {
-      "from": "poco visible bajo tierra",
-      "to": "visible como una sombra etérea en la oscuridad."
+      "from": "Voz ronca y terrenal",
+      "to": "Voz susurrante y fría, resonando en las sombras."
     }
   ],
   "pokemon_id": "050",

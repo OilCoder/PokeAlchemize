@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Rayo Serpiente",
-  "lore": "Arbok, ahora envuelto en un aura eléctrica, despliega escamas brillantes que zumban al moverse. Su cuerpo serpenteante irradia energía estática, preparado para atacar con descargas fulminantes en cualquier momento.",
+  "species_name": "Pokémon Relámpago Serpiente",
+  "lore": "Arbok, ahora un ser de energía eléctrica, despliega escamas brillantes que emiten chispas. Su cuerpo serpenteante se ilumina con destellos azules, mientras su cola genera ráfagas de voltaje en cada movimiento.",
   "moves": [
     {
       "name": "Descarga Serpentina",
-      "desc": "Ataca con un rayo que se enrosca alrededor del objetivo, causando daño eléctrico y paralizando.",
-      "name_en": "Serpentine Charge",
-      "visual_prompt": "crackling electric blue serpent coils, neon yellow lightning arcs, violet spark particles, bright white energy pulses, stormy sky background with neon-lit thunderclouds"
+      "desc": "Inyecta una descarga eléctrica que paraliza al oponente con chispas brillantes.",
+      "name_en": "Serpentine Shock",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow sparks, crisp white energy trails, bright electric white lightning bolts, pale blue glow pulses, urban cityscape neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Zumbido Estático",
-      "desc": "Genera un campo de energía estática que reduce la velocidad de los enemigos cercanos.",
-      "name_en": "Static Buzz",
-      "visual_prompt": "crackling electric blue energy fields, neon yellow lightning bolts, violet spark particles, bright white static pulses, stormy sky background with neon-lit thunderclouds"
+      "name": "Viento Eléctrico",
+      "desc": "Crea un viento cargado que eleva al oponente y lo electrocuta al caer.",
+      "name_en": "Electric Wind",
+      "visual_prompt": "vibrant electric blue wind currents, neon yellow lightning bolts, crisp white energy orbs, bright electric white shockwaves, pale blue glow trails, urban cityscape skyline silhouette, flickering neon signs"
     },
     {
-      "name": "Relámpago Escamas",
-      "desc": "Dispara descargas desde sus escamas, incrementando el daño eléctrico en cada ataque.",
-      "name_en": "Scale Bolt",
-      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts, violet spark particles, bright white static bursts, electric cyan energy trails, stormy sky backdrop with crackling energy fields"
+      "name": "Cadena de Chispas",
+      "desc": "Lanza una cadena de chispas que conecta múltiples objetivos en una red eléctrica.",
+      "name_en": "Spark Chain",
+      "visual_prompt": "vibrant electric blue sparks, neon yellow arcs connecting points, crisp white energy lines, bright electric white glow, pale blue energy tendrils, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Tormento Eléctrico",
-      "desc": "Provoca un ataque eléctrico masivo que afecta a todos los enemigos en el área.",
-      "name_en": "Electric Torment",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy pulses, stormy sky background with neon-lit thunderclouds, dynamic energy field patterns"
+      "name": "Relámpago Sibilante",
+      "desc": "Emite un rugido eléctrico que incrementa su velocidad y aturde al rival.",
+      "name_en": "Sibilant Bolt",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white static sparks, bright electric white shockwaves, pale blue glow pulses, urban cityscape neon signs flickering, electric storm clouds"
     }
   ],
   "diffs": [
     {
       "from": "Cuerpo serpenteante",
-      "to": "Escamas brillantes que zumban al moverse, irradiando energía estática"
+      "to": "Cuerpo cubierto de escamas brillantes que emiten chispas eléctricas"
     },
     {
-      "from": "Boca abierta para atacar",
-      "to": "Lenguaje que emite chispas eléctricas al hablar"
+      "from": "Sistema venenoso",
+      "to": "Sistema eléctrico que genera descargas en cada ataque"
     },
     {
-      "from": "Piel venenosa",
-      "to": "Escamas que generan descargas eléctricas en contacto"
+      "from": "Cola larga",
+      "to": "Cola que genera ráfagas de voltaje al moverse"
     },
     {
-      "from": "Postura baja en el suelo",
-      "to": "Cuerpo elevado con aura eléctrica para mayor agilidad"
+      "from": "Piel oscura",
+      "to": "Piel transparente con brillo azul eléctrico"
     }
   ],
   "pokemon_id": "024",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma de Tierra",
-  "lore": "Nidoqueen, ahora un espectro de tierra, camina con pasos silenciosos sobre el suelo. Sus patas traseras se han vuelto translúcidas, mientras sus garras emiten un brillo azul pálido. Su postura baja se mantiene, pero ahora parece flotar ligeramente.",
+  "species_name": "Pokémon Sombra de Nidoqueen",
+  "lore": "Nidoqueen, ahora envuelta en sombras etéreas, camina con cuatro patas que brillan con un aura fantasmal. Sus escamas venenosas se han transformado en un brillo pálido, y sus garras cortan el aire con un susurro fantasmal.",
   "moves": [
     {
-      "name": "Sombra Sólida",
-      "desc": "Crea una barrera de sombra que absorbe ataques físicos y los devuelve en forma de energía oscura.",
-      "name_en": "Solid Shadow",
-      "visual_prompt": "solid violet shadow barrier, glowing charcoal gray energy lines, pale silver dark orbs, ethereal fog, moonlit tombstone silhouettes, shadow violet mist, dark energy rebound effect"
+      "name": "Sombra Venenosa",
+      "desc": "Ataca con una sombra venenosa que envenena al objetivo y reduce su defensa.",
+      "name_en": "Poison Shadow",
+      "visual_prompt": "translucent spectral orbs drifting through moonlit ruins, pale silver mist swirling with icy blue frost patterns, ghostly tendrils of toxic green vapor, moonlight gray shadows fading into darkness"
     },
     {
-      "name": "Cicatriz de la Tierra",
-      "desc": "Deja una cicatriz en el suelo que reduce la velocidad del enemigo y causa daño por contacto.",
-      "name_en": "Earth Scar",
-      "visual_prompt": "crackling violet energy fissures, ghostly white mist swirling, shadow violet aura, charcoal gray debris floating, pale silver glowing cracks, ethereal fog drifting over cracked earth"
+      "name": "Cicatriz Fantasma",
+      "desc": "Genera una cicatriz fantasmal que reduce la precisión del rival en combate.",
+      "name_en": "Ghost Scar",
+      "visual_prompt": "translucent spectral white scar, pale silver mist swirls, icy blue moonlight glow, drifting ghostly orbs, moonlit ruin texture background, frosty translucent edges"
     },
     {
-      "name": "Espectro de Dolor",
-      "desc": "Ataca con un grito escalofriante que causa dolor psíquico y reduce la defensa del oponente.",
-      "name_en": "Soul Wail",
-      "visual_prompt": "crimson psychic scream, jagged violet energy waves, floating ghostly teeth, shadowy tendrils, pale silver mist, charcoal gray fog, moonlit tombstone outlines, ethereal violet glow"
+      "name": "Manto Oscuro",
+      "desc": "Cubre al usuario con un manto oscuro que aumenta su defensa y evita ataques críticos.",
+      "name_en": "Dark Cloak",
+      "visual_prompt": "translucent ghostly cloak, moonlit ruins backdrop, spectral white mist swirling, pale silver orbs drifting, icy blue shimmer, moonlight gray textures, frosty translucence, no characters"
     },
     {
-      "name": "Sueño de la Tierra",
-      "desc": "Sumerge al enemigo en un sueño profundo que lo deja vulnerable a ataques.",
-      "name_en": "Earthslumber",
-      "visual_prompt": "floating violet mist, glowing pale silver moonlight, shadowy tombstone outlines, ethereal fog tendrils, deep violet aura, ghostly white petals drifting, charcoal gray mist swirls"
+      "name": "Susurro de la Muerte",
+      "desc": "Un susurro que reduce el ataque del rival y genera un efecto de debilidad.",
+      "name_en": "Death Whisper",
+      "visual_prompt": "translucent frost mist, pale silver spectral orbs drifting, moonlight gray energy trails, icy blue aura with faint crackling light, spectral whispers forming ghostly patterns"
     }
   ],
   "diffs": [
     {
-      "from": "patas plantadas firmemente en el suelo",
-      "to": "patas translúcidas que flotan ligeramente sobre la tierra"
+      "from": "escamas venenosas",
+      "to": "brillo pálido y etéreo"
     },
     {
-      "from": "postura baja y sólida",
-      "to": "postura baja pero con una presencia etérea"
+      "from": "patas sólidas en el suelo",
+      "to": "patas que brillan con aura fantasmal"
     },
     {
-      "from": "garras afiladas",
-      "to": "garras que emiten un brillo azul pálido"
+      "from": "garras cortantes",
+      "to": "garras que cortan el aire con susurro fantasmal"
     },
     {
-      "from": "color marrón y gris",
-      "to": "tonos pálidos y azulados en su piel"
+      "from": "movimientos de veneno",
+      "to": "movimientos que combinan veneno y sombra"
     }
   ],
   "pokemon_id": "031",

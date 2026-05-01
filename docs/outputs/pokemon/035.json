@@ -1,34 +1,34 @@
 {
   "identity_traits": [
-    "rounded plump body silhouette",
-    "large expressive round eyes",
-    "smiling mouth with visible teeth",
-    "short stubby legs",
-    "pointed ears with white tips",
-    "curled tail tip"
+    "rounded fleshy body",
+    "four short legs",
+    "rounded ears",
+    "small hands with claws",
+    "pink coloration",
+    "white belly"
   ],
   "original_type_traits": [
-    "pink body color (fairy type association)",
-    "white and brown ear tips (fairy type association)",
-    "smiling mouth (fairy type association)"
+    "no visible type markers",
+    "pink coloration (fairy type association)",
+    "rounded body (fairy type association)"
   ],
   "transformable_parts": [
-    "tail",
-    "ears",
     "body color",
-    "skin texture",
-    "eye shape",
-    "mouth expression"
+    "ear shape",
+    "hand claw shape",
+    "belly texture",
+    "leg proportions",
+    "head shape"
   ],
   "suppress_colors": [
     "pink",
-    "white (ear tips)",
-    "brown (ear tips)"
+    "white",
+    "light pink"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "large round eyes with black pupils",
-    "smiling mouth showing small teeth"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "rounded ears with small inner folds",
+    "small hands with short claw-like fingers"
   ],
   "pokemon_id": "035",
   "pokemon_name": "clefairy",
@@ -42,19 +42,21 @@
       "white"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "hands",
+      "feet"
     ],
-    "silhouette": "The Pokémon has a rounded, plump body with a small head and short legs, giving it a cute and compact appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The Pokémon has a rounded, fleshy body with four short legs, giving it a quadrupedal silhouette.",
     "type_markers": [
-      "none visible"
+      "no visible type markers"
     ],
     "distinctive_features": [
-      "large, round eyes",
-      "smiling mouth",
-      "brown ears with white tips"
+      "rounded body",
+      "ears",
+      "hands with claws"
     ]
   }
 }

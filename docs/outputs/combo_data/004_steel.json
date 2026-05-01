@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Hierro Llama",
-  "lore": "Hierro Llama camina con paso firme, sus patas cubiertas de escamas metálicas que resuenan al pisar. Su cola llama, ahora de acero pulido, emite destellos fríos mientras libera calor controlado. Su pelaje brillante refleja la luz como un espejo.",
+  "species_name": "Pokémon Llama Acero",
+  "lore": "El Llama Acero camina con patas de acero pulido, su cola de llama se ha convertido en una espada afilada. Su cuerpo brilla con reflejos metálicos bajo el sol, mientras emite un rugido resonante que corta el aire.",
   "moves": [
     {
-      "name": "Acero Llamante",
-      "desc": "Ataca con llamas de acero fundido que hieren al oponente con cortes precisos.",
-      "name_en": "Molten Steel",
-      "visual_prompt": "molten steel flames with precise cutting edges, gunmetal gray and polished silver sparks, metallic steam vents, electric blue neon glow, industrial cityscape background, stylized 2D VFX"
+      "name": "Corte Acero",
+      "desc": "Ataca con una espada de acero que corta cualquier defensa con precisión.",
+      "name_en": "Steel Cut",
+      "visual_prompt": "shimmering steel blade slicing through air, jagged energy lines, gunmetal gray sparks, polished chrome reflections, deep steel blue glow, industrial workshop background with metallic surfaces, matte black edges, dynamic motion streaks"
     },
     {
-      "name": "Escudo de Fuego",
-      "desc": "Crea un escudo de acero que absorbe ataques y devuelve el daño en forma de llamas.",
-      "name_en": "Fire Shield",
-      "visual_prompt": "steel shield with glowing neon cyan edges, polished silver surface reflecting electric blue flames, metallic steam vents emitting blue mist, industrial cityscape backdrop with neon signs"
+      "name": "Llama Fría",
+      "desc": "Emite una llama de acero frío que congela el aire a su alrededor.",
+      "name_en": "Cold Steel Flame",
+      "visual_prompt": "cold steel flame, frozen air mist, polished chrome swirls, gunmetal gray energy trails, deep steel blue glow, industrial workshop metal surfaces, crystalline ice particles, matte black highlights"
     },
     {
-      "name": "Golpe de Caudal",
-      "desc": "Golpea con la cola de acero, causando daño físico y posiblemente causando parálisis.",
-      "name_en": "Steel Tail",
-      "visual_prompt": "polished steel tail, metallic blue sparks, neon cyan energy trails, industrial steam vents, gunmetal gray particles, electric blue shockwaves, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Rugido de Hierro",
+      "desc": "Aumenta su fuerza y reduce el daño recibido con un rugido metálico.",
+      "name_en": "Iron Roar",
+      "visual_prompt": "gunmetal gray metallic roar effect, polished chrome energy waves, deep steel blue glowing lines, matte black industrial workshop background, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Fusión Incandescente",
-      "desc": "Fusiona su cuerpo con el acero para aumentar su resistencia y ataque.",
-      "name_en": "Incandescent Fusion",
-      "visual_prompt": "glowing gunmetal gray steel tendrils, polished silver sparks, metallic steam vents, neon cyan energy trails, electric blue aura, industrial cityscape backdrop, stylized 2D VFX"
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que bloquea ataques físicos y reduce el daño.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished chrome shield, glowing energy lines, matte black metallic surface, gunmetal gray reflections, deep steel blue aura, industrial workshop background, geometric energy patterns, metallic sheen"
     }
   ],
   "diffs": [
     {
-      "from": "Piel de escamas rojas",
-      "to": "Escamas metálicas plateadas y resistentes"
+      "from": "Cola de llama",
+      "to": "Se transformó en una espada afilada de acero"
     },
     {
-      "from": "Cola con llama pequeña",
-      "to": "Cola de acero pulido que emite destellos fríos"
+      "from": "Piel sensible al fuego",
+      "to": "Se cubrió de una capa resistente de acero"
     },
     {
-      "from": "Postura baja y flexible",
-      "to": "Postura erguida y firme, con patas sólidas"
+      "from": "Cuerpo ligero",
+      "to": "Se volvió pesado y sólido, como metal fundido"
     },
     {
-      "from": "Calor intenso",
-      "to": "Calor controlado y frío metálico en equilibrio"
+      "from": "Movimiento rápido",
+      "to": "Caminar con pasos lentos y firmes en el suelo"
     }
   ],
   "pokemon_id": "004",

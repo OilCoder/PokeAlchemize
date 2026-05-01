@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua Digital",
-  "lore": "Porygon se transforma en un ente acuático, sus piernas se funden en aletas de cristal. Su cuerpo se vuelve transparente, reflejando el agua circundante. Sus ojos brillan con luces azules, emitiendo un zumbido suave bajo el agua.",
+  "species_name": "Pokémon Oceánico Virtual",
+  "lore": "Flotando en el océano, su cuerpo de cristal refleja olas. Sus ojos brillan con luz azul, y sus movimientos generan remolinos que atrapan a sus enemigos. Cada contacto con el agua potencia su energía digital.",
   "moves": [
     {
-      "name": "Reducción Hídrica",
-      "desc": "Reduce la velocidad del oponente al sumergirlo en un remolino de datos.",
-      "name_en": "Water Spin",
-      "visual_prompt": "whirling vortex of deep ocean blue water, swirling teal green data particles, pearly white bioluminescent plankton trails, aquamarine current ripples, sapphire blue energy swirls"
+      "name": "Ola Digital",
+      "desc": "Genera una ola que reduce la velocidad del rival y lo sumerge en un remolino.",
+      "name_en": "Digital Wave",
+      "visual_prompt": "glowing teal water ripples, swirling vortex of pearly white foam, deep ocean blue energy waves, gentle aquamarine light rays, smooth liquid motion"
     },
     {
-      "name": "Código Submarino",
-      "desc": "Crea una burbuja de datos que protege al usuario y ataca al oponente.",
-      "name_en": "Submarine Code",
-      "visual_prompt": "glowing data bubble, deep ocean blue water ripples, teal green bioluminescent plankton trails, pearly white protective shield, aquamarine energy waves, sapphire blue digital glyphs floating in calm currents"
+      "name": "Red de Cristal",
+      "desc": "Crea una red de energía que atrapa al enemigo y le resta defensa.",
+      "name_en": "Crystal Net",
+      "visual_prompt": "glowing water crystal lattice, shimmering teal energy strands, soft blue light refraction, pearly white trapped bubbles, gentle wave patterns in background, sapphire blue aura"
     },
     {
-      "name": "Flujo de Información",
-      "desc": "Envía una ola de datos que derrumba la defensa del oponente.",
-      "name_en": "Data Wave",
-      "visual_prompt": "glowing data streams, deep ocean blue waves, teal green particles, pearly white holographic grids, aquamarine ripples, sapphire blue energy pulses, bioluminescent plankton sparks, calm underwater current motion"
+      "name": "Burbuja Virtual",
+      "desc": "Lanza burbujas que absorben ataques y recuperan energía.",
+      "name_en": "Virtual Bubble",
+      "visual_prompt": "glowing teal water bubbles, pearly white energy orbs floating, deep ocean blue ripples, gentle wave patterns, soft blue sunlight reflections, aquamarine mist swirls"
     },
     {
-      "name": "Cristalización Digital",
-      "desc": "Cubre al oponente con un cristal de datos que reduce su movimiento.",
-      "name_en": "Digital Crystallize",
-      "visual_prompt": "glowing data crystal shards, shimmering aquamarine water droplets, deep ocean blue light rays, bioluminescent teal plankton sparks, pearly white refractive patterns, slow-motion underwater current swirls"
+      "name": "Corriente de Datos",
+      "desc": "Aumenta su velocidad y ataque al moverse en una corriente.",
+      "name_en": "Data Current",
+      "visual_prompt": "glowing blue data streams, swirling water droplets, shimmering teal ripples, pearly white energy trails, sapphire blue motion lines, calm ocean surface with gentle waves"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas cortas en el suelo",
-      "to": "Se fusionan en aletas translúcidas de cristal"
-    },
-    {
-      "from": "Cuerpo sólido y opaco",
-      "to": "Cuerpo transparente que refleja el entorno acuático"
+      "from": "Cuerpo flotante sin contacto con el suelo",
+      "to": "Cuerpo cristalino que se funde con el agua, flotando en olas"
     },
     {
       "from": "Ojos normales",
-      "to": "Ojos brillantes azules que zumban bajo el agua"
+      "to": "Ojos que brillan con luz azul profunda, reflejando el océano"
     },
     {
-      "from": "Estilo de movimiento estático",
-      "to": "Fluye suavemente como una corriente de datos"
+      "from": "Movimientos digitales estáticos",
+      "to": "Movimientos que generan remolinos y olas en el agua"
+    },
+    {
+      "from": "Sin relación con el agua",
+      "to": "Conectado a las corrientes oceánicas, absorbiendo energía del mar"
     }
   ],
   "pokemon_id": "137",

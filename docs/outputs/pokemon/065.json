@@ -1,33 +1,34 @@
 {
   "identity_traits": [
-    "rounded head",
-    "short stubby legs",
-    "pointed ears",
-    "curled tail tip",
-    "pale cream accents on limbs"
+    "quadrupedal stance with four legs",
+    "prominent pointed ears",
+    "sharp clawed hands and feet",
+    "horizontal body posture",
+    "distinctive arm-like appendages",
+    "pale cream and dark brown coloration"
   ],
   "original_type_traits": [
-    "bright yellow body color",
-    "dark brown markings",
-    "psychic energy aura (implied by sprite)"
+    "psychic energy aura (implied by type, but not visible in sprite)",
+    "no visible type markers in sprite",
+    "none"
   ],
   "transformable_parts": [
-    "head shape",
-    "leg structure",
     "ear shape",
-    "tail tip",
-    "limb accents",
-    "body color"
+    "claw texture",
+    "hand appendage style",
+    "body coloration",
+    "leg structure",
+    "eye shape"
   ],
   "suppress_colors": [
     "bright yellow",
     "dark brown",
-    "psychic energy aura"
+    "pale cream"
   ],
   "anchor_phrases": [
-    "bipedal, upright stance, arms at sides",
-    "pointed ears, curved upward at tips",
-    "curled tail tip, pale cream color"
+    "quadruped, four legs on ground",
+    "pointed ears with rounded tips",
+    "sharp clawed hands with three digits"
   ],
   "pokemon_id": "065",
   "pokemon_name": "alakazam",
@@ -41,19 +42,24 @@
       "pale cream"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "ears",
+      "eyes",
+      "body",
+      "arms",
+      "hands",
+      "legs",
+      "claws"
     ],
-    "silhouette": "The Pokémon has a compact, muscular build with a slightly elongated body and a pointed head.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a quadrupedal shape with four legs, a body that is horizontal, and a head with prominent ears and eyes.",
     "type_markers": [
       "none visible"
     ],
     "distinctive_features": [
       "pointed ears",
-      "curled tail tip",
-      "pale cream accents on limbs"
+      "sharp claws",
+      "arm-like appendages with hands"
     ]
   }
 }

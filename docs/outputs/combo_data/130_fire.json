@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Gyarados de llamas ardientes, con escamas rojas y ojos de fuego. Su postura baja y poderosa se mantiene firme, mientras sus patas emiten llamas al pisar. El agua que rodea su cuerpo se evapora al contacto con su calor.",
+  "species_name": "Pokémon Llama Marítima",
+  "lore": "El Pokémon Llama Marítima es una criatura de fuego y agua en conflicto. Su cuerpo serpenteante brilla con escamas rojas y azules, mientras que sus alas de fuego emiten llamas que se mezclan con el vapor de su respiración.",
   "moves": [
     {
-      "name": "Llamarada Dragón",
-      "desc": "Lanza una llamarada que quema y eleva al rival, combinando fuego y fuerza dragón.",
-      "name_en": "Dragon Blaze",
-      "visual_prompt": "crimson fire orbs swirling in dragon shape, molten gold embers rising, volcanic smoke trails, glowing ember particles, charcoal black ash clouds"
+      "name": "Llamarada Acuática",
+      "desc": "Lanza una llamarada que se convierte en vapor al contacto con el agua, creando una neblina ofuscante.",
+      "name_en": "Water Flame",
+      "visual_prompt": "crimson red fire orb, molten gold vapor trails, amber glow mist, swirling charcoal black smoke, volcanic crater backdrop, glowing lava flows, ember-lit smoky sky"
     },
     {
-      "name": "Pata de Fuego",
-      "desc": "Ataca con patadas que emiten llamas, quemando al oponente con cada pisada.",
-      "name_en": "Fire Kick",
-      "visual_prompt": "crimson red footprints on volcanic rock, molten gold flames trailing each step, amber orange embers rising in smoke-filled air, glowing ember sparks, charcoal black ash particles"
+      "name": "Ráfaga de Lava",
+      "desc": "Ataca con ráfagas de lava que se solidifican en el aire, formando barreras de piedra.",
+      "name_en": "Lava Geyser",
+      "visual_prompt": "molten crimson lava streams, solidifying into jagged stone barriers mid-air, glowing amber cracks, smoky ember haze, volcanic orange glow, charcoal black shadows"
     },
     {
-      "name": "Ráfaga de Humo",
-      "desc": "Genera humo ardiente que reduce la visión y quema al rival en combate.",
-      "name_en": "Smoke Geyser",
-      "visual_prompt": "volcanic smoke plumes, molten gold embers, crimson red haze, glowing ember particles, ash swirls, charcoal black smoke trails, magma pool reflections"
+      "name": "Torrente de Fuego",
+      "desc": "Genera un torrente de fuego que quema y se extiende sobre el agua.",
+      "name_en": "Fire Surge",
+      "visual_prompt": "crimson red flames, molten gold embers, bright orange lava flows, charcoal black smoke tendrils, swirling water vapor, dynamic fire currents, volcanic crater backdrop"
     },
     {
-      "name": "Cascada de Llama",
-      "desc": "Inunda el campo con llamas que aumentan el daño de los ataques de fuego.",
-      "name_en": "Flame Surge",
-      "visual_prompt": "molten gold embers swirling in volcanic smoke, crimson red flames cascading like waterfalls, amber orange magma pools glowing beneath, charcoal black ash particles floating in air"
+      "name": "Hielo Ardiente",
+      "desc": "Crea un hielo que se derrite en llamas, atacando con una explosión de vapor.",
+      "name_en": "Scorching Ice",
+      "visual_prompt": "molten gold ice shards, crimson steam explosions, bright orange lava flows, amber glowing mist, charcoal black vapor trails, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "escamas azules",
-      "to": "escamas rojas brillantes con destellos anaranjados"
+      "from": "cuerpo serpenteante",
+      "to": "escamas rojas y azules brillantes que emiten calor"
     },
     {
-      "from": "vuelo con alas de agua",
-      "to": "patas con llamas que queman el suelo al caminar"
+      "from": "alas de vuelo",
+      "to": "alas de fuego que generan llamas en lugar de viento"
     },
     {
-      "from": "respiración de agua",
-      "to": "aliento de llamas que quema el aire circundante"
+      "from": "respiración acuática",
+      "to": "respiración que produce vapor y llamas simultáneamente"
     },
     {
-      "from": "postura alada",
-      "to": "postura baja y firme con cuatro patas plantadas"
+      "from": "movimientos acuáticos",
+      "to": "movimientos que combinan fuego y agua en explosiones de vapor"
     }
   ],
   "pokemon_id": "130",

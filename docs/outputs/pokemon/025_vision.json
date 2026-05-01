@@ -1,0 +1,25 @@
+{
+  "body_colors": [
+    "bright yellow",
+    "black",
+    "pale cream"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "body",
+    "arms",
+    "hands",
+    "tail"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The Pokémon has a compact, rounded body with four legs, suggesting a quadrupedal locomotion.",
+  "type_markers": [
+    "bright yellow fur"
+  ],
+  "distinctive_features": [
+    "pointed ears",
+    "red cheeks",
+    "lightning bolt-like tail"
+  ]
+}

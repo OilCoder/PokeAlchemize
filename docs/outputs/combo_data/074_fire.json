@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Roca",
-  "lore": "El Pokémon Llama Roca emana calor intenso desde su cuerpo de roca. Sus patas, ahora brillantes como carbón incandescente, calientan el suelo bajo él. Su estructura compacta se funde con llamas que danzan en su interior.",
+  "species_name": "Pokémon Llama Volcánica",
+  "lore": "Este Geodude, transformado por el fuego, ahora brilla con llamas en sus rocas. Sus patas están cubiertas de lava incandescente, y su cuerpo emite calor intenso. Su mirada es intensa, como un volcán en erupción.",
   "moves": [
     {
-      "name": "Llama Férrea",
-      "desc": "Lanza una llamarada que endurece el suelo, causando daño y reduciendo la velocidad del oponente.",
-      "name_en": "Iron Flame",
-      "visual_prompt": "crimson red flames, molten gold ground hardening into iron, amber orange embers swirling, charcoal black smoke trails, glowing ember particles"
+      "name": "Llamarada Roca",
+      "desc": "Lanza una llamarada que incendia las rocas a su alrededor, causando daño y quemaduras.",
+      "name_en": "Rock Blaze",
+      "visual_prompt": "crimson fire orbs, molten gold rock fragments, glowing orange lava flows, ember-lit smoky sky, charred black rock textures, dynamic fire trails, volcanic ash particles"
     },
     {
-      "name": "Piedra Ardiente",
-      "desc": "Ataca con una roca incandescente que quema al rival y deja un campo de calor residual.",
-      "name_en": "Hot Stone",
-      "visual_prompt": "glowing crimson lava rock, molten gold embers swirling, amber orange heat haze, charcoal black smoke trails, volcanic crater backdrop with magma pools, intense fire glow"
+      "name": "Erupción Terrenal",
+      "desc": "Provoca una erupción terrestre que lanza rocas incandescentes al aire.",
+      "name_en": "Earth Eruption",
+      "visual_prompt": "molten lava flows, incandescent rock fragments, crimson red smoke plumes, glowing orange embers, volcanic ash particles, amber glow against charcoal black sky"
     },
     {
-      "name": "Suelo de Llamas",
-      "desc": "Crea un campo de llamas que quema al oponente cada turno y aumenta el daño de fuego.",
-      "name_en": "Lava Field",
-      "visual_prompt": "crimson red lava flows, amber orange molten pools, molten gold embers rising, charcoal black smoke swirls, glowing ember particles, volcanic crater background"
+      "name": "Corte de Lava",
+      "desc": "Corta el suelo con una hoja de lava, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Lava Slash",
+      "visual_prompt": "molten lava blade slicing through cracked volcanic rock, crimson red and bright orange sparks, molten gold drips, amber glow on shattered ground, smoky ember-lit sky background"
     },
     {
-      "name": "Eruptor Roca",
-      "desc": "Lanza una explosión de lava desde su cuerpo, causando daño masivo y posiblemente quemar al rival.",
-      "name_en": "Rock Eruption",
-      "visual_prompt": "molten lava bursts, crimson red splatters, amber orange embers, glowing molten gold droplets, volcanic ash swirls, charcoal black smoke trails, magma pool reflections, intense heat haze"
+      "name": "Resplandor Volcánico",
+      "desc": "Emite un resplandor intenso que ciega al oponente y aumenta el ataque propio.",
+      "name_en": "Volcanic Radiance",
+      "visual_prompt": "crimson red light beams, molten gold embers swirling, bright orange lava flows, charcoal black smoke trails, intense amber glow radiating outward"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas plantadas en el suelo",
-      "to": "patas brillantes como carbón incandescente que calientan el suelo"
+      "from": "cuatro patas en el suelo",
+      "to": "patas cubiertas de lava incandescente que calientan el suelo"
     },
     {
-      "from": "estructura compacta de roca",
-      "to": "estructura fundida con llamas que danzan en su interior"
+      "from": "cuerpo de roca sólida",
+      "to": "cuerpo con llamas interiores que emiten calor intenso"
     },
     {
-      "from": "tipo roca/tierra",
-      "to": "tipo fuego con rasgos de roca fundida"
+      "from": "mirada tranquila",
+      "to": "mirada intensa como un volcán en erupción"
     },
     {
-      "from": "bajo postura compacta",
-      "to": "postura elevada con llamas que se elevan desde su cuerpo"
+      "from": "movimientos lentos",
+      "to": "movimientos rápidos y explosivos por la energía del fuego"
     }
   ],
   "pokemon_id": "074",

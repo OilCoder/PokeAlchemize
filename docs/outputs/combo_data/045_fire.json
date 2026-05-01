@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Vileplume",
-  "lore": "Su cuerpo se cubre de llamas verdes que brillan con intensidad. Sus pétalos se transforman en llamas danzantes, mientras sus patas se vuelven de metal incandescente. Vive en volcanes en erupción.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Vileplume, ahora transformado en Fuego Marino, arde con llamas azules que danzan en su cuerpo. Sus pétalos se tornan de un rojo intenso, irradiando calor mientras se arrastra con patas ardientes.",
   "moves": [
     {
-      "name": "Llama Petalo",
-      "desc": "Lanza pétalos incandescentes que queman al rival con fuego verde.",
-      "name_en": "Ember Bloom",
-      "visual_prompt": "incandescent petals, glowing green fire, molten gold trails, volcanic ash swirls, crimson red sparks, ember-like motion lines, charcoal black smoke, stylized 2D fire VFX"
-    },
-    {
-      "name": "Boca de Llama",
-      "desc": "Expulsa una llamarada desde su boca que quema y empuja al oponente.",
-      "name_en": "Flame Breath",
-      "visual_prompt": "crimson red fireball, molten gold embers, amber orange flame trails, volcanic ash particles, glowing ember sparks, smoke-filled air, charcoal black smoke swirls"
-    },
-    {
-      "name": "Flor de Fuego",
-      "desc": "Crea una flor de fuego que lanza llamas alrededor en un círculo.",
-      "name_en": "Flame Bloom",
-      "visual_prompt": "crimson red petals swirling in molten gold, ember sparks flying in circular motion, volcanic ash particles, glowing magma pool reflections, charcoal black smoke trails"
+      "name": "Llama Marítima",
+      "desc": "Lanza llamas azules que se extienden como olas en el suelo, quemando al rival con fuerza.",
+      "name_en": "Maritime Flame",
+      "visual_prompt": "crimson red and molten gold fire waves, glowing ember-lit smoke trails, volcanic crater backdrop with lava flows, blue flame tendrils spreading like ocean waves, charcoal black smoke rings, dynamic fire ripples on ground"
     },
     {
       "name": "Pétalos Ardientes",
-      "desc": "Dispara pétalos que se convierten en llamas al impactar.",
+      "desc": "Lanza pétalos incandescentes que explotan en llamas al impactar.",
       "name_en": "Blazing Petals",
-      "visual_prompt": "crimson red petals transforming into molten gold flames, ember sparks rising, volcanic crater backdrop with glowing magma pools, smoke-filled air, dynamic motion lines, stylized Ken Sugimori fire VFX"
+      "visual_prompt": "incandescent crimson petals, molten gold embers, explosive orange flames, ash particles, volcanic crater backdrop, ember-lit smoky sky, amber glow accents, charcoal black smoke trails"
+    },
+    {
+      "name": "Respiración de Lava",
+      "desc": "Exhala una nube de humo caliente que quema y desorienta al oponente.",
+      "name_en": "Lava Breath",
+      "visual_prompt": "crimson red smoke plume, molten gold embers swirling, bright orange heat haze, charcoal black smoke tendrils, volcanic crater backdrop, ember-lit smoky sky, stylized 2D VFX, Ken Sugimori aesthetic"
+    },
+    {
+      "name": "Fuego Submarino",
+      "desc": "Crea un torbellino de llamas bajo el agua que ataca desde abajo.",
+      "name_en": "Submarine Fire",
+      "visual_prompt": "crimson red whirlwind, molten orange flames, glowing lava flows, ember-lit smoke, charcoal black water surface, dynamic underwater vortex, fiery sparks, intense heat haze"
     }
   ],
   "diffs": [
     {
       "from": "pétalos verdes",
-      "to": "pétalos de llama verde brillante"
+      "to": "pétalos rojos brillantes que emiten llamas"
     },
     {
-      "from": "patas",
-      "to": "patas de metal incandescente"
+      "from": "postura baja y tranquila",
+      "to": "postura agresiva con patas ardiendo"
     },
     {
-      "from": "vivienda",
-      "to": "vivienda en volcanes en erupción"
+      "from": "olor dulce y venenoso",
+      "to": "olor a humo y lava caliente"
     },
     {
-      "from": "movimiento lento",
-      "to": "movimiento rápido y ágil con llamas"
+      "from": "movimientos lentos",
+      "to": "movimientos rápidos y explosivos"
     }
   ],
   "pokemon_id": "045",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Ondas de Fuerza",
-  "lore": "Machamp ahora se funde con el agua, sus músculos hinchados de líquido brillan bajo el sol. Sus cuatro piernas están envueltas en olas, y su postura se vuelve fluida, listo para dominar el agua con fuerza.",
+  "species_name": "Pokémon Mar Lucha",
+  "lore": "Machamp, ahora cubierto de escamas acuáticas, se desplaza con gracia en el agua. Sus músculos se han adaptado para moverse con fluidez bajo la superficie, mientras sus manos dejan estelas de burbujas al atacar.",
   "moves": [
     {
-      "name": "Ola de Golpe",
-      "desc": "Ataca con un remolino de agua que impulsa al rival hacia atrás, combinando fuerza y presión hidráulica.",
-      "name_en": "Water Surge",
-      "visual_prompt": "whirling vortex of deep ocean blue water, teal green mist, pearly white bubbles, aquamarine energy ripples, sapphire blue shockwaves, bioluminescent plankton sparks, smooth underwater current swirls"
+      "name": "Ola de Fuerza",
+      "desc": "Lanza una ola que envuelve al rival con fuerza y agua, reduciendo su velocidad.",
+      "name_en": "Force Wave",
+      "visual_prompt": "crystalline water waves, shimmering teal ripples, pearly white foam, sapphire blue energy arcs, gentle ocean surface, soft blue sunlight glow, slow-motion ripple effect, translucent water droplets"
     },
     {
-      "name": "Fuerza Acuática",
-      "desc": "Aumenta el poder de los ataques físicos mientras está en contacto con el agua, mejorando su resistencia.",
-      "name_en": "Water Strength",
-      "visual_prompt": "glistening water droplets, swirling ocean currents, glowing bioluminescent plankton, deep blue water ripples, pearly white foam, teal green accents, aquamarine light reflections"
+      "name": "Burbuja de Combate",
+      "desc": "Crea burbujas explosivas que afectan al rival y lo confunden.",
+      "name_en": "Battle Bubble",
+      "visual_prompt": "explosive water bubbles, shimmering teal and pearly white, swirling vortex of sapphire blue ripples, calm ocean surface with gentle waves, soft blue sunlight refracting through bubbles"
     },
     {
-      "name": "Barrido Hidráulico",
-      "desc": "Crea una corriente que envuelve al enemigo, reduciendo su velocidad y causando daño constante.",
-      "name_en": "Hydro Swipe",
-      "visual_prompt": "flowing water currents, swirling vortex of teal and aquamarine, bioluminescent plankton particles, pearly white mist, deep ocean blue ripples, slow-motion water droplets, smooth liquid motion, calm underwater glow, stylized 2D water VFX, Ken Sugimori aesthetic, no characters, no Pokémon, no creatures, no silhouettes, wide banner format, clean lines, dynamic yet serene water effect, vibrant color palette of deep ocean blue, teal green, pearly white, aquamarine, sapphire blue"
+      "name": "Respiración Submarina",
+      "desc": "Recupera energía al sumergirse, aumentando su defensa temporalmente.",
+      "name_en": "Submarine Breath",
+      "visual_prompt": "gentle swirling water currents, shimmering teal bubbles rising, deep ocean blue glow, pearly white mist, soft sapphire light rays, calm ocean surface ripples"
     },
     {
-      "name": "Torrente de Puños",
-      "desc": "Lanza ráfagas de agua a alta presión desde sus puños, combinando fuerza y fluidez acuática.",
-      "name_en": "Water Fist Surge",
-      "visual_prompt": "high-pressure water jets, swirling vortex, deep ocean blue and teal green water droplets, pearly white foam, aquamarine light reflections, bioluminescent plankton sparks, calm underwater current ripples, stylized Ken Sugimori 2D VFX, no characters, no Pokémon, no creatures, no silhouettes, wide banner format, vibrant water effects, smooth fluid motion, dynamic yet calm underwater aesthetic, 2D vector art style, clean lines, vibrant color palette, deep ocean trench background glow, glowing bioluminescent particles, water droplet splashes, fluid dynamics, smooth transitions, no text, no borders, no outlines, no shadows, no 3D elements, only visual effects, no objects or beings, only water and light effects, wide banner composition, vibrant water color palette, flowing water motion, gentle currents, shimmering reflections, water droplets in motion, smooth fluid animation, dynamic water movement, calm yet powerful water flow, deep ocean blue tones, teal green accents, pearly white highlights, aquamarine glow, sapphire blue highlights, glowing bioluminescent particles, water droplet trails, fluid motion lines, smooth water ripples, dynamic water effects, calm underwater current, deep ocean trench atmosphere, glowing plankton, water jet streams, high-pressure water bursts, swirling water vortex, water droplet dispersion, smooth fluid dynamics, vibrant water color scheme, deep ocean blue, teal green, pearly white, aquamarine, sapphire blue tones, bioluminescent glow, water droplet reflections, smooth water flow, gentle water movement, dynamic water patterns, calm water surface ripples, deep ocean trench background, glowing bioluminescent plankton, water jet streams, high-pressure water bursts, swirling water vortex, water droplet dispersion, smooth fluid dynamics, vibrant water color scheme, deep ocean blue, teal green, pearly white, aquamarine, sapphire blue tones, bioluminescent glow, water droplet reflections, smooth water flow, gentle water movement, dynamic water patterns, calm water surface ripples, deep ocean trench background, glowing bioluminescent plankton"
+      "name": "Tsunami de Puños",
+      "desc": "Genera un tsunami de agua que golpea al rival con múltiples impactos.",
+      "name_en": "Fist Tsunami",
+      "visual_prompt": "crashing water waves, multiple overlapping blue orbs, deep ocean blue and teal ripples, pearly white foam bursts, sapphire blue energy trails, calm ocean surface with gentle waves"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro piernas plantadas firmemente",
-      "to": "piernas envueltas en olas que se mueven con fluidez"
+      "from": "cuatro piernas plantadas en el suelo",
+      "to": "patas adaptadas para nadar con agilidad en el agua"
     },
     {
-      "from": "postura baja con peso en las patas traseras",
-      "to": "postura fluida adaptada a la corriente del agua"
+      "from": "postura baja de reptación",
+      "to": "cuerpo más alargado para desplazarse bajo el agua"
     },
     {
-      "from": "músculos definidos",
-      "to": "músculos hinchados de líquido que brillan bajo el sol"
+      "from": "músculos fuertes y rígidos",
+      "to": "músculos flexibles para moverse con fluidez en el agua"
     },
     {
-      "from": "ataques con puños",
-      "to": "ataques combinados con remolinos y chorros de agua"
+      "from": "ataques físicos en tierra",
+      "to": "ataques que combinan fuerza con agua para mayor impacto"
     }
   ],
   "pokemon_id": "068",

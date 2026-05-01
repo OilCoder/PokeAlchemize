@@ -1,0 +1,27 @@
+{
+  "body_colors": [
+    "white",
+    "tan",
+    "gray"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "eyes",
+    "body",
+    "arms",
+    "hands",
+    "legs",
+    "feet"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a compact, quadrupedal body with a head, two arms, and four legs, all touching the ground.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "spiky head",
+    "ears",
+    "arms with hands"
+  ]
+}

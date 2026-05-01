@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Sombra",
-  "lore": "Nidoqueen, ahora envuelta en llamas oscuras, camina con pasos firmes sobre el suelo. Sus escamas de veneno se transforman en llamas rojas que brillan en la oscuridad, irradiando calor intenso.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Nidoqueen, ahora bañada en llamas ardientes, camina con patas de fuego que marcan el suelo. Su piel se cubre de escamas rojas brillantes, y sus ojos brillan con intensidad. El fuego no quema, sino que la protege.",
   "moves": [
     {
-      "name": "Llama Espectral",
-      "desc": "Lanza llamas que se entrelazan con sombras, causando daño adicional a los oponentes débiles a fuego.",
-      "name_en": "Spectral Flame",
-      "visual_prompt": "interwoven crimson fire orbs, molten gold embers swirling in smoke, charcoal black shadow tendrils, glowing ember trails, volcanic crater backdrop with magma pools"
+      "name": "Llamarada Sanguínea",
+      "desc": "Lanza una llamarada que quema la piel y deja marcas rojas en el oponente.",
+      "name_en": "Bloodflare",
+      "visual_prompt": "crimson fire trails, molten gold embers, black charcoal smoke swirls, orange lava droplets, amber glow accents, volcanic crater backdrop, smoky ember sky"
     },
     {
-      "name": "Fuego de la Tierra",
-      "desc": "Genera una erupción de lava desde el suelo, afectando a todos los enemigos cercanos.",
-      "name_en": "Earthfire Surge",
-      "visual_prompt": "molten lava geysers erupting from cracked volcanic ground, glowing ember sparks, crimson red and amber orange lava flows, smoke trails, molten gold splatters, charcoal black ash particles"
+      "name": "Pata de Fuego",
+      "desc": "Ataca con patas incendiadas, causando quemaduras y desequilibrio.",
+      "name_en": "Fire Foot",
+      "visual_prompt": "crimson red footprints, molten orange embers, glowing amber trails, swirling smoke, charcoal black ash particles, volcanic crater backdrop"
     },
     {
-      "name": "Escudo de Ceniza",
-      "desc": "Cubre a Nidoqueen con una capa de ceniza ardiente, reduciendo el daño recibido temporalmente.",
-      "name_en": "Ash Shield",
-      "visual_prompt": "crimson red ash particles swirling in molten gold eddies, glowing ember sparks, volcanic crater backdrop with magma pools, charcoal black smoke tendrils, stylized Ken Sugimori fire VFX"
+      "name": "Cascada de Llama",
+      "desc": "Crea una cascada de llamas que envuelve al enemigo, reduciendo su defensa.",
+      "name_en": "Flame Cascade",
+      "visual_prompt": "crimson red flames cascading in a vertical stream, molten gold embers swirling, amber glow accents, charcoal black smoke trails, dynamic upward motion, fiery vortex effect"
     },
     {
-      "name": "Aliento de la Oscuridad",
-      "desc": "Emite un aliento de llama negra que quema al oponente y reduce su velocidad.",
-      "name_en": "Dark Breath",
-      "visual_prompt": "crimson black flames, molten gold embers, swirling volcanic smoke, glowing ember trails, charcoal ash particles, intense heat haze, volcanic crater backdrop"
+      "name": "Fuego Estelar",
+      "desc": "Dispara una llamarada que se convierte en estrellas de fuego al impactar.",
+      "name_en": "Starfire Blast",
+      "visual_prompt": "crimson red fire trails, molten gold star bursts, ember-lit smoke swirls, volcanic crater glow, bright orange impact sparks, charcoal black smoke outlines"
     }
   ],
   "diffs": [
     {
-      "from": "escamas de veneno",
-      "to": "escamas transformadas en llamas rojas brillantes"
+      "from": "Piel suave y gris",
+      "to": "Escamas rojas brillantes y resistentes al calor"
     },
     {
-      "from": "paso firme sobre el suelo",
-      "to": "paso marcado por llamas que dejan huellas de lava"
+      "from": "Patas terrestres",
+      "to": "Patas con llamas que marcan el suelo al caminar"
     },
     {
-      "from": "posición baja",
-      "to": "postura elevada por el calor que emana de su cuerpo"
+      "from": "Ojos oscuros",
+      "to": "Ojos brillantes como brasas ardientes"
     },
     {
-      "from": "veneno tóxico",
-      "to": "fuego ardiente que quema a los enemigos"
+      "from": "Movimiento lento",
+      "to": "Movimiento ágil con patas en llamas"
     }
   ],
   "pokemon_id": "031",

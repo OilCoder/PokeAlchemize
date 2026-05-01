@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Agua Mental",
-  "lore": "Mewtwo, ahora envuelto en un aura acuática, camina con gracia sobre el agua. Sus ojos brillan con poderes hidrodinámicos, y sus manos emiten ondas que controlan el flujo del agua.",
+  "lore": "Mewtwo, ahora envuelto en un aura acuática, camina con patas sólidas que dejan huellas de olas. Sus ojos brillan con reflejos de profundidad marina, y su aura psíquica se mezcla con el flujo de las olas.",
   "moves": [
     {
       "name": "Ola Psíquica",
-      "desc": "Genera una ola que envuelve al oponente, mezclando fuerzas psíquicas y acuáticas.",
+      "desc": "Lanza una ola que desorienta al enemigo con ondas mentales profundas.",
       "name_en": "Psychic Wave",
-      "visual_prompt": "bioluminescent teal waves, swirling aquamarine energy rings, pearly white psychic orbs, deep ocean blue currents, glowing plankton particles, smooth water ripples"
+      "visual_prompt": "deep ocean blue psychic ripples, teal energy waves, pearly white mental aura, sapphire blue distortion, gentle wave patterns, pale aquamarine light trails, smooth water surface, no characters"
     },
     {
-      "name": "Burbuja Mental",
-      "desc": "Crea burbujas que absorben ataques psíquicos y los devuelven al oponente.",
-      "name_en": "Mental Bubble",
-      "visual_prompt": "glowing bioluminescent bubbles, swirling water currents, deep ocean blue and teal green hues, pearly white reflections, aquamarine light trails, sapphire blue energy ripples"
+      "name": "Mar Mental",
+      "desc": "Crea un campo de agua que refuerza los ataques psíquicos del usuario.",
+      "name_en": "Mind Water",
+      "visual_prompt": "calm ocean surface, gentle ripples, translucent teal water orbs, glowing pearly white psychic energy trails, soft blue sunlight reflections, sapphire blue aura, pale aquamarine mist, smooth water texture, no characters"
     },
     {
-      "name": "Tormenta Hidrófoba",
-      "desc": "Desata una tormenta de agua que reduce la velocidad del oponente.",
-      "name_en": "Hydrostorm",
-      "visual_prompt": "swirling vortex of deep ocean blue water, glowing teal green bioluminescent plankton, pearly white foam spirals, aquamarine mist, sapphire blue currents"
+      "name": "Burbuja Espectral",
+      "desc": "Dispara burbujas que atrapan al enemigo en un sueño psíquico.",
+      "name_en": "Spectral Bubble",
+      "visual_prompt": "glowing psychic-blue bubbles, swirling hypnotic patterns, deep ocean blue water ripples, pearly white mist, sapphire light rays, calm ocean surface, gentle wave patterns, soft blue sunlight glow"
     },
     {
-      "name": "Marea Mental",
-      "desc": "Controla el agua para crear una marea que eleva al oponente y lo ataca.",
-      "name_en": "Mental Tide",
-      "visual_prompt": "glowing bioluminescent water currents, swirling teal and aquamarine vortex, deep ocean blue ripples, pearly white foam bursts, calm underwater motion, shimmering sapphire blue energy"
+      "name": "Corriente Mental",
+      "desc": "Acelera el movimiento del usuario con una corriente psíquica.",
+      "name_en": "Mental Current",
+      "visual_prompt": "glowing teal psychic energy currents, swirling water ripples, pearly white aura, deep ocean blue motion lines, sapphire blue light particles, calm ocean surface reflections, soft blue sunlight rays"
     }
   ],
   "diffs": [
     {
-      "from": "Bipedal, upright stance",
-      "to": "Caminar sobre el agua con paso elegante, sin mojarse."
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas sólidas que dejan huellas de olas"
     },
     {
-      "from": "Arms at sides",
-      "to": "Manos emiten ondas acuáticas que controlan el flujo del agua."
+      "from": "Aura psíquica",
+      "to": "Aura psíquica mezclada con el flujo de las olas"
     },
     {
-      "from": "Psychic type",
-      "to": "Poder psíquico mezclado con fuerzas acuáticas, controlando el agua."
+      "from": "Ojos brillantes",
+      "to": "Ojos brillantes con reflejos de profundidad marina"
     },
     {
-      "from": "Eyes",
-      "to": "Brillan con poderes hidrodinámicos, reflejando el control sobre el agua."
+      "from": "Cuerpo esbelto",
+      "to": "Cuerpo envuelto en una aura acuática"
     }
   ],
   "pokemon_id": "150",

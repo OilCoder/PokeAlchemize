@@ -1,0 +1,28 @@
+{
+  "body_colors": [
+    "white",
+    "pink",
+    "blue",
+    "gray"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "hands",
+    "legs",
+    "feet",
+    "tail"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The Pokémon has a round body with four limbs, standing on the ground with its arms and legs spread out.",
+  "type_markers": [
+    "fairy: pink body parts",
+    "psychic: no specific markers visible"
+  ],
+  "distinctive_features": [
+    "large, round body",
+    "four limbs with hands and feet",
+    "tail with a blue tip"
+  ]
+}

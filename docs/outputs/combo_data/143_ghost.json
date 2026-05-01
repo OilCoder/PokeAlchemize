@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma de Sueños",
-  "lore": "El Snorlax Fantasma de Sueños flota en el aire, su cuerpo translúcido brillando con destellos plateados. Sus patas, antes sólidas, ahora se disuelven en sombras etéreas, mientras sus ojos emiten un brillo azul oscuro.",
+  "species_name": "Pokémon Espectral Lento",
+  "lore": "Snorlax espectral se desliza en silencio, sus patas se funden con la oscuridad. Su cuerpo translúcido emite destellos plateados, y sus ojos brillan con una luz fantasmal mientras duerme en la penumbra.",
   "moves": [
     {
       "name": "Sueño Fantasmal",
-      "desc": "Atrapar al oponente en un sueño profundo que reduce su velocidad.",
+      "desc": "Aturde al rival con un sueño que lo envuelve en sombras.",
       "name_en": "Phantom Dream",
-      "visual_prompt": "floating ghostly silver orbs, deep violet mist swirling around moonlit tombstones, pale silver dream ribbons, shadow violet energy trails, ethereal fog drifting in charcoal gray atmosphere"
+      "visual_prompt": "translucent frost spirals, pale silver mist swirling, moonlight gray shadows enveloping, spectral white orbs drifting, icy blue glow radiating, ghostly tendrils of mist, moonlit ruins backdrop"
     },
     {
-      "name": "Sombra Flotante",
-      "desc": "Creando una sombra que absorbe ataques físicos y los devuelve.",
-      "name_en": "Floating Shadow",
-      "visual_prompt": "floating ghostly violet orbs, swirling charcoal gray mist, pale silver energy trails, shadow violet aura, ethereal fog, moonlit tombstone silhouettes in background, no characters"
-    },
-    {
-      "name": "Respiración de Sombras",
-      "desc": "Exhalar una nube de sombras que envenena al enemigo.",
+      "name": "Aliento Sombrío",
+      "desc": "Inflige daño con un aliento frío que despierta miedos.",
       "name_en": "Shadow Breath",
-      "visual_prompt": "shimmering violet mist, swirling charcoal smoke, pale silver mist particles, ghostly white tendrils, shadow violet fog, ethereal moonlight glow, misty graveyard backdrop, slow-moving fog tendrils"
+      "visual_prompt": "frosty mist swirling in moonlight, spectral white orbs drifting through moonlit ruins, icy blue frost patterns on stone, pale silver glow, translucent frost crystals forming a ghostly aura, cold vapor trails, ethereal mist rising from ancient stones, moonlit shadows dancing in the air, ghostly whispers visible as faint shimmering lines"
     },
     {
-      "name": "Eclipse Lunar",
-      "desc": "Un ataque que oscurece el campo de batalla, reduciendo la precisión del oponente.",
-      "name_en": "Lunar Eclipse",
-      "visual_prompt": "shrouded moonlight, drifting mist, shadowy crescent orbiting, pale silver orbs fading into charcoal gray, ghostly white mist swirling, deep violet moonlight casting long shadows, ethereal fog tendrils"
+      "name": "Espectro Dormido",
+      "desc": "Recupera salud mientras duerme, pero pierde velocidad.",
+      "name_en": "Sleepy Specter",
+      "visual_prompt": "translucent frost orbs floating in moonlight, pale silver mist swirling, spectral white glow on ancient stone ruins, icy blue shimmering trails, ghostly moonlit aura"
+    },
+    {
+      "name": "Tumulto Sombrio",
+      "desc": "Crea una zona de oscuridad que reduce la precisión del enemigo.",
+      "name_en": "Shadow Turmoil",
+      "visual_prompt": "translucent frost mist, drifting spectral orbs, moonlit ruins with cracked stone, pale silver glow, icy blue shadows, spectral white energy swirls, moonlight gray haze, ethereal darkness, no characters"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas disueltas en sombras etéreas"
+      "from": "Cuerpo sólido y pesado",
+      "to": "Cuerpo translúcido y ligero"
     },
     {
-      "from": "cuerpo grueso y sólido",
-      "to": "cuerpo translúcido con brillo plateado"
+      "from": "Patrón de sueño tranquilo",
+      "to": "Sueño que emana sombras y miedo"
     },
     {
-      "from": "ojos normales",
-      "to": "ojos que brillan con un azul oscuro"
+      "from": "Postura baja y tranquila",
+      "to": "Deslizamiento silencioso en el suelo"
     },
     {
-      "from": "sueño profundo",
-      "to": "sueño que atrapa al oponente en una ilusión."
+      "from": "Rasgos normales",
+      "to": "Apariencia espectral con destellos plateados"
     }
   ],
   "pokemon_id": "143",

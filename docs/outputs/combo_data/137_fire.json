@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Digital",
-  "lore": "Porygon Llama Digital brilla con llamas digitales en sus bordes, sus patas cortas ahora arden en fuego. Su cuerpo se funde en un patrón de código incandescente, irradiando calor mientras navega en redes de datos.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Este Pokémon flota sobre llamas azules que dan forma a su cuerpo. Sus ojos brillan como brasas y su cuerpo se transforma en un fluido de energía incandescente, sin contacto con el suelo.",
   "moves": [
     {
-      "name": "Llamarada Código",
-      "desc": "Emitir un rayo de código incendiario que quema la defensa del oponente.",
-      "name_en": "Fire Code Beam",
-      "visual_prompt": "crimson red laser beam, molten gold code fragments, amber orange embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, dynamic motion lines"
+      "name": "Llama Azul",
+      "desc": "Genera llamas azules que queman con frío intenso, dejando marcas de hielo en el suelo.",
+      "name_en": "Blue Flame",
+      "visual_prompt": "crimson red and molten gold fire orbs, icy blue flames with frost patterns, charcoal black smoke trails, frozen ground markings with shimmering ice crystals, glowing ember-lit sky background"
     },
     {
-      "name": "Fuego Virtual",
-      "desc": "Genera una llamarada que consume datos y reduce la precisión del rival.",
-      "name_en": "Virtual Fire",
-      "visual_prompt": "crimson red flames with digital glitches, amber-orange data streams swirling in molten gold embers, charcoal black smoke trails, glowing ember particles, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Chispa Flotante",
+      "desc": "Dispara chispas que flotan en el aire, afectando a múltiples objetivos.",
+      "name_en": "Floating Spark",
+      "visual_prompt": "crimson red sparks floating mid-air, molten gold embers, bright orange energy trails, amber glow particles, charcoal black smoke wisps, volcanic crater backdrop"
     },
     {
-      "name": "Calor de Red",
-      "desc": "Crea un campo de calor que incrementa el poder de los ataques de fuego.",
-      "name_en": "Heat Wave",
-      "visual_prompt": "crimson red heat waves, amber orange shimmering air, molten gold lava droplets, charcoal black smoke swirls, glowing ember particles, dynamic rising thermal currents, volcanic crater backdrop"
+      "name": "Eclipse Llama",
+      "desc": "Cubre al enemigo con una sombra de llamas que reduce su defensa.",
+      "name_en": "Eclipse Llama",
+      "visual_prompt": "crimson fire orbs swirling in a vortex, molten gold embers floating in smoky air, charcoal black shadow tendrils wrapping around glowing lava flows, amber glow illuminating volcanic ash particles"
     },
     {
-      "name": "Overclock Llama",
-      "desc": "Aumenta el ataque temporalmente al coste de energía.",
-      "name_en": "Overclock Llama",
-      "visual_prompt": "crimson red energy swirls, molten gold embers, amber orange sparks, charcoal black smoke trails, glowing magma pools, dynamic fire vortex"
+      "name": "Círculo Incandescente",
+      "desc": "Crea un círculo de fuego alrededor del enemigo, infligiendo daño continuo.",
+      "name_en": "Incandescent Circle",
+      "visual_prompt": "crimson red fire ring, molten gold embers swirling, bright orange lava flows, charcoal black smoke trails, ember-lit smoky sky background, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "Patas cortas y cuadrúpedas",
-      "to": "Patas ardiendo con llamas digitales, emitiendo calor constante"
+      "from": "Cuerpo flotante sin contacto con el suelo",
+      "to": "Flota sobre llamas azules que dan forma a su cuerpo."
     },
     {
-      "from": "Cuerpo de código estable",
-      "to": "Cuerpo fundido en un patrón de código incandescente"
+      "from": "Ojos normales",
+      "to": "Ojos brillan como brasas con energía incandescente."
     },
     {
-      "from": "Bajo postura de descanso",
-      "to": "Postura elevada para liberar calor acumulado"
+      "from": "Estructura sólida",
+      "to": "Se transforma en un fluido de energía incandescente."
     },
     {
-      "from": "Sin contacto con fuego",
-      "to": "Genera y controla llamas digitales en su estructura"
+      "from": "Sin rasgos de fuego",
+      "to": "Genera llamas azules que queman con frío intenso."
     }
   ],
   "pokemon_id": "137",

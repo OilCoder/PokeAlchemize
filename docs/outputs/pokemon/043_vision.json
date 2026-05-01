@@ -1,0 +1,22 @@
+{
+  "body_colors": [
+    "dark blue",
+    "green"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "legs",
+    "leaves"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a round body with four limbs, resembling a small, plant-like creature with leaves on its head.",
+  "type_markers": [
+    "leaves on the head"
+  ],
+  "distinctive_features": [
+    "leaves on the head",
+    "smiling face"
+  ]
+}

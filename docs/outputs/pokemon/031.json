@@ -1,34 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with expressive eyes",
-    "short stubby legs",
-    "curled tail tip",
-    "large expressive eyes",
-    "pointed ears",
-    "sharp teeth visible in open mouth"
+    "robust quadrupedal build",
+    "spiky limbs with pronounced spikes",
+    "pale cream chest and belly",
+    "broad muscular chest",
+    "four legs with distinct foot structure",
+    "pointed ears"
   ],
   "original_type_traits": [
-    "dark blue spikes on body",
-    "pale cream underbelly",
-    "ground-type muscular build"
+    "spikes on arms and legs (poison type)",
+    "pale cream chest and belly (ground type)",
+    "bright blue coloration (ground type)"
   ],
   "transformable_parts": [
-    "spikes",
-    "underbelly color",
-    "tail tip",
+    "spikes on arms and legs",
+    "chest and belly coloration",
     "head shape",
-    "skin texture",
-    "ear shape"
+    "ear shape",
+    "leg structure",
+    "foot texture"
   ],
   "suppress_colors": [
-    "dark blue",
+    "bright blue",
     "pale cream",
-    "bright blue"
+    "white"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "large expressive eyes with sharp teeth visible in open mouth",
-    "curled spiral tail tip with pointed ear tufts"
+    "quadruped, four legs on ground",
+    "spiky arms with upward-pointing spikes",
+    "broad chest with defined muscular structure"
   ],
   "pokemon_id": "031",
   "pokemon_name": "nidoqueen",
@@ -40,22 +40,29 @@
     "body_colors": [
       "bright blue",
       "pale cream",
-      "dark blue"
+      "white"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "ears",
+      "eyes",
+      "mouth",
+      "chest",
+      "arms",
+      "hands",
+      "legs",
+      "feet",
+      "spikes"
     ],
-    "silhouette": "The Pokémon has a robust, muscular build with a large head and short legs, giving it a powerful and grounded appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The Pokémon has a robust, quadrupedal body with a muscular build, featuring four legs and a broad chest.",
     "type_markers": [
-      "dark blue spikes on body",
-      "pale cream underbelly"
+      "spikes on arms and legs",
+      "pale cream chest and belly"
     ],
     "distinctive_features": [
-      "large, expressive eyes",
-      "sharp, pointed teeth visible in open mouth"
+      "spiky arms and legs",
+      "pale cream chest and belly"
     ]
   }
 }

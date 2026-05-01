@@ -1,37 +1,35 @@
 {
   "identity_traits": [
-    "rounded head shape",
-    "short stubby legs",
-    "curled tail tip",
-    "compact round body silhouette",
-    "pointed ears",
-    "leafy head structure"
+    "round body shape",
+    "four limbs with distinct legs",
+    "smiling face expression",
+    "leaf-like growths on head",
+    "small size relative to environment",
+    "symmetrical body structure"
   ],
   "original_type_traits": [
-    "leafy head with green foliage",
-    "green coloration on body",
-    "pointed leafy ears",
-    "plant-like texture on skin"
+    "leafy head growths",
+    "green body coloration",
+    "poisonous-looking dark blue accents",
+    "plant-like texture on body"
   ],
   "transformable_parts": [
-    "head foliage",
-    "tail tip texture",
-    "body skin texture",
-    "ear shape and texture",
-    "leg proportions",
-    "coloration palette"
+    "head leaves",
+    "body texture",
+    "leg details",
+    "face expression",
+    "color scheme",
+    "body shape"
   ],
   "suppress_colors": [
     "green",
-    "leafy green",
-    "dark blue (as base plant color)",
-    "moss green",
-    "pale green"
+    "dark blue",
+    "poisonous-looking accents"
   ],
   "anchor_phrases": [
-    "quadruped, short legs on ground, compact low stance",
-    "leafy head structure with pointed leafy ears",
-    "curled tail tip with plant-like texture"
+    "quadruped, four legs planted on ground",
+    "leafy growths on head with pointed tips",
+    "smiling face with two small eyes"
   ],
   "pokemon_id": "043",
   "pokemon_name": "oddish",
@@ -45,19 +43,20 @@
       "green"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "legs",
+      "leaves"
     ],
-    "silhouette": "The Pokémon has a round body with a leafy head, short legs, and a curled tail tip, giving it a compact and plant-like appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a round body with four limbs, resembling a small, plant-like creature with leaves on its head.",
     "type_markers": [
-      "leafy head",
-      "green coloration"
+      "leaves on the head"
     ],
     "distinctive_features": [
-      "leafy head",
-      "curled tail tip"
+      "leaves on the head",
+      "smiling face"
     ]
   }
 }

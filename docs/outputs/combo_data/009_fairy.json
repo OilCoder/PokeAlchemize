@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Mariposa de Agua",
-  "lore": "Blastoise, ahora envuelto en pétalos brillantes y esponjas de cristal, camina con elegancia en lugar de su postura baja. Su cáscara se cubre de flores mágicas que brillan bajo la luna, emitiendo un suave brillo dorado.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Blastoise, ahora envuelto en un aura de hadas, tiene sus armaduras de cañón brillando con destellos dorados. Sus ojos se vuelven suaves y curiosos, y sus patas se transforman en patas de cisne para bailar en el agua. Sus cañones emiten pétalos de luz en lugar de agua.",
   "moves": [
     {
-      "name": "Pétalo de Luna",
-      "desc": "Lanza pétalos que curan y aumentan la defensa del usuario en un 20%.",
-      "name_en": "Moon Petal",
-      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, soft ivory white mist, pearl lavender stardust trails, crystalline mint energy pulses, glowing starlight blue aura, delicate floral patterns, ethereal soft focus"
+      "name": "Bailar de Pétalos",
+      "desc": "Lanza pétalos brillantes que confunden al oponente con su danza.",
+      "name_en": "Petal Dance",
+      "visual_prompt": "glittering pink petals swirling in a moonlit meadow, delicate lavender mist, ivory white light rays, pearly gold sparkles, shimmering silver trails, soft pastel glow, ethereal motion blur"
     },
     {
-      "name": "Burbuja Mágica",
-      "desc": "Crea burbujas brillantes que confunden al oponente y reducen su velocidad.",
-      "name_en": "Magic Bubble",
-      "visual_prompt": "glowing pastel pink bubbles, soft ivory white mist, pearl lavender swirls, starlight blue refracted light, crystalline mint ripples, floating in moonlit garden atmosphere"
+      "name": "Aurora Hada",
+      "desc": "Crea un arcoíris de energía mágica que cura a aliados y debilita enemigos.",
+      "name_en": "Fairy Arc",
+      "visual_prompt": "glowing pastel rainbow arc, shimmering silver dewdrops, delicate lavender petals floating, ivory white light beams, pearly gold sparkles, misty moonlit meadow backdrop"
     },
     {
-      "name": "Cristal Floral",
-      "desc": "Genera cristales florales que aumentan el poder de los ataques de tipo hada.",
-      "name_en": "Floral Crystal",
-      "visual_prompt": "glowing pastel pink crystals, delicate floral patterns, soft ivory white light, pearl lavender mist, crystalline mint starlight reflections, moonlit garden backdrop, ethereal sparkling particles"
+      "name": "Canción de Sueños",
+      "desc": "Emite una melodía que induce sueños en el enemigo, reduciendo su velocidad.",
+      "name_en": "Dream Song",
+      "visual_prompt": "soft pastel pink and ivory white musical notes, delicate lavender petals swirling in a moonlit meadow, shimmering silver mist, pearly gold fairy lights glowing gently, slow-motion motion lines, ethereal glow, dreamy haze, soft focus background"
     },
     {
-      "name": "Aurora de Pétalos",
-      "desc": "Ataca con un arcoíris de pétalos que causa daño y reduce la precisión del rival.",
-      "name_en": "Petals Aurora",
-      "visual_prompt": "floating pastel pink and lavender petals, glowing starlight blue arcs, crystalline mint mist, soft moonlit garden backdrop, delicate starlight shimmer, smooth pearlescent glow, ethereal fairy-touched light, no characters or Pokémon"
+      "name": "Cura de Estrellas",
+      "desc": "Genera estrellas que sanan a los aliados y restauran su energía.",
+      "name_en": "Star Heal",
+      "visual_prompt": "glowing pastel pink stars, delicate lavender starlight beams, shimmering silver energy orbs, ivory white mist, soft celestial glow, ethereal fairy dust particles, gentle moonlit meadow backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas en el suelo",
-      "to": "caminar con elegancia en postura erguida"
+      "from": "armaduras de cañón",
+      "to": "brillan con destellos dorados y emiten pétalos de luz"
     },
     {
-      "from": "cáscara dura de agua",
-      "to": "cáscara cubierta de flores mágicas brillantes"
+      "from": "patas",
+      "to": "se transforman en patas de cisne para bailar en el agua"
     },
     {
-      "from": "postura baja",
-      "to": "postura erguida y refinada"
+      "from": "cañones",
+      "to": "lanzan pétalos en lugar de agua"
     },
     {
-      "from": "ataques de agua",
-      "to": "ataques de hada con efectos curativos y confusión"
+      "from": "ojos",
+      "to": "se vuelven suaves y curiosos"
     }
   ],
   "pokemon_id": "009",

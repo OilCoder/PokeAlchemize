@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Llama Marina camina con paso lento pero firme, sus patas de acero resuenan al pisar. Su cuerpo cubierto de escamas metálicas brilla bajo el sol, mientras sus ojos brillan con una mente calculadora. El agua se condensa en su piel fría, formando gotas que caen con precisión.",
+  "species_name": "Pokémon Llave Acero",
+  "lore": "Llave Acero, con patas de acero martilladas y ojos brillantes de cristal. Su cuerpo se transformó en una armadura móvil, absorbiendo energía de los metales para mantenerse activo.",
   "moves": [
     {
-      "name": "Cadena de Acero",
-      "desc": "Lanza cadenas metálicas que atan al oponente, reduciendo su movilidad.",
-      "name_en": "Steel Chain",
-      "visual_prompt": "glowing gunmetal gray steel chains, polished silver links, metallic steam vents, neon cyan highlights, electric blue energy trails, industrial cityscape backdrop, geometric patterns, stylized 2D VFX"
+      "name": "Martillo de Acero",
+      "desc": "Ataca con un martillo de acero, causando daño y reduciendo la defensa del rival.",
+      "name_en": "Steel Hammer",
+      "visual_prompt": "polished chrome hammer, gunmetal gray energy trails, matte black impact shockwave, deep steel blue sparks, industrial workshop metal surfaces, glowing energy lines"
     },
     {
-      "name": "Escudo de Plata",
-      "desc": "Crea un escudo reflector que bloquea ataques físicos y especiales.",
-      "name_en": "Silver Shield",
-      "visual_prompt": "polished silver shield, reflective surface with metallic sheen, gunmetal gray energy waves, neon cyan glow, industrial city skyline backdrop, steam vents emitting metallic vapor, electric blue energy arcs"
+      "name": "Cristal Inquebrantable",
+      "desc": "Crea un escudo de cristal que bloquea ataques físicos y aumenta la defensa.",
+      "name_en": "Unbreakable Crystal",
+      "visual_prompt": "polished steel shield, crystalline shards floating in midair, glowing energy lines in gunmetal gray, matte black reflections, deep steel blue light accents, industrial workshop backdrop with polished metal surfaces"
     },
     {
-      "name": "Gota de Acero",
-      "desc": "Lanza gotas de agua con fuerza de acero, causando daño y reduciendo la defensa.",
-      "name_en": "Steel Drop",
-      "visual_prompt": "shimmering steel droplets, sharp metallic edges, polished silver trails, industrial steam vents, neon cyan highlights, gunmetal gray mist, electric blue energy pulses, geometric water droplets"
+      "name": "Fuerza de la Montaña",
+      "desc": "Aumenta el ataque y la defensa, imitando la inmovilidad de una montaña.",
+      "name_en": "Mountain's Might",
+      "visual_prompt": "polished steel mountain peak, glowing gunmetal gray energy lines, matte black stone shards, deep steel blue aura, industrial workshop metal surfaces, static energy field"
     },
     {
-      "name": "Cicatriz de Cobre",
-      "desc": "Deja una marca en el oponente que reduce su resistencia al daño físico.",
-      "name_en": "Copper Scar",
-      "visual_prompt": "gunmetal gray steel scars, polished silver etching lines, metallic steam vents, neon cyan glow, industrial cityscape backdrop, electric blue energy trails, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Vibración de Acero",
+      "desc": "Genera ondas de vibración que dañan a los enemigos cercanos y reducen su velocidad.",
+      "name_en": "Steel Vibration",
+      "visual_prompt": "shimmering steel waves, polished chrome ripples, gunmetal gray energy pulses, deep steel blue vibrations, industrial workshop glow, matte black distortion lines"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo blando y lento",
-      "to": "cuerpo de acero resistente y estable"
+      "from": "patas blandas y lentas",
+      "to": "patas de acero martilladas, firmes en el suelo"
     },
     {
-      "from": "ojos brillantes pero lentos",
-      "to": "ojos que reflejan cálculos precisos"
+      "from": "ojos vidriosos y soñolientos",
+      "to": "ojos brillantes de cristal, alerta y enfocado"
     },
     {
-      "from": "piel húmeda y suave",
-      "to": "escamas metálicas que condensan agua"
+      "from": "cuerpo blando y flexible",
+      "to": "cuerpo transformado en armadura móvil, resistente"
     },
     {
-      "from": "postura baja y relajada",
-      "to": "postura firme y equilibrada"
+      "from": "lento y soñador",
+      "to": "activo y preciso, absorbiendo energía de metales"
     }
   ],
   "pokemon_id": "079",

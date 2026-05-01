@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua de Hueso",
-  "lore": "Cubone, ahora envuelto en ondas acuáticas, camina con pasos suaves sobre el agua. Su cráneo emite un brillo azul, y sus patas se transforman en aletas para nadar con gracia.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Cubone, ahora con una capa de agua que fluye desde su cráneo, camina con elegancia acuática. Sus patas se han adaptado para deslizarse sobre el agua, y su mirada refleja la calma de los mares profundos.",
   "moves": [
     {
-      "name": "Ola de Hueso",
-      "desc": "Genera una ola que golpea al rival con huesos flotantes, causando daño y reduciendo su velocidad.",
-      "name_en": "Bone Wave",
-      "visual_prompt": "floating bone shards, deep ocean blue water current, bioluminescent plankton glow, teal green ripple effect, pearly white bone fragments, aquamarine wave motion, sapphire blue underwater lighting"
+      "name": "Ola de Cráneo",
+      "desc": "Lanza una ola de agua desde su cráneo, golpeando a los enemigos con fuerza.",
+      "name_en": "Skull Wave",
+      "visual_prompt": "crystalline water wave, deep ocean blue and teal ripples, pearly white foam, sapphire blue energy trails, pale aquamarine mist, calm ocean surface glow"
     },
     {
-      "name": "Burbuja de Recuerdo",
-      "desc": "Crea burbujas que envuelven al rival, confundiendo su mente con recuerdos del pasado.",
-      "name_en": "Memory Bubble",
-      "visual_prompt": "floating translucent bubbles with fragmented holographic memories, deep ocean blue and teal green gradients, bioluminescent plankton sparks, slow underwater current swirls, pearly white refractive light patterns"
+      "name": "Corriente de Tierra",
+      "desc": "Crea una corriente que arrastra a los enemigos hacia abajo, dificultando su movimiento.",
+      "name_en": "Earth Current",
+      "visual_prompt": "gentle water currents swirling in deep ocean blue, teal ripples rising from calm surface, pearly white foam patterns, sapphire blue eddies, pale aquamarine mist"
     },
     {
-      "name": "Corriente de Lamento",
-      "desc": "Envía una corriente que reduce la defensa del rival y le quita energía.",
-      "name_en": "Sorrow Current",
-      "visual_prompt": "glowing teal water currents, swirling bioluminescent plankton, pearly white energy ripples, deep ocean blue vortex, aquamarine distortion waves"
+      "name": "Salto de Mar",
+      "desc": "Salta con fuerza hacia arriba, golpeando a los enemigos en el aire.",
+      "name_en": "Ocean Leap",
+      "visual_prompt": "arcing water vortex, cascading teal droplets, shimmering pearly white foam, gentle wave ripples, deep ocean blue glow, soft blue sunlight reflections, aquamarine mist swirls"
     },
     {
-      "name": "Nado de Esqueleto",
-      "desc": "Aumenta la velocidad de movimiento y evita que el rival se acerque durante el combate.",
-      "name_en": "Skeletal Wave",
-      "visual_prompt": "glowing skeletal wave pattern, deep ocean blue water ripples, teal green bioluminescent plankton sparks, pearly white foam swirls, aquamarine energy trails, sapphire blue current distortions"
+      "name": "Marea de Dolor",
+      "desc": "Genera una marea que derrama agua sobre los enemigos, causando daño.",
+      "name_en": "Pain Tide",
+      "visual_prompt": "crashing water waves, shimmering teal droplets, deep ocean blue ripples, pearly white foam, sapphire blue mist, gentle ocean surface glow"
     }
   ],
   "diffs": [
     {
       "from": "cuatro patas plantadas en el suelo",
-      "to": "patas transformadas en aletas para nadar en el agua"
+      "to": "patas adaptadas para deslizarse sobre el agua"
     },
     {
-      "from": "postura baja",
-      "to": "caminar con pasos suaves sobre la superficie acuática"
+      "from": "mirada intensa",
+      "to": "mirada reflejando calma de los mares profundos"
     },
     {
-      "from": "cráneo terrenal",
-      "to": "cráneo que emite un brillo azul con ondas acuáticas"
+      "from": "cráneo con hueso",
+      "to": "cráneo con capa de agua que fluye"
     },
     {
-      "from": "movimiento lento",
-      "to": "movimiento ágil y fluido en el agua"
+      "from": "postura baja de reptación",
+      "to": "postura elegante para caminar en el agua"
     }
   ],
   "pokemon_id": "104",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Mariposa",
-  "lore": "Cubone, ahora transformado en un Pokémon de tipo Hada, camina con delicadeza sobre pétalos de flores. Su cráneo brillante emite un resplandor suave, y sus patas se han vuelto más esbeltas, adaptadas para danzar en el aire.",
+  "species_name": "Pokémon Hueso Aéreo",
+  "lore": "Cubone, ahora con alas de cristal, camina sobre nubes de polvo de estrellas. Su cráneo brillante refleja luces mágicas, y sus patas se han transformado en delicados pies de cristal que brillan bajo la luna.",
   "moves": [
     {
-      "name": "Ala de Pétalo",
-      "desc": "Ataca con un aleteo de pétalos que envuelve al oponente en un baile suave.",
-      "name_en": "Petals Wing",
-      "visual_prompt": "floating pastel pink petals, swirling in soft lavender mist, glowing starlight blue energy trails, crystalline mint light particles, delicate ivory white glow, moonlit garden backdrop"
+      "name": "Ala de Estrella",
+      "desc": "Lanza una lluvia de estrellas que cura y debilita al enemigo con magia suave.",
+      "name_en": "Starlight Gale",
+      "visual_prompt": "soft pastel pink star showers, delicate lavender glowing orbs, ivory white mist, pearly gold stardust trails, shimmering silver sparkles, moonlit meadow backdrop"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Genera un resplandor mágico que cura la salud del aliado.",
-      "name_en": "Moonlight Glow",
-      "visual_prompt": "soft pastel pink glow, ivory white petals floating upward, pearl lavender starlight trails, crystalline mint light particles, glowing starlight blue mist, ethereal moonbeam patterns, delicate shimmering sparkles"
+      "name": "Polvo de Sueños",
+      "desc": "Genera una nube de polvo que induce sueños y reduce la velocidad del rival.",
+      "name_en": "Dream Dust",
+      "visual_prompt": "floating pastel pink and lavender pollen particles, shimmering silver mist, gentle ivory white clouds, delicate glowing fairy lights, soft dreamy haze, ethereal sparkle, moonlit meadow backdrop"
     },
     {
-      "name": "Beso de Flores",
-      "desc": "Inflige daño con un beso lleno de esencias florales.",
-      "name_en": "Floral Kiss",
-      "visual_prompt": "petal swirls, glowing pastel pink orbs, ivory white stardust, lavender flower petals, crystalline mint light trails, soft misty twilight sky"
+      "name": "Brillo de Cristal",
+      "desc": "Aumenta la defensa y refleja ataques con destellos de cristal brillante.",
+      "name_en": "Crystal Shine",
+      "visual_prompt": "shimmering crystal shards, soft pastel pink light, delicate lavender mist, pearly gold reflections, ivory white sparkle trails, moonlit glow, ethereal sparkle patterns"
     },
     {
-      "name": "Danza de Hada",
-      "desc": "Aumenta la velocidad de todo el equipo con un baile mágico.",
-      "name_en": "Fairy Dance",
-      "visual_prompt": "glowing pastel pink petals swirling in a spiral, delicate ivory white starlight trails, pearl lavender mist with crystalline mint sparkles, soft twilight sky backdrop, magical dance motion lines, ethereal glow, no characters or Pokémon, Ken Sugimori style, 2D VFX art"
+      "name": "Canto de Luna",
+      "desc": "Canta una melodía que restaura salud y crea un aura protectora.",
+      "name_en": "Lunar Serenade",
+      "visual_prompt": "moonlit meadow, glowing fairy lights, delicate lavender petals, pearly gold aura, shimmering silver mist, soft pastel pink petals floating upward, ivory white light beams, ethereal shimmering particles, gentle swirling motion"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas plantadas en el suelo",
-      "to": "Patas esbeltas y ligeras para bailar en el aire."
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transformadas en pies de cristal que brillan y flotan ligeramente"
     },
     {
-      "from": "Cráneo sólido y terroso",
-      "to": "Cráneo brillante que emite un resplandor suave."
+      "from": "postura de arrastre bajo",
+      "to": "postura erguida con alas de cristal que permiten flotar"
     },
     {
-      "from": "Postura baja y estable",
-      "to": "Postura elevada y graciosa, como una bailarina."
+      "from": "cráneo de hueso",
+      "to": "cráneo brillante que refleja luces mágicas y emite destellos"
     },
     {
-      "from": "Apariencia terrestre y ruda",
-      "to": "Apariencia delicada y etérea, con toques de color pastel."
+      "from": "tipo tierra",
+      "to": "tipo hada que le permite usar magia luminosa y curar"
     }
   ],
   "pokemon_id": "104",

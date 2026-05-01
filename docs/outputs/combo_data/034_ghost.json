@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Tóxico",
-  "lore": "Nidoking, ahora un espectro venenoso, camina con pasos fantasmales sobre el suelo. Sus patas se transforman en sombras translúcidas, mientras su piel emite un brillo letal. Su presencia infunde miedo en el aire.",
+  "species_name": "Pokémon Espectro Sombrio",
+  "lore": "Nidoking, ahora un espectro sombrío, camina con patas translúcidas que dejan huellas de niebla. Sus cuernos brillan con luz fantasmal, y su piel se funde con las sombras del entorno.",
   "moves": [
     {
-      "name": "Sombra Venenosa",
-      "desc": "Lanza una sombra que envenena al rival, absorbiendo su energía vital.",
-      "name_en": "Poison Shadow",
-      "visual_prompt": "violet shadow tendrils, glowing pale silver poison orbs, ethereal fog, moonlit tombstone outlines, deep violet mist, ghostly white energy trails"
+      "name": "Sombra Inquebrantable",
+      "desc": "Proyecta una sombra densa que bloquea ataques y reduce la precisión del oponente.",
+      "name_en": "Unbreakable Shadow",
+      "visual_prompt": "dense spectral shadow, moonlit ruins backdrop, pale silver mist, drifting translucent orbs, icy blue glow, moonlight gray texture, ghostly haze, no characters, no Pokémon"
     },
     {
-      "name": "Paso Fantasma",
-      "desc": "Desaparece temporalmente y ataca desde atrás, evitando esquivas.",
-      "name_en": "Phantom Step",
-      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, ethereal silver orbs floating in shadowy fog, pale white afterimages of footsteps, charcoal gray mist tendrils, spectral violet light beams"
+      "name": "Alma Errante",
+      "desc": "Ataca con un fantasma que absorbe energía vital, curando al usuario parcialmente.",
+      "name_en": "Wandering Soul",
+      "visual_prompt": "translucent spectral orbs drifting through moonlit ruins, pale silver mist swirling with icy blue frost particles, ghostly energy pulses in moonlight gray, ethereal glow with subtle translucency"
     },
     {
-      "name": "Veneno Espectral",
-      "desc": "Cubre al oponente con un veneno que lo hace transparente y vulnerable.",
-      "name_en": "Spectral Poison",
-      "visual_prompt": "transparent ghostly poison orbs, swirling violet mist, faint glowing silver veins, decaying tombstone outlines in background, ethereal fog drifting, deep violet and charcoal gray color palette"
+      "name": "Viento Fantasmal",
+      "desc": "Lanza un viento frío que hace flotar al oponente, reduciendo su movilidad.",
+      "name_en": "Phantom Gale",
+      "visual_prompt": "frozen spectral wind, floating mist orbs, moonlit ruins backdrop, icy blue frost trails, pale silver translucence, ghostly pale glow, drifting spectral particles"
     },
     {
-      "name": "Sangre de Sombras",
-      "desc": "Ataca con garras que cortan la sombra del rival, reduciendo su defensa.",
-      "name_en": "Shadow Blood",
-      "visual_prompt": "crimson claw marks slicing through misty air, jagged shadow fragments, deep violet aura with charcoal gray edges, pale silver mist swirling, ghostly white particles dissolving into shadow violet fog"
+      "name": "Maldición de la Tierra",
+      "desc": "Cubre el campo con una maldición que debilita a los oponentes de tipo Tierra.",
+      "name_en": "Earth Curse",
+      "visual_prompt": "translucent spectral orbs floating in moonlight, pale silver mist swirling, icy blue frost patterns on ancient stone ruins, ghostly white energy tendrils, moonlit moonlit ruins with faint glowing cracks"
     }
   ],
   "diffs": [
     {
-      "from": "patas plantadas en el suelo",
-      "to": "patas transformadas en sombras translúcidas que no tocan el suelo"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas translúcidas que dejan huellas de niebla"
     },
     {
-      "from": "piel brillante y venenosa",
-      "to": "piel que emite un brillo letal y emana veneno en forma de niebla"
+      "from": "Cuernos venenosos",
+      "to": "Cuernos brillantes con luz fantasmal"
     },
     {
-      "from": "postura muscular baja",
-      "to": "postura erguida y fantasmal, flotando ligeramente"
+      "from": "Piel terrosa",
+      "to": "Piel que se funde con las sombras del entorno"
     },
     {
-      "from": "presencia intimidante",
-      "to": "presencia que infunde miedo en el aire, creando una atmósfera de terror"
+      "from": "Amenaza de veneno",
+      "to": "Amenaza de maldición espectral"
     }
   ],
   "pokemon_id": "034",

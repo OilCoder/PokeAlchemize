@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Lapras, ahora con un aura eléctrica, emite destellos azules de sus crestas. Sus patas se cubren de chispas, y su piel refleja el mar eléctrico. Su postura baja se vuelve más dinámica al moverse.",
+  "species_name": "Pokémon Relámpago Marino",
+  "lore": "Relámpago Marino camina con patas cargadas de energía eléctrica, su caparazón brillante emite destellos azules. Sus patas generan chispas al tocar el agua, transformando el mar en un campo de corrientes.",
   "moves": [
     {
-      "name": "Chispa Oceánica",
-      "desc": "Genera una ráfaga de chispas que golpea al rival con fuerza eléctrica.",
-      "name_en": "Ocean Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning streaks, violet spark particles, bright white energy trails, stormy sky background with neon-lit thunderclouds"
+      "name": "Tormento Eléctrico",
+      "desc": "Ataca con descargas que paralizan y electrifican el suelo bajo el rival.",
+      "name_en": "Electric Torment",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy arcs, crisp white static sparks, bright electric white ground shocks, pale blue glow ripples, urban cityscape neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Burbuja Estática",
-      "desc": "Crea burbujas cargadas que rebotan en el suelo y atacan al enemigo.",
-      "name_en": "Static Bubble",
-      "visual_prompt": "electric blue bubbles, neon yellow spark trails, violet lightning arcs, bright white shockwaves, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Ola de Chispas",
+      "desc": "Dispara chorros de chispas que reducen la defensa del oponente.",
+      "name_en": "Spark Surge",
+      "visual_prompt": "electric blue energy waves, neon yellow sparks streaking, crisp white lightning bolts, bright electric white arcs, pale blue glow trails, urban cityscape backdrop with flickering neon signs"
     },
     {
-      "name": "Corriente Marina",
-      "desc": "Invoca una corriente eléctrica que paraliza al oponente y lo arrastra.",
-      "name_en": "Marine Current",
-      "visual_prompt": "electric blue lightning bolts, neon yellow energy streams, violet sparks, bright white crackling arcs, stormy sky backdrop with neon-lit thunderclouds"
+      "name": "Carga Submarina",
+      "desc": "Se sumerge y emerge con un impacto eléctrico devastador.",
+      "name_en": "Submarine Charge",
+      "visual_prompt": "electric blue water vortex, neon yellow lightning bolts, white energy sparks, pale blue glow trails, urban city skyline silhouette, flickering neon signs, electric storm cloud formations"
     },
     {
-      "name": "Relámpago de Cristal",
-      "desc": "Lanza un relámpago que se divide en cristales brillantes.",
-      "name_en": "Crystal Bolt",
-      "visual_prompt": "electric blue lightning bolts, neon yellow shards, violet spark particles, bright white energy trails, crackling neon thunderclouds, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Red de Rayos",
+      "desc": "Crea una red de energía que atrapa y debilita al enemigo.",
+      "name_en": "Lightning Net",
+      "visual_prompt": "vibrant electric blue energy strands forming a glowing net, neon yellow sparks arcing between strands, crisp white static particles, bright electric white glow radiating outward, pale blue energy trails, urban cityscape background with flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "patas planas y bajas",
-      "to": "patas cubiertas de chispas que generan energía eléctrica"
+      "from": "Patas plantadas en el suelo",
+      "to": "Patas cargadas de energía eléctrica que generan chispas al moverse."
     },
     {
-      "from": "piel fría y cristalina",
-      "to": "piel brillante que refleja la energía eléctrica"
+      "from": "Caparazón de hielo",
+      "to": "Caparazón brillante que emite destellos azules y almacena electricidad."
     },
     {
-      "from": "postura baja y estable",
-      "to": "postura dinámica y ágil al moverse con electricidad"
+      "from": "Natación lenta",
+      "to": "Movimiento ágil con corrientes eléctricas que aceleran su desplazamiento."
     },
     {
-      "from": "cuerpo de agua y hielo",
-      "to": "cuerpo que emite energía eléctrica en lugar de frío"
+      "from": "Temperatura fría",
+      "to": "Emitiendo calor eléctrico que calienta el agua a su alrededor."
     }
   ],
   "pokemon_id": "131",

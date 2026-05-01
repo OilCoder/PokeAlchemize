@@ -1,0 +1,27 @@
+{
+  "body_colors": [
+    "bright orange",
+    "dark orange",
+    "pale cream",
+    "brown"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "legs",
+    "tail",
+    "claws",
+    "flame"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a robust, quadrupedal body with a muscular build, featuring four legs and a tail.",
+  "type_markers": [
+    "flame on tail tip",
+    "flame on body"
+  ],
+  "distinctive_features": [
+    "flame-like appendages on the body and tail",
+    "sharp claws on the feet"
+  ]
+}

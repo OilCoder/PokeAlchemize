@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Chispa Mariposa",
-  "lore": "Jigglypuff ahora se eleva sobre tres patas, sus orejas brillan con chispas eléctricas. Sus mejillas emiten destellos azules, y su cuerpo pulsa con energía estática. Cada paso genera pequeñas descargas en el suelo.",
+  "lore": "Su cuerpo elástico brilla con chispas eléctricas que bailan al ritmo de su canto. Las orejas se han convertido en antenas capaces de captar ondas eléctricas, mientras que su forma amorfosa ahora se adapta a campos magnéticos.",
   "moves": [
     {
-      "name": "Bola Chispa",
-      "desc": "Lanza una bola de electricidad que explota en pequeñas chispas al impactar.",
-      "name_en": "Spark Ball",
-      "visual_prompt": "electric blue sphere, neon yellow sparks, violet lightning bolts, bright white energy burst, crackling energy field, stormy sky backdrop"
-    },
-    {
       "name": "Canto Estático",
-      "desc": "Canta una melodía que genera una onda de energía eléctrica alrededor.",
+      "desc": "Canta para generar un campo estático que reduce la velocidad del oponente.",
       "name_en": "Static Song",
-      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning arcs, violet spark particles, bright white static bursts, electric cyan aura, stormy sky backdrop"
+      "visual_prompt": "electric blue arcs, neon yellow sparks, crisp white energy waves, bright electric white vortex, pale blue glow pulses, urban city skyline silhouette, neon sign flickers"
     },
     {
-      "name": "Pata Relampago",
-      "desc": "Da un salto rápido, dejando un rastro de chispas en el aire.",
-      "name_en": "Lightning Leap",
-      "visual_prompt": "crackling electric blue sparks, neon yellow energy trails, violet lightning bolts, bright white static bursts, electric cyan afterimages, stormy sky backdrop with crackling energy fields"
+      "name": "Bomba Chispa",
+      "desc": "Lanza una bola de energía eléctrica que causa daño y paraliza.",
+      "name_en": "Spark Bomb",
+      "visual_prompt": "vibrant electric blue energy orb, neon yellow lightning bolts, crisp white sparks, bright electric white shockwaves, pale blue glow trails, urban cityscape background with flickering neon signs"
     },
     {
-      "name": "Carga Mariposa",
-      "desc": "Se cubre de una aura eléctrica y acelera hacia el enemigo.",
-      "name_en": "Butterfly Charge",
-      "visual_prompt": "electric blue aura, neon yellow lightning trails, violet spark particles, bright white energy pulses, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Atracción Magnética",
+      "desc": "Atrae al oponente hacia sí, aumentando su propia defensa.",
+      "name_en": "Magnetic Attraction",
+      "visual_prompt": "glowing electric blue orbs swirling in a vortex, neon yellow energy trails, crisp white lightning bolts, pale blue magnetic field pulses, bright electric white sparks, urban city skyline silhouette in background"
+    },
+    {
+      "name": "Pulso Eléctrico",
+      "desc": "Emite un pulso eléctrico que daña a todos los enemigos cercanos.",
+      "name_en": "Electric Pulse",
+      "visual_prompt": "vibrant electric blue energy waves, neon yellow sparks, crisp white lightning bolts, bright electric white static, pale blue glow ripples, urban city skyline backdrop with flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas en el suelo",
-      "to": "tres patas levantadas, una patas en el aire"
+      "from": "cuerpo amorfoso",
+      "to": "cuerpo que brilla con chispas eléctricas y se adapta a campos magnéticos"
     },
     {
-      "from": "voces suaves y calmadas",
-      "to": "canto con energía eléctrica y destellos"
+      "from": "orejas pequeñas",
+      "to": "orejas convertidas en antenas capaces de captar ondas eléctricas"
     },
     {
-      "from": "pelaje suave y esponjoso",
-      "to": "pelaje cubierto de chispas estáticas"
+      "from": "canto normal",
+      "to": "canto que genera campos estáticos y atrae energía"
     },
     {
-      "from": "bajo postura",
-      "to": "postura elevada con un ligero balanceo eléctrico"
+      "from": "sin patas",
+      "to": "forma que se adapta a movimientos eléctricos sin necesidad de extremidades"
     }
   ],
   "pokemon_id": "039",

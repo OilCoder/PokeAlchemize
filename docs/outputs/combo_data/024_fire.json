@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Serpiente",
-  "lore": "El Pokémon Llama Serpiente se enrosca en llamas danzantes, sus escamas negras brillan con destellos rojos. Su respiración arde con fuego sagrado, envolviendo al enemigo en una danza de destrucción.",
+  "lore": "Arbok se transforma en una serpiente de llamas danzantes, su piel brillante emite destellos rojos mientras se desliza. Sus ojos centellean con fuego interno, y cada movimiento libera chispas que marcan el aire.",
   "moves": [
     {
-      "name": "Llama Serpentina",
-      "desc": "Lanza una llamarada en espiral que quema al oponente y reduce su velocidad.",
-      "name_en": "Serpent Flame",
-      "visual_prompt": "spiral fire trail, molten gold embers, crimson red flames, ash particles, volcanic smoke, glowing ember sparks, crackling heat waves, amber orange glow"
+      "name": "Llama Sibilante",
+      "desc": "Lanza una ráfaga de llamas que silba al atravesar el aire, quemando a los enemigos en su trayectoria.",
+      "name_en": "Hissing Blaze",
+      "visual_prompt": "crimson red flames, molten gold embers, silhouetted smoke trails, amber glow streaks, sharp orange heat waves, charcoal black smoke swirls, dynamic fire vortex"
     },
     {
-      "name": "Fuego Danzante",
-      "desc": "Crea un baile de llamas alrededor del oponente, causando daño continuo y confusión.",
-      "name_en": "Dancing Flame",
-      "visual_prompt": "swirling crimson fire whirls, amber-orange embers floating in smoke, molten gold trails, charcoal black ash swirls, glowing ember sparks, dynamic circular motion, volcanic crater background glow"
+      "name": "Serpiente de Fuego",
+      "desc": "Envuelve al oponente en un torbellino de llamas, causando daño continuo y reduciendo su defensa.",
+      "name_en": "Fire Serpent",
+      "visual_prompt": "crimson red fire whirlwind, molten gold embers swirling, bright orange flame tendrils, volcanic ash particles, glowing ember-lit smoke trails, charcoal black smoke rings"
     },
     {
-      "name": "Serpiente Ardiente",
-      "desc": "Ataca con un mordisco de fuego que quema y provoca un estado de quemadura.",
-      "name_en": "Blazing Bite",
-      "visual_prompt": "crimson red fire fangs, molten gold ember trails, smoky volcanic ash swirls, charcoal black smoke bursts, glowing magma pools reflecting flames"
+      "name": "Destello Ardiente",
+      "desc": "Emite un destello de luz intensa que ciega al enemigo y aumenta el ataque del usuario.",
+      "name_en": "Blazing Flash",
+      "visual_prompt": "crimson red light burst, molten gold embers swirling, intense orange glare, sharp black shadows, glowing lava flow patterns, smoky ember sky backdrop"
     },
     {
-      "name": "Círculo de Llamas",
-      "desc": "Forma un círculo de llamas alrededor del campo, dañando a todos los enemigos.",
-      "name_en": "Flame Circle",
-      "visual_prompt": "crimson red fire rings, molten gold embers swirling, amber-orange flames forming a tight circle, charcoal black smoke trails, glowing magma pools beneath, dynamic circular motion"
+      "name": "Ritual de Llamas",
+      "desc": "Realiza un baile ritual que recarga energía y cura parte de los puntos de vida.",
+      "name_en": "Llama Ritual",
+      "visual_prompt": "crimson fire swirls, molten gold embers, volcanic ash particles, amber glow pulses, charcoal black smoke tendrils, rhythmic fire patterns, glowing lava flow textures, ethereal heat haze"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo serpenteante acostado en el suelo",
-      "to": "Cuerpo enroscado en llamas danzantes, emitando calor intenso."
+      "from": "piel venenosa",
+      "to": "piel brillante de escamas rojas que emite llamas"
     },
     {
-      "from": "Escamas oscuras sin brillo",
-      "to": "Escamas negras brillantes con destellos rojos de llama."
+      "from": "cuerpo serpenteante",
+      "to": "cuerpo que ondula con llamas danzantes"
     },
     {
-      "from": "Respiración lenta y venenosa",
-      "to": "Respiración ardiente que libera llamas sagradas."
+      "from": "ojos oscuros",
+      "to": "ojos centelleantes con destellos de fuego interno"
     },
     {
-      "from": "Postura baja y tranquila",
-      "to": "Postura elevada en danza de fuego, amenazando con movimiento rápido."
+      "from": "movimiento lento",
+      "to": "movimiento ágil con estelas de fuego tras él"
     }
   ],
   "pokemon_id": "024",

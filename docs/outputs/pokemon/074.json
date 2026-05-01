@@ -1,33 +1,33 @@
 {
   "identity_traits": [
-    "rounded head shape",
-    "short stubby limbs",
-    "compact body silhouette",
-    "stone-like texture",
-    "fist-like arms"
+    "rounded rock-like body shape",
+    "two arm-like appendages with fists",
+    "no visible legs",
+    "gray color palette",
+    "compact, low-to-the-ground silhouette"
   ],
   "original_type_traits": [
-    "rocky texture on body",
-    "gray coloration",
-    "stony head and body composition"
+    "rocky texture on the body",
+    "grounded, heavy appearance",
+    "dense, solid structure"
   ],
   "transformable_parts": [
-    "body texture",
-    "head shape",
-    "limb details",
-    "arm shape",
-    "color palette",
-    "surface details"
+    "body texture (to show new type's surface)",
+    "arm appendages (to show new type's limb features)",
+    "head shape (to show new type's cranial features)",
+    "silhouette curvature (to show new type's body proportions)",
+    "surface details (to show new type's elemental effects)",
+    "overall weight distribution (to show new type's physicality)"
   ],
   "suppress_colors": [
     "gray",
     "stone gray",
-    "rocky beige"
+    "rocky brown"
   ],
   "anchor_phrases": [
-    "quadruped, four short legs planted firmly on ground, compact low stance",
-    "stone-like texture on body surface",
-    "fist-like arms with rounded knuckles"
+    "quadruped, four legs on ground",
+    "rounded body with two arm-like appendages",
+    "fist-shaped appendages with no visible legs"
   ],
   "pokemon_id": "074",
   "pokemon_name": "geodude",
@@ -40,17 +40,18 @@
       "gray"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "fist-like arms"
+      "head",
+      "two arms with fists",
+      "no visible legs"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with short limbs and a head that appears to be a rock or stone.",
+    "body_plan": "quadruped",
+    "silhouette": "The Pokémon has a rounded, rock-like body with two arms and no visible legs, suggesting a quadrupedal locomotion.",
     "type_markers": [
-      "rocky texture on body"
+      "rocky texture on the body"
     ],
     "distinctive_features": [
-      "stone-like texture",
-      "fist-like arms"
+      "rocky texture",
+      "two arm-like appendages with fists"
     ]
   }
 }

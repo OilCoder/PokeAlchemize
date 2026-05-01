@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Gato",
-  "lore": "Este Meowth transformado en acero camina con paso firme, sus patas ahora son de metal pulido. Sus ojos brillan con reflejos metálicos, y su pelaje se ha endurecido como una armadura, resistiendo cualquier ataque físico.",
+  "lore": "Acero Gato camina con patas de metal que repiquetean al andar. Su pelaje brillante refleja la luz como un escudo, mientras sus garras afiladas cortan acero con facilidad.",
   "moves": [
     {
-      "name": "Golpe de Acero",
-      "desc": "Ataca con una patada metálica que deja marcas profundas en el suelo.",
-      "name_en": "Steel Kick",
-      "visual_prompt": "metallic footprints in gunmetal gray, deep grooves in polished silver ground, glowing neon cyan steam vents, electric blue energy trails, industrial city skyline silhouette"
+      "name": "Corte de Acero",
+      "desc": "Corta al oponente con garras afiladas que reflejan la luz, causando daño y reduciendo defensa.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "polished chrome claws, sharp metallic shards, gunmetal gray energy lines, reflective silver sparks, deep steel blue glow, matte black background, industrial workshop texture, stylized 2D VFX"
     },
     {
-      "name": "Reflejo Acero",
-      "desc": "Crea un escudo metálico que bloquea ataques físicos y refleja daño.",
+      "name": "Escudo de Metal",
+      "desc": "Crea un escudo de acero alrededor de sí mismo, aumentando defensa y bloqueando ataques físicos.",
       "name_en": "Steel Shield",
-      "visual_prompt": "gunmetal gray shield, polished silver reflections, metallic steam vents, electric blue energy waves, neon cyan glow, industrial city skyline backdrop, geometric shield patterns, shimmering metallic surface"
+      "visual_prompt": "gunmetal gray shield, polished chrome energy rings, matte black metallic shards, deep steel blue energy lines, industrial workshop background glow"
     },
     {
-      "name": "Corte de Lámina",
-      "desc": "Corta con garras afiladas que se transforman en cuchillas de acero.",
-      "name_en": "Steel Blade",
-      "visual_prompt": "shimmering steel blades, razor-sharp edges, metallic steam vents, industrial cityscape glow, gunmetal gray and electric blue hues, neon cyan accents, polished silver reflections, dynamic slicing motion lines"
+      "name": "Golpe de Carga",
+      "desc": "Se lanza contra el oponente con fuerza metálica, causando daño y posiblemente causando parálisis.",
+      "name_en": "Metal Strike",
+      "visual_prompt": "gunmetal gray energy wave, polished chrome sparks, matte black metallic shards, deep steel blue glowing energy lines, industrial workshop background texture"
     },
     {
-      "name": "Impacto Arremetida",
-      "desc": "Se lanza con fuerza metálica, aumentando su velocidad y potencia.",
-      "name_en": "Steel Rush",
-      "visual_prompt": "metallic sparks, polished steel shards, electric blue energy trails, neon cyan glow, industrial steam vents, gunmetal gray motion lines, metallic sheen, sharp angular flashes"
+      "name": "Reflejo de Acero",
+      "desc": "Refleja el ataque del oponente hacia él mismo, causando el mismo daño que recibió.",
+      "name_en": "Steel Reflection",
+      "visual_prompt": "polished chrome mirror shards, gunmetal gray energy waves, silver glowing lines, matte black metallic fragments, deep steel blue reflections, distorted light rays, industrial workshop background"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje suave",
-      "to": "pelaje endurecido como acero, resistente a golpes"
+      "from": "pelaje suave y flexible",
+      "to": "pelaje brillante y rígido como acero"
     },
     {
-      "from": "patas flexibles",
-      "to": "patas sólidas y metálicas, estables en combate"
+      "from": "patas blandas para caminar",
+      "to": "patas de metal con garras afiladas"
     },
     {
-      "from": "mirada dulce",
-      "to": "mirada brillante con reflejos metálicos, intimidante"
+      "from": "cuerpo flexible y curvo",
+      "to": "cuerpo recto y angular como un escudo"
     },
     {
-      "from": "movimientos ágiles",
-      "to": "movimientos pesados pero poderosos, con impacto metálico"
+      "from": "oídos redondos y blandos",
+      "to": "oídos de acero con bordes afilados"
     }
   ],
   "pokemon_id": "052",

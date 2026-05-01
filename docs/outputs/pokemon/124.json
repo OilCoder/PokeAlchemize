@@ -1,35 +1,36 @@
 {
   "identity_traits": [
-    "rounded head with large eyes",
-    "short stubby legs",
-    "curled tail tip",
-    "long blonde hair flowing downward",
-    "red cape draped over shoulders",
-    "pale cream torso"
+    "humanoid bipedal form",
+    "long flowing blonde hair",
+    "distinctive facial structure with large eyes",
+    "pointed ears",
+    "dressed in a purple and cream outfit",
+    "necklace accessory"
   ],
   "original_type_traits": [
-    "purple coloration on head and limbs",
-    "pointed ears",
-    "ice-like crystalline texture on shoulders"
+    "psychic eye shape (crystal-like eyes)",
+    "psychic necklace (glowing energy)",
+    "ice-like texture on clothing"
   ],
   "transformable_parts": [
-    "head coloration",
-    "ear shape",
-    "cape texture",
-    "tail tip pattern",
-    "torso texture",
-    "hair color"
+    "hair texture",
+    "necklace design",
+    "clothing texture",
+    "eye shape",
+    "facial expression",
+    "hand posture"
   ],
   "suppress_colors": [
-    "purple",
+    "bright yellow",
     "dark purple",
-    "ice blue",
-    "crystalline white"
+    "pale cream",
+    "red",
+    "white"
   ],
   "anchor_phrases": [
-    "bipedal, upright stance, arms at sides",
-    "long blonde hair flowing downward in smooth strands",
-    "red cape draped over shoulders with subtle folds"
+    "bipedal, upright stance",
+    "long flowing blonde hair with slight waves",
+    "pointed ears with small notches"
   ],
   "pokemon_id": "124",
   "pokemon_name": "jynx",
@@ -39,25 +40,29 @@
   ],
   "visual_facts": {
     "body_colors": [
-      "bright red",
-      "purple",
+      "bright yellow",
+      "dark purple",
       "pale cream",
-      "dark purple"
+      "red",
+      "white"
     ],
     "body_parts": [
-      "rounded head",
-      "pointed ears",
-      "short stubby legs",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "hands",
+      "hair",
+      "necklace"
     ],
-    "silhouette": "The Pokémon has a rounded, somewhat human-like shape with a large head and short limbs.",
+    "body_plan": "biped",
+    "silhouette": "The Pokémon has a humanoid shape with a head, arms, and hands, standing upright.",
     "type_markers": [
-      "purple coloration",
-      "pointed ears"
+      "psychic eye shape",
+      "psychic necklace"
     ],
     "distinctive_features": [
       "long blonde hair",
-      "red cape"
+      "psychic eye shape"
     ]
   }
 }

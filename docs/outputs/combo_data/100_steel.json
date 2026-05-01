@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Relámpago",
-  "lore": "Este Voltorb de acero brilla con una corteza metálica que absorbe y libera energía eléctrica. Sus patas cortas están reforzadas con placas de acero, permitiendo un movimiento rápido y preciso.",
+  "species_name": "Pokémon Acero Luminoso",
+  "lore": "Este Voltorb transformado ahora brilla con un brillo metálico. Su cuerpo amorfoso se ha endurecido en una estructura cristalina, reflejando luz como un espejo. Sus ojos brillan con energía eléctrica contenida.",
   "moves": [
     {
-      "name": "Chispazo de Acero",
-      "desc": "Genera una descarga eléctrica que se refleja en su armadura, dañando al rival con fuerza aumentada.",
-      "name_en": "Steel Shock",
-      "visual_prompt": "polished silver energy arcs, metallic steam vents with electric blue sparks, gunmetal gray reflective surface, neon cyan shockwaves, industrial city skyline silhouette, glowing neon signs in background"
+      "name": "Chispa Reflejada",
+      "desc": "Lanza un rayo eléctrico que rebota en superficies metálicas para golpear múltiples objetivos.",
+      "name_en": "Reflected Spark",
+      "visual_prompt": "gunmetal gray energy bolt, bouncing off polished chrome surfaces, multiple glowing silver shockwaves, deep steel blue energy trails, matte black metallic reflections, industrial workshop background glow"
     },
     {
-      "name": "Impacto Cilíndrico",
-      "desc": "Ataca con un giro rápido, usando su cuerpo cilíndrico para golpear con fuerza metálica.",
-      "name_en": "Cylindrical Impact",
-      "visual_prompt": "spinning metallic cylinder, sharp angular edges, gunmetal gray and polished silver surface, electric blue energy trails, neon cyan sparks, industrial cityscape backdrop with glowing neon signs, metallic steam vents, dynamic motion blur"
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que absorbe ataques y los devuelve con el doble de fuerza.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished chrome shield, glowing energy lines in gunmetal gray, metallic reflections, matte black surface texture, deep steel blue aura, dynamic energy waves, geometric shield patterns"
     },
     {
-      "name": "Resonancia Magnética",
-      "desc": "Crea ondas magnéticas que confunden al oponente y aumentan la precisión de sus ataques.",
-      "name_en": "Magnetic Resonance",
-      "visual_prompt": "glowing gunmetal gray magnetic waves, polished silver spirals, metallic steel blue energy pulses, electric blue neon streaks, neon cyan harmonic ripples, industrial city skyline backdrop"
+      "name": "Resonancia Cristalina",
+      "desc": "Genera ondas de energía que debilitan a los oponentes con ataques eléctricos.",
+      "name_en": "Crystal Resonance",
+      "visual_prompt": "shimmering steel waves, jagged energy lines, glowing gunmetal gray orbs, polished chrome ripples, deep steel blue sparks, matte black background, industrial metal textures"
     },
     {
-      "name": "Escudo de Relámpago",
-      "desc": "Crea un escudo protector que refleja ataques eléctricos y absorbe energía para recuperar PS.",
-      "name_en": "Lightning Shield",
-      "visual_prompt": "polished silver shield with electric blue energy waves, neon cyan lightning bolts reflecting off metallic surface, gunmetal gray steam vents, industrial cityscape glow, metallic steel blue aura"
+      "name": "Impacto Cibernético",
+      "desc": "Ataca con una descarga eléctrica que se enfría al impactar, causando daño adicional.",
+      "name_en": "Cyber Impact",
+      "visual_prompt": "glowing gunmetal gray electrical discharge, polished chrome energy lines, matte black static sparks, deep steel blue shockwave, industrial workshop metal surfaces, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo esférico de goma",
-      "to": "Cuerpo cilíndrico con placas de acero reforzadas"
+      "from": "Cuerpo amorfoso y suave",
+      "to": "Estructura cristalina y dura, reflejando luz"
     },
     {
-      "from": "Patas cortas sin refuerzo",
-      "to": "Patas cortas con placas metálicas para mayor estabilidad"
+      "from": "Energía eléctrica dispersa",
+      "to": "Energía contenida en un núcleo metálico brillante"
     },
     {
-      "from": "Almacenamiento de energía eléctrica",
-      "to": "Almacenamiento de energía magnética en su núcleo acero"
+      "from": "Sin rasgos faciales definidos",
+      "to": "Ojos brillantes que indican su estado energético"
     },
     {
-      "from": "Bajo perfil de movimiento",
-      "to": "Movimiento rápido y preciso gracias a la estructura metálica"
+      "from": "Vulnerable a ataques físicos",
+      "to": "Resistencia a golpes gracias a su estructura metálica"
     }
   ],
   "pokemon_id": "100",

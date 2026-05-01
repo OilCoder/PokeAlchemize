@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Magnético",
-  "lore": "El Espectro Magnético flota sin apoyo, sus patas metálicas se han disuelto en bruma. Sus ojos brillan con energía fantasmal, y su cuerpo emite un zumbido resonante que perturba la realidad.",
+  "species_name": "Pokémon Fantasma Magnético",
+  "lore": "Flotando en el aire sin contacto con el suelo, su cuerpo metálico ahora emana un brillo pálido. Sus ojos brillan con una luz azul fantasmal, y su forma se vuelve translúcida al absorber energía espectral.",
   "moves": [
     {
-      "name": "Carga Fantasma",
-      "desc": "Absorbe energía espectral para lanzar un ataque que atraviesa defensas físicas.",
-      "name_en": "Phantom Charge",
-      "visual_prompt": "floating spectral orbs, glowing violet energy trails, misty graveyard fog, moonlit tombstone shadows, ethereal silver particles, deep violet and charcoal gray aura, ghostly white light beams"
+      "name": "Atracción Espectral",
+      "desc": "Atrae a los oponentes hacia sí, reduciendo su velocidad y aumentando el daño de los ataques futuros.",
+      "name_en": "Spectral Attraction",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling around icy blue energy trails, ghostly white glow with frosty texture, moonlit ruins backdrop, ethereal shimmering particles"
     },
     {
-      "name": "Campo de Parálisis",
-      "desc": "Crea un campo que paraliza a los enemigos con ondas de energía fantasmal.",
-      "name_en": "Paralysis Field",
-      "visual_prompt": "ghostly violet energy waves, misty graveyard atmosphere, moonlit tombstones, ethereal fog drifting, shadow violet aura, pale silver glow, charcoal gray mist, spectral energy pulses"
+      "name": "Campo de Carga Fantasma",
+      "desc": "Crea un campo que refleja ataques eléctricos y absorbe energía espectral para aumentar el poder de los movimientos.",
+      "name_en": "Spectral Charge Field",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, icy blue energy ripples, pale silver mist swirling, ghostly white energy waves reflecting electric sparks, moonlit ruin architecture faintly visible in background"
     },
     {
-      "name": "Vórtice Oscuro",
-      "desc": "Genera un vórtice que absorbe ataques y devuelve energía al usuario.",
-      "name_en": "Dark Vortex",
-      "visual_prompt": "swirling dark violet vortex, absorbing glowing silver energy orbs, shadowy mist, ethereal fog, pale silver particles, charcoal gray edges, ghostly white aura"
+      "name": "Resonancia Fantasmal",
+      "desc": "Genera ondas que debilitan la defensa del oponente y aumentan el daño de los ataques tipo fantasma.",
+      "name_en": "Phantom Resonance",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, icy blue ripples spreading across moonlit ruins, pale silver mist swirling, ghostly frost patterns forming on stone, ethereal glow with moonlight gray accents"
     },
     {
-      "name": "Resonancia Espectral",
-      "desc": "Aumenta el daño de los ataques eléctricos con un eco fantasmal.",
-      "name_en": "Spectral Echo",
-      "visual_prompt": "ghostly violet orbs floating in mist, shimmering silver echoes with shadow violet trails, pale silver energy waves, ethereal fog swirling around phantom-shaped light patterns, deep violet glow"
+      "name": "Cicatriz de Luz",
+      "desc": "Ataca con un rayo de luz que causa daño y quita la protección del oponente.",
+      "name_en": "Light Scar",
+      "visual_prompt": "spectral white light beam, moonlit ruins backdrop, pale silver mist swirls, translucent frost patterns, drifting spectral orbs, icy blue glow, ethereal glow, ghostly shimmer"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas metálicas",
-      "to": "Patas disueltas en bruma, flota sin contacto con el suelo"
+      "from": "Cuerpo metálico sólido",
+      "to": "Cuerpo translúcido con brillo pálido, emitiendo energía espectral."
     },
     {
-      "from": "Bajo postura",
-      "to": "Postura elevada y flotante, sin contacto con el suelo"
+      "from": "Ojos brillantes de color rojo",
+      "to": "Ojos brillantes de color azul fantasmal, indicando una conexión espectral."
     },
     {
-      "from": "Energía eléctrica",
-      "to": "Energía fantasmal mezclada con electricidad, más sutil"
+      "from": "Flotación sin contacto con el suelo",
+      "to": "Flotación más estable, con una aura espectral que evita el contacto físico."
     },
     {
-      "from": "Cuerpo metálico",
-      "to": "Cuerpo translúcido y etéreo, con brillo oscuro"
+      "from": "Ataques eléctricos",
+      "to": "Ataques combinados con energía espectral, afectando a los oponentes con daño adicional."
     }
   ],
   "pokemon_id": "081",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Dulce",
-  "lore": "Su fuego se transforma en destellos de luz celestial, sus alas se cubren de pétalos brillantes. Camina con gracia, sus patas ahora brillan con brillo de estrellas, manteniendo su fuerza ancestral.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aliento de Hada se erige con patas firmes, sus escamas de fuego ahora brillan con destellos de polvo de hada. Sus alas, antes de llamas, ondean con pétalos luminosos que danzan al viento.",
   "moves": [
     {
-      "name": "Canto de Estrellas",
-      "desc": "Crea un aura de luz que cura a aliados y debilita a enemigos con un suave resplandor.",
-      "name_en": "Starlight Chant",
-      "visual_prompt": "glowing starlight blue orbs floating in soft mist, pastel pink and pearl lavender aura pulses, crystalline mint light rays, delicate star-shaped particles, ethereal moonlit garden backdrop"
-    },
-    {
-      "name": "Ala de Pétalos",
-      "desc": "Lanza pétalos brillantes que causan daño y confusión a los oponentes.",
+      "name": "Ala de Pétalo",
+      "desc": "Lanza pétalos que curan heridas y elevan la velocidad del aliado.",
       "name_en": "Petals Gale",
-      "visual_prompt": "glowing pastel pink petals swirling in a spiral, shimmering starlight blue light trails, delicate ivory white mist, pearl lavender crystal shards floating, crystalline mint sparkles, soft twilight sky backdrop"
+      "visual_prompt": "floating pastel pink and lavender petals, shimmering silver trails, delicate ivory white light beams, pearly gold sparkles, misty moonlit meadow background, soft glowing fairy lights"
     },
     {
-      "name": "Resplandor Mágico",
-      "desc": "Genera un brillo intenso que revela debilidades en el oponente durante un turno.",
-      "name_en": "Magic Gleam",
-      "visual_prompt": "glowing pastel pink orbs, floating crystalline mint particles, ivory white starlight trails, pearl lavender mist swirls, soft twilight sky backdrop, delicate fairy dust sparkles"
+      "name": "Resplandor de Estrella",
+      "desc": "Genera un aura de luz que debilita a los enemigos de tipo oscuro.",
+      "name_en": "Starlight Glow",
+      "visual_prompt": "soft pastel pink light rays, ivory white shimmering particles, delicate lavender aura, pearly gold starbursts, shimmering silver mist, moonlit meadow backdrop, glowing fairy lights, ethereal mist, gentle floating petals"
     },
     {
-      "name": "Fuego de Sueños",
-      "desc": "Ataca con llamas suaves que inducen sueños en el enemigo, reduciendo su velocidad.",
-      "name_en": "Dream Fire",
-      "visual_prompt": "soft pastel pink flames, floating dream bubbles, ivory white mist, pearl lavender petals, glowing starlight blue sparks, crystalline mint light trails, moonlit garden backdrop, soft misty twilight atmosphere"
+      "name": "Beso de Sueño",
+      "desc": "Causa sueño en el enemigo con un beso brillante que envuelve su cuerpo.",
+      "name_en": "Dream Kiss",
+      "visual_prompt": "glowing pastel pink kiss-shaped aura, swirling lavender mist, delicate ivory white petals, shimmering silver fairy lights, pearly gold sparkles, soft moonlight glow"
+    },
+    {
+      "name": "Viento de Deseo",
+      "desc": "Crea un viento suave que aumenta la precisión de los movimientos.",
+      "name_en": "Desire Wind",
+      "visual_prompt": "soft pastel pink wind currents, delicate lavender petals swirling, ivory white mist, shimmering silver fairy lights, pearly gold sparkles, gentle motion lines, ethereal glow"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas brillantes con destellos de estrellas"
+      "from": "escamas de fuego",
+      "to": "escamas que brillan con polvo de hada"
     },
     {
-      "from": "alas de fuego",
-      "to": "alas cubiertas de pétalos brillantes"
+      "from": "alas de llamas",
+      "to": "alas que ondean con pétalos luminosos"
     },
     {
-      "from": "fuego intenso",
-      "to": "llamas suaves de luz celestial"
+      "from": "patas plantadas",
+      "to": "patas firmes con huellas de cristal"
     },
     {
-      "from": "postura baja",
-      "to": "postura elegante y graciosa"
+      "from": "respiración de fuego",
+      "to": "respiración de polvo de hada que cura"
     }
   ],
   "pokemon_id": "006",

@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Este Pokémon vuela con alas de llamas danzantes, sus alas brillan con destellos rojos que marcan el aire. Su cuerpo emana calor intenso, transformando el vuelo en un baile de fuego. Cada aleteo libera chispas que iluminan la oscuridad.",
+  "lore": "Con alas de llama que arden en el aire, su cuerpo de insecto brilla con escamas de fuego. Sus seis patas se transforman en llamas danzantes, irradiando calor mientras vuela. Su presencia calienta el ambiente.",
   "moves": [
     {
-      "name": "Alas de Fuego",
-      "desc": "Lanza un torbellino de llamas que quema al oponente y aumenta el ataque.",
-      "name_en": "Fire Wings",
-      "visual_prompt": "crimson red whirlwind of flames, molten gold embers swirling, amber orange heat haze, charcoal black smoke trails, glowing ember sparks, volcanic crater backdrop"
+      "name": "Llama Danzante",
+      "desc": "Lanza llamas que forman patrones en el aire, dañando al oponente y confundiendo.",
+      "name_en": "Dancing Flame",
+      "visual_prompt": "crimson fire orbs swirling in intricate geometric patterns, molten gold embers forming zigzag trails, bright orange sparks scattering with charcoal black smoke tendrils, glowing lava flow background texture"
     },
     {
-      "name": "Vuelo de Cenizas",
-      "desc": "Cubre al oponente con cenizas ardientes que reducen la defensa.",
-      "name_en": "Ash Flight",
-      "visual_prompt": "volcanic ash clouds, glowing ember sparks, molten gold embers, crimson red smoke trails, charred black ash particles, swirling magma-like patterns, heat distortion waves"
+      "name": "Vuelo de Fuego",
+      "desc": "Aumenta la velocidad de vuelo y causa quemaduras en el oponente.",
+      "name_en": "Fire Flight",
+      "visual_prompt": "crimson red fiery wings, molten gold embers swirling, bright orange trail of heat waves, smoky ash particles, charcoal black volcanic backdrop, ember-lit sky"
     },
     {
-      "name": "Destello Infernal",
-      "desc": "Genera un destello de luz intensa que confunde al rival y causa daño.",
-      "name_en": "Infernal Flash",
-      "visual_prompt": "crimson red light streaks, molten gold embers swirling, amber orange sparks, charcoal black smoke trails, glowing ember particles, intense light burst, volcanic crater glow"
+      "name": "Polvo de Ceniza",
+      "desc": "Dispersa cenizas que reducen la defensa del oponente.",
+      "name_en": "Ash Dust",
+      "visual_prompt": "volcanic ash particles, glowing embers, molten gold trails, crimson red smoke swirls, charcoal black ash clouds, ember-lit smoky sky background"
     },
     {
-      "name": "Círculo de Llama",
-      "desc": "Crea un círculo de fuego alrededor del oponente, causando daño continuo.",
-      "name_en": "Flame Circle",
-      "visual_prompt": "crimson fire ring, molten gold embers swirling, amber-orange flame tendrils, volcanic ash particles, glowing ember sparks, charcoal smoke trails, dynamic circular motion, intense heat haze"
+      "name": "Fuego Solar",
+      "desc": "Absorbe la luz solar para incrementar el daño de fuego.",
+      "name_en": "Solar Fire",
+      "visual_prompt": "crimson red sunbeams, molten gold embers swirling in air, bright orange flame spirals, amber glow radiating from center, charcoal black smoke trails, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
       "from": "Alas de mariposa",
-      "to": "Alas de llama danzante que brillan con destellos rojos"
+      "to": "Alas de llama que arden en el aire"
     },
     {
-      "from": "Vuelo suave",
-      "to": "Vuelo marcado por chispas ardientes y calor intenso"
+      "from": "Cuerpo de insecto",
+      "to": "Cuerpo brillante con escamas de fuego"
     },
     {
-      "from": "Cuerpo frágil",
-      "to": "Cuerpo que emana calor intenso y quema al contacto"
+      "from": "Seis patas",
+      "to": "Seis patas convertidas en llamas danzantes"
     },
     {
-      "from": "Insecto tranquilo",
-      "to": "Insecto de fuego que transforma el aire en una danza de llamas"
+      "from": "Vuelo tranquilo",
+      "to": "Vuelo que irradia calor"
     }
   ],
   "pokemon_id": "012",

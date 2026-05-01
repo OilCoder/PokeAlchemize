@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Espectral",
-  "lore": "Dratini ahora camina sobre sombras etéreas, sus escamas brillan con un resplandor pálido. Su cuerpo translúcido absorbe la luz, mientras sus ojos rojos brillan en la oscuridad, marcando su presencia fantasmal.",
+  "species_name": "Pokémon Sombra Serpentina",
+  "lore": "Dratini se transforma en una entidad etérea, su cuerpo translúcido brillando con destellos azulados. Sus ojos se vuelven opacos, y su forma serpentiforme se entrelaza con sombras que lo envuelven en un aura fantasmal.",
   "moves": [
     {
       "name": "Sombra Serpentina",
-      "desc": "Lanza una sombra que envuelve al oponente, reduciendo su velocidad y causando confusión.",
+      "desc": "Inmoviliza al oponente con una sombra que se enrosca alrededor de su cuerpo, reduciendo su velocidad.",
       "name_en": "Serpentine Shadow",
-      "visual_prompt": "twisting shadow tendrils, violet mist, glowing pale silver orbs, charcoal gray smoke swirls, ghostly white mist, shadow violet aura, ethereal fog, moonlit tombstone silhouette (no character, no Pokémon)"
+      "visual_prompt": "twisting spectral tendrils, moonlit ruins backdrop, pale silver mist, translucent frost patterns, icy blue glow, drifting ghostly orbs, ethereal moonlight, smooth flowing motion"
+    },
+    {
+      "name": "Espectro Luminoso",
+      "desc": "Emite un brillo azul que ciega al enemigo y aumenta la precisión de los siguientes ataques.",
+      "name_en": "Luminous Specter",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, icy blue light beams piercing pale silver mist, glowing moonlight gray trails, soft frost particles, ethereal shimmering glow"
     },
     {
       "name": "Viento Fantasmal",
-      "desc": "Genera un viento frío que reduce la defensa del rival y lo desorienta.",
+      "desc": "Genera un viento frío que desestabiliza al rival y reduce su defensa especial.",
       "name_en": "Phantom Gale",
-      "visual_prompt": "cold violet wind currents, swirling misty graveyard fog, floating ghostly silver orbs, shadow violet debris, ethereal charcoal gray particles, pale silver moonlight beams"
+      "visual_prompt": "cold spectral wind, drifting pale silver mist, translucent frost swirls, moonlit ruins background, icy blue energy trails, ghostly orbs floating, pale silver glow, moonlight gray mist, unstable energy ripples"
     },
     {
-      "name": "Resplandor Espectral",
-      "desc": "Emite un resplandor que cura parcialmente los puntos de vida y debilita a los enemigos.",
-      "name_en": "Spectral Glow",
-      "visual_prompt": "glowing violet orbs floating in mist, faint silver trails, ethereal white light rays, shadowy violet fog, ghostly particles, soft charcoal gray outlines, moonlit graveyard atmosphere"
-    },
-    {
-      "name": "Eclipse Dragón",
-      "desc": "Cubre al oponente con una oscuridad total, ocultando su posición y reduciendo su precisión.",
-      "name_en": "Dragon Eclipse",
-      "visual_prompt": "violet mist swirling into shadowy tendrils, charcoal gray moonlight beams, pale silver fog tendrils, ghostly white orb hovering, shadow violet energy waves, misty graveyard backdrop"
+      "name": "Cicatriz Sombra",
+      "desc": "Deja una cicatriz en el oponente que inflige daño adicional cada turno.",
+      "name_en": "Shadow Scar",
+      "visual_prompt": "translucent ghostly scar, spectral white and icy blue glow, moonlit ruins backdrop, pale silver mist, drifting spectral orbs, frosty texture, ethereal shimmer, moonlight gray accents, no characters, no Pokémon, no creatures, no silhouettes, wide banner format"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas firmes en el suelo",
-      "to": "patas translúcidas que flotan sobre sombras, sin contacto físico"
+      "from": "Cuerpo serpenteante",
+      "to": "Se vuelve translúcido y brillante con destellos azulados."
     },
     {
-      "from": "escamas brillantes",
-      "to": "escamas que emiten un resplandor pálido y se funden con la oscuridad"
+      "from": "Ojos brillantes",
+      "to": "Se vuelven opacos y sin expresión, como si fueran vidrio."
     },
     {
-      "from": "cuerpo serpentina",
-      "to": "cuerpo translúcido que parece parte de la sombra"
+      "from": "Forma elongada",
+      "to": "Se entrelaza con sombras que lo envuelven en un aura fantasmal."
     },
     {
-      "from": "ojos dorados",
-      "to": "ojos rojos que brillan en la oscuridad para marcar su presencia"
+      "from": "Sin extremidades",
+      "to": "Genera sombras que actúan como extremidades para moverse."
     }
   ],
   "pokemon_id": "147",

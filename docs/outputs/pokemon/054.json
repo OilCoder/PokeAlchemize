@@ -1,33 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "short stubby legs",
-    "curled tail tip",
-    "compact rounded body silhouette",
-    "light brown and white coloration pattern"
+    "rounded body shape",
+    "four legs with short limbs",
+    "large head with prominent eyes",
+    "ears with dark brown stripes",
+    "dark brown tail tip",
+    "light brown fur texture"
   ],
   "original_type_traits": [
-    "dark brown tuft on head (water-type marker)",
-    "water droplets on body (implied by water type)",
-    "smooth skin texture (water-type adaptation)"
+    "water-type tail tip",
+    "light brown body coloration",
+    "white underbelly"
   ],
   "transformable_parts": [
-    "head tuft",
-    "tail tip curl",
-    "skin texture",
-    "leg shape",
-    "ear shape",
-    "body coloration pattern"
+    "tail tip",
+    "body fur texture",
+    "ear stripe pattern",
+    "head shape",
+    "foot structure",
+    "eye shape"
   ],
   "suppress_colors": [
-    "dark brown (water-type marker)",
-    "light brown (water-type base color)",
-    "white (water-type contrast)"
+    "light brown",
+    "white",
+    "dark brown"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, low stance",
-    "tufted hair on head with exact curl pattern",
-    "curled tail tip with spiral shape"
+    "quadruped, four legs on ground",
+    "ears with distinct dark brown stripes",
+    "tail with bulbous rounded tip"
   ],
   "pokemon_id": "054",
   "pokemon_name": "psyduck",
@@ -41,18 +42,21 @@
       "dark brown"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "tail",
+      "feet",
+      "ears",
+      "tail tip"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with a slightly elongated head and short legs, giving it a compact and sturdy appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded body with four legs, suggesting it is quadrupedal.",
     "type_markers": [
-      "dark brown tuft on head"
+      "tail tip with dark brown color"
     ],
     "distinctive_features": [
-      "tufted hair on head",
-      "curled tail tip"
+      "tail with a dark brown tip",
+      "ears with dark brown stripes"
     ]
   }
 }

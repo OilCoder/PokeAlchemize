@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Mariposa",
-  "lore": "Acero Mariposa vuela con alas de acero pulido, reflejando luz en cada movimiento. Sus antenas emiten destellos metálicos al detectar amenazas. Su cuerpo, ahora sólido como acero, brilla con un aura fría y precisa.",
+  "lore": "Su cuerpo de insecto se ha transformado en acero pulido, con alas de metal que brillan bajo el sol. Sus seis extremidades ahora son patas afiladas y resistentes, capaces de cortar acero con precisión.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta el aire con alas de acero, generando un corte cortante que desgarra cualquier defensa.",
+      "desc": "Corta al oponente con garras de acero, causando daño físico y posiblemente reduciendo su defensa.",
       "name_en": "Steel Cut",
-      "visual_prompt": "shimmering steel wings slicing through air, sharp metallic edges glowing with neon cyan, industrial cityscape backdrop with glowing steam vents, polished silver particles, electric blue energy trails"
+      "visual_prompt": "shimmering steel claws, jagged metallic shards, gunmetal gray energy trails, polished chrome sparks, deep steel blue glow, industrial workshop background texture, matte black highlights"
     },
     {
-      "name": "Vuelo de Láser",
-      "desc": "Dispara rayos láser desde sus antenas, atravesando el campo de batalla con precisión metálica.",
-      "name_en": "Laser Beam",
-      "visual_prompt": "metallic steel blue laser beams, precise geometric patterns, industrial cityscape backdrop, glowing neon cyan trails, polished silver reflections, metallic steam vents, electric blue energy pulses"
+      "name": "Escudo Metálico",
+      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido durante un turno.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray shield with polished chrome edges, deep steel blue energy lines, matte black metallic texture, glowing energy field, industrial workshop background with polished metal surfaces"
     },
     {
-      "name": "Escudo Relámpago",
-      "desc": "Crea un escudo de energía acero que bloquea ataques y refleja daño hacia el oponente.",
-      "name_en": "Lightning Shield",
-      "visual_prompt": "polished silver shield with electric blue energy arcs, neon cyan glowing edges, metallic steam vents, gunmetal gray energy waves, industrial cityscape backdrop, reflective surface shimmer"
+      "name": "Impacto Cíclico",
+      "desc": "Ataca con un giro rápido que causa daño físico y provoca un aturdimiento.",
+      "name_en": "Cyclic Impact",
+      "visual_prompt": "spinning steel gears, sharp metallic shards, glowing gunmetal gray energy trails, polished chrome sparks, deep steel blue shockwaves, industrial workshop backdrop"
     },
     {
-      "name": "Impacto Estelar",
-      "desc": "Se lanza en picada con velocidad increíble, impactando con fuerza metálica.",
-      "name_en": "Starfall Impact",
-      "visual_prompt": "metallic streaks, glowing gunmetal gray trails, polished silver shards, electric blue energy bursts, neon cyan sparks, industrial city skyline silhouette, metallic steam vents"
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan la defensa del oponente y aumentan la velocidad del usuario.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished chrome ripples, matte black energy lines, deep steel blue shimmer, industrial workshop reflections, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "alas de seda",
-      "to": "alas de acero pulido, resistentes a cortes"
+      "from": "Cuerpo de insecto suave",
+      "to": "Cuerpo de acero pulido y resistente"
     },
     {
-      "from": "cuerpo ligero",
-      "to": "cuerpo sólido como acero, pesado pero estable"
+      "from": "Alas de tela ligera",
+      "to": "Alas de metal brillante que cortan con precisión"
     },
     {
-      "from": "antenas sensibles",
-      "to": "antenas emiten destellos metálicos para detectar amenazas"
+      "from": "Seis patas flexibles",
+      "to": "Seis patas afiladas y duras para cortar acero"
     },
     {
-      "from": "vuelo suave",
-      "to": "vuelo preciso con movimiento metálico, sin desviarse"
+      "from": "Vuelo ligero y suave",
+      "to": "Vuelo rápido con patas metálicas que generan ondas de sonido"
     }
   ],
   "pokemon_id": "012",

@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "gray",
+    "white",
+    "black"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "legs",
+    "spikes",
+    "claws"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a quadrupedal shape with four legs, a rounded body, and a head with sharp features.",
+  "type_markers": [
+    "spikes on body",
+    "claws on limbs"
+  ],
+  "distinctive_features": [
+    "spiky body",
+    "sharp claws",
+    "bulbous head"
+  ]
+}

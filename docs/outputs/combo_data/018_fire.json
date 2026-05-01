@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Pidgeot Llama Marina se alza con plumas de llama ardiente que brillan bajo el sol. Sus patas, ahora cubiertas de escamas rojas, sostienen una postura compacta y poderosa, irradiando calor intenso.",
+  "lore": "Pidgeot, ahora transformado en Llama Marina, vuela con alas de llamas que arden en el aire. Su plumaje dorado brilla con destellos rojos, y sus ojos brillan como brasas. El viento se calienta a su paso, marcando su presencia en el cielo.",
   "moves": [
     {
-      "name": "Llama de Pico",
-      "desc": "Dispara llamas desde el pico, quemando al oponente con una explosión de fuego.",
-      "name_en": "Beak Blaze",
-      "visual_prompt": "crimson red flames erupting from a sharp beak silhouette, molten gold embers swirling, amber orange heat haze, charcoal black smoke trails, glowing ember sparks, volcanic crater backdrop with magma pools"
+      "name": "Ala de Fuego",
+      "desc": "Lanza un ataque de llamas desde sus alas, quemando al rival con un soplo ardiente.",
+      "name_en": "Fire Wing",
+      "visual_prompt": "crimson flames erupting from wing-shaped vortex, molten gold embers swirling, bright orange heat haze, charcoal black smoke trails, volcanic crater backdrop with glowing lava flows"
     },
     {
-      "name": "Ala de Combustión",
-      "desc": "Gira las alas para crear una ráfaga de llamas que quema y empuja al rival.",
-      "name_en": "Combustion Wing",
-      "visual_prompt": "crimson red flames, swirling amber-orange vortex, molten gold embers, charcoal black smoke trails, glowing ember particles, dynamic spiral motion, volcanic crater backdrop, smoke-filled air"
+      "name": "Viento de Llamas",
+      "desc": "Crea un viento caliente que inflama el campo de batalla, aumentando el daño de fuego.",
+      "name_en": "Blazing Gale",
+      "visual_prompt": "crimson red whirlwind, molten gold embers, bright orange flames, swirling ash particles, charcoal black smoke trails, volcanic crater backdrop, ember-lit smoky sky"
     },
     {
-      "name": "Corte de Humo",
-      "desc": "Corta con garras calientes, dejando una nube de humo que enmascara el ataque.",
-      "name_en": "Smoke Slash",
-      "visual_prompt": "crimson red smoke tendrils, molten gold claw marks, amber orange embers floating in smoke, charcoal black smoke swirls, glowing ember trails"
+      "name": "Pluma Incendiaria",
+      "desc": "Dispara plumas ardientes que causan quemaduras al impactar.",
+      "name_en": "Blazing Feathers",
+      "visual_prompt": "crimson red embers, molten gold feather fragments, bright orange sparks, charcoal black smoke trails, glowing lava flow patterns, ember-lit sky background"
     },
     {
-      "name": "Viento de Llama",
-      "desc": "Crea un viento ardiente que quema y eleva al oponente al aire.",
-      "name_en": "Flame Wind",
-      "visual_prompt": "crimson red swirling flames, molten gold embers rising, amber orange heat haze, charcoal black smoke tendrils, glowing ember trails, volcanic crater backdrop"
+      "name": "Cielo Ardiente",
+      "desc": "Con un grito, el cielo se oscurece con llamas que caen sobre el enemigo.",
+      "name_en": "Blazing Sky",
+      "visual_prompt": "crimson flames descending from darkened sky, molten gold embers, volcanic ash swirls, bright orange lava flows in background, amber glow accents, charcoal black clouds"
     }
   ],
   "diffs": [
     {
-      "from": "plumas normales",
-      "to": "plumas de llama ardiente que brillan bajo el sol"
+      "from": "plumaje blanco",
+      "to": "plumaje dorado con destellos rojos"
     },
     {
-      "from": "patas con garras",
-      "to": "patas cubiertas de escamas rojas, compactas y poderosas"
+      "from": "alas normales",
+      "to": "alas que emiten llamas"
     },
     {
-      "from": "vuelo ligero",
-      "to": "postura compacta en el suelo, irradiando calor intenso"
+      "from": "vuelo suave",
+      "to": "vuelo que calienta el aire a su paso"
     },
     {
-      "from": "estilo de vuelo",
-      "to": "genera ráfagas de llamas en lugar de viento suave"
+      "from": "ojos oscuros",
+      "to": "ojos brillantes como brasas"
     }
   ],
   "pokemon_id": "018",

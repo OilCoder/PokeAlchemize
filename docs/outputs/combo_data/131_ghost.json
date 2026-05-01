@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Acuático",
-  "lore": "Lapras, ahora un espíritu marino fantasmal, flota sin peso sobre el agua. Sus patas se han vuelto translúcidas, emanando bruma azul. Su mirada es penetrante, revelando su naturaleza etérea.",
+  "species_name": "Pokémon Fantasma de Agua",
+  "lore": "Lapras, ahora un espíritu etéreo, flota sobre el agua con patas translúcidas. Su capa de hielo se ha convertido en bruma espectral, irradiando una calma inquietante en los mares nocturnos.",
   "moves": [
     {
-      "name": "Sombra Marítima",
-      "desc": "Lanza una sombra que absorbe la luz del agua, oscureciendo el campo de batalla.",
-      "name_en": "Sea Shadow",
-      "visual_prompt": "ethereal mist, swirling violet shadows, pale silver water ripples, deep violet light absorption, charcoal gray fog, ghostly white glow, moonlit tombstone silhouettes, misty graveyard atmosphere"
+      "name": "Sombra Glacial",
+      "desc": "Lanza un remolino de hielo que congela y absorbe la energía del enemigo.",
+      "name_en": "Ice Whirl",
+      "visual_prompt": "glowing spectral white ice vortex, pale silver mist swirls, icy blue translucent frost particles, moonlight gray energy absorption trails, drifting spectral orbs"
     },
     {
-      "name": "Viento Espectral",
-      "desc": "Genera un viento frío que desestabiliza al enemigo con un susurro fantasmal.",
-      "name_en": "Spectral Wind",
-      "visual_prompt": "cold violet mist swirling around moonlit tombstones, ethereal silver fog with ghostly whispers, shadow violet particles, pale silver aura, deep violet wind currents, misty graveyard atmosphere"
+      "name": "Eco Espiritual",
+      "desc": "Crea ecos de voces ancestrales que confunden al rival en combate.",
+      "name_en": "Spirit Echo",
+      "visual_prompt": "translucent spectral orbs floating in moonlit ruins, pale silver mist swirling, icy blue echoes forming ghostly vocal shapes, moonlight gray resonance waves, ethereal frost patterns"
     },
     {
-      "name": "Ola Fantasmal",
-      "desc": "Crea olas que atraviesan la piel del oponente, causando daño psíquico.",
-      "name_en": "Phantom Wave",
-      "visual_prompt": "translucent violet waves, ghostly silver ripples, shadowy mist, ethereal fog, pale white energy trails, deep violet glow, charcoal gray undertones, drifting spectral particles"
+      "name": "Nube Sombría",
+      "desc": "Cubre el campo de batalla con una niebla que reduce la precisión de los ataques.",
+      "name_en": "Shadow Mist",
+      "visual_prompt": "translucent moonlight mist, drifting spectral orbs, pale silver fog, icy blue haze, ghostly moonlit ruins backdrop, ethereal glow, frosty particles, soft focus, spectral white accents"
     },
     {
-      "name": "Eco de la Profundidad",
-      "desc": "Envía un eco resonante que debilita al enemigo con recuerdos ancestrales.",
-      "name_en": "Depth Echo",
-      "visual_prompt": "resonant violet sound waves, crumbling ancient tombstone fragments, ethereal mist swirling in ghostly silver, shadow violet ripples, pale silver echoes fading into charcoal gray fog"
+      "name": "Marea Fantasmal",
+      "desc": "Invoca olas espectrales que atacan desde el fondo del mar.",
+      "name_en": "Phantom Tide",
+      "visual_prompt": "translucent spectral waves, moonlit ocean floor, pale silver mist, drifting icy blue orbs, ghostly luminescent ripples, moonlight gray textures, ethereal translucent frost patterns"
     }
   ],
   "diffs": [
     {
-      "from": "patas sólidas",
-      "to": "patas translúcidas que emanan bruma azul"
+      "from": "patas sólidas en el suelo",
+      "to": "patas translúcidas que flotan sobre el agua"
     },
     {
-      "from": "piel fría",
-      "to": "piel que emite un brillo tenue y frío"
+      "from": "capa de hielo protector",
+      "to": "bruma espectral que irradia calma inquietante"
     },
     {
-      "from": "pulso tranquilo",
-      "to": "pulso que late con un ritmo irregular, como una respiración fantasmal"
+      "from": "movimientos acuáticos",
+      "to": "movimientos de tipo fantasma con efectos de absorción"
     },
     {
-      "from": "comportamiento sereno",
-      "to": "comportamiento inquietante, flotando sin rumbo fijo"
+      "from": "personalidad tranquila",
+      "to": "presencia etérea que genera misterio"
     }
   ],
   "pokemon_id": "131",

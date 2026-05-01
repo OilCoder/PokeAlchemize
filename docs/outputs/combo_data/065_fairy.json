@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Hada",
-  "lore": "Aliento de Hada camina con gracia etérea, sus brazos brillan con destellos dorados. Su aura psíquica se entrelaza con magia de hada, creando ondas de luz que calman mentes y sanan heridas.",
+  "species_name": "Pokémon Brillo Mágico",
+  "lore": "Brillo Mágico camina con patas delicadas y brillantes, su piel resplandece con destellos de luz etérea. Sus ojos brillan con magia de hada, y su aura envuelve a los enemigos en sueños encantados.",
   "moves": [
     {
-      "name": "Canto de Luna",
-      "desc": "Crea una melodía que restaura la salud y calma a aliados en combate.",
-      "name_en": "Lunar Song",
-      "visual_prompt": "glowing moonlight beams, floating pastel pink musical notes, soft ivory white petals, pearl lavender starlight trails, crystalline mint dewdrops, ethereal mist, delicate star-shaped glow"
+      "name": "Canto de Estrellas",
+      "desc": "Crea un círculo de estrellas que cura a aliados y confunde a enemigos con su brillo.",
+      "name_en": "Star Song",
+      "visual_prompt": "glowing pastel pink and ivory star circles, delicate lavender starlight beams, pearly gold shimmering particles, silver mist swirls, moonlit meadow backdrop, soft ethereal glow"
     },
     {
-      "name": "Viento de Sueños",
-      "desc": "Envía un viento suave que confunde al enemigo y reduce su precisión.",
-      "name_en": "Dream Wind",
-      "visual_prompt": "soft pastel pink mist swirling in gentle spirals, floating crystalline mint leaves with glowing starlight blue edges, ivory white petals dissolving into pearl lavender stardust, delicate shimmering particles reducing precision markers"
+      "name": "Vuelo de Pétalos",
+      "desc": "Lanza pétalos brillantes que causan daño y reducen la defensa del oponente.",
+      "name_en": "Petals Flight",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit meadow, delicate lavender mist, shimmering silver trails, pearly gold sparkles, soft ivory white glow, no characters, no Pokémon, stylized Ken Sugimori VFX"
     },
     {
-      "name": "Brillo de Estrellas",
-      "desc": "Emite destellos brillantes que aumentan el ataque y la defensa de aliados.",
-      "name_en": "Starlight Gleam",
-      "visual_prompt": "glowing starlight blue orbs, pastel pink and pearl lavender sparkles, crystalline mint energy trails, soft misty twilight sky backdrop, shimmering fairy dust particles, delicate floral patterns in ivory white"
+      "name": "Beso de Sueño",
+      "desc": "Un beso que envía al oponente a un sueño profundo, reduciendo su velocidad.",
+      "name_en": "Dream Kiss",
+      "visual_prompt": "soft pastel pink mist swirling in crescent shapes, glowing ivory white fairy lights floating upwards, delicate lavender petals drifting slowly, pearly gold stardust trails, shimmering silver moonbeam highlights"
     },
     {
-      "name": "Hechizo de Paz",
-      "desc": "Genera un campo mágico que reduce el daño recibido por todo el equipo.",
-      "name_en": "Peace Spell",
-      "visual_prompt": "floating pastel pink orbs, shimmering ivory white energy waves, pearl lavender mist swirls, glowing starlight blue crystalline petals, soft mint light particles, ethereal moonlit garden backdrop"
+      "name": "Resplandor Encantador",
+      "desc": "Aumenta la precisión de los movimientos y envuelve al usuario en una aura brillante.",
+      "name_en": "Enchanted Glow",
+      "visual_prompt": "soft pastel pink orbs floating in a moonlit meadow, delicate lavender mist swirling around shimmering silver aura, ivory white fairy lights glowing gently, pearly gold sparkles, no characters or Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "Brazos cortos a los lados",
-      "to": "Brazos largos y brillantes que emiten destellos dorados"
+      "from": "cuatro patas en el suelo",
+      "to": "patas transformadas en delicados pies brillantes, con destellos de luz"
     },
     {
-      "from": "Aura psíquica",
-      "to": "Aura psíquica entrelazada con magia de hada"
+      "from": "piel pálida",
+      "to": "piel resplandeciente con destellos de luz etérea"
     },
     {
-      "from": "Postura erguida",
-      "to": "Postura fluida y etérea, como danzando en el aire"
+      "from": "ojos brillantes",
+      "to": "ojos que brillan con magia de hada, atrayendo a los enemigos"
     },
     {
-      "from": "Personalidad serena",
-      "to": "Personalidad más dulce y protectora, sanando heridas"
+      "from": "aura psíquica",
+      "to": "aura de hada que envuelve a los enemigos en sueños encantados"
     }
   ],
   "pokemon_id": "065",

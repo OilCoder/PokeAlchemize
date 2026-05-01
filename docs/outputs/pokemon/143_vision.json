@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "dark blue",
+    "white",
+    "light blue"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "body",
+    "arms",
+    "hands",
+    "legs",
+    "feet"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a rounded, almost spherical body with four legs, giving it a quadrupedal appearance.",
+  "type_markers": [
+    "no visible type markers"
+  ],
+  "distinctive_features": [
+    "large, round body",
+    "ears",
+    "hands with claws"
+  ]
+}

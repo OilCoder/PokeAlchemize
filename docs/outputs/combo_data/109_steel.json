@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Tóxico",
-  "lore": "Acero Tóxico, con su armadura de acero endurecido, emite un zumbido metálico al moverse. Sus patas cortas están reforzadas con placas de acero, y su cuerpo de gas tóxico se solidifica en una capa protectora brillante.",
+  "species_name": "Pokémon Lata de Acero",
+  "lore": "Este Koffing transformado en acero brilla con una capa metálica que refleja la luz. Su cuerpo blando ahora tiene dureza de acero, con destellos de escamas afiladas en su superficie. Sus ojos brillan con un resplandor azulado.",
   "moves": [
     {
-      "name": "Chorro de Acero",
-      "desc": "Dispara un chorro de acero líquido que corta y daña al oponente.",
-      "name_en": "Steel Jet",
-      "visual_prompt": "liquid steel stream, sharp metallic edges, polished silver trails, gunmetal gray droplets, electric blue sparks, neon cyan glow, industrial cityscape background, steam vents, glowing neon signs, sharp cutting motion, dynamic streaks, metallic sheen, high-contrast lighting, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Corte de Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño físico y posiblemente reduciendo la defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "sharpened steel claws slicing through air, jagged metallic shards, gunmetal gray energy trails, polished chrome sparks, deep steel blue glow, matte black shadows, industrial workshop background glow"
     },
     {
-      "name": "Escudo de Gas",
-      "desc": "Crea un escudo de gas tóxico que refuerza la defensa y absorbe ataques.",
-      "name_en": "Toxic Shield",
-      "visual_prompt": "gunmetal gray toxic gas shield, swirling metallic steam vents, polished silver reflective surface, neon cyan energy pulses, industrial cityscape backdrop, electric blue glow, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Lluvia de Escamas",
+      "desc": "Dispara escamas metálicas que causan daño especial y pueden reducir la precisión del rival.",
+      "name_en": "Scale Rain",
+      "visual_prompt": "metallic scales, steel-blue energy trails, polished chrome sparks, gunmetal gray mist, matte black impact rings, industrial workshop backdrop"
     },
     {
-      "name": "Explosión de Acero",
-      "desc": "Carga energía acero para explotar y causar daño masivo al oponente.",
-      "name_en": "Steel Blast",
-      "visual_prompt": "gunmetal gray energy orbs, polished silver sparks, metallic steam vents, electric blue shockwaves, neon cyan trails, industrial city skyline silhouette, steel debris fragments"
+      "name": "Resonancia de Acero",
+      "desc": "Genera vibraciones que aumentan el ataque y la defensa del usuario en un 20%.",
+      "name_en": "Steel Resonance",
+      "visual_prompt": "gunmetal gray vibrations, polished chrome ripples, deep steel blue energy lines, matte black metallic shards, industrial workshop glow"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Genera ondas metálicas que debilitan el poder de los ataques del oponente.",
-      "name_en": "Metal Resonance",
-      "visual_prompt": "gunmetal gray waves, polished silver ripples, metallic steel blue distortion, electric blue energy pulses, neon cyan shimmer, industrial cityscape reflections, glowing neon sign streaks"
+      "name": "Bomba de Acero",
+      "desc": "Lanza una bomba que explota en una nube de fragmentos metálicos, causando daño especial y posiblemente confundiendo al oponente.",
+      "name_en": "Steel Bomb",
+      "visual_prompt": "gunmetal gray metallic fragments, polished chrome explosions, deep steel blue energy trails, matte black smoke swirls, industrial workshop background glow, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo de gas tóxico",
-      "to": "solidificado en una capa protectora brillante de acero"
+      "from": "Cuerpo blando y amorfoso",
+      "to": "Cuerpo duro y metálico con escamas afiladas"
     },
     {
-      "from": "patas cortas",
-      "to": "reforzadas con placas de acero para mayor estabilidad"
+      "from": "Color gris pálido",
+      "to": "Brillo plateado con destellos azules"
     },
     {
-      "from": "zumbido suave",
-      "to": "zumbido metálico al moverse"
+      "from": "Ojos oscuros",
+      "to": "Ojos brillantes con resplandor azulado"
     },
     {
-      "from": "vulnerabilidad a ataques físicos",
-      "to": "resistencia a golpes gracias a la armadura de acero"
+      "from": "Libera gases tóxicos",
+      "to": "Emite vibraciones metálicas que pueden confundir"
     }
   ],
   "pokemon_id": "109",

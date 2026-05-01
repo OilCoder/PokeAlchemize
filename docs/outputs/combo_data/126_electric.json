@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Este Magmar ahora emana chispas eléctricas de sus patas, con una postura más dinámica y ojos brillantes. Su piel, antes roja, se cubre de rayas azules que canalizan la energía eléctrica.",
+  "lore": "Magmar ahora brilla con chispas azules, su piel se cubre de escamas eléctricas que zumban. Sus patas, ahora con electrodos, emiten descargas al moverse, cargando el aire con energía.",
   "moves": [
     {
-      "name": "Descarga Luminosa",
-      "desc": "Lanza un rayo brillante que ciega al oponente y reduce su velocidad.",
-      "name_en": "Luminous Charge",
-      "visual_prompt": "electric blue lightning bolts, neon yellow energy arcs, violet spark particles, bright white light streaks, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds, dynamic motion lines, electric cyan glow effects"
-    },
-    {
       "name": "Chispa de Fuego",
-      "desc": "Combina chispas eléctricas con llamas para causar daño doble.",
+      "desc": "Lanza una descarga eléctrica que quema al oponente y provoca parálisis.",
       "name_en": "Fire Spark",
-      "visual_prompt": "electric blue sparks, neon yellow flames, violet energy sparks, bright white lightning bolts, crackling energy field, stormy sky backdrop"
+      "visual_prompt": "glowing electric blue orbs, neon yellow lightning bolts, crisp white energy trails, bright electric white sparks, pale blue static discharge, urban cityscape background with flickering neon signs"
     },
     {
-      "name": "Pata Electrificada",
-      "desc": "Ataca con patadas cargadas de electricidad, elevando su precisión.",
-      "name_en": "Electrified Kick",
-      "visual_prompt": "crackling electric blue energy trails, neon yellow sparks, violet lightning bolts, bright white electric arcs, stormy sky backdrop with neon-lit thunderclouds, dynamic motion lines"
+      "name": "Relámpago Luminoso",
+      "desc": "Crea un destello de luz que ciega al rival y aumenta la precisión del ataque.",
+      "name_en": "Luminous Flash",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow streaks, crisp white light bursts, bright electric white radiating rings, pale blue glow pulses, urban city skyline silhouette with neon signs flickering"
     },
     {
-      "name": "Relámpago de Magia",
-      "desc": "Genera un relámpago que afecta a todos los enemigos cercanos.",
-      "name_en": "Magic Bolt",
-      "visual_prompt": "electric blue lightning bolts, neon yellow sparks, violet energy arcs, bright white crackling energy, electric cyan storm clouds, dynamic motion lines, stylized 2D VFX, Ken Sugimori aesthetic, no characters, no Pokémon, no creatures, no silhouettes, wide banner format, vibrant and energetic, stormy sky background, neon-lit thunderclouds, sharp and precise lightning strikes"
+      "name": "Descarga Terrenal",
+      "desc": "Genera una onda eléctrica en el suelo que afecta a todos los enemigos cercanos.",
+      "name_en": "Earth Shock",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow lightning bolts, crisp white energy pulses, bright electric white streaks, pale blue glow ripples, urban cityscape gridlines, neon sign flickers"
+    },
+    {
+      "name": "Escudo Estático",
+      "desc": "Crea un campo eléctrico alrededor que reduce el daño recibido.",
+      "name_en": "Static Shield",
+      "visual_prompt": "electric blue energy field, neon yellow arcs, crisp white sparks, bright electric white pulses, pale blue glow, urban city skyline silhouette, neon signs flickering in background"
     }
   ],
   "diffs": [
     {
-      "from": "Piel roja y llamas",
-      "to": "Piel con rayas azules que canalizan electricidad."
+      "from": "piel roja brillante",
+      "to": "piel cubierta de escamas eléctricas azules que zumban"
     },
     {
-      "from": "Postura baja y estática",
-      "to": "Postura más dinámica con patas plantadas en movimiento."
+      "from": "patas sin cambios",
+      "to": "patas equipadas con electrodos que emiten descargas"
     },
     {
-      "from": "Ataques de fuego",
-      "to": "Ataques combinados de electricidad y fuego."
+      "from": "caminar con pasos lentos",
+      "to": "moverse con saltos eléctricos que dejan rastros de chispas"
     },
     {
-      "from": "Ojos normales",
-      "to": "Ojos brillantes que emiten destellos eléctricos."
+      "from": "respirar humo",
+      "to": "respirar chispas eléctricas que cargan el aire"
     }
   ],
   "pokemon_id": "126",

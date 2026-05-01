@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Relámpago Acuático",
-  "lore": "Psyduck ahora camina con patas cargadas de energía eléctrica, sus ojos brillan con chispas azules. Su pelaje húmedo resplandece bajo el sol, generando cortocircuitos al tocar superficies metálicas.",
+  "lore": "Relámpago Acuático emana chispas eléctricas de su pelaje húmedo. Sus patas brillan con energía estática, y sus ojos lanzan destellos azules. El agua de su cuerpo se electrifica al moverse, generando un aura de poder.",
   "moves": [
     {
-      "name": "Descarga Húmeda",
-      "desc": "Genera una descarga eléctrica sobre el agua, causando daño y paralización a los enemigos.",
-      "name_en": "Wet Shock",
-      "visual_prompt": "crackling electric arcs, neon blue water droplets, violet sparks, stormy sky backdrop, glowing cyan energy fields, electric blue lightning bolts, dynamic water ripples"
+      "name": "Descarga Salpicadura",
+      "desc": "Lanza una ráfaga de agua electrificada que causa parálisis en el oponente.",
+      "name_en": "Splash Shock",
+      "visual_prompt": "electric blue water droplets, neon yellow energy trails, crisp white lightning bolts, bright electric white sparks, pale blue glow ripples, urban city skyline silhouette, neon sign reflections on water"
     },
     {
-      "name": "Chispa Acuática",
-      "desc": "Dispara chispas desde las patas, atacando con fuerza y reduciendo la velocidad del rival.",
-      "name_en": "Water Spark",
-      "visual_prompt": "electric blue water droplets, neon yellow sparks, violet lightning bolts, bright white energy trails, crackling storm clouds, neon-lit rain streaks, dynamic energy field"
+      "name": "Rayo Acuático",
+      "desc": "Dispara un rayo eléctrico a través del agua, aumentando el daño al contacto.",
+      "name_en": "Water Bolt",
+      "visual_prompt": "electric blue water stream, neon yellow lightning arcs, crisp white spray droplets, bright electric white energy trails, pale blue glow ripples"
     },
     {
-      "name": "Tormenta Estática",
-      "desc": "Crea una tormenta eléctrica en el agua, afectando a todos los enemigos cercanos.",
-      "name_en": "Static Storm",
-      "visual_prompt": "electric blue lightning bolts, neon yellow energy arcs, violet sparks, bright white crackling energy fields, stormy sky with neon-lit thunderclouds, dynamic swirling patterns, electric cyan glow"
+      "name": "Tormenta Húmeda",
+      "desc": "Crea una tormenta eléctrica en el agua, reduciendo la velocidad de los enemigos.",
+      "name_en": "Wet Storm",
+      "visual_prompt": "electric blue lightning bolts, neon yellow water droplets, crisp white storm clouds, bright electric white energy trails, pale blue glow, urban cityscape skyline silhouette, flickering neon signs"
     },
     {
-      "name": "Cortocircuito",
-      "desc": "Ataca con una descarga intensa que quema el sistema eléctrico del oponente.",
-      "name_en": "Short Circuit",
-      "visual_prompt": "intense electric blue arcs, neon yellow sparks, violet energy crackles, bright white static bursts, electric cyan lightning bolts, stormy sky backdrop with crackling energy fields"
+      "name": "Chispa Hidroeléctrica",
+      "desc": "Genera una chispa que conecta con el agua, causando daño eléctrico adicional.",
+      "name_en": "Hydroelectric Spark",
+      "visual_prompt": "electric blue lightning bolts, neon yellow water droplets, vibrant white energy arcs, crisp white spark trails, pale blue glowing mist, urban city skyline silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "Pies húmedos y patas anchas",
-      "to": "Pies con chispas eléctricas que generan cortocircuitos al tocar objetos metálicos."
+      "from": "Pelo húmedo",
+      "to": "Pelaje brillante con chispas eléctricas"
     },
     {
-      "from": "Cabeza baja y mirada distraída",
-      "to": "Ojos brillantes con chispas azules que indican concentración eléctrica."
+      "from": "Ojos normales",
+      "to": "Ojos que lanzan destellos azules"
     },
     {
-      "from": "Piel suave y húmeda",
-      "to": "Pelaje húmedo que resplandece y atrae descargas eléctricas."
+      "from": "Patas en contacto con el suelo",
+      "to": "Patas que emiten energía estática"
     },
     {
-      "from": "Boca abierta y sonrisa tonta",
-      "to": "Boca emitiendo chispas pequeñas al moverse."
+      "from": "Agua en su cuerpo",
+      "to": "Agua electrificada que genera aura de poder"
     }
   ],
   "pokemon_id": "054",

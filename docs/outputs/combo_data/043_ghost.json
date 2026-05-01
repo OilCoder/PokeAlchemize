@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Sombra de Hojas",
-  "lore": "Sombra de Hojas camina con pasos silenciosos, sus hojas translúcidas brillan con un resplandor azul. Sus patas se vuelven etéreas, desvaneciéndose en el aire mientras absorbe esencias de la oscuridad.",
+  "species_name": "Pokémon Espectro Flora",
+  "lore": "El Espectro Flora flota sin peso, sus raíces se convierten en tentáculos etéreos. Sus pétalos pálidos brillan con luz fantasmal, mientras sus ojos rojos emiten un brillo siniestro en la oscuridad.",
   "moves": [
     {
-      "name": "Sombra Fúngica",
-      "desc": "Lanza una nube de esporas que ralentiza al enemigo y le quita energía.",
-      "name_en": "Mushroom Mist",
-      "visual_prompt": "floating spore clouds, slow-motion particles, violet mist, ghostly silver trails, decaying tombstone outlines, pale silver energy drain, shadow violet aura, ethereal fog, charcoal gray mist, slow-motion effect"
+      "name": "Sombra de Raíz",
+      "desc": "Inyecta energía espectral en el suelo, invocando raíces fantasmales que atrapan al rival.",
+      "name_en": "Spectral Root",
+      "visual_prompt": "translucent ghostly roots, spectral white mist, pale silver moonlight, icy blue frost patterns, drifting spectral orbs, moonlit ruins background, ethereal glow, translucent texture"
     },
     {
-      "name": "Hoja de Sombras",
-      "desc": "Corta al rival con hojas que cortan a través de la oscuridad.",
-      "name_en": "Shadow Leaf",
-      "visual_prompt": "shimmering dark violet leaves, ghostly silver trails, ethereal fog, moonlit tombstone silhouettes, shadowy tendrils, deep violet mist, pale silver light beams, charcoal gray accents, ghostly white glow, misty graveyard atmosphere"
+      "name": "Flor Siniestra",
+      "desc": "Lanza pétalos que emiten un aura oscura, reduciendo la defensa del oponente.",
+      "name_en": "Dark Bloom",
+      "visual_prompt": "translucent frost petals, spectral white aura, pale silver mist, drifting ghostly orbs, moonlight gray glow, icy blue accents, ethereal glow, shattered porcelain texture"
     },
     {
-      "name": "Esencia Oscura",
-      "desc": "Absorbe la energía del enemigo para curar al usuario.",
-      "name_en": "Dark Essence",
-      "visual_prompt": "dark violet energy tendrils, swirling ghostly silver mist, pale silver glowing orbs, shadow violet aura, ethereal fog drifting, misty graveyard background, moonlit tombstones silhouette, charcoal gray particles floating, ghostly white light rays"
+      "name": "Susurro Fantasmal",
+      "desc": "Amenaza con un susurro que reduce la precisión del enemigo.",
+      "name_en": "Phantom Whisper",
+      "visual_prompt": "translucent frost orbs, pale silver mist swirling, moonlight gray spectral whispers, icy blue tendrils, ghostly translucence, moonlit ruins backdrop"
     },
     {
-      "name": "Aliento de la Noche",
-      "desc": "Emite un susurro que confunde al enemigo y reduce su precisión.",
-      "name_en": "Night Whisper",
-      "visual_prompt": "ethereal mist, floating ghostly whispers, pale silver particles, deep violet fog, shadow violet accents, moonlit tombstone outlines, charcoal gray tendrils, ghostly white glow"
+      "name": "Cicatriz Oscurecida",
+      "desc": "Genera una sombra que absorbe la energía del rival y la convierte en daño.",
+      "name_en": "Shadow Absorption",
+      "visual_prompt": "translucent frost shards, spectral white energy swirls, pale silver mist drifting, moonlight gray shadow tendrils, icy blue energy orbs, ghostly aura, moonlit ruins backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas sólidas",
-      "to": "Patas etéreas que se desvanecen en la oscuridad"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Flota sin contacto con el suelo, con raíces convertidas en tentáculos etéreos."
     },
     {
-      "from": "Hoja verde brillante",
-      "to": "Hoja translúcida con resplandor azul"
+      "from": "Pétalos verdes brillantes",
+      "to": "Pétalos pálidos que brillan con luz fantasmal en la oscuridad."
     },
     {
-      "from": "Bajo postura en el suelo",
-      "to": "Postura flotante sin contacto con el suelo"
+      "from": "Ojos amarillos",
+      "to": "Ojos rojos que emiten un brillo siniestro."
     },
     {
-      "from": "Aroma dulce de flor",
-      "to": "Aroma frío y penetrante de esporas"
+      "from": "Sabor dulce",
+      "to": "Emite un aroma que atrae a los espíritus errantes."
     }
   ],
   "pokemon_id": "043",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama de Ceniza",
-  "lore": "Con su pelaje de escamas plateadas y ojos brillantes, este Magmar emana un aura mágica. Sus patas se cubren de pétalos de flores de luna, absorbiendo la luz del sol para crear brillos etéreos.",
+  "species_name": "Pokémon Llama Dulce",
+  "lore": "El Pokémon Llama Dulce camina con gracia sobre patas de cristal, sus llamas ahora brillan con un resplandor de polvo de hada. Su cuerpo se cubre de pétalos de flor que brillan bajo el sol, transformando su furia en magia suave.",
   "moves": [
     {
-      "name": "Luz de Luna",
-      "desc": "Cubre al oponente con una luz suave que reduce su defensa y genera un aura de calma.",
-      "name_en": "Moonlight Glow",
-      "visual_prompt": "soft pastel pink light rays, ivory white mist, pearl lavender aura, glowing starlight blue crystals, crystalline mint energy particles, gentle moonbeam patterns, smooth flowing motion, ethereal shimmer"
+      "name": "Pétalo de Sueño",
+      "desc": "Lanza pétalos que inducen un sueño tranquilo, reduciendo el daño recibido.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "soft pastel pink petals floating in moonlight, delicate lavender mist, glowing ivory white orbs, shimmering silver sparkles, gentle motion lines, ethereal glow, no characters, no Pokémon"
     },
     {
-      "name": "Pétalos de Ceniza",
-      "desc": "Dispara pétalos brillantes que causan daño y aplican el efecto de 'Cansancio' al enemigo.",
-      "name_en": "Ash Petals",
-      "visual_prompt": "glowing pastel pink petals, soft ivory white mist, pearl lavender sparkles, starlight blue crystalline shards, floating crystalline mint particles, moonlit garden backdrop, soft misty twilight atmosphere"
+      "name": "Brillo de Cura",
+      "desc": "Emite un brillo dorado que restaura salud a aliados cercanos.",
+      "name_en": "Healing Glow",
+      "visual_prompt": "soft pastel pink light rays, ivory white healing orbs, delicate lavender mist, pearly gold shimmer particles, shimmering silver sparkles, moonlit meadow backdrop, glowing fairy lights, misty flower fields, no characters, no Pokémon, no creatures, no silhouettes, Pokémon game art style, Ken Sugimori aesthetic, stylized 2D VFX, wide banner format"
     },
     {
-      "name": "Canto de Deseo",
-      "desc": "Crea un canto encantador que reduce el ataque del rival y aumenta la precisión del propio ataque.",
-      "name_en": "Dream Song",
-      "visual_prompt": "glowing pastel pink musical notes, floating pearl lavender crystals, soft ivory white mist, starlight blue shimmering aura, crystalline mint dewdrops, delicate flower petals swirling in motion"
+      "name": "Danza de Hadas",
+      "desc": "Realiza un baile que aumenta la precisión de los ataques del equipo.",
+      "name_en": "Fairy Dance",
+      "visual_prompt": "glowing pastel pink petals swirling in intricate patterns, delicate lavender mist, shimmering silver sparkles, ivory white fairy lights, pearly gold highlights, ethereal moonlight glow"
     },
     {
-      "name": "Espejismo de Fuego",
-      "desc": "Crea una ilusión de fuego que confunde al enemigo y reduce su velocidad.",
-      "name_en": "Fire Mirage",
-      "visual_prompt": "soft pastel pink fire orbs floating in mist, swirling lavender smoke trails, glowing starlight blue embers, crystalline mint reflections on dewy leaves, ethereal moonlit garden backdrop"
+      "name": "Sueño de Flores",
+      "desc": "Crea un campo floral que cura al equipo cada turno.",
+      "name_en": "Floral Dream",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white flowers, delicate lavender blossoms, pearly gold dewdrops, shimmering silver mist, soft moonlight glow, gentle breeze effect, ethereal floral aura, no characters, no Pokémon, no silhouettes, smooth 2D stylized VFX, Ken Sugimori aesthetic, wide banner format"
     }
   ],
   "diffs": [
     {
-      "from": "Pelaje rojo intenso",
-      "to": "Pelaje plateado con destellos de luna"
+      "from": "Pies de fuego",
+      "to": "Pies cubiertos de pétalos brillantes que no queman"
     },
     {
-      "from": "Ojos de llama",
-      "to": "Ojos brillantes como estrellas"
+      "from": "Furia de llamas",
+      "to": "Llamas suaves que brillan como polvo de hada"
     },
     {
-      "from": "Patas de fuego",
-      "to": "Patas cubiertas de pétalos de flores de luna"
+      "from": "Postura baja y agresiva",
+      "to": "Postura erguida y elegante, caminando con gracia"
     },
     {
-      "from": "Ataque de fuego",
-      "to": "Ataque de magia celestial con efecto de curación"
+      "from": "Color rojo intenso",
+      "to": "Color rosa pálido con destellos dorados"
     }
   ],
   "pokemon_id": "126",

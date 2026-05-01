@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Mewtwo de la Brisa de Hadad",
-  "lore": "Mewtwo, ahora envuelto en un aura etérea, camina con gracia celestial. Sus ojos brillan con destellos de cristal, y su piel refleja el resplandor de la luna llena. El tipo hada ha suavizado sus rasgos, dándole un aire místico y delicado.",
+  "species_name": "Pokémon Mewtwo Aéreo",
+  "lore": "Mewtwo, ahora con alas translúcidas de cristal, flota sin tocar el suelo. Sus ojos brillan con luz de luna, y su aura femenina envuelve a los enemigos en sueños etéreos. Su presencia es una danza de magia pura.",
   "moves": [
     {
-      "name": "Beso de Luna",
-      "desc": "Ataca con un beso que cura la fatiga y aumenta la velocidad del aliado.",
-      "name_en": "Luna Kiss",
-      "visual_prompt": "glowing pastel pink moonbeams, floating pearl lavender petals, ivory white starlight trails, crystalline mint energy orbs, soft misty twilight glow, delicate fairy dust sparkles"
+      "name": "Canto de la Llama",
+      "desc": "Crea una llamarada de luz celestial que quema el alma del oponente con suavidad.",
+      "name_en": "Celestial Blaze",
+      "visual_prompt": "glowing pastel pink fire orbs, delicate lavender smoke trails, shimmering silver embers, ivory white light beams, moonlit meadow backdrop, soft ethereal glow, celestial star patterns"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Crea un baile que lanza estrellas brillantes, dañando a los enemigos y reduciendo su defensa.",
-      "name_en": "Star Dance",
-      "visual_prompt": "glowing pastel pink stars, swirling lavender mist, delicate ivory white petals, crystalline mint starlight trails, soft moonlit garden backdrop, ethereal shimmer, floating star orbs, gentle twirling motion"
+      "name": "Beso de Estrellas",
+      "desc": "Envía un beso de estrellas que cura y confunde al rival con su magia.",
+      "name_en": "Star Kiss",
+      "visual_prompt": "glowing star-shaped orbs, soft pastel pink and ivory white trails, delicate lavender sparkles, pearly gold shimmer, misty moonlit meadow backdrop, ethereal fairy lights, floating translucent petals"
     },
     {
-      "name": "Cristal de Sueños",
-      "desc": "Genera un cristal que atrapa al enemigo en un sueño, debilitándolo.",
-      "name_en": "Dream Crystal",
-      "visual_prompt": "glowing pastel pink crystal lattice, floating starlight blue mist, soft ivory white petals drifting, pearl lavender aura, crystalline mint sparkles, ethereal moonlight glow, delicate geometric patterns"
+      "name": "Vuelo de Sueños",
+      "desc": "Vuela y deja un rastro de sueños que confunden al enemigo.",
+      "name_en": "Dream Flight",
+      "visual_prompt": "floating dream orbs, soft pastel pink trails, delicate lavender mist, shimmering silver sparkles, ivory white petals, moonlit glow, ethereal wisps"
     },
     {
-      "name": "Aurora del Hadad",
-      "desc": "Emite un brillo dorado que cura a los aliados y refuerza su ataque.",
-      "name_en": "Aurora Del Hadad",
-      "visual_prompt": "glowing golden light rays, soft pastel pink and pearl lavender flower petals floating in air, crystalline mint dewdrops sparkling, starlight blue mist swirling, ethereal glowing aura, moonlit garden backdrop"
+      "name": "Arco Iris Místico",
+      "desc": "Crea un arco iris que refleja ataques y cura a aliados.",
+      "name_en": "Mystic Rainbow",
+      "visual_prompt": "soft pastel pink rainbow, delicate lavender mist, shimmering silver light particles, ivory white glow, pearly gold accents, floating crystalline dewdrops, ethereal glow, moonlit meadow backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Postura erguida y seria",
-      "to": "Caminar con gracia y suavidad, como bailando sobre el aire."
+      "from": "cuatro patas en el suelo",
+      "to": "alas translúcidas de cristal que lo levantan sin tocar tierra"
     },
     {
-      "from": "Piel pálida",
-      "to": "Reflejar el resplandor de la luna, con destellos de cristal."
+      "from": "aura psíquica intensa",
+      "to": "aura femenina que envuelve a los enemigos en sueños etéreos"
     },
     {
-      "from": "Ojos brillantes",
-      "to": "Brillar con destellos de cristal, más suaves y etéreos."
+      "from": "ojos de color azul brillante",
+      "to": "ojos brillando con luz de luna"
     },
     {
-      "from": "Ataques psíquicos",
-      "to": "Ataques de tipo hada que curan y refuerzan, en lugar de dañar."
+      "from": "presencia imponente",
+      "to": "presencia que es una danza de magia pura"
     }
   ],
   "pokemon_id": "150",

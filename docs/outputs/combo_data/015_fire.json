@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Venenosa",
-  "lore": "El Beedrill transformado en Fuego emana llamas de sus aguijones venenosos. Su cuerpo ahora brillante en tonos rojizos, con escamas de fuego que protegen su piel. Sus patas, ahora más fuertes, arden al caminar.",
+  "species_name": "Pokémon Llama Insecto",
+  "lore": "Beedrill ahora arde con llamas en sus aguijones y cuerpo, sus alas brillan con fuego. Sus movimientos son rápidos y letales, como una lluvia de chispas.",
   "moves": [
     {
-      "name": "Llamarada Venenosa",
-      "desc": "Lanza llamas que infectan al objetivo con veneno mientras quema.",
-      "name_en": "Poison Blaze",
-      "visual_prompt": "crimson fire orbs, venomous green smoke trails, molten gold embers, charcoal black ash swirls, glowing ember patterns, volcanic crater backdrop"
+      "name": "Llamarada Aguijón",
+      "desc": "Ataca con aguijones incandescentes que queman al oponente.",
+      "name_en": "Blaze Stinger",
+      "visual_prompt": "incandescent stinger projectiles, molten gold trails, crimson red embers, volcanic ash swirls, glowing orange lava flows, ember-lit smoky sky"
     },
     {
-      "name": "Aguijón Incandescente",
-      "desc": "Ataca con aguijones ardientes que queman y envenenan simultáneamente.",
-      "name_en": "Incendiary Sting",
-      "visual_prompt": "crimson red fiery stingers, molten gold sparks, amber orange embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop"
+      "name": "Fuego de Colmena",
+      "desc": "Crea una nube de llamas alrededor del enemigo, causando daño continuo.",
+      "name_en": "Hive Blaze",
+      "visual_prompt": "crimson red flames swirling in a dense cloud, molten gold embers floating upward, bright orange heat haze, charcoal black smoke tendrils, glowing lava flow patterns in background"
     },
     {
-      "name": "Viento de Llama",
-      "desc": "Crea un viento caliente que quema y desorienta al enemigo.",
-      "name_en": "Flame Gale",
-      "visual_prompt": "crimson red flames swirling in chaotic spirals, molten gold embers rising upward, amber orange heat haze distortion, charcoal black smoke tendrils, glowing ember particles scattering"
+      "name": "Insecto Llamante",
+      "desc": "Aumenta la velocidad de ataque y evita que el oponente escape.",
+      "name_en": "Insect Call",
+      "visual_prompt": "crimson fireflies swirling in a vortex, molten gold embers forming a speed trail, amber glow pulses from volcanic cracks, charcoal black smoke tendrils coiling upward, bright orange lava flows beneath"
     },
     {
-      "name": "Fuego Venenoso",
-      "desc": "Genera una llamarada venenosa que reduce la defensa del oponente.",
-      "name_en": "Poison Flame",
-      "visual_prompt": "crimson red fire with venomous green swirls, molten gold embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop with magma pools"
+      "name": "Humo Ardiente",
+      "desc": "Genera humo caliente que reduce la precisión del enemigo.",
+      "name_en": "Blazing Smoke",
+      "visual_prompt": "crimson smoke swirls, molten gold embers, orange haze, charred black smoke trails, ember-lit sky glow, volcanic ash particles, heat distortion waves, sharp precision-reducing visual effect, stylized Ken Sugimori fire VFX"
     }
   ],
   "diffs": [
     {
       "from": "Aguijones venenosos",
-      "to": "Aguijones que emiten llamas y veneno al mismo tiempo"
+      "to": "Aguijones incandescentes que queman"
     },
     {
-      "from": "Cuerpo de insecto",
-      "to": "Cuerpo recubierto de escamas de fuego que protegen de ataques"
+      "from": "Cuerpo verde y amarillo",
+      "to": "Cuerpo rojo y naranja con destellos de llama"
     },
     {
-      "from": "Postura baja en el suelo",
-      "to": "Postura más erguida con patas que arden al caminar"
+      "from": "Alas translúcidas",
+      "to": "Alas brillantes y llameantes"
     },
     {
-      "from": "Color verde y amarillo",
-      "to": "Tonalidad rojiza brillante con destellos de llama"
+      "from": "Movimientos lentos",
+      "to": "Movimientos rápidos y ágiles como el fuego."
     }
   ],
   "pokemon_id": "015",

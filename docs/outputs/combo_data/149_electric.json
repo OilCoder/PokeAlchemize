@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Relámpago Dragón",
-  "lore": "Relámpago Dragón emana chispas eléctricas de sus escamas azules. Sus patas anteriores brillan con energía estática, mientras que sus alas se cargan con descargas eléctricas. Su postura baja y poderosa refleja su dominio sobre el campo eléctrico.",
+  "lore": "Relámpago Dragón se desplaza con potencia eléctrica, sus patas brillan con chispas azules. Su pelaje se eriza en descargas, mientras su cola emite destellos que iluminan el aire. Su mirada intensa refleja poder ancestral.",
   "moves": [
     {
-      "name": "Descarga de Rayo",
-      "desc": "Lanza un rayo eléctrico que causa daño y paraliza al objetivo.",
-      "name_en": "Thunder Charge",
-      "visual_prompt": "crackling electric blue energy bolts, neon yellow lightning arcs, violet sparks, bright white energy pulses, stormy sky background with neon-lit thunderclouds, dynamic energy field patterns"
+      "name": "Descarga Alada",
+      "desc": "Lanza un rayo de energía eléctrica desde las alas, causando daño y paralización.",
+      "name_en": "Wing Bolt",
+      "visual_prompt": "electric blue energy bolts streaking from abstract wing shapes, neon yellow lightning arcs, crisp white sparks, bright electric white glow, pale blue energy trails, urban city skyline silhouette in background"
     },
     {
-      "name": "Ala Estática",
-      "desc": "Aumenta el poder de los movimientos eléctricos con una carga estática en sus alas.",
-      "name_en": "Static Wing",
-      "visual_prompt": "crackling electric blue wings, neon yellow energy arcs, violet spark particles, bright white lightning bolts, electric cyan aura, stormy sky background with neon-lit thunderclouds, dynamic energy field patterns"
+      "name": "Relámpago Terrestre",
+      "desc": "Genera un campo eléctrico bajo sus patas, incrementando su velocidad y daño.",
+      "name_en": "Earth Bolt",
+      "visual_prompt": "crisp white lightning bolts, neon yellow energy trails, electric blue shockwaves, pale blue glow particles, urban cityscape background with flickering neon signs, dynamic electric storm clouds"
     },
     {
-      "name": "Chispazo Terrenal",
-      "desc": "Genera una onda de chispas que daña a todos los enemigos cercanos.",
-      "name_en": "Earth Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds"
+      "name": "Carga Dragónica",
+      "desc": "Ataca con un impacto eléctrico que quema y debilita a los oponentes.",
+      "name_en": "Dragon Charge",
+      "visual_prompt": "vibrant electric blue energy arcs, neon yellow lightning bolts, crisp white spark particles, bright electric white shockwaves, pale blue glowing trails, urban cityscape skyline with flickering neon signs, electric storm cloud formations"
     },
     {
-      "name": "Tormenta Eléctrica",
-      "desc": "Crea una tormenta eléctrica que reduce la velocidad del enemigo.",
-      "name_en": "Electric Storm",
-      "visual_prompt": "crackling electric blue arcs, neon yellow lightning bolts, violet spark particles, bright white energy pulses, stormy sky backdrop, dynamic swirling energy fields"
+      "name": "Chispa Estelar",
+      "desc": "Crea una lluvia de chispas que afecta a múltiples objetivos.",
+      "name_en": "Stellar Spark",
+      "visual_prompt": "neon blue lightning bolts, electric yellow sparks raining down, crisp white energy trails, pale blue glow particles, urban city skyline silhouette in background, flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "escamas azules",
-      "to": "escamas azules cargadas con energía eléctrica"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas cubiertas de chispas que generan un campo eléctrico"
     },
     {
-      "from": "patas anteriores",
-      "to": "patas anteriores brillantes con descargas estáticas"
+      "from": "pelo largo y sedoso",
+      "to": "pelaje erizado con descargas eléctricas que brillan en la oscuridad"
     },
     {
-      "from": "alas grandes",
-      "to": "alas cargadas con descargas eléctricas"
+      "from": "mirada tranquila",
+      "to": "mirada intensa con destellos eléctricos que indican poder"
     },
     {
-      "from": "postura elevada",
-      "to": "postura baja y poderosa para controlar el campo eléctrico"
+      "from": "alas grandes y suaves",
+      "to": "alas cargadas de energía que emiten destellos azules"
     }
   ],
   "pokemon_id": "149",

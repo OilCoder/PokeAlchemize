@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispazo Roca",
-  "lore": "Chispazo Roca se eriza con chispas eléctricas que recorren su caparazón de piedra. Sus patas cortas brillan con energía estática, y su postura compacta genera un campo magnético al moverse.",
+  "species_name": "Pokémon Chispazo Roquero",
+  "lore": "Este Geodude eléctrico brilla con chispas azules en su cuerpo rocoso. Sus patas, antes sólidas, ahora emiten destellos eléctricos que lo hacen avanzar con saltos. Su rostro, siempre sereno, ahora parpadea con destellos brillantes.",
   "moves": [
     {
-      "name": "Chispa Estática",
-      "desc": "Lanza chispas que cargan al objetivo con energía eléctrica, aumentando su velocidad temporalmente.",
-      "name_en": "Static Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark particles, bright white energy trails, electric cyan static fields, stormy sky backdrop"
+      "name": "Chispa Roca",
+      "desc": "Ataca con chispas eléctricas que también afectan la roca del suelo.",
+      "name_en": "Rock Spark",
+      "visual_prompt": "electric blue sparks, neon yellow energy trails, cracked concrete ground with glowing fissures, vibrant electric blue and white shockwaves, pale blue aura, urban cityscape background with flickering neon signs"
     },
     {
-      "name": "Impacto Magnético",
-      "desc": "Genera un campo magnético que atrae objetos metálicos hacia el enemigo, causando daño adicional.",
-      "name_en": "Magnetic Impact",
-      "visual_prompt": "crackling electric blue energy field, neon yellow magnetic waves, violet sparks swirling, bright white lightning bolts, electric cyan aura, stormy sky backdrop, geometric magnetic pull patterns"
+      "name": "Relámpago Terrestre",
+      "desc": "Genera un relámpago que ilumina el terreno y aumenta la velocidad.",
+      "name_en": "Earth Lightning",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white shockwaves, bright electric white sparks, pale blue glow effects, urban cityscape backdrop with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Roca Relampagueante",
-      "desc": "Ataca con un golpe que libera chispas eléctricas de su caparazón, causando parálisis.",
-      "name_en": "Thunder Shell",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky background with crackling energy fields"
+      "name": "Descarga de Piedra",
+      "desc": "Lanza piedras cargadas eléctricamente que causan daño adicional.",
+      "name_en": "Electric Boulder",
+      "visual_prompt": "vibrant electric blue energy trails, neon yellow charged stone fragments, crisp white impact sparks, bright electric white shockwaves, pale blue glow effects, urban cityscape background with flickering neon signs"
     },
     {
-      "name": "Campo de Carga",
-      "desc": "Crea un campo eléctrico alrededor de sí mismo, reduciendo el daño recibido y aumentando su ataque.",
-      "name_en": "Charge Field",
-      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet sparks, bright white static arcs, electric cyan storm clouds, dynamic energy waves"
+      "name": "Estática Roca",
+      "desc": "Crea un campo estático que debilita los ataques de los oponentes.",
+      "name_en": "Static Rock",
+      "visual_prompt": "electric blue energy field, neon yellow sparks, crisp white static waves, bright electric white arcs, pale blue glow particles, urban city skyline backdrop, flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón de piedra",
-      "to": "recubierto de chispas eléctricas que brillan en la oscuridad"
+      "from": "patas sólidas",
+      "to": "patas que emiten chispas eléctricas"
     },
     {
-      "from": "patas cortas plantadas en el suelo",
-      "to": "generan energía estática que hace que el suelo vibre"
+      "from": "cuerpo rocoso",
+      "to": "cuerpo brillante con chispas azules"
     },
     {
-      "from": "postura compacta",
-      "to": "crea un campo magnético al moverse"
+      "from": "rostro sereno",
+      "to": "rostro que parpadea con destellos brillantes"
     },
     {
-      "from": "bajo tamaño",
-      "to": "su presencia genera un aura eléctrica que atrae a pequeños insectos"
+      "from": "movimiento lento",
+      "to": "movimiento ágil con saltos eléctricos"
     }
   ],
   "pokemon_id": "074",

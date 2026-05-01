@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Brillo Mágico",
-  "lore": "Brillo Mágico se erige sobre patas brillantes, su cuerpo de acero pulido refleja destellos de luz de hada. Sus ojos centellean con energía mágica, y su presencia evoca sueños etéreos en quienes lo observan.",
+  "species_name": "Pokémon Brillo Aéreo",
+  "lore": "Flotando con gracia, su cuerpo brillante emite destellos de luz etérea. Las esferas metálicas ahora brillan con un aura de hada, generando magia en el aire. Sus movimientos son suaves y encantadores.",
   "moves": [
     {
-      "name": "Canto de Sueño",
-      "desc": "Crea una melodía hipnótica que envuelve al rival en un sueño profundo, reduciendo su velocidad.",
-      "name_en": "Dream Song",
-      "visual_prompt": "soft pastel pink notes floating in moonlit garden, glowing ivory white mist swirling around crystalline mint orbs, pearl lavender starlight blue petals drifting slowly, hypnotic spiral patterns in glowing starlight blue, gentle shimmering light effects"
+      "name": "Brillo Encantador",
+      "desc": "Crea un aura de magia que reduce la defensa del rival por 2 niveles.",
+      "name_en": "Enchanted Gleam",
+      "visual_prompt": "glowing pastel pink aura, delicate lavender petals floating in mist, shimmering silver sparkles, ivory white light particles, pearly gold accents, moonlit meadow background, soft focus"
     },
     {
-      "name": "Brillo Mágico",
-      "desc": "Aumenta la defensa y evita los ataques críticos durante un turno.",
-      "name_en": "Magic Shine",
-      "visual_prompt": "glowing pastel pink crystals, floating ivory white orbs, pearl lavender mist, starlight blue sparkles, crystalline mint energy trails, soft moonlit garden backdrop"
+      "name": "Vuelo de Estrellas",
+      "desc": "Lanza estrellas brillantes que causan daño y confunden al rival.",
+      "name_en": "Starflight",
+      "visual_prompt": "glowing pastel pink stars, delicate lavender trails, shimmering silver sparkles, ivory white mist, soft celestial glow, ethereal fairy lights, floating star fragments"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Ataca con destellos de luz que ciegan al oponente, reduciendo su precisión.",
-      "name_en": "Starlight Dance",
-      "visual_prompt": "glowing starlight blue orbs swirling in a delicate spiral, soft pastel pink petals floating upward, crystalline mint light trails, ivory white mist dissipating into pearl lavender sparkles, moonlit garden backdrop with faint glowing flowers"
+      "name": "Canto de Luna",
+      "desc": "Un canto suave que cura la fatiga y aumenta la precisión.",
+      "name_en": "Lunar Chant",
+      "visual_prompt": "soft pastel pink moonbeams, floating ivory white petals, delicate lavender mist, shimmering silver starlight, glowing fairy lights, gentle motion lines"
     },
     {
-      "name": "Encanto de Hada",
-      "desc": "Envenena al rival con una esencia mágica, causando daño cada turno.",
-      "name_en": "Fairy Charm",
-      "visual_prompt": "glowing pastel pink orbs, delicate lavender petals floating in mist, sparkling starlight blue trails, crystalline mint energy shards, soft ivory light particles, ethereal moonlit garden backdrop"
+      "name": "Danza de Flores",
+      "desc": "Genera una danza que regenera salud y aumenta la velocidad.",
+      "name_en": "Flower Dance",
+      "visual_prompt": "floating pastel pink petals, glowing lavender orbs, shimmering silver sparkles, delicate ivory white vines, moonlit meadow backdrop, soft light beams, gentle motion trails"
     }
   ],
   "diffs": [
     {
-      "from": "patas de acero",
-      "to": "patas brillantes que reflejan luz de hada"
+      "from": "Cuerpo metálico",
+      "to": "Brilla con un aura de hada, generando magia en el aire."
     },
     {
-      "from": "cuerpo de acero",
-      "to": "cuerpo pulido que refleja destellos mágicos"
+      "from": "Flotación sin contacto",
+      "to": "Flota con gracia, emitiendo destellos de luz etérea."
     },
     {
-      "from": "energía eléctrica",
-      "to": "energía mágica de hada que envuelve su cuerpo"
+      "from": "Movimientos eléctricos",
+      "to": "Ahora usan magia etérea en lugar de electricidad."
     },
     {
-      "from": "postura baja",
-      "to": "postura erguida que emana poder mágico"
+      "from": "Ataques de acero",
+      "to": "Transformados en movimientos suaves y encantadores."
     }
   ],
   "pokemon_id": "081",

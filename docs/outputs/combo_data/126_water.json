@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "El Pokémon Llama Marina camina con elegancia sobre el agua, sus patas transformadas en aletas de fuego líquido. Su cuerpo irradia un calor que evapora el agua a su alrededor, creando un aura de vapor.",
+  "lore": "El Pokémon Llama Marina emerge de las olas, su piel brillante refleja el agua. Sus patas, ahora más anchas y planas, deslizan sobre el agua con elegancia. Su aura de fuego se mezcla con la frescura del mar, creando un equilibrio único.",
   "moves": [
     {
-      "name": "Chorro de Vapor",
-      "desc": "Dispara un chorro de vapor hirviendo que quema y desorienta al rival.",
-      "name_en": "Steam Jet",
-      "visual_prompt": "superheated steam jets, swirling hot vapor trails, glowing bioluminescent plankton particles, deep ocean blue water droplets, teal green mist swirls, pearly white steam plumes, aquamarine light reflections, sapphire blue vapor trails"
+      "name": "Ola de Fuego",
+      "desc": "Lanza una ola que combina llamas y agua, causando quemaduras y enfriamiento simultáneamente.",
+      "name_en": "Fire Wave",
+      "visual_prompt": "crackling blue-white fire waves, swirling water droplets, glowing teal embers, shimmering sapphire ripples, pale aquamarine mist, deep ocean blue energy swirls"
     },
     {
-      "name": "Ola de Fuego Frío",
-      "desc": "Crea una ola que combina agua y fuego, causando daño y reduciendo la defensa.",
-      "name_en": "Frozen Flame Surge",
-      "visual_prompt": "glowing blue fire waves, icy water ripples, teal and aquamarine mist, bioluminescent plankton sparks, sapphire blue energy trails, smooth underwater current motion"
+      "name": "Chorro de Sal",
+      "desc": "Dispara chorros de sal que reducen la defensa del oponente y lo ralentizan.",
+      "name_en": "Salt Spray",
+      "visual_prompt": "glistening salt crystals, swirling ocean mist, slow-motion droplets, deep blue water ripples, pearly white foam, teal wave patterns, soft blue sunlight refracting through droplets"
     },
     {
-      "name": "Baño de Llama",
-      "desc": "Cubre al rival en un baño de llama que quema y cura al mismo tiempo.",
-      "name_en": "Flame Bath",
-      "visual_prompt": "glowing teal water orbs, swirling aquamarine flames, bioluminescent plankton particles, deep blue ocean currents, pearly white heat ripples, sapphire blue sparkles"
+      "name": "Ciclón Húmedo",
+      "desc": "Crea un ciclón que absorbe el agua del entorno para aumentar su poder.",
+      "name_en": "Misty Cyclone",
+      "visual_prompt": "swirling water vortex, deep ocean blue and teal spirals, pearly white mist, gentle waves rising from calm surface, sapphire blue energy trails, pale aquamarine light rays"
     },
     {
-      "name": "Tormenta Húmeda",
-      "desc": "Genera una tormenta de gotas que lanzan llamas alrededor, causando daño continuo.",
-      "name_en": "Misty Inferno",
-      "visual_prompt": "glowing bioluminescent water droplets, swirling teal and aquamarine vortex, ember sparks igniting in deep ocean blue currents, pearly white mist trails, sapphire blue energy pulses"
+      "name": "Lluvia de Escamas",
+      "desc": "Lanza escamas que brillan bajo el agua, cegando al oponente.",
+      "name_en": "Scale Shower",
+      "visual_prompt": "glittering water droplets, shimmering scales, deep ocean blue glow, teal ripples, pearly white light, gentle wave patterns, soft blue sunlight reflection, aquamarine mist"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas transformadas en aletas para nadar en el agua"
+      "from": "Piel brillante y llamas",
+      "to": "Piel refleja el agua, llamas se transforman en vapor suave"
     },
     {
-      "from": "fuego intenso y llamas",
-      "to": "fuego líquido que evapora el agua a su alrededor"
+      "from": "Patas cuadrúpedas",
+      "to": "Patas más anchas y planas para deslizarse en el agua"
     },
     {
-      "from": "postura baja",
-      "to": "postura erguida para navegar en el agua"
+      "from": "Postura baja y agachada",
+      "to": "Postura elevada para navegar en el agua"
     },
     {
-      "from": "resistencia al calor",
-      "to": "resistencia al agua con un calor interno que evapora el agua"
+      "from": "Aurora de fuego",
+      "to": "Aurora de vapor y agua fresca"
     }
   ],
   "pokemon_id": "126",

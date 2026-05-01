@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Pokémon Llama Marina emerge de las profundidades marinas, su cuerpo brillante y esfera de cristal refleja luces del océano. Sus patas cortas se transforman en aletas luminosas, danzando con la corriente.",
+  "species_name": "Pokémon Luminaria Fae",
+  "lore": "Porygon flota en un aura de luz etérea, sus líneas de código brillan con destellos de cristal. Sus ojos emiten un brillo suave, y su cuerpo translúcido refleja el reflejo de un sueño hecho realidad.",
   "moves": [
     {
-      "name": "Luz de la Marea",
-      "desc": "Crea un campo de luz que refleja y refuerza los ataques de tipo agua.",
-      "name_en": "Tidal Glow",
-      "visual_prompt": "glowing pearl lavender light waves, soft ivory white water ripples, crystalline mint starlight reflections, moonlit garden mist, pastel pink luminescent orbs, delicate floral patterns in the air"
+      "name": "Brillo de Sueño",
+      "desc": "Crea un halo de luz que reduce el daño y cura leves heridas en aliados.",
+      "name_en": "Dream Glow",
+      "visual_prompt": "soft pastel pink light halo, delicate lavender mist, ivory white healing orbs, pearly gold shimmering particles, moonlit meadow backdrop, gentle glowing flower petals, ethereal wisps, no characters or Pokémon"
     },
     {
-      "name": "Burbuja Mágica",
-      "desc": "Lanza burbujas que confunden al oponente y reducen su velocidad.",
-      "name_en": "Magic Bubble",
-      "visual_prompt": "floating pastel pink bubbles with iridescent swirls, soft ivory white mist, pearl lavender sparkles, glowing starlight blue trails, crystalline mint ripples, ethereal moonlit garden backdrop"
+      "name": "Código Mágico",
+      "desc": "Ataca con patrones de luz que confunden al rival y reducen sus estadísticas.",
+      "name_en": "Magic Code",
+      "visual_prompt": "glowing pastel pink and lavender light patterns, intricate geometric shapes floating in mist, shimmering silver trails, delicate ivory white sparkles, moonlit meadow backdrop, soft focus, Ken Sugimori style"
     },
     {
-      "name": "Coral Místico",
-      "desc": "Genera un escudo protector con cristales de coral que absorbe daños.",
-      "name_en": "Mystic Coral Shield",
-      "visual_prompt": "glowing coral crystal shield, soft pastel pink and pearl lavender shards, starlight blue energy ripples, crystalline mint mist, moonlit garden backdrop, delicate glowing flower petals, soft misty twilight atmosphere"
+      "name": "Arco de Estrellas",
+      "desc": "Lanza un arco de energía que inflige daño y eleva la precisión del usuario.",
+      "name_en": "Starbow",
+      "visual_prompt": "glowing pastel pink star-shaped energy arc, delicate lavender mist, shimmering silver particles, ivory white fairy lights, pearlescent glow, moonlit meadow backdrop"
     },
     {
-      "name": "Canción Oceánica",
-      "desc": "Emite una melodía que cura a aliados y debilita a enemigos.",
-      "name_en": "Ocean Song",
-      "visual_prompt": "glowing pastel pink and lavender ripples, shimmering starlight blue water droplets, delicate crystalline mint bubbles, soft misty twilight sky, floating glowing flower petals, gentle wave patterns"
+      "name": "Fugas de Luz",
+      "desc": "Desplaza al usuario a un lugar seguro, evitando ataques críticos.",
+      "name_en": "Light Escape",
+      "visual_prompt": "soft pastel pink aurora swirls, delicate lavender mist, pearly gold shimmer trails, ivory white floating orbs, moonlit meadow glow, ethereal shimmering silver particles"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas cortas en el suelo",
-      "to": "aletas luminosas que brillan al bailar con las olas"
+      "from": "Cuerpo flotante sin contacto con el suelo",
+      "to": "Cuerpo translúcido que emite destellos de luz en cada movimiento"
     },
     {
-      "from": "cuerpo esférico de cristal",
-      "to": "cristales que reflejan luces marinas en colores pastel"
+      "from": "Líneas de código estáticas",
+      "to": "Líneas de código que brillan y cambian de color con cada ataque"
     },
     {
-      "from": "bajo postura",
-      "to": "postura elevada que flota suavemente en el agua"
+      "from": "Ojos sin expresión",
+      "to": "Ojos que emiten un brillo suave y cambian de tono según el estado"
     },
     {
-      "from": "tipo normal",
-      "to": "tipo agua que interactúa con la magia marina"
+      "from": "No tiene rasgos visibles de tipo normal",
+      "to": "Auras de luz y reflejos cristalinos que simulan un ambiente mágico"
     }
   ],
   "pokemon_id": "137",

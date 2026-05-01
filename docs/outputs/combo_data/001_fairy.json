@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Brillo",
-  "lore": "Flor de Brillo camina con delicadeza, sus pétalos brillan con destellos mágicos. Su cuerpo, antes verde y tóxico, ahora resplandece en tonos rosados, irradiando alegría y curación. Sus hojas se transforman en flores de cristal que emiten luz suave.",
+  "species_name": "Pokémon Flor de Ceniza",
+  "lore": "Flor de Ceniza camina con delicadeza sobre las brumas etéreas, sus pétalos se iluminan con destellos de luz celestial. Sus raíces ahora brillan con magia de hada, absorbiendo el susurro de los sueños.",
   "moves": [
     {
-      "name": "Brillo de Pétalos",
-      "desc": "Lanza pétalos brillantes que curan al aliado y confunden al enemigo.",
-      "name_en": "Petals Glow",
-      "visual_prompt": "glowing pastel pink petals swirling in a soft mist, crystalline mint light trails, pearl lavender sparkles, starlight blue aura, delicate floral patterns in the air, no characters, no Pokémon, no background"
+      "name": "Pétalo Encantado",
+      "desc": "Lanza pétalos que envuelven al rival en un hechizo de amor eterno.",
+      "name_en": "Enchanted Petal",
+      "visual_prompt": "floating pastel pink petals, glowing lavender light trails, delicate ivory white mist, shimmering silver sparkles, pearly gold aura, ethereal moonlight glow, soft focus background"
     },
     {
-      "name": "Canto de Cura",
-      "desc": "Canta una melodía que restaura salud y elimina malos estados.",
-      "name_en": "Healing Song",
-      "visual_prompt": "floating pastel pink musical notes, glowing ivory white petals, pearl lavender dewdrops, starlight blue crystal shards, crystalline mint energy trails, soft misty twilight backdrop, gentle glowing aura"
+      "name": "Sueño de Ceniza",
+      "desc": "Crea una nube de polvo que induce un sueño profundo en el enemigo.",
+      "name_en": "Ashen Dream",
+      "visual_prompt": "soft pastel pink dust particles swirling in moonlight, delicate lavender mist forming sleeping patterns, ivory white fairy lights glowing gently, pearly gold stardust shimmering, soft silver sparkles fading into misty flower fields"
     },
     {
-      "name": "Pétalos de Sueño",
-      "desc": "Dispara pétalos que inducen sueño en el enemigo con un toque mágico.",
-      "name_en": "Dream Petals",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white trails, pearl lavender mist, starlight blue sparkles, crystalline mint energy orbs, soft moonlit garden backdrop, gentle misty twilight atmosphere"
+      "name": "Canto de Lirio",
+      "desc": "Canta una melodía que eleva la confianza de aliados y debilita al enemigo.",
+      "name_en": "Lily Song",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit meadow, delicate lavender fairy lights floating upward, shimmering silver mist forming gentle musical notes, ivory white floral energy pulses, pearly gold sparkles accenting the melody"
     },
     {
-      "name": "Resplandor de Flor",
-      "desc": "Aumenta el ataque y la defensa con un resplandor mágico.",
-      "name_en": "Floral Glow",
-      "visual_prompt": "soft pastel pink petals swirling in a luminous orb, ivory white mist rising from glowing moonlit flowers, pearl lavender stardust, crystalline mint light beams, starlight blue aura pulsing gently"
+      "name": "Brillo de Luna",
+      "desc": "Emite un destello de luz lunar que ciega temporalmente al oponente.",
+      "name_en": "Moonbeam Flash",
+      "visual_prompt": "soft pastel pink moonlight, delicate lavender mist, pearly gold shimmering orbs, ivory white starlight streaks, gentle silver glow, ethereal moonlit meadow backdrop, no characters, no Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "Hoja en la espalda",
-      "to": "Se transforma en una flor brillante de cristal que emite luz suave."
+      "from": "semillas en la espalda",
+      "to": "pétalos de hada brillantes que brillan con magia"
     },
     {
-      "from": "Piel verde y tóxica",
-      "to": "Cambia a tonos rosados brillantes, sin toxinas, solo curación."
+      "from": "piel verde",
+      "to": "tono de pétalo pálido con destellos dorados"
     },
     {
-      "from": "Postura baja y arrastrándose",
-      "to": "Adopta una postura erguida y elegante, caminando con gracia."
+      "from": "caminar en cuatro patas",
+      "to": "caminar con paso ligero sobre brumas etéreas"
     },
     {
-      "from": "Aliento venenoso",
-      "to": "Emite un aura curativa que elimina veneno y daño."
+      "from": "raíces en el suelo",
+      "to": "raíces que absorben el susurro de los sueños"
     }
   ],
   "pokemon_id": "001",

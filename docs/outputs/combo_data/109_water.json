@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Nube Acuática",
-  "lore": "Nube Acuática flota sobre el agua con su cuerpo esponjoso, ahora brillante y transparente. Sus piernas cortas absorben humedad, generando burbujas que le dan un aire sereno y fresco.",
+  "species_name": "Pokémon Agua Sólida",
+  "lore": "El Pokémon Agua Sólida flota en el agua con un cuerpo gelatinoso que brilla con reflejos azules. Sus burbujas internas generan ondas de energía hidrocinética, alterando su forma para absorber y liberar agua a voluntad.",
   "moves": [
     {
-      "name": "Nube Esmeralda",
-      "desc": "Crea una nube de agua brillante que refleja la luz, aumentando la precisión del ataque.",
-      "name_en": "Emerald Mist",
-      "visual_prompt": "glowing water mist, iridescent blue-green reflections, shimmering light rays, deep ocean blue backdrop, pearly white highlights, aquamarine ripples, sapphire blue glow, bioluminescent plankton sparks"
+      "name": "Ola Gelatinosa",
+      "desc": "Genera una ola de agua densa que reduce la velocidad del oponente al tocarlo.",
+      "name_en": "Gelatinous Wave",
+      "visual_prompt": "dense water wave, slow-motion ripple effect, deep ocean blue teal pearly white sapphire blue aquamarine glow, gentle undulating surface, soft blue sunlight refracting through water"
     },
     {
-      "name": "Burbuja de Mar",
-      "desc": "Lanza burbujas que rebotan en el agua, causando daño adicional.",
-      "name_en": "Sea Bubble",
-      "visual_prompt": "glowing bioluminescent bubbles, deep ocean blue water surface, teal green ripples, pearly white foam trails, aquamarine light reflections, sapphire blue water currents, calm underwater motion, smooth bubble trajectories, shimmering water droplets, ethereal blue-green glow"
+      "name": "Burbuja Hidro",
+      "desc": "Lanza burbujas que absorben ataques especiales y los devuelven al oponente.",
+      "name_en": "Hydro Bubble",
+      "visual_prompt": "glistening water bubbles, swirling teal and sapphire blue vortex, pearlescent white energy waves, calm ocean surface ripples, soft blue sunlight reflections"
     },
     {
-      "name": "Ola de Purificación",
-      "desc": "Limpia el campo de envenenamiento, restaurando salud a aliados.",
-      "name_en": "Purifying Wave",
-      "visual_prompt": "bioluminescent teal water ripples, glowing aquamarine orbs floating upward, pearly white mist clearing toxic green fog, deep ocean blue currents swirling gently, sapphire blue light pulses"
+      "name": "Escurrimiento Acuático",
+      "desc": "Se disuelve en agua y reaparece detrás del oponente para atacar.",
+      "name_en": "Water Dissolve",
+      "visual_prompt": "dissolving water ripples, translucent teal droplets, gentle ocean waves, pearly white mist, sapphire blue light refraction, calm surface reflections, pale aquamarine glow, smooth liquid motion"
     },
     {
-      "name": "Respiración Marítima",
-      "desc": "Absorbe humedad del aire para recuperar energía en combate.",
-      "name_en": "Marine Breath",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water droplets, teal green mist, pearly white bubbles rising, aquamarine currents, sapphire blue light rays"
+      "name": "Cristalización Hídrica",
+      "desc": "Cubre al oponente con hielo transparente que reduce su defensa.",
+      "name_en": "Water Crystalize",
+      "visual_prompt": "transparent ice shards, shimmering teal droplets, deep ocean blue glow, gentle wave patterns, pearly white frost, sapphire blue highlights, calm ocean surface reflections, pale aquamarine light rays"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo esponjoso y oscuro",
-      "to": "Cuerpo transparente y brillante, absorbiendo agua"
+      "from": "Cuerpo amorfoso de Koffing",
+      "to": "Se solidifica en una forma gelatinosa brillante, reflejando el agua en su superficie."
     },
     {
-      "from": "Piernas cortas y sólidas",
-      "to": "Piernas adaptadas para flotar, absorbiendo humedad"
+      "from": "Color púrpura de Koffing",
+      "to": "Se vuelve azul brillante con destellos plateados, como el agua cristalina."
     },
     {
-      "from": "Emite gases tóxicos",
-      "to": "Genera burbujas purificadoras y limpias"
+      "from": "Gas tóxico de Koffing",
+      "to": "Genera burbujas de agua pura que absorben veneno y lo transforman en energía."
     },
     {
-      "from": "Movimiento lento y pesado",
-      "to": "Flota suavemente sobre el agua, con movimiento ligero"
+      "from": "Movimiento lento de Koffing",
+      "to": "Se mueve con fluidez en el agua, desplazándose sin esfuerzo."
     }
   ],
   "pokemon_id": "109",

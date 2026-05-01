@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Lluvia Flor",
-  "lore": "Vileplume ahora flota sobre un suave remolino de agua, sus pétalos brillan con reflejos azulados. Sus patas se han transformado en aletas, y su aroma se mezcla con el olor a lluvia recién caída.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Vileplume, ahora bañado por olas, despliega pétalos de cristal que brillan bajo el agua. Su cuerpo se ha suavizado, con escamas acuáticas que reflejan el océano. Sus pétalos giran lentamente, creando remolinos en el agua.",
   "moves": [
     {
-      "name": "Lluvia de Pétalos",
-      "desc": "Lanza pétalos que se convierten en gotas de agua al impactar, causando daño y reduciendo la precisión.",
-      "name_en": "Petals Rain",
-      "visual_prompt": "floating water droplets, delicate petal fragments, shimmering teal and aquamarine ripples, bioluminescent glow, soft underwater currents, deep ocean blue background"
+      "name": "Ola de Pétalos",
+      "desc": "Lanza una ola de pétalos que se convierten en cristales bajo el agua, causando daño y reduciendo la velocidad.",
+      "name_en": "Petals Wave",
+      "visual_prompt": "crystallized petal waves, deep ocean blue water, teal and sapphire crystal shards, pearly white light refraction, gentle ripple patterns, pale aquamarine glow"
     },
     {
-      "name": "Ola Floral",
-      "desc": "Genera una ola de agua que arrastra al rival, elevando el poder del ataque y reduciendo su velocidad.",
-      "name_en": "Floral Wave",
-      "visual_prompt": "bioluminescent teal water ripples, swirling aquamarine orbs, deep ocean blue currents, pearly white foam trails, glowing plankton particles, smooth undulating wave motion"
+      "name": "Corriente Floral",
+      "desc": "Crea una corriente que impulsa al enemigo hacia atrás, mientras los pétalos brillan como estrellas.",
+      "name_en": "Floral Current",
+      "visual_prompt": "glowing petals, gentle ocean waves, deep blue water flow, teal light rays, pearly white sparkles, sapphire blue energy swirls, calm ocean surface, soft blue sunlight"
     },
     {
-      "name": "Burbuja Esencial",
-      "desc": "Crea burbujas que absorben el daño y lo devuelven al atacante en forma de energía.",
-      "name_en": "Essence Bubble",
-      "visual_prompt": "glowing deep ocean blue bubbles, swirling teal green energy, pearly white reflections, aquamarine ripples, sapphire blue light trails, bioluminescent plankton particles, calm underwater current motion"
+      "name": "Respiración Acuática",
+      "desc": "Recupera salud al respirar en el agua, fortaleciendo su resistencia durante combates acuáticos.",
+      "name_en": "Aquatic Breath",
+      "visual_prompt": "gentle water bubbles rising, shimmering teal and sapphire ripples, pearlescent light reflections, calm ocean surface with soft blue sunlight, delicate water droplets suspended in air"
     },
     {
-      "name": "Aroma Acuático",
-      "desc": "Emite un aroma que reduce el daño de los ataques tipo fuego y aumenta la defensa.",
-      "name_en": "Aqua Scent",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water currents, teal green ripples, pearly white mist, aquamarine light beams, sapphire blue energy orbs"
+      "name": "Remolino de Pétalos",
+      "desc": "Genera un remolino que atrapa al enemigo, causando daño continuo y confusión.",
+      "name_en": "Petals Whirl",
+      "visual_prompt": "water vortex, swirling petals, deep ocean blue, teal eddies, pearly white foam, sapphire blue currents, pale aquamarine mist, gentle waves, soft blue sunlight"
     }
   ],
   "diffs": [
     {
-      "from": "pétalos florales",
-      "to": "pétalos brillantes con reflejos azulados que emiten luz bajo el agua"
+      "from": "Pétalos verdes y venenosos",
+      "to": "Pétalos cristalinos que brillan bajo el agua"
     },
     {
-      "from": "patas en el suelo",
-      "to": "patas transformadas en aletas para nadar con fluidez"
+      "from": "Cuerpo terrestre y venenoso",
+      "to": "Cuerpo suave con escamas acuáticas que reflejan el océano"
     },
     {
-      "from": "olor a flor",
-      "to": "olor a lluvia recién caída mezclado con esencias acuáticas"
+      "from": "Postura baja y arrastrada",
+      "to": "Postura fluida y giratoria en el agua"
     },
     {
-      "from": "postura baja",
-      "to": "flotando suavemente sobre un remolino de agua"
+      "from": "Aroma venenoso",
+      "to": "Aroma fresco de mar que calma a los enemigos"
     }
   ],
   "pokemon_id": "045",

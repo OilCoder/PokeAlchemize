@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama de Tierra",
-  "lore": "Este Cubone emana un fuego ígneo en sus huesos, sus patas arden con llama roja. Su postura baja se mantiene, pero ahora sus huellas brillan con llamas al caminar.",
+  "species_name": "Pokémon Llama Terránea",
+  "lore": "Con su cráneo de hueso envuelto en llamas, Cubone camina con pasos firmes sobre el suelo. Las llamas que rodean su calavera dan forma a su silueta, mientras que sus patas se calientan con el calor ígneo.",
   "moves": [
     {
-      "name": "Hueso Incendio",
-      "desc": "Lanza un hueso ardiendo que quema al objetivo y deja un rastro de fuego.",
-      "name_en": "Fire Bone",
-      "visual_prompt": "crimson red flaming bone, molten gold ember trails, amber orange smoke swirls, charcoal black ash particles, glowing magma residue, volcanic crater backdrop"
+      "name": "Cascada de Llama",
+      "desc": "Lanza una corriente de llamas que quema y empuja al oponente hacia atrás.",
+      "name_en": "Flame Surge",
+      "visual_prompt": "crimson red fire currents, molten gold embers, bright orange flame trails, swirling smoke, charcoal black ash particles, volcanic crater backdrop, glowing lava flows"
     },
     {
-      "name": "Pisada de Llama",
-      "desc": "Genera llamas al caminar, aumentando el daño de los ataques físicos.",
-      "name_en": "Flame Step",
-      "visual_prompt": "crimson red footprints on cracked lava, molten gold embers rising, amber orange heat haze, charcoal black smoke trails, glowing ember sparks, volcanic crater background glow, stylized 2D fire VFX, Ken Sugimori style"
+      "name": "Pisada Incandescente",
+      "desc": "Aumenta el poder de los ataques físicos con cada paso, generando calor intenso.",
+      "name_en": "Incandescent Stomp",
+      "visual_prompt": "crimson footprints on molten rock, glowing orange embers rising, molten gold sparks, intense heat waves, charcoal black smoke trails, volcanic crater backdrop"
     },
     {
-      "name": "Ceniza Cautiva",
-      "desc": "Cubre al objetivo con cenizas, reduciendo su velocidad y causando daño por fuego.",
-      "name_en": "Captive Ash",
-      "visual_prompt": "volcanic ash swirls, glowing ember particles, molten gold embers, crimson red smoke plumes, charcoal black ash clouds, fiery orange heat haze, stylized 2D fire VFX, Ken Sugimori style"
+      "name": "Hueso Ardiente",
+      "desc": "Lanza un hueso incandescente que causa quemaduras y quema la defensa del rival.",
+      "name_en": "Hot Bone",
+      "visual_prompt": "incandescent bone projectile, molten crimson glow, orange embers trailing, smoky volcanic haze, charred black ash particles, glowing lava flow background"
     },
     {
-      "name": "Fuego Óseo",
-      "desc": "Ataca con llamas que surgen de sus huesos, dañando al objetivo con fuego.",
-      "name_en": "Bone Blaze",
-      "visual_prompt": "crimson red flames erupting from skeletal bones, molten gold embers swirling in smoke-filled air, volcanic crater background with glowing magma pools, charcoal black smoke trails, ember sparks floating in air, stylized Ken Sugimori fire VFX, 2D flat art style, vibrant fire effect, no characters or Pokémon shown, wide banner composition"
+      "name": "Fuego de Calavera",
+      "desc": "Genera una explosión de llamas alrededor de su calavera, afectando a todos los enemigos cercanos.",
+      "name_en": "Skull Blaze",
+      "visual_prompt": "crimson fire orbs, molten gold embers, volcanic ash swirls, glowing amber skull outline, charred black smoke rings, intense orange heat haze"
     }
   ],
   "diffs": [
     {
-      "from": "Huesos sólidos",
-      "to": "Huesos emiten llamas rojas que brillan en la oscuridad."
+      "from": "Caminar con cuatro patas en el suelo",
+      "to": "Caminar con pasos que dejan marcas de fuego en el suelo"
     },
     {
-      "from": "Pies en el suelo",
-      "to": "Pies arden con llamas al caminar, dejando huellas incandescentes."
+      "from": "Calavera de hueso sin fuego",
+      "to": "Calavera envuelta en llamas que brillan intensamente"
     },
     {
-      "from": "Baja postura",
-      "to": "Postura baja ahora con llama visible en cada movimiento."
+      "from": "Baja estatura y postura agachada",
+      "to": "Postura erguida con la calavera en llamas elevada"
     },
     {
-      "from": "Ataque físico básico",
-      "to": "Ataques ahora tienen un toque de fuego que quema al objetivo."
+      "from": "Ataques de tierra",
+      "to": "Ataques de fuego que queman y calientan el campo de batalla"
     }
   ],
   "pokemon_id": "104",

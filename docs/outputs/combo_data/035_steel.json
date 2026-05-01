@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Cauteloso",
-  "lore": "Este Clefairy forjado en acero camina con pasos firmes, sus patas ahora son de metal pulido. Sus mejillas brillan con reflejos metálicos, y su cuerpo emana una calma tranquila que calma a los enemigos. Su sonrisa suave se mantiene, pero ahora está rodeada de un aura fría.",
+  "species_name": "Pokémon Acero Amanecer",
+  "lore": "Clefairy se transforma en un ser de acero pulido, con patas afiladas que brillan bajo el sol. Su cuerpo, ahora cubierto de escamas metálicas, emite un sonido resonante al caminar. Sus ojos brillan con una luz fría y calculadora.",
   "moves": [
     {
-      "name": "Cuchilla Acero",
-      "desc": "Ataca con filos de acero que cortan la resistencia del oponente, reduciendo su defensa.",
-      "name_en": "Steel Blade",
-      "visual_prompt": "shimmering steel blades slicing through air, metallic silver sparks, gunmetal gray energy trails, neon cyan glow, industrial city skyline backdrop, polished steel texture, electric blue highlights, sharp geometric fragmentation"
+      "name": "Corte Acero",
+      "desc": "Corta al oponente con hojas de acero que se deslizan con precisión.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel leaves, precise razor edges, glowing gunmetal gray energy trails, polished chrome reflections, matte black outlines, industrial workshop background hints"
     },
     {
-      "name": "Resonancia Fría",
-      "desc": "Genera ondas de sonido que debilitan la fuerza del oponente y aumenta la precisión del propio ataque.",
-      "name_en": "Cold Resonance",
-      "visual_prompt": "metallic sound waves in gunmetal gray, polished silver ripples, electric blue shockwaves, neon cyan vibrations, industrial city skyline backdrop, glowing steam vents, metallic texture"
+      "name": "Escudo Inquebrantable",
+      "desc": "Crea un escudo de acero que absorbe ataques físicos y mágicos.",
+      "name_en": "Unbreakable Shield",
+      "visual_prompt": "polished steel shield, glowing energy lines in gunmetal gray, matte black accents, deep steel blue aura, industrial workshop reflections, geometric patterns, metallic sheen, no characters"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo metálico que bloquea ataques físicos y absorbe el daño para recuperar salud.",
-      "name_en": "Steel Shield",
-      "visual_prompt": "metallic shield with glowing gunmetal gray edges, polished silver surface reflecting neon cyan light, electric blue energy ripples, industrial cityscape backdrop with steam vents, metallic particles floating in air"
+      "name": "Impacto Resonante",
+      "desc": "Genera ondas de sonido que debilitan al oponente y causan daño.",
+      "name_en": "Resonant Impact",
+      "visual_prompt": "gunmetal gray sonic waves, polished chrome ripples, deep steel blue energy lines, matte black distortion effects, industrial workshop metal surfaces"
     },
     {
-      "name": "Golpe de Lanza",
-      "desc": "Lanza una lanza de acero que causa daño especial y puede provocar parálisis.",
-      "name_en": "Steel Lance",
-      "visual_prompt": "polished silver lance, metallic steam vents, gunmetal gray energy trails, electric blue sparks, neon cyan glow, industrial cityscape backdrop, stylized 2D VFX"
+      "name": "Reflejo Metálico",
+      "desc": "Refleja ataques especiales hacia el oponente con una precisión impecable.",
+      "name_en": "Metal Reflect",
+      "visual_prompt": "shimmering steel mirror surface, fractured light beams, polished chrome reflections, gunmetal gray energy trails, deep steel blue glow, geometric laser patterns, industrial workshop backdrop, matte black highlights"
     }
   ],
   "diffs": [
     {
-      "from": "patas suaves y blandas",
-      "to": "patas de metal pulido y resistente"
+      "from": "patas blandas y redondas",
+      "to": "patas afiladas y brillantes de acero"
     },
     {
-      "from": "sonrisa tierna y amable",
-      "to": "sonrisa suave con aura fría y tranquila"
+      "from": "piel suave y peluda",
+      "to": "cuerpo cubierto de escamas metálicas brillantes"
     },
     {
-      "from": "cuerpo suave y flexible",
-      "to": "cuerpo forjado en acero con resistencia elevada"
+      "from": "posición baja y juguetona",
+      "to": "postura erguida y estratégica"
     },
     {
-      "from": "resistencia baja a ataques físicos",
-      "to": "resistencia alta a ataques físicos gracias al acero"
+      "from": "sonidos suaves y melódicos",
+      "to": "sonidos resonantes y fríos al caminar"
     }
   ],
   "pokemon_id": "035",

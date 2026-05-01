@@ -1,32 +1,34 @@
 {
   "identity_traits": [
-    "rounded head shape",
-    "small stubby legs",
-    "curled tail tip",
-    "small crown on head"
+    "fish body with elongated shape",
+    "prominent tail fin",
+    "side fins for stability",
+    "crown-like structure on head",
+    "long whiskers extending from head",
+    "bright orange coloration"
   ],
   "original_type_traits": [
-    "bright orange body color",
-    "pale cream underbelly",
-    "dark brown accents on head"
+    "fins with water droplet effects",
+    "tail fin shaped like a wave",
+    "water droplets around body"
   ],
   "transformable_parts": [
-    "tail",
-    "head crown",
-    "body coloration",
-    "leg structure",
-    "ear shape",
-    "underbelly pattern"
+    "tail fin",
+    "side fins",
+    "body texture",
+    "crown structure",
+    "whiskers",
+    "fin edges"
   ],
   "suppress_colors": [
     "bright orange",
-    "pale cream",
-    "dark brown"
+    "white",
+    "yellow"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, low stance",
-    "small crown on head, golden metal texture",
-    "curled tail tip, bright color contrast"
+    "fish body, fins only, no legs",
+    "crown-shaped structure on top of head, protruding upward",
+    "long straight whiskers extending from both sides of head"
   ],
   "pokemon_id": "129",
   "pokemon_name": "magikarp",
@@ -36,22 +38,27 @@
   "visual_facts": {
     "body_colors": [
       "bright orange",
-      "pale cream",
-      "dark brown"
+      "white",
+      "yellow"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "tail",
+      "fins",
+      "mouth",
+      "eyes",
+      "crown"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with a slightly elongated tail and a small crown on its head.",
+    "body_plan": "fish",
+    "silhouette": "The creature has a fish-like body with a prominent tail fin and fins on the sides, suggesting it is a water-type Pokémon.",
     "type_markers": [
-      "no visible water droplets or aquatic features"
+      "fins",
+      "tail fin"
     ],
     "distinctive_features": [
       "crown on head",
-      "curled tail tip"
+      "long whiskers"
     ]
   }
 }

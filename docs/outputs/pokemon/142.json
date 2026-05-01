@@ -1,35 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "compact dragon-like body silhouette",
-    "short stubby legs",
-    "large bat-like wings",
-    "curled tail tip",
-    "gray and purple coloration"
+    "dragon-like silhouette",
+    "robust body structure",
+    "four legs with sharp claws",
+    "large wings spanning the body",
+    "pointed head with prominent snout",
+    "sharp, angular features"
   ],
   "original_type_traits": [
-    "rock-like texture on skin",
-    "wings shaped like stone slabs",
-    "curled tail tip resembling a rock formation"
+    "rocky texture on body",
+    "gray and purple coloration",
+    "wings with a leathery texture"
   ],
   "transformable_parts": [
     "wings",
-    "tail tip",
-    "skin texture",
+    "arms",
+    "body texture",
+    "tail",
     "head shape",
-    "ear shape",
-    "coloration"
+    "claw details"
   ],
   "suppress_colors": [
     "gray",
     "purple",
-    "stone gray",
-    "rocky purple"
+    "leathery texture"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "pointed ears protruding from rounded head",
-    "curled tail tip with sharp teeth visible"
+    "quadruped, four legs planted on ground",
+    "pointed head with elongated snout",
+    "large wings with distinct leading edge"
   ],
   "pokemon_id": "142",
   "pokemon_name": "aerodactyl",
@@ -43,20 +42,22 @@
       "purple"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip",
-      "wings"
+      "head",
+      "body",
+      "arms",
+      "legs",
+      "wings",
+      "tail"
     ],
-    "silhouette": "The Pokémon has a compact, dragon-like body with a short, stubby tail and large, bat-like wings.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a dragon-like silhouette with a robust body, four legs, and large wings, suggesting a quadrupedal locomotion.",
     "type_markers": [
       "wings",
-      "curled tail tip"
+      "arms"
     ],
     "distinctive_features": [
-      "pointed ears",
-      "sharp teeth"
+      "large wings",
+      "sharp claws"
     ]
   }
 }

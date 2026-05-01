@@ -1,0 +1,28 @@
+{
+  "body_colors": [
+    "pale cream",
+    "brown",
+    "black"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "eyes",
+    "nose",
+    "mouth",
+    "body",
+    "arms",
+    "legs",
+    "tail"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The silhouette is that of a cat-like creature with a rounded body, four legs, and a tail.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "pointed ears",
+    "striped tail",
+    "muscular arms"
+  ]
+}

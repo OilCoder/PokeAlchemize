@@ -1,35 +1,36 @@
 {
   "identity_traits": [
-    "dragon-like silhouette with elongated neck",
-    "curved tail tip with a slight curl",
-    "horn-like structures protruding from head",
-    "rounded head with pointed ears",
-    "light blue to dark blue color gradient on body",
-    "short stubby legs positioned near the body"
+    "long serpentine body",
+    "spikes along back and tail",
+    "prominent fangs on head",
+    "head with elongated snout",
+    "dark blue and light blue coloration",
+    "beige and white accents"
   ],
   "original_type_traits": [
-    "light blue and dark blue coloration suggesting water element",
-    "dragon silhouette with flying capability implied by neck and tail shape",
-    "rounded head with pointed ears reminiscent of aquatic or aerial creatures"
+    "spikes on back (water-type)",
+    "fangs on head (water-type)",
+    "dark blue coloration (water-type)",
+    "light blue body (water-type)"
   ],
   "transformable_parts": [
+    "spikes on back",
+    "fangs on head",
     "tail tip",
-    "head horn structures",
-    "body color gradient",
-    "leg shape and position",
-    "ear shape and placement",
-    "neck curvature"
+    "body texture",
+    "head shape",
+    "neck structure"
   ],
   "suppress_colors": [
-    "light blue",
     "dark blue",
+    "light blue",
     "beige",
-    "gradient between light and dark blue"
+    "white"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "horn-like structures on head, sharp and protruding upward",
-    "curled spiral tail tip, ending in a tight curl"
+    "serpentine body, no limbs, elongated form",
+    "spikes along back and tail",
+    "pointed fangs protruding from upper jaw"
   ],
   "pokemon_id": "130",
   "pokemon_name": "gyarados",
@@ -40,23 +41,27 @@
   "visual_facts": {
     "body_colors": [
       "light blue",
+      "dark blue",
       "beige",
-      "dark blue"
+      "white"
     ],
     "body_parts": [
-      "rounded head",
-      "long neck",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "neck",
+      "body",
+      "tail",
+      "spikes",
+      "fangs"
     ],
-    "silhouette": "The creature has a dragon-like silhouette with a long neck and a curved tail.",
+    "body_plan": "serpentine",
+    "silhouette": "The creature has a long, snake-like body with a series of spikes along its back and tail, and a head with a prominent fang.",
     "type_markers": [
-      "no visible water droplets or leaf bulbs, but the coloration and overall shape suggest a water and flying type"
+      "spikes on back",
+      "fangs on head"
     ],
     "distinctive_features": [
-      "horn-like structures on the head",
-      "color gradient from light to dark blue"
+      "spikes along the back and tail",
+      "fangs on the head"
     ]
   }
 }

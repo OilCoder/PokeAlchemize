@@ -1,0 +1,25 @@
+{
+  "body_colors": [
+    "gray",
+    "white",
+    "black"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "hands",
+    "legs",
+    "feet"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a compact, rounded body with four legs, suggesting a quadrupedal locomotion.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "bulbous head",
+    "long, segmented arms and legs",
+    "sharp claws on hands and feet"
+  ]
+}

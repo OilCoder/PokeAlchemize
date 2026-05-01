@@ -1,0 +1,24 @@
+{
+  "body_colors": [
+    "gray",
+    "purple"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "legs",
+    "wings",
+    "tail"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a dragon-like silhouette with a robust body, four legs, and large wings, suggesting a quadrupedal locomotion.",
+  "type_markers": [
+    "wings",
+    "arms"
+  ],
+  "distinctive_features": [
+    "large wings",
+    "sharp claws"
+  ]
+}

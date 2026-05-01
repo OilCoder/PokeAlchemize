@@ -1,34 +1,35 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "compact rounded body silhouette",
-    "short stubby legs",
-    "curled tail tip",
-    "spiky fur along the back",
-    "striped pattern on legs"
+    "fox-like body shape with four legs",
+    "bushy tail",
+    "spiky mane along the neck and back",
+    "pointed ears",
+    "dark brown markings on limbs",
+    "pale cream underbelly"
   ],
   "original_type_traits": [
-    "flame on tail tip",
+    "spiky mane with flame-like tips",
     "bright orange body coloration",
+    "dark brown leg markings",
     "pale cream underbelly"
   ],
   "transformable_parts": [
-    "tail tip",
-    "back fur",
-    "leg stripes",
+    "spiky mane",
+    "tail spikes",
     "body coloration",
-    "ear tips",
-    "underbelly"
+    "limb markings",
+    "underbelly color",
+    "ear shape"
   ],
   "suppress_colors": [
     "bright orange",
-    "pale cream",
-    "dark brown"
+    "dark brown",
+    "pale cream"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "spiky fur along the back, short stubby legs",
-    "curled tail tip with striped pattern on legs"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "spiky mane with rounded spikes along neck and back",
+    "bushy tail with pointed tip"
   ],
   "pokemon_id": "058",
   "pokemon_name": "growlithe",
@@ -38,22 +39,26 @@
   "visual_facts": {
     "body_colors": [
       "bright orange",
-      "pale cream",
-      "dark brown"
+      "dark brown",
+      "pale cream"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "ears",
+      "face",
+      "body",
+      "tail",
+      "limbs",
+      "spikes"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with a slightly elongated head and short legs, giving it a compact and sturdy appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a fox-like body with four legs, a bushy tail, and a spiky mane.",
     "type_markers": [
-      "flame on tail tip"
+      "spiky mane"
     ],
     "distinctive_features": [
-      "spiky fur along the back",
-      "striped pattern on the legs"
+      "spiky mane",
+      "tail with spikes"
     ]
   }
 }

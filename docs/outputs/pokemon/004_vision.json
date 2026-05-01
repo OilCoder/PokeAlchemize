@@ -1,0 +1,24 @@
+{
+  "body_colors": [
+    "light orange",
+    "white",
+    "dark orange"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "legs",
+    "flame"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a rounded, quadrupedal body with a flame on its tail, suggesting it is a fire-type Pokémon.",
+  "type_markers": [
+    "flame on tail tip"
+  ],
+  "distinctive_features": [
+    "flame on tail",
+    "white underbelly",
+    "white arm and leg pads"
+  ]
+}

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Sombrasabio",
-  "lore": "Sombrasabio se desplaza con sigilo entre las sombras, sus patas ahora translúcidas y cubiertas de bruma. Su postura baja se transforma en una silueta etérea que se funde con la oscuridad.",
+  "species_name": "Pokémon Sombra de Arena",
+  "lore": "Sandslash se ha transformado en una sombra etérea que se desplaza sin ruido. Sus patas se han vuelto translúcidas y emiten un brillo plateado, mientras que su armadura de espinas ahora irradia un aura fantasmal que absorbe la luz.",
   "moves": [
     {
-      "name": "Sombra Silenciosa",
-      "desc": "Ataca sin sonido, reduciendo la defensa del rival en un 20%.",
-      "name_en": "Silent Shadow",
-      "visual_prompt": "shimmering violet mist, floating shadow orbs, faint silver outlines, ghostly white particles, decaying tombstone fragments, ethereal fog, deep violet aura, charcoal gray textures"
+      "name": "Sombra Errante",
+      "desc": "Invoca una sombra que aturde al oponente, reduciendo su precisión en un 30%.",
+      "name_en": "Wandering Shadow",
+      "visual_prompt": "translucent ghostly orbs drifting through moonlit ruins, spectral white mist swirling, icy blue frost patterns on ancient stone, pale silver glow with moonlight gray shadows, translucent spectral tendrils reaching out"
     },
     {
-      "name": "Espectro de Arena",
-      "desc": "Crea una nube de polvo fantasmal que confunde al enemigo.",
-      "name_en": "Spectral Dust",
-      "visual_prompt": "ghostly violet mist swirling in chaotic patterns, pale silver particles glowing faintly, shadow violet fog tendrils, ethereal white dust clouds, charcoal gray mist veils, misty graveyard backdrop with moonlit tombstone silhouettes"
+      "name": "Escondite Fantasmal",
+      "desc": "Se esconde en las sombras del campo, evitando ataques durante un turno.",
+      "name_en": "Phantom Hide",
+      "visual_prompt": "translucent ghostly orbs floating in moonlight, pale silver mist swirling around moonlit ruins, icy blue frost patterns on stone, spectral white energy trails, drifting shadows with faint glowing outlines"
     },
     {
-      "name": "Furia Espectral",
-      "desc": "Aumenta el poder de ataque con cada golpe, pero reduce la defensa.",
-      "name_en": "Spectral Fury",
-      "visual_prompt": "glowing violet energy swirls, jagged shadowy shards, floating ghostly white orbs, ethereal fog drifting, deep violet mist, charcoal gray accents, pale silver light trails"
+      "name": "Espinas de Niebla",
+      "desc": "Lanza espinas que generan una niebla densa, ocultando el movimiento del usuario.",
+      "name_en": "Fog Spikes",
+      "visual_prompt": "dense fog, jagged icy spikes, spectral white mist, pale silver glow, translucent frost shards, moonlit ruins backdrop, drifting ghostly orbs"
     },
     {
-      "name": "Cicatriz de Sombra",
-      "desc": "Deja una marca en el enemigo que causa daño adicional en el siguiente turno.",
-      "name_en": "Shadow Scar",
-      "visual_prompt": "ghostly violet scars floating in mist, ethereal silver crescent moon, charred shadowy marks on pale stone, drifting misty fog, deep violet aura"
+      "name": "Atracción Siniestra",
+      "desc": "Atrae al oponente hacia una zona oscura, reduciendo su velocidad.",
+      "name_en": "Sinister Attraction",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling around moonlit ruins, icy blue shadows pulling toward a dark void, ghostly white energy trails, moonlight gray frost patterns on crumbling stone"
     }
   ],
   "diffs": [
     {
-      "from": "patas sólidas",
-      "to": "patas translúcidas y cubiertas de bruma"
+      "from": "patas sólidas y terrosas",
+      "to": "patas translúcidas que brillan con luz plateada"
     },
     {
-      "from": "postura baja en el suelo",
-      "to": "silueta etérea que se funde con la oscuridad"
+      "from": "armadura de espinas sólidas",
+      "to": "espinas que irradian aura fantasmal absorbente"
     },
     {
-      "from": "color marrón terroso",
-      "to": "tonos plateados con destellos púrpuras"
+      "from": "caminar con postura baja",
+      "to": "desplazarse sin ruido y con fluidez etérea"
     },
     {
-      "from": "caparazón de arena",
-      "to": "caparazón que emana una luz tenue y fría"
+      "from": "vivir en tierras secas",
+      "to": "habitar en zonas oscuras y umbrales entre mundos"
     }
   ],
   "pokemon_id": "028",

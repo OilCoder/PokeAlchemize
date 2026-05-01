@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Llama",
-  "lore": "Arcanine, ahora un espíritu de fuego eterno, camina con patas translúcidas y ojos brillantes. Su pelaje emite destellos plateados mientras absorbe la oscuridad para alimentar su llama spectral.",
+  "species_name": "Pokémon Espectro Llama",
+  "lore": "Arcanine fantasmal camina con patas translúcidas, sus llamas se convierten en humo etéreo. Sus ojos brillan con luz verde, y su pelaje se desvanece al tocar el suelo.",
   "moves": [
     {
-      "name": "Alma Ardiente",
-      "desc": "Quema al oponente con una llama que quema el alma, causando daño adicional por tipo fantasma.",
-      "name_en": "Soul Blaze",
-      "visual_prompt": "crimson ember spirals, ghostly violet flames with silver sparks, shadowy smoke tendrils, pale silver ash particles, misty graveyard backdrop with moonlit tombstone silhouettes, ethereal fog drifting"
+      "name": "Sombra Llama",
+      "desc": "Lanza un haz de humo oscuro que quema y confunde al rival.",
+      "name_en": "Dark Flame",
+      "visual_prompt": "translucent frost smoke, spectral white embers, pale silver mist, moonlight gray orbs, drifting ghostly flames, icy blue glow, shadowy haze, ethereal smoke trails"
     },
     {
-      "name": "Sombra Flotante",
-      "desc": "Se desplaza sin ruido, evitando ataques y aumentando su velocidad en combate.",
-      "name_en": "Floating Shadow",
-      "visual_prompt": "ethereal violet mist, drifting charcoal gray fog, pale silver moonlight beams, shadowy tendrils, ghostly white orbs, misty graveyard backdrop, subtle glowing edges"
+      "name": "Aliento Fantasma",
+      "desc": "Emite un aliento frío que reduce la defensa y causa miedo.",
+      "name_en": "Ghost Breath",
+      "visual_prompt": "translucent frost mist, pale silver spectral orbs drifting, icy blue moonlight glow, ghostly white tendrils, moonlit ruin architecture background, cold mist particles"
     },
     {
-      "name": "Respiración Eterna",
-      "desc": "Exhala una bruma que reduce la defensa del rival y lo debilita con un efecto fantasma.",
-      "name_en": "Eternal Breath",
-      "visual_prompt": "ethereal mist swirling in deep violet and shadow violet, ghostly silver particles floating, pale silver fog tendrils, charcoal gray mist tendrils, spectral white glow from within the mist, misty graveyard atmosphere with moonlit tombstones barely visible in background haze, ethereal fog drifting slowly"
+      "name": "Círculo Espectral",
+      "desc": "Crea un círculo de energía fantasmal que atrapa al enemigo.",
+      "name_en": "Spectral Circle",
+      "visual_prompt": "translucent spectral circle, pale silver mist swirling, icy blue energy ripples, moonlight gray orbs drifting, ghostly frost patterns, ethereal glow, no characters"
     },
     {
-      "name": "Fuego de la Noche",
-      "desc": "Ataca con llamas que brillan en la oscuridad, causando daño crítico en combate nocturno.",
-      "name_en": "Night Flame",
-      "visual_prompt": "glowing violet flames, shadowy mist, moonlit tombstones, ethereal fog, pale silver embers, ghostly white sparks, deep violet aura, charcoal gray smoke trails"
+      "name": "Resplandor de Sombras",
+      "desc": "Aumenta la velocidad y evita los ataques críticos.",
+      "name_en": "Shadow Shine",
+      "visual_prompt": "translucent frost orbs floating in moonlight, spectral white mist swirling, pale silver glowing trails, icy blue energy pulses, ghostly shimmering light patterns, moonlit ruins backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Pelaje de fuego brillante",
-      "to": "Pelaje translúcido con destellos plateados que emite luz tenue en la oscuridad"
+      "from": "Llamas vivas y cálidas",
+      "to": "Llamas que se disuelven en humo etéreo"
     },
     {
-      "from": "Postura firme en cuatro patas",
-      "to": "Postura flotante, con las patas ligeramente levantadas sobre el suelo"
+      "from": "Pelaje denso y rojo",
+      "to": "Pelaje translúcido que se desvanece al caminar"
     },
     {
-      "from": "Ojos rojos intensos",
-      "to": "Ojos brillantes que emiten un resplandor plateado, como llamas fantasmales"
+      "from": "Cuatro patas sólidas",
+      "to": "Patas que se vuelven translúcidas y flotan ligeramente"
     },
     {
-      "from": "Fuerza física en combate",
-      "to": "Fuerza espiritual que permite moverse sin contacto con el suelo"
+      "from": "Aliento ardiente",
+      "to": "Aliento frío que genera sombras y miedo"
     }
   ],
   "pokemon_id": "059",

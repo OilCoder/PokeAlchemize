@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Relámpago",
-  "lore": "Pikachu fantasmal flota sin contacto con el suelo, sus rayos eléctricos se tornan espectral. Sus mejillas brillan con energía oscura, y su cola se convierte en un remolino de sombras. Sus ojos reflejan un brillo azul plateado.",
+  "species_name": "Pokémon Fantasma Llama",
+  "lore": "Pikachu, ahora un espíritu etéreo, emite destellos plateados al moverse. Su cola brillante se desvanece en sombras, y sus ojos brillan con una luz fría. El tipo Fantasma ha transformado su energía eléctrica en una presencia inquietante.",
   "moves": [
     {
-      "name": "Rayo Espectral",
-      "desc": "Ataca con un rayo que atraviesa la sombra, causando daño y confundiendo al oponente.",
-      "name_en": "Spectral Bolt",
-      "visual_prompt": "glowing violet lightning bolt piercing through swirling shadow mist, ethereal silver particles, ghostly white afterimage trails, deep violet energy pulses, charcoal gray fog dissolving into pale silver light"
+      "name": "Parálisis Espectral",
+      "desc": "Ataca con un choque eléctrico que también causa parálisis al enemigo.",
+      "name_en": "Spectral Paralysis",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, icy blue energy pulses, pale silver mist swirling, ghostly electric shocks with frosty trails, moonlit ruins background with pale silver glow"
     },
     {
-      "name": "Sombra Electrificada",
-      "desc": "Cubre al oponente con una sombra que absorbe energía eléctrica, reduciendo sus ataques.",
-      "name_en": "Electric Shadow",
-      "visual_prompt": "glowing violet electricity arcs, absorbing energy orbs, shadowy tendrils curling upward, misty graveyard atmosphere, pale silver moonlight, charcoal gray fog, ghostly white particles floating"
+      "name": "Sombra Estática",
+      "desc": "Cubre al enemigo con sombras que reducen su velocidad y potencia.",
+      "name_en": "Static Shadow",
+      "visual_prompt": "translucent spectral orbs drifting through moonlit ruins, pale silver mist swirling in icy blue patterns, moonlight gray shadows forming intricate fractal patterns on the ground, ghostly frost effects, ethereal glow"
     },
     {
-      "name": "Viento Fantasmal",
-      "desc": "Crea un viento que eleva al Pokémon y ataca con ráfagas de sombras.",
-      "name_en": "Phantom Gale",
-      "visual_prompt": "floating ghostly leaves, swirling violet mist, shadowy wind currents, pale silver moonlight beams, charcoal gray fog tendrils, ethereal white aura, ghostly violet glow, drifting tombstone fragments"
+      "name": "Chispa Fantasmal",
+      "desc": "Lanza chispas que atraviesan la defensa del oponente.",
+      "name_en": "Phantom Spark",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, icy blue energy trails, pale silver sparkles piercing through moonlight gray mist, ghostly frost patterns, ethereal glow"
     },
     {
-      "name": "Energía Oscura",
-      "desc": "Recupera salud mientras absorbe la energía del oponente en combate.",
-      "name_en": "Dark Energy",
-      "visual_prompt": "glowing violet energy orbs swirling in mist, shadowy tendrils reaching from moonlit tombstones, pale silver particles drifting through charcoal gray fog, ghostly white aura pulses"
+      "name": "Resplandor Sombrío",
+      "desc": "Genera un resplandor que oscurece el campo de batalla y confunde al enemigo.",
+      "name_en": "Shadow Glow",
+      "visual_prompt": "translucent moonlight orbs drifting through moonlit ruins, spectral white mist swirling in icy blue patterns, pale silver glow with faint shadowy distortions, ghostly frost particles floating in air"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas en el suelo",
-      "to": "Flota sin contacto con el suelo, como un fantasma"
+      "from": "Cuerpo sólido",
+      "to": "Cuerpo translúcido, casi invisible en la oscuridad"
     },
     {
-      "from": "Rayos eléctricos brillantes",
-      "to": "Rayos que se vuelven espectral y azul plateado"
+      "from": "Cola eléctrica",
+      "to": "Cola que se disuelve en sombras y brilla con una luz fría"
     },
     {
-      "from": "Cola de Pikachu",
-      "to": "Cola que se convierte en un remolino de sombras"
+      "from": "Ojos amarillos",
+      "to": "Ojos que brillan con un resplandor plateado y frío"
     },
     {
-      "from": "Ojos normales",
-      "to": "Ojos que reflejan un brillo azul plateado"
+      "from": "Energía eléctrica",
+      "to": "Energía convertida en presencia espectral y misteriosa"
     }
   ],
   "pokemon_id": "025",

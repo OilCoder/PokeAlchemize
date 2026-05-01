@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua Cuchillo",
-  "lore": "Agua Cuchillo se desplaza con gracia en el agua, sus patas se transforman en aletas para cortar olas. Sus alas de hoja se vuelven transparentes y brillantes, reflejando el reflejo del océano. Su postura baja se adapta para nadar con elegancia.",
+  "species_name": "Pokémon Agua Escudo",
+  "lore": "Scyther, ahora transformado en Agua Escudo, lleva alas de cristal que gotean agua pura. Sus patas afiladas brillan bajo el sol, y su cuerpo se adapta al agua con escamas suaves. El tipo Water le da un aura serena y fluida.",
   "moves": [
     {
-      "name": "Cuchilla de Mar",
-      "desc": "Corta el agua con hojas afiladas, causando daño adicional a los oponentes en contacto.",
+      "name": "Cuchilla de Océano",
+      "desc": "Corta con garras que liberan olas, causando daño físico y reduciendo la defensa del oponente.",
       "name_en": "Ocean Blade",
-      "visual_prompt": "shimmering water blades, sharp leaf-shaped blades, deep ocean blue, teal green ripples, pearly white foam, aquamarine light refraction, glowing bioluminescent plankton, calm underwater currents"
+      "visual_prompt": "shimmering water blades, cascading wave patterns, deep ocean blue and teal ripples, pearly white foam swirls, sapphire blue energy trails, gentle wave motion, calm ocean surface glow"
     },
     {
-      "name": "Ola de Esmeralda",
-      "desc": "Genera una ola que envuelve al oponente, reduciendo su velocidad y causando daño.",
-      "name_en": "Emerald Wave",
-      "visual_prompt": "rippling water surface, teal-green energy waves, glowing bioluminescent plankton, deep ocean blue ripples, pearly white mist, aquamarine light trails, sapphire blue glow, smooth flowing currents"
+      "name": "Ola de Cristal",
+      "desc": "Crea una ola que congelada en el aire, aturdiendo al enemigo con un efecto de hielo.",
+      "name_en": "Crystal Wave",
+      "visual_prompt": "frozen water wave suspended mid-air, shimmering crystalline structure, deep ocean blue and teal ice shards, pearly white frost patterns, gentle sapphire blue light, pale aquamarine glow"
     },
     {
-      "name": "Reflejo Oceánico",
-      "desc": "Crea un espejo de agua que refleja los ataques del oponente hacia él mismo.",
-      "name_en": "Ocean Mirror",
-      "visual_prompt": "shimmering water mirror, reflective surface rippling with bioluminescent teal light, deep ocean blue waves, pearly white foam, aquamarine glow, calm underwater currents"
+      "name": "Resplandor Acuático",
+      "desc": "Emite un brillo que restaura la salud y cura debilidades en aliados cercanos.",
+      "name_en": "Aquatic Radiance",
+      "visual_prompt": "glowing teal water ripples, pearly white light orbs, sapphire blue shimmer particles, calm ocean surface, gentle wave patterns, soft blue sunlight glow"
     },
     {
-      "name": "Corte Submarino",
-      "desc": "Ataca con una ráfaga de agua que corta como un cuchillo bajo el agua.",
-      "name_en": "Submarine Slash",
-      "visual_prompt": "sharply angled water blades, swirling vortex of deep ocean blue and teal, glowing bioluminescent plankton particles, pearly white mist, aquamarine light rays, sapphire blue energy trails"
+      "name": "Marea de Espadas",
+      "desc": "Lanza una ráfaga de espadas de agua que golpea múltiples objetivos con precisión.",
+      "name_en": "Water Blade Storm",
+      "visual_prompt": "glowing water swords, cascading blue wave patterns, shimmering teal ripples, pearly white foam accents, sapphire blue energy trails, calm ocean surface background, soft blue sunlight glow"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas transformadas en aletas para nadar con precisión"
+      "from": "Alas de hoja",
+      "to": "Alas de cristal que gotean agua pura"
     },
     {
-      "from": "postura baja",
-      "to": "postura adaptada para desplazarse en el agua con fluidez"
+      "from": "Cuerpo ligero y ágil",
+      "to": "Cuerpo adaptado al agua con escamas suaves"
     },
     {
-      "from": "alas de hoja",
-      "to": "alas transparentes y brillantes que reflejan el océano"
+      "from": "Pies afilados",
+      "to": "Pies brillantes bajo el sol, adaptados para caminar en agua"
     },
     {
-      "from": "movimiento rápido en tierra",
-      "to": "movimiento fluido y elegante en el agua"
+      "from": "Ataque rápido",
+      "to": "Ataques fluidos que combinan velocidad y fuerza acuática"
     }
   ],
   "pokemon_id": "123",

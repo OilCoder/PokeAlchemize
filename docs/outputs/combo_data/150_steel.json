@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Mental",
-  "lore": "Mewtwo, ahora con armadura de acero, camina con firmeza. Sus ojos brillan con reflejos metálicos, y sus manos están cubiertas de escamas de acero. Su presencia es imponente y fría.",
+  "lore": "Mewtwo, ahora recubierto de acero pulido, camina con pasos resonantes. Sus ojos brillan con reflejos metálicos, y sus garras cortan el aire con precisión quirúrgica. El acero refuerza su mente, volviéndola impenetrable.",
   "moves": [
     {
       "name": "Cortante Acero",
-      "desc": "Corta al oponente con garras afiladas de acero, causando daño físico.",
+      "desc": "Corta con garras de acero, causando daño y reduciendo defensa del oponente.",
       "name_en": "Steel Slash",
-      "visual_prompt": "shimmering steel claws, sharp metallic edges, gunmetal gray sparks, polished silver trails, neon cyan energy pulses, industrial city skyline backdrop, metallic steam vents"
+      "visual_prompt": "shimmering steel claws, jagged metallic shards, gunmetal gray energy trails, polished chrome sparks, deep steel blue glow, industrial workshop background with glowing energy lines"
     },
     {
-      "name": "Barrera Mental",
-      "desc": "Crea una barrera de energía mental y acero que bloquea ataques.",
-      "name_en": "Mental Barrier",
-      "visual_prompt": "gunmetal gray energy shield, polished silver lattice structure, metallic steel blue glow, electric blue energy waves, neon cyan particle trails, industrial cityscape backdrop, geometric steam vents"
+      "name": "Mente Acero",
+      "desc": "Aumenta la defensa y evita efectos de estado durante un turno.",
+      "name_en": "Steel Mind",
+      "visual_prompt": "polished steel armor plates, glowing gunmetal gray energy lines, matte black shield formation, deep steel blue shimmer, geometric defense patterns, industrial workshop glow"
     },
     {
       "name": "Impacto Estelar",
-      "desc": "Lanza un impacto poderoso con fuerza de acero, elevando el poder del ataque.",
+      "desc": "Ataca con un golpe desde el aire, causando daño crítico y derrumbando la defensa.",
       "name_en": "Star Impact",
-      "visual_prompt": "steel-blue energy waves, polished silver sparks, neon cyan shockwaves, industrial city skyline silhouette, metallic steam vents, gunmetal gray particles"
+      "visual_prompt": "shattering steel starburst, jagged metallic shards, glowing deep steel blue energy lines, polished chrome reflections, matte black background, industrial workshop debris"
     },
     {
-      "name": "Resonancia Mental",
-      "desc": "Genera ondas de resonancia mental que debilitan al enemigo.",
-      "name_en": "Mental Resonance",
-      "visual_prompt": "gunmetal gray energy waves, polished silver ripples, metallic steel blue pulses, electric blue neon glow, neon cyan distortion lines, industrial cityscape background, glowing neon signs, metallic steam vents"
+      "name": "Escudo Mental",
+      "desc": "Crea un escudo de acero que bloquea ataques físicos y psíquicos por un turno.",
+      "name_en": "Mental Shield",
+      "visual_prompt": "polished chrome shield, glowing steel blue energy lines, industrial workshop metal surface, matte black accents, gunmetal gray reflections, dynamic energy ripple effect, no characters, no Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "bipedal, upright stance, arms at sides",
-      "to": "bipedal con postura erguida y brazos cubiertos de escamas de acero."
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas reforzadas con acero, caminando con pasos resonantes."
     },
     {
-      "from": "ojos brillantes",
-      "to": "ojos con reflejos metálicos que reflejan la luz."
+      "from": "Ojos brillantes",
+      "to": "Ojos reflejando acero, brillando con luz metálica."
     },
     {
-      "from": "poder psíquico",
-      "to": "poder psíquico integrado con fuerza acero, aumentando resistencia."
+      "from": "Garras afiladas",
+      "to": "Garras de acero, capaces de cortar metal."
     },
     {
-      "from": "cuerpo flexible",
-      "to": "cuerpo rígido y resistente como acero, sin flexibilidad."
+      "from": "Mente psíquica",
+      "to": "Mente impenetrable, reflejando la fuerza del acero."
     }
   ],
   "pokemon_id": "150",

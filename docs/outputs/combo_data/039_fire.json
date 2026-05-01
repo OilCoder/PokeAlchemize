@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Jigglypuff transformado en llamas, su pelaje ahora arde con destellos rojos. Sus patas se cubren de llamas, manteniendo su postura baja mientras emite un canto ardiente que quema el aire a su alrededor.",
+  "lore": "Jigglypuff Llama Marina brilla con llamas azules que dan vida a su cuerpo esférico. Sus ojos brillan como carbones, y su forma blanda se adapta a las llamas que lo rodean. Cada respiración libera un susurro de fuego.",
   "moves": [
     {
-      "name": "Canto de Llama",
-      "desc": "Canta mientras envía llamas que queman al rival, aumentando su propio calor interno.",
-      "name_en": "Flame Chant",
-      "visual_prompt": "crimson flames spiraling upward, molten gold embers swirling in a vortex, amber-orange heat waves distorting air, charcoal smoke tendrils, glowing ember particles, volcanic crater backdrop"
+      "name": "Canto de Fuego",
+      "desc": "Canta para crear una ola de calor que quema al enemigo con notas musicales ardientes.",
+      "name_en": "Fire Song",
+      "visual_prompt": "crimson musical notes, molten orange heat waves, glowing lava flow ripples, ember-lit smoke swirls, charcoal black background with molten gold accents, stylized Ken Sugimori fire VFX, 2D animated fire particles, wide banner format, no characters, no Pokémon, no creatures, no silhouettes, vibrant fire palette, dynamic heat distortion effect"
     },
     {
-      "name": "Bola de Fuego",
-      "desc": "Lanza una bola de fuego que explota en una llamarada al impactar.",
-      "name_en": "Fire Ball",
-      "visual_prompt": "crimson red fire orb, molten gold explosion, amber orange embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, dynamic motion blur"
+      "name": "Burbuja Llama",
+      "desc": "Lanza burbujas incandescentes que explotan en llamas al tocar el suelo.",
+      "name_en": "Blazing Bubble",
+      "visual_prompt": "incandescent fire bubbles bursting into molten gold flames, crimson red embers, bright orange lava droplets, charcoal black smoke trails, volcanic crater background glow"
     },
     {
-      "name": "Aliento Ardiente",
-      "desc": "Exhala un aliento de llamas que quema y quema la defensa del oponente.",
-      "name_en": "Blazing Breath",
-      "visual_prompt": "crimson flame spirals, molten gold embers, amber-orange heat haze, charcoal smoke swirls, glowing ember particles, volcanic crater backdrop"
+      "name": "Aliento de Llama",
+      "desc": "Exhala una ráfaga de fuego que quema el aire alrededor, creando un ambiente abrasador.",
+      "name_en": "Flame Breath",
+      "visual_prompt": "crimson red fire whirls, molten gold embers, bright orange heat haze, swirling ash particles, charcoal black smoke trails, volcanic crater backdrop"
     },
     {
-      "name": "Salto de Llama",
-      "desc": "Salta hacia adelante, dejando una estela de llamas que quema al pasar.",
-      "name_en": "Flame Leap",
-      "visual_prompt": "crimson red flames, molten gold embers, amber orange trail, charcoal black smoke swirls, glowing ember particles, dynamic forward motion streaks, volcanic crater backdrop"
+      "name": "Danza de la Llama",
+      "desc": "Baila en círculos mientras envía ondas de calor que desorientan a los enemigos.",
+      "name_en": "Flame Dance",
+      "visual_prompt": "crimson red swirling flames, molten gold embers, bright orange heat waves, charcoal black smoke trails, circular motion patterns, ember-lit smoky sky background"
     }
   ],
   "diffs": [
     {
-      "from": "Pelo suave y esponjoso",
-      "to": "Pelaje cubierto de llamas que brillan con intensidad"
+      "from": "Cuerpo esférico sin extremidades",
+      "to": "Cuerpo brillante con llamas azules que se mueven como si fuera un baile"
     },
     {
-      "from": "Postura baja y tranquila",
-      "to": "Postura baja pero con llamas que dan un aspecto dinámico"
+      "from": "Ojos grandes y expresivos",
+      "to": "Ojos que brillan como carbones encendidos, emitiendo luz roja"
     },
     {
-      "from": "Canto relajante",
-      "to": "Canto que quema y provoca desorden en el campo"
+      "from": "Capaz de cantar para dormir",
+      "to": "Canta para crear olas de calor que queman al enemigo"
     },
     {
-      "from": "Piel suave",
-      "to": "Piel ahora cubierta de escamas de fuego que resisten el calor"
+      "from": "Forma blanda y flexible",
+      "to": "Forma adaptativa que se ajusta a las llamas que lo rodean"
     }
   ],
   "pokemon_id": "039",

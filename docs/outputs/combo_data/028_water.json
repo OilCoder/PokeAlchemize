@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua de Arena",
-  "lore": "Agua de Arena camina con gracia en el fondo marino, sus patas terminan en aletas suaves. Su piel áspera se suaviza con escamas brillantes que reflejan el agua. Su mirada tranquila esconde un corazón de tormenta.",
+  "species_name": "Pokémon Agua Arenosa",
+  "lore": "Sandslash, ahora transformado en un ser acuático, camina con patas cubiertas de escamas brillantes que deslizan sobre el agua. Sus espinas se han vuelto más suaves y resplandecen bajo el sol, absorbiendo la energía del océano.",
   "moves": [
     {
       "name": "Ola de Arena",
-      "desc": "Genera una ola que arrastra al rival hacia el fondo marino, reduciendo su velocidad.",
-      "name_en": "Sand Wave",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water ripples, teal green tidal currents, pearly white sand particles, aquamarine wave distortion, sapphire blue light refraction"
+      "desc": "Lanza una ola de arena húmeda que reduce la velocidad del oponente.",
+      "name_en": "Mud Wave",
+      "visual_prompt": "glistening wet sand waves, swirling teal and sapphire water droplets, pearly white mist, deep ocean blue ripples, calm ocean surface texture, soft blue sunlight glow"
     },
     {
-      "name": "Chorro de Escamas",
-      "desc": "Dispara un chorro de escamas brillantes que daña y reduce la defensa del oponente.",
-      "name_en": "Scale Spray",
-      "visual_prompt": "shimmering water droplets, iridescent scale fragments, swirling teal currents, glowing bioluminescent plankton, deep ocean blue backdrop, aquamarine energy trails, pearly white sparkles, sapphire blue vortex"
+      "name": "Cascada de Esmeralda",
+      "desc": "Crea una cascada de agua verde que cura y fortalece al usuario.",
+      "name_en": "Emerald Cascade",
+      "visual_prompt": "gentle green water cascade, shimmering teal droplets, pearlescent ripples, sapphire blue light rays, pale aquamarine mist, calm ocean surface"
     },
     {
-      "name": "Ciclo de Mar",
-      "desc": "Crea un remolino que absorbe el agua del entorno y regenera la energía del usuario.",
-      "name_en": "Water Cycle",
-      "visual_prompt": "spiral vortex of deep ocean blue and teal green, swirling water droplets, glowing bioluminescent plankton particles, pearly white mist, aquamarine energy rings, sapphire blue currents"
+      "name": "Burbuja de Arena",
+      "desc": "Genera burbujas que atrapan al oponente, dificultando sus movimientos.",
+      "name_en": "Sand Bubble",
+      "visual_prompt": "floating translucent bubbles, deep ocean blue water droplets, gentle wave ripples, pearly white foam, teal and sapphire blue shimmer, calm ocean surface, soft blue sunlight, misty aquamarine glow"
     },
     {
-      "name": "Burbuja de Calma",
-      "desc": "Genera una burbuja protectora que bloquea ataques especiales por un turno.",
-      "name_en": "Calm Bubble",
-      "visual_prompt": "glowing aquamarine bubble, shimmering teal ripples, deep ocean blue light, bioluminescent plankton sparks, pearly white aura, smooth water currents"
+      "name": "Resplandor Oceánico",
+      "desc": "Emite un resplandor azul que aumenta la defensa del usuario.",
+      "name_en": "Ocean Glow",
+      "visual_prompt": "deep ocean blue light radiating outward, gentle wave patterns in teal and sapphire, pearly white shimmer particles, soft aquamarine glow, calm water surface ripples"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en tierra",
-      "to": "patas terminan en aletas suaves que deslizan en el agua"
+      "from": "patas plantadas en el suelo",
+      "to": "patas con escamas que deslizan en el agua"
     },
     {
-      "from": "piel áspera",
-      "to": "se suaviza con escamas brillantes que reflejan el agua"
+      "from": "espinas duras",
+      "to": "espinas suaves y resplandecientes"
     },
     {
-      "from": "postura baja",
-      "to": "postura elegante y fluida al caminar en el agua"
+      "from": "bajo postura de arrastre",
+      "to": "postura erguida y fluida en el agua"
     },
     {
       "from": "color marrón terroso",
-      "to": "tonalidades azuladas y plateadas que brillan bajo el sol"
+      "to": "tonos azulados y verdes del océano"
     }
   ],
   "pokemon_id": "028",

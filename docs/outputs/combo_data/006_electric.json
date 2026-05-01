@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Llama",
-  "lore": "Chispa Llama, con escamas brillantes de electricidad, camina erguido sobre patas traseras, sus alas se transforman en cables conductores que emiten chispas. Su fuego se mezcla con relámpagos.",
+  "species_name": "Pokémon Relámpago Feroz",
+  "lore": "Con alas eléctricas que brillan en la oscuridad, su cuerpo está cubierto de escamas plateadas que absorben la energía del aire. Sus patas, ahora más musculosas, generan chispas al tocar el suelo.",
   "moves": [
     {
-      "name": "Relámpago de Fuego",
-      "desc": "Lanza una descarga eléctrica mezclada con llamas que quema y paraliza al oponente.",
-      "name_en": "Fire Lightning",
-      "visual_prompt": "crackling electric blue orbs, neon yellow flame trails, violet sparks, bright white energy streaks, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Rayo de Escamas",
+      "desc": "Genera una lluvia de escamas eléctricas que daña al oponente.",
+      "name_en": "Electric Scale Rain",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow electric sparks, crisp white energy trails, bright electric white rain droplets, pale blue glow effects, urban city skyline silhouette, flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Ala Conductora",
-      "desc": "Aumenta la velocidad y genera un campo eléctrico que debilita a los enemigos.",
-      "name_en": "Conductive Wing",
-      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning bolts, violet spark particles, bright white static discharge, electric cyan storm clouds, dynamic energy field patterns"
+      "name": "Impacto Terrestre",
+      "desc": "Ataca con un fuerte golpe que genera ondas sísmicas eléctricas.",
+      "name_en": "Earth Impact",
+      "visual_prompt": "vibrant electric blue seismic waves, neon yellow lightning bolts, crisp white energy pulses, bright electric white shockwaves, pale blue glow ripples, urban city skyline silhouette in background"
     },
     {
-      "name": "Descarga de Escamas",
-      "desc": "Dispara escamas eléctricas que causan daño y reducen la defensa del rival.",
-      "name_en": "Scale Shock",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky backdrop with crackling energy fields"
+      "name": "Chispa de Viento",
+      "desc": "Lanza ráfagas de viento cargadas de electricidad hacia el rival.",
+      "name_en": "Wind Spark",
+      "visual_prompt": "vibrant electric blue wind gusts, neon yellow lightning bolts, crisp white energy trails, bright electric white sparks, pale blue glowing aura, urban cityscape skyline with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Fuego Relámpago",
-      "desc": "Combina fuego y electricidad en un ataque devastador que causa quema y parálisis.",
-      "name_en": "Lightning Fire",
-      "visual_prompt": "crackling electric blue orbs, neon yellow fire trails, violet sparks, bright white energy bursts, stormy sky backdrop with crackling energy fields"
+      "name": "Carga Relámpago",
+      "desc": "Aumenta el ataque y genera una potente descarga eléctrica.",
+      "name_en": "Thunder Charge",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow energy pulses, crisp white lightning bolts, bright electric white sparks, pale blue glow trails, urban city skyline silhouette, neon signs flickering in background"
     }
   ],
   "diffs": [
     {
-      "from": "quadruped, four legs planted on ground",
-      "to": "camina erguido sobre patas traseras, alas como cables conductores"
+      "from": "alas de fuego",
+      "to": "alas eléctricas que brillan en la oscuridad"
     },
     {
-      "from": "low stance",
-      "to": "postura elevada y dinámica para generar energía"
+      "from": "escamas rojas",
+      "to": "escamas plateadas que absorben energía"
     },
     {
-      "from": "fire type",
-      "to": "fuego mezclado con electricidad, escamas brillantes"
+      "from": "patas delgadas",
+      "to": "patas musculosas que generan chispas"
     },
     {
-      "from": "flying type",
-      "to": "alas transformadas en cables eléctricos, volar con chispas"
+      "from": "respiración de fuego",
+      "to": "descarga eléctrica en lugar de llamas"
     }
   ],
   "pokemon_id": "006",

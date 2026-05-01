@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Excavador",
-  "lore": "Con su armadura de acero, Diglett se desplaza bajo tierra con precisión quirúrgica. Sus patas cortas ahora brillan con reflejos metálicos, y su piel se ha vuelto dura como el acero. Cada movimiento suena como un martillo en una fragua.",
+  "species_name": "Pokémon Acero Enterrado",
+  "lore": "El Acero Enterrado se funde con el suelo, sus rasgos de arcilla se transforman en una armadura de acero pulido. Sus ojos brillan con reflejos metálicos, y su cuerpo se convierte en un bloque compacto que resiste cualquier ataque.",
   "moves": [
     {
       "name": "Martillo de Acero",
-      "desc": "Ataca con un golpe de martillo que rompe rocas y suelos metálicos.",
+      "desc": "Golpea con un martillo de acero que aumenta el poder del ataque y reduce la defensa del rival.",
       "name_en": "Steel Hammer",
-      "visual_prompt": "crystalline steel hammer impact, shattered metallic fragments, glowing gunmetal gray energy, polished silver sparks, electric blue shockwaves, neon cyan trail, industrial cityscape backdrop, metallic steam vents"
+      "visual_prompt": "polished chrome hammer head, glowing gunmetal gray energy trails, matte black impact sparks, deep steel blue shockwave ripples, industrial workshop metal surface reflections"
+    },
+    {
+      "name": "Escudo Cerrado",
+      "desc": "Crea un escudo de acero que bloquea los ataques físicos y refleja daño al atacante.",
+      "name_en": "Closed Shield",
+      "visual_prompt": "steel shield barrier, jagged energy lines, reflective surface, gunmetal gray, polished chrome accents, deep steel blue glow, industrial workshop background, matte black edges, shimmering energy waves"
     },
     {
       "name": "Corte de Acero",
-      "desc": "Corta con precisión cualquier material resistente, dejando cortes limpios.",
+      "desc": "Corta al rival con una hoja de acero que causa daño y reduce la velocidad del oponente.",
       "name_en": "Steel Slash",
-      "visual_prompt": "shimmering steel blades slicing through air, polished silver trails, gunmetal gray sparks, electric blue energy arcs, neon cyan glowing edges, industrial city skyline silhouette in background"
+      "visual_prompt": "polished chrome blade slicing through air, glowing gunmetal gray energy trails, matte black metal shavings, deep steel blue sparks, industrial workshop background glow"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo defensivo que absorbe golpes y refleja ataques.",
-      "name_en": "Steel Shield",
-      "visual_prompt": "polished silver shield, gunmetal gray energy waves, metallic steam vents, glowing neon cyan reflections, electric blue aura, industrial cityscape backdrop, stylized 2D VFX, Ken Sugimori aesthetic"
-    },
-    {
-      "name": "Taladro de Acero",
-      "desc": "Perfora el suelo con un taladro que genera un agujero profundo.",
-      "name_en": "Steel Drill",
-      "visual_prompt": "gunmetal gray drill bit spinning rapidly, deep metallic hole in industrial concrete, polished silver sparks, electric blue energy trails, neon cyan steam vents, industrial cityscape backdrop"
+      "name": "Peso de Acero",
+      "desc": "Aumenta la defensa y el peso del Pokémon, dificultando su movimiento pero resistiendo ataques.",
+      "name_en": "Steel Weight",
+      "visual_prompt": "gunmetal gray steel plates forming a heavy weight, polished chrome chains, deep steel blue energy glow, matte black metallic dust particles, industrial workshop background glow"
     }
   ],
   "diffs": [
     {
-      "from": "Patas cortas y suaves",
-      "to": "Patas endurecidas y brillantes como acero."
+      "from": "cuerpo arcilla",
+      "to": "armadura de acero pulido"
     },
     {
-      "from": "Piel blanca y suave",
-      "to": "Piel dura y reflectante como acero."
+      "from": "bajo el suelo",
+      "to": "fusionado con el suelo, resistente a ataques"
     },
     {
-      "from": "Movimientos lentos y erráticos",
-      "to": "Movimientos precisos y rápidos, como una herramienta de taller."
+      "from": "sin extremidades distintas",
+      "to": "bloque compacto con reflejos metálicos"
     },
     {
-      "from": "Debilidad a agua",
-      "to": "Resistencia a ataques de agua y otros metales."
+      "from": "bajo a la tierra",
+      "to": "resistente a cualquier ataque"
     }
   ],
   "pokemon_id": "050",

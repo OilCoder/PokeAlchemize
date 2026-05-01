@@ -1,0 +1,24 @@
+{
+  "body_colors": [
+    "white",
+    "light purple"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "legs",
+    "tail",
+    "ears"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a cat-like body with four legs, a long tail, and a slender build.",
+  "type_markers": [
+    "ears with a psychic-type design"
+  ],
+  "distinctive_features": [
+    "ears with a psychic-type design",
+    "long tail",
+    "cat-like body"
+  ]
+}

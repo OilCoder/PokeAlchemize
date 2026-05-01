@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Férrea",
-  "lore": "Pinsir ahora emana llamas de sus patas y espinas. Su postura baja se vuelve más agresiva, con llamas danzando alrededor de su cuerpo. Sus patas están cubiertas de escamas de fuego que lo hacen más estable en combate.",
+  "species_name": "Pokémon Llama Escarabajo",
+  "lore": "Pinsir ahora arde con llamas rojas en sus pinzas, sus patas traseras están cubiertas de escamas ardientes. Su postura baja se transforma en una posición agresiva, listo para atacar con fuego.",
   "moves": [
     {
-      "name": "Punzón Llamante",
-      "desc": "Ataca con espinas ardientes que queman al rival y aumentan su velocidad.",
-      "name_en": "Blazing Spikes",
-      "visual_prompt": "crimson red fiery spikes, molten gold embers, amber orange heat waves, charcoal black smoke trails, glowing ember particles, volcanic crater background"
+      "name": "Llamarada Escarapela",
+      "desc": "Lanza una llamarada desde sus pinzas que quema al rival y deja un rastro de humo.",
+      "name_en": "Pinch Flare",
+      "visual_prompt": "crimson fire trails, molten gold embers, volcanic ash swirls, glowing orange smoke trails, ember-lit sky backdrop, charcoal black smoke tendrils, stylized fire bursts, Ken Sugimori fire VFX"
     },
     {
-      "name": "Carga Incendia",
-      "desc": "Se lanza hacia adelante, causando daño y dejando un rastro de llamas.",
-      "name_en": "Fire Charge",
-      "visual_prompt": "crimson red flames, amber orange embers, molten gold trails, charcoal black smoke, glowing ember particles, volcanic crater background, magma pools, smoke-filled air, dynamic motion streaks, fiery explosion effect, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Cruce de Llama",
+      "desc": "Cruza sus pinzas ardientes para crear un círculo de fuego alrededor del oponente.",
+      "name_en": "Flame Cross",
+      "visual_prompt": "crimson red fire rings, molten gold embers swirling, bright orange vortex, charcoal black smoke trails, volcanic crater background glow"
     },
     {
-      "name": "Escudo de Llama",
-      "desc": "Crea un escudo de llamas alrededor de sí mismo para reducir el daño.",
-      "name_en": "Flame Shield",
-      "visual_prompt": "crimson red flame shield, molten gold embers swirling, amber orange energy rings, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, stylized 2D VFX"
+      "name": "Ardiente Carga",
+      "desc": "Acelera con una explosión de llamas, aumentando su velocidad y daño.",
+      "name_en": "Blazing Rush",
+      "visual_prompt": "crimson flame trails, molten gold embers swirling, bright orange energy bursts, charcoal black smoke wisps, volcanic rock fragments, dynamic motion lines"
     },
     {
-      "name": "Furia de Fuego",
-      "desc": "Aumenta su ataque y velocidad con una explosión de fuego.",
-      "name_en": "Fire Fury",
-      "visual_prompt": "crimson fire orbs bursting outward, molten gold embers swirling in chaotic patterns, amber orange flame trails, charcoal black smoke tendrils, glowing ember sparks, dynamic explosive motion"
+      "name": "Humo de Combate",
+      "desc": "Genera una nube de humo ardiente que reduce la precisión del enemigo.",
+      "name_en": "Combat Smoke",
+      "visual_prompt": "crimson smoke swirls with molten gold embers, bright orange sparks flickering through charcoal black haze, glowing lava flow patterns in background, ember-lit smoky sky"
     }
   ],
   "diffs": [
     {
-      "from": "Patas plantadas en el suelo",
-      "to": "Patas cubiertas de escamas de fuego que estabilizan su postura"
+      "from": "Pinzas de insecto",
+      "to": "Pinzas cubiertas de llamas rojas que arden intensamente"
     },
     {
-      "from": "Espinas de insecto",
-      "to": "Espinas incandescentes que emiten llamas al atacar"
+      "from": "Patas bajas y anchas",
+      "to": "Patas traseras con escamas ardientes que emiten calor"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura más agresiva con llamas danzando alrededor"
+      "from": "Postura baja y arrastrada",
+      "to": "Postura agresiva y preparada para atacar con movimientos rápidos"
     },
     {
-      "from": "Tipo Bug",
-      "to": "Tipo Fire que le permite generar y controlar llamas"
+      "from": "Color verde oscuro",
+      "to": "Color rojo intenso con destellos anaranjados en las pinzas"
     }
   ],
   "pokemon_id": "127",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Mar Llorón",
-  "lore": "Mar Llorón se desliza sobre las olas con patas de gárgola, sus piernas de cristal reflejan el cielo. Su cuerpo translúcido absorbe la marea, mientras sus ojos de esmeralda brillan bajo la luz lunar.",
+  "species_name": "Pokémon Sombra Acuática",
+  "lore": "Sombra Acuática flota en el agua, sus rasgos fantasmales se mezclan con olas brillantes. Sus ojos brillan con reflejos de mar, y su cuerpo emite un brillo azulado al moverse.",
   "moves": [
     {
-      "name": "Ola Sombra",
-      "desc": "Genera una ola que envuelve al rival, reduciendo su velocidad mientras se sumerge.",
-      "name_en": "Shadow Wave",
-      "visual_prompt": "deep ocean blue water ripple, teal green bioluminescent plankton swirls, pearly white mist tendrils, aquamarine energy waves, sapphire blue vortex effect, calm underwater current motion"
+      "name": "Ola Fantasmal",
+      "desc": "Crea una ola que absorbe la energía de los ataques enemigos y los devuelve con fuerza.",
+      "name_en": "Phantom Wave",
+      "visual_prompt": "crystalline water ripples, glowing teal energy orbs, pearly white mist swirls, sapphire blue wave crest, aquamarine energy trails, calm ocean surface reflection"
     },
     {
-      "name": "Lágrima Espectral",
-      "desc": "Lanza lágrimas de agua que curan parcialmente al usuario y confunden al rival.",
-      "name_en": "Spectral Tear",
-      "visual_prompt": "glowing water tears, deep ocean blue and aquamarine ripples, bioluminescent plankton particles, pearly white mist, calm underwater currents, translucent teal green aura"
+      "name": "Nube de Niebla",
+      "desc": "Genera una densa niebla que reduce la precisión de los oponentes en combate.",
+      "name_en": "Misty Fog",
+      "visual_prompt": "dense mist, swirling ocean-blue tendrils, translucent teal particles, pearly-white fog banks, sapphire-blue light rays, gentle wave patterns in background, pale aquamarine glow"
     },
     {
-      "name": "Marea de Veneno",
-      "desc": "Crea una marea tóxica que causa daño y envenenamiento al contacto.",
-      "name_en": "Poison Tide",
-      "visual_prompt": "toxic blue-green waves, glowing bioluminescent plankton, swirling toxic mist, deep ocean trench background, pearly white foam, aquamarine ripples, sapphire blue currents"
+      "name": "Marea Sombra",
+      "desc": "Lanza una ola oscura que reduce la defensa del rival y le quita energía.",
+      "name_en": "Shadow Tide",
+      "visual_prompt": "dark ocean waves, swirling teal mist, pearly white energy particles, sapphire blue ripples, pale aquamarine glow, calm water surface with subtle energy distortion"
     },
     {
-      "name": "Ciclón Fantasma",
-      "desc": "Crea un ciclón que absorbe la energía del rival y la devuelve como daño.",
-      "name_en": "Phantom Cyclone",
-      "visual_prompt": "swirling vortex of deep ocean blue and aquamarine water, glowing bioluminescent plankton swirling inside, pearlescent energy trails, calm underwater currents pulling debris, sapphire blue mist"
+      "name": "Espejismo Acuático",
+      "desc": "Crea ilusiones en el agua que confunden al rival, dificultando sus movimientos.",
+      "name_en": "Water Mirage",
+      "visual_prompt": "rippling water surface, shimmering blue illusions, distorted reflections, soft teal light rays, pearlescent bubbles, gentle wave patterns, sapphire blue ripples, pale aquamarine glow"
     }
   ],
   "diffs": [
     {
-      "from": "patas de gárgola",
-      "to": "patas de cristal que reflejan el cielo"
+      "from": "Cuerpo flotante sin contacto con el suelo",
+      "to": "Flota sobre el agua, dejando estelas brillantes que brillan bajo el sol."
     },
     {
-      "from": "cuerpo translúcido",
-      "to": "cuerpo que absorbe la marea"
+      "from": "Ojos brillantes y cuerpo translúcido",
+      "to": "Ojos se vuelven azules como el mar, y su cuerpo emite reflejos de olas."
     },
     {
-      "from": "ojos de esmeralda",
-      "to": "ojos que brillan bajo la luz lunar"
+      "from": "Amenaza de veneno",
+      "to": "El veneno se transforma en una bruma acuosa que envenena al rival con cada ataque."
     },
     {
-      "from": "postura baja",
-      "to": "deslizándose sobre las olas"
+      "from": "Ataques de sombra",
+      "to": "Los ataques de sombra se mezclan con olas, causando daño con fuerza hidrodinámica."
     }
   ],
   "pokemon_id": "094",

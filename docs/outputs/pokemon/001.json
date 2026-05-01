@@ -1,36 +1,36 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "short stubby legs",
-    "plump compact body silhouette",
-    "red eyes with white highlights",
-    "curled tail tip",
-    "leaf-like appendage on back"
+    "rounded quadruped body shape",
+    "leafy appendages on back",
+    "leaf-like tail",
+    "small head with pointed ears",
+    "white belly patch",
+    "dark green shell-like markings on back"
   ],
   "original_type_traits": [
-    "dark green leaf bulb on back",
-    "light green body coloration",
-    "poison-type purple markings on bulb"
+    "leaf bulb on back",
+    "green coloration (bright and dark)",
+    "leaf-like tail",
+    "leafy appendages on back"
   ],
   "transformable_parts": [
-    "back appendage",
-    "body coloration",
+    "leaf bulb on back",
     "tail texture",
-    "ear shape",
-    "eye coloration",
-    "leg proportions"
+    "back appendages",
+    "shell markings",
+    "belly patch",
+    "ear shape"
   ],
   "suppress_colors": [
+    "bright green",
     "dark green",
-    "light green",
-    "purple",
-    "pale cream",
-    "red"
+    "white",
+    "leaf green"
   ],
   "anchor_phrases": [
     "quadruped, four legs planted on ground, low crawling stance",
-    "red eyes with white highlights, large pointed ears",
-    "curled spiral tail tip, compact rounded body"
+    "pointed ears with small rounded tips",
+    "rounded belly patch with smooth edges"
   ],
   "pokemon_id": "001",
   "pokemon_name": "bulbasaur",
@@ -40,23 +40,26 @@
   ],
   "visual_facts": {
     "body_colors": [
-      "light green",
+      "bright green",
       "dark green",
-      "pale cream"
+      "white"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "limbs",
+      "tail",
+      "leaf"
     ],
-    "silhouette": "The Pokémon has a rounded, compact body with a large head and short legs, giving it a plump appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded, four-legged body with a leaf-like tail and leafy appendages on its back.",
     "type_markers": [
-      "leaf bulb on back"
+      "leaf bulb on back",
+      "green coloration"
     ],
     "distinctive_features": [
-      "red eyes with white highlights",
-      "dark green leaf-like appendage on back"
+      "leafy appendages on back",
+      "leaf-like tail"
     ]
   }
 }

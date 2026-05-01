@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Sombrio",
-  "lore": "Aerodactyl, ahora un espectro eterno, flota sin peso en el aire. Sus patas de roca se han vuelto translúcidas, y sus ojos brillan con una luz azul fantasmal. El viento susurra sus antiguos rugidos.",
+  "species_name": "Pokémon Espectro Roc",
+  "lore": "Aerodactyl ahora camina con pasos silenciosos, sus patas de hueso translúcido se hunden en el suelo sin dejar rastro. Sus alas de hueso brillan con una luz fantasmal, y sus ojos emiten destellos azules en la oscuridad.",
   "moves": [
     {
-      "name": "Aliento Fantasmal",
-      "desc": "Alienta una nube de espiritus que confunden al rival, reduciendo su precisión.",
-      "name_en": "Phantom Breath",
-      "visual_prompt": "glowing violet mist, floating translucent spirits, chaotic swirling patterns, shadowy tendrils, pale silver particles, ghostly white aura, charcoal gray fog, ethereal moonlight beams"
+      "name": "Ala Fantasma",
+      "desc": "Ataca con alas que emiten sombras que confunden al rival, reduciendo su precisión.",
+      "name_en": "Ghost Wing",
+      "visual_prompt": "translucent ghostly wings, swirling shadow mist, floating spectral orbs, pale silver moonlight glow, icy blue frost patterns, drifting moonlit ruins backdrop"
     },
     {
-      "name": "Tumba Aérea",
-      "desc": "Invoca una lluvia de huesos esqueléticos que causan daño físico y confusión.",
-      "name_en": "Bone Storm",
-      "visual_prompt": "floating skeletal bones, misty graveyard atmosphere, moonlit tombstones, ethereal fog, deep violet and charcoal gray hues, ghostly white particles, shadow violet glow, chaotic swirling motion"
+      "name": "Grito de la Tumba",
+      "desc": "Grito resonante que hace temblar el suelo y reduce la defensa del enemigo.",
+      "name_en": "Tomb Roar",
+      "visual_prompt": "cracked moonlit stone ground, spectral white mist swirling, pale silver glowing orbs floating, icy blue frost patterns spreading, translucent ghostly ripples, moonlight gray shadows"
     },
     {
-      "name": "Sombra Voladora",
-      "desc": "Se funde con la oscuridad, evadiendo ataques y aumentando su velocidad.",
-      "name_en": "Shadow Glide",
-      "visual_prompt": "floating shadow orbs, ghostly violet mist, drifting charcoal gray tendrils, pale silver moonlight beams, ethereal fog swirls, shadow violet energy trails"
+      "name": "Viento Siniestro",
+      "desc": "Crea un viento místico que eleva al rival y lo ataca con sombras.",
+      "name_en": "Sinister Wind",
+      "visual_prompt": "ghostly mist swirling in moonlight, translucent silver orbs floating in a moonlit ruin, icy blue shadows forming sharp crescent blades, pale silver wind currents, spectral white glow"
     },
     {
-      "name": "Lamento Antiguo",
-      "desc": "Emite un grito que reduce la defensa del enemigo y genera miedo.",
-      "name_en": "Ancient Lament",
-      "visual_prompt": "shimmering violet mist, crumbling gravestone fragments, ghostly silver tears, shadowy aura with faint moonlight, ethereal fog swirls, deep violet glow, cracked tombstone texture, pale silver mist trails, ghostly white sparkles, charcoal gray mist tendrils, eerie moonlit graveyard atmosphere, no characters or Pokémon, Ken Sugimori style VFX"
+      "name": "Hueso Espectral",
+      "desc": "Lanza huesos brillantes que atraviesan la defensa del oponente.",
+      "name_en": "Spectral Bone",
+      "visual_prompt": "translucent frost bones, moonlight gray mist, pale silver orbs, spectral white glow, drifting bone fragments, icy blue highlights, ghostly shimmer, ethereal moonlit ruins background, no characters, no Pokémon, no creatures, no silhouettes"
     }
   ],
   "diffs": [
     {
-      "from": "patas de roca",
-      "to": "patas translúcidas que flotan sin contacto con el suelo"
+      "from": "patas de hueso sólido",
+      "to": "patas translúcidas que no dejan huella en el suelo"
     },
     {
-      "from": "rostro feroz",
-      "to": "ojos brillantes de luz azul fantasmal"
+      "from": "alas de piel",
+      "to": "alas de hueso brillante con luz fantasmal"
     },
     {
-      "from": "alas de cuero",
-      "to": "alas de energía espectral que emiten destellos"
+      "from": "ojos normales",
+      "to": "ojos que emiten destellos azules en la oscuridad"
     },
     {
-      "from": "rugido poderoso",
-      "to": "susurro del viento que transporta recuerdos ancestrales"
+      "from": "vuelo rápido",
+      "to": "caminar silenciosamente sin moverse del suelo"
     }
   ],
   "pokemon_id": "142",

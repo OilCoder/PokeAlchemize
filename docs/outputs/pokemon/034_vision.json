@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "purple",
+    "white",
+    "dark purple"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "legs",
+    "tail",
+    "ears",
+    "teeth"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The Pokémon has a robust, quadrupedal body with a large head, prominent ears, and a long tail.",
+  "type_markers": [
+    "no specific type markers visible"
+  ],
+  "distinctive_features": [
+    "large, pointed ears",
+    "sharp teeth",
+    "bulbous eyes"
+  ]
+}

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Acero",
-  "lore": "Este Pokémon, con pelaje de llama dorada y armadura de acero, camina con paso firme. Sus patas están cubiertas de placas metálicas que resuenan al andar, y sus ojos brillan con una luz fría y calculadora.",
+  "species_name": "Pokémon Acero Llama",
+  "lore": "Acero Llama se erige con patas de acero, su pelaje brillante refleja destellos metálicos. Sus patas son sólidas como armadura, y su cola emite un rugido resonante que retumba en el acero.",
   "moves": [
     {
-      "name": "Llamarada Acero",
-      "desc": "Lanza una llamarada que se solidifica en acero, causando daño y reduciendo la defensa del rival.",
-      "name_en": "Steel Blaze",
-      "visual_prompt": "solidified steel flames, gunmetal gray embers, polished silver sparks, metallic steam vents, neon cyan energy trails, industrial city skyline backdrop, electric blue glow"
-    },
-    {
-      "name": "Golpe de Muelle",
-      "desc": "Ataca con un golpe de acero que absorbe el impulso y lo devuelve con mayor fuerza.",
-      "name_en": "Spring Strike",
-      "visual_prompt": "polished silver steel coils, metallic steam vents, gunmetal gray energy waves, electric blue sparks, neon cyan accents, industrial cityscape backdrop, reflective surface ripples, dynamic force lines, stylized 2D VFX, Ken Sugimori aesthetic"
-    },
-    {
-      "name": "Escudo de Llama",
-      "desc": "Crea un escudo de llama sólido que bloquea ataques y recupera energía.",
-      "name_en": "Flame Shield",
-      "visual_prompt": "solid metallic flame shield, glowing gunmetal gray edges, polished silver energy waves, electric blue sparks, neon cyan aura, industrial city skyline backdrop, steam vents emitting shimmering light"
-    },
-    {
       "name": "Corte de Acero",
-      "desc": "Corta al rival con un corte de acero que causa daño y reduce la velocidad.",
-      "name_en": "Steel Cutter",
-      "visual_prompt": "shimmering steel blades slicing through air, polished silver sparks, gunmetal gray energy trails, electric blue energy pulses, neon cyan highlights, industrial city skyline backdrop"
+      "desc": "Corta con garras afiladas que dejan surcos en el acero.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "sharpened steel claws, deep gashes in polished metal, glowing energy lines, gunmetal gray sparks, matte black residue, industrial workshop setting, polished chrome reflections"
+    },
+    {
+      "name": "Fuego de Hierro",
+      "desc": "Lanza llamas que se solidifican en el aire como trozos de metal incandescente.",
+      "name_en": "Iron Flame",
+      "visual_prompt": "solidified molten steel shards, glowing crimson embers, industrial workshop backdrop, polished chrome reflections, deep steel blue energy lines, matte black shadows, stylized 2D VFX, Ken Sugimori aesthetic"
+    },
+    {
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que resonarán en cualquier superficie metálica.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished chrome ripples, matte black energy lines, deep steel blue echoes, industrial workshop metal surfaces, stylized 2D VFX, Ken Sugimori aesthetic"
+    },
+    {
+      "name": "Escudo de Fuego",
+      "desc": "Crea un escudo de llamas que se solidifica en acero para absorber golpes.",
+      "name_en": "Fire Shield",
+      "visual_prompt": "glowing steel shield, molten fire orbs, jagged metallic edges, polished chrome surface, deep steel blue energy lines, matte black background, industrial workshop glow"
     }
   ],
   "diffs": [
     {
-      "from": "Pelaje de llama dorada",
-      "to": "Pelaje dorado cubierto de placas de acero brillante"
+      "from": "pelaje de fuego",
+      "to": "pelaje metálico que refleja luz"
     },
     {
-      "from": "Patas con garras afiladas",
-      "to": "Patas con placas metálicas que resuenan al caminar"
+      "from": "patas flexibles",
+      "to": "patas de acero sólido y estable"
     },
     {
-      "from": "Ojos brillantes",
-      "to": "Ojos que brillan con una luz fría y calculadora"
+      "from": "cola larga",
+      "to": "cola que emite sonidos resonantes"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura erguida y firme, como un guerrero acorazado"
+      "from": "respiración de llamas",
+      "to": "respiración de llamas sólidas como metal"
     }
   ],
   "pokemon_id": "058",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Mariposa de Ceniza",
-  "lore": "Mariposa de Ceniza flota sobre el agua con alas de cristal que brillan bajo la luz. Su piel se transforma en un tono dorado, y sus patas se alargan para caminar sobre el agua sin hundirse.",
+  "species_name": "Pokémon Mariposa Acuática",
+  "lore": "Este Magikarp ahora es una criatura etérea de escamas iridiscentes, con alas de cristal que brillan bajo el agua. Sus aletas se transforman en alas transparentes, permitiéndole navegar entre los remolinos de burbujas mágicas.",
   "moves": [
     {
-      "name": "Ala de Ceniza",
-      "desc": "Lanza una lluvia de polvo dorado que cura heridas y aumenta la defensa temporal.",
-      "name_en": "Ash Wing",
-      "visual_prompt": "golden dust particles swirling in moonlit air, soft pastel pink and pearl lavender sparkles, glowing starlight blue mist, crystalline mint energy trails, delicate flower petals floating, ethereal glow, no characters"
+      "name": "Ala de Cristal",
+      "desc": "Crea un escudo de luz que refleja ataques y cura leves heridas en el usuario.",
+      "name_en": "Crystal Wing",
+      "visual_prompt": "shimmering crystal shards, soft pink light rays, delicate lavender mist, ivory white aura, pearly gold reflections, moonlit meadow backdrop, glowing fairy lights, gentle swirling motion, no characters"
     },
     {
-      "name": "Danza de la Luna",
-      "desc": "Crea un baile mágico que confunde a los enemigos y reduce su precisión.",
-      "name_en": "Moon Dance",
-      "visual_prompt": "glowing pastel pink petals swirling in hypnotic spirals, soft ivory white mist rising from moonlit garden, pearl lavender starlight trails, crystalline mint energy orbs floating with starlight blue shimmer, delicate floral patterns fading into twilight sky"
+      "name": "Burbuja Mágica",
+      "desc": "Lanza burbujas que atrapan al oponente en un sueño suave, reduciendo su velocidad.",
+      "name_en": "Magic Bubble",
+      "visual_prompt": "floating pastel pink bubbles, delicate lavender mist, pearly gold shimmer, ivory white sparkles, soft moonlight glow, ethereal dreamy texture, smooth translucent orbs, gentle floating motion"
     },
     {
-      "name": "Pétalo de Sueños",
-      "desc": "Envía pétalos brillantes que causan sueño en el enemigo.",
-      "name_en": "Dream Petal",
-      "visual_prompt": "glowing pastel pink petals floating in soft mist, delicate starlight blue sparkles, ivory white aura with crystalline mint highlights, ethereal moonlit garden backdrop, gentle swirling motion"
+      "name": "Danza de las Sirenas",
+      "desc": "Aumenta el ataque y la precisión del usuario con un baile hipnótico bajo el agua.",
+      "name_en": "Siren's Dance",
+      "visual_prompt": "glowing pastel pink water ripples, swirling lavender mist, shimmering silver bubbles, delicate ivory white floral patterns, pearlescent light reflections, hypnotic spiral motion"
     },
     {
-      "name": "Brillo de la Aurora",
-      "desc": "Emite un destello de luz que ciega al enemigo y mejora la velocidad.",
-      "name_en": "Aurora Flash",
-      "visual_prompt": "glowing pastel pink and pearl lavender light beams, sparkling starlight blue crystal shards, soft misty twilight sky backdrop, delicate floral patterns in ivory white, shimmering motion trails"
+      "name": "Pétalos de Estrella",
+      "desc": "Lanza pétalos brillantes que causan daño y confunden al oponente.",
+      "name_en": "Star Petals",
+      "visual_prompt": "glowing pastel pink petals, delicate lavender mist, shimmering silver sparkles, ivory white light trails, pearly gold accents, moonlit meadow backdrop, ethereal fairy lights"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas cortas en el suelo",
-      "to": "Patas alargadas y ágiles para caminar sobre el agua"
+      "from": "Cuerpo de pez",
+      "to": "Alas transparentes de cristal que brillan bajo el agua"
     },
     {
-      "from": "Baja postura",
-      "to": "Postura elevada y elegante al flotar"
+      "from": "Aletas solo",
+      "to": "Aletas transformadas en alas de cristal para navegar en el agua"
     },
     {
-      "from": "Piel azul pálido",
-      "to": "Piel dorada brillante con destellos de cristal"
+      "from": "Sin patas",
+      "to": "Alas que permiten moverse en el agua y en el aire"
     },
     {
       "from": "Boca pequeña",
-      "to": "Boca adornada con pétalos brillantes"
+      "to": "Boca que emite burbujas mágicas y pétalos brillantes"
     }
   ],
   "pokemon_id": "129",

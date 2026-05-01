@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro de Roca",
-  "lore": "El Espectro de Roca flota sin peso, sus patas de piedra se disuelven en sombras. Sus ojos brillan con una luz fantasmal mientras absorbe la energía de los terrenos ancestrales, convirtiendo el suelo en un portal oscuro.",
+  "species_name": "Pokémon Espectral de Piedra",
+  "lore": "Este Geodude fantasmal se desplaza sin ruido, sus rocas translúcidas brillan con luz espectral. Sus patas se han vuelto etéreas, permitiéndole atravesar paredes mientras emite un eco fantasmal.",
   "moves": [
     {
-      "name": "Sombra de Piedra",
-      "desc": "Crea una sombra sólida que absorbe ataques físicos y refuerza la defensa del usuario.",
-      "name_en": "Stone Shadow",
-      "visual_prompt": "solid violet shadow, cracked charcoal gray stone fragments, pale silver mist swirls, ghostly white energy pulses, shadow violet aura, misty graveyard atmosphere, ethereal fog drifting"
+      "name": "Sombra Roca",
+      "desc": "Lanza un ataque de sombra que se solidifica en rocas para bloquear el camino del rival.",
+      "name_en": "Shadow Rock",
+      "visual_prompt": "solidifying shadow orbs, jagged translucent rock formations, moonlit ruins backdrop, pale silver mist, icy blue frost patterns, spectral white glow, drifting ghostly orbs"
     },
     {
-      "name": "Portal Oscuro",
-      "desc": "Abre un portal temporal que teletransporta al usuario a una posición cercana, evitando ataques.",
-      "name_en": "Dark Portal",
-      "visual_prompt": "twisting violet vortex, floating ghostly white shards, charcoal gray mist, pale silver energy ripples, shadow violet portal edges, ethereal fog swirls, no characters, no Pokémon, no creatures"
+      "name": "Eco Fantasma",
+      "desc": "Genera un eco que confunde al enemigo, reduciendo su precisión temporalmente.",
+      "name_en": "Phantom Echo",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, pale silver mist swirling, icy blue frost patterns forming temporary precision-reducing distortions, ghostly echoes fading into moonlight gray"
     },
     {
-      "name": "Eco de los Antepasados",
-      "desc": "Aumenta el ataque y la defensa al invocar espíritus ancestrales del suelo.",
-      "name_en": "Ancestral Echo",
-      "visual_prompt": "ethereal violet mist swirling around ancient tombstones, glowing pale silver spirit orbs floating upward, shadow violet energy tendrils, charcoal gray aura with ghostly white accents, misty graveyard atmosphere, moonlit glow"
+      "name": "Piedra Espectral",
+      "desc": "Convierte sus rocas en formas fantasmales que atacan desde múltiples ángulos.",
+      "name_en": "Spectral Stone",
+      "visual_prompt": "translucent ghostly rocks floating in moonlit ruins, pale silver mist swirling around icy blue orbs, spectral white energy trails, moonlight gray shadows, drifting spectral orbs with frosty edges"
     },
     {
-      "name": "Cautiverio Fantasmal",
-      "desc": "Aturde al oponente al envolverlo en una red de energía espectral.",
-      "name_en": "Phantom Trap",
-      "visual_prompt": "ethereal violet energy net, spectral silver threads, ghostly white mist, shadow violet glow, drifting misty fog, translucent tendrils, moonlit tombstone silhouette in background"
+      "name": "Trasfondo Fantasma",
+      "desc": "Crea un muro de sombra que absorbe ataques y devuelve el daño al oponente.",
+      "name_en": "Ghost Wall",
+      "visual_prompt": "translucent spectral wall, floating moonlit orbs, icy blue mist, pale silver cracks, ghostly energy pulses, moonlight gray glow, shadow absorption effect"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas cortas plantadas en el suelo",
-      "to": "Patas disueltas en sombras, flotando sin contacto con el suelo"
+      "from": "cuatro patas en el suelo",
+      "to": "patas etéreas que atraviesan superficies sólidas"
     },
     {
-      "from": "Postura compacta y baja",
-      "to": "Postura elevada y etérea, flotando a un metro del suelo"
+      "from": "rocas sólidas y pesadas",
+      "to": "rocas translúcidas que brillan con luz espectral"
     },
     {
-      "from": "Resistencia a golpes físicos",
-      "to": "Resistencia a ataques físicos y psíquicos, absorción de energía"
+      "from": "movimiento lento y pesado",
+      "to": "movimiento silencioso y sin rastro"
     },
     {
-      "from": "Suelo como su elemento natural",
-      "to": "Suelo como portal para invocar espíritus ancestrales"
+      "from": "vocalización grave",
+      "to": "eco fantasmal que resuena en el aire"
     }
   ],
   "pokemon_id": "074",

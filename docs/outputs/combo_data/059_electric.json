@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Arcanine, ahora transformado en una bestia eléctrica, irradia chispas en cada paso. Su pelaje brillante emite destellos azules, mientras sus patas generan corrientes que danzan en el aire.",
+  "lore": "Arcanine ahora irradia energía eléctrica en sus mechones flameados. Sus patas, cargadas de chispas, generan un campo estático al caminar. Sus ojos brillan con destellos azules, marcando su nueva esencia eléctrica.",
   "moves": [
     {
-      "name": "Chispa Cautivadora",
-      "desc": "Genera una descarga que paraliza al oponente mientras el Pokémon brilla con energía.",
-      "name_en": "Captivating Spark",
-      "visual_prompt": "neon-yellow electric arcs, violet spark particles, electric cyan energy pulses, crackling storm clouds, bright white light bursts, dynamic energy field"
+      "name": "Chispa Luminosa",
+      "desc": "Lanza destellos de luz azul que deslumbran al rival y reducen su precisión.",
+      "name_en": "Luminous Spark",
+      "visual_prompt": "vibrant electric blue light streaks, neon yellow energy orbs, crisp white beam trails, bright electric white sparkles, pale blue glow effects, urban city skyline backdrop with flickering neon signs"
     },
     {
-      "name": "Ráfaga Estática",
-      "desc": "Ataca con ráfagas de energía estática que reducen la defensa del rival.",
-      "name_en": "Static Gust",
-      "visual_prompt": "crackling electric blue and neon yellow energy waves, violet sparks scattering in stormy sky, bright white lightning bolts, electric cyan energy fields, dynamic motion lines"
+      "name": "Relámpago Canino",
+      "desc": "Ataca con un rayo de alta tensión que quema y paraliza al oponente.",
+      "name_en": "Canine Lightning",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white static sparks, bright electric white shockwaves, pale blue glow pulses, urban cityscape neon signs flickering in background"
     },
     {
-      "name": "Relámpago en Llamarada",
-      "desc": "Combina chispas y llamas para lanzar un ataque devastador al enemigo.",
-      "name_en": "Thunder Blaze",
-      "visual_prompt": "crackling electric blue arcs, neon yellow fire bursts, violet sparks, bright white energy trails, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field swirls"
+      "name": "Campo Estático",
+      "desc": "Crea un campo eléctrico alrededor de sí mismo, aumentando su velocidad y daño.",
+      "name_en": "Static Field",
+      "visual_prompt": "electric blue energy field, neon yellow lightning bolts, crisp white sparks, bright electric white aura, pale blue glow, urban cityscape background, neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Corriente de Fuego",
-      "desc": "Crea un campo eléctrico que aumenta el daño de los ataques de fuego.",
-      "name_en": "Fire Surge",
-      "visual_prompt": "electric blue lightning arcs, neon yellow energy pulses, violet spark particles, bright white crackling fields, electric cyan storm clouds"
+      "name": "Aullido de Rayos",
+      "desc": "Emite un aullido que genera rayos que golpean a múltiples objetivos.",
+      "name_en": "Thunder Roar",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy arcs, crisp white shockwaves, bright electric white sparks, pale blue glow trails, urban city skyline silhouette, flickering neon signs, electric storm cloud patterns"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje de fuego",
-      "to": "pelaje brillante que irradia chispas azules"
+      "from": "Mechones flameados",
+      "to": "Cubiertos de chispas azules que brillan al caminar"
     },
     {
-      "from": "patas firmes en el suelo",
-      "to": "patas que generan corrientes eléctricas en el aire"
+      "from": "Patas firmes en el suelo",
+      "to": "Generan un campo estático que electrifica el terreno"
     },
     {
-      "from": "postura baja y estable",
-      "to": "postura dinámica que permite saltos rápidos"
+      "from": "Ojos rojos intensos",
+      "to": "Brillan con destellos azules y eléctricos"
     },
     {
-      "from": "respiración de llamas",
-      "to": "respiración que libera descargas eléctricas"
+      "from": "Respiración de llama",
+      "to": "Emite chispas eléctricas en lugar de llamas"
     }
   ],
   "pokemon_id": "059",

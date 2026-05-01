@@ -1,0 +1,27 @@
+{
+  "body_colors": [
+    "bright yellow",
+    "dark purple",
+    "pale cream",
+    "red",
+    "white"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "hands",
+    "hair",
+    "necklace"
+  ],
+  "body_plan": "biped",
+  "silhouette": "The Pokémon has a humanoid shape with a head, arms, and hands, standing upright.",
+  "type_markers": [
+    "psychic eye shape",
+    "psychic necklace"
+  ],
+  "distinctive_features": [
+    "long blonde hair",
+    "psychic eye shape"
+  ]
+}

@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Ola de Cuidado",
-  "lore": "El Ola de Cuidado camina con paso firme, sus patas plantadas en el suelo como raíces. Su pelaje blanco brilla con reflejos acuosos, y sus ojos brillan con calma oceánica. El agua fluye suavemente alrededor de su cuerpo.",
+  "lore": "Ola de Cuidado camina con patas acuáticas que gotean gotas relajantes. Su cuerpo brillante refleja el agua, y sus ojos suaves transmiten calma. El tipo agua intensifica su naturaleza protectora.",
   "moves": [
     {
-      "name": "Ola Consoladora",
-      "desc": "Crea una ola suave que cura a aliados y calma el ambiente.",
-      "name_en": "Comforting Wave",
-      "visual_prompt": "gentle water ripples, glowing bioluminescent plankton, teal green and aquamarine light pulses, smooth ocean currents, pearly white mist, deep sapphire blue background"
+      "name": "Ola de Sosiego",
+      "desc": "Crea ondas suaves que calman a aliados y reducen el daño recibido temporalmente.",
+      "name_en": "Calm Wave",
+      "visual_prompt": "gentle undulating water ripples, soft teal and aquamarine glowing waves, pearly white foam bubbles, smooth ocean surface with soft blue sunlight, tranquil shimmering effect"
     },
     {
-      "name": "Salpicadura de Amor",
-      "desc": "Dispara salpicaduras de agua que aumentan la defensa de aliados.",
-      "name_en": "Love Splash",
-      "visual_prompt": "glowing water droplets, bioluminescent plankton swirls, deep ocean blue ripples, teal green accents, pearly white sparkles, calm underwater currents, aquamarine light beams"
+      "name": "Chorro de Amor",
+      "desc": "Dispara un chorro de agua templado que restaura salud y quita debilidades.",
+      "name_en": "Love Stream",
+      "visual_prompt": "gentle water stream, warm teal droplets, pearly white bubbles, sapphire blue ripples, calm ocean surface, soft blue sunlight, smooth flowing motion, translucent water effects"
     },
     {
-      "name": "Corriente Serena",
-      "desc": "Genera una corriente tranquila que reduce el daño recibido.",
-      "name_en": "Serene Current",
-      "visual_prompt": "calm water currents, swirling teal and aquamarine eddies, pearly white ripples, bioluminescent plankton glows, deep ocean blue background, smooth undulating motion"
+      "name": "Cubierta Acuática",
+      "desc": "Cubre a un aliado con una capa de agua que bloquea ataques físicos por un turno.",
+      "name_en": "Water Shield",
+      "visual_prompt": "gentle ocean waves, shimmering teal water droplets, pearly white reflective surface, deep blue ripple effect, calm sapphire blue light, soft aquamarine glow"
     },
     {
-      "name": "Marea de Compasión",
-      "desc": "Lanza una marea que cura a todos los aliados y elimina malos estados.",
-      "name_en": "Compassion Tide",
-      "visual_prompt": "glowing bioluminescent plankton waves, deep ocean blue water ripples, teal green coral fragments, pearly white healing light particles, aquamarine energy swirls, calm underwater current motion"
+      "name": "Lluvia de Cuidado",
+      "desc": "Genera una lluvia suave que cura a todos los aliados y mejora su defensa.",
+      "name_en": "Care Rain",
+      "visual_prompt": "gentle water droplets falling in slow motion, soft glowing teal and sapphire blue aura, pearlescent ripples on calm ocean surface, pale aquamarine mist rising, delicate sparkling light particles"
     }
   ],
   "diffs": [
     {
-      "from": "patas planas",
-      "to": "patas acuáticas con membranas que absorben el agua"
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas adaptadas para caminar sobre aguas tranquilas, dejando huellas brillantes."
     },
     {
-      "from": "pelaje blanco",
-      "to": "pelaje brillante con reflejos acuosos que reflejan el entorno"
+      "from": "Cuerpo normal",
+      "to": "Cuerpo cubierto de un manto de agua que brilla bajo el sol."
     },
     {
-      "from": "postura baja",
-      "to": "postura estable con pies plantados en el agua"
+      "from": "Ojos suaves",
+      "to": "Ojos que emiten un destello acuático, reflejando calma y protección."
     },
     {
-      "from": "movimientos suaves",
-      "to": "movimientos fluidos que imitan olas del océano"
+      "from": "Naturaleza tranquila",
+      "to": "Naturaleza intensificada por el agua, transmitiendo paz incluso en batallas."
     }
   ],
   "pokemon_id": "113",

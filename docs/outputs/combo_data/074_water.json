@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Agua de Roca",
-  "lore": "Geodude, ahora fusionado con el agua, muestra escamas resplandecientes en su cuerpo rocoso. Sus patas se han convertido en aletas acuáticas, permitiéndole moverse con fluidez bajo el agua. Su postura compacta ahora se adapta a los flujos marinos.",
+  "lore": "Geodude, ahora cubierto de cristales de hielo que brillan bajo el agua, camina con pasos suaves en el fondo marino. Sus patas se han suavizado para deslizarse sin ruido, mientras sus ojos centellean con energía acuática.",
   "moves": [
     {
-      "name": "Ola de Rocas",
-      "desc": "Lanza una ola de rocas acuáticas que impacta al rival con fuerza.",
-      "name_en": "Rock Wave",
-      "visual_prompt": "crystalline water waves, jagged stone fragments, glowing bioluminescent plankton, deep ocean blue and teal green color gradient, shimmering aquamarine ripples, pearly white spray, smooth underwater current motion"
+      "name": "Ola de Hielo",
+      "desc": "Lanza una ola congelante que ralentiza al oponente y crea un campo de hielo en el suelo.",
+      "name_en": "Ice Wave",
+      "visual_prompt": "crystalline ice waves, slow-motion ripples, frosted ground patterns, deep ocean blue and teal glow, pearly white frost particles, gentle underwater sunlight"
     },
     {
-      "name": "Torrente de Lodo",
-      "desc": "Crea un torrente de lodo que ralentiza al enemigo y lo envuelve.",
-      "name_en": "Muddy Torrent",
-      "visual_prompt": "thick swirling mud vortex, deep ocean blue water currents, teal green sediment particles, pearly white bubbles rising, aquamarine bioluminescent plankton glowing faintly, slow-motion effect with distorted water ripples"
+      "name": "Chorro Submarino",
+      "desc": "Dispara un chorro de agua que impulsa al oponente hacia atrás y lo aturde temporalmente.",
+      "name_en": "Submarine Jet",
+      "visual_prompt": "glistening water jet, swirling vortex, translucent blue ripples, calm ocean surface, gentle wave patterns, pearly white mist, deep ocean blue highlights, sapphire blue light rays"
     },
     {
-      "name": "Marea de Piedras",
-      "desc": "Genera una marea de piedras que cubre el campo de batalla.",
-      "name_en": "Stone Tide",
-      "visual_prompt": "crystalline stone waves, swirling deep ocean blue currents, glowing bioluminescent plankton particles, pearly white stone fragments, aquamarine water ripples, sapphire blue energy trails"
+      "name": "Manto Acuático",
+      "desc": "Cubre al Pokémon con una capa de agua que refuerza sus defensas y absorbe ataques físicos.",
+      "name_en": "Water Shield",
+      "visual_prompt": "glowing teal water shield, swirling deep ocean blue ripples, pearlescent white droplets, sapphire blue energy aura, gentle wave patterns, soft blue sunlight reflections"
     },
     {
-      "name": "Oscurecimiento Acuático",
-      "desc": "Cubre el área con una niebla acuosa que reduce la precisión del enemigo.",
-      "name_en": "Aquatic Obscure",
-      "visual_prompt": "dense water mist, shimmering bioluminescent plankton, deep ocean blue haze, teal green undertones, pearly white droplets, calm underwater currents, aquamarine glow, sapphire blue depth"
+      "name": "Cristal de Mar",
+      "desc": "Crea cristales afilados en el agua que atacan al oponente desde múltiples direcciones.",
+      "name_en": "Crystal Shard",
+      "visual_prompt": "sharp crystalline shards, water droplets, deep ocean blue light, teal reflections, pearly white sparkle, sapphire blue energy trails, calm ocean surface, gentle wave ripples, soft blue sunlight, aquamarine glow"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo rocoso",
-      "to": "escamas resplandecientes en su cuerpo rocoso"
+      "from": "Cuatro patas sólidas en el suelo",
+      "to": "Patas suaves y flexibles para deslizarse en el agua"
     },
     {
-      "from": "patas cortas plantadas en el suelo",
-      "to": "patas convertidas en aletas acuáticas"
+      "from": "Cuerpo rocoso y pesado",
+      "to": "Cuerpo cubierto de cristales de hielo que brilla y refleja la luz"
     },
     {
-      "from": "postura compacta",
-      "to": "adaptación a los flujos marinos"
+      "from": "Resistencia a golpes físicos",
+      "to": "Resistencia a ataques de agua y hielo, pero más ligero en el agua"
     },
     {
-      "from": "movimiento lento en tierra",
-      "to": "movimiento fluido bajo el agua"
+      "from": "Movimientos de roca",
+      "to": "Movimientos de agua y hielo que se adaptan a su nuevo ambiente"
     }
   ],
   "pokemon_id": "074",

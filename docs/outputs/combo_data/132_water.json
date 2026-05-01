@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua Esmeralda",
-  "lore": "Este Ditto transformado flota en el aire, su cuerpo translúcido brillando con destellos verdes. Sus formas cambiantes ahora reflejan la fluidez del agua, con ondas suaves que se extienden alrededor de él.",
+  "species_name": "Pokémon Agua Esférica",
+  "lore": "Este Ditto transformado ahora es una esfera fluida de agua cristalina. Su cuerpo se funde en una forma esférica que gira suavemente, con reflejos que reflejan el entorno. Sus ojos brillan con una luz azul profunda, indicando su conexión con el agua.",
   "moves": [
     {
-      "name": "Ola Cristalina",
-      "desc": "Crea una ola de agua cristalina que refleja el entorno, confundiendo al enemigo.",
-      "name_en": "Crystal Wave",
-      "visual_prompt": "crystalline water wave, refracting light beams, shimmering teal reflections, bioluminescent plankton particles, deep ocean blue background, smooth aquamarine ripples, pearly white highlights, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Ola de Transformación",
+      "desc": "Crea una ola que envuelve al rival, cambiando su forma temporalmente a una versión acuática.",
+      "name_en": "Wave of Transformation",
+      "visual_prompt": "crystalline water wave, swirling teal and sapphire ripples, pearlescent light reflections, gentle ocean surface, soft blue sunlight, shimmering aquamarine distortion, flowing liquid energy, no characters"
     },
     {
-      "name": "Nube Acuática",
-      "desc": "Genera una nube de vapor que oculta su posición y reduce la precisión del rival.",
-      "name_en": "Water Mist",
-      "visual_prompt": "dense vapor cloud, swirling teal and aquamarine mist, pearly white droplets, bioluminescent plankton glows, deep ocean blue haze, calm water currents swirling"
+      "name": "Esfera Hidro",
+      "desc": "Lanza una esfera de agua que absorbe y refuerza el poder del ataque del usuario.",
+      "name_en": "Hydro Sphere",
+      "visual_prompt": "glowing deep ocean blue water sphere, swirling teal vortex, pearly white mist tendrils, sapphire blue energy ripples, pale aquamarine light refractions, calm ocean surface texture, gentle wave patterns, soft blue sunlight highlights"
     },
     {
-      "name": "Torrente Luminoso",
-      "desc": "Envía un torrente de agua brillante que cura la salud del aliado.",
-      "name_en": "Luminous Torrent",
-      "visual_prompt": "glowing bioluminescent water currents, swirling teal and aquamarine water orbs, pearly white mist rising, deep ocean blue background with subtle sapphire highlights, smooth flowing water ripples"
+      "name": "Reflejo Acuático",
+      "desc": "Refleja ataques especiales hacia el rival, multiplicando su efecto.",
+      "name_en": "Water Mirror",
+      "visual_prompt": "shimmering water surface with rippling reflections, concentric blue ripples, glowing teal orbs, pearly white light beams, sapphire blue wave patterns, calm ocean sunlight glinting"
     },
     {
-      "name": "Marea de Espejos",
-      "desc": "Crea múltiples imágenes reflejadas que atacan simultáneamente.",
-      "name_en": "Mirror Tide",
-      "visual_prompt": "shimmering water reflections, multiple overlapping mirrored ripples, bioluminescent teal orbs, deep ocean blue waves, pearly white light beams, aquamarine sparkles, calm underwater current motion"
+      "name": "Torrente de Identidad",
+      "desc": "Genera un torrente que altera la identidad del oponente, haciéndolo vulnerable a ataques de agua.",
+      "name_en": "Identity Torrent",
+      "visual_prompt": "calm ocean surface with gentle waves, deep ocean blue and teal water currents swirling, pearly white mist forming identity-shifting patterns, sapphire blue light refracting through water, pale aquamarine ripples spreading outward"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo gelatinoso sin forma definida",
-      "to": "Cuerpo translúcido con destellos verdes que reflejan el agua"
+      "from": "Cuerpo amorfoso",
+      "to": "Forma esférica fluida con reflejos de agua"
     },
     {
-      "from": "Flotación sin esfuerzo",
-      "to": "Flotación suave con ondas que se extienden alrededor"
+      "from": "Sin extremidades",
+      "to": "Cuerpo que gira suavemente, creando un efecto de fluidez"
     },
     {
-      "from": "Capacidad de imitar cualquier forma",
-      "to": "Imita formas fluidas de agua, como olas y gotas"
+      "from": "Ojos normales",
+      "to": "Ojos brillantes azules que reflejan el entorno"
     },
     {
-      "from": "No tiene extremidades definidas",
-      "to": "Cuerpo se divide en múltiples capas fluidas que interactúan con el agua."
+      "from": "No posee tipo agua",
+      "to": "Conexión activa con el agua, absorbiendo su energía"
     }
   ],
   "pokemon_id": "132",

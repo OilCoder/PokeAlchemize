@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Mariposa",
-  "lore": "Dratini ahora se desplaza con alas de cristal que brillan al sol, sus escamas reflejan destellos de luz. Su cuerpo, antes rígido, se ha suavizado con una piel translúcida y un aura de magia etérea.",
+  "species_name": "Pokémon Dragón de Ceniza",
+  "lore": "Dragón de Ceniza serpentea con gracia, su piel brillante se transforma en pétalos de flor de luna. Sus ojos resplandecen con magia etérea, y su cola emite destellos de luz celestial al moverse.",
   "moves": [
     {
-      "name": "Ala de Sueño",
-      "desc": "Genera un campo de sueños que reduce la velocidad de los enemigos y los adormece.",
-      "name_en": "Dream Wing",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white starlight, pearl lavender mist, crystalline mint orbs, soft twilight sky, dreamy shimmer effect, delicate lace-like patterns"
+      "name": "Pétalo de Luna",
+      "desc": "Lanza pétalos que curan y protegen al usuario con su magia celestial.",
+      "name_en": "Luna Petal",
+      "visual_prompt": "glowing moonlit petals, soft pastel pink and ivory white, delicate lavender trails, pearly gold shimmer, silver mist, celestial glow, floating in a misty meadow"
     },
     {
-      "name": "Destello de Cristal",
-      "desc": "Lanza destellos de luz que ciegan al rival y aumentan la precisión.",
-      "name_en": "Crystal Flash",
-      "visual_prompt": "shimmering crystal shards, prismatic light beams, soft pastel pink and pearl lavender glow, delicate starlight blue sparkles, crystalline mint mist, glowing dewdrops on petals"
+      "name": "Resplandor de Estrellas",
+      "desc": "Cubre al usuario con un aura brillante que aumenta la precisión de los ataques.",
+      "name_en": "Starlight Aura",
+      "visual_prompt": "glowing pastel pink and ivory white starbursts, delicate lavender mist, shimmering silver fairy lights, pearlescent aura swirls, soft moonlight glow, floating crystalline stardust particles"
     },
     {
-      "name": "Viento de Ensueño",
-      "desc": "Crea un viento suave que eleva al Pokémon y refuerza su defensa.",
-      "name_en": "Dream Wind",
-      "visual_prompt": "soft pastel pink wind currents, floating crystalline mint petals, ivory white shimmering defense aura, pearl lavender mist swirls, glowing starlight blue starlight particles, moonlit garden backdrop with faint glowing flowers"
+      "name": "Canto de Ceniza",
+      "desc": "Un canto suave que reduce el ataque del oponente y genera confusión.",
+      "name_en": "Ash Song",
+      "visual_prompt": "soft pastel pink petals swirling in slow motion, delicate lavender mist with shimmering silver sparkles, ivory white fairy lights floating upward, pearly gold dust particles, moonlit meadow backdrop with glowing flowers"
     },
     {
-      "name": "Canto de Estrellas",
-      "desc": "Emite un canto que cura la salud de aliados y restaura energía.",
-      "name_en": "Star Song",
-      "visual_prompt": "glowing starlight blue petals, floating crystalline mint orbs, soft pastel pink mist, ivory white light trails, pearl lavender flower blossoms, moonlit garden backdrop, gentle twinkle effects, ethereal shimmer, soft focus glow, delicate star patterns in mist"
+      "name": "Aliento de Fénix",
+      "desc": "Ataca con un aliento que revive a aliados derrotados con un toque de magia.",
+      "name_en": "Phoenix Breath",
+      "visual_prompt": "glowing pastel pink and ivory white aura, delicate lavender petals swirling, pearly gold sparkles, shimmering silver mist, ethereal fairy lights, soft moonlight glow, floating magical particles"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "alas de cristal que permiten volar suavemente"
+      "from": "cuerpo serpenteante",
+      "to": "cuerpo cubierto de pétalos brillantes que brillan al moverse"
     },
     {
-      "from": "cuerpo rígido y escamas duras",
-      "to": "piel translúcida y escamas suaves que brillan"
+      "from": "ojos oscuros",
+      "to": "ojos resplandecientes con magia etérea"
     },
     {
-      "from": "postura de reptil bajo",
-      "to": "posición elevada y elegante en el aire"
+      "from": "cola larga",
+      "to": "cola que emite destellos de luz celestial"
     },
     {
-      "from": "aura de poder draconiano",
-      "to": "aura de magia etérea y dulzura mística"
+      "from": "piel escamosa",
+      "to": "piel transformada en escamas de flor de luna"
     }
   ],
   "pokemon_id": "147",

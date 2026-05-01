@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "gray",
+    "white",
+    "red",
+    "yellow"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "tail",
+    "fangs",
+    "eye",
+    "nose"
+  ],
+  "body_plan": "serpentine",
+  "silhouette": "The creature has a snake-like body with a hooded head, suggesting a serpentine locomotion.",
+  "type_markers": [
+    "red eye with yellow iris"
+  ],
+  "distinctive_features": [
+    "hooded head",
+    "fangs",
+    "red eye"
+  ]
+}

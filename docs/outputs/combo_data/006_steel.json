@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Llama",
-  "lore": "Con escamas de acero que brillan bajo el sol, su postura baja y poderosa emana fuerza. Las llamas de su lomo se transforman en chispas metálicas que resuenan al moverse, creando un aura de invencibilidad.",
+  "lore": "Acero Llama camina con patas robustas de acero, sus alas ahora son láminas metálicas que brillan bajo el sol. Su fuego interno se funde con el acero, creando llamas plateadas que cortan el aire.",
   "moves": [
     {
-      "name": "Chispa de Acero",
-      "desc": "Genera chispas metálicas que dañan y reducen la defensa del oponente.",
-      "name_en": "Steel Spark",
-      "visual_prompt": "metallic sparks, gunmetal gray, polished silver, electric blue trails, neon cyan arcs, industrial cityscape backdrop, glowing neon signs, metallic steam vents, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Lámina de Fuego",
+      "desc": "Lanza una lámina de acero incandescente que corta y quema al mismo tiempo.",
+      "name_en": "Blazing Blade",
+      "visual_prompt": "glowing steel blade, molten orange fire streaks, metallic sparks, polished chrome edges, industrial workshop background glow, deep steel blue energy lines"
     },
     {
-      "name": "Impacto Estelar",
-      "desc": "Ataca con un golpe que se eleva en el aire, impactando con fuerza metálica.",
-      "name_en": "Stellar Impact",
-      "visual_prompt": "metallic starburst, polished silver shards, electric blue energy trails, gunmetal gray sparks, neon cyan glowing particles, industrial city skyline silhouette"
-    },
-    {
-      "name": "Escudo Llama",
-      "desc": "Crea un escudo de acero que absorbe el daño y refleja ataques físicos.",
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de acero caliente que refleja ataques y quema al enemigo.",
       "name_en": "Steel Shield",
-      "visual_prompt": "polished silver shield with glowing electric blue edges, metallic steam vents rising from shield base, gunmetal gray energy waves reflecting physical attacks, neon cyan light trails, industrial city skyline silhouette in background"
+      "visual_prompt": "glowing steel shield, hot molten metal texture, reflective surface with heat distortion, orange embers floating around, deep steel blue energy lines, industrial workshop backdrop with polished metal surfaces"
     },
     {
-      "name": "Fuerza de Llama",
-      "desc": "Aumenta el poder de los ataques físicos con cada golpe, acumulando fuerza metálica.",
-      "name_en": "Metal Surge",
-      "visual_prompt": "glowing gunmetal gray energy waves, polished silver sparks, metallic steel blue orbs, electric blue trails, neon cyan steam vents, industrial city skyline silhouette, geometric metal shards floating"
+      "name": "Impacto Acero",
+      "desc": "Ataca con un golpe poderoso de acero que rompe defensas.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "shattered steel plates, jagged metallic shards, glowing gunmetal gray energy trails, polished chrome sparks, deep steel blue aura, industrial workshop metal surfaces, fractured metal textures"
+    },
+    {
+      "name": "Corte Luminoso",
+      "desc": "Genera un corte brillante de acero que deslumbra y daña al oponente.",
+      "name_en": "Luminous Slash",
+      "visual_prompt": "shimmering steel blade, polished chrome edges, glowing energy lines, gunmetal gray sparks, deep steel blue light rays, matte black background, sharp geometric patterns, reflective surface effects"
     }
   ],
   "diffs": [
     {
-      "from": "quadruped, four legs planted on ground, low stance",
-      "to": "patas reforzadas con escamas metálicas que absorben impactos, postura baja y estable."
+      "from": "Alas de fuego",
+      "to": "Láminas metálicas resistentes que cortan como cuchillas"
     },
     {
-      "from": "fire",
-      "to": "llamas transformadas en chispas metálicas que resuenan al moverse."
+      "from": "Fuego interno",
+      "to": "Llama plateada que fusiona acero y calor"
     },
     {
-      "from": "flying",
-      "to": "alas de acero que permiten cortar el aire con precisión, no volar."
+      "from": "Postura voladora",
+      "to": "Pies de acero plantados en el suelo, firmeza total"
     },
     {
-      "from": "four legs",
-      "to": "patas reforzadas con escamas metálicas que absorben impactos, postura baja y estable."
+      "from": "Cuerpo ligero",
+      "to": "Cuerpo pesado de acero, resistencia máxima"
     }
   ],
   "pokemon_id": "006",

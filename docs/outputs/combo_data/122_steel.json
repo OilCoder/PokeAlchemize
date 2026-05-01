@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Fantasmal",
-  "lore": "Mr-mime se ha transformado en una figura de acero, sus brazos ahora son estructuras metálicas que emiten destellos azules. Su postura baja y estable se intensifica, con patas de acero que resuenan al caminar.",
+  "species_name": "Pokémon Acero Mímico",
+  "lore": "Mr-mime, ahora de acero, camina con cuatro patas robustas y un cuerpo forjado. Sus manos brillan como metal pulido, proyectando sombras que reflejan su mente calculadora y su fuerza inquebrantable.",
   "moves": [
     {
-      "name": "Escudo Acero",
-      "desc": "Crea un escudo de acero que absorbe ataques físicos y reduce daño.",
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que absorbe golpes y reduce el daño recibido.",
       "name_en": "Steel Shield",
-      "visual_prompt": "gunmetal gray steel shield, polished silver edges, metallic steam vents, neon cyan energy pulses, electric blue aura, industrial cityscape backdrop, geometric shield patterns, glowing reflective surface"
+      "visual_prompt": "metallic shield barrier, gunmetal gray and silver reflective surface, glowing deep steel blue energy lines, polished chrome edges, matte black accents, industrial workshop background glow"
     },
     {
-      "name": "Molde de Acero",
-      "desc": "Transforma el suelo en acero, dificultando movimientos rápidos de oponentes.",
-      "name_en": "Steel Mold",
-      "visual_prompt": "gunmetal gray steel plates rising from ground, polished silver cracks forming geometric patterns, metallic steam vents emitting electric blue vapor, neon cyan glowing grid lines, industrial cityscape backdrop"
+      "name": "Golpe de Maza",
+      "desc": "Ataca con un golpe certero usando su brazo metálico como maza.",
+      "name_en": "Mace Strike",
+      "visual_prompt": "metallic hammer impact, polished chrome sparks, gunmetal gray energy waves, deep steel blue aura, industrial workshop debris, matte black reflections, glowing energy lines"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Emite sonidos metálicos que confunden a los oponentes y reducen su precisión.",
-      "name_en": "Metal Resonance",
-      "visual_prompt": "gunmetal gray metallic echoes, polished silver sound waves, electric blue distortion ripples, neon cyan vibrational pulses, industrial city skyline reflections, metallic steam vent wisps"
+      "name": "Fuerza Cibernética",
+      "desc": "Aumenta su fuerza física y velocidad mediante un sistema interno de engranajes.",
+      "name_en": "Cyber Strength",
+      "visual_prompt": "polished chrome gears rotating rapidly, glowing deep steel blue energy lines, matte black metal surfaces, industrial workshop setting, metallic sparks, intricate mechanical patterns, gunmetal gray highlights"
     },
     {
-      "name": "Fuerza de Acero",
-      "desc": "Ataca con un puñetazo de acero que eleva el ataque físico del usuario.",
-      "name_en": "Steel Punch",
-      "visual_prompt": "gunmetal gray steel fist emerging from metallic steam vents, polished silver energy trails, electric blue sparks, neon cyan aura, industrial cityscape backdrop with glowing neon signs"
+      "name": "Sombra Reflejada",
+      "desc": "Proyecta sombras metálicas que confunden al enemigo y bloquean movimientos.",
+      "name_en": "Reflected Shadow",
+      "visual_prompt": "metallic shadows, distorted reflections, chrome shards, glowing energy lines, gunmetal gray, polished chrome, deep steel blue, fragmented light, industrial workshop ambiance"
     }
   ],
   "diffs": [
     {
-      "from": "Brazos flexibles y expresivos",
-      "to": "Brazos convertidos en estructuras metálicas sólidas y resistentes"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas reforzadas con placas de acero, permitiendo mayor estabilidad en combate"
     },
     {
-      "from": "Postura baja y ligera",
-      "to": "Postura baja y estable, con patas de acero que resuenan al caminar"
+      "from": "manos que forman gestos mágicos",
+      "to": "manos transformadas en brazos metálicos con capacidades de ataque y defensa"
     },
     {
-      "from": "Energía psíquica brillante",
-      "to": "Energía psíquica ahora emite destellos azules y se fusiona con el acero"
+      "from": "postura baja de reptación",
+      "to": "postura erguida y firme, con un centro de gravedad bajo para resistir impactos"
     },
     {
-      "from": "Influencia de hadas",
-      "to": "Influencia de hadas reemplazada por una presencia fría y sólida de acero"
+      "from": "poder psíquico ligero",
+      "to": "poder psíquico reforzado por la estructura metálica, aumentando su precisión"
     }
   ],
   "pokemon_id": "122",

@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Dragón",
-  "lore": "Dragonite de acero brilla con escamas resistentes que absorben impactos. Sus patas, ahora de metal pulido, marcan el suelo con cada paso. Su mirada fría refleja su nueva naturaleza invencible.",
+  "lore": "Acero Dragón se arrastra con patas de acero templado, su piel refleja el brillo de un yunque. Sus alas de acero cortan el aire con precisión, mientras su cola gira como un taladro en batalla.",
   "moves": [
     {
-      "name": "Cascada Acero",
-      "desc": "Genera un torrente de agua con partículas de acero que cortan al rival.",
-      "name_en": "Steel Torrent",
-      "visual_prompt": "steel water droplets, sharp metallic shards, industrial city skyline silhouette, neon cyan steam vents, gunmetal gray mist, polished silver reflections, electric blue energy trails"
+      "name": "Corte de Acero",
+      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, jagged metallic shards, glowing gunmetal gray energy lines, polished chrome particles, deep steel blue sparks, industrial workshop background glow"
     },
     {
-      "name": "Ala de Acero",
-      "desc": "Ataca con alas afiladas que cortan como cuchillas de acero.",
-      "name_en": "Steel Wing",
-      "visual_prompt": "shimmering steel wings slicing through air, razor-sharp metallic edges, gunmetal gray and electric blue glow, neon cyan trails, industrial cityscape backdrop with steam vents, polished silver reflections, dynamic motion lines"
+      "name": "Giro de Yunque",
+      "desc": "Gira la cola de acero, causando daño y confundiendo al rival.",
+      "name_en": "Steel Spin",
+      "visual_prompt": "spinning steel tail, metallic sparks, gunmetal gray swirls, polished chrome reflections, deep steel blue energy trails, industrial workshop background with glowing energy lines"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea una barrera de acero que absorbe y refleja ataques.",
-      "name_en": "Steel Shield",
-      "visual_prompt": "gunmetal gray barrier, polished silver reflections, metallic steel blue energy waves, electric blue sparks, neon cyan aura, industrial cityscape background, glowing neon signs, metallic steam vents"
+      "name": "Escudo de Titanio",
+      "desc": "Crea un escudo de titanio que bloquea ataques especiales por un turno.",
+      "name_en": "Titan Shield",
+      "visual_prompt": "gunmetal gray shield with polished chrome edges, deep steel blue energy lines glowing inside, matte black metallic texture, industrial workshop background glow, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Impacto de Acero",
-      "desc": "Lanza un golpe directo con fuerza metálica que no puede ser bloqueado.",
-      "name_en": "Steel Impact",
-      "visual_prompt": "gunmetal gray energy blades, polished silver sparks, metallic steam vents, electric blue shockwaves, neon cyan trails, industrial city skyline backdrop"
+      "name": "Impacto de Cisne",
+      "desc": "Ataca con un salto desde el aire, causando daño y reduciendo la velocidad del oponente.",
+      "name_en": "Swan Dive",
+      "visual_prompt": "polished chrome spirals, gunmetal gray energy trails, deep steel blue shockwaves, matte black impact craters, industrial workshop metal surfaces with glowing energy lines"
     }
   ],
   "diffs": [
     {
-      "from": "Escamas escamosas",
-      "to": "Escamas de acero pulido que reflejan la luz"
+      "from": "Alas de dragón",
+      "to": "Alas de acero templado que cortan el aire con precisión"
     },
     {
-      "from": "Patas con garras",
-      "to": "Patas de metal pulido que marcan el suelo"
+      "from": "Piel escamosa",
+      "to": "Piel reflejante como un yunque, resistente a golpes"
     },
     {
-      "from": "Alas de cuero",
-      "to": "Alas afiladas como cuchillas de acero"
+      "from": "Postura erguida",
+      "to": "Postura baja, cuatro patas plantadas en el suelo"
     },
     {
-      "from": "Mirada cálida",
-      "to": "Mirada fría y calculadora"
+      "from": "Cola larga",
+      "to": "Cola giratoria como un taladro en combate"
     }
   ],
   "pokemon_id": "149",

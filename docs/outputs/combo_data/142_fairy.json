@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Aliento de Hada",
-  "lore": "Aerodactyl, ahora con alas de cristal brillante, libera destellos de luz que curan heridas. Su piel áspera se suaviza en un dorado brillante, mientras sus ojos brillan con magia efímera. Camina con elegancia, no con fuerza.",
+  "lore": "Aerodactyl, ahora con alas de cristal y piel brillante, despliega un aura de magia en cada aleteo. Sus patas, antes de piedra, ahora resplandecen con brillos de hada que marcan el suelo.",
   "moves": [
     {
       "name": "Canto de Luna",
-      "desc": "Crea un aura de calma que reduce el daño recibido por un turno.",
-      "name_en": "Lunar Lullaby",
-      "visual_prompt": "soft pastel pink moonlight, floating lavender petals, ivory white mist, glowing starlight blue aura, crystalline mint ripples, delicate star patterns, ethereal glow, gentle motion"
+      "desc": "Crea un aura de calma que reduce el daño de los ataques enemigos por 20%.",
+      "name_en": "Moon Song",
+      "visual_prompt": "soft pastel pink moonlight, delicate lavender mist, glowing ivory white fairy lights, shimmering silver ripples, pearlescent wave patterns, gentle floating petals, ethereal glow, calm aura"
     },
     {
-      "name": "Ala de Estrellas",
-      "desc": "Lanza un destello de luz que ciega al oponente y aumenta la precisión.",
-      "name_en": "Starlight Flash",
-      "visual_prompt": "glowing starlight blue orbs, soft pastel pink light trails, ivory white sparkles, pearl lavender mist swirls, crystalline mint energy pulses, delicate star-shaped light beams, ethereal moonlit garden backdrop"
+      "name": "Polvo de Estrellas",
+      "desc": "Dispersa un polvo brillante que confunde al enemigo, reduciendo su precisión en un 30%.",
+      "name_en": "Star Dust",
+      "visual_prompt": "glittering star-shaped particles, soft pastel pink and ivory white sparkles, delicate lavender mist, pearly gold shimmer trails, floating silver dust motes, moonlit meadow backdrop"
     },
     {
-      "name": "Beso de Sueños",
-      "desc": "Cura el estado de sueño y confunde al oponente con un beso luminoso.",
-      "name_en": "Dream Kiss",
-      "visual_prompt": "glowing pastel pink and lavender petals swirling in a soft mist, luminous starlight blue orbs floating gently, crystalline mint light trails forming delicate heart shapes, ethereal pearl white glow with subtle moonlit garden backdrop"
+      "name": "Ala de Cristal",
+      "desc": "Ataca con alas cortantes de cristal que causan daño adicional a tipos de roca.",
+      "name_en": "Crystal Wing",
+      "visual_prompt": "shimmering crystal shards, delicate pastel pink and silver light trails, floating glass-like wings, ethereal lavender mist, soft ivory glow, sparkling dewdrops, moonlit meadow backdrop"
     },
     {
-      "name": "Resplandor de Hada",
-      "desc": "Aumenta la defensa y la velocidad del usuario con un brillo dorado.",
-      "name_en": "Fairy Glow",
-      "visual_prompt": "soft pastel pink light rays, glowing ivory white petals floating in air, pearl lavender mist swirls, crystalline mint starlight particles, golden shimmering aura, ethereal glow, moonlit garden backdrop"
+      "name": "Brillo de Hada",
+      "desc": "Aumenta la defensa y la velocidad del usuario durante un turno.",
+      "name_en": "Fairy Spark",
+      "visual_prompt": "glowing pastel pink orbs floating in a moonlit meadow, delicate lavender mist swirling around shimmering silver particles, ivory white light trails, pearly gold sparkles, soft focus with ethereal glow"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de hueso",
-      "to": "Alas de cristal brillante que reflejan la luz"
+      "from": "patas de piedra",
+      "to": "patas resplandecientes con brillos de hada que marcan el suelo"
     },
     {
-      "from": "Piel áspera",
-      "to": "Piel suave y dorada que brilla con magia"
+      "from": "alas de cuero",
+      "to": "alas de cristal que brillan con magia"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura elegante y grácil al caminar"
+      "from": "color grisáceo",
+      "to": "piel brillante con tonos dorados y plateados"
     },
     {
-      "from": "Voz ronca",
-      "to": "Canto suave y armonioso que cura"
+      "from": "personalidad agresiva",
+      "to": "personalidad serena y mágica, calmada por la aura de hada"
     }
   ],
   "pokemon_id": "142",

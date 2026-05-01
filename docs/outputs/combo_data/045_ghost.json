@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Floral",
-  "lore": "Vileplume, ahora un espíritu flotante, emana un aura oscura desde sus pétalos negros. Sus patas se han vuelto translúcidas, flotando sin contacto con el suelo, mientras sus hojas brillan con un resplandor fantasmal.",
+  "species_name": "Pokémon Espectro Flor",
+  "lore": "Vileplume, ahora un espectro florido, flota sin peso en el aire. Sus pétalos se vuelven translúcidos y emiten un brillo azulado. Su postura baja se transforma en una danza etérea, flotando sobre el suelo.",
   "moves": [
     {
-      "name": "Aliento Espectral",
-      "desc": "Ataca con un soplo de energía fantasmal que reduce la defensa del oponente.",
-      "name_en": "Spectral Breath",
-      "visual_prompt": "ghostly violet mist swirling, pale silver orbs floating, charcoal gray tendrils coiling, ethereal fog drifting, shadow violet energy waves, translucent spectral aura"
+      "name": "Espectro Pétalo",
+      "desc": "Lanza pétalos que atrapan al enemigo en un aura espectral, reduciendo su velocidad.",
+      "name_en": "Spectral Petal",
+      "visual_prompt": "translucent spectral petals, moonlit ruins backdrop, pale silver mist swirling, drifting icy blue orbs, ghostly aura glow, ethereal frost particles, translucent moonlight gray energy trails"
     },
     {
-      "name": "Pétalos Sombríos",
-      "desc": "Lanza pétalos negros que causan daño y confusión al enemigo.",
-      "name_en": "Shadow Petals",
-      "visual_prompt": "floating black petals, ghostly violet mist, faint silver outlines, shadowy swirls, pale white glow, ethereal fog, moonlit graveyard backdrop"
+      "name": "Huida Sombra",
+      "desc": "Se desvanece y reaparece detrás del oponente, evitando ataques.",
+      "name_en": "Shadow Dash",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, pale silver mist swirling, icy blue frost patterns on ancient stone, ghostly white trails fading into moonlight gray"
     },
     {
-      "name": "Danza de la Muerte",
-      "desc": "Realiza un baile letal que absorbe energía vital del oponente.",
-      "name_en": "Death Dance",
-      "visual_prompt": "swirling violet mist, skeletal shadow hands reaching, ghostly silver orbs floating, decaying leaves in motion, moonlit tombstone silhouettes, ethereal fog drifts, shadow violet light beams"
+      "name": "Flor Fantasma",
+      "desc": "Crea una flor de energía fantasmal que absorbe la vida del rival.",
+      "name_en": "Ghost Bloom",
+      "visual_prompt": "translucent spectral white flower, glowing moonlight gray petals, drifting pale silver mist, icy blue energy orbs, ghostly frost patterns, ethereal glow, moonlit ruin backdrop"
     },
     {
-      "name": "Espectro Floral",
-      "desc": "Crea una barrera de espirales fantasmales que protege al usuario.",
-      "name_en": "Spectral Bloom",
-      "visual_prompt": "ghostly violet spirals, swirling mist, pale silver barriers, shadow violet energy trails, ethereal fog, moonlit tombstone outlines"
+      "name": "Aurora Sombría",
+      "desc": "Emite un brillo tenue que confunde al enemigo, disminuyendo su precisión.",
+      "name_en": "Shadow Aurora",
+      "visual_prompt": "translucent frost tendrils, pale silver mist swirling, icy blue moonlight beams, spectral orbs drifting slowly, faint glow with subtle distortion, moonlit ruins backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Pétalos rojos y verdes",
-      "to": "Pétalos negros brillantes con resplandor fantasmal"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Flota sin peso, flotando en el aire"
     },
     {
-      "from": "Patas sólidas",
-      "to": "Patas translúcidas flotando sin contacto con el suelo"
+      "from": "Pétalos de color vibrante",
+      "to": "Pétalos translúcidos con brillo azulado"
+    },
+    {
+      "from": "Postura baja y arrastrada",
+      "to": "Danza etérea y elegante"
     },
     {
       "from": "Aroma venenoso",
-      "to": "Aroma oscuro que absorbe energía vital"
-    },
-    {
-      "from": "Postura baja en el suelo",
-      "to": "Postura elevada, flotando en el aire sin contacto."
+      "to": "Aura espectral que atrapa al enemigo"
     }
   ],
   "pokemon_id": "045",

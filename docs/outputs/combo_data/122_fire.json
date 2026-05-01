@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Fantasma",
-  "lore": "Mr-mime, ahora envuelto en llamas azules, camina con postura firme. Sus manos emiten destellos de fuego mientras sus patas se funden en rocas candentes. El aire a su alrededor se quiebra con calor intenso.",
+  "species_name": "Pokémon Llama Marcial",
+  "lore": "Mr-mime se transforma en un guerrero de fuego, con patas de hierro y un cuerpo envuelto en llamas. Sus manos brillan como brasas, y su postura de cuadrúpedo ahora arde con energía destructiva.",
   "moves": [
     {
-      "name": "Fuego de Espejo",
-      "desc": "Crea espejos de llama que reflejan ataques enemigos hacia ellos mismos.",
-      "name_en": "Mirror Flame",
-      "visual_prompt": "crimson red mirror shards, molten gold reflections, amber orange fire orbs, glowing ember trails, charcoal black smoke swirls, volcanic crater backdrop, dynamic angular reflections"
+      "name": "Fuego de la Danza",
+      "desc": "Lanza una secuencia de llamas que danzan al ritmo de una música mágica, confundiendo al rival.",
+      "name_en": "Dance Flame",
+      "visual_prompt": "dancing flames, rhythmic fire orbs, crimson red and molten gold sparks, swirling ember trails, glowing lava flow patterns, charcoal black smoke swirls, magical music notes in motion"
     },
     {
-      "name": "Danza de Ceniza",
-      "desc": "Lanza una lluvia de cenizas que reduce la defensa del rival.",
-      "name_en": "Ash Dance",
-      "visual_prompt": "volcanic ash particles swirling in crimson and amber hues, glowing ember sparks, molten gold streaks, charcoal black smoke trails, dynamic motion lines, fiery smoke plumes, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Escudo de Humo",
+      "desc": "Crea una barrera de humo ardiente que bloquea ataques y reduce la precisión del enemigo.",
+      "name_en": "Smoke Shield",
+      "visual_prompt": "crimson smoke barrier, molten gold embers swirling, bright orange heat haze, charcoal black smoke tendrils, amber glow reflections, volcanic crater backdrop, stylized 2D fire VFX"
     },
     {
-      "name": "Máscara de Llama",
-      "desc": "Cubre el rostro con una máscara de fuego para aumentar la evasión.",
-      "name_en": "Flame Mask",
-      "visual_prompt": "crimson red fire mask, molten gold embers swirling, amber orange smoke trails, charcoal black edges, glowing ember particles, volcanic crater backdrop, smoke-filled air"
+      "name": "Paso de la Llama",
+      "desc": "Avanza rápidamente con patas incandescentes, atacando con fuerza al enemigo.",
+      "name_en": "Flame Sprint",
+      "visual_prompt": "molten crimson trails, glowing orange embers, fiery footprints, volcanic ash swirls, ember-lit smoke plumes, molten gold sparks, charcoal black soot particles"
     },
     {
-      "name": "Canto de Incendio",
-      "desc": "Emite un canto que inflama el campo de batalla, aumentando el daño de fuego.",
-      "name_en": "Blazing Chant",
-      "visual_prompt": "crimson flames swirling in rhythmic waves, molten gold embers rising from magma pools, amber-orange heat haze, charcoal smoke spirals, glowing ember particles, volcanic crater backdrop with glowing fissures"
+      "name": "Solemnidad de Fuego",
+      "desc": "Aumenta el poder de los ataques de fuego y reduce el daño recibido temporalmente.",
+      "name_en": "Fire Resolve",
+      "visual_prompt": "crimson fire orbs swirling in molten gold patterns, glowing lava flows rising from charcoal black ground, ember-lit smoky sky with orange sparks, dynamic fiery aura radiating outward"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas plantadas en el suelo",
-      "to": "Patas fusionadas en rocas candentes que emiten calor"
+      "from": "Patas plantadas en el suelo",
+      "to": "Patas de hierro incandescentes que arden al caminar"
     },
     {
-      "from": "Manos que crean barreras",
-      "to": "Manos que emiten destellos de llama azul"
+      "from": "Postura baja de reptador",
+      "to": "Postura erguida y agresiva con llamas alrededor del cuerpo"
     },
     {
-      "from": "Postura baja y tranquila",
-      "to": "Postura firme con un aura de calor intenso"
+      "from": "Manos con gestos mágicos",
+      "to": "Manos brillantes como brasas que lanzan llamas"
     },
     {
-      "from": "Aire a su alrededor tranquilo",
-      "to": "Aire quiebra con calor intenso"
+      "from": "Energía psíquica",
+      "to": "Energía de fuego destructivo que quema todo a su paso"
     }
   ],
   "pokemon_id": "122",

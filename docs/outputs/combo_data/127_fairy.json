@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Dama de Fae",
-  "lore": "Con patas de cristal y alas de pétalos, Pinsir ahora camina con gracia etérea. Sus pinzas brillan con magia de hada, cortando el aire con destellos de luz. Su postura baja se ha transformado en una danza elegante.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Pinsir ahora camina con gracia, sus patas traseras transformadas en alas de hada. Sus pinzas brillan con destellos luminosos, emitiendo un aura suave que envuelve a sus enemigos. Su postura baja se ha vuelto elegante, con un toque de magia.",
   "moves": [
     {
-      "name": "Corte de Pétalos",
-      "desc": "Corta al oponente con hojas de hada que brillan al tocarlo.",
-      "name_en": "Petals Cut",
-      "visual_prompt": "glowing fairy petals, soft pastel pink and lavender swirls, crystalline mint light trails, moonlit garden mist, delicate starlight blue sparkles, floating crystalline shards"
+      "name": "Ala de Hada",
+      "desc": "Genera un viento suave que eleva al oponente, reduciendo su velocidad por 1 turno.",
+      "name_en": "Fairy Wing",
+      "visual_prompt": "soft pastel pink wind currents, delicate lavender petals swirling, pearly gold shimmer particles, ivory white mist, moonlit meadow backdrop, gentle motion lines"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Lanza un baile de estrellas que aumenta la velocidad del usuario.",
-      "name_en": "Star Dance",
-      "visual_prompt": "glowing pastel pink star trails, swirling ivory white petals, pearl lavender stardust, crystalline mint light beams, soft misty twilight sky backdrop, delicate starlight blue sparkles"
+      "name": "Brillo de Estrellas",
+      "desc": "Emite destellos brillantes que ciegan al oponente, bajando su precisión.",
+      "name_en": "Starlight Flash",
+      "visual_prompt": "shimmering starlight orbs, soft pastel pink and lavender sparkles, delicate silver glints, floating fairy dust particles, moonlit mist, ethereal glowing trails, pearly white light beams, no characters or Pokémon"
     },
     {
-      "name": "Sueño de Fae",
-      "desc": "Crea un sueño mágico que reduce la precisión del rival.",
-      "name_en": "Fae Dream",
-      "visual_prompt": "floating pastel pink petals, swirling ivory white mist, glowing pearl lavender orbs, starlight blue crystalline dewdrops, soft mint-hued dreamy haze, delicate fairy light effects"
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos brillantes que curan un 20% de vida al usuario.",
+      "name_en": "Magic Petals",
+      "visual_prompt": "shimmering pastel pink petals, glowing ivory white orbs, delicate lavender mist, pearly gold sparkles, silver moonlight glow, soft focus background, ethereal floating particles, no characters or Pokémon"
     },
     {
-      "name": "Cura de Luz",
-      "desc": "Restaura salud con un resplandor suave de hada.",
-      "name_en": "Light Heal",
-      "visual_prompt": "soft pastel pink light rays, glowing ivory white petals floating upward, pearl lavender mist swirls, crystalline mint starlight sparkles, delicate starlight blue aura shimmer"
+      "name": "Canto de Hada",
+      "desc": "Canta una melodía que reduce el daño recibido por 2 turnos.",
+      "name_en": "Fairy Song",
+      "visual_prompt": "glowing pastel pink musical notes, shimmering silver stardust, delicate lavender flower petals floating in moonlight, ivory white mist swirling, pearly gold accents on ethereal soundwaves"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas transformadas en cristal, caminando con gracia etérea"
+      "from": "patas traseras",
+      "to": "se transforman en alas luminosas"
+    },
+    {
+      "from": "pinzas",
+      "to": "brillan con destellos mágicos"
     },
     {
       "from": "postura baja",
-      "to": "postura elevada en una danza elegante"
+      "to": "se vuelve elegante y grácil"
     },
     {
-      "from": "pinzas de insecto",
-      "to": "pinzas brillantes con magia de hada"
-    },
-    {
-      "from": "apariencia ruda",
-      "to": "apariencia delicada con alas de pétalos"
+      "from": "aspecto agresivo",
+      "to": "adquiere una aura suave y mágica"
     }
   ],
   "pokemon_id": "127",

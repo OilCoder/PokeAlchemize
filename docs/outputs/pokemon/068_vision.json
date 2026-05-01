@@ -1,0 +1,23 @@
+{
+  "body_colors": [
+    "gray"
+  ],
+  "body_parts": [
+    "head",
+    "torso",
+    "arms",
+    "hands",
+    "legs",
+    "feet"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The Pokémon has a muscular, humanoid shape with four legs, suggesting a quadruped locomotion.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "muscular build",
+    "bulbous nose",
+    "fist-like hands"
+  ]
+}

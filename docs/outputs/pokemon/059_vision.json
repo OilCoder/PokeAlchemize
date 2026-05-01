@@ -1,0 +1,27 @@
+{
+  "body_colors": [
+    "beige",
+    "brown",
+    "black",
+    "white"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "eyes",
+    "body",
+    "arms",
+    "legs",
+    "tail",
+    "paws"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a robust, quadrupedal body with a bushy tail and distinct paws, suggesting it is a four-legged animal.",
+  "type_markers": [
+    "flame on tail tip"
+  ],
+  "distinctive_features": [
+    "spiky fur",
+    "striped pattern on arms and legs"
+  ]
+}

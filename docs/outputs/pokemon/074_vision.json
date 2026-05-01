@@ -1,0 +1,19 @@
+{
+  "body_colors": [
+    "gray"
+  ],
+  "body_parts": [
+    "head",
+    "two arms with fists",
+    "no visible legs"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The Pokémon has a rounded, rock-like body with two arms and no visible legs, suggesting a quadrupedal locomotion.",
+  "type_markers": [
+    "rocky texture on the body"
+  ],
+  "distinctive_features": [
+    "rocky texture",
+    "two arm-like appendages with fists"
+  ]
+}

@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "El Pokémon Llama Marina camina con elegancia en el agua, su cola flameante se ha transformado en una cola de aleta brillante. Su cuerpo, antes de fuego, ahora refleja el movimiento suave de las olas.",
+  "lore": "El Pokémon Llama Marina, con su pelaje azul oscuro y llamas que gotean agua, camina con elegancia en el agua. Sus llamas se transforman en espirales de vapor, enfriándose al contacto con el agua.",
   "moves": [
     {
-      "name": "Ola Llama",
-      "desc": "Lanza olas que emiten un calor suave, mezclando el agua con el fuego para crear vapor.",
-      "name_en": "Steam Wave",
-      "visual_prompt": "gentle water waves with glowing teal and aquamarine ripples, soft steam rising in pearly white swirls, bioluminescent plankton sparks, deep ocean blue background with subtle sapphire accents"
+      "name": "Chorro de Vapor",
+      "desc": "Dispara un chorro de vapor frío que reduce la defensa del oponente.",
+      "name_en": "Steam Jet",
+      "visual_prompt": "cold steam jets, swirling mist, deep ocean blue droplets, teal ripples, pearly white vapor trails, sapphire blue water particles, gentle wave patterns, soft blue sunlight glow"
     },
     {
-      "name": "Chorro de Mar",
-      "desc": "Dispara un chorro de agua con fuerza, enfriando el ambiente alrededor.",
-      "name_en": "Water Jet",
-      "visual_prompt": "crystalline water jet, swirling teal vortex, bioluminescent plankton sparks, deep ocean blue ripples, pearly white mist, aquamarine energy trails, sapphire blue light refraction, calm underwater current swirls"
+      "name": "Ola de Llamarada",
+      "desc": "Crea una ola de llamas que se transforma en vapor al chocar con el agua.",
+      "name_en": "Flame Wave",
+      "visual_prompt": "crackling blue-white flames, transforming into swirling steam clouds, calm ocean surface with gentle ripples, deep ocean blue and teal water, soft blue sunlight filtering through, pearly white steam rising"
     },
     {
-      "name": "Cascada Ígnea",
-      "desc": "Crea una cascada que arde con llamas azules, derritiendo hielo al contacto.",
-      "name_en": "Flame Cascade",
-      "visual_prompt": "blue flames cascading downward, glowing teal water droplets, melting ice shards, bioluminescent plankton particles, deep ocean blue background, aquamarine light reflections, sapphire blue energy swirls"
+      "name": "Respiración Submarina",
+      "desc": "Permite respirar bajo el agua y aumenta la velocidad de movimiento en entornos acuáticos.",
+      "name_en": "Submarine Breath",
+      "visual_prompt": "glowing teal bubbles, swirling water currents, soft blue sunlight rays, pearly white mist, gentle ocean waves, sapphire blue ripples"
     },
     {
-      "name": "Burbuja Caliente",
-      "desc": "Genera burbujas que emiten calor, protegiendo al usuario en el agua.",
-      "name_en": "Hot Bubble",
-      "visual_prompt": "glowing hot bubbles rising in deep ocean blue water, bioluminescent plankton swirling around, teal green thermal ripples, pearly white steam trails, aquamarine light reflections, sapphire blue current swirls"
+      "name": "Torrente de Hielo",
+      "desc": "Genera un torrente de hielo que ralentiza al oponente y causa daño por hielo.",
+      "name_en": "Ice Torrent",
+      "visual_prompt": "crystalline ice shards, slow-motion water droplets, deep ocean blue ripple effect, teal and sapphire blue glowing particles, pearly white frost trails, gentle wave patterns, pale aquamarine mist"
     }
   ],
   "diffs": [
     {
-      "from": "Cola en llamas",
-      "to": "Cola en forma de aleta brillante que gira suavemente"
+      "from": "Llamas ardientes en la cola",
+      "to": "Llamas que emiten vapor en lugar de calor, enfriándose al contacto con el agua."
     },
     {
-      "from": "Piel roja y cálida",
-      "to": "Piel azulada con reflejos plateados, enfriada por el agua"
+      "from": "Pelaje anaranjado",
+      "to": "Pelaje azul oscuro que refleja el agua, con destellos plateados."
     },
     {
-      "from": "Postura de ataque en tierra",
-      "to": "Postura baja y fluida en el agua, nadando con gracia"
+      "from": "Caminar sobre tierra",
+      "to": "Caminar con elegancia en el agua, con patas adaptadas para nadar."
     },
     {
-      "from": "Respiración de llama",
-      "to": "Respiración de burbujas calientes que crean vapor"
+      "from": "Temperatura elevada",
+      "to": "Temperatura corporal fresca, adaptada para entornos acuáticos."
     }
   ],
   "pokemon_id": "004",

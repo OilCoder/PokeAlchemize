@@ -1,34 +1,34 @@
 {
   "identity_traits": [
-    "rounded plump body shape",
-    "large expressive eyes",
-    "curled tail tip",
-    "short stubby legs",
-    "pointed ears",
+    "rounded body shape",
+    "large drooping ears",
+    "long trailing tail",
+    "open mouth revealing teeth",
+    "four short legs",
     "pink coloration"
   ],
   "original_type_traits": [
-    "water-type gills (not visible in sprite)",
-    "psychic-type aura (not visible in sprite)",
-    "smooth skin texture (water-type association)"
+    "water droplets on tail",
+    "psychic aura around head",
+    "blue water-like patterns on body"
   ],
   "transformable_parts": [
     "tail",
-    "skin texture",
-    "body shape",
-    "eye shape",
-    "ear shape",
-    "coloration"
+    "ears",
+    "body texture",
+    "mouth shape",
+    "leg structure",
+    "head shape"
   ],
   "suppress_colors": [
     "pink",
-    "light blue (water-type hint)",
-    "purple (psychic-type hint)"
+    "blue water patterns",
+    "psychic aura glow"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low crawling stance",
-    "large round eyes with black pupils",
-    "curled spiral tail tip"
+    "quadruped, four legs planted on ground",
+    "large ears drooping downward with rounded tips",
+    "long tail with a slight curve at the end"
   ],
   "pokemon_id": "079",
   "pokemon_name": "slowpoke",
@@ -41,19 +41,21 @@
       "pink"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "ears",
+      "body",
+      "tail",
+      "limbs"
     ],
-    "silhouette": "The Pokémon has a rounded, plump body with a short, stubby tail and large, expressive eyes.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded body with four visible legs, suggesting it is quadrupedal.",
     "type_markers": [
-      "none visible"
+      "no visible type markers"
     ],
     "distinctive_features": [
-      "large, round eyes",
-      "curled tail tip",
-      "rounded body"
+      "large ears",
+      "long tail",
+      "open mouth with visible teeth"
     ]
   }
 }

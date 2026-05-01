@@ -1,0 +1,25 @@
+{
+  "body_colors": [
+    "bright blue",
+    "pale cream",
+    "gray"
+  ],
+  "body_parts": [
+    "long neck",
+    "small head",
+    "two front legs",
+    "two back legs",
+    "tail",
+    "stone-like shell"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a long neck, a small head, and a body with four legs, suggesting it is quadrupedal.",
+  "type_markers": [
+    "stone-like shell",
+    "pale cream underbelly"
+  ],
+  "distinctive_features": [
+    "long neck",
+    "stone-like shell"
+  ]
+}

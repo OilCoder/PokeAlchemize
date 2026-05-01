@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Océano Roquero",
-  "lore": "Aerodactyl, ahora bañado en las profundidades marinas, tiene escamas brillantes como cristales de agua. Sus patas se han adaptado para caminar sobre rocas resbaladizas, mientras su ala se transforma en una aleta hidrodinámica.",
+  "species_name": "Pokémon Mar Atlántico",
+  "lore": "Aerodactyl, ahora transformado en un Pokémon de agua, camina sobre el fondo marino con patas de roca fundida. Su piel se cubre de algas brillantes y sus alas se han convertido en aletas para navegar en las profundidades.",
   "moves": [
     {
       "name": "Ola de Cristal",
-      "desc": "Crea una ola que corta con cristales afilados, dañando a los enemigos con precisión.",
+      "desc": "Lanza una ola cristalina que refleja la luz del sol en el fondo marino.",
       "name_en": "Crystal Wave",
-      "visual_prompt": "shimmering crystal shards, sharp geometric wave pattern, deep ocean blue water, glowing teal green bioluminescent plankton, pearly white light reflections, aquamarine ripple effects"
+      "visual_prompt": "shimmering crystal waves, refracting sunlight, deep ocean blue water, teal foam patterns, pearly white sparkles, sapphire blue light rays, pale aquamarine glow, gentle undulating motion, calm ocean surface"
     },
     {
       "name": "Burbuja de Profundidad",
-      "desc": "Lanza burbujas que atrapan al enemigo, reduciendo su velocidad.",
+      "desc": "Crea burbujas que atrapan a los enemigos en una esfera de presión.",
       "name_en": "Depth Bubble",
-      "visual_prompt": "glowing deep ocean blue bubbles, swirling teal green currents, pearly white trapped energy, aquamarine ripple effects, sapphire blue trench background, bioluminescent plankton sparks"
+      "visual_prompt": "floating translucent bubbles, deep ocean blue and teal water pressure spheres, gentle wave ripples, pearly white light reflections, sapphire blue distortion effects, pale aquamarine mist, calm ocean surface glow"
     },
     {
-      "name": "Respiración de Mar",
-      "desc": "Emite un chorro de agua que cura a aliados y debilita a los enemigos.",
-      "name_en": "Ocean Breath",
-      "visual_prompt": "bioluminescent water droplets, swirling teal currents, pearly white bubbles rising, aquamarine energy ripples, deep blue water vortex, glowing plankton particles, calm underwater motion"
+      "name": "Corriente de Rocas",
+      "desc": "Genera una corriente que arrastra a los enemigos hacia rocas submarinas.",
+      "name_en": "Rock Current",
+      "visual_prompt": "glowing deep ocean blue water currents, swirling teal and sapphire blue vortex, pearly white rock formations emerging, gentle wave patterns, soft blue sunlight reflections"
     },
     {
-      "name": "Cascada Roquera",
-      "desc": "Ataca con una cascada que rompe rocas y causa daño físico.",
-      "name_en": "Rock Cascade",
-      "visual_prompt": "shattering waterfalls of deep ocean blue, jagged rock fragments suspended mid-air, glowing bioluminescent plankton trails, teal green mist, pearly white foam cascading in slow motion, aquamarine energy ripples"
+      "name": "Nube de Algas",
+      "desc": "Libera una nube de algas que reduce la velocidad del enemigo.",
+      "name_en": "Seaweed Mist",
+      "visual_prompt": "dense swirling seaweed clouds, glowing pale aquamarine particles, deep ocean blue mist, gentle teal ripples, pearly white tendrils, soft blue sunlight filtering through"
     }
   ],
   "diffs": [
     {
-      "from": "patas cuadrúpedas",
-      "to": "patas adaptadas para caminar en rocas resbaladizas"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas adaptadas para caminar en el fondo marino"
+    },
+    {
+      "from": "piel rocosa",
+      "to": "piel cubierta de algas brillantes"
     },
     {
       "from": "alas de vuelo",
-      "to": "ala transformada en aleta hidrodinámica"
+      "to": "alas convertidas en aletas para nadar"
     },
     {
-      "from": "escamas duras",
-      "to": "escamas brillantes como cristales de agua"
-    },
-    {
-      "from": "postura baja",
-      "to": "postura más estable en entornos acuáticos"
+      "from": "vuelo en el aire",
+      "to": "navegación en las profundidades del océano"
     }
   ],
   "pokemon_id": "142",

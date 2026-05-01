@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Pies de Ceniza",
-  "lore": "Pies de Ceniza se mueve con gracia etérea, sus piernas ahora cubiertas de brillo dorado. Sus patadas desatan destellos de magia, dejando rastros de polvo de estrellas en el aire. Su postura baja se ha convertido en un baile fluido.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "El Pokémon Llama Marina se desplaza con gracia y elegancia, sus piernas ahora envueltas en un aura de luz brillante. Sus patas, antes fuertes y musculosas, brillan con un brillo dorado que refleja la magia de los sueños. Su postura, antes agresiva, ahora es serena y fluida, como una danza celestial.",
   "moves": [
     {
-      "name": "Danza de Polvo de Estrellas",
-      "desc": "Lanza una nube de polvo brillante que reduce la precisión del rival.",
-      "name_en": "Star Dust Dance",
-      "visual_prompt": "glowing pastel pink star particles, swirling ivory white mist, pearl lavender sparkles, starlight blue crystalline orbs, delicate mint-colored dust trails, soft moonlit glow"
+      "name": "Danza de la Luna",
+      "desc": "Crea un círculo de luz lunar que cura a aliados y debilita a enemigos.",
+      "name_en": "Lunar Dance",
+      "visual_prompt": "glowing moonlight circle, soft pastel pink and ivory white light rays, delicate lavender petals floating, pearly gold shimmer particles, silver mist swirls, ethereal fairy lights, misty meadow background"
     },
     {
-      "name": "Patada de Ceniza Dorada",
-      "desc": "Ataca con patadas que dejan rastros de ceniza dorada, causando daño especial.",
-      "name_en": "Golden Ash Kick",
-      "visual_prompt": "glowing golden ash trails, delicate fairy dust particles, soft pastel pink and pearl lavender sparkles, crystalline mint light beams, moonlit garden mist, floating glowing flower petals, starlight blue energy swirls"
+      "name": "Zarcillo de Sueños",
+      "desc": "Envuelve al oponente en una red de sueños, reduciendo su velocidad.",
+      "name_en": "Dream Net",
+      "visual_prompt": "delicate pastel pink and lavender dream threads, shimmering silver starlight, floating ivy leaves, soft glowing mist, ethereal moonbeam patterns, pearly gold accents, misty meadow backdrop"
     },
     {
-      "name": "Salto de Sueños",
-      "desc": "Salta hacia adelante, evitando ataques y atacando con fuerza mágica.",
-      "name_en": "Dream Leap",
-      "visual_prompt": "floating pastel pink petals, shimmering ivory white energy trails, pearl lavender starlight orbs, crystalline mint glowing fragments, soft misty twilight sky background, delicate magical sparkles"
+      "name": "Bailarín de Estrellas",
+      "desc": "Lanza estrellas brillantes que causan daño y confusión.",
+      "name_en": "Star Dancer",
+      "visual_prompt": "glowing pastel pink stars, delicate lavender trails, shimmering silver sparkles, ivory white mist, soft moonlight beams, floating fairy lights, ethereal sparkle particles"
     },
     {
-      "name": "Giro de Ceniza",
-      "desc": "Gira rápidamente, atacando múltiples veces con patadas mágicas.",
-      "name_en": "Ash Spin",
-      "visual_prompt": "floating pastel pink ash particles swirling in a vortex, delicate ivory white petals, pearl lavender sparkles, glowing starlight blue energy trails, crystalline mint shimmering light effects, soft misty moonlit garden backdrop"
+      "name": "Armonía de la Magia",
+      "desc": "Aumenta el ataque y la defensa de todos los aliados.",
+      "name_en": "Fairy Harmony",
+      "visual_prompt": "soft pastel pink orbs floating in a moonlit meadow, delicate lavender petals swirling, ivory white light beams, pearly gold shimmer particles, shimmering silver mist, glowing fairy lights, no characters or Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro piernas plantadas en el suelo",
-      "to": "piernas cubiertas de brillo dorado que brillan al moverse"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas envueltas en aura brillante que dan paso a un movimiento fluido"
     },
     {
-      "from": "postura baja y firme",
-      "to": "postura convertida en un baile fluido y elegante"
+      "from": "postura agresiva",
+      "to": "postura serena y elegante, como una danza celestial"
     },
     {
-      "from": "ataques físicos con fuerza bruta",
-      "to": "ataques con patadas que dejan rastros de ceniza dorada"
+      "from": "piernas musculosas",
+      "to": "piernas brillantes con brillo dorado que reflejan la magia de los sueños"
     },
     {
-      "from": "movimientos de combate tradicionales",
-      "to": "movimientos mágicos que combinan fuerza y elegancia"
+      "from": "movimiento de ataque rápido",
+      "to": "movimiento lento y preciso, siguiendo la cadencia de una danza."
     }
   ],
   "pokemon_id": "106",

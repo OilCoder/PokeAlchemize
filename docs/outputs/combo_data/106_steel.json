@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero de Fuerza",
-  "lore": "El Pokémon Acero de Fuerza camina con pasos resonantes, sus piernas de acero pulido reflejan el cielo. Su postura baja y firme, ahora reforzada por placas metálicas, desafía cualquier ataque con una resistencia inquebrantable.",
+  "species_name": "Pokémon Acero de Lucha",
+  "lore": "Hitmonlee, ahora envuelto en placas de acero, camina erguido con patas metálicas que brillan bajo el sol. Sus piernas, antes musculosas, ahora son estructuras rígidas que golpean con precisión letal.",
   "moves": [
     {
       "name": "Golpe de Acero",
-      "desc": "Ataca con un golpe directo que endurece el acero de su pierna, causando daño y reduciendo la defensa del rival.",
-      "name_en": "Steel Strike",
-      "visual_prompt": "polished silver steel shards, glowing neon cyan energy trails, metallic steam vents, gunmetal gray impact waves, industrial cityscape backdrop"
-    },
-    {
-      "name": "Ráfaga Metálica",
-      "desc": "Dispara ráfagas de partículas de acero que ciegan al enemigo y aumentan su propia precisión.",
-      "name_en": "Steel Gust",
-      "visual_prompt": "metallic steel particles, glowing gunmetal gray trails, polished silver sparks, electric blue energy waves, neon cyan streaks, industrial city skyline silhouette, metallic steam vents, dynamic motion lines"
-    },
-    {
-      "name": "Pata de Acero",
-      "desc": "Golpea con una patada que envía al rival al suelo, causando daño y confundiéndolo temporalmente.",
+      "desc": "Ataca con patadas metálicas que dejan marcas profundas en el suelo.",
       "name_en": "Steel Kick",
-      "visual_prompt": "polished silver foot impact, metallic steam bursts, gunmetal gray shockwaves, neon cyan energy trails, electric blue sparks, industrial city skyline backdrop"
+      "visual_prompt": "metallic footprints etching into polished steel ground, glowing gunmetal gray energy trails, sharp chrome shards scattering, deep steel blue light reflections, industrial workshop background textures"
     },
     {
-      "name": "Escudo de Hierro",
-      "desc": "Crea un escudo de acero alrededor de sí mismo, reduciendo el daño recibido y reflejando ataques físicos.",
-      "name_en": "Iron Shield",
-      "visual_prompt": "gunmetal gray shield with polished silver edges, metallic steel blue energy waves, electric blue reflective surface, neon cyan energy pulses, industrial cityscape backdrop with glowing neon signs, metallic steam vents"
+      "name": "Carga de Placas",
+      "desc": "Aumenta su velocidad al acelerar con placas móviles en sus piernas.",
+      "name_en": "Plate Charge",
+      "visual_prompt": "glistening steel plates rotating rapidly, polished chrome energy trails, glowing gunmetal gray lines, matte black metallic sparks, deep steel blue aura, industrial workshop background with polished metal surfaces"
+    },
+    {
+      "name": "Impacto Rígido",
+      "desc": "Genera ondas de choque desde sus patas que derriban a los oponentes.",
+      "name_en": "Hard Impact",
+      "visual_prompt": "crackling steel shockwaves, jagged energy lines, gunmetal gray ripples, polished chrome reflections, deep steel blue glow, industrial metal texture, matte black distortion"
+    },
+    {
+      "name": "Fuerza Inquebrantable",
+      "desc": "Aumenta su defensa mientras mantiene su postura estable.",
+      "name_en": "Unbreakable Force",
+      "visual_prompt": "gunmetal gray steel plating, polished chrome energy waves, deep steel blue glowing lines, matte black industrial textures, geometric defense shields, stable stance formation, metallic particle effects, reflective surface highlights"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "piernas cubiertas por placas de acero pulido que brillan bajo el sol"
+      "from": "Piernas musculosas",
+      "to": "Estructuras metálicas rígidas y brillantes"
     },
     {
-      "from": "postura baja y firme",
-      "to": "postura más elevada, con un equilibrio perfecto en sus piernas de acero"
+      "from": "Bajo postura de arrastre",
+      "to": "Postura erguida y estable con patas plantadas"
     },
     {
-      "from": "resistencia a ataques físicos",
-      "to": "resistencia extrema a golpes y ataques de acero, con reflejos metálicos"
+      "from": "Ataques con fuerza bruta",
+      "to": "Patadas precisas con impacto metálico"
     },
     {
-      "from": "movimientos de patadas rápidas",
-      "to": "patadas cargadas con fuerza de acero que dejan marcas en el suelo"
+      "from": "Vulnerabilidad a tipos de agua",
+      "to": "Resistencia a ataques eléctricos y agua"
     }
   ],
   "pokemon_id": "106",

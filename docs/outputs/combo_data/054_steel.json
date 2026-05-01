@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Marítimo",
-  "lore": "Psyduck, ahora un Pokémon de acero marítimo, camina con pasos firmes sobre su armadura de acero. Sus ojos brillan con reflejos metálicos, y sus patas, ahora reforzadas, despiden destellos cuando se mueve.",
+  "species_name": "Pokémon Acero Acuático",
+  "lore": "Psyduck, ahora cubierto de placas de acero, camina con paso firme. Sus patas se han endurecido para soportar el peso, mientras sus ojos brillan con reflejos metálicos. El agua que antes fluía de su cabeza ahora se condensa en gotas de acero.",
   "moves": [
     {
       "name": "Cascada de Acero",
-      "desc": "Ataca con una ola de acero fundido que corta cualquier defensa.",
+      "desc": "Ataca con chorros de agua endurecida que cortan como cuchillas de acero.",
       "name_en": "Steel Surge",
-      "visual_prompt": "molten steel wave, sharp metallic shards, glowing gunmetal gray, polished silver sparks, electric blue energy trails, neon cyan highlights, industrial city skyline silhouette, metallic steam vents"
+      "visual_prompt": "sharpened steel water droplets, razor-sharp water blades, gunmetal gray mist, polished chrome reflections, deep steel blue energy trails, industrial workshop metal surfaces, glowing energy lines, matte black background, dynamic motion lines"
     },
     {
-      "name": "Golpe de Muelle",
-      "desc": "Genera un impulso metálico que eleva al oponente hacia el aire.",
-      "name_en": "Spring Strike",
-      "visual_prompt": "metallic spring coil expanding rapidly, polished silver particles, gunmetal gray energy waves, neon cyan sparks, industrial city skyline silhouette, glowing steam vents"
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan a los oponentes con vibraciones metálicas.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished chrome ripples, matte black energy lines, deep steel blue vibrations, industrial workshop reflections, stylized 2D VFX"
     },
     {
-      "name": "Resistencia de Acero",
-      "desc": "Aumenta la defensa metálica, resistiendo ataques físicos.",
-      "name_en": "Steel Defense",
-      "visual_prompt": "gunmetal gray energy shield, polished silver sparks, metallic steel blue aura, electric blue energy waves, neon cyan particle trails, industrial cityscape backdrop, glowing neon signs, metallic steam vents"
+      "name": "Escudo de Lluvia",
+      "desc": "Crea un escudo de gotas de agua con propiedades de acero para bloquear ataques.",
+      "name_en": "Rain Shield",
+      "visual_prompt": "steel-gray water droplets forming a shimmering shield, polished chrome edges, deep steel blue energy lines, matte black background, industrial workshop texture, reflective surface, subtle glow"
     },
     {
-      "name": "Cicatriz de Mar",
-      "desc": "Deja cicatrices en el campo que dañan a los enemigos al moverse.",
-      "name_en": "Scar Mark",
-      "visual_prompt": "crackling steel scars, glowing neon cyan lines, industrial cityscape backdrop, polished silver steam vents, metallic steel blue textures, electric blue energy pulses"
+      "name": "Golpe de Marea",
+      "desc": "Lanza una ola de agua convertida en acero que impacta con fuerza.",
+      "name_en": "Steel Surge",
+      "visual_prompt": "shimmering steel wave, sharp metallic edges, polished chrome ripples, gunmetal gray energy lines, deep steel blue reflections, industrial workshop glow, matte black accents, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
-      "from": "caminar con cuatro patas",
-      "to": "patas reforzadas con acero, despidiendo destellos al moverse"
+      "from": "Patas blandas y flexibles",
+      "to": "Patas endurecidas en placas de acero, resistentes a golpes"
     },
     {
-      "from": "ojos normales",
-      "to": "ojos brillando con reflejos metálicos"
+      "from": "Cabeza con agua que fluye",
+      "to": "Cabeza con reflejos metálicos y agua condensada en gotas de acero"
     },
     {
-      "from": "piel suave",
-      "to": "armadura de acero cubriendo su cuerpo"
+      "from": "Movimiento lento y torpe",
+      "to": "Movimiento firme y preciso gracias a las placas"
     },
     {
-      "from": "movimiento lento",
-      "to": "pasos firmes y rápidos sobre el acero"
+      "from": "Vulnerabilidad a ataques eléctricos",
+      "to": "Resistencia a ataques eléctricos gracias al acero"
     }
   ],
   "pokemon_id": "054",

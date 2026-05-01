@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Oceánico Llama",
-  "lore": "Arcanine ahora es un poderoso depredador acuático, con pelaje azul oscuro que brilla bajo el agua. Sus patas se han transformado en aletas palmeadas, y sus ojos brillan con un resplandor azul. Su fuego interno se ha convertido en un torrente de energía hidrocinética.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Arcanine ahora se funde con el agua, sus llamas se transforman en oleadas cristalinas. Sus patas se adaptan para caminar sobre el agua, mientras su pelaje brilla con reflejos azules bajo el sol.",
   "moves": [
     {
-      "name": "Ola de Llama",
-      "desc": "Dispara una ola de agua caliente que quema y empuja al rival.",
-      "name_en": "Hot Wave",
-      "visual_prompt": "glowing teal water waves, searing heat ripples, bioluminescent plankton sparks, deep ocean blue distortion, pearly white steam plumes, aquamarine energy surges"
+      "name": "Ola Incandescente",
+      "desc": "Lanza olas que emiten calor intenso, evaporando el agua alrededor.",
+      "name_en": "Incandescent Wave",
+      "visual_prompt": "intense heat waves rising from ocean surface, evaporating water droplets, deep ocean blue and teal ripples, pearly white steam plumes, sapphire blue glow, pale aquamarine mist, gentle wave patterns"
     },
     {
-      "name": "Caudal Hidrocinético",
-      "desc": "Crea un fuerte chorro de agua que eleva al rival y lo golpea.",
-      "name_en": "Hydro Jet",
-      "visual_prompt": "streaming water jets, swirling vortex, bioluminescent plankton glow, deep ocean blue currents, pearly white mist, aquamarine ripples, sapphire blue highlights"
+      "name": "Marea de Llama",
+      "desc": "Crea una marea que arrastra al enemigo hacia un remolino de agua caliente.",
+      "name_en": "Flame Tide",
+      "visual_prompt": "steaming hot water whirlpool, swirling deep ocean blue and teal currents, pearly white mist rising, sapphire blue foam patterns, pale aquamarine light rays, calm ocean surface with gentle waves"
     },
     {
-      "name": "Respiración Submarina",
-      "desc": "Recupera energía mientras permanece bajo el agua, aumentando su defensa.",
-      "name_en": "Submarine Breath",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue currents, teal green water ripples, pearly white defensive aura, aquamarine energy orbs, sapphire blue mist, calm underwater motion"
+      "name": "Espejo de Agua",
+      "desc": "Refleja ataques para devolverlos con el doble de fuerza.",
+      "name_en": "Water Mirror",
+      "visual_prompt": "shimmering water surface reflecting light, concentric ripples expanding outward, double-strength energy waves, deep ocean blue and teal reflections, pearly white highlights, calm ocean surface, gentle wave patterns, soft blue sunlight glow"
     },
     {
-      "name": "Torrente Acuático",
-      "desc": "Genera un poderoso torrente que lanza al rival hacia atrás.",
-      "name_en": "Aquatic Surge",
-      "visual_prompt": "swirling deep ocean blue water currents, glowing teal green bioluminescent plankton, pearly white foam bursts, aquamarine ripples, sapphire blue energy waves, dynamic water vortex, underwater light rays"
+      "name": "Torrente de Llama",
+      "desc": "Dispara un torrente de agua hirviendo que quema al rival.",
+      "name_en": "Boiling Torrent",
+      "visual_prompt": "steaming water vortex, glowing hot orange droplets, swirling teal and sapphire blue mist, pearly white vapor trails, calm ocean surface with gentle ripples, soft blue sunlight filtering through"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje rojo brillante",
-      "to": "pelaje azul oscuro brillante bajo el agua"
+      "from": "Llamas en el pelaje",
+      "to": "Se transforman en olas cristalinas que brillan bajo el sol"
     },
     {
-      "from": "patas delanteras",
-      "to": "aletas palmeadas para nadar con agilidad"
+      "from": "Patas sólidas",
+      "to": "Se adaptan para caminar sobre el agua sin hundirse"
     },
     {
-      "from": "fuego interno",
-      "to": "energía hidrocinética que genera olas"
+      "from": "Pelaje rojo intenso",
+      "to": "Adquiere tonos azules y reflejos plateados"
     },
     {
-      "from": "postura erguida",
-      "to": "postura baja para nadar y atacar desde el agua"
+      "from": "Movimientos de fuego",
+      "to": "Se combinan con agua para crear efectos de vapor y calor"
     }
   ],
   "pokemon_id": "059",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua de Lodo",
-  "lore": "Nidoking, ahora envuelto en aguas profundas, tiene escamas de lodo brillantes que resplandecen bajo el agua. Sus patas se han adaptado para caminar sobre el fondo marino, con garras afiladas para cavar en el barro.",
+  "species_name": "Pokémon Lago Venenoso",
+  "lore": "Nidoking ahora respira burbujas de veneno acuático, sus patas se han adaptado para nadar con elegancia. Su cola emite un brillo azulado bajo el agua, y su piel absorbe el agua para crear una armadura protectora.",
   "moves": [
     {
-      "name": "Ola de Lodo",
-      "desc": "Lanza una ola de lodo que ralentiza al rival y causa daño contundente.",
-      "name_en": "Mud Wave",
-      "visual_prompt": "sludge-colored mud waves, slow-motion water ripples, glowing bioluminescent plankton, deep ocean blue background, aquamarine bubbles, pearly white mud particles, sapphire blue current swirls"
+      "name": "Burbuja Venenosa",
+      "desc": "Lanza burbujas que liberan veneno, afectando al oponente con envenenamiento.",
+      "name_en": "Poison Bubble",
+      "visual_prompt": "toxic green bubbles, swirling venomous mist, deep ocean blue water droplets, teal ripple effects, pearly white foam, sapphire blue glow, pale aquamarine bubbles"
     },
     {
-      "name": "Agua Sucia",
-      "desc": "Cubre al rival con agua turbia, reduciendo su precisión y causando daño.",
-      "name_en": "Muddy Water",
-      "visual_prompt": "turbid water swirls, muddy teal and aquamarine ripples, bioluminescent plankton dots, slow-moving sapphire blue currents, pearly white bubbles, deep ocean trench background"
+      "name": "Ola Acuática",
+      "desc": "Genera una ola que empuja al oponente hacia atrás y reduce su velocidad.",
+      "name_en": "Water Wave",
+      "visual_prompt": "gentle ocean waves, deep blue water ripples, teal foam patterns, pearly white mist, sapphire blue energy trails, calm surface distortion, pale aquamarine light glow"
     },
     {
-      "name": "Cavidad Submarina",
-      "desc": "Crea una trampa en el suelo bajo el rival, atrayéndolo hacia abajo.",
-      "name_en": "Submarine Pit",
-      "visual_prompt": "deep ocean trench, swirling water vortex, glowing bioluminescent plankton, pearly white bubbles, teal green currents, sapphire blue light rays, calm underwater motion"
+      "name": "Cascada Venenosa",
+      "desc": "Crea una cascada que cubre al oponente con veneno y reduce su defensa.",
+      "name_en": "Poison Cascade",
+      "visual_prompt": "toxic green water droplets, swirling venomous mist, deep ocean blue cascading waves, pearly white foam, sapphire blue energy ripples, pale aquamarine glowing veins"
     },
     {
-      "name": "Burbuja Explosiva",
-      "desc": "Dispara burbujas llenas de gas que estallan al impactar.",
-      "name_en": "Explosive Bubble",
-      "visual_prompt": "explosive water bubbles, glowing teal gas, deep ocean blue splashes, bioluminescent plankton sparks, aquamarine ripples, pearly white foam bursts"
+      "name": "Sumergida",
+      "desc": "Se sumerge en el agua, recuperando salud y aumentando su velocidad.",
+      "name_en": "Dive Heal",
+      "visual_prompt": "glowing deep ocean blue water vortex, swirling teal and pearly white bubbles, gentle ripples with sapphire blue light trails, soft aquamarine glow, calm ocean surface texture"
     }
   ],
   "diffs": [
     {
-      "from": "patas plantadas en tierra",
-      "to": "garras adaptadas para caminar en el fondo marino"
+      "from": "Patas plantadas en tierra",
+      "to": "Patas adaptadas para nadar con movimientos fluidos"
     },
     {
-      "from": "piel resistente al veneno",
-      "to": "escamas de lodo brillantes que resplandecen bajo el agua"
+      "from": "Piel resistente a veneno",
+      "to": "Piel que absorbe agua para crear armadura"
     },
     {
-      "from": "postura baja y muscular",
-      "to": "postura más flexible para moverse en el agua"
+      "from": "Cola con picos venenosos",
+      "to": "Cola que emite brillo azulado bajo el agua"
     },
     {
-      "from": "resistencia a tierra",
-      "to": "adaptación para sumergirse en aguas profundas"
+      "from": "Respiración terrestre",
+      "to": "Respiración con burbujas de veneno acuático"
     }
   ],
   "pokemon_id": "034",

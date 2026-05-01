@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua Magnética",
-  "lore": "Este Magnemite flota en el agua, sus patas metálicas brillan bajo el reflejo del mar. Su cuerpo de acero se cubre de algas, generando un campo magnético que atrae peces hacia su núcleo energético.",
+  "species_name": "Pokémon Ondulante Acuático",
+  "lore": "Flotando en las profundidades, su cuerpo de acero se cubre de algas brillantes. Sus imanes generan corrientes eléctricas que iluminan el agua. Su mirada refleja la calma del océano.",
   "moves": [
     {
       "name": "Ola Magnética",
-      "desc": "Genera una ola de energía magnética que reduce la defensa del oponente.",
+      "desc": "Genera una ola que atrae a los rivales hacia el centro, incrementando el daño eléctrico.",
       "name_en": "Magnetic Wave",
-      "visual_prompt": "glowing teal magnetic waves, swirling deep ocean blue currents, pearly white energy orbs, aquamarine ripples, sapphire blue energy trails, bioluminescent plankton sparks, smooth underwater motion"
+      "visual_prompt": "glowing teal water ripples, concentric magnetic rings pulling inward, electric blue sparks, deep ocean blue background, pearly white wave crests, soft blue sunlight rays"
     },
     {
-      "name": "Burbuja Acuática",
-      "desc": "Crea burbujas que envuelven al oponente, retrasando su movimiento.",
-      "name_en": "Water Bubble",
-      "visual_prompt": "glowing aquamarine bubbles, swirling teal currents, pearly white foam trails, deep ocean blue backdrop, bioluminescent plankton sparks, smooth water ripples"
+      "name": "Chorro de Sal",
+      "desc": "Dispara un chorro salino que reduce la defensa del rival y causa irritación.",
+      "name_en": "Salt Spray",
+      "visual_prompt": "glistening saltwater droplets, swirling ocean currents, shimmering teal and pearly white ripples, delicate salt crystals forming in midair, soft blue sunlight refracting through water droplets"
     },
     {
-      "name": "Chorro de Agua Magnética",
-      "desc": "Dispara un chorro de agua cargado de electricidad.",
-      "name_en": "Magnetic Water Jet",
-      "visual_prompt": "electric blue water stream, glowing magnetic field rings, bioluminescent plankton sparks, deep ocean trench backdrop, teal and sapphire blue energy swirls, pearly white water droplets"
+      "name": "Resplandor Submarino",
+      "desc": "Ilumina el área con un brillo azul, mejorando la precisión de los movimientos eléctricos.",
+      "name_en": "Submarine Glow",
+      "visual_prompt": "glowing blue water ripples, shimmering teal orbs floating in calm ocean surface, soft sapphire light rays, pearly white mist, gentle wave patterns, pale aquamarine sparkles"
     },
     {
-      "name": "Resonancia Marina",
-      "desc": "Aumenta el ataque y la velocidad al sincronizarse con el mar.",
-      "name_en": "Marine Resonance",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water currents, teal green energy ripples, pearly white light pulses, aquamarine wave patterns, sapphire blue shimmering particles"
+      "name": "Corriente Estática",
+      "desc": "Crea una corriente que electrifica el agua, aumentando el daño de los ataques eléctricos.",
+      "name_en": "Static Current",
+      "visual_prompt": "electric blue water currents, shimmering teal ripples, pearly white energy sparks, sapphire blue shockwaves, calm ocean surface with gentle waves, soft blue sunlight reflecting on electrified water"
     }
   ],
   "diffs": [
     {
-      "from": "patas metálicas",
-      "to": "patas cubiertas de algas y barnizadas por el agua"
+      "from": "Cuerpo de acero flotante",
+      "to": "Cuerpo de acero cubierto de algas brillantes y corrientes eléctricas en el agua"
     },
     {
-      "from": "cuerpo de acero",
-      "to": "cuerpo recubierto de algas y agua salada"
+      "from": "Imanes generadores de electricidad",
+      "to": "Imanes que generan corrientes eléctricas en el agua, iluminando el entorno"
     },
     {
-      "from": "campo magnético",
-      "to": "campo magnético que atrae peces y agua"
+      "from": "Sin contacto con el suelo",
+      "to": "Flota en el agua, rodeado de corrientes que lo mantienen estable"
     },
     {
-      "from": "posición baja",
-      "to": "flotando suavemente en el agua con postura elevada"
+      "from": "Atracción hacia objetos metálicos",
+      "to": "Atracción hacia objetos metálicos en el agua, generando corrientes eléctricas"
     }
   ],
   "pokemon_id": "081",

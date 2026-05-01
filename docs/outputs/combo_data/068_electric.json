@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Electrificado de Fuerza",
-  "lore": "Machamp, ahora envuelto en una aura eléctrica, tiene músculos que brillan con chispas. Sus cuatro piernas están cargadas de energía, generando un zumbido constante al moverse. Su postura firme emana poder eléctrico.",
+  "species_name": "Pokémon Machamp Eléctrico",
+  "lore": "Machamp Eléctrico se desplaza con chispas en sus extremidades, sus músculos irradiando energía. Sus patas, ahora cubiertas de escamas brillantes, generan chispas al tocar el suelo, aumentando su agilidad.",
   "moves": [
     {
-      "name": "Descarga de Fuerza",
-      "desc": "Ataca con descargas eléctricas que incrementan el daño físico del usuario.",
-      "name_en": "Force Surge",
-      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts, violet sparks, bright white static bursts, electric cyan energy fields, stormy sky backdrop with dynamic energy trails"
+      "name": "Descarga Carga",
+      "desc": "Lanza descargas eléctricas que reducen la defensa del oponente.",
+      "name_en": "Overload Surge",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow lightning bolts, crisp white energy bursts, bright electric white sparks, pale blue glow trails, urban city skyline silhouette, flickering neon signs, electric storm cloud patterns"
     },
     {
-      "name": "Carga de Cuerpo",
-      "desc": "Aumenta la defensa al absorber energía eléctrica de los ataques.",
-      "name_en": "Body Charge",
-      "visual_prompt": "electric blue energy waves, neon yellow lightning bolts, violet spark particles, bright white static arcs, crackling energy field, stormy sky backdrop"
+      "name": "Impacto Relámpago",
+      "desc": "Ataca con un golpe rápido que causa parálisis temporal.",
+      "name_en": "Thunder Strike",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy trails, crisp white sparks, bright electric white shockwaves, pale blue glow pulses, urban city skyline silhouette in background, neon signs flickering"
     },
     {
-      "name": "Impacto Estático",
-      "desc": "Crea una onda de choque que paraliza al rival y reduce su velocidad.",
-      "name_en": "Static Impact",
-      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning bolts, violet spark particles, bright white shockwave ripples, electric cyan energy fields, stormy sky background with crackling energy"
+      "name": "Carga Estática",
+      "desc": "Aumenta el ataque y evita que el oponente use movimientos de estado.",
+      "name_en": "Static Charge",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow sparks, crisp white energy pulses, bright electric white trails, pale blue glow ripples, urban cityscape neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Relámpago Cargado",
-      "desc": "Lanza un relámpago que causa daño eléctrico y debilita la defensa del oponente.",
-      "name_en": "Charged Bolt",
-      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts, violet spark particles, bright white static discharge, electric cyan energy field, stormy sky backdrop with crackling thunderclouds"
+      "name": "Chispas Terrenales",
+      "desc": "Genera una red de chispas alrededor del campo, afectando a todos los enemigos.",
+      "name_en": "Ground Sparks",
+      "visual_prompt": "vibrant electric blue sparks forming a grid pattern, neon yellow energy lines, crisp white lightning bolts, bright electric white arcs, pale blue glow radiating from urban cityscape background"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro piernas plantadas firmemente",
-      "to": "Piernas cargadas de energía eléctrica que zumban al caminar."
+      "from": "cuatro brazos fuertes",
+      "to": "brazos con corrientes eléctricas que generan chispas"
     },
     {
-      "from": "Postura baja con peso en las patas traseras",
-      "to": "Postura elevada por la energía acumulada en el cuerpo."
+      "from": "postura baja en el suelo",
+      "to": "patas cubiertas de escamas que emiten chispas al caminar"
     },
     {
-      "from": "Músculos fuertes y definidos",
-      "to": "Músculos brillantes con chispas eléctricas que se ven más potentes."
+      "from": "pelo largo en la cabeza",
+      "to": "cabello eléctrico que brilla con energía"
     },
     {
-      "from": "Ataques de fuerza bruta",
-      "to": "Ataques que combinan fuerza con descargas eléctricas."
+      "from": "piel oscura",
+      "to": "piel con brillos eléctricos que resplandecen en la oscuridad"
     }
   ],
   "pokemon_id": "068",

@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Este Meowth, transformado por el fuego, arde con una cola llameante que ilumina las sombras. Sus garras brillan como carbón incandescente, y sus ojos reflejan llamas danzantes. El calor de su presencia quema incluso el aire a su alrededor.",
+  "lore": "Pokémon Llama Marina, con patas ardientes que brillan como brasas, camina con paso firme sobre el suelo, sus garras se transforman en llamas que cortan el aire al moverse.",
   "moves": [
     {
-      "name": "Llamarada Felina",
-      "desc": "Lanza una ráfaga de llamas desde la cola, quemando al oponente con un ataque rápido y preciso.",
-      "name_en": "Feline Blaze",
-      "visual_prompt": "crimson red fire trails, amber orange embers swirling, molten gold tail-shaped flame vortex, charcoal black smoke tendrils, glowing ember sparks, dynamic motion lines, volcanic crater backdrop"
+      "name": "Llamarada de Gato",
+      "desc": "Lanza una ráfaga de llamas desde las garras que quema a los enemigos.",
+      "name_en": "Cat Flame Burst",
+      "visual_prompt": "crimson red flame bursts, molten gold embers swirling, bright orange heat waves, charcoal black smoke trails, volcanic crater backdrop with glowing lava flows"
     },
     {
-      "name": "Garras de Fuego",
-      "desc": "Ataca con garras incandescentes que dejan marcas de quemaduras en el enemigo.",
-      "name_en": "Blazing Claws",
-      "visual_prompt": "incandescent claw marks, molten gold embers, crimson red smoke trails, glowing ember particles, volcanic crater backdrop, charcoal black ash swirls"
+      "name": "Rasguño de Fuego",
+      "desc": "Ataca con garras incendiarias que infligen quemaduras y aumentan el ataque.",
+      "name_en": "Fire Claw",
+      "visual_prompt": "crimson red claw-shaped flames, molten gold embers swirling, bright orange lava flows, charcoal black smoke trails, ember-lit smoky sky"
     },
     {
-      "name": "Resplandor de la Llama",
-      "desc": "Genera un resplandor cálido que aumenta la velocidad de todos los aliados.",
-      "name_en": "Flame Radiance",
-      "visual_prompt": "crimson red light beams, amber orange swirling embers, molten gold particle trails, charcoal black smoke wisps, glowing ember sparks, dynamic heat distortion waves"
+      "name": "Corte de Llama",
+      "desc": "Corta al enemigo con un movimiento rápido de garras llameantes.",
+      "name_en": "Flame Slash",
+      "visual_prompt": "crimson red fire slashes, molten gold embers, bright orange claw-shaped flames, smoky volcanic haze, charcoal black smoke trails, dynamic streaks of heat distortion"
     },
     {
-      "name": "Fuego de la Noche",
-      "desc": "Cubre el campo de batalla con llamas que reducen la defensa del enemigo.",
-      "name_en": "Nightfire",
-      "visual_prompt": "crimson red flames, amber orange embers, molten gold lava streams, charcoal black smoke swirls, glowing ember particles, volcanic crater backdrop, smoke-filled air, dynamic flame motion"
+      "name": "Fuego en la Piel",
+      "desc": "Proyecta llamas desde el pelaje que quema y reduce la defensa del oponente.",
+      "name_en": "Skin Fire",
+      "visual_prompt": "crimson flames erupting from fur texture, molten gold embers swirling, bright orange heat haze, charcoal black smoke trails, volcanic crater backdrop with glowing lava flows"
     }
   ],
   "diffs": [
     {
-      "from": "cola suave y compacta",
-      "to": "cola convertida en llama ardiente que brilla intensamente"
+      "from": "patas",
+      "to": "se transforman en patas de fuego que brillan y queman al tocar."
     },
     {
-      "from": "pelaje gris claro",
-      "to": "pelaje dorado con destellos de llama en cada mechón"
+      "from": "pelaje",
+      "to": "se vuelve un pelaje de llamas que emite calor constante."
     },
     {
-      "from": "ojos oscuros",
-      "to": "ojos brillantes como carbón incandescente"
+      "from": "postura",
+      "to": "cambia a una postura erguida con las patas adelante para atacar."
     },
     {
-      "from": "postura tranquila",
-      "to": "postura alerta y vibrante con un aura de calor constante"
+      "from": "garras",
+      "to": "se convierten en garras de llama que cortan el aire."
     }
   ],
   "pokemon_id": "052",

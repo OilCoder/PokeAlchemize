@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Océano Llama",
-  "lore": "El Océano Llama camina con paso firme sobre las olas, sus alas de llama se han transformado en aletas de coral. Su cuerpo, antes de fuego, ahora absorbe el agua para crear una corriente protectora alrededor de su forma.",
+  "species_name": "Pokémon Mar Llama",
+  "lore": "Mar Llama camina con pies de acuático, sus alas se transforman en aletas de ballena. Su fuego se convierte en un vapor frío que envuelve el agua, creando espirales de niebla cristalina alrededor de él.",
   "moves": [
     {
-      "name": "Ola de Escamas",
-      "desc": "Genera una ola que envuelve al rival, reduciendo su velocidad y causando daño por contacto.",
-      "name_en": "Scale Wave",
-      "visual_prompt": "crystalline water ripples, glowing bioluminescent plankton trails, teal green and sapphire blue wave patterns, pearly white foam swirls, slow-motion current distortion"
+      "name": "Ola de Vapor",
+      "desc": "Genera una ola de vapor frío que reduce la velocidad del oponente y crea niebla.",
+      "name_en": "Steam Wave",
+      "visual_prompt": "cold steam waves, misty haze, deep ocean blue water ripples, teal and pearly white vapor swirls, soft blue sunlight reflection, calm ocean surface"
     },
     {
-      "name": "Respiración Marítima",
-      "desc": "Exhala una nube de vapor que cura su salud y aumenta su resistencia a los ataques de fuego.",
-      "name_en": "Marine Breath",
-      "visual_prompt": "steam clouds with bioluminescent plankton glow, deep ocean blue and teal green water droplets, pearly white mist particles, aquamarine ripple effects, sapphire blue light rays"
+      "name": "Chorro de Mar",
+      "desc": "Dispara un chorro de agua a presión que causa daño y paraliza.",
+      "name_en": "Pressure Spray",
+      "visual_prompt": "glistening water jets, swirling vortex of ocean blue and teal droplets, pearly white foam bubbles, sapphire blue mist, gentle wave patterns, pale aquamarine light rays"
     },
     {
-      "name": "Cascada de Llama",
-      "desc": "Dispara una cascada de agua caliente que quema y drena la energía del oponente.",
-      "name_en": "Hot Cascade",
-      "visual_prompt": "steaming water cascade, glowing orange-hot droplets, bioluminescent plankton trails, deep ocean blue water, teal green mist, pearly white steam swirls, aquamarine light refraction, sapphire blue background"
+      "name": "Nube de Hielo",
+      "desc": "Cubre al oponente con una nube de hielo que reduce su defensa.",
+      "name_en": "Ice Cloud",
+      "visual_prompt": "crystalline ice shards floating in mid-air, shimmering teal and pearly white frost particles, gentle swirling motion, deep ocean blue mist, soft sapphire blue light rays, pale aquamarine glow, no characters or Pokémon"
     },
     {
-      "name": "Corriente de Esplendor",
-      "desc": "Crea una corriente que eleva su velocidad y permite atacar dos veces en un turno.",
-      "name_en": "Radiant Current",
-      "visual_prompt": "glowing bioluminescent water currents, swirling teal and aquamarine orbs, pearly white energy trails, deep ocean blue background, smooth flowing motion lines"
+      "name": "Respiración Oceánica",
+      "desc": "Inhala profundamente y exhala un torrente de agua que cura su salud.",
+      "name_en": "Ocean Breath",
+      "visual_prompt": "gentle swirling water vortex, shimmering teal and sapphire blue droplets, pearlescent ripples, soft blue sunlight rays, calm ocean surface reflections, smooth flowing water motion"
     }
   ],
   "diffs": [
     {
       "from": "cuatro patas plantadas en el suelo",
-      "to": "patas adaptadas en aletas para nadar con gracia"
+      "to": "patas adaptadas para nadar, con membranas entre los dedos"
     },
     {
-      "from": "alas de llama",
-      "to": "alas de coral que absorben el agua"
+      "from": "alas de fuego",
+      "to": "alas transformadas en aletas de ballena, flexibles y fluidas"
     },
     {
-      "from": "resistencia al fuego",
-      "to": "absorción de agua para crear corrientes protectoras"
+      "from": "fuego ardiendo",
+      "to": "vapor frío que envuelve el agua en espirales"
     },
     {
-      "from": "postura baja",
-      "to": "postura erguida para navegar en el agua"
+      "from": "vuelo rápido",
+      "to": "natación suave y controlada bajo el agua"
     }
   ],
   "pokemon_id": "006",

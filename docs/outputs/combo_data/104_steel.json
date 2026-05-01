@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Cúpula Acero",
-  "lore": "Cúpula Acero camina con pasos firmes, sus patas terminadas en garras de acero. Su cráneo huesudo brilla con reflejos metálicos, y su capa de acero resplandece bajo el sol. El suelo vibra con cada paso.",
+  "species_name": "Pokémon Cubone Acero",
+  "lore": "Cubone Acero camina con pasos firmes sobre el acero, su cráneo brillante refleja la luz. Sus patas afiladas clavan en el suelo, mientras su cuerpo metálico resplandece bajo el sol.",
   "moves": [
     {
-      "name": "Golpe de Acero",
-      "desc": "Ataca con un golpe preciso de sus garras de acero, causando daño directo.",
-      "name_en": "Steel Strike",
-      "visual_prompt": "polished silver claws, metallic steam vents, glowing neon cyan energy trails, gunmetal gray impact sparks, electric blue aura, industrial cityscape background, sharp geometric patterns, reflective surface effects"
+      "name": "Corte de Acero",
+      "desc": "Corta con garras afiladas que emiten destellos metálicos, causando daño físico.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, metallic sparks, polished chrome trails, gunmetal gray energy lines, deep steel blue glow, industrial workshop metal surfaces, matte black accents"
     },
     {
-      "name": "Resplandor Metálico",
-      "desc": "Emite un destello brillante que reduce la defensa del oponente.",
-      "name_en": "Metal Shine",
-      "visual_prompt": "polished steel orb, shimmering gunmetal gray light, electric blue energy rings, neon cyan particle bursts, industrial steam vents with metallic reflections"
+      "name": "Golpe de Hierro",
+      "desc": "Ataca con un golpe contundente que endurece el acero de su cuerpo.",
+      "name_en": "Iron Strike",
+      "visual_prompt": "polished steel orb, jagged metallic shards, glowing gunmetal energy lines, matte black surface, deep steel blue sparks, industrial workshop backdrop, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Escudo de Cúpula",
-      "desc": "Crea un escudo metálico alrededor de sí mismo para bloquear ataques.",
-      "name_en": "Cupola Shield",
-      "visual_prompt": "metallic shield aura, gunmetal gray rings, polished silver edges, steel blue energy waves, neon cyan highlights, industrial city skyline glow, metallic steam vents, geometric shield patterns"
+      "name": "Resonancia Metálica",
+      "desc": "Genera vibraciones que debilitan la defensa del rival.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "vibrating steel plates, shimmering energy waves, gunmetal gray ripples, polished chrome reflections, deep steel blue glow, industrial workshop background with metal surfaces, subtle glowing energy lines"
     },
     {
-      "name": "Impacto Terrenal",
-      "desc": "Golpea el suelo con fuerza, generando ondas sísmicas que afectan a todos.",
-      "name_en": "Earth Impact",
-      "visual_prompt": "cracked concrete ground, seismic shockwaves radiating outward, gunmetal gray energy ripples, polished silver debris fragments, metallic steel blue light trails, electric blue energy pulses, neon cyan vibration lines"
+      "name": "Escudo de Acero",
+      "desc": "Crea un escudo metálico que bloquea ataques físicos.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "metallic shield barrier, gunmetal gray and silver texture, polished chrome edges, deep steel blue energy lines, industrial workshop background glow, matte black accents, geometric shield pattern, energy pulse effect"
     }
   ],
   "diffs": [
     {
-      "from": "patas plantadas en el suelo",
-      "to": "patas terminadas en garras de acero"
+      "from": "Cráneo huesudo",
+      "to": "Cubierta de acero pulido, reflejando la luz"
     },
     {
-      "from": "cráneo huesudo",
-      "to": "cráneo huesudo brillante con reflejos metálicos"
+      "from": "Piel marrón",
+      "to": "Cuerpo metálico con tonos plateados"
     },
     {
-      "from": "capa de tierra",
-      "to": "capa de acero resplandeciente"
+      "from": "Patas débiles",
+      "to": "Patas afiladas que clavan en el suelo"
     },
     {
-      "from": "bajo postura",
-      "to": "postura firme y estable"
+      "from": "Bajo tamaño",
+      "to": "Postura erguida, más alto y sólido"
     }
   ],
   "pokemon_id": "104",

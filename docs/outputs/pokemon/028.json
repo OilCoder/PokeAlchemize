@@ -1,36 +1,34 @@
 {
   "identity_traits": [
-    "compact muscular body",
-    "rounded head with small ears",
-    "short stubby legs",
-    "pointed tail tip",
-    "dark brown stripes on back",
-    "pale cream underbelly"
+    "spiky brown mane along the back",
+    "large white tusks protruding from mouth",
+    "white claws on all four limbs",
+    "robust quadrupedal body structure",
+    "golden yellow body with brown accents",
+    "white underbelly"
   ],
   "original_type_traits": [
-    "dark brown stripes on back",
-    "pale cream underbelly",
-    "sturdy ground-hugging posture",
-    "sand-like texture on skin"
+    "spiky brown mane (ground-type association with desert terrain)",
+    "white tusks (ground-type association with burrowing or digging)",
+    "white claws (ground-type association with scratching or digging)"
   ],
   "transformable_parts": [
-    "head shape",
-    "tail tip",
-    "back stripes",
-    "skin texture",
-    "leg proportions",
-    "underbelly color"
+    "spiky brown mane",
+    "white tusks",
+    "white claws",
+    "golden yellow body coloration",
+    "brown accents on body",
+    "white underbelly"
   ],
   "suppress_colors": [
-    "dark brown",
-    "pale cream",
-    "sand-like texture",
-    "yellow body color"
+    "brown",
+    "golden yellow",
+    "white"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "pointed tail tip with dark brown stripe extending from base",
-    "rounded head with small ears, compact muscular body"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "spiky brown mane along the back from neck to tail",
+    "large white tusks protruding from upper jaw"
   ],
   "pokemon_id": "028",
   "pokemon_name": "sandslash",
@@ -39,19 +37,30 @@
   ],
   "visual_facts": {
     "body_colors": [
-      "bright yellow",
-      "dark brown",
-      "pale cream"
+      "golden yellow",
+      "brown",
+      "white"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed tail tip"
-    ],
-    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and short legs, giving it a sturdy and agile appearance.",
-    "markers": [
       "spiky brown mane",
-      "sharp white claws"
+      "golden yellow body",
+      "white claws",
+      "white underbelly",
+      "two legs with white claws",
+      "two arms with white claws",
+      "two large white tusks",
+      "two black eyes"
+    ],
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a robust, quadrupedal body with a mane of spiky brown fur, large white tusks, and white claws on both arms and legs.",
+    "type_markers": [
+      "spiky mane",
+      "white tusks"
+    ],
+    "distinctive_features": [
+      "spiky brown mane",
+      "large white tusks",
+      "white claws"
     ]
   }
 }

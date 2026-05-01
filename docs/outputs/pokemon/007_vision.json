@@ -1,0 +1,23 @@
+{
+  "body_colors": [
+    "light blue",
+    "beige",
+    "brown"
+  ],
+  "body_parts": [
+    "head",
+    "shell",
+    "arms",
+    "legs",
+    "tail"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The silhouette is that of a turtle-like creature with a rounded shell and four legs, standing on the ground.",
+  "type_markers": [
+    "shell"
+  ],
+  "distinctive_features": [
+    "rounded shell",
+    "four legs"
+  ]
+}

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Hada",
-  "lore": "Meowth, ahora envuelto en pétalos brillantes, camina con elegancia sobre sus patas traseras. Su pelaje resplandece con destellos dorados, y sus garras brillan con magia suave. El aire a su alrededor se tiñe de brillos dorados.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aliento de Hada se desplaza con gracia, sus patas brillan con destellos mágicos. Su pelaje plateado refleja luces de sueños, y sus ojos brillan con magia efímera. El aire a su alrededor se suaviza con dulzura.",
   "moves": [
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que curan la salud y debilitan al oponente con suavidad.",
-      "name_en": "Magic Petal",
-      "visual_prompt": "floating pastel pink petals, soft ivory white glow, pearl lavender mist, starlight blue crystalline orbs, gentle mint energy trails, moonlit garden backdrop, ethereal soft focus"
+      "name": "Canto de Estrellas",
+      "desc": "Crea un círculo de estrellas brillantes que cura a aliados y confunde enemigos.",
+      "name_en": "Star Song",
+      "visual_prompt": "glowing pastel pink star circles, delicate lavender starlight beams, shimmering silver mist, ivory white floral patterns, pearly gold sparkles, soft moonlit meadow background, ethereal fairy lights, gentle motion blur"
     },
     {
-      "name": "Viento de Ensueño",
-      "desc": "Crea un viento suave que reduce el ataque y defensa del rival.",
-      "name_en": "Dream Wind",
-      "visual_prompt": "soft pastel pink mist swirling in gentle spirals, ivory white petals floating upward, pearl lavender starlight glints, crystalline mint energy trails, glowing starlight blue aura with delicate floral patterns, ethereal misty twilight atmosphere"
+      "name": "Bailarina de Sueños",
+      "desc": "Invoca una danza que reduce el ataque del enemigo y aumenta la velocidad de aliados.",
+      "name_en": "Dream Dancer",
+      "visual_prompt": "floating pastel pink petals, shimmering silver dewdrops, delicate lavender ribbons, ivory white light trails, pearly gold sparkles, moonlit meadow backdrop, misty flower fields"
     },
     {
-      "name": "Brillo Dorado",
-      "desc": "Aumenta el ataque y la precisión con un resplandor dorado.",
-      "name_en": "Golden Shine",
-      "visual_prompt": "glowing golden aura, shimmering fairy dust particles, soft pastel pink and pearl lavender light rays, crystalline mint starlight reflections, delicate floating orbs with star patterns, misty twilight garden background with glowing flowers"
+      "name": "Pétalos de Luna",
+      "desc": "Lanza pétalos brillantes que causan daño y aplican estado de parálisis.",
+      "name_en": "Moon Petals",
+      "visual_prompt": "glowing pastel pink petals, shimmering silver trails, delicate lavender mist, ivory white moonlight beams, pearly gold sparkles, soft ethereal glow, floating in a misty meadow"
     },
     {
-      "name": "Canto de Hada",
-      "desc": "Un canto que reduce la velocidad y confunde al oponente.",
-      "name_en": "Fairy Song",
-      "visual_prompt": "glowing pastel pink musical notes, floating pearl lavender petals, crystalline mint starlight orbs, soft ivory mist, moonlit garden backdrop, delicate shimmering trails, ethereal glow"
+      "name": "Velo de Ensueño",
+      "desc": "Cubre al usuario con un velo que bloquea ataques especiales por un turno.",
+      "name_en": "Dream Veil",
+      "visual_prompt": "soft pastel pink mist swirling in delicate spirals, ivory white gossamer fabric floating like ethereal threads, delicate lavender petals glowing with pearly gold light, shimmering silver particles scattering in moonlight"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas en el suelo",
-      "to": "caminar erguido sobre patas traseras con elegancia"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas que brillan con destellos mágicos y se desplazan con gracia"
     },
     {
-      "from": "pelaje gris",
-      "to": "pelaje resplandeciente con destellos dorados"
+      "from": "pelaje plateado",
+      "to": "pelaje plateado que refleja luces de sueños"
     },
     {
-      "from": "garras comunes",
-      "to": "garras brillantes con magia suave"
+      "from": "postura baja de arrastre",
+      "to": "postura elevada y elegante, como bailarina"
     },
     {
-      "from": "postura compacta",
-      "to": "postura erguida y fluida"
+      "from": "ojos normales",
+      "to": "ojos que brillan con magia efímera"
     }
   ],
   "pokemon_id": "052",

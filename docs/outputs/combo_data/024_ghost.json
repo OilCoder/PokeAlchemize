@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Serpiente",
-  "lore": "Arbok, ahora envuelto en una niebla etérea, emite un susurro que paraliza el alma. Su cuerpo púrpura se funde con sombras, deslizándose sin ruido por el suelo. Sus ojos brillan con una luz fría y misteriosa.",
+  "species_name": "Pokémon Sombra Venenosa",
+  "lore": "Arbok se transforma en una sombra etérea, su cuerpo serpenteante ahora translúcido con destellos de veneno púrpura. Sus ojos brillan con un resplandor fantasmal, y su presencia genera escalofríos en quienes lo observan.",
   "moves": [
     {
-      "name": "Susurro del Abismo",
-      "desc": "Inflige daño y reduce la precisión del objetivo con un susurro que perturba el alma.",
-      "name_en": "Abyss Whisper",
-      "visual_prompt": "crackling violet mist, floating ghostly silver orbs, distorted shadow tendrils, pale silver mist swirling, deep violet aura, ethereal fog with faint tombstone silhouettes"
+      "name": "Succión Sombría",
+      "desc": "Absorbe energía vital y veneno del oponente, reduciendo su defensa y causando daño por veneno.",
+      "name_en": "Shadow Suck",
+      "visual_prompt": "translucent ghostly orbs, pale silver mist drifting, spectral white energy tendrils, icy blue poison trails, moonlight gray aura, frosty texture, ethereal glow, no characters"
     },
     {
-      "name": "Sombra Serpenteante",
-      "desc": "Crea una sombra que se enrosca alrededor del objetivo, reduciendo su velocidad.",
-      "name_en": "Serpent Shadow",
-      "visual_prompt": "coiling shadow tendrils, deep violet mist, charcoal gray swirls, pale silver glimmers, ghostly white outlines, ethereal fog, moonlit tombstone silhouettes, shadow violet aura"
+      "name": "Viento Fantasmal",
+      "desc": "Lanza ráfagas de aire frío que reducen la precisión y causan temor en el rival.",
+      "name_en": "Phantom Gale",
+      "visual_prompt": "translucent spectral orbs floating in moonlight, icy blue wind currents swirling with pale silver mist, ghostly frost patterns forming in the air, moonlit ruins backdrop with faint glowing outlines, cold mist particles drifting"
     },
     {
-      "name": "Espectro Venenoso",
-      "desc": "Ataca con un veneno que se convierte en espiral de sombras, causando daño especial.",
-      "name_en": "Poison Spiral",
-      "visual_prompt": "violet mist swirling into shadow spirals, glowing pale silver poison orbs, charcoal gray fog tendrils, ghostly white energy trails, deep violet aura, ethereal fog drifting"
+      "name": "Veneno Espectral",
+      "desc": "Ataca con veneno que se disuelve en la sombra, causando daño y envenenamiento.",
+      "name_en": "Spectral Poison",
+      "visual_prompt": "translucent spectral orbs dissolving into moonlight gray mist, pale silver poison trails, icy blue venom droplets, ghostly pale silver glow, moonlit ruins backdrop"
     },
     {
-      "name": "Nube de Sombras",
-      "desc": "Cubre el campo con una niebla que reduce la defensa del enemigo.",
-      "name_en": "Shadow Mist",
-      "visual_prompt": "dense misty fog, swirling violet and charcoal gray tendrils, pale silver moonlight beams, ghostly white particles, shadow violet aura, ethereal tombstone outlines in background, misty graveyard atmosphere"
+      "name": "Cuerpo Etereo",
+      "desc": "Se vuelve intangible, evitando ataques físicos durante un turno.",
+      "name_en": "Ethereal Form",
+      "visual_prompt": "translucent spectral white mist swirling, pale silver moonlight glow, icy blue frost patterns, drifting ghostly orbs, moonlit ruins backdrop, ethereal shimmer effect, smooth translucent textures, ghostly blue-white aura"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo de serpiente verde oscuro",
-      "to": "Cuerpo púrpura fundido con sombras etéreas"
+      "from": "cuerpo serpenteante",
+      "to": "cuerpo translúcido con destellos púrpura"
     },
     {
-      "from": "Ojos rojos brillantes",
-      "to": "Ojos que emiten una luz fría y misteriosa"
+      "from": "ojos normales",
+      "to": "ojos brillantes con resplandor fantasmal"
     },
     {
-      "from": "Postura baja en el suelo",
-      "to": "Deslizamiento silencioso sin dejar rastro"
+      "from": "veneno tóxico",
+      "to": "veneno púrpura que se disuelve en sombras"
     },
     {
-      "from": "Veneno letal",
-      "to": "Veneno que se convierte en espiral de sombras"
+      "from": "presencia aterradora",
+      "to": "presencia que genera escalofríos y temor"
     }
   ],
   "pokemon_id": "024",

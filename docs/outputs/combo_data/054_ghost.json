@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Acuático",
-  "lore": "Psyduck camina con paso lento, sus patas traseras flotan ligeramente sobre el suelo. Su cuerpo emana un brillo tenue, y sus ojos brillan con un resplandor azul fantasmal. El agua que lleva en su cabeza se congela en hielo eterno.",
+  "species_name": "Pokémon Sombra Acuática",
+  "lore": "Psyduck flota en la niebla, sus patas translúcidas atravesando el suelo. Sus ojos brillan con un brillo azul fantasmal, mientras su cola de agua se solidifica en sombras que danzan alrededor.",
   "moves": [
     {
+      "name": "Sombra Húmeda",
+      "desc": "Lanza una sombra líquida que reduce la defensa del rival y lo ralentiza.",
+      "name_en": "Wet Shadow",
+      "visual_prompt": "translucent liquid shadow, icy blue mist, spectral white orbs drifting, moonlight gray residue, pale silver ripples, frozen mist particles, ghostly slow-motion effect"
+    },
+    {
+      "name": "Neblina Psíquica",
+      "desc": "Cubre el campo con una neblina que confunde al rival y aumenta la precisión.",
+      "name_en": "Psychic Mist",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling in moonlit ruins, icy blue fog with floating ghostly trails, ghostly white glow, ethereal mist patterns"
+    },
+    {
+      "name": "Ola Fantasmal",
+      "desc": "Genera una ola de energía fantasmal que causa daño y quita la protección temporal.",
+      "name_en": "Phantom Wave",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, icy blue mist swirling, pale silver energy ripples, ghostly white wave pattern, moonlit ruins backdrop"
+    },
+    {
       "name": "Espejismo Acuático",
-      "desc": "Crea ilusiones de agua que confunden al oponente, reduciendo su precisión temporalmente.",
+      "desc": "Crea ilusiones de agua que engañan al rival y duplican el daño de ataques posteriores.",
       "name_en": "Aquatic Mirage",
-      "visual_prompt": "shimmering water illusions, distorted ripples, ghostly violet mist, pale silver droplets, shadow violet fog, ethereal moonlight glow, fragmented reflections on misty surface"
-    },
-    {
-      "name": "Sueño Fantasmal",
-      "desc": "Sumerge al oponente en un sueño pesado, disminuyendo su velocidad durante el turno.",
-      "name_en": "Phantom Slumber",
-      "visual_prompt": "floating ghostly leaves, slow-motion mist swirls, deep violet moonlight, pale silver dream orbs, charcoal gray fog tendrils, ethereal white glow, shadow violet aura"
-    },
-    {
-      "name": "Viento Hielo",
-      "desc": "Lanza un viento gélido que congela el suelo bajo los pies del rival.",
-      "name_en": "Ice Wind",
-      "visual_prompt": "frozen mist swirling around moonlit tombstones, deep violet and charcoal gray frost patterns on ground, pale silver ice crystals forming in ethereal fog, ghostly white mist drifting upward"
-    },
-    {
-      "name": "Agujero Negro Acuático",
-      "desc": "Crea un agujero negro en el agua que absorbe ataques y reduce la defensa del oponente.",
-      "name_en": "Black Hole Abyss",
-      "visual_prompt": "deep violet vortex, swirling charcoal gray water, pale silver ripple rings, ghostly white mist, shadow violet energy tendrils, ethereal fog, moonlit tombstone silhouette in background"
+      "visual_prompt": "translucent water illusions, spectral white mist, pale silver orbs drifting, icy blue ripples, moonlight gray reflections, ghostly water distortions, translucent frost patterns"
     }
   ],
   "diffs": [
     {
-      "from": "Cabeza llena de agua",
-      "to": "Agua congelada en hielo eterno, brillando con reflejos fantasmales"
+      "from": "patas sólidas",
+      "to": "patas translúcidas que atraviesan el suelo"
     },
     {
-      "from": "Pies planos y anchos",
-      "to": "Pies flotando ligeramente, sin contacto con el suelo"
+      "from": "cola de agua",
+      "to": "cola que se solidifica en sombras danzantes"
     },
     {
-      "from": "Ojos pequeños y apagados",
-      "to": "Ojos brillando con resplandor azul fantasmal"
+      "from": "ojos normales",
+      "to": "ojos brillantes con brillo azul fantasmal"
     },
     {
-      "from": "Cuerpo pesado y lento",
-      "to": "Cuerpo ligero y flotante, caminando sin esfuerzo"
+      "from": "movimientos acuáticos",
+      "to": "movimientos que combinan agua y sombra"
     }
   ],
   "pokemon_id": "054",

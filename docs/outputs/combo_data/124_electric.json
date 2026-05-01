@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Chispa Glacial",
-  "lore": "Jynx, ahora con un aura eléctrica, brilla con destellos azules. Sus brazos cortos emiten chispas, y su postura erguida se mantiene mientras carga energía en su piel helada.",
+  "lore": "Jynx, ahora cubierta de chispas eléctricas que brillan bajo el frío, camina con un paso eléctrico. Sus rasgos faciales se iluminan con destellos azules, y su cuerpo emite un zumbido constante al moverse.",
   "moves": [
     {
-      "name": "Chispa Congelada",
-      "desc": "Lanza un rayo eléctrico que congela al objetivo en el acto.",
+      "name": "Chispa Congelante",
+      "desc": "Lanza una descarga eléctrica que congela al objetivo en el acto, causando daño y parálisis.",
       "name_en": "Frozen Spark",
-      "visual_prompt": "crackling electric blue lightning bolts, neon yellow energy trails, violet sparks, bright white frozen droplets, stormy sky background, neon-lit thunderclouds, icy electric aura"
+      "visual_prompt": "glowing electric blue orbs, neon yellow lightning bolts, crisp white ice crystals, bright electric white energy trails, pale blue frost patterns, urban city skyline backdrop with flickering neon signs"
     },
     {
-      "name": "Bola de Hielo Estática",
-      "desc": "Dispara una bola de hielo cargada de electricidad que causa parálisis.",
-      "name_en": "Static Ice Ball",
-      "visual_prompt": "glowing electric-blue ice orb, neon-yellow energy arcs, violet sparks, crackling white energy field, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Relámpago Psíquico",
+      "desc": "Un rayo eléctrico que se combina con poderes psíquicos para confundir al enemigo.",
+      "name_en": "Psychic Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow psychic waves, crisp white energy trails, bright electric white sparks, pale blue glowing aura, urban city skyline backdrop, neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Viento Eléctrico",
-      "desc": "Crea un viento eléctrico que debilita la defensa del oponente.",
-      "name_en": "Electric Wind",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky backdrop with crackling energy fields"
+      "name": "Bola de Hielo Electrizada",
+      "desc": "Dispara una bola de hielo cargada eléctricamente que causa daño y quema.",
+      "name_en": "Electric Ice Ball",
+      "visual_prompt": "glowing electric blue ice orb, neon yellow lightning sparks, crisp white frost patterns, bright electric white energy trails, pale blue energy aura, urban city skyline silhouette in background"
     },
     {
-      "name": "Luz de Neón",
-      "desc": "Emite una luz brillante que ciega al rival y genera energía.",
-      "name_en": "Neon Light",
-      "visual_prompt": "electric blue lightning bolts, neon yellow energy orbs, violet spark trails, bright white static bursts, crackling cyan energy fields, stormy sky backdrop"
+      "name": "Vibración Estática",
+      "desc": "Genera ondas estáticas que reducen la precisión del enemigo y causan daño.",
+      "name_en": "Static Vibration",
+      "visual_prompt": "electric blue shockwaves rippling through neon yellow grid lines, static sparks fizzing in crisp white bursts, pale blue energy pulses with bright electric white highlights, urban cityscape background with flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "piel fría de hielo",
-      "to": "piel que emite chispas eléctricas y brilla azul"
+      "from": "piel fría y transparente",
+      "to": "cubierta de chispas eléctricas brillantes"
     },
     {
-      "from": "brazos cortos",
-      "to": "brazos que generan descargas eléctricas"
+      "from": "movimientos lentos y suaves",
+      "to": "pasos eléctricos con zumbido constante"
     },
     {
-      "from": "postura erguida",
-      "to": "postura estable que permite acumular energía"
+      "from": "poderes psíquicos suaves",
+      "to": "poderes psíquicos combinados con descargas eléctricas"
     },
     {
-      "from": "voces hipnóticas",
-      "to": "voces que emiten ondas eléctricas para confundir"
+      "from": "color blanco y azul",
+      "to": "iluminación azul eléctrica con destellos brillantes"
     }
   ],
   "pokemon_id": "124",

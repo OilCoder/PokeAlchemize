@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua Venenosa",
-  "lore": "Beedrill ahora flota en el agua con patas afiladas, su cuerpo brillante refleja el agua. Sus aguijones emiten burbujas tóxicas, y su postura se ha adaptado para nadar con gracia.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Beedrill, ahora transformado en un ser acuático, lleva un caparazón brillante que refleja el agua. Sus aguijones emiten destellos azules, y sus patas se han adaptado para nadar con gracia.",
   "moves": [
     {
-      "name": "Burbuja Venenosa",
-      "desc": "Lanza burbujas tóxicas que envenenan al rival al impactar.",
-      "name_en": "Toxic Bubble",
-      "visual_prompt": "toxic green bubbles with swirling venomous patterns, deep ocean blue water currents, bioluminescent teal plankton glowing softly, pearly white bubble trails, aquamarine light refractions"
+      "name": "Agua de Aguijón",
+      "desc": "Ataca con aguijones que liberan chorros de agua a gran velocidad.",
+      "name_en": "Sting Jet",
+      "visual_prompt": "shimmering water droplets, rapid concentric ripples, translucent teal orbs, cascading aquamarine streams, deep ocean blue mist, pearly white spray, gentle wave patterns, soft blue sunlight glint"
     },
     {
-      "name": "Nado Rápido",
-      "desc": "Aumenta la velocidad de movimiento en el agua durante un turno.",
-      "name_en": "Rapid Current",
-      "visual_prompt": "glowing bioluminescent plankton, swirling teal water currents, pearly white bubbles, aquamarine ripples, deep ocean blue background"
+      "name": "Onda Venenosa",
+      "desc": "Crea una ola que envenena al oponente con un líquido brillante.",
+      "name_en": "Poison Wave",
+      "visual_prompt": "glowing toxic green liquid waves, shimmering pearly white foam, deep ocean blue ripples, sapphire blue mist, pale aquamarine bubbles, smooth undulating motion, calm ocean surface"
     },
     {
-      "name": "Agua Estancada",
-      "desc": "Crea una zona de agua tóxica que reduce la velocidad del enemigo.",
-      "name_en": "Stagnant Water",
-      "visual_prompt": "toxic blue-green water swirls, glowing bioluminescent plankton, slow-motion ripples, deep ocean trench backdrop, pearly white bubbles, aquamarine mist, sapphire blue current eddies"
+      "name": "Nado de Esmeralda",
+      "desc": "Acelera su velocidad en el agua, dejando un rastro brillante.",
+      "name_en": "Emerald Surge",
+      "visual_prompt": "shimmering water droplets, glowing teal trails, smooth ocean waves, pearly white sparkles, sapphire blue ripples, calm blue sunlight reflection, gentle motion blur"
     },
     {
-      "name": "Picadura Hidro",
-      "desc": "Ataca con aguijones que absorben agua y aumentan el daño.",
-      "name_en": "Hydro Sting",
-      "visual_prompt": "glowing aquamarine stingers, swirling water orbs, deep ocean blue currents, bioluminescent plankton trails, pearly white mist, teal green energy pulses"
+      "name": "Burbuja de Veneno",
+      "desc": "Lanza burbujas que liberan veneno al estallar.",
+      "name_en": "Poison Bubble",
+      "visual_prompt": "crystalline poison bubbles bursting with toxic green mist, deep ocean blue water droplets, teal and sapphire blue ripples, pearly white foam, pale aquamarine light refraction"
     }
   ],
   "diffs": [
     {
-      "from": "patas en el suelo",
-      "to": "patas afiladas para nadar"
+      "from": "Cuerpo de insecto",
+      "to": "Caparazón brillante adaptado para el agua"
     },
     {
-      "from": "cuerpo brillante",
-      "to": "refleja el agua en movimiento"
+      "from": "Seis extremidades",
+      "to": "Patas modificadas para nadar con elegancia"
     },
     {
-      "from": "aguijones tóxicos",
-      "to": "aguijones que emiten burbujas tóxicas"
+      "from": "Agujones venenosos",
+      "to": "Agujones que emiten chorros de agua y veneno"
     },
     {
-      "from": "postura baja",
-      "to": "postura adaptada para nadar con gracia"
+      "from": "Hábitat terrestre",
+      "to": "Vida acuática con adaptaciones para el océano"
     }
   ],
   "pokemon_id": "015",

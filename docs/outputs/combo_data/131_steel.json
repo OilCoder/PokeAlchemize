@@ -1,30 +1,30 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Lapras, ahora con armadura de acero, camina con paso firme sobre el hielo. Sus patas reflejan la luz del sol, y su caparazón brillante resplandece en el frío. El acero le da una fuerza inquebrantable.",
+  "lore": "Lapras de acero reluce bajo el sol, sus patas de metal resuenan al caminar. Su caparazón, ahora una armadura de acero, brilla con reflejos fríos. Sus ojos azules brillan con una energía metálica.",
   "moves": [
     {
-      "name": "Armadura de Acero",
-      "desc": "Cubre al usuario con una armadura que reduce el daño físico.",
-      "name_en": "Steel Armor",
-      "visual_prompt": "gunmetal gray armor plating, polished silver reflections, metallic steam vents, neon cyan energy trails, electric blue glowing patterns, industrial cityscape backdrop, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Cascada de Acero",
+      "desc": "Lanza una cascada de acero que corta al oponente con precisión metálica.",
+      "name_en": "Steel Cascade",
+      "visual_prompt": "shimmering steel water droplets, razor-sharp metallic edges, polished chrome ripples, gunmetal gray energy lines, deep steel blue reflections, industrial workshop backdrop, smooth flowing motion"
     },
     {
-      "name": "Golpe de Hielo",
-      "desc": "Ataca con un golpe que congela al objetivo en el momento.",
-      "name_en": "Ice Strike",
-      "visual_prompt": "frozen steel blades, crystalline ice shards, metallic steam vents, neon cyan glow, gunmetal gray mist, polished silver reflections, electric blue energy trails"
+      "name": "Carga de Titanio",
+      "desc": "Acelera su carga con fuerza de titanio, golpeando al rival con una potente embestida.",
+      "name_en": "Titanium Charge",
+      "visual_prompt": "gunmetal gray energy surge, polished chrome sparks, matte black metallic shards, deep steel blue energy trails, industrial workshop glow, stylized 2D VFX"
     },
     {
-      "name": "Carga Acero",
-      "desc": "Aumenta el ataque y el poder de los ataques físicos.",
-      "name_en": "Steel Charge",
-      "visual_prompt": "gunmetal gray energy swirls, polished silver sparks, metallic steel blue orbs, electric blue trails, neon cyan energy pulses, industrial cityscape background with glowing neon signs"
+      "name": "Escudo de Hierro",
+      "desc": "Crea un escudo de hierro que absorbe el daño y refleja ataques.",
+      "name_en": "Iron Shield",
+      "visual_prompt": "gunmetal gray steel shield, polished chrome edges, deep steel blue energy lines, matte black reflections, industrial workshop background glow, stylized 2D VFX"
     },
     {
-      "name": "Barrera de Hielo",
-      "desc": "Crea una barrera de hielo que protege al usuario y a sus aliados.",
-      "name_en": "Ice Barrier",
-      "visual_prompt": "gunmetal gray ice shards, polished silver shield surface, metallic steel blue energy waves, electric blue frost patterns, neon cyan steam vents, industrial city skyline background, crystalline lattice structure"
+      "name": "Rugido de Acero",
+      "desc": "Emite un rugido metálico que debilita la defensa del oponente.",
+      "name_en": "Steel Roar",
+      "visual_prompt": "metallic roar energy waves, gunmetal gray distortion ripples, polished chrome sound waves, deep steel blue energy trails, industrial workshop glow, matte black metallic shards, stylized 2D VFX"
     }
   ],
   "diffs": [
@@ -33,16 +33,16 @@
       "to": "caparazón de acero brillante y resistente"
     },
     {
-      "from": "patas blandas",
-      "to": "patas robustas con placas de acero"
+      "from": "patas de agua",
+      "to": "patas de metal que resuenan al caminar"
     },
     {
-      "from": "movilidad lenta",
-      "to": "movilidad estable con pasos firmes"
+      "from": "respiración fría",
+      "to": "respiración metálica que emite chispas"
     },
     {
-      "from": "vulnerabilidad al fuego",
-      "to": "resistencia total al fuego y ataques de fuego"
+      "from": "movilidad en agua",
+      "to": "movilidad terrestre con mayor fuerza y estabilidad"
     }
   ],
   "pokemon_id": "131",

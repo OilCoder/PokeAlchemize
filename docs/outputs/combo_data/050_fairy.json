@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marfil",
-  "lore": "Este Diglett ahora se desplaza con gracia sobre el suelo, sus patas cortas brillan con un brillo dorado. Sus ojos resplandecen con magia, y su piel se ha vuelto suave como porcelana. El tipo hada le otorga una energía mágica que lo hace brillar en la oscuridad.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Este Diglett transformado en hada brilla con pétalos de luz que adornan su cuerpo blando. Sus ojos brillan como estrellas, y su forma es más suave, con destellos de magia en cada movimiento.",
   "moves": [
     {
-      "name": "Brillo de Deseo",
-      "desc": "Genera un resplandor mágico que cura a aliados y aumenta su defensa temporal.",
-      "name_en": "Desire Glow",
-      "visual_prompt": "soft pastel pink light rays, floating crystalline mint orbs, glowing starlight blue particles, ivory white floral patterns, pearlescent lavender mist, ethereal moonlit garden backdrop"
-    },
-    {
-      "name": "Canto de Sueño",
-      "desc": "Crea una melodia que induce a los enemigos a dormir, permitiendo un ataque rápido.",
-      "name_en": "Dream Song",
-      "visual_prompt": "floating pastel pink musical notes, glowing ivory white petals, pearl lavender stardust swirls, crystalline mint light beams, soft misty twilight sky background, delicate starlight blue aura"
-    },
-    {
       "name": "Pétalos de Sueño",
-      "desc": "Lanza pétalos brillantes que confunden a los enemigos y reducen su precisión.",
+      "desc": "Lanza pétalos que hipnotizan al rival, reduciendo su velocidad durante 3 turnos.",
       "name_en": "Dream Petals",
-      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, soft lavender mist, starlight blue crystalline dewdrops, floating ivory white orbs, gentle motion blur, ethereal glow"
+      "visual_prompt": "glowing pastel pink petals swirling in hypnotic spirals, delicate lavender mist, shimmering silver moonbeams, ivory white fairy lights, soft pearlescent glow, slow-motion floating motion, ethereal dreamy atmosphere"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Danza en el aire, creando un aura que mejora el ataque y la velocidad de aliados.",
-      "name_en": "Star Dance",
-      "visual_prompt": "glowing pastel pink star clusters, floating ivory white petals, pearlescent lavender aura, starlight blue crystalline orbs, misty twilight sky backdrop, soft luminous trails, delicate sparkling particles"
+      "name": "Brillo de Luna",
+      "desc": "Aumenta el poder de los movimientos de hada y cura un poco de salud al usuario.",
+      "name_en": "Moonlight Gleam",
+      "visual_prompt": "soft pastel pink moonbeams, delicate lavender petals swirling in silver mist, pearly gold fairy lights, glowing ivory white orbs, shimmering silver sparkles, ethereal moonlit meadow background"
+    },
+    {
+      "name": "Danza de Fadas",
+      "desc": "Crea un baile mágico que mejora el ataque y la defensa del usuario.",
+      "name_en": "Fairy Dance",
+      "visual_prompt": "glowing pastel pink petals swirling in a circular motion, delicate lavender mist rising, shimmering silver sparkles, ivory white light beams, pearly gold accents, moonlit meadow backdrop"
+    },
+    {
+      "name": "Canto de Estrellas",
+      "desc": "Canta una melodía que restaura la energía del equipo en combate.",
+      "name_en": "Star Song",
+      "visual_prompt": "glowing star-shaped notes floating in moonlit mist, delicate lavender and pearly gold sparkles, soft pastel pink light trails, ivy vines with shimmering silver dewdrops, ethereal fairy lights weaving through mist"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas y suelo",
-      "to": "patas brillantes con brillo dorado que dejan rastros mágicos"
+      "from": "Cuerpo blando y sin extremidades",
+      "to": "Cuerpo suave con pétalos brillantes que brillan en la oscuridad."
     },
     {
-      "from": "cuerpo terroso",
-      "to": "piel suave como porcelana con brillo mágico"
+      "from": "Bajo en el suelo",
+      "to": "Flota suavemente sobre el suelo, dejando huellas de luz."
     },
     {
-      "from": "bajo postura de arrastre",
-      "to": "postura elevada y elegante gracias a la magia hada"
+      "from": "Color marrón terroso",
+      "to": "Cambia a un tono dorado con destellos de rosa brillante."
     },
     {
-      "from": "ojos simples",
-      "to": "ojos resplandecientes con magia interna"
+      "from": "Movimientos lentos",
+      "to": "Se mueve con gracia y rapidez, dejando rastros de magia."
     }
   ],
   "pokemon_id": "050",

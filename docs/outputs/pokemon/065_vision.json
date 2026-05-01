@@ -1,0 +1,27 @@
+{
+  "body_colors": [
+    "bright yellow",
+    "dark brown",
+    "pale cream"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "eyes",
+    "body",
+    "arms",
+    "hands",
+    "legs",
+    "claws"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a quadrupedal shape with four legs, a body that is horizontal, and a head with prominent ears and eyes.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "pointed ears",
+    "sharp claws",
+    "arm-like appendages with hands"
+  ]
+}

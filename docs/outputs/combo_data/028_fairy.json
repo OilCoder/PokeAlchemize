@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Mariposa",
-  "lore": "Sandslash, ahora transformado en un Pokémon de tipo hada, camina con delicadeza sobre pétalos brillantes. Sus garras afiladas brillan con destellos de luz, y sus espinas se cubren de polvo de estrellas. Su postura baja se ha suavizado, adaptándose a la elegancia del aire.",
+  "lore": "Pokémon Llama Mariposa se desplaza con gracia en el aire, sus patas terminan en alas translúcidas. Su pelaje dorado brilla con destellos de luz celestial, y sus espinas se transforman en pétalos brillantes que emiten un suave brillo mágico.",
   "moves": [
     {
-      "name": "Bailarina de Polvo",
-      "desc": "El usuario gira en el aire, liberando un polvo brillante que reduce la defensa del oponente.",
-      "name_en": "Dust Waltz",
-      "visual_prompt": "glowing pastel pink dust particles swirling in elegant spirals, soft ivory white mist, pearl lavender sparkles, starlight blue crystalline fragments, delicate floral patterns in the mist, moonlit garden backdrop with glowing flowers"
+      "name": "Ala de Luz",
+      "desc": "Cubre al usuario con un aura brillante que aumenta la velocidad y evita ataques críticos.",
+      "name_en": "Light Wing",
+      "visual_prompt": "glowing pastel pink aura, delicate lavender petals swirling, pearly gold shimmer trails, ivory white light particles, soft silver mist, moonlit meadow backdrop"
     },
     {
-      "name": "Ala de Estrella",
-      "desc": "Ataca con un movimiento rápido, cubriendo al oponente con destellos que aumentan el daño.",
-      "name_en": "Star Wing",
-      "visual_prompt": "glowing pastel pink starbursts, floating crystal shards, soft lavender mist, dewdrop reflections, shimmering starlight blue trails, delicate fairy-wing motifs"
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos que confunden al oponente y reducen su precisión.",
+      "name_en": "Magic Petals",
+      "visual_prompt": "floating pastel pink petals, delicate lavender mist, shimmering silver sparkles, ivory white glow, soft moonlight beams, ethereal fairy lights, translucent orb of confusion"
     },
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que curan a aliados y confunden al enemigo.",
-      "name_en": "Magic Petal",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white stardust, pearl lavender mist, crystalline mint light trails, soft twilight sky background, ethereal shimmer, delicate floral patterns, no characters"
+      "name": "Brillo Celestial",
+      "desc": "Genera un resplandor que restaura la energía y elimina debilidades temporales.",
+      "name_en": "Celestial Shine",
+      "visual_prompt": "soft pastel pink light rays, glowing ivory white orbs, delicate lavender petals floating, pearly gold shimmer particles, shimmering silver mist, moonlit meadow backdrop, ethereal glow, gentle motion blur"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Cubre al usuario con un brillo suave que protege contra ataques especiales.",
-      "name_en": "Moonlight Shield",
-      "visual_prompt": "soft pastel pink glow, ivory white mist, pearl lavender starlight, crystalline mint shimmer, glowing floral patterns, delicate star clusters, ethereal moonbeam reflections"
+      "name": "Danza de Sueños",
+      "desc": "Crea una danza hipnótica que reduce el ataque y defensa del oponente.",
+      "name_en": "Dream Dance",
+      "visual_prompt": "floating pastel pink petals, swirling lavender mist, delicate ivory white orbs, shimmering silver light trails, pearly gold sparkles, hypnotic spiral patterns, moonlit glow"
     }
   ],
   "diffs": [
     {
-      "from": "garras afiladas",
-      "to": "garras brillantes con destellos de luz"
-    },
-    {
-      "from": "espinas duras",
-      "to": "espinas cubiertas de polvo de estrellas"
-    },
-    {
-      "from": "postura baja",
-      "to": "postura suave y elegante"
-    },
-    {
       "from": "patas plantadas en el suelo",
-      "to": "paso ligero sobre pétalos brillantes"
+      "to": "patas terminan en alas translúcidas que permiten volar"
+    },
+    {
+      "from": "pelaje marrón oscuro",
+      "to": "pelaje dorado brillante con destellos mágicos"
+    },
+    {
+      "from": "espinas duras en la espalda",
+      "to": "espinas transformadas en pétalos brillantes que emiten luz"
+    },
+    {
+      "from": "postura baja de reptil",
+      "to": "postura erguida y elegante con movimiento suave"
     }
   ],
   "pokemon_id": "028",

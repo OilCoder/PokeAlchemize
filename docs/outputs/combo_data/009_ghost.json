@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Blastoise Fantasma flota sin tocar el suelo, sus cañones de agua emiten bruma espectral. Su armadura marina se ha vuelto translúcida, revelando sombras danzantes dentro. Sus ojos brillan con luz fantasmal.",
+  "species_name": "Pokémon Espectral Mar",
+  "lore": "Blastoise espectral camina con paso lento, sus caparazones translúcidos brillan con luces azules. Sus cañones de agua ahora emiten niebla espectral que confunde a sus enemigos en el campo de batalla.",
   "moves": [
     {
-      "name": "Agua Espectral",
-      "desc": "Lanza un chorro de agua que absorbe la luz, creando sombras que atacan al oponente.",
-      "name_en": "Spectral Water",
-      "visual_prompt": "glowing violet water jet, absorbing light into shadowy tendrils, misty graveyard backdrop, moonlit tombstones, ethereal fog, ghostly white mist, shadow violet particles, charcoal gray accents"
+      "name": "Niebla Espectral",
+      "desc": "Cubre el campo con niebla que reduce la precisión de los oponentes y oculta su posición.",
+      "name_en": "Spectral Fog",
+      "visual_prompt": "translucent spectral white mist, pale silver drifting orbs, icy blue moonlight glow, moonlit ruins background, frosty translucence, ghostly haze, ethereal glow, floating mist particles"
     },
     {
-      "name": "Turbulencia Fantasmal",
-      "desc": "Crea olas de agua que desplazan al enemigo hacia el aire, haciéndolo vulnerable.",
-      "name_en": "Phantom Surge",
-      "visual_prompt": "misty water waves, ghostly violet ripples, drifting ethereal fog, moonlit tombstone shadows, pale silver mist, deep violet energy trails"
+      "name": "Cañón Fantasma",
+      "desc": "Dispara un proyectil de energía espectral que causa daño y quema la defensa del oponente.",
+      "name_en": "Phantom Cannon",
+      "visual_prompt": "translucent spectral orbs floating in moonlit ruins, icy blue energy trails, pale silver mist swirling, ghostly frost patterns, ethereal white projectiles with glowing moonlight gray cores, drifting spectral embers"
     },
     {
-      "name": "Resplandor de la Niebla",
-      "desc": "Genera una niebla densa que oculta al Pokémon y reduce la precisión del rival.",
-      "name_en": "Misty Glow",
-      "visual_prompt": "dense mist, glowing violet orbs, shadowy tendrils, pale silver fog, ghostly white light beams, charcoal gray outlines, ethereal moonlit haze, drifting tombstone silhouettes"
+      "name": "Resonancia Mortal",
+      "desc": "Genera ondas sonoras que afectan la mente del oponente, reduciendo su velocidad.",
+      "name_en": "Mortal Resonance",
+      "visual_prompt": "translucent spectral orbs floating in moonlit ruins, icy blue waves radiating outward, pale silver mist swirling, moonlight gray ripples distorting air, ghostly frost patterns on ground"
     },
     {
-      "name": "Onda de la Sombra",
-      "desc": "Envía una ola de agua que se convierte en sombra, causando daño y confusión.",
-      "name_en": "Shadow Wave",
-      "visual_prompt": "shimmering violet water wave transforming into shadowy tendrils, ethereal mist swirling with charcoal gray and pale silver accents, ghostly white ripples fading into moonlit graveyard fog, shadow violet energy pulses"
+      "name": "Furia de la Sombra",
+      "desc": "Aumenta el ataque del usuario con cada golpe, pero consume energía espectral.",
+      "name_en": "Shadow Fury",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue energy trails, moonlit ruins backdrop with faint glowing cracks, ghostly white energy pulses, ethereal frost patterns on air, shimmering silver light particles, ghostly aura with moonlight reflections, soft glowing edges on spectral mist, pale blue light refracting through mist"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas en el suelo",
-      "to": "flota sin tocar el suelo, sustentado por energía espectral"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Caminar con un paso flotante, como si flotara ligeramente sobre el suelo."
     },
     {
-      "from": "armadura marina sólida",
-      "to": "armadura translúcida que muestra sombras danzantes en su interior"
+      "from": "Caparazón sólido",
+      "to": "Caparazón translúcido con destellos azules y una apariencia espectral."
     },
     {
-      "from": "ojos normales",
-      "to": "ojos brillantes con luz fantasmal que parpadean en la oscuridad"
+      "from": "Cañones de agua",
+      "to": "Cañones que ahora emiten niebla y energía espectral en lugar de agua."
     },
     {
-      "from": "cañones de agua normales",
-      "to": "cañones que emiten agua con bruma espectral y sombras"
+      "from": "Postura baja y arrastrada",
+      "to": "Postura más erguida con un movimiento fluido, como si flotara."
     }
   ],
   "pokemon_id": "009",

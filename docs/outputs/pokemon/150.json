@@ -1,36 +1,34 @@
 {
   "identity_traits": [
-    "slender elongated body silhouette",
-    "rounded head with pointed ears",
-    "short stubby arms",
-    "long flowing tail",
-    "light gray and purple coloration",
-    "slight glowing aura around body"
+    "cat-like body with four legs",
+    "slender build",
+    "long tail",
+    "pointed ears",
+    "white and light purple coloration",
+    "elegant, graceful posture"
   ],
   "original_type_traits": [
-    "glowing purple psychic energy emanating from forehead",
-    "pointed ears shaped like psychic waves",
-    "purple aura around body indicating psychic type",
-    "glowing eyes with psychic energy patterns"
+    "ears with psychic-type design",
+    "psychic energy aura around body",
+    "light purple coloration associated with psychic type"
   ],
   "transformable_parts": [
-    "tail",
-    "forehead",
     "ears",
-    "body aura",
-    "eye patterns",
-    "skin texture"
+    "tail tip",
+    "body texture",
+    "eye color",
+    "skin pattern",
+    "head shape"
   ],
   "suppress_colors": [
-    "light gray",
-    "purple",
-    "glowing purple aura",
-    "psychic energy patterns"
+    "white",
+    "light purple",
+    "psychic energy aura"
   ],
   "anchor_phrases": [
-    "slender bipedal, standing upright with arms at sides",
-    "rounded head with pointed ears",
-    "long flowing tail extending behind"
+    "quadruped, four legs on ground",
+    "pointed ears with curved inner edge",
+    "long tail with tapered tip"
   ],
   "pokemon_id": "150",
   "pokemon_name": "mewtwo",
@@ -39,30 +37,26 @@
   ],
   "visual_facts": {
     "body_colors": [
-      "light gray",
-      "purple"
-    ],
-    "head_parts": [
-      "rounded head",
-      "pointed ears"
-    ],
-    "limbs": [
-      "short stubby arms",
-      "long tail"
+      "white",
+      "light purple"
     ],
     "body_parts": [
-      "rounded head",
-      "pointed ears",
-      "short stubby arms",
-      "long tail"
+      "head",
+      "body",
+      "arms",
+      "legs",
+      "tail",
+      "ears"
     ],
-    "silhouette": "The Pokémon has a slender, elongated body with a long tail and short limbs.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a cat-like body with four legs, a long tail, and a slender build.",
     "type_markers": [
-      "pointed ears"
+      "ears with a psychic-type design"
     ],
-    "features_unique_to_species": [
+    "distinctive_features": [
+      "ears with a psychic-type design",
       "long tail",
-      "pointed ears"
+      "cat-like body"
     ]
   }
 }

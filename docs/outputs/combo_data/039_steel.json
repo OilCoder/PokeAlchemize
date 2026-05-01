@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Cantante",
-  "lore": "Con cuerpo de acero pulido y patas reforzadas, este Jigglypuff canta melodías que resonarán en el acero. Sus ojos brillan como espejos, y su voz genera vibraciones que pueden derribar estructuras.",
+  "lore": "Este Pokémon, ahora con una forma compacta y metálica, emite sonidos resonantes que vibran a través de su cuerpo acerado. Sus ojos brillan con reflejos metálicos, y su cuerpo flexible se adapta a cualquier superficie.",
   "moves": [
     {
-      "name": "Canción de Acero",
-      "desc": "Genera ondas sonoras que endurecen el campo de batalla, aumentando la defensa de los aliados.",
+      "name": "Canto Acero",
+      "desc": "Emite un sonido que endurece el aire alrededor, aumentando la defensa de aliados.",
       "name_en": "Steel Song",
-      "visual_prompt": "metallic soundwaves in gunmetal gray, polished silver resonance rings, industrial cityscape background with neon cyan steam vents, electric blue energy ripples, metallic defense aura shimmering"
+      "visual_prompt": "polished chrome resonating waves, gunmetal gray energy ripples, deep steel blue shimmering lines, matte black metallic shards, industrial workshop glow"
     },
     {
-      "name": "Golpe de Masa",
-      "desc": "Ataca con un golpe contundente que envía al rival volando, causando daño físico.",
-      "name_en": "Mass Strike",
-      "visual_prompt": "crystalline steel shards, jagged metallic shards, electric blue energy trails, neon cyan sparks, gunmetal gray vortex, polished silver impact waves, industrial city skyline silhouette, glowing neon signs reflecting on metallic surface"
+      "name": "Golpe Vibrante",
+      "desc": "Ataca con un golpe que genera ondas de vibración en el suelo, aturdiendo a los oponentes.",
+      "name_en": "Vibrant Strike",
+      "visual_prompt": "shimmering steel waves rippling across polished metal floor, jagged energy lines glowing in gunmetal gray, matte black shockwaves radiating outward, deep steel blue accents, industrial workshop setting"
     },
     {
-      "name": "Resonancia Sónica",
-      "desc": "Crea un campo de sonido que debilita la precisión de los oponentes.",
-      "name_en": "Sonic Resonance",
-      "visual_prompt": "gunmetal gray sound waves, polished silver oscillating rings, metallic steel blue distortion fields, electric blue neon pulses, glowing cyan resonance circles, industrial city skyline reflections, metallic steam vents with shimmering ripples"
+      "name": "Resonancia Estelar",
+      "desc": "Crea ondas de sonido que refuerzan el ataque de aliados en combate.",
+      "name_en": "Star Resonance",
+      "visual_prompt": "polished chrome sound waves, gunmetal gray energy rings, deep steel blue glowing lines, industrial workshop metal surfaces, matte black reflections, rhythmic sonic pulses"
     },
     {
-      "name": "Vibración de Acero",
-      "desc": "Genera temblores que reducen el movimiento del rival y aumenta el ataque.",
-      "name_en": "Steel Vibration",
-      "visual_prompt": "gunmetal gray tremors, polished silver ripples, metallic steam vents, neon cyan energy pulses, electric blue shockwaves, industrial city skyline silhouette"
+      "name": "Cáscara Metálica",
+      "desc": "Cubre su cuerpo con una capa protectora de acero, reduciendo el daño recibido.",
+      "name_en": "Metal Shell",
+      "visual_prompt": "gunmetal gray steel plating, polished chrome rings, matte black energy lines, deep steel blue glow, industrial workshop texture, reflective surfaces, geometric armor shards, shimmering metallic particles"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo suave y esponjoso",
-      "to": "Cuerpo de acero pulido y resistente"
-    },
-    {
-      "from": "Patas pequeñas y blandas",
-      "to": "Patas reforzadas para soportar peso y fuerza"
+      "from": "Cuerpo blando y esponjoso",
+      "to": "Cuerpo compacto y metálico, resistente a golpes."
     },
     {
       "from": "Voz suave y dulce",
-      "to": "Voz poderosa que genera vibraciones en el acero"
+      "to": "Voz resonante que vibra a través del metal."
     },
     {
-      "from": "Bajo peso",
-      "to": "Aumento de peso para mayor estabilidad"
+      "from": "No posee extremidades definidas",
+      "to": "Forma adaptable que se adapta a superficies planas."
+    },
+    {
+      "from": "Color rosado suave",
+      "to": "Brillo plateado metálico con reflejos dorados."
     }
   ],
   "pokemon_id": "039",

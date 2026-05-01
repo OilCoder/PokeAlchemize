@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Cuchillo",
-  "lore": "Scyther, ahora con patas de acero, camina con paso firme. Sus alas de cuchilla cortan el aire, su armadura resplandece bajo el sol. El acero le otorga resistencia y velocidad.",
+  "lore": "Scyther, ahora un guerrero de acero, tiene hojas afiladas que brillan con reflejos metálicos. Sus alas de acero cortan el aire sin ruido, y su postura erguida refleja una precisión letal.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta con precisión, aumentando daño y reduciendo defensa del oponente.",
-      "name_en": "Steel Cut",
-      "visual_prompt": "shimmering steel blades slicing through air, polished silver edges with electric blue highlights, neon cyan trails, industrial cityscape backdrop with glowing steam vents, metallic reflections on wet pavement"
+      "desc": "Un corte rápido que deja surcos en el acero, aumentando el daño a los tipos acero.",
+      "name_en": "Steel Cutter",
+      "visual_prompt": "shimmering steel blade slicing through polished metal, glowing energy lines tracing the cut, gunmetal gray sparks, matte black residue, deep steel blue aura, industrial workshop background"
     },
     {
-      "name": "Impacto de Acero",
-      "desc": "Golpea con fuerza, causando daño y posiblemente paralizar.",
-      "name_en": "Steel Impact",
-      "visual_prompt": "polished silver shockwaves, gunmetal gray energy ripples, metallic steam vents with neon cyan sparks, electric blue geometric patterns, industrial city skyline silhouette"
+      "name": "Impacto Cargado",
+      "desc": "Aumenta el poder de los ataques físicos en un 50% durante un turno.",
+      "name_en": "Charged Impact",
+      "visual_prompt": "gunmetal gray energy waves, polished chrome sparks, deep steel blue glowing lines, matte black metallic shards, industrial workshop background glow"
     },
     {
-      "name": "Defensa de Acero",
-      "desc": "Refuerza la armadura, aumentando defensa temporalmente.",
-      "name_en": "Steel Defense",
-      "visual_prompt": "polished silver armor plating, glowing gunmetal gray energy waves, metallic steam vents with electric blue sparks, neon cyan shield aura, industrial cityscape backdrop, stylized 2D VFX"
+      "name": "Resonancia Metálica",
+      "desc": "Crea ondas de sonido que debilitan a los oponentes en combate.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished chrome ripples, deep steel blue energy lines, matte black industrial texture, shimmering metallic reflections, geometric wave patterns, metallic distortion effects"
     },
     {
-      "name": "Ráfaga de Acero",
-      "desc": "Lanza una ráfaga de cuchillas de acero, atacando múltiples objetivos.",
-      "name_en": "Steel Gale",
-      "visual_prompt": "metallic steel blades swirling in a vortex, gunmetal gray and polished silver shards, electric blue energy trails, neon cyan sparks, industrial city skyline silhouette in background, metallic steam vents emitting glowing particles"
+      "name": "Defensa Reforzada",
+      "desc": "Aumenta la defensa de manera significativa para resistir ataques fuertes.",
+      "name_en": "Reinforced Defense",
+      "visual_prompt": "gunmetal gray armor plates forming a shield, polished chrome energy lines glowing with deep steel blue, matte black metallic shards floating in midair, industrial workshop backdrop with polished metal surfaces"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de cuchilla",
-      "to": "Alas de acero, más duras y resistentes"
+      "from": "Alas de insecto",
+      "to": "Alas de acero que cortan el aire sin ruido"
     },
     {
       "from": "Cuerpo ligero",
-      "to": "Cuerpo reforzado con armadura de acero"
+      "to": "Cuerpo reforzado con acero, resistiendo golpes fuertes"
     },
     {
-      "from": "Movilidad en vuelo",
-      "to": "Movilidad terrestre con mayor estabilidad"
+      "from": "Movilidad en el aire",
+      "to": "Movilidad precisa y controlada en combate"
     },
     {
-      "from": "Ataque rápido",
-      "to": "Ataque con fuerza y precisión acerada"
+      "from": "Habilidades de caza",
+      "to": "Habilidades de combate letal con hojas de acero"
     }
   ],
   "pokemon_id": "123",

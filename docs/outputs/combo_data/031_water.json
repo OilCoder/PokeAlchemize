@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Oceánica Esmeralda",
-  "lore": "Nidoqueen, ahora envuelta en olas cristalinas, tiene escamas que brillan bajo el agua. Sus patas se transforman en aletas para deslizarse con gracia en el océano, mientras su piel absorbe la energía marina.",
+  "species_name": "Pokémon Agua de Fango",
+  "lore": "Nidoqueen, ahora envuelta en olas de agua y barro, camina con patas que despiertan pozos. Su piel se cubre de escamas resplandecientes, absorbiendo la fuerza del agua para crear mareas en su entorno.",
   "moves": [
     {
-      "name": "Ola de Esmeralda",
-      "desc": "Lanza una ola que refleja la luz del sol, cegando a los oponentes con destellos brillantes.",
-      "name_en": "Emerald Wave",
-      "visual_prompt": "shimmering water ripples, sunbeam refraction creating prismatic light streaks, glowing teal-green particles, pearly white sparkles, aquamarine wave crest, deep blue ocean background"
+      "name": "Ola de Barro",
+      "desc": "Lanza una ola de lodo que ralentiza al oponente y deja una trampa de barro.",
+      "name_en": "Mud Wave",
+      "visual_prompt": "thick muddy wave, slow-motion ripple effect, sticky mud texture, deep ocean blue and teal hues, pearly white foam, gentle ocean sunlight, calm water surface"
     },
     {
-      "name": "Caudal Submarino",
-      "desc": "Crea un torbellino de agua que atrapa al enemigo y lo sumerge en profundidad.",
-      "name_en": "Submarine Tail",
-      "visual_prompt": "whirling vortex of deep ocean blue water, swirling teal green currents, pearly white bubbles rising, aquamarine bioluminescent plankton glowing softly, sapphire blue abyss background, calm underwater motion"
+      "name": "Marea Esmeralda",
+      "desc": "Crea una marea que cura a aliados y refuerza su defensa con energía acuática.",
+      "name_en": "Emerald Tide",
+      "visual_prompt": "gentle ocean waves, shimmering teal water ripples, pearly white energy orbs, sapphire blue light beams, soft aquamarine glow, calm water surface, water droplets sparkling"
     },
     {
-      "name": "Corriente Marítima",
-      "desc": "Acelera su movimiento con una corriente que lo impulsa hacia adelante sin esfuerzo.",
-      "name_en": "Ocean Surge",
-      "visual_prompt": "glowing bioluminescent plankton trails, swirling deep ocean blue currents, pearly white foam rings, aquamarine energy ripples, sapphire blue vortex spirals"
+      "name": "Pozo Acuático",
+      "desc": "Crea un pozo que absorbe ataques y genera un campo de agua para atacar.",
+      "name_en": "Aquatic Well",
+      "visual_prompt": "deep ocean blue water vortex, swirling teal currents, pearly white mist, sapphire blue ripples, pale aquamarine bubbles, calm ocean surface, gentle wave patterns"
     },
     {
-      "name": "Resplandor Acuático",
-      "desc": "Emite un brillo suave que restaura la energía de aliados cercanos.",
-      "name_en": "Aquatic Glow",
-      "visual_prompt": "soft glowing orbs, shimmering teal water ripples, pearly white light particles, bioluminescent plankton trails, deep ocean blue background, gentle aquamarine currents"
+      "name": "Ciclón Marítimo",
+      "desc": "Genera un ciclón que eleva al oponente y lo ataca con oleadas de agua.",
+      "name_en": "Maritime Cyclone",
+      "visual_prompt": "whirlpool vortex, swirling blue water currents, cascading wave splashes, pearly white foam, deep ocean blue and teal hues, gentle sunlight glinting on water, calm ocean surface ripples"
     }
   ],
   "diffs": [
     {
-      "from": "Patas plantadas en tierra",
-      "to": "Aletas flexibles para nadar en el agua"
+      "from": "cuatro patas en el suelo",
+      "to": "patas adaptadas para caminar en agua y barro, dejando huellas brillantes"
     },
     {
-      "from": "Piel áspera y dura",
-      "to": "Escamas suaves que brillan bajo el agua"
+      "from": "piel áspera de veneno",
+      "to": "piel resplandeciente con escamas que absorben el agua"
     },
     {
-      "from": "Postura baja y estable",
-      "to": "Postura fluida y elegante en movimiento"
+      "from": "veneno tóxico",
+      "to": "veneno transformado en agua pura que cura"
     },
     {
-      "from": "Respiración en tierra",
-      "to": "Respiración a través de branquias en el agua"
+      "from": "movimientos de tierra",
+      "to": "movimientos de agua que generan mareas y pozos"
     }
   ],
   "pokemon_id": "031",

@@ -1,35 +1,34 @@
 {
   "identity_traits": [
-    "bulbous rounded body shape",
-    "skull and crossbones symbol on chest",
-    "smiling face with closed eyes",
-    "curled tail tip",
-    "clouds surrounding head",
-    "short stubby legs"
+    "spherical body shape",
+    "smiling face with visible eyes and mouth",
+    "skull symbol centered on belly",
+    "cloud-like smoke emissions",
+    "dark purple coloration",
+    "no visible limbs"
   ],
   "original_type_traits": [
-    "dark purple and light purple coloration",
-    "skull and crossbones symbol (poison type marker)",
-    "clouds around head (suggesting toxic gas)"
+    "skull symbol on belly (poison type marker)",
+    "smoke emissions (poison type effect)",
+    "dark purple color (poison type palette)"
   ],
   "transformable_parts": [
-    "clouds around head",
-    "skull and crossbones symbol on chest",
-    "tail tip",
-    "body coloration",
-    "ear shape",
-    "leg length"
+    "smoke emissions",
+    "skull symbol on belly",
+    "body color",
+    "smiling face expression",
+    "cloud formations around body",
+    "overall body texture"
   ],
   "suppress_colors": [
     "dark purple",
-    "light purple",
-    "skull and crossbones symbol (black/white)",
-    "clouds (white)"
+    "smoke gray",
+    "skull symbol black"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "bulbous body with skull and crossbones symbol on chest",
-    "curled tail tip with cloud-like wisps"
+    "amorphous blob body, no distinct limbs",
+    "centered skull symbol on belly, circular shape",
+    "smiling face with open mouth and two small eyes"
   ],
   "pokemon_id": "109",
   "pokemon_name": "koffing",
@@ -38,23 +37,22 @@
   ],
   "visual_facts": {
     "body_colors": [
-      "dark purple",
-      "light purple"
+      "dark purple"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "round body",
+      "skull symbol on belly",
+      "smiling face with eyes and mouth",
+      "clouds of smoke around"
     ],
-    "silhouette": "The Pokémon has a round, bulbous body with a skull and crossbones symbol on its chest, suggesting a toxic or poisonous nature.",
+    "body_plan": "blob",
+    "silhouette": "The creature is a spherical, dark purple body with a skull symbol on its belly, smiling face, and clouds of smoke around it.",
     "type_markers": [
-      "skull and crossbones symbol on chest"
+      "skull symbol on belly"
     ],
     "distinctive_features": [
-      "bulbous body",
       "smiling face",
-      "clouds around head"
+      "clouds of smoke"
     ]
   }
 }

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Pikachu con llamas en las mejillas y cola, sus patas brillan como carbones encendidos. El fuego le otorga un porte fiero y una energía intensa que quema el aire a su alrededor.",
+  "species_name": "Pokémon Llama Eléctrica",
+  "lore": "Pikachu, ahora con llamas eléctricas en su cola, brilla con chispas doradas. Su pelaje se torna anaranjado, y sus mejillas emiten destellos de fuego mientras carga energía eléctrica en su interior.",
   "moves": [
     {
-      "name": "Chispa de Fuego",
-      "desc": "Lanza una chispa ardiente que quema al rival y aumenta su velocidad.",
-      "name_en": "Fire Spark",
-      "visual_prompt": "crimson red embers swirling, molten gold sparks flying, amber orange energy trails, charcoal black smoke wisps, glowing ember particles, dynamic motion lines, volcanic crater background glow"
+      "name": "Chispa Llama",
+      "desc": "Lanza chispas que se encienden en llamas al tocar el objetivo, causando daño eléctrico y fuego.",
+      "name_en": "Flame Spark",
+      "visual_prompt": "crimson sparks igniting into molten orange flames, swirling ember trails, glowing lava flow patterns, charred black ash particles, amber glow accents, volcanic crater backdrop"
     },
     {
-      "name": "Cola Llamante",
-      "desc": "Gira la cola en llamas para atacar y crear un campo de calor que debilita al enemigo.",
-      "name_en": "Flame Tail",
-      "visual_prompt": "swirling crimson fire tail, molten gold embers, amber-orange heat haze, charcoal-black smoke swirls, glowing ember particles, volcanic crater backdrop"
+      "name": "Bomba de Chispa",
+      "desc": "Carga energía eléctrica y la libera en una explosión de fuego y chispas.",
+      "name_en": "Spark Bomb",
+      "visual_prompt": "crimson red lightning bolts, molten gold energy orbs, bright orange sparks, ember-filled smoke trails, charcoal black explosion ring, volcanic crater background glow"
     },
     {
-      "name": "Relámpago Ardiente",
-      "desc": "Ataca con un rayo de fuego que quema y causa daño adicional por quemadura.",
-      "name_en": "Blazing Bolt",
-      "visual_prompt": "crimson red lightning bolt, molten gold sparks, amber orange heat haze, charcoal black smoke trails, glowing ember particles, volcanic crater background"
+      "name": "Fuego de Relámpago",
+      "desc": "Ataca con un rayo que se convierte en una llamarada al impactar.",
+      "name_en": "Lightning Blaze",
+      "visual_prompt": "crimson red lightning bolt, molten gold impact explosion, bright orange embers swirling, charcoal black smoke trails, volcanic crater backdrop"
     },
     {
-      "name": "Bola de Llama",
-      "desc": "Lanza una bola de fuego que aumenta el daño con cada golpe consecutivo.",
-      "name_en": "Flame Ball",
-      "visual_prompt": "crimson fire orb, molten gold trails, amber-orange embers swirling, charcoal smoke rings, glowing ember particles, volcanic crater background, dynamic motion lines"
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de llamas que absorbe ataques eléctricos y refuerza defensa.",
+      "name_en": "Flame Shield",
+      "visual_prompt": "crimson red flame shield, molten gold embers swirling, bright orange lava flows, amber glow accents, charcoal black smoke wisps, dynamic fire vortex"
     }
   ],
   "diffs": [
     {
-      "from": "Mejillas con chispas eléctricas",
-      "to": "Mejillas con llamas rojas y dan calor intenso"
+      "from": "Cola eléctrica",
+      "to": "Cola ahora arde con llamas doradas y emite chispas"
     },
     {
-      "from": "Cola de paja",
-      "to": "Cola en llamas que brilla con intensidad"
+      "from": "Pelaje amarillo",
+      "to": "Pelaje se torna anaranjado brillante con destellos dorados"
     },
     {
-      "from": "Postura baja y tranquila",
-      "to": "Postura firme con patas plantadas en llamas"
+      "from": "Mejillas con almacenamiento eléctrico",
+      "to": "Mejillas ahora emiten llamas al cargar energía"
     },
     {
-      "from": "Aire eléctrico alrededor",
-      "to": "Aire caliente y ardiente a su alrededor"
+      "from": "Postura erguida",
+      "to": "Postura más dinámica, con movimiento fluido hacia adelante"
     }
   ],
   "pokemon_id": "025",

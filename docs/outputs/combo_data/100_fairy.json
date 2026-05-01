@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Dulce",
-  "lore": "Este Voltorb transformado brilla con un aura de hada, sus patas se han suavizado en formas de flores. Sus ojos brillan con destellos de estrellas, y su cuerpo emite un suave zumbido melódico al moverse.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Este Voltorb transformado brilla con un resplandor etéreo, su cuerpo translúcido ahora cubierto de pétalos brillantes. Sus ojos brillan con una luz suave, y sus movimientos son suaves como una danza de hadas.",
   "moves": [
     {
-      "name": "Brillo de Ceniza",
-      "desc": "Cubre al oponente con una neblina de polvo brillante que reduce su precisión.",
-      "name_en": "Ash Sparkle",
-      "visual_prompt": "glowing pastel pink dust particles, swirling in moonlit mist, soft ivory white starlight trails, pearl lavender crystalline fragments, faint mint blue shimmer effects, delicate sparkling particles floating in twilight air"
+      "name": "Brillo de Pétalo",
+      "desc": "Lanza pétalos brillantes que confunden al rival y reducen su precisión.",
+      "name_en": "Petals Shine",
+      "visual_prompt": "glowing pastel pink petals swirling in a moonlit meadow, delicate lavender mist, shimmering silver trails, pearly gold sparkles, confounding spiral patterns, soft ivory light beams"
     },
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que curan 10% de la vida del usuario y causan daño mágico.",
-      "name_en": "Magic Petal",
-      "visual_prompt": "floating pastel pink petals, glowing starlight blue energy trails, crystalline mint sparkles, ivory white mist, soft lavender aura, delicate fairy dust particles, ethereal moonlit glow"
+      "name": "Danza de Hada",
+      "desc": "Crea un baile mágico que aumenta la velocidad de todo el equipo.",
+      "name_en": "Fairy Dance",
+      "visual_prompt": "glowing pastel pink and ivory white petals swirling in a circular motion, delicate lavender sparkles, pearly gold light trails, shimmering silver mist, moonlit meadow backdrop, soft ethereal glow"
     },
     {
-      "name": "Canción de Sueño",
-      "desc": "Canta una melodía que induce el sueño y reduce el ataque del oponente.",
-      "name_en": "Sleep Song",
-      "visual_prompt": "glowing moonlit petals floating in soft pastel pink mist, delicate ivory white musical notes with pearl lavender trails, crystalline mint starlight blue orbs drifting gently, ethereal shimmering aura, dreamy twilight garden backdrop"
+      "name": "Canto de Sueño",
+      "desc": "Emite un canto suave que induce un sueño ligero en el enemigo.",
+      "name_en": "Dream Song",
+      "visual_prompt": "soft pastel pink moonbeams, floating lavender petals, glowing ivory white fairy lights, shimmering silver mist, delicate pearly gold orbs, gentle swirling motion"
     },
     {
-      "name": "Cristal de Luz",
-      "desc": "Genera un escudo de cristal que refleja ataques físicos y mágicos.",
-      "name_en": "Crystal Shield",
-      "visual_prompt": "glistening crystal shield, translucent pastel pink and pearl lavender shards, glowing starlight blue energy waves, crystalline mint light refractions, soft misty twilight backdrop, delicate sparkling particles"
+      "name": "Burbuja de Ensueño",
+      "desc": "Crea una burbuja mágica que protege al usuario de ataques físicos.",
+      "name_en": "Dream Bubble",
+      "visual_prompt": "glowing pastel pink bubble, delicate lavender mist, pearly gold shimmer, ivory white light particles, soft moonlit glow, ethereal floating orbs, misty flower field backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas y duras",
-      "to": "patas suaves en forma de pétalos florales"
+      "from": "cuerpo amorfoso",
+      "to": "cuerpo translúcido cubierto de pétalos brillantes"
     },
     {
-      "from": "cuerpo brillante de electricidad",
-      "to": "cuerpo que brilla con aura de hada y destellos de estrellas"
+      "from": "resplandor eléctrico",
+      "to": "resplandor etéreo y suave"
     },
     {
-      "from": "movimiento rápido y ligero",
-      "to": "movimiento lento y melódico con zumbido suave"
+      "from": "movimientos rápidos",
+      "to": "movimientos suaves como una danza de hadas"
     },
     {
-      "from": "sonido de chispas eléctricas",
-      "to": "sonido de campanas suaves y melodías de hadas"
+      "from": "no distintos miembros",
+      "to": "movimientos coordinados en una danza mágica"
     }
   ],
   "pokemon_id": "100",

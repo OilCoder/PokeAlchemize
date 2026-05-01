@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Sombra Vegetal",
-  "lore": "Venusaur de sombra camina con paso lento, sus hojas se agitan sin viento. Su cuerpo translúcido revela huesos esqueléticos bajo la piel verde pálida. El tipo fantasma le otorga un aura inquietante que envuelve su presencia.",
+  "lore": "Venusaur Sombra camina con pasos silenciosos, sus hojas se tornan translúcidas. Sus espinas emiten un brillo azul pálido, y sus ojos brillan con un resplandor fantasmal. Su presencia evoca miedo y calma a la vez.",
   "moves": [
     {
-      "name": "Espectro de Hojas",
-      "desc": "Lanza hojas brillantes que atraviesan defensas y dejan cicatrices etéreas.",
-      "name_en": "Spectral Leaves",
-      "visual_prompt": "glowing violet leaves, ethereal silver scars, misty graveyard fog, moonlit tombstone shadows, floating ghostly white orbs, deep violet energy trails"
+      "name": "Espectro Hoja",
+      "desc": "Lanza hojas que atraviesan objetos sólidos, causando daño fantasmal.",
+      "name_en": "Spectral Leaf",
+      "visual_prompt": "translucent leaf shards, ghostly pale silver mist, moonlit ruins backdrop, drifting spectral orbs, icy blue light rays, frosty translucence, ethereal glow, shattered leaf fragments in motion"
     },
     {
-      "name": "Aliento Fantasmal",
-      "desc": "Emite un viento frío que debilita al rival y reduce su velocidad.",
+      "name": "Sombra Venenosa",
+      "desc": "Cubre al oponente con una niebla venenosa que reduce su defensa.",
+      "name_en": "Poison Mist",
+      "visual_prompt": "translucent pale silver mist, drifting spectral orbs, icy blue moonlight glow, ghostly tendrils, moonlit ruins backdrop, frosty texture, ethereal glow, pale silver mist particles"
+    },
+    {
+      "name": "Aliento Fantasma",
+      "desc": "Emite un grito que paraliza al rival con un aura espectral.",
       "name_en": "Phantom Breath",
-      "visual_prompt": "cold mist swirling around moonlit tombstones, ghostly violet orbs floating in shadowy fog, pale silver wisps fading into charcoal gray, ethereal glow with deep violet accents, misty graveyard atmosphere"
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue aura with frost patterns, ghostly white energy waves, moonlit ruins backdrop with faint glowing cracks"
     },
     {
-      "name": "Raíces Sombrías",
-      "desc": "Atrae al enemigo hacia raíces invisibles que lo atrapan.",
+      "name": "Raíces Sombreas",
+      "desc": "Aumenta la velocidad de movimiento al absorber la energía de la oscuridad.",
       "name_en": "Shadow Roots",
-      "visual_prompt": "invisble roots, deep violet mist, ghostly white tendrils, shadow violet aura, ethereal fog, moonlit tombstone silhouettes, charcoal gray tendrils, pale silver glints"
-    },
-    {
-      "name": "Cicatriz Espectral",
-      "desc": "Crea una herida que persiste incluso tras la derrota.",
-      "name_en": "Spectral Scar",
-      "visual_prompt": "pulsating violet wound, jagged ghostly silver tear, shadow violet mist, ethereal fog tendrils, deep charcoal gray aura, pale silver light refraction, moonlit tombstone silhouette in background"
+      "visual_prompt": "translucent frost tendrils, pale silver mist swirling, moonlight gray spectral orbs drifting, icy blue energy trails, spectral white glow, ghostly roots forming in moonlit ruins"
     }
   ],
   "diffs": [
     {
-      "from": "hojas verdes brillantes",
-      "to": "hojas translúcidas con destellos azulados"
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas translúcidas que dejan huellas de niebla"
     },
     {
-      "from": "piel verde suave",
-      "to": "piel pálida translúcida con huesos visibles"
+      "from": "Hoja en la espalda",
+      "to": "Hoja translúcida que brilla con luz azul"
     },
     {
-      "from": "postura baja y estable",
-      "to": "postura flotante con ligera elevación del suelo"
+      "from": "Esencias venenosas",
+      "to": "Esencias que emiten brillo fantasmal y niebla"
     },
     {
-      "from": "aroma dulce de flor",
-      "to": "olor a tierra húmeda y hojas muertas"
+      "from": "Presencia calmante",
+      "to": "Presencia que genera miedo y calma simultáneamente"
     }
   ],
   "pokemon_id": "003",

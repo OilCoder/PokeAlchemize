@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Pinza",
-  "lore": "Acero Pinza, con garras de acero templado, camina con paso firme sobre el suelo. Sus patas, ahora cubiertas de placas metálicas, resuenan al pisar. Sus ojos brillan con reflejos de acero, observando cada movimiento con precisión.",
+  "species_name": "Pokémon Acero Crustáceo",
+  "lore": "Pinsir acero se arrastra con garras de acero, su caparazón reluce bajo el sol. Sus patas, ahora endurecidas, crujen al caminar, desafiando a cualquier enemigo con su presencia imponente.",
   "moves": [
     {
-      "name": "Cuchilla de Acero",
-      "desc": "Ataca con garras afiladas de acero, cortando cualquier defensa con precisión.",
-      "name_en": "Steel Blade",
-      "visual_prompt": "shimmering steel claws, razor-sharp edges, metallic blue sparks, polished silver trails, industrial steam vents, neon cyan glow, gunmetal gray mist, electric blue energy arcs"
+      "name": "Corte Acero",
+      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del rival.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, sharp metallic shards, glowing gunmetal gray energy trails, polished chrome reflections, deep steel blue sparks, industrial workshop backdrop of metal surfaces, matte black shadows, dynamic motion lines, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Golpe de Placa",
-      "desc": "Golpea con placas metálicas, causando daño y reduciendo la defensa del oponente.",
-      "name_en": "Metal Plate Strike",
-      "visual_prompt": "shimmering gunmetal gray plates rotating rapidly, polished silver sparks, metallic steel blue energy trails, electric blue shockwaves, neon cyan particle bursts, industrial city skyline glow in background"
+      "name": "Golpe Escudo",
+      "desc": "Eleva su defensa y bloquea ataques físicos por un turno.",
+      "name_en": "Shield Bash",
+      "visual_prompt": "gunmetal gray energy shield, polished chrome reflections, matte black metallic shards, deep steel blue energy lines, industrial workshop background glow, geometric shield pattern, shimmering metallic surface, sharp angular edges"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Crea ondas de vibración metálica que debilitan a los enemigos cercanos.",
-      "name_en": "Metal Resonance",
-      "visual_prompt": "metallic waves, gunmetal gray ripples, polished silver vibrations, electric blue energy pulses, neon cyan harmonic rings, industrial steam vents, geometric wave patterns"
+      "name": "Golpe Cachete",
+      "desc": "Ataca con un golpe rápido de acero, causando daño y posiblemente confundiendo al rival.",
+      "name_en": "Steel Slap",
+      "visual_prompt": "shimmering steel blades slicing through air, polished chrome sparks, gunmetal gray energy trails, deep steel blue glowing lines, matte black metallic fragments, industrial workshop background glow"
     },
     {
-      "name": "Carga de Acero",
-      "desc": "Aumenta su velocidad y fuerza al cargar con placas metálicas.",
+      "name": "Carga Acero",
+      "desc": "Aumenta su ataque y velocidad al cargarse con energía de acero.",
       "name_en": "Steel Charge",
-      "visual_prompt": "glowing gunmetal gray energy trails, polished silver metallic plates spinning rapidly, electric blue sparks, neon cyan motion lines, industrial cityscape backdrop with steam vents, stylized 2D VFX, Ken Sugimori aesthetic"
+      "visual_prompt": "glowing gunmetal gray energy orbs, polished chrome trails, matte black metallic shards, deep steel blue energy lines, industrial workshop backdrop, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
-      "from": "patas de insecto",
-      "to": "patas cubiertas de placas de acero templado"
+      "from": "caparazón de insecto",
+      "to": "caparazón de acero brillante y resistente"
     },
     {
-      "from": "garras afiladas",
-      "to": "garras de acero templado que cortan metales"
+      "from": "patas delgadas",
+      "to": "patas gruesas y afiladas como cuchillas"
     },
     {
       "from": "postura baja",
-      "to": "postura firme con placas metálicas estables"
+      "to": "postura erguida y estable, con patas plantadas firmemente"
     },
     {
-      "from": "color verde oscuro",
-      "to": "color plateado con reflejos metálicos"
+      "from": "movilidad lenta",
+      "to": "movilidad ágil gracias a las patas reforzadas"
     }
   ],
   "pokemon_id": "127",

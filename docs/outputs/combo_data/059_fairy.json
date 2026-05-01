@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Dulce",
-  "lore": "Arcanine, ahora con un aura de hada, reluce con pelaje plateado y ojos brillantes. Sus patas se cubren de pétalos luminosos, y cada zancada libera destellos mágicos que curan heridas.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Arcanine, ahora con alas de cristal, brilla con destellos de luz etérea. Su pelaje dorado se transforma en pétalos brillantes, y sus patas se vuelven delicadas para bailar sobre flores. El tipo hada le otorga una gracia mágica.",
   "moves": [
     {
-      "name": "Zarza de Luna",
-      "desc": "Lanza espinas de luz que sanan a aliados y debilitan a enemigos con su energía mágica.",
-      "name_en": "Lunar Spine",
-      "visual_prompt": "glowing moonlit spines, soft pastel pink petals, ivory white starlight trails, pearl lavender mist, crystalline mint energy orbs, delicate magical glow, ethereal twilight sky backdrop"
+      "name": "Danza de Cristal",
+      "desc": "Crea un baile que lanza cristales brillantes contra el rival, causando daño y confusión.",
+      "name_en": "Crystal Dance",
+      "visual_prompt": "shimmering crystal shards, soft pastel pink light, delicate lavender mist, ivory white sparkles, pearly gold glints, moonlit meadow backdrop, floating geometric crystal formations, ethereal sparkle trails"
     },
     {
-      "name": "Bailarina de Estrellas",
-      "desc": "Crea un baile circular que aumenta la velocidad y evasión de aliados por un turno.",
-      "name_en": "Starlight Waltz",
-      "visual_prompt": "glowing starlight blue orbs swirling in circular motion, soft pastel pink petals floating mid-air, ivory white mist drifting gently, pearl lavender sparkles with crystalline mint accents, delicate moonlit garden backdrop with glowing flowers"
+      "name": "Alas de Luna",
+      "desc": "Aumenta la velocidad y evasión al volar en círculos con alas de luna.",
+      "name_en": "Lunar Wings",
+      "visual_prompt": "glowing crescent moon wings, swirling pastel pink and silver stardust, delicate lavender petals floating in circular motion, soft ivory light trails, shimmering silver mist, ethereal moonlit glow"
     },
     {
-      "name": "Canto de Ceniza",
-      "desc": "Emite un canto que reduce la defensa del enemigo y deja un aura protectora.",
-      "name_en": "Ash Song",
-      "visual_prompt": "floating pastel pink petals, shimmering ivory white aura, pearl lavender mist, glowing starlight blue crystals, crystalline mint light particles, soft misty twilight sky"
+      "name": "Pétalos Mágicos",
+      "desc": "Lanza pétalos que curan a aliados y debilitan al enemigo.",
+      "name_en": "Magic Petals",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white aura, delicate lavender mist, pearly gold sparkles, shimmering silver trails, soft moonlight glow, ethereal fairy lights, misty meadow backdrop"
     },
     {
-      "name": "Fuego de Sueños",
-      "desc": "Genera llamas suaves que envuelven al enemigo, causando daño y confundiendo temporalmente.",
-      "name_en": "Dreamfire",
-      "visual_prompt": "soft pastel pink flames, swirling mist, glowing starlight blue embers, pearl lavender petals, crystalline mint sparkles, moonlit garden backdrop, gentle twirls, ethereal glow"
+      "name": "Resplandor de Sueño",
+      "desc": "Genera un aura de sueño que reduce el ataque y defensa del enemigo.",
+      "name_en": "Dream Glow",
+      "visual_prompt": "soft pastel pink aura, glowing ivory white orbs, delicate lavender mist, pearly gold shimmering particles, silver moonlight beams, floating dreamy petals, ethereal misty meadow background"
     }
   ],
   "diffs": [
     {
-      "from": "Pelaje rojo brillante",
-      "to": "Pelaje plateado con destellos de luz mágica"
+      "from": "Pelaje rojo intenso",
+      "to": "Pelaje dorado convertido en pétalos brillantes"
     },
     {
-      "from": "Postura agresiva y baja",
-      "to": "Postura elegante con patas cubiertas de pétalos brillantes"
+      "from": "Cuatro patas sólidas",
+      "to": "Patas delicadas para bailar sobre flores"
     },
     {
       "from": "Fuego ardiente",
-      "to": "Fuego suave que cura y protege"
+      "to": "Destellos de luz etérea y magia hada"
     },
     {
-      "from": "Ojos amarillos",
-      "to": "Ojos brillantes que reflejan magia de hada"
+      "from": "Aliento de llamas",
+      "to": "Alas de cristal que brillan con luz mágica"
     }
   ],
   "pokemon_id": "059",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Lento",
-  "lore": "Acero Lento camina con pasos pesados, sus patas cubiertas de escamas metálicas que resuenan al pisar. Su piel se ha endurecido en acero, brindando protección contra golpes, mientras sus ojos brillan con una luz fría y calculadora.",
+  "species_name": "Pokémon Acero Pesado",
+  "lore": "Acero Pesado, un Snorlax cubierto de placas de acero, camina con paso lento pero imparable. Sus patas se han endurecido en cuernos metálicos, y su piel brilla con reflejos fríos bajo el sol.",
   "moves": [
     {
-      "name": "Golpe de Acero",
-      "desc": "Ataca con un golpe directo de su cuerpo metálico, elevando el daño y reduciendo la defensa del rival.",
-      "name_en": "Steel Strike",
-      "visual_prompt": "polished steel shards, glowing electric blue energy trails, metallic steam vents, gunmetal gray aura, neon cyan sparks, industrial city skyline silhouette"
-    },
-    {
-      "name": "Escudo de Masa",
-      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido en el siguiente turno.",
+      "name": "Armadura de Acero",
+      "desc": "Cubre al usuario con una capa protectora de acero, aumentando su defensa en un 50%.",
       "name_en": "Steel Shield",
-      "visual_prompt": "gunmetal gray shield with polished silver edges, metallic steel blue energy waves, electric blue glowing cracks, neon cyan particle bursts, industrial city skyline backdrop, steam vent mist"
+      "visual_prompt": "gunmetal gray energy shield, polished chrome surface texture, deep steel blue glowing lines, matte black metallic shards, industrial workshop background glow"
     },
     {
-      "name": "Ruido de Martillo",
-      "desc": "Genera un estruendo metálico que reduce la precisión del oponente.",
-      "name_en": "Hammer Noise",
-      "visual_prompt": "metallic thunderclap, jagged steel shards, gunmetal gray shockwaves, polished silver sparks, neon cyan energy trails, industrial city skyline backdrop"
+      "name": "Golpe de Carga",
+      "desc": "Ataca con un impacto frontal, causando daño y posiblemente paralizando al rival.",
+      "name_en": "Charge Impact",
+      "visual_prompt": "shimmering steel orbs colliding in mid-air, jagged energy sparks, polished chrome trails, gunmetal gray shockwaves, deep steel blue light pulses, industrial metal debris floating in zero gravity"
     },
     {
-      "name": "Carga de Hierro",
-      "desc": "Aumenta el ataque y la defensa en un 50% durante un turno.",
-      "name_en": "Iron Charge",
-      "visual_prompt": "polished steel orbs rotating in a spiral, glowing gunmetal gray energy trails, metallic steam vents releasing electric blue sparks, neon cyan light reflections on polished surfaces, industrial city skyline silhouette in background"
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan la defensa del oponente.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished chrome ripples, deep steel blue energy lines, matte black industrial texture, geometric distortion patterns, shimmering metallic particles"
+    },
+    {
+      "name": "Fuerza Cibernética",
+      "desc": "Aumenta el poder del siguiente ataque físico en un 30%.",
+      "name_en": "Cyber Strength",
+      "visual_prompt": "glowing gunmetal gray energy waves, polished chrome spirals, deep steel blue energy lines, matte black metallic shards, industrial workshop background with reflective surfaces"
     }
   ],
   "diffs": [
     {
-      "from": "piel suave y blanda",
-      "to": "piel endurecida en acero, resistente a golpes"
+      "from": "piel blanda y suave",
+      "to": "cubierta de placas de acero resistentes"
+    },
+    {
+      "from": "caminar con paso lento",
+      "to": "moverse con paso pesado y resonante"
     },
     {
       "from": "patas blandas",
-      "to": "patas cubiertas de escamas metálicas"
+      "to": "patas endurecidas en cuernos metálicos"
     },
     {
-      "from": "actitud tranquila",
-      "to": "actitud calculadora y alerta"
-    },
-    {
-      "from": "movimientos lentos",
-      "to": "movimientos pesados pero precisos"
+      "from": "poco resistente a daños",
+      "to": "extremadamente resistente a ataques físicos"
     }
   ],
   "pokemon_id": "143",

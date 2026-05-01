@@ -1,33 +1,34 @@
 {
   "identity_traits": [
-    "rounded head shape",
-    "short stubby legs",
-    "curled tail tip",
-    "spiky protrusions on head",
-    "bulbous eyes"
+    "robust quadrupedal build",
+    "prominent pointed ears",
+    "bulbous eyes",
+    "sharp teeth visible in open mouth",
+    "long tail with bulbous tip",
+    "purple and white coloration"
   ],
   "original_type_traits": [
-    "sharp teeth",
-    "sharp claws",
-    "purple body color (poison association)"
+    "no specific type markers visible (ground and poison types not visually represented in sprite)",
+    "purple coloration (common in poison-type Pokémon)",
+    "dark purple accents (common in ground-type Pokémon for earthy tones)"
   ],
   "transformable_parts": [
-    "tail tip",
-    "head spiky protrusions",
-    "claws",
-    "skin texture",
-    "eye shape",
-    "body color"
+    "tail tip bulb",
+    "ear shape and size",
+    "skin texture (smooth vs. rough)",
+    "eye shape and size",
+    "tooth shape and arrangement",
+    "body coloration patterns"
   ],
   "suppress_colors": [
     "purple",
-    "white",
-    "gray"
+    "dark purple",
+    "white"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "spiky protrusions on head, short and sharp",
-    "bulbous eyes, large and round, prominent"
+    "quadruped, four legs planted on ground",
+    "pointed ears with rounded tips",
+    "bulbous eyes with dark pupils"
   ],
   "pokemon_id": "034",
   "pokemon_name": "nidoking",
@@ -39,21 +40,25 @@
     "body_colors": [
       "purple",
       "white",
-      "gray"
+      "dark purple"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "legs",
+      "tail",
+      "ears",
+      "teeth"
     ],
-    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and short legs, giving it a robust and powerful appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The Pokémon has a robust, quadrupedal body with a large head, prominent ears, and a long tail.",
     "type_markers": [
-      "sharp teeth",
-      "sharp claws"
+      "no specific type markers visible"
     ],
     "distinctive_features": [
-      "spiky protrusions on head",
+      "large, pointed ears",
+      "sharp teeth",
       "bulbous eyes"
     ]
   }

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Sombra Celestial",
-  "lore": "Sombra Celestial camina con pasos etéreos, sus patas traseras se funden en sombras mientras sus patas delanteras brillan con luz lunar. Su cuerpo translúcido refleja la luz de las estrellas, y su sonrisa serena ahora emana un aura fría y misteriosa.",
+  "species_name": "Pokémon Fantasma Marítimo",
+  "lore": "Chansey flota sobre el agua, sus patas se han convertido en sombras translúcidas. Su cuerpo emite un brillo tenue, y sus ojos brillan con un resplandor azulado en la oscuridad.",
   "moves": [
     {
-      "name": "Susurro de la Noche",
-      "desc": "El Pokémon envía ondas de energía oscura que reducen la defensa del oponente.",
-      "name_en": "Night Whisper",
-      "visual_prompt": "shadowy mist swirling in deep violet and charcoal gray, ghostly white orbs floating with pale silver trails, ethereal fog drifting over moonlit tombstones, subtle glowing violet energy waves, dark violet ripples in mist"
+      "name": "Sombra de Ola",
+      "desc": "Lanza una sombra que se disuelve en el agua, confundiendo al rival.",
+      "name_en": "Wave Shadow",
+      "visual_prompt": "translucent spectral orbs dissolving into icy blue water ripples, pale silver mist swirling, moonlight gray fog, ghostly frost patterns, ethereal moonlit ruins backdrop"
     },
     {
-      "name": "Círculo de Sombras",
-      "desc": "Crea un círculo de sombras alrededor del oponente, limitando sus movimientos por un turno.",
-      "name_en": "Shadow Circle",
-      "visual_prompt": "vibrant violet shadow circle, swirling charcoal mist, pale silver moonlight beams, ghostly white energy trails, ethereal fog particles, decaying tombstone outlines in background"
+      "name": "Espectro de Mar",
+      "desc": "Crea una ola de sombras que envuelve al oponente, reduciendo su velocidad.",
+      "name_en": "Shadow Wave",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, pale silver mist swirling, icy blue shadow waves enveloping air, ghostly frost patterns, moonlight gray translucency"
     },
     {
-      "name": "Luz Lunar",
-      "desc": "Aumenta la precisión del ataque del Pokémon con un brillo suave.",
-      "name_en": "Lunar Light",
-      "visual_prompt": "soft glowing violet orbs floating in mist, ethereal silver moonlight beams, pale silver particles drifting through shadow violet fog, ghostly white aura surrounding orbs, deep violet misty graveyard background"
+      "name": "Resplandor Fantasmal",
+      "desc": "Emite un brillo azulado que cura a aliados y debilita enemigos.",
+      "name_en": "Phantom Glow",
+      "visual_prompt": "translucent icy blue orbs floating in moonlit ruins, spectral white mist swirling, pale silver light beams, frozen moonlight shards, ghostly translucent glow effect, drifting spectral particles"
     },
     {
-      "name": "Eclipse Silencioso",
-      "desc": "Ataca con un ataque rápido que evita que el oponente reaccione.",
-      "name_en": "Silent Eclipse",
-      "visual_prompt": "shadowy crescent moon, drifting mist, pale silver crescent shards, deep violet aura, ghostly white mist swirls, charcoal gray particles, ethereal fog, moonlit tombstone silhouette in background"
+      "name": "Eclipse Acuático",
+      "desc": "Cubre el campo con una oscuridad acuática, bloqueando los ataques.",
+      "name_en": "Water Eclipse",
+      "visual_prompt": "translucent icy blue mist, spectral white orbs drifting, moonlight gray shadows, pale silver water ripples, frozen moonlight glow, ghostly water droplets, misty ruins backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "patas plantadas en el suelo",
-      "to": "patas traseras fundidas en sombras, patas delanteras brillantes"
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas convertidas en sombras translúcidas que flotan sobre el agua"
     },
     {
-      "from": "sonrisa tranquila",
-      "to": "sonrisa serena con aura fría y misteriosa"
+      "from": "Cuerpo redondo y blando",
+      "to": "Cuerpo translúcido con brillo azulado en la oscuridad"
     },
     {
-      "from": "cuerpo sólido",
-      "to": "cuerpo translúcido que refleja luz estelar"
+      "from": "Ojos normales",
+      "to": "Ojos brillantes con resplandor azulado en la oscuridad"
     },
     {
-      "from": "movimientos lentos",
-      "to": "pasos etéreos y movimientos silenciosos"
+      "from": "Movimientos de curación",
+      "to": "Movimientos que curan y debilitan usando sombras acuáticas"
     }
   ],
   "pokemon_id": "113",

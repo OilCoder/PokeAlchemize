@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Ceniza",
-  "lore": "Flor de Ceniza se alza con pétalos brillantes que emanan brillo celestial. Sus patas, antes terrosas, ahora brillan con polvo de hada, elevándolo en un movimiento etéreo. Su aroma, antes venenoso, se ha suavizado en fragancia celestial.",
+  "species_name": "Pokémon Flor de Bruma",
+  "lore": "Flor de Bruma se balancea con gracia sobre sus patas, sus pétalos brillan con un resplandor etéreo. Su aroma dulce y venenoso ahora atrae a criaturas de sueños, transformando el suelo en un campo de ensueño.",
   "moves": [
     {
-      "name": "Pétalo de Sueño",
-      "desc": "Cubre al oponente con pétalos que inducen sueños suaves, reduciendo su velocidad.",
-      "name_en": "Dream Petal",
-      "visual_prompt": "floating pastel pink petals, soft ivory white mist, pearl lavender glow, starlight blue crystalline dewdrops, gentle swirling motion, moonlit garden backdrop"
+      "name": "Polvo de Luna",
+      "desc": "Lanza un polvo que induce sueños a los oponentes, reduciendo su velocidad durante 2 turnos.",
+      "name_en": "Moon Dust",
+      "visual_prompt": "glowing pastel pink fairy dust particles, delicate lavender mist, shimmering silver moonbeams, ivory white sparkles, floating dreamy orbs, soft glowing halos, ethereal moonlit meadow background"
     },
     {
-      "name": "Polvo de Estrellas",
-      "desc": "Lanza un polvo brillante que cura debilidades y aumenta la precisión.",
-      "name_en": "Star Dust",
-      "visual_prompt": "glowing pastel pink star particles, soft ivory white sparkle trails, pearl lavender shimmering motes, starlight blue crystalline fragments, mint green glowing dust swirls, ethereal moonlit garden backdrop, misty twilight ambiance"
+      "name": "Brisa Encantada",
+      "desc": "Crea una brisa que cura el estado de malformación en aliados y reduce el daño recibido.",
+      "name_en": "Enchanted Breeze",
+      "visual_prompt": "gentle pastel pink mist swirling with delicate lavender petals, shimmering silver fairy lights, ivory white glow, soft pearly gold accents, ethereal wind currents, no characters or Pokémon"
     },
     {
-      "name": "Danza de Lunares",
-      "desc": "Baila en círculos, creando lunares brillantes que confunden al rival.",
-      "name_en": "Spotlight Waltz",
-      "visual_prompt": "glowing pastel pink moonspots, swirling lavender starlight trails, crystalline mint mist, floating ivory-white orbs, soft twilight sky background"
+      "name": "Canto de Amanecer",
+      "desc": "Un canto que restaura la energía de aliados y aumenta su ataque durante 3 turnos.",
+      "name_en": "Dawn Chime",
+      "visual_prompt": "glowing pastel pink and lavender fairy lights, floating dewdrop orbs, shimmering silver mist, delicate floral patterns, soft ivory-white energy waves, gentle moonlight beams"
     },
     {
-      "name": "Aliento de Ceniza",
-      "desc": "Exhala una nube de cenizas que cura y protege a aliados.",
-      "name_en": "Ash Breath",
-      "visual_prompt": "soft pastel pink ash particles drifting upward, ivory white glowing embers, pearl lavender mist swirling, crystalline mint protective aura, starlight blue sparkles, moonlit garden backdrop with glowing flowers"
+      "name": "Pétalos de Sueño",
+      "desc": "Lanza pétalos que causan sueño en el oponente con un 30% de probabilidad.",
+      "name_en": "Dream Petals",
+      "visual_prompt": "floating pastel pink petals, delicate lavender glow, shimmering silver mist, ivory white light trails, soft moonlight, ethereal fairy lights, gentle motion blur"
     }
   ],
   "diffs": [
     {
       "from": "Pétalos verdes y venenosos",
-      "to": "Pétalos brillantes con brillo celestial y aroma suave"
-    },
-    {
-      "from": "Patas terrosas",
-      "to": "Patas brillantes con polvo de hada que le permiten moverse etéreamente"
+      "to": "Pétalos brillantes con destellos plateados y un aroma dulce"
     },
     {
       "from": "Aroma venenoso",
-      "to": "Aroma suave de fragancia celestial"
+      "to": "Aroma que induce sueños y atrae criaturas místicas"
     },
     {
-      "from": "Postura baja en el suelo",
-      "to": "Postura elevada con un movimiento ligero y etéreo"
+      "from": "Patas sólidas en el suelo",
+      "to": "Patas que brillan con luz celestial al moverse"
+    },
+    {
+      "from": "Crecimiento lento en suelos tóxicos",
+      "to": "Crecimiento rápido en campos de sueños mágicos"
     }
   ],
   "pokemon_id": "043",

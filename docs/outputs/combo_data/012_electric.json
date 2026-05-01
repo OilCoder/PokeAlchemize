@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Alada",
-  "lore": "Chispa Alada vuela con alas cargadas de energía eléctrica, brillando como estrellas fugaces. Sus alas, antes transparentes, ahora resplandecen con destellos azules y amarillos, generando chispas al moverse.",
+  "species_name": "Pokémon Chispas Aéreas",
+  "lore": "Chispas Aéreas emite destellos eléctricos desde sus alas, que brillan como luces de neón. Sus patas delgadas ahora generan chispas al caminar, y su cuerpo translúcido muestra circuitos internos que pulsan con energía.",
   "moves": [
     {
-      "name": "Chispa Danzante",
-      "desc": "Genera una lluvia de chispas que confunden al enemigo mientras se desplaza en espiral.",
-      "name_en": "Dancing Spark",
-      "visual_prompt": "electric blue spiral trail, neon yellow sparks raining down, violet energy sparks, bright white crackling arcs, electric cyan storm clouds, dynamic swirling motion"
+      "name": "Descarga de Polen",
+      "desc": "Lanza polen cargado eléctricamente que paraliza al oponente con una descarga suave.",
+      "name_en": "Electric Pollen",
+      "visual_prompt": "vibrant electric blue pollen clouds, neon yellow electric arcs, crisp white energy pulses, bright electric white sparks, pale blue glowing pollen particles, urban city skyline silhouette in background, flickering neon signs"
     },
     {
-      "name": "Ala Relámpago",
-      "desc": "Ataca con un impacto de energía eléctrica que acelera el movimiento del usuario.",
-      "name_en": "Lightning Wing",
-      "visual_prompt": "crackling electric blue energy trails, neon yellow lightning bolts, violet sparks, bright white static bursts, electric cyan storm clouds, dynamic energy field swirls"
+      "name": "Vuelo de Centella",
+      "desc": "Vuela rápidamente hacia el enemigo, dejando un rastro de chispas que daña con electricidad.",
+      "name_en": "Spark Flight",
+      "visual_prompt": "electric blue streaks, neon yellow sparks, crisp white energy trails, bright electric white shockwaves, pale blue glow effects, urban city skyline silhouette in background, flickering neon signs"
     },
     {
-      "name": "Polvo Estelar",
-      "desc": "Lanza un polvo brillante que aumenta la precisión de los ataques futuros.",
-      "name_en": "Star Dust",
-      "visual_prompt": "electric blue sparkles, neon yellow streaks, violet lightning bolts, bright white energy particles, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Pétalos Estáticos",
+      "desc": "Lanza pétalos eléctricos que aumentan el daño de los ataques eléctricos.",
+      "name_en": "Static Petals",
+      "visual_prompt": "electric blue petals with neon yellow sparks, crisp white energy trails, bright electric white glowing particles, pale blue static arcs, urban city skyline background with flickering neon signs"
     },
     {
-      "name": "Vuelo Electrónico",
-      "desc": "Vuela rápidamente hacia el enemigo, causando daño eléctrico en el impacto.",
-      "name_en": "Electro Flight",
-      "visual_prompt": "crackling electric blue lightning bolts, neon yellow energy trails, violet sparks scattering, bright white shockwaves, electric cyan storm clouds, dynamic motion lines"
+      "name": "Bomba de Electrón",
+      "desc": "Genera una bola de energía eléctrica que explota al impactar, causando daño masivo.",
+      "name_en": "Electron Bomb",
+      "visual_prompt": "vibrant electric blue energy orb, neon yellow lightning bolts, crisp white shockwave ripples, bright electric white explosion particles, pale blue glow radiating outward"
     }
   ],
   "diffs": [
     {
-      "from": "Alas transparentes",
-      "to": "Alas resplandecientes con destellos azules y amarillos"
+      "from": "Alas de mariposa",
+      "to": "Alas brillantes que emiten chispas eléctricas y generan un campo electromagnético."
     },
     {
-      "from": "Vuelo suave y ligero",
-      "to": "Vuelo acelerado con chispas eléctricas"
+      "from": "Cuerpo translúcido",
+      "to": "Cuerpo con circuitos internos visibles que pulsan con energía eléctrica."
     },
     {
-      "from": "Cuerpo ligero y frágil",
-      "to": "Cuerpo cargado de energía eléctrica, resistente a golpes"
+      "from": "Patas delgadas",
+      "to": "Patas que generan chispas al caminar, mejorando la movilidad."
     },
     {
-      "from": "Atracción a flores",
-      "to": "Atracción a campos magnéticos y fuentes de electricidad"
+      "from": "Polen suave",
+      "to": "Polen cargado eléctricamente que paraliza al contacto."
     }
   ],
   "pokemon_id": "012",

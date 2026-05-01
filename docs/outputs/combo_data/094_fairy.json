@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Ceniza de Hada",
-  "lore": "Ceniza de Hada se erige con esqueleto plateado iluminado por destellos de luz de hada. Sus patas, antes de sombra, ahora brillan con destellos de cristal. Su aura envuelve a enemigos en sueños etéreos.",
+  "species_name": "Pokémon Aliento de Hada",
+  "lore": "Aliento de Hada flota en un aura de cristales brillantes, sus ojos brillan con magia etérea. Sus rasgos púrpura se funden con destellos dorados, irradiando dulzura y misterio en cada movimiento.",
   "moves": [
     {
-      "name": "Danza de los Sueños",
-      "desc": "Invoca un baile de hadas que confunde al oponente con ilusiones de sueños dorados.",
-      "name_en": "Dream Dance",
-      "visual_prompt": "floating golden dream illusions, soft pastel pink and pearl lavender mist, glowing starlight blue petals, crystalline mint light trails, delicate fairy wings shimmering in moonlight, ethereal glow, no characters, no Pokémon"
+      "name": "Canto de la Luna",
+      "desc": "Canta un himno celestial que cura heridas y calma a aliados en combate.",
+      "name_en": "Lunar Serenade",
+      "visual_prompt": "glowing moonlit petals, soft pastel pink and ivory white light rays, delicate lavender mist, pearly gold starlight, shimmering silver sparkles, floating musical notes, ethereal fairy lights, misty flower fields"
     },
     {
-      "name": "Besos de Cristal",
-      "desc": "Lanza besos brillantes que atrapan al rival en un cristal mágico, reduciendo su velocidad.",
-      "name_en": "Crystal Kiss",
-      "visual_prompt": "glowing pastel pink crystal shards, floating starlight blue orbs, delicate ivory white mist, shimmering lavender sparkles, crystalline mint light trails, ethereal moonlit garden backdrop"
+      "name": "Beso de Estrellas",
+      "desc": "Ataca con besos luminosos que confunden al oponente y reducen su precisión.",
+      "name_en": "Starlight Kiss",
+      "visual_prompt": "glowing pastel pink star-shaped orbs, delicate lavender mist, shimmering silver sparkles, ivory white light trails, soft pearly glow, ethereal moonlit meadow backdrop, floating fairy lights, subtle precision-reducing visual distortion effect"
     },
     {
-      "name": "Viento de la Luna",
-      "desc": "Crea un viento suave que eleva al oponente y lo envuelve en una red de luz lunar.",
-      "name_en": "Moonlight Gale",
-      "visual_prompt": "soft pastel pink wind currents, ivory white glowing light net, pearl lavender moonbeams, glowing starlight blue mist, crystalline mint leaf patterns, delicate floating petals, ethereal moon garden backdrop"
+      "name": "Danza de la Aurora",
+      "desc": "Danza en espiral, creando un campo de luz que aumenta el ataque de aliados.",
+      "name_en": "Aurora Dance",
+      "visual_prompt": "spiral light patterns, glowing pastel pink and lavender orbs, delicate ivory white mist, shimmering silver trails, pearly gold accents, ethereal moonlit meadow backdrop"
     },
     {
-      "name": "Luz de la Esperanza",
-      "desc": "Emite un resplandor que restaura la salud de aliados cercanos y debilita a enemigos.",
-      "name_en": "Hope's Light",
-      "visual_prompt": "soft pastel pink glowing orbs, ivory white mist, pearl lavender petals floating upward, glowing starlight blue energy rings, crystalline mint light trails, moonlit garden backdrop, soft misty twilight atmosphere"
+      "name": "Sueño de Cristal",
+      "desc": "Sumerge al oponente en un sueño cristalino, bloqueando sus movimientos por turnos.",
+      "name_en": "Crystal Dream",
+      "visual_prompt": "crystalline dream orbs floating in moonlit meadow, soft pastel pink and ivory white light, delicate lavender mist, pearly gold shimmer, shimmering silver crystal shards, intricate geometric patterns, ethereal glow, no characters, no Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "patas de sombra",
-      "to": "patas brillantes de cristal que resplandecen bajo la luz de la luna"
+      "from": "Cuerpo flotante sin contacto con el suelo",
+      "to": "Flota sobre un manto de cristales brillantes que emiten destellos dorados"
     },
     {
-      "from": "aura oscura",
-      "to": "aura envolvente de sueños etéreos que confunde al enemigo"
+      "from": "Ojos púrpura brillantes",
+      "to": "Ojos brillan con una luz etérea de colores pastel"
     },
     {
-      "from": "forma esquelética",
-      "to": "estructura plateada iluminada por destellos de hada"
+      "from": "Rasgos de veneno y fantasma",
+      "to": "Se transforman en una aura de magia dulce y misteriosa"
     },
     {
-      "from": "movimientos de veneno",
-      "to": "ataques basados en sueños y cristales que no causan veneno"
+      "from": "Amenaza oscura",
+      "to": "Se convierte en una presencia tranquila y atractiva para aliados"
     }
   ],
   "pokemon_id": "094",

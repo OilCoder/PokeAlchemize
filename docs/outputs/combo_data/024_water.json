@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Arbok, ahora envuelto en ondas acuáticas, despliega escamas brillantes que reflejan el mar. Su cuerpo serpentea con fluidez, emitiendo burbujas al moverse. El veneno se transforma en un fluido cristalino que purifica el agua.",
+  "species_name": "Pokémon Agua Serpiente",
+  "lore": "Arbok, ahora envuelto en una capa de agua brillante, desliza su cuerpo sin huesos con movimientos fluidos. Sus escamas absorben el agua, brillando como perlas bajo el sol.",
   "moves": [
     {
       "name": "Ola Venenosa",
-      "desc": "Lanza una ola de líquido brillante que envenena al rival al tocarlo.",
+      "desc": "Lanza ondas de agua contaminada que envenenan al rival con toxinas disueltas.",
       "name_en": "Poison Wave",
-      "visual_prompt": "glowing venomous blue-green liquid wave, shimmering pearly white bubbles, bioluminescent teal plankton particles, swirling aquamarine currents, deep sapphire blue background, translucent toxic mist"
+      "visual_prompt": "contaminated water waves, toxic green toxins dissolving in teal water, shimmering pearly white bubbles, deep ocean blue ripples, sapphire blue light refracting through murky water"
     },
     {
-      "name": "Burbuja Purificadora",
-      "desc": "Crea burbujas que limpian el agua y curan a aliados en combate.",
-      "name_en": "Purifying Bubble",
-      "visual_prompt": "glowing teal bubbles, shimmering aquamarine water currents, pearly white cleansing light, deep ocean blue background, bioluminescent plankton particles, smooth flowing motion"
+      "name": "Marea de Escamas",
+      "desc": "Genera una ola de escamas que golpea al enemigo, aumentando el daño con cada golpe.",
+      "name_en": "Scale Surge",
+      "visual_prompt": "shimmering water droplets, cascading scales, deep ocean blue waves, teal ripples, pearly white foam, sapphire blue light rays, gentle ocean surface, soft blue sunlight"
     },
     {
-      "name": "Serpiente de Mar",
-      "desc": "Se envuelve en una corriente acuática, aumentando su velocidad y evasión.",
-      "name_en": "Sea Serpent",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue currents, teal green water ripples, pearly white mist trails, aquamarine wave patterns, sapphire blue motion lines"
+      "name": "Respiración Acuática",
+      "desc": "Recupera salud mientras absorbe agua del ambiente para regenerarse.",
+      "name_en": "Aquatic Breath",
+      "visual_prompt": "gentle water droplets rising, swirling currents in deep ocean blue, pearly white bubbles, teal ripples, soft sapphire light rays, calm ocean surface glow"
     },
     {
-      "name": "Agua Venenosa",
-      "desc": "Dispara un chorro de agua cargado de toxinas que debilita al enemigo.",
-      "name_en": "Poison Water",
-      "visual_prompt": "toxic water jet, swirling green toxins, deep ocean blue droplets, bioluminescent plankton glow, teal green mist, pearly white bubbles, aquamarine ripples"
+      "name": "Cascada de Veneno",
+      "desc": "Crea una cascada de agua tóxica que ataca al rival y reduce su velocidad.",
+      "name_en": "Toxic Cascade",
+      "visual_prompt": "toxic green water droplets, swirling deep ocean blue currents, teal mist veils, pearly white foam bubbles, sapphire blue ripples, pale aquamarine glowing particles, gentle wave patterns"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo serpenteante en suelos secos",
-      "to": "Cuerpo envuelto en ondas acuáticas, desplazándose con fluidez en el agua."
+      "from": "Cuerpo serpenteante sin extremidades",
+      "to": "Cuerpo envuelto en una capa de agua brillante que fluye con cada movimiento."
     },
     {
-      "from": "Veneno letal en sus colmillos",
-      "to": "Veneno transformado en fluido cristalino que purifica el agua."
+      "from": "Escamas opacas y venenosas",
+      "to": "Escamas que absorben agua, brillando como perlas bajo el sol."
     },
     {
-      "from": "Postura baja en el suelo",
-      "to": "Desplazamiento suave en el agua, con ondas que generan burbujas."
+      "from": "Movimientos lentos y torpes",
+      "to": "Movimientos fluidos y rápidos, deslizándose en el agua como una corriente."
     },
     {
-      "from": "Escamas opacas",
-      "to": "Escamas brillantes que reflejan el mar y atraen a otros peces."
+      "from": "Veneno en la piel",
+      "to": "Veneno disuelto en el agua que rodea su cuerpo, contaminando el ambiente."
     }
   ],
   "pokemon_id": "024",

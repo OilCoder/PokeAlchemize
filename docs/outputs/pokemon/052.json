@@ -1,32 +1,33 @@
 {
   "identity_traits": [
-    "feline face with prominent whiskers",
-    "rounded ears with black tips",
-    "stocky, muscular build",
-    "paws with black gloves",
-    "tail with a distinct black tip"
+    "cat-like face with pointed ears",
+    "striped tail pattern",
+    "muscular arm structure",
+    "rounded body silhouette",
+    "four-legged stance",
+    "pale cream and brown coloration"
   ],
   "original_type_traits": [
-    "no specific type markers since it's normal type"
+    "none visible",
+    "no type markers present"
   ],
   "transformable_parts": [
-    "tail tip",
-    "paw gloves",
-    "ear tips",
-    "body fur texture",
-    "facial markings",
-    "eye shape and color"
+    "tail pattern",
+    "ear shape",
+    "body coloration",
+    "arm musculature",
+    "head shape",
+    "nose structure"
   ],
   "suppress_colors": [
-    "orange body",
-    "black gloves",
-    "white chest",
-    "gray tail"
+    "pale cream",
+    "brown",
+    "black"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, low stance",
-    "feline face with long whiskers",
-    "black-tipped ears and tail"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "pointed ears with slight curve at tips",
+    "striped tail with alternating light and dark bands"
   ],
   "pokemon_id": "052",
   "pokemon_name": "meowth",
@@ -34,6 +35,31 @@
     "normal"
   ],
   "visual_facts": {
-    ">×</<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n```json\n\n\n```json\n```json\n```json\n\n\n\n\n\n```json\n\n```json\n\n```json\n\n\n\n\n\n\n```json\n```json\n{\n\n  ": "json\n\n  "
+    "body_colors": [
+      "pale cream",
+      "brown",
+      "black"
+    ],
+    "body_parts": [
+      "head",
+      "ears",
+      "eyes",
+      "nose",
+      "mouth",
+      "body",
+      "arms",
+      "legs",
+      "tail"
+    ],
+    "body_plan": "quadruped",
+    "silhouette": "The silhouette is that of a cat-like creature with a rounded body, four legs, and a tail.",
+    "type_markers": [
+      "none visible"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "striped tail",
+      "muscular arms"
+    ]
   }
 }

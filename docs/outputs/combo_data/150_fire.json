@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Psíquica",
-  "lore": "Mewtwo, ahora con llamas psíquicas en sus extremidades, camina con postura erguida. Sus ojos brillan con fuego mental, y su aura emana calor mientras proyecta energías ardientes.",
+  "lore": "Mewtwo, ahora envuelto en llamas psíquicas, camina con cuatro patas llameantes. Sus ojos brillan con fuego mental, y su aura incendia el aire a su alrededor. Cada paso genera destellos de energía pura.",
   "moves": [
     {
       "name": "Llama Psíquica",
-      "desc": "Lanza llamas controladas por la mente, quemando al oponente con fuerza psíquica.",
-      "name_en": "Mental Flame",
-      "visual_prompt": "crimson red psychic energy tendrils, molten gold embers swirling in psychic patterns, amber orange fire orbs floating mid-air, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop with magma pools"
+      "desc": "Lanza una bola de fuego controlada por la mente, quemando y confundiendo al rival.",
+      "name_en": "Psychic Flame",
+      "visual_prompt": "crimson fire orb, molten gold energy trails, swirling smoke rings, ember-lit sky backdrop, charcoal black smoke wisps, glowing orange sparks, stylized Ken Sugimori fire VFX"
     },
     {
-      "name": "Fuego Mental",
-      "desc": "Genera un campo de fuego mental que quema y confunde al rival.",
-      "name_en": "Mental Fire",
-      "visual_prompt": "crimson red flames, molten gold embers, swirling smoke patterns, glowing amber energy rings, charcoal black smoke tendrils, volcanic crater backdrop"
+      "name": "Tormento Ardiente",
+      "desc": "Genera un campo de llamas que aumenta el daño de fuego y reduce la defensa del oponente.",
+      "name_en": "Blazing Torment",
+      "visual_prompt": "crimson flame vortex, molten gold embers swirling, bright orange lava streams, charcoal black smoke tendrils, amber glow radiating outward"
     },
     {
-      "name": "Eclipse Psíquico",
-      "desc": "Cubre al oponente con una sombra de fuego que reduce su defensa.",
-      "name_en": "Psychic Eclipse",
-      "visual_prompt": "crimson fire shadows, molten gold embers swirling, volcanic smoke trails, charcoal black smoke veils, glowing ember particles, dynamic fire vortex"
+      "name": "Mente en Llamas",
+      "desc": "Aumenta el poder de los ataques psíquicos mientras el usuario está en llamas.",
+      "name_en": "Mind in Flames",
+      "visual_prompt": "crimson fire whirls, molten gold psychic orbs, ember-lit smoke trails, glowing lava flows, charred black ash particles, vibrant orange energy bursts"
     },
     {
       "name": "Combustión Mental",
-      "desc": "Aumenta el daño de los ataques con fuego al mismo tiempo que se cura.",
+      "desc": "Ataca con una explosión de fuego psíquico que quema y derriba al enemigo.",
       "name_en": "Mental Blaze",
-      "visual_prompt": "crimson red flames, amber orange embers, molten gold energy swirls, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, dynamic fire vortex, intense heat distortion"
+      "visual_prompt": "crimson fire orbs swirling with psychic energy, molten gold embers floating in ash-filled air, volcanic crater background with glowing lava flows, ember-lit smoky sky, intense amber glow radiating outward"
     }
   ],
   "diffs": [
     {
-      "from": "Bipedal, upright stance, arms at sides",
-      "to": "Extremidades envueltas en llamas psíquicas, postura más firme."
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas envueltas en llamas que dejan huellas de fuego al caminar"
     },
     {
       "from": "Ojos brillantes",
-      "to": "Ojos emiten llamas azules que reflejan su mente activa."
+      "to": "Ojos que emiten destellos de llama y controlan el fuego con la mente"
     },
     {
       "from": "Aurora psíquica",
-      "to": "Aura de calor intenso que quema a los enemigos cercanos."
+      "to": "Aura de llamas que quema el aire y aumenta el calor ambiental"
     },
     {
-      "from": "Fuerza psíquica",
-      "to": "Fuerza combinada con fuego, generando ataques de calor y psiquis."
+      "from": "Energía psíquica pura",
+      "to": "Energía convertida en llama psíquica que quema y controla"
     }
   ],
   "pokemon_id": "150",

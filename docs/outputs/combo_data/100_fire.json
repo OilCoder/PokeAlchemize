@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Voltorb",
-  "lore": "El Voltorb arde con una llama interior que late al ritmo de su energía eléctrica. Sus patas cortas brillan con llamas doradas, mientras su cuerpo esférico emite destellos de chispas rojas. Su presencia calienta el aire a su alrededor.",
+  "species_name": "Pokémon Llama Infernal",
+  "lore": "Llama Infernal es un globo de fuego danzante que late con intensidad. Su cuerpo amorfoso se fusiona con llamas rojizas que brillan en la oscuridad, despidiendo calor abrasador. Sus ojos llameantes observan con misterio.",
   "moves": [
     {
-      "name": "Chispa Incendia",
-      "desc": "Lanza una bola de chispas ardientes que inflama el área afectada, causando daño adicional por fuego.",
-      "name_en": "Blaze Spark",
-      "visual_prompt": "crimson red fire orbs, molten gold embers, amber orange flame trails, volcanic ash particles, glowing ember sparks, charred black smoke swirls"
+      "name": "Bola de Llama",
+      "desc": "Lanza una bola de fuego ardiente que quema al objetivo con intensidad.",
+      "name_en": "Flame Ball",
+      "visual_prompt": "crimson fire orb, molten gold embers, bright orange flame trails, smoky ash swirls, volcanic crater backdrop, ember-lit sky glow"
     },
     {
-      "name": "Explosión Llama",
-      "desc": "Carga energía interna y estalla en una explosión de llamas, atacando a todos los enemigos cercanos.",
-      "name_en": "Flame Burst",
-      "visual_prompt": "crimson red fire orbs, molten gold embers, volcanic ash swirls, amber orange explosion burst, charcoal black smoke tendrils, glowing ember particles"
+      "name": "Resplandor Cercano",
+      "desc": "Aumenta el brillo de las llamas para cegar al rival y reducir su precisión.",
+      "name_en": "Near Glow",
+      "visual_prompt": "crimson fire orbs swirling in molten gold patterns, bright orange embers floating in smoky air, sharp amber light beams piercing through charcoal black smoke, glowing lava flow reflections on dark surface"
     },
     {
-      "name": "Resplandor Caliente",
-      "desc": "Emite un brillo intenso que quema a los oponentes y reduce su defensa por el calor.",
-      "name_en": "Hot Radiance",
-      "visual_prompt": "crimson fire aura, molten gold embers swirling, intense amber light beams, volcanic smoke wisps, charcoal black heat distortion, glowing ember particles"
+      "name": "Fuego de Viento",
+      "desc": "Genera una ráfaga de llamas que impulsa al rival hacia atrás.",
+      "name_en": "Windfire Blast",
+      "visual_prompt": "crimson red flames swirling in a vortex, molten gold embers rising, bright orange wind gusts, charcoal black smoke trails, volcanic crater backdrop with glowing lava flows"
     },
     {
-      "name": "Chispa Fuego",
-      "desc": "Dispara un rayo de chispas que quema al objetivo, combinando electricidad y fuego.",
-      "name_en": "Fire Spark",
-      "visual_prompt": "crimson red lightning bolts, molten gold embers, amber orange sparks, charcoal black smoke trails, glowing magma pools, volcanic crater background"
+      "name": "Explosión Caliente",
+      "desc": "Causa daño masivo al explotar en una llamarada destructiva.",
+      "name_en": "Hot Explosion",
+      "visual_prompt": "crimson fire explosion, molten gold embers, bright orange lava flows, smoky sky with ember glow, charcoal black ash particles, dynamic fire burst, stylized Ken Sugimori fire VFX"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo esférico de Voltorb",
-      "to": "Cuerpo esférico con llamas interiores que late como un corazón de fuego."
+      "from": "Cuerpo amorfoso",
+      "to": "Se funde en una masa de llamas rojizas con forma fluctuante"
     },
     {
-      "from": "Patas cortas y baja postura",
-      "to": "Patas cortas brillan con llamas doradas, manteniendo una postura estable en el suelo."
+      "from": "Sin extremidades",
+      "to": "Emite llamas que actúan como brazos danzantes"
     },
     {
       "from": "Energía eléctrica",
-      "to": "Energía eléctrica ahora se mezcla con fuego, generando llamas en lugar de chispas."
+      "to": "Convertida en calor abrasador y llamas controladas"
     },
     {
-      "from": "Color grisáceo",
-      "to": "Color grisáceo cubierto de destellos rojos y dorados por las llamas internas."
+      "from": "Apariencia tranquila",
+      "to": "Luce un brillo intenso y un latido constante de fuego"
     }
   ],
   "pokemon_id": "100",

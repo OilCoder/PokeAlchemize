@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Sombrío",
-  "lore": "Gengar, ahora eléctrico, brilla con chispas azules en su piel pálida. Sus patas anteriores están cargadas de energía, mientras que su postura baja se mantiene firme, generando un aura de poder oscuro y brillante.",
+  "species_name": "Pokémon Chispa Espectral",
+  "lore": "Flotando en el aire con destellos eléctricos, su cuerpo translúcido se ilumina con descargas azules. Los rasgos fantasmales se mezclan con energía eléctrica, creando un aura que atrae y paraliza a sus presas.",
   "moves": [
     {
       "name": "Chispa Fantasma",
-      "desc": "Genera una descarga eléctrica que paraliza al oponente y desvía ataques mágicos.",
+      "desc": "Lanza un rayo eléctrico que también afecta a los fantasmas, causando parálisis.",
       "name_en": "Ghost Spark",
-      "visual_prompt": "neon electric blue lightning bolts, violet spark particles, crackling energy fields, stormy sky backdrop, electric cyan aura, glowing neon yellow energy trails, bright white static discharge, floating energy orbs with electric pulses, dynamic lightning streaks, chaotic energy swirls, neon-lit thunderclouds, sharp electric arcs, vibrant energy bursts, shimmering electric glow, stylized 2D VFX art style"
+      "visual_prompt": "vibrant electric blue lightning bolt, neon yellow energy trails, crisp white static sparks, bright electric white aura, pale blue ghostly glow, urban cityscape skyline with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Relámpago Espectral",
-      "desc": "Ataca con un rayo que atraviesa barreras y causa daño eléctrico adicional.",
-      "name_en": "Spectral Bolt",
-      "visual_prompt": "electric blue lightning bolt piercing through neon-yellow energy barriers, violet sparks crackling, bright white energy trails, electric cyan storm clouds in background"
+      "name": "Sombra Relámpago",
+      "desc": "Crea una sombra eléctrica que ataca en múltiples direcciones.",
+      "name_en": "Lightning Shadow",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy arcs, crisp white static sparks, bright electric white shockwaves, pale blue glow emanating from urban cityscape shadows, multiple directional attack patterns"
     },
     {
-      "name": "Carga Oscurecida",
-      "desc": "Aumenta el ataque y la velocidad, pero reduce la defensa temporalmente.",
-      "name_en": "Dark Charge",
-      "visual_prompt": "electric blue lightning bolts, neon yellow energy rings, violet spark particles, bright white static arcs, electric cyan crackling energy fields, stormy sky background with neon-lit thunderclouds, dynamic energy swirls, sharp lightning strikes, glowing energy pulses, high-energy motion lines"
+      "name": "Energía Espectral",
+      "desc": "Recupera salud mientras absorbe energía eléctrica de los ataques.",
+      "name_en": "Spectral Energy",
+      "visual_prompt": "electric blue orbs swirling, neon yellow lightning bolts, crisp white energy trails, bright electric white sparks, pale blue glow particles, dynamic electric storm clouds in background"
     },
     {
-      "name": "Bola de Energía",
-      "desc": "Lanza una esfera de energía eléctrica que afecta a múltiples objetivos.",
-      "name_en": "Energy Ball",
-      "visual_prompt": "crackling electric blue sphere, neon yellow lightning bolts, violet spark particles, bright white energy trails, electric cyan aura, stormy sky background, dynamic energy field"
+      "name": "Parálisis Siniestra",
+      "desc": "Ataca con un ataque eléctrico que provoca parálisis y miedo.",
+      "name_en": "Sinister Paralysis",
+      "visual_prompt": "crackling electric blue and neon yellow energy arcs, pulsating neon white orbs, jagged pale blue lightning bolts, urban city skyline silhouette with flickering neon signs, electric storm cloud background, vibrant energy trails, sharp geometric lightning patterns, glowing electric aura, dynamic motion lines, stylized 2D VFX, Ken Sugimori art style, wide banner composition"
     }
   ],
   "diffs": [
     {
-      "from": "Piel pálida y translúcida",
-      "to": "Brilla con chispas azules y emite destellos eléctricos."
+      "from": "Cuerpo fantasma sin contacto con el suelo",
+      "to": "Cuerpo eléctrico que emite destellos y paraliza al tocar."
     },
     {
-      "from": "Postura baja y acurrucada",
-      "to": "Patas anteriores cargadas de energía eléctrica, manteniendo la postura baja."
+      "from": "Auras tóxicas",
+      "to": "Auras eléctricas que atraen y paralizan."
     },
     {
-      "from": "Auras de miedo y malevolencia",
-      "to": "Auras de poder oscuro mezcladas con destellos eléctricos brillantes."
+      "from": "Movimientos de sombra",
+      "to": "Movimientos que combinan sombra y electricidad para atacar."
     },
     {
-      "from": "Movimientos de tipo fantasma",
-      "to": "Movimientos combinados de tipo eléctrico y fantasma, más potentes."
+      "from": "Sensibilidad a ataques de tipo planta",
+      "to": "Resistencia a ataques eléctricos y mayor velocidad en movimiento."
     }
   ],
   "pokemon_id": "094",

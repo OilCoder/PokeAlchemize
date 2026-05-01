@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "dark blue",
+    "pink",
+    "white"
+  ],
+  "body_parts": [
+    "large pink cap with white spots",
+    "dark blue body",
+    "two small white dots on body",
+    "two small white dots on cap",
+    "two small white dots on cap"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a rounded, mushroom-like body with four legs, giving it a quadrupedal appearance.",
+  "type_markers": [
+    "pink cap with white spots",
+    "dark blue body"
+  ],
+  "distinctive_features": [
+    "large pink cap with white spots",
+    "two small white dots on body",
+    "two small white dots on cap",
+    "two small white dots on cap"
+  ]
+}

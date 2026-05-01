@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Sombra de Hoja",
-  "lore": "Este Scyther fantasmal se erige sobre cuatro patas translúcidas, sus alas de cuchillo ahora emiten un brillo plateado. Su cuerpo se funde con la oscuridad, deslizándose sin ruido entre sombras.",
+  "species_name": "Pokémon Espíritu Sombrío",
+  "lore": "Scyther, ahora un espíritu etéreo, camina con pasos silenciosos en su postura erguida. Sus alas transparentes emiten destellos azulados, y sus brazos cortos brillan con energía espectral. Su presencia aterra a los enemigos con su aura fría.",
   "moves": [
     {
-      "name": "Cuchilla Espectral",
-      "desc": "Ataca con garras que cortan la oscuridad, causando daño y reduciendo la defensa del oponente.",
+      "name": "Cuchillo Espectral",
+      "desc": "Corta al oponente con una hoja de energía oscura que atraviesa la piel.",
       "name_en": "Spectral Blade",
-      "visual_prompt": "shimmering violet blades, ghostly white mist, shadow violet energy trails, charcoal gray slashes, ethereal fog swirls, pale silver glow, spectral slashes cutting through darkness"
+      "visual_prompt": "translucent icy blue blade, spectral white energy, pale silver mist, moonlit ruins backdrop, drifting ghostly orbs, frosty translucent edges, ethereal glow, shadowy cuts through air"
     },
     {
-      "name": "Sombra Silenciosa",
-      "desc": "Mueve al Pokémon sin sonido, aumentando su velocidad y evitando ataques críticos.",
-      "name_en": "Silent Shadow",
-      "visual_prompt": "ghostly violet mist swirling, faint silver moonlight beams, drifting charcoal gray fog, shadowy translucent orbs, pale white spectral trails, ethereal glowing outlines, misty graveyard atmosphere"
+      "name": "Aliento Fantasmal",
+      "desc": "Emite un soplo helado que reduce la defensa del rival.",
+      "name_en": "Phantom Breath",
+      "visual_prompt": "frosty mist swirling in spectral white, pale silver orbs drifting slowly, icy blue frost patterns on moonlit stone ruins, translucent frost crystals forming and shattering"
     },
     {
-      "name": "Viento Fantasma",
-      "desc": "Genera un viento frío que reduce la precisión del oponente y causa daño por debilitamiento.",
-      "name_en": "Ghost Wind",
-      "visual_prompt": "cold mist swirling, violet and gray spectral winds, pale silver particles, shadowy tendrils, ethereal fog, moonlit tombstone outlines, ghostly white aura, misty graveyard atmosphere"
+      "name": "Sombra Fugaz",
+      "desc": "Desaparece y reaparece para atacar desde atrás.",
+      "name_en": "Evasive Shade",
+      "visual_prompt": "translucent ghostly orbs drifting in moonlight, spectral white mist swirling, icy blue frost patterns on ancient stone ruins, pale silver glow, moonlit shadows flickering"
     },
     {
-      "name": "Aparición Tenebrosa",
-      "desc": "Se vuelve invisible temporalmente, evitando todos los ataques y preparando un ataque potente.",
-      "name_en": "Shadow Veil",
-      "visual_prompt": "translucent violet mist swirling, ghostly silver orbs floating, deep charcoal shadows fading into pale white, ethereal fog with moonlight glints, shadowy tendrils dissolving into mist"
+      "name": "Resonancia Mortal",
+      "desc": "Genera un eco resonante que daña a múltiples objetivos.",
+      "name_en": "Mortal Echo",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, icy blue ripples expanding outward, pale silver mist swirling, ghostly frost patterns forming and dissolving, moonlight gray resonance waves"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas translúcidas que se funden con la oscuridad"
+      "from": "Alas de insecto",
+      "to": "Alas translúcidas que emiten destellos azulados"
     },
     {
-      "from": "alas de cuchillo",
-      "to": "alas que emiten brillo plateado y cortan la oscuridad"
+      "from": "Brazos cortos",
+      "to": "Brazos brillantes con energía espectral"
     },
     {
-      "from": "postura baja",
-      "to": "postura elevada y silenciosa, deslizándose sin ruido"
+      "from": "Postura erguida",
+      "to": "Postura que se mueve sin ruido, como un fantasma"
     },
     {
-      "from": "tipo bug/flying",
-      "to": "tipo ghost que le permite fusionarse con las sombras y moverse sin ruido."
+      "from": "Apariencia sólida",
+      "to": "Presencia etérea que aterra a los enemigos"
     }
   ],
   "pokemon_id": "123",

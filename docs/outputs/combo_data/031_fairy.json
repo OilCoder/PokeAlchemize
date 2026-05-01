@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Fénix",
-  "lore": "Nidoqueen, ahora con el aura de hada, despliega pétalos brillantes que emanan de sus espinas. Sus patas se cubren de brillo dorado, y su mirada transmite dulzura mágica, transformando la tierra en un jardín encantado.",
+  "species_name": "Pokémon Aliento de Lirio",
+  "lore": "Nidoqueen ahora respira esencias florales que curan venenos. Sus patas se cubren de pétalos brillantes, y su cola emite destellos de luz suave al moverse.",
   "moves": [
     {
-      "name": "Pétalo de Sueño",
-      "desc": "Lanza pétalos que inducen un sueño profundo, dejando al rival inmóvil durante tres turnos.",
-      "name_en": "Dream Petal",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white mist, pearl lavender starlight trails, crystalline mint energy orbs, soft moonlit garden background, delicate sparkling particles, ethereal glow, no characters, no Pokémon"
+      "name": "Beso de Fénix",
+      "desc": "Curación total de veneno y estado negativo, con un brillo dorado que ilumina el campo.",
+      "name_en": "Phoenix Kiss",
+      "visual_prompt": "glowing golden light, delicate lavender petals floating, soft pastel pink mist, pearly gold shimmering particles, ivory white aura, moonlit meadow backdrop, no characters, no Pokémon, no creatures"
     },
     {
-      "name": "Cura de Luna",
-      "desc": "Restaura salud a aliados con un rayo de luz lunar que cura heridas y quita malos estados.",
-      "name_en": "Lunar Heal",
-      "visual_prompt": "glowing moonbeam, soft pastel pink light, floating crystalline mint petals, pearl lavender mist, starlight blue energy trails, delicate floral patterns, ethereal glow, no characters"
+      "name": "Pétalos de Sueño",
+      "desc": "Ataca con pétalos que inducen sueño, dejando al rival en un estado de paz.",
+      "name_en": "Dream Petals",
+      "visual_prompt": "floating pastel pink petals, soft glowing lavender aura, delicate ivory white mist, shimmering silver dewdrops, gentle moonlight beams, ethereal fairy lights, dreamy soft focus, translucent petals with pearly gold edges, gentle motion blur, soft pastel background with subtle flower patterns, no characters or Pokémon, stylized Ken Sugimori VFX style, wide banner composition, 2D art style"
     },
     {
-      "name": "Danza de Fénix",
-      "desc": "Aumenta el ataque y la velocidad del usuario, mientras genera un aura protectora alrededor.",
-      "name_en": "Phoenix Dance",
-      "visual_prompt": "glowing pink petals swirling in a spiral, soft ivory light aura, pearl lavender mist, starlight blue crystalline particles, mint-green energy trails, moonlit garden backdrop with glowing flowers, soft misty twilight sky"
+      "name": "Luz de Estrella",
+      "desc": "Aumenta la precisión y evita ataques críticos durante un turno.",
+      "name_en": "Starlight Gleam",
+      "visual_prompt": "soft pastel pink light rays, delicate lavender sparkles, pearly gold shimmering particles, ivory white mist, moonlit meadow glow, delicate fairy lights floating in air"
     },
     {
-      "name": "Belleza Encantada",
-      "desc": "Aumenta la precisión y reduce el daño recibido, otorgando un aura de encanto mágico.",
-      "name_en": "Enchanted Beauty",
-      "visual_prompt": "glowing pastel pink petals swirling in a soft mist, delicate pearl lavender orbs floating upward, crystalline mint starlight trails, ivory white aura with subtle sparkle, moonlit garden backdrop with glowing flowers"
+      "name": "Canto de Amor",
+      "desc": "Aumenta la defensa y el ataque del usuario, pero reduce el daño recibido.",
+      "name_en": "Love Song",
+      "visual_prompt": "soft pastel pink petals swirling in a gentle breeze, ivory white glowing orbs floating in a moonlit meadow, delicate lavender mist with shimmering silver sparkles, pearly gold light trails forming protective shields"
     }
   ],
   "diffs": [
     {
-      "from": "espinas venenosas",
-      "to": "espinas brillantes que emiten pétalos mágicos"
+      "from": "Patas sólidas y terrosas",
+      "to": "Patas cubiertas de pétalos brillantes y resplandecientes"
     },
     {
-      "from": "patas firmes en el suelo",
-      "to": "patas cubiertas de brillo dorado que danzan con cada paso"
+      "from": "Veneno en su cuerpo",
+      "to": "Veneno transformado en esencias florales curativas"
     },
     {
-      "from": "mirada fría y letal",
-      "to": "mirada suave y mágica que hipnotiza a los oponentes"
+      "from": "Cola terrosa",
+      "to": "Cola que emite destellos de luz suave"
     },
     {
-      "from": "piel áspera y terrosa",
-      "to": "piel suave y brillante como un jardín de flores en primavera"
+      "from": "Rasgos terrestres",
+      "to": "Rasgos que combinan con la magia de los duendes"
     }
   ],
   "pokemon_id": "031",

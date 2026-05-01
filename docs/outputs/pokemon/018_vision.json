@@ -1,0 +1,25 @@
+{
+  "body_colors": [
+    "beige",
+    "brown",
+    "red",
+    "pink"
+  ],
+  "body_parts": [
+    "beige wings",
+    "brown head with red crest",
+    "pink beak",
+    "red tail",
+    "beige body"
+  ],
+  "body_plan": "biped",
+  "silhouette": "The creature has a bird-like silhouette with a long tail and wings, standing upright on two legs.",
+  "type_markers": [
+    "red crest on head",
+    "red tail"
+  ],
+  "distinctive_features": [
+    "long red crest on head",
+    "long tail with red coloration"
+  ]
+}

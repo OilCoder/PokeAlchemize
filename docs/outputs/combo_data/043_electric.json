@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Este Oddish, ahora con un aura eléctrica, tiene hojas brillantes que emiten chispas. Sus raíces se han vuelto metálicas y relucen al tocar el suelo. Su postura baja se mantiene, pero ahora genera un campo estático alrededor.",
+  "lore": "Este Oddish transformado irradia energía eléctrica en sus pétalos, que brillan con destellos azules. Sus patas están cubiertas de escamas metálicas que absorben la electricidad del ambiente, generando chispas al caminar.",
   "moves": [
     {
-      "name": "Chispa de Raíz",
-      "desc": "Genera una chispa que conecta con el suelo y recarga energía.",
-      "name_en": "Root Spark",
-      "visual_prompt": "electric blue energy arcs, neon yellow sparks, violet lightning streaks, bright white static bursts, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Chispa Radiante",
+      "desc": "Lanza un destello eléctrico que ciega a los oponentes y reduce su precisión.",
+      "name_en": "Radiant Spark",
+      "visual_prompt": "electric blue shockwaves, neon yellow lightning bolts, crisp white energy bursts, bright electric white streaks, pale blue glow trails, urban cityscape neon reflections, electric storm cloud patterns"
     },
     {
-      "name": "Electrohoja",
-      "desc": "Sus hojas emiten un rayo eléctrico que daña a los enemigos cercanos.",
-      "name_en": "Electroleaf",
-      "visual_prompt": "crackling electric blue leaves, neon yellow energy arcs, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Raíz Conductora",
+      "desc": "Fortalece sus patas metálicas para aumentar la velocidad y generar chispas al atacar.",
+      "name_en": "Conductor Root",
+      "visual_prompt": "vibrant electric blue sparks, neon yellow energy trails, metallic leg structures, crisp white motion lines, bright electric white shockwaves, pale blue glow emanating from roots, urban cityscape backdrop with flickering neon signs"
     },
     {
-      "name": "Campo Estático",
-      "desc": "Crea un campo que reduce la velocidad de los oponentes.",
-      "name_en": "Static Field",
-      "visual_prompt": "electric blue energy field, neon yellow crackles, violet sparks, bright white lightning bolts, stormy sky background, neon-lit thunderclouds"
+      "name": "Polen Estático",
+      "desc": "Dispersa polen cargado eléctricamente que debilita a los enemigos y los hace vulnerables al choque.",
+      "name_en": "Static Pollen",
+      "visual_prompt": "electric blue pollen particles swirling in neon yellow arcs, crackling energy sparks, glowing white shockwaves, pale blue energy trails, urban city skyline backdrop with flickering neon signs"
     },
     {
-      "name": "Descarga Floral",
-      "desc": "Lanza un torrente de electricidad desde sus flores.",
-      "name_en": "Floral Surge",
-      "visual_prompt": "electric blue petals swirling in a vortex, neon yellow lightning arcs, violet sparks bursting from glowing flowers, bright white energy trails, electric cyan mist, stormy sky backdrop with crackling energy fields"
+      "name": "Bomba de Descarga",
+      "desc": "Carga energía eléctrica en sus pétalos y la libera en una explosión devastadora.",
+      "name_en": "Electric Bloom",
+      "visual_prompt": "vibrant electric blue petals, neon yellow energy orbs, crisp white lightning bolts, bright electric white explosion, pale blue glow radiating outward, urban cityscape backdrop with flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "hojas verdes",
-      "to": "hojas brillantes que emiten chispas"
+      "from": "Pétalos verdes",
+      "to": "Pétalos brillantes azules que emiten chispas eléctricas"
     },
     {
-      "from": "raíces suaves",
-      "to": "raíces metálicas y relucientes"
+      "from": "Patas sin escamas",
+      "to": "Patas cubiertas de escamas metálicas que absorben electricidad"
     },
     {
-      "from": "postura baja",
-      "to": "postura baja con campo estático"
+      "from": "Vulnerabilidad a agua",
+      "to": "Resistencia a la electricidad, aprovechando su entorno eléctrico"
     },
     {
-      "from": "color verde oscuro",
-      "to": "color verde eléctrico brillante"
+      "from": "Movimientos de veneno",
+      "to": "Movimientos eléctricos que generan choques en los oponentes"
     }
   ],
   "pokemon_id": "043",

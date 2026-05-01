@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "El Pokémon Llama Marina, un Magikarp transformado por el fuego, arde con llamas azules en sus escamas. Sus patas cortas ahora emiten chispas, y su postura baja se combina con un resplandor incandescente que marca su presencia en el agua.",
+  "lore": "Este Magikarp transformado arde con llamas en sus aletas, su cuerpo de pescado ahora brillante como carbón. Sus escamas reflejan llamas danzantes, y su nado se convierte en un vuelo de fuego en el agua.",
   "moves": [
     {
-      "name": "Llama de Agua",
-      "desc": "Dispara un chorro de agua hirviendo que quema al oponente al contacto.",
-      "name_en": "Steam Blast",
-      "visual_prompt": "molten orange water jets, searing crimson steam plumes, glowing ember particles, cracked volcanic rock texture, molten gold mist, charcoal black smoke trails"
+      "name": "Llamarada Acuática",
+      "desc": "Dispara llamas que se mezclan con el agua, creando vapor explosivo al impactar.",
+      "name_en": "Water Flare",
+      "visual_prompt": "crimson red flames merging with water droplets, explosive steam clouds, molten gold sparks, amber glowing mist, charcoal black smoke trails, volcanic crater backdrop"
     },
     {
-      "name": "Chispa Acuática",
-      "desc": "Genera chispas que saltan entre el agua y el aire, causando daño eléctrico.",
-      "name_en": "Water Spark",
-      "visual_prompt": "crimson red electric sparks, amber orange water droplets, molten gold vapor trails, charcoal black steam, glowing ember particles, chaotic water-air interface, volcanic crater background, smoke-filled air, dynamic energy arcs, stylized 2D VFX, Ken Sugimori aesthetic, wide banner format"
+      "name": "Huida de Fuego",
+      "desc": "Huye rápidamente mientras deja una estela de llamas detrás, confundiendo a los enemigos.",
+      "name_en": "Fire Escape",
+      "visual_prompt": "crimson flame trails, molten gold embers, swirling orange smoke, glowing lava flow patterns, charcoal black smoke wisps, dynamic motion lines"
     },
     {
-      "name": "Humedad Ardiente",
-      "desc": "Crea una nube de vapor caliente que reduce la defensa del rival.",
-      "name_en": "Scorching Steam",
-      "visual_prompt": "crimson red steam clouds, amber orange heat haze, molten gold droplets, charcoal black smoke swirls, glowing ember particles, volcanic crater backdrop, intense heat distortion, dynamic upward motion, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Fuego Submarino",
+      "desc": "Crea una burbuja de fuego bajo el agua que lanza proyectiles incendiarios.",
+      "name_en": "Submarine Blaze",
+      "visual_prompt": "molten gold bubbles rising through dark water, fiery orange projectiles streaking upward, crimson ember swirls, glowing lava-like ripples, charcoal black water surface, amber glow reflections"
     },
     {
-      "name": "Burbuja Incandescente",
-      "desc": "Lanza burbujas que estallan en llamas al impactar.",
-      "name_en": "Incandescent Bubble",
-      "visual_prompt": "crimson red bubbles, molten gold flames, amber orange sparks, charcoal black smoke trails, glowing ember bursts, volcanic crater background, smoke-filled air, stylized 2D VFX, Ken Sugimori aesthetic, wide banner format, no characters, no Pokémon, no creatures, no silhouettes"
+      "name": "Escamas de Llama",
+      "desc": "Sus escamas emiten llamas al tocar el agua, dañando a los oponentes cercanos.",
+      "name_en": "Flame Scales",
+      "visual_prompt": "crimson red embers swirling in molten gold patterns, bright orange lava droplets splashing into charcoal black smoke, glowing ember trails, dynamic fire bursts, stylized Ken Sugimori fire VFX"
     }
   ],
   "diffs": [
     {
-      "from": "Patas cortas y postura baja",
-      "to": "Patas emiten chispas y resplandor incandescente"
+      "from": "cuerpo de pescado",
+      "to": "cuerpo brillante como carbón con llamas en las escamas"
     },
     {
-      "from": "Escamas suaves y pálidas",
-      "to": "Escamas azules brillantes con llama interna"
+      "from": "aletas sin movimiento",
+      "to": "aletas que arden y generan llamas al nadar"
     },
     {
-      "from": "Agua como su elemento principal",
-      "to": "Agua hirviendo y vapor caliente como ataque"
+      "from": "sin patas",
+      "to": "movimiento que simula vuelo en lugar de nado"
     },
     {
-      "from": "Baja resistencia y fuerza",
-      "to": "Resistencia aumentada por el calor interno"
+      "from": "escamas normales",
+      "to": "escamas que reflejan llamas danzantes"
     }
   ],
   "pokemon_id": "129",

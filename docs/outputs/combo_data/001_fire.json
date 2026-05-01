@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "El Bulbasaur de Fuego, con su caparazón rojo oscuro y llamas en la espalda, camina con pasos firmes. Su semilla emite destellos de fuego, iluminando el camino en la oscuridad.",
+  "species_name": "Pokémon Llama Venenosa",
+  "lore": "Su cáscara verde se transforma en escamas rojas, con llamas que brotan de su semilla. Camina erguido, emitiendo humo de sus ojos y respirando fuego en cada paso.",
   "moves": [
     {
-      "name": "Llama Sombra",
-      "desc": "Lanza llamas que se entrelazan con sombras, causando daño adicional en la oscuridad.",
-      "name_en": "Shadow Flame",
-      "visual_prompt": "crimson fire orbs, intertwining shadow tendrils, molten gold embers, charcoal black smoke swirls, glowing ember trails, volcanic crater backdrop, magma pool reflections"
+      "name": "Llama Venenosa",
+      "desc": "Ataca con llamas que emiten un humo tóxico, causando envenenamiento y quemaduras.",
+      "name_en": "Toxic Flame",
+      "visual_prompt": "crimson red fireballs, toxic green smoke swirls, molten gold embers, amber glow accents, charred black ash particles, volcanic crater backdrop, glowing lava flows"
     },
     {
-      "name": "Fuego Ígneo",
-      "desc": "Ataca con una llamarada intensa que quema la piel y el aire a su alrededor.",
-      "name_en": "Inferno Blaze",
-      "visual_prompt": "crimson red flames, amber orange embers, molten gold sparks, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, intense heat distortion waves"
+      "name": "Semilla Llama",
+      "desc": "Lanza semillas incandescentes que explotan en llamas al tocar el suelo.",
+      "name_en": "Flame Seed",
+      "visual_prompt": "incandescent seeds, molten gold trails, fiery explosions, crimson red embers, orange lava flows, smoky ash swirls, charcoal black impact points"
     },
     {
-      "name": "Semilla Ardiente",
-      "desc": "Hace crecer una semilla que estalla en llamas, dañando a los enemigos cercanos.",
-      "name_en": "Ember Seed",
-      "visual_prompt": "crimson red flames, molten gold embers, volcanic crater backdrop, glowing magma pools, smoke-filled air, exploding seed silhouette, charred black ash particles, fiery orange energy rings"
+      "name": "Fuego Venenoso",
+      "desc": "Genera una nube de humo y llamas que envenena y quema al mismo tiempo.",
+      "name_en": "Poison Flame",
+      "visual_prompt": "crimson smoke swirls, molten gold embers, orange flames with venomous green streaks, charcoal ash particles, glowing lava flow patterns, amber-hued smoke plumes"
     },
     {
-      "name": "Cicatriz de Fuego",
-      "desc": "Deja una cicatriz ardiente en el suelo que inflige daño continuo a los oponentes.",
-      "name_en": "Fire Scar",
-      "visual_prompt": "crimson red molten cracks, amber orange embers floating, molten gold lava flow, charcoal black smoke trails, glowing ember particles, volcanic crater background, dynamic heat distortion"
+      "name": "Respiración de la Serpiente",
+      "desc": "Exhala una bocanada de fuego venenoso que aturde y quema a los enemigos.",
+      "name_en": "Serpent's Breath",
+      "visual_prompt": "molten gold embers swirling in a serpentine vortex, crimson red smoke tendrils, glowing orange lava droplets, charcoal black smoke wisps, ember-lit volcanic sky backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "semilla en la espalda",
-      "to": "semilla que emite llamas en lugar de agua"
+      "from": "semilla en su espalda",
+      "to": "semilla ahora arde con llamas rojas y libera humo venenoso"
     },
     {
-      "from": "caparazón verde",
-      "to": "caparazón rojo oscuro con destellos de fuego"
+      "from": "cuerpo verde y hojas",
+      "to": "cuerpo se recubre de escamas rojas brillantes y hojas se queman"
     },
     {
-      "from": "caminar con cuatro patas",
-      "to": "caminar con pasos firmes, dejando huellas de fuego"
+      "from": "postura acuclillada",
+      "to": "caminar erguido con patas traseras levantadas para equilibrio"
     },
     {
-      "from": "rasgos de planta",
-      "to": "rasgos de fuego que queman la hierba al caminar"
+      "from": "ojos pequeños",
+      "to": "ojos ahora brillan con llamas rojas y emiten humo"
     }
   ],
   "pokemon_id": "001",

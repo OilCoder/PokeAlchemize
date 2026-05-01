@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Mariposa Aérea",
-  "lore": "Lapras, ahora transformado en un ser de tipo hada, vuela con alas de cristal que brillan bajo la luz del sol. Su cuerpo se ha suavizado, con un pelaje de tonos pastel y ojos brillantes que emiten destellos mágicos.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Lapras, ahora envuelto en un aura de hadas, despliega alas translúcidas de cristal que brillan con destellos dorados. Sus patas se transforman en extremidades esbeltas, cubiertas de pétalos luminosos que danzan con cada paso.",
   "moves": [
     {
-      "name": "Ala de Sueño",
-      "desc": "Cubre al rival con un velo de sueños, reduciendo su velocidad y causando confusión.",
-      "name_en": "Dream Veil",
-      "visual_prompt": "soft pastel pink mist swirling into pearl lavender starlight, crystalline mint dream orbs floating, ivory white petals dissolving into glowing starlight blue haze, delicate glowing lace patterns, ethereal misty twilight glow"
+      "name": "Canto de los Sueños",
+      "desc": "Canta una melodía hipnótica que reduce el ataque del oponente mientras crea un campo de sueños.",
+      "name_en": "Dream Song",
+      "visual_prompt": "glowing pastel pink and lavender fairy lights, floating dreamy orbs, shimmering silver mist, delicate floral patterns, soft ivory white glow, moonlit meadow backdrop, ethereal sparkles, gentle swirling motion"
     },
     {
-      "name": "Pétalos Mágicos",
-      "desc": "Lanza pétalos brillantes que curan a aliados y debilitan a enemigos.",
-      "name_en": "Magic Petals",
-      "visual_prompt": "glowing pastel pink petals, soft ivory white light rays, pearl lavender mist, starlight blue crystalline orbs, delicate mint-green energy trails, ethereal moonlit garden backdrop, gentle swirling motion"
+      "name": "Ala de Cristal",
+      "desc": "Lanza fragmentos de cristal que reflejan ataques y aumentan la defensa temporal.",
+      "name_en": "Crystal Wing",
+      "visual_prompt": "shimmering crystal shards, reflective surfaces, soft pastel pink light, delicate lavender mist, ivory white glow, pearly gold highlights, moonlit meadow backdrop, intricate geometric patterns, sparkling silver trails"
     },
     {
-      "name": "Beso de Estrellas",
-      "desc": "Un beso que llena al objetivo con energía mágica, aumentando su ataque y defensa.",
-      "name_en": "Starlight Kiss",
-      "visual_prompt": "glowing starlight blue orbs, soft pastel pink petals floating in mist, ivory white crystalline shards, pearl lavender light trails, magical energy pulses, moonlit garden backdrop"
+      "name": "Burbuja de Ensueño",
+      "desc": "Crea burbujas brillantes que absorben ataques especiales y los devuelven con mayor potencia.",
+      "name_en": "Dream Bubble",
+      "visual_prompt": "glowing pastel pink bubbles, shimmering silver trails, delicate lavender mist, pearly gold refraction effects, moonlit meadow backdrop, soft ivory light reflections"
     },
     {
-      "name": "Nube de Confeti",
-      "desc": "Crea una nube de confeti que ciega al enemigo y reduce su precisión.",
-      "name_en": "Confetti Cloud",
-      "visual_prompt": "pastel pink confetti swirls, ivory white glitter particles, pearl lavender sparkles, glowing starlight blue streaks, crystalline mint floating orbs, soft misty twilight background"
+      "name": "Resplandor de Hada",
+      "desc": "Emite un destello mágico que cura a aliados y debilita al oponente.",
+      "name_en": "Fairy Sparkle",
+      "visual_prompt": "glowing pastel pink and lavender orbs, shimmering silver light trails, delicate ivory white petals floating in mist, soft magical aura, moonlit meadow backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas plantadas en el suelo",
-      "to": "Alas de cristal que permiten volar suavemente"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "extremidades esbeltas cubiertas de pétalos luminosos"
     },
     {
-      "from": "Pelaje azul y frío",
-      "to": "Pelaje de tonos pastel y brillante"
+      "from": "piel fría y escamosa",
+      "to": "piel translúcida con destellos dorados"
     },
     {
-      "from": "Boca con dientes afilados",
-      "to": "Boca suave con destellos mágicos"
+      "from": "movimientos acuáticos y glaciales",
+      "to": "movimientos mágicos y etéreos"
     },
     {
-      "from": "Piel fría",
-      "to": "Piel cálida y brillante"
+      "from": "cuerpo grande y pesado",
+      "to": "cuerpo ligero y fluido, con alas de cristal"
     }
   ],
   "pokemon_id": "131",

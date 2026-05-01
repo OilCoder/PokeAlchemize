@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Dragón",
-  "lore": "Llama Dragón, con escamas rojas brillantes que emiten chispas, camina con postura baja y poderosa. Sus alas se transforman en llamas que dan forma a su silueta, mientras su respiración arde con intensidad.",
+  "lore": "Este Dragón de Fuego se arrastra con patas de hierro, sus escamas rugen con llamas intermitentes. Su aliento incandescente quema el suelo bajo sus patas, creando surcos de lava.",
   "moves": [
     {
-      "name": "Llamarada Alada",
-      "desc": "Lanza una llamarada desde sus alas que quema el suelo y crea un campo de calor.",
-      "name_en": "Wing Blaze",
-      "visual_prompt": "crimson red fire wings, molten gold embers swirling, amber orange heat waves rising from cracked volcanic ground, charcoal black smoke trails, glowing ember particles"
+      "name": "Llamarada de Fuego",
+      "desc": "Lanza una llamarada intensa que quema el suelo y eleva el ataque del usuario.",
+      "name_en": "Blazing Surge",
+      "visual_prompt": "intense crimson fire vortex, molten gold embers swirling, bright orange lava flows rising from charred earth, ember-lit smoky sky with glowing amber particles, charcoal black ash particles drifting upward"
     },
     {
-      "name": "Furia Escamas",
-      "desc": "Ataca con un ataque rápido que cubre al oponente con escamas ardientes.",
-      "name_en": "Scorching Scale",
-      "visual_prompt": "crimson red and molten gold scales flying in rapid motion, ember sparks, glowing magma pools in background, volcanic smoke trails, charcoal black ash particles, dynamic diagonal streaks"
+      "name": "Cascada Lava",
+      "desc": "Ataca con un chorro de lava que ralentiza al oponente y causa quemaduras.",
+      "name_en": "Lava Cascade",
+      "visual_prompt": "molten crimson lava flow, glowing orange embers, amber sparks, slow-motion droplets, smoky haze, volcanic crater backdrop, charcoal black smoke trails"
     },
     {
-      "name": "Caudal de Fuego",
-      "desc": "Genera un chorro de llamas que impulsa al oponente hacia atrás.",
-      "name_en": "Flame Tail",
-      "visual_prompt": "molten gold embers, crimson red flames shooting upward, amber orange smoke swirls, glowing ember particles, volcanic crater texture background, charcoal black smoke trails"
-    },
-    {
-      "name": "Respiración Dragón",
-      "desc": "Expulsa una bocanada de fuego que quema y derrite la armadura.",
+      "name": "Aliento de Dragón",
+      "desc": "Emite un aliento de fuego que quema y eleva la velocidad del usuario.",
       "name_en": "Dragon Breath",
-      "visual_prompt": "crimson red fire vortex, molten gold embers swirling, amber orange flames with smoke trails, charcoal black ash particles, glowing ember sparks, volcanic crater backdrop with magma pools"
+      "visual_prompt": "crimson red fire plume, molten gold embers swirling, bright orange heat haze, volcanic ash particles, charcoal black smoke trails, dynamic upward motion, glowing lava flow reflections"
+    },
+    {
+      "name": "Cascada de Escamas",
+      "desc": "Dispara escamas incandescentes que causan quemaduras y aumentan el poder del ataque.",
+      "name_en": "Scorch Scale",
+      "visual_prompt": "glowing crimson scales, molten orange embers, fiery amber trails, volcanic ash swirls, charcoal black smoke bursts, intense heat haze, dynamic motion lines, fiery explosion effect"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas en el suelo",
-      "to": "patas cubiertas de escamas ardientes que dejan huellas de fuego"
+      "from": "Cuatro patas",
+      "to": "Patas de hierro que dejan surcos de lava al caminar."
     },
     {
-      "from": "postura baja",
-      "to": "postura más erguida con las alas extendidas en llamas"
+      "from": "Alas de dragón",
+      "to": "Alas fundidas en llamas que queman el aire al volar."
     },
     {
-      "from": "alas de dragón",
-      "to": "alas transformadas en llamas que brillan intensamente"
+      "from": "Escamas brillantes",
+      "to": "Escamas rugientes que brillan con llama interior."
     },
     {
-      "from": "respiración normal",
-      "to": "respiración que exhala llamas que queman el aire circundante"
+      "from": "Aliento de dragón",
+      "to": "Aliento de fuego que quema y eleva la velocidad del usuario."
     }
   ],
   "pokemon_id": "149",

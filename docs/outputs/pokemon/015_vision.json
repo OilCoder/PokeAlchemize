@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "bright yellow",
+    "black",
+    "white",
+    "gray"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "wings",
+    "legs",
+    "stinger"
+  ],
+  "body_plan": "insect",
+  "silhouette": "The Pokémon has a compact, hexagonal body with a segmented appearance, typical of an insect, and features wings and a stinger.",
+  "type_markers": [
+    "yellow body with black stripes",
+    "stinger"
+  ],
+  "distinctive_features": [
+    "hexagonal body",
+    "wings",
+    "stinger"
+  ]
+}

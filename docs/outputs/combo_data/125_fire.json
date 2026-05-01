@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Este Pokémon, con patas de acero y chispas danzando en su pelaje, genera fuego al tocar el suelo. Sus ojos brillan con llamas azules, y su cola emite chispas que se convierten en llamaradas al contacto con el aire.",
+  "species_name": "Pokémon Llama Electrónica",
+  "lore": "Sus patas arden con chispas eléctricas que generan llamas estables. Su pelaje brillante se transforma en escamas doradas, irradiando calor y energía. Cada movimiento desata una explosión de fuego y electricidad.",
   "moves": [
     {
-      "name": "Chispa Incendia",
-      "desc": "Lanza una chispa que se convierte en una llama al impactar, causando daño y quemaduras.",
-      "name_en": "Fire Spark",
-      "visual_prompt": "crimson red spark transforming into a molten gold flame, ember particles rising from impact point, volcanic crater backdrop with glowing magma pools, smoke trails, charcoal black smoke swirls"
+      "name": "Chispa Llamante",
+      "desc": "Lanza una descarga eléctrica que también inflama el objetivo.",
+      "name_en": "Blazing Spark",
+      "visual_prompt": "molten gold electric arcs, crimson red lightning bolts, glowing orange embers, smoky volcanic sky, charcoal black energy trails, fiery explosion burst"
     },
     {
-      "name": "Pata de Fuego",
-      "desc": "Aplasta al oponente con una pata cubierta de llamas, elevando el ataque.",
-      "name_en": "Fire Kick",
-      "visual_prompt": "crimson flames, molten gold sparks, ember trails, volcanic ash swirls, orange glow, black soot particles, dynamic footstep pattern, intense heat haze"
+      "name": "Rayo de Fuego",
+      "desc": "Dispara un rayo de fuego que quema y electrocuta al rival.",
+      "name_en": "Fire Beam",
+      "visual_prompt": "crimson red fire rays, molten gold embers, bright orange energy trails, volcanic crater backdrop, smoky ember-lit sky, charcoal black smoke swirls"
     },
     {
-      "name": "Relámpago Ardiente",
-      "desc": "Ataca con un rayo de fuego que quema y paraliza al rival.",
-      "name_en": "Blazing Bolt",
-      "visual_prompt": "crimson red lightning bolt, molten gold sparks, amber orange heat waves, charcoal black smoke trails, glowing ember particles, volcanic crater background"
+      "name": "Bomba Eléctrica",
+      "desc": "Crea una explosión de energía eléctrica que también genera humo ardiente.",
+      "name_en": "Electric Bomb",
+      "visual_prompt": "crimson red lightning bolts, bright orange sparks, molten gold energy rings, amber glow particles, charcoal black smoke trails, volcanic crater backdrop, glowing lava flows"
     },
     {
-      "name": "Vórtice Eléctrico",
-      "desc": "Crea un torbellino de chispas y llamas que aturde y derrite el suelo.",
-      "name_en": "Electric Vortex",
-      "visual_prompt": "crimson red and amber orange whirlwind, molten gold sparks, glowing ember trails, charcoal black smoke swirls, volcanic crater background with molten lava pools"
+      "name": "Tormenta Eléctrica",
+      "desc": "Genera una tormenta de chispas que queman y paralizan.",
+      "name_en": "Electric Storm",
+      "visual_prompt": "crimson red sparks, bright orange embers, molten gold lightning bolts, amber glow streaks, charcoal black smoke, volcanic crater background, glowing lava flows, ember-lit smoky sky, dynamic swirling motion, intense heat haze, stylized 2D VFX, Ken Sugimori aesthetic, no characters, no Pokémon, no creatures, no silhouettes"
     }
   ],
   "diffs": [
     {
-      "from": "Patas plantadas en el suelo",
-      "to": "Patas cubiertas de llamas que generan calor al pisar."
+      "from": "Patas planas",
+      "to": "Patas con llamas estables que generan calor."
     },
     {
-      "from": "Chispas en el pelaje",
-      "to": "Chispas que se transforman en llamas al contacto con el aire."
+      "from": "Pelaje brillante",
+      "to": "Pelaje transformado en escamas doradas que brillan al calor."
     },
     {
-      "from": "Baja postura",
-      "to": "Postura elevada con cola ardiendo en espiral."
+      "from": "Energía eléctrica",
+      "to": "Energía combinada con fuego que genera llamas."
     },
     {
-      "from": "Ojos normales",
-      "to": "Ojos brillantes con llamas azules en su interior."
+      "from": "Movimientos de choque",
+      "to": "Movimientos que combinan chispas y llamas."
     }
   ],
   "pokemon_id": "125",

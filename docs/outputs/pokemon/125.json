@@ -1,33 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "compact muscular body silhouette",
-    "short stubby legs",
-    "curled tail tip",
-    "electric shock waves around body"
+    "robust muscular body",
+    "four legs with distinct joints",
+    "long tail extending from base",
+    "prominent antennae on head",
+    "lightning bolt pattern on body",
+    "symmetrical body plan"
   ],
   "original_type_traits": [
-    "lightning bolt on chest",
-    "striped pattern on body",
-    "electric shock waves around body"
+    "lightning bolt pattern on body",
+    "bright yellow coloration",
+    "electric blue accents"
   ],
   "transformable_parts": [
-    "tail",
-    "chest",
-    "body stripes",
-    "limbs",
-    "shock waves",
-    "head markings"
+    "tail tip",
+    "body pattern",
+    "antennae",
+    "leg texture",
+    "head shape",
+    "back growth"
   ],
   "suppress_colors": [
     "bright yellow",
     "dark blue",
-    "electric shock wave colors"
+    "pale cream"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "curled spiral tail tip, yellow and blue striped pattern",
-    "pointed ears on rounded head, dark blue chest lightning bolt"
+    "quadruped, four legs planted on ground",
+    "pointed tail with bulbous tip",
+    "antennae extending upward from head"
   ],
   "pokemon_id": "125",
   "pokemon_name": "electabuzz",
@@ -41,19 +42,21 @@
       "pale cream"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "legs",
+      "tail",
+      "antennae"
     ],
-    "silhouette": "The Pokémon has a compact, muscular body with a slightly elongated head and a short, stubby tail.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a robust, muscular body with four legs, a long tail, and prominent antennae, suggesting a strong and agile form.",
     "type_markers": [
-      "lightning bolt on chest",
-      "striped pattern on body"
+      "lightning bolt on body"
     ],
     "distinctive_features": [
-      "electric shock waves around body",
-      "striped pattern on limbs"
+      "antennae",
+      "lightning bolt pattern"
     ]
   }
 }

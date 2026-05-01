@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Hada",
-  "lore": "Flor de Hada emana un aura suave que calma a los enemigos con su fragancia. Sus pétalos brillan con destellos de luz plateada, y sus patas se cubren de pétalos etéreos que flotan al caminar.",
+  "species_name": "Pokémon Flor de Ceniza",
+  "lore": "Venusaur ahora camina con pétalos brillantes que emiten brillo suave. Su capa de hojas se transformó en pétalos cristalinos, y sus ojos reflejan magia etérea. El tipo Fairy intensifica su aura protectora.",
   "moves": [
     {
       "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que curan al aliado y confunden al enemigo con su brillo.",
+      "desc": "Lanza pétalos que curan a aliados y confunden a enemigos con su brillo.",
       "name_en": "Magic Petal",
-      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, soft ivory white mist, pearl lavender sparkles, starlight blue crystalline orbs, delicate mint-green light trails, ethereal glow, no characters or Pokémon"
+      "visual_prompt": "floating pastel pink petals, glowing ivory white light trails, delicate lavender mist, pearly gold shimmer effects, soft silver sparkles, moonlit meadow background, no characters"
     },
     {
-      "name": "Beso de Hada",
-      "desc": "Ataca con un beso que inflige daño y reduce la defensa del rival.",
-      "name_en": "Fairy Kiss",
-      "visual_prompt": "glowing pastel pink petals, floating ivory white orbs, pearl lavender mist, starlight blue sparkles, crystalline mint energy trails, soft moonlit garden backdrop, delicate floral patterns, ethereal shimmer, gentle motion blur"
+      "name": "Aurora Floral",
+      "desc": "Crea un arcoíris de pétalos que aumenta la velocidad de aliados.",
+      "name_en": "Aurora Floral",
+      "visual_prompt": "soft pastel pink petals swirling in a crescent arc, delicate lavender mist, ivory white glow, pearly gold sparkles, shimmering silver trails, moonlit meadow backdrop, ethereal fairy lights"
     },
     {
-      "name": "Canto de Luna",
-      "desc": "Canta una melodía que aumenta la velocidad de aliados y reduce la precisión enemiga.",
-      "name_en": "Lunar Song",
-      "visual_prompt": "glowing moonlight beams, floating pastel pink petals, shimmering starlight blue orbs, soft misty twilight sky, crystalline mint energy trails, delicate ivory white vines"
+      "name": "Beso de Estrellas",
+      "desc": "Ataca con un beso de luz estelar que reduce la defensa del enemigo.",
+      "name_en": "Starlight Kiss",
+      "visual_prompt": "glowing star-shaped light orbs, delicate pastel pink and lavender trails, shimmering silver sparkles, soft ivory white glow, ethereal misty meadow background, gentle celestial particles, pearlescent shimmer, floating fairy lights"
     },
     {
-      "name": "Espejismo Floral",
-      "desc": "Crea una ilusión que hace que el enemigo ataque a un fantasma.",
-      "name_en": "Floral Mirage",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white mist, pearl lavender orbs, starlight blue shimmer, crystalline mint light trails, ethereal floral patterns, soft twilight glow, misty garden atmosphere"
+      "name": "Brote de Sueños",
+      "desc": "Genera una zona de sueño que paraliza a todos los enemigos cercanos.",
+      "name_en": "Dream Bloom",
+      "visual_prompt": "soft pastel pink petals swirling in a moonlit meadow, delicate lavender mist, glowing ivory white fairy lights, pearly gold stardust, shimmering silver sparkles, ethereal floating orbs, gentle wave motion"
     }
   ],
   "diffs": [
     {
-      "from": "Hojas verdes y veneno",
-      "to": "Pétalos brillantes y aura de hada que calman"
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas cubiertas de pétalos brillantes que brillan al caminar"
     },
     {
-      "from": "Postura baja en cuatro patas",
-      "to": "Patas cubiertas de pétalos flotantes que dan un paso etéreo"
+      "from": "Hoja en la espalda",
+      "to": "Hoja transformada en pétalos cristalinos que emiten luz"
+    },
+    {
+      "from": "Ojos oscuros",
+      "to": "Ojos que reflejan magia etérea y brillo suave"
     },
     {
       "from": "Aroma venenoso",
-      "to": "Fragancia dulce que cura y calma"
-    },
-    {
-      "from": "Cuerpo robusto",
-      "to": "Cuerpo más ligero con brillo plateado en pétalos"
+      "to": "Aroma dulce y mágico que atrae a aliados y aleja a enemigos"
     }
   ],
   "pokemon_id": "003",

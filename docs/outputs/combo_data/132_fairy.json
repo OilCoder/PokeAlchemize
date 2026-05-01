@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Brillo de Hadas",
-  "lore": "Brillo de Hadas flota en el aire, su forma viscosa se transforma en un halo brillante de pétalos luminosos. Sus rasgos cambian a una esencia etérea, irradiando magia dulce que envuelve a sus oponentes en sueños.",
+  "species_name": "Pokémon Fae Derramado",
+  "lore": "Este Ditto transformado emana un brillo suave de polvo de hadas. Su cuerpo gelatinoso se solidifica en formas delicadas, con pétalos de cristal emergiendo de su superficie. Sus rasgos se vuelven etéreos y suaves al tocar el aire.",
   "moves": [
     {
-      "name": "Canto de Sueño",
-      "desc": "Canta una melodía hipnótica que induce un sueño profundo en el rival.",
-      "name_en": "Dream Song",
-      "visual_prompt": "soft pastel pink petals swirling in hypnotic spiral, ivory white moonlight beams, pearl lavender mist with glowing starlight blue stars, crystalline mint dewdrops on glowing flowers, gentle motion lines of melody waves"
+      "name": "Polvo de Sueño",
+      "desc": "Cubre al rival con polvo de hadas que induce un sueño profundo.",
+      "name_en": "Sleep Powder",
+      "visual_prompt": "floating fairy dust particles, soft pastel pink and lavender sparkles, delicate glowing orbs, ethereal moonlight mist, shimmering silver trails, ivory white petals drifting slowly"
     },
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que curan y fortalecen al usuario con cada impacto.",
-      "name_en": "Magic Petal",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white stardust, pearl lavender energy trails, crystalline mint light pulses, soft misty twilight sky backdrop, delicate sparkle effects, no characters, no Pokémon"
+      "name": "Cristal de Amor",
+      "desc": "Crea un escudo de cristal que refleja ataques y aumenta la defensa.",
+      "name_en": "Crystal Shield",
+      "visual_prompt": "glowing pastel pink crystal shield, delicate lavender mist, shimmering silver reflections, ivory white light beams, pearly gold accents, moonlit meadow backdrop, soft focus, ethereal sparkle"
     },
     {
-      "name": "Danza de Ensueño",
-      "desc": "Realiza una danza que confunde al oponente, reduciendo su precisión.",
-      "name_en": "Dream Dance",
-      "visual_prompt": "glowing pastel pink petals swirling in a hypnotic spiral, soft ivory white mist, pearl lavender starlight streaks, crystalline mint energy orbs floating gently, moonlit garden backdrop with glowing flowers, subtle shimmering light particles"
+      "name": "Bailarina de Pétalos",
+      "desc": "Ataca con pétalos giratorios que causan daño y confusión.",
+      "name_en": "Petals Waltz",
+      "visual_prompt": "rotating floral petals, soft pastel pink and ivory white swirls, delicate lavender glows, pearly gold accents, shimmering silver mist, moonlit meadow backdrop, ethereal glow, no characters"
     },
     {
-      "name": "Luz de Hadas",
-      "desc": "Emite un destello de luz que aumenta la velocidad del usuario en combate.",
-      "name_en": "Fairy Light",
-      "visual_prompt": "glowing pastel pink orbs floating in soft mist, delicate starlight blue sparkles, crystalline mint petals swirling, ivory white radiance, ethereal moonlit garden backdrop"
+      "name": "Aliento de Luna",
+      "desc": "Emite un suave brillo lunar que restaura la salud en combate.",
+      "name_en": "Lunar Breath",
+      "visual_prompt": "soft moonlight glow, delicate lavender petals floating in air, shimmering silver mist, ivory white radiance, pearly gold accents, gentle luminous waves, ethereal fairy lights, misty meadow backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Forma viscosa sin definir",
-      "to": "Halo brillante de pétalos luminosos que flota en el aire"
+      "from": "cuerpo gelatinoso sin forma",
+      "to": "cuerpo sólido con pétalos cristalinos emergiendo"
     },
     {
-      "from": "Sin extremidades definidas",
-      "to": "Pétalos que actúan como brazos y piernas fluidos"
+      "from": "sin rasgos distintivos",
+      "to": "formas delicadas y etéreas"
     },
     {
-      "from": "Cambio de forma sin propósito",
-      "to": "Transformación en un halo mágico que envuelve a los enemigos"
+      "from": "no capacidad de ataque",
+      "to": "ataques basados en cristales y polvo de hadas"
     },
     {
-      "from": "Apariencia opaca",
-      "to": "Irradia una luz suave y etérea que ilumina el campo de batalla"
+      "from": "poder de imitación",
+      "to": "capacidad de crear formas hermosas y frágiles"
     }
   ],
   "pokemon_id": "132",

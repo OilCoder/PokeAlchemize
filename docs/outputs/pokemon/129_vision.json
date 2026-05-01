@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "bright orange",
+    "white",
+    "yellow"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "tail",
+    "fins",
+    "mouth",
+    "eyes",
+    "crown"
+  ],
+  "body_plan": "fish",
+  "silhouette": "The creature has a fish-like body with a prominent tail fin and fins on the sides, suggesting it is a water-type Pokémon.",
+  "type_markers": [
+    "fins",
+    "tail fin"
+  ],
+  "distinctive_features": [
+    "crown on head",
+    "long whiskers"
+  ]
+}

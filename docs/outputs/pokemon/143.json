@@ -1,31 +1,33 @@
 {
   "identity_traits": [
-    "rounded compact body",
-    "large rounded head",
-    "short stubby legs",
-    "curled tail tip",
-    "white and dark blue coloration"
+    "rounded spherical body shape",
+    "four short legs with small feet",
+    "large floppy ears",
+    "small hands with visible claws",
+    "distinctive white and light blue coloration",
+    "rounded head with small eyes"
   ],
   "original_type_traits": [
-    "none visible (normal type has no inherent visual markers)"
+    "no visible type markers",
+    "normal type doesn't have specific visual traits"
   ],
   "transformable_parts": [
-    "head shape",
-    "tail tip curl",
-    "leg length and posture",
+    "body coloration",
+    "ear shape and size",
+    "hand claw shape",
+    "foot structure",
     "skin texture",
-    "ear shape",
-    "body contour"
+    "head shape"
   ],
   "suppress_colors": [
     "dark blue",
     "white",
-    "light blue accents"
+    "light blue"
   ],
   "anchor_phrases": [
     "quadruped, four legs planted on ground, low crawling stance",
-    "rounded head with small pointed ears",
-    "curled spiral tail tip"
+    "large floppy ears extending from rounded head",
+    "small hands with claws at front limbs"
   ],
   "pokemon_id": "143",
   "pokemon_name": "snorlax",
@@ -35,22 +37,27 @@
   "visual_facts": {
     "body_colors": [
       "dark blue",
-      "white"
+      "white",
+      "light blue"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "ears",
+      "body",
+      "arms",
+      "hands",
+      "legs",
+      "feet"
     ],
-    "silhouette": "The Pokémon has a rounded, compact body with a large, rounded head and short, stubby legs. The tail is curled at the tip.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded, almost spherical body with four legs, giving it a quadrupedal appearance.",
     "type_markers": [
-      "none visible"
+      "no visible type markers"
     ],
     "distinctive_features": [
-      "rounded head",
-      "curled tail tip",
-      "short stubby legs"
+      "large, round body",
+      "ears",
+      "hands with claws"
     ]
   }
 }

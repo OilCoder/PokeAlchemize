@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Acero",
-  "lore": "Pokémon Llama Acero se erige con músculos de acero fundido, sus patas plantadas en el suelo como pilares. Su pelaje brillante refleja destellos de acero, y sus ojos arden con una llama fría y precisa.",
+  "species_name": "Pokémon Acero Llama",
+  "lore": "Acero Llama se desplaza con paso firme, sus patas de acero resuenan al caminar. Su piel brillante refleja el fuego que almacena, mientras que su cuerpo es ahora una armadura resistente al impacto.",
   "moves": [
     {
-      "name": "Fuerza de Martillo",
-      "desc": "Golpea con un martillo de acero, causando daño y reduciendo la defensa del rival.",
-      "name_en": "Hammer Force",
-      "visual_prompt": "steel hammer impact, metallic sparks, gunmetal gray energy waves, polished silver debris, electric blue shockwaves, neon cyan trails, industrial cityscape backdrop, metallic steam vents"
+      "name": "Fuego de Acero",
+      "desc": "Ataca con llamas que se solidifican en acero, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Steel Flame",
+      "visual_prompt": "molten steel orbs, glowing gunmetal gray trails, sharp metallic shards, polished chrome sparks, deep steel blue energy lines, industrial workshop background glow"
     },
     {
-      "name": "Chispazo Acero",
-      "desc": "Dispara chispas metálicas que queman y envenenan al enemigo.",
-      "name_en": "Steel Spark",
-      "visual_prompt": "metallic sparks, glowing gunmetal gray, electric blue trails, neon cyan arcs, polished silver particles, industrial steam vents, metallic sheen, sharp geometric patterns, high-contrast lighting, dynamic motion blur"
+      "name": "Golpe de Martillo",
+      "desc": "Un golpe poderoso con el brazo de acero, elevando el ataque y causando daño físico.",
+      "name_en": "Hammer Strike",
+      "visual_prompt": "polished chrome hammer head mid-swing, glowing gunmetal gray energy trails, matte black metallic sparks, deep steel blue aura, industrial workshop background glow, sharp metallic reflections"
     },
     {
-      "name": "Escudo de Hierro",
-      "desc": "Crea un escudo de acero que absorbe el daño y refleja ataques críticos.",
-      "name_en": "Iron Shield",
-      "visual_prompt": "polished steel shield with glowing electric blue edges, metallic steam vents rising in the background, gunmetal gray energy waves, neon cyan reflections, industrial cityscape skyline, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Chispazo Resonante",
+      "desc": "Genera ondas de energía que debilitan el ataque especial del rival.",
+      "name_en": "Resonant Zap",
+      "visual_prompt": "glowing gunmetal gray energy waves, polished chrome ripples, deep steel blue distortion lines, matte black metallic shards, industrial workshop reflections"
     },
     {
-      "name": "Carga de Fuerza",
-      "desc": "Aumenta el ataque y la velocidad al coste de la defensa durante un turno.",
-      "name_en": "Force Charge",
-      "visual_prompt": "polished silver energy waves, gunmetal gray metallic particles, electric blue sparks, neon cyan streaks, industrial steam vents, geometric steel patterns, glowing neon signs"
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de llama que absorbe el daño y restaura vida.",
+      "name_en": "Flame Shield",
+      "visual_prompt": "glowing steel shield, molten orange flames swirling inside, polished chrome surface, industrial workshop background glow, deep steel blue energy lines, matte black accents, heat haze effect, stylized 2D VFX, Ken Sugimori style"
     }
   ],
   "diffs": [
     {
-      "from": "patas de fuego",
-      "to": "patas de acero fundido, plantadas como pilares"
+      "from": "piel sensible al fuego",
+      "to": "piel recubierta de acero resistente al calor"
     },
     {
-      "from": "pelaje rojo brillante",
-      "to": "pelaje plateado brillante con reflejos de acero"
+      "from": "postura baja y vulnerable",
+      "to": "postura erguida y estable con patas de acero"
     },
     {
-      "from": "llama caliente",
-      "to": "llama fría y precisa, sin humo"
+      "from": "fuego controlado",
+      "to": "fuego almacenado en acero para ataques explosivos"
     },
     {
-      "from": "bajo postura",
-      "to": "postura elevada y estable, como una fortaleza"
+      "from": "bajo poder defensivo",
+      "to": "defensa mejorada por la armadura de acero"
     }
   ],
   "pokemon_id": "126",

@@ -1,34 +1,35 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "compact plump body silhouette",
-    "short stubby legs",
-    "paw-like hands with padded joints",
-    "curled tail tip",
-    "white body with pink accents"
+    "round body shape",
+    "four limbs with distinct hands and feet",
+    "arms raised in a greeting gesture",
+    "blue tail tip",
+    "rounded head with small eyes",
+    "white and pink color scheme"
   ],
   "original_type_traits": [
-    "paw-like hands (psychic/fairy association)",
-    "padded joints (psychic/fairy association)",
-    "pink accents (fairy type association)"
+    "pink body parts (fairy)",
+    "white color scheme (psychic)",
+    "blue tail tip (psychic)",
+    "raised arms (psychic)"
   ],
   "transformable_parts": [
-    "paw-like hands",
-    "padded joints",
-    "curled tail tip",
-    "body color palette",
+    "tail",
+    "body coloration",
+    "arm pose",
     "head shape",
-    "ear shape"
+    "hand details",
+    "foot structure"
   ],
   "suppress_colors": [
-    "pink accents",
-    "blue highlights",
-    "white body (original base color)"
+    "pink",
+    "white",
+    "blue"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, compact rounded stance",
-    "rounded head with pointed ears, curled tail tip extending backward",
-    "paw-like hands with padded joints, white body base"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "pointed tail with bulbous tip",
+    "rounded head with small circular eyes"
   ],
   "pokemon_id": "122",
   "pokemon_name": "mr-mime",
@@ -44,22 +45,24 @@
       "gray"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip",
-      "paw-like hands",
-      "padded joints"
+      "head",
+      "body",
+      "arms",
+      "hands",
+      "legs",
+      "feet",
+      "tail"
     ],
-    "silhouette": "The Pokémon has a round, plump body with a slightly elongated head and short limbs, giving it a compact and rounded appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The Pokémon has a round body with four limbs, standing on the ground with its arms and legs spread out.",
     "type_markers": [
-      "paw-like hands",
-      "padded joints"
+      "fairy: pink body parts",
+      "psychic: no specific markers visible"
     ],
     "distinctive_features": [
-      "rounded head",
-      "pointed ears",
-      "curled tail tip"
+      "large, round body",
+      "four limbs with hands and feet",
+      "tail with a blue tip"
     ]
   }
 }

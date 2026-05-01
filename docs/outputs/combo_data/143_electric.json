@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Rayo Soñoliento",
-  "lore": "El Pokémon Rayo Soñoliento duerme con las patas conectadas a la red eléctrica, sus ojos brillan con chispas. Su pelaje plateado absorbe energía, transformando sueños en descargas.",
+  "species_name": "Pokémon Relámpago Peso",
+  "lore": "Este Snorlax ahora brilla con energía eléctrica, sus patas relucen con chispas azules. Su piel se cubre de pequeñas protuberancias que liberan descargas al moverse, mientras su postura baja se adapta para absorber la electricidad.",
   "moves": [
     {
-      "name": "Sueño Relámpago",
-      "desc": "Ataca con sueños eléctricos que paralizan al oponente con una descarga suave.",
-      "name_en": "Lightning Dream",
-      "visual_prompt": "Electric blue lightning bolts weaving through neon yellow dream clouds, violet sparks crackling in stormy sky, bright white energy pulses, electric cyan trails, soft static glow, no characters"
+      "name": "Chispa de Sueño",
+      "desc": "Genera una chispa que hace dormir al oponente mientras el usuario se recarga.",
+      "name_en": "Dream Spark",
+      "visual_prompt": "neon electric blue sparks, glowing white energy trails, pale blue sleep aura, flickering city skyline, electric storm clouds, vibrant yellow lightning bolts, crisp white motion lines"
     },
     {
-      "name": "Bola de Sueño",
-      "desc": "Lanza bolas de sueño que explotan en chispas, causando daño eléctrico.",
-      "name_en": "Sleep Ball",
-      "visual_prompt": "glowing electric blue orbs, neon yellow sparks, violet lightning bursts, bright white energy cracks, crackling storm clouds, dynamic energy field"
+      "name": "Descarga Zumbante",
+      "desc": "Lanza una descarga eléctrica que reduce la defensa del rival.",
+      "name_en": "Zing Bolt",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy arcs, crisp white shockwaves, bright electric white sparks, pale blue glow trails, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Carga Soñada",
-      "desc": "Carga energía eléctrica mientras duerme, aumentando su poder al despertar.",
-      "name_en": "Dream Charge",
-      "visual_prompt": "electric blue orbs floating in stormy sky, neon yellow lightning bolts, violet sparks, bright white energy trails, crackling energy fields, neon-lit thunderclouds"
+      "name": "Carga Pesada",
+      "desc": "Aumenta el ataque y el usuario absorbe energía al golpear.",
+      "name_en": "Heavy Charge",
+      "visual_prompt": "vibrant electric blue orbs swirling with neon yellow energy trails, crisp white lightning bolts cracking through pale blue glow, dynamic energy pulses radiating outward, neon city skyline backdrop with flickering electric storm clouds"
     },
     {
-      "name": "Paralización Sónica",
-      "desc": "Emite ondas sonoras que paralizan al rival con una descarga constante.",
-      "name_en": "Sonic Paralysis",
-      "visual_prompt": "crackling electric blue waves, neon yellow sound ripples, violet sparks, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds"
+      "name": "Sueño Estático",
+      "desc": "El usuario se duerme y recupera salud mientras genera un campo estático.",
+      "name_en": "Static Slumber",
+      "visual_prompt": "electric blue energy waves, neon yellow static sparks, glowing white aura, pale blue mist swirls, crisp white geometric patterns, flickering neon city skyline backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuadrúpedo con cuatro patas plantadas en el suelo",
-      "to": "Patas conectadas a cables eléctricos, generando chispas al moverse."
+      "from": "patas planas y bajas",
+      "to": "patas con protuberancias que emiten chispas azules"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura elevada con energía eléctrica en su pelaje, brillando intensamente."
+      "from": "piel lisa y suave",
+      "to": "piel cubierta de pequeñas protuberancias para liberar electricidad"
     },
     {
-      "from": "Pelaje gris claro",
-      "to": "Pelaje plateado que absorbe y libera energía eléctrica."
+      "from": "postura tranquila y reposada",
+      "to": "postura adaptada para absorber energía eléctrica"
     },
     {
-      "from": "Dormir durante el día",
-      "to": "Dormir mientras recarga energía eléctrica de la red."
+      "from": "movimientos lentos y pesados",
+      "to": "movimientos rápidos y energéticos gracias a la electricidad."
     }
   ],
   "pokemon_id": "143",

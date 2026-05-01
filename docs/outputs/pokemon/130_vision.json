@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "light blue",
+    "dark blue",
+    "beige",
+    "white"
+  ],
+  "body_parts": [
+    "head",
+    "neck",
+    "body",
+    "tail",
+    "spikes",
+    "fangs"
+  ],
+  "body_plan": "serpentine",
+  "silhouette": "The creature has a long, snake-like body with a series of spikes along its back and tail, and a head with a prominent fang.",
+  "type_markers": [
+    "spikes on back",
+    "fangs on head"
+  ],
+  "distinctive_features": [
+    "spikes along the back and tail",
+    "fangs on the head"
+  ]
+}

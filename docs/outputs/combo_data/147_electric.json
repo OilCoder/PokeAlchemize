@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Rayo Serpiente",
-  "lore": "El Rayo Serpiente se erige con escamas eléctricas que brillan bajo la luz. Sus patas, ahora cargadas de energía, permiten saltos fulgurantes mientras genera campos magnéticos en el aire.",
+  "species_name": "Pokémon Relámpago Marítimo",
+  "lore": "Dratini, ahora transformado en Relámpago Marítimo, resplandece con corrientes eléctricas que recorren su cuerpo serpenteante. Sus escamas brillan con destellos azules, y su cola emite chispas al moverse.",
   "moves": [
     {
-      "name": "Relámpago Zarpado",
-      "desc": "Genera un relámpago que atraviesa el suelo, causando daño eléctrico y confundiendo al rival.",
-      "name_en": "Zap Strike",
-      "visual_prompt": "crackling electric blue lightning bolts, neon yellow energy trails, violet spark particles, bright white shockwaves, electric cyan static field, stormy sky background, dynamic energy arcs"
+      "name": "Descarga Marina",
+      "desc": "Genera una descarga eléctrica que afecta a todos los rivales en el agua.",
+      "name_en": "Marine Charge",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow lightning bolts, crisp white energy pulses, bright electric white sparks, pale blue glowing water droplets, urban city skyline silhouette, neon signs flickering in background"
     },
     {
-      "name": "Chispa Estelar",
-      "desc": "Lanza chispas que forman un patrón estelar, incrementando el ataque del usuario.",
-      "name_en": "Star Spark",
-      "visual_prompt": "neon yellow star-shaped energy bolts, electric cyan crackling patterns, violet spark trails, stormy sky background with crackling energy fields, bright white light bursts, dynamic star constellation formation, electric blue highlights, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Chispa Oceánica",
+      "desc": "Lanza chispas que aumentan la velocidad del usuario y daña a los enemigos cercanos.",
+      "name_en": "Ocean Spark",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy trails, crisp white shockwaves, bright electric white sparks, pale blue glow pulses, urban city skyline background, neon sign flickers, electric storm cloud effects"
     },
     {
-      "name": "Vórtice Electrónico",
-      "desc": "Crea un vórtice que atrae a los rivales hacia el centro, causando daño eléctrico continuo.",
-      "name_en": "Electro Vortex",
-      "visual_prompt": "spinning electric blue vortex, neon yellow energy rings, violet sparks flying, bright white lightning bolts, electric cyan trails, stormy sky background, crackling energy fields"
+      "name": "Torbellino Eléctrico",
+      "desc": "Crea un torbellino que atrapa a los enemigos y los electrocuta.",
+      "name_en": "Electric Whirlwind",
+      "visual_prompt": "vibrant electric blue whirlwind, neon yellow energy arcs, crisp white lightning bolts, bright electric white sparks, pale blue glow trails, urban cityscape background with flickering neon signs"
     },
     {
-      "name": "Descarga Terrenal",
-      "desc": "Genera una descarga que cubre el suelo, reduciendo la velocidad del oponente.",
-      "name_en": "Earth Shock",
-      "visual_prompt": "crackling electric blue energy fields, neon yellow lightning bolts arcing across a stormy sky, violet sparks scattering, bright white ground pulses, electric cyan static waves"
+      "name": "Rayo Submarino",
+      "desc": "Dispara un rayo eléctrico desde el fondo del mar que causa daño masivo.",
+      "name_en": "Submarine Bolt",
+      "visual_prompt": "vibrant electric blue energy surges, neon yellow lightning bolts, crisp white energy trails, bright electric white sparks, pale blue glowing water ripples, urban cityscape neon signs flickering in background, electric storm clouds above"
     }
   ],
   "diffs": [
     {
-      "from": "patas cuadrúpedas",
-      "to": "patas cargadas de energía eléctrica que permiten saltos rápidos"
+      "from": "cuerpo serpenteante",
+      "to": "recubierto de escamas brillantes que emiten chispas eléctricas"
     },
     {
-      "from": "escamas lisas",
-      "to": "escamas con brillo eléctrico que reflejan campos magnéticos"
+      "from": "ausencia de extremidades",
+      "to": "cola con terminación en punta que genera descargas"
     },
     {
-      "from": "postura baja",
-      "to": "postura erguida para maximizar la generación de energía"
+      "from": "forma alargada",
+      "to": "resplandece con corrientes eléctricas que recorren su cuerpo"
     },
     {
-      "from": "cuerpo largo",
-      "to": "cuerpo más flexible para moverse en patrones eléctricos"
+      "from": "color claro",
+      "to": "tonos azules eléctricos que brillan bajo el agua"
     }
   ],
   "pokemon_id": "147",

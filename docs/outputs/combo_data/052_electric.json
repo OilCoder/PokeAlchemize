@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispas Felinas",
-  "lore": "Con su pelaje brillante y chispas eléctricas en las patas, Chispas Felinas camina con elegancia eléctrica. Sus ojos centellean con energía, y sus garras emiten destellos azules al moverse.",
+  "species_name": "Pokémon Chispazón",
+  "lore": "Chispazón, con su pelaje brillante y chispas eléctricas que bailan en su cola, se desplaza con agilidad eléctrica. Sus patas emiten destellos al tocar el suelo, cargando el aire con energía.",
   "moves": [
     {
-      "name": "Chispa de Gato",
-      "desc": "Dispara chispas eléctricas desde las patas, causando daño y posiblemente paralizar al rival.",
-      "name_en": "Cat Spark",
-      "visual_prompt": "electric blue sparks, neon yellow arcs, violet lightning streaks, bright white energy bursts, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Chispa Carga",
+      "desc": "Genera una descarga eléctrica que daña al oponente y aumenta su velocidad.",
+      "name_en": "Charge Spark",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy arcs, crisp white static sparks, bright electric white shockwaves, pale blue glowing trails, urban city skyline background with flickering neon signs"
     },
     {
-      "name": "Relámpago Felino",
-      "desc": "Acelera rápidamente para atacar con un ataque de relámpago, incrementando su velocidad.",
-      "name_en": "Feline Bolt",
-      "visual_prompt": "electric blue lightning bolts, neon yellow sparks, violet energy trails, bright white crackling arcs, stormy sky backdrop, neon-lit thunderclouds, dynamic motion lines, 2D stylized VFX, Ken Sugimori aesthetic"
+      "name": "Cola Estática",
+      "desc": "Carga energía en su cola para lanzar un ataque rápido y preciso.",
+      "name_en": "Static Tail",
+      "visual_prompt": "vibrant electric blue energy arcs, neon yellow sparks, crisp white lightning bolts, bright electric white static particles, pale blue glow trails, urban cityscape neon signs flickering, electric storm clouds in background"
     },
     {
-      "name": "Bola Chispeante",
-      "desc": "Lanza una bola de energía eléctrica que explota al impactar, causando daño adicional.",
-      "name_en": "Spark Ball",
-      "visual_prompt": "electric blue energy sphere, neon yellow crackling sparks, violet lightning bolts, bright white explosion rings, electric cyan afterimage trails, stormy sky backdrop with crackling energy fields"
+      "name": "Pata Relampagueante",
+      "desc": "Ataca con patadas eléctricas que paralizan al enemigo.",
+      "name_en": "Thunder Kick",
+      "visual_prompt": "electric blue energy trails, neon yellow lightning bolts, crisp white sparks, bright electric white static, pale blue glow, urban cityscape background with flickering neon signs, electric storm clouds overhead, dynamic motion lines, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Piel Electrizada",
-      "desc": "Aumenta la defensa al rodearse de un campo eléctrico protector.",
-      "name_en": "Electric Skin",
-      "visual_prompt": "electric blue energy field, neon yellow sparks, violet lightning arcs, bright white corona discharge, stylized 2D VFX, Ken Sugimori style, stormy sky backdrop"
+      "name": "Carga de Chispa",
+      "desc": "Recarga energía para aumentar el poder de los movimientos eléctricos.",
+      "name_en": "Spark Charge",
+      "visual_prompt": "vibrant electric blue orbs, neon yellow energy trails, crisp white lightning bolts, bright electric white sparks, pale blue glow particles, urban cityscape neon signs flickering in background, electric storm clouds"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje suave",
+      "from": "pelaje normal",
       "to": "pelaje brillante con chispas eléctricas"
     },
     {
-      "from": "patas sólidas",
-      "to": "patas emiten chispas azules al caminar"
+      "from": "patas planas",
+      "to": "patas que emiten destellos al tocar el suelo"
     },
     {
-      "from": "ojos normales",
-      "to": "ojos centellean con energía eléctrica"
+      "from": "postura baja",
+      "to": "desplazamiento ágil con energía eléctrica"
     },
     {
-      "from": "garras normales",
-      "to": "garras emiten destellos azules al atacar"
+      "from": "movimientos lentos",
+      "to": "ataques rápidos y precisos con chispas"
     }
   ],
   "pokemon_id": "052",

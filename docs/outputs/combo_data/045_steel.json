@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Flor",
-  "lore": "Vileplume, ahora con armadura de acero, camina con pasos firmes. Sus pétalos se han vuelto afilados y metálicos, brillando bajo el sol. Sus raíces se han transformado en garras de acero, aferrando el suelo con fuerza.",
+  "species_name": "Pokémon Acero Florido",
+  "lore": "Acero Florido camina con pasos firmes sobre patas de acero, sus pétalos se han endurecido en láminas cortantes. Su cuerpo emite un brillo metálico bajo el sol, mientras exhala un aroma de hierro fundido.",
   "moves": [
     {
-      "name": "Cortante Acero",
-      "desc": "Ataca con pétalos afilados de acero, causando daño físico y posiblemente paralizar.",
-      "name_en": "Steel Petal Slash",
-      "visual_prompt": "shimmering steel petals, razor-sharp edges, gunmetal gray and silver hues, neon cyan glow, industrial city skyline backdrop, metallic steam rising, electric blue energy trails"
+      "name": "Corte de Acero",
+      "desc": "Corta con precisión con láminas de acero, causando daño y reduciendo defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel blades slicing through air, jagged metallic shards, gunmetal gray energy trails, polished chrome reflections, deep steel blue glow, industrial workshop background hints, matte black dust particles"
     },
     {
-      "name": "Raíz de Acero",
-      "desc": "Atrae al oponente con raíces metálicas, reduciendo su velocidad y causando daño.",
-      "name_en": "Steel Root",
-      "visual_prompt": "metallic roots coiling with gunmetal gray and electric blue glow, polished silver tendrils weaving through neon cyan steam vents, industrial cityscape backdrop with glowing steel structures, metallic blue energy trails"
+      "name": "Esencia Ferrosa",
+      "desc": "Exhala un vapor metálico que reduce el poder de los ataques enemigos.",
+      "name_en": "Metal Essence",
+      "visual_prompt": "gunmetal gray vapor swirls, polished chrome energy lines, matte black metallic particles, deep steel blue glow, industrial workshop textures, reflective metal surfaces, subtle metallic sheen"
     },
     {
-      "name": "Bomba Flor",
-      "desc": "Lanza pétalos de acero que explotan al impactar, causando daño especial.",
-      "name_en": "Steel Bloom",
-      "visual_prompt": "shimmering steel petals, explosive impact rings, metallic steam vents, glowing neon cyan trails, industrial cityscape backdrop, gunmetal gray explosions, polished silver fragments, electric blue energy bursts"
+      "name": "Pétalos Cortantes",
+      "desc": "Lanza pétalos afilados que causan daño y provocan sangrado.",
+      "name_en": "Sharp Petals",
+      "visual_prompt": "steel-blue petal shards, razor-edged metallic petals, polished chrome glint, gunmetal gray energy trails, deep steel blue aura, matte black impact points"
     },
     {
-      "name": "Defensa Acero",
-      "desc": "Aumenta la defensa con una armadura metálica que resiste golpes.",
-      "name_en": "Steel Defense",
-      "visual_prompt": "gunmetal gray armor plating, polished silver shield aura, metallic steel blue energy rings, electric blue particle sparks, neon cyan energy waves, industrial city skyline backdrop, glowing neon reflections"
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan la defensa del enemigo.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished chrome ripples, deep steel blue energy lines, matte black distortion rings, industrial workshop metal surfaces"
     }
   ],
   "diffs": [
     {
-      "from": "pétalos florescentes",
-      "to": "pétalos afilados y metálicos, brillantes"
+      "from": "pétalos suaves y fragantes",
+      "to": "láminas de acero afiladas y duras"
     },
     {
-      "from": "raíces suaves",
-      "to": "raíces transformadas en garras de acero"
+      "from": "cuerpo flexible y maleable",
+      "to": "estructura rígida y resistente"
     },
     {
-      "from": "bajo postura",
-      "to": "postura firme con cuatro patas metálicas"
+      "from": "postura baja y arrastrada",
+      "to": "postura erguida y estable"
     },
     {
-      "from": "olor venenoso",
-      "to": "olor metálico y frío, sin veneno"
+      "from": "olor dulce y floral",
+      "to": "olor a hierro fundido y metal"
     }
   ],
   "pokemon_id": "045",

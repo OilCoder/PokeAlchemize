@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Espectro Mímico",
-  "lore": "Mr-mime, ahora un espectro etéreo, flota sobre el suelo con cuatro piernas translúcidas. Sus manos emiten destellos de luz fantasmal, y su cuerpo se vuelve invisible al moverse, dejando solo sombras danzantes.",
+  "lore": "Mr-mime, ahora un espectro etéreo, camina con pasos silenciosos sobre el suelo. Sus manos brillan con destellos fantasmales, y sus ojos emiten un brillo azul intenso. Su postura baja se ha vuelto más fluida, como si flotara sobre el suelo.",
   "moves": [
     {
-      "name": "Sombra Mímica",
-      "desc": "Crea una ilusión de sí mismo en múltiples posiciones, confundiendo al enemigo con reflejos de sombra.",
-      "name_en": "Shadow Mimic",
-      "visual_prompt": "shimmering violet shadows, fragmented ghostly reflections, misty graveyard atmosphere, drifting ethereal fog, pale silver light beams, charcoal gray outlines, shadow violet distortions"
+      "name": "Espejismo Fantasmal",
+      "desc": "Crea una ilusión que confunde al oponente, reduciendo su precisión.",
+      "name_en": "Phantom Mirage",
+      "visual_prompt": "translucent ghostly orbs floating in moonlight, shimmering spectral white mist, icy blue frost patterns on moonlit ruins, pale silver light trails, ethereal distortion waves"
     },
     {
-      "name": "Fantasma de Manos",
-      "desc": "Lanza un ataque de manos fantasmales que atrapan al rival en un abrazo sin cuerpo.",
-      "name_en": "Phantom Embrace",
-      "visual_prompt": "floating translucent hands, ghostly violet mist, ethereal silver glow, shadowy tendrils, pale white energy swirls, deep violet aura, misty graveyard backdrop, moonlit tombstones silhouette"
+      "name": "Susurro de Sombras",
+      "desc": "Ataca con sombras que roban energía del oponente.",
+      "name_en": "Shadow Whispers",
+      "visual_prompt": "translucent spectral orbs drifting through moonlit ruins, pale silver mist swirling, icy blue energy trails, moonlight gray shadows dissolving into frost, ghostly energy stealing glow"
     },
     {
-      "name": "Espejo de Sombras",
-      "desc": "Refleja el ataque del oponente en su propia sombra, devolviéndolo con mayor fuerza.",
-      "name_en": "Shadow Mirror",
-      "visual_prompt": "shimmering violet shadow mirror reflecting ghostly attacks, cracked mirror surface, deep violet mist, pale silver fragments, charcoal gray energy waves, ethereal fog, moonlit tombstone silhouette in background"
+      "name": "Cáscara de Sueño",
+      "desc": "Crea una barrera de sueños que reduce el daño recibido.",
+      "name_en": "Dream Shell",
+      "visual_prompt": "translucent moonlit mist, spectral silver orbs drifting, icy blue barrier with glowing pale silver edges, frosty geometric patterns, ethereal glow, floating dream fragments, pale silver mist particles"
     },
     {
-      "name": "Vapor Invisibilidad",
-      "desc": "Se vuelve invisible y desaparece temporalmente, evitando todos los ataques.",
-      "name_en": "Phantom Veil",
-      "visual_prompt": "translucent violet mist swirling around floating ghostly silver orbs, deep violet shadows fading into charcoal gray fog, ethereal pale silver mist drifting through moonlit tombstone outlines, shadow violet tendrils dissolving into nothingness"
+      "name": "Aparición Silenciosa",
+      "desc": "Se desplaza sin ruido, aumentando su velocidad temporalmente.",
+      "name_en": "Silent Step",
+      "visual_prompt": "translucent frost footprints, pale silver mist swirling, moonlit ruins with glowing spectral orbs, icy blue shimmer trails, spectral white energy pulses"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro piernas plantadas en el suelo",
-      "to": "piernas translúcidas que flotan sobre el suelo sin tocarlo"
+      "from": "Pies en el suelo",
+      "to": "Flota ligeramente sobre el suelo"
     },
     {
-      "from": "baja postura",
-      "to": "cuerpo elevado en posición flotante"
+      "from": "Manos brillantes",
+      "to": "Manos con destellos fantasmales azules"
     },
     {
-      "from": "manos que muestran gestos",
-      "to": "manos que emiten destellos de luz fantasmal"
+      "from": "Postura baja",
+      "to": "Postura más fluida y etérea"
     },
     {
-      "from": "apariencia sólida",
-      "to": "cuerpo que se vuelve invisible al moverse"
+      "from": "Ojos normales",
+      "to": "Ojos que emiten brillo azul intenso"
     }
   ],
   "pokemon_id": "122",

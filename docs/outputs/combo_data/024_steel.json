@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Serpiente",
-  "lore": "Acero Serpiente se desplaza con gracia metálica, su cuerpo plateado refleja el sol mientras sus escamas afiladas cortan el aire. Sus ojos brillan con frialdad, listos para atacar con precisión acerada.",
+  "lore": "Su cuerpo enroscado ahora brilla con escamas de acero pulido, resplandeciendo bajo la luz. Sus ojos emiten un destello metálico, y cada movimiento genera un sonido resonante de metal contra metal.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Ataca con garras afiladas que cortan acero, causando daño adicional por tipo.",
-      "name_en": "Steel Cut",
-      "visual_prompt": "sharpened steel claws, polished silver sparks, gunmetal gray energy trails, metallic steam vents, neon cyan glowing edges, industrial cityscape backdrop"
+      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, sharp metallic shards, glowing gunmetal gray energy trails, polished chrome sparks, matte black shadow streaks, deep steel blue aura"
     },
     {
-      "name": "Escudo Inoxidable",
-      "desc": "Crea una barrera de acero que reduce el daño recibido y refleja ataques críticos.",
-      "name_en": "Unbreakable Shield",
-      "visual_prompt": "polished steel barrier, glowing neon cyan edges, metallic steam vents, gunmetal gray reflections, electric blue energy waves, industrial cityscape backdrop"
+      "name": "Golpe Cónico",
+      "desc": "Golpea con un impacto metálico, generando un efecto de aturdimiento.",
+      "name_en": "Metal Impact",
+      "visual_prompt": "gunmetal gray energy waves, polished chrome sparks, matte black distortion ripples, deep steel blue shockwaves, industrial workshop metal surfaces, glowing energy lines"
     },
     {
-      "name": "Cicatriz de Acero",
-      "desc": "Deja una herida que reduce la defensa del oponente y genera un efecto de corrosión.",
-      "name_en": "Steel Scar",
-      "visual_prompt": "cracked steel surface, corroding metallic streaks, glowing electric blue etching, polished silver residue, industrial steam vents, neon cyan vapor trails, gunmetal gray texture, metallic sheen, sharp jagged fissures, toxic blue corrosion spots"
+      "name": "Escudo Mecánico",
+      "desc": "Crea una barrera de acero que absorbe el 50% del daño recibido.",
+      "name_en": "Mechanical Shield",
+      "visual_prompt": "polished steel barrier, glowing energy lines in gunmetal gray, matte black edges, deep steel blue highlights, industrial workshop background, reflective surface, geometric patterns, smooth metallic texture, 2D stylized VFX"
     },
     {
-      "name": "Golpe de Martillo",
-      "desc": "Ataca con un golpe fuerte de martillo que causa daño y reduce la velocidad del rival.",
-      "name_en": "Hammer Strike",
-      "visual_prompt": "polished steel hammer impact, metallic blue energy waves, glowing neon cyan sparks, industrial steam vents, gunmetal gray debris, electric blue shockwaves, polished silver reflections"
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas de sonido que debilitan la defensa del oponente.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "gunmetal gray sound waves, polished chrome ripples, matte black energy lines, deep steel blue vibrations, industrial workshop background, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo serpiente con escamas venenosas",
-      "to": "cuerpo cubierto de escamas metálicas resistentes al veneno"
+      "from": "Cuerpo serpenteante",
+      "to": "Escamas de acero pulido que resplandecen y emiten sonidos metálicos"
     },
     {
-      "from": "postura baja y coiled",
-      "to": "postura erguida y ágil con movimientos precisos"
+      "from": "Ojos venenosos",
+      "to": "Ojos que brillan con un destello metálico, sin rastro de veneno"
     },
     {
-      "from": "veneno como arma",
-      "to": "acero como arma, cortando con precisión"
+      "from": "Lengua venenosa",
+      "to": "Lengua reemplazada por una punta afilada de acero"
     },
     {
-      "from": "color verde oscuro",
-      "to": "color plateado brillante con destellos azules"
+      "from": "Movimientos lentos",
+      "to": "Movimientos rápidos y precisos, con sonidos metálicos"
     }
   ],
   "pokemon_id": "024",

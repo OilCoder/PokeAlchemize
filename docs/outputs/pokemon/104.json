@@ -1,33 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "compact, sturdy body silhouette",
-    "short stubby legs",
-    "curled tail tip",
-    "white and tan coloration",
-    "gray accents on body"
+    "compact quadruped body",
+    "spiky head crest",
+    "tan and gray coloration",
+    "head with two prominent ears",
+    "arms with visible hands",
+    "four legs with paws"
   ],
   "original_type_traits": [
-    "ground type doesn't have visible markers in sprite",
-    "no obvious type-specific features present"
+    "ground texture on feet",
+    "dirt-covered legs",
+    "muddy footprints"
   ],
   "transformable_parts": [
-    "head shape and ear placement",
-    "tail tip curl and length",
-    "leg structure and stance",
-    "body coloration and patterns",
-    "skin texture (e.g., rough vs smooth)",
-    "ear shape and size"
+    "head crest",
+    "ears",
+    "body texture",
+    "feet",
+    "arm hands",
+    "coloration"
   ],
   "suppress_colors": [
-    "white",
     "tan",
-    "gray"
+    "gray",
+    "muddy brown"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted firmly on ground, compact body stance",
-    "pointed ears on rounded head, white and tan coloration",
-    "curled tail tip with gray accent"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "spiky head crest with pointed tips",
+    "two ears positioned on top of head, slightly curved inward"
   ],
   "pokemon_id": "104",
   "pokemon_name": "cubone",
@@ -41,19 +42,24 @@
       "gray"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "ears",
+      "eyes",
+      "body",
+      "arms",
+      "hands",
+      "legs",
+      "feet"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with a slightly larger head and short, stubby legs, giving it a compact and sturdy appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a compact, quadrupedal body with a head, two arms, and four legs, all touching the ground.",
     "type_markers": [
       "none visible"
     ],
     "distinctive_features": [
-      "white and tan coloration",
-      "pointed ears",
-      "curled tail tip"
+      "spiky head",
+      "ears",
+      "arms with hands"
     ]
   }
 }

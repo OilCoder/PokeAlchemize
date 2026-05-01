@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Jigglypuff se ha transformado en un ser acuático, con patas como aletas y un cuerpo brillante. Su voz suave ahora crea olas suaves que calman a los peces. Sus ojos brillan bajo el agua, atrayendo a sus presas con dulzura.",
+  "species_name": "Pokémon Onda Marina",
+  "lore": "Onda Marina flota en el océano, su cuerpo gelatinoso absorbe el agua y brilla con reflejos azules. Sus ojos brillantes emiten un destello hipnótico bajo el agua, atrayendo a sus presas con su canto suave.",
   "moves": [
     {
-      "name": "Canción Oceánica",
-      "desc": "Crea ondas sonoras que hipnotizan a los oponentes bajo el agua, reduciendo su velocidad.",
+      "name": "Canto Oceánico",
+      "desc": "Canta con voz resonante que crea ondas de calma en el agua, reduciendo la velocidad del rival.",
       "name_en": "Ocean Song",
-      "visual_prompt": "glowing bioluminescent waves, hypnotic spiral sound ripples, deep ocean blue and teal green water currents, pearly white light pulses, aquamarine energy swirls, calm underwater motion"
+      "visual_prompt": "calm ocean waves with shimmering ripples, deep blue and teal water patterns, pearly white foam, sapphire blue light rays, gentle undulating motion, soft aquamarine glow"
     },
     {
-      "name": "Burbuja de Sueño",
-      "desc": "Lanza burbujas llenas de un sueño dulce que adormece al enemigo.",
-      "name_en": "Sleep Bubble",
-      "visual_prompt": "glowing aquamarine bubbles, soft teal water currents, bioluminescent plankton particles, pearly white mist, gentle underwater motion, deep ocean blue background"
+      "name": "Burbuja Luminosa",
+      "desc": "Lanza burbujas que brillan y ciegan al enemigo, disminuyendo su precisión.",
+      "name_en": "Luminous Bubble",
+      "visual_prompt": "glowing water bubbles, shimmering teal and pearly white light, soft blue sunlight reflections, gentle ocean wave patterns, disorienting visual streaks, calm ocean surface texture"
     },
     {
-      "name": "Ola Tranquila",
-      "desc": "Genera una ola suave que cura a aliados y reduce el daño recibido.",
-      "name_en": "Calm Wave",
-      "visual_prompt": "gentle blue water ripples, glowing bioluminescent plankton, teal-green light trails, pearly white bubbles, slow-moving aquamarine currents, soft sapphire blue glow"
+      "name": "Ola de Sueño",
+      "desc": "Genera una ola que envuelve al rival, causando sueño tras un breve periodo.",
+      "name_en": "Sleep Wave",
+      "visual_prompt": "gentle blue ocean waves, shimmering pearly white mist, slow-motion ripple effect, soft sapphire blue light, pale aquamarine glow, smooth undulating water surface, dreamy translucent bubbles"
     },
     {
-      "name": "Canto de la Profundidad",
-      "desc": "Aumenta la defensa y la velocidad del usuario mientras canta bajo el agua.",
-      "name_en": "Abyssal Serenade",
-      "visual_prompt": "bioluminescent blue-green plankton swirls, deep ocean trench backdrop, shimmering water ripples, pearlescent white energy waves, teal and aquamarine light beams, slow-moving current patterns"
+      "name": "Manto Acuático",
+      "desc": "Cubre a sí mismo con una capa de agua que aumenta su defensa y evita el daño de fuego.",
+      "name_en": "Water Shield",
+      "visual_prompt": "gentle ocean waves, shimmering teal water droplets, pearly white aura, deep blue ripple effects, sapphire blue light refraction, calm water surface with soft blue sunlight"
     }
   ],
   "diffs": [
     {
-      "from": "patas en el suelo",
-      "to": "patas transformadas en aletas para nadar"
+      "from": "Cuerpo gelatinoso",
+      "to": "Cuerpo transparente que absorbe el agua y refleja la luz marina."
     },
     {
-      "from": "voz suave",
-      "to": "voz que crea olas y hipnotiza"
+      "from": "Canto dulce",
+      "to": "Canto resonante que crea ondas en el agua, hipnotizando a los rivales."
     },
     {
-      "from": "cuerpo redondo",
-      "to": "cuerpo brillante y fluido en el agua"
+      "from": "Sin brazos ni piernas",
+      "to": "Forma ondulante que se mueve como una ola en el mar."
     },
     {
-      "from": "bajo el agua",
-      "to": "vive y se mueve con fluidez en el agua"
+      "from": "Ojos pequeños",
+      "to": "Ojos brillantes que emiten destellos azules bajo el agua."
     }
   ],
   "pokemon_id": "039",

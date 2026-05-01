@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Slowpoke ahora es un Pokémon de tipo hada, con un pelaje suave como nubes de azúcar y ojos brillantes como estrellas. Sus patas se han vuelto más delicadas, y su cola emana un brillo dorado que atrae a otros Pokémon.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Este Pokémon, ahora envuelto en un aura de brillo dorado, tiene alas de cristal que brillan bajo la luz. Su cola se transforma en una pata de mariposa, y sus ojos reflejan la magia de los sueños. El tipo hada le otorga una gracia etérea.",
   "moves": [
     {
-      "name": "Luz de Caramelo",
-      "desc": "Lanza un rayo de luz dulce que cura leves heridas y reduce el daño recibido.",
-      "name_en": "Candy Light",
-      "visual_prompt": "glowing pastel pink orbs floating in soft mist, crystalline mint starlight trails, ivory white dewdrops, pearl lavender petals swirling, gentle starlight blue energy beams"
+      "name": "Ala de Diamante",
+      "desc": "Genera un escudo de cristal que refleja ataques y aumenta la defensa.",
+      "name_en": "Diamond Wing",
+      "visual_prompt": "crystalline shield fragments, iridescent pink and silver shards, soft glowing lavender mist, delicate diamond-like patterns, pearlescent shimmer, moonlit meadow backdrop"
     },
     {
-      "name": "Canción de Sueño",
-      "desc": "Canta una melodía hipnótica que adormece al rival y lo hace vulnerable.",
-      "name_en": "Hypno Melody",
-      "visual_prompt": "glowing pastel pink musical notes, floating ivory white lily petals, pearl lavender stardust swirls, crystalline mint dewdrops, soft misty twilight sky backdrop, ethereal starlight blue light rays"
+      "name": "Sueño Dorado",
+      "desc": "Crea un sueño hipnótico que reduce la velocidad del rival.",
+      "name_en": "Dreamy Slumber",
+      "visual_prompt": "floating pastel pink dream orbs, soft lavender mist, delicate ivory white petals swirling, shimmering silver moonlight beams, pearly gold fairy lights, hypnotic spiral patterns"
     },
     {
-      "name": "Pétalos de Felicidad",
-      "desc": "Dispara pétalos brillantes que aumentan la defensa y la velocidad del usuario.",
-      "name_en": "Happy Petals",
-      "visual_prompt": "glowing pastel pink petals swirling in a moonlit garden, crystalline mint light trails, pearl lavender mist, starlight blue sparkles, soft ivory white glow, delicate floating orbs with defense/velocity symbols"
+      "name": "Polvo de Estrellas",
+      "desc": "Dispersa partículas brillantes que curan pequeñas heridas.",
+      "name_en": "Star Dust",
+      "visual_prompt": "floating pastel pink and ivory star particles, delicate lavender sparkles, pearly gold shimmer trails, soft silver mist, moonlit meadow backdrop, glowing fairy light ambiance"
     },
     {
-      "name": "Bailarín de Sueños",
-      "desc": "Crea un baile mágico que confunde al rival y mejora la precisión.",
-      "name_en": "Dream Dancer",
-      "visual_prompt": "floating pastel pink petals, swirling lavender mist, glowing starlight blue orbs, crystalline mint sparkles, delicate ivory white ribbons, soft twilight glow"
+      "name": "Vuelo de Ensueño",
+      "desc": "Vuela suavemente hacia arriba, evitando ataques y aumentando la precisión.",
+      "name_en": "Dream Flight",
+      "visual_prompt": "floating pastel pink petals, delicate lavender mist, shimmering silver starlight, ivory white glow, soft upward motion trails, pearlescent sparkles"
     }
   ],
   "diffs": [
     {
-      "from": "Cuadrúpedo con patas cortas plantadas en el suelo",
-      "to": "Patas más delicadas y suaves, adaptadas para danzar en círculos."
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transformadas en alas de cristal que brillan."
     },
     {
-      "from": "Postura corporal baja",
-      "to": "Postura erguida y elegante, con cola brillante en alto."
+      "from": "ojos soñadores",
+      "to": "ojos que reflejan la magia de los sueños."
     },
     {
-      "from": "Pelaje oscuro y húmedo",
-      "to": "Pelaje suave como nubes de azúcar, con brillo dorado en la cola."
+      "from": "cola larga",
+      "to": "cola transformada en una pata de mariposa."
     },
     {
-      "from": "Ojos vidriosos y lentos",
-      "to": "Ojos brillantes como estrellas, capaces de ver sueños."
+      "from": "piel acuática",
+      "to": "piel cubierta de brillo dorado que atrae la magia."
     }
   ],
   "pokemon_id": "079",

@@ -1,0 +1,21 @@
+{
+  "body_colors": [
+    "pink",
+    "white"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "tail"
+  ],
+  "body_plan": "blob",
+  "silhouette": "The silhouette is a spherical shape with a small, rounded head and a short, stubby tail.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "rounded head",
+    "small eyes",
+    "short tail"
+  ]
+}

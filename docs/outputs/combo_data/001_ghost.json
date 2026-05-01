@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Sombra Vegetal",
-  "lore": "Sombra Vegetal se arrastra con raíces translúcidas que absorben almas errantes. Su caparazón verde se torna pálido y semitransparente, mientras su semilla emite un brillo azul oscuro.",
+  "lore": "Bulbasaur ahora camina en silencio como un fantasma, con su semilla de hoja brillando en tonos púrpura. Sus patas se han vuelto translúcidas, desvaneciéndose en la oscuridad mientras absorbe energía espectral.",
   "moves": [
     {
-      "name": "Sombra Raíz",
-      "desc": "Atrae al oponente hacia raíces invisibles, reduciendo su movilidad.",
-      "name_en": "Root Shadow",
-      "visual_prompt": "floating ghostly roots, glowing violet tendrils, misty graveyard atmosphere, ethereal fog, shadow violet aura, pale silver moonlight, charcoal gray textures, invisible roots pulling inward"
+      "name": "Sombra Hoja",
+      "desc": "Lanza una hoja etérea que atraviesa el cuerpo del enemigo sin dejar rastro.",
+      "name_en": "Ether Leaf",
+      "visual_prompt": "translucent pale silver leaf, ghostly icy blue mist, drifting spectral orbs, moonlight gray moonlit ruins background, ethereal frost trails, no characters, no Pokémon"
     },
     {
-      "name": "Alma Espectral",
-      "desc": "Lanza un grito que desgasta la defensa del rival con energía fantasmal.",
-      "name_en": "Spectral Soul",
-      "visual_prompt": "shimmering violet energy waves, ghostly white mist swirling, charred shadow outlines, pale silver particles, ethereal fog drifting over moonlit tombstones, deep violet aura with charcoal gray accents"
+      "name": "Espectro Venenoso",
+      "desc": "Genera una nube de humo que envenena al enemigo con un efecto fantasmal.",
+      "name_en": "Poison Mist",
+      "visual_prompt": "translucent ghostly orbs drifting in moonlight, pale silver mist swirling with icy blue accents, spectral white smoke tendrils curling like phantom fingers, moonlit ruins backdrop with faint glowing outlines"
     },
     {
-      "name": "Vapor Fantasma",
-      "desc": "Genera humo opaco que oculta el movimiento del usuario.",
-      "name_en": "Ghost Mist",
-      "visual_prompt": "dense opaque smoke, swirling mist, deep violet and charcoal gray hues, ethereal pale silver accents, drifting fog tendrils, ghostly white highlights, shadow violet undertones, moonlit graveyard atmosphere"
+      "name": "Crecimiento Fantasma",
+      "desc": "Aumenta su tamaño y fuerza mientras se funde con la sombra.",
+      "name_en": "Ghost Growth",
+      "visual_prompt": "translucent spectral white mist, moonlit ruins with glowing pale silver cracks, drifting icy blue orbs merging into a shadowy silhouette, pale silver mist swirling with moonlight gray frost particles"
     },
     {
-      "name": "Sueño Espectral",
-      "desc": "Sumerge al oponente en un sueño profundo que reduce su velocidad.",
-      "name_en": "Spectral Sleep",
-      "visual_prompt": "floating ghostly violet orbs, slow-moving misty fog, moonlit tombstone shadows, pale silver shimmering particles, deep violet glow, ethereal fog drifting"
+      "name": "Viento de la Muerte",
+      "desc": "Crea un viento frío que reduce la defensa del enemigo.",
+      "name_en": "Death Wind",
+      "visual_prompt": "cold spectral wind, icy blue mist swirling, pale silver orbs drifting, translucent frost patterns, moonlit ruins background, ghostly pale silver glow"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón verde y semilla brillante",
-      "to": "caparazón pálido y translúcido, semilla emite brillo azul oscuro"
+      "from": "semilla de hoja en su espalda",
+      "to": "semilla de hoja brillando en tonos púrpura"
     },
     {
-      "from": "caminar con cuatro patas sólidas",
-      "to": "arrastrarse con raíces semitransparentes que se fusionan con el suelo"
+      "from": "patas sólidas y verdes",
+      "to": "patas translúcidas que se desvanecen en la oscuridad"
     },
     {
-      "from": "semilla que crece con el tiempo",
-      "to": "semilla que absorbe almas errantes en lugar de crecer"
+      "from": "postura baja y firme",
+      "to": "caminar en silencio como un fantasma"
     },
     {
-      "from": "tipo de movimiento lento y tranquilo",
-      "to": "movimientos que manipulan la energía espectral y la oscuridad"
+      "from": "energía vegetal",
+      "to": "absorber energía espectral"
     }
   ],
   "pokemon_id": "001",

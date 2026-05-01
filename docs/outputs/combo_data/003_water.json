@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Lago Venenoso",
-  "lore": "Venusaur ahora camina sobre aguas cristalinas, sus hojas se convierten en algas brillantes. Su cuerpo se adapta a la hidrofobia, con raíces que absorben nutrientes del agua. El veneno se transforma en esencias purificadoras.",
+  "lore": "Venusaur ahora camina sobre aguas cristalinas, sus hojas se transforman en algas resplandecientes. Sus pétalos emiten un brillo azulado mientras absorbe nutrientes del agua, liberando burbujas tóxicas alrededor.",
   "moves": [
     {
-      "name": "Ola Venenosa",
-      "desc": "Lanza una ola que envenena al enemigo con toxinas purificadoras.",
-      "name_en": "Toxic Wave",
-      "visual_prompt": "bioluminescent teal-green waves, pearly white toxin bubbles, glowing aquamarine ripples, deep ocean blue currents, sapphire blue mist, swirling toxin particles, underwater glow"
+      "name": "Alga Venenosa",
+      "desc": "Lanza algas tóxicas que envenenan al oponente al contacto, debilitando su defensa.",
+      "name_en": "Poisonous Algae",
+      "visual_prompt": "toxic green algae swirls, glowing venomous orbs, deep ocean blue water currents, pearly white bubbles, sapphire blue mist, pale aquamarine foam, slow-motion toxic particles, ethereal water ripples"
     },
     {
-      "name": "Raíz Acuática",
-      "desc": "Aumenta la defensa al absorber nutrientes del agua.",
-      "name_en": "Water Root",
-      "visual_prompt": "glowing bioluminescent plankton, swirling teal green currents, deep ocean blue water droplets, pearly white nutrient orbs, aquamarine ripple effects, sapphire blue water veins"
+      "name": "Ola Purpura",
+      "desc": "Genera una ola de agua purpura que aturde al rival y reduce su velocidad.",
+      "name_en": "Purple Wave",
+      "visual_prompt": "vibrant purple water waves, shimmering teal ripples, pearly white foam, sapphire blue energy aura, gentle ocean surface, soft blue sunlight glow"
     },
     {
-      "name": "Alga Esmeralda",
-      "desc": "Cubre al enemigo con algas que reducen su velocidad.",
-      "name_en": "Emerald Seaweed",
-      "visual_prompt": "glowing bioluminescent seaweed tendrils, slow-motion water droplets, deep ocean blue swirls, teal green algae clusters, pearly white bubbles, aquamarine light reflections"
+      "name": "Burbuja Tóxica",
+      "desc": "Crea burbujas venenosas que explotan, causando daño y envenenamiento.",
+      "name_en": "Toxic Bubble",
+      "visual_prompt": "toxic bubbles bursting in deep ocean blue and teal, shimmering pearly white foam, sapphire blue mist, pale aquamarine ripples, glowing venomous green veins"
     },
     {
-      "name": "Burbuja Venenosa",
-      "desc": "Dispara burbujas tóxicas que causan daño continuo.",
-      "name_en": "Poison Bubble",
-      "visual_prompt": "toxic green bubbles rising through deep ocean water, glowing with bioluminescent plankton, teal and aquamarine ripples, pearly white foam, sapphire blue currents"
+      "name": "Raíces Acuáticas",
+      "desc": "Afianza sus raíces en el agua para recuperar energía mientras defiende.",
+      "name_en": "Water Roots",
+      "visual_prompt": "gentle water ripples, glowing teal roots emerging from ocean surface, pearlescent bubbles, soft blue sunlight rays, calm ocean waves, sapphire blue energy aura"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas en el suelo",
-      "to": "Patas adaptadas para caminar sobre agua, con membranas en los pies."
+      "from": "cuatro patas en tierra",
+      "to": "patas adaptadas para caminar sobre agua, con membranas en los pies"
     },
     {
-      "from": "Hoja en la espalda",
-      "to": "Hoja transformada en algas brillantes que brillan bajo el agua."
+      "from": "hojas en la espalda",
+      "to": "hojas transformadas en algas brillantes que brillan bajo el agua"
     },
     {
-      "from": "Veneno tóxico",
-      "to": "Veneno se convierte en esencias purificadoras para el agua."
+      "from": "pétalos rojos",
+      "to": "pétalos ahora emiten un brillo azulado bajo el agua"
     },
     {
-      "from": "Bajo postura",
-      "to": "Postura elevada para navegar sobre aguas tranquilas."
+      "from": "veneno en espinas",
+      "to": "veneno ahora se libera en burbujas acuáticas alrededor"
     }
   ],
   "pokemon_id": "003",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Pincha",
-  "lore": "Pinsir fantasmal flota con garras translúcidas, su cuerpo se desvanece en sombras. Sus patas, antes sólidas, ahora se funden con la oscuridad, dejando huellas de humo.",
+  "species_name": "Pokémon Espectro de Pinza",
+  "lore": "Con su armadura de pinzas translúcida, este Pinsir fantasmal se desplaza sin ruido. Sus patas, ahora espectral, dejan huellas de niebla en el suelo mientras absorbe la energía de las sombras.",
   "moves": [
     {
-      "name": "Sombra Aguda",
-      "desc": "Ataca con garras que cortan la oscuridad, causando daño y reduciendo la defensa del objetivo.",
-      "name_en": "Sharp Shadow",
-      "visual_prompt": "crimson claw marks cutting through deep violet mist, shattered charcoal gray shards floating in pale silver fog, ghostly white afterimages with shadow violet trails, ethereal fog drifting around broken tombstone fragments"
+      "name": "Pinza Fantasmal",
+      "desc": "Ataca con pinzas que atraviesan la materia, causando daño y posiblemente confundir al oponente.",
+      "name_en": "Phantom Pinch",
+      "visual_prompt": "translucent ghostly claws, spectral white energy trails, pale silver mist swirls, icy blue frost patterns, moonlight gray shimmer, drifting spectral orbs, ethereal glow"
     },
     {
-      "name": "Aparición Fantasmal",
-      "desc": "Se vuelve invisible por un turno, evitando ataques y aumentando la precisión.",
-      "name_en": "Phantom Appearance",
-      "visual_prompt": "ghostly violet mist, drifting shadowy tendrils, pale silver orbs floating in air, charcoal gray fog swirls, ethereal white glow accents, misty graveyard backdrop"
+      "name": "Sombra Silenciosa",
+      "desc": "Reduce la velocidad del oponente y crea una barrera de sombras que bloquea ataques físicos.",
+      "name_en": "Silent Shadow",
+      "visual_prompt": "translucent moonlight gray barrier, drifting spectral orbs, pale silver mist, icy blue shadows, ghostly frost patterns, moonlit ruins backdrop, ethereal glow"
+    },
+    {
+      "name": "Espectro de Pinza",
+      "desc": "Genera un espejo de sombra que duplica el daño de los movimientos del oponente.",
+      "name_en": "Spectral Mirror",
+      "visual_prompt": "translucent ghostly mirror, fractured moonlight reflections, pale silver mist swirling, icy blue spectral orbs drifting, moonlit ruins backdrop, spectral white glow, frosty texture, ethereal shimmer"
     },
     {
       "name": "Furia Espectral",
-      "desc": "Aumenta el ataque y velocidad, pero reduce la defensa temporalmente.",
+      "desc": "Aumenta el ataque y el daño crítico mientras absorbe la energía de los enemigos.",
       "name_en": "Spectral Fury",
-      "visual_prompt": "ghostly violet orbs swirling in misty graveyard, ethereal fog drifting over moonlit tombstones, shadow violet energy pulses, pale silver attack streaks, charcoal gray aura with spectral white highlights"
-    },
-    {
-      "name": "Corte de Sombra",
-      "desc": "Movimiento de tipo fantasma que causa daño y puede causar confusión.",
-      "name_en": "Shadow Slash",
-      "visual_prompt": "ghostly violet mist swirling around jagged shadow blades, pale silver crescent moonlight, charcoal gray fog drifting through tombstone silhouettes, ethereal white energy trails, shadow violet aura with subtle distortion"
+      "visual_prompt": "translucent ghostly orbs drifting through moonlit ruins, spectral white and icy blue energy trails, pale silver mist swirling with critical hit sparks, glowing moonlight gray aura, frost-like particles dissolving into mist"
     }
   ],
   "diffs": [
     {
-      "from": "patas sólidas",
-      "to": "patas que se funden con la oscuridad"
+      "from": "Cuerpo sólido",
+      "to": "Cuerpo translúcido y espectral, con brillo tenue en las pinzas"
     },
     {
-      "from": "cuerpo sólido",
-      "to": "cuerpo translúcido que se desvanece en sombras"
+      "from": "Movimiento lento y pesado",
+      "to": "Desplazamiento silencioso y fluido, sin dejar huellas"
     },
     {
-      "from": "ataque físico",
-      "to": "ataque espectral que corta la oscuridad"
+      "from": "Ataques físicos con pinzas",
+      "to": "Pinzas que atraviesan la materia y absorben energía espectral"
     },
     {
-      "from": "postura baja",
-      "to": "flotar sobre el suelo sin contacto"
+      "from": "Vida en la luz",
+      "to": "Vida en las sombras, activo principalmente de noche"
     }
   ],
   "pokemon_id": "127",

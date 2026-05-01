@@ -1,0 +1,22 @@
+{
+  "body_colors": [
+    "pink"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "body",
+    "tail",
+    "limbs"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a rounded body with four visible legs, suggesting it is quadrupedal.",
+  "type_markers": [
+    "no visible type markers"
+  ],
+  "distinctive_features": [
+    "large ears",
+    "long tail",
+    "open mouth with visible teeth"
+  ]
+}

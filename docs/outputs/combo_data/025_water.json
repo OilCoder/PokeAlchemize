@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua Relámpago",
-  "lore": "Agua Relámpago camina con patas de gato acuáticas, sus mechones de pelo brillan con destellos azules. Su cuerpo emite chispas eléctricas que se funden con el agua, creando un aura de energía pura.",
+  "species_name": "Pokémon Chispa Acuática",
+  "lore": "Chispa Acuática se desplaza con gracia en el agua, sus mechones de pelo brillan como gotas de cristal. Sus mejillas emiten un resplandor azulado, cargando el aire con una energía tranquila pero poderosa.",
   "moves": [
     {
-      "name": "Chispa Acuática",
-      "desc": "Lanza chorros de agua cargados de electricidad que paralizan al rival.",
-      "name_en": "Water Spark",
-      "visual_prompt": "electric blue water jets, glowing bioluminescent plankton trails, teal and aquamarine energy ripples, pearly white shockwaves, deep ocean trench background"
+      "name": "Chispa de Mar",
+      "desc": "Lanza un chorro de agua cargado de electricidad que paraliza al rival con una descarga suave.",
+      "name_en": "Ocean Spark",
+      "visual_prompt": "electric blue water jets, glowing teal energy arcs, pearly white sparkles, gentle wave ripples, soft blue sunlight glinting on droplets"
     },
     {
-      "name": "Ola Estática",
-      "desc": "Crea una ola eléctrica que golpea a todos los enemigos en el área.",
-      "name_en": "Static Wave",
-      "visual_prompt": "electric blue energy waves, glowing bioluminescent plankton, deep ocean trench backdrop, teal green ripples, pearly white sparkles, aquamarine light streaks, sapphire blue energy pulses"
+      "name": "Ola Relámpago",
+      "desc": "Crea una ola eléctrica que golpea en forma de arco, dañando al enemigo con fuerza.",
+      "name_en": "Thunder Wave",
+      "visual_prompt": "electric blue arcs, shimmering water ripples, glowing teal energy trails, curved lightning bolts, deep ocean blue background, pearly white sparkles, sapphire blue highlights"
     },
     {
-      "name": "Burbuja Relámpago",
-      "desc": "Genera burbujas eléctricas que explotan al tocar al enemigo.",
-      "name_en": "Lightning Bubble",
-      "visual_prompt": "electric blue bubbles, shimmering aquamarine ripples, glowing teal energy bursts, pearly white shockwaves, deep ocean trench backdrop, bioluminescent plankton sparks, calm water currents"
+      "name": "Burbuja Estática",
+      "desc": "Genera burbujas que absorben ataques eléctricos y los devuelven con más potencia.",
+      "name_en": "Static Bubble",
+      "visual_prompt": "floating water bubbles, electric arcs reflecting inside bubbles, deep ocean blue background, teal ripples, pearly white sparkles, sapphire blue energy trails, pale aquamarine glow"
     },
     {
-      "name": "Corriente Submarina",
-      "desc": "Se sumerge bajo el agua y emerge con un ataque de corriente poderosa.",
-      "name_en": "Submarine Surge",
-      "visual_prompt": "crystalline water droplets, swirling vortex of deep ocean blue and teal green, bioluminescent plankton trails, pearly white energy waves, aquamarine ripples, sapphire blue shockwaves"
+      "name": "Caudal Carga",
+      "desc": "Aumenta su velocidad al sumergirse en el agua, atacando con un torrente eléctrico.",
+      "name_en": "Water Surge",
+      "visual_prompt": "electric blue water currents, swirling teal vortex, pearly white foam bursts, sapphire blue energy ripples, calm ocean surface with gentle waves, soft blue sunlight glinting on water"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas transformadas en aletas para nadar"
+      "from": "Pelo amarillo brillante",
+      "to": "Se vuelve brillante y azulado, como gotas de agua reflejando luz."
     },
     {
-      "from": "pelaje amarillo brillante",
-      "to": "pelaje azul brillante con destellos eléctricos"
+      "from": "Mejillas rojas",
+      "to": "Se tornan azules con destellos eléctricos en su interior."
     },
     {
-      "from": "chispas eléctricas en cola",
-      "to": "chispas eléctricas fusionadas con agua"
+      "from": "Movimientos rápidos en tierra",
+      "to": "Se desplaza con fluidez en el agua, usando corrientes para avanzar."
     },
     {
-      "from": "postura baja",
-      "to": "postura más erguida para nadar"
+      "from": "Ataques eléctricos enérgicos",
+      "to": "Se combinan con agua para crear descargas más potentes y controladas."
     }
   ],
   "pokemon_id": "025",

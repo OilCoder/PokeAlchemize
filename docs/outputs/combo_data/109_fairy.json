@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Bruma Dulce",
-  "lore": "Bruma Dulce emana un aroma floral que calma el ánimo. Sus patas se cubren de pétalos brillantes, y su cuerpo burbujea con esencias mágicas. El tipo hada transforma su veneno en un don para sanar.",
+  "species_name": "Pokémon Nube de Dulzura",
+  "lore": "Este Pokémon flota en una nube de polvo de hadas, su cuerpo esponjoso y translúcido. Sus ojos brillan con destellos dorados, y su aura suave atrae a los más pequeños. El tipo hada ha suavizado su forma tóxica en una esfera de luz pura.",
   "moves": [
     {
-      "name": "Polvo de Pétalos",
-      "desc": "Lanza pétalos que curan heridas y eliminan veneno en un solo golpe.",
-      "name_en": "Petals' Dust",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white dewdrops, pearl lavender mist, starlight blue crystalline shards, soft mint energy trails, delicate floral patterns, ethereal glow, moonlit garden backdrop"
+      "name": "Polvo de Ensueño",
+      "desc": "Lanza un polvo brillante que confunde al rival con sueños dulces.",
+      "name_en": "Dream Dust",
+      "visual_prompt": "glowing pastel pink and lavender dust particles, swirling in moonlit mist, delicate silver sparkles, pearlescent orbs floating gently, soft ivory light rays, ethereal floral patterns in the air"
     },
     {
-      "name": "Burbuja Mágica",
-      "desc": "Crea burbujas brillantes que atrapan al rival y reducen su velocidad.",
-      "name_en": "Magic Bubble",
-      "visual_prompt": "glowing pastel pink bubbles, iridescent pearl lavender trails, crystalline mint light reflections, soft starlight blue mist, floating dewdrop-like orbs, delicate fairy-tale sparkle, moonlit garden backdrop with glowing flora"
+      "name": "Canción de Cuna",
+      "desc": "Canta una melodía hipnótica que reduce la velocidad del oponente.",
+      "name_en": "Lullaby",
+      "visual_prompt": "soft pastel pink glowing orbs, delicate lavender petals floating in moonlight, ivory white mist swirling, pearly gold musical notes, shimmering silver sound waves, gentle motion trails, ethereal glow, dreamy atmosphere, fairy-tale meadow backdrop"
     },
     {
-      "name": "Aroma Encantador",
-      "desc": "Emite un aroma irresistible que confunde al rival y aumenta su confianza.",
-      "name_en": "Enchanting Scent",
-      "visual_prompt": "floating pastel pink petals, swirling lavender mist, glowing starlight blue orbs, crystalline mint dewdrops, soft ivory light beams, delicate fairy dust particles"
+      "name": "Burbuja de Amor",
+      "desc": "Crea una burbuja protectora que refleja ataques especiales.",
+      "name_en": "Love Bubble",
+      "visual_prompt": "soft pastel pink bubble with delicate lavender ripples, pearly gold shimmer, ivory white mist, moonlit meadow backdrop, glowing fairy lights, ethereal sparkle, reflective surface"
     },
     {
-      "name": "Fragancia Curativa",
-      "desc": "Genera un aura que restaura la salud de aliados cercanos.",
-      "name_en": "Healing Scent",
-      "visual_prompt": "glowing pastel pink aura, floating crystalline mint petals, ivory white starlight mist, pearl lavender flower blossoms, soft starlight blue energy waves, gentle glowing particles"
+      "name": "Brillo de Estrella",
+      "desc": "Aumenta la precisión del ataque con un destello mágico.",
+      "name_en": "Starlight Gleam",
+      "visual_prompt": "shimmering silver starburst, delicate lavender sparkles, soft pastel pink light rays, ivory white mist, pearly gold glints, floating fairy lights, moonlit meadow backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo tóxico y burbujeante",
-      "to": "Cuerpo burbujeante con esencias florales y pétalos brillantes"
+      "from": "Cuerpo tóxico y esponjoso",
+      "to": "Cuerpo translúcido y suave, sin toxinas"
     },
     {
-      "from": "Patas cortas y plantadas",
-      "to": "Patas cubiertas de pétalos que brillan al moverse"
+      "from": "Ojos oscuros y amenazantes",
+      "to": "Ojos brillantes con destellos dorados"
     },
     {
       "from": "Aroma venenoso",
-      "to": "Aroma floral que calma el ánimo y cura heridas"
+      "to": "Aroma dulce y relajante"
     },
     {
-      "from": "Burbujas tóxicas",
-      "to": "Burbujas mágicas que atrapan y reducen velocidad"
+      "from": "Movimientos de gas tóxico",
+      "to": "Movimientos de polvo y luz mágica"
     }
   ],
   "pokemon_id": "109",

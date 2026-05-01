@@ -1,35 +1,34 @@
 {
   "identity_traits": [
-    "long serpentine body with smooth scales",
-    "slender neck with a pointed head",
-    "two small fin-like protrusions on the back",
-    "large expressive eyes with a single eyelid",
-    "delicate fin-like structures along the spine"
+    "long serpentine body with smooth undulating form",
+    "pointed ears protruding from head",
+    "dark blue stripes running along body length",
+    "small eyes with vertical pupils",
+    "delicate fin-like protrusions on head and tail",
+    "slim, elongated neck connecting head to body"
   ],
   "original_type_traits": [
-    "light blue and white color scheme",
-    "water droplets on skin suggesting aquatic origin",
-    "smooth scale texture typical of dragon Pokémon",
-    "fin-like structures that mimic water movement"
+    "none visible (no dragon-specific features like horns, scales, or claws visible in sprite)",
+    "light blue color palette associated with water-type (not dragon-type)",
+    "white underbelly contrasting with blue body"
   ],
   "transformable_parts": [
-    "spine fin structures",
-    "head shape and snout",
-    "scale patterns",
-    "eye shape and size",
-    "body curvature",
-    "tail tip"
+    "head fin shape and size",
+    "tail tip structure",
+    "body stripe patterns",
+    "neck length and curvature",
+    "ear shape and orientation",
+    "eye pupil shape and size"
   ],
   "suppress_colors": [
     "light blue",
-    "white",
-    "gray",
-    "water droplet effects"
+    "dark blue",
+    "white"
   ],
   "anchor_phrases": [
-    "serpentine body coiled on ground, no limbs",
-    "pointed head with a single eyelid",
-    "delicate fin-like structures along the spine"
+    "serpentine body, no limbs, elongated form",
+    "pointed ears with slight curvature",
+    "vertical pupil eyes with dark rings"
   ],
   "pokemon_id": "147",
   "pokemon_name": "dratini",
@@ -40,14 +39,25 @@
     "body_colors": [
       "light blue",
       "white",
-      "gray"
+      "dark blue"
     ],
-    "head": "pointed ears",
-    "limbs": "curled tail tip",
-    "silhouette": "leaf bulb on back",
+    "body_parts": [
+      "head",
+      "neck",
+      "body",
+      "tail",
+      "ears",
+      "eyes"
+    ],
+    "body_plan": "serpentine",
+    "silhouette": "The creature has a long, snake-like body with a distinct head and tail, indicating a serpentine locomotion.",
+    "type_markers": [
+      "no visible type markers"
+    ],
     "distinctive_features": [
-      "water droplets on skin",
-      "2-3 features unique to this specific Pokémon, not shared by similar species"
+      "long, snake-like body",
+      "pointed ears",
+      "dark blue stripes"
     ]
   }
 }

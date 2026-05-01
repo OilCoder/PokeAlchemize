@@ -1,35 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "compact body with long neck",
-    "rock-like shell on back",
-    "curled tail tip",
-    "short stubby legs",
-    "pale cream underbelly"
+    "quadrupedal stance with four legs",
+    "long neck extending from body",
+    "stone-like shell covering back",
+    "small head with minimal facial features",
+    "pale cream underbelly",
+    "symmetrical body structure"
   ],
   "original_type_traits": [
-    "dark blue spots on body",
-    "rock-like shell with icy texture",
-    "pale cream underbelly suggesting cold adaptation"
+    "stone-like shell with icy texture",
+    "pale cream underbelly suggesting cold adaptation",
+    "blue body coloration matching water/ice palette"
   ],
   "transformable_parts": [
-    "shell texture",
-    "tail tip curl",
-    "leg structure",
-    "spot pattern",
-    "ear shape",
-    "underbelly color"
+    "shell texture and pattern",
+    "underbelly color and texture",
+    "neck length and curvature",
+    "tail shape and size",
+    "leg proportions and joint structure",
+    "head shape and eye placement"
   ],
   "suppress_colors": [
-    "dark blue",
-    "icy pale blue",
+    "bright blue",
     "pale cream",
-    "icy white"
+    "gray"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, sturdy stance",
-    "rock-like shell with jagged edges on back",
-    "curled spiral tail tip with pale cream tip"
+    "quadruped, four legs planted on ground",
+    "stone-like shell with rough texture covering back",
+    "long neck extending vertically from body"
   ],
   "pokemon_id": "131",
   "pokemon_name": "lapras",
@@ -41,24 +40,25 @@
     "body_colors": [
       "bright blue",
       "pale cream",
-      "dark blue spots"
+      "gray"
     ],
     "body_parts": [
-      "rounded head",
       "long neck",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "small head",
+      "two front legs",
+      "two back legs",
+      "tail",
+      "stone-like shell"
     ],
-    "silhouette": "The Pokémon has a compact body with a long neck and a short tail, suggesting a compact and sturdy build.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a long neck, a small head, and a body with four legs, suggesting it is quadrupedal.",
     "type_markers": [
-      "dark blue spots on body",
-      "rock-like shell on back"
+      "stone-like shell",
+      "pale cream underbelly"
     ],
     "distinctive_features": [
       "long neck",
-      "rock-like shell",
-      "curled tail tip"
+      "stone-like shell"
     ]
   }
 }

@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Fantasma Llama",
-  "lore": "Fantasma Llama flota sin peso, su cuerpo de llama se desvanece en sombras. Sus patas se convierten en formas etéreas, brillando con una luz pálida. El fuego se transforma en energía espectral.",
+  "lore": "Este Charmander etéreo brilla con una llama azul pálida que no quema. Su cuerpo translúcido se mueve con gracia, dejando huellas de humo en el aire. Sus ojos brillan con una luz fantasmal, marcando su presencia en la oscuridad.",
   "moves": [
     {
-      "name": "Aliento Espectral",
-      "desc": "Ataca con aliento frío que reduce la defensa del rival.",
-      "name_en": "Spectral Breath",
-      "visual_prompt": "cold mist, translucent violet aura, floating ghostly silver orbs, shadowy wisps, pale silver fog, charcoal gray mist, ethereal moonlight glow, decaying tombstone outlines in background"
+      "name": "Llama Espectral",
+      "desc": "Lanza una llama que atraviesa obstáculos y afecta a los fantasmas.",
+      "name_en": "Spectral Flame",
+      "visual_prompt": "translucent spectral white flames, pale silver mist, drifting ghostly orbs, icy blue moonlight glow, moonlit ruins backdrop, translucent frost patterns, ethereal glow, ghostly trails"
     },
     {
-      "name": "Sombra Ardiente",
-      "desc": "Crea sombras que queman el suelo, causando daño continuo.",
-      "name_en": "Fiery Shadow",
-      "visual_prompt": "glowing violet embers, burning shadow outlines on cracked earth, pale silver smoke trails, ghostly white mist swirling, deep violet fire streaks, charcoal gray ground with scorched patterns"
+      "name": "Sombra Flotante",
+      "desc": "Se desplaza sin tocar el suelo, evitando ataques físicos.",
+      "name_en": "Floating Shadow",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling around icy blue frost patterns, ghostly moonlight gray outlines, ethereal floating debris, soft glowing edges"
     },
     {
-      "name": "Eclipse de Fuego",
-      "desc": "Cubre al oponente con una oscuridad que quema.",
-      "name_en": "Fire Eclipse",
-      "visual_prompt": "smoke rings, ember sparks, shadowy crescent moon, violet mist, glowing red eyes in darkness, charred leaves, ghostly silver streaks, dark charcoal background"
+      "name": "Respiración de Sombras",
+      "desc": "Inflige daño a los enemigos con una respiración fría que quema la esencia.",
+      "name_en": "Shadow Breath",
+      "visual_prompt": "frozen mist swirling into spectral orbs, icy blue frost patterns on moonlit ruins, pale silver translucence, ghostly cold aura, drifting spectral particles"
     },
     {
-      "name": "Resplandor Fantasmal",
-      "desc": "Aumenta la velocidad y evasión con una luz tenue.",
-      "name_en": "Phantom Glow",
-      "visual_prompt": "ethereal violet mist, shimmering ghostly silver orbs, pale white light trails, drifting shadowy fog, deep violet moonlight beams, charcoal gray mist swirls, soft glowing particles, ethereal glow effect, misty graveyard atmosphere, ghostly white outlines, subtle shimmering motion, dynamic fog movement, soft focus background, stylized 2D VFX, Ken Sugimori aesthetic, wide banner composition, no characters or Pokémon, only visual effects"
+      "name": "Fantasma Ardiente",
+      "desc": "Crea una ilusión de llamas que confunde al enemigo y reduce su defensa.",
+      "name_en": "Burning Phantom",
+      "visual_prompt": "translucent spectral flames, moonlit ruin backdrop, pale silver mist swirling, drifting icy blue orbs, ghostly shimmering smoke, moonlight gray haze, ethereal flickering light patterns"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo de llama",
-      "to": "Cuerpo etéreo que se desvanece en sombras"
+      "from": "llama de fuego",
+      "to": "llama azul pálida que no quema"
     },
     {
-      "from": "Patas cortas",
-      "to": "Patas convertidas en formas etéreas brillantes"
+      "from": "cuerpo sólido",
+      "to": "cuerpo translúcido y etéreo"
     },
     {
-      "from": "Fuego vivo",
-      "to": "Energía espectral fría"
+      "from": "movimiento en cuatro patas",
+      "to": "flotar sin tocar el suelo"
     },
     {
-      "from": "Baja postura",
-      "to": "Flota sin contacto con el suelo"
+      "from": "ojos normales",
+      "to": "ojos brillantes con luz fantasmal"
     }
   ],
   "pokemon_id": "004",

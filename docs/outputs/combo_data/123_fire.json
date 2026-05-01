@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "Scyther, ahora transformado en un guerrero de fuego, camina con patas ardientes y alas de llamas. Su postura baja y poderosa refleja su dominio sobre el fuego, con garras que cortan el aire como cuchillas de fuego.",
+  "species_name": "Pokémon Llama de Acero",
+  "lore": "Scyther, ahora transformado en un guerrero de fuego, arde con hojas de acero incandescentes. Sus alas brillan con llamas rojas, y sus patas se cubren de escamas ardientes. Su mirada es implacable, listo para cortar el aire con un rugir de llamas.",
   "moves": [
     {
-      "name": "Corte de Llama",
-      "desc": "Corta al rival con garras incandescentes, causando daño y posiblemente quemadura.",
+      "name": "Corte de Fuego",
+      "desc": "Corta al oponente con hojas incandescentes que queman con cada movimiento.",
       "name_en": "Blazing Slash",
-      "visual_prompt": "crimson red fire slashes, molten gold embers swirling, charcoal black smoke trails, glowing ember sparks, volcanic crater backdrop with magma pools"
+      "visual_prompt": "crimson red fire leaves, molten gold embers, glowing orange trails, ash particles, volcanic crater backdrop, ember-lit smoky sky"
     },
     {
-      "name": "Ala de Fuego",
-      "desc": "Lanza llamas desde sus alas, infligiendo daño y posiblemente quemadura.",
-      "name_en": "Fire Wing",
-      "visual_prompt": "crimson flames erupting from stylized wing shapes, molten gold embers swirling in smoke-filled air, glowing ember trails against charcoal black background, volcanic crater glow in distance"
+      "name": "Ala Ardiente",
+      "desc": "Lanza una ráfaga de llamas desde sus alas, quemando al rival en un ataque rápido.",
+      "name_en": "Blazing Wing",
+      "visual_prompt": "crimson red flames, molten gold embers, bright orange wing-shaped fire vortex, charcoal black smoke trails, glowing lava flow patterns"
     },
     {
-      "name": "Pata Ardiente",
-      "desc": "Aplasta al rival con patas incendiadas, causando daño y posiblemente quemadura.",
-      "name_en": "Blazing Kick",
-      "visual_prompt": "crimson red fire trails, molten gold footprints, amber orange embers swirling, charcoal black smoke wisps, glowing ember sparks, volcanic crater background with magma pools"
+      "name": "Cicatriz de Llama",
+      "desc": "Deja una marca de fuego en el oponente que reduce su defensa con cada turno.",
+      "name_en": "Flame Scar",
+      "visual_prompt": "crimson fire marks etching into black stone, molten gold embers swirling, glowing orange lava flows, smoky ash trails, ember-lit sky with charcoal shadows"
     },
     {
-      "name": "Fuego de Corte",
-      "desc": "Corta con un movimiento rápido de garras en llamas, causando daño y posiblemente quemadura.",
-      "name_en": "Flame Slash",
-      "visual_prompt": "crimson fire claws, molten gold embers, amber-orange sparks, charcoal black smoke trails, volcanic crater backdrop, glowing ember particles, dynamic swirling fire effect"
+      "name": "Aurora de Acero",
+      "desc": "Genera un resplandor de llamas que aumenta el ataque del usuario.",
+      "name_en": "Steel Aurora",
+      "visual_prompt": "crimson fire orbs, molten gold embers, bright orange flames, swirling ash particles, charcoal black smoke trails, glowing lava flow patterns"
     }
   ],
   "diffs": [
     {
-      "from": "patas cuadrúpedas",
-      "to": "patas plantadas en el suelo con llamas que arden"
+      "from": "Alas de insecto",
+      "to": "Alas de acero incandescente que emiten llamas al volar"
     },
     {
-      "from": "alas de vuelo",
-      "to": "alas de llamas que lanzan fuego"
+      "from": "Cuerpo ligero",
+      "to": "Cuerpo reforzado con escamas ardientes que aumentan su resistencia"
     },
     {
-      "from": "postura baja",
-      "to": "postura baja y poderosa dominando el fuego"
+      "from": "Movilidad en el aire",
+      "to": "Movilidad mejorada con llamas que aceleran su velocidad en combate"
     },
     {
-      "from": "garras cortantes",
-      "to": "garras incandescentes que cortan el aire como cuchillas de fuego"
+      "from": "Ataque con hojas",
+      "to": "Ataque con hojas de acero que queman al oponente"
     }
   ],
   "pokemon_id": "123",

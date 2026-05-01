@@ -1,0 +1,20 @@
+{
+  "body_colors": [
+    "pink"
+  ],
+  "body_parts": [
+    "ears",
+    "eyes",
+    "nose",
+    "paws"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The silhouette is rounded and cat-like, with four visible paws and a small tail.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "large, expressive eyes",
+    "rounded ears"
+  ]
+}

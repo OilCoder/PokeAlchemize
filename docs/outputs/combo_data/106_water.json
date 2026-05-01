@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Ola de Pies",
-  "lore": "El Pokémon Ola de Pies se desplaza con patadas fluidas que generan olas de agua. Sus patas, ahora cubiertas de escamas azules, golpean el suelo creando surcos de espuma. Su postura baja se transforma en un equilibrio danzante.",
+  "lore": "El Hitmonlee, ahora envuelto en olas cristalinas, camina con patas de agua que deslizan sobre el suelo. Sus piernas se han transformado en surcos fluidos, lanzando chorros de espuma al atacar.",
   "moves": [
     {
-      "name": "Ola de Patada",
-      "desc": "Genera una ola de agua que golpea al rival con fuerza, elevando el suelo en su trayectoria.",
+      "name": "Ola de Patadas",
+      "desc": "Ataca con patadas que generan olas de agua, elevando al enemigo en el aire.",
       "name_en": "Kick Wave",
-      "visual_prompt": "rippling water surface, deep ocean blue waves, teal green foam, pearly white spray, aquamarine ripples, sapphire blue energy trails, glowing bioluminescent plankton, calm underwater current swirls"
+      "visual_prompt": "crisp water ripples, shimmering teal waves rising in rhythmic motion, pearly white foam bubbles, deep ocean blue energy trails, gentle sunlight glinting on droplets"
     },
     {
-      "name": "Surf de Cuerpo",
-      "desc": "Se lanza hacia adelante rodando, creando una ola que envuelve al oponente en un remolino.",
-      "name_en": "Body Surge",
-      "visual_prompt": "rolling water vortex, deep ocean blue waves, teal green bioluminescent plankton, pearly white foam, aquamarine current swirls, sapphire blue energy"
+      "name": "Surco Hidráulico",
+      "desc": "Crea surcos en el suelo que absorben el movimiento del enemigo.",
+      "name_en": "Hydraulic Groove",
+      "visual_prompt": "gentle water ripples, deep ocean blue grooves in sandy terrain, teal energy lines, pearly white mist, sapphire blue wave patterns, calm ocean surface reflection"
     },
     {
-      "name": "Chorro de Zancada",
-      "desc": "Dispara chorros de agua desde sus pies, empujando al rival hacia atrás con una ráfaga de presión.",
-      "name_en": "Jet Kick",
-      "visual_prompt": "shimmering water jets, swirling vortex, deep ocean blue foam, bioluminescent plankton sparks, aquamarine ripples, pearly white mist, calm underwater current swirls"
+      "name": "Chorro de Espuma",
+      "desc": "Dispara chorros de espuma que reducen la velocidad del oponente.",
+      "name_en": "Foam Spray",
+      "visual_prompt": "gentle ocean waves, swirling foam orbs, deep ocean blue and teal water droplets, pearly white bubbles, sapphire blue mist, pale aquamarine light rays"
     },
     {
-      "name": "Piscina de Golpe",
-      "desc": "Crea un pequeño lago en el campo que reduce la velocidad del enemigo mientras se prepara para atacar.",
-      "name_en": "Splash Lake",
-      "visual_prompt": "calm water surface with ripples, glowing bioluminescent plankton, deep ocean blue and teal green color palette, slow-moving currents, pearly white mist, aquamarine light reflections"
+      "name": "Piscina de Combate",
+      "desc": "Crea una piscina alrededor del enemigo, limitando sus movimientos.",
+      "name_en": "Battle Pool",
+      "visual_prompt": "calm ocean waves forming a circular barrier, deep ocean blue water with teal ripples, pearly white foam edges, sapphire blue light reflecting on surface, pale aquamarine mist rising"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas cubiertas de escamas azules que generan olas al golpear"
+      "from": "cuatro piernas plantadas en el suelo",
+      "to": "piernas transformadas en surcos fluidos que deslizan sobre el agua"
     },
     {
-      "from": "postura baja y firme",
-      "to": "equilibrio danzante que aprovecha el agua para moverse"
+      "from": "postura baja de arrastre",
+      "to": "postura elevada, caminando sobre olas de agua"
     },
     {
-      "from": "ataques con patadas directas",
-      "to": "patadas que generan olas y chorros de agua"
+      "from": "ataques de patadas sólidas",
+      "to": "patadas que generan olas y espuma"
     },
     {
-      "from": "movimiento lento y pesado",
-      "to": "movimiento rápido y fluido gracias al agua"
+      "from": "color marrón y rojo",
+      "to": "tonos azulados y transparentes con destellos de espuma"
     }
   ],
   "pokemon_id": "106",

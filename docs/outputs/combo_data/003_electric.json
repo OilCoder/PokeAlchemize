@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Venusaur ahora brilla con energía eléctrica en su caparazón de hojas. Sus tallos emiten chispas azules, y sus patas están cubiertas de cables que conectan con el suelo para absorber corriente.",
+  "lore": "Venusaur se transforma en un ser eléctrico, con hojas cargadas de energía que brillan con chispas azules. Sus piernas emiten destellos al caminar, y su flor central ahora emite destellos eléctricos que paralizan a los enemigos.",
   "moves": [
     {
-      "name": "Chispa Hojosa",
-      "desc": "Genera chispas verdes que dañan al oponente y curan a Venusaur.",
-      "name_en": "Leaf Spark",
-      "visual_prompt": "green electric sparks, neon yellow arcs, violet energy trails, bright white crackles, electric cyan storm clouds, stylized 2D VFX, Ken Sugimori style"
+      "name": "Chispa Petal",
+      "desc": "Lanza pétalos cargados de electricidad que dañan y provocan parálisis.",
+      "name_en": "Spark Petal",
+      "visual_prompt": "electric blue petals with neon yellow sparks, crisp white energy trails, bright electric white lightning arcs, pale blue glow pulses, urban city skyline background with flickering neon signs, dynamic electric storm clouds"
     },
     {
-      "name": "Descarga Petal",
-      "desc": "Lanza pétalos cargados que aumentan la velocidad y causan parálisis.",
-      "name_en": "Petal Charge",
-      "visual_prompt": "electric blue petals swirling in a cyclone, neon yellow sparks trailing, violet lightning arcs, bright white energy pulses, electric cyan mist, stormy sky backdrop, crackling energy fields"
+      "name": "Raíz Estática",
+      "desc": "Aumenta la defensa al tocar el suelo, generando un campo eléctrico alrededor.",
+      "name_en": "Static Root",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow energy pulses, crisp white static sparks, bright electric white ground cracks, pale blue energy field, urban city skyline silhouette, neon signs flickering in background"
     },
     {
-      "name": "Electrohoja",
-      "desc": "Crea hojas eléctricas que causan daño y reducen la defensa del rival.",
-      "name_en": "Electric Leaf",
-      "visual_prompt": "crackling electric blue leaves, neon yellow energy trails, violet sparks, bright white lightning arcs, stylized 2D stormy sky background with neon-lit thunderclouds, electric cyan highlights"
+      "name": "Bomba Floral",
+      "desc": "Dispara una explosión de pétalos eléctricos que causa daño y reduce la velocidad.",
+      "name_en": "Floral Bomb",
+      "visual_prompt": "electric blue petals exploding outward, neon yellow energy trails, crisp white shockwaves, bright electric white sparks, pale blue glow pulses, urban city skyline silhouette in background, neon signs flickering with electric energy"
     },
     {
       "name": "Carga Solar",
-      "desc": "Absorbe la luz solar para recuperar PS y aumentar el ataque.",
+      "desc": "Absorbe energía solar para aumentar el ataque y luego lanza un rayo eléctrico.",
       "name_en": "Solar Charge",
-      "visual_prompt": "electric blue energy orbs, neon yellow lightning bolts, violet spark particles, bright white energy waves, crackling energy field, stormy sky backdrop"
+      "visual_prompt": "vibrant electric blue orbs swirling, neon yellow lightning bolts crackling, crisp white energy trails, bright electric white sparks, pale blue glow radiating outward, urban cityscape skyline silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón de hojas verdes",
-      "to": "caparazón con hojas brillantes y chispas azules"
+      "from": "Hoja de Venusaur",
+      "to": "Hoja cargada de electricidad que brilla azul y genera parálisis."
     },
     {
-      "from": "patas sin conexión",
-      "to": "patas cubiertas de cables que absorben electricidad"
+      "from": "Piernas de Venusaur",
+      "to": "Piernas que emiten destellos eléctricos al caminar."
     },
     {
-      "from": "energía vegetal",
-      "to": "energía eléctrica acumulada en el cuerpo"
+      "from": "Flor central de Venusaur",
+      "to": "Flor que emite destellos eléctricos para paralizar enemigos."
     },
     {
-      "from": "sistema de defensa pasivo",
-      "to": "sistema de defensa activo que genera escudos eléctricos"
+      "from": "Ataque de veneno",
+      "to": "Ataque de electricidad que causa parálisis y daño adicional."
     }
   ],
   "pokemon_id": "003",

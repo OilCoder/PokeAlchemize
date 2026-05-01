@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Relámpago Terrenal",
-  "lore": "Nidoking ahora irradia un aura eléctrica que recorre sus espinas venenosas, transformando su postura terrestre en una energía vibrante. Sus patas emiten chispas al pisar, y su cola genera descargas constantes.",
+  "lore": "Relámpago Terrenal emana chispas eléctricas de sus cuernos y patas, con escamas de metal que brillan bajo el sol. Sus patas, antes sólidas, ahora liberan descargas al tocar el suelo, marcando su dominio.",
   "moves": [
     {
-      "name": "Descarga Venenosa",
-      "desc": "Genera una descarga eléctrica que infecta al oponente con veneno y paraliza.",
-      "name_en": "Poison Shock",
-      "visual_prompt": "electric blue lightning bolts, neon yellow poison orbs, violet spark particles, bright white energy trails, crackling energy field, stormy sky backdrop"
+      "name": "Descarga Terrestre",
+      "desc": "Lanza un rayo que conecta con el suelo, causando daño eléctrico y debilitando al oponente.",
+      "name_en": "Earth Bolt",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white static sparks, bright electric white shockwaves, pale blue glow effects, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Tormenta Suelo",
-      "desc": "Crea una tormenta eléctrica en el suelo que aturde y debilita al oponente.",
-      "name_en": "Ground Storm",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy fields, stormy sky background, dynamic energy swirls"
+      "name": "Relámpago de Cuernos",
+      "desc": "Ataca con cuernos cargados de electricidad, aumentando su velocidad y daño crítico.",
+      "name_en": "Horn Lightning",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy trails, crisp white sparks, bright electric white arcs, pale blue glowing vortex, urban city skyline silhouette, neon sign flickers"
     },
     {
-      "name": "Rayo Espectral",
-      "desc": "Dispara un rayo eléctrico que atraviesa cualquier barrera de protección.",
-      "name_en": "Spectral Bolt",
-      "visual_prompt": "crackling electric blue energy bolts, neon yellow lightning arcs, violet spark particles, bright white energy trails, stormy sky backdrop with neon-lit thunderclouds, dynamic motion lines"
+      "name": "Tormenta Subterránea",
+      "desc": "Crea una tormenta eléctrica bajo tierra, causando daño a todos los oponentes en el campo.",
+      "name_en": "Subterranean Storm",
+      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts piercing through dark soil, glowing white storm clouds, pale blue energy pulses, urban cityscape backdrop with flickering neon signs"
     },
     {
-      "name": "Parálisis Terrenal",
-      "desc": "Genera una parálisis en el suelo que afecta a todos los enemigos en el campo.",
-      "name_en": "Earth Paralysis",
-      "visual_prompt": "crackling electric blue energy fields, neon yellow lightning arcs, violet spark particles, bright white static bursts, stormy sky backdrop with crackling energy"
+      "name": "Chispa de Metal",
+      "desc": "Cubre sus escamas con electricidad, aumentando su defensa y atacando al oponente con chispas.",
+      "name_en": "Metal Spark",
+      "visual_prompt": "vibrant electric blue sparks, neon yellow energy orbs, crisp white lightning bolts, bright electric white trails, pale blue glowing arcs, urban cityscape backdrop with flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "espinas venenosas",
-      "to": "espinas que emiten chispas eléctricas"
+      "from": "Cuernos de veneno",
+      "to": "Cuernos cargados de electricidad que liberan descargas"
     },
     {
-      "from": "postura terrestre",
-      "to": "postura vibrante con energía eléctrica"
+      "from": "Piel terrosa",
+      "to": "Escamas metálicas brillantes que reflejan la luz eléctrica"
     },
     {
-      "from": "patas plantadas",
-      "to": "patas que generan chispas al pisar"
+      "from": "Patas sólidas",
+      "to": "Patas que emiten chispas al tocar el suelo"
     },
     {
-      "from": "cola lenta",
-      "to": "cola que genera descargas constantes"
+      "from": "Sistema de veneno",
+      "to": "Sistema eléctrico que genera descargas constantes"
     }
   ],
   "pokemon_id": "034",

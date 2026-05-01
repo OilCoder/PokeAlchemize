@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Slowpoke, ahora con un aura eléctrica, tiene un pelaje brillante y chispas en sus orejas. Sus patas cortas generan descargas al pisar, y su cola reluce con energía estática.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Slowpoke, ahora con el tipo eléctrico, reluce con descargas eléctricas en su cola y orejas. Sus patas, antes lentas, ahora brillan con chispas que aceleran sus movimientos.",
   "moves": [
     {
-      "name": "Chispa Relajante",
-      "desc": "Genera una descarga suave que calma a los enemigos mientras recupera energía.",
-      "name_en": "Calm Spark",
-      "visual_prompt": "soft electric blue pulses, neon yellow energy waves, violet spark particles, bright white static bursts, crackling neon thunderclouds, smooth stormy sky backdrop"
+      "name": "Chispa Lenta",
+      "desc": "Lanza una chispa que ralentiza al oponente mientras se recarga.",
+      "name_en": "Slow Spark",
+      "visual_prompt": "glowing electric blue sparks, neon yellow trails, slow-motion effect with crisp white energy rings, pale blue afterimages, electric storm cloud background, vibrant neon city skyline"
     },
     {
-      "name": "Carga Lenta",
-      "desc": "Aumenta el ataque con un poder acumulado que se libera tras un tiempo.",
-      "name_en": "Slow Charge",
-      "visual_prompt": "glowing electric blue orbs floating in stormy sky, neon yellow energy trails, violet sparks crackling in electric cyan fields, bright white lightning bolts forming a slow-building pattern"
+      "name": "Descarga Mental",
+      "desc": "Genera una onda eléctrica que confunde al rival con imágenes psíquicas.",
+      "name_en": "Mental Shock",
+      "visual_prompt": "neon electric blue shockwave, fractured psychic images floating in midair, glowing yellow psychic orbs, crisp white energy trails, pale blue aura pulses, dynamic city skyline backdrop with flickering neon signs"
     },
     {
-      "name": "Burbuja Estática",
-      "desc": "Crea burbujas eléctricas que rebotan y dañan a múltiples oponentes.",
-      "name_en": "Static Bubble",
-      "visual_prompt": "electric blue bubbles, neon yellow sparks, violet energy trails, bright white crackles, electric cyan lightning arcs, stormy sky backdrop, dynamic bounce motion"
+      "name": "Carga Cerebral",
+      "desc": "Aumenta el ataque y la defensa con una descarga mental intensa.",
+      "name_en": "Mental Surge",
+      "visual_prompt": "neon blue energy waves, electric yellow sparks, crisp white static bursts, pale blue glowing aura, dynamic zigzag patterns, urban city skyline silhouette in background"
     },
     {
-      "name": "Sueño Electrónico",
-      "desc": "Sumerge al rival en un sueño profundo con ondas eléctricas.",
-      "name_en": "Electronic Sleep",
-      "visual_prompt": "glowing electric blue waves, neon yellow pulses, violet spark particles, bright white energy ripples, stormy sky backdrop, crackling energy field, neon-lit thunderclouds, dynamic motion lines, stylized 2D VFX, Ken Sugimori aesthetic, electric cyan accents"
+      "name": "Relámpago Lento",
+      "desc": "Ataca con un rayo lento pero poderoso que paraliza.",
+      "name_en": "Slow Bolt",
+      "visual_prompt": "electric blue lightning bolt with neon yellow streaks, slow-motion energy trails, crisp white static sparks, pale blue glow radiating outward, urban city skyline silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "Pelaje suave y húmedo",
-      "to": "Pelaje brillante y cubierto de chispas eléctricas."
+      "from": "cola lenta y pesada",
+      "to": "cola brillante con descargas eléctricas que acelera sus movimientos"
     },
     {
-      "from": "Orejas largas y colgantes",
-      "to": "Orejas cargadas de energía estática que brillan constantemente."
+      "from": "orejas pequeñas y caídas",
+      "to": "orejas cargadas eléctricamente que emiten chispas"
     },
     {
-      "from": "Movimiento lento y pesado",
-      "to": "Patas que generan descargas eléctricas al moverse."
+      "from": "movimientos lentos",
+      "to": "movimientos ágiles gracias a las chispas en sus patas"
     },
     {
-      "from": "Cola larga y flexible",
-      "to": "Cola que reluce con energía estática y atrae rayos."
+      "from": "piel suave y húmeda",
+      "to": "piel cubierta de una fina capa de electricidad estática"
     }
   ],
   "pokemon_id": "079",

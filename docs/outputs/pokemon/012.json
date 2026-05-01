@@ -1,36 +1,35 @@
 {
   "identity_traits": [
-    "rounded head shape",
-    "large prominent eyes",
-    "butterfly-like silhouette",
-    "four legs",
-    "wings positioned above body",
-    "distinctive blue accents on body"
+    "butterfly silhouette with four wings",
+    "slender body shape",
+    "large red eyes",
+    "antennae extending from head",
+    "white body with blue and red accents",
+    "delicate leg structure"
   ],
   "original_type_traits": [
-    "antennae shaped like curved branches",
-    "wings with intricate purple and blue patterns",
-    "red eye coloration",
-    "white body base color"
+    "wings with insect-scale texture",
+    "antennae with segmented structure",
+    "red eye coloration"
   ],
   "transformable_parts": [
-    "antennae",
     "wings",
-    "body coloration",
+    "antennae",
+    "body texture",
     "eye color",
-    "leg texture",
-    "wing patterns"
+    "leg structure",
+    "silhouette detail"
   ],
   "suppress_colors": [
-    "white body base",
-    "purple wing patterns",
-    "blue body accents",
-    "red eye color"
+    "blue",
+    "red",
+    "white",
+    "black"
   ],
   "anchor_phrases": [
-    "butterfly insect, large wings spread wide, hovering in flight",
-    "large red eyes with white pupils",
-    "blue accents on body in geometric patterns"
+    "insect body, six limbs",
+    "large red eyes with black pupils",
+    "antennae with three segments extending from head"
   ],
   "pokemon_id": "012",
   "pokemon_name": "butterfree",
@@ -41,26 +40,27 @@
   "visual_facts": {
     "body_colors": [
       "white",
-      "purple",
       "blue",
-      "red"
+      "red",
+      "black"
     ],
     "body_parts": [
-      "rounded head",
+      "head",
       "antennae",
-      "wings",
-      "legs",
       "eyes",
-      "mouth"
+      "body",
+      "wings",
+      "legs"
     ],
-    "silhouette": "The Pokémon has a butterfly-like shape with a rounded head and large, prominent eyes.",
+    "body_plan": "insect",
+    "silhouette": "The silhouette is that of a butterfly with a slender body and four wings, featuring a head with antennae and large red eyes.",
     "type_markers": [
       "antennae",
       "wings"
     ],
     "distinctive_features": [
       "large red eyes",
-      "blue accents on body"
+      "antennae"
     ]
   }
 }

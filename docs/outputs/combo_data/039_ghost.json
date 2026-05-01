@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Espectral",
-  "lore": "Jigglypuff ahora flota sin contacto con el suelo, sus patas se han vuelto translúcidas. Su voz melódica emite ondas de terror que paralizan a sus enemigos en la oscuridad.",
+  "lore": "Jigglypuff ahora flota sin peso, su cuerpo translúcido emite un brillo plateado. Sus ojos brillan con un resplandor azul, y sus manos se han vuelto etéreas, atravesando objetos como si fueran humo.",
   "moves": [
     {
-      "name": "Canción de Susurros",
-      "desc": "Crea una melodía que reduce la defensa del rival mientras lo envuelve en sombras.",
-      "name_en": "Whisper Song",
-      "visual_prompt": "ghostly violet notes floating in misty graveyard, charcoal gray shadows swirling around pale silver moonlight, ethereal fog drifting with shadow violet accents, no characters, no Pokémon"
+      "name": "Canto Fantasma",
+      "desc": "Canta una melodía que confunde al enemigo, reduciendo su precisión temporalmente.",
+      "name_en": "Ghost Song",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue notes floating mid-air, moonlit ruins backdrop, ghostly shimmer effects, frosty aura, ethereal glow"
     },
     {
-      "name": "Aliento Fantasmal",
-      "desc": "Ataca con un soplo frío que causa daño y reduce la velocidad del oponente.",
-      "name_en": "Phantom Breath",
-      "visual_prompt": "frozen mist swirling in deep violet and charcoal gray, ethereal silver mist tendrils, ghostly white spectral orbs, shadow violet fog drifting through moonlit tombstone silhouettes"
+      "name": "Sombra Danzante",
+      "desc": "Crea sombras que atacan al enemigo desde múltiples direcciones.",
+      "name_en": "Dancing Shadow",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling in geometric patterns, icy blue shadows forming sharp attack vectors, moonlit ruins backdrop with faint ghostly outlines, ghostly white light trails"
     },
     {
-      "name": "Voz de la Noche",
-      "desc": "Canta una canción que absorbe la energía del rival para curar al usuario.",
-      "name_en": "Night Song",
-      "visual_prompt": "ethereal violet mist swirling into ghostly silver orbs, moonlit tombstone silhouettes fading into shadow violet fog, pale silver energy pulses, deep violet aura with charcoal gray accents, misty graveyard atmosphere with no visible characters"
+      "name": "Viento de la Muerte",
+      "desc": "Envía un viento frío que reduce la defensa del enemigo.",
+      "name_en": "Death Wind",
+      "visual_prompt": "icy blue spectral wind, pale silver mist swirls, translucent frost particles, moonlit ruins backdrop, drifting ghostly orbs, cold mist effect, ethereal glow, pale silver particles"
     },
     {
-      "name": "Sombra Silenciosa",
-      "desc": "Desaparece y ataca desde la oscuridad, evitando todos los ataques.",
-      "name_en": "Silent Shadow",
-      "visual_prompt": "violet mist swirling, charcoal gray tendrils, pale silver light beams, ghostly white orbs floating, shadow violet fog, ethereal fog drifting over tombstones"
+      "name": "Espejismo de Sueños",
+      "desc": "Crea una ilusión que hace que el enemigo vea fantasmas en su entorno.",
+      "name_en": "Dream Mirage",
+      "visual_prompt": "translucent ghostly orbs drifting through moonlit ruins, pale silver mist swirling, icy blue spectral glows, moonlight gray fog, ghostly afterimages of phantom shapes, frozen mist particles"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas en el suelo",
-      "to": "flota sin contacto con el suelo"
+      "from": "Cuerpo esférico y blando",
+      "to": "Cuerpo translúcido y etéreo, capaz de atravesar sólidos."
     },
     {
-      "from": "voz melódica",
-      "to": "voz que emite ondas de terror"
+      "from": "Ojos pequeños y redondos",
+      "to": "Ojos brillantes con resplandor azul, visibles incluso en la oscuridad."
     },
     {
-      "from": "apariencia tierna",
-      "to": "patas translúcidas y aura oscura"
+      "from": "Manos cortas y sin forma",
+      "to": "Manos convertidas en extremidades etéreas, capaces de atravesar materiales."
     },
     {
-      "from": "bajo postura",
-      "to": "posición flotante y etérea"
+      "from": "Canto que induce sueño",
+      "to": "Canto que induce confusión y reduce la precisión del enemigo."
     }
   ],
   "pokemon_id": "039",

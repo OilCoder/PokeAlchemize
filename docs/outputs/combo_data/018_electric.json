@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Relámpago Alado",
-  "lore": "Relámpago Alado despliega alas brillantes cargadas de energía eléctrica. Su pelaje plateado centellea con chispas, y sus patas de cuatro extremidades están cubiertas de escamas conductoras que absorben la electricidad del ambiente.",
+  "lore": "Pidgeot, ahora con plumas cargadas de electricidad, vuela con relámpagos en sus alas. Sus ojos brillan con energía estática, y su postura se vuelve más dinámica para controlar el campo eléctrico.",
   "moves": [
     {
-      "name": "Descarga Alada",
-      "desc": "Lanza una descarga eléctrica desde sus alas que paraliza al oponente por un turno.",
-      "name_en": "Wing Shock",
-      "visual_prompt": "crackling electric blue wings, neon yellow energy arcs, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Relámpago Alado",
+      "desc": "Lanza un rayo eléctrico desde las alas, causando daño y paralizando al oponente.",
+      "name_en": "Winged Bolt",
+      "visual_prompt": "electric blue lightning bolts streaking from abstract wing shapes, neon yellow energy trails, crisp white sparks, bright electric white glow, pale blue static particles, urban city skyline silhouette in background"
     },
     {
-      "name": "Tormenta Estelar",
-      "desc": "Crea una tormenta de chispas que ataca a todos los enemigos en el campo.",
-      "name_en": "Stellar Storm",
-      "visual_prompt": "electric blue lightning bolts, neon yellow energy orbs, violet spark particles, bright white static arcs, crackling neon thunderclouds, stormy sky backdrop, dynamic energy field swirls"
+      "name": "Carga Aérea",
+      "desc": "Aumenta el ataque al volar rápido, generando un campo eléctrico alrededor.",
+      "name_en": "Air Charge",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy orbs swirling, crisp white static sparks, bright electric white vortex, pale blue glow trails, dynamic motion lines, urban city skyline silhouette in background"
     },
     {
-      "name": "Carga Relámpago",
-      "desc": "Aumenta su velocidad y ataque al recargar energía eléctrica en sus patas.",
-      "name_en": "Thunder Charge",
-      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts, violet sparks, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds, dynamic energy field patterns"
+      "name": "Chispa de Viento",
+      "desc": "Crea una ráfaga eléctrica que aturde a los enemigos en el aire.",
+      "name_en": "Wind Spark",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white static sparks, bright electric white shockwaves, pale blue glowing aura, urban city skyline silhouette, neon signs flickering in background"
     },
     {
-      "name": "Rayo de Cobre",
-      "desc": "Dispara un rayo de energía metálica que reduce la defensa del rival.",
-      "name_en": "Copper Bolt",
-      "visual_prompt": "crackling electric blue energy bolts, neon yellow lightning trails, violet spark explosions, bright white energy bursts, stormy sky backdrop with crackling neon-lit thunderclouds"
+      "name": "Rayo Estático",
+      "desc": "Genera un rayo estático que reduce la velocidad del oponente.",
+      "name_en": "Static Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy trails, crisp white sparks, bright electric white arcs, pale blue glow pulses, urban cityscape background with flickering neon signs, electric storm clouds"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de Pidgeot",
-      "to": "Alas cargadas de electricidad que generan chispas al moverse."
+      "from": "plumas normales",
+      "to": "plumas cargadas de electricidad que brillan al volar"
     },
     {
-      "from": "Pelo suave",
-      "to": "Pelaje plateado con escamas conductoras que brillan bajo la luz."
+      "from": "postura upright",
+      "to": "postura dinámica para controlar el campo eléctrico"
     },
     {
-      "from": "Postura cuadrúpeda",
-      "to": "Patas reforzadas con escamas para absorber y liberar electricidad."
+      "from": "vuelo lento",
+      "to": "vuelo rápido con relámpagos en las alas"
     },
     {
-      "from": "Color gris claro",
-      "to": "Tonalidad plateada con destellos azules eléctricos."
+      "from": "ojos normales",
+      "to": "ojos brillantes con energía estática"
     }
   ],
   "pokemon_id": "018",

@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Subterránea",
-  "lore": "Este Diglett ahora arde con llamas rojas en su piel, sus patas cortas brillan al calor. Cada movimiento libera chispas, cavando túneles incandescentes bajo tierra.",
+  "lore": "Con su cuerpo de lava fundida, este Diglett arde bajo tierra. Sus ojos brillan como carbones, y su piel se transforma en escamas rojas que emiten calor constante. Cada paso deja huellas de cenizas brillantes.",
   "moves": [
     {
-      "name": "Llama Túnel",
-      "desc": "Crea un túnel de fuego que quema al enemigo mientras se desplaza bajo tierra.",
-      "name_en": "Tunnel Flare",
-      "visual_prompt": "crimson fire tunnel, molten gold embers, glowing magma pools, smoke-filled air, volcanic crater backdrop, ember trails, heat distortion waves"
+      "name": "Llamarada Soterrada",
+      "desc": "Ataca con llamas que surgen de debajo del suelo, quemando al oponente desde abajo.",
+      "name_en": "Subterranean Blaze",
+      "visual_prompt": "crimson red flames erupting from cracked earth, molten gold lava streams, amber glowing embers rising, charcoal black smoke tendrils, volcanic crater background"
     },
     {
       "name": "Ceniza Explosiva",
-      "desc": "Lanza una lluvia de cenizas ardientes que daña y quema al enemigo.",
+      "desc": "Lanza una nube de cenizas incandescentes que daña y reduce la velocidad del rival.",
       "name_en": "Explosive Ash",
-      "visual_prompt": "volcanic ash rain, glowing ember sparks, molten gold particles, crimson red smoke trails, amber orange heat waves, charcoal black ash clouds, dynamic fiery explosion effects"
+      "visual_prompt": "incandescent ash clouds, molten gold embers, crimson red smoke swirls, glowing orange lava flows, charcoal black smoke trails, dynamic explosive motion"
     },
     {
       "name": "Fuego Subterráneo",
-      "desc": "Desata un fuego subterráneo que aturde al enemigo y quema el terreno.",
-      "name_en": "Subterranean Fire",
-      "visual_prompt": "molten lava geysers erupting from cracked earth, glowing ember trails, crimson red smoke swirls, amber orange magma pools, charcoal black ash particles, glowing ember sparks"
+      "desc": "Crea un campo de fuego bajo el terreno que inflige daño continuo al oponente.",
+      "name_en": "Subterranean Blaze",
+      "visual_prompt": "crimson red lava fissures, molten gold ember trails, glowing amber heat waves, charcoal black smoke plumes, volcanic rock textures, intense fire glow, dynamic rising flames"
     },
     {
-      "name": "Calor de Llama",
-      "desc": "Aumenta el daño de los movimientos de fuego con un calor intenso.",
-      "name_en": "Blazing Heat",
-      "visual_prompt": "crimson red flames, molten gold embers, amber orange heat waves, charcoal black smoke swirls, glowing ember particles, intense fiery glow, volcanic crater backdrop"
+      "name": "Escama de Llama",
+      "desc": "Fortalece el ataque con una capa de escamas ardientes que aumentan el daño físico.",
+      "name_en": "Flame Scale",
+      "visual_prompt": "crimson red fiery scales, molten gold embers swirling, bright orange heat haze, amber glow particles, charcoal black smoke wisps, volcanic crater backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo terroso y oscuro",
-      "to": "Cuerpo cubierto de llamas rojas y brillantes"
+      "from": "cuerpo de tierra",
+      "to": "cuerpo de lava fundida con escamas rojas"
     },
     {
-      "from": "Patas cortas para cavar",
-      "to": "Patas calientes que generan fuego al moverse"
+      "from": "ojos oscuros",
+      "to": "ojos brillantes como carbones"
     },
     {
-      "from": "Bajo estilo de movimiento",
-      "to": "Movimiento rápido con estelas de llamas tras él"
+      "from": "movimiento lento",
+      "to": "movimientos rápidos que dejan cenizas brillantes"
     },
     {
-      "from": "Vivo bajo tierra",
-      "to": "Cava túneles incandescentes que queman el suelo"
+      "from": "solo bajo tierra",
+      "to": "fuego subterráneo que activa campos de calor"
     }
   ],
   "pokemon_id": "050",

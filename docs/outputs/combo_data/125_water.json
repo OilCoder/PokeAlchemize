@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Agua Relámpago",
-  "lore": "Agua Relámpago camina con patas acuáticas que gotean chispas. Su pelaje brillante absorbe el agua, generando descargas eléctricas al tocar superficies húmedas. Sus ojos centellean con energía hidroeléctrica.",
+  "lore": "Agua Relámpago, con patas plantadas en el suelo, ahora emana una corriente eléctrica que se mezcla con el agua. Su pelaje brillante refleja destellos azules mientras genera ondas de energía acuática en sus patas.",
   "moves": [
     {
-      "name": "Chispa Acuática",
-      "desc": "Genera una descarga eléctrica que se disipa en el agua, afectando a todos los enemigos en el área.",
-      "name_en": "Water Spark",
-      "visual_prompt": "glowing electric arcs, deep ocean blue water ripples, bioluminescent plankton particles, teal green energy pulses, pearly white electric discharge trails, aquamarine light refractions"
+      "name": "Tormenta Acuática",
+      "desc": "Genera una tormenta de agua eléctrica que golpea al rival con descargas fuertes.",
+      "name_en": "Electric Storm",
+      "visual_prompt": "electric blue water droplets, swirling vortex of teal and sapphire water, crackling lightning arcs, pearly white foam, calm ocean surface with gentle ripples, soft blue sunlight glinting on droplets"
     },
     {
-      "name": "Ola Estática",
-      "desc": "Lanza una ola de agua cargada de electricidad que paraliza a los oponentes.",
-      "name_en": "Static Wave",
-      "visual_prompt": "electric-blue water ripples, glowing teal bioluminescent plankton, shimmering aquamarine energy arcs, pearly white electric sparks, deep ocean trench backdrop, calm underwater current motion"
+      "name": "Chispa de Océano",
+      "desc": "Dispara un chorro de agua cargado de electricidad que debilita al objetivo.",
+      "name_en": "Ocean Spark",
+      "visual_prompt": "electric blue water jets, glowing teal energy arcs, pearly white mist swirls, sapphire blue shockwaves, pale aquamarine ripples, calm ocean surface with gentle waves, soft blue sunlight"
     },
     {
-      "name": "Burbuja Conductora",
-      "desc": "Crea burbujas que absorben el agua y liberan energía eléctrica al estallar.",
-      "name_en": "Conductive Bubble",
-      "visual_prompt": "glowing electric blue bubbles, water droplets with teal energy trails, shattered bubble fragments emitting sapphire sparks, bioluminescent plankton glow, deep ocean trench background with calm currents"
+      "name": "Ola de Rayos",
+      "desc": "Crea una ola que lanza rayos eléctricos hacia el enemigo desde el agua.",
+      "name_en": "Electric Surge",
+      "visual_prompt": "crystalline water droplets, electric blue lightning arcs, shimmering teal ripples, pearly white foam, sapphire blue energy waves, calm ocean surface, gentle undulating motion"
     },
     {
-      "name": "Tormenta Húmeda",
-      "desc": "Invoca una tormenta eléctrica sobre el campo, aumentando el daño de los ataques eléctricos.",
-      "name_en": "Wet Storm",
-      "visual_prompt": "electric blue lightning bolts, swirling water droplets, glowing bioluminescent plankton, deep ocean trench backdrop, aquamarine energy rings, teal green mist, pearly white sparkles"
+      "name": "Ciclón Hidroeléctrico",
+      "desc": "Genera un ciclón que absorbe el agua y la convierte en electricidad para atacar.",
+      "name_en": "Hydroelectric Cyclone",
+      "visual_prompt": "spinning vortex of glowing teal water droplets, electric blue energy arcs, shimmering pearly white mist, deep ocean blue swirls, calm ocean surface ripples, soft blue sunlight reflections"
     }
   ],
   "diffs": [
     {
       "from": "patas plantadas en el suelo",
-      "to": "patas adaptadas para caminar en agua, con garras para evitar resbalones"
+      "to": "patas cubiertas de corrientes acuáticas que generan ondas eléctricas"
     },
     {
       "from": "pelaje brillante",
-      "to": "pelaje que absorbe agua, generando chispas al tocar superficies húmedas"
+      "to": "pelaje que refleja destellos azules y eléctricos"
     },
     {
-      "from": "bajo postura",
-      "to": "postura más erguida para equilibrar en superficies resbaladizas"
+      "from": "corriente eléctrica",
+      "to": "corriente eléctrica mezclada con agua que crea ondas en el suelo"
     },
     {
-      "from": "ojos centellean",
-      "to": "ojos brillan con energía hidroeléctrica, visibles en la oscuridad"
+      "from": "movimientos eléctricos",
+      "to": "movimientos que combinan agua y electricidad para atacar"
     }
   ],
   "pokemon_id": "125",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Electrónico",
-  "lore": "Fantasma Electrónico se desplaza sin ruido, sus patas brillan con energía espectral. Su cuerpo translúcido emite destellos azules mientras absorbe la electricidad de los espíritus. Su mirada fría y distante refleja su naturaleza etérea.",
+  "species_name": "Pokémon Fantasma de Relámpago",
+  "lore": "El Fantasma de Relámpago flota sin contacto con el suelo, sus patas se han vuelto translúcidas. Sus descargas eléctricas ahora emiten un brillo azul pálido, atravesando objetos como si fueran aire.",
   "moves": [
     {
-      "name": "Sombra Chispa",
-      "desc": "Lanza una ráfaga de energía eléctrica que atraviesa fantasmas y objetos sólidos.",
-      "name_en": "Shadow Spark",
-      "visual_prompt": "glowing violet energy bolts, ghostly silver mist, deep violet shadows, shattered spectral barriers, ethereal moonlight beams, fragmented shadow orbs, pale silver particles, misty graveyard atmosphere"
+      "name": "Chispazo Espectral",
+      "desc": "Lanza un rayo eléctrico que atraviesa defensas y deja un rastro de energía fantasmal.",
+      "name_en": "Spectral Zap",
+      "visual_prompt": "glowing spectral white electric bolts, translucent icy blue energy trails, pale silver mist swirling, drifting ghostly orbs, moonlight gray residue, ethereal frost patterns, dynamic lightning arcs"
     },
     {
-      "name": "Energía Espectral",
-      "desc": "Absorbe energía eléctrica del entorno para curarse y aumentar su velocidad.",
-      "name_en": "Spectral Energy",
-      "visual_prompt": "glowing violet energy orbs floating in mist, ethereal silver trails, shadowy violet tendrils, pale silver light beams, ghostly white aura, misty graveyard backdrop with moonlit tombstones"
+      "name": "Atrapar Sombras",
+      "desc": "Captura al oponente en una red de energía oscura, reduciendo sus movimientos durante un turno.",
+      "name_en": "Shadow Net",
+      "visual_prompt": "translucent spectral white net, pale silver mist, icy blue energy strands, moonlight gray orbs drifting, frozen shadow tendrils, ethereal glow, ghostly texture, no characters, no Pokémon"
     },
     {
-      "name": "Viento Fantasmal",
-      "desc": "Crea una ráfaga de aire frío que confunde al oponente y reduce su precisión.",
-      "name_en": "Phantom Gale",
-      "visual_prompt": "cold mist swirls, translucent ghostly violets, drifting shadowy tendrils, faint moonlight beams, pale silver fog, ethereal tombstone outlines, deep violet haze"
+      "name": "Relámpago Invisibilidad",
+      "desc": "Se vuelve invisible, evitando ataques y aumentando su velocidad temporalmente.",
+      "name_en": "Invisible Bolt",
+      "visual_prompt": "translucent ghostly orbs drifting in moonlight, spectral white mist swirling, icy blue frost patterns on moonlit ruins, pale silver glow, ethereal shimmering trails"
     },
     {
-      "name": "Chispa de la Oscuridad",
-      "desc": "Genera un destello de luz eléctrica que ciega al rival y causa daño adicional.",
-      "name_en": "Dark Spark",
-      "visual_prompt": "glowing violet lightning bolts, crackling shadowy energy arcs, misty graveyard fog, pale silver sparks, ghostly white afterimage trails, deep violet aura, ethereal fog swirls"
+      "name": "Sombra Cargada",
+      "desc": "Aumenta el poder de los movimientos eléctricos en un 50% en el siguiente ataque.",
+      "name_en": "Charged Shadow",
+      "visual_prompt": "translucent spectral orbs glowing with icy blue and moonlight gray, pale silver mist swirling in geometric patterns, ghostly energy trails forming jagged lightning arcs, frozen moonlight reflections on shattered ruins"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas transparentes que flotan ligeramente sobre el suelo"
+      "from": "patas firmes en el suelo",
+      "to": "patas translúcidas flotando sin contacto"
     },
     {
-      "from": "bajo postura",
-      "to": "postura más erguida, flotando en el aire con gracia espectral"
+      "from": "descargas eléctricas brillantes",
+      "to": "descargas azules pálidas que atraviesan objetos"
     },
     {
-      "from": "color amarillo brillante",
-      "to": "tonos azulados translúcidos que brillan en la oscuridad"
+      "from": "cuerpo sólido",
+      "to": "cuerpo translúcido y etéreo"
     },
     {
-      "from": "voces electrónicas",
-      "to": "susurros etéreos que se mezclan con el viento"
+      "from": "movimientos terrestres",
+      "to": "movimientos que afectan a través de la oscuridad"
     }
   ],
   "pokemon_id": "125",

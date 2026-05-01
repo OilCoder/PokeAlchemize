@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Verdoso",
-  "lore": "Su cuerpo se cubrió de escamas metálicas verdes que brillan bajo el sol. Sus patas, ahora afiladas y resistentes, crujen al caminar sobre rocas. El aroma de sus flores se mezcla con el olor del hierro fundido.",
+  "species_name": "Pokémon Acero Floral",
+  "lore": "Pokémon Acero Floral camina con patas de acero que brillan bajo el sol. Sus hojas se transformaron en láminas afiladas, y su cuerpo emana un aura fría y resistente. Su respiración emite un sonido metálico.",
   "moves": [
     {
-      "name": "Corte de Acero",
-      "desc": "Corta con garras afiladas de acero, causando daño físico y posible reducción de defensa.",
+      "name": "Corte Acero",
+      "desc": "Corta con hojas de acero afiladas que dejan surcos en el suelo.",
       "name_en": "Steel Slash",
-      "visual_prompt": "shimmering steel claws, razor-sharp metallic edges, gunmetal gray particles, polished silver sparks, industrial city skyline backdrop, neon cyan energy trails"
+      "visual_prompt": "shimmering steel leaf blades, jagged metallic grooves in polished concrete, glowing energy lines, gunmetal gray and silver particles, deep steel blue highlights, industrial workshop texture, matte black shadows"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Genera ondas de sonido que debilitan la defensa del oponente.",
-      "name_en": "Metal Resonance",
-      "visual_prompt": "gunmetal gray sound waves, polished silver ripples, metallic steam vents, electric blue neon glow, steel blue distortion fields, neon cyan energy pulses, industrial cityscape reflections"
+      "name": "Carga Metálica",
+      "desc": "Aumenta la defensa con un escudo de acero que absorbe golpes.",
+      "name_en": "Metal Charge",
+      "visual_prompt": "steel shield with glowing energy lines, polished chrome surface, gunmetal gray aura, deep steel blue reflections, matte black accents, industrial workshop background glow"
     },
     {
-      "name": "Escudo Inquebrantable",
-      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido.",
-      "name_en": "Unbreakable Shield",
-      "visual_prompt": "gunmetal gray steel shield, polished silver edges, metallic steam vents, glowing neon cyan energy rings, industrial cityscape backdrop, electric blue energy waves, reflective surface with damage absorption ripples"
+      "name": "Golpe Cilíndrico",
+      "desc": "Golpea con un cilindro giratorio que desestabiliza al rival.",
+      "name_en": "Cylindrical Strike",
+      "visual_prompt": "rotating steel cylinder, polished chrome surface, matte black energy rings, glowing steel blue lines, industrial workshop background, sharp metallic reflections, dynamic motion blur"
     },
     {
-      "name": "Fragancia Ferrosa",
-      "desc": "Emite un aroma metálico que reduce la precisión del rival.",
-      "name_en": "Metal Scent",
-      "visual_prompt": "metallic steam vents, polished silver orbs floating in air, gunmetal gray mist, electric blue trails, neon cyan aura, industrial city skyline silhouette, metallic sheen on air particles"
+      "name": "Resonancia Fría",
+      "desc": "Genera vibraciones frías que reducen la velocidad del oponente.",
+      "name_en": "Cold Resonance",
+      "visual_prompt": "shimmering steel vibrations, frosty silver energy waves, matte black ripples, polished chrome concentric circles, deep steel blue glow, industrial workshop metal surfaces, frozen energy trails"
     }
   ],
   "diffs": [
     {
-      "from": "flores verdes y fragantes",
-      "to": "escamas metálicas verdes que brillan y emiten aroma de hierro"
+      "from": "Patas blandas y flexibles",
+      "to": "Patas duras y metálicas que no se hunden en el suelo"
     },
     {
-      "from": "patas blandas y flexibles",
-      "to": "patas afiladas y resistentes, crujen al caminar"
+      "from": "Hoja verde y suave",
+      "to": "Hoja afilada y fría como acero"
     },
     {
-      "from": "sistema de absorción de nutrientes",
-      "to": "sistema de absorción de metales, acumula hierro del suelo"
+      "from": "Respiración tranquila",
+      "to": "Respiración con sonido metálico y frío"
     },
     {
-      "from": "sistema de defensa tóxica",
-      "to": "sistema de defensa metálica, refleja ataques físicos"
+      "from": "Aroma dulce",
+      "to": "Aroma metálico y frío que atrae a los metales"
     }
   ],
   "pokemon_id": "043",

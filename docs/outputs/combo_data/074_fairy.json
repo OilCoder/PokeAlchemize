@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Mariposa de Hada",
-  "lore": "Con su cuerpo compacto cubierto de pétalos brillantes, Geodude ahora camina con delicadeza sobre el suelo. Sus patas cortas se han suavizado, cubiertas de brillo mágico que emana de su núcleo de hada.",
+  "species_name": "Pokémon Luminoso de Hada",
+  "lore": "Este Geodude transformado brilla con un aura de hada, sus piernas se han suavizado en patas redondeadas y su piel resplandece con destellos dorados. Su fuerza rocosa ahora está envuelta en magia suave.",
   "moves": [
     {
-      "name": "Pétalos de Sueño",
-      "desc": "Lanza pétalos que inducen un sueño profundo en el enemigo.",
-      "name_en": "Dream Petals",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white stardust, pearl lavender mist, crystalline mint light trails, soft twilight sky backdrop, delicate shimmering sparkles, ethereal dreamy glow"
-    },
-    {
-      "name": "Brillo de Hada",
-      "desc": "Aumenta la defensa y evita que el enemigo use movimientos atacantes.",
-      "name_en": "Fairy Shine",
-      "visual_prompt": "glowing pastel pink orbs floating in a moonlit garden, soft lavender mist swirling around crystalline mint leaves, ivory white starlight reflections on dewdrops, delicate sparkling particles with starlight blue accents"
+      "name": "Brillo de Ceniza",
+      "desc": "Lanza una lluvia de partículas brillantes que reduce la defensa del oponente.",
+      "name_en": "Ash Sparkle",
+      "visual_prompt": "shimmering silver particles, delicate lavender mist, glowing ivory white orbs, soft pastel pink sparkles, pearly gold dust, moonlit meadow backdrop, ethereal glow"
     },
     {
       "name": "Canto de Luna",
-      "desc": "Canta una melodía que reduce la velocidad del rival.",
-      "name_en": "Moon Song",
-      "visual_prompt": "glowing moonlight, soft pastel pink petals swirling in a spiral, ivory white mist, pearl lavender starlight, crystalline mint glowing orbs floating in a gentle melody, starry twilight sky background, ethereal shimmering trails, delicate floral patterns in the air, soft focus on motion lines, no characters or Pokémon present, 2D stylized VFX, Ken Sugimori aesthetic, wide banner format, 60 words or less"
+      "desc": "Canta un himno mágico que restaura la energía de aliados cercanos.",
+      "name_en": "Lunar Chant",
+      "visual_prompt": "glowing moonlit petals, soft pastel pink and lavender light orbs, delicate ivory white mist, shimmering silver fairy dust trails, gentle floating starlight particles"
     },
     {
-      "name": "Arcoíris Mágico",
-      "desc": "Crea un arcoíris que cura a aliados y debilita a enemigos.",
-      "name_en": "Magic Rainbow",
-      "visual_prompt": "pastel pink and lavender rainbow arch, glowing starlight blue mist, crystalline mint dewdrops, ivory white petals floating in air, soft twilight glow, delicate floral patterns, ethereal shimmer, no characters, no Pokémon"
+      "name": "Pétalos de Estrella",
+      "desc": "Dispara pétalos brillantes que causan daño mágico y confunden al rival.",
+      "name_en": "Star Petals",
+      "visual_prompt": "glowing pastel pink petals, shimmering silver trails, delicate lavender mist, ivory white sparkles, pearly gold accents, moonlit meadow backdrop, soft focus, ethereal glow"
+    },
+    {
+      "name": "Burbuja Mágica",
+      "desc": "Crea burbujas luminosas que absorben ataques físicos y devuelven daño.",
+      "name_en": "Magic Bubble",
+      "visual_prompt": "luminous pastel pink bubbles, shimmering silver ripples, delicate lavender mist, pearly gold reflections, soft ivory glow, moonlit meadow backdrop, floating orbs with protective aura"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo rocoso",
-      "to": "Cuerpo cubierto de pétalos brillantes"
+      "from": "Cuatro patas sólidas",
+      "to": "Patas redondeadas y suaves con destellos dorados"
     },
     {
-      "from": "Patas cortas",
-      "to": "Patas suavizadas con brillo mágico"
+      "from": "Piel rocosa",
+      "to": "Piel resplandeciente con destellos dorados y suaves"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura elegante y delicada"
+      "from": "Fuerza terrestre",
+      "to": "Fuerza envuelta en magia suave de hada"
     },
     {
-      "from": "Estructura rígida",
-      "to": "Estructura flexible y esponjosa"
+      "from": "Apariencia rígida",
+      "to": "Apariencia elegante y luminosa con brillo"
     }
   ],
   "pokemon_id": "074",

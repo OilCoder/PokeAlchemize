@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Snorlax, ahora envuelto en llamas azules, camina con pasos lentos pero ardientes. Su piel se cubre de escamas rojas, y sus ojos brillan con el calor de un volcán. Cada respiración libera una nube de humo aromático.",
+  "lore": "El Snorlax Fuego se alza en una postura imponente, sus patas traseras envueltas en llamas. Su pelaje dorado brilla con destellos rojos, mientras exhala una respiración ardiente que quema el aire a su alrededor.",
   "moves": [
     {
-      "name": "Fuego de Cama",
-      "desc": "Lanza una ola de llamas que calienta la zona, reduciendo la velocidad de los oponentes.",
-      "name_en": "Bedfire Wave",
-      "visual_prompt": "crimson red flames, molten gold embers, swirling heat haze, volcanic crater backdrop, glowing magma pools, smoke-filled air, intense heat distortion, ember trails, dynamic wave motion"
+      "name": "Llama Gigante",
+      "desc": "Lanza una columna de fuego que quema enemigos en un área amplia.",
+      "name_en": "Giant Flame",
+      "visual_prompt": "crimson fire column, molten gold embers, bright orange lava flows, smoky ember sky, glowing charcoal black ash particles, wide area burn effect"
     },
     {
-      "name": "Respiración de Lava",
-      "desc": "Exhala lava derretida que quema al rival y deja un rastro de lava en el campo.",
-      "name_en": "Lava Breath",
-      "visual_prompt": "molten crimson lava flows, amber-orange embers floating, glowing molten gold trails, charred black smoke wisps, volcanic crater backdrop with magma pools"
+      "name": "Rugido de Horno",
+      "desc": "Aumenta el ataque del usuario y quema al enemigo con un rugido hirviente.",
+      "name_en": "Furnace Roar",
+      "visual_prompt": "crimson red flames swirling in a roaring vortex, molten gold embers floating upward, bright orange lava flows beneath, amber glow accents, charcoal black smoke wisps, volcanic crater backdrop"
     },
     {
-      "name": "Carga de Escamas",
-      "desc": "Ataca con sus escamas calientes, aumentando el daño con cada golpe.",
-      "name_en": "Scalpel Charge",
-      "visual_prompt": "molten gold shards, crimson red embers swirling, amber orange sparks, charcoal black smoke trails, glowing magma pools, volcanic crater backdrop, fiery aura, dynamic motion lines, intense heat distortion"
+      "name": "Sueño de Llama",
+      "desc": "Causa sueño y quema al oponente con un calor sofocante.",
+      "name_en": "Blazing Slumber",
+      "visual_prompt": "crimson red embers swirling in a molten gold vortex, glowing orange lava flows beneath smoky charcoal black sky, ember-lit wisps forming sleep-inducing patterns"
     },
     {
-      "name": "Sueño de Fuego",
-      "desc": "Sumerge al rival en un sueño ardiente que reduce su defensa.",
-      "name_en": "Fire Dream",
-      "visual_prompt": "crimson red smoke swirls, molten gold embers floating, amber orange dreamlike mist, charcoal black smoke tendrils, glowing ember particles, volcanic crater backdrop, heat haze distortion"
+      "name": "Bola de Fuego Lenta",
+      "desc": "Dispara una bola de fuego lenta que explota con fuerza.",
+      "name_en": "Slow Fireball",
+      "visual_prompt": "crimson red slow-moving fireball, molten gold embers trailing, explosive burst of bright orange flames, charcoal black smoke rings, volcanic crater background glow"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas cubiertas de escamas rojas que emiten chispas al caminar"
+      "from": "patas plantadas en el suelo",
+      "to": "patas envueltas en llamas que queman el suelo"
     },
     {
-      "from": "baja postura",
-      "to": "postura más erguida, con el cuerpo envuelto en llamas azules"
+      "from": "pelaje suave y marrón",
+      "to": "pelaje dorado con destellos rojos brillantes"
     },
     {
-      "from": "piel suave",
-      "to": "piel transformada en escamas resistentes al fuego"
+      "from": "postura baja y acurrucada",
+      "to": "postura erguida y amenazante"
     },
     {
       "from": "respiración tranquila",
-      "to": "respiración que libera humo aromático y calor intenso"
+      "to": "respiración ardiente que quema el aire circundante"
     }
   ],
   "pokemon_id": "143",

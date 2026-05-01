@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Luminoso",
-  "lore": "Dratini, ahora transformado en un ser de acero pulido, camina con patas de metal que brillan bajo el sol. Su cuerpo es un reflejo de la fuerza y la elegancia del acero, con escamas que resonarán al tocar el suelo.",
+  "lore": "Dratini ahora resplandece con escamas de acero pulido. Su cuerpo serpenteante brilla con reflejos metálicos, y su cola afilada corta el aire con precisión. El acero le otorga una resistencia inquebrantable.",
   "moves": [
     {
-      "name": "Corte de Acero",
-      "desc": "Corta con precisión con garras de acero, causando daño crítico a los oponentes débiles al acero.",
+      "name": "Corte Acero",
+      "desc": "Corta con una cola afilada de acero, causando daño y reduciendo defensa del objetivo.",
       "name_en": "Steel Cut",
-      "visual_prompt": "shimmering steel claws slicing through air, metallic sparks, gunmetal gray trails, polished silver glints, electric blue energy pulses, neon cyan highlights, industrial cityscape backdrop with steam vents"
+      "visual_prompt": "shimmering steel tail slicing through air, jagged metallic shards, glowing gunmetal gray energy trails, polished chrome sparks, deep steel blue light reflections, industrial workshop background hints, matte black shadows"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Genera vibraciones metálicas que debilitan el ataque físico del rival.",
-      "name_en": "Metal Resonance",
-      "visual_prompt": "gunmetal gray vibration waves, polished silver ripples, metallic steel blue shockwaves, electric blue energy pulses, neon cyan harmonic rings, industrial city skyline silhouette, glowing neon steam vents"
+      "name": "Escudo Reflejo",
+      "desc": "Crea un escudo de acero que refleja ataques físicos y reduce daño recibido.",
+      "name_en": "Mirror Shield",
+      "visual_prompt": "gunmetal gray steel shield with polished chrome edges, glowing deep steel blue energy lines, matte black reflective surface, industrial workshop background glow, geometric energy patterns"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido.",
-      "name_en": "Steel Shield",
-      "visual_prompt": "polished steel shield, glowing neon cyan edges, industrial cityscape backdrop, metallic steam vents, gunmetal gray texture, electric blue energy rings, reflective surface with damage absorption effect"
+      "name": "Impacto Luminoso",
+      "desc": "Emite un destello brillante que ciega al oponente y reduce su precisión.",
+      "name_en": "Luminous Impact",
+      "visual_prompt": "gunmetal gray glowing energy lines, polished chrome reflections, deep steel blue light bursts, matte black background, sharp geometric light patterns, intense white flashes, industrial workshop metallic textures"
     },
     {
-      "name": "Golpe de Impacto",
-      "desc": "Ataca con un golpe contundente que rompe la defensa del enemigo.",
-      "name_en": "Impact Strike",
-      "visual_prompt": "cracking steel armor, jagged metallic shards, glowing electric blue energy waves, polished silver debris, industrial steam vents emitting neon cyan mist, gunmetal gray shockwaves"
+      "name": "Cicatriz Metálica",
+      "desc": "Crea cicatrices en el suelo que causan daño continuo a los enemigos que caminan sobre ellas.",
+      "name_en": "Metal Scar",
+      "visual_prompt": "cracked gunmetal gray terrain, glowing silver energy lines, polished chrome scars, deep steel blue residue, industrial workshop texture, matte black cracks, stylized 2D VFX, Ken Sugimori aesthetic"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo flexible de serpiente",
-      "to": "cuerpo rígido de acero con patas metálicas"
+      "from": "cuerpo serpenteante",
+      "to": "escamas de acero pulido que brillan y reflejan la luz"
     },
     {
-      "from": "pulso de energía dragón",
-      "to": "resonancia metálica que vibra en su estructura"
+      "from": "sin extremidades",
+      "to": "cola afilada de acero capaz de cortar y atacar"
     },
     {
-      "from": "postura de reptil al ras del suelo",
-      "to": "postura erguida con patas plantadas firmemente"
+      "from": "forma alargada",
+      "to": "resistencia inquebrantable al daño físico"
     },
     {
-      "from": "escamas brillantes pero frágiles",
-      "to": "escamas pulidas y resistentes al impacto"
+      "from": "color azul",
+      "to": "tonalidades plateadas y brillantes con reflejos metálicos"
     }
   ],
   "pokemon_id": "147",

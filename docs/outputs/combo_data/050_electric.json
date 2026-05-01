@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Subterráneo",
-  "lore": "Este Diglett ahora emana chispas eléctricas al moverse bajo tierra. Sus patas cortas brillan con energía estática, y su piel se vuelve translúcida al liberar descargas. Cada zarpazo deja un rastro de luz azul en el suelo.",
+  "species_name": "Pokémon Chispa Subterránea",
+  "lore": "Chispa Subterránea emana destellos eléctricos al moverse bajo tierra. Su cuerpo de arcilla brillante cobra vida con descargas, iluminando túneles oscuros. Sus ojos relucen como lámparas de alambre.",
   "moves": [
     {
-      "name": "Chispa Subterránea",
-      "desc": "Lanza una descarga eléctrica desde debajo del suelo, causando daño y paralizando al rival.",
-      "name_en": "Subterranean Spark",
-      "visual_prompt": "crackling electric blue orbs rising from cracked earth, neon yellow lightning bolts, violet spark particles, bright white energy trails, electric cyan lightning streaks, stormy sky backdrop"
+      "name": "Chispazo Sísmico",
+      "desc": "Genera ondas eléctricas en el suelo que afectan a todos los Pokémon en el área.",
+      "name_en": "Seismic Shock",
+      "visual_prompt": "electric blue shockwaves rippling across cracked concrete, neon yellow arcs sparking between fissures, bright white energy pulses radiating outward, pale blue glow illuminating urban debris, vibrant electric storm clouds in background"
     },
     {
-      "name": "Carrera Estática",
-      "desc": "Aumenta su velocidad al moverse a través del terreno, dejando un rastro de chispas.",
-      "name_en": "Static Dash",
-      "visual_prompt": "electric blue trails, neon yellow sparks, violet spark particles, bright white energy streaks, crackling energy fields, stormy sky background, neon-lit thunderclouds"
+      "name": "Relámpago Enterrado",
+      "desc": "Ataca con un rayo oculto bajo tierra, causando daño crítico al objetivo.",
+      "name_en": "Buried Bolt",
+      "visual_prompt": "glowing electric blue underground lightning bolts, neon yellow energy trails, crisp white shockwaves, bright electric white sparks, pale blue earth cracks, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Campo de Voltaje",
-      "desc": "Crea un campo eléctrico en el área, reduciendo la velocidad de los enemigos.",
-      "name_en": "Voltage Field",
-      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet sparks, bright white static discharge, stormy sky backdrop, geometric energy patterns, glowing cyan aura, dynamic energy waves"
+      "name": "Carga Subterránea",
+      "desc": "Aumenta el ataque al acumular energía eléctrica bajo tierra antes de atacar.",
+      "name_en": "Subterranean Charge",
+      "visual_prompt": "vibrant electric blue energy arcs, neon yellow lightning bolts, crisp white static sparks, bright electric white ground cracks, pale blue glow emanating from underground, urban cityscape background with flickering neon signs"
     },
     {
-      "name": "Impacto Zarpado",
-      "desc": "Ataca con garras cargadas, causando daño adicional y posiblemente paralizando.",
-      "name_en": "Claw Shock",
-      "visual_prompt": "crackling electric claws, neon blue energy trails, violet sparks, electric cyan lightning bolts, stormy sky backdrop, glowing white energy bursts"
+      "name": "Pararrayos Túnel",
+      "desc": "Crea un campo eléctrico que debilita a los oponentes y refuerza a aliados.",
+      "name_en": "Tunnel Surge",
+      "visual_prompt": "electric blue energy arcs, neon yellow lightning bolts, crisp white static sparks, bright electric white aura, pale blue glow pulses, urban cityscape neon signs flickering, electric storm clouds with glowing blue patterns"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas y cuerpo bajo",
-      "to": "patas brillantes con chispas estáticas que generan energía eléctrica"
+      "from": "Cuerpo arcilloso sin extremidades",
+      "to": "Cuerpo brillante con circuitos eléctricos visibles en su superficie"
     },
     {
-      "from": "piel oscura y terrosa",
-      "to": "piel translúcida que revela el flujo de electricidad en su interior"
+      "from": "Movimiento lento bajo tierra",
+      "to": "Desplazamiento rápido con destellos eléctricos que iluminan su camino"
     },
     {
-      "from": "movimiento lento y arrastrado",
-      "to": "movimiento rápido y preciso gracias a la energía eléctrica"
+      "from": "No posee ojos definidos",
+      "to": "Ojos que brillan como lámparas de alambre, emitiendo destellos"
     },
     {
-      "from": "vivir bajo tierra sin contacto con electricidad",
-      "to": "vivir bajo tierra generando y controlando descargas eléctricas"
+      "from": "Poco interacción con el entorno",
+      "to": "Genera campos eléctricos que afectan a otros Pokémon en su entorno"
     }
   ],
   "pokemon_id": "050",

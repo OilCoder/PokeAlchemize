@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Lapras, ahora con piel de lava incandescente, camina con pasos firmes sobre el hielo derretido. Sus patas brillan con fuego, mientras su cola emite llamas que iluminan el océano. Su presencia calienta el ambiente con cada respiración.",
+  "lore": "Lapras ahora brilla con un aura de fuego en su caparazón, sus patas se cubren de llamas que dan vida a sus pasos. Su respiración emite chispas, transformando el agua en vapor a su alrededor.",
   "moves": [
     {
-      "name": "Llamarada de Hielo",
-      "desc": "Lanza una bola de fuego que se congela al tocar el agua, creando un escudo de hielo.",
-      "name_en": "Ice Blaze",
-      "visual_prompt": "molten gold fire orb, freezing mid-air into crystalline ice shield, crimson red steam rising, amber orange frost patterns, charcoal black smoke trails, glowing ember sparks"
+      "name": "Llamarada de Mar",
+      "desc": "Lanza una ola de llamas que se convierte en vapor al tocar el agua.",
+      "name_en": "Sea Blaze",
+      "visual_prompt": "crimson red flames, molten gold embers, swirling steam rising from water, bright orange wave, charcoal black smoke trails, volcanic crater backdrop, ember-lit sky"
     },
     {
-      "name": "Respiración de Lava",
-      "desc": "Expulsa lava ardiente que quema y derrite el hielo a su alrededor.",
-      "name_en": "Lava Breath",
-      "visual_prompt": "crimson lava streams, molten gold droplets, amber-orange heat haze, charcoal black smoke swirls, glowing ember particles, volcanic crater backdrop, magma pool reflections"
+      "name": "Cascada de Fuego",
+      "desc": "Crea una cascada de lava que hierve el agua circundante.",
+      "name_en": "Fire Cascade",
+      "visual_prompt": "molten lava waterfall, bubbling hot water vapor, crimson red embers, glowing orange rocks, molten gold droplets, smoky ash trails, charcoal black steam clouds"
     },
     {
-      "name": "Ola de Calor",
-      "desc": "Genera una ola de calor que quema y evapora el agua en su camino.",
-      "name_en": "Heat Wave",
-      "visual_prompt": "crimson red heat waves rising from molten gold magma pools, evaporating water droplets into steam, glowing ember particles, charcoal black smoke swirls, volcanic crater background"
+      "name": "Respiración de Llama",
+      "desc": "Exhala una bocanada de llamas que quema el hielo y calienta el agua.",
+      "name_en": "Flame Breath",
+      "visual_prompt": "crimson red flames, molten gold embers, amber glow, swirling smoke, volcanic ash particles, glowing lava flows, charcoal black smoke trails, dynamic fire vortex"
     },
     {
-      "name": "Fuego Submarino",
-      "desc": "Crea una explosión de fuego bajo el agua que empuja a los enemigos.",
-      "name_en": "Submarine Blaze",
-      "visual_prompt": "molten lava bubbles rising from underwater, crimson fire explosions with ember sparks, glowing orange magma pools, dark charcoal smoke trails, molten gold ripples in water"
+      "name": "Mar en Llamas",
+      "desc": "Cambia el agua a su alrededor en vapor, creando un campo de calor intenso.",
+      "name_en": "Flame Tide",
+      "visual_prompt": "molten lava flows, swirling steam clouds, crimson red embers, glowing amber heat waves, volcanic ash particles, intense orange glow, charcoal black smoke trails"
     }
   ],
   "diffs": [
     {
-      "from": "piel fría y hielo",
-      "to": "piel de lava incandescente que emite calor constante"
-    },
-    {
-      "from": "patas para caminar en el hielo",
-      "to": "patas brillantes con llamas que funden el hielo bajo ellas"
-    },
-    {
-      "from": "cola de hielo",
-      "to": "cola que emite llamas que iluminan el océano"
+      "from": "caparazón de hielo",
+      "to": "caparazón cubierto de llamas brillantes"
     },
     {
       "from": "respiración fría",
-      "to": "respiración que calienta el ambiente a su alrededor"
+      "to": "respiración que emite chispas y vapor"
+    },
+    {
+      "from": "patas para caminar en tierra",
+      "to": "patas envueltas en llamas que calientan el suelo"
+    },
+    {
+      "from": "capacidad de navegar en agua fría",
+      "to": "capacidad de crear vapor y calentar el agua circundante"
     }
   ],
   "pokemon_id": "131",

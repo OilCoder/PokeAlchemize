@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Sombra",
-  "lore": "Este Slowpoke, ahora un espectro acuático, flota sin peso sobre el agua. Sus patas se han vuelto translúcidas y brillan con destellos azules, mientras sus ojos emiten un brillo tenue en la oscuridad.",
+  "species_name": "Pokémon Llorón Espectral",
+  "lore": "Llorón Espectral flota sin peso, sus patas se desvanecen en sombras. Sus ojos brillan con luz mortuoria, y su cola se convierte en un rastro de niebla que envuelve a los enemigos. Su aura psíquica se mezcla con el miedo.",
   "moves": [
     {
-      "name": "Sueño Fantasmal",
-      "desc": "Causa sueño al oponente con una onda de energía psíquica que lo envuelve en sombras.",
-      "name_en": "Phantom Sleep",
-      "visual_prompt": "glowing violet psychic waves, swirling shadowy mist, floating ghostly silver orbs, deep violet energy ripples, ethereal fog drifting through moonlit tombstones"
+      "name": "Susurro de la Tumba",
+      "desc": "Inflige daño psíquico y reduce la velocidad del oponente con un susurro escalofriante.",
+      "name_en": "Grave Whisper",
+      "visual_prompt": "translucent frost mist, pale silver spectral orbs drifting slowly, icy blue moonlight glow, ghostly whisper trails, spectral white energy ripples, moonlit ruin textures"
     },
     {
-      "name": "Ola Espectral",
-      "desc": "Lanza una ola de agua que atraviesa a los enemigos, causando daño fantasma.",
-      "name_en": "Spectral Wave",
-      "visual_prompt": "ghostly violet water ripple, translucent shadow waves, misty graveyard fog, moonlit tombstone silhouettes, ethereal silver mist, deep violet energy trails, pale silver water droplets, shadow violet distortion"
+      "name": "Furia de la Niebla",
+      "desc": "Aumenta el ataque y cubre el campo con niebla para ocultar movimientos.",
+      "name_en": "Fog Fury",
+      "visual_prompt": "translucent spectral orbs drifting through moonlit ruins, pale silver mist swirling in icy blue haze, ghostly white attack aura with frosty edges, moonlight gray fog patterns obscuring movement"
     },
     {
-      "name": "Mente Sombría",
-      "desc": "Aumenta el poder de los ataques psíquicos y reduce la defensa del rival.",
-      "name_en": "Shadow Mind",
-      "visual_prompt": "floating ghostly violet orbs, swirling charcoal gray mist, pale silver psychic energy trails, shadow violet aura, ethereal fog, moonlit tombstone silhouette (distant, blurred), subtle glowing psychic symbols in the mist, deep violet light rays piercing through fog"
+      "name": "Vista del Más Allá",
+      "desc": "Revela los movimientos ocultos del oponente y reduce su precisión.",
+      "name_en": "Spectral Glimpse",
+      "visual_prompt": "translucent frost orbs floating in moonlight, pale silver mist swirling, icy blue spectral trails, ghostly translucent ripples, moonlit ruin textures, spectral white glow"
     },
     {
-      "name": "Canción de los Muertos",
-      "desc": "Canta una melodía que reduce la velocidad del oponente y lo paraliza.",
-      "name_en": "Deadly Lullaby",
-      "visual_prompt": "ghostly violet notes floating in mist, slow-moving silver moonlight beams, paralyzed shadow tendrils, pale silver tombstone outlines, ethereal fog with glowing violet accents, deep violet aura"
+      "name": "Lamento Eterno",
+      "desc": "Ataca con un grito desgarrador que quita puntos de vida cada turno.",
+      "name_en": "Eternal Wail",
+      "visual_prompt": "shattered moonlight shards, spectral white mist swirling, icy blue frost patterns, pale silver orbs drifting, translucent ghostly tears, moonlit ruin backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo lento y pesado",
-      "to": "Cuerpo translúcido y flotante, sin peso en el agua"
+      "from": "patas plantadas en el suelo",
+      "to": "patas desvanecidas en sombras que flotan sin contacto"
     },
     {
-      "from": "Ojos brillantes y curiosos",
-      "to": "Ojos que brillan con un tenue destello azul en la oscuridad"
+      "from": "cola larga y lenta",
+      "to": "cola convertida en rastro de niebla que envuelve al oponente"
     },
     {
-      "from": "Patas cortas y firmes",
-      "to": "Patas translúcidas que se desvanecen en el agua"
+      "from": "ojos calmados y suaves",
+      "to": "ojos brillantes con luz mortuoria que paraliza"
     },
     {
-      "from": "Cabeza llena de curiosidad",
-      "to": "Cabeza que emite un aura espectral que atrae a los espíritus"
+      "from": "mente tranquila",
+      "to": "mente conectada al plano espectral que proyecta miedo"
     }
   ],
   "pokemon_id": "079",

@@ -1,0 +1,23 @@
+{
+  "body_colors": [
+    "pink",
+    "pale cream"
+  ],
+  "body_parts": [
+    "round body",
+    "two large ears",
+    "small tail",
+    "two front legs",
+    "two back legs"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a round, plump body with four legs, giving it a quadrupedal silhouette.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "large ears",
+    "front legs with claws",
+    "back legs with claws"
+  ]
+}

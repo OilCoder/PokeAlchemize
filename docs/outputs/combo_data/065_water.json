@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Agua Mental",
-  "lore": "Alakazam flota en el agua, sus ojos brillan con reflejos azules. Sus manos brillan con burbujas de energía, y su cuerpo emite un suave zumbido húmedo. El agua potencia su mente y su fuerza.",
+  "lore": "Alakazam, ahora cubierto de escamas azules y con tentáculos fluidos, desplaza el agua con su mente. Sus ojos brillan como aguas profundas, y sus patas se han transformado en aletas para nadar con gracia.",
   "moves": [
     {
-      "name": "Burbuja Psíquica",
-      "desc": "Lanza burbujas que confunden al oponente con imágenes mentales.",
-      "name_en": "Psychic Bubble",
-      "visual_prompt": "glowing teal bubbles with distorted mental images, deep ocean blue water currents, bioluminescent plankton trails, pearly white mist swirls, aquamarine light refracting through water"
+      "name": "Ola Psíquica",
+      "desc": "Lanza una ola de energía psíquica que desorienta al oponente.",
+      "name_en": "Psychic Wave",
+      "visual_prompt": "glowing teal psychic energy waves, swirling pearly white ripples, deep ocean blue distortion, gentle water surface reflections, soft blue sunlight shimmer"
     },
     {
-      "name": "Ola Mental",
-      "desc": "Genera una ola de energía mental que desorienta a todos los enemigos.",
-      "name_en": "Mental Wave",
-      "visual_prompt": "glowing bioluminescent blue-green waves, swirling teal energy currents, pearly white mist, aquamarine ripples, sapphire blue distortion effects, calm underwater motion"
+      "name": "Burbuja Mental",
+      "desc": "Crea burbujas de agua que flotan y absorben ataques.",
+      "name_en": "Mental Bubble",
+      "visual_prompt": "floating water bubbles, translucent teal and pearly white, gentle ripples, deep ocean blue background, soft aquamarine light, shimmering reflections, calm ocean surface texture"
     },
     {
-      "name": "Cristal Psíquico",
-      "desc": "Crea cristales que reflejan y multiplican los ataques psíquicos.",
-      "name_en": "Psychic Crystal",
-      "visual_prompt": "shimmering water droplets, floating crystalline shards, refracting light beams, bioluminescent teal glow, underwater currents, pearly white reflections, aquamarine ripples, sapphire blue light patterns"
+      "name": "Agua de Pensamiento",
+      "desc": "Inyecta una corriente de agua en el cerebro del rival.",
+      "name_en": "Mind Water",
+      "visual_prompt": "gentle flowing water currents, swirling blue and teal vortex, pearly white mist, sapphire blue ripples, calm ocean surface reflections, soft blue sunlight glow, transparent droplets, ethereal water particles"
     },
     {
-      "name": "Nube Húmeda",
-      "desc": "Cubre el campo de batalla con una niebla que reduce la visión.",
-      "name_en": "Misty Veil",
-      "visual_prompt": "foggy water droplets, swirling mist, deep ocean blue haze, glowing bioluminescent plankton dots, calm underwater currents, pearly white particles, aquamarine glow"
+      "name": "Mar Psíquico",
+      "desc": "Crea un mar de energía mental que reduce la velocidad del enemigo.",
+      "name_en": "Psychic Wave",
+      "visual_prompt": "calm ocean surface with gentle blue waves, shimmering teal energy ripples, pearly white psychic orbs floating in water, sapphire blue light refraction, pale aquamarine mist, slow-motion visual effect"
     }
   ],
   "diffs": [
     {
-      "from": "cabeza grande",
-      "to": "cabeza envuelta en burbujas brillantes"
+      "from": "cuatro patas en el suelo",
+      "to": "aletas para nadar en el agua"
     },
     {
-      "from": "manos cortas",
-      "to": "manos brillantes con burbujas flotando"
+      "from": "cabello largo y negro",
+      "to": "escamas azules brillantes"
     },
     {
-      "from": "postura erguida",
-      "to": "flotando ligeramente sobre el agua"
+      "from": "ojos brillantes",
+      "to": "ojos que reflejan aguas profundas"
     },
     {
-      "from": "piel pálida",
-      "to": "piel translúcida como cristal"
+      "from": "mente poderosa",
+      "to": "mente que controla el agua con precisión"
     }
   ],
   "pokemon_id": "065",

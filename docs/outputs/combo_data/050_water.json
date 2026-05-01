@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Agua Subterránea",
-  "lore": "Este Diglett acuático se desplaza bajo el agua con gracia, sus patas cortas se transforman en aletas flexibles. Su piel brillante refleja el reflejo de las olas, mientras sus ojos brillan con una luz azulada en las profundidades.",
+  "lore": "El Pokémon Agua Subterránea emerge de los ríos subterráneos, su cuerpo translúcido brillando bajo la luz. Sus rasgos blandos se funden con el agua, formando un fluido que fluye con la corriente.",
   "moves": [
     {
-      "name": "Burbuja Subterránea",
-      "desc": "Lanza burbujas que atrapan al rival en una burbuja acuática, reduciendo su velocidad.",
-      "name_en": "Subterranean Bubble",
-      "visual_prompt": "glowing aquamarine bubbles, deep ocean trench backdrop, bioluminescent plankton trails, slow-moving water currents, pearly white bubble membranes, sapphire blue highlights"
+      "name": "Ola Subterránea",
+      "desc": "Dispara una ola de agua subterránea que reduce la defensa del oponente.",
+      "name_en": "Subterranean Wave",
+      "visual_prompt": "crystalline water ripple, deep ocean blue waves, teal foam patterns, pearly white droplets, sapphire blue energy trails, gentle aquamarine glow, smooth undulating motion"
     },
     {
-      "name": "Lavado de Tierra",
-      "desc": "Cubre al rival con una lluvia de arena y agua, disminuyendo su defensa.",
-      "name_en": "Earth Wash",
-      "visual_prompt": "particle rain of sand and water droplets, swirling currents, deep ocean blue and teal green hues, bioluminescent plankton glows, pearly white mist, aquamarine ripples, sapphire blue light refractions"
+      "name": "Burbuja Escondida",
+      "desc": "Crea burbujas que confunden al rival, reduciendo su precisión.",
+      "name_en": "Hidden Bubble",
+      "visual_prompt": "floating translucent bubbles, shimmering water droplets, soft blue light refracting through bubbles, gentle ripples on calm ocean surface, pearly white mist, teal and sapphire blue highlights, distorted light patterns"
     },
     {
-      "name": "Ola de Lodo",
-      "desc": "Crea una ola de lodo que golpea al rival, causando daño y confusión.",
-      "name_en": "Mud Wave",
-      "visual_prompt": "muddy water waves, swirling teal green particles, deep ocean blue ripples, glowing bioluminescent plankton, pearly white foam bubbles, aquamarine mist, sapphire blue energy trails"
+      "name": "Corriente de Sombra",
+      "desc": "Genera una corriente que absorbe el movimiento del oponente y lo convierte en energía.",
+      "name_en": "Shadow Current",
+      "visual_prompt": "glowing deep ocean blue currents swirling with teal and sapphire energy, pearly white mist absorbing motion, pale aquamarine ripples, calm ocean surface with gentle waves, soft blue sunlight filtering through"
     },
     {
-      "name": "Respiración de Mar",
-      "desc": "Recupera energía al respirar el agua del mar, restaurando salud.",
-      "name_en": "Ocean Breath",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water currents, pearly white bubbles rising, teal green sea plants gently swaying, aquamarine light rays"
+      "name": "Agua Resplandeciente",
+      "desc": "Cubre al usuario con un brillo que aumenta su velocidad y evasión.",
+      "name_en": "Gleaming Water",
+      "visual_prompt": "shimmering water droplets, radiant blue light beams, swirling teal vortex, pearly white sparkles, gentle ocean waves, soft sapphire glow"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas en el suelo",
-      "to": "patas transformadas en aletas flexibles para nadar"
+      "from": "Cuerpo de lodo",
+      "to": "Cuerpo translúcido de agua con brillo interno"
     },
     {
-      "from": "piel terrosa",
-      "to": "piel brillante que refleja el agua"
+      "from": "Sin extremidades definidas",
+      "to": "Extremidades fluidas que se mueven como corrientes"
     },
     {
-      "from": "postura arrastrada",
-      "to": "postura fluida y elegante bajo el agua"
+      "from": "Bajo el suelo",
+      "to": "Flotando en corrientes subterráneas"
     },
     {
-      "from": "ojos oscuros",
-      "to": "ojos brillantes azulados en las profundidades"
+      "from": "Rasgos sólidos",
+      "to": "Rasgos líquidos y adaptables"
     }
   ],
   "pokemon_id": "050",

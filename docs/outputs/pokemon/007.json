@@ -1,33 +1,32 @@
 {
   "identity_traits": [
-    "rounded head",
-    "pointed ears",
-    "curled tail tip",
-    "short stubby legs",
-    "turtle-like body silhouette"
+    "rounded shell covering the back",
+    "four legs with short, sturdy limbs",
+    "small head with large, expressive eyes",
+    "beige and brown accents on shell edges"
   ],
   "original_type_traits": [
-    "light blue body coloration",
-    "pale blue shell accents",
-    "beige underbelly"
+    "water droplets on shell",
+    "smooth, watery texture on shell surface",
+    "blue coloration matching aquatic theme"
   ],
   "transformable_parts": [
-    "shell texture",
-    "tail tip shape",
-    "leg proportions",
-    "ear shape",
-    "head outline",
-    "underbelly color"
+    "shell texture and pattern",
+    "tail shape and tip",
+    "leg proportions and foot structure",
+    "head shape and eye placement",
+    "body color palette",
+    "edge accents on shell"
   ],
   "suppress_colors": [
     "light blue",
-    "pale blue",
-    "beige"
+    "beige",
+    "brown"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, low stance",
-    "rounded head with pointed ears",
-    "curled tail tip with pale blue highlights"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "rounded shell with smooth, continuous curve",
+    "small head with large, forward-facing eyes"
   ],
   "pokemon_id": "007",
   "pokemon_name": "squirtle",
@@ -38,23 +37,23 @@
     "body_colors": [
       "light blue",
       "beige",
-      "brown",
-      "pale blue"
+      "brown"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "shell",
+      "arms",
+      "legs",
+      "tail"
     ],
-    "silhouette": "The Pokémon has a rounded, turtle-like body with a short, stubby tail and legs, and a small head with pointed ears.",
+    "body_plan": "quadruped",
+    "silhouette": "The silhouette is that of a turtle-like creature with a rounded shell and four legs, standing on the ground.",
     "type_markers": [
-      "no visible type markers"
+      "shell"
     ],
     "distinctive_features": [
-      "rounded head",
-      "pointed ears",
-      "curled tail tip"
+      "rounded shell",
+      "four legs"
     ]
   }
 }

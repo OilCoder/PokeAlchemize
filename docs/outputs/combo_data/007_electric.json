@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispas Acuáticas",
-  "lore": "Chispas Acuáticas brilla con descargas eléctricas en su caparazón acuático. Su cola emite chispas al moverse, y sus patas cortas generan una corriente eléctrica al pisar el agua.",
+  "species_name": "Pokémon Chispa Acuática",
+  "lore": "Chispa Acuática se desliza con agilidad sobre el agua, sus patas brillan con descargas eléctricas. Su caparazón refleja destellos azules mientras emite pequeños chispazos al moverse.",
   "moves": [
     {
-      "name": "Chispa de Mar",
-      "desc": "Dispara chispas eléctricas que atraviesan el agua, causando daño adicional a los objetivos húmedos.",
-      "name_en": "Water Spark",
-      "visual_prompt": "electric blue water droplets, neon yellow lightning bolts, violet spark particles, bright white energy trails, crackling energy fields, stormy sky backdrop"
+      "name": "Chispa Hidráulica",
+      "desc": "Genera un chorro de agua cargado de electricidad que aturde al oponente.",
+      "name_en": "Hydraulic Spark",
+      "visual_prompt": "electric blue water jet, neon yellow energy arcs, crisp white mist, bright electric white sparks, pale blue glow, urban cityscape backdrop with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Ola Electrificada",
-      "desc": "Crea una ola eléctrica que eleva al Pokémon y ataca a múltiples enemigos.",
-      "name_en": "Electric Surge",
-      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning bolts, violet spark particles, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds, dynamic swirling energy fields"
+      "name": "Relámpago Acuático",
+      "desc": "Dispara un rayo eléctrico desde el agua, causando daño rápido y preciso.",
+      "name_en": "Aquatic Bolt",
+      "visual_prompt": "electric blue lightning bolt emerging from water droplets, neon yellow energy trails, crisp white sparks, bright electric white shockwaves, pale blue glow radiating outward, urban city skyline silhouette in background, neon signs flickering"
     },
     {
-      "name": "Corriente Salada",
-      "desc": "Genera una corriente salada que reduce la velocidad del oponente y lo electrocuta.",
-      "name_en": "Salt Current",
-      "visual_prompt": "electric blue water currents, neon yellow salt crystals, violet electric sparks, bright white static discharge, crackling energy fields, stormy sky backdrop"
+      "name": "Burbuja Estática",
+      "desc": "Crea burbujas eléctricas que rebotan y aumentan el daño de los ataques.",
+      "name_en": "Static Bubble",
+      "visual_prompt": "electric blue bubbles with neon yellow sparks, bouncing in a city skyline, crisp white energy trails, bright electric white shockwaves, pale blue glow effects, urban neon reflections"
     },
     {
-      "name": "Descarga Marina",
-      "desc": "Lanza una descarga eléctrica en forma de surtidor de agua, dañando a todos los enemigos cercanos.",
-      "name_en": "Marine Surge",
-      "visual_prompt": "electric blue water jets, neon yellow lightning arcs, violet spark particles, bright white energy ripples, stormy sky backdrop, crackling energy fields"
+      "name": "Electrochorro",
+      "desc": "Inyecta un chorro eléctrico en el agua, aumentando la velocidad del usuario.",
+      "name_en": "Electric Jet",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy streams, crisp white static sparks, bright electric white water droplets, pale blue glow ripples, urban cityscape neon signs flickering in background, electric storm clouds"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón acuático",
-      "to": "caparazón con escamas brillantes que emiten chispas eléctricas"
+      "from": "Caparazón de agua",
+      "to": "Caparazón brillante con descargas eléctricas que reflejan destellos azules"
     },
     {
-      "from": "patas cortas",
-      "to": "patas con terminales eléctricas que generan corriente al caminar"
+      "from": "Pies planos para caminar en tierra",
+      "to": "Pies adaptados para deslizarse sobre el agua con chispas"
     },
     {
-      "from": "cola baja",
-      "to": "cola que emite chispas al moverse, aumentando su velocidad"
+      "from": "Cuerpo pequeño y compacto",
+      "to": "Cuerpo más aerodinámico para moverse rápido en el agua"
     },
     {
-      "from": "postura baja",
-      "to": "postura más erguida para generar mayor potencia eléctrica"
+      "from": "Ojos pequeños",
+      "to": "Ojos brillantes que emiten destellos eléctricos"
     }
   ],
   "pokemon_id": "007",

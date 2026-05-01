@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma Mental",
-  "lore": "Alakazam, ahora con un aura etérea, flota sin moverse. Sus ojos brillan con un resplandor grisáceo, y su cuerpo se torna translúcido. El tipo fantasma intensifica su presencia espiritual.",
+  "species_name": "Pokémon Fantasma Alakazam",
+  "lore": "Alakazam Fantasma flota sin apoyarse en el suelo, sus piernas se han transformado en sombras translúcidas. Sus ojos brillan con energía espectral, y su aura proyecta imágenes de recuerdos perdidos en el aire.",
   "moves": [
     {
       "name": "Sombra Mental",
-      "desc": "Ataca con una sombra que absorbe la mente del oponente, reduciendo su precisión.",
+      "desc": "Absorbe la mente del rival, dejándolo confundido y vulnerable a ataques psíquicos.",
       "name_en": "Mental Shadow",
-      "visual_prompt": "ethereal violet mist swirling into a shadowy orb, fragmented ghostly silver fragments floating, charcoal gray tendrils curling like smoke, pale silver mist dissolving into moonlit tombstone shadows, shadow violet aura with subtle precision-reducing visual distortion"
+      "visual_prompt": "translucent ghostly orbs drifting in moonlit ruins, spectral white mist swirling, icy blue frost patterns on stone, pale silver energy pulses, moonlight gray haze, fragmented mental aura fragments"
     },
     {
-      "name": "Espectro Psíquico",
-      "desc": "Crea un espejismo psíquico que confunde al rival, reduciendo su poder de ataque.",
-      "name_en": "Psychic Mirage",
-      "visual_prompt": "floating violet mist, distorted ghostly mirrors, shimmering silver ripples, shadowy violet orbs, ethereal fog, fractured light beams, pale silver reflections, misty graveyard backdrop"
+      "name": "Eco Espectral",
+      "desc": "Crea ecos fantasmales que atacan desde múltiples direcciones al mismo tiempo.",
+      "name_en": "Spectral Echo",
+      "visual_prompt": "ghostly echoes, translucent orbs, moonlit ruins, pale silver mist, icy blue glow, drifting spectral orbs, moonlight gray light, frosty translucence, multiple directional attack patterns"
     },
     {
-      "name": "Viento Fantasmal",
-      "desc": "Envía un viento frío que reduce la defensa del oponente.",
-      "name_en": "Phantom Gale",
-      "visual_prompt": "cold mist swirling around tombstone silhouettes, ghostly violet aura, drifting pale silver fog, charcoal gray wind currents, shadow violet particles, ethereal glow"
+      "name": "Visiones Muertas",
+      "desc": "Muestra al rival visiones de su propio futuro, causando miedo y debilidad temporal.",
+      "name_en": "Dead Visions",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, icy blue mist swirling, pale silver moonlight casting ghostly shadows, frosty tendrils reaching from shattered stone pillars"
     },
     {
-      "name": "Susurro Espiritual",
-      "desc": "Susurra en la mente del rival, causando un aturdimiento temporal.",
-      "name_en": "Spirit Whisper",
-      "visual_prompt": "ethereal mist swirling around moonlit tombstones, ghostly silver whispers forming into faint violet ripples, deep violet shadows flickering with pale silver accents, misty graveyard atmosphere"
+      "name": "Aliento de Sombras",
+      "desc": "Emite un soplo frío que reduce la defensa del enemigo y lo envuelve en oscuridad.",
+      "name_en": "Shadow Breath",
+      "visual_prompt": "translucent frost tendrils, icy blue mist swirling, pale silver spectral orbs drifting, moonlight gray shadows, spectral white glow, cold mist enveloping the air, no characters, no Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "bipedal, upright stance",
-      "to": "flota sin moverse, cuerpo translúcido"
+      "from": "Cuatro patas en el suelo",
+      "to": "Piernas convertidas en sombras translúcidas que flotan sin contacto"
     },
     {
-      "from": "short arms at sides",
-      "to": "manos desvanecidas en bruma"
+      "from": "Ojos brillantes",
+      "to": "Ojos que proyectan energía espectral y recuerdos en el aire"
     },
     {
-      "from": "eyes",
-      "to": "brillan con resplandor grisáceo"
+      "from": "Aurora psíquica",
+      "to": "Aurora que proyecta imágenes de recuerdos perdidos"
     },
     {
-      "from": "physical presence",
-      "to": "intensifica su presencia espiritual"
+      "from": "Estructura sólida",
+      "to": "Cuerpo semitransparente con energía fantasma"
     }
   ],
   "pokemon_id": "065",

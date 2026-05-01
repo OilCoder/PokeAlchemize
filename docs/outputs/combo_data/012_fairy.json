@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Hada",
-  "lore": "Flor de Hada vuela con alas de pétalos brillantes que emiten destellos mágicos. Sus antenas brillan con luz de estrellas, y su cuerpo irradia una suavidad etérea. El tipo hada potencia su gracia y añade un toque de magia a sus movimientos.",
+  "species_name": "Pokémon Mariposa de Ceniza",
+  "lore": "Mariposa de Ceniza vuela con alas de cristal que brillan bajo la luna. Sus patas, ahora cubiertas de polvo de hada, emiten destellos al tocar el suelo. Su cuerpo, antes de polvo, ahora irradia una luz suave y mágica.",
   "moves": [
     {
-      "name": "Polvo de Estrellas",
-      "desc": "Lanza un polvo que brilla con destellos mágicos, reduciendo la defensa del oponente.",
-      "name_en": "Star Dust",
-      "visual_prompt": "glowing pastel pink starlight particles, sparkling crystalline mint orbs, soft ivory white mist, pearlescent lavender trails, moonlit garden backdrop with faint glowing flowers"
+      "name": "Polvo de Luna",
+      "desc": "El polvo de hada que emana de sus alas cura heridas y crea un aura protectora.",
+      "name_en": "Moon Dust",
+      "visual_prompt": "floating pastel pink fairy dust particles, soft ivory white glow, delicate lavender sparkles, pearly gold shimmer trails, shimmering silver mist, ethereal moonlight beams, gentle swirling motion"
     },
     {
-      "name": "Bailarina de la Luna",
-      "desc": "Realiza un baile que crea un aura protectora y cura un poco de salud.",
-      "name_en": "Moonlight Waltz",
-      "visual_prompt": "glowing pastel pink petals swirling in a spiral, ivory white light radiating from a central point, pearl lavender mist forming delicate crescent shapes, starlight blue crystalline orbs floating upward, soft mint-green energy pulses"
+      "name": "Ala de Estrellas",
+      "desc": "Lanza un ataque de estrellas brillantes que ciega al oponente y reduce su velocidad.",
+      "name_en": "Star Wing",
+      "visual_prompt": "glowing star shards, shimmering silver trails, soft pastel pink sparkles, delicate lavender mist, ivory white light beams, pearly gold starbursts, moonlit meadow backdrop"
     },
     {
-      "name": "Alas de Pétalos",
-      "desc": "Ataca con alas que liberan pétalos mágicos, causando daño y confundiendo al rival.",
-      "name_en": "Petal Wings",
-      "visual_prompt": "floating petal wings, magical glowing pink petals, soft pastel lavender mist, starlight blue crystalline sparks, ivory white light trails, delicate floral patterns in air, ethereal moonlit garden backdrop"
+      "name": "Danza de la Esperanza",
+      "desc": "Crea una danza mágica que aumenta el ataque y la defensa de aliados.",
+      "name_en": "Hope Dance",
+      "visual_prompt": "floating pastel pink petals, swirling ivory white light, delicate lavender energy orbs, pearly gold shimmer trails, silver mist tendrils, moonlit meadow glow"
     },
     {
-      "name": "Sueño de Hada",
-      "desc": "Sumerge al oponente en un sueño encantador, reduciendo su velocidad.",
-      "name_en": "Fairy Dream",
-      "visual_prompt": "floating pastel pink petals, glowing ivory white orbs, pearl lavender mist, starlight blue crystalline dewdrops, soft misty twilight sky backdrop, delicate sparkling particles, ethereal glow"
+      "name": "Ceniza Mágica",
+      "desc": "Genera una nube de ceniza que cura y restaura la energía de aliados.",
+      "name_en": "Magic Ash",
+      "visual_prompt": "glowing pastel pink ash particles, floating ivy leaves, delicate lavender mist, shimmering silver sparkles, pearly gold dust motes, soft moonlight glow, ethereal floating orbs, no characters or Pokémon"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de mariposa con colores vibrantes",
-      "to": "Alas de pétalos brillantes que emiten luz mágica"
+      "from": "Alas de polvo",
+      "to": "Alas de cristal que brillan bajo la luna"
     },
     {
-      "from": "Antenas simples y delgadas",
-      "to": "Antenas que brillan con destellos de estrellas"
+      "from": "Cuerpo de insecto",
+      "to": "Cuerpo irradia luz suave y mágica"
     },
     {
-      "from": "Vuelo suave y ligero",
-      "to": "Vuelo etéreo con brillo de hada"
+      "from": "Patas sin brillo",
+      "to": "Patas cubiertas de polvo de hada que destellan"
     },
     {
-      "from": "Cuerpo suave y delicado",
-      "to": "Cuerpo que irradia una suavidad mágica"
+      "from": "Vuelo ligero",
+      "to": "Vuelo con brillo mágico que deja rastro de estrellas"
     }
   ],
   "pokemon_id": "012",

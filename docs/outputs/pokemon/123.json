@@ -1,34 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "compact dragon-like body silhouette",
-    "short stubby legs",
-    "curled tail tip",
-    "wings with a distinct curved edge"
+    "bipedal stance",
+    "large pointed wings",
+    "long sharp claws",
+    "dragon-like body silhouette",
+    "upright posture",
+    "bright green and white color scheme"
   ],
   "original_type_traits": [
-    "wings with a translucent, insect-like membrane",
-    "curled tail tip with a pale cream coloration",
-    "bright green body coloration typical of bug-type Pokémon",
-    "pale cream accents on head and legs"
+    "wings with insect-like veining",
+    "sharp claws with insectoid texture",
+    "body parts suggesting insect anatomy"
   ],
   "transformable_parts": [
     "wings",
-    "tail tip",
-    "leg shape",
-    "head shape",
+    "claws",
     "body texture",
-    "color accents"
+    "head shape",
+    "arm structure",
+    "silhouette outline"
   ],
   "suppress_colors": [
     "bright green",
-    "pale cream accents",
-    "translucent wing membrane color"
+    "white",
+    "insect-like veining pattern"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "pointed ears on rounded head, pale cream accents on head and legs",
-    "curled spiral tail tip with distinct curved edge"
+    "bipedal, upright stance, short arms held free from ground",
+    "large pointed wings with sharp leading edge",
+    "long sharp claws with curved tip"
   ],
   "pokemon_id": "123",
   "pokemon_name": "scyther",
@@ -39,23 +39,24 @@
   "visual_facts": {
     "body_colors": [
       "bright green",
-      "pale cream"
+      "white"
     ],
     "body_parts": [
-      "rounded head",
-      "pointed ears",
-      "short stubby legs",
-      "curled tail tip",
-      "wings"
+      "head",
+      "body",
+      "wings",
+      "arms",
+      "claws"
     ],
-    "silhouette": "The creature has a compact, dragon-like body with a slightly elongated torso and short legs, featuring a pair of wings and a curled tail tip.",
+    "body_plan": "biped",
+    "silhouette": "The creature has a dragon-like body with a pair of wings, standing upright on two legs with arms held free from the ground.",
     "type_markers": [
       "wings",
-      "curled tail tip"
+      "arms"
     ],
     "distinctive_features": [
-      "pointed ears",
-      "pale cream accents"
+      "large, pointed wings",
+      "long, sharp claws"
     ]
   }
 }

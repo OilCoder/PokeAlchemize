@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Transformante",
-  "lore": "Chispa Transformante flota en el aire, su cuerpo gelatinoso brillando con chispas eléctricas. Sus rasgos cambian a un brillo azul eléctrico, generando campos electromagnéticos al moverse.",
+  "species_name": "Pokémon Chispa Viscosa",
+  "lore": "Este Ditto transformado emite destellos azulados al moverse, su cuerpo gelatinoso se carga de energía eléctrica. Sus formas cambiantes ahora brillan con chispas eléctricas, atrayendo a otros Pokémon con su magnetismo.",
   "moves": [
     {
-      "name": "Descarga de Chispas",
-      "desc": "Lanza una ráfaga de chispas eléctricas que debilita la defensa del oponente.",
-      "name_en": "Spark Surge",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks scattering, bright white energy arcs, electric cyan storm clouds, dynamic energy field with sharp jagged lines"
+      "name": "Chispa Gelatinosa",
+      "desc": "Lanza una bola de energía eléctrica que paraliza al oponente con un contacto.",
+      "name_en": "Gelatinous Spark",
+      "visual_prompt": "vibrant electric blue orbs, neon yellow energy trails, crisp white lightning bolts, bright electric white sparks, pale blue glow pulses, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Forma Electrónica",
-      "desc": "Cambia de forma rápidamente, evitando ataques y aumentando su velocidad.",
-      "name_en": "Electric Form",
-      "visual_prompt": "neon-yellow lightning bolts, electric-blue energy rings, violet spark particles, bright white static bursts, crackling energy fields, stormy sky backdrop, dynamic motion lines"
+      "name": "Carga Viscosa",
+      "desc": "Aumenta el poder de los ataques eléctricos en un 30% durante un turno.",
+      "name_en": "Viscous Charge",
+      "visual_prompt": "electric blue orbs swirling with neon yellow trails, glowing white energy tendrils, crisp white sparks, pale blue energy pulses, urban city skyline silhouette in background, electric storm clouds"
     },
     {
-      "name": "Campo Estático",
-      "desc": "Crea un campo eléctrico alrededor del oponente, reduciendo su movilidad.",
-      "name_en": "Static Field",
-      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet sparks, bright white static arcs, stormy sky background, glowing neon-lit thunderclouds"
+      "name": "Transformación Estática",
+      "desc": "Cambia de forma para imitar a un Pokémon eléctrico, copiando sus movimientos.",
+      "name_en": "Static Shift",
+      "visual_prompt": "neon electric blue arcs, glowing yellow orbs, crisp white energy trails, bright electric white sparks, pale blue static discharge, urban city skyline silhouette, flickering neon signs"
     },
     {
-      "name": "Carga Total",
-      "desc": "Aumenta su ataque y velocidad al coste de su defensa temporal.",
-      "name_en": "Total Charge",
-      "visual_prompt": "electric blue energy surging in concentric rings, neon yellow lightning bolts arcing through violet sparks, bright white energy trails, electric cyan static fields, stormy sky backdrop with crackling energy patterns, neon-lit thunderclouds glowing faintly in the distance"
+      "name": "Electrocolapso",
+      "desc": "Genera una onda de choque que debilita el campo de batalla.",
+      "name_en": "Electroshock Wave",
+      "visual_prompt": "vibrant electric blue shockwave rippling through neon city skyline, neon yellow energy arcs, crisp white lightning bolts, bright electric white sparks, pale blue glow radiating outward"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo gelatinoso sin forma definida",
-      "to": "Cuerpo brillante con chispas eléctricas azules que parpadean"
+      "from": "Cuerpo gelatinoso sin forma",
+      "to": "Cuerpo que emite chispas azules y brilla con energía eléctrica."
     },
     {
-      "from": "Flotación sin dirección",
-      "to": "Flotación controlada con campos magnéticos que guían su movimiento"
+      "from": "Capacidad de imitar cualquier forma",
+      "to": "Imita mejor formas eléctricas, con movimientos que reflejan su nueva naturaleza."
     },
     {
-      "from": "Forma que se adapta a cualquier cosa",
-      "to": "Forma que emite chispas al adaptarse, marcando su presencia"
+      "from": "No posee ataques eléctricos",
+      "to": "Genera ataques basados en electricidad, como descargas y parálisis."
     },
     {
-      "from": "Sin rasgos físicos definidos",
-      "to": "Rasgos definidos por patrones de chispas eléctricas en movimiento"
+      "from": "Cuerpo inerte y sin energía",
+      "to": "Cuerpo cargado de energía eléctrica, capaz de generar choques."
     }
   ],
   "pokemon_id": "132",

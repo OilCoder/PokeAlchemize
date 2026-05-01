@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero-Marino",
-  "lore": "Blastoise, ahora con armadura de acero, camina con pasos firmes sobre el agua. Sus caparazones brillan con reflejos metálicos, y sus cañones de agua emiten chorros cortantes como cuchillas de acero.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Blastoise, ahora con armadura de acero, camina con paso firme. Sus conchas se han convertido en placas metálicas resplandecientes, y sus ojos brillan con una luz fría. Su postura baja y resistente refleja su nueva fuerza.",
   "moves": [
     {
-      "name": "Cortante Acero",
-      "desc": "Ataca con chorros de agua afilados que cortan como hojas de acero.",
-      "name_en": "Steel Cutter",
-      "visual_prompt": "shimmering steel-blue water jets, razor-sharp metallic edges, polished silver droplets, industrial steam vents, neon cyan reflections, gunmetal gray mist, geometric water patterns, glowing electric blue trails"
+      "name": "Armadura Acero",
+      "desc": "Aumenta la defensa del usuario al crear una armadura de acero alrededor de su cuerpo.",
+      "name_en": "Steel Armor",
+      "visual_prompt": "polished steel armor shards floating in midair, gunmetal gray and silver energy lines glowing with deep steel blue highlights, matte black metallic textures, industrial workshop background glow, polished chrome reflections"
     },
     {
-      "name": "Escudo Marítimo",
-      "desc": "Crea un escudo de agua con reflejos metálicos que bloquea ataques.",
-      "name_en": "Maritime Shield",
-      "visual_prompt": "metallic water shield, polished silver reflections, gunmetal gray edges, electric blue energy ripples, neon cyan highlights, industrial city skyline backdrop, steam vent wisps"
+      "name": "Impacto Estelar",
+      "desc": "Ataca con un golpe poderoso que genera ondas de choque en el suelo.",
+      "name_en": "Stellar Impact",
+      "visual_prompt": "shattered steel waves, polished chrome ripples, gunmetal gray shockwaves, deep steel blue energy lines, industrial workshop reflections, matte black surface cracks"
     },
     {
-      "name": "Chorro Estelar",
-      "desc": "Dispara chorros de agua que brillan como estrellas, causando daño adicional.",
-      "name_en": "Star Jet",
-      "visual_prompt": "glowing star-shaped water jets, polished silver droplets, metallic steam vents, neon cyan trails, gunmetal gray mist, industrial city skyline silhouette"
+      "name": "Cascada de Acero",
+      "desc": "Lanza un chorro de agua con partículas de acero que cortan como cuchillas.",
+      "name_en": "Steel Cascade",
+      "visual_prompt": "steel water droplets, razor-sharp metallic shards, polished chrome streams, gunmetal gray mist, deep steel blue energy trails, industrial workshop background glow"
     },
     {
-      "name": "Resonancia Acero",
-      "desc": "Genera ondas de vibración que debilitan a los enemigos.",
-      "name_en": "Steel Resonance",
-      "visual_prompt": "gunmetal gray vibrating waves, polished silver ripples, metallic steel blue energy pulses, electric blue neon distortions, industrial cityscape steam vents glowing with cyan light"
+      "name": "Resonancia Metálica",
+      "desc": "Genera ondas sonoras que debilitan a los enemigos y aumentan la precisión.",
+      "name_en": "Metal Resonance",
+      "visual_prompt": "shimmering steel waves, polished chrome ripples, gunmetal gray energy arcs, deep steel blue resonance lines, matte black vibrational patterns, industrial workshop background glow"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón de agua",
-      "to": "caparazón de acero brillante con reflejos metálicos"
+      "from": "Conchas de agua",
+      "to": "Placas metálicas resplandecientes que reflejan la luz"
     },
     {
-      "from": "cañones de agua",
-      "to": "cañones que emiten chorros cortantes como cuchillas"
+      "from": "Postura baja y flexible",
+      "to": "Postura firme y resistente con cuatro patas plantadas"
     },
     {
-      "from": "postura baja",
-      "to": "postura firme y elevada con patas metálicas"
+      "from": "Agua en sus cañones",
+      "to": "Chorro de agua mezclada con partículas de acero"
     },
     {
-      "from": "movimiento lento",
-      "to": "movimiento rápido y preciso con patas de acero"
+      "from": "Sistema de movimiento lento",
+      "to": "Movimiento ágil y preciso gracias a su armadura de acero"
     }
   ],
   "pokemon_id": "009",

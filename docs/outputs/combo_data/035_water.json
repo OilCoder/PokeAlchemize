@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Agua de Cielo",
-  "lore": "Clefairy, ahora con piel brillante y manchas de agua, camina sobre olas suaves. Sus patas se transforman en aletas, permitiendo nadar sin esfuerzo. Su aura de magia se mezcla con el movimiento del agua.",
+  "species_name": "Pokémon Marfil Acuático",
+  "lore": "El Marfil Acuático despliega un cuerpo translúcido que brilla bajo el agua. Sus patas se han convertido en aletas suaves, y su pelaje se entrelaza con algas brillantes. El agua fluye a través de su piel, reflejando luces del océano.",
   "moves": [
     {
       "name": "Ola de Sueños",
-      "desc": "Crea olas que envuelven al oponente, reduciendo su velocidad y generando sueños tranquilos.",
+      "desc": "Crea olas suaves que envuelven al oponente en un sueño tranquilo.",
       "name_en": "Dream Wave",
-      "visual_prompt": "gentle water ripples, glowing bioluminescent plankton, teal green and aquamarine waves, pearly white mist, calm underwater currents, soft dreamy glow"
+      "visual_prompt": "gentle blue ocean waves, soft glowing pearly white mist, tranquil teal ripples, sapphire blue light rays, pale aquamarine bubbles, smooth flowing water patterns"
     },
     {
-      "name": "Burbujas Místicas",
-      "desc": "Lanza burbujas que absorben ataques y reflejan daño al oponente.",
-      "name_en": "Mystic Bubbles",
-      "visual_prompt": "glistening water bubbles, swirling bioluminescent plankton, deep ocean blue light, reflective surface, teal green ripples, pearly white glow, aquamarine distortion, sapphire blue currents"
+      "name": "Salpicadura de Cristal",
+      "desc": "Dispara salpicaduras que forman cristales afilados al impactar.",
+      "name_en": "Crystal Splash",
+      "visual_prompt": "shimmering water droplets, sharp crystalline shards, deep ocean blue and teal sparkles, pearly white refraction, gentle wave ripples, sapphire blue light beams, pale aquamarine mist"
     },
     {
-      "name": "Resplandor Acuático",
-      "desc": "Emite un brillo intenso que cura a aliados y debilita a enemigos.",
-      "name_en": "Aquatic Radiance",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water ripples, pearly white light beams, teal green luminescent bubbles, aquamarine energy waves, sapphire blue shimmering particles"
+      "name": "Aliento Marino",
+      "desc": "Emite un aliento fresco que refresca y cura al aliado.",
+      "name_en": "Marine Breath",
+      "visual_prompt": "gentle ocean waves, shimmering teal bubbles, pearly white mist, sapphire blue light rays, calm water surface, soft blue sunlight glow, aquatic sparkle particles"
     },
     {
-      "name": "Salto de Ondas",
-      "desc": "Salta en el agua, atacando con un golpe circular que causa daño en área.",
-      "name_en": "Wave Jump",
-      "visual_prompt": "circular ripple effect, deep ocean blue water surface, teal green bioluminescent plankton glowing softly, pearly white foam rings, aquamarine energy waves, sapphire blue water currents swirling"
+      "name": "Corriente de Sueños",
+      "desc": "Genera una corriente que lanza al oponente hacia atrás.",
+      "name_en": "Dream Current",
+      "visual_prompt": "gentle blue water current, swirling teal ripples, pearly white bubbles, sapphire blue wave patterns, calm ocean surface, soft light rays"
     }
   ],
   "diffs": [
     {
-      "from": "Piel suave y brillante",
-      "to": "Piel brillante con manchas de agua que resplandecen bajo el sol"
+      "from": "patas de cuatro patas",
+      "to": "aletas suaves para nadar en el agua"
     },
     {
-      "from": "Cuatro patas firmes",
-      "to": "Patas transformadas en aletas flexibles para nadar con gracia"
+      "from": "pelaje suave y blanco",
+      "to": "pelaje entrelazado con algas brillantes"
     },
     {
-      "from": "Bajo postura",
-      "to": "Postura elevada sobre olas suaves, equilibrada en el agua"
+      "from": "postura baja en el suelo",
+      "to": "flotando suavemente en el agua"
     },
     {
-      "from": "Aurora mágica",
-      "to": "Aura de magia mezclada con el movimiento fluido del agua"
+      "from": "poco movimiento",
+      "to": "movimiento fluido con las corrientes"
     }
   ],
   "pokemon_id": "035",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Dragón de Ceniza",
-  "lore": "Dragón de Ceniza respira aliento de hadas que derrite rocas. Sus patas, cubiertas de escamas brillantes, desprenden destellos dorados al caminar. Sus alas, ahora translúcidas, brillan con destellos de luz celestial.",
+  "species_name": "Pokémon Brillo Fénix",
+  "lore": "Brillo Fénix, con escamas plateadas que brillan bajo el sol, camina con cuatro patas firmes y un porte majestuoso. Su ala de cristal refleja destellos mágicos, alterando la luz con cada movimiento.",
   "moves": [
     {
-      "name": "Aliento de Estrellas",
-      "desc": "Lanza un chorro de partículas brillantes que cura el estado de fatiga y reduce el daño recibido.",
-      "name_en": "Starlight Breath",
-      "visual_prompt": "glowing star particles, soft pastel pink mist, ivory white crystalline orbs, pearl lavender starlight trails, crystalline mint energy pulses, moonlit garden backdrop, soft misty twilight sky"
+      "name": "Destello de Lágrima",
+      "desc": "Lanza destellos de luz que sanan y debilitan a los enemigos con un toque mágico.",
+      "name_en": "Luminous Tear",
+      "visual_prompt": "glowing pastel pink and ivory white light orbs, delicate lavender mist, shimmering silver particles, pearlescent tear-shaped light trails, soft moonlight glow, ethereal fairy dust sparkles"
     },
     {
-      "name": "Danza de la Luna",
-      "desc": "Aumenta la precisión y velocidad del usuario mientras baila con luces lunares.",
-      "name_en": "Moon Dance",
-      "visual_prompt": "glowing lunar petals swirling in rhythmic patterns, soft pastel pink and pearl lavender light trails, crystalline mint starlight sparks, ivory white mist rising in spirals, delicate moonbeam reflections on dewy grass"
+      "name": "Canto de Sueño",
+      "desc": "Canta una melodía que envuelve al oponente en un sueño eterno, reduciendo su movilidad.",
+      "name_en": "Dream Song",
+      "visual_prompt": "floating pastel pink notes, glowing lavender mist, shimmering silver moonbeams, delicate ivory white petals, ethereal pearly gold light trails, slow-motion swirling motion"
     },
     {
-      "name": "Corte de Ceniza",
-      "desc": "Ataca con garras cubiertas de ceniza brillante que reducen la defensa del oponente.",
-      "name_en": "Ash Slash",
-      "visual_prompt": "glowing ash shards, shimmering pink and lavender particles, delicate crystalline mint mist, soft moonlight beams, floating starlight blue dust, intricate fairy-touched leaf patterns, ethereal sparkles"
+      "name": "Barrera de Pétalos",
+      "desc": "Crea una barrera de pétalos brillantes que absorbe ataques y refuerza la defensa.",
+      "name_en": "Petals Barrier",
+      "visual_prompt": "soft pastel pink petals swirling in a circular shield, delicate lavender mist, ivory white glow, pearly gold shimmer, shimmering silver accents, moonlit meadow background"
     },
     {
-      "name": "Resplandor Mágico",
-      "desc": "Genera un aura mágica que protege al usuario de ataques especiales durante un turno.",
-      "name_en": "Magic Glow",
-      "visual_prompt": "soft pastel pink aura, glowing starlight blue particles, pearl lavender mist, crystalline mint light refractions, delicate floating fairy dust, ethereal moonlit garden backdrop"
+      "name": "Ala de Cristal",
+      "desc": "Ataca con un golpe de ala cristalina que rompe la defensa del rival.",
+      "name_en": "Crystal Wing",
+      "visual_prompt": "shimmering crystal shards, delicate pastel pink and lavender light rays, floating ivory white petals, pearly gold sparkles, misty moonlit meadow background, soft silver trails, ethereal glow"
     }
   ],
   "diffs": [
     {
       "from": "Alas de dragón",
-      "to": "Alas translúcidas que brillan con luces celestiales"
+      "to": "Alas de cristal que reflejan la luz mágica"
     },
     {
-      "from": "Escamas doradas",
-      "to": "Escamas que emiten destellos dorados al caminar"
+      "from": "Escamas rojas",
+      "to": "Escamas plateadas que brillan bajo el sol"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura erguida con patas cubiertas de brillo mágico"
+      "from": "Postura alada",
+      "to": "Postura cuadrúpeda con patas firmes en el suelo"
     },
     {
-      "from": "Aliento de fuego",
-      "to": "Aliento de hadas que derrite rocas"
+      "from": "Aliento de dragón",
+      "to": "Aliento de lágrimas mágicas que sanan"
     }
   ],
   "pokemon_id": "149",

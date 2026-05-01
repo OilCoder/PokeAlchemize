@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Sombra",
-  "lore": "Nidoking, ahora envuelto en llamas rojas que danzan a su alrededor, camina con pasos firmes sobre el suelo ardiente. Su pelaje oscuro se funde con las llamas, mientras sus cuernos brillan como carbones incandescentes.",
+  "species_name": "Pokémon Llama Dura",
+  "lore": "Nidoking ahora emana llamas ardientes desde sus cuernos y patas, sus escamas de tierra se transforman en rocas incandescentes. Su presencia calienta el suelo bajo sus pies, creando un campo de lava.",
   "moves": [
     {
-      "name": "Llama Infernal",
-      "desc": "Lanza un chorro de llamas intensas que queman la defensa del oponente.",
-      "name_en": "Inferno Jet",
-      "visual_prompt": "crimson red flames, amber orange embers, molten gold stream, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, intense heat distortion"
+      "name": "Llamarada de Cuerno",
+      "desc": "Dispara una llamarada desde sus cuernos, quemando al oponente con fuego intenso.",
+      "name_en": "Horn Blaze",
+      "visual_prompt": "crimson red fire orbs, molten gold embers, bright orange flame trails, volcanic crater backdrop, charcoal black smoke swirls, ember-lit smoky sky"
     },
     {
-      "name": "Pata de Fuego",
-      "desc": "Ataca con patadas que generan llamas al impactar el suelo.",
-      "name_en": "Fire Kick",
-      "visual_prompt": "crimson flames, molten gold sparks, amber-orange embers, charcoal black footprints, glowing magma pools, smoke-filled air, volcanic crater backdrop"
+      "name": "Pisada de Lava",
+      "desc": "Aplasta al oponente con un pisotón que libera lava caliente del suelo.",
+      "name_en": "Lava Stomp",
+      "visual_prompt": "molten lava geysers erupting from cracked volcanic ground, crimson red and bright orange glowing embers, molten gold splatters, charcoal black smoke trails, dynamic upward motion lines"
     },
     {
-      "name": "Sombra Ardiente",
-      "desc": "Cubre al oponente con una sombra que irradia calor extremo.",
-      "name_en": "Fiery Shadow",
-      "visual_prompt": "crimson red smoke swirls, molten gold embers floating, charcoal black shadow tendrils, glowing ember particles, volcanic crater backdrop, smoke-filled air"
+      "name": "Escudo de Fuego",
+      "desc": "Crea un escudo de llamas alrededor de sí mismo para absorber golpes.",
+      "name_en": "Fire Shield",
+      "visual_prompt": "crimson red flames swirling in a protective barrier, molten gold embers floating, bright orange lava flows encircling the shield, amber glow accents, charcoal black smoke wisps, volcanic crater background with glowing lava streams"
     },
     {
-      "name": "Fuego de la Tierra",
-      "desc": "Desata llamas que surgen del suelo bajo los pies del oponente.",
-      "name_en": "Earth Flame",
-      "visual_prompt": "crimson red flames erupting from cracked volcanic ground, molten gold embers swirling in smoke-filled air, amber orange lava pools glowing beneath, charcoal black smoke trails, glowing ember particles"
+      "name": "Erupción Terrenal",
+      "desc": "Provoca una erupción de lava en el campo de batalla, dañando a todos los enemigos.",
+      "name_en": "Lava Surge",
+      "visual_prompt": "molten lava geysers erupting from cracked volcanic ground, bright orange and crimson lava flows, glowing ember sparks, smoky ash clouds, molten gold highlights, charcoal black lava rock fragments, dynamic upward motion"
     }
   ],
   "diffs": [
     {
-      "from": "cuernos de veneno",
-      "to": "cuernos incandescentes que emiten llamas"
+      "from": "Cuernos de veneno",
+      "to": "Cuernos incandescentes que emiten llamas"
     },
     {
-      "from": "piel oscura y lisa",
-      "to": "piel oscura con destellos rojos de llama"
+      "from": "Escamas de tierra",
+      "to": "Escamas de roca volcánica que brillan al rojo"
     },
     {
-      "from": "patas sólidas y fuertes",
-      "to": "patas que dejan marcas de fuego al caminar"
+      "from": "Pies planos",
+      "to": "Pies con llamas que calientan el suelo"
     },
     {
-      "from": "postura baja y muscular",
-      "to": "postura elevada con una aura de calor intenso"
+      "from": "Ataque venenoso",
+      "to": "Ataque de fuego que quema y envenena a la vez"
     }
   ],
   "pokemon_id": "034",

@@ -1,34 +1,36 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "short stubby legs",
-    "curled tail tip",
-    "flower on top of head",
-    "green leaves on body",
-    "sharp teeth visible when mouth is open"
+    "rounded four-legged body",
+    "flower crown on head",
+    "green leafy foliage on body",
+    "pink and brown accents on body",
+    "large head with small eyes",
+    "soft rounded edges overall"
   ],
   "original_type_traits": [
-    "flower on top of head (grass type marker)",
-    "green leaves on body (grass type marker)",
-    "poisonous yellow spores around the flower (poison type marker)"
+    "flower crown",
+    "green leafy foliage",
+    "poisonous-looking purple spots on body"
   ],
   "transformable_parts": [
-    "flower on top of head",
-    "leaves on body",
-    "tail tip",
-    "skin texture",
-    "ear shape",
-    "mouth structure"
+    "flower crown",
+    "leafy foliage on body",
+    "head shape",
+    "body texture",
+    "leg structure",
+    "pink and brown accents"
   ],
   "suppress_colors": [
-    "green (grass type)",
-    "pink (poison type accent)",
-    "yellow (poison type spores)"
+    "green",
+    "pink",
+    "brown",
+    "purple",
+    "teal"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low crawling stance",
-    "flower on top of head, large bloom with five petals",
-    "curled spiral tail tip, dark teal color"
+    "quadruped, four legs on ground",
+    "flower crown with circular base on head",
+    "rounded body with smooth curves"
   ],
   "pokemon_id": "003",
   "pokemon_name": "venusaur",
@@ -44,21 +46,20 @@
       "brown"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip",
-      "flower on top of head"
+      "head",
+      "body",
+      "legs",
+      "flower crown"
     ],
-    "silhouette": "The Pokémon has a rounded, plant-like body with a large flower on top, giving it a unique and somewhat whimsical appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded, four-legged body with a flower crown on its head, giving it a unique and somewhat whimsical appearance.",
     "type_markers": [
-      "flower on top of head",
-      "green leaves on body"
+      "flower crown",
+      "green leaves"
     ],
     "distinctive_features": [
-      "flower on top of head",
-      "green leaves on body",
-      "sharp teeth"
+      "flower crown",
+      "green leaves"
     ]
   }
 }

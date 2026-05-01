@@ -1,33 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with antennae",
-    "segmented body with alternating yellow and black bands",
-    "six legs with a wasp-like posture",
-    "large transparent wings folded over the back",
-    "distinctive white facial markings"
+    "hexagonal body structure",
+    "segmented body appearance",
+    "wings with sharp edges",
+    "stinger protruding from rear",
+    "compact insect silhouette",
+    "six legs with distinct joints"
   ],
   "original_type_traits": [
-    "wasp-like body shape",
-    "stinger at the rear",
-    "black and yellow warning coloration"
+    "bright yellow body with black stripes",
+    "poisonous stinger tip",
+    "black and yellow striped wings"
   ],
   "transformable_parts": [
-    "wings",
-    "stinger",
-    "antennae",
-    "segmented body bands",
-    "facial markings",
-    "leg structure"
+    "body coloration",
+    "wing texture",
+    "stinger shape",
+    "leg patterns",
+    "head markings",
+    "overall body texture"
   ],
   "suppress_colors": [
     "bright yellow",
-    "black",
-    "white facial markings"
+    "black stripes",
+    "white accents"
   ],
   "anchor_phrases": [
-    "quadruped, six legs on ground, low stance",
-    "segmented body with alternating yellow and black bands",
-    "transparent wings folded over the back"
+    "insect body, six limbs",
+    "hexagonal body with segmented pattern",
+    "curved stinger extending from rear"
   ],
   "pokemon_id": "015",
   "pokemon_name": "beedrill",
@@ -39,24 +40,26 @@
     "body_colors": [
       "bright yellow",
       "black",
-      "white"
+      "white",
+      "gray"
     ],
     "body_parts": [
-      "rounded head",
-      "antennae",
-      "six legs",
-      "wasp-like body",
+      "head",
+      "body",
       "wings",
+      "legs",
       "stinger"
     ],
-    "silhouette": "The Pokémon has a wasp-like silhouette with a rounded head, segmented body, and large wings.",
+    "body_plan": "insect",
+    "silhouette": "The Pokémon has a compact, hexagonal body with a segmented appearance, typical of an insect, and features wings and a stinger.",
     "type_markers": [
-      "stinger",
-      "wasp-like body"
+      "yellow body with black stripes",
+      "stinger"
     ],
     "distinctive_features": [
-      "antennae",
-      "segmented body"
+      "hexagonal body",
+      "wings",
+      "stinger"
     ]
   }
 }

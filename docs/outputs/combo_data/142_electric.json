@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago de Roca",
-  "lore": "Aerodactyl ahora respira chispas eléctricas que brillan en su piel rocosa. Sus patas, antes sólidas, emiten descargas al tocar el suelo, y sus alas de piedra se cargan con energía estática.",
+  "species_name": "Pokémon Relámpago Volador",
+  "lore": "Aerodactyl, ahora con el tipo Electric, reluce con chispas azules en su piel. Sus patas se han transformado en extremidades eléctricas, cargadas de energía. Su aleteo genera descargas que iluminan el cielo nocturno.",
   "moves": [
     {
-      "name": "Descarga Estática",
-      "desc": "Inyecta descargas eléctricas en el suelo, causando daño y debilitando a los enemigos.",
-      "name_en": "Static Surge",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white energy pulses, stormy sky backdrop with crackling energy fields"
+      "name": "Descarga Estelar",
+      "desc": "Lanza una descarga eléctrica que paraliza al oponente y aumenta su velocidad.",
+      "name_en": "Star Charge",
+      "visual_prompt": "glowing electric blue lightning bolts, neon yellow energy trails, crisp white static sparks, bright electric white arcs, pale blue storm clouds, urban city skyline silhouette, neon signs flickering in background"
     },
     {
-      "name": "Ala de Relámpago",
-      "desc": "Ataca con un aleteo que libera un rayo eléctrico, elevando la velocidad del usuario.",
-      "name_en": "Thunder Wing",
-      "visual_prompt": "crackling electric blue wings, neon yellow lightning bolts, violet spark particles, bright white energy trails, stormy sky backdrop with neon-lit thunderclouds"
+      "name": "Tormento Relámpago",
+      "desc": "Crea un torbellino eléctrico que aturde a los enemigos y recupera energía.",
+      "name_en": "Lightning Tempest",
+      "visual_prompt": "electric blue vortex, neon yellow lightning bolts, crisp white energy swirls, bright electric white sparks, pale blue glow trails, urban city skyline silhouette in background, flickering neon signs"
     },
     {
-      "name": "Roca Electrificada",
-      "desc": "Lanza fragmentos de roca cargados de electricidad, causando daño y posiblemente paralizar.",
-      "name_en": "Electric Rock",
-      "visual_prompt": "crackling electric blue shards, neon yellow sparks, violet lightning bolts, bright white energy arcs, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Carga Aérea",
+      "desc": "Aumenta el poder de los ataques eléctricos y reduce el daño recibido.",
+      "name_en": "Air Charge",
+      "visual_prompt": "vibrant electric blue energy arcs, neon yellow lightning bolts, crisp white static sparks, bright electric white aura, pale blue glow trails, urban cityscape skyline silhouette, neon signs flickering in background, electric storm clouds forming a dome"
     },
     {
-      "name": "Carga de Trueno",
-      "desc": "Concentra energía eléctrica en el cuerpo para un ataque devastador.",
-      "name_en": "Thunder Charge",
-      "visual_prompt": "crackling electric arcs, glowing neon yellow orbs, electric blue energy trails, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Rayo de Estrellas",
+      "desc": "Dispara una ráfaga de rayos que daña a todos los enemigos en el campo.",
+      "name_en": "Star Bolt",
+      "visual_prompt": "neon electric blue lightning bolts, glowing yellow energy trails, crisp white shockwaves, pale blue energy pulses, urban city skyline with flickering neon signs, electric storm cloud effects"
     }
   ],
   "diffs": [
     {
-      "from": "patas sólidas",
-      "to": "patas que emiten descargas eléctricas al tocar el suelo"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas transformadas en extremidades eléctricas cargadas"
     },
     {
-      "from": "alas de piedra",
-      "to": "alas cargadas de energía estática"
+      "from": "piel rocosa",
+      "to": "piel cubierta de chispas azules brillantes"
     },
     {
-      "from": "respiración normal",
-      "to": "respira chispas eléctricas que brillan en su piel"
+      "from": "vuelo lento",
+      "to": "vuelo rápido con descargas eléctricas"
     },
     {
-      "from": "posición baja",
-      "to": "postura elevada por la energía eléctrica"
+      "from": "ataque de roca",
+      "to": "ataque eléctrico que paraliza"
     }
   ],
   "pokemon_id": "142",

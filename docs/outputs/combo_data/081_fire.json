@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama de Acero",
-  "lore": "El Pokémon Llama de Acero resplandece con llamas doradas que danzan sobre su armadura de acero. Sus patas, ahora cubiertas de escamas incandescentes, mantienen un equilibrio firme mientras libera chispas de fuego al moverse.",
+  "species_name": "Pokémon Llama Magnética",
+  "lore": "Este Magnemite ahora emana llamas que flotan en el aire, sus imanes se calientan al rojo vivo. Sus esferas metálicas brillan con destellos de fuego, y su cuerpo flotante se envuelve en una aura de calor intenso.",
   "moves": [
     {
-      "name": "Chispa de Fuego",
-      "desc": "Lanza chispas incandescentes que queman el suelo donde caen.",
-      "name_en": "Fire Spark",
-      "visual_prompt": "crimson red sparks, molten gold embers, glowing ash particles, volcanic crater background, amber orange heat waves, charcoal black smoke trails, incandescent ground burns"
+      "name": "Chispa Incandescente",
+      "desc": "Ataca con chispas que arden en el aire, causando quemaduras y aumentando el poder del ataque.",
+      "name_en": "Incandescent Spark",
+      "visual_prompt": "crimson red sparks, molten gold embers, glowing orange aura, ember-lit smoke trails, charcoal black background, volcanic ash particles, intense heat distortion waves"
     },
     {
-      "name": "Carga de Acero",
-      "desc": "Aumenta su velocidad al cargar energía del fuego, acelerando sus pasos.",
-      "name_en": "Steel Charge",
-      "visual_prompt": "molten gold energy orbs swirling in a crimson vortex, fiery orange embers trailing like sparks, charcoal-black streaks cutting through glowing magma pools, dynamic motion lines emphasizing speed"
+      "name": "Escudo de Llama",
+      "desc": "Crea un escudo de llamas alrededor de sí mismo, reduciendo el daño recibido por fuego y electricidad.",
+      "name_en": "Flame Shield",
+      "visual_prompt": "crimson red flames swirling in a protective dome, molten gold embers floating in midair, bright orange heat waves distorting the background, charcoal black smoke wisps, ember-lit smoky sky backdrop"
     },
     {
-      "name": "Escudo Llamante",
-      "desc": "Crea un escudo de llamas que refleja ataques elementales.",
-      "name_en": "Blazing Shield",
-      "visual_prompt": "crimson red flame shield, molten gold energy rings, amber orange embers swirling, charcoal black smoke tendrils, glowing ember reflections, volcanic crater background glow"
+      "name": "Rayo de Calor",
+      "desc": "Dispara un rayo de calor intenso que quema al objetivo y debilita su defensa.",
+      "name_en": "Heat Ray",
+      "visual_prompt": "intense crimson red heat waves, molten gold energy orbs, bright orange fire trails, smoky ember-lit sky, charcoal black smoke swirls, glowing lava flow patterns"
     },
     {
-      "name": "Fusión Caldera",
-      "desc": "Combina fuego y acero para forjar un arma incandescente en sus manos.",
-      "name_en": "Molten Forge",
-      "visual_prompt": "crimson red molten steel swirls, amber orange sparks, molten gold weapon outline, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop, dynamic metallic sheen"
+      "name": "Vórtice de Fuego",
+      "desc": "Genera un vórtice de fuego que atrae a los enemigos y los expulsa con fuerza.",
+      "name_en": "Fire Vortex",
+      "visual_prompt": "crimson red fire vortex, swirling molten gold embers, bright orange energy rings, charcoal black smoke trails, glowing lava flows in background, ember-lit smoky sky"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas en el suelo",
-      "to": "Patas cubiertas de escamas incandescentes que emiten calor"
+      "from": "Cuerpo flotante sin contacto con el suelo",
+      "to": "Flota sobre una columna de llama que lo eleva y lo protege."
     },
     {
-      "from": "Baja postura",
-      "to": "Postura erguida con llamas que danzan sobre su armadura"
+      "from": "Imanes metálicos fríos",
+      "to": "Imanes calientes que brillan con fuego interior y atraen objetos calientes."
     },
     {
-      "from": "Estructura metálica",
-      "to": "Armada con llamas que se fusionan con el acero"
+      "from": "Ataques eléctricos",
+      "to": "Ataques que combinan electricidad con llama, causando quemaduras."
     },
     {
-      "from": "Vibraciones eléctricas",
-      "to": "Chispas de fuego que brillan al moverse"
+      "from": "Resistencia a los ataques de acero",
+      "to": "Resistencia a los ataques de fuego y electricidad, pero débil ante agua."
     }
   ],
   "pokemon_id": "081",

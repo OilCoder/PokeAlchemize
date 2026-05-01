@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Voladora",
-  "lore": "Aerodactyl, ahora envuelto en llamas volcánicas, tiene patas de roca fundida y alas de fuego. Su postura baja se intensifica con el calor radiante, dominando el aire con furia ardiente.",
+  "species_name": "Pokémon Llama Volcánica",
+  "lore": "Con escamas de lava incandescente y alas de humo ardiente, su presencia quema el aire a su alrededor. Sus patas, antes sólidas, ahora brillan con magma fundido, marcando cada paso con chispas.",
   "moves": [
     {
       "name": "Llamarada Volcánica",
-      "desc": "Lanza una erupción de llamas que quema el suelo y eleva al enemigo.",
+      "desc": "Lanza una erupción de llamas que quema el suelo y daña al oponente con fuego.",
       "name_en": "Volcanic Blaze",
-      "visual_prompt": "crimson red flames erupting from molten ground, amber orange lava streams, molten gold embers swirling, charcoal black smoke rising, glowing ember particles, volcanic crater background, intense heat haze"
+      "visual_prompt": "volcanic eruption, molten lava flows, crimson red flames, bright orange embers, molten gold sparks, charcoal black smoke trails, glowing ash particles, ember-lit smoky sky"
     },
     {
-      "name": "Ala de Fuego",
-      "desc": "Ataca con garras incandescentes que dejan marcas de quemaduras en el aire.",
-      "name_en": "Fire Claw",
-      "visual_prompt": "incandescent claw marks in the air, glowing ember trails, molten gold sparks, crimson red smoke, volcanic crater backdrop, charred air patterns"
+      "name": "Aleteo de Lava",
+      "desc": "Sus alas emiten chorros de lava que elevan al Pokémon y atacan con fuerza.",
+      "name_en": "Lava Wing",
+      "visual_prompt": "crimson red lava streams, molten gold embers, orange-hot volcanic sparks, charcoal black smoke swirls, glowing lava flows, ember-lit sky, dynamic upward motion, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Viento de Lava",
-      "desc": "Crea un torbellino de lava que aturde y quema al rival.",
-      "name_en": "Lava Whirl",
-      "visual_prompt": "volcanic crater, molten lava whirlwind, crimson red and amber orange flames, glowing ember particles, smoke-filled air, molten gold droplets, charcoal black ash swirls"
+      "name": "Residuo Incandescente",
+      "desc": "Deja un rastro de fuego que quema al oponente al moverse.",
+      "name_en": "Incandescent Residue",
+      "visual_prompt": "glowing embers trailing through molten gold smoke, crimson red fire streaks, orange lava droplets, ash particles floating in ember-lit air, charcoal black smoke swirls"
     },
     {
-      "name": "Ráfaga Ardiente",
-      "desc": "Dispara ráfagas de fuego que aumentan su velocidad y daño.",
-      "name_en": "Blazing Gust",
-      "visual_prompt": "crimson red fire gusts, molten gold embers swirling, amber orange flames, charcoal black smoke trails, glowing ember sparks, dynamic wind currents"
+      "name": "Erupción Terrenal",
+      "desc": "Provoca una pequeña erupción que daña al oponente y eleva su velocidad.",
+      "name_en": "Earth Eruption",
+      "visual_prompt": "crimson lava geysers, molten gold embers swirling, bright orange volcanic ash clouds, charcoal black smoke plumes, glowing lava flows, ember-lit sky"
     }
   ],
   "diffs": [
     {
-      "from": "patas de piedra",
-      "to": "patas de roca fundida que brillan con calor"
+      "from": "escamas rocosas",
+      "to": "escamas de lava incandescente"
     },
     {
-      "from": "alas de cuero",
-      "to": "alas de fuego que emiten chispas"
+      "from": "alas de viento",
+      "to": "alas de humo ardiente"
     },
     {
-      "from": "postura baja",
-      "to": "postura más agresiva con calor radiante"
+      "from": "patas sólidas",
+      "to": "patas brillantes con magma fundido"
     },
     {
-      "from": "vuelo suave",
-      "to": "vuelo rápido y ardiente con estelas de humo"
+      "from": "movimiento lento",
+      "to": "movimiento rápido con chispas"
     }
   ],
   "pokemon_id": "142",

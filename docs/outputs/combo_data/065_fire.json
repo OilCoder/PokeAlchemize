@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Psíquica",
-  "lore": "Alakazam, ahora envuelto en llamas psíquicas, camina con gracia sobre el fuego. Sus ojos brillan con energía ardiente, y sus manos emiten destellos de fuego mientras proyecta poderes mentales. Sus rasgos físicos se han transformado en una danza de energía controlada.",
+  "species_name": "Pokémon Llama Mental",
+  "lore": "Alakazam ahora arde con llamas mentales, sus patas se transforman en llamas danzantes. Sus ojos brillan con fuego psíquico, irradiando calor y concentración. Sus manos emanan chispas que iluminan el campo de batalla.",
   "moves": [
     {
-      "name": "Llama Mental",
-      "desc": "Ataca con una bola de fuego psíquico que quema y confunde al oponente.",
-      "name_en": "Mental Flame",
-      "visual_prompt": "crimson red psychic fire orb, molten gold embers swirling, amber orange energy trails, charcoal black smoke tendrils, glowing ember particles, volcanic crater backdrop"
+      "name": "Llama Psíquica",
+      "desc": "Lanza llamas que afectan la mente del oponente, causando confusión y daño simultáneo.",
+      "name_en": "Psychic Flame",
+      "visual_prompt": "crimson red psychic orbs swirling with molten gold trails, chaotic orange mental energy waves, ember-lit smoky sky backdrop, glowing amber confusion symbols, charcoal black void accents"
     },
     {
-      "name": "Fuego Psíquico",
-      "desc": "Genera una llamarada que absorbe la energía mental del oponente para fortalecerse.",
-      "name_en": "Psychic Blaze",
-      "visual_prompt": "crimson red flames, molten gold embers, swirling mental energy patterns, volcanic crater backdrop, glowing magma pools, smoke-filled air, charcoal black accents, stylized 2D VFX, Ken Sugimori aesthetic, wide banner format, no characters, no Pokémon, no creatures, no silhouettes"
+      "name": "Fuego Mental",
+      "desc": "Genera una explosión de fuego psíquico que quema y desorienta al rival.",
+      "name_en": "Mental Fire",
+      "visual_prompt": "crimson fire orbs, molten gold psychic energy swirls, ash particles, glowing ember sky, volcanic crater glow, charcoal black smoke trails, bright orange heat haze"
     },
     {
-      "name": "Danza de las Flamas",
-      "desc": "Aumenta la velocidad y ataque con un baile de llamas alrededor de sí mismo.",
-      "name_en": "Flame Dance",
-      "visual_prompt": "crimson red flames swirling in circular motion, amber orange embers floating, molten gold sparks, charcoal black smoke trails, glowing ember particles, dynamic circular vortex, volcanic crater backdrop"
+      "name": "Mente Ardiente",
+      "desc": "Aumenta el poder de los movimientos psíquicos mientras quema al oponente.",
+      "name_en": "Blazing Mind",
+      "visual_prompt": "crimson psychic orbs swirling in molten gold patterns, fiery embers rising from volcanic cracks, glowing orange aura with charcoal black smoke trails, intense heat distortion waves"
     },
     {
-      "name": "Psicofuego",
-      "desc": "Combina poderes psíquicos y fuego para lanzar un ataque devastador.",
-      "name_en": "Psychofire",
-      "visual_prompt": "crimson red psychic energy waves, molten gold fire orbs, swirling ember trails, charcoal black smoke rings, glowing magma pools, volcanic ash particles"
+      "name": "Chispa Concentrada",
+      "desc": "Enfoca el fuego psíquico en un ataque preciso que quema y debilita.",
+      "name_en": "Focused Spark",
+      "visual_prompt": "crimson red psychic fire orbs, molten gold energy trails, precise pinpoint beams, amber glow accents, smoky volcanic ash particles, charcoal black smoke wisps"
     }
   ],
   "diffs": [
     {
-      "from": "bipedal, upright stance",
-      "to": "caminar sobre llamas con postura equilibrada y controlada"
+      "from": "Patas cuadrúpedas",
+      "to": "Patas transformadas en llamas danzantes que emiten calor"
     },
     {
-      "from": "short arms at sides",
-      "to": "manos emiten destellos de fuego al moverse"
+      "from": "Ojos brillantes",
+      "to": "Ojos que brillan con fuego psíquico, irradiando calor"
     },
     {
-      "from": "ojos normales",
-      "to": "ojos brillan con energía ardiente"
+      "from": "Manos con poder psíquico",
+      "to": "Manos que emanan chispas y llamas que iluminan el campo"
     },
     {
-      "from": "poderes psíquicos",
-      "to": "poderes psíquicos ahora combinados con llamas controladas"
+      "from": "Concentración mental",
+      "to": "Concentración que ahora genera fuego psíquico en lugar de solo energía"
     }
   ],
   "pokemon_id": "065",

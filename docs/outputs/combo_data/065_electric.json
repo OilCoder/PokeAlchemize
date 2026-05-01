@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Chispa Mental",
-  "lore": "Alakazam ahora emana chispas eléctricas de sus ojos y cabello plateado. Sus brazos cortos brillan con energía estática, y su postura erguida genera un aura de poder eléctrico que paraliza a sus enemigos.",
+  "lore": "Alakazam, ahora con chispas eléctricas en su cuerpo, camina sobre cuatro patas relucientes. Sus ojos brillan con energía eléctrica, y su aura es un campo estático que acelera los pensamientos.",
   "moves": [
     {
-      "name": "Chispa Mental",
-      "desc": "Lanza ondas de energía psíquica cargada eléctricamente que causan parálisis.",
-      "name_en": "Mental Spark",
-      "visual_prompt": "electric blue psychic waves, neon yellow energy pulses, violet spark particles, bright white crackling arcs, electric cyan lightning bolts, stormy sky background with crackling energy fields"
+      "name": "Descarga Cerebral",
+      "desc": "Descarga energía mental para aumentar la velocidad de ataque y el poder de los ataques psíquicos.",
+      "name_en": "Mental Surge",
+      "visual_prompt": "neon blue psychic orbs swirling with electric sparks, glowing white energy trails, vibrant electric blue and yellow lightning bolts, crisp white aura with pale blue glow, dynamic urban cityscape backdrop with flickering neon signs"
     },
     {
-      "name": "Relámpago Psíquico",
-      "desc": "Ataca con un rayo psíquico que golpea en ráfagas rápidas.",
-      "name_en": "Psychic Bolt",
-      "visual_prompt": "neon-yellow psychic energy bolts, rapid-fire electric blue streaks, violet spark clusters, bright white energy pulses, crackling storm cloud background"
+      "name": "Relámpago Mental",
+      "desc": "Ataca con un relámpago que causa daño eléctrico y confunde al rival.",
+      "name_en": "Mental Bolt",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white static sparks, bright electric white shockwaves, pale blue glow pulses, urban cityscape lightning strikes, neon signs flickering in background"
     },
     {
-      "name": "Carga Estática",
-      "desc": "Aumenta el ataque y genera un campo estático que debilita a los oponentes.",
-      "name_en": "Static Charge",
-      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts, violet spark particles, bright white static field, electric cyan energy pulses, stormy sky background with neon-lit thunderclouds"
+      "name": "Campo Estático",
+      "desc": "Crea un campo que aumenta la velocidad de todos los aliados y reduce la precisión enemiga.",
+      "name_en": "Static Field",
+      "visual_prompt": "electric blue energy waves, neon yellow sparks, crisp white grid lines, bright electric white pulses, pale blue glow radiating outward, urban city skyline silhouette in background, flickering neon signs"
     },
     {
-      "name": "Barrera Electrónica",
-      "desc": "Crea una barrera que refleja ataques eléctricos y reduce el daño recibido.",
-      "name_en": "Electric Barrier",
-      "visual_prompt": "crackling neon-blue energy shield, electric cyan arcs, violet lightning sparks, stormy sky backdrop, pulsating white energy rings, dynamic energy field distortion"
+      "name": "Chispa Psíquica",
+      "desc": "Ataca con chispas psíquicas que causan daño eléctrico y debilitan la defensa del oponente.",
+      "name_en": "Psychic Spark",
+      "visual_prompt": "neon electric blue sparks, glowing psychic purple aura, crackling energy trails, floating electric orbs, crisp white energy pulses, pale blue glow radiating outward"
     }
   ],
   "diffs": [
     {
-      "from": "Cabello plateado",
-      "to": "Brilla con chispas eléctricas que paralizan al contacto"
+      "from": "caminar sobre dos patas",
+      "to": "caminar sobre cuatro patas relucientes"
     },
     {
-      "from": "Ojos brillantes",
-      "to": "Emiten chispas eléctricas que aumentan el poder psíquico"
+      "from": "aura psíquica tranquila",
+      "to": "aura estática que acelera los pensamientos"
     },
     {
-      "from": "Brazos cortos",
-      "to": "Generan descargas estáticas al moverse"
+      "from": "ojos brillantes",
+      "to": "ojos con chispas eléctricas"
     },
     {
-      "from": "Postura erguida",
-      "to": "Crea una aura eléctrica que paraliza a los enemigos"
+      "from": "pelo largo",
+      "to": "pelo transformado en cables eléctricos"
     }
   ],
   "pokemon_id": "065",

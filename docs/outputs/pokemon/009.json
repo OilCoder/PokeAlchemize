@@ -1,35 +1,36 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "compact body silhouette",
-    "large shell covering torso",
-    "white band around neck",
-    "short stubby legs",
-    "curled tail tip"
+    "large turtle-like shell covering the back",
+    "quadrupedal stance with four sturdy legs",
+    "arm-like appendages extending from the shell sides",
+    "distinctive rounded head with small eyes",
+    "smooth, glossy blue skin on limbs",
+    "gray and brown accents on shell"
   ],
   "original_type_traits": [
-    "water type markers not visible",
-    "bright blue body coloration",
-    "dark blue shell accents"
+    "water droplets on shell surface",
+    "streamlined shell shape for aquatic movement",
+    "gills visible on neck area",
+    "blue coloration matching ocean water"
   ],
   "transformable_parts": [
-    "shell texture and color",
-    "tail tip shape",
-    "ear shape",
-    "leg proportions",
-    "neck band design",
-    "head shape"
+    "shell texture and pattern",
+    "tail shape and texture",
+    "limb appendages (arms)",
+    "head shape and eye placement",
+    "skin texture on limbs",
+    "shell color and accent patterns"
   ],
   "suppress_colors": [
     "bright blue",
-    "dark blue",
-    "white band (original color)",
-    "brown accents"
+    "ocean water blue",
+    "gray (water-related shades)",
+    "white (water droplet effect)"
   ],
   "anchor_phrases": [
     "quadruped, four legs planted on ground, low crawling stance",
-    "large shell covering torso, smooth rounded edges",
-    "white band around neck, narrow and precise"
+    "large, symmetrical shell covering the entire back",
+    "arm-like appendages extending horizontally from shell sides"
   ],
   "pokemon_id": "009",
   "pokemon_name": "blastoise",
@@ -41,22 +42,23 @@
       "bright blue",
       "brown",
       "white",
-      "dark blue"
+      "gray"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "shell",
+      "arms",
+      "legs",
+      "tail"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with a large shell and short legs, suggesting a turtle-like appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The Pokémon has a robust, four-legged body with a large shell on its back, resembling a turtle.",
     "type_markers": [
-      "no visible water type markers"
+      "shell on back"
     ],
     "distinctive_features": [
       "large shell",
-      "white band around neck",
-      "pointed ears"
+      "arm-like appendages on sides"
     ]
   }
 }

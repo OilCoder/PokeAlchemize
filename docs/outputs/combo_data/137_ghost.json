@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectral Digital",
-  "lore": "Porygon Espectral Digital flota sin contacto con el suelo, sus patas se han transformado en espirales de energía oscura. Sus ojos brillan con un resplandor fantasmal, y su cuerpo emite un zumbido suave al moverse.",
+  "species_name": "Pokémon Fantasma Digital",
+  "lore": "Porygon flota sin contacto con el suelo, sus formas geométricas brillan con una luz espectral. Su cuerpo transparente revela circuitos que emiten destellos azules al moverse, como si estuviera compuesto de datos fantasmagóricos.",
   "moves": [
     {
-      "name": "Energía Fantasma",
-      "desc": "Ataca con ondas de energía oscura que atraviesan defensas físicas.",
-      "name_en": "Phantom Energy",
-      "visual_prompt": "dark violet energy waves, translucent shadowy ripples, ghostly white mist, charred gray particles, ethereal fog, moonlit tombstone silhouettes, deep violet aura, pale silver glints"
+      "name": "Sombra Virtual",
+      "desc": "Crea una ilusión de sí mismo que confunde al enemigo, reduciendo su precisión temporalmente.",
+      "name_en": "Virtual Shadow",
+      "visual_prompt": "translucent ghostly silhouette, shimmering pale silver mist, drifting spectral orbs, moonlit ruins backdrop, icy blue glow, frosty translucency, ethereal distortion waves, spectral white light trails"
     },
     {
       "name": "Código Invisibilidad",
-      "desc": "Hace al Pokémon invisible temporalmente, evitando ataques.",
+      "desc": "Vuelve invisible al usuario, evitando ataques durante un turno.",
       "name_en": "Invisible Code",
-      "visual_prompt": "glowing violet code fragments, floating in misty air, deep violet and charcoal gray shadows, pale silver particles, ghostly white outlines, ethereal fog drifting over moonlit tombstones"
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue frost patterns forming a glowing code, moonlit ruins backdrop, ghostly white glow, ethereal shimmer"
     },
     {
-      "name": "Memoria Fantasmal",
-      "desc": "Roba energía del oponente y la almacena para un ataque posterior.",
-      "name_en": "Phantom Memory",
-      "visual_prompt": "floating ghostly silver orbs, deep violet energy trails, misty graveyard fog, shadow violet aura, pale silver glowing particles, charcoal gray mist swirls"
+      "name": "Efecto Parpadeo",
+      "desc": "Ataca con una ráfaga de datos que parpadea, causando daño y confusión.",
+      "name_en": "Blink Effect",
+      "visual_prompt": "glowing spectral orbs, translucent data streams, moonlit ruins backdrop, pale silver mist, icy blue particles, flickering light patterns, ghostly blue shimmer, floating data fragments, ethereal glow"
     },
     {
-      "name": "Sistema de Fuga",
-      "desc": "Permite huir de combates sin usar una Poké Ball.",
-      "name_en": "Escape System",
-      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, pale silver fog drifting through shadowy graves, ethereal white orbs floating in charcoal gray air, misty graveyard atmosphere, subtle shimmering trails"
+      "name": "Memoria Fantasma",
+      "desc": "Recupera salud al absorber la energía de ataques fantasmales.",
+      "name_en": "Ghost Memory",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue energy pulses, ghostly white energy waves, moonlit ruins backdrop with frosty textures"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas cortas en el suelo",
-      "to": "Patas transformadas en espirales de energía oscura que flotan"
-    },
-    {
       "from": "Cuerpo sólido",
-      "to": "Cuerpo translúcido con brillo fantasmal"
+      "to": "Cuerpo transparente y espectral, sin contacto con el suelo"
     },
     {
-      "from": "Bajo postura",
-      "to": "Flotando en el aire sin contacto con el suelo"
+      "from": "Circuito estándar",
+      "to": "Circuito brillante con destellos azules como datos fantasmales"
     },
     {
-      "from": "Ojos normales",
-      "to": "Ojos brillantes con resplandor oscuro"
+      "from": "No posee rasgos fantasmales",
+      "to": "Emite una luz espectral que atrae a espíritus digitales"
+    },
+    {
+      "from": "Se mueve por aire",
+      "to": "Flota sin contacto, dejando rastros de datos dispersos"
     }
   ],
   "pokemon_id": "137",

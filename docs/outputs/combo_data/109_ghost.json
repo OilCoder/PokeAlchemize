@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Sombra Tóxica",
-  "lore": "Sombra Tóxica flota sin peso, sus patas se han vuelto translúcidas y emiten un brillo azul. Su cuerpo, antes lleno de gases venenosos, ahora libera espirales de energía fantasmal que envenenan al contacto.",
+  "lore": "Sombra Tóxica flota sin forma, su cuerpo translúcido emite un brillo verde pálido. El veneno se mezcla con la energía espectral, creando una aura inquietante que paraliza a sus enemigos con solo mirar.",
   "moves": [
     {
-      "name": "Espirita Venenosa",
-      "desc": "Lanza espirales de energía fantasmal que envenenan al oponente con un efecto residual.",
-      "name_en": "Poison Spiral",
-      "visual_prompt": "ghostly violet spirals, residual poison mist, ethereal fog, pale silver glow, shadow violet accents, misty graveyard backdrop"
+      "name": "Espectro Veneno",
+      "desc": "Inyecta veneno espectral que reduce la defensa del oponente en 20%.",
+      "name_en": "Spectral Poison",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, icy blue mist swirling with pale silver trails, ghostly frost patterns forming poison symbols, moonlight gray energy pulses, translucent frost particles"
     },
     {
-      "name": "Sombra Acorazada",
-      "desc": "Cubre su cuerpo con una armadura de sombras que reduce el daño recibido.",
-      "name_en": "Armored Shadow",
-      "visual_prompt": "shimmering violet shadow armor plates, jagged charcoal gray energy shards, pale silver mist swirls, ghostly white glowing cracks, ethereal fog drifting through shadowy void"
+      "name": "Aliento Sombrío",
+      "desc": "Lanza un viento frío que causa daño y confunde al rival.",
+      "name_en": "Shadow Breath",
+      "visual_prompt": "icy blue mist swirling, spectral white orbs drifting, pale silver moonlight glow, translucent frost patterns, ghostly wind currents, moonlit ruins backdrop"
     },
     {
       "name": "Fumigación Fantasma",
-      "desc": "Genera una nube de humo fantasmal que reduce la precisión del rival.",
-      "name_en": "Ghost Mist",
-      "visual_prompt": "ethereal violet mist swirling, ghostly white tendrils, shadow violet smoke particles, pale silver fog droplets, deep violet mist clinging to moonlit tombstone outlines, misty graveyard atmosphere"
+      "desc": "Genera una nube de humo que oculta el movimiento del Pokémon.",
+      "name_en": "Ghost Fog",
+      "visual_prompt": "translucent spectral white mist, drifting pale silver orbs, icy blue moonlight glow, moonlit ruins backdrop, ethereal frost particles, ghostly vapor swirls"
     },
     {
-      "name": "Maldición Tóxica",
-      "desc": "Añade una maldición que reduce la defensa especial del oponente y aplica veneno.",
-      "name_en": "Toxic Curse",
-      "visual_prompt": "Toxic green vines twisting into ghostly violet mist, decaying tombstone fragments floating in shadowy fog, pale silver poison droplets falling, charcoal gray aura with ghostly white highlights, ethereal mist drifting over moonlit graveyard"
+      "name": "Sangre Espectral",
+      "desc": "Ataca con un torrente de sangre que roba energía del oponente.",
+      "name_en": "Spectral Blood",
+      "visual_prompt": "translucent blood droplets, moonlit ruins background, pale silver mist, drifting spectral orbs, icy blue glow, ghostly energy trails, moonlight gray mist, frozen blood droplets, ethereal motion lines"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo lleno de gases tóxicos",
-      "to": "cuerpo translúcido con energía fantasmal"
+      "from": "Cuerpo amorfoso",
+      "to": "Cuerpo translúcido con brillo verde pálido"
     },
     {
-      "from": "patas sólidas y bajas",
-      "to": "patas translúcidas y flotantes"
+      "from": "Veneno tóxico",
+      "to": "Veneno mezclado con energía espectral"
     },
     {
-      "from": "respiración lenta y pesada",
-      "to": "respiración silenciosa y etérea"
+      "from": "Sin rasgos definidos",
+      "to": "Aura inquietante que paraliza con mirada"
     },
     {
-      "from": "olor a gases tóxicos",
-      "to": "olor a humo fantasmal y frialdad"
+      "from": "No tiene límites",
+      "to": "Se funde con la sombra para desaparecer"
     }
   ],
   "pokemon_id": "109",

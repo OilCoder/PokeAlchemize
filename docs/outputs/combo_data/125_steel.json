@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Eléctrico",
-  "lore": "Con patas de acero pulido que resuenan al caminar, su cuerpo irradiando energía estática. Sus ojos brillan con destellos azules, y cada movimiento genera chispas metálicas que iluminan su entorno.",
+  "species_name": "Pokémon Acero Relámpago",
+  "lore": "Acero Relámpago camina con patas de acero, cada paso emite chispas metálicas. Su piel resplandece con reflejos azulados, y sus ojos brillan como láseres. El acero potencia sus descargas eléctricas, haciéndolas más precisas y duraderas.",
   "moves": [
     {
-      "name": "Impacto Acero",
-      "desc": "Ataca con un golpe directo que deja marcas en el suelo de acero, reduciendo la defensa del rival.",
-      "name_en": "Steel Impact",
-      "visual_prompt": "crisp steel shards flying in midair, deep gunmetal gray and polished silver particles, glowing electric blue energy trails, shattered metallic ground texture, neon cyan fracture lines, industrial city skyline silhouette in background"
+      "name": "Relámpago Acero",
+      "desc": "Ataca con un rayo de energía acerada que corta la resistencia del oponente.",
+      "name_en": "Steel Bolt",
+      "visual_prompt": "gunmetal gray lightning bolts, polished chrome energy trails, matte black metallic shards, deep steel blue glowing lines, industrial workshop background glow"
     },
     {
-      "name": "Chispa Metálica",
-      "desc": "Dispara chispas que atrapan al oponente, causando daño y reduciendo su velocidad.",
-      "name_en": "Metal Spark",
-      "visual_prompt": "gunmetal gray sparks, polished silver arcs, metallic steam vents, electric blue energy trails, neon cyan glow, industrial cityscape backdrop, stylized 2D VFX"
+      "name": "Escudo Metálico",
+      "desc": "Crea un escudo de acero que reduce el daño recibido temporalmente.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray shield with polished chrome edges, deep steel blue energy lines, matte black metallic texture, glowing energy aura, industrial workshop background elements"
     },
     {
-      "name": "Resonancia Cerrada",
-      "desc": "Genera ondas sonoras que debilitan a los enemigos cercanos y aumentan la defensa del usuario.",
-      "name_en": "Closed Resonance",
-      "visual_prompt": "gunmetal gray sonic waves, polished silver ripples, metallic steam vents, neon cyan energy pulses, industrial city skyline backdrop, electric blue reflections, stylized steel wave patterns"
+      "name": "Golpe Cizalla",
+      "desc": "Un ataque rápido con garras de acero que causa cortes profundos.",
+      "name_en": "Steel Claw",
+      "visual_prompt": "sharpened steel claws, razor-sharp edges, metallic sheen, gunmetal gray sparks, polished chrome trails, deep steel blue energy lines, industrial workshop setting, matte black background"
     },
     {
-      "name": "Descarga Estelar",
-      "desc": "Lanza una poderosa descarga eléctrica que se concentra en un área específica, causando daño masivo.",
-      "name_en": "Star Bolt",
-      "visual_prompt": "glowing gunmetal gray lightning bolts converging into a metallic steel blue vortex, polished silver energy trails, neon cyan sparks, industrial cityscape backdrop with glowing neon signs, metallic steam vents emitting electric blue mist"
+      "name": "Energía Compacta",
+      "desc": "Aumenta el poder de los movimientos eléctricos en un 50%.",
+      "name_en": "Compact Energy",
+      "visual_prompt": "glowing steel-blue energy orbs, polished chrome concentric rings, matte black industrial workshop background, electric arcs in gunmetal gray, deep steel blue light trails, minimalist geometric patterns"
     }
   ],
   "diffs": [
     {
-      "from": "patas de goma",
-      "to": "patas de acero pulido que resuenan al caminar"
+      "from": "patas plantadas en el suelo",
+      "to": "patas de acero que emiten chispas al pisar"
     },
     {
-      "from": "cuerpo flexible",
-      "to": "cuerpo rígido y estable con una postura baja"
+      "from": "piel brillante",
+      "to": "piel resplandeciente con reflejos azulados"
     },
     {
-      "from": "ojos brillantes",
-      "to": "ojos que brillan con destellos azules"
+      "from": "descargas eléctricas",
+      "to": "descargas eléctricas potenciadas por el acero"
     },
     {
-      "from": "energía eléctrica dispersa",
-      "to": "energía estática concentrada en el cuerpo"
+      "from": "movimientos rápidos",
+      "to": "movimientos más precisos y duraderos"
     }
   ],
   "pokemon_id": "125",

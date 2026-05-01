@@ -1,0 +1,24 @@
+{
+  "body_colors": [
+    "light blue",
+    "white",
+    "gray",
+    "red",
+    "blue"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "magnets"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a round, spherical body with four arms ending in magnets, suggesting it can move in a quadrupedal manner.",
+  "type_markers": [
+    "magnets on arms"
+  ],
+  "distinctive_features": [
+    "spherical body",
+    "magnets on arms"
+  ]
+}

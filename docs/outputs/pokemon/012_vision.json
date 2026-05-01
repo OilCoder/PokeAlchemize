@@ -1,0 +1,26 @@
+{
+  "body_colors": [
+    "white",
+    "blue",
+    "red",
+    "black"
+  ],
+  "body_parts": [
+    "head",
+    "antennae",
+    "eyes",
+    "body",
+    "wings",
+    "legs"
+  ],
+  "body_plan": "insect",
+  "silhouette": "The silhouette is that of a butterfly with a slender body and four wings, featuring a head with antennae and large red eyes.",
+  "type_markers": [
+    "antennae",
+    "wings"
+  ],
+  "distinctive_features": [
+    "large red eyes",
+    "antennae"
+  ]
+}

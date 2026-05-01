@@ -1,34 +1,33 @@
 {
   "identity_traits": [
-    "rounded head with large mushroom cap",
-    "short stubby legs",
-    "pink body with white spots",
-    "curled tail tip",
-    "dark blue accents",
-    "compact rounded silhouette"
+    "quadrupedal stance with four legs",
+    "rounded mushroom-like body shape",
+    "large cap structure covering the head",
+    "white spot patterns on body and cap",
+    "pink coloration on primary features"
   ],
   "original_type_traits": [
-    "white spots on pink head (grass type marker)",
-    "mushroom cap on head (grass type marker)",
-    "dark blue body (poison type marker)"
+    "pink cap with white spots (grass type)",
+    "dark blue body (poison type association)",
+    "white dot patterns (poison type marker)"
   ],
   "transformable_parts": [
-    "mushroom cap on head",
-    "white spots on head",
-    "pink body color",
-    "curled tail tip",
-    "dark blue accents",
-    "short stubby legs"
+    "cap structure",
+    "body coloration",
+    "white spot patterns",
+    "leg structure",
+    "head shape",
+    "overall silhouette"
   ],
   "suppress_colors": [
     "pink",
-    "white spots",
-    "dark blue"
+    "dark blue",
+    "white"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "large mushroom cap on head, textured surface",
-    "curled tail tip, pink color"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "rounded cap structure covering head with symmetrical dot placement",
+    "two small white dots positioned on body midsection"
   ],
   "pokemon_id": "045",
   "pokemon_name": "vileplume",
@@ -38,23 +37,28 @@
   ],
   "visual_facts": {
     "body_colors": [
-      "pink with white spots",
-      "dark blue"
+      "dark blue",
+      "pink",
+      "white"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "large pink cap with white spots",
+      "dark blue body",
+      "two small white dots on body",
+      "two small white dots on cap",
+      "two small white dots on cap"
     ],
-    "silhouette": "The Pokémon has a rounded, compact body with a large, mushroom-like head and short, stubby legs.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded, mushroom-like body with four legs, giving it a quadrupedal appearance.",
     "type_markers": [
-      "white spots on pink head",
+      "pink cap with white spots",
       "dark blue body"
     ],
     "distinctive_features": [
-      "large mushroom cap on head",
-      "curled tail tip"
+      "large pink cap with white spots",
+      "two small white dots on body",
+      "two small white dots on cap",
+      "two small white dots on cap"
     ]
   }
 }

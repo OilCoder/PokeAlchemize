@@ -1,46 +1,48 @@
 {
   "species_name": "Pokémon Acero Aéreo",
-  "lore": "Aerodactyl, ahora cubierto de placas de acero, camina con paso firme sobre sus cuatro patas. Sus alas, antes de cuero, brillan con reflejos metálicos, y sus ojos emiten destellos azulados al atacar.",
+  "lore": "Aerodactyl, ahora con escamas de acero pulido, camina erguido sobre patas de metal. Sus alas de acero reflejan la luz, y su mirada fría brilla con una energía inquebrantable.",
   "moves": [
     {
       "name": "Corte Acero",
-      "desc": "Corta con garras afiladas de acero, causando daño cortante y posiblemente debilitando la defensa del oponente.",
-      "name_en": "Steel Cut",
-      "visual_prompt": "shimmering steel claws slicing through air, jagged metallic shards flying, gunmetal gray sparks, polished silver trails, electric blue energy pulses, neon cyan highlights, industrial city skyline backdrop"
+      "desc": "Corta con garras de acero, causando daño adicional a Pokémon de tipo hierba.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, sharp metallic shards, glowing gunmetal gray energy lines, polished chrome sparks, deep steel blue aura, industrial workshop backdrop, matte black shadows"
     },
     {
-      "name": "Impacto Férreo",
-      "desc": "Se lanza contra el rival con fuerza metálica, causando daño físico y posiblemente causar aturdimiento.",
-      "name_en": "Iron Impact",
-      "visual_prompt": "shimmering gunmetal gray energy waves, polished silver metallic shards flying, electric blue sparks, neon cyan trails, industrial city skyline backdrop with glowing steam vents"
+      "name": "Impacto Acero",
+      "desc": "Ataca con un golpe certero que reduce la defensa del oponente.",
+      "name_en": "Steel Impact",
+      "visual_prompt": "gunmetal gray energy shards, polished chrome impact waves, matte black metallic fragments, deep steel blue energy trails, industrial workshop metal surfaces, glowing energy lines, sharp geometric patterns"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo de acero alrededor de sí mismo, reduciendo el daño recibido durante un turno."
+      "name": "Ala de Acero",
+      "desc": "Lanza ráfagas de acero que dañan a múltiples objetivos.",
+      "name_en": "Steel Wing",
+      "visual_prompt": "shimmering steel shards, razor-sharp metallic blades, industrial workshop glow, polished chrome energy trails, gunmetal gray particles, deep steel blue light reflections, matte black shadows, dynamic angular motion lines"
     },
     {
-      "name": "Suelo de Acero",
-      "desc": "Genera un campo de acero bajo los pies del rival, reduciendo su velocidad y causando daño por corrosión.",
-      "name_en": "Steel Ground",
-      "visual_prompt": "crystalline steel shards floating mid-air, jagged metallic spikes erupting from ground, glowing gunmetal gray aura, electric blue energy trails, polished silver particles swirling, neon cyan corrosion effects on surfaces"
+      "name": "Escudo Acero",
+      "desc": "Crea un escudo de acero que bloquea ataques físicos temporales.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray steel shield, polished chrome edges, deep steel blue energy lines, matte black reflections, industrial workshop background, glowing energy field, geometric shield pattern, metallic texture, sharp edges, shimmering aura"
     }
   ],
   "diffs": [
     {
-      "from": "patas de cuero",
-      "to": "patas cubiertas de placas metálicas resistentes"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas convertidas en estructuras metálicas, firme y estable."
     },
     {
-      "from": "alas de cuero",
-      "to": "alas brillantes con reflejos metálicos"
+      "from": "Alas de piel",
+      "to": "Alas de acero pulido, reflectantes y resistentes."
     },
     {
-      "from": "ojos amarillos",
-      "to": "ojos que emiten destellos azulados"
+      "from": "Piel rocosa",
+      "to": "Escamas de acero pulido, brillantes y duras."
     },
     {
-      "from": "vuelo ágil",
-      "to": "caminar con paso firme en el suelo"
+      "from": "Mirada agresiva",
+      "to": "Mirada fría y calculadora, sin emoción."
     }
   ],
   "pokemon_id": "142",

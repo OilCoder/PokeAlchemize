@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Flor",
-  "lore": "Chispa Flor camina con patas eléctricas que brillan en la oscuridad. Sus pétalos absorben energía eléctrica, convirtiéndose en brillantes lámparas naturales. Su postura baja se mantiene para equilibrar su carga eléctrica.",
+  "species_name": "Pokémon Viento Eléctrico",
+  "lore": "Vileplume ahora emite chispas eléctricas desde sus pétalos, sus patas se cubren de escamas brillantes. Su postura baja se transforma en un ataque rápido, cargado de energía. La electricidad revitaliza su veneno.",
   "moves": [
     {
-      "name": "Descarga Petalo",
-      "desc": "Lanza pétalos cargados que generan pequeñas descargas eléctricas.",
-      "name_en": "Petal Shock",
-      "visual_prompt": "electric blue petals, neon yellow sparks, violet lightning bolts, bright white energy bursts, crackling energy field, stormy sky backdrop"
+      "name": "Chispa Floral",
+      "desc": "Lanza chispas desde sus pétalos, causando daño eléctrico y posiblemente paralizar.",
+      "name_en": "Floral Spark",
+      "visual_prompt": "electric blue petals, neon yellow sparks, crisp white energy trails, bright electric white arcs, pale blue glow, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Relampago Floral",
-      "desc": "Ataca con ráfagas de energía floral que iluminan el campo de batalla.",
-      "name_en": "Floral Bolt",
-      "visual_prompt": "electric blue lightning bolts, neon yellow floral patterns, violet spark particles, bright white energy trails, crackling storm clouds, neon-lit thunderclouds, stylized 2D VFX, Ken Sugimori aesthetic"
-    },
-    {
-      "name": "Carga Flor",
-      "desc": "Aumenta su velocidad al absorber energía eléctrica de la tierra.",
-      "name_en": "Floral Charge",
-      "visual_prompt": "electric blue vines coiling around neon yellow orbs, violet sparks crackling in stormy sky, bright white energy trails, electric cyan lightning arcs"
-    },
-    {
-      "name": "Electropetalo",
-      "desc": "Cubre sus pétalos con electricidad para atacar con fuerza.",
+      "name": "Electro Pétalo",
+      "desc": "Cubre sus pétalos con electricidad, aumentando el daño y la velocidad.",
       "name_en": "Electro Petal",
-      "visual_prompt": "electric blue petals crackling with neon yellow energy, violet sparks flying, bright white lightning arcs, electric cyan aura, stormy sky background, dynamic energy field"
+      "visual_prompt": "electric blue petals, neon yellow energy trails, crisp white lightning bolts, bright electric white sparks, pale blue glowing aura, urban city skyline backdrop, neon signs flickering in distance"
+    },
+    {
+      "name": "Veneno Estático",
+      "desc": "Ataca con veneno eléctrico, causando daño y debilitando la defensa del oponente.",
+      "name_en": "Static Poison",
+      "visual_prompt": "vibrant electric blue orbs, neon yellow lightning bolts, crisp white energy trails, pale blue glow pulses, electric storm cloud patterns, urban cityscape neon reflections"
+    },
+    {
+      "name": "Carga Floral",
+      "desc": "Recarga energía en sus pétalos, aumentando el poder de los movimientos eléctricos.",
+      "name_en": "Floral Charge",
+      "visual_prompt": "electric blue petals glowing with neon yellow energy, swirling electric white arcs, crisp white sparks, pale blue aura, urban city skyline backdrop with flickering neon signs, electric storm clouds in distance"
     }
   ],
   "diffs": [
     {
       "from": "pétalos verdes",
-      "to": "pétalos brillantes que emiten luz azul eléctrica"
+      "to": "pétalos brillantes con chispas eléctricas"
     },
     {
-      "from": "patas terrestres",
-      "to": "patas con terminales eléctricas que generan chispas"
+      "from": "veneno venenoso",
+      "to": "veneno eléctrico que paraliza"
     },
     {
       "from": "postura baja",
-      "to": "postura más erguida para canalizar energía"
+      "to": "postura dinámica para atacar rápido"
     },
     {
-      "from": "olor a veneno",
-      "to": "olor a ozono fresco tras una tormenta eléctrica"
+      "from": "patas sin brillo",
+      "to": "patas cubiertas de escamas brillantes"
     }
   ],
   "pokemon_id": "045",

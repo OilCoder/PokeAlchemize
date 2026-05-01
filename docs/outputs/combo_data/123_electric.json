@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispas de Acero",
-  "lore": "Chispas de Acero se erige con patas de acero que brillan con energía eléctrica. Sus alas de metal emiten chispas al moverse, y sus ojos centellean con una luz azul eléctrica. Su postura baja y estable le permite generar choques poderosos.",
+  "species_name": "Pokémon Chispazón",
+  "lore": "Con alas de energía eléctrica y patas brillantes, Chispazón emite destellos al moverse. Sus mandíbulas relucen con chispas, y su postura se mantiene firme a pesar de la corriente que lo recorre.",
   "moves": [
     {
-      "name": "Cortazón Electrónico",
-      "desc": "Ataca con garras cargadas de electricidad que paralizan al oponente.",
-      "name_en": "Electronic Claw",
-      "visual_prompt": "glowing electric blue claws, neon yellow sparks, violet electric arcs, bright white energy trails, crackling energy fields, stormy sky backdrop"
+      "name": "Chispa Corte",
+      "desc": "Corta con hojas cargadas de electricidad, causando daño y posiblemente paralizar.",
+      "name_en": "Electric Slash",
+      "visual_prompt": "electric blue leaves with neon yellow sparks, sharp leaf edges glowing with bright electric white, swirling pale blue energy trails, urban city skyline silhouette in background, neon signs flickering with electric energy"
     },
     {
-      "name": "Impacto de Acero",
-      "desc": "Aumenta el ataque al golpear el suelo con patas metálicas.",
-      "name_en": "Steel Impact",
-      "visual_prompt": "crackling electric blue energy waves, neon yellow metallic footprints on stormy ground, violet sparks, bright white energy pulses, electric cyan lightning bolts"
+      "name": "Relámpago Zarpas",
+      "desc": "Ataca con garras brillantes que envían descargas eléctricas al oponente.",
+      "name_en": "Zap Claws",
+      "visual_prompt": "glowing electric blue claws, neon yellow lightning bolts, crisp white energy trails, bright electric white sparks, pale blue aura, urban city skyline background, flickering neon signs"
     },
     {
-      "name": "Chispa Cercana",
-      "desc": "Dispara una ráfaga de chispas cortas que daña y confunde.",
-      "name_en": "Close Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow zigzag bolts, violet sparks scattering, bright white energy trails, stormy sky backdrop with neon thunderclouds"
+      "name": "Campo Estático",
+      "desc": "Crea un campo eléctrico alrededor que reduce la velocidad de los enemigos.",
+      "name_en": "Static Field",
+      "visual_prompt": "vibrant electric blue energy field, neon yellow lightning bolts, crisp white static sparks, bright electric white arcs, pale blue glow pulses, urban cityscape skyline with flickering neon signs"
     },
     {
-      "name": "Red de Energía",
-      "desc": "Crea una red eléctrica que atrapa y debilita al rival.",
-      "name_en": "Energy Net",
-      "visual_prompt": "crackling electric blue net, neon yellow energy strands, violet sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Sobrecarga Volador",
+      "desc": "Usa un salto eléctrico para atacar y recuperar energía en el aire.",
+      "name_en": "Electric Leap",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow sparks, crisp white energy trails, bright electric white shockwaves, pale blue glow pulses, urban city skyline silhouette with flickering neon signs, electric storm cloud formations"
     }
   ],
   "diffs": [
     {
-      "from": "patas delgadas y ligeras",
-      "to": "patas de acero sólidas y pesadas"
+      "from": "alas de hoja",
+      "to": "alas de energía eléctrica brillante"
     },
     {
-      "from": "alas de insecto transparentes",
-      "to": "alas de metal que brillan con chispas"
+      "from": "patas cortas",
+      "to": "patas que brillan con chispas"
     },
     {
-      "from": "postura alta y ágil",
-      "to": "postura baja y estable para generar choques"
+      "from": "mandíbulas afiladas",
+      "to": "mandíbulas que emiten chispas"
     },
     {
-      "from": "color verde y amarillo",
-      "to": "color plateado con destellos azules eléctricos"
+      "from": "postura tranquila",
+      "to": "postura firme a pesar de la corriente"
     }
   ],
   "pokemon_id": "123",

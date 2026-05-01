@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Fantasma de Hielo",
-  "lore": "Jynx, ahora envuelta en niebla espectral, camina con paso etéreo. Sus brazos se alargan en tenues sombras, y su rostro refleja una sonrisa fría. El hielo se funde en sombras, y su presencia aterra a los intrusos.",
+  "species_name": "Pokémon Sombra Helada",
+  "lore": "Jynx, ahora envuelta en sombras etéreas, camina con paso lento. Sus rasgos faciales se funden con el aire frío, y su cuerpo emite un brillo pálido que atrae a los espíritus perdidos.",
   "moves": [
     {
-      "name": "Sombra Helada",
-      "desc": "Ataca con una sombra congelada que ralentiza al oponente.",
-      "name_en": "Frozen Shadow",
-      "visual_prompt": "glowing violet ice shards, slow-motion drifting mist, shadowy tendrils with frost patterns, pale silver moonlight beams, charcoal gray fog swirls, ethereal ghostly white aura, deep violet energy pulses"
+      "name": "Susurro Fantasma",
+      "desc": "Inmoviliza al rival con una voz que resuena en su mente, reduciendo su velocidad temporalmente.",
+      "name_en": "Ghost Whisper",
+      "visual_prompt": "translucent spectral orbs floating in moonlit ruins, pale silver mist swirling, icy blue resonance waves, ghostly voice echoes as faint shimmering ripples, moonlight gray fog, frozen sound waves"
     },
     {
-      "name": "Susurro Psíquico",
-      "desc": "Envía un susurro psíquico que confunde al rival.",
-      "name_en": "Psychic Whisper",
-      "visual_prompt": "shimmering violet mist, floating ghostly silver orbs, faint glowing psychic symbols, ethereal white fog, shadowy violet tendrils, moonlit tombstone silhouettes in background"
+      "name": "Viento Glacial",
+      "desc": "Lanza una ráfaga de aire helado que congela al enemigo, causando daño y enfriando su movimiento.",
+      "name_en": "Frozen Gale",
+      "visual_prompt": "spectral white mist swirling in moonlight, icy blue frost crystals forming in midair, pale silver orbs drifting slowly, translucent frost patterns on moonlit ruins, cold blue glow with frosty trails"
     },
     {
-      "name": "Niebla Espiritual",
-      "desc": "Cubre el campo con niebla espectral que reduce la precisión.",
-      "name_en": "Spirit Fog",
-      "visual_prompt": "ethereal violet mist, drifting ghostly white tendrils, shadow violet fog patches, pale silver moonlight beams, charcoal gray tombstone silhouettes in distance, spectral glow, misty graveyard atmosphere"
+      "name": "Espejo Oscuro",
+      "desc": "Refleja el ataque del rival, devolviéndolo con el doble de fuerza mientras absorbe energía.",
+      "name_en": "Dark Mirror",
+      "visual_prompt": "cracked spectral mirror, glowing moonlight silver shards, translucent frost particles, drifting pale silver orbs, icy blue energy waves, ghostly mist swirls"
     },
     {
-      "name": "Bailarina de los Muertos",
-      "desc": "Realiza un baile que aturde al oponente con su presencia.",
-      "name_en": "Deadly Waltz",
-      "visual_prompt": "ghostly violet mist swirling, pale silver dancing orbs, charcoal gray fog drifting, ethereal moonlit tombstone outlines, shadow violet particles floating, ghostly white ribbons swirling in midair, misty graveyard atmosphere, no characters or Pokémon present"
+      "name": "Lamento de la Niebla",
+      "desc": "Crea una niebla densa que reduce la precisión de todos los enemigos en el campo.",
+      "name_en": "Misty Lament",
+      "visual_prompt": "dense spectral mist, moonlit ruins, drifting pale silver orbs, icy blue fog tendrils, translucent frost patterns, ghostly moonlight glow"
     }
   ],
   "diffs": [
     {
-      "from": "bipedal, upright stance",
-      "to": "caminar con paso etéreo y deslizarse en la niebla"
+      "from": "Cuerpo frío y transparente",
+      "to": "Cuerpo translúcido con sombras que fluyen alrededor, emitiendo un brillo pálido."
     },
     {
-      "from": "short arms at sides",
-      "to": "brazos alargados en sombras tenues"
+      "from": "Rostro sonriente",
+      "to": "Rostro desdibujado por sombras, con ojos que brillan en tonos azulados."
     },
     {
-      "from": "ice type",
-      "to": "hielo fundido en sombras espirituales"
+      "from": "Movimientos de hielo",
+      "to": "Movimientos que combinan hielo y espiritualidad, congelando el alma del enemigo."
     },
     {
-      "from": "psychic type",
-      "to": "psiquismo fusionado con la espiritualidad del fantasma"
+      "from": "Postura erguida",
+      "to": "Postura más fluida, caminando como si flotara sobre la nieve."
     }
   ],
   "pokemon_id": "124",

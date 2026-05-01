@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Llama",
-  "lore": "Chispa Llama, con escamas eléctricas que brillan en la oscuridad, camina con un porte orgulloso. Sus patas están cubiertas de chispas que generan energía al moverse, y su cola arde con una llama azul eléctrica.",
+  "species_name": "Pokémon Chispa Flameante",
+  "lore": "Chispa Flameante irradia energía eléctrica en su cola de llama, que ahora brilla con destellos azules. Sus escamas rojas se tornan brillantes y metálicas, y sus patas generan chispas al caminar.",
   "moves": [
     {
-      "name": "Chispa Calefactora",
-      "desc": "Lanza chispas que calientan y electrifican al mismo tiempo, causando daño doble.",
-      "name_en": "Heating Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow sparks, violet lightning bolts, bright white energy trails, stormy sky backdrop with neon-lit thunderclouds"
+      "name": "Relámpago Llama",
+      "desc": "Dispara un rayo eléctrico que quema al oponente y lo paraliza temporalmente.",
+      "name_en": "Flame Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy trails, crisp white static sparks, bright electric white shockwaves, pale blue glow emanating from urban cityscape background"
     },
     {
-      "name": "Relámpago Luminoso",
-      "desc": "Genera un relámpago que ilumina el área y aturde a los oponentes.",
-      "name_en": "Luminous Bolt",
-      "visual_prompt": "electric blue lightning bolts, neon yellow sparks, violet energy arcs, bright white afterimages, crackling storm cloud formations, neon-lit thunderclouds"
+      "name": "Chispa Escarcha",
+      "desc": "Genera una red eléctrica que congela el suelo alrededor, retrasando al enemigo.",
+      "name_en": "Frost Spark",
+      "visual_prompt": "crisp white ice lattice, neon yellow electric arcs, vibrant electric blue energy trails, pale blue frost particles, frozen city street reflections, electric storm cloud glow"
     },
     {
-      "name": "Llama Estática",
-      "desc": "Cubre su cuerpo con una llama estática que aumenta su defensa.",
-      "name_en": "Static Flame",
-      "visual_prompt": "crackling electric blue flames, neon yellow sparks, violet energy arcs, bright white static pulses, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Descarga Cálida",
+      "desc": "Aumenta el poder de los ataques eléctricos y cura levemente al usuario.",
+      "name_en": "Warm Charge",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow energy orbs, crisp white lightning bolts, bright electric white streaks, pale blue glow trails, urban cityscape background with flickering neon signs, electric storm clouds in the distance, dynamic motion lines, stylized 2D VFX, Ken Sugimori aesthetic, no characters or Pokémon"
     },
     {
-      "name": "Tormenta de Chispas",
-      "desc": "Dispara una ráfaga de chispas que daña y debilita el ataque del rival.",
-      "name_en": "Spark Storm",
-      "visual_prompt": "crackling electric blue bolts, neon yellow sparks, violet energy arcs, bright white lightning streaks, stormy sky background, neon-lit thunderclouds, dynamic energy field"
+      "name": "Sobrecarga Fuego",
+      "desc": "Ataque potente que causa daño eléctrico y aumenta la velocidad del usuario.",
+      "name_en": "Electric Surge",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white sparks, bright electric white arcs, pale blue glow effects, urban cityscape neon signs flickering, electric storm clouds"
     }
   ],
   "diffs": [
     {
-      "from": "Llama en la cola",
-      "to": "Se vuelve azul eléctrica y genera chispas al moverse."
+      "from": "cola de llama",
+      "to": "cola brillante con destellos azules y chispas eléctricas"
     },
     {
-      "from": "Escamas rojas",
-      "to": "Se cubren de escamas plateadas que brillan con energía eléctrica."
+      "from": "escamas rojas",
+      "to": "escamas metálicas brillantes con tonos azulados"
     },
     {
-      "from": "Postura baja",
-      "to": "Adopta un porte más erguido, con patas cargadas de energía."
+      "from": "patas sin chispas",
+      "to": "patas que generan chispas al caminar"
     },
     {
-      "from": "Piel cálida",
-      "to": "Emite una corriente eléctrica que mantiene un frescor constante."
+      "from": "movimientos de fuego",
+      "to": "movimientos eléctricos con efectos de quemadura"
     }
   ],
   "pokemon_id": "004",

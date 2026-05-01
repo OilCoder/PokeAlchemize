@@ -1,35 +1,34 @@
 {
   "identity_traits": [
-    "rounded bulbous body shape",
-    "curved tail tip with a distinct curl",
-    "spiky protrusions covering body and limbs",
-    "claw-like appendages on all limbs",
-    "bone-like structure on chest",
-    "pointed ears"
+    "quadrupedal stance with four legs",
+    "spiky body texture with sharp protrusions",
+    "bulbous head with pronounced facial features",
+    "sharp, curved claws on all limbs",
+    "gray and white color scheme with black accents",
+    "rounded body shape with a distinct torso"
   ],
   "original_type_traits": [
-    "gray and white color scheme",
-    "spiky protrusions resembling insect exoskeleton",
-    "claw-like appendages typical of bug-type Pokémon"
+    "spikes on body derived from bug type",
+    "sharp claws on limbs derived from bug type",
+    "bulbous head with insect-like features"
   ],
   "transformable_parts": [
-    "tail tip",
-    "spiky protrusions",
-    "claw-like appendages",
-    "chest bone structure",
-    "body coloration",
-    "ear shape"
+    "spikes on body",
+    "claws on limbs",
+    "body texture",
+    "head shape",
+    "torso curvature",
+    "leg structure"
   ],
   "suppress_colors": [
     "gray",
     "white",
-    "insect exoskeleton green",
-    "bug-type accent colors"
+    "black"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, low stance",
-    "spiky protrusions covering body and limbs, sharp edges",
-    "claw-like appendages on all limbs, curved and pointed"
+    "quadruped, four legs planted on ground, low crawling stance",
+    "bulbous head with sharp facial structure",
+    "spiky body texture with sharp protrusions"
   ],
   "pokemon_id": "127",
   "pokemon_name": "pinsir",
@@ -39,25 +38,27 @@
   "visual_facts": {
     "body_colors": [
       "gray",
-      "white"
-    ],
-    "head_colors": [
-      "gray",
-      "white"
-    ],
-    "limbs_colors": [
-      "gray",
-      "white"
+      "white",
+      "black"
     ],
     "body_parts": [
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "legs",
+      "spikes",
+      "claws"
     ],
-    "silhouette": "The Pokémon has a rounded, bulbous body with a prominent, curved tail tip.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a quadrupedal shape with four legs, a rounded body, and a head with sharp features.",
+    "type_markers": [
+      "spikes on body",
+      "claws on limbs"
+    ],
     "distinctive_features": [
-      "spiky protrusions on the body and limbs",
-      "sharp, claw-like appendages on the arms and legs",
-      "bone-like structure on the chest"
+      "spiky body",
+      "sharp claws",
+      "bulbous head"
     ]
   }
 }

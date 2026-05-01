@@ -1,34 +1,34 @@
 {
   "identity_traits": [
-    "rounded cat-like body silhouette",
+    "rounded blob body shape",
     "large expressive eyes",
-    "fluffy pink fur texture",
-    "curled tail tip",
-    "short stubby legs",
-    "pointed ears"
+    "rounded ears",
+    "four small paws",
+    "small tail",
+    "cat-like silhouette"
   ],
   "original_type_traits": [
-    "pink fur (fairy type association)",
-    "fluffy texture (fairy type association)",
-    "rounded body shape (normal type association)"
+    "pink body color (normal/fairy type association)",
+    "soft rounded texture (fairy type association)",
+    "no visible type markers"
   ],
   "transformable_parts": [
+    "ears",
+    "eyes",
     "tail",
-    "fur texture",
-    "ear shape",
-    "body contour",
-    "eye shape",
-    "leg structure"
+    "paws",
+    "body texture",
+    "silhouette shape"
   ],
   "suppress_colors": [
     "pink",
     "soft pastel tones",
-    "fluffy texture color"
+    "fairy-like glow"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low crawling stance",
+    "blob body, no distinct limbs, amorphous form",
     "large round eyes with black pupils",
-    "curled spiral tail tip"
+    "rounded ears with small inner creases"
   ],
   "pokemon_id": "039",
   "pokemon_name": "jigglypuff",
@@ -41,19 +41,19 @@
       "pink"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "ears",
+      "eyes",
+      "nose",
+      "paws"
     ],
-    "silhouette": "The Pokémon has a rounded, cat-like body with a small, stubby tail and large, expressive eyes.",
+    "body_plan": "quadruped",
+    "silhouette": "The silhouette is rounded and cat-like, with four visible paws and a small tail.",
     "type_markers": [
       "none visible"
     ],
     "distinctive_features": [
-      "large, round eyes",
-      "fluffy appearance",
-      "curled tail tip"
+      "large, expressive eyes",
+      "rounded ears"
     ]
   }
 }

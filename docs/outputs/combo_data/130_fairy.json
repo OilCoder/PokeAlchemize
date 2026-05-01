@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Hada",
-  "lore": "Aliento de Hada se erige con patas de cisne y alas de cristal. Su piel brilla con destellos de luz dorada, y sus ojos brillan con magia efímera. El tipo hada transforma su fuerza en gracia celestial.",
+  "species_name": "Pokémon Llama Marfada",
+  "lore": "Gyarados transformado en un ser de magia efímera, con escamas que brillan como cristales de nieve. Su cuerpo serpenteante ahora emana destellos de luz dorada, y sus alas transparentes brillan con destellos de estrellas al volar.",
   "moves": [
     {
-      "name": "Ala de Caramelo",
-      "desc": "Lanza un ataque con alas que desprenden dulces esferas de energía, curando al aliado.",
-      "name_en": "Candy Wing",
-      "visual_prompt": "glowing pastel pink wings, floating crystalline mint candy orbs, soft ivory white mist, pearl lavender energy trails, starlight blue sparkle particles, moonlit garden backdrop"
+      "name": "Danza de Estrellas",
+      "desc": "El Pokémon emite destellos de luz que confunden al rival y reducen su precisión.",
+      "name_en": "Starlight Dance",
+      "visual_prompt": "glowing pastel pink starlight particles, swirling lavender mist, delicate ivory white sparkles, shimmering silver moonbeams, floating pearlescent orbs, soft focus moonlit meadow backdrop"
     },
     {
-      "name": "Pétalo de Sueño",
-      "desc": "Cubre al enemigo con pétalos que inducen un sueño profundo, reduciendo su velocidad.",
-      "name_en": "Dream Petal",
-      "visual_prompt": "floating pastel pink petals, soft ivory white mist, pearl lavender glow, starlight blue crystalline trails, gentle twirling motion, ethereal shimmer, dreamy soft focus"
+      "name": "Beso de Luna",
+      "desc": "Ataca con un beso de luz suave que cura un poco de salud al aliado.",
+      "name_en": "Moon Kiss",
+      "visual_prompt": "soft pastel pink light orbs, delicate lavender petals floating in air, ivory white crescent moon glow, pearly gold shimmer particles, gentle silver mist swirling, moonlit meadow backdrop with glowing fairy lights"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Aumenta la precisión de todos los movimientos durante un turno con un destello lunar.",
-      "name_en": "Moonlight Gleam",
-      "visual_prompt": "soft pastel pink moonbeams, glowing starlight blue crystals, ivory white mist, pearl lavender petals floating, crystalline mint light particles, delicate star patterns in the air, ethereal glow, smooth flowing motion, no characters or Pokémon, 2D stylized VFX, Ken Sugimori style"
+      "name": "Canto de Sueños",
+      "desc": "Crea una melodía que induce al rival a dormir, dejándolo vulnerable.",
+      "name_en": "Dream Song",
+      "visual_prompt": "floating pastel pink musical notes, soft lavender mist, glowing ivory white petals, shimmering silver moonbeams, delicate pearly gold sparkles, ethereal dreamy atmosphere"
     },
     {
-      "name": "Canción de Hada",
-      "desc": "Crea una melodía mágica que fortalece el ataque y defensa del equipo.",
-      "name_en": "Fairy Song",
-      "visual_prompt": "glowing pastel pink musical notes, floating crystalline mint orbs, ivory white starlight petals, pearl lavender mist, soft moonlit garden backdrop, ethereal shimmering light trails"
+      "name": "Ráfaga de Cristal",
+      "desc": "Dispara un ataque de cristales brillantes que quiebra la defensa del enemigo.",
+      "name_en": "Crystal Gust",
+      "visual_prompt": "shimmering crystal shards, soft pastel pink light, delicate lavender mist, ivory white sparkle trails, pearly gold reflections, moonlit meadow backdrop, intricate crystal fractal patterns, ethereal glow, misty flower field atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "patas cuadrúpedas y postura baja",
-      "to": "patas de cisne y postura erguida, elegante"
+      "from": "Cuerpo serpenteante",
+      "to": "Ahora brilla con destellos dorados y emite luz mágica."
     },
     {
-      "from": "alas de dragón con textura áspera",
-      "to": "alas de cristal transparente y ligero brillo"
+      "from": "Alas transparentes",
+      "to": "Se transforman en alas de cristal que brillan con reflejos estelares."
     },
     {
-      "from": "piel azul oscura y escamas duras",
-      "to": "piel brillante con destellos dorados y textura suave"
+      "from": "Escamas de agua",
+      "to": "Se convierten en escamas de cristal que reflejan la luz de la luna."
     },
     {
-      "from": "fuerza bruta en combate",
-      "to": "gracia y magia en cada movimiento"
+      "from": "Aliento de agua",
+      "to": "Se transforma en un aliento de luz que cura y protege."
     }
   ],
   "pokemon_id": "130",

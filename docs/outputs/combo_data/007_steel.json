@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Marina",
-  "lore": "Este Squirtle de acero marino camina con paso firme sobre sus patas cortas, su caparazón reluciente refleja el agua. Sus ojos brillan con una luz metálica, y su respiración emite un suave zumbido de acero.",
+  "species_name": "Pokémon Escudo Acero",
+  "lore": "Escudo Acero, un Squirtle reforzado con armadura de acero. Sus patas se han endurecido en placas metálicas, y su caparazón brilla con reflejos fríos. Su postura baja ahora es una fortaleza inquebrantable.",
   "moves": [
     {
-      "name": "Bomba de Acero",
-      "desc": "Lanza una esfera de acero que impacta con fuerza, causando daño y reduciendo la defensa del oponente.",
-      "name_en": "Steel Bomb",
-      "visual_prompt": "gunmetal gray steel sphere, glowing electric blue energy core, metallic steam vents, polished silver sparks, neon cyan impact rings, industrial cityscape backdrop, sharp geometric shockwaves"
+      "name": "Escudo Reforzado",
+      "desc": "Aumenta la defensa y bloquea ataques físicos por un turno.",
+      "name_en": "Reinforced Shield",
+      "visual_prompt": "polished chrome shield, gunmetal gray energy waves, deep steel blue glowing lines, matte black metallic texture, industrial workshop background with reflective surfaces"
     },
     {
-      "name": "Escudo Marítimo",
-      "desc": "Crea un escudo de acero que absorbe el daño y refleja el ataque en contra del oponente.",
-      "name_en": "Maritime Shield",
-      "visual_prompt": "gunmetal gray steel shield with polished silver edges, electric blue energy waves reflecting off its surface, neon cyan ripples, industrial cityscape backdrop with glowing neon signs, metallic steam vents emitting vapor"
+      "name": "Cascada Metálica",
+      "desc": "Ataca con olas de agua que reflejan en acero, causando daño adicional.",
+      "name_en": "Metal Cascade",
+      "visual_prompt": "polished chrome water waves, gunmetal gray reflections, deep steel blue energy ripples, matte black metallic sheen, industrial workshop glow, stylized 2D VFX"
     },
     {
-      "name": "Corte de Mar",
-      "desc": "Corta el agua con un movimiento de acero, causando daño y reduciendo la velocidad del oponente.",
-      "name_en": "Steel Slash",
-      "visual_prompt": "shimmering steel blade slicing through water droplets, polished silver edges, metallic steam rising, neon cyan trails, gunmetal gray splashes, industrial cityscape backdrop"
+      "name": "Mandíbula de Acero",
+      "desc": "Ataca con una mordida que rompe la defensa del oponente.",
+      "name_en": "Steel Bite",
+      "visual_prompt": "crisp steel jaws, polished chrome teeth, gunmetal gray energy waves, matte black impact sparks, deep steel blue glow, industrial workshop metal surfaces, sharp geometric energy lines"
     },
     {
       "name": "Resonancia de Acero",
-      "desc": "Genera una onda de sonido metálico que reduce la precisión del oponente.",
+      "desc": "Genera un sonido metálico que reduce la precisión del enemigo.",
       "name_en": "Steel Resonance",
-      "visual_prompt": "metallic sound wave, gunmetal gray ripples, polished silver distortion, neon cyan echoes, electric blue vibrations, industrial steam vents, metallic reflections, glowing neon city skyline"
+      "visual_prompt": "metallic sound waves, gunmetal gray distortion ripples, silver shimmering energy lines, polished chrome reflections, deep steel blue aura, industrial workshop background glow, matte black accents"
     }
   ],
   "diffs": [
     {
-      "from": "caparazón de agua",
-      "to": "caparazón de acero brillante que refleja el agua"
+      "from": "Caparazón blando de agua",
+      "to": "Caparazón endurecido en acero, resistente a golpes"
     },
     {
-      "from": "movimiento lento",
-      "to": "movimiento firme y rápido sobre patas cortas"
+      "from": "Pies pequeños y blandos",
+      "to": "Patas transformadas en placas metálicas, firmes en el suelo"
     },
     {
-      "from": "respiración suave",
-      "to": "respiración que emite un zumbido metálico"
+      "from": "Postura baja y vulnerable",
+      "to": "Postura de fortaleza, impenetrable a ataques físicos"
     },
     {
-      "from": "ojos claros",
-      "to": "ojos que brillan con luz metálica"
+      "from": "Agua como fuente de ataque",
+      "to": "Agua reflejada en acero, atacando con precisión metálica"
     }
   ],
   "pokemon_id": "007",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Hada",
-  "lore": "Aliento de Hada brilla con destellos dorados, sus orejas se transforman en pétalos brillantes. Su cola, ahora en forma de mariposa, emite un aura mágica que calma a los enemigos.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Pikachu, ahora con alas de mariposa, brilla con un aura de hada. Sus mejillas emiten destellos de luz etérea, y sus orejas se transforman en pétalos brillantes que danzan al viento.",
   "moves": [
     {
       "name": "Canto de Luna",
-      "desc": "Crea una melodía que reduce el ataque del oponente y aumenta la defensa propia.",
-      "name_en": "Lunar Chant",
-      "visual_prompt": "floating moonlit petals, soft pastel pink and pearl lavender glow, crystalline mint starlight trails, ivory white mist, delicate glowing flower patterns, ethereal shimmering aura"
+      "desc": "Canta una melodía que cura heridas y reduce el daño de los ataques enemigos.",
+      "name_en": "Lunar Melody",
+      "visual_prompt": "glowing crescent moon, soft pastel pink petals floating in air, delicate lavender mist, shimmering silver starlight, ivory white energy orbs, gentle wave of healing light"
     },
     {
-      "name": "Pétalo Mágico",
-      "desc": "Lanza pétalos que causan daño y confunden al rival con su brillo.",
-      "name_en": "Magic Petal",
-      "visual_prompt": "floating pastel pink petals with glowing starlight blue edges, soft ivory white mist, pearl lavender sparkles, crystalline mint light trails, ethereal moonlit garden backdrop"
+      "name": "Ala de Polvo",
+      "desc": "Lanza un polvo brillante que confunde al oponente y reduce su precisión.",
+      "name_en": "Dust Wing",
+      "visual_prompt": "glittering pastel pink dust particles, swirling in delicate lavender mist, shimmering silver sparkles, ivory white light beams, floating fairy lights, soft moonlit glow"
     },
     {
-      "name": "Beso de Estrellas",
-      "desc": "Ataca con un beso de luz que restaura la salud y cura debilidades.",
-      "name_en": "Starlight Kiss",
-      "visual_prompt": "glowing starlight blue orbs, soft pastel pink petals floating in mist, ivory white light trails, pearl lavender sparkles, crystalline mint energy pulses, delicate moonlit garden backdrop, soft misty twilight atmosphere"
+      "name": "Brillo de Estrella",
+      "desc": "Genera un resplandor que aumenta el ataque y la defensa del usuario.",
+      "name_en": "Starlight Glow",
+      "visual_prompt": "soft pastel pink light rays, delicate lavender shimmer, pearly gold particles, ivory white mist, moonlit meadow backdrop, shimmering silver sparkles, ethereal glow effect"
     },
     {
-      "name": "Danza de Hada",
-      "desc": "Realiza un baile que aumenta el ataque y evita los ataques críticos.",
-      "name_en": "Fairy Dance",
-      "visual_prompt": "glowing pastel pink petals swirling in a circular motion, ivory white starlight trails, pearl lavender mist, crystalline mint sparkling orbs, soft moonlit garden backdrop with glowing flowers"
+      "name": "Pétalo de Sueño",
+      "desc": "Lanza pétalos que inducen un sueño profundo al enemigo.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "floating pastel pink petals, soft ivory white glow, delicate lavender mist, pearly gold shimmer, moonlit meadow backdrop, ethereal glow, gentle motion, soft focus, dreamy atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas plantadas en el suelo",
-      "to": "Patas transformadas en garras de hada que brillan con brillo dorado"
+      "from": "orejas",
+      "to": "se transforman en pétalos brillantes que danzan al viento"
     },
     {
-      "from": "Cola eléctrica",
-      "to": "Cola en forma de mariposa que emite pétalos brillantes"
+      "from": "mejillas",
+      "to": "emiten destellos de luz etérea"
     },
     {
-      "from": "Orejas puntiagudas",
-      "to": "Orejas convertidas en pétalos brillantes que brillan con luz dorada"
+      "from": "postura",
+      "to": "adquiere un equilibrio suave y ligero con alas de mariposa"
     },
     {
-      "from": "Energía eléctrica",
-      "to": "Energía convertida en aura mágica que calma a los enemigos"
+      "from": "electricidad",
+      "to": "se convierte en una aura de hada brillante y etérea"
     }
   ],
   "pokemon_id": "025",

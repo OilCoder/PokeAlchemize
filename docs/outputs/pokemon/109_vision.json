@@ -1,0 +1,20 @@
+{
+  "body_colors": [
+    "dark purple"
+  ],
+  "body_parts": [
+    "round body",
+    "skull symbol on belly",
+    "smiling face with eyes and mouth",
+    "clouds of smoke around"
+  ],
+  "body_plan": "blob",
+  "silhouette": "The creature is a spherical, dark purple body with a skull symbol on its belly, smiling face, and clouds of smoke around it.",
+  "type_markers": [
+    "skull symbol on belly"
+  ],
+  "distinctive_features": [
+    "smiling face",
+    "clouds of smoke"
+  ]
+}

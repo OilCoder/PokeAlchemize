@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Hueso Fantasma",
-  "lore": "Cubone ahora camina sobre sombras, sus huesos brillan con un resplandor espectral. Sus patas se han vuelto translúcidas, y su cráneo emite un aura fría que atrae espíritus perdidos.",
+  "lore": "Cubone, ahora un esqueleto envuelto en una capa de niebla espectral, camina con pasos silenciosos sobre el suelo. Su cráneo brillante emite un resplandor azul, y sus patas se desvanecen en sombras al moverse.",
   "moves": [
     {
-      "name": "Alma Errante",
-      "desc": "Atrae espíritus cercanos para atacar con fuerza sobrenatural.",
-      "name_en": "Wandering Soul",
-      "visual_prompt": "floating ghostly orbs, translucent violet wisps, drifting ash particles, pale silver mist, shadow violet aura, ethereal moonlight glow, gravestone-shaped mist swirls, charcoal gray undertones"
-    },
-    {
-      "name": "Cruce Sombra",
-      "desc": "Crea un túnel oscuro que confunde al rival y permite un ataque rápido.",
-      "name_en": "Shadow Cross",
-      "visual_prompt": "dark violet tunnel, swirling mist, ghostly silver orbs, shadowy tendrils, moonlit tombstone outlines, ethereal fog, pale silver light beams, charcoal gray haze, shadow violet glow, distorted space effect"
-    },
-    {
-      "name": "Espectro de Hueso",
-      "desc": "Lanza huesos que atraviesan barreras y causan daño espectral.",
+      "name": "Espectro de Huesos",
+      "desc": "Lanza huesos brillantes que atraviesan a los enemigos con un aura fantasmal.",
       "name_en": "Bone Specter",
-      "visual_prompt": "floating shattered bones, translucent violet mist, glowing pale silver bone fragments, shadow violet energy trails, ethereal fog, ghostly white outlines, deep violet glow, fragmented tombstone shards"
+      "visual_prompt": "translucent bone shards, spectral white aura, pale silver mist, icy blue moonlight glow, drifting ghostly orbs, moonlit ruin backdrop, frosty translucence, ethereal shimmer"
     },
     {
-      "name": "Susurro Mortal",
-      "desc": "Reduce la defensa del oponente con un grito de almas en pena.",
-      "name_en": "Soul Whisper",
-      "visual_prompt": "ethereal violet mist swirling around moonlit tombstones, ghostly silver whispers forming from shadowy orbs, pale silver particles floating in charcoal gray fog, haunting violet aura with subtle glowing veins"
+      "name": "Sombra Errante",
+      "desc": "Se desplaza a través de paredes y crea una sombra para confundir al rival.",
+      "name_en": "Wandering Shade",
+      "visual_prompt": "translucent ghostly orbs drifting through moonlit ruins, spectral white mist swirling in icy blue patterns, pale silver moonlight rays piercing through broken stone walls, ghostly shadow distortions forming confusing shapes"
+    },
+    {
+      "name": "Resonancia Fantasma",
+      "desc": "Crea un eco que debilita la defensa del oponente con sonidos espirituales.",
+      "name_en": "Ghost Echo",
+      "visual_prompt": "translucent spectral orbs floating in moonlit ruins, pale silver mist swirling, icy blue echoes fading into moonlight gray, ghostly sound waves with frost patterns, ethereal glow"
+    },
+    {
+      "name": "Fúnebre Lamento",
+      "desc": "Emite un grito que reduce la velocidad del enemigo y lo paraliza temporalmente.",
+      "name_en": "Ghastly Lament",
+      "visual_prompt": "translucent spectral orbs drifting in pale silver mist, moonlight gray ripples, icy blue frost patterns, ghostly white sound waves, moonlit ruins backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas translúcidas que caminan sobre sombras"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas que se desvanecen en sombras, caminando sin dejar huella."
     },
     {
-      "from": "cráneo de hueso con expresión triste",
-      "to": "cráneo brillante con aura espectral y expresión serena"
+      "from": "Cabeza con cráneo protegido",
+      "to": "Cráneo brillante con aura espectral que emite luz azul."
     },
     {
-      "from": "posición baja en el suelo",
-      "to": "postura flotante sobre una capa de niebla"
+      "from": "Postura baja de reptación",
+      "to": "Caminar con paso elevado y silencioso, como un fantasma."
     },
     {
-      "from": "tipo suelo",
-      "to": "tipo fantasma, absorbiendo energías espirituales"
+      "from": "Suelo como base natural",
+      "to": "Caminar sobre el aire, como si flotara sobre sombras."
     }
   ],
   "pokemon_id": "104",

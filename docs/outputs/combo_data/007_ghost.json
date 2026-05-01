@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Sombra Acuática",
-  "lore": "Squirtle, ahora envuelto en sombras etéreas, camina con pasos silenciosos. Su caparazón brillante refleja la oscuridad, mientras sus ojos emiten un brillo azul fantasmal. El agua de su espalda se condensa en niebla misteriosa.",
+  "lore": "Squirtle, ahora envuelto en un aura espectral, camina con paso fantasmal. Su caparazón brillante se torna translúcido, y sus ojos emiten un destello azul pálido. El agua de su espalda fluye como niebla etérea.",
   "moves": [
     {
+      "name": "Ola Espectral",
+      "desc": "Ataca con una ola de agua que atraviesa objetos sólidos, dejando un rastro de niebla.",
+      "name_en": "Spectral Wave",
+      "visual_prompt": "translucent ghostly wave, icy blue mist, pale silver ripples, moonlit ruins backdrop, drifting spectral orbs, translucent frost trails, spectral white glow, ethereal water flow, moonlight gray mist"
+    },
+    {
       "name": "Sombra Húmeda",
-      "desc": "Genera una neblina oscura que reduce la precisión del oponente.",
-      "name_en": "Wet Shadow",
-      "visual_prompt": "dense mist, dark violet fog, ghostly white tendrils, charcoal gray swirls, pale silver mist particles, ethereal moonlit glow, shadowy tendrils curling, misty graveyard atmosphere"
+      "desc": "Cubre al oponente con una niebla húmeda que reduce su precisión.",
+      "name_en": "Misty Shade",
+      "visual_prompt": "translucent ghostly mist, pale silver moonlight glow, drifting icy blue orbs, spectral white fog tendrils, moonlit ruin textures, frosty translucent haze"
     },
     {
-      "name": "Burbuja Fantasma",
-      "desc": "Lanza burbujas que atraviesan defensas y causan daño adicional.",
-      "name_en": "Ghost Bubble",
-      "visual_prompt": "translucent violet bubbles floating in mist, ghostly silver trails, deep violet fog, shattered defensive barriers, pale silver impact sparks, shadow violet aura, ethereal graveyard mist"
+      "name": "Respiración Fantasma",
+      "desc": "Emite un susurro espectral que confunde al rival, reduciendo su confianza.",
+      "name_en": "Ghost Breath",
+      "visual_prompt": "translucent spectral orbs drifting in pale silver mist, icy blue moonlight glow, ghostly whispers forming swirling patterns, moonlit ruins with faint outlines, ethereal frost particles floating in air, spectral white and moonlight gray color palette, no characters or Pokémon, stylized Ken Sugimori VFX style, wide banner composition"
     },
     {
-      "name": "Resplandor Espectral",
-      "desc": "Ilumina el área con un brillo azul que restaura PS al equipo.",
-      "name_en": "Spectral Glow",
-      "visual_prompt": "glowing blue aura, misty graveyard fog, floating ghostly orbs, moonlit tombstones silhouette, ethereal silver light rays, deep violet shadows, pale silver mist particles, ghostly white energy trails"
-    },
-    {
-      "name": "Ola de Sombras",
-      "desc": "Envía una ola de sombras que reduce el ataque del oponente.",
-      "name_en": "Shadow Wave",
-      "visual_prompt": "shadowy wave cresting with deep violet and charcoal gray, ethereal fog drifting through moonlit tombstones, pale silver mist swirling, ghostly white outlines fading into shadow violet"
+      "name": "Chorro de Niebla",
+      "desc": "Dispara un chorro de niebla que oculta el campo de batalla.",
+      "name_en": "Fog Burst",
+      "visual_prompt": "translucent icy blue fog, drifting spectral orbs, pale silver mist, moonlit ruins silhouette, ghostly glow, ethereal mist tendrils, frosty haze, spectral white light, moonlight gray atmosphere"
     }
   ],
   "diffs": [
     {
-      "from": "Caparazón brillante",
-      "to": "Refleja oscuridad en lugar de luz, emitiendo brillo azul fantasmal."
+      "from": "caparazón sólido",
+      "to": "caparazón translúcido que refleja la luz espectral"
     },
     {
-      "from": "Agua en la espalda",
-      "to": "Se condensa en niebla misteriosa que envuelve al Pokémon."
+      "from": "piel resistente",
+      "to": "piel se volvió semitransparente y fría al tacto"
     },
     {
-      "from": "Pies en el suelo",
-      "to": "Caminar con pasos silenciosos, sin dejar huellas."
+      "from": "ataque con agua",
+      "to": "agua que ahora fluye como niebla etérea"
     },
     {
-      "from": "Postura baja",
-      "to": "Mantener una postura más alta para observar desde la sombra."
+      "from": "postura baja",
+      "to": "caminar con paso fantasmal y deslizante en el suelo"
     }
   ],
   "pokemon_id": "007",

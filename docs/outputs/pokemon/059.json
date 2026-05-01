@@ -1,35 +1,36 @@
 {
   "identity_traits": [
-    "compact muscular body",
-    "rounded head",
-    "bushy tail",
-    "spiky hair",
-    "pointed ears",
-    "striped chest pattern"
+    "robust quadrupedal build",
+    "bushy tail with distinct tip",
+    "spiky fur texture on body",
+    "striped patterns on limbs",
+    "distinctive facial structure with prominent muzzle",
+    "pawed feet with clear toe separation"
   ],
   "original_type_traits": [
-    "beige and brown color scheme",
-    "dark brown tail tip",
-    "tan leg accents"
+    "flame on tail tip",
+    "orange-red coloration in original palette",
+    "heat-haze effect around body"
   ],
   "transformable_parts": [
-    "spiky hair",
-    "striped chest pattern",
-    "tail tip curl",
-    "leg accents",
-    "head shape",
-    "ear shape"
+    "tail tip",
+    "fur texture",
+    "limb patterns",
+    "ear shape",
+    "facial markings",
+    "paw texture"
   ],
   "suppress_colors": [
-    "beige",
-    "brown",
-    "dark brown",
-    "tan"
+    "orange",
+    "red",
+    "yellow",
+    "burnt amber",
+    "heat-haze glow"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "spiky hair on head and neck",
-    "curled tail tip with dark brown tip"
+    "quadruped, four legs planted on ground",
+    "spiky fur texture covering entire body",
+    "striped pattern running vertically on limbs"
   ],
   "pokemon_id": "059",
   "pokemon_name": "arcanine",
@@ -40,24 +41,27 @@
     "body_colors": [
       "beige",
       "brown",
-      "dark brown",
-      "tan"
+      "black",
+      "white"
     ],
     "body_parts": [
-      "spiky hair",
-      "pointed ears",
-      "striped chest",
-      "short stubby legs",
-      "curled tail tip"
+      "head",
+      "ears",
+      "eyes",
+      "body",
+      "arms",
+      "legs",
+      "tail",
+      "paws"
     ],
-    "silhouette": "The Pokémon has a compact, muscular body with a rounded head and a bushy tail.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a robust, quadrupedal body with a bushy tail and distinct paws, suggesting it is a four-legged animal.",
     "type_markers": [
-      "striped chest pattern"
+      "flame on tail tip"
     ],
     "distinctive_features": [
-      "spiky hair",
-      "pointed ears",
-      "curled tail tip"
+      "spiky fur",
+      "striped pattern on arms and legs"
     ]
   }
 }

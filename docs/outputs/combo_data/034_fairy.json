@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Fae",
-  "lore": "Flor de Fae camina con pasos suaves, sus patas se transforman en pétalos brillantes. Sus cuernos se curvan en espirales doradas, y su pelaje ahora brilla con destellos de luz etérea. El tipo hada ha suavizado su presencia, dándole un aire de delicadeza mágica.",
+  "species_name": "Pokémon Dama de la Bruma",
+  "lore": "Nidoking, ahora envuelto en brumas etéreas, camina con pasos suaves sobre el suelo. Sus cuernos brillan con un resplandor púrpura, y su pelaje se transforma en una capa de polvo de hada que refleja la luz del amanecer.",
   "moves": [
     {
-      "name": "Pétalo de Sueño",
-      "desc": "Lanza pétalos que envuelven al rival en un sueño profundo, reduciendo su velocidad.",
-      "name_en": "Dream Petal",
-      "visual_prompt": "floating pastel pink petals, glowing starlight blue mist, soft ivory white aura, crystalline mint light trails, delicate lavender swirls, moonlit garden backdrop, ethereal glow, gentle motion blur"
+      "name": "Aliento de Estrellas",
+      "desc": "Lanza un aliento que forma constelaciones en el aire, curando heridas y confundiendo a los enemigos.",
+      "name_en": "Star Breath",
+      "visual_prompt": "glowing constellations, soft pastel pink and lavender star trails, delicate ivory white mist, pearly gold shimmering particles, moonlit meadow backdrop, ethereal sparkling light effects"
     },
     {
-      "name": "Brillo de Luna",
-      "desc": "Aumenta el poder de los ataques especiales y cura leves heridas con luz lunar.",
-      "name_en": "Moonlight Gleam",
-      "visual_prompt": "luminous crescent moon, floating pastel pink petals, soft ivory white light rays, pearl lavender star clusters, crystalline mint energy orbs, gentle misty glow, ethereal moonlit garden backdrop"
+      "name": "Pétalos de Sueño",
+      "desc": "Dispersa pétalos que inducen un sueño profundo, dejando al enemigo vulnerable a ataques.",
+      "name_en": "Dream Petals",
+      "visual_prompt": "floating pastel pink and lavender petals, soft glowing ivory white mist, delicate pearly gold shimmer trails, moonlight beams filtering through mist, ethereal silver sparkles, no characters or Pokémon, Ken Sugimori style, wide banner format, 2D stylized VFX"
     },
     {
-      "name": "Canto de Fae",
-      "desc": "Crea una melodía que debilita a los enemigos y mejora la defensa del equipo.",
-      "name_en": "Fae Melody",
-      "visual_prompt": "floating pastel pink musical notes, glowing ivory white starlight orbs, pearl lavender crystalline petals, soft misty twilight sky background, delicate starlight blue shimmer effects"
+      "name": "Brisa de Ensoñación",
+      "desc": "Crea una brisa que eleva al enemigo y reduce su velocidad durante un tiempo.",
+      "name_en": "Dream Breeze",
+      "visual_prompt": "gentle swirling pastel pink and lavender mist, floating ivory white petals, shimmering silver sparkles, slow-motion levitating effect, delicate pearly gold glow, moonlit meadow backdrop"
     },
     {
-      "name": "Cristal de Luz",
-      "desc": "Crea un escudo de cristal que absorbe el daño especial y refleja ataques.",
-      "name_en": "Crystal Shield",
-      "visual_prompt": "glowing crystal shield, intricate geometric patterns, soft pastel pink light, ivory white reflections, pearl lavender accents, starlight blue shimmer, crystalline mint glow, floating dewdrops, delicate misty aura"
+      "name": "Canto de la Luna",
+      "desc": "Emite un canto que aumenta la defensa y la precisión de aliados en combate.",
+      "name_en": "Lunar Chant",
+      "visual_prompt": "moonlit glow, swirling pastel pink and lavender mist, delicate silver starlight, floating ivory-white petals, shimmering gold particles, soft ethereal light beams"
     }
   ],
   "diffs": [
     {
-      "from": "Cuernos afilados",
-      "to": "Cuernos curvados en espirales doradas"
+      "from": "Cuernos venenosos",
+      "to": "Cuernos brillantes con resplandor púrpura que emanan energía de hada"
     },
     {
-      "from": "Piel áspera y oscura",
-      "to": "Pelaje brillante con destellos etéreos"
+      "from": "Piel terrosa",
+      "to": "Pelaje transformado en polvo de hada que brilla bajo la luz"
     },
     {
-      "from": "Postura musculosa y terrenal",
-      "to": "Paso suave y elegante, patas transformadas en pétalos"
+      "from": "Paso pesado",
+      "to": "Pasos suaves que dejan huellas de bruma en el suelo"
     },
     {
-      "from": "Ataques venenosos",
-      "to": "Ataques de luz etérea que curan y debilitan"
+      "from": "Ataque venenoso",
+      "to": "Ataques basados en magia de hada que curan y confunden"
     }
   ],
   "pokemon_id": "034",

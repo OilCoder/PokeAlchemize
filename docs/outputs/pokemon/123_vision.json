@@ -1,0 +1,23 @@
+{
+  "body_colors": [
+    "bright green",
+    "white"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "wings",
+    "arms",
+    "claws"
+  ],
+  "body_plan": "biped",
+  "silhouette": "The creature has a dragon-like body with a pair of wings, standing upright on two legs with arms held free from the ground.",
+  "type_markers": [
+    "wings",
+    "arms"
+  ],
+  "distinctive_features": [
+    "large, pointed wings",
+    "long, sharp claws"
+  ]
+}

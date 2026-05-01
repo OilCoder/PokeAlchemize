@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Mímico Acuático",
-  "lore": "Mr-mime, ahora con piel de algas brillantes, camina con pasos suaves sobre el agua. Sus manos forman burbujas que resuenan como campanas en el mar. Su postura se ha adaptado para flotar, sin perder su elegancia mística.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Mr-mime se transforma en un ser acuático con patas de cangrejo, su cuerpo brillante refleja el agua. Sus manos de mago ahora emiten burbujas de color que confunden a los enemigos.",
   "moves": [
     {
       "name": "Burbuja Mística",
-      "desc": "Genera burbujas que absorben ataques psíquicos y reflejan energías místicas.",
+      "desc": "Lanza burbujas que ralentizan al rival y confunden sus movimientos.",
       "name_en": "Mystic Bubble",
-      "visual_prompt": "glowing bioluminescent bubbles, deep ocean blue water surface, teal green ripples, pearly white reflections, aquamarine light beams, sapphire blue energy waves, calm underwater currents, translucent bubble clusters, soft luminescent glow, ethereal misty haze"
+      "visual_prompt": "glowing teal bubbles, slow-motion ripples, pearly white mist, deep ocean blue swirls, sapphire blue light refraction, calm water surface with gentle waves"
     },
     {
-      "name": "Ola de Sueños",
-      "desc": "Crea una ola que envuelve al enemigo en un sueño profundo, reduciendo su velocidad.",
-      "name_en": "Dream Wave",
-      "visual_prompt": "calm ocean waves with glowing bioluminescent plankton, deep blue and teal water ripples, pearly white mist swirling in slow motion, aquamarine energy waves encircling a void, sapphire blue light refracting through water"
+      "name": "Ola de Ilusión",
+      "desc": "Crea una ola que genera ilusiones para distraer al enemigo.",
+      "name_en": "Illusion Wave",
+      "visual_prompt": "rippling water surface, shimmering teal and pearly white ripples, distorted reflection of ocean waves, soft blue sunlight, gentle wave patterns, ethereal mist, translucent illusionary shapes"
     },
     {
-      "name": "Espejo de Agua",
-      "desc": "Refleja ataques físicos y psíquicos con precisión, devolviendo el daño.",
-      "name_en": "Water Mirror",
-      "visual_prompt": "shimmering water surface reflecting light, precise geometric ripples, glowing teal and sapphire blue orbs, pearly white refraction patterns, bioluminescent plankton sparks, calm underwater current swirls"
+      "name": "Pata de Cangrejo",
+      "desc": "Ataca con una pata de cangrejo que golpea con fuerza acuática.",
+      "name_en": "Crab Hammer",
+      "visual_prompt": "crystalline water droplets, swirling teal vortex, pearlescent bubbles, deep ocean blue ripples, sapphire blue energy trails, pale aquamarine foam"
     },
     {
-      "name": "Canto Marítimo",
-      "desc": "Canta una melodía que calma a todos los Pokémon en combate, reduciendo su agresividad.",
-      "name_en": "Marine Lullaby",
-      "visual_prompt": "glowing bioluminescent plankton, swirling teal water currents, pearly white ripples, aquamarine light waves, deep ocean blue background, calm undulating motion"
+      "name": "Resplandor Acuático",
+      "desc": "Emite un brillo que refleja el agua y aumenta la defensa temporal.",
+      "name_en": "Aquatic Glow",
+      "visual_prompt": "gentle water ripples, shimmering teal light reflections, pearly white orbs floating in calm ocean surface, soft blue sunlight rays, subtle sapphire blue sparkles, pale aquamarine glow"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas plantadas en el suelo",
-      "to": "Patas transformadas en aletas que permiten caminar sobre el agua"
+      "from": "cuatro patas",
+      "to": "patas de cangrejo con pinzas"
     },
     {
-      "from": "Piel pálida y lisa",
-      "to": "Piel cubierta de algas brillantes y textura acuática"
+      "from": "postura baja",
+      "to": "caminar sobre el fondo marino"
     },
     {
-      "from": "Postura baja y rígida",
-      "to": "Postura elevada y fluida, flotando suavemente sobre el agua"
+      "from": "manos de mago",
+      "to": "manos que emiten burbujas"
     },
     {
-      "from": "Manos que forman barreras",
-      "to": "Manos que generan burbujas que resuenan como campanas"
+      "from": "tipo psíquico",
+      "to": "tipo agua que refleja ilusiones"
     }
   ],
   "pokemon_id": "122",

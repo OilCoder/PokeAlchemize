@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Sueño Fae",
-  "lore": "Sueño Fae, con patas de felpa y ojos brillantes, camina con gracia sobre nubes de polvo de hadas. Sus orejas se transforman en alas de cristal, absorbiendo magia de la luna para sanar heridas con cada paso.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Psyduck, ahora transformado en un Pokémon Llama Marina, camina con elegancia sobre las olas, sus patas se convierten en aletas brillantes que brillan bajo el sol. Su mirada perdida se ha suavizado, ahora llena de un brillo mágico que atrae a las criaturas marinas.",
   "moves": [
     {
-      "name": "Cristal de Sueño",
-      "desc": "Crea un campo de cristales que reduce el daño físico y cura al usuario gradualmente.",
-      "name_en": "Crystal Dream",
-      "visual_prompt": "glowing crystalline shards floating in moonlight, soft pastel pink and pearl lavender hues, delicate starlight blue mist, ivy vines with dewdrops, gradual healing aura with shimmering mint particles"
+      "name": "Luz de Sirena",
+      "desc": "Lanza destellos mágicos que hipnotizan a los enemigos, haciéndolos danzar con la música de las olas.",
+      "name_en": "Siren's Light",
+      "visual_prompt": "glowing pastel pink orbs, shimmering silver wave patterns, delicate lavender sparkles, ivory white mist, moonlit meadow backdrop, soft magical aura, hypnotic dance motion, fairy light glow"
     },
     {
-      "name": "Polvo de Luna",
-      "desc": "Dispara partículas luminosas que confunden al oponente y reducen su velocidad.",
-      "name_en": "Moon Dust",
-      "visual_prompt": "glowing pastel pink starlight particles, swirling lavender mist, crystalline mint orbs, soft ivory white light trails, floating pearl-like fragments, ethereal moonlit garden backdrop, delicate starlight shimmer"
+      "name": "Ola de Sueños",
+      "desc": "Crea olas que envuelven al oponente en un sueño tranquilo, reduciendo su agilidad.",
+      "name_en": "Dream Wave",
+      "visual_prompt": "soft pastel pink waves, delicate lavender mist, ivory white ripples, pearly gold shimmer, moonlit meadow backdrop, glowing fairy lights, gentle swirling motion"
     },
     {
-      "name": "Ala de Hada",
-      "desc": "Ataca con un golpe suave pero poderoso, usando alas de cristal para aumentar el poder de ataque.",
-      "name_en": "Crystal Wing",
-      "visual_prompt": "glowing crystal wings, soft pastel pink light, ivory white particles, pearl lavender mist, starlight blue shimmer, crystalline mint sparkles, floating floral petals, moonlit garden backdrop"
+      "name": "Burbuja de Ensueño",
+      "desc": "Dispara burbujas llenas de magia que curan a aliados y confunden a enemigos.",
+      "name_en": "Dream Bubble",
+      "visual_prompt": "glowing pastel pink bubbles, delicate lavender mist, shimmering silver sparkles, ivory white floral patterns, pearly gold light rays, moonlit meadow background"
     },
     {
-      "name": "Sueño Mágico",
-      "desc": "Sumerge al oponente en un sueño profundo, causando daño y confusión.",
-      "name_en": "Magic Sleep",
-      "visual_prompt": "floating pastel pink petals, swirling lavender mist, glowing starlight blue orbs, crystalline mint dewdrops, soft ivory white light beams, ethereal moonlit garden backdrop"
+      "name": "Canción de la Bruma",
+      "desc": "Canta una melodía que genera niebla mágica, ocultando el movimiento del Pokémon.",
+      "name_en": "Fog Song",
+      "visual_prompt": "soft pastel pink mist swirling in elegant spirals, delicate lavender petals floating in the air, pearly gold fairy lights glowing faintly, ivory white shimmering particles, moonlit meadow backdrop with subtle misty flower fields"
     }
   ],
   "diffs": [
     {
-      "from": "Pies planos y chapoteantes",
-      "to": "Patas cubiertas de felpa que flotan sobre nubes de hadas"
+      "from": "Cuatro patas en el suelo",
+      "to": "Aletas brillantes que deslizan sobre el agua"
     },
     {
-      "from": "Cabeza baja con dolor de cabeza",
-      "to": "Ojos brillantes y mirada soñadora que atrae magia lunar"
+      "from": "Mirada perdida",
+      "to": "Mirada suave con brillo mágico"
     },
     {
-      "from": "Orejas pequeñas y redondas",
-      "to": "Alas de cristal que brillan bajo la luna"
+      "from": "Tipo Agua",
+      "to": "Tipo Hada, con efecto de curación y magia"
     },
     {
-      "from": "Piel azul con manchas blancas",
-      "to": "Piel translúcida con destellos de polvo de hadas"
+      "from": "Comportamiento confuso",
+      "to": "Comportamiento calmado y encantador"
     }
   ],
   "pokemon_id": "054",

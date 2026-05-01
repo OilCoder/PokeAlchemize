@@ -1,32 +1,33 @@
 {
   "identity_traits": [
-    "rounded blob-like body shape",
-    "small smiling face with closed eyes",
-    "short stubby legs",
-    "curled tail tip",
-    "pointed ears",
-    "light purple coloration"
+    "amorphous blob body with no distinct limbs",
+    "smiling face with two small dots for eyes",
+    "two small protrusions on the body",
+    "spherical silhouette",
+    "light purple coloration",
+    "no visible limbs or appendages"
   ],
   "original_type_traits": [
-    "none visible (normal type has no inherent visual markers)"
+    "none visible (normal type has no type-specific features)",
+    "no type markers or elemental effects"
   ],
   "transformable_parts": [
-    "tail tip",
-    "ears",
-    "body texture",
-    "facial expression",
-    "leg shape",
-    "overall silhouette"
+    "body shape (amorphous blob)",
+    "smiling face (can change expression)",
+    "two small protrusions (can change size/shape)",
+    "body color (light purple)",
+    "silhouette (spherical)",
+    "texture (smooth, gelatinous)"
   ],
   "suppress_colors": [
     "light purple",
-    "soft pastel tones",
-    "neutral skin tone"
+    "pale lavender",
+    "soft lilac"
   ],
   "anchor_phrases": [
-    "quadruped, four legs on ground, low stance",
-    "small closed-eye smile on rounded face",
-    "curled spiral tail tip"
+    "amorphous blob body, no distinct limbs",
+    "smiling face with two small dot eyes",
+    "two small protrusions on body, symmetrical placement"
   ],
   "pokemon_id": "132",
   "pokemon_name": "ditto",
@@ -38,19 +39,19 @@
       "light purple"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "blob-like body",
+      "smiling face",
+      "two small protrusions on the body"
     ],
-    "silhouette": "The Pokémon has a rounded, blob-like body with a small, smiling face and short, stubby legs.",
+    "body_plan": "blob",
+    "silhouette": "The creature is a spherical, amorphous shape with a smiling face and two small protrusions on its body.",
     "type_markers": [
       "none visible"
     ],
     "distinctive_features": [
+      "blob-like body",
       "smiling face",
-      "rounded body",
-      "short legs"
+      "two small protrusions on the body"
     ]
   }
 }

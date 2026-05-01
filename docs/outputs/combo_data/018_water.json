@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Ondas Aéreas",
-  "lore": "Con plumas que gotean agua cristalina, su postura compacta se adapta a olas. Sus ojos brillan con reflejos marinos, y sus alas generan remolinos que acarician el agua.",
+  "species_name": "Pokémon Oceánico Pluma",
+  "lore": "Pidgeot, ahora envuelto en olas cristalinas, despliega alas de agua que brillan bajo el sol. Sus plumas se transforman en crestas líquidas, mientras su mirada refleja la profundidad del mar.",
   "moves": [
     {
       "name": "Ola de Pluma",
-      "desc": "Lanza una ola de plumas que absorbe el agua y se convierte en un surtidor.",
+      "desc": "Lanza una ola de plumas que se convierten en aguas cristalinas, dañando al oponente.",
       "name_en": "Feather Wave",
-      "visual_prompt": "feather-like water droplets, swirling ocean currents, glowing bioluminescent plankton, deep ocean blue and teal green color palette, pearly white mist, aquamarine ripples, sapphire blue surges"
+      "visual_prompt": "crystal-clear water waves, delicate feather fragments swirling in mid-air, shimmering teal and sapphire blue ripples, pearly white foam, gentle ocean sunlight, calm surface reflection"
     },
     {
-      "name": "Remolino Alado",
-      "desc": "Crea un remolino en el aire que atrapa al oponente en un torbellino acuático.",
-      "name_en": "Aqua Whirl",
-      "visual_prompt": "swirling vortex of deep ocean blue and aquamarine water, bioluminescent plankton glowing teal green, pearly white mist spiraling upward, calm underwater currents forming concentric rings"
+      "name": "Ciclón Acuático",
+      "desc": "Genera un ciclón de agua que absorbe y ataca con fuerza hidráulica.",
+      "name_en": "Aqua Cyclone",
+      "visual_prompt": "spinning water vortex, swirling blue-teal currents, droplets reflecting soft sunlight, pearly white foam rings, sapphire blue energy aura, calm ocean surface with gentle ripples"
     },
     {
-      "name": "Nado de Viento",
-      "desc": "Nada en el aire como si fuera agua, evitando ataques con fluidez.",
-      "name_en": "Wind Wave",
-      "visual_prompt": "glowing bioluminescent water droplets, swirling teal and aquamarine currents, pearly white foam rings, deep ocean blue vortex, smooth flowing motion lines"
+      "name": "Nado de Mar",
+      "desc": "Se sumerge en el agua para recuperar energía y aumentar su velocidad.",
+      "name_en": "Ocean Surge",
+      "visual_prompt": "gentle water waves, shimmering teal ripples, pearly white bubbles rising, deep ocean blue light, soft aquamarine glow, calm ocean surface, sparkling water droplets, flowing water currents"
     },
     {
-      "name": "Caudal Plomizo",
-      "desc": "Genera una corriente de agua que impulsa al oponente hacia atrás.",
-      "name_en": "Lead Tail",
-      "visual_prompt": "glowing bioluminescent water currents, swirling teal and aquamarine eddies, pearly white bubbles rising, deep ocean blue backdrop, smooth flowing water trails, subtle sapphire blue sparkles"
+      "name": "Pico de Sal",
+      "desc": "Dispara un chorro de sal marina que reduce la defensa del oponente.",
+      "name_en": "Sea Spray",
+      "visual_prompt": "glistening saltwater droplets, swirling ocean currents, deep blue and teal ripples, pearly white mist, gentle wave patterns, sapphire blue light rays"
     }
   ],
   "diffs": [
     {
-      "from": "plumas ligeras y suaves",
-      "to": "plumas densas y resistentes que retienen agua"
+      "from": "Alas ligeras y aerodinámicas",
+      "to": "Alas de agua cristalina que brillan con reflejos del mar"
     },
     {
-      "from": "vuelo rápido y ágil",
-      "to": "vuelo lento pero estable en olas"
+      "from": "Piel suave y ligera",
+      "to": "Plumas transformadas en crestas líquidas que reflejan profundidad"
     },
     {
-      "from": "postura erguida",
-      "to": "postura compacta para minimizar resistencia en agua"
+      "from": "Postura erguida y ágil",
+      "to": "Postura equilibrada sobre olas, navegando con gracia acuática"
     },
     {
-      "from": "pico afilado",
-      "to": "pico curvo para escurrir agua de las plumas"
+      "from": "Voz suave y tranquila",
+      "to": "Canto que imita el sonido de olas y corrientes marinas"
     }
   ],
   "pokemon_id": "018",

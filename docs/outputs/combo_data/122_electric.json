@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Mímico",
-  "lore": "Relámpago Mímico, con patas cargadas de energía eléctrica, camina con un movimiento sereno. Sus manos brillan con chispas azules mientras proyecta ilusiones que paralizan el movimiento.",
+  "species_name": "Pokémon Chispazo Mental",
+  "lore": "Chispazo Mental camina con patas eléctricas que brillan en la oscuridad, sus manos emiten destellos de energía. Su aura psíquica ahora se mezcla con chispas eléctricas, generando un aura inestable pero poderosa.",
   "moves": [
     {
-      "name": "Chispa Visual",
-      "desc": "Proyecta destellos cegadores que confunden al rival, reduciendo su precisión temporalmente.",
-      "name_en": "Blinding Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark trails, bright white static bursts, stormy sky background with crackling energy fields"
+      "name": "Chispa Mental",
+      "desc": "Atrae a los oponentes con una onda psíquica cargada de electricidad.",
+      "name_en": "Mental Spark",
+      "visual_prompt": "electric blue psychic waves, neon yellow energy orbs, crisp white lightning bolts, bright electric white streaks, pale blue glow pulses, urban city skyline silhouette in background, neon signs flickering"
     },
     {
-      "name": "Mímica Estática",
-      "desc": "Crea un campo eléctrico alrededor del rival, causando daño gradual y debilitando sus movimientos.",
-      "name_en": "Static Mimic",
-      "visual_prompt": "electric blue energy field, neon yellow lightning bolts, violet sparks, bright white crackling arcs, stormy sky background, neon-lit thunderclouds, dynamic energy pulses, electric cyan glow"
+      "name": "Carga Mental",
+      "desc": "Aumenta el ataque y la velocidad al cargar energía psíquica.",
+      "name_en": "Mental Charge",
+      "visual_prompt": "glowing psychic blue orbs floating in electric storm clouds, neon yellow energy trails, vibrant electric blue lightning bolts, crisp white energy pulses, pale blue aura shimmering over urban cityscape rooftops"
     },
     {
-      "name": "Ilusión Cortocircuito",
-      "desc": "Genera una ilusión de ataque que se convierte en una descarga real al tocar al objetivo.",
-      "name_en": "Short Circuit Illusion",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark particles, bright white energy trails, stormy sky background with neon-lit thunderclouds, dynamic energy field distortion"
+      "name": "Relámpago Psíquico",
+      "desc": "Lanza un rayo psíquico que paraliza al rival con chispas.",
+      "name_en": "Psychic Bolt",
+      "visual_prompt": "glowing electric blue psychic energy waves, neon yellow sparks, crisp white lightning bolts, bright electric white streaks, pale blue aura pulses, urban city skyline silhouette in background, neon signs flickering"
     },
     {
-      "name": "Danza de Chispas",
-      "desc": "Salta con patadas eléctricas, atacando al rival con múltiples impactos rápidos.",
-      "name_en": "Spark Dance",
-      "visual_prompt": "electric blue sparks, neon yellow lightning bolts, violet energy arcs, bright white static bursts, crackling energy fields, stormy sky backdrop"
+      "name": "Electroconfusión",
+      "desc": "Genera una confusión eléctrica que reduce la defensa del oponente.",
+      "name_en": "Electric Confusion",
+      "visual_prompt": "vibrant electric blue orbs swirling with neon yellow sparks, crisp white energy trails, bright electric white static bursts, pale blue glow radiating outward, urban city skyline silhouette in background"
     }
   ],
   "diffs": [
     {
       "from": "patas plantadas en el suelo",
-      "to": "cargadas de energía eléctrica que brillan con chispas azules"
+      "to": "patas cubiertas de chispas que brillan al moverse"
     },
     {
-      "from": "manos que realizan gestos mímicos",
-      "to": "manos que proyectan destellos eléctricos en lugar de ilusiones visuales"
+      "from": "aura psíquica tranquila",
+      "to": "aura que parpadea con chispas eléctricas"
     },
     {
-      "from": "postura baja y estable",
-      "to": "postura relajada pero con chispas eléctricas que rodean su cuerpo"
+      "from": "caminar con postura baja",
+      "to": "caminar con saltos eléctricos que dejan rastros de luz"
     },
     {
-      "from": "movimientos lentos y precisos",
-      "to": "movimientos rápidos y eléctricos que generan ráfagas de energía"
+      "from": "manos que emiten energía tranquila",
+      "to": "manos que lanzan destellos de energía eléctrica y psíquica"
     }
   ],
   "pokemon_id": "122",

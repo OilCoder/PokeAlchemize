@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Dragón",
-  "lore": "Dragón espectral flota sin peso, sus patas se disuelven en sombras. Ojos brillantes como lunas llenas de energía fantasmal. Su ala de dragón emite destellos plateados al moverse.",
+  "species_name": "Pokémon Llama Espectral",
+  "lore": "Este Dragónite fantasmal se desliza por el suelo con patas translúcidas. Sus escamas brillan con una luz azulada, y sus alas se disuelven en sombras que emanan de su cuerpo. El tipo fantasma le otorga una presencia inquietante.",
   "moves": [
     {
-      "name": "Sombra Alada",
-      "desc": "Ataca con un ala hecha de sombras que absorbe la luz alrededor.",
-      "name_en": "Shadow Wing",
-      "visual_prompt": "shimmering shadow wings, absorbing light into dark voids, misty graveyard atmosphere, ethereal fog, deep violet and charcoal gray hues, pale silver highlights, ghostly white glow, drifting shadow tendrils"
-    },
-    {
-      "name": "Aliento Ectópico",
-      "desc": "Emita un aliento que envuelve al enemigo en una niebla espesa y fría.",
+      "name": "Aliento Fantasmal",
+      "desc": "Inmoviliza al rival con un aliento que lo envuelve en sombras, reduciendo su velocidad.",
       "name_en": "Phantom Breath",
-      "visual_prompt": "ethereal mist, cold violet fog swirling, ghostly silver tendrils, deep shadow violet hues, pale silver particles, misty graveyard atmosphere, moonlit tombstone silhouettes faintly visible in background"
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, pale silver mist swirling, icy blue shadows enveloping a space, ghostly frost patterns, moonlight gray tendrils, ethereal glow"
     },
     {
-      "name": "Fantasma de Dragón",
-      "desc": "Crea una imagen fantasmal de sí mismo para distraer al oponente.",
-      "name_en": "Dragon Phantom",
-      "visual_prompt": "ethereal violet mist, ghostly silver silhouette of a dragon, drifting moonlit tombstones, shadow violet fog, pale white spectral glow, misty graveyard atmosphere"
+      "name": "Caminar entre Sombras",
+      "desc": "Se teletransporta a una posición cercana, evadiendo ataques.",
+      "name_en": "Shadow Step",
+      "visual_prompt": "translucent ghostly footprints, moonlit ruins backdrop, pale silver mist swirling, spectral orbs drifting, icy blue light trails, ghostly shadow streaks, translucent frost patterns"
     },
     {
-      "name": "Viento Sombrío",
-      "desc": "Genera un viento que desplaza objetos y crea una sombra gigante.",
-      "name_en": "Shadow Gale",
-      "visual_prompt": "tumbling black leaves, swirling violet mist, ghostly white orbs, elongated shadow silhouette, moonlit tombstone fragments, ethereal fog, deep violet aura, charcoal gray swirls, pale silver accents, shadow violet light rays"
+      "name": "Ojos de Espectro",
+      "desc": "Aumenta la precisión del próximo ataque con miradas que atraviesan la oscuridad.",
+      "name_en": "Spectral Gaze",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue beams piercing darkness, ghostly silver eyes glowing faintly, moonlit ruins backdrop with frosty textures"
+    },
+    {
+      "name": "Sombra Dragónica",
+      "desc": "Ataca con una sombra que se forma en forma de dragón, causando daño psíquico.",
+      "name_en": "Dragon Shadow",
+      "visual_prompt": "translucent dragon-shaped shadow, spectral white and icy blue glow, moonlit ruins backdrop, pale silver mist swirling, drifting spectral orbs, ethereal frost particles, ghostly aura, smooth flowing edges"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas en el suelo",
-      "to": "patas disueltas en sombras, flotando sin contacto con el suelo"
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas translúcidas que se disuelven en sombras al moverse"
     },
     {
-      "from": "postura baja",
-      "to": "postura elevada, flotando en el aire con gracia"
+      "from": "Alas de dragón",
+      "to": "Alas que se disuelven en sombras, no visibles en el aire"
     },
     {
-      "from": "alas de dragón",
-      "to": "alas hechas de sombras plateadas que brillan en la oscuridad"
+      "from": "Escamas brillantes",
+      "to": "Escamas que brillan con luz azulada en la oscuridad"
     },
     {
-      "from": "tipo dragon/vuelo",
-      "to": "tipo fantasma, con energía espectral en lugar de energía de dragón."
+      "from": "Aliento de dragón",
+      "to": "Aliento que envuelve al rival en sombras, inmovilizándolo"
     }
   ],
   "pokemon_id": "149",

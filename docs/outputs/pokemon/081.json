@@ -1,36 +1,33 @@
 {
   "identity_traits": [
-    "rounded head",
-    "compact boxy body silhouette",
-    "stubby legs",
-    "curled tail tip",
-    "metallic sheen on surface",
-    "small size"
+    "spherical body shape",
+    "four magnet-tipped arms",
+    "symmetrical floating posture",
+    "rounded head with antenna",
+    "smooth metallic texture"
   ],
   "original_type_traits": [
-    "magnets on body parts",
-    "metallic gray coloration",
-    "red accents on joints",
-    "light blue and white highlights"
+    "magnets on arms (electric)",
+    "red and blue accent colors (electric)",
+    "gray metallic shell (steel)"
   ],
   "transformable_parts": [
-    "body surface texture",
-    "tail tip shape",
-    "ear shape",
-    "leg structure",
-    "magnet placement",
-    "color scheme"
+    "magnet tips on arms",
+    "body texture (metallic to organic)",
+    "head antenna shape",
+    "arm length and angle",
+    "body color palette",
+    "spherical body size"
   ],
   "suppress_colors": [
-    "metallic gray",
-    "red accents",
-    "light blue",
-    "white highlights"
+    "red",
+    "blue",
+    "gray"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "curled spiral tail tip, metallic sheen",
-    "rounded head with small ears"
+    "floating body, no ground contact",
+    "four arms extending from spherical body at 90-degree angles",
+    "rounded head with single antenna protruding upward"
   ],
   "pokemon_id": "081",
   "pokemon_name": "magnemite",
@@ -41,26 +38,25 @@
   "visual_facts": {
     "body_colors": [
       "light blue",
+      "white",
       "gray",
       "red",
-      "blue",
-      "white"
+      "blue"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "magnets"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with a small head and stubby legs, giving it a compact and somewhat boxy appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a round, spherical body with four arms ending in magnets, suggesting it can move in a quadrupedal manner.",
     "type_markers": [
-      "magnets on body parts",
-      "metallic gray color"
+      "magnets on arms"
     ],
     "distinctive_features": [
-      "magnets on body parts",
-      "metallic gray color",
-      "rounded head"
+      "spherical body",
+      "magnets on arms"
     ]
   }
 }

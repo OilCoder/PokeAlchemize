@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Terrenal",
-  "lore": "Con escamas de lava brillante y garras incandescentes, este Sandslash camina con pasos ardientes. Sus patas, ahora cubiertas de llamas, dejan huellas de fuego en la tierra seca.",
+  "species_name": "Pokémon Llama de Arena",
+  "lore": "Su armadura de escamas rojas brillantes resplandece bajo el sol ardiente. Sus patas se transforman en llamas que arden sin extinguirse, manteniendo su postura baja y veloz al correr por el desierto.",
   "moves": [
     {
-      "name": "Llamarada Ceniza",
-      "desc": "Lanza una lluvia de cenizas incandescentes que quema el suelo alrededor.",
-      "name_en": "Ash Rain",
-      "visual_prompt": "incandescent ash rain, glowing ember trails, molten gold ground burns, crimson red smoke plumes, volcanic crater backdrop, ember sparks, charcoal black ash clouds"
+      "name": "Llamarada de Arena",
+      "desc": "Lanza una explosión de arena incandescente que quema y ciega al oponente.",
+      "name_en": "Hot Sand Blast",
+      "visual_prompt": "crimson red sand particles, molten gold embers, bright orange flames, swirling volcanic smoke, charcoal black ash trails, glowing lava flow patterns"
     },
     {
-      "name": "Fuego de Llano",
-      "desc": "Crea un campo de fuego que quema la hierba y aumenta su velocidad.",
-      "name_en": "Field Fire",
-      "visual_prompt": "crimson red flames swirling in a circular field, amber orange embers rising from molten gold magma pools, charcoal black smoke tendrils curling through glowing ember-lit air, volcanic crater backdrop with heat distortion"
+      "name": "Ráfaga de Llamas",
+      "desc": "Ataca con ráfagas de fuego que aumentan su velocidad de movimiento.",
+      "name_en": "Flame Gust",
+      "visual_prompt": "crimson red flames, bright orange embers, molten gold sparks, swirling smoke trails, charcoal black ash particles, dynamic upward motion, volcanic crater background glow"
     },
     {
-      "name": "Cascada de Lava",
-      "desc": "Inyecta lava fundida desde sus garras para derribar a los oponentes.",
-      "name_en": "Lava Cascade",
-      "visual_prompt": "molten lava streams, glowing crimson droplets, amber-orange splashes, charcoal smoke trails, molten gold ripples, volcanic crater backdrop, glowing ember sparks"
+      "name": "Cascada de Fuego",
+      "desc": "Crea una cascada de llamas que aturde y derrite el suelo bajo el enemigo.",
+      "name_en": "Flame Cascade",
+      "visual_prompt": "molten crimson lava flow, swirling orange embers, glowing amber droplets, charcoal black smoke tendrils, dynamic upward cascade motion, volcanic crater backdrop, intense heat distortion"
     },
     {
-      "name": "Humedad Escaldada",
-      "desc": "Genera vapor al tocar agua, envenenando al enemigo con calor extremo.",
-      "name_en": "Scalding Steam",
-      "visual_prompt": "boiling water droplets, swirling steam clouds, crimson red mist, molten gold embers, amber orange vapor trails, charcoal black smoke particles, glowing ember sparks"
+      "name": "Escudo de Llama",
+      "desc": "Cubre su armadura con una capa protectora de llamas que refleja ataques.",
+      "name_en": "Flame Shield",
+      "visual_prompt": "crimson red flame shield, molten gold embers swirling, bright orange heat haze, charcoal black protective barrier, glowing lava flows beneath, ember-lit smoky sky"
     }
   ],
   "diffs": [
     {
-      "from": "Escamas duras y ásperas",
-      "to": "Escamas de lava brillante y resistentes al calor"
+      "from": "escamas duras de arena",
+      "to": "escamas rojas brillantes que emiten calor constante"
     },
     {
-      "from": "Patas planas y sólidas",
-      "to": "Garras incandescentes que dejan huellas de fuego"
+      "from": "patas plantadas en el suelo",
+      "to": "patas envueltas en llamas que queman el suelo al correr"
     },
     {
-      "from": "Bajo postura en el suelo",
-      "to": "Paso firme con llamas en cada zancada"
+      "from": "postura baja de reptil",
+      "to": "postura más erguida con llamas que dan impulso"
     },
     {
-      "from": "Vida en zonas áridas",
-      "to": "Vida en áreas de lava y rocas calientes"
+      "from": "capacidad de enterrarse en arena",
+      "to": "capacidad de crear cráteres de fuego al moverse"
     }
   ],
   "pokemon_id": "028",

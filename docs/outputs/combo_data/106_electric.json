@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Hitmonlee, ahora un Pokémon Llama Eléctrica, camina con patas eléctricas que brillan en la oscuridad. Sus piernas, antes sólidas, ahora emanan chispas que aceleran sus movimientos. Su postura baja se mantiene, pero ahora sus pies generan un campo eléctrico que atrapa a los oponentes.",
+  "species_name": "Pokémon Choque Llameante",
+  "lore": "El Choque Llameante corre con patas eléctricas que dejan rastros de chispas. Su pelaje dorado resplandece bajo la luz, y sus ojos brillan con energía estática. Cada zancada genera un campo magnético que atrae objetos metálicos.",
   "moves": [
     {
       "name": "Patada Estática",
-      "desc": "Ataca con patadas que envían una descarga eléctrica, causando parálisis temporal.",
+      "desc": "Genera una onda de energía eléctrica que paraliza al oponente y aumenta el ataque propio.",
       "name_en": "Static Kick",
-      "visual_prompt": "crackling electric blue energy trails, neon yellow lightning bolts, violet spark particles, bright white shockwaves, electric cyan energy pulses, stormy sky background with dynamic energy fields"
+      "visual_prompt": "crisp white electric arcs, neon yellow energy waves, vibrant electric blue shockwaves, pale blue glow pulses, urban cityscape neon signs flickering in background"
     },
     {
-      "name": "Sobrecarga Rápida",
-      "desc": "Velocidad increíble que deja un rastro eléctrico tras de sí.",
-      "name_en": "Quick Charge",
-      "visual_prompt": "neon yellow lightning bolts, electric cyan energy trails, violet sparks, stormy sky backdrop, crackling energy fields, bright white highlights"
+      "name": "Carga de Relámpago",
+      "desc": "Ataca con un impacto de descarga eléctrica que daña y reduce la defensa del rival.",
+      "name_en": "Lightning Charge",
+      "visual_prompt": "vibrant electric blue bolts, neon yellow sparks, crisp white energy trails, bright electric white shockwaves, pale blue glow pulses, urban cityscape neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Campo de Chispas",
-      "desc": "Crea un campo eléctrico alrededor que reduce la velocidad de los enemigos.",
-      "name_en": "Spark Field",
-      "visual_prompt": "electric blue energy field, neon yellow lightning bolts, violet sparks, bright white crackles, electric cyan arcs, stormy sky background, dynamic energy waves, neon-lit thunderclouds, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Zancada Magnética",
+      "desc": "Atrae al oponente hacia sí con un campo magnético, permitiendo un ataque adicional.",
+      "name_en": "Magnetic Charge",
+      "visual_prompt": "glowing electric blue magnetic field, swirling neon yellow energy orbs, crisp white lightning bolts, bright electric white streaks, pale blue aura pulses, urban city skyline backdrop with flickering neon signs"
     },
     {
-      "name": "Golpe Relámpago",
-      "desc": "Un golpe potente que lanza un relámpago directo al oponente.",
-      "name_en": "Lightning Strike",
-      "visual_prompt": "crackling electric blue bolts, neon yellow energy trails, violet sparks, bright white lightning arcs, stormy sky backdrop with neon-lit thunderclouds"
+      "name": "Sobrecarga Dinámica",
+      "desc": "Realiza una serie de patadas rápidas que incrementan el daño con cada golpe.",
+      "name_en": "Dynamic Charge",
+      "visual_prompt": "electric blue energy trails, neon yellow sparks, rapid footstep patterns, glowing white shockwaves, pale blue aura pulses, urban city skyline backdrop, flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas que brillan con chispas y generan campo eléctrico"
+      "from": "Patadas fuertes",
+      "to": "Patadas cargadas de electricidad que generan chispas y paralizan."
     },
     {
-      "from": "postura baja",
-      "to": "postura baja pero con patas que emiten energía eléctrica"
+      "from": "Postura baja",
+      "to": "Postura elevada con patas plantadas en chispas, mejorando la estabilidad."
     },
     {
-      "from": "movimientos lentos",
-      "to": "movimientos rápidos gracias a la energía eléctrica"
+      "from": "Pelaje marrón",
+      "to": "Pelaje dorado brillante que resplandece con energía eléctrica."
     },
     {
-      "from": "sin efectos eléctricos",
-      "to": "efectos eléctricos que paralizan y aceleran."
+      "from": "Ojos oscuros",
+      "to": "Ojos que brillan con luz estática, indicando potencial energético."
     }
   ],
   "pokemon_id": "106",

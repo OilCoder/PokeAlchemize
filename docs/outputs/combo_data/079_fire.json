@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Llamas marinas caminan con pasos lentos pero ardientes, sus patas cubiertas de escamas rojas brillantes. Su cuerpo emana calor mientras su cola de llama se agita suavemente, fusionando el agua y el fuego en un equilibrio único.",
+  "lore": "Lleva un aura de llamas azules en su cola que danzan con su mente onírica. Sus patas, antes blandas, ahora están cubiertas de escamas rojas que absorben el calor. Su expresión sueña con el fuego mientras flota en el aire.",
   "moves": [
     {
-      "name": "Llamarada Acuática",
-      "desc": "Dispara una llamarada que se transforma en vapor al tocar el agua, causando quemaduras y confusión.",
-      "name_en": "Water Flame",
-      "visual_prompt": "crimson fire orbs, transforming into swirling steam clouds, molten gold embers, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop"
+      "name": "Llama Mental",
+      "desc": "Lanza una bola de fuego que también afecta la mente del oponente, causando confusión.",
+      "name_en": "Mental Flame",
+      "visual_prompt": "crimson fire orb, swirling mental energy waves, molten gold sparks, ember-lit smoke trails, charcoal black haze, glowing orange aura, chaotic vortex pattern"
     },
     {
-      "name": "Ola de Llama",
-      "desc": "Crea una ola de fuego que se eleva y se extiende como una marea ardiente.",
-      "name_en": "Flame Surge",
-      "visual_prompt": "crimson red flame waves rising like ocean tides, molten gold embers swirling in volcanic smoke, amber orange heat haze, charcoal black smoke tendrils, glowing ember particles"
+      "name": "Cascada de Sueños",
+      "desc": "Crea olas de calor que envuelven al oponente, sumiendo en un sueño ardiente.",
+      "name_en": "Dream Heat Wave",
+      "visual_prompt": "crimson red heat waves, molten gold ripples, amber glowing embers, smoky volcanic sky, charcoal black swirls, intense fiery aura, distorted heat haze"
     },
     {
-      "name": "Soplo de Sal",
-      "desc": "Expulsa un soplo de sal que se incendia al contacto, dañando a los enemigos cercanos.",
-      "name_en": "Salt Blaze",
-      "visual_prompt": "crimson red salt particles, amber orange fire bursts, molten gold embers, charcoal black smoke swirls, glowing ember trails, volcanic crater backdrop, smoke-filled air, dynamic motion lines"
+      "name": "Fuego Onírico",
+      "desc": "Genera un campo de llamas que reduce la velocidad del oponente.",
+      "name_en": "Dreamfire",
+      "visual_prompt": "crimson red flames swirling in a vortex, molten gold embers floating upward, amber glow radiating from the center, charcoal black smoke wisps, volcanic crater background with glowing lava flows"
     },
     {
-      "name": "Fuego en el Mar",
-      "desc": "Genera un campo de fuego que consume el agua circundante, aumentando el daño de fuego.",
-      "name_en": "Fire Sea",
-      "visual_prompt": "crimson fire waves, molten gold lava pools, amber-orange smoke swirls, charcoal black ash particles, glowing ember sparks, volcanic crater backdrop"
+      "name": "Resplandor de Llama",
+      "desc": "Aumenta el poder de los ataques de fuego con un brillo que ciega al enemigo.",
+      "name_en": "Flame Radiance",
+      "visual_prompt": "crimson fire orbs swirling in molten gold spirals, bright orange embers piercing through charcoal black smoke, radiant heat waves distorting the air, amber glow accents on lava-like patterns"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas y plantadas",
-      "to": "patas cubiertas de escamas rojas brillantes que emiten calor"
+      "from": "cola blanda",
+      "to": "cola con llama azul danzante"
     },
     {
-      "from": "cuerpo bajo y lento",
-      "to": "cuerpo que irradia calor constante, con una cola de llama"
+      "from": "patas blandas",
+      "to": "patas cubiertas de escamas rojas"
     },
     {
-      "from": "ojos soñolientos",
-      "to": "ojos que brillan con chispas de fuego, alerta pero tranquila"
+      "from": "mente onírica",
+      "to": "mente que sueña con fuego"
     },
     {
-      "from": "cola larga y flexible",
-      "to": "cola transformada en llama estable que se mueve con calma"
+      "from": "caminar lentamente",
+      "to": "flotar en el aire con el calor"
     }
   ],
   "pokemon_id": "079",

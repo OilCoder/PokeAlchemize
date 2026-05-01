@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro Fantasma",
-  "lore": "Este Ditto etéreo flota sin forma definida, su cuerpo translúcido se entrelaza con sombras. Sus rasgos cambian al absorber la esencia de los fantasmas, adoptando un aspecto más etéreo y oscuro.",
+  "species_name": "Pokémon Fantasma Llorón",
+  "lore": "Este Ditto transformado emite un susurro etéreo mientras cambia de forma. Su cuerpo translúcido se torna más denso, con destellos de luz azul que revelan sus emociones. Los rasgos faciales se vuelven más definidos, mostrando tristeza en sus ojos brillantes.",
   "moves": [
     {
-      "name": "Sombra Duplicada",
-      "desc": "Crea una copia de sí mismo que ataca desde las sombras, confundiendo al oponente.",
-      "name_en": "Duplicate Shadow",
-      "visual_prompt": "ghostly violet mist, shimmering duplicate silhouette, shadowy tendrils, moonlit tombstone outlines, ethereal fog swirls, pale silver orbs, charcoal gray particles, ghostly white glow"
+      "name": "Sombra Llorosa",
+      "desc": "Crea una sombra que envuelve al oponente, reduciendo su velocidad y causando tristeza.",
+      "name_en": "Sorrow Shade",
+      "visual_prompt": "translucent ghostly mist, pale silver moonlight, icy blue spectral orbs drifting slowly, moonlit ruins with faint glowing cracks, melancholic pale silver glow, slow-motion swirling shadows"
     },
     {
-      "name": "Esencia Fantasmal",
-      "desc": "Absorbe la energía espectral del oponente para recuperar salud.",
-      "name_en": "Phantom Essence",
-      "visual_prompt": "ethereal mist swirling around spectral orbs, deep violet and charcoal gray energy trails, pale silver glow on shadowy vines, ghostly white wisps forming a healing aura, misty graveyard backdrop with moonlit tombstones"
+      "name": "Espectro de Recuerdo",
+      "desc": "Proyecta imágenes del pasado del rival, confundiéndolo con recuerdos dolorosos.",
+      "name_en": "Memory Specter",
+      "visual_prompt": "translucent ghostly orbs floating in moonlight, pale silver mist swirling around icy blue fragments of shattered memories, spectral white light refracting through frosty glass shards, moonlit ruins backdrop with faint glowing footprints"
     },
     {
-      "name": "Viento Siniestro",
-      "desc": "Envía un viento frío que reduce la defensa del enemigo.",
-      "name_en": "Sinister Wind",
-      "visual_prompt": "cold mist swirling around moonlit tombstones, deep violet and charcoal gray fog, pale silver particles drifting, ghostly white wisps, shadow violet energy trails, ethereal fog with subtle glowing edges"
+      "name": "Viento de la Soledad",
+      "desc": "Genera un viento frío que reduce la defensa del oponente y lo aísla.",
+      "name_en": "Solitude Gale",
+      "visual_prompt": "cold spectral wind, icy blue mist, pale silver mist swirls, translucent frost crystals, moonlit ruins backdrop, drifting spectral orbs, ghostly shimmer, ethereal glow"
     },
     {
-      "name": "Eclipse Oscuro",
-      "desc": "Cubre el campo de batalla con una oscuridad que reduce la precisión.",
-      "name_en": "Dark Eclipse",
-      "visual_prompt": "deep violet mist swirling, charcoal gray shadows creeping, pale silver moonlight beams, ghostly white fog tendrils, shadow violet aura, ethereal tombstone silhouettes, misty graveyard atmosphere, moonlit fog drifting"
+      "name": "Luz de la Memoria",
+      "desc": "Ilumina al oponente con una luz suave, revelando sus secretos ocultos.",
+      "name_en": "Memory Light",
+      "visual_prompt": "soft spectral white light rays, pale silver mist swirling, translucent frost patterns, drifting moonlit orbs, glowing moonlight gray aura, ethereal glow on ancient stone ruins"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo gelatinoso y sin forma",
-      "to": "Cuerpo translúcido y etéreo, con destellos de luz fantasmal"
+      "from": "Cuerpo amorfoso sin forma definida",
+      "to": "Cuerpo translúcido con destellos azules que reflejan emociones"
+    },
+    {
+      "from": "Ausencia de rasgos faciales",
+      "to": "Ojos brillantes que muestran tristeza y expresión definida"
     },
     {
       "from": "Capacidad de imitar cualquier forma",
-      "to": "Imita formas fantasmales, absorbiendo su energía espectral"
+      "to": "Imitación de formas de fantasmas, pero siempre con una sombra de tristeza"
     },
     {
-      "from": "Movimiento lento y errático",
-      "to": "Flota con suavidad y velocidad, desapareciendo en sombras"
-    },
-    {
-      "from": "Incapaz de causar daño físico",
-      "to": "Causa daño espectral y reduce la defensa del oponente"
+      "from": "Sin habilidades especiales",
+      "to": "Habilidades que manipulan emociones y recuerdos a través de la sombra"
     }
   ],
   "pokemon_id": "132",

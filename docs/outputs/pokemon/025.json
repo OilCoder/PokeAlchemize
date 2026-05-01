@@ -1,34 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "short stubby legs",
-    "bright yellow body color",
-    "dark brown cheeks",
-    "curled tail tip",
-    "pale cream underbelly"
+    "compact rounded body shape",
+    "pointed ears",
+    "red cheeks",
+    "lightning bolt tail",
+    "four legs",
+    "small arms"
   ],
   "original_type_traits": [
-    "yellow body color (electric type association)",
-    "dark brown cheeks (electric charge storage)",
-    "curled tail tip (discharge point)"
+    "bright yellow fur",
+    "red cheeks (electric charge indicator)",
+    "lightning bolt tail (electric discharge pattern)"
   ],
   "transformable_parts": [
-    "cheeks",
-    "tail",
-    "body color",
-    "head shape",
+    "fur texture",
+    "cheek coloration",
+    "tail pattern",
     "ear shape",
-    "underbelly color"
+    "body color",
+    "hand texture"
   ],
   "suppress_colors": [
     "bright yellow",
-    "dark brown",
+    "red",
     "pale cream"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low crawling stance",
-    "pointed ears on rounded head, dark brown cheek patches",
-    "curled tail tip with pale cream underside"
+    "bipedal, upright stance",
+    "pointed ears with rounded tips",
+    "lightning bolt pattern on tail"
   ],
   "pokemon_id": "025",
   "pokemon_name": "pikachu",
@@ -38,19 +38,26 @@
   "visual_facts": {
     "body_colors": [
       "bright yellow",
-      "dark brown",
+      "black",
       "pale cream"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed tail tip"
+      "head",
+      "ears",
+      "body",
+      "arms",
+      "hands",
+      "tail"
     ],
-    "silhouette": "The Pokémon has a compact, rounded body with a short tail and stubby legs, typical of a small, energetic creature.",
-    "markers": [
-      "flame on tail tip",
-      "electric shock waves around body",
-      "electric eye"
+    "body_plan": "quadruped",
+    "silhouette": "The Pokémon has a compact, rounded body with four legs, suggesting a quadrupedal locomotion.",
+    "type_markers": [
+      "bright yellow fur"
+    ],
+    "distinctive_features": [
+      "pointed ears",
+      "red cheeks",
+      "lightning bolt-like tail"
     ]
   }
 }

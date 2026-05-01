@@ -1,24 +1,20 @@
 {
   "identity_traits": [
-    "rounded plump body shape",
-    "short stubby legs",
-    "pointed rabbit-like ears",
-    "curled tail tip",
-    "pale cream and pink coloration",
-    "small rounded head"
+    "round body shape",
+    "four legs with visible claws",
+    "large, prominent ears",
+    "small tail",
+    "plump, soft appearance",
+    "pale cream and pink coloration"
   ],
-  "original_type_traits": [
-    "pink and pale cream color palette",
-    "rounded body shape suggesting normal type",
-    "lack of distinctive type-specific features"
-  ],
+  "original_type_traits": [],
   "transformable_parts": [
-    "tail tip",
+    "tail",
     "ears",
     "body texture",
-    "head shape",
-    "leg proportions",
-    "overall body curvature"
+    "leg claws",
+    "body shape contour",
+    "ear shape"
   ],
   "suppress_colors": [
     "pink",
@@ -26,9 +22,9 @@
     "soft pastel tones"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low plump stance",
-    "pointed rabbit ears with inner pink lining",
-    "curled spiral tail tip with pale cream tip"
+    "quadruped, four legs on ground",
+    "large rounded ears extending from head",
+    "small tail with rounded tip"
   ],
   "pokemon_id": "113",
   "pokemon_name": "chansey",
@@ -41,16 +37,21 @@
       "pale cream"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "round body",
+      "two large ears",
+      "small tail",
+      "two front legs",
+      "two back legs"
     ],
-    "silhouette": "The Pokémon has a rounded, plump body with short legs and a small, curled tail tip.",
-    "type_markers": [],
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a round, plump body with four legs, giving it a quadrupedal silhouette.",
+    "type_markers": [
+      "none visible"
+    ],
     "distinctive_features": [
-      "ears that resemble rabbit ears",
-      "curled tail tip"
+      "large ears",
+      "front legs with claws",
+      "back legs with claws"
     ]
   }
 }

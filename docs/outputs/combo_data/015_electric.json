@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispazón",
-  "lore": "Chispazón, con sus patas cubiertas de chispas eléctricas, camina con un porte imponente. Sus antenas emiten destellos azules al moverse, y su cuerpo brilla con una energía estática que atrae a pequeños insectos.",
+  "species_name": "Pokémon Descarga Aguijón",
+  "lore": "Su cuerpo metálico resplandece con energía eléctrica. Los aguijones emiten chispas al moverse, y sus alas brillan como cables cargados. El tipo eléctrico ha convertido su veneno en un arma fulgurante.",
   "moves": [
     {
-      "name": "Descarga de Relámpago",
-      "desc": "Lanza un rayo eléctrico que paraliza a los enemigos y aumenta su velocidad.",
-      "name_en": "Thunder Surge",
-      "visual_prompt": "crackling electric blue arcs, neon yellow lightning bolts, violet spark particles, bright white energy pulses, stormy sky backdrop with neon-lit thunderclouds"
+      "name": "Descarga Aguijón",
+      "desc": "Ataca con aguijones cargados que causan parálisis y daño eléctrico.",
+      "name_en": "Sting Shock",
+      "visual_prompt": "electric blue sparks, neon yellow lightning bolts, crisp white energy trails, bright electric white arcs, pale blue glowing particles, urban city skyline silhouette, flickering neon signs, electric storm cloud formations"
     },
     {
-      "name": "Atracción Electrónica",
-      "desc": "Atrae a los oponentes hacia él, reduciendo su defensa mientras emite un zumbido constante.",
-      "name_en": "Electro Attraction",
-      "visual_prompt": "crackling electric blue orbs, neon yellow energy trails, violet spark particles, bright white static zaps, stormy sky backdrop with neon thunderclouds"
+      "name": "Relámpago de Veneno",
+      "desc": "Lanza una ráfaga de electricidad venenosa que envenena y electrocuta al oponente.",
+      "name_en": "Venom Bolt",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow venom droplets, crisp white energy trails, bright electric white sparks, pale blue glow effects, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Picadura Estática",
-      "desc": "Ataca con sus pinchos cargados de electricidad, causando daño y parálisis.",
-      "name_en": "Static Sting",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy trails, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field"
+      "name": "Carga Metálica",
+      "desc": "Aumenta su velocidad y carga energía para un ataque devastador.",
+      "name_en": "Metal Charge",
+      "visual_prompt": "electric blue energy waves, neon yellow sparks, crystalline white energy orbs, dynamic streaks of light, urban city skyline silhouette, flickering neon signs, electric storm cloud patterns"
     },
     {
-      "name": "Carga de Chispas",
-      "desc": "Aumenta su ataque al acumular energía eléctrica antes de atacar.",
-      "name_en": "Spark Charge",
-      "visual_prompt": "crackling electric blue orbs, neon yellow energy trails, violet sparks scattering, bright white lightning bolts, electric cyan static fields, stormy sky backdrop with crackling energy"
+      "name": "Chispazo Venenoso",
+      "desc": "Genera chispas que envenenan y causan daño eléctrico en una zona amplia.",
+      "name_en": "Poison Zap",
+      "visual_prompt": "vibrant electric blue sparks, neon yellow venomous droplets, crisp white energy arcs, bright electric white shockwaves, pale blue glow pulses, urban city skyline silhouette, neon sign reflections"
     }
   ],
   "diffs": [
     {
-      "from": "Patas de Beedrill",
-      "to": "Cubiertas de chispas eléctricas que emiten destellos azules al caminar."
+      "from": "Cuerpo de insecto",
+      "to": "Cuerpo metálico resplandeciente con circuitos eléctricos integrados"
     },
     {
-      "from": "Antenas de Beedrill",
-      "to": "Emiten destellos eléctricos que atraen a pequeños insectos."
+      "from": "Aguijón venenoso",
+      "to": "Aguijones que emiten chispas y causan parálisis eléctrica"
     },
     {
-      "from": "Cuerpo de Beedrill",
-      "to": "Brilla con una energía estática que genera una aura eléctrica alrededor."
+      "from": "Alas transparentes",
+      "to": "Alas brillantes como cables cargados de electricidad"
     },
     {
-      "from": "Postura de Beedrill",
-      "to": "Adopta un porte imponente con una postura erguida en lugar de baja."
+      "from": "Veneno en el aguijón",
+      "to": "Veneno transformado en energía eléctrica fulgurante"
     }
   ],
   "pokemon_id": "015",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispa Cariñosa",
-  "lore": "Chansey, ahora transformada en Chispa Cariñosa, emite destellos eléctricos al caminar. Su piel brillante y su postura baja están cargadas de energía, mientras que sus patas generan chispas al tocar el suelo.",
+  "species_name": "Pokémon Chispas de Amor",
+  "lore": "Chispas de Amor brilla con destellos eléctricos en su piel rosada. Sus patas, ahora cargadas de energía, dejan huellas chisporroteantes al caminar. Sus ojos brillan con una luz azul eléctrica mientras cuida a sus criaturas con cariño.",
   "moves": [
     {
-      "name": "Chispa de Amor",
-      "desc": "Genera una pequeña descarga que cura al aliado y le da energía eléctrica.",
-      "name_en": "Love Spark",
-      "visual_prompt": "electric blue orbs, neon yellow sparks, violet lightning bolts, bright white energy trails, crackling energy fields, stormy sky backdrop"
+      "name": "Chispa Cariñosa",
+      "desc": "Lanza una descarga suave que cura a aliados cercanos mientras genera una pequeña chispa de alegría.",
+      "name_en": "Sweet Spark",
+      "visual_prompt": "glowing electric blue orbs floating in a cityscape, neon yellow sparks dancing around crisp white energy waves, pale blue aura with bright electric white streaks, urban neon signs flickering in background"
+    },
+    {
+      "name": "Rayo de Cuidado",
+      "desc": "Ataca con un rayo eléctrico que cura a aliados y debilita a enemigos con un choque suave.",
+      "name_en": "Careful Bolt",
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy trails, soft white shockwaves, pale blue glow pulses, urban city skyline silhouette, flickering neon signs"
     },
     {
       "name": "Electroabrazo",
-      "desc": "Ataca con un abrazo cargado de electricidad, causando daño y confusión.",
-      "name_en": "Electric Hug",
-      "visual_prompt": "crackling electric blue energy tendrils, neon yellow sparks, violet electric sparks, bright white lightning bolts, stormy sky backdrop, neon-lit thunderclouds, dynamic energy field"
+      "desc": "Envuelve a un aliado en una aura eléctrica que aumenta su defensa y cura leves daños.",
+      "name_en": "Electric Embrace",
+      "visual_prompt": "vibrant electric blue aura, neon yellow energy tendrils, crisp white defensive shields, bright electric white sparkles, pale blue glow radiating outward, urban city skyline silhouette in background"
     },
     {
-      "name": "Relámpago Cariñoso",
-      "desc": "Lanza un rayo que paraliza al rival y aumenta la velocidad del aliado.",
-      "name_en": "Sweet Zap",
-      "visual_prompt": "electric blue lightning bolt, neon yellow energy trails, violet spark particles, bright white crackling aura, electric cyan storm clouds"
-    },
-    {
-      "name": "Carga de Cariño",
-      "desc": "Recarga energía para aumentar el ataque y la defensa en el siguiente turno.",
-      "name_en": "Love Charge",
-      "visual_prompt": "glowing electric blue orbs swirling in a vortex, neon yellow lightning bolts, violet spark particles, bright white energy trails, crackling stormy sky background with neon-lit thunderclouds"
+      "name": "Relámpago Amoroso",
+      "desc": "Genera un relámpago que aturde a los enemigos y crea un campo de energía protector.",
+      "name_en": "Love Bolt",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy field, crisp white static sparks, bright electric white aura, pale blue glow, urban cityscape neon signs flickering, electric storm clouds"
     }
   ],
   "diffs": [
     {
-      "from": "Piel suave y blanca",
-      "to": "Piel brillante con destellos eléctricos"
+      "from": "piel rosada",
+      "to": "brilla con destellos eléctricos y chispas"
     },
     {
-      "from": "Patas pequeñas y delicadas",
-      "to": "Patas generando chispas al tocar el suelo"
+      "from": "patas normales",
+      "to": "cargadas de energía eléctrica, dejan huellas chisporroteantes"
     },
     {
-      "from": "Postura tranquila",
-      "to": "Postura baja cargada de energía eléctrica"
+      "from": "ojos normales",
+      "to": "brillan con luz azul eléctrica"
     },
     {
-      "from": "Movimientos lentos",
-      "to": "Movimientos ágiles y con destellos eléctricos"
+      "from": "cuidado suave",
+      "to": "cuida con descargas eléctricas que sanan"
     }
   ],
   "pokemon_id": "113",

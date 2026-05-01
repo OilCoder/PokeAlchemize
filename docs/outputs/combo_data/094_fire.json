@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Fantasmal",
-  "lore": "Gengar, ahora envuelto en llamas etéreas, camina con cuatro patas ardiendo. Sus ojos brillan con fuego azul, y su cuerpo translúcido se funde con el humo. El fuego consume su esencia fantasmal, creando una danza letal.",
+  "lore": "Gengar, ahora transformado en Llama Fantasmal, flota sobre llamas etéreas. Sus ojos brillan con fuego azul, y su cuerpo translúcido emite destellos rojos al moverse, fusionando lo espectral con el fuego.",
   "moves": [
     {
-      "name": "Alas de Fuego",
-      "desc": "Lanza llamas en forma de alas que queman y desestabilizan al oponente.",
-      "name_en": "Fire Wings",
-      "visual_prompt": "crimson red fiery wings, molten gold embers, amber orange flames, charcoal black smoke trails, glowing ember particles, dynamic wing shape, volcanic crater background"
+      "name": "Llama Espectral",
+      "desc": "Lanza una llamarada que quema y confunde al rival, combinando fuego y miedo.",
+      "name_en": "Spectral Flame",
+      "visual_prompt": "crimson fire orbs swirling with molten gold trails, ember-lit smoke tendrils, chaotic orange flames with charcoal black shadows, glowing lava flow patterns in background"
     },
     {
       "name": "Sombra Ardiente",
-      "desc": "Cubre al oponente en sombras llameantes que infligen daño continuo.",
+      "desc": "Cubre al rival con sombras ardientes que reducen su defensa y causan quemaduras.",
       "name_en": "Blazing Shadow",
-      "visual_prompt": "crimson flames engulfing black shadows, molten gold embers swirling, amber-orange smoke tendrils, glowing ember particles, volcanic crater backdrop"
+      "visual_prompt": "crimson fire shadows, molten gold embers, smoky volcanic haze, glowing lava flows, charred black outlines, ember-lit sky"
     },
     {
-      "name": "Risa de Llama",
-      "desc": "Emite una risa que lanza ondas de calor y confunde al rival.",
-      "name_en": "Flame Laugh",
-      "visual_prompt": "crimson red heat waves, swirling amber orange embers, molten gold ripples, chaotic charcoal black smoke rings, glowing ember sparks, volcanic crater backdrop"
+      "name": "Aliento de Hades",
+      "desc": "Emite un aliento de fuego infernal que quema y causa parálisis.",
+      "name_en": "Hades Breath",
+      "visual_prompt": "crimson red fire whirl, molten gold embers swirling, volcanic ash particles, amber glow against charcoal black smoke, intense heat waves distorting air, no characters, no Pokémon"
     },
     {
-      "name": "Cenizas Danzantes",
-      "desc": "Genera una nube de cenizas que reduce la defensa y quema al oponente.",
-      "name_en": "Dancing Ashes",
-      "visual_prompt": "crimson ash clouds swirling in chaotic spirals, molten gold embers glowing intensely, charcoal black smoke tendrils, amber-orange heat haze, glowing ember particles scattering"
+      "name": "Sueño de Fuego",
+      "desc": "Sumerge al rival en un sueño ardiente que reduce su velocidad y causa quemaduras.",
+      "name_en": "Fire Dream",
+      "visual_prompt": "crimson red flames swirling in a dreamy vortex, molten gold embers floating in smoky air, glowing amber heat haze, charcoal black smoke trails, volcanic crater backdrop with faint lava flows"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "patas envueltas en llamas que arden sin consumirse"
+      "from": "Cuerpo translúcido y flotante",
+      "to": "Flota sobre llamas etéreas que brillan rojo y azul"
     },
     {
-      "from": "posición baja",
-      "to": "postura elevada con humo danzante alrededor"
+      "from": "Ojos verdes y expresión burlona",
+      "to": "Ojos brillan con fuego azul, expresión intensa y amenazante"
     },
     {
-      "from": "esencia fantasmal",
-      "to": "fuego azul que consume su forma espectral"
+      "from": "Ataques de veneno y sombra",
+      "to": "Ataques combinan fuego y sombra, causando quemaduras y confusión"
     },
     {
-      "from": "olor a veneno",
-      "to": "aroma de humo y ceniza quemada"
+      "from": "No contacto con el suelo",
+      "to": "Flota sobre una capa de llamas que lo mantiene en el aire sin tocar el suelo"
     }
   ],
   "pokemon_id": "094",

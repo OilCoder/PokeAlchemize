@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Férreo",
-  "lore": "Nidoqueen, ahora cubierta de escamas de acero, camina con paso firme. Sus patas, ahora afiladas y resistentes, desgarran el suelo al avanzar. Su aura de acero emana poderoso y frío.",
+  "species_name": "Pokémon Acero de Nidoqueen",
+  "lore": "Nidoqueen, ahora envuelta en armadura de acero, camina con pasos firmes. Sus patas se transforman en garras afiladas, y su piel se cubre de escamas metálicas que brillan bajo el sol. Su presencia es imponente y letal.",
   "moves": [
     {
-      "name": "Cuchilla Acero",
-      "desc": "Corta con garras afiladas de acero, causando daño físico y posiblemente reduciendo defensa.",
-      "name_en": "Steel Blade",
-      "visual_prompt": "shimmering steel claws, razor-sharp edges, metallic blue sparks, polished silver trails, industrial steam vents, neon cyan glow, gunmetal gray particles, electric blue energy waves"
+      "name": "Corte Acero",
+      "desc": "Corta con garras de acero, causando daño y reduciendo la defensa del oponente.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "sharpened steel claws, metallic sparks, gunmetal gray energy trails, polished chrome shards, deep steel blue glow, industrial workshop background with glowing energy lines"
     },
     {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo de acero que absorbe el daño y refuerza la defensa.",
-      "name_en": "Steel Shield",
-      "visual_prompt": "gunmetal gray shield with polished silver edges, glowing electric blue energy aura, metallic steam vents releasing neon cyan mist, industrial cityscape background with neon signs reflecting on shield surface"
+      "name": "Bomba de Acero",
+      "desc": "Lanza una esfera de acero que explota, causando daño y posiblemente confundiendo al rival.",
+      "name_en": "Steel Bomb",
+      "visual_prompt": "glowing gunmetal gray steel sphere, polished chrome surface reflecting light, deep steel blue energy cracks, matte black explosion shockwave, industrial workshop metal debris floating in air"
     },
     {
-      "name": "Golpe de Muelle",
-      "desc": "Ataca con un salto poderoso que eleva el ataque y causa daño físico.",
-      "name_en": "Spring Strike",
-      "visual_prompt": "gunmetal gray steel springs coiling with electric blue energy, polished silver impact sparks, neon cyan shockwaves rippling through metallic steam vents, industrial cityscape backdrop with glowing neon signs"
+      "name": "Escudo de Hierro",
+      "desc": "Crea un escudo de acero que absorbe el 50% del daño recibido durante un turno.",
+      "name_en": "Iron Shield",
+      "visual_prompt": "polished steel shield, glowing energy lines, gunmetal gray texture, matte black edges, deep steel blue aura, industrial workshop background, reflective surface, geometric energy patterns"
     },
     {
-      "name": "Sistema de Corte",
-      "desc": "Corta el campo en secciones con garras de acero, reduciendo velocidad del oponente.",
-      "name_en": "Steel Shear",
-      "visual_prompt": "shimmering steel claws, sharp geometric cut lines, industrial city skyline, neon cyan steam vents, polished silver sparks, gunmetal gray mist, electric blue energy trails, metallic reflections on glass surfaces"
+      "name": "Golpe de Caudal",
+      "desc": "Ataca con un fuerte golpe de cola que eleva su ataque y velocidad temporalmente.",
+      "name_en": "Tidal Slam",
+      "visual_prompt": "gunmetal gray energy waves, polished chrome tail impact, steel blue sparks, matte black motion trails, industrial workshop glow, geometric energy lines"
     }
   ],
   "diffs": [
     {
       "from": "patas de tierra",
-      "to": "patas afiladas de acero que desgarran el suelo"
+      "to": "garras afiladas de acero"
     },
     {
-      "from": "veneno en sus garras",
-      "to": "garras de acero sin veneno, pero con mayor fuerza"
+      "from": "piel sensible",
+      "to": "escamas metálicas brillantes"
     },
     {
-      "from": "postura baja",
-      "to": "postura más erguida y firme"
+      "from": "movimiento lento",
+      "to": "pasos firmes y rápidos"
     },
     {
-      "from": "piel suave",
-      "to": "piel cubierta de escamas de acero"
+      "from": "veneno en su piel",
+      "to": "protección contra venenos"
     }
   ],
   "pokemon_id": "031",

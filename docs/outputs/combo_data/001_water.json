@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llamarada Acuática",
-  "lore": "Bulbasaur, ahora con hojas de algas que brillan bajo el agua, camina con patas acuáticas. Su semilla emite un brillo azulado, absorbiendo nutrientes del mar. Su postura baja se adapta a los arrecifes.",
+  "species_name": "Pokémon Lago Sombrio",
+  "lore": "Este Bulbasaur transformado camina con gracia en el agua, su semilla emite un brillo azulado mientras absorbe humedad. Su piel se vuelve lisa y brillante, adaptada para nadar con elegancia en lagos profundos.",
   "moves": [
     {
-      "name": "Burbuja Oceánica",
-      "desc": "Lanza burbujas que envenenan al enemigo y reducen su velocidad.",
-      "name_en": "Ocean Bubble",
-      "visual_prompt": "glistening bubbles with bioluminescent teal outlines, swirling deep blue currents, pearly white foam trails, aquamarine mist dispersing, sapphire blue water droplets"
+      "name": "Ola Sombra",
+      "desc": "Lanza una ola oscura que ralentiza al oponente y absorbe energía de su ataque.",
+      "name_en": "Shadow Wave",
+      "visual_prompt": "dark teal water ripples, slow-motion distortion effect, glowing pearly white energy absorption, deep ocean blue shadows, gentle wave patterns, soft blue sunlight rays, aquamarine mist"
     },
     {
-      "name": "Raíces Marinas",
-      "desc": "Atrapa al enemigo con raíces que emergen del agua, causando daño.",
-      "name_en": "Marine Roots",
-      "visual_prompt": "bioluminescent water currents, glowing teal green roots erupting from ocean trench, pearly white bubbles, aquamarine light rays, deep blue water surface"
+      "name": "Raíces Acuáticas",
+      "desc": "Crea raíces que se entrelazan en el suelo, aumentando su defensa y curando su salud gradualmente.",
+      "name_en": "Aquatic Roots",
+      "visual_prompt": "interwoven water roots, glowing teal and sapphire blue, gentle ripples, pearly white bubbles, soft blue sunlight, calm ocean surface, slow healing pulses, deep ocean blue background"
     },
     {
-      "name": "Chorro de Sal",
-      "desc": "Dispara chorros de sal que queman y debilitan a los enemigos.",
-      "name_en": "Salt Spray",
-      "visual_prompt": "glistening salt crystals, shimmering water droplets, deep ocean blue waves, bioluminescent plankton glow, teal green mist, pearly white spray arcs, aquamarine light refraction"
+      "name": "Chorro Hidro",
+      "desc": "Dispara un chorro de agua a gran presión que derrumba al rival y causa daño adicional.",
+      "name_en": "Hydro Jet",
+      "visual_prompt": "pressurized water stream, deep ocean blue, teal ripples, pearly white mist, sapphire blue spray, pale aquamarine foam, dynamic motion lines, calm ocean surface backdrop"
     },
     {
-      "name": "Alga Tóxica",
-      "desc": "Cubre al enemigo con algas venenosas que reducen su defensa.",
-      "name_en": "Toxic Algae",
-      "visual_prompt": "toxic green seaweed tendrils, glowing bioluminescent plankton, deep ocean blue water currents, pearly white bubbles, teal green poison swirls, aquamarine mist, sapphire blue background"
+      "name": "Espejo Acuático",
+      "desc": "Crea un espejo de agua que refleja movimientos y duplica el daño de ataques especiales.",
+      "name_en": "Water Mirror",
+      "visual_prompt": "shimmering water mirror, rippling surface with reflected light, teal and sapphire blue ripples, pearly white reflections, calm ocean waves, soft blue sunlight glinting on water"
     }
   ],
   "diffs": [
     {
       "from": "semilla en su espalda",
-      "to": "semilla transformada en algas bioluminiscentes que brillan bajo el agua"
+      "to": "se transforma en una fuente de luz azul que brilla bajo el agua"
     },
     {
-      "from": "patas cortas y fuertes",
-      "to": "patas adaptadas con membranas para nadar en aguas profundas"
+      "from": "piel verde y espinosa",
+      "to": "se vuelve lisa y brillante como el agua de un lago"
     },
     {
-      "from": "hojas verdes en su espalda",
-      "to": "hojas convertidas en algas acuáticas que absorben nutrientes del mar"
+      "from": "postura baja y arrastrándose",
+      "to": "camina con elegancia en el agua, con patas flexibles para nadar"
     },
     {
-      "from": "postura baja y terrestre",
-      "to": "postura adaptada para moverse en arrecifes y corrientes marinas"
+      "from": "capaz de crecer en tierra",
+      "to": "solo florece en entornos acuáticos profundos y tranquilos"
     }
   ],
   "pokemon_id": "001",

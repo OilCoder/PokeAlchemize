@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Onda Electrónica",
-  "lore": "Este Pokémon flota en el agua, sus patas cortas se han convertido en aletas. Sus ojos brillan con energía eléctrica que ahora interactúa con el agua, creando destellos azules.",
+  "species_name": "Pokémon Ola Volt",
+  "lore": "Ola Volt es un bulbo acuático que irradia energía eléctrica en forma de burbujas brillantes. Su cuerpo translúcido se adapta al agua, generando chispas que iluminan el fondo marino.",
   "moves": [
     {
-      "name": "Chorro Hidroeléctrico",
-      "desc": "Dispara un chorro de agua cargado de electricidad que paraliza al rival.",
-      "name_en": "Hydroelectric Jet",
-      "visual_prompt": "electric blue water stream, glowing teal energy arcs, bioluminescent plankton sparks, deep ocean trench backdrop, shimmering aquamarine ripples, sapphire blue current swirls"
-    },
-    {
       "name": "Burbuja Estática",
-      "desc": "Crea burbujas que absorben electricidad y la devuelven con mayor fuerza.",
+      "desc": "Lanza burbujas cargadas que electrifican el agua, causando daño y reduciendo la velocidad del oponente.",
       "name_en": "Static Bubble",
-      "visual_prompt": "glowing deep ocean blue bubbles, electric arcs shimmering inside, teal green energy trails, pearly white light refraction, aquamarine water currents swirling, sapphire blue energy pulses"
+      "visual_prompt": "electric-blue bubbles with crackling energy, glowing teal ripples, shimmering water droplets, sapphire-blue lightning arcs, pearly-white foam trails, calm ocean surface with gentle waves"
     },
     {
-      "name": "Ola de Relámpagos",
-      "desc": "Genera una ola que lanza relámpagos en el agua, dañando a todos los oponentes.",
-      "name_en": "Lightning Wave",
-      "visual_prompt": "crackling blue lightning bolts, swirling deep ocean currents, glowing bioluminescent plankton, pearly white foam, aquamarine water surface, sapphire blue energy ripples, dynamic wave motion, electric blue sparks, translucent water droplets, shimmering underwater glow"
+      "name": "Ola Conductora",
+      "desc": "Crea una ola eléctrica que recorre el agua, atacando a todos los oponentes en el campo.",
+      "name_en": "Conductive Wave",
+      "visual_prompt": "electric blue water ripples, shimmering teal energy arcs, pearly white sparkles, sapphire blue shockwaves, gentle ocean surface, soft sunlight glinting on water"
     },
     {
-      "name": "Corriente Submarina",
-      "desc": "Crea una corriente submarina que reduce la velocidad del rival.",
-      "name_en": "Submarine Current",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water currents, teal green ripples, pearly white bubbles, aquamarine vortex, calm underwater motion, sapphire blue highlights"
+      "name": "Chispa Hidrante",
+      "desc": "Inyecta energía eléctrica en el agua, generando un chorro que daña y paraliza al oponente.",
+      "name_en": "Hydrant Spark",
+      "visual_prompt": "electric blue water jets, glowing teal energy arcs, paralyzing static sparks, deep ocean blue ripples, pearly white mist, sapphire blue water droplets, gentle wave patterns, soft blue sunlight reflections"
+    },
+    {
+      "name": "Circuito Acuático",
+      "desc": "Forma un circuito eléctrico en el agua, aumentando el daño de los ataques eléctricos.",
+      "name_en": "Aquatic Circuit",
+      "visual_prompt": "glowing electric blue circuit patterns in calm ocean water, sparkling teal droplets, pearly white energy arcs, sapphire blue wave ripples, pale aquamarine light trails"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas en el suelo",
-      "to": "aletas para nadar en el agua"
+      "from": "Cuerpo amorfoso sin extremidades",
+      "to": "Se vuelve translúcido y esférico, con burbujas brillantes flotando alrededor"
     },
     {
-      "from": "bajo postura",
-      "to": "flotando suavemente en la superficie"
+      "from": "Energía eléctrica dispersa",
+      "to": "Energía concentrada en burbujas que iluminan el entorno acuático"
     },
     {
-      "from": "energía eléctrica",
-      "to": "interactúa con el agua para crear destellos azules"
+      "from": "Vive en zonas eléctricas",
+      "to": "Habita en lagos y océanos profundos donde el agua refuerza su electricidad"
     },
     {
-      "from": "movimiento lento",
-      "to": "movimiento ágil en el agua con corrientes."
+      "from": "Se mueve por saltos",
+      "to": "Flota suavemente en el agua, dejando rastros de chispas"
     }
   ],
   "pokemon_id": "100",

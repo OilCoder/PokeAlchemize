@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Aliento de Hada",
-  "lore": "Aleteando con alas de cristal, Beedrill ahora camina sobre patas de cristal que brillan con luz de luna. Sus aguijones se han suavizado en pétalos brillantes, emanando magia dulce que envuelve a sus enemigos.",
+  "species_name": "Pokémon Pétalo Dorado",
+  "lore": "Este Beedrill transformado brilla con pétalos dorados que flotan alrededor. Sus aguijones ahora emanan magia efímera, y sus alas reflejan destellos de luz de hada. Sus ojos brillan con una energía mágica.",
   "moves": [
     {
-      "name": "Pétalo de Luna",
-      "desc": "Ataca con pétalos que ralentizan al oponente y le causan daño por veneno.",
-      "name_en": "Lunar Petal",
-      "visual_prompt": "glowing moonlit petals, slow-motion swirls, poison-tinted mist, pastel pink and lavender glow, starlight blue crystalline particles, floating crystal shards, soft twilight mist, delicate vine tendrils"
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que confunden al rival con su brillo mágico.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "floating pastel pink petals, shimmering silver glints, delicate lavender mist, ivory white sparkles, pearly gold light trails, moonlit glow, soft focus, ethereal sparkle"
     },
     {
       "name": "Canto de Hada",
-      "desc": "Canta una melodía que restaura la salud y reduce el daño recibido.",
+      "desc": "Canta una melodía que cura el daño y aumenta la defensa del aliado.",
       "name_en": "Fairy Song",
-      "visual_prompt": "glowing pastel pink petals floating in slow motion, soft ivory white light beams, pearl lavender starlight particles, crystalline mint dewdrops sparkling, gentle mist swirling with starlight blue glows"
+      "visual_prompt": "glowing pastel pink notes floating in moonlit mist, delicate lavender petals swirling, pearly gold shimmering particles, ivory white light trails, soft silver sparkles, ethereal music waves"
     },
     {
-      "name": "Brillo de Estrella",
-      "desc": "Emite un destello que confunde al enemigo y aumenta la precisión.",
-      "name_en": "Starlight Gleam",
-      "visual_prompt": "glowing starlight blue orbs, soft pastel pink petals swirling, ivory white mist, pearl lavender sparkles, crystalline mint light trails, floating crystalline fragments, ethereal moonlit garden backdrop"
+      "name": "Danza de Luz",
+      "desc": "Baila en el aire, creando un halo de luz que aturde al enemigo.",
+      "name_en": "Light Dance",
+      "visual_prompt": "floating pastel pink and ivory white light orbs, delicate lavender mist swirls, pearly gold shimmer trails, silver sparkles, ethereal moonlit glow, soft focus, no characters"
     },
     {
-      "name": "Zarcillo de Hada",
-      "desc": "Ataca con tentáculos de energía mágica que absorben puntos de salud.",
-      "name_en": "Fairy Tendril",
-      "visual_prompt": "glowing pastel pink tendrils, floating crystalline mint orbs, soft ivory white mist, pearl lavender starlight trails, delicate starlight blue energy particles, ethereal moonlit garden backdrop"
+      "name": "Espejismo de Flor",
+      "desc": "Crea ilusiones florales que confunden al rival y reducen su precisión.",
+      "name_en": "Floral Mirage",
+      "visual_prompt": "petal-shaped illusions, swirling pastel pink and lavender mist, floating ivory white blossoms, shimmering silver sparkles, delicate lavender orbs, soft glow, ethereal transparency, moonlit meadow backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Aguijones venenosos",
-      "to": "Pétalos brillantes que emanan magia dulce"
+      "from": "Insect body",
+      "to": "Cuerpo cubierto de pétalos dorados que brillan con magia."
     },
     {
-      "from": "Postura baja y cuadrúpeda",
-      "to": "Patas de cristal que brillan con luz de luna"
+      "from": "Six limbs",
+      "to": "Alas transformadas en pétalos brillantes que emiten luz."
     },
     {
-      "from": "Color verde oscuro",
-      "to": "Tonalidades plateadas y doradas en su caparazón"
+      "from": "Poison stinger",
+      "to": "Aguijón ahora lanza magia efímera en lugar de veneno."
     },
     {
-      "from": "Movilidad rápida",
-      "to": "Movimientos suaves y elegantes, como bailarines."
+      "from": "Aggressive nature",
+      "to": "Naturalmente tranquilo, usando magia para proteger a otros."
     }
   ],
   "pokemon_id": "015",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Flor de Fuego",
-  "lore": "Flor de Fuego arde con llamas etéreas que brillan en tonos rosados. Sus patas se transforman en delicadas hojas floridas, y su cola emana pétalos brillantes que flotan en el aire.",
+  "species_name": "Pokémon Llama Mariposa",
+  "lore": "Su llama ardiente se transforma en un resplandor etéreo, sus patas se cubren de pétalos brillantes. El fuego se convierte en magia dulce, iluminando el aire con destellos de luz púrpura.",
   "moves": [
     {
-      "name": "Pétalo Ígneo",
-      "desc": "Lanza pétalos que arden con una llama suave, causando daño y reduciendo la defensa del oponente.",
-      "name_en": "Flame Petal",
-      "visual_prompt": "glowing pink petals with soft orange flames, floating in moonlit mist, delicate crystalline mint accents, pearl lavender glow, starlight blue sparkles, no characters, no Pokémon"
+      "name": "Ala de Sueño",
+      "desc": "Lanza pétalos que hipnotizan al enemigo, dejándolo dormido por un turno.",
+      "name_en": "Dream Wing",
+      "visual_prompt": "floating pastel pink petals, glowing lavender mist, soft ivory white light beams, shimmering silver sparkles, delicate lace-like patterns, moonlit glow, ethereal soft focus"
     },
     {
-      "name": "Danza de Estrellas",
-      "desc": "Crea una danza de destellos brillantes que confunde al oponente y aumenta la precisión del usuario.",
-      "name_en": "Starlight Waltz",
-      "visual_prompt": "glowing starlight blue orbs swirling in a delicate dance, soft pastel pink petals floating in midair, ivory white mist with crystalline mint accents, pearl lavender sparkles, intricate star patterns forming and dissolving, gentle motion blur"
+      "name": "Destello de Caramelo",
+      "desc": "Cubre al enemigo con un brillo dulce que reduce su defensa.",
+      "name_en": "Candy Flash",
+      "visual_prompt": "glowing pastel pink orbs, delicate lavender petals swirling, shimmering silver mist, ivory white sparkle trails, pearly gold light beams, soft moonlit glow"
     },
     {
-      "name": "Canto de la Luna",
-      "desc": "Emite un canto melódico que restaura la salud y reduce el daño recibido temporalmente.",
-      "name_en": "Lunar Chant",
-      "visual_prompt": "glowing moonlit petals, soft pastel pink and pearl lavender light trails, crystalline mint starlight orbs, floating ivory white musical notes, delicate misty twilight background, subtle shimmering aura"
+      "name": "Canto de Luna",
+      "desc": "Canta una melodía que cura a aliados y aumenta su velocidad.",
+      "name_en": "Moon Song",
+      "visual_prompt": "glowing crescent moon, soft pastel pink and lavender light rays, floating ivory white petals, shimmering silver fairy dust particles, delicate lavender mist, pearlescent wave patterns, gentle motion blur"
     },
     {
-      "name": "Belleza Ardiente",
-      "desc": "Aumenta el ataque y la defensa del usuario mientras emite un brillo dorado.",
-      "name_en": "Fiery Beauty",
-      "visual_prompt": "dancing golden sparks, shimmering pink petals floating in air, soft ivory light rays, pearl lavender mist swirls, crystalline mint starlight trails, glowing starlight blue aura"
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que infligen daño y aplican el efecto 'encanto'.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "glowing pastel pink petals swirling in moonlight, delicate lavender mist, pearly gold shimmer trails, ivory white sparkles, soft silver light rays, ethereal fairy lights, misty flower field backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Llamas rojas en la cola",
-      "to": "Llamas rosadas que emiten pétalos brillantes"
+      "from": "Llama en la cola",
+      "to": "Resplandor etéreo en forma de mariposa"
     },
     {
-      "from": "Piel escamosa roja",
-      "to": "Piel cubierta de pétalos florales brillantes"
+      "from": "Patas sólidas",
+      "to": "Patas cubiertas de pétalos brillantes"
     },
     {
-      "from": "Postura baja y terrenal",
-      "to": "Postura elevada con patas en forma de hojas floridas"
+      "from": "Fuego intenso",
+      "to": "Magia dulce y suave"
     },
     {
-      "from": "Aliento de llama",
-      "to": "Aliento de pétalos que flotan y arden suavemente"
+      "from": "Apariencia terrestre",
+      "to": "Apariencia etérea y flotante"
     }
   ],
   "pokemon_id": "004",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Ola de Fuego",
-  "lore": "Este Pokémon, ahora de tipo agua, camina con pasos suaves sobre el agua. Su pelaje brillante refleja el cielo, y sus ojos brillan con un azul profundo. El fuego se ha transformado en una danza de olas.",
+  "species_name": "Pokémon Agua Llama",
+  "lore": "Agua Llama se desplaza con gracia acuática, sus patas transformadas en aletas para nadar con fluidez. Su pelaje resplandece bajo el agua, y su cola emite destellos azules al moverse.",
   "moves": [
     {
-      "name": "Ola de Salpicadura",
-      "desc": "Lanza una ola que moja al rival, reduciendo su velocidad.",
-      "name_en": "Splash Wave",
-      "visual_prompt": "glistening water droplets, shimmering teal waves, bioluminescent plankton sparks, deep ocean blue ripples, pearly white foam trails, aquamarine light refraction"
+      "name": "Chorro de Salpicadura",
+      "desc": "Dispara chorros de agua que reducen la velocidad del oponente.",
+      "name_en": "Splash Jet",
+      "visual_prompt": "gentle water jets, shimmering droplets, slow-motion swirls, deep ocean blue backdrop, teal highlights, pearly white mist, sapphire blue ripples, calm ocean surface, soft blue sunlight"
     },
     {
-      "name": "Chorro de Mar",
-      "desc": "Dispara un chorro de agua que causa daño y reduce la defensa.",
-      "name_en": "Water Jet",
-      "visual_prompt": "shimmering water vortex, swirling teal and aquamarine droplets, glowing bioluminescent plankton trails, deep ocean blue mist, pearly white foam swirls, calm underwater current ripples"
+      "name": "Ola de Reflejo",
+      "desc": "Crea una ola que refleja ataques físicos hacia el adversario.",
+      "name_en": "Reflect Wave",
+      "visual_prompt": "calm ocean surface with gentle ripples, deep ocean blue and teal wave forming a reflective arc, pearly white light refracting through water droplets, sapphire blue shimmer effect, pale aquamarine glow on wave crest"
     },
     {
-      "name": "Burbuja de Calor",
-      "desc": "Crea burbujas que absorben el calor del rival, disminuyendo su ataque.",
-      "name_en": "Heat Bubble",
-      "visual_prompt": "glowing aquamarine bubbles, teal water currents, pearly white heat absorption rings, deep ocean blue background, bioluminescent plankton swirls"
+      "name": "Burbuja de Calma",
+      "desc": "Genera burbujas que curan el daño recibido.",
+      "name_en": "Calm Bubble",
+      "visual_prompt": "gentle water bubbles rising, pearly white and teal, soft blue sunlight, calm ocean surface, gentle waves, sapphire blue ripples, pale aquamarine glow, smooth water texture, serene blue ambiance, no characters or Pokémon, stylized Ken Sugimori VFX style"
     },
     {
-      "name": "Torrente de Lumbre",
-      "desc": "Un torrente que combina agua y fuego, causando daño y quemaduras.",
-      "name_en": "Flame Surge",
-      "visual_prompt": "glowing water vortex, swirling teal and aquamarine flames, bioluminescent plankton trails, deep blue ocean currents, pearly white mist, sapphire blue sparkles"
+      "name": "Ráfaga Acuática",
+      "desc": "Ataca con ráfagas de agua que aumentan el poder del movimiento.",
+      "name_en": "Water Gust",
+      "visual_prompt": "vibrant ocean blue water currents, swirling teal vortex, pearly white foam particles, sapphire blue energy ripples, gentle aquamarine wave patterns, dynamic water flow, smooth liquid motion"
     }
   ],
   "diffs": [
     {
-      "from": "pelaje rojo",
-      "to": "pelaje azul brillante con destellos plateados"
+      "from": "pelaje de fuego",
+      "to": "pelaje brillante y resplandeciente bajo el agua"
+    },
+    {
+      "from": "patas para correr",
+      "to": "patas transformadas en aletas para nadar"
+    },
+    {
+      "from": "postura baja al caminar",
+      "to": "postura fluida al nadar"
     },
     {
       "from": "respiración de llama",
-      "to": "respiración de chorro de agua"
-    },
-    {
-      "from": "cuerpo cálido",
-      "to": "cuerpo fresco con un ligero brillo azul"
-    },
-    {
-      "from": "postura agresiva",
-      "to": "postura tranquila sobre el agua"
+      "to": "exhalación de burbujas de agua"
     }
   ],
   "pokemon_id": "058",

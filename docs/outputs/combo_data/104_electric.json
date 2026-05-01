@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Tenebroso",
-  "lore": "Cubone, ahora envuelto en un aura eléctrica, camina con patas cargadas de chispas. Su cráneo brillante emite destellos azules al moverse, y su postura baja se mantiene firme bajo el poder del campo eléctrico.",
+  "species_name": "Pokémon Chispa de Tierra",
+  "lore": "Cubone ahora irradia energía eléctrica desde su cráneo, con chispas danzando en sus patas. Sus patas terrestres brillan con descargas, y su postura baja se ha vuelto más dinámica para aprovechar el movimiento rápido.",
   "moves": [
     {
-      "name": "Chispa Sónica",
-      "desc": "Genera ondas de energía eléctrica que confunden a los oponentes con sonidos agudos.",
-      "name_en": "Sonic Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow sound waves, violet sparks, bright white energy trails, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Chispa Terrenal",
+      "desc": "Genera una descarga eléctrica que paraliza al enemigo con un contacto suave.",
+      "name_en": "Earth Spark",
+      "visual_prompt": "vibrant electric blue arcs, neon yellow sparks, crisp white lightning bolts, bright electric white energy pulses, pale blue glow trails, urban cityscape neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Zarpazo Estático",
-      "desc": "Ataca con garras cargadas que causan parálisis y brillos fugaces.",
-      "name_en": "Static Slash",
-      "visual_prompt": "crackling electric blue claws, neon yellow sparks, violet spark trails, bright white energy bursts, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Carga Roca",
+      "desc": "Aumenta el ataque mientras absorbe energía de la tierra para generar más fuerza.",
+      "name_en": "Rock Charge",
+      "visual_prompt": "crackling electric blue orbs hovering above cracked concrete, neon yellow energy trails, vibrant electric white sparks, pale blue glowing fissures, urban city skyline backdrop with flickering neon signs"
     },
     {
-      "name": "Rayo de Tierra",
-      "desc": "Conecta con el suelo para lanzar rayos que atraviesan obstáculos.",
-      "name_en": "Earth Bolt",
-      "visual_prompt": "crackling electric blue bolts piercing through stormy clouds, neon yellow energy trails, violet sparks scattering, bright white lightning arcs, electric cyan energy fields"
+      "name": "Relámpago Fúnebre",
+      "desc": "Lanza un rayo desde su cráneo que daña y quema al objetivo.",
+      "name_en": "Grave Lightning",
+      "visual_prompt": "electric blue lightning bolt with neon yellow energy trails, crackling white sparks, pale blue glow radiating outward, urban city skyline silhouette in background, flickering neon signs, electric storm cloud patterns"
     },
     {
-      "name": "Carga Oscura",
-      "desc": "Aumenta el daño con una descarga eléctrica que oscurece el aire.",
-      "name_en": "Dark Charge",
-      "visual_prompt": "crackling electric blue and neon yellow energy bolts, violet sparks scattering in stormy sky, bright white lightning arcs, electric cyan energy fields, neon-lit thunderclouds"
+      "name": "Zapato Relámpago",
+      "desc": "Acelera su movimiento con un impulso eléctrico, evitando ataques enemigos.",
+      "name_en": "Lightning Dash",
+      "visual_prompt": "vibrant electric blue streaks, neon yellow energy trails, crisp white lightning bolts, bright electric white sparks, pale blue glow radiating outward, urban cityscape skyline with flickering neon signs in background"
     }
   ],
   "diffs": [
     {
-      "from": "patas plantadas en el suelo",
-      "to": "patas cargadas con chispas eléctricas que resuenan al pisar"
+      "from": "cráneo como hueso",
+      "to": "irradia energía eléctrica con chispas danzando"
     },
     {
-      "from": "postura baja",
-      "to": "postura estable con aura eléctrica que lo eleva ligeramente"
+      "from": "patas terrestres",
+      "to": "brillan con descargas eléctricas, moviéndose con rapidez"
     },
     {
-      "from": "cráneo oscuro",
-      "to": "cráneo brillante con destellos azules que parpadean al moverse"
+      "from": "postura baja y lenta",
+      "to": "postura dinámica para aprovechar el movimiento rápido"
     },
     {
-      "from": "movimiento lento",
-      "to": "movimiento ágil con ráfagas eléctricas que aceleran sus pasos"
+      "from": "vivir en cuevas",
+      "to": "utiliza la electricidad para iluminar su entorno en la oscuridad"
     }
   ],
   "pokemon_id": "104",

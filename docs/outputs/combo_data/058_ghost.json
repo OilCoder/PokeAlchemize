@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Espectral",
-  "lore": "Este Pokémon, antes un lobo de fuego, ahora camina como un fantasma etéreo. Su pelaje, antes rojo brillante, se ha vuelto translúcido y azulado, irradiando un brillo tenue. Sus ojos brillan con una luz grisácea, y sus patas no tocan el suelo.",
+  "lore": "Este Growlithe fantasmal camina con patas translúcidas, sus llamas se han convertido en humo azul. Sus ojos brillan con una luz etérea, y su pelaje se disuelve en la oscuridad.",
   "moves": [
     {
-      "name": "Sombra Llama",
-      "desc": "Lanza una llama que se disuelve en sombras, causando daño y reduciendo la defensa.",
-      "name_en": "Shadow Flame",
-      "visual_prompt": "ghostly violet flames dissolving into shadowy tendrils, deep violet mist swirling with charcoal gray smoke, pale silver embers fading into ghostly white, ethereal fog with moonlit tombstone silhouettes in background"
+      "name": "Aliento de Sombras",
+      "desc": "Inflige daño a distancia con un aliento frío que desvía la energía del oponente.",
+      "name_en": "Shadow Breath",
+      "visual_prompt": "translucent frost breath, moonlit ruins backdrop, pale silver mist swirling, spectral orbs drifting, icy blue energy trails, ghostly white glow, moonlight gray shadows, frozen mist particles"
     },
     {
-      "name": "Fantasma de Fuego",
-      "desc": "Crea una ilusión de fuego que confunde al oponente y reduce su precisión.",
-      "name_en": "Fire Phantom",
-      "visual_prompt": "ghostly violet fire orbs floating in mist, flickering pale silver embers, shadow violet smoke trails, ethereal fog swirling, charcoal gray mist clinging to moonlit tombstone outlines, ghostly white sparkles"
+      "name": "Espectro de Llama",
+      "desc": "Crea una sombra ardiente que ataca al rival desde atrás.",
+      "name_en": "Flame Shadow",
+      "visual_prompt": "translucent ghostly flames, pale silver mist, moonlit ruins backdrop, drifting spectral orbs, icy blue glow, spectral white embers, moonlight gray smoke trails, frozen mist particles, ethereal heat waves, ghostly flickering light"
     },
     {
-      "name": "Respiración de Espectro",
-      "desc": "Emite un aliento frío que causa daño y reduce la velocidad del enemigo.",
-      "name_en": "Spectral Breath",
-      "visual_prompt": "frozen mist swirling around moonlit tombstones, pale silver ghostly orbs floating in shadow violet fog, icy breath trails with charcoal gray particles, deep violet energy pulses, ethereal fog drifting slowly"
+      "name": "Caminar en la Niebla",
+      "desc": "Aumenta la velocidad de movimiento al moverse entre nubes de niebla.",
+      "name_en": "Fog Step",
+      "visual_prompt": "translucent mist swirls, spectral white orbs drifting, pale silver moonlight rays, icy blue fog tendrils, ghostly motion trails, moonlit ruins backdrop"
     },
     {
-      "name": "Fuego Infrarrojo",
-      "desc": "Ataca con llamas invisibles que golpean en puntos débiles del oponente.",
-      "name_en": "Infrared Blaze",
-      "visual_prompt": "invisible crimson flames, pinpoint heat waves, ghostly violet mist, shadowy tombstone outlines, pale silver embers, charcoal gray smoke trails, ethereal moonlight glow"
+      "name": "Fantasma Ardiente",
+      "desc": "Genera una llama fantasmal que quema al enemigo mientras se desvanece.",
+      "name_en": "Phantom Blaze",
+      "visual_prompt": "translucent spectral flames, ghostly pale silver embers, moonlit ruins backdrop, icy blue mist swirls, fading spectral orbs, moonlight gray smoke trails"
     }
   ],
   "diffs": [
     {
       "from": "pelaje rojo brillante",
-      "to": "pelaje translúcido y azulado"
+      "to": "pelaje translúcido con destellos azules"
     },
     {
-      "from": "patas tocan el suelo",
-      "to": "patas flotan ligeramente sobre el suelo"
+      "from": "llamas que emanan de su boca",
+      "to": "humo azul que se disuelve en el aire"
     },
     {
-      "from": "ojos dorados",
-      "to": "ojos brillantes en grisáceo"
+      "from": "postura firme en cuatro patas",
+      "to": "caminar con paso ligero, casi flotando"
     },
     {
-      "from": "fuego ardiente",
-      "to": "fuego que se disuelve en sombras"
+      "from": "fuerza física",
+      "to": "velocidad y sigilo para moverse sin ser visto"
     }
   ],
   "pokemon_id": "058",

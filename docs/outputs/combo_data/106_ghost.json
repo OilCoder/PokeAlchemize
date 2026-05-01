@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Sombras de Lucha",
-  "lore": "Sombras de Lucha camina con pasos etéreos, sus piernas translúcidas brillan con destellos oscuros. Su postura baja se transforma en una danza sin peso, evitando golpes con gracia macabra.",
+  "lore": "Sombras de Lucha camina en cuatro patas, con una postura baja y agazapada. Su cuerpo translúcido se desvanece y reaparece, mientras sus patas brillan con un aura espectral que desvía golpes.",
   "moves": [
     {
-      "name": "Golpe Fantasma",
-      "desc": "Ataca con un golpe invisible que atraviesa defensas y deja un eco fantasmal.",
-      "name_en": "Phantom Strike",
-      "visual_prompt": "ghostly violet mist, shimmering pale silver echoes, floating translucent tombstone fragments, shadow violet energy trails, ethereal fog drifting, deep charcoal gray aura, spectral white glow, misty graveyard atmosphere, no characters, no Pokémon, no creatures, no silhouettes"
+      "name": "Sombras Danzantes",
+      "desc": "El usuario se desvanece y ataca desde múltiples direcciones al mismo tiempo.",
+      "name_en": "Dancing Shadows",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue glow radiating from ghostly shapes, moonlit ruins backdrop, ethereal frost patterns, multiple directional energy trails"
     },
     {
-      "name": "Sombra Giratoria",
-      "desc": "Gira rápidamente, creando una espiral de sombras que confunde al rival.",
-      "name_en": "Spinning Shadow",
-      "visual_prompt": "spiral of deep violet shadows, swirling charcoal gray mist, pale silver accents, ghostly white wisps, ethereal fog drifting, moonlit tombstone outlines faintly visible in background"
+      "name": "Aliento Ectoplásmico",
+      "desc": "Lanza una nube de energía espectral que reduce la defensa del objetivo.",
+      "name_en": "Phantom Breath",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, pale silver mist swirling, icy blue energy waves, ghostly white glow, moonlight gray frost patterns, ethereal translucent particles"
     },
     {
-      "name": "Pata de Espectro",
-      "desc": "Lanza un puntapié que deja una sombra al instante en el aire.",
-      "name_en": "Spectral Kick",
-      "visual_prompt": "ghostly violet footprints hovering in mist, shimmering silver afterimage trails, shadowy violet smoke swirls, pale silver mist clinging to charcoal gray ground, ethereal fog with faint glowing outlines"
+      "name": "Pies Fantasmales",
+      "desc": "Ataca con patadas que atraviesan la defensa como si fueran intangibles.",
+      "name_en": "Phantom Kicks",
+      "visual_prompt": "translucent ghostly footprints, icy blue energy trails, pale silver mist swirling, spectral orbs drifting, moonlight gray residue, intangible foot impact effects"
     },
     {
-      "name": "Ataque Sutil",
-      "desc": "Un movimiento rápido que evita el contacto directo, usando la oscuridad para atacar.",
-      "name_en": "Sly Strike",
-      "visual_prompt": "ghostly violet mist swirling, shadowy tendrils reaching, pale silver orbs floating, charcoal gray fog drifting, ethereal white light piercing through, moonlit tombstone silhouettes faintly visible"
+      "name": "Espectro de Lucha",
+      "desc": "Crea una ilusión de ataque que confunde al rival y debilita su precisión.",
+      "name_en": "Fight Illusion",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit ruins, pale silver mist swirling, icy blue light refracting through ghostly illusions, moonlight gray distortion waves, frosty translucent trails"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro piernas firmes en el suelo",
-      "to": "piernas translúcidas y sin peso, danzando en el aire"
+      "from": "cuatro patas plantadas en el suelo",
+      "to": "patas translúcidas que se desvanecen al atacar"
     },
     {
-      "from": "postura baja y estable",
-      "to": "postura elevada y fluida, como bailando sobre sombras"
+      "from": "postura baja y agazapada",
+      "to": "postura que se adapta a la espectralidad con movimientos fluidos"
     },
     {
-      "from": "golpes físicos contundentes",
-      "to": "ataques que atraviesan la materia, dejando eco fantasmal"
+      "from": "cuerpo sólido",
+      "to": "cuerpo translúcido que absorbe ataques físicos"
     },
     {
-      "from": "apariencia sólida",
-      "to": "cuerpo semitransparente, brillando con destellos oscuros"
+      "from": "ataques de fuerza bruta",
+      "to": "ataques que atraviesan la defensa como espirituales"
     }
   ],
   "pokemon_id": "106",

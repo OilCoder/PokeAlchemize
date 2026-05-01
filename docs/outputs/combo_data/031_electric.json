@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Terrenal",
-  "lore": "Relámpago Terrenal se eriza con chispas eléctricas que danzan en su armadura de escamas. Sus patas, antes firmes en el suelo, ahora generan descargas al tocar la tierra, iluminando el entorno con cada paso.",
+  "species_name": "Pokémon Chispas Terrestre",
+  "lore": "Nidoqueen ahora emana descargas eléctricas de sus escamas, con patas brillantes que brillan con energía. Sus colmillos centellean y su cola se carga de corriente, preparándose para atacar con fuerza.",
   "moves": [
     {
-      "name": "Descarga Terrestre",
-      "desc": "Genera una ráfaga eléctrica que golpea al objetivo y lo paraliza temporalmente.",
-      "name_en": "Earth Charge",
-      "visual_prompt": "crackling electric blue energy waves, neon yellow lightning bolts, violet sparks, bright white energy arcs, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Descarga Terrenal",
+      "desc": "Lanza una descarga eléctrica que daña al oponente y reduce su velocidad.",
+      "name_en": "Earth Shock",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white static sparks, bright electric white arcs, pale blue glow emanating from city skyline, urban neon signs flickering with energy"
     },
     {
       "name": "Relámpago de Escamas",
-      "desc": "Lanza una lluvia de chispas desde sus escamas, aumentando el daño eléctrico.",
+      "desc": "Ataca con una ráfaga de chispas que recorre el campo de batalla.",
       "name_en": "Scale Bolt",
-      "visual_prompt": "electric blue sparks raining downward, neon yellow lightning arcs, violet spark particles, bright white energy bursts, crackling energy fields in stormy sky"
+      "visual_prompt": "electric blue sparks, neon yellow lightning streaks, crisp white energy trails, bright electric white arcs, pale blue glow, urban cityscape skyline, neon signs flickering, electric storm clouds"
     },
     {
-      "name": "Zarpazo Estático",
-      "desc": "Ataca con garras cargadas de electricidad, causando parálisis en el oponente.",
-      "name_en": "Static Claw",
-      "visual_prompt": "electric blue claw-shaped energy, neon yellow sparks, violet lightning bolts, bright white crackling aura, electric cyan static discharge, stormy sky background with crackling energy fields"
+      "name": "Electrocolmillo",
+      "desc": "Muerde con un ataque eléctrico que quema la piel del rival.",
+      "name_en": "Electric Bite",
+      "visual_prompt": "crackling electric blue arcs, neon yellow sparks, sharp white bite mark, pale blue energy aura, urban city skyline silhouette, flickering neon signs"
     },
     {
-      "name": "Campo de Chispas",
-      "desc": "Crea un campo eléctrico alrededor de sí mismo, reduciendo el movimiento de los enemigos.",
-      "name_en": "Spark Field",
-      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet spark particles, bright white static arcs, electric cyan glow, stormy sky backdrop, dynamic energy waves"
+      "name": "Corriente Subterránea",
+      "desc": "Crea una corriente eléctrica bajo el suelo para aturdir al oponente.",
+      "name_en": "Subterranean Surge",
+      "visual_prompt": "glowing electric blue underground currents, neon yellow energy arcs, crisp white lightning bolts, bright electric white sparks, pale blue ground glow, urban concrete cracks emitting energy, neon city skyline silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "armadura de escamas",
-      "to": "escamas cargadas de electricidad que brillan con chispas"
+      "from": "escamas suaves",
+      "to": "escamas afiladas y cargadas de electricidad"
     },
     {
-      "from": "patas firmes en el suelo",
-      "to": "patas que generan descargas eléctricas al tocar tierra"
+      "from": "patas lentas",
+      "to": "patas eléctricas que generan chispas al caminar"
     },
     {
-      "from": "bajo postura",
-      "to": "postura elevada para maximizar la conducción eléctrica"
+      "from": "colmillos normales",
+      "to": "colmillos centelleantes y cargados de energía"
     },
     {
-      "from": "peligroso en combate",
-      "to": "peligroso por la parálisis eléctrica que causa"
+      "from": "cola pesada",
+      "to": "cola que emite rayos eléctricos al moverse"
     }
   ],
   "pokemon_id": "031",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero de Fuerza",
-  "lore": "Machamp, ahora fusionado con el acero, camina con pasos resonantes. Sus músculos brillan como acero pulido, y sus brazos se han convertido en garras afiladas que cortan el aire. Su postura firme se intensifica con una resistencia inquebrantable.",
+  "species_name": "Pokémon Acero Machamp",
+  "lore": "Machamp, ahora cubierto de placas de acero, camina con pasos firmes y pesados. Sus músculos se han endurecido, reflejando su nueva resistencia. Sus manos, antes ágiles, ahora son herramientas de acero afiladas.",
   "moves": [
     {
-      "name": "Golpe Acero",
-      "desc": "Ataca con un golpe directo que deja marcas en el acero. Muy efectivo contra tipos ligeros.",
-      "name_en": "Steel Strike",
-      "visual_prompt": "shimmering steel blades, sharp metallic shards, glowing neon cyan energy trails, industrial city skyline silhouette, polished silver sparks, electric blue light reflections, gunmetal gray mist, metallic steam vents with vapor trails, stylized 2D VFX, Ken Sugimori art style, wide banner composition"
-    },
-    {
-      "name": "Corte de Acero",
-      "desc": "Corta el aire con garras afiladas, causando daño preciso y reduciendo la defensa del oponente.",
-      "name_en": "Steel Slash",
-      "visual_prompt": "shimmering steel claws slicing through air, jagged metallic shards, gunmetal gray sparks, polished silver trails, neon cyan energy lines, industrial city skyline backdrop"
-    },
-    {
-      "name": "Resistencia Acero",
-      "desc": "Aumenta la defensa y la resistencia al daño físico, como un escudo de acero inamovible.",
-      "name_en": "Steel Defense",
-      "visual_prompt": "gunmetal gray shield, polished silver energy waves, metallic steel blue particles, electric blue glowing cracks, neon cyan energy pulses, industrial city skyline backdrop, metallic steam vents"
-    },
-    {
-      "name": "Impacto de Acero",
-      "desc": "Golpea con un impacto fuerte que derriba al oponente y reduce su velocidad.",
+      "name": "Impacto Acero",
+      "desc": "Ataca con un golpe de acero que rompe la defensa del oponente.",
       "name_en": "Steel Impact",
-      "visual_prompt": "metallic shards, glowing gunmetal gray trails, polished silver sparks, electric blue energy waves, neon cyan shockwaves, industrial city skyline silhouette, metallic steam vents"
+      "visual_prompt": "shattered steel plates, glowing gunmetal gray energy lines, polished chrome fragments, deep steel blue sparks, matte black metallic shards, industrial workshop background glow"
+    },
+    {
+      "name": "Carga Estelar",
+      "desc": "Aumenta su velocidad y fuerza al acumular energía de acero.",
+      "name_en": "Star Charge",
+      "visual_prompt": "glowing steel orbs, polished chrome energy trails, gunmetal gray sparks, deep steel blue energy waves, matte black metallic particles, industrial workshop background glow"
+    },
+    {
+      "name": "Escudo Rígido",
+      "desc": "Crea un escudo de acero que bloquea ataques físicos.",
+      "name_en": "Rigid Shield",
+      "visual_prompt": "gunmetal gray steel shield, polished chrome edges, deep steel blue energy lines, matte black surface texture, industrial workshop background glow"
+    },
+    {
+      "name": "Golpe de Martillo",
+      "desc": "Un golpe contundente que deja al oponente aturdido.",
+      "name_en": "Hammer Strike",
+      "visual_prompt": "polished chrome hammer impact, sharp steel shards flying, glowing gunmetal gray energy lines, matte black dust clouds, deep steel blue shockwaves"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro brazos musculosos",
-      "to": "Brazos convertidos en garras de acero afiladas, capaces de cortar metal"
+      "from": "cuatro brazos",
+      "to": "brazos cubiertos de placas de acero que reflejan resistencia"
     },
     {
-      "from": "Postura baja y estable",
-      "to": "Postura aún más firme, con patas plantadas como pilares de acero"
+      "from": "postura baja",
+      "to": "postura erguida y estable con patas plantadas en el suelo"
     },
     {
-      "from": "Piel resistente",
-      "to": "Piel cubierta por una capa brillante de acero pulido"
+      "from": "músculos flexibles",
+      "to": "músculos endurecidos como acero"
     },
     {
-      "from": "Fuerza bruta",
-      "to": "Fuerza enfocada en precisión y durabilidad, como el acero"
+      "from": "manos ágiles",
+      "to": "manos convertidas en herramientas afiladas de acero"
     }
   ],
   "pokemon_id": "068",

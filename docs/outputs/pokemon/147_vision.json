@@ -1,0 +1,25 @@
+{
+  "body_colors": [
+    "light blue",
+    "white",
+    "dark blue"
+  ],
+  "body_parts": [
+    "head",
+    "neck",
+    "body",
+    "tail",
+    "ears",
+    "eyes"
+  ],
+  "body_plan": "serpentine",
+  "silhouette": "The creature has a long, snake-like body with a distinct head and tail, indicating a serpentine locomotion.",
+  "type_markers": [
+    "no visible type markers"
+  ],
+  "distinctive_features": [
+    "long, snake-like body",
+    "pointed ears",
+    "dark blue stripes"
+  ]
+}

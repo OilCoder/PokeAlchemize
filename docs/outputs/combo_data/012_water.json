@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Marina",
-  "lore": "El Pokémon Llama Marina flota en el agua con alas de pétalos brillantes que reflejan el sol. Sus alas absorben el agua para crear olas suaves, mientras su cuerpo emite un brillo azul en la oscuridad.",
+  "species_name": "Pokémon Lago Alado",
+  "lore": "Su cuerpo de insecto ahora brilla con escamas acuáticas que reflejan el sol. Sus seis extremidades se transforman en aletas suaves, desplazándose con gracia bajo el agua. Su vuelo se ha convertido en nado elegante.",
   "moves": [
     {
       "name": "Ola de Polen",
-      "desc": "Lanza una ola de polen acuático que cura el estado de fatiga en aliados.",
-      "name_en": "Water Pollen Wave",
-      "visual_prompt": "bioluminescent pollen particles, swirling teal-green water currents, pearly white bubbles rising, deep ocean blue background, aquamarine light rays, calm underwater motion"
+      "desc": "Lanza una ola de polen que adhiere a los enemigos, reduciendo su velocidad.",
+      "name_en": "Pollen Wave",
+      "visual_prompt": "gentle ocean waves, swirling pollen particles in deep ocean blue, teal and pearly white hues, soft blue sunlight, slow-motion pollen adhesion effect, calm water surface, translucent pollen clouds"
     },
     {
-      "name": "Viento Marítimo",
-      "desc": "Crea una brisa que reduce el daño físico recibido por el equipo.",
-      "name_en": "Marine Breeze",
-      "visual_prompt": "gentle swirling currents, shimmering bioluminescent plankton, deep ocean blue ripples, pearly white foam, aquamarine light rays, calm underwater motion"
+      "name": "Nado de Esmeralda",
+      "desc": "Aumenta la defensa con un nado rápido que crea un escudo de burbujas.",
+      "name_en": "Emerald Surge",
+      "visual_prompt": "shimmering teal bubbles forming a protective shield, deep ocean blue energy waves, pearly white ripples, sapphire blue light refraction, gentle aquamarine foam patterns"
     },
     {
-      "name": "Nube de Agua",
-      "desc": "Genera una nube que lanza gotas de agua que reducen la precisión del enemigo.",
-      "name_en": "Water Mist",
-      "visual_prompt": "misty water droplets, shimmering teal and aquamarine droplets, slow-motion falling droplets, soft glowing bioluminescent particles, deep ocean blue background, calm underwater currents"
+      "name": "Burbuja de Sueños",
+      "desc": "Crea burbujas que confunden al oponente, reduciendo su precisión.",
+      "name_en": "Dream Bubble",
+      "visual_prompt": "floating translucent bubbles, shimmering with soft blue light, gentle ripples on calm water surface, pearlescent teal highlights, scattered in a gentle current, ethereal mist, pale aquamarine glow"
     },
     {
-      "name": "Resplandor Acuático",
-      "desc": "Ilumina el campo de batalla con un brillo azul que aumenta el ataque especial.",
-      "name_en": "Aquatic Radiance",
-      "visual_prompt": "glowing deep ocean blue light, bioluminescent plankton swirls, teal green ripples, pearly white energy orbs, aquamarine water currents, sapphire blue shimmering particles"
+      "name": "Cascada de Pétalos",
+      "desc": "Envía una cascada de pétalos que derrite el hielo en el campo de batalla.",
+      "name_en": "Petals Cascade",
+      "visual_prompt": "gentle waterfall of translucent white and pale pink petals, melting ice shards in mid-air, soft blue sunlight rays, calm ocean surface reflections, teal and sapphire blue water ripples"
     }
   ],
   "diffs": [
     {
-      "from": "Alas grandes y extendidas",
-      "to": "Alas de pétalos que absorben agua y reflejan el sol"
+      "from": "cuerpo de insecto",
+      "to": "cuerpo con escamas acuáticas brillantes"
     },
     {
-      "from": "Volar en el aire",
-      "to": "Flotar sobre el agua con movimientos suaves"
+      "from": "seis extremidades",
+      "to": "aletas suaves para nadar"
     },
     {
-      "from": "Color de mariposa suave",
-      "to": "Brillo azul en el cuerpo que resplandece en la oscuridad"
+      "from": "vuelo",
+      "to": "nado elegante bajo el agua"
     },
     {
-      "from": "Insecto de polvo",
-      "to": "Cuerpo cubierto de polen acuático que brilla"
+      "from": "polen",
+      "to": "polen acuático que adhiere a los enemigos"
     }
   ],
   "pokemon_id": "012",

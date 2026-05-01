@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Venenosa",
-  "lore": "Venusaur ahora irradia llamas venenosas en su flor, sus pétalos se tornan rojizos y brillantes. Sus patas, antes verdes, ahora tienen marcas de fuego que arden sin consumirse. Su postura se eleva con una nueva arrogancia.",
+  "species_name": "Pokémon Llama Marina",
+  "lore": "Venusaur, ahora envuelto en llamas azules, camina con pasos firmes. Sus hojas se transforman en llamas que brillan en la oscuridad, mientras su piel absorbe el calor del sol. Su presencia calienta el ambiente a su alrededor.",
   "moves": [
     {
-      "name": "Llama Venenosa",
-      "desc": "Lanza llamas que infectan al oponente con veneno, causando daño gradual.",
-      "name_en": "Poison Flame",
-      "visual_prompt": "crimson red fireballs, amber orange smoke trails, molten gold embers, charcoal black smoke swirls, glowing ember particles, volcanic crater background"
+      "name": "Llama Azul",
+      "desc": "Lanza llamas azules que refrescan el ambiente y queman a los enemigos con calor intenso.",
+      "name_en": "Blue Flame",
+      "visual_prompt": "crimson red embers, bright orange molten lava flows, molten gold sparks, amber glow accents, charcoal black smoke trails, swirling blue flames, intense heat waves, volcanic crater backdrop"
     },
     {
-      "name": "Flor Incendia",
-      "desc": "Su flor se inflama, lanzando fuego en círculo alrededor de sí mismo.",
-      "name_en": "Flame Bloom",
-      "visual_prompt": "crimson fire petals swirling in a circular motion, molten gold embers rising from a volcanic crater, amber orange flames forming a protective ring, glowing ember sparks against charcoal black smoke, stylized Ken Sugimori fire VFX"
+      "name": "Hoja de Fuego",
+      "desc": "Sus hojas emiten chispas incandescentes que inflaman el campo de batalla.",
+      "name_en": "Fire Leaf",
+      "visual_prompt": "crimson red flames, molten gold embers, glowing orange leaves, volcanic ash swirls, ember-lit smoke trails, charcoal black shadows, dynamic fire vortex"
     },
     {
-      "name": "Toxicos Llameantes",
-      "desc": "Genera una nube de humo tóxico que quema y envenena al enemigo.",
-      "name_en": "Blazing Toxin",
-      "visual_prompt": "toxic smoke cloud, crimson red and amber orange flames, molten gold embers, charcoal black smoke trails, glowing ember particles, volcanic crater background"
+      "name": "Respiración de Llama",
+      "desc": "Exhala una ráfaga de llamas que quema y aleja a los enemigos.",
+      "name_en": "Flame Breath",
+      "visual_prompt": "crimson red flames, bright orange embers, molten gold sparks, swirling smoke, charcoal black ash, volcanic crater backdrop, glowing lava flows, ember-lit smoky sky, dynamic fire vortex, intense heat haze"
     },
     {
-      "name": "Pétalos Ardientes",
-      "desc": "Dispara pétalos en llamas que causan quemaduras y daño adicional.",
-      "name_en": "Blazing Petals",
-      "visual_prompt": "crimson flame petals, molten gold embers, amber-orange smoke swirls, glowing ember trails, volcanic ash particles, charcoal black smoke bursts, fiery explosion sparks"
+      "name": "Fuego Marino",
+      "desc": "Genera una ola de llamas que se extiende en el suelo, causando daño en área.",
+      "name_en": "Marine Flame",
+      "visual_prompt": "crimson red flames, molten gold embers, swirling lava flows, glowing amber sparks, charcoal black smoke trails, wide area spread on cracked volcanic ground"
     }
   ],
   "diffs": [
     {
-      "from": "Flor de Venusaur",
-      "to": "Se transforma en una flor que emite llamas venenosas, de color rojo brillante."
+      "from": "cuatro patas en el suelo",
+      "to": "patas envueltas en llamas azules que marcan el suelo con calor"
     },
     {
-      "from": "Piel verde",
-      "to": "Adquiere marcas de fuego en sus patas que brillan sin consumirse."
+      "from": "hojas verdes en la espalda",
+      "to": "hojas transformadas en llamas azules que brillan en la oscuridad"
     },
     {
-      "from": "Postura baja",
-      "to": "Se eleva con una postura más erguida y arrogante."
+      "from": "piel verde",
+      "to": "piel que absorbe el calor solar y emite luz tenue"
     },
     {
-      "from": "Toxinas en hojas",
-      "to": "Las toxinas se combinan con el fuego, creando humo tóxico ardiente."
+      "from": "tipo venenoso",
+      "to": "tipo de fuego que quema con intensidad y calienta el ambiente"
     }
   ],
   "pokemon_id": "003",

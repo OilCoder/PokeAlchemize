@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Digital",
-  "lore": "Porygon, ahora fusionado con acero, brilla con una armadura metálica que refleja su inteligencia. Sus patas cortas se han convertido en soportes de acero, manteniendo una postura baja y estable en combate.",
+  "species_name": "Pokémon Acero Virtual",
+  "lore": "Flotando en el aire con escamas de acero pulido, su cuerpo digital se fusiona con metal líquido. Sus ojos brillan con reflejos metálicos al moverse, creando un aura de precisión y resistencia.",
   "moves": [
     {
-      "name": "Corte Acero",
-      "desc": "Corta con hojas de acero que cortan cualquier defensa, dejando marcas profundas.",
-      "name_en": "Steel Cut",
-      "visual_prompt": "shimmering steel leaves, razor-thin metallic edges, deep gash marks in air, gunmetal gray particles, neon cyan energy trails, industrial city skyline silhouette, polished silver reflections"
-    },
-    {
-      "name": "Máquina de Ataque",
-      "desc": "Genera un campo de energía que aumenta el ataque del usuario y debilita al rival.",
-      "name_en": "Attack Machine",
-      "visual_prompt": "polished steel gears rotating in sync, glowing electric blue energy waves, metallic steam vents releasing neon cyan mist, gunmetal gray energy field pulsing with industrial city skyline reflections"
-    },
-    {
-      "name": "Escudo de Acero",
-      "desc": "Crea un escudo metálico que absorbe el daño y lo devuelve al atacante.",
+      "name": "Escudo Acero",
+      "desc": "Crea una barrera de acero que bloquea ataques físicos y reduce daño mágico.",
       "name_en": "Steel Shield",
-      "visual_prompt": "polished silver shield, metallic steam vents, glowing neon cyan edges, gunmetal gray energy waves, industrial cityscape backdrop, electric blue reflections, stylized 2D VFX"
+      "visual_prompt": "polished steel barrier, glowing energy lines in gunmetal gray, matte black edges, deep steel blue highlights, industrial workshop background, geometric patterns, reflective surface, subtle sparks"
     },
     {
-      "name": "Sistema de Defensa",
-      "desc": "Activa una red de defensas que reduce el daño recibido y aumenta la velocidad.",
-      "name_en": "Defense System",
-      "visual_prompt": "metallic steel blue energy lattice, polished silver defensive barriers, gunmetal gray energy rings, neon cyan pulse waves, industrial city skyline backdrop, glowing steam vents, electric blue energy trails"
+      "name": "Corte Digital",
+      "desc": "Ataca con una hoja de datos cortante que divide la defensa del oponente.",
+      "name_en": "Digital Slash",
+      "visual_prompt": "shimmering steel blade slicing through data streams, glowing gunmetal gray energy lines, polished chrome particles, matte black fragments, deep steel blue light trails, industrial workshop background glow"
+    },
+    {
+      "name": "Carga Magnética",
+      "desc": "Aumenta el ataque y velocidad al absorber energía magnética del entorno.",
+      "name_en": "Magnetic Charge",
+      "visual_prompt": "glowing gunmetal gray energy arcs, polished chrome orbs floating in midair, deep steel blue energy lines tracing geometric patterns, matte black metallic particles swirling, industrial workshop backdrop with subtle metal surface reflections"
+    },
+    {
+      "name": "Fusión Virtual",
+      "desc": "Combina fuerzas con otro Pokémon para aumentar poder y resistencia temporalmente.",
+      "name_en": "Virtual Fusion",
+      "visual_prompt": "glowing gunmetal gray energy orbs swirling in a geometric pattern, polished chrome lattice structure, deep steel blue light trails, matte black metallic shards floating in mid-air, industrial workshop background with faint glowing energy lines"
     }
   ],
   "diffs": [
     {
-      "from": "patas cortas",
-      "to": "soportes de acero para mayor estabilidad"
+      "from": "Cuerpo flotante",
+      "to": "Cuerpo sólido de acero que flota sin contacto con el suelo."
     },
     {
-      "from": "inteligencia digital",
-      "to": "inteligencia metálica integrada en su armadura"
+      "from": "No contacto con el suelo",
+      "to": "Flota sobre una capa de energía magnética estabilizadora."
     },
     {
-      "from": "postura baja",
-      "to": "postura baja con soportes de acero para resistir golpes"
+      "from": "Forma digital",
+      "to": "Se fusiona con metal líquido para crear una estructura sólida."
     },
     {
-      "from": "falta de armadura",
-      "to": "armadura metálica brillante que refleja luz"
+      "from": "Sin rasgos metálicos",
+      "to": "Escamas de acero pulido que reflejan la luz y mejoran resistencia."
     }
   ],
   "pokemon_id": "137",

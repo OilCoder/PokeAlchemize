@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Ondas Acuáticas",
-  "lore": "El Pokémon Ondas Acuáticas camina con gracia sobre el agua, sus patas transformadas en aletas suaves. Su pelaje brillante refleja el mar, y sus ojos azules brillan con la calma del océano.",
+  "species_name": "Pokémon Ondas Marinas",
+  "lore": "El Ondas Marinas se desplaza con gracia sobre el agua, sus patas transformadas en aletas que cortan las olas. Su pelaje brillante refleja el sol y emite un suave brillo azul bajo el agua.",
   "moves": [
     {
-      "name": "Ola de Juguete",
-      "desc": "Lanza una ola suave que envuelve al oponente, causando daño y reduciendo su velocidad.",
-      "name_en": "Toy Wave",
-      "visual_prompt": "gentle water wave, shimmering teal and aquamarine ripples, glowing bioluminescent plankton particles, slow-moving current swirls, pearly white foam accents, deep ocean blue background"
+      "name": "Ola de Plumas",
+      "desc": "Lanza una ola suave que envuelve al rival, reduciendo su velocidad.",
+      "name_en": "Feather Wave",
+      "visual_prompt": "gentle ocean waves, soft blue sunlight, pearlescent white foam, teal water ripples, slow-motion motion blur, deep ocean blue gradient, pale aquamarine mist, smooth undulating lines"
     },
     {
-      "name": "Burbuja de Sueños",
-      "desc": "Crea burbujas que confunden al enemigo, disminuyendo su precisión.",
-      "name_en": "Dream Bubble",
-      "visual_prompt": "floating translucent bubbles, shimmering with deep ocean blue and teal green, faint bioluminescent plankton trails, calm underwater current ripples, pearly white highlights, aquamarine light refraction"
+      "name": "Burbuja de Sueno",
+      "desc": "Crea burbujas que hipnotizan al enemigo, dejándolo dormido.",
+      "name_en": "Sleep Bubble",
+      "visual_prompt": "glowing translucent bubbles, hypnotic spiral patterns inside, deep ocean blue and pearly white hues, gentle ripples on calm water surface, soft blue sunlight refracting through bubbles"
     },
     {
-      "name": "Nado de Miedo",
-      "desc": "Se sumerge en el agua y emerge repentinamente, sorprendiendo al rival.",
-      "name_en": "Fear Wave",
-      "visual_prompt": "glowing bioluminescent plankton swirls, deep ocean blue water vortex, teal green ripples, pearly white mist bursts, aquamarine energy trails, sapphire blue shockwave"
+      "name": "Nado Rápido",
+      "desc": "Aumenta su velocidad de natación, permitiendo ataques rápidos.",
+      "name_en": "Rapid Swim",
+      "visual_prompt": "glowing teal water currents, swirling pearly white bubbles, sapphire blue ripples, gentle ocean surface, soft blue sunlight refracting through water"
     },
     {
-      "name": "Cascada de Amor",
-      "desc": "Genera una cascada de agua que cura la salud de aliados cercanos.",
-      "name_en": "Love Cascade",
-      "visual_prompt": "glowing bioluminescent water droplets, gentle swirling currents, deep ocean blue and teal green color palette, pearly white foam bubbles, aquamarine light reflections, sapphire blue water ripples, calm underwater motion, no characters, no Pokémon, no creatures, no silhouettes"
+      "name": "Salto de Ola",
+      "desc": "Salta sobre el agua, atacando desde arriba con un golpe poderoso.",
+      "name_en": "Wave Jump",
+      "visual_prompt": "Calm ocean surface with gentle ripples, deep blue and teal water droplets, pearly white foam arcs, sapphire blue energy trails, pale aquamarine light refraction, smooth flowing water motion"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas en el suelo",
-      "to": "patas transformadas en aletas para nadar"
+      "from": "patas",
+      "to": "se transforman en aletas para nadar con facilidad"
     },
     {
-      "from": "pelaje compacto",
-      "to": "pelaje brillante que refleja el mar"
+      "from": "pelaje",
+      "to": "brilla bajo el agua y refleja el sol"
     },
     {
-      "from": "postura compacta",
-      "to": "postura elegante sobre el agua"
+      "from": "postura",
+      "to": "de gateo bajo se convierte en natación elegante"
     },
     {
-      "from": "ojos normales",
-      "to": "ojos azules que brillan con calma oceánica"
+      "from": "movilidad",
+      "to": "se adapta a entornos acuáticos, perdiendo terreno en tierra"
     }
   ],
   "pokemon_id": "052",

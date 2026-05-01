@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "Psyduck, ahora transformado en Llama Marina, camina con pasos firmes sobre el suelo ardiente. Su pelaje brillante emite destellos de llamas azules, mientras sus ojos centellean con un brillo de fuego interior. Su postura baja se ha vuelto más segura, listo para enfrentar cualquier desafío.",
+  "lore": "Psyduck, ahora transformado en un Pokémon Llama Marina, camina sobre patas ardientes que emiten chispas. Su cabeza está envuelta en llamas azules, y sus ojos brillan con una intensidad controlada. El agua de su cuerpo se ha convertido en vapor, creando un aura de calma y poder.",
   "moves": [
     {
-      "name": "Llama Azul",
-      "desc": "Lanza llamas de color azul que queman con intensidad, dejando un rastro de humo frío.",
-      "name_en": "Blue Flame",
-      "visual_prompt": "blue fire orbs, intense blue flames, cold smoke trails, molten gold embers, volcanic crater backdrop, glowing ember particles, amber orange accents, charcoal black smoke swirls"
+      "name": "Chispa Hervor",
+      "desc": "Genera una ola de vapor caliente que quema al oponente y reduce su velocidad.",
+      "name_en": "Steam Surge",
+      "visual_prompt": "volcanic steam plume, molten gold droplets, crimson red heat haze, glowing ember particles, charcoal black smoke swirls, bright orange lava flow reflections, dynamic upward motion"
     },
     {
-      "name": "Caminar Fuego",
-      "desc": "Avanza con pasos que dejan huellas de llamas, aumentando su velocidad en combate.",
-      "name_en": "Fire Walk",
-      "visual_prompt": "crimson footprints on molten ground, amber-orange flame trails, glowing ember sparks, molten gold ash particles, charcoal black smoke swirls, volcanic crater backdrop"
+      "name": "Llama de la Calma",
+      "desc": "Crea una burbuja de vapor que cura a aliados y aumenta su defensa.",
+      "name_en": "Calm Blaze",
+      "visual_prompt": "steam bubble, glowing crimson vapor, molten gold aura, amber defense shield, smoky ember sky, volcanic crater background, charcoal black accents"
     },
     {
-      "name": "Ola de Calor",
-      "desc": "Genera una ola de calor que quema y desorienta a los oponentes.",
-      "name_en": "Heat Wave",
-      "visual_prompt": "crimson red heat waves rising from a volcanic crater, molten gold lava ripples, amber orange smoke swirls, charcoal black smoke plumes, glowing ember sparks, stylized 2D VFX, Ken Sugimori aesthetic"
+      "name": "Pata de Fuego",
+      "desc": "Ataca con patadas ardientes que infligen daño y queman al oponente.",
+      "name_en": "Blazing Kick",
+      "visual_prompt": "crimson fire kicks, molten gold footprints, orange embers swirling, charcoal black smoke trails, glowing lava flow patterns, ember-lit sky backdrop"
     },
     {
-      "name": "Fuego en el Agua",
-      "desc": "Crea una explosión de fuego en el agua, causando daño a distancia.",
-      "name_en": "Water Flame",
-      "visual_prompt": "crimson red fire explosions, molten gold water droplets, amber orange steam bursts, charcoal black smoke trails, glowing ember particles, volcanic crater backdrop"
+      "name": "Vapor Explosivo",
+      "desc": "Lanza una nube de vapor que ciega al oponente y causa daño adicional.",
+      "name_en": "Steam Blast",
+      "visual_prompt": "vapor clouds swirling in crimson red and molten gold, glowing orange embers floating in smoke, sharp charcoal black outlines against ember-lit sky, intense heat haze distortion, dynamic smoke tendrils"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas plantadas en el suelo",
-      "to": "Patas ahora cubiertas de llamas que dejan marcas en el suelo"
+      "from": "Cuatro patas en el suelo",
+      "to": "Patas envueltas en llamas azules que emiten chispas al caminar"
     },
     {
-      "from": "Postura baja y arrastrada",
-      "to": "Postura erguida y segura, con el cuerpo en llamas"
+      "from": "Cabeza húmeda",
+      "to": "Cabeza envuelta en llamas azules que brillan intensamente"
     },
     {
-      "from": "Pelaje húmedo y gris",
-      "to": "Pelaje brillante y azul con destellos de fuego"
+      "from": "Agua en su cuerpo",
+      "to": "Agua convertida en vapor que crea un aura de calma"
     },
     {
-      "from": "Ojos cansados y tristes",
-      "to": "Ojos centelleantes con destellos de fuego interior"
+      "from": "Ojos normales",
+      "to": "Ojos que brillan con una intensidad controlada"
     }
   ],
   "pokemon_id": "054",

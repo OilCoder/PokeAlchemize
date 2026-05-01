@@ -1,34 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "short stubby legs",
-    "curled tail tip",
-    "large sharp teeth visible when mouth is open",
-    "red eyes with black pupils",
-    "spiky hair on head"
+    "rounded body shape",
+    "spiky hair on head",
+    "large sharp teeth",
+    "red eyes",
+    "four legs with clawed feet",
+    "pale cream underbelly"
   ],
   "original_type_traits": [
-    "dark purple body color (ghost type)",
-    "glowing red eyes (ghost type)",
-    "translucent or shadowy texture (ghost type)"
+    "ghostly translucent appearance",
+    "poisonous green aura",
+    "shadowy form with misty edges"
   ],
   "transformable_parts": [
-    "body color",
-    "tail texture",
-    "eye color and glow",
-    "spiky hair texture",
-    "skin texture (translucent to solid)",
-    "mouth shape (for expressing different emotions)"
+    "head spiky hair",
+    "body texture",
+    "eye color",
+    "leg shape",
+    "underbelly color",
+    "tail shape"
   ],
   "suppress_colors": [
-    "dark purple",
-    "glowing red",
-    "translucent gray"
+    "dark gray",
+    "pale cream",
+    "red"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "spiky hair on head, sharp teeth visible",
-    "red eyes with black pupils, large mouth"
+    "floating body, no ground contact",
+    "spiky hair on head, sharp points radiating outward",
+    "large sharp teeth, visible when mouth open"
   ],
   "pokemon_id": "094",
   "pokemon_name": "gengar",
@@ -38,22 +38,24 @@
   ],
   "visual_facts": {
     "body_colors": [
-      "dark purple"
+      "dark gray",
+      "pale cream"
     ],
     "body_parts": [
-      "rounded head",
-      "pointed ears",
-      "short stubby legs",
-      "curled tail tip"
+      "head",
+      "body",
+      "arms",
+      "legs"
     ],
-    "silhouette": "The Pokémon has a rounded, somewhat boxy body with a large head and short legs, giving it a compact and somewhat menacing appearance.",
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded body with four legs, suggesting a quadrupedal locomotion.",
     "type_markers": [
       "none visible"
     ],
     "distinctive_features": [
+      "spiky hair on the head",
       "large, sharp teeth",
-      "red eyes with black pupils",
-      "spiky hair on head"
+      "red eyes"
     ]
   }
 }

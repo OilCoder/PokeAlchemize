@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Relámpago Aéreo",
-  "lore": "Clefairy ahora emana destellos eléctricos al caminar, sus patas brillan con chispas azules. Su pelaje suave se transforma en un aura brillante que atrae a otros Pokémon. Su postura baja se mantiene, pero ahora genera un campo eléctrico al moverse.",
+  "species_name": "Pokémon Chispa Celestial",
+  "lore": "Chispa Celestial se desliza con patas brillantes que irradian energía eléctrica. Su pelaje suave ahora brilla con destellos azules y su cola se convierte en un cable conductor que libera chispas al moverse.",
   "moves": [
     {
-      "name": "Chispa Aérea",
-      "desc": "Lanza pequeñas descargas eléctricas que se dispersan en el aire, afectando a múltiples objetivos.",
-      "name_en": "Air Spark",
-      "visual_prompt": "electric blue lightning bolts, neon yellow arcs, violet spark particles, bright white energy pulses, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
-    },
-    {
-      "name": "Relámpago de Luz",
-      "desc": "Genera un destello eléctrico intenso que ciega a los oponentes por un turno.",
-      "name_en": "Lightning Flash",
-      "visual_prompt": "intense electric blue lightning bolts, neon yellow sparks, violet energy streaks, bright white bursts, crackling energy field, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Chispa de Sueños",
+      "desc": "Lanza una ráfaga de chispas que hipnotiza al oponente con sueños eléctricos.",
+      "name_en": "Dream Spark",
+      "visual_prompt": "vibrant electric blue sparks, neon yellow dream orbs floating, crisp white energy trails, bright electric white lightning bolts, pale blue glowing mist, urban city skyline silhouette in background, neon signs flickering"
     },
     {
       "name": "Carga Estelar",
-      "desc": "Aumenta el ataque y la velocidad en un 50% durante un turno.",
-      "name_en": "Star Charge",
-      "visual_prompt": "glowing electric blue orbs swirling in a vortex, neon yellow lightning bolts arcing through violet sparks, bright white energy trails, stormy sky backdrop with crackling energy fields"
+      "desc": "Aumenta el poder de ataque con una carga de energía estelar acumulada.",
+      "name_en": "Stellar Charge",
+      "visual_prompt": "glowing electric blue orbs floating in mid-air, neon yellow energy trails, crisp white lightning bolts arcing between orbs, bright electric white sparks, pale blue energy aura, urban city skyline silhouette in background, neon signs flickering with electric blue light"
     },
     {
-      "name": "Pararrayos Suave",
-      "desc": "Absorbe ataques eléctricos y los devuelve con el doble de fuerza.",
-      "name_en": "Soft Thunder",
-      "visual_prompt": "electric blue orbs swirling in a vortex, neon yellow lightning bolts crackling, violet sparks bursting outward, bright white energy pulses, electric cyan lightning streaks, stormy sky backdrop with crackling energy fields"
+      "name": "Relámpago de Brillo",
+      "desc": "Ataca con relámpagos que deslumbran y debilitan al rival.",
+      "name_en": "Brilliant Flash",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow energy trails, crisp white shockwaves, bright electric white sparks, pale blue glow pulses, urban city skyline silhouette, neon sign flickers in background"
+    },
+    {
+      "name": "Circuito Mágico",
+      "desc": "Crea un campo eléctrico que mejora la velocidad de todos los aliados.",
+      "name_en": "Magic Circuit",
+      "visual_prompt": "vibrant electric blue energy arcs, neon yellow lightning bolts, crisp white motion trails, bright electric white sparks, pale blue glowing grid lines, urban cityscape neon signs flickering in background"
     }
   ],
   "diffs": [
     {
-      "from": "Pelaje suave y blanco",
-      "to": "Pelaje brillante con destellos eléctricos azules"
+      "from": "pelaje suave y brillante",
+      "to": "pelaje que brilla con destellos azules y emite chispas"
     },
     {
-      "from": "Movimientos lentos y suaves",
-      "to": "Movimientos rápidos con chispas eléctricas"
+      "from": "cola corta y redonda",
+      "to": "cola convertida en cable conductor que libera chispas"
     },
     {
-      "from": "Postura baja y tranquila",
-      "to": "Postura baja con un campo eléctrico que vibra al caminar"
+      "from": "postura baja y tranquila",
+      "to": "postura de deslizamiento con patas plantadas en el suelo"
     },
     {
-      "from": "Ataques mágicos de tipo Hada",
-      "to": "Ataques eléctricos que combinan con el tipo Eléctrico"
+      "from": "movimientos lentos y suaves",
+      "to": "movimientos rápidos y eléctricos que dejan rastro de chispas"
     }
   ],
   "pokemon_id": "035",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Lámina Esmeralda",
-  "lore": "Bulbasaur se transformó en un guerrero de acero, con su semilla convertida en un yunque brillante. Sus patas se endurecieron en espinas de acero, y su piel verde se tornó plateada. Ahora camina con firmeza, arrastrando un aura de resistencia.",
+  "species_name": "Pokémon Acero Liana",
+  "lore": "Acero Liana camina con pasos firmes, sus patas cubiertas de escamas metálicas. Su semilla, ahora una esfera de acero, brilla con reflejos fríos. Su piel absorbe los impactos, transformando el dolor en fuerza.",
   "moves": [
     {
       "name": "Corte de Acero",
-      "desc": "Corta al oponente con una hoja de acero afilada, causando daño físico y reduciendo defensa.",
+      "desc": "Corta con garras afiladas de acero, causando daño físico con precisión letal.",
       "name_en": "Steel Slash",
-      "visual_prompt": "shimmering steel blade slicing through air, sharp metallic edges with electric blue sparks, polished silver particles, neon cyan energy trails, gunmetal gray mist, industrial city skyline silhouette in background"
+      "visual_prompt": "shimmering steel claws, razor-sharp metallic edges, glowing gunmetal gray energy trails, polished chrome sparks, deep steel blue light streaks, industrial workshop background texture"
     },
     {
-      "name": "Yunque de Hierro",
-      "desc": "Crea un yunque de hierro que absorbe el daño y lo devuelve al oponente.",
-      "name_en": "Iron Anvil",
-      "visual_prompt": "gunmetal gray anvil floating mid-air, polished silver sparks, metallic steam vents, electric blue energy waves, neon cyan aura, industrial cityscape backdrop"
+      "name": "Escudo de Liana",
+      "desc": "Crea un escudo de metal flexible que absorbe el daño y devuelve energía al usuario.",
+      "name_en": "Liana Shield",
+      "visual_prompt": "flexible metal shield, gunmetal gray with silver accents, matte black edges, polished chrome energy lines, deep steel blue glow, industrial workshop background, dynamic energy absorption effect"
     },
     {
-      "name": "Cicatriz de Acero",
-      "desc": "Genera una cicatriz de acero que cura al Pokémon y debilita al rival.",
-      "name_en": "Steel Scar",
-      "visual_prompt": "polished silver scar lines, glowing gunmetal gray energy, metallic steam vents, electric blue sparks, neon cyan highlights, industrial city skyline backdrop"
+      "name": "Impacto Rígido",
+      "desc": "Golpea con el cuerpo metálico, causando daño físico y posiblemente paralizar.",
+      "name_en": "Rigid Impact",
+      "visual_prompt": "metallic collision sparks, jagged steel shards flying, polished chrome energy waves, gunmetal gray dust clouds, deep steel blue glowing lines, matte black metallic texture, industrial workshop debris, sharp angular motion blur"
     },
     {
-      "name": "Golpe de Masa",
-      "desc": "Ataca con un golpe masivo que derriba al oponente y reduce su velocidad.",
-      "name_en": "Mass Strike",
-      "visual_prompt": "shattered steel beams, jagged metallic shards, glowing gunmetal gray sparks, electric blue energy trails, polished silver impact waves, neon cyan shockwaves, industrial cityscape backdrop with steam vents"
+      "name": "Raíces de Acero",
+      "desc": "Afianza las patas en el suelo, aumentando la defensa y la estabilidad.",
+      "name_en": "Steel Roots",
+      "visual_prompt": "polished chrome roots gripping industrial metal floor, glowing gunmetal gray energy lines, matte black soil texture, deep steel blue light reflections, geometric steel lattice pattern, smooth metallic sheen"
     }
   ],
   "diffs": [
     {
       "from": "semilla en su espalda",
-      "to": "se transforma en un yunque brillante de acero"
+      "to": "se transformó en una esfera metálica brillante"
     },
     {
-      "from": "piel verde",
-      "to": "se torna plateada y resistente"
+      "from": "piel verde y suave",
+      "to": "cubierta de escamas duras y frías como acero"
     },
     {
-      "from": "patas blandas",
-      "to": "se endurecen en espinas de acero"
+      "from": "postura baja y flexible",
+      "to": "caminar con paso firme y estable sobre patas metálicas"
     },
     {
-      "from": "postura baja",
-      "to": "camina con firmeza, arrastrando un aura de resistencia"
+      "from": "capacidad de curar con la semilla",
+      "to": "absorbe impactos y convierte el daño en energía"
     }
   ],
   "pokemon_id": "001",

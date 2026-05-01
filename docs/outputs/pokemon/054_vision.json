@@ -1,0 +1,24 @@
+{
+  "body_colors": [
+    "light brown",
+    "white",
+    "dark brown"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "tail",
+    "feet",
+    "ears",
+    "tail tip"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a rounded body with four legs, suggesting it is quadrupedal.",
+  "type_markers": [
+    "tail tip with dark brown color"
+  ],
+  "distinctive_features": [
+    "tail with a dark brown tip",
+    "ears with dark brown stripes"
+  ]
+}

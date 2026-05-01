@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espectro de Cuna",
-  "lore": "El Espectro de Cuna camina con pasos etéreos, sus patas traseras se funden en bruma. Su cuerpo translúcido emite un resplandor suave, mientras sus ojos brillan con una luz azul fantasmal. Su presencia calma a los espíritus errantes.",
+  "species_name": "Pokémon Fantasma Luminoso",
+  "lore": "Clefairy ahora camina con paso etéreo, sus patas desaparecen en sombras mientras emana un brillo tenue. Sus mejillas brillan con luz fantasmal, y sus orejas se tornan translúcidas, absorbiendo el aire circundante.",
   "moves": [
     {
-      "name": "Canto del Sueño",
-      "desc": "Canta una melodía que envuelve al oponente en un sueño profundo, reduciendo su velocidad.",
-      "name_en": "Dream Song",
-      "visual_prompt": "floating musical notes, glowing violet mist, shadowy tendrils, pale silver moonlight, ethereal fog, deep violet aura, ghostly white echoes, slow-motion swirling patterns"
+      "name": "Sombra de Sueño",
+      "desc": "Inyecta un sueño profundo con una sombra que se desplaza por el campo.",
+      "name_en": "Dream Shadow",
+      "visual_prompt": "translucent moonlight gray mist, drifting spectral orbs with pale silver edges, icy blue frost patterns on air, ghostly shadow trails moving across moonlit ruins, soft spectral white glow"
     },
     {
-      "name": "Bruma de Cuna",
-      "desc": "Crea una densa niebla que oculta su posición y reduce el daño recibido.",
-      "name_en": "Lullaby Mist",
-      "visual_prompt": "dense mist, swirling violet and charcoal gray fog, pale silver particles, ghostly white outlines, shadow violet tendrils, ethereal moonlight glow, misty graveyard atmosphere, no characters or Pokémon"
+      "name": "Eco Fantasmal",
+      "desc": "Crea un eco que resuena en el aire, confundiendo al rival.",
+      "name_en": "Phantom Echo",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue ripples in air, ghostly echoes forming concentric rings, moonlit ruins backdrop with faint glowing outlines"
     },
     {
-      "name": "Aliento de Sombras",
-      "desc": "Expulsa una ráfaga de sombras que causa daño y reduce la defensa del rival.",
-      "name_en": "Shadow Breath",
-      "visual_prompt": "vibrant violet shadow waves, drifting charcoal gray mist, pale silver spectral orbs, ghostly white tendrils, shadow violet energy trails, ethereal fog swirls, moonlit tombstone silhouettes in background"
+      "name": "Viento Espectral",
+      "desc": "Envía una ráfaga de viento que se convierte en una sombra para atacar.",
+      "name_en": "Spectral Wind",
+      "visual_prompt": "translucent spectral wind, moonlit ruins backdrop, pale silver mist swirling, drifting spectral orbs, icy blue frost patterns, ghostly translucent ripples, moonlight gray shadows"
     },
     {
-      "name": "Viento de Sueños",
-      "desc": "Genera un viento suave que cura la salud de aliados y reduce el daño de ataques.",
-      "name_en": "Dream Wind",
-      "visual_prompt": "soft violet mist swirling around floating silver leaves, glowing ghostly white particles, shadow violet aura with faint moonlight beams, ethereal fog drifting over tombstone silhouettes"
+      "name": "Brillo Eterno",
+      "desc": "Emite un brillo que refuerza los ataques de tipo fantasma.",
+      "name_en": "Eternal Glow",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling, icy blue glow radiating from ghostly rings, moonlit ruins backdrop with faint ghostly outlines, frosty translucent effects, ethereal shimmering light"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo redondo y suave",
-      "to": "Cuerpo translúcido con bruma alrededor"
+      "from": "patas sólidas",
+      "to": "patas desaparecen en sombras"
     },
     {
-      "from": "Pies pequeños y redondos",
-      "to": "Patas traseras fundidas en niebla"
+      "from": "brillo suave",
+      "to": "brillo fantasmal que absorbe el aire"
     },
     {
-      "from": "Ojos brillantes",
-      "to": "Ojos azules con destellos fantasmales"
+      "from": "orejas redondas",
+      "to": "orejas translúcidas"
     },
     {
-      "from": "Alto nivel de energía positiva",
-      "to": "Energía espectral que calma espíritus"
+      "from": "caminar en cuarto",
+      "to": "caminar con paso etéreo"
     }
   ],
   "pokemon_id": "035",

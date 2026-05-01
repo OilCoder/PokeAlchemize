@@ -1,0 +1,22 @@
+{
+  "body_colors": [
+    "dark gray",
+    "pale cream"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "arms",
+    "legs"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a rounded body with four legs, suggesting a quadrupedal locomotion.",
+  "type_markers": [
+    "none visible"
+  ],
+  "distinctive_features": [
+    "spiky hair on the head",
+    "large, sharp teeth",
+    "red eyes"
+  ]
+}

@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Espectral",
-  "lore": "Magmar, ahora un espectro llameante, camina con pasos etéreos sobre el suelo. Su cuerpo translúcido irradia un resplandor anaranjado, mientras sus ojos brillan con una luz fantasmal. Las llamas que lo rodean parecen susurrar secretos del más allá.",
+  "lore": "Este Magmar fantasmal se desliza sin ruido sobre el suelo, sus llamas se han convertido en destellos azulados. Sus patas, ahora translúcidas, dejan huellas de humo mientras emite chillidos que helan la sangre.",
   "moves": [
     {
-      "name": "Fuego Fantasmal",
-      "desc": "Lanza llamas que atrapan al oponente en un aura espectral, reduciendo su defensa.",
+      "name": "Sombra Llama",
+      "desc": "Lanza una bola de fuego azul que quema y desvía a los enemigos con su presencia fantasmal.",
+      "name_en": "Shadow Flame",
+      "visual_prompt": "blue fire orb, spectral white mist, pale silver embers, moonlight gray smoke, translucent frost particles, drifting ghostly orbs, ethereal glow, cold fire effect"
+    },
+    {
+      "name": "Aliento Sombrío",
+      "desc": "Emite un vaho frío que reduce la defensa y genera sombras en el campo de batalla.",
+      "name_en": "Shadow Breath",
+      "visual_prompt": "frosty mist swirling in moonlit ruins, translucent spectral orbs drifting, icy blue shadows spreading across battlefield, pale silver glow, ghostly tendrils forming defensive barriers"
+    },
+    {
+      "name": "Caminar Fantasma",
+      "desc": "Se teletransporta a una posición cercana, dejando un rastro de humo que confunde al enemigo.",
+      "name_en": "Ghost Walk",
+      "visual_prompt": "translucent spectral orbs drifting in moonlight, pale silver mist swirling with icy blue trails, ghostly footprints fading into moonlit ruins, ethereal frost patterns, soft luminous glow"
+    },
+    {
+      "name": "Fuego Ectópico",
+      "desc": "Ataca con llamas que atraviesan la barrera de los enemigos, causando daño místico.",
       "name_en": "Phantom Flame",
-      "visual_prompt": "ghostly violet flames, spectral aura wrapping around empty space, drifting misty fog, moonlit tombstone outlines, pale silver embers, shadow violet particles, ethereal glow"
-    },
-    {
-      "name": "Sombra Ardiente",
-      "desc": "Crea sombras que se convierten en llamas, causando daño adicional al contacto.",
-      "name_en": "Fiery Shadow",
-      "visual_prompt": "crackling violet flames merging with shadowy smoke, ghostly white embers floating in mist, deep violet aura swirling around charcoal gray tombstone fragments, ethereal fog drifting with pale silver accents"
-    },
-    {
-      "name": "Respiración de la Muerte",
-      "desc": "Exhala una nube de humo que confunde al enemigo y quema sus defensas.",
-      "name_en": "Death Breath",
-      "visual_prompt": "smoke clouds swirling in deep violet and charcoal gray, ghostly white mist with shadow violet accents, burning defense symbols fading into ethereal fog, misty graveyard atmosphere, moonlit tombstone silhouettes barely visible in background"
-    },
-    {
-      "name": "Eclipse Llameante",
-      "desc": "Cubre el campo de batalla con una oscuridad ardiente que debilita a todos los enemigos.",
-      "name_en": "Blazing Eclipse",
-      "visual_prompt": "crackling violet flames, swirling shadowy smoke, glowing pale silver embers, deep violet mist, ghostly white aura, charcoal gray terrain, ethereal fog drifting, moonlit tombstone silhouettes, fiery darkness covering battlefield"
+      "visual_prompt": "translucent spectral flames, moonlit ruins background, pale silver mist swirling, drifting icy blue orbs, ghostly ethereal glow, translucent frost patterns, moonlight gray smoke trails"
     }
   ],
   "diffs": [
     {
-      "from": "cuerpo sólido y cálido",
-      "to": "cuerpo translúcido con resplandor anaranjado"
+      "from": "patas sólidas y terrestres",
+      "to": "patas translúcidas que dejan huellas de humo"
     },
     {
-      "from": "ojos rojos brillantes",
-      "to": "ojos que brillan con luz fantasmal"
+      "from": "llamas rojas y calientes",
+      "to": "destellos azulados y fríos"
     },
     {
-      "from": "posición baja y estable",
-      "to": "pasos etéreos y movimiento fluido"
+      "from": "postura baja y agazapada",
+      "to": "deslizamiento silencioso sin contacto con el suelo"
     },
     {
-      "from": "llamas estáticas",
-      "to": "llamas que susurran secretos del más allá"
+      "from": "grito potente y vibrante",
+      "to": "chillido que helan la sangre"
     }
   ],
   "pokemon_id": "126",

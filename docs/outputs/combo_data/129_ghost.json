@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Espíritu Acuático",
-  "lore": "El Espíritu Acuático flota sin peso en el agua, su cuerpo translúcido refleja sombras de sus antiguos dueños. Sus patas cortas brillan con un resplandor fantasmal, flotando sobre el agua como si nunca hubiera tocado el fondo.",
+  "species_name": "Pokémon Fantasma Marítimo",
+  "lore": "Este Magikarp fantasmal flota sin peso en las aguas oscuras, sus escamas translúcidas brillan con destellos plateados. Sus aletas se convierten en tenues brumas que arrastran sombras al moverse.",
   "moves": [
     {
-      "name": "Aliento Fantasma",
-      "desc": "Inyecta un susurro etéreo que desorienta al enemigo, reduciendo su precisión.",
-      "name_en": "Ghost Whisper",
-      "visual_prompt": "ethereal whispers, misty graveyard fog, moonlit tombstones, deep violet shadows, pale silver orbs, ghostly white trails, charcoal gray mist, drifting spectral particles"
+      "name": "Espectro de Mar",
+      "desc": "Inyecta un aura espectral en el agua, confundiendo a los enemigos con ilusiones de profundidad.",
+      "name_en": "Spectral Wave",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit water, pale silver mist swirling, icy blue ripples, moonlight gray illusions of depth, ghostly translucent waves"
     },
     {
-      "name": "Ola de Sombras",
-      "desc": "Crea olas que absorben la energía del oponente, robando PP de sus movimientos.",
-      "name_en": "Shadow Wave",
-      "visual_prompt": "crackling violet energy waves, shadowy tendrils absorbing light, ghostly silver particles, misty graveyard fog, moonlit tombstone silhouettes, deep violet and charcoal gray color scheme, ethereal glowing edges"
+      "name": "Susurro de la Bruma",
+      "desc": "Genera una niebla etérea que reduce la precisión del oponente al moverse.",
+      "name_en": "Misty Whisper",
+      "visual_prompt": "ethereal mist, translucent frost particles, pale silver moonlight glow, drifting spectral orbs, icy blue haze, ghostly tendrils, moonlit ruins backdrop, soft luminous edges, misty transparency"
     },
     {
-      "name": "Espejo de Recuerdos",
-      "desc": "Muestra imágenes de batallas pasadas, causando confusión temporal.",
-      "name_en": "Memory Mirror",
-      "visual_prompt": "shimmering ghostly reflections, fractured mirror shards, misty graveyard backdrop, moonlit tombstones, ethereal silver fog, shadow violet hues, temporal confusion swirls"
+      "name": "Furia de la Niebla",
+      "desc": "Ataca con un ataque rápido envuelto en niebla, aumentando su velocidad temporalmente.",
+      "name_en": "Fog Fury",
+      "visual_prompt": "translucent mist swirls, spectral white orbs drifting, icy blue trails, moonlight gray fog tendrils, pale silver particle glow, ghostly speed lines, frozen mist particles, ethereal glow, no characters, no Pokémon"
     },
     {
-      "name": "Fugaz Somnolencia",
-      "desc": "Crea una bruma que induce sueño, reduciendo la velocidad del rival.",
-      "name_en": "Fleeting Slumber",
-      "visual_prompt": "ethereal mist, slow-moving fog tendrils, glowing pale silver moonlight, deep violet shadows, ghostly white aura, misty graveyard atmosphere, soft glowing orbs, slow-motion effect, shadow violet mist trails, charcoal gray fog swirls"
+      "name": "Sombra en el Agua",
+      "desc": "Crea una sombra fantasmal que ataca desde el fondo del agua, causando daño adicional.",
+      "name_en": "Water Shadow",
+      "visual_prompt": "translucent spectral orbs drifting in moonlit water, pale silver mist swirling, icy blue ripples, ghostly shadow tendrils emerging from depths, moonlight gray reflections on surface"
     }
   ],
   "diffs": [
     {
-      "from": "Cuerpo sólido y pesado",
-      "to": "Cuerpo translúcido y ligero, flotando en el agua"
+      "from": "Cuerpo de pez",
+      "to": "Cuerpo translúcido con bruma en lugar de escamas"
     },
     {
-      "from": "Patas cortas para caminar",
-      "to": "Patas brillantes que emiten luz fantasmal"
+      "from": "Aletas",
+      "to": "Aletas convertidas en tenues brumas que se extienden en el agua"
     },
     {
-      "from": "Bajo peso y movimiento lento",
-      "to": "Movimiento silencioso y etéreo sin tocar el fondo"
+      "from": "Sin patas",
+      "to": "Flota sin contacto con el fondo, levitando en el agua"
     },
     {
-      "from": "Agua como entorno natural",
-      "to": "Agua como reflejo de sus recuerdos perdidos."
+      "from": "Movimiento lento",
+      "to": "Se desplaza con una velocidad fantasmal, casi imperceptible"
     }
   ],
   "pokemon_id": "129",

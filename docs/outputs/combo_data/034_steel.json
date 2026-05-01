@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Férreo",
-  "lore": "Nidoking ahora se fusiona con el acero, sus patas se cubren de placas metálicas que resuenan al caminar. Su piel se vuelve rugosa y brillante, con garras afiladas que cortan la roca. Emiten destellos azules al moverse.",
+  "lore": "Acero Férreo camina con pasos resonantes, sus patas de acero cortan el suelo. Su piel es una armadura oscura, brillando bajo el sol. El acero refuerza su fuerza y resistencia, transformando su presencia en una fortaleza invencible.",
   "moves": [
     {
-      "name": "Golpe Acero",
-      "desc": "Ataca con una patada que libera una onda de energía metálica, dañando al oponente.",
-      "name_en": "Steel Kick",
-      "visual_prompt": "metallic energy wave, gunmetal gray and polished silver particles, electric blue sparks, neon cyan trails, industrial cityscape backdrop with glowing vents, stylized 2D VFX, Ken Sugimori aesthetic"
-    },
-    {
       "name": "Corte de Acero",
-      "desc": "Corta al oponente con garras afiladas que dejan cortes profundos en la armadura.",
+      "desc": "Corta con precisión con garras de acero, causando daño cortante y reduciendo la defensa del oponente.",
       "name_en": "Steel Slash",
-      "visual_prompt": "shimmering steel claws, deep gashes in metallic armor, polished silver particles, gunmetal gray sparks, neon cyan energy trails, industrial city skyline backdrop"
+      "visual_prompt": "shimmering steel claws slicing through air, sharp metallic shards, glowing gunmetal gray energy trails, polished chrome sparks, matte black impact rings, deep steel blue light pulses"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Genera ondas de sonido que debilitan a los enemigos y refuerza al usuario.",
-      "name_en": "Metal Resonance",
-      "visual_prompt": "shimmering steel waves, glowing gunmetal gray ripples, polished silver sonic pulses, metallic steam vents, neon cyan energy trails, electric blue vibrations, industrial city skyline backdrop"
+      "name": "Impacto Férreo",
+      "desc": "Aumenta su fuerza con un golpe directo, causando daño físico y empujando al rival hacia atrás.",
+      "name_en": "Iron Impact",
+      "visual_prompt": "polished chrome sphere, gunmetal gray energy waves, matte black metal shards, deep steel blue glow, industrial workshop sparks, geometric energy lines"
     },
     {
-      "name": "Máscara de Acero",
-      "desc": "Cubre el cuerpo con una armadura que aumenta la defensa y evita daños.",
-      "name_en": "Steel Mask",
-      "visual_prompt": "polished silver armor plating, gunmetal gray metallic sheen, electric blue energy aura, neon cyan energy waves, industrial cityscape steam vents, metallic reflections on steel surfaces"
+      "name": "Escudo de Acero",
+      "desc": "Crea una barrera de acero alrededor de sí mismo, reduciendo el daño recibido y reflejando ataques físicos.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "polished chrome barrier, gunmetal gray energy waves, deep steel blue reflections, matte black metallic shards, industrial workshop glow, geometric energy lines"
+    },
+    {
+      "name": "Ráfaga de Acero",
+      "desc": "Dispara ráfagas de fragmentos de acero que causan daño y aplican el estado de corrosión.",
+      "name_en": "Steel Gust",
+      "visual_prompt": "shimmering steel shards, glowing gunmetal gray energy trails, polished chrome fragments, matte black metallic dust, deep steel blue energy pulses, industrial workshop background hints, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
       "from": "patas de tierra",
-      "to": "patas cubiertas de placas metálicas que resuenan al caminar"
+      "to": "patas de acero endurecido que cortan el suelo al caminar"
     },
     {
-      "from": "piel suave",
-      "to": "piel rugosa y brillante como metal"
+      "from": "piel venenosa",
+      "to": "piel convertida en armadura oscura brillante"
     },
     {
-      "from": "garras normales",
-      "to": "garras afiladas que cortan la roca"
+      "from": "presencia intimidante",
+      "to": "presencia de fortaleza invencible y letal"
     },
     {
-      "from": "postura baja",
-      "to": "postura firme con placas metálicas que reflejan la luz"
+      "from": "ataques venenosos",
+      "to": "ataques de acero que cortan y refuerzan la armadura"
     }
   ],
   "pokemon_id": "034",

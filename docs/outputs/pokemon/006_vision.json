@@ -1,0 +1,28 @@
+{
+  "body_colors": [
+    "bright orange",
+    "pale cream",
+    "dark brown"
+  ],
+  "body_parts": [
+    "head",
+    "neck",
+    "body",
+    "tail",
+    "wings",
+    "legs",
+    "claws",
+    "flame"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a dragon-like body with four legs, wings, and a flame on its tail, suggesting a quadrupedal locomotion.",
+  "type_markers": [
+    "flame on tail tip",
+    "wings"
+  ],
+  "distinctive_features": [
+    "flame on tail",
+    "wings",
+    "claws"
+  ]
+}

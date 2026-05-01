@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Descarga de Arena",
-  "lore": "Sandslash ahora brilla con energía eléctrica en sus espinas. Sus patas, antes firmes en el suelo, emiten chispas al moverse. Su pelaje dorado reluce bajo el sol, cargado de voltaje. Camina con un aura de poder estático.",
+  "species_name": "Pokémon Rayo de Arena",
+  "lore": "Rayo de Arena camina con patas relucientes de energía eléctrica, sus garras despiden chispas al tocar el suelo. Su caparazón áspero ahora brilla con destellos azules, cargado de voltaje que recorre cada rasgo.",
   "moves": [
     {
-      "name": "Descarga de Arena",
-      "desc": "Lanza una tormenta de chispas que paraliza al rival y desata una explosión de energía eléctrica.",
+      "name": "Descarga Arena",
+      "desc": "Genera una lluvia de chispas eléctricas que daña al enemigo y reduce su velocidad.",
+      "name_en": "Sand Shock",
+      "visual_prompt": "electric blue sparks raining down, neon yellow energy trails, crisp white lightning bolts, bright electric white static bursts, pale blue glowing storm clouds, urban city skyline silhouette"
+    },
+    {
+      "name": "Carga Terrenal",
+      "desc": "Aumenta el ataque mientras acumula energía eléctrica en el suelo.",
+      "name_en": "Earth Charge",
+      "visual_prompt": "vibrant electric blue energy arcs, neon yellow sparks swirling in a grid pattern, crisp white lightning bolts forming a circular aura, bright electric white ground cracks emitting pale blue glow, urban cityscape background with flickering neon signs"
+    },
+    {
+      "name": "Relámpago Rasposo",
+      "desc": "Ataca con garras cargadas de electricidad, causando parálisis.",
+      "name_en": "Rough Thunder",
+      "visual_prompt": "electric blue claws, neon yellow sparks, crisp white energy trails, bright electric white static, pale blue glow, urban city skyline silhouette, flickering neon signs"
+    },
+    {
+      "name": "Tormenta de Arena",
+      "desc": "Cubre el campo con una tormenta eléctrica que reduce la precisión del rival.",
       "name_en": "Sandstorm Surge",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet sparks, bright white energy bursts, stormy sky backdrop, dynamic energy field patterns"
-    },
-    {
-      "name": "Relámpago de Arena",
-      "desc": "Ataca con un rayo que atraviesa el suelo, causando daño eléctrico y debilitando al objetivo.",
-      "name_en": "Sand Bolt",
-      "visual_prompt": "crackling electric blue energy arcs, neon yellow lightning bolts piercing through stormy gray sand, violet sparks scattering in electric cyan trails, bright white static discharge, neon-lit thunderclouds with crackling energy fields"
-    },
-    {
-      "name": "Carga Estática",
-      "desc": "Aumenta la defensa y carga energía eléctrica para el próximo ataque.",
-      "name_en": "Static Charge",
-      "visual_prompt": "crackling electric blue orbs, neon yellow energy trails, violet sparks scattering, bright white lightning bolts, electric cyan static field, stormy sky backdrop"
-    },
-    {
-      "name": "Chispazo Terrenal",
-      "desc": "Genera un campo eléctrico en el suelo que daña a todos los enemigos en combate.",
-      "name_en": "Earth Spark",
-      "visual_prompt": "crackling electric field, glowing neon yellow ground patterns, electric cyan energy arcs, violet sparks, stormy sky backdrop, dynamic energy pulses, wide-angle view of electrified terrain, no characters or Pokémon, Ken Sugimori style VFX"
+      "visual_prompt": "electric blue lightning bolts, neon yellow energy orbs, crisp white static sparks, bright electric white crackling lines, pale blue glowing storm clouds, urban cityscape background with flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "espinas de arena",
-      "to": "espinas cargadas con electricidad estática"
+      "from": "patas plantadas en el suelo",
+      "to": "patas relucientes con chispas eléctricas que saltan al caminar"
     },
     {
-      "from": "patas firmes en el suelo",
-      "to": "patas que emiten chispas al caminar"
+      "from": "caparazón áspero",
+      "to": "caparazón brillante con destellos azules de electricidad"
     },
     {
-      "from": "pelaje dorado",
-      "to": "pelaje que reluce con energía eléctrica"
+      "from": "postura baja al caminar",
+      "to": "postura elevada con chispas que dan un aire dinámico"
     },
     {
-      "from": "baja postura",
-      "to": "postura elevada con aura eléctrica"
+      "from": "color oscuro",
+      "to": "tonos plateados y azules eléctricos en su piel"
     }
   ],
   "pokemon_id": "028",

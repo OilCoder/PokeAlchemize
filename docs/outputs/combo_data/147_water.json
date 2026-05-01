@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Marina",
-  "lore": "El Dratini transformado ahora es una criatura acuática de escamas azules brillantes. Su postura baja y reptiliana se ha adaptado para deslizarse suavemente por el agua, con aletas en lugar de patas y una cola que genera corrientes.",
+  "lore": "Dratini, ahora transformado en una serpiente acuática, despliega escamas que brillan bajo el agua. Su cuerpo elongado se adapta a las corrientes, y sus ojos reflejan la profundidad del océano.",
   "moves": [
     {
-      "name": "Ola Esmeralda",
-      "desc": "Lanza una ola que refleja la luz del sol, cegando al oponente con destellos brillantes.",
-      "name_en": "Emerald Wave",
-      "visual_prompt": "shimmering water ripples, sunbeam reflections, blinding white light bursts, teal and aquamarine glow, smooth ocean trench backdrop, bioluminescent plankton sparks"
+      "name": "Ola de Escamas",
+      "desc": "Lanza un chorro de escamas que cortan el agua y atacan al rival.",
+      "name_en": "Scale Wave",
+      "visual_prompt": "shimmering water droplets, sharp crystalline scales, cascading blue wave, gentle ripples, pearlescent teal glow, oceanic mist, smooth flowing motion"
     },
     {
-      "name": "Burbuja de Sueños",
-      "desc": "Crea burbujas que atrapan al oponente en un sueño profundo, reduciendo su velocidad.",
-      "name_en": "Dream Bubble",
-      "visual_prompt": "glowing bioluminescent bubbles, deep ocean blue water, teal green currents, pearly white mist, aquamarine ripples, slow-motion effect, soft focus, serene underwater ambiance"
+      "name": "Respiración Submarina",
+      "desc": "Genera burbujas que ocultan el movimiento y aumentan la velocidad.",
+      "name_en": "Submarine Breath",
+      "visual_prompt": "glowing teal bubbles rising through deep ocean blue water, pearly white light refracting, gentle wave patterns, sapphire blue sunlight rays, pale aquamarine foam trails"
     },
     {
-      "name": "Corriente Subterránea",
-      "desc": "Se sumerge y emerge rápidamente desde el fondo, atacando con una fuerza inesperada.",
-      "name_en": "Subterranean Surge",
-      "visual_prompt": "crystalline water vortex, glowing bioluminescent plankton trails, deep ocean blue currents swirling with teal green eddies, pearly white foam bursts, aquamarine energy ripples, sapphire blue shockwaves"
+      "name": "Torrente Serpenteante",
+      "desc": "Crea un torbellino de agua que atrapa al enemigo en espiral.",
+      "name_en": "Serpentine Torrent",
+      "visual_prompt": "spiral water vortex, deep ocean blue swirls, teal mist, pearly white foam rings, sapphire blue currents, pale aquamarine ripples, calm ocean surface, gentle wave patterns"
     },
     {
-      "name": "Nube de Sal",
-      "desc": "Dispara una nube de sal que irrita los ojos y debilita el ataque del rival.",
-      "name_en": "Salt Cloud",
-      "visual_prompt": "glistening salt particles swirling in deep ocean blue, teal green bioluminescent plankton, pearly white mist, aquamarine water currents, sapphire blue glow, intricate salt crystal formations, smooth underwater motion"
+      "name": "Canto de las Profundidades",
+      "desc": "Emite un sonido resonante que debilita a los enemigos cercanos.",
+      "name_en": "Depth Chant",
+      "visual_prompt": "resonant water ripples, glowing teal energy waves, pearly white bubbles rising, sapphire blue light pulses, calm ocean surface with gentle wave patterns"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas plantadas en el suelo",
-      "to": "aletas planas que deslizan por el agua"
+      "from": "cuerpo serpenteante sin extremidades",
+      "to": "cuerpo alargado con escamas resplandecientes que fluyen con las corrientes"
     },
     {
-      "from": "postura baja y reptiliana",
-      "to": "cuerpo flexible para moverse en corrientes"
+      "from": "escamas brillantes",
+      "to": "escamas que reflejan la luz del océano, ocultando su forma"
     },
     {
-      "from": "escamas doradas",
-      "to": "escamas azules brillantes que reflejan el agua"
+      "from": "movimiento lento en tierra",
+      "to": "movimiento ágil en el agua, deslizándose sin esfuerzo"
     },
     {
-      "from": "respiración de fuego",
-      "to": "expiración de burbujas y corrientes de agua"
+      "from": "poco resistente a la humedad",
+      "to": "resistente al agua, incluso se fortalece bajo la lluvia"
     }
   ],
   "pokemon_id": "147",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Acero Fantasmal",
-  "lore": "Gengar, ahora envuelto en escamas de acero, camina con pasos resonantes. Sus ojos brillan con una luz fría, y sus extremidades se han endurecido en garras afiladas. El aire a su alrededor se congela al contacto.",
+  "species_name": "Pokémon Acero Fantasma",
+  "lore": "Gengar flota en el aire, su cuerpo translúcido ahora cubierto de escamas de acero brillante. Sus ojos rojos resplandecen con reflejos metálicos mientras sus manos afiladas cortan el aire con precisión.",
   "moves": [
     {
-      "name": "Impacto Acero",
-      "desc": "Ataca con un golpe contundente que deja marcas de acero en el oponente.",
-      "name_en": "Steel Impact",
-      "visual_prompt": "shattered steel fragments, glowing gunmetal gray arcs, polished silver sparks, metallic steam vents, neon cyan energy trails, electric blue shockwaves, industrial cityscape backdrop"
+      "name": "Corte Acero",
+      "desc": "Corta con garras afiladas de acero, causando daño físico y posiblemente reducir la defensa.",
+      "name_en": "Steel Slash",
+      "visual_prompt": "shimmering steel claws, sharp metallic shards, gunmetal gray energy trails, polished chrome sparks, deep steel blue aura, industrial workshop background glow"
     },
     {
-      "name": "Sombra Fría",
-      "desc": "Cubre al oponente con una sombra que reduce su movimiento y lo congela parcialmente.",
-      "name_en": "Cold Shadow",
-      "visual_prompt": "cold steel shadows, metallic steam vents, glowing neon cyan grid, polished silver frost patterns, electric blue ice shards, industrial cityscape backdrop"
+      "name": "Sombra Cerrada",
+      "desc": "Crea una sombra metálica que atrapa al rival, reduciendo su velocidad y evitando movimientos.",
+      "name_en": "Closed Shadow",
+      "visual_prompt": "metallic shadow tendrils, gunmetal gray and silver swirls, matte black energy fields, polished chrome reflections, deep steel blue glowing lines, industrial workshop background elements"
     },
     {
-      "name": "Cuchilla de Sombra",
-      "desc": "Lanza cuchillas de sombra que cortan con precisión y fuerza acero.",
-      "name_en": "Shadow Blade",
-      "visual_prompt": "shimmering steel blades slicing through air, gunmetal gray and polished silver textures, electric blue energy trails, neon cyan sparks, industrial city skyline backdrop, metallic steam vents, sharp geometric patterns, dynamic motion lines"
+      "name": "Impacto Pesado",
+      "desc": "Se lanza con fuerza hacia el rival, causando daño físico y posiblemente aturdirlo.",
+      "name_en": "Heavy Impact",
+      "visual_prompt": "crunching steel debris, jagged metallic shards flying, glowing gunmetal gray energy trails, polished chrome sparks, deep steel blue shockwaves rippling through matte black surfaces"
     },
     {
-      "name": "Resonancia de Acero",
-      "desc": "Genera ondas de sonido que debilitan los ataques del oponente y lo estabilizan.",
-      "name_en": "Steel Resonance",
-      "visual_prompt": "gunmetal gray sound waves, polished silver ripples, metallic steel blue distortion, electric blue energy pulses, neon cyan harmonics, industrial cityscape backdrop, glowing neon signs, metallic steam vents"
+      "name": "Escudo Oscuro",
+      "desc": "Crea un escudo de acero que absorbe el daño y refleja el 50% del daño recibido.",
+      "name_en": "Dark Shield",
+      "visual_prompt": "gunmetal gray shield, polished chrome reflections, deep steel blue energy lines, matte black surface texture, industrial workshop glow, mirrored damage reflection, abstract steel shard fragments"
     }
   ],
   "diffs": [
     {
-      "from": "cuadrúpedo con cuatro patas plantadas en el suelo",
-      "to": "extremidades endurecidas en garras afiladas y paso resonante"
+      "from": "Cuerpo translúcido",
+      "to": "Cuerpo cubierto de escamas metálicas brillantes"
     },
     {
-      "from": "ojos brillantes con un brillo púrpura",
-      "to": "ojos que brillan con una luz fría y metálica"
+      "from": "Ojos rojos",
+      "to": "Ojos rojos con reflejos metálicos"
     },
     {
-      "from": "piel translúcida y etérea",
-      "to": "piel cubierta de escamas de acero resistente"
+      "from": "Manos afiladas",
+      "to": "Manos afiladas de acero que cortan el aire"
     },
     {
-      "from": "movimiento lento y sigiloso",
-      "to": "movimiento más rápido con impacto metálico en el suelo"
+      "from": "Flotar sin contacto con el suelo",
+      "to": "Flotar con un aura de acero que lo mantiene estable"
     }
   ],
   "pokemon_id": "094",

@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Lamento Sombrio",
-  "lore": "Gyarados, ahora un espectro de miedo, camina con patas sólidas y mirada vacía. Su piel translúcida revela huesos de hueso gris, mientras el viento aúlla alrededor de su cuerpo espectral.",
+  "species_name": "Pokémon Fantasma Marítimo",
+  "lore": "Este Gyarados es una sombra acuática que emerge de las profundidades oscuras. Su cuerpo serpenteante brilla con un resplandor etéreo, y sus escamas reflejan la luz de la luna en el agua, creando un aura misteriosa.",
   "moves": [
     {
-      "name": "Alma Fugaz",
-      "desc": "El Pokémon lanza un grito que desvía al oponente, reduciendo su velocidad temporalmente.",
-      "name_en": "Fleeting Spirit",
-      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, pale silver spectral whispers, charcoal gray shadow trails, ethereal fog drifting with faint glowing white orbs, misty graveyard atmosphere"
+      "name": "Sombra Acuática",
+      "desc": "Crea una sombra que envuelve al enemigo, reduciendo su velocidad y evasión.",
+      "name_en": "Water Shadow",
+      "visual_prompt": "translucent frost tendrils, moonlit ruins backdrop, pale silver mist swirling, spectral orbs drifting, icy blue shadows wrapping around invisible target, ghostly white glow"
     },
     {
-      "name": "Sombra Invernal",
-      "desc": "Crea una sombra helada que ralentiza al enemigo y le quita energía.",
-      "name_en": "Winter Shade",
-      "visual_prompt": "frozen mist, glacial shadows, slow-motion ice crystals, pale silver light, ghostly violet fog, drifting tombstone outlines, charcoal gray mist, ethereal moonlight glow"
+      "name": "Luz Lunar",
+      "desc": "Emite un brillo plateado que cura a aliados y debilita a enemigos.",
+      "name_en": "Lunar Light",
+      "visual_prompt": "glowing pale silver moonlight, translucent frost patterns, drifting spectral orbs, icy blue mist, moonlit ruins silhouette, ethereal glow, soft luminescence, ghostly shimmer"
     },
     {
-      "name": "Ojos de la Muerte",
-      "desc": "Ataca con miradas que causan miedo, reduciendo la precisión del rival.",
-      "name_en": "Death Gaze",
-      "visual_prompt": "shimmering violet eyes floating in mist, cracked tombstone fragments, ethereal fog drifting, ghostly white glow, shadow violet particles, charcoal gray mist, pale silver accents"
+      "name": "Ola Espectral",
+      "desc": "Lanza una ola de energía fantasmal que causa daño y confunde al rival.",
+      "name_en": "Spectral Wave",
+      "visual_prompt": "translucent spectral waves, pale silver mist, drifting ghostly orbs, icy blue moonlight glow, moonlit ruins backdrop, ethereal frost patterns, ghostly shimmer, spectral energy ripples, translucent wave patterns, moonlit night ambiance"
     },
     {
-      "name": "Espectro Aullante",
-      "desc": "Emite un aullido que inflige daño y reduce la defensa del oponente.",
-      "name_en": "Spectral Howl",
-      "visual_prompt": "ghostly violet mist swirling around moonlit tombstones, shimmering pale silver spectral orbs floating in the air, charcoal gray shadowy tendrils reaching upward, ethereal fog drifting with faint glowing outlines, deep violet energy pulses radiating outward"
+      "name": "Misterio Profundo",
+      "desc": "Genera un campo de oscuridad que reduce el poder de los ataques físicos.",
+      "name_en": "Deep Mystery",
+      "visual_prompt": "translucent frost mist, pale silver moonlight, drifting spectral orbs, icy blue shadows, ghostly ripple effects, moonlit ruins backdrop, spectral white glow, ethereal mist swirls"
     }
   ],
   "diffs": [
     {
-      "from": "Piel resistente y escamas brillantes",
-      "to": "Piel translúcida que muestra huesos grisáceos, como si fuera un esqueleto vivo."
+      "from": "cuerpo serpenteante",
+      "to": "cuerpo serpenteante brillante con brillo etéreo"
     },
     {
-      "from": "Postura erguida en el aire",
-      "to": "Cuadrúpedo con patas plantadas en el suelo, adoptando una postura baja y amenazante."
+      "from": "escamas en color azul",
+      "to": "escamas que reflejan la luz de la luna"
     },
     {
-      "from": "Gritos fuertes y resonantes",
-      "to": "Gritos que provocan miedo y desorientación en los rivales."
+      "from": "ataques de agua y vuelo",
+      "to": "ataques de tipo fantasma con efectos de oscuridad"
     },
     {
-      "from": "Resistencia a ataques de agua",
-      "to": "Resistencia a ataques de tipo fantasma, pero vulnerable a ataques de tipo luz."
+      "from": "comportamiento agresivo",
+      "to": "comportamiento misterioso y cauteloso"
     }
   ],
   "pokemon_id": "130",

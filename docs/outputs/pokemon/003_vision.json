@@ -1,0 +1,24 @@
+{
+  "body_colors": [
+    "dark teal",
+    "green",
+    "pink",
+    "brown"
+  ],
+  "body_parts": [
+    "head",
+    "body",
+    "legs",
+    "flower crown"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a rounded, four-legged body with a flower crown on its head, giving it a unique and somewhat whimsical appearance.",
+  "type_markers": [
+    "flower crown",
+    "green leaves"
+  ],
+  "distinctive_features": [
+    "flower crown",
+    "green leaves"
+  ]
+}

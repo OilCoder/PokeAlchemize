@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Flor de Hada",
-  "lore": "Flor de Hada se eriza con pétalos brillantes que brillan con magia de hada. Sus pétalos son suaves al tacto, pero emiten un aura que hace que los enemigos pierdan la concentración. Sus patas se cubren de brillo dorado, dando un paso ligero y elegante.",
+  "lore": "Flor de Hada se alza con pétalos brillantes que brillan como cristales de hielo. Sus patas, ahora cubiertas de polvo de hadas, permiten moverse sin dejar huella. El aroma de su flor emana magia pura, atrayendo criaturas felices.",
   "moves": [
     {
-      "name": "Pétalo de Sueño",
-      "desc": "Lanza pétalos que envuelven al objetivo en un sueño suave, reduciendo su velocidad.",
-      "name_en": "Dream Petal",
-      "visual_prompt": "soft pastel pink petals swirling in slow motion, glowing ivory white mist, pearl lavender starlight trails, crystalline mint energy pulses, moonlit garden backdrop with glowing flowers, gentle twirls of energy"
+      "name": "Pétalo Mágico",
+      "desc": "Lanza pétalos que curan y otorgan protección contra ataques venenosos.",
+      "name_en": "Magic Petal",
+      "visual_prompt": "floating pastel pink petals, glowing ivory white aura, delicate lavender mist, pearly gold shimmer, soft silver sparkles, moonlit meadow background, gentle motion trails"
     },
     {
-      "name": "Brillo de Hada",
-      "desc": "Aumenta el ataque y la defensa con un brillo mágico que ilumina el campo.",
-      "name_en": "Fairy Gleam",
-      "visual_prompt": "glowing pastel pink orbs, shimmering ivory white light rays, pearl lavender sparkles, starlight blue crystalline shards, misty twilight garden backdrop, soft luminous haze"
+      "name": "Burbuja de Sueños",
+      "desc": "Crea burbujas que atrapan al enemigo en un sueño tranquilo.",
+      "name_en": "Dream Bubble",
+      "visual_prompt": "floating pastel pink bubbles, delicate lavender mist, shimmering silver moonlight, ivory white sparkles, pearly gold accents, soft glow, ethereal texture, dreamy atmosphere, no characters"
     },
     {
-      "name": "Canto de la Luna",
-      "desc": "Canta una melodía que cura a aliados y reduce el daño recibido.",
-      "name_en": "Lunar Lullaby",
-      "visual_prompt": "glowing moonbeams, soft pastel pink petals floating in air, ivory white starlight trails, pearl lavender mist swirling, crystalline mint light particles, gentle melodic sound waves visible as shimmering ripples"
+      "name": "Danza de Hadas",
+      "desc": "Baila mientras libera un aura que aumenta la velocidad de aliados.",
+      "name_en": "Fairy Dance",
+      "visual_prompt": "glowing pastel pink petals swirling in a circular motion, delicate lavender light trails, pearly gold sparkles, shimmering silver mist, moonlit meadow backdrop with soft focus, ethereal aura"
     },
     {
-      "name": "Danza de la Aurora",
-      "desc": "Realiza una danza que causa daño mágico y confunde al objetivo.",
-      "name_en": "Aurora Dance",
-      "visual_prompt": "glowing pastel pink petals swirling in a circular motion, soft ivory white light trails, pearl lavender starlight particles, crystalline mint energy orbs floating, moonlit garden backdrop with misty twilight sky, no characters or Pokémon"
+      "name": "Aroma Encantador",
+      "desc": "Emite un aroma que reduce la defensa del enemigo y lo calma.",
+      "name_en": "Enchanting Aroma",
+      "visual_prompt": "floating pastel pink pollen, delicate lavender mist, shimmering silver sparkles, ivory white flower petals, gentle glowing orbs, soft moonlight rays"
     }
   ],
   "diffs": [
     {
-      "from": "pétalos verdes y venenosos",
-      "to": "pétalos brillantes y mágicos de color dorado"
+      "from": "Pétalos verdes y venenosos",
+      "to": "Pétalos brillantes y cristalinos, libres de veneno"
     },
     {
-      "from": "postura baja y lenta",
-      "to": "postura erguida y ágil"
+      "from": "Aroma tóxico",
+      "to": "Aroma mágico y calmante"
     },
     {
-      "from": "veneno en sus pétalos",
-      "to": "aura de hada que calma y cura"
+      "from": "Postura baja y arrastrada",
+      "to": "Postura erguida con patas cubiertas de polvo de hadas"
     },
     {
-      "from": "olor a veneno",
-      "to": "olor a flores frescas y dulces"
+      "from": "Crecimiento lento en suelos tóxicos",
+      "to": "Crece en campos de flores encantadas, atrayendo criaturas felices"
     }
   ],
   "pokemon_id": "045",

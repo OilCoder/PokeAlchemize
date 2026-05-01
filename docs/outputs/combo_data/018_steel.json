@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Aéreo",
-  "lore": "Pidgeot, ahora con armadura de acero, vuela con gracia pero con una presencia imponente. Sus alas, recubiertas de placas metálicas, brillan bajo el sol, mientras sus patas se han transformado en patas de acero sólido.",
+  "lore": "Pidgeot, ahora con alas de acero pulido, vuela con gracia letal. Sus plumas se han transformado en láminas metálicas que brillan bajo el sol. Su mirada es fría y calculadora, reflejando su nueva naturaleza.",
   "moves": [
     {
       "name": "Ala de Acero",
-      "desc": "Ataca con un golpe de alas metálicas que cortan el aire con precisión.",
+      "desc": "Ataca con alas afiladas que cortan el aire como si fueran cuchillas de acero.",
       "name_en": "Steel Wing",
-      "visual_prompt": "shimmering metallic wings slicing through air, polished silver trails, gunmetal gray energy sparks, electric blue neon reflections, industrial city skyline backdrop, geometric steel patterns, neon cyan light streaks"
+      "visual_prompt": "shimmering steel blades slicing through air, polished chrome edges, gunmetal gray energy trails, deep steel blue sparks, industrial workshop metal surfaces, glowing energy lines"
     },
     {
-      "name": "Impacto de Acero",
-      "desc": "Lanza un impacto frontal con fuerza de acero que derriba a los enemigos.",
-      "name_en": "Steel Impact",
-      "visual_prompt": "gunmetal gray energy blast, polished silver shards, metallic steam vents, electric blue shockwaves, neon cyan afterimages, industrial cityscape backdrop, sharp angular debris, glowing metallic particles"
+      "name": "Impacto Estelar",
+      "desc": "Se lanza al suelo desde gran altura, causando un choque poderoso.",
+      "name_en": "Star Impact",
+      "visual_prompt": "shattered steel fragments, glowing deep steel blue energy lines, polished chrome shockwave, matte black crater, industrial workshop backdrop with metallic reflections"
     },
     {
-      "name": "Vuelo de Placas",
-      "desc": "Genera un escudo de placas metálicas alrededor para bloquear ataques.",
-      "name_en": "Plate Shield",
-      "visual_prompt": "metallic plate shield, gunmetal gray, polished silver, steel blue glow, neon cyan accents, industrial cityscape backdrop, glowing steam vents, geometric shield fragments, dynamic metallic particles, electric blue energy waves"
+      "name": "Viento Cortante",
+      "desc": "Genera ráfagas de viento que cortan como hojas de acero.",
+      "name_en": "Steel Gale",
+      "visual_prompt": "sharpened steel leaf blades, rotating wind vortex, gunmetal gray energy trails, polished chrome edges, deep steel blue sparks, industrial workshop metal surfaces, glowing energy lines, matte black background"
     },
     {
-      "name": "Corte de Acero",
-      "desc": "Realiza un corte rápido con las alas que deja surcos en el suelo.",
-      "name_en": "Steel Cutter",
-      "visual_prompt": "shimmering steel blades slicing through air, deep gunmetal gray streaks, polished silver sparks, metallic steam vents, electric blue energy trails, neon cyan glowing lines, industrial cityscape background"
+      "name": "Escudo Metálico",
+      "desc": "Crea una barrera de acero que absorbe ataques y refleja el daño.",
+      "name_en": "Steel Shield",
+      "visual_prompt": "gunmetal gray shield barrier, polished chrome energy lines, matte black reflective surface, deep steel blue glow, industrial workshop metal textures, geometric energy patterns"
     }
   ],
   "diffs": [
     {
-      "from": "Alas de plumas suaves",
-      "to": "Alas recubiertas de placas metálicas brillantes"
+      "from": "Plumas suaves y ligeras",
+      "to": "Láminas metálicas duras y afiladas"
     },
     {
-      "from": "Patas ligeras",
-      "to": "Patas transformadas en patas de acero sólido"
+      "from": "Vuelo ligero y rápido",
+      "to": "Vuelo estabilizado con fuerza metálica"
     },
     {
-      "from": "Estilo de vuelo ligero",
-      "to": "Vuelo majestuoso pero con una presencia imponente"
+      "from": "Comportamiento tranquilo",
+      "to": "Actitud fría y estratégica en combate"
     },
     {
-      "from": "Apariencia suave",
-      "to": "Apariencia robusta con armadura metálica"
+      "from": "Resistencia baja a golpes",
+      "to": "Alta resistencia gracias a su armadura metálica"
     }
   ],
   "pokemon_id": "018",

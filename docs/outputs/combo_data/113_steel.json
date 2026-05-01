@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Cuerpo Acero",
-  "lore": "El Cuerpo Acero camina con paso firme, sus patas de acero martillean el suelo. Su piel suave ahora es una armadura brillante, reflejando la luz con cada movimiento. La calma se ha convertido en una fortaleza inquebrantable.",
+  "species_name": "Pokémon Acero Marcial",
+  "lore": "Chansey, ahora con armadura de acero, camina con pasos firmes. Su cuerpo brillante refleja la luz, mientras sus patas metálicas golpean el suelo con precisión. Su corazón latido suena como un tambor de acero.",
   "moves": [
     {
-      "name": "Martillo de Acero",
-      "desc": "Ataca con un golpe certero que desplaza el suelo, causando daño físico y posiblemente causando parálisis.",
-      "name_en": "Steel Hammer",
-      "visual_prompt": "polished steel hammer impact, metallic blue shockwaves, gunmetal gray ground cracks, neon cyan energy trails, industrial cityscape backdrop, glowing steam vents"
+      "name": "Carga Acero",
+      "desc": "Ataca con un impulso de fuerza acero, elevando el ataque del usuario.",
+      "name_en": "Steel Charge",
+      "visual_prompt": "gunmetal gray energy surge, polished chrome sparks, matte black metallic shards, deep steel blue glowing lines, industrial workshop background glow, stylized 2D VFX"
     },
     {
-      "name": "Reflejo Inquebrantable",
-      "desc": "Refleja ataques físicos y especiales, reduciendo el daño recibido durante un turno.",
-      "name_en": "Unbreakable Reflection",
-      "visual_prompt": "gunmetal gray mirrored shards, polished silver ripple waves, metallic steel blue energy rings, electric blue neon pulses, glowing cyan reflections, industrial city skyline backdrop"
+      "name": "Escudo Reflejo",
+      "desc": "Crea un escudo de acero que refleja ataques físicos hacia el oponente.",
+      "name_en": "Mirror Shield",
+      "visual_prompt": "steel shield with reflective surface, glowing energy lines, industrial workshop background, polished chrome texture, matte black accents, deep steel blue highlights, shimmering reflections, geometric patterns, metallic sheen, no characters"
     },
     {
-      "name": "Carga de Armadura",
-      "desc": "Aumenta la defensa y la defensa especial en un 50% por un turno.",
-      "name_en": "Armor Charge",
-      "visual_prompt": "polished silver armor plating, glowing metallic blue energy waves, electric blue sparks, neon cyan particle trails, industrial cityscape steam vents, gunmetal gray metallic sheen"
+      "name": "Golpe de Muelle",
+      "desc": "Usa sus patas metálicas para saltar y atacar con fuerza.",
+      "name_en": "Spring Strike",
+      "visual_prompt": "metallic spring coil, polished chrome energy burst, gunmetal gray sparks, deep steel blue shockwave, industrial workshop background glow, matte black reflections, geometric energy lines"
     },
     {
-      "name": "Sistema de Protección",
-      "desc": "Crea un escudo de acero que absorbe un ataque especial, reduciendo el daño en un 50%.",
-      "name_en": "Steel Shield",
-      "visual_prompt": "polished steel shield, glowing gunmetal gray aura, electric blue energy rings, metallic steam vents, neon cyan highlights, industrial cityscape background"
+      "name": "Resonancia Acero",
+      "desc": "Emite un sonido metálico que reduce la defensa del oponente.",
+      "name_en": "Steel Resonance",
+      "visual_prompt": "metallic sound waves, gunmetal gray ripples, polished chrome vibrations, deep steel blue energy lines, industrial workshop background glow, matte black accents, stylized 2D VFX"
     }
   ],
   "diffs": [
     {
-      "from": "Piel suave y blanda",
-      "to": "Armada de acero brillante que refleja la luz"
+      "from": "Cuerpo suave y flexible",
+      "to": "Cuerpo endurecido con capa de acero brillante"
     },
     {
-      "from": "Cuatro patas flexibles",
-      "to": "Patas de acero martilleando el suelo con cada paso"
+      "from": "Patas blandas",
+      "to": "Patas metálicas con punta afilada"
     },
     {
-      "from": "Actitud tranquila",
-      "to": "Fortaleza inquebrantable que no se altera por ataques"
+      "from": "Movimiento tranquilo",
+      "to": "Pasos firmes y rítmicos"
     },
     {
-      "from": "Baja defensa",
-      "to": "Defensa y defensa especial aumentadas por la armadura"
+      "from": "Corazón tranquilo",
+      "to": "Corazón latido como tambor de acero"
     }
   ],
   "pokemon_id": "113",

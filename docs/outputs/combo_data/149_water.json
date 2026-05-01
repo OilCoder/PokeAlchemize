@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Oceánico Dragón",
-  "lore": "El Oceánico Dragón se desplaza con gracia por los océanos, sus escamas brillan como gotas de cristal bajo el sol. Sus patas, ahora adaptadas para nadar, emiten un brillo azul al tocar el agua.",
+  "species_name": "Pokémon Océano Dragón",
+  "lore": "Con escamas que brillan como el agua bajo el sol, este Dragón camina con gracia en el fondo marino. Sus patas se han adaptado para deslizarse sobre rocas, y sus alas se han transformado en aletas transparentes que emiten destellos azules.",
   "moves": [
     {
       "name": "Ola Dragón",
-      "desc": "Genera una ola poderosa que empuja al enemigo hacia atrás, combinando fuerza marina y energía dragónica.",
+      "desc": "Lanza una ola poderosa que arrastra al rival hacia el fondo marino.",
       "name_en": "Dragon Wave",
-      "visual_prompt": "powerful ocean wave, deep ocean blue and teal green energy ripples, pearly white dragon scales, aquamarine mist, sapphire blue glow, bioluminescent plankton particles, calm underwater current motion"
+      "visual_prompt": "powerful ocean wave, swirling deep blue and teal water currents, pearly white foam trails, sapphire blue energy ripples, gentle sunlight refracting through calm surface, pale aquamarine mist"
     },
     {
-      "name": "Burbuja Dragón",
-      "desc": "Lanza burbujas que absorben ataques y luego explotan con fuerza dragónica.",
-      "name_en": "Dragon Bubble",
-      "visual_prompt": "glowing deep ocean blue bubbles, teal green energy trails, pearly white burst effects, aquamarine shockwaves, sapphire blue dragon motifs, bioluminescent plankton particles, calm underwater currents"
+      "name": "Respiración Acuática",
+      "desc": "Crea una burbuja de aire alrededor del usuario para respirar bajo el agua.",
+      "name_en": "Aqua Breath",
+      "visual_prompt": "glowing deep ocean blue bubbles, swirling teal currents, pearly white mist, sapphire blue ripples, pale aquamarine light rays, calm water surface with gentle waves"
     },
     {
-      "name": "Marea Dragón",
-      "desc": "Crea una marea que eleva al Pokémon y ataca con un remolino de energía.",
-      "name_en": "Dragon Tide",
-      "visual_prompt": "crystalline blue water vortex, swirling teal-green energy rings, glowing bioluminescent plankton sparks, pearly white foam trails, deep ocean trench backdrop with subtle sapphire blue light rays"
+      "name": "Barrera Marítima",
+      "desc": "Forma una barrera de agua que absorbe ataques físicos.",
+      "name_en": "Ocean Barrier",
+      "visual_prompt": "calm ocean waves forming a translucent wall, deep ocean blue and teal water ripples, pearly white mist, sapphire blue energy glow, pale aquamarine light reflections, gentle sunlight filtering through"
     },
     {
-      "name": "Salpicadura Dragón",
-      "desc": "Dispara salpicaduras que curan al Pokémon y debilitan al enemigo con fuerza acuática.",
-      "name_en": "Dragon Splash",
-      "visual_prompt": "glowing aquamarine water droplets, shimmering teal green bubbles, deep ocean blue currents, pearly white bioluminescent plankton, gentle swirling motion, translucent water ripples"
+      "name": "Succión Oceánica",
+      "desc": "Atrae al rival hacia el usuario con una fuerza de succión marina.",
+      "name_en": "Ocean Suction",
+      "visual_prompt": "gentle swirling vortex of deep ocean blue water, translucent teal waves spiraling inward, pearly white bubbles rising, sapphire blue light rays, calm ocean surface with soft blue sunlight glow"
     }
   ],
   "diffs": [
     {
-      "from": "Cuatro patas para caminar",
-      "to": "Patas adaptadas para nadar, con aletas en los dedos."
+      "from": "Cuatro patas plantadas en el suelo",
+      "to": "Patas adaptadas para deslizarse sobre rocas y arenas marinas"
     },
     {
-      "from": "Ala de dragón para volar",
-      "to": "Alas convertidas en aletas para deslizarse bajo el agua."
+      "from": "Alas de vuelo",
+      "to": "Alas transformadas en aletas transparentes que brillan bajo el agua"
+    },
+    {
+      "from": "Postura baja y arrastrada",
+      "to": "Postura más erguida y fluida en el agua"
     },
     {
       "from": "Escamas brillantes",
-      "to": "Escamas que reflejan la luz del sol en el agua, como cristal."
-    },
-    {
-      "from": "Estructura robusta",
-      "to": "Cuerpo más flexible y ligero para moverse en el agua."
+      "to": "Escamas que brillan como el agua bajo el sol"
     }
   ],
   "pokemon_id": "149",

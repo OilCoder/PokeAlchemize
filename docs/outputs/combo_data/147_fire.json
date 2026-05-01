@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Dracónica",
-  "lore": "Este Dratini ahora respira llamas al caminar. Sus escamas rojas brillan con fuego, y sus patas se transforman en llamas danzantes. Su mirada ardiente desafía a cualquier rival.",
+  "species_name": "Pokémon Llama Serpiente",
+  "lore": "Dratini se transforma en una serpiente de llamas que arde con intensidad. Su cuerpo alargado brilla con escamas rojas y naranjas, y exhala llamas que marcan el aire en espirales.",
   "moves": [
     {
       "name": "Llama Serpentina",
-      "desc": "Lanza una llamarada en forma de serpiente que quema al rival en su trayectoria.",
+      "desc": "Dispara una llamarada en espiral que quema al rival y deja un rastro de humo.",
       "name_en": "Serpent Flame",
-      "visual_prompt": "crimson red serpent-shaped fire trail, molten gold embers, amber orange glow, volcanic ash particles, charcoal black smoke swirls, dynamic motion lines, glowing ember sparks"
+      "visual_prompt": "spiral fire trail, molten gold embers, crimson red flames, swirling smoke, volcanic ash particles, amber glow, charcoal black smoke residue"
     },
     {
-      "name": "Aliento de Dragón Ardiente",
-      "desc": "Expulsa un aliento de fuego que quema y eleva el ataque del usuario.",
-      "name_en": "Blazing Dragon Breath",
-      "visual_prompt": "volcanic magma swirls, crimson fire orbs, molten gold embers, ascending fiery trail, charred black smoke tendrils, glowing ember sparks, amber-orange heat haze"
+      "name": "Fuego de Escamas",
+      "desc": "Aumenta el daño con escamas incandescentes que se desprenden al atacar.",
+      "name_en": "Scorching Scales",
+      "visual_prompt": "crimson red embers swirling in molten gold arcs, glowing amber scales dissolving into ash, volcanic crater backdrop with lava flows, ember-lit smoky sky, charcoal black smoke tendrils"
     },
     {
-      "name": "Escamas Incandescentes",
-      "desc": "Cubre su cuerpo con escamas que emiten calor, reduciendo daño físico.",
-      "name_en": "Incandescent Scales",
-      "visual_prompt": "crimson red scales glowing with molten gold edges, amber orange heat waves rising, charcoal black smoke swirls, glowing ember sparks, volcanic crater background with magma pools"
+      "name": "Respiración de Dragón",
+      "desc": "Emite un aliento de fuego intenso que quema y daña al enemigo.",
+      "name_en": "Dragon Breath",
+      "visual_prompt": "crimson red fire whirl, molten gold embers, bright orange flame tendrils, charred black smoke plumes, volcanic crater backdrop"
     },
     {
-      "name": "Furia Luminosa",
-      "desc": "Ataca con un giro rápido envuelto en llamas, causando daño crítico.",
-      "name_en": "Luminous Fury",
-      "visual_prompt": "crimson fire whirl, molten gold embers swirling, amber-orange flame trails, charcoal smoke swirls, glowing ember particles, volcanic crater backdrop"
+      "name": "Llamarada Escarlata",
+      "desc": "Lanza una llamarada de color escarlata que quema y reduce la defensa del oponente.",
+      "name_en": "Crimson Blaze",
+      "visual_prompt": "crimson fire orbs, molten gold embers, volcanic ash swirls, bright orange flame trails, charcoal black smoke tendrils, glowing lava flow patterns"
     }
   ],
   "diffs": [
     {
-      "from": "cuatro patas",
-      "to": "patas convertidas en llamas danzantes"
+      "from": "cuerpo alargado y serpenteante",
+      "to": "escamas incandescentes que brillan al moverse"
     },
     {
-      "from": "postura baja de arrastre",
-      "to": "caminar con paso firme y elevado"
+      "from": "color azul claro",
+      "to": "tonalidades rojas y naranjas intensas"
     },
     {
-      "from": "escamas verdes",
-      "to": "escamas rojas brillantes con destellos de fuego"
+      "from": "respiración fría",
+      "to": "aliento de llama que calienta el aire a su alrededor"
     },
     {
-      "from": "respiración normal",
-      "to": "respira llamas constantemente"
+      "from": "sin extremidades",
+      "to": "movimientos fluidos que imitan danzas de fuego"
     }
   ],
   "pokemon_id": "147",

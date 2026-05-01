@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Sombra",
-  "lore": "Este Oddish, transformado por el fuego, arde con llamas rojas en su cuerpo. Sus pétalos se convierten en llamas, y sus patas se cubren de escamas. Camina con un paso firme, marcando el suelo con brasas.",
+  "lore": "Este Oddish transformado emana llamas desde sus pétalos, que ahora brillan en tonos anaranjados. Sus patas, antes verdes, se cubren de escamas rojas que absorben el calor del ambiente.",
   "moves": [
     {
-      "name": "Llama Ardiente",
-      "desc": "Lanza una llamarada que quema al objetivo, incrementando el daño en combate.",
-      "name_en": "Blazing Lance",
-      "visual_prompt": "crimson fire lance, molten gold embers, amber orange flame trails, volcanic ash swirls, glowing ember particles, charcoal black smoke trails, dynamic fiery motion lines"
+      "name": "Llama Sombra",
+      "desc": "Lanza llamas que consumen la energía de los enemigos, reduciendo su defensa.",
+      "name_en": "Shadow Flame",
+      "visual_prompt": "crimson red fire orbs, molten gold embers, swirling charcoal smoke trails, bright orange lava flow patterns, ember-lit smoky sky backdrop"
     },
     {
-      "name": "Ceniza Sutil",
-      "desc": "Genera una nube de ceniza que reduce la defensa del enemigo.",
-      "name_en": "Subtle Ash",
-      "visual_prompt": "volcanic ash cloud, swirling crimson embers, molten gold particles, charcoal black smoke tendrils, glowing ember trails, dynamic smoke dispersal, ash particles settling on magma pools"
+      "name": "Fuego de Esencia",
+      "desc": "Aumenta el poder de los ataques fuego a costa de su propia energía.",
+      "name_en": "Essence Blaze",
+      "visual_prompt": "crimson fire orbs swirling in molten gold patterns, bright orange embers rising from charcoal black ash, glowing lava flow textures, ember-lit smoky sky backdrop, stylized 2D VFX, Ken Sugimori aesthetic"
     },
     {
-      "name": "Fuego de Raíz",
-      "desc": "Aumenta la velocidad de movimiento al tocar el suelo.",
-      "name_en": "Root Fire",
-      "visual_prompt": "crimson red embers swirling in molten gold patterns, volcanic ash particles rising, glowing ember trails, charcoal black smoke wisps, dynamic motion lines showing ground impact"
+      "name": "Ceniza Danzante",
+      "desc": "Cubre al oponente con cenizas que disminuyen su velocidad.",
+      "name_en": "Dancing Ash",
+      "visual_prompt": "volcanic ash swirls, glowing embers, molten gold particles, crimson red smoke trails, charred black ash clouds, ember-lit smoky sky background"
     },
     {
-      "name": "Resplandor de Embrujar",
-      "desc": "Crea un resplandor que confunde al enemigo, reduciendo su precisión.",
-      "name_en": "Confuse Glow",
-      "visual_prompt": "crimson red shimmering light, amber orange swirling mist, molten gold ember sparks, charcoal black smoke tendrils, glowing ember trails, distorted light waves"
+      "name": "Resplandor de Llama",
+      "desc": "Crea un aura de calor que cura leves heridas al Pokémon.",
+      "name_en": "Flame Aura",
+      "visual_prompt": "crimson red heat waves, molten gold embers swirling, amber glow pulses, charcoal black smoke wisps, volcanic crater backdrop, glowing lava flows"
     }
   ],
   "diffs": [
     {
       "from": "Pétalos verdes",
-      "to": "Pétalos convertidos en llamas rojas"
+      "to": "Pétalos anaranjados que emiten llamas"
     },
     {
-      "from": "Pies blandos",
-      "to": "Pies cubiertos de escamas resistentes al calor"
+      "from": "Patas verdes",
+      "to": "Patas con escamas rojas que absorben calor"
     },
     {
-      "from": "Postura baja",
-      "to": "Postura firme con patas marcando el suelo"
+      "from": "Aroma venenoso",
+      "to": "Aroma de humo que quema la piel"
     },
     {
-      "from": "Sabor venenoso",
-      "to": "Sabor ardiente con humo de fuego"
+      "from": "Movimientos de planta",
+      "to": "Movimientos de fuego que consumen energía"
     }
   ],
   "pokemon_id": "043",

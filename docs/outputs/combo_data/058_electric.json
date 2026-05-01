@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Llama Eléctrica",
-  "lore": "Un Growlithe eléctrico con pelaje dorado brillante y rayas azules. Sus patas emiten chispas al caminar, y sus ojos brillan con energía estática. El fuego se ha transformado en un poder eléctrico que lo hace más ágil y letal.",
+  "species_name": "Pokémon Chispa Llama",
+  "lore": "Chispa Llama camina con patas eléctricas que brillan azuladas, su pelaje se eriza con chispas. Sus ojos centellean como relámpagos, y su cola emite ondas de energía estática al moverse.",
   "moves": [
     {
-      "name": "Chispa Luminosa",
-      "desc": "Lanza una descarga de chispas brillantes que daña al rival y reduce su velocidad.",
-      "name_en": "Luminous Spark",
-      "visual_prompt": "electric blue lightning bolts, neon yellow sparks, violet energy arcs, bright white static bursts, crackling cyan energy fields, stormy sky backdrop"
+      "name": "Relámpago Caudal",
+      "desc": "Lanza un rayo desde la cola que paraliza al oponente con una descarga intensa.",
+      "name_en": "Tail Surge",
+      "visual_prompt": "vibrant electric blue lightning bolt, neon yellow energy trails, crisp white static sparks, bright electric white aura, pale blue glow effects, urban cityscape neon signs flickering in background, electric storm clouds"
     },
     {
       "name": "Fuego Estático",
-      "desc": "Cubre al usuario con una capa de electricidad que incrementa su ataque.",
+      "desc": "Genera chispas que inflaman el aire, causando daño eléctrico y quemaduras simultáneas.",
       "name_en": "Static Flame",
-      "visual_prompt": "electric blue energy aura, neon yellow sparks, violet lightning bolts, bright white crackling energy, electric cyan glowing particles, stormy sky background with neon-lit thunderclouds"
+      "visual_prompt": "electric blue sparks, neon yellow flames, crisp white energy bursts, bright electric white trails, pale blue glow effects, urban cityscape backdrop with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Rayo de Llama",
-      "desc": "Ataca con un rayo de energía eléctrica que quema al oponente.",
-      "name_en": "Flame Bolt",
-      "visual_prompt": "crackling electric blue bolts, neon yellow energy trails, violet sparks, bright white lightning arcs, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Zarpa Electrificada",
+      "desc": "Ataca con garras cargadas que provocan parálisis y daño adicional.",
+      "name_en": "Electrified Claw",
+      "visual_prompt": "vibrant electric blue claws, neon yellow sparks, crisp white energy trails, bright electric white shockwaves, pale blue glow emanating from claw tips, urban cityscape background with flickering neon signs, electric storm clouds"
     },
     {
-      "name": "Relámpago de Pelaje",
-      "desc": "Genera un campo eléctrico alrededor del cuerpo que confunde al enemigo.",
-      "name_en": "Fur Lightning",
-      "visual_prompt": "crackling electric blue energy field, neon yellow lightning bolts, violet spark particles, bright white static arcs, electric cyan storm clouds"
+      "name": "Bola de Chispas",
+      "desc": "Dispara bolas de energía eléctrica que explotan en impacto, afectando múltiples objetivos.",
+      "name_en": "Spark Ball",
+      "visual_prompt": "electric blue orbs exploding into neon yellow sparks, crisp white energy trails, bright electric white shockwaves, pale blue glow pulses, urban city skyline background with flickering neon signs"
     }
   ],
   "diffs": [
     {
-      "from": "Pelaje rojo y dorado",
-      "to": "Pelaje dorado brillante con rayas azules."
+      "from": "pelaje rojo brillante",
+      "to": "pelaje azul eléctrico con destellos anaranjados"
     },
     {
-      "from": "Ataque de fuego",
-      "to": "Ataque eléctrico que emite chispas de sus patas."
+      "from": "respiración de llamas",
+      "to": "respiración de chispas estáticas que zumban"
     },
     {
-      "from": "Postura baja y estable",
-      "to": "Postura más ágil y dinámica para moverse rápido."
+      "from": "postura baja y firme",
+      "to": "postura elevada con patas cargadas de energía"
     },
     {
-      "from": "Resistencia al calor",
-      "to": "Resistencia a la electricidad, absorbiendo energía de los rayos."
+      "from": "cola larga y flexible",
+      "to": "cola en forma de rayo que emite ondas de choque"
     }
   ],
   "pokemon_id": "058",

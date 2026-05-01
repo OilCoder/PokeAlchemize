@@ -1,33 +1,34 @@
 {
   "identity_traits": [
-    "rounded head with pointed ears",
-    "short stubby legs",
-    "compact rounded silhouette",
-    "pale cream underbelly",
-    "flame on tail tip (core feature)"
+    "rounded quadrupedal body shape",
+    "flame on tail tip (original type marker)",
+    "white underbelly",
+    "white arm and leg pads",
+    "small head with pointed ears",
+    "dark orange body coloration"
   ],
   "original_type_traits": [
-    "flame on tail tip (fire type marker)",
-    "reddish-orange body color (fire type palette)",
-    "glowing ember-like tail tip (fire type energy)"
+    "flame on tail tip",
+    "light orange body color",
+    "dark orange body accents"
   ],
   "transformable_parts": [
-    "tail tip",
+    "tail flame",
     "body coloration",
-    "ear shape",
-    "underbelly texture",
-    "head shape",
-    "flame energy effect"
+    "arm and leg pad color",
+    "underbelly color",
+    "head shape details",
+    "ear shape"
   ],
   "suppress_colors": [
-    "reddish-orange",
-    "glowing ember orange",
-    "fiery orange-yellow"
+    "light orange",
+    "dark orange",
+    "flame orange"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low crawling stance",
-    "pale cream underbelly with smooth skin texture",
-    "flame on tail tip (core feature)"
+    "quadruped, four legs on ground",
+    "pointed tail with bulbous tip",
+    "white arm and leg pads with rounded edges"
   ],
   "pokemon_id": "004",
   "pokemon_name": "charmander",
@@ -35,25 +36,27 @@
     "fire"
   ],
   "visual_facts": {
-    "colors": {
-      "body": "bright orange",
-      "head": "bright orange",
-      "limbs": "pale cream",
-      "tail tip": "bright orange"
-    },
-    "body_parts": {
-      "rounded head": "yes",
-      "short stubby legs": "yes",
-      "pointed ears": "yes",
-      "flame on tail tip": "yes"
-    },
-    "silhouette": "rounded and compact",
-    "type_markers": {
-      "flame on tail tip": "yes"
-    },
-    "distinctive_features": {
-      "flame on tail tip": "yes",
-      "pale cream underbelly": "yes"
-    }
+    "body_colors": [
+      "light orange",
+      "white",
+      "dark orange"
+    ],
+    "body_parts": [
+      "head",
+      "body",
+      "arms",
+      "legs",
+      "flame"
+    ],
+    "body_plan": "quadruped",
+    "silhouette": "The creature has a rounded, quadrupedal body with a flame on its tail, suggesting it is a fire-type Pokémon.",
+    "type_markers": [
+      "flame on tail tip"
+    ],
+    "distinctive_features": [
+      "flame on tail",
+      "white underbelly",
+      "white arm and leg pads"
+    ]
   }
 }

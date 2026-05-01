@@ -1,0 +1,28 @@
+{
+  "body_colors": [
+    "golden yellow",
+    "brown",
+    "white"
+  ],
+  "body_parts": [
+    "spiky brown mane",
+    "golden yellow body",
+    "white claws",
+    "white underbelly",
+    "two legs with white claws",
+    "two arms with white claws",
+    "two large white tusks",
+    "two black eyes"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a robust, quadrupedal body with a mane of spiky brown fur, large white tusks, and white claws on both arms and legs.",
+  "type_markers": [
+    "spiky mane",
+    "white tusks"
+  ],
+  "distinctive_features": [
+    "spiky brown mane",
+    "large white tusks",
+    "white claws"
+  ]
+}

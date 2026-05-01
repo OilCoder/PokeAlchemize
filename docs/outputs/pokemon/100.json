@@ -1,32 +1,33 @@
 {
   "identity_traits": [
-    "rounded head shape",
-    "short stubby legs",
-    "pointed ears",
-    "curled tail tip",
-    "compact round body silhouette",
-    "light gray body color"
+    "spherical body shape",
+    "rounded head with small eyes",
+    "short stubby tail",
+    "smooth, seamless body texture without joints",
+    "uniform pink and white coloration"
   ],
   "original_type_traits": [
-    "none visible (no electric features like sparks or glowing elements in sprite)"
+    "none visible (no electric features like sparks or lightning patterns)",
+    "no visible conductive elements or circuitry",
+    "no glowing or energetic effects"
   ],
   "transformable_parts": [
-    "tail",
-    "ears",
-    "body texture",
-    "head shape (slight elongation)",
-    "leg structure",
-    "color scheme"
+    "tail shape and length",
+    "head contour and eye placement",
+    "body texture and surface detail",
+    "coloration patterns (pink/white)",
+    "overall body proportions (spherical vs. other shapes)",
+    "eye shape and size"
   ],
   "suppress_colors": [
-    "light gray",
     "pink",
-    "any electric yellow or blue accents"
+    "white",
+    "any gradient from pink to white"
   ],
   "anchor_phrases": [
-    "quadruped, four legs planted on ground, low stance",
-    "pointed ears, slightly curved inward",
-    "curled tail tip, small and tight spiral"
+    "amorphous blob body, no distinct limbs",
+    "rounded head with small circular eyes",
+    "short stubby tail with blunt tip"
   ],
   "pokemon_id": "100",
   "pokemon_name": "voltorb",
@@ -35,23 +36,23 @@
   ],
   "visual_facts": {
     "body_colors": [
-      "light gray",
-      "pink"
+      "pink",
+      "white"
     ],
     "body_parts": [
-      "rounded head",
-      "short stubby legs",
-      "pointed ears",
-      "curled tail tip"
+      "head",
+      "body",
+      "tail"
     ],
-    "silhouette": "The Pokémon has a round, compact body with a slightly elongated head and short, stubby legs.",
+    "body_plan": "blob",
+    "silhouette": "The silhouette is a spherical shape with a small, rounded head and a short, stubby tail.",
     "type_markers": [
       "none visible"
     ],
     "distinctive_features": [
       "rounded head",
-      "pointed ears",
-      "curled tail tip"
+      "small eyes",
+      "short tail"
     ]
   }
 }

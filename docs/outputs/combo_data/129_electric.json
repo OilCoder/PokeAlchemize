@@ -1,48 +1,48 @@
 {
-  "species_name": "Pokémon Chispazón Acuático",
-  "lore": "Este Magikarp eléctrico reluce con chispas azules en su piel, sus escamas brillan como cables. Su postura baja se transforma en una actitud alerta, listo para descargarse en cualquier momento.",
+  "species_name": "Pokémon Chispa Marítima",
+  "lore": "Chispa Marítima, con escamas plateadas que brillan bajo el sol, emite chispas eléctricas desde sus aletas. Su cuerpo acuático se adapta a los campos eléctricos, generando corrientes en el agua.",
   "moves": [
     {
-      "name": "Chispa Estática",
-      "desc": "Lanza una descarga eléctrica que paraliza al oponente por un turno.",
-      "name_en": "Static Spark",
-      "visual_prompt": "crackling electric blue orbs, neon yellow lightning bolts, violet spark particles, bright white energy pulses, stormy sky backdrop with crackling energy fields"
+      "name": "Chispa Acuática",
+      "desc": "Genera una corriente eléctrica en el agua, debilitando a los enemigos en contacto.",
+      "name_en": "Water Spark",
+      "visual_prompt": "vibrant electric blue water currents, neon yellow lightning arcs, crisp white energy ripples, bright electric white sparkles, pale blue glow effects, urban cityscape neon reflections, electric storm cloud patterns"
     },
     {
-      "name": "Torrente Relampagueante",
-      "desc": "Aumenta el poder de los ataques de agua y electricidad en un 20%.",
-      "name_en": "Thunder Torrent",
-      "visual_prompt": "electric blue water droplets, neon yellow lightning bolts, violet spark particles, bright white energy arcs, crackling storm clouds, dynamic motion lines, neon-lit rain streaks, electric cyan glow"
+      "name": "Relámpago Salino",
+      "desc": "Lanza relámpagos cargados con sal marina, aumentando el daño eléctrico.",
+      "name_en": "Salt Lightning",
+      "visual_prompt": "vibrant electric blue lightning bolts, neon yellow salt crystals floating mid-air, crisp white energy trails, bright electric white sparks, pale blue glow radiating outward, urban cityscape background with neon signs flickering"
     },
     {
-      "name": "Burbuja Conductora",
-      "desc": "Crea burbujas que reflejan ataques eléctricos hacia el oponente.",
-      "name_en": "Conductive Bubble",
-      "visual_prompt": "electric blue bubbles with neon yellow reflections, violet sparks crackling inside, bright white energy trails, electric cyan ripples in stormy sky background"
+      "name": "Electrooleo",
+      "desc": "Crea un campo eléctrico alrededor del Pokémon, protegiéndolo de ataques eléctricos.",
+      "name_en": "Electric Shield",
+      "visual_prompt": "vibrant electric blue energy field, neon yellow lightning arcs, crisp white static sparks, bright electric white aura, pale blue glow pulses, urban cityscape neon signs flickering in background, electric storm clouds forming above"
     },
     {
-      "name": "Salto de Carga",
-      "desc": "Salta hacia el enemigo, causando daño y cargando energía eléctrica.",
-      "name_en": "Charge Leap",
-      "visual_prompt": "electric blue arcs, neon yellow energy orbs, violet sparks, bright white lightning bolts, crackling energy fields, stormy sky backdrop, neon-lit thunderclouds"
+      "name": "Descarga Marina",
+      "desc": "Ataca con una descarga intensa que recorre el agua, dañando a todos los enemigos cercanos.",
+      "name_en": "Marine Surge",
+      "visual_prompt": "electric blue water currents, neon yellow lightning bolts, crisp white energy arcs, bright electric white sparks, pale blue glow ripples, urban city skyline silhouette in background"
     }
   ],
   "diffs": [
     {
-      "from": "Piel lisa y sin brillo",
-      "to": "Piel cubierta de escamas brillantes y chispeantes"
+      "from": "cuerpo de pez",
+      "to": "escamas plateadas que brillan con chispas eléctricas"
     },
     {
-      "from": "Postura baja y pasiva",
-      "to": "Postura alerta y lista para atacar"
+      "from": "aletas solo",
+      "to": "aletas que generan corrientes eléctricas en el agua"
     },
     {
-      "from": "Ataques débiles de agua",
-      "to": "Ataques eléctricos potentes y precisos"
+      "from": "sin patas",
+      "to": "cuerpo adaptado para generar campos eléctricos en el agua"
     },
     {
-      "from": "Baja velocidad",
-      "to": "Movimiento rápido gracias a la electricidad."
+      "from": "nada especial",
+      "to": "puede generar corrientes eléctricas para moverse más rápido"
     }
   ],
   "pokemon_id": "129",

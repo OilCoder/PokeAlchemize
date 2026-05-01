@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Acero Llama",
-  "lore": "Arcanine transformado en acero brilla con escamas metálicas que absorben el calor. Su postura baja se vuelve más estable, con patas como soportes de acero. El fuego se transforma en energía cinética.",
+  "lore": "Arcanine acero luce un pelaje de escamas metálicas que brillan bajo el sol. Sus patas son de acero templado, permitiéndole caminar sin dejar huella. Su aliento de fuego se convierte en chispas eléctricas que cortan el aire.",
   "moves": [
     {
-      "name": "Cascada de Acero",
-      "desc": "Genera una ola de acero que golpea al enemigo, reduciendo su defensa.",
-      "name_en": "Steel Cascade",
-      "visual_prompt": "shimmering steel wave, polished silver ripples, metallic steam vents, glowing neon cyan accents, industrial cityscape backdrop, electric blue energy trails, gunmetal gray texture"
+      "name": "Relámpago de Acero",
+      "desc": "Lanza un rayo de energía acerada que corta la resistencia del oponente.",
+      "name_en": "Steel Bolt",
+      "visual_prompt": "shimmering gunmetal gray energy bolt, jagged polished chrome edges, deep steel blue energy trails, industrial workshop metal surfaces glowing with energy lines, matte black background with metallic reflections"
     },
     {
-      "name": "Ráfaga de Fuego Sólido",
-      "desc": "Lanza una ráfaga de llama sólida que quema y frena al oponente.",
-      "name_en": "Solid Fire Gust",
-      "visual_prompt": "solidified flame orbs, jagged steel blades, glowing gunmetal gray trails, neon cyan embers, metallic steam vents, industrial city skyline silhouette"
+      "name": "Cascada Metálica",
+      "desc": "Crea una ola de metal líquido que envuelve al rival y lo inmoviliza.",
+      "name_en": "Liquid Metal Wave",
+      "visual_prompt": "liquid metal wave, gunmetal gray and silver flowing currents, polished chrome ripples, deep steel blue energy lines, matte black surface reflections, industrial workshop background glow"
     },
     {
-      "name": "Impacto de Masa",
-      "desc": "Ataca con un golpe masivo que causa daño físico y estun.",
-      "name_en": "Mass Impact",
-      "visual_prompt": "metallic steel blue shockwave, polished silver debris fragments, gunmetal gray energy pulses, neon cyan sparks, industrial cityscape backdrop with glowing vents, metallic steam trails"
+      "name": "Escudo de Fuego",
+      "desc": "Genera un escudo de llama acerada que absorbe ataques físicos.",
+      "name_en": "Fire Shield",
+      "visual_prompt": "glowing steel shield, razor-edged flames, polished chrome reflections, industrial workshop background with energy lines, matte black and steel blue accents"
     },
     {
-      "name": "Resonancia Metálica",
-      "desc": "Crea ondas de sonido metálico que debilitan la defensa del enemigo.",
-      "name_en": "Metal Resonance",
-      "visual_prompt": "gunmetal gray sound waves, polished silver ripples, metallic steel blue energy rings, electric blue vibrations, neon cyan harmonics, industrial city skyline glow, metallic steam vents"
+      "name": "Fuerza de Martillo",
+      "desc": "Ataca con un golpe de martillo de acero que rompe defensas.",
+      "name_en": "Hammer Force",
+      "visual_prompt": "steel hammer impact, shattered metal shards, glowing gunmetal energy trails, polished chrome sparks, matte black energy waves, deep steel blue aura, industrial workshop background glow"
     }
   ],
   "diffs": [
     {
       "from": "Pelaje de fuego",
-      "to": "Escamas metálicas que absorben el calor"
+      "to": "Escamas metálicas resplandecientes"
     },
     {
-      "from": "Postura alta",
-      "to": "Postura baja y estable con patas de acero"
+      "from": "Patas suaves",
+      "to": "Patas de acero templado"
     },
     {
-      "from": "Fuego ardiente",
-      "to": "Energía cinética acumulada"
+      "from": "Aliento de llama",
+      "to": "Chispas eléctricas cortantes"
     },
     {
-      "from": "Velocidad",
-      "to": "Fuerza bruta y resistencia"
+      "from": "Movimientos de fuego",
+      "to": "Ataques de acero con chispas eléctricas"
     }
   ],
   "pokemon_id": "059",

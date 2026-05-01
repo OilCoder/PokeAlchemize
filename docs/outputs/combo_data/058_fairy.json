@@ -1,48 +1,48 @@
 {
   "species_name": "Pokémon Llama Dulce",
-  "lore": "Con pelaje plateado brillante y ojos de cristal, este Growlithe transformado emana dulzura mágica. Sus patas relucen con brillos de hada, y su cola es una nube de confeti mágico que despierta alegría en todos los que la ven.",
+  "lore": "Con pelaje suave como algodón de azúcar, su cola brillante despliega destellos de luz de luna. Sus patas, antes ardientes, ahora caminan con delicadeza sobre el césped. Sus ojos brillan con magia de hada, envolviendo a sus enemigos en dulces sueños.",
   "moves": [
     {
-      "name": "Candela de Sueños",
-      "desc": "Crea una llama suave que envuelve al oponente en un sueño tranquilo, reduciendo su velocidad.",
-      "name_en": "Dream Flame",
-      "visual_prompt": "soft pastel pink flame, swirling lavender mist, glowing ivory white petals, crystalline mint starlight particles, delicate pearl lavender aura, moonlit garden background, gentle glowing motion"
+      "name": "Pétalo de Sueño",
+      "desc": "Lanza pétalos que envuelven al enemigo en un sueño dulce, reduciendo su velocidad.",
+      "name_en": "Dream Petal",
+      "visual_prompt": "floating pastel pink petals, soft ivory white glow, delicate lavender mist, pearly gold sparkles, shimmering silver trails, moonlit meadow backdrop, gentle swirling motion"
     },
     {
-      "name": "Risa de Hada",
-      "desc": "Ataca con risas mágicas que confunden al rival y aumentan la precisión del atacante.",
-      "name_en": "Fairy Laugh",
-      "visual_prompt": "glowing pastel pink laughter bubbles, floating crystalline mint star fragments, ivory white mist swirling with pearl lavender sparkles, soft starlight blue energy trails, delicate fairy-wing patterns in the mist"
+      "name": "Brillo de Luna",
+      "desc": "Emite un brillo suave que restaura la salud de aliados cercanos.",
+      "name_en": "Moonbeam Glow",
+      "visual_prompt": "soft pastel pink moonlight, glowing ivory white petals floating, delicate lavender mist, pearly gold sparkles, shimmering silver light trails, gentle radiating waves, ethereal fairy lights, misty flower field backdrop"
     },
     {
-      "name": "Pétalos de Amor",
-      "desc": "Lanza pétalos brillantes que curan la salud y aumentan el ataque del aliado.",
-      "name_en": "Love Petals",
-      "visual_prompt": "glowing pastel pink petals swirling in a gentle breeze, delicate ivory white starlight trails, pearl lavender mist floating upward, crystalline mint energy pulses, soft twilight sky backdrop, ethereal sparkle effects"
+      "name": "Canto de Hada",
+      "desc": "Canta una melodía que reduce la defensa del enemigo.",
+      "name_en": "Fairy Song",
+      "visual_prompt": "glowing pastel pink notes floating in a moonlit meadow, delicate lavender petals swirling, shimmering silver mist, ivory white fairy lights, pearly gold musical notes"
     },
     {
-      "name": "Brillo de Confeti",
-      "desc": "Genera una lluvia de confeti que ciega al enemigo y reduce su defensa.",
-      "name_en": "Confetti Flash",
-      "visual_prompt": "glowing pastel confetti rain, soft pink and lavender particles, crystal mint sparkles, starlight blue shimmer, blurred enemy silhouette from light, misty twilight atmosphere"
+      "name": "Dulce Aroma",
+      "desc": "Genera un aroma dulce que confunde al enemigo, causando confusión.",
+      "name_en": "Sweet Scent",
+      "visual_prompt": "floating pastel pink petals, swirling lavender mist, shimmering silver fairy lights, delicate ivory white orbs, soft glowing aura, ethereal misty meadow backdrop"
     }
   ],
   "diffs": [
     {
-      "from": "Pelaje rojo intenso",
-      "to": "Pelaje plateado brillante con destellos de hada"
+      "from": "pelaje ardiente",
+      "to": "pelaje suave como algodón de azúcar"
     },
     {
-      "from": "Cola de fuego",
-      "to": "Cola en forma de nube de confeti mágico"
+      "from": "patas fuertes para correr",
+      "to": "patas delicadas para caminar con suavidad"
     },
     {
-      "from": "Ojos amarillos brillantes",
-      "to": "Ojos de cristal que reflejan magia"
+      "from": "ojos brillantes de fuego",
+      "to": "ojos brillantes con magia de hada"
     },
     {
-      "from": "Postura agresiva",
-      "to": "Postura relajada y alegre con pasos suaves"
+      "from": "ataque con llamas",
+      "to": "ataque con destellos de luz de luna"
     }
   ],
   "pokemon_id": "058",

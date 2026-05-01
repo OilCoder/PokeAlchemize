@@ -1,0 +1,29 @@
+{
+  "body_colors": [
+    "bright blue",
+    "pale cream",
+    "white"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "eyes",
+    "mouth",
+    "chest",
+    "arms",
+    "hands",
+    "legs",
+    "feet",
+    "spikes"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The Pokémon has a robust, quadrupedal body with a muscular build, featuring four legs and a broad chest.",
+  "type_markers": [
+    "spikes on arms and legs",
+    "pale cream chest and belly"
+  ],
+  "distinctive_features": [
+    "spiky arms and legs",
+    "pale cream chest and belly"
+  ]
+}

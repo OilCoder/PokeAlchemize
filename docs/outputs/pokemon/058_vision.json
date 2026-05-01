@@ -1,0 +1,25 @@
+{
+  "body_colors": [
+    "bright orange",
+    "dark brown",
+    "pale cream"
+  ],
+  "body_parts": [
+    "head",
+    "ears",
+    "face",
+    "body",
+    "tail",
+    "limbs",
+    "spikes"
+  ],
+  "body_plan": "quadruped",
+  "silhouette": "The creature has a fox-like body with four legs, a bushy tail, and a spiky mane.",
+  "type_markers": [
+    "spiky mane"
+  ],
+  "distinctive_features": [
+    "spiky mane",
+    "tail with spikes"
+  ]
+}
