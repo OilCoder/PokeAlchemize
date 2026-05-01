@@ -1,22 +1,26 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <title>PokéAIchemize · TypeDex</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/about.css?v=4">
 </head>
+
 <body>
   <div class="app">
     <!-- Logo -->
     <div class="logo-area">
       <div class="logo-ball"></div>
       <div>
-        <div class="logo-text">POKE<span class="dot">·</span>AI</div>
+        <div class="logo-text">PokéAlchemize</div>
         <div class="logo-sub">TYPEDEX</div>
       </div>
     </div>
@@ -25,19 +29,23 @@
     <header class="header">
       <nav class="nav">
         <a href="#" class="active" data-view="pokedex">POKÉDEX</a>
-        <a href="#" data-view="gallery">GALERÍA</a>
-        <a href="#" data-view="types">TIPOS</a>
         <a href="#" data-view="about">ACERCA DE</a>
       </nav>
       <div class="header-right">
         <div class="search">
           <input id="search-input" type="text" placeholder="Buscar Pokémon o Nº…" />
           <span class="search-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
           </span>
         </div>
         <button id="theme-btn" class="theme-btn" title="Tema">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
         </button>
       </div>
     </header>
@@ -47,25 +55,32 @@
       <div class="filter-wrap">
         <button id="filter-btn" class="filter-btn">
           <span class="filter-label">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round">
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
+            </svg>
             <span id="filter-label-text">TIPO: TODOS</span>
           </span>
-          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
         </button>
         <div id="filter-dropdown" class="filter-dropdown"></div>
       </div>
       <div id="poke-list" class="poke-list"></div>
       <button class="footer-btn" title="Ver favoritos">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linejoin="round">
+          <polygon
+            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+        </svg>
         FAVORITOS
       </button>
     </aside>
 
     <!-- Main content -->
     <main id="main" class="main"></main>
-
-    <!-- Right panel -->
-    <aside id="rightbar" class="rightbar"></aside>
 
     <!-- Secondary views -->
     <section id="about-view" class="about-view"></section>
@@ -76,4 +91,5 @@
   <script src="js/about.js?v=2"></script>
   <script src="js/app.js?v=2"></script>
 </body>
+
 </html>

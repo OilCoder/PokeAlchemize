@@ -154,14 +154,12 @@
      ═══════════════════════════════════════════════════════ */
   async function renderDetail() {
     const main = $("#main");
-    const right = $("#rightbar");
     const id = state.selected;
     const meta = state.bundle.pokemonMeta[id];
     const base = state.bundle.allPokemon[id];
 
     if (!base) {
       main.innerHTML = `<div class="empty-center">Selecciona un Pokémon.</div>`;
-      right.innerHTML = "";
       return;
     }
 
@@ -209,70 +207,90 @@
     const moves = buildMoves(meta, t);
 
     main.innerHTML = `
-      <div class="detail-head">
-        <div>
-          <div class="pokedex-id">Nº ${id}</div>
-          <div class="pokedex-name">
-            ${name}
-            <span class="type-chip big" style="background:${tInfo.color}">${typeIcon(t, 13)}${tInfo.es.toUpperCase()}
-            </span>
-          </div>
-          <div class="pokedex-species">${escapeHtml(speciesLabel)}${meta.base ? " · " : ""}${meta.original_types.map(o => TYPE_SYSTEM[o]?.es || o).join(" / ")} <span style="color:var(--ink-4)">→</span> <span style="color:${tInfo.color};font-weight:600">${tInfo.es}</span></div>
-        </div>
-        <button class="star-btn ${isFav ? "active" : ""}" id="fav-btn" title="Marcar como favorito">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="${isFav ? "currentColor" : "none"}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </button>
-      </div>
-
-      <div class="hero" style="--hero-glow:${tInfo.glow}55">
-        <img src="outputs/images/${base.name}_${t}.webp" alt="${name} ${tInfo.es}" key="${id}_${t}">
-      </div>
-
-      <div class="lore-row">
-        <div class="lore">${lore}</div>
-        <div class="stats">
-          <div class="stat-row"><div class="stat-label"><span>⇅</span>Altura</div><div class="stat-value">${height}</div></div>
-          <div class="stat-row"><div class="stat-label"><span>⚖</span>Peso</div><div class="stat-value">${weight}</div></div>
-          <div class="stat-row"><div class="stat-label"><span>◆</span>Categoría</div><div class="stat-value">${category}</div></div>
-        </div>
-      </div>
-
-      <div class="section-label">MOVIMIENTOS SIGNATURE — TIPO ${tInfo.es.toUpperCase()}</div>
-      <div class="moves">
-        ${moves.map(m => `
-          <div class="move-card" style="--hero-glow:${tInfo.glow}66">
-            <div class="move-img">
-              <img src="${m.img}" alt="${m.name}" loading="lazy"
-                   onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
-              <div class="move-img-fallback" style="display:none">${buildMoveFallback(t)}</div>
-            </div>
-            <div class="move-body">
-              <div class="move-name"><span style="color:${tInfo.color}">${typeIcon(t, 12)}</span>${m.name}</div>
-              <div class="move-desc">${m.desc}</div>
-            </div>
-          </div>
-        `).join("")}
-      </div>
-
-      <div class="section-label">OTRAS VERSIONES DE TIPO</div>
-      <div class="other-versions">
-        <button class="scroll-btn left" id="scroll-left">‹</button>
-        <div class="other-versions-track" id="other-track">
-          ${availableTypes.map(ot => {
-            const oi = TYPE_SYSTEM[ot];
-            const isActive = ot === t;
-            return `
-              <div class="other-card ${isActive ? "active" : ""}" data-type="${ot}" style="--card-glow:${oi.glow}66">
-                <div class="other-card-img">
-                  <img src="outputs/images/${base.name}_${ot}.webp" alt="${ot}" loading="lazy">
-                </div>
-                <span class="type-chip" style="background:${oi.color}">${typeIcon(ot, 11)}${oi.es}</span>
+      <div class="main-top-split">
+        <div class="main-left">
+          <div class="detail-head">
+            <div>
+              <div class="pokedex-id">Nº ${id}</div>
+              <div class="pokedex-name">
+                ${name}
+                <span class="type-chip big" style="background:${tInfo.color}">${typeIcon(t, 13)}${tInfo.es.toUpperCase()}
+                </span>
               </div>
-            `;
-          }).join("")}
+              <div class="pokedex-species">${escapeHtml(speciesLabel)}${meta.base ? " · " : ""}${meta.original_types.map(o => TYPE_SYSTEM[o]?.es || o).join(" / ")} <span style="color:var(--ink-4)">→</span> <span style="color:${tInfo.color};font-weight:600">${tInfo.es}</span></div>
+            </div>
+            <button class="star-btn ${isFav ? "active" : ""}" id="fav-btn" title="Marcar como favorito">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="${isFav ? "currentColor" : "none"}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+          </div>
+
+          <div class="hero" style="--hero-glow:${tInfo.glow}55">
+            <img src="outputs/images/${base.name}_${t}.webp" alt="${name} ${tInfo.es}" key="${id}_${t}">
+          </div>
         </div>
-        <button class="scroll-btn right" id="scroll-right">›</button>
+
+        <div class="main-right">
+          <div class="section-label">OTRAS VERSIONES DE TIPO</div>
+          <div class="other-versions-grid">
+            ${Object.keys(TYPE_SYSTEM).sort((a, b) => {
+              const aAvail = availableTypes.includes(a);
+              const bAvail = availableTypes.includes(b);
+              if (aAvail && !bAvail) return -1;
+              if (!aAvail && bAvail) return 1;
+              return 0;
+            }).map(ot => {
+              const oi = TYPE_SYSTEM[ot];
+              const isAvailable = availableTypes.includes(ot);
+              const isActive = ot === t;
+              
+              if (isAvailable) {
+                return `
+                  <div class="other-card ${isActive ? "active" : ""}" data-type="${ot}" style="--card-glow:${oi.glow}66">
+                    <div class="other-card-img">
+                      <img src="outputs/images/${base.name}_${ot}.webp" alt="${ot}" loading="lazy">
+                    </div>
+                    <span class="type-chip" style="background:${oi.color}">${typeIcon(ot, 11)}${oi.es}</span>
+                  </div>
+                `;
+              } else {
+                return `
+                  <div class="other-card locked" style="--card-glow:transparent; cursor: default; opacity: 0.5;" title="Próximamente">
+                    <div class="other-card-img" style="background: var(--panel-2);">
+                      <div style="font-size: 24px; color: var(--ink-4); opacity: 0.4;">⧗</div>
+                    </div>
+                    <span class="type-chip" style="background:var(--panel-3); color: var(--ink-3);">${typeIcon(ot, 11)}${oi.es}</span>
+                  </div>
+                `;
+              }
+            }).join("")}
+          </div>
+        </div>
       </div>
+
+      <div class="middle-section">
+        <div class="lore-row">
+          <div class="lore">${lore}</div>
+          <div class="stats">
+            <div class="stat-row"><div class="stat-label"><span>⇅</span>Altura</div><div class="stat-value">${height}</div></div>
+            <div class="stat-row"><div class="stat-label"><span>⚖</span>Peso</div><div class="stat-value">${weight}</div></div>
+            <div class="stat-row"><div class="stat-label"><span>◆</span>Categoría</div><div class="stat-value">${category}</div></div>
+          </div>
+        </div>
+
+        <div class="section-label">MOVIMIENTOS SIGNATURE — TIPO ${tInfo.es.toUpperCase()}</div>
+        <div class="moves">
+          ${moves.map(m => `
+            <div class="move-card" style="--hero-glow:${tInfo.glow}66">
+              <div class="move-body">
+                <div class="move-name"><span style="color:${tInfo.color}">${typeIcon(t, 12)}</span>${m.name}</div>
+                <div class="move-desc">${m.desc}</div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+
+      <div id="bottom-panel" class="bottom-panel"></div>
     `;
 
     // Wire interactions
@@ -288,23 +306,20 @@
     };
     $$(".other-card").forEach(card => {
       card.onclick = () => {
+        if (card.classList.contains("locked")) return;
         state.activeType = card.dataset.type;
         persist();
         renderSidebar();
         renderDetail();
       };
     });
-    const track = $("#other-track");
-    $("#scroll-left").onclick = () => track.scrollBy({ left: -280, behavior: "smooth" });
-    $("#scroll-right").onclick = () => track.scrollBy({ left: 280, behavior: "smooth" });
 
-    renderRightbar(meta, t);
+    renderBottomPanel(meta, t);
   }
 
   /* ── Locked (no transformations yet) ─────────────────── */
   function renderLockedDetail(base) {
     const main = $("#main");
-    const right = $("#rightbar");
     const origTypes = base.types.map(o => {
       const info = TYPE_SYSTEM[o] || {color:"#888",es:o,icon:"●"};
       return `<span class="type-chip big" style="background:${info.color}">${typeIcon(o, 13)}${info.es.toUpperCase()}</span>`;
@@ -332,8 +347,9 @@
           <div class="stat-row"><div class="stat-label">Variantes</div><div class="stat-value" style="color:var(--ink-3)">0 / 18</div></div>
         </div>
       </div>
+      <div id="bottom-panel" class="bottom-panel"></div>
     `;
-    right.innerHTML = `
+    $("#bottom-panel").innerHTML = `
       <div class="concept-card">
         <div class="sub-label">ESPECIMEN ORIGINAL</div>
         <div class="concept-title">${base.name.toUpperCase()}</div>
@@ -348,26 +364,26 @@
   function renderLockedRightbar() {/* noop */}
 
   /* ═══════════════════════════════════════════════════════
-     RIGHT PANEL
+     BOTTOM PANEL
      ═══════════════════════════════════════════════════════ */
-  function renderRightbar(meta, activeType) {
-    const right = $("#rightbar");
+  function renderBottomPanel(meta, activeType) {
+    const bottom = $("#bottom-panel");
     const tInfo = TYPE_SYSTEM[activeType];
     const tab = state.rightbarTab;
 
-    right.innerHTML = `
-      <div class="rightbar-tabs">
-        <div class="rightbar-tab ${tab === "concept" ? "active" : ""}" data-tab="concept">CONCEPTO</div>
-        <div class="rightbar-tab ${tab === "prompt" ? "active" : ""}" data-tab="prompt">PROMPT</div>
+    bottom.innerHTML = `
+      <div class="bottom-tabs">
+        <div class="bottom-tab ${tab === "concept" ? "active" : ""}" data-tab="concept">CONCEPTO</div>
+        <div class="bottom-tab ${tab === "prompt" ? "active" : ""}" data-tab="prompt">PROMPT</div>
       </div>
-      <div id="rightbar-body"></div>
+      <div id="bottom-body"></div>
     `;
 
     // Wire tab switching
-    $$(".rightbar-tab", right).forEach(el => {
+    $$(".bottom-tab", bottom).forEach(el => {
       el.onclick = () => {
         state.rightbarTab = el.dataset.tab;
-        renderRightbar(meta, activeType);
+        renderBottomPanel(meta, activeType);
       };
     });
 
@@ -379,7 +395,7 @@
   }
 
   function renderConceptTab(meta, activeType) {
-    const body = $("#rightbar-body");
+    const body = $("#bottom-body");
     const tInfo = TYPE_SYSTEM[activeType];
     const elements = TYPE_ELEMENTS[activeType] || [];
     const diffRows = buildDiffs(meta, activeType);
@@ -424,7 +440,7 @@
   }
 
   async function renderPromptTab(meta, activeType) {
-    const body = $("#rightbar-body");
+    const body = $("#bottom-body");
     const tInfo = TYPE_SYSTEM[activeType];
     const id = meta.pokemon_id;
     const cacheKey = `${id}_${activeType}`;
@@ -692,9 +708,15 @@
   // Search
   $("#search-input").addEventListener("input", () => renderSidebar());
 
-  // Theme toggle (decorative only for now — already dark)
+  // Theme toggle
   $("#theme-btn").onclick = () => {
-    document.body.classList.toggle("light-mode");
+    const isLight = document.body.classList.toggle("light-mode");
+    const btn = $("#theme-btn");
+    if (isLight) {
+      btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
+    } else {
+      btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>`;
+    }
   };
 
   // ── Tab navigation ──────────────────────────────────
